@@ -1,0 +1,654 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>UDC Summary</title>
+    <link rel="stylesheet" href="../reset.css" type="text/css" />
+    <link rel="stylesheet" href="../udc2000.css" type="text/css" />
+	    <link rel="StyleSheet" href="dtree2.css" type="text/css" />
+	    <script type="text/javascript" src="dtree.js"></script>
+	    <script type="text/javascript" src="udcdisplay_9.js"></script>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+</head>
+
+<body >
+<div id="centercontainer" class="debugbkg">
+    <div id="titlebox" class="debugbkg">
+		<div id="rightbox">
+        	<div id="languagecount">57 languages</div>
+            <div id="languagebox">
+            <select id="selectedlang" style="vertical-align: middle;" onchange="location = this.options[this.selectedIndex].value;">
+			<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=af&pr=Y">Afrikaans (Afrikaans) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sq&pr=Y">Albanian (Shqip) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=anp&pr=Y">Angika (अंगिका) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ar&pr=Y">Arabic (العربية) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hy&pr=Y">Armenian (հայերեն) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=eu&pr=Y">Basque (Euskara) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=be&pr=Y">Belarusian (Беларуская) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bn&pr=Y">Bengali (বাংলা) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bho&pr=Y">Bhojpuri (भोजपुरी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bg&pr=Y">Bulgarian (Български) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ca&pr=Y">Catalan (Català) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=chi&pr=Y">Chinese (中文) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hr&pr=Y">Croatian (Hrvatski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=cs&pr=Y">Czech (Čeština) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=da&pr=Y">Danish (Dansk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=nl&pr=Y">Dutch (Nederlands) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=en&pr=Y">English (English) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=eo&pr=Y">Esperanto (Esperanto) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=et&pr=Y">Estonian (Eesti) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=fi&pr=Y">Finnish (Suomi) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=fr&pr=Y">French (Français) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=gl&pr=Y">Galician (Galego) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ka&pr=Y">Georgian (ქართული) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=de&pr=Y">German (Deutsch) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=el&pr=Y">Greek (Ελληνικά) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hi&pr=Y">Hindi (हिन्दी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hu&pr=Y">Hungarian (Magyar) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=id&pr=Y">Indonesian (Bahasa Ind) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ga&pr=Y">Irish (Gaeilge) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=it&pr=Y">Italian (Italiano) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ja&pr=Y">Japanese (日本語) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=kn&pr=Y">Kannada (ಕನ್ನಡ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=kk&pr=Y">Kazakh (Қазақ тілі) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=lv&pr=Y">Latvian (Latviešu) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=lt&pr=Y" selected>Lithuanian (lietuvių) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=mk&pr=Y">Macedonian (македонски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ml&pr=Y">Malayalam (മലയാളം) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=mr&pr=Y">Marathi (मराठी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=no&pr=Y">Norwegian (Norsk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pl&pr=Y">Polish (Polski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pt&pr=Y">Portuguese (Português) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pa&pr=Y">Punjabi (ਪੰਜਾਬੀ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ro&pr=Y">Romanian (Româna) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ru&pr=Y">Russian (Pусский) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sa&pr=Y">Sanskrit (Saṃskṛtam) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sr&pr=Y">Serbian (Српски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=si&pr=Y">Sinhala (සිංහල) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sk&pr=Y">Slovak (Slovenský) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sl&pr=Y">Slovenian (Slovenski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=es&pr=Y">Spanish (Español) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sv&pr=Y">Swedish (Svenska) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ta&pr=Y">Tamil (தமிழ்) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=te&pr=Y">Telugu (తెలుగు) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=tr&pr=Y">Turkish (Türkçe) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=uk&pr=Y">Ukrainian (Yкраї́нська) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=uz&pr=Y">Uzbek (oʻzbek) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=vi&pr=Y">Vietnamese (tiếng Việt) </option>
+            </select>
+            </div>
+            </div>
+        </div>
+		<div id="menubox" class="debugbkg">
+            <ul class="menu boldmenu">
+<li><a href="index.php@lang=lt">PRADŽIA</a></li>
+<li><a href="index.php@tag=--&amp;lang=lt">ŽENKLAI</a></li>
+<li><a href="index.php@tag=---&amp;lang=lt">RODIKLIAI</a></li>
+<li><a href="index.php@tag=0&amp;lang=lt">0</a></li>
+<li><a href="index.php@tag=1&amp;lang=lt">1</a></li>
+<li><a href="index.php@tag=2&amp;lang=lt">2</a></li>
+<li><a href="index.php@tag=3&amp;lang=lt">3</a></li>
+<li><a  class="vacant" href="index.php@tag=6&amp;lang=lt#">4</a></li>
+<li><a href="index.php@tag=5&amp;lang=lt">5</a></li>
+<li><a href="index.php@tag=6&amp;lang=lt">6</a></li>
+<li><a href="index.php@tag=7&amp;lang=lt">7</a></li>
+<li><a href="index.php@tag=8&amp;lang=lt">8</a></li>
+<li><a href="index.php@tag=9&amp;lang=lt">9</a></li>
+</ul>
+<input type="hidden" id="if_loading" name="if_loading" value="Kraunama"/>
+<input type="hidden" id="if_lang" name="if_lang" value="37"/>
+<ul class="rightmenu boldmenu">
+<li><a href="../translation.htm">VERTIMAI</a></li>
+<li><a href="index.php@tag=6&amp;lang=lt#" title="Under Development">KARTOGRAFIJA</a></li>
+<li><a href="../exports.htm" title="Data Exports">EKSPORTAS</a></li>
+<li><a href="index.php@tag=6&amp;lang=lt#" title="Under Development">ABĖCĖLINĖ RODYKLĖ</a></li>
+<li><a href="index.php@tag=6&amp;lang=lt#" title="Under Development">VADOVAS</a></li>
+<li><a href="../about.htm" title="About the UDC Summary">APIE</a></li>
+</ul>
+
+        </div>
+		<input type="hidden" id="leftWidth" value="420"/><input type="hidden" id="rightWidth" value="522"/>
+		<div id="classmarkbox" class="debugbkg">
+
+<div id="openclosemenu"><a href="javascript: d.openAll();">&nbsp;Išskleisti visus</a> | <a href="javascript: d.closeAll();">Suskleisti visus</a></div>
+<div id="classtree">
+<script type="text/javascript">
+<!--
+d = new dTree('d');
+d.config.hrefIsClick = true;
+d.add(0,-1,'6','<span class="nodetag">6</span>&nbsp;&nbsp;Taikomieji mokslai. Medicina. Technologija','6','','','','',false,true);
+d.add(1,0,'60','<div class="nodetag">60</div></span>&nbsp;&nbsp;Biotechnologija','60','Biotechnologija','','','',false,true);
+d.add(2,1,'601','<div class="nodetag">601</div></span>&nbsp;&nbsp;Pagrindinės sąvokos','601','Pagrindinės sąvokos','','','',false,true);
+d.add(3,1,'602','<div class="nodetag">602</div></span>&nbsp;&nbsp;Biotechnologiniai procesai ir technika','602','Biotechnologiniai procesai ir technika','','','',false,true);
+d.add(4,1,'604','<div class="nodetag">604</div></span>&nbsp;&nbsp;Biotechnologijos produktai','604','Biotechnologijos produktai','','','',false,true);
+d.add(5,1,'606','<div class="nodetag">606</div></span>&nbsp;&nbsp;Biotechnologijos pritaikymas','606','Biotechnologijos pritaikymas','','','',false,true);
+d.add(6,1,'608','<div class="nodetag">608</div></span>&nbsp;&nbsp;Biotechnologijų pritaikymo pasekmės','608','Biotechnologijų pritaikymo pasekmės','','','',false,true);
+d.add(7,0,'61','<div class="nodetag">61</div></span>&nbsp;&nbsp;Medicinos mokslai','61','Medicinos mokslai','','','',false,true);
+d.add(8,7,'611/612','<div class="nodetag">611/612</div></span>&nbsp;&nbsp;Žmogaus biologija','611/612','Žmogaus biologija','','','',false,true);
+d.add(9,8,'611','<div class="nodetag">611</div></span>&nbsp;&nbsp;Anatomija. Žmogaus ir lyginamoji anatomija','611','Anatomija. Žmogaus ir lyginamoji anatomija','','','',false,true);
+d.add(10,8,'612','<div class="nodetag">612</div></span>&nbsp;&nbsp;Fiziologija. Žmogaus ir lyginamoji fiziologija','612','Fiziologija. Žmogaus ir lyginamoji fiziologija','','','',false,true);
+d.add(11,10,'612.1/.8','<div class="nodetag">612.1/.8</div></span>&nbsp;&nbsp;Organizmo fiziologija','612.1/.8','Organizmo fiziologija','','','',false,true);
+d.add(12,11,'612.1','<div class="nodetag">612.1</div></span>&nbsp;&nbsp;Kraujas. Širdies kraujagyslių, kraujo apytakos sistema','612.1','Kraujas. Širdies kraujagyslių, kraujo apytakos sistema','','','',false,true);
+d.add(13,11,'612.2','<div class="nodetag">612.2</div></span>&nbsp;&nbsp;Kvėpavimas. Kvėpavimo sistema','612.2','Kvėpavimas. Kvėpavimo sistema','','','',false,true);
+d.add(14,11,'612.3','<div class="nodetag">612.3</div></span>&nbsp;&nbsp;Maitinimas. Valgymas. Virškinimas. Mityba','612.3','Maitinimas. Valgymas. Virškinimas. Mityba','','','',false,true);
+d.add(15,11,'612.4','<div class="nodetag">612.4</div></span>&nbsp;&nbsp;Liaukų sistema. Sekrecija. Ekskrecija','612.4','Liaukų sistema. Sekrecija. Ekskrecija','','','',false,true);
+d.add(16,11,'612.5','<div class="nodetag">612.5</div></span>&nbsp;&nbsp;Gyvūnų temperatūra. Šiluminiai procesai','612.5','Gyvūnų temperatūra. Šiluminiai procesai','','','',false,true);
+d.add(17,11,'612.6','<div class="nodetag">612.6</div></span>&nbsp;&nbsp;Reprodukcija. Augimas. Vystymasis','612.6','Reprodukcija. Augimas. Vystymasis','','','',false,true);
+d.add(18,11,'612.7','<div class="nodetag">612.7</div></span>&nbsp;&nbsp;Motorinės funkcijos. Judėjimo organai. Balsas. Apvalkalas','612.7','Motorinės funkcijos. Judėjimo organai. Balsas. Apvalkalas','','','',false,true);
+d.add(19,11,'612.8','<div class="nodetag">612.8</div></span>&nbsp;&nbsp;Nervų sistema. Jutimo organai','612.8','Nervų sistema. Jutimo organai','','','',false,true);
+d.add(20,7,'613','<div class="nodetag">613</div></span>&nbsp;&nbsp;Higiena apskritai. Individuali sveikata ir higiena','613','Higiena apskritai. Individuali sveikata ir higiena','','','',false,true);
+d.add(21,20,'613.2','<div class="nodetag">613.2</div></span>&nbsp;&nbsp;Dietetika. Mitybos principai taikomi maitinimui ir maisto produktams','613.2','Dietetika. Mitybos principai taikomi maitinimui ir maisto produktams','','','',false,true);
+d.add(22,20,'613.3','<div class="nodetag">613.3</div></span>&nbsp;&nbsp;Gėrimai. Vaistiniai gėrimai. Gydomieji vandenys. Skysčių dieta','613.3','Gėrimai. Vaistiniai gėrimai. Gydomieji vandenys. Skysčių dieta','','','',false,true);
+d.add(23,20,'613.4','<div class="nodetag">613.4</div></span>&nbsp;&nbsp;Asmeninė higiena. Drabužiai','613.4','Asmeninė higiena. Drabužiai','','','',false,true);
+d.add(24,20,'613.5','<div class="nodetag">613.5</div></span>&nbsp;&nbsp;Būsto higiena','613.5','Būsto higiena','','','',false,true);
+d.add(25,20,'613.6','<div class="nodetag">613.6</div></span>&nbsp;&nbsp;Pavojai sveikatai darbe. Sveikatos priežiūra ir higiena darbe','613.6','Pavojai sveikatai darbe. Sveikatos priežiūra ir higiena darbe','','','',false,true);
+d.add(26,20,'613.7','<div class="nodetag">613.7</div></span>&nbsp;&nbsp;Laisvalaikio, poilsio, miego sveikata ir higiena','613.7','Laisvalaikio, poilsio, miego sveikata ir higiena','','','',false,true);
+d.add(27,20,'613.8','<div class="nodetag">613.8</div></span>&nbsp;&nbsp;Nervų sistemos sveikata ir higiena. Sveikata ir etika','613.8','Nervų sistemos sveikata ir higiena. Sveikata ir etika','','','',false,true);
+d.add(28,20,'613.9','<div class="nodetag">613.9</div></span>&nbsp;&nbsp;Sveikata ir higiena pagal amžių, lytį, etnines grupes','613.9','Sveikata ir higiena pagal amžių, lytį, etnines grupes','','','',false,true);
+d.add(29,7,'614','<div class="nodetag">614</div></span>&nbsp;&nbsp;Valstybinė sveikatos apsauga ir higiena. Nelaimingų atsitikimų prevencija','614','Valstybinė sveikatos apsauga ir higiena. Nelaimingų atsitikimų prevencija','','','',false,true);
+d.add(30,29,'614.1','<div class="nodetag">614.1</div></span>&nbsp;&nbsp;Gyventojų skaičius. Gyventojų skaičiaus mažėjimas','614.1','Gyventojų skaičius. Gyventojų skaičiaus mažėjimas','','','',false,true);
+d.add(31,29,'614.2','<div class="nodetag">614.2</div></span>&nbsp;&nbsp;Viešosios ir profesinės sveikatos organizacijos','614.2','Viešosios ir profesinės sveikatos organizacijos','','','',false,true);
+d.add(32,29,'614.3','<div class="nodetag">614.3</div></span>&nbsp;&nbsp;Sanitarinė inspekcija ir kontrolė','614.3','Sanitarinė inspekcija ir kontrolė','','','',false,true);
+d.add(33,32,'614.39','<div class="nodetag">614.39</div></span>&nbsp;&nbsp;Nacionalinės sveikatos tarnybos','614.39','Nacionalinės sveikatos tarnybos','','','',false,true);
+d.add(34,29,'614.4','<div class="nodetag">614.4</div></span>&nbsp;&nbsp;Užkrečiamųjų (infekcinių), ligų prevencija ir kontrolė. Epidemijų prevencija','614.4','Užkrečiamųjų (infekcinių), ligų prevencija ir kontrolė. Epidemijų prevencija','','','',false,true);
+d.add(35,29,'614.6','<div class="nodetag">614.6</div></span>&nbsp;&nbsp;Kapinių higiena. Mirusiųjų dispozicija','614.6','Kapinių higiena. Mirusiųjų dispozicija','','','',false,true);
+d.add(36,29,'614.7','<div class="nodetag">614.7</div></span>&nbsp;&nbsp;Oro, vandens, dirvožemio higiena. Užterštumas ir jo kontrolė','614.7','Oro, vandens, dirvožemio higiena. Užterštumas ir jo kontrolė','','','',false,true);
+d.add(37,29,'614.8','<div class="nodetag">614.8</div></span>&nbsp;&nbsp;Nelaimingi atsitikimai. Rizika. Pavojai. Nelaimingų atsitikimų prevencija. Asmeninė apsauga. Saugumas','614.8','Nelaimingi atsitikimai. Rizika. Pavojai. Nelaimingų atsitikimų prevencija. Asmeninė apsauga. Saugumas','','','',false,true);
+d.add(38,29,'614.9','<div class="nodetag">614.9</div></span>&nbsp;&nbsp;Gyvūnų sveikata. Veterinarinė higiena','614.9','Gyvūnų sveikata. Veterinarinė higiena','','','',false,true);
+d.add(39,7,'615','<div class="nodetag">615</div></span>&nbsp;&nbsp;Farmakologija. Terapeutika. Toksikologija','615','Farmakologija. Terapeutika. Toksikologija','','','',false,true);
+d.add(40,39,'615.1','<div class="nodetag">615.1</div></span>&nbsp;&nbsp;Bendroji ir profesionalioji farmacija','615.1','Bendroji ir profesionalioji farmacija','','','',false,true);
+d.add(41,39,'615.2','<div class="nodetag">615.2</div></span>&nbsp;&nbsp;Medikamentai pagal jų tiesioginį veikimą','615.2','Medikamentai pagal jų tiesioginį veikimą','','','',false,true);
+d.add(42,39,'615.3','<div class="nodetag">615.3</div></span>&nbsp;&nbsp;Medikamentai pagal jų kilmę','615.3','Medikamentai pagal jų kilmę','','','',false,true);
+d.add(43,39,'615.4','<div class="nodetag">615.4</div></span>&nbsp;&nbsp;Farmaceutiniai preparatai. Medicininės medžiagos. Įranga','615.4','Farmaceutiniai preparatai. Medicininės medžiagos. Įranga','','','',false,true);
+d.add(44,39,'615.8','<div class="nodetag">615.8</div></span>&nbsp;&nbsp;Fizioterapija. Spindulių terapija. Kiti nemedicininiai gydymo būdai','615.8','Fizioterapija. Spindulių terapija. Kiti nemedicininiai gydymo būdai','','','',false,true);
+d.add(45,39,'615.9','<div class="nodetag">615.9</div></span>&nbsp;&nbsp;Bendroji toksikologija. Bendrieji nuodų ir intoksikacijos tyrimai','615.9','Bendroji toksikologija. Bendrieji nuodų ir intoksikacijos tyrimai','','','',false,true);
+d.add(46,7,'616','<div class="nodetag">616</div></span>&nbsp;&nbsp;Patologija. Klinikinė medicina','616','Patologija. Klinikinė medicina','','','',false,true);
+d.add(47,46,'616-001/-009','<div class="nodetag">616-001/-009</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Special auxiliary subdivision for morbid processes</span>','616-001/-009','Special auxiliary subdivision for morbid processes','','','',false,true);
+d.add(48,47,'616-001','<div class="nodetag">616-001</div></span>&nbsp;&nbsp;Traumos. Sužeidimai. Žaizdos','616-001','Traumos. Sužeidimai. Žaizdos','','','',false,true);
+d.add(49,47,'616-002','<div class="nodetag">616-002</div></span>&nbsp;&nbsp;Uždegimas. Iritacija. Pritvinkimas (hyperaemia). Gleivinės kongestija','616-002','Uždegimas. Iritacija. Pritvinkimas (hyperaemia). Gleivinės kongestija','','','',false,true);
+d.add(50,47,'616-003','<div class="nodetag">616-003</div></span>&nbsp;&nbsp;Regresyvūs ir atitaisomi procesai','616-003','Regresyvūs ir atitaisomi procesai','','','',false,true);
+d.add(51,47,'616-004','<div class="nodetag">616-004</div></span>&nbsp;&nbsp;Sklerozė. Kietėjimas. Cirozė','616-004','Sklerozė. Kietėjimas. Cirozė','','','',false,true);
+d.add(52,47,'616-005','<div class="nodetag">616-005</div></span>&nbsp;&nbsp;Daliniai kraujotakos sutrikimai','616-005','Daliniai kraujotakos sutrikimai','','','',false,true);
+d.add(53,47,'616-006','<div class="nodetag">616-006</div></span>&nbsp;&nbsp;Tumorai. Neoplazmos. Blastomos. Onkologija','616-006','Tumorai. Neoplazmos. Blastomos. Onkologija','','','',false,true);
+d.add(54,47,'616-007','<div class="nodetag">616-007</div></span>&nbsp;&nbsp;Struktūrinio vystymosi trūkumai. Fiziologinės deformacijos. Apsigimimai. Pusiau apsigimimai. Padidintų, sumažintų matmenų organai. Teratologija. Išsigimėliai. Anomalijos','616-007','Struktūrinio vystymosi trūkumai. Fiziologinės deformacijos. Apsigimimai. Pusiau apsigimimai. Padidintų, sumažintų matmenų organai. Teratologija. Išsigimėliai. Anomalijos','','','',false,true);
+d.add(55,47,'616-008','<div class="nodetag">616-008</div></span>&nbsp;&nbsp;Funkciniai ir medžiagų apykaitos sutrikimai','616-008','Funkciniai ir medžiagų apykaitos sutrikimai','','','',false,true);
+d.add(56,47,'616-009','<div class="nodetag">616-009</div></span>&nbsp;&nbsp;Nerviniai sutrikimai','616-009','Nerviniai sutrikimai','','','',false,true);
+d.add(57,46,'616-01/-099','<div class="nodetag">616-01/-099</div></span>&nbsp;&nbsp;Specialieji pagrindinių patologijos aspektų rodikliai','616-01/-099','Specialieji pagrindinių patologijos aspektų rodikliai','','','',false,true);
+d.add(58,57,'616-01','<div class="nodetag">616-01</div></span>&nbsp;&nbsp;Įvairūs ligų, pacientų ir medicininės intervencijos aspektai','616-01','Įvairūs ligų, pacientų ir medicininės intervencijos aspektai','','','',false,true);
+d.add(59,57,'616-02','<div class="nodetag">616-02</div></span>&nbsp;&nbsp;Etiologija. Mokslas apie ligų priežastis','616-02','Etiologija. Mokslas apie ligų priežastis','','','',false,true);
+d.add(60,57,'616-03','<div class="nodetag">616-03</div></span>&nbsp;&nbsp;Įvairios ligų, gydymo, vaistų išrašymo formos','616-03','Įvairios ligų, gydymo, vaistų išrašymo formos','','','',false,true);
+d.add(61,57,'616-05','<div class="nodetag">616-05</div></span>&nbsp;&nbsp;Asmenų ir personalo apibūdinimas patologiniais atvejais. Pacientų apibūdinimas','616-05','Asmenų ir personalo apibūdinimas patologiniais atvejais. Pacientų apibūdinimas','','','',false,true);
+d.add(62,57,'616-06','<div class="nodetag">616-06</div></span>&nbsp;&nbsp;Komplikacijos. Padariniai. Atgarsiai. Sutapimas, vienalaikis buvimas. Tarpusavio ryšys. Ankstesnės ligos. Akstesnė sveikatos būklė. Dviejų ligų priešiškumas','616-06','Komplikacijos. Padariniai. Atgarsiai. Sutapimas, vienalaikis buvimas. Tarpusavio ryšys. Ankstesnės ligos. Akstesnė sveikatos būklė. Dviejų ligų priešiškumas','','','',false,true);
+d.add(63,57,'616-07','<div class="nodetag">616-07</div></span>&nbsp;&nbsp;Simptomatologija. Ženklai ir simptomai. Apžiūra. Diagnozė. Propedeutika','616-07','Simptomatologija. Ženklai ir simptomai. Apžiūra. Diagnozė. Propedeutika','','','',false,true);
+d.add(64,57,'616-08','<div class="nodetag">616-08</div></span>&nbsp;&nbsp;Gydymas','616-08','Gydymas','','','',false,true);
+d.add(65,57,'616-091','<div class="nodetag">616-091</div></span>&nbsp;&nbsp;Patologinė anatomija','616-091','Patologinė anatomija','','','',false,true);
+d.add(66,57,'616-092','<div class="nodetag">616-092</div></span>&nbsp;&nbsp;Patologinė fiziologija. Ligų procesai, eigos pobūdis. Patogenezė. Mokslas apie ligų kilmę','616-092','Patologinė fiziologija. Ligų procesai, eigos pobūdis. Patogenezė. Mokslas apie ligų kilmę','','','',false,true);
+d.add(67,57,'616-093','<div class="nodetag">616-093</div></span>&nbsp;&nbsp;Mikrobinės metodikos','616-093','Mikrobinės metodikos','','','',false,true);
+d.add(68,57,'616-094','<div class="nodetag">616-094</div></span>&nbsp;&nbsp;Mikrobinė morfologija','616-094','Mikrobinė morfologija','','','',false,true);
+d.add(69,57,'616-095','<div class="nodetag">616-095</div></span>&nbsp;&nbsp;Mikrobinė fiziologija','616-095','Mikrobinė fiziologija','','','',false,true);
+d.add(70,57,'616-097','<div class="nodetag">616-097</div></span>&nbsp;&nbsp;Imunogenetika','616-097','Imunogenetika','','','',false,true);
+d.add(71,57,'616-098','<div class="nodetag">616-098</div></span>&nbsp;&nbsp;Mikrobinė fizika, chemija, metabolizmas, katabolizmas (disimiliacija)','616-098','Mikrobinė fizika, chemija, metabolizmas, katabolizmas (disimiliacija)','','','',false,true);
+d.add(72,57,'616-099','<div class="nodetag">616-099</div></span>&nbsp;&nbsp;Apsinuodijimas. Intoksikacija','616-099','Apsinuodijimas. Intoksikacija','','','',false,true);
+d.add(73,46,'616-71/-78','<div class="nodetag">616-71/-78</div></span>&nbsp;&nbsp;Specialieji medicinos ir chirurgijos instrumentų ir įrangos rodikliai','616-71/-78','Specialieji medicinos ir chirurgijos instrumentų ir įrangos rodikliai','','','',false,true);
+d.add(74,73,'616-71','<div class="nodetag">616-71</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Medical instruments and equipment in general</span>','616-71','Medical instruments and equipment in general','','','',false,true);
+d.add(75,73,'616-72','<div class="nodetag">616-72</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Surgical and therapeutic instruments</span>','616-72','Surgical and therapeutic instruments','','','',false,true);
+d.add(76,73,'616-74','<div class="nodetag">616-74</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Reinforcement and reparative materials and equipment</span>','616-74','Reinforcement and reparative materials and equipment','','','',false,true);
+d.add(77,73,'616-76','<div class="nodetag">616-76</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Corrective and protective appliances, aids etc.</span>','616-76','Corrective and protective appliances, aids etc.','','','',false,true);
+d.add(78,73,'616-77','<div class="nodetag">616-77</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Prosthetic materials and parts. Artificial organs etc.</span>','616-77','Prosthetic materials and parts. Artificial organs etc.','','','',false,true);
+d.add(79,73,'616-78','<div class="nodetag">616-78</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Machines and mechanical apparatus</span>','616-78','Machines and mechanical apparatus','','','',false,true);
+d.add(80,46,'616.1/.9','<div class="nodetag">616.1/.9</div></span>&nbsp;&nbsp;Specialioji patologija','616.1/.9','Specialioji patologija','','','',false,true);
+d.add(81,80,'616.1','<div class="nodetag">616.1</div></span>&nbsp;&nbsp;Kraujotakos sistemos ir kraujagyslių patologija. Širdies ir kraujagyslių ligos','616.1','Kraujotakos sistemos ir kraujagyslių patologija. Širdies ir kraujagyslių ligos','','','',false,true);
+d.add(82,80,'616.2','<div class="nodetag">616.2</div></span>&nbsp;&nbsp;Kvėpavimo sistemos patologija. Kvėpavimo organų susirgimai','616.2','Kvėpavimo sistemos patologija. Kvėpavimo organų susirgimai','','','',false,true);
+d.add(83,80,'616.3','<div class="nodetag">616.3</div></span>&nbsp;&nbsp;Virškinimo sistemos patologija. Virškinimo trakto ligos','616.3','Virškinimo sistemos patologija. Virškinimo trakto ligos','','','',false,true);
+d.add(84,83,'616.31','<div class="nodetag">616.31</div></span>&nbsp;&nbsp;Stomatologija. Burnos ertmė. Burna. Dantų ir burnos ligos','616.31','Stomatologija. Burnos ertmė. Burna. Dantų ir burnos ligos','','','',false,true);
+d.add(85,80,'616.4','<div class="nodetag">616.4</div></span>&nbsp;&nbsp;Limfinės sistemos (systema lymphaticus) sistemos, kraujodaros organų, vidaus sekrecijos patologija','616.4','Limfinės sistemos (systema lymphaticus) sistemos, kraujodaros organų, vidaus sekrecijos patologija','','','',false,true);
+d.add(86,80,'616.5','<div class="nodetag">616.5</div></span>&nbsp;&nbsp;Oda. Įprastinė oda. Klinikinė dermatologija. Odos ligos','616.5','Oda. Įprastinė oda. Klinikinė dermatologija. Odos ligos','','','',false,true);
+d.add(87,80,'616.6','<div class="nodetag">616.6</div></span>&nbsp;&nbsp;Urogenitalinės sistemos patologija. Šlapimo ir lyties organų ligos','616.6','Urogenitalinės sistemos patologija. Šlapimo ir lyties organų ligos','','','',false,true);
+d.add(88,80,'616.7','<div class="nodetag">616.7</div></span>&nbsp;&nbsp;Judėjimo organų patologija. Griaučių ir judėjimo sistemos','616.7','Judėjimo organų patologija. Griaučių ir judėjimo sistemos','','','',false,true);
+d.add(89,80,'616.8','<div class="nodetag">616.8</div></span>&nbsp;&nbsp;Neurologija. Neuropatologija. Nervų sistema','616.8','Neurologija. Neuropatologija. Nervų sistema','','','',false,true);
+d.add(90,89,'616.89','<div class="nodetag">616.89</div></span>&nbsp;&nbsp;Psichiatrija. Patologinė psichiatrija. Psichopatologija. Frenopatijos. Psichozės. Protinės anomalijos. Patologinė proto būsena. Elgesio ir emociniai sutrikimai','616.89','Psichiatrija. Patologinė psichiatrija. Psichopatologija. Frenopatijos. Psichozės. Protinės anomalijos. Patologinė proto būsena. Elgesio ir emociniai sutrikimai','','','',false,true);
+d.add(91,80,'616.9','<div class="nodetag">616.9</div></span>&nbsp;&nbsp;Užkrečiamosios ligos. Infekcinės ir užkrečiamos ligos, karštinės','616.9','Užkrečiamosios ligos. Infekcinės ir užkrečiamos ligos, karštinės','','','',false,true);
+d.add(92,7,'617','<div class="nodetag">617</div></span>&nbsp;&nbsp;Chirurgija. Ortopedija. Oftalmologija','617','Chirurgija. Ortopedija. Oftalmologija','','','',false,true);
+d.add(93,92,'617.3','<div class="nodetag">617.3</div></span>&nbsp;&nbsp;Ortopedija apskritai','617.3','Ortopedija apskritai','','','',false,true);
+d.add(94,92,'617.7','<div class="nodetag">617.7</div></span>&nbsp;&nbsp;Oftalmologija. Akių sutrikimai ir gydymas','617.7','Oftalmologija. Akių sutrikimai ir gydymas','','','',false,true);
+d.add(95,7,'618','<div class="nodetag">618</div></span>&nbsp;&nbsp;Ginekologija. Akušerija','618','Ginekologija. Akušerija','','','',false,true);
+d.add(96,0,'62','<div class="nodetag">62</div></span>&nbsp;&nbsp;Inžinerija. Technika apskritai','62','Inžinerija. Technika apskritai','','','',false,true);
+d.add(97,96,'62-1/-9','<div class="nodetag">62-1/-9</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Special auxiliary subdivision for technology in general</span>','62-1/-9','Special auxiliary subdivision for technology in general','','','',false,true);
+d.add(98,97,'62-1','<div class="nodetag">62-1</div></span>&nbsp;&nbsp;Bendrosios mašinų ir kt. charakteristikos','62-1','Bendrosios mašinų ir kt. charakteristikos','','','',false,true);
+d.add(99,97,'62-2','<div class="nodetag">62-2</div></span>&nbsp;&nbsp;Stacionarinės ir judrios mašinų dalys, komponentai','62-2','Stacionarinės ir judrios mašinų dalys, komponentai','','','',false,true);
+d.add(100,97,'62-3','<div class="nodetag">62-3</div></span>&nbsp;&nbsp;Skysčio reguliavimo mechanizmai. Sklandžiai, uždarymai ir kt.','62-3','Skysčio reguliavimo mechanizmai. Sklandžiai, uždarymai ir kt.','','','',false,true);
+d.add(101,97,'62-4','<div class="nodetag">62-4</div></span>&nbsp;&nbsp;Medžiagų, paviršių, objektų, gaminių būvis, būklė, forma','62-4','Medžiagų, paviršių, objektų, gaminių būvis, būklė, forma','','','',false,true);
+d.add(102,97,'62-5','<div class="nodetag">62-5</div></span>&nbsp;&nbsp;Mašinų ir procesų valdymas ir kontrolė','62-5','Mašinų ir procesų valdymas ir kontrolė','','','',false,true);
+d.add(103,97,'62-6','<div class="nodetag">62-6</div></span>&nbsp;&nbsp;Mašinų ir įrenginių charakteristikos pagal naudojamą kurą, degalus ir kitus šiluminės energijos šaltinius','62-6','Mašinų ir įrenginių charakteristikos pagal naudojamą kurą, degalus ir kitus šiluminės energijos šaltinius','','','',false,true);
+d.add(104,97,'62-7','<div class="nodetag">62-7</div></span>&nbsp;&nbsp;Devices for servicing, maintenance, protection of machines','62-7','Devices for servicing, maintenance, protection of machines','','','',false,true);
+d.add(105,97,'62-8','<div class="nodetag">62-8</div></span>&nbsp;&nbsp;Mašinos pagal varomąją jėgą. Mašinos energijos šaltinis','62-8','Mašinos pagal varomąją jėgą. Mašinos energijos šaltinis','','','',false,true);
+d.add(106,97,'62-9','<div class="nodetag">62-9</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Variables, conditions and characteristics of production processes, plant and equipment</span>','62-9','Variables, conditions and characteristics of production processes, plant and equipment','','','',false,true);
+d.add(107,106,'62-91','<div class="nodetag">62-91</div></span>&nbsp;&nbsp;Medžiagos būsena: charakteristikos ir kintamieji','62-91','Medžiagos būsena: charakteristikos ir kintamieji','','','',false,true);
+d.add(108,106,'62-92','<div class="nodetag">62-92</div></span>&nbsp;&nbsp;Reakcijų klasifikacija pagal cheminius reagentus . Cheminiai reagentai','62-92','Reakcijų klasifikacija pagal cheminius reagentus . Cheminiai reagentai','','','',false,true);
+d.add(109,106,'62-93','<div class="nodetag">62-93</div></span>&nbsp;&nbsp;Procesų, mašinų ir įrangos klasifikacija pagal darbo režimą, tolydumą, sujungimą, aplinką, terpę','62-93','Procesų, mašinų ir įrangos klasifikacija pagal darbo režimą, tolydumą, sujungimą, aplinką, terpę','','','',false,true);
+d.add(110,106,'62-94','<div class="nodetag">62-94</div></span>&nbsp;&nbsp;Proceso kryptis, greitis, trukmė ir t.t','62-94','Proceso kryptis, greitis, trukmė ir t.t','','','',false,true);
+d.add(111,106,'62-95','<div class="nodetag">62-95</div></span>&nbsp;&nbsp;Paprasti ir daugiakarčiai procesai. Vienpakopiai ir daugiapakopiai procesai','62-95','Paprasti ir daugiakarčiai procesai. Vienpakopiai ir daugiapakopiai procesai','','','',false,true);
+d.add(112,106,'62-96','<div class="nodetag">62-96</div></span>&nbsp;&nbsp;Produkto savybių pakeitimo procesai. Modifikacija apskritai','62-96','Produkto savybių pakeitimo procesai. Modifikacija apskritai','','','',false,true);
+d.add(113,106,'62-97','<div class="nodetag">62-97</div></span>&nbsp;&nbsp;Šiluminės charakteriskos. Temperatūra. Temperatūros ribos','62-97','Šiluminės charakteriskos. Temperatūra. Temperatūros ribos','','','',false,true);
+d.add(114,106,'62-98','<div class="nodetag">62-98</div></span>&nbsp;&nbsp;Slėgis. Slėgio sritis','62-98','Slėgis. Slėgio sritis','','','',false,true);
+d.add(115,96,'620','<div class="nodetag">620</div></span>&nbsp;&nbsp;Medžiagų bandymai. Prekių mokslas. Jėgainės. Energetika','620','Medžiagų bandymai. Prekių mokslas. Jėgainės. Energetika','','','',false,true);
+d.add(116,115,'620.3','<div class="nodetag">620.3</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Nanotechnology</span>','620.3','Nanotechnology','','','',false,true);
+d.add(117,115,'620.9','<div class="nodetag">620.9</div></span>&nbsp;&nbsp;Bendroji energetika','620.9','Bendroji energetika','','','',false,true);
+d.add(118,96,'621','<div class="nodetag">621</div></span>&nbsp;&nbsp;Mašinų gamyba apskritai. Branduolinė technologija. Elektrotechnika. Mašinos, mechanizmai','621','Mašinų gamyba apskritai. Branduolinė technologija. Elektrotechnika. Mašinos, mechanizmai','','','',false,true);
+d.add(119,118,'621.1','<div class="nodetag">621.1</div></span>&nbsp;&nbsp;Šiluminiai varikliai apskritai. Vandens garų gaminimas, skirstymas ir naudojimas. Garo varikliai. Garo katilai','621.1','Šiluminiai varikliai apskritai. Vandens garų gaminimas, skirstymas ir naudojimas. Garo varikliai. Garo katilai','','','',false,true);
+d.add(120,118,'621.22','<div class="nodetag">621.22</div></span>&nbsp;&nbsp;Hidraulinė energija. Vandens energija. Hidraulinės mašinos','621.22','Hidraulinė energija. Vandens energija. Hidraulinės mašinos','','','',false,true);
+d.add(121,118,'621.3','<div class="nodetag">621.3</div></span>&nbsp;&nbsp;Elektrotechnika','621.3','Elektrotechnika','','','',false,true);
+d.add(122,118,'621.4','<div class="nodetag">621.4</div></span>&nbsp;&nbsp;Šiluminiai varikliai (išskyrus garo variklius)','621.4','Šiluminiai varikliai (išskyrus garo variklius)','','','',false,true);
+d.add(123,118,'621.5','<div class="nodetag">621.5</div></span>&nbsp;&nbsp;Pneumatinė energija, mechanizmai ir įrankiai. Aušinimas, šaldymas, atšaldymas','621.5','Pneumatinė energija, mechanizmai ir įrankiai. Aušinimas, šaldymas, atšaldymas','','','',false,true);
+d.add(124,118,'621.6','<div class="nodetag">621.6</div></span>&nbsp;&nbsp;Skysčių priežiūros, saugojimo ir paskirstymo stotys ir įranga','621.6','Skysčių priežiūros, saugojimo ir paskirstymo stotys ir įranga','','','',false,true);
+d.add(125,118,'621.7','<div class="nodetag">621.7</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Mechanical technology in general: processes, tools, machines, equipment</span>','621.7','Mechanical technology in general: processes, tools, machines, equipment','','','',false,true);
+d.add(126,118,'621.8','<div class="nodetag">621.8</div></span>&nbsp;&nbsp;Mašinų dalys (elementai). Varomosios galios technika. Medžiagų naudojimas. Įtvirtinimai. Tepimas','621.8','Mašinų dalys (elementai). Varomosios galios technika. Medžiagų naudojimas. Įtvirtinimai. Tepimas','','','',false,true);
+d.add(127,118,'621.9','<div class="nodetag">621.9</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Working or machining with chip formation. Abrasive working. Hammers and presses</span>','621.9','Working or machining with chip formation. Abrasive working. Hammers and presses','','','',false,true);
+d.add(128,96,'622','<div class="nodetag">622</div></span>&nbsp;&nbsp;Kasyba','622','Kasyba','','','',false,true);
+d.add(129,128,'622.1','<div class="nodetag">622.1</div></span>&nbsp;&nbsp;Parengiamoji žvalgyba. Markšeiderystė ir markšeiderinės nuotraukos sudarymas. Naudingųjų iškasenų tyrimas (paviršiaus ir požeminių) ??','622.1','Parengiamoji žvalgyba. Markšeiderystė ir markšeiderinės nuotraukos sudarymas. Naudingųjų iškasenų tyrimas (paviršiaus ir požeminių) ??','','','',false,true);
+d.add(130,128,'622.2','<div class="nodetag">622.2</div></span>&nbsp;&nbsp;Kasybos procesai. Mineralinių telkinių žvalgymas, atvėrimas, parengimas eksploatuoti, eksploatavimas','622.2','Kasybos procesai. Mineralinių telkinių žvalgymas, atvėrimas, parengimas eksploatuoti, eksploatavimas','','','',false,true);
+d.add(131,128,'622.3','<div class="nodetag">622.3</div></span>&nbsp;&nbsp;Specifinių mineralų, rūdų, uolienų kasyba','622.3','Specifinių mineralų, rūdų, uolienų kasyba','','','',false,true);
+d.add(132,128,'622.4','<div class="nodetag">622.4</div></span>&nbsp;&nbsp;Kasyklų ventiliavimas, oro kondicionavimas, apšildymas ir apšvietimas','622.4','Kasyklų ventiliavimas, oro kondicionavimas, apšildymas ir apšvietimas','','','',false,true);
+d.add(133,128,'622.5','<div class="nodetag">622.5</div></span>&nbsp;&nbsp;Kasyklų drenažas. Nusausinimas (vandens pašalinimas)','622.5','Kasyklų drenažas. Nusausinimas (vandens pašalinimas)','','','',false,true);
+d.add(134,128,'622.6','<div class="nodetag">622.6</div></span>&nbsp;&nbsp;Pervežimas ir apdorojimas. Pakėlimas. Transportavimas vingiais. Transportavimas paviršiumi','622.6','Pervežimas ir apdorojimas. Pakėlimas. Transportavimas vingiais. Transportavimas paviršiumi','','','',false,true);
+d.add(135,128,'622.7','<div class="nodetag">622.7</div></span>&nbsp;&nbsp;Naudingųjų iškasenų sodrinimas, perdirbimas. Mineralų sodrinimas. Rūdos paruošimas','622.7','Naudingųjų iškasenų sodrinimas, perdirbimas. Mineralų sodrinimas. Rūdos paruošimas','','','',false,true);
+d.add(136,128,'622.8','<div class="nodetag">622.8</div></span>&nbsp;&nbsp;Pavojai, nelaimingi atsitikimai, sveikatos pakenkimai kasyklose. Sveikatos apsauga ir darbų sauga kasyklose','622.8','Pavojai, nelaimingi atsitikimai, sveikatos pakenkimai kasyklose. Sveikatos apsauga ir darbų sauga kasyklose','','','',false,true);
+d.add(137,96,'623','<div class="nodetag">623</div></span>&nbsp;&nbsp;Karo inžinerija','623','Karo inžinerija','','','',false,true);
+d.add(138,137,'623.1/.7','<div class="nodetag">623.1/.7</div></span>&nbsp;&nbsp;Sausumos karo inžinerija. Artilerija','623.1/.7','Sausumos karo inžinerija. Artilerija','','','',false,true);
+d.add(139,138,'623.1/.3','<div class="nodetag">623.1/.3</div></span>&nbsp;&nbsp;Lauko inžinerija. Įtvirtinimai. Gynybiniai įtvirtinimai','623.1/.3','Lauko inžinerija. Įtvirtinimai. Gynybiniai įtvirtinimai','','','',false,true);
+d.add(140,139,'623.1','<div class="nodetag">623.1</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Fortresses. Permanent fortifications. Fortified lines, areas</span>','623.1','Fortresses. Permanent fortifications. Fortified lines, areas','','','',false,true);
+d.add(141,139,'623.2','<div class="nodetag">623.2</div></span>&nbsp;&nbsp;Puolamieji ir gynybiniai įtvirtinimai. Apsiausties įtvirtinimai. Lauko įtvirtinimai. Tranšėjiniai įtvirtinimai','623.2','Puolamieji ir gynybiniai įtvirtinimai. Apsiausties įtvirtinimai. Lauko įtvirtinimai. Tranšėjiniai įtvirtinimai','','','',false,true);
+d.add(142,139,'623.3','<div class="nodetag">623.3</div></span>&nbsp;&nbsp;Minų laukai. Sausumos kliūtys. Užtvindymas','623.3','Minų laukai. Sausumos kliūtys. Užtvindymas','','','',false,true);
+d.add(143,138,'623.4','<div class="nodetag">623.4</div></span>&nbsp;&nbsp;Sunkieji pabūklai. Artilerijos pabūklai. Ginklai. Šaunamieji ginklai. Šautuvai. Artilerija. Mažieji ginklai. Ginklai prie perpetės ar diržo. Šarvuotos ir kitos aptarnavimo transporto priemonės. Sprogstamosios ir karinės nuodingosios medžiagos. Valdomosios raketos ir reaktyviniai sviediniai','623.4','Sunkieji pabūklai. Artilerijos pabūklai. Ginklai. Šaunamieji ginklai. Šautuvai. Artilerija. Mažieji ginklai. Ginklai prie perpetės ar diržo. Šarvuotos ir kitos aptarnavimo transporto priemonės. Sprogstamosios ir karinės nuodingosios medžiagos. Valdomosios raketos ir reaktyviniai sviediniai','','','',false,true);
+d.add(144,138,'623.5','<div class="nodetag">623.5</div></span>&nbsp;&nbsp;Balistika. Pabūklai. Teorinės ir bandymų problemos','623.5','Balistika. Pabūklai. Teorinės ir bandymų problemos','','','',false,true);
+d.add(145,138,'623.6','<div class="nodetag">623.6</div></span>&nbsp;&nbsp;Lauko inžinerijos įranga ir procesai. Ryšių linijos. Priešradarinės priemonės. Karinė topografija','623.6','Lauko inžinerijos įranga ir procesai. Ryšių linijos. Priešradarinės priemonės. Karinė topografija','','','',false,true);
+d.add(146,138,'623.7','<div class="nodetag">623.7</div></span>&nbsp;&nbsp;Karinė ir karinė jūrų aviacija. Maskuotė','623.7','Karinė ir karinė jūrų aviacija. Maskuotė','','','',false,true);
+d.add(147,137,'623.8/.9','<div class="nodetag">623.8/.9</div></span>&nbsp;&nbsp;Karinė jūrų inžinerija','623.8/.9','Karinė jūrų inžinerija','','','',false,true);
+d.add(148,147,'623.8','<div class="nodetag">623.8</div></span>&nbsp;&nbsp;Karinė jūrų statyba. Karinės jūrų bazės. Karo ir kiti laivai','623.8','Karinė jūrų statyba. Karinės jūrų bazės. Karo ir kiti laivai','','','',false,true);
+d.add(149,147,'623.9','<div class="nodetag">623.9</div></span>&nbsp;&nbsp;Karinių jūrų pajėgų amunicija ir reikmenys. Laivų apsauga ir ginkluotė. Povandeniniai gynybos įtvirtinimai','623.9','Karinių jūrų pajėgų amunicija ir reikmenys. Laivų apsauga ir ginkluotė. Povandeniniai gynybos įtvirtinimai','','','',false,true);
+d.add(150,96,'624','<div class="nodetag">624</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Civil and structural engineering in general</span>','624','Civil and structural engineering in general','','','',false,true);
+d.add(151,150,'624.01/.07','<div class="nodetag">624.01/.07</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Special auxiliary subdivision for civil and structural engineering</span>','624.01/.07','Special auxiliary subdivision for civil and structural engineering','','','',false,true);
+d.add(152,151,'624.01','<div class="nodetag">624.01</div></span>&nbsp;&nbsp;Konstrukcijos (pastatai, statiniai) ir jų dalys pagal statybines medžiagas','624.01','Konstrukcijos (pastatai, statiniai) ir jų dalys pagal statybines medžiagas','','','',false,true);
+d.add(153,151,'624.03','<div class="nodetag">624.03</div></span>&nbsp;&nbsp;Konstrukcijų dydis, pastovumas, išdėstymas ir forma','624.03','Konstrukcijų dydis, pastovumas, išdėstymas ir forma','','','',false,true);
+d.add(154,151,'624.04','<div class="nodetag">624.04</div></span>&nbsp;&nbsp;Statybinė mechanika. Grafinės ir analitinės statikos taikymas, tiriant, projektuojant ir skaičiuojant konstrukcijas','624.04','Statybinė mechanika. Grafinės ir analitinės statikos taikymas, tiriant, projektuojant ir skaičiuojant konstrukcijas','','','',false,true);
+d.add(155,151,'624.05','<div class="nodetag">624.05</div></span>&nbsp;&nbsp;Statybos darbų organizavimas ir technologija. Statybos aikštelės įrengimas, statybos būdai','624.05','Statybos darbų organizavimas ir technologija. Statybos aikštelės įrengimas, statybos būdai','','','',false,true);
+d.add(156,151,'624.07','<div class="nodetag">624.07</div></span>&nbsp;&nbsp;Konstrukcijų elementai. Laikantieji elementai (laikančiosios konstrukcijos)','624.07','Konstrukcijų elementai. Laikantieji elementai (laikančiosios konstrukcijos)','','','',false,true);
+d.add(157,150,'624.1','<div class="nodetag">624.1</div></span>&nbsp;&nbsp;Požeminė statyba. Žemės darbai. Pagrindai ir pamatai. Tunelių kasimas','624.1','Požeminė statyba. Žemės darbai. Pagrindai ir pamatai. Tunelių kasimas','','','',false,true);
+d.add(158,150,'624.21/.8','<div class="nodetag">624.21/.8</div></span>&nbsp;&nbsp;Tiltų statyba','624.21/.8','Tiltų statyba','','','',false,true);
+d.add(159,158,'624.3','<div class="nodetag">624.3</div></span>&nbsp;&nbsp;Santvariniai tiltai (bespyrių santvarų, tinklinių sijinių santvarų tiltai)','624.3','Santvariniai tiltai (bespyrių santvarų, tinklinių sijinių santvarų tiltai)','','','',false,true);
+d.add(160,158,'624.5','<div class="nodetag">624.5</div></span>&nbsp;&nbsp;Kabamieji tiltai. Vantiniai tiltai','624.5','Kabamieji tiltai. Vantiniai tiltai','','','',false,true);
+d.add(161,158,'624.6','<div class="nodetag">624.6</div></span>&nbsp;&nbsp;Arkiniai tiltai','624.6','Arkiniai tiltai','','','',false,true);
+d.add(162,158,'624.8','<div class="nodetag">624.8</div></span>&nbsp;&nbsp;Judamieji tiltai (suveriamieji tiltai)','624.8','Judamieji tiltai (suveriamieji tiltai)','','','',false,true);
+d.add(163,150,'624.9','<div class="nodetag">624.9</div></span>&nbsp;&nbsp;Antžeminiai inžineriniai statiniai (išskyrus tiltus). Antžeminiai kompleksiniai statiniai','624.9','Antžeminiai inžineriniai statiniai (išskyrus tiltus). Antžeminiai kompleksiniai statiniai','','','',false,true);
+d.add(164,96,'625','<div class="nodetag">625</div></span>&nbsp;&nbsp;Kelių tiesimas. Geležinkelių tiesimas. Automobilių magistralių tiesimas','625','Kelių tiesimas. Geležinkelių tiesimas. Automobilių magistralių tiesimas','','','',false,true);
+d.add(165,164,'625.1/.5','<div class="nodetag">625.1/.5</div></span>&nbsp;&nbsp;Geležinkeliai. Tramvajų bėgiai. Lynų keliai','625.1/.5','Geležinkeliai. Tramvajų bėgiai. Lynų keliai','','','',false,true);
+d.add(166,165,'625.1','<div class="nodetag">625.1</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Railways in general. Permanent way. Track construction</span>','625.1','Railways in general. Permanent way. Track construction','','','',false,true);
+d.add(167,165,'625.5','<div class="nodetag">625.5</div></span>&nbsp;&nbsp;Lynų keliai. Funikulieriai. Kabamieji bėgių keliai. Kabamieji lynų keliai. Telferiai','625.5','Lynų keliai. Funikulieriai. Kabamieji bėgių keliai. Kabamieji lynų keliai. Telferiai','','','',false,true);
+d.add(168,164,'625.7/.8','<div class="nodetag">625.7/.8</div></span>&nbsp;&nbsp;Automobilių keliai, kelių tiesimas','625.7/.8','Automobilių keliai, kelių tiesimas','','','',false,true);
+d.add(169,168,'625.7','<div class="nodetag">625.7</div></span>&nbsp;&nbsp;Magistralės, autostrados apskritai. Keliai. Važiuojamosios juostos. Gatvės. Kaimo ir miesto kelių tinklas','625.7','Magistralės, autostrados apskritai. Keliai. Važiuojamosios juostos. Gatvės. Kaimo ir miesto kelių tinklas','','','',false,true);
+d.add(170,168,'625.8','<div class="nodetag">625.8</div></span>&nbsp;&nbsp;Kietos kelių dangos. Grindinys, danga arba dilusis sluoksnis. Medžiagų paruošimas ir naudojimas','625.8','Kietos kelių dangos. Grindinys, danga arba dilusis sluoksnis. Medžiagų paruošimas ir naudojimas','','','',false,true);
+d.add(171,96,'626/627','<div class="nodetag">626/627</div></span>&nbsp;&nbsp;Hidraulinė technika ir statyba. Vandeniniai statiniai','626/627','Hidraulinė technika ir statyba. Vandeniniai statiniai','','','',false,true);
+d.add(172,171,'626','<div class="nodetag">626</div></span>&nbsp;&nbsp;Hidraulinė technika apskritai','626','Hidraulinė technika apskritai','','','',false,true);
+d.add(173,172,'626.1','<div class="nodetag">626.1</div></span>&nbsp;&nbsp;Vidaus navigaciniai keliai. Kanalai. Paplatintos upės','626.1','Vidaus navigaciniai keliai. Kanalai. Paplatintos upės','','','',false,true);
+d.add(174,172,'626.4','<div class="nodetag">626.4</div></span>&nbsp;&nbsp;Šliuzai','626.4','Šliuzai','','','',false,true);
+d.add(175,172,'626.5','<div class="nodetag">626.5</div></span>&nbsp;&nbsp;Keltuvų įranga ir nuožulnios plokštumos laivams','626.5','Keltuvų įranga ir nuožulnios plokštumos laivams','','','',false,true);
+d.add(176,172,'626.8','<div class="nodetag">626.8</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Agricultural hydraulics. Irrigation, drainage and reclamation engineering</span>','626.8','Agricultural hydraulics. Irrigation, drainage and reclamation engineering','','','',false,true);
+d.add(177,172,'626.9','<div class="nodetag">626.9</div></span>&nbsp;&nbsp;Laivininkystės kanalai. Laivų kanalai','626.9','Laivininkystės kanalai. Laivų kanalai','','','',false,true);
+d.add(178,171,'627','<div class="nodetag">627</div></span>&nbsp;&nbsp;Gamtiniai vandens keliai, uostų ir kranto inžinerinė įranga. Navigacinė, dugno darbų, gelbėjimo įranga. Dambos ir hidroelektrinės','627','Gamtiniai vandens keliai, uostų ir kranto inžinerinė įranga. Navigacinė, dugno darbų, gelbėjimo įranga. Dambos ir hidroelektrinės','','','',false,true);
+d.add(179,178,'627.2','<div class="nodetag">627.2</div></span>&nbsp;&nbsp;Uostai ir reidai: techniniai įrenginiai ir statybos įmonės','627.2','Uostai ir reidai: techniniai įrenginiai ir statybos įmonės','','','',false,true);
+d.add(180,178,'627.3','<div class="nodetag">627.3</div></span>&nbsp;&nbsp;Uosto vidaus įranga. Dokai. Prieplaukos. Krantinės. Įranga ir įrenginiai','627.3','Uosto vidaus įranga. Dokai. Prieplaukos. Krantinės. Įranga ir įrenginiai','','','',false,true);
+d.add(181,178,'627.4','<div class="nodetag">627.4</div></span>&nbsp;&nbsp;Upės krantų apsauga. Upių ir upelių vagos tiesinimas. Kiti upių gerinimo darbai','627.4','Upės krantų apsauga. Upių ir upelių vagos tiesinimas. Kiti upių gerinimo darbai','','','',false,true);
+d.add(182,178,'627.5','<div class="nodetag">627.5</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Other waterway protection and improvement works. Dykes. Coast protection. Land drainage and reclamation</span>','627.5','Other waterway protection and improvement works. Dykes. Coast protection. Land drainage and reclamation','','','',false,true);
+d.add(183,178,'627.7','<div class="nodetag">627.7</div></span>&nbsp;&nbsp;Navigaciniai įrenginiai. Kanalų priežiūra ir eksploatacija. Jūrinė gelbėjimo įranga','627.7','Navigaciniai įrenginiai. Kanalų priežiūra ir eksploatacija. Jūrinė gelbėjimo įranga','','','',false,true);
+d.add(184,178,'627.8','<div class="nodetag">627.8</div></span>&nbsp;&nbsp;Dambos, užtvankos.Hidraulinės jėgainės statiniai, įrenginiai','627.8','Dambos, užtvankos.Hidraulinės jėgainės statiniai, įrenginiai','','','',false,true);
+d.add(185,96,'628','<div class="nodetag">628</div></span>&nbsp;&nbsp;Visuomeninė sanitarijos technika. Vanduo. Sanitarija. Apšvietimo technika','628','Visuomeninė sanitarijos technika. Vanduo. Sanitarija. Apšvietimo technika','','','',false,true);
+d.add(186,185,'628.1','<div class="nodetag">628.1</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Water supply. Water treatment. Water consumption</span>','628.1','Water supply. Water treatment. Water consumption','','','',false,true);
+d.add(187,185,'628.2','<div class="nodetag">628.2</div></span>&nbsp;&nbsp;Miesto vandens pašalinimas. Miesto drenažas. Kanalizacija','628.2','Miesto vandens pašalinimas. Miesto drenažas. Kanalizacija','','','',false,true);
+d.add(188,185,'628.3','<div class="nodetag">628.3</div></span>&nbsp;&nbsp;Nuotekos. Nuotekų apdorojimas, šalinimas, panaudojimas','628.3','Nuotekos. Nuotekų apdorojimas, šalinimas, panaudojimas','','','',false,true);
+d.add(189,185,'628.4','<div class="nodetag">628.4</div></span>&nbsp;&nbsp;Miesto sanitarija. Atliekos. Šiukšlės. Liekanos. Atmatos. Miesto atliekų surinkimas, išvežimas ir šalinimas','628.4','Miesto sanitarija. Atliekos. Šiukšlės. Liekanos. Atmatos. Miesto atliekų surinkimas, išvežimas ir šalinimas','','','',false,true);
+d.add(190,185,'628.5','<div class="nodetag">628.5</div></span>&nbsp;&nbsp;Priemonės prieš pramoninius ir kitus pažeidimus','628.5','Priemonės prieš pramoninius ir kitus pažeidimus','','','',false,true);
+d.add(191,185,'628.6','<div class="nodetag">628.6</div></span>&nbsp;&nbsp;Pastatų kanalizacija ir sanitariniai įrengimai (atskiri sveikatos apsaugos reikalavimai)','628.6','Pastatų kanalizacija ir sanitariniai įrengimai (atskiri sveikatos apsaugos reikalavimai)','','','',false,true);
+d.add(192,185,'628.8','<div class="nodetag">628.8</div></span>&nbsp;&nbsp;Patalpų klimatas. Oro kondicionavimas. Šildymas. Ventiliacija','628.8','Patalpų klimatas. Oro kondicionavimas. Šildymas. Ventiliacija','','','',false,true);
+d.add(193,185,'628.9','<div class="nodetag">628.9</div></span>&nbsp;&nbsp;Apšvietimas. Apšvietimo technika','628.9','Apšvietimas. Apšvietimo technika','','','',false,true);
+d.add(194,96,'629','<div class="nodetag">629</div></span>&nbsp;&nbsp;Transporto priemonių technika','629','Transporto priemonių technika','','','',false,true);
+d.add(195,194,'629.01/.08','<div class="nodetag">629.01/.08</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Special auxiliary subdivision for transport vehicle engineering</span>','629.01/.08','Special auxiliary subdivision for transport vehicle engineering','','','',false,true);
+d.add(196,195,'629.01','<div class="nodetag">629.01</div></span>&nbsp;&nbsp;Transporto priemonių projektavimo principai: charakteristikos, savybės, išbandymai','629.01','Transporto priemonių projektavimo principai: charakteristikos, savybės, išbandymai','','','',false,true);
+d.add(197,195,'629.02','<div class="nodetag">629.02</div></span>&nbsp;&nbsp;Transporto priemonių struktūra, konstrukcijų principai, bendra schema ir dalys','629.02','Transporto priemonių struktūra, konstrukcijų principai, bendra schema ir dalys','','','',false,true);
+d.add(198,195,'629.03','<div class="nodetag">629.03</div></span>&nbsp;&nbsp;Variklių sistemos','629.03','Variklių sistemos','','','',false,true);
+d.add(199,195,'629.04','<div class="nodetag">629.04</div></span>&nbsp;&nbsp;Vidaus planas: patogumai, įrengimas, įranga žmonėms ir kroviniams','629.04','Vidaus planas: patogumai, įrengimas, įranga žmonėms ir kroviniams','','','',false,true);
+d.add(200,195,'629.05','<div class="nodetag">629.05</div></span>&nbsp;&nbsp;Valdymas, valdymo ir navigacinės sistemos ir prietaisai','629.05','Valdymas, valdymo ir navigacinės sistemos ir prietaisai','','','',false,true);
+d.add(201,195,'629.06','<div class="nodetag">629.06</div></span>&nbsp;&nbsp;Transporto priemonių pagalbinės sistemos ir prietaisai','629.06','Transporto priemonių pagalbinės sistemos ir prietaisai','','','',false,true);
+d.add(202,195,'629.07','<div class="nodetag">629.07</div></span>&nbsp;&nbsp;Transporto priemonių veikimo techniniai aspektai, įskaitant eksploatacines savybes','629.07','Transporto priemonių veikimo techniniai aspektai, įskaitant eksploatacines savybes','','','',false,true);
+d.add(203,195,'629.08','<div class="nodetag">629.08</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Base equipment, installations and corresponding technical procedures</span>','629.08','Base equipment, installations and corresponding technical procedures','','','',false,true);
+d.add(204,194,'629.3','<div class="nodetag">629.3</div></span>&nbsp;&nbsp;Antžeminė transporto technika (išskyrus bėgines transporto priemones)','629.3','Antžeminė transporto technika (išskyrus bėgines transporto priemones)','','','',false,true);
+d.add(205,194,'629.4','<div class="nodetag">629.4</div></span>&nbsp;&nbsp;Bėginių transporto priemonių technika. Lokomotyvai. Riedmenys. Manevravimo stotys. Tarnybos susijusios su riedmenimis','629.4','Bėginių transporto priemonių technika. Lokomotyvai. Riedmenys. Manevravimo stotys. Tarnybos susijusios su riedmenimis','','','',false,true);
+d.add(206,194,'629.5','<div class="nodetag">629.5</div></span>&nbsp;&nbsp;Vandens transporto inžinerija. Jūrinė inžinerija. Laivai. Laivų statyba','629.5','Vandens transporto inžinerija. Jūrinė inžinerija. Laivai. Laivų statyba','','','',false,true);
+d.add(207,194,'629.7','<div class="nodetag">629.7</div></span>&nbsp;&nbsp;Oro ir erdvės transporto inžinerija. Aviacija ir lėktuvai. Raketiniai varikliai ir raketos. Kosmonautika ir erdvėlaiviai','629.7','Oro ir erdvės transporto inžinerija. Aviacija ir lėktuvai. Raketiniai varikliai ir raketos. Kosmonautika ir erdvėlaiviai','','','',false,true);
+d.add(208,0,'63','<div class="nodetag">63</div></span>&nbsp;&nbsp;Žemės ūkis, giminingi mokslai ir technologijos. Miškininkystė. Žemės dirbimas. Laukinės gamtos eksploatavimas','63','Žemės ūkis, giminingi mokslai ir technologijos. Miškininkystė. Žemės dirbimas. Laukinės gamtos eksploatavimas','','','',false,true);
+d.add(209,208,'630','<div class="nodetag">630</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Forestry</span>','630','Forestry','','','',false,true);
+d.add(210,209,'630*0','<div class="nodetag">630*0</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Forests, forestry and the utilization of forest products</span>','630*0','Forests, forestry and the utilization of forest products','','','',false,true);
+d.add(211,209,'630*1','<div class="nodetag">630*1</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Factors of the environment. Forest biology</span>','630*1','Factors of the environment. Forest biology','','','',false,true);
+d.add(212,209,'630*2','<div class="nodetag">630*2</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Silviculture</span>','630*2','Silviculture','','','',false,true);
+d.add(213,209,'630*3','<div class="nodetag">630*3</div></span>&nbsp;&nbsp;Miško gaisrai','630*3','Miško gaisrai','','','',false,true);
+d.add(214,209,'630*4','<div class="nodetag">630*4</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Forest injuries and protection</span>','630*4','Forest injuries and protection','','','',false,true);
+d.add(215,209,'630*5','<div class="nodetag">630*5</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Forest mensuration. Increment, development and structure of stands. Surveying and mapping</span>','630*5','Forest mensuration. Increment, development and structure of stands. Surveying and mapping','','','',false,true);
+d.add(216,209,'630*6','<div class="nodetag">630*6</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Forest management. Business economics of forestry.  Administration and organization of forest enterprises</span>','630*6','Forest management. Business economics of forestry.  Administration and organization of forest enterprises','','','',false,true);
+d.add(217,209,'630*7','<div class="nodetag">630*7</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Marketing of forest products. Economics of forest transport and the wood industries</span>','630*7','Marketing of forest products. Economics of forest transport and the wood industries','','','',false,true);
+d.add(218,209,'630*8','<div class="nodetag">630*8</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Forest products and their utilization</span>','630*8','Forest products and their utilization','','','',false,true);
+d.add(219,209,'630*9','<div class="nodetag">630*9</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Forests and forestry from the national point of view. Social economics of forestry</span>','630*9','Forests and forestry from the national point of view. Social economics of forestry','','','',false,true);
+d.add(220,208,'631/635','<div class="nodetag">631/635</div></span>&nbsp;&nbsp;Åкkio tvarkymas. Agronomija. Sodininkystė','631/635','Åкkio tvarkymas. Agronomija. Sodininkystė','','','',false,true);
+d.add(221,220,'631','<div class="nodetag">631</div></span>&nbsp;&nbsp;Bendrieji žemės ūkio klausimai','631','Bendrieji žemės ūkio klausimai','','','',false,true);
+d.add(222,221,'631.1','<div class="nodetag">631.1</div></span>&nbsp;&nbsp;Žemės ūkio organizavimas ir valdymas','631.1','Žemės ūkio organizavimas ir valdymas','','','',false,true);
+d.add(223,221,'631.2','<div class="nodetag">631.2</div></span>&nbsp;&nbsp;Žemės ūkio pastatai, statiniai ir įrengimai. Pastatai gyvuliams, žemės ūkio produkcijai, technikai ir įrengimams','631.2','Žemės ūkio pastatai, statiniai ir įrengimai. Pastatai gyvuliams, žemės ūkio produkcijai, technikai ir įrengimams','','','',false,true);
+d.add(224,221,'631.3','<div class="nodetag">631.3</div></span>&nbsp;&nbsp;Žemės ūkio mašinos, padargai ir įrengimai','631.3','Žemės ūkio mašinos, padargai ir įrengimai','','','',false,true);
+d.add(225,221,'631.4','<div class="nodetag">631.4</div></span>&nbsp;&nbsp;Dirvotyra. Dirvožemio mokslas, pedologija. Dirvožemio tyrimai','631.4','Dirvotyra. Dirvožemio mokslas, pedologija. Dirvožemio tyrimai','','','',false,true);
+d.add(226,221,'631.5','<div class="nodetag">631.5</div></span>&nbsp;&nbsp;Agrotechnika','631.5','Agrotechnika','','','',false,true);
+d.add(227,221,'631.6','<div class="nodetag">631.6</div></span>&nbsp;&nbsp;Kaimo inžinerija','631.6','Kaimo inžinerija','','','',false,true);
+d.add(228,221,'631.8','<div class="nodetag">631.8</div></span>&nbsp;&nbsp;Trąšos ir tręšimas. Augalų augimo stimuliavimas. Stimuliatoriai','631.8','Trąšos ir tręšimas. Augalų augimo stimuliavimas. Stimuliatoriai','','','',false,true);
+d.add(229,220,'632','<div class="nodetag">632</div></span>&nbsp;&nbsp;Augalų pažeidimai, sužalojimai. Augalų ligos. Augalų kenkėjai, parazitai. Augalų apsauga','632','Augalų pažeidimai, sužalojimai. Augalų ligos. Augalų kenkėjai, parazitai. Augalų apsauga','','','',false,true);
+d.add(230,220,'633/635','<div class="nodetag">633/635</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Horticulture in general. Specific crops</span>','633/635','Horticulture in general. Specific crops','','','',false,true);
+d.add(231,230,'633','<div class="nodetag">633</div></span>&nbsp;&nbsp;Lauko kultūros ir jų produktai','633','Lauko kultūros ir jų produktai','','','',false,true);
+d.add(232,231,'633.1','<div class="nodetag">633.1</div></span>&nbsp;&nbsp;Javai. Grūdinės kultūros','633.1','Javai. Grūdinės kultūros','','','',false,true);
+d.add(233,231,'633.2','<div class="nodetag">633.2</div></span>&nbsp;&nbsp;Pašarinės žolės. Pievų ir ganyklų žolės','633.2','Pašarinės žolės. Pievų ir ganyklų žolės','','','',false,true);
+d.add(234,231,'633.3','<div class="nodetag">633.3</div></span>&nbsp;&nbsp;Pašariniai augalai, išskyrus žolę','633.3','Pašariniai augalai, išskyrus žolę','','','',false,true);
+d.add(235,231,'633.4','<div class="nodetag">633.4</div></span>&nbsp;&nbsp;Valgomieji šakniavaisiai ir šakniagumbiai. Šakniavaisinės kultūros','633.4','Valgomieji šakniavaisiai ir šakniagumbiai. Šakniavaisinės kultūros','','','',false,true);
+d.add(236,231,'633.5','<div class="nodetag">633.5</div></span>&nbsp;&nbsp;Pluoštiniai augalai','633.5','Pluoštiniai augalai','','','',false,true);
+d.add(237,231,'633.6','<div class="nodetag">633.6</div></span>&nbsp;&nbsp;Cukringi ir krakmolingi augalai','633.6','Cukringi ir krakmolingi augalai','','','',false,true);
+d.add(238,231,'633.7','<div class="nodetag">633.7</div></span>&nbsp;&nbsp;Stimuliuojantys augalai. Augalai, naudojami gėrimams','633.7','Stimuliuojantys augalai. Augalai, naudojami gėrimams','','','',false,true);
+d.add(239,231,'633.8','<div class="nodetag">633.8</div></span>&nbsp;&nbsp;Aromatiniai augalai. Prieskoniniai augalai. Aliejiniai augalai. Dažiniai augalai. Rauginiai augalai. Vaistiniai augalai','633.8','Aromatiniai augalai. Prieskoniniai augalai. Aliejiniai augalai. Dažiniai augalai. Rauginiai augalai. Vaistiniai augalai','','','',false,true);
+d.add(240,231,'633.9','<div class="nodetag">633.9</div></span>&nbsp;&nbsp;Kiti augalai, naudojami pramonėje','633.9','Kiti augalai, naudojami pramonėje','','','',false,true);
+d.add(241,230,'634','<div class="nodetag">634</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Fruit growing</span>','634','Fruit growing','','','',false,true);
+d.add(242,241,'634.2','<div class="nodetag">634.2</div></span>&nbsp;&nbsp;Kaulavaisiniai augalai. Kaulavaisiai bendrai','634.2','Kaulavaisiniai augalai. Kaulavaisiai bendrai','','','',false,true);
+d.add(243,241,'634.3','<div class="nodetag">634.3</div></span>&nbsp;&nbsp;Rūtiniai (Ruraceae) ir šilkmediniai. Citrusai bendrai','634.3','Rūtiniai (Ruraceae) ir šilkmediniai. Citrusai bendrai','','','',false,true);
+d.add(244,241,'634.4','<div class="nodetag">634.4</div></span>&nbsp;&nbsp;Kiti vaisiniai augalai','634.4','Kiti vaisiniai augalai','','','',false,true);
+d.add(245,241,'634.5','<div class="nodetag">634.5</div></span>&nbsp;&nbsp;Riešutmedžiai','634.5','Riešutmedžiai','','','',false,true);
+d.add(246,241,'634.6','<div class="nodetag">634.6</div></span>&nbsp;&nbsp;Įvairūs tropikų ir subtropikų vaisiai','634.6','Įvairūs tropikų ir subtropikų vaisiai','','','',false,true);
+d.add(247,241,'634.7','<div class="nodetag">634.7</div></span>&nbsp;&nbsp;Krūmų ir žolinių augalų smulkūs vaisiai. Uogos','634.7','Krūmų ir žolinių augalų smulkūs vaisiai. Uogos','','','',false,true);
+d.add(248,241,'634.8','<div class="nodetag">634.8</div></span>&nbsp;&nbsp;Vynuogininkystė. Tikrieji vynmedžiai (Vinis vinifera); Vitis capensis. Vynuogynai','634.8','Vynuogininkystė. Tikrieji vynmedžiai (Vinis vinifera); Vitis capensis. Vynuogynai','','','',false,true);
+d.add(249,230,'635','<div class="nodetag">635</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Garden plants. Gardening</span>','635','Garden plants. Gardening','','','',false,true);
+d.add(250,249,'635.1/.8','<div class="nodetag">635.1/.8</div></span>&nbsp;&nbsp;Daržovės. Daržininkystė','635.1/.8','Daržovės. Daržininkystė','','','',false,true);
+d.add(251,250,'635.1','<div class="nodetag">635.1</div></span>&nbsp;&nbsp;Valgomieji šakniavaisiai. Šakniavaisinės daržovės','635.1','Valgomieji šakniavaisiai. Šakniavaisinės daržovės','','','',false,true);
+d.add(252,250,'635.2','<div class="nodetag">635.2</div></span>&nbsp;&nbsp;Valgomieji gumbavaisiai ir svogūnai','635.2','Valgomieji gumbavaisiai ir svogūnai','','','',false,true);
+d.add(253,250,'635.3','<div class="nodetag">635.3</div></span>&nbsp;&nbsp;Augalai, kurių valgomi stiebai, lapai ar žiedai','635.3','Augalai, kurių valgomi stiebai, lapai ar žiedai','','','',false,true);
+d.add(254,250,'635.4','<div class="nodetag">635.4</div></span>&nbsp;&nbsp;Kitos žaliosios daržovės. Lapinės daržovės','635.4','Kitos žaliosios daržovės. Lapinės daržovės','','','',false,true);
+d.add(255,250,'635.6','<div class="nodetag">635.6</div></span>&nbsp;&nbsp;Daržovės, kurių valgomi vaisiai ir sėklos. Ankštiniai augalai','635.6','Daržovės, kurių valgomi vaisiai ir sėklos. Ankštiniai augalai','','','',false,true);
+d.add(256,250,'635.7','<div class="nodetag">635.7</div></span>&nbsp;&nbsp;Aromatiniai augalai. Prieskoniniai augalai','635.7','Aromatiniai augalai. Prieskoniniai augalai','','','',false,true);
+d.add(257,250,'635.8','<div class="nodetag">635.8</div></span>&nbsp;&nbsp;Valgomieji grybai','635.8','Valgomieji grybai','','','',false,true);
+d.add(258,249,'635.9','<div class="nodetag">635.9</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Ornamentals. Decorative plants. Ornamental gardening</span>','635.9','Ornamentals. Decorative plants. Ornamental gardening','','','',false,true);
+d.add(259,208,'636','<div class="nodetag">636</div></span>&nbsp;&nbsp;Gyvulininkystė apskritai. Gyvulių auginimas. Naminių gyvulių veisimas','636','Gyvulininkystė apskritai. Gyvulių auginimas. Naminių gyvulių veisimas','','','',false,true);
+d.add(260,259,'636.01/.09','<div class="nodetag">636.01/.09</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Special auxiliary subdivision for animal husbandry</span>','636.01/.09','Special auxiliary subdivision for animal husbandry','','','',false,true);
+d.add(261,260,'636.01','<div class="nodetag">636.01</div></span>&nbsp;&nbsp;Žmogaus laikomų gyvūnų kilmė, evoliucija ir prijaukinimas. Gyvūnų prijaukinimas. Veisimo ir auginimo biologija','636.01','Žmogaus laikomų gyvūnų kilmė, evoliucija ir prijaukinimas. Gyvūnų prijaukinimas. Veisimo ir auginimo biologija','','','',false,true);
+d.add(262,260,'636.02','<div class="nodetag">636.02</div></span>&nbsp;&nbsp;Gyvuliai laikomi veisimui, parodoms ir moksliniams tyrimams','636.02','Gyvuliai laikomi veisimui, parodoms ir moksliniams tyrimams','','','',false,true);
+d.add(263,260,'636.03','<div class="nodetag">636.03</div></span>&nbsp;&nbsp;Gyvuliai, veisiami ir laikomi maistui ar kitai produkcijai (produktyvumas, produkcijos kiekis). Åкkių ir fermų gyvuliai apskritai','636.03','Gyvuliai, veisiami ir laikomi maistui ar kitai produkcijai (produktyvumas, produkcijos kiekis). Åкkių ir fermų gyvuliai apskritai','','','',false,true);
+d.add(264,260,'636.04','<div class="nodetag">636.04</div></span>&nbsp;&nbsp;Gyvuliai veisiami ar laikomi tarnybai ir pramogoms','636.04','Gyvuliai veisiami ar laikomi tarnybai ir pramogoms','','','',false,true);
+d.add(265,260,'636.05','<div class="nodetag">636.05</div></span>&nbsp;&nbsp;Gyvūnų skirstymas pagal veislė grynumą','636.05','Gyvūnų skirstymas pagal veislė grynumą','','','',false,true);
+d.add(266,260,'636.06','<div class="nodetag">636.06</div></span>&nbsp;&nbsp;Naminių gyvūnų charakteristika, konstitucija ir specialiosios biologinės savybės','636.06','Naminių gyvūnų charakteristika, konstitucija ir specialiosios biologinės savybės','','','',false,true);
+d.add(267,260,'636.08','<div class="nodetag">636.08</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">General questions of breeding and rearing</span>','636.08','General questions of breeding and rearing','','','',false,true);
+d.add(268,260,'636.09','<div class="nodetag">636.09</div></span>&nbsp;&nbsp;Veterinarijos mokslas','636.09','Veterinarijos mokslas','','','',false,true);
+d.add(269,259,'636.1','<div class="nodetag">636.1</div></span>&nbsp;&nbsp;Naminiai arkliai. Arkliai, žirgai','636.1','Naminiai arkliai. Arkliai, žirgai','','','',false,true);
+d.add(270,259,'636.2','<div class="nodetag">636.2</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Large ruminants. Cattle, oxen</span>','636.2','Large ruminants. Cattle, oxen','','','',false,true);
+d.add(271,259,'636.3','<div class="nodetag">636.3</div></span>&nbsp;&nbsp;Smulkieji atrajotojai. Avys. Ožkos','636.3','Smulkieji atrajotojai. Avys. Ožkos','','','',false,true);
+d.add(272,259,'636.4','<div class="nodetag">636.4</div></span>&nbsp;&nbsp;Kiaulės','636.4','Kiaulės','','','',false,true);
+d.add(273,259,'636.5','<div class="nodetag">636.5</div></span>&nbsp;&nbsp;Naminiai paukščiai','636.5','Naminiai paukščiai','','','',false,true);
+d.add(274,259,'636.6','<div class="nodetag">636.6</div></span>&nbsp;&nbsp;Paukščiai (išskyrus naminius ir medžiojamuosius paukščius), veisiami ir laikomi žmonių','636.6','Paukščiai (išskyrus naminius ir medžiojamuosius paukščius), veisiami ir laikomi žmonių','','','',false,true);
+d.add(275,259,'636.7','<div class="nodetag">636.7</div></span>&nbsp;&nbsp;Šunys','636.7','Šunys','','','',false,true);
+d.add(276,259,'636.8','<div class="nodetag">636.8</div></span>&nbsp;&nbsp;Katės','636.8','Katės','','','',false,true);
+d.add(277,259,'636.9','<div class="nodetag">636.9</div></span>&nbsp;&nbsp;Kiti gyvūnai, kuriuos laiko žmonės','636.9','Kiti gyvūnai, kuriuos laiko žmonės','','','',false,true);
+d.add(278,208,'637','<div class="nodetag">637</div></span>&nbsp;&nbsp;Naminių ir medžiojamųjų gyvūnų produktai','637','Naminių ir medžiojamųjų gyvūnų produktai','','','',false,true);
+d.add(279,208,'638','<div class="nodetag">638</div></span>&nbsp;&nbsp;Vabzdžių ir nariuotakojų laikymas, veisimas ir kontrolė','638','Vabzdžių ir nariuotakojų laikymas, veisimas ir kontrolė','','','',false,true);
+d.add(280,208,'639','<div class="nodetag">639</div></span>&nbsp;&nbsp;Medžioklė. Žvejyba. Žuvivaisa','639','Medžioklė. Žvejyba. Žuvivaisa','','','',false,true);
+d.add(281,280,'639.1','<div class="nodetag">639.1</div></span>&nbsp;&nbsp;Medžioklė','639.1','Medžioklė','','','',false,true);
+d.add(282,280,'639.2','<div class="nodetag">639.2</div></span>&nbsp;&nbsp;Žvejyba. Žvejyba','639.2','Žvejyba. Žvejyba','','','',false,true);
+d.add(283,280,'639.3','<div class="nodetag">639.3</div></span>&nbsp;&nbsp;Žuvivaisa','639.3','Žuvivaisa','','','',false,true);
+d.add(284,280,'639.4','<div class="nodetag">639.4</div></span>&nbsp;&nbsp;Vandens moliuskų ((kiautuotųjų vėžiagyvių (austrių, krabų ir pan.)) veisimas','639.4','Vandens moliuskų ((kiautuotųjų vėžiagyvių (austrių, krabų ir pan.)) veisimas','','','',false,true);
+d.add(285,280,'639.5','<div class="nodetag">639.5</div></span>&nbsp;&nbsp;Vėžiagyvių, jūrų ežių (Echnoidea), dėlių (Hirudinea) ir t.t. veisimas','639.5','Vėžiagyvių, jūrų ežių (Echnoidea), dėlių (Hirudinea) ir t.t. veisimas','','','',false,true);
+d.add(286,280,'639.6','<div class="nodetag">639.6</div></span>&nbsp;&nbsp;Kitokie jūrų produktai','639.6','Kitokie jūrų produktai','','','',false,true);
+d.add(287,0,'64','<div class="nodetag">64</div></span>&nbsp;&nbsp;Namų ekonomika. Namų ūkio mokslas. Namų ruoša','64','Namų ekonomika. Namų ūkio mokslas. Namų ruoša','','','',false,true);
+d.add(288,287,'64.01/.08','<div class="nodetag">64.01/.08</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Special auxiliary subdivision for domestic science</span>','64.01/.08','Special auxiliary subdivision for domestic science','','','',false,true);
+d.add(289,288,'64.01','<div class="nodetag">64.01</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">The household. Household management</span>','64.01','The household. Household management','','','',false,true);
+d.add(290,288,'64.048','<div class="nodetag">64.048</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Study of work and working methods in the household</span>','64.048','Study of work and working methods in the household','','','',false,true);
+d.add(291,288,'64.05','<div class="nodetag">64.05</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Home economics. Housekeeping, furnishing and equipping a home etc. for particular kinds of person</span>','64.05','Home economics. Housekeeping, furnishing and equipping a home etc. for particular kinds of person','','','',false,true);
+d.add(292,288,'64.06','<div class="nodetag">64.06</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Household appliances and machines. Labour-saving devices in the home</span>','64.06','Household appliances and machines. Labour-saving devices in the home','','','',false,true);
+d.add(293,288,'64.08','<div class="nodetag">64.08</div></span>&nbsp;&nbsp;Persikėlimas. Persikraustymas','64.08','Persikėlimas. Persikraustymas','','','',false,true);
+d.add(294,287,'640','<div class="nodetag">640</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Types of household</span>','640','Types of household','','','',false,true);
+d.add(295,287,'641/642','<div class="nodetag">641/642</div></span>&nbsp;&nbsp;Maistas. Maisto gaminimas. Patiekalai','641/642','Maistas. Maisto gaminimas. Patiekalai','','','',false,true);
+d.add(296,295,'641','<div class="nodetag">641</div></span>&nbsp;&nbsp;Maistas. Maisto gaminimas. Patiekalai','641','Maistas. Maisto gaminimas. Patiekalai','','','',false,true);
+d.add(297,295,'642','<div class="nodetag">642</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Meals and mealtimes. Tableware</span>','642','Meals and mealtimes. Tableware','','','',false,true);
+d.add(298,287,'643/645','<div class="nodetag">643/645</div></span>&nbsp;&nbsp;Būstas. Namų ūkio detalės ir įrengimai','643/645','Būstas. Namų ūkio detalės ir įrengimai','','','',false,true);
+d.add(299,298,'643','<div class="nodetag">643</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">The home. The dwelling</span>','643','The home. The dwelling','','','',false,true);
+d.add(300,298,'644','<div class="nodetag">644</div></span>&nbsp;&nbsp;Individualiųjų namų instaliacijos sveikatai ir poilsiui','644','Individualiųjų namų instaliacijos sveikatai ir poilsiui','','','',false,true);
+d.add(301,300,'644.1','<div class="nodetag">644.1</div></span>&nbsp;&nbsp;Patalpų klimato reguliavimas. Apšildymas. Ventiliacija, vėdinimas. Oro kondicionavimas','644.1','Patalpų klimato reguliavimas. Apšildymas. Ventiliacija, vėdinimas. Oro kondicionavimas','','','',false,true);
+d.add(302,300,'644.3','<div class="nodetag">644.3</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Domestic lighting</span>','644.3','Domestic lighting','','','',false,true);
+d.add(303,300,'644.6','<div class="nodetag">644.6</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Domestic water supply and sanitary installations</span>','644.6','Domestic water supply and sanitary installations','','','',false,true);
+d.add(304,298,'645','<div class="nodetag">645</div></span>&nbsp;&nbsp;Baldai ir namų įranga','645','Baldai ir namų įranga','','','',false,true);
+d.add(305,287,'646/649','<div class="nodetag">646/649</div></span>&nbsp;&nbsp;Asmeninio naudojimo reikmenys. Namų ūkio valdymas','646/649','Asmeninio naudojimo reikmenys. Namų ūkio valdymas','','','',false,true);
+d.add(306,305,'646','<div class="nodetag">646</div></span>&nbsp;&nbsp;Apranga. Higiena','646','Apranga. Higiena','','','',false,true);
+d.add(307,306,'646.2','<div class="nodetag">646.2</div></span>&nbsp;&nbsp;Drabužių siuvimas ir taisymas namuose. Siuvimas namuose','646.2','Drabužių siuvimas ir taisymas namuose. Siuvimas namuose','','','',false,true);
+d.add(308,306,'646.4','<div class="nodetag">646.4</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Clothing. Garments</span>','646.4','Clothing. Garments','','','',false,true);
+d.add(309,306,'646.7','<div class="nodetag">646.7</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Body care. Beauty care. Accessories for dressing and undressing</span>','646.7','Body care. Beauty care. Accessories for dressing and undressing','','','',false,true);
+d.add(310,305,'648','<div class="nodetag">648</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Washing. Laundry. Cleaning</span>','648','Washing. Laundry. Cleaning','','','',false,true);
+d.add(311,305,'649','<div class="nodetag">649</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Domestic care of children, invalids, guests</span>','649','Domestic care of children, invalids, guests','','','',false,true);
+d.add(312,0,'65','<div class="nodetag">65</div></span>&nbsp;&nbsp;Ryšių ir transporto pramonė. Sąskaityba. Verslo vadyba. Viešieji ryšiai','65','Ryšių ir transporto pramonė. Sąskaityba. Verslo vadyba. Viešieji ryšiai','','','',false,true);
+d.add(313,312,'654','<div class="nodetag">654</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Telecommunication and telecontrol (organization, services)</span>','654','Telecommunication and telecontrol (organization, services)','','','',false,true);
+d.add(314,313,'654.1','<div class="nodetag">654.1</div></span>&nbsp;&nbsp;Telegrafija. Telefonija. Radijas. Televizija','654.1','Telegrafija. Telefonija. Radijas. Televizija','','','',false,true);
+d.add(315,313,'654.9','<div class="nodetag">654.9</div></span>&nbsp;&nbsp;Signalizavimas. Įvairios telekomunikacijų paslaugos. Nuotolinis valdymas (televaldymas)','654.9','Signalizavimas. Įvairios telekomunikacijų paslaugos. Nuotolinis valdymas (televaldymas)','','','',false,true);
+d.add(316,312,'655','<div class="nodetag">655</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Graphic industries. Printing. Publishing. Book trade</span>','655','Graphic industries. Printing. Publishing. Book trade','','','',false,true);
+d.add(317,316,'655.1','<div class="nodetag">655.1</div></span>&nbsp;&nbsp;Spaudos pramonė apskritai','655.1','Spaudos pramonė apskritai','','','',false,true);
+d.add(318,316,'655.4','<div class="nodetag">655.4</div></span>&nbsp;&nbsp;Leidyba ir knygų prekyba apskritai','655.4','Leidyba ir knygų prekyba apskritai','','','',false,true);
+d.add(319,312,'656','<div class="nodetag">656</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Transport and postal services. Traffic organization and control</span>','656','Transport and postal services. Traffic organization and control','','','',false,true);
+d.add(320,319,'656.1/.5','<div class="nodetag">656.1/.5</div></span>&nbsp;&nbsp;Sausumos transportas','656.1/.5','Sausumos transportas','','','',false,true);
+d.add(321,320,'656.1','<div class="nodetag">656.1</div></span>&nbsp;&nbsp;Kelių transportas','656.1','Kelių transportas','','','',false,true);
+d.add(322,320,'656.2','<div class="nodetag">656.2</div></span>&nbsp;&nbsp;Geležinkelio transportas.','656.2','Geležinkelio transportas.','','','',false,true);
+d.add(323,320,'656.4','<div class="nodetag">656.4</div></span>&nbsp;&nbsp;Gabenimas lengvaisiais geležinkeliais','656.4','Gabenimas lengvaisiais geležinkeliais','','','',false,true);
+d.add(324,320,'656.5','<div class="nodetag">656.5</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Land transport by conveyor systems and pipelines</span>','656.5','Land transport by conveyor systems and pipelines','','','',false,true);
+d.add(325,319,'656.6','<div class="nodetag">656.6</div></span>&nbsp;&nbsp;Transportavimas vandeniu','656.6','Transportavimas vandeniu','','','',false,true);
+d.add(326,319,'656.7','<div class="nodetag">656.7</div></span>&nbsp;&nbsp;Transportavimas oru. Oro transportas','656.7','Transportavimas oru. Oro transportas','','','',false,true);
+d.add(327,319,'656.8','<div class="nodetag">656.8</div></span>&nbsp;&nbsp;Pašto paslaugos ir administravimas','656.8','Pašto paslaugos ir administravimas','','','',false,true);
+d.add(328,312,'657','<div class="nodetag">657</div></span>&nbsp;&nbsp;Sąskaityba','657','Sąskaityba','','','',false,true);
+d.add(329,312,'658','<div class="nodetag">658</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Business management, administration. Commercial organization</span>','658','Business management, administration. Commercial organization','','','',false,true);
+d.add(330,329,'658.1','<div class="nodetag">658.1</div></span>&nbsp;&nbsp;Įmonių formos. Finansai','658.1','Įmonių formos. Finansai','','','',false,true);
+d.add(331,329,'658.2','<div class="nodetag">658.2</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Installations and plant. Premises. Buildings, works, factories. Materials</span>','658.2','Installations and plant. Premises. Buildings, works, factories. Materials','','','',false,true);
+d.add(332,329,'658.3','<div class="nodetag">658.3</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Human relations in the enterprise. Personnel management</span>','658.3','Human relations in the enterprise. Personnel management','','','',false,true);
+d.add(333,329,'658.5','<div class="nodetag">658.5</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Production engineering and planning. Design. Production management and control</span>','658.5','Production engineering and planning. Design. Production management and control','','','',false,true);
+d.add(334,329,'658.6','<div class="nodetag">658.6</div></span>&nbsp;&nbsp;Komercinė organizacija ir veikla. Prekės. Paslaugos','658.6','Komercinė organizacija ir veikla. Prekės. Paslaugos','','','',false,true);
+d.add(335,329,'658.7','<div class="nodetag">658.7</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Buying. Purchasing. Procurement. Management of stock</span>','658.7','Buying. Purchasing. Procurement. Management of stock','','','',false,true);
+d.add(336,329,'658.8','<div class="nodetag">658.8</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Marketing. Sales. Selling. Distribution</span>','658.8','Marketing. Sales. Selling. Distribution','','','',false,true);
+d.add(337,329,'658.9','<div class="nodetag">658.9</div></span>&nbsp;&nbsp;Kita komercinė veikla','658.9','Kita komercinė veikla','','','',false,true);
+d.add(338,312,'659','<div class="nodetag">659</div></span>&nbsp;&nbsp;Reklama. Informacinė veikla. Ryšiai su visuomene','659','Reklama. Informacinė veikla. Ryšiai su visuomene','','','',false,true);
+d.add(339,338,'659.1','<div class="nodetag">659.1</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Publicity. Advertising</span>','659.1','Publicity. Advertising','','','',false,true);
+d.add(340,338,'659.2','<div class="nodetag">659.2</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Information work. Advisory and consultancy services</span>','659.2','Information work. Advisory and consultancy services','','','',false,true);
+d.add(341,338,'659.3','<div class="nodetag">659.3</div></span>&nbsp;&nbsp;Masinė komunikacija. Švietimas, informacija plačiąjai visuomenei','659.3','Masinė komunikacija. Švietimas, informacija plačiąjai visuomenei','','','',false,true);
+d.add(342,338,'659.4','<div class="nodetag">659.4</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Public relations (PR)</span>','659.4','Public relations (PR)','','','',false,true);
+d.add(343,0,'66','<div class="nodetag">66</div></span>&nbsp;&nbsp;Chemijos technologija. Chemijos pramonė ir susijusios pramonės šakos','66','Chemijos technologija. Chemijos pramonė ir susijusios pramonės šakos','','','',false,true);
+d.add(344,343,'66.01/.09','<div class="nodetag">66.01/.09</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Special auxiliary subdivision for chemical engineering</span>','66.01/.09','Special auxiliary subdivision for chemical engineering','','','',false,true);
+d.add(345,344,'66.01','<div class="nodetag">66.01</div></span>&nbsp;&nbsp;Cheminės inžinerijos pagrindai','66.01','Cheminės inžinerijos pagrindai','','','',false,true);
+d.add(346,344,'66.02','<div class="nodetag">66.02</div></span>&nbsp;&nbsp;Cheminio perdirbimo procesai ir įrengimai apskritai','66.02','Cheminio perdirbimo procesai ir įrengimai apskritai','','','',false,true);
+d.add(347,344,'66.03','<div class="nodetag">66.03</div></span>&nbsp;&nbsp;Medžiagos, charakteristikos, procesai ir įranga','66.03','Medžiagos, charakteristikos, procesai ir įranga','','','',false,true);
+d.add(348,344,'66.04','<div class="nodetag">66.04</div></span>&nbsp;&nbsp;Terminio apdorojimo operacijos ir įranga','66.04','Terminio apdorojimo operacijos ir įranga','','','',false,true);
+d.add(349,344,'66.06','<div class="nodetag">66.06</div></span>&nbsp;&nbsp;Skysčių cheminė technologija. Vyksmai ir įranga skysčiams ir sistemoms, kuriose yra skysčių, apdoroti','66.06','Skysčių cheminė technologija. Vyksmai ir įranga skysčiams ir sistemoms, kuriose yra skysčių, apdoroti','','','',false,true);
+d.add(350,344,'66.07','<div class="nodetag">66.07</div></span>&nbsp;&nbsp;Dujų cheminė technologija','66.07','Dujų cheminė technologija','','','',false,true);
+d.add(351,344,'66.08','<div class="nodetag">66.08</div></span>&nbsp;&nbsp;Fizikiniai ir fizikocheminiai procesai ir įranga. Fizikiniai ir fizikocheminiai poveikiai cheminiams procesams','66.08','Fizikiniai ir fizikocheminiai procesai ir įranga. Fizikiniai ir fizikocheminiai poveikiai cheminiams procesams','','','',false,true);
+d.add(352,343,'661','<div class="nodetag">661</div></span>&nbsp;&nbsp;Chemikalai','661','Chemikalai','','','',false,true);
+d.add(353,352,'661.1','<div class="nodetag">661.1</div></span>&nbsp;&nbsp;Chemikalų pramonė','661.1','Chemikalų pramonė','','','',false,true);
+d.add(354,352,'661.2','<div class="nodetag">661.2</div></span>&nbsp;&nbsp;Sieros ir jos darinių gamyba','661.2','Sieros ir jos darinių gamyba','','','',false,true);
+d.add(355,352,'661.3','<div class="nodetag">661.3</div></span>&nbsp;&nbsp;Sodos, potašo, šarmų gamyba','661.3','Sodos, potašo, šarmų gamyba','','','',false,true);
+d.add(356,352,'661.4','<div class="nodetag">661.4</div></span>&nbsp;&nbsp;Halogenų ir halogenų junginių, neorganinių peroksidinių junginių gamyba','661.4','Halogenų ir halogenų junginių, neorganinių peroksidinių junginių gamyba','','','',false,true);
+d.add(357,352,'661.5','<div class="nodetag">661.5</div></span>&nbsp;&nbsp;Azoto junginių gamyba. Azoto fiksacija. Azoto gamyba apskritai','661.5','Azoto junginių gamyba. Azoto fiksacija. Azoto gamyba apskritai','','','',false,true);
+d.add(358,352,'661.6','<div class="nodetag">661.6</div></span>&nbsp;&nbsp;Įvairių nemetalų ir pusmetalių (nemetalų) ir jų junginių gamyba','661.6','Įvairių nemetalų ir pusmetalių (nemetalų) ir jų junginių gamyba','','','',false,true);
+d.add(359,352,'661.7','<div class="nodetag">661.7</div></span>&nbsp;&nbsp;Organinių medžiagų gamyba. Organiniai chemikalai','661.7','Organinių medžiagų gamyba. Organiniai chemikalai','','','',false,true);
+d.add(360,352,'661.8','<div class="nodetag">661.8</div></span>&nbsp;&nbsp;Metalų junginiai apskritai. Druskos. Mineralų junginiai','661.8','Metalų junginiai apskritai. Druskos. Mineralų junginiai','','','',false,true);
+d.add(361,352,'661.9','<div class="nodetag">661.9</div></span>&nbsp;&nbsp;Dujų gamyba','661.9','Dujų gamyba','','','',false,true);
+d.add(362,343,'662','<div class="nodetag">662</div></span>&nbsp;&nbsp;Sprogstamosios medžiagos . Kuras','662','Sprogstamosios medžiagos . Kuras','','','',false,true);
+d.add(363,362,'662.1/.4','<div class="nodetag">662.1/.4</div></span>&nbsp;&nbsp;Sprogstamosios medžiagos medžiagos','662.1/.4','Sprogstamosios medžiagos medžiagos','','','',false,true);
+d.add(364,363,'662.1','<div class="nodetag">662.1</div></span>&nbsp;&nbsp;Fejerverkai. Pirotechnika ir su ja susiję įrengimai','662.1','Fejerverkai. Pirotechnika ir su ja susiję įrengimai','','','',false,true);
+d.add(365,363,'662.2','<div class="nodetag">662.2</div></span>&nbsp;&nbsp;Brizantinės sprogstamosios medžiagos','662.2','Brizantinės sprogstamosios medžiagos','','','',false,true);
+d.add(366,363,'662.3','<div class="nodetag">662.3</div></span>&nbsp;&nbsp;Metamųji sprogstamųjų medžiagų parakai. Dūminiai parakai','662.3','Metamųji sprogstamųjų medžiagų parakai. Dūminiai parakai','','','',false,true);
+d.add(367,363,'662.4','<div class="nodetag">662.4</div></span>&nbsp;&nbsp;Iniciatoriai (sprogstamosioms medžiagoms). Detonatoriai','662.4','Iniciatoriai (sprogstamosioms medžiagoms). Detonatoriai','','','',false,true);
+d.add(368,362,'662.5','<div class="nodetag">662.5</div></span>&nbsp;&nbsp;Uždegikliai. Dagčiai. Degtukai. Žiebtuvėliai','662.5','Uždegikliai. Dagčiai. Degtukai. Žiebtuvėliai','','','',false,true);
+d.add(369,362,'662.6/.9','<div class="nodetag">662.6/.9</div></span>&nbsp;&nbsp;Šilumos ekonomija. Kuro ekonomija. Kuras (degalai). Šildymas','662.6/.9','Šilumos ekonomija. Kuro ekonomija. Kuras (degalai). Šildymas','','','',false,true);
+d.add(370,369,'662.6','<div class="nodetag">662.6</div></span>&nbsp;&nbsp;Šilumos ar kuro ekonomija bendrai . Degimas. Gamtinis kuras','662.6','Šilumos ar kuro ekonomija bendrai . Degimas. Gamtinis kuras','','','',false,true);
+d.add(371,369,'662.7','<div class="nodetag">662.7</div></span>&nbsp;&nbsp;Kuro technologija. Perdirbtas kuras','662.7','Kuro technologija. Perdirbtas kuras','','','',false,true);
+d.add(372,369,'662.8','<div class="nodetag">662.8</div></span>&nbsp;&nbsp;Kuro kietėjimo mechaninis apdorojimas. Briketavimas','662.8','Kuro kietėjimo mechaninis apdorojimas. Briketavimas','','','',false,true);
+d.add(373,369,'662.9','<div class="nodetag">662.9</div></span>&nbsp;&nbsp;Krosnių ir degimo technologija','662.9','Krosnių ir degimo technologija','','','',false,true);
+d.add(374,343,'663','<div class="nodetag">663</div></span>&nbsp;&nbsp;Techninė mikrobiologija . Pramoninė mikologija. Fermentavimo technologija, fermentacijos pramonė. Gėrimų gamyba. Stimuliantų gamyba','663','Techninė mikrobiologija . Pramoninė mikologija. Fermentavimo technologija, fermentacijos pramonė. Gėrimų gamyba. Stimuliantų gamyba','','','',false,true);
+d.add(375,374,'663.1','<div class="nodetag">663.1</div></span>&nbsp;&nbsp;Mikrobiologijos pramonės šakos. Taikomosios mikrobiologijos mokslas ir technologija. Taikomoji mikologija','663.1','Mikrobiologijos pramonės šakos. Taikomosios mikrobiologijos mokslas ir technologija. Taikomoji mikologija','','','',false,true);
+d.add(376,374,'663.2','<div class="nodetag">663.2</div></span>&nbsp;&nbsp;Vynas. Vynininkystė. Enologija (mokslas apie vynus)','663.2','Vynas. Vynininkystė. Enologija (mokslas apie vynus)','','','',false,true);
+d.add(377,374,'663.3','<div class="nodetag">663.3</div></span>&nbsp;&nbsp;Sidras. Kriaušių sidras. Kiti vaisių, augalų sulčių vynai','663.3','Sidras. Kriaušių sidras. Kiti vaisių, augalų sulčių vynai','','','',false,true);
+d.add(378,374,'663.4','<div class="nodetag">663.4</div></span>&nbsp;&nbsp;Alus. Alaus darymas. Salyklo darymas','663.4','Alus. Alaus darymas. Salyklo darymas','','','',false,true);
+d.add(379,374,'663.5','<div class="nodetag">663.5</div></span>&nbsp;&nbsp;Geriamas alkoholis. Alkoholiniai gėrimai (stiprūs svaigieji gėrimai). Alkoholio distiliavimas, rafinavimas','663.5','Geriamas alkoholis. Alkoholiniai gėrimai (stiprūs svaigieji gėrimai). Alkoholio distiliavimas, rafinavimas','','','',false,true);
+d.add(380,374,'663.6','<div class="nodetag">663.6</div></span>&nbsp;&nbsp;Vanduo gėrimams ir kitam pramoniniam nadojimui. Mineraliniai vandenys. Gydomieji vandenys. Valgomieji, maistiniai ledai','663.6','Vanduo gėrimams ir kitam pramoniniam nadojimui. Mineraliniai vandenys. Gydomieji vandenys. Valgomieji, maistiniai ledai','','','',false,true);
+d.add(381,374,'663.8','<div class="nodetag">663.8</div></span>&nbsp;&nbsp;Pagrindiniai gėrimų mišinių komponentai. Vaisių ir daržovių sultys. Sirupai. Likeriai. Putojantys gėrimai','663.8','Pagrindiniai gėrimų mišinių komponentai. Vaisių ir daržovių sultys. Sirupai. Likeriai. Putojantys gėrimai','','','',false,true);
+d.add(382,374,'663.9','<div class="nodetag">663.9</div></span>&nbsp;&nbsp;Šokoladas. Kakava. Kava. Arbata. Tabakas','663.9','Šokoladas. Kakava. Kava. Arbata. Tabakas','','','',false,true);
+d.add(383,343,'664','<div class="nodetag">664</div></span>&nbsp;&nbsp;Kietų maisto produktų gaminimas ir laikymas','664','Kietų maisto produktų gaminimas ir laikymas','','','',false,true);
+d.add(384,383,'664.1','<div class="nodetag">664.1</div></span>&nbsp;&nbsp;Cukrus. Melasa. Gliukozė ir t.t','664.1','Cukrus. Melasa. Gliukozė ir t.t','','','',false,true);
+d.add(385,383,'664.2','<div class="nodetag">664.2</div></span>&nbsp;&nbsp;Krakomolas. Krakmolingos medžiagos (produktai - ?)','664.2','Krakomolas. Krakmolingos medžiagos (produktai - ?)','','','',false,true);
+d.add(386,383,'664.3','<div class="nodetag">664.3</div></span>&nbsp;&nbsp;Valgomieji aliejai ir riebalai. Margarinas. Baltyminiai maisto produktai','664.3','Valgomieji aliejai ir riebalai. Margarinas. Baltyminiai maisto produktai','','','',false,true);
+d.add(387,383,'664.4','<div class="nodetag">664.4</div></span>&nbsp;&nbsp;Maistiniai mineralai','664.4','Maistiniai mineralai','','','',false,true);
+d.add(388,383,'664.5','<div class="nodetag">664.5</div></span>&nbsp;&nbsp;Prieskoniai. Pagardai','664.5','Prieskoniai. Pagardai','','','',false,true);
+d.add(389,383,'664.6/.7','<div class="nodetag">664.6/.7</div></span>&nbsp;&nbsp;Grūdinių kultūrų perdirbimo technologija','664.6/.7','Grūdinių kultūrų perdirbimo technologija','','','',false,true);
+d.add(390,389,'664.6','<div class="nodetag">664.6</div></span>&nbsp;&nbsp;Kepimas. Duona. Miltiniai konditerijos gaminiai','664.6','Kepimas. Duona. Miltiniai konditerijos gaminiai','','','',false,true);
+d.add(391,389,'664.7','<div class="nodetag">664.7</div></span>&nbsp;&nbsp;Grūdų perdirbimo technologija. Grūdų malimas . Grūdų perdirbimas','664.7','Grūdų perdirbimo technologija. Grūdų malimas . Grūdų perdirbimas','','','',false,true);
+d.add(392,383,'664.8/.9','<div class="nodetag">664.8/.9</div></span>&nbsp;&nbsp;Maisto konservavimo technologija','664.8/.9','Maisto konservavimo technologija','','','',false,true);
+d.add(393,343,'665','<div class="nodetag">665</div></span>&nbsp;&nbsp;Aliejai. Riebalai. Vaškai. Klijai. Sakai, lipai. Dervos','665','Aliejai. Riebalai. Vaškai. Klijai. Sakai, lipai. Dervos','','','',false,true);
+d.add(394,393,'665.1','<div class="nodetag">665.1</div></span>&nbsp;&nbsp;Bendri teiginiai apie aliejus, riebalus, vaškus ir iš jų gaunamus produktus','665.1','Bendri teiginiai apie aliejus, riebalus, vaškus ir iš jų gaunamus produktus','','','',false,true);
+d.add(395,393,'665.2','<div class="nodetag">665.2</div></span>&nbsp;&nbsp;Gyvulinės kilmės aliejai, riebalai ir vaškai','665.2','Gyvulinės kilmės aliejai, riebalai ir vaškai','','','',false,true);
+d.add(396,393,'665.3','<div class="nodetag">665.3</div></span>&nbsp;&nbsp;Augaliniai aliejai, augaliniai vaškai, fosfolipidai','665.3','Augaliniai aliejai, augaliniai vaškai, fosfolipidai','','','',false,true);
+d.add(397,393,'665.5','<div class="nodetag">665.5</div></span>&nbsp;&nbsp;Eteriniai aliejai. Parfumerija. Kosmetika','665.5','Eteriniai aliejai. Parfumerija. Kosmetika','','','',false,true);
+d.add(398,393,'665.6/.7','<div class="nodetag">665.6/.7</div></span>&nbsp;&nbsp;Naftos ir panašių pramonės šakų gamybos procesai ir produktai','665.6/.7','Naftos ir panašių pramonės šakų gamybos procesai ir produktai','','','',false,true);
+d.add(399,398,'665.6','<div class="nodetag">665.6</div></span>&nbsp;&nbsp;Alyvos technologija. Naftos ir panašių produktų technologija','665.6','Alyvos technologija. Naftos ir panašių produktų technologija','','','',false,true);
+d.add(400,398,'665.7','<div class="nodetag">665.7</div></span>&nbsp;&nbsp;Naftos produktų gamyba. Mineralinės alyvos ir panašūs produktai','665.7','Naftos produktų gamyba. Mineralinės alyvos ir panašūs produktai','','','',false,true);
+d.add(401,393,'665.9','<div class="nodetag">665.9</div></span>&nbsp;&nbsp;Įvairių organinių medžiagų gamyba','665.9','Įvairių organinių medžiagų gamyba','','','',false,true);
+d.add(402,343,'666','<div class="nodetag">666</div></span>&nbsp;&nbsp;Stiklo pramonė. Keramika. Cementas ir betonas','666','Stiklo pramonė. Keramika. Cementas ir betonas','','','',false,true);
+d.add(403,402,'666.1','<div class="nodetag">666.1</div></span>&nbsp;&nbsp;Stiklo pramonė. Stiklo gamybos technologija. Stiklo gamyba apskritai. Stiklas apskritai','666.1','Stiklo pramonė. Stiklo gamybos technologija. Stiklo gamyba apskritai. Stiklas apskritai','','','',false,true);
+d.add(404,402,'666.3/.7','<div class="nodetag">666.3/.7</div></span>&nbsp;&nbsp;Keramika','666.3/.7','Keramika','','','',false,true);
+d.add(405,404,'666.3','<div class="nodetag">666.3</div></span>&nbsp;&nbsp;Keramika apskritai. Keramikos žaliavos','666.3','Keramika apskritai. Keramikos žaliavos','','','',false,true);
+d.add(406,404,'666.5','<div class="nodetag">666.5</div></span>&nbsp;&nbsp;Porcelianas. Kinų porcelianas','666.5','Porcelianas. Kinų porcelianas','','','',false,true);
+d.add(407,404,'666.6','<div class="nodetag">666.6</div></span>&nbsp;&nbsp;Keramika. Keraminiai dirbiniai (poringi keraminiai indai)','666.6','Keramika. Keraminiai dirbiniai (poringi keraminiai indai)','','','',false,true);
+d.add(408,404,'666.7','<div class="nodetag">666.7</div></span>&nbsp;&nbsp;Rupioji (grubioji) keramika. Ugniai atsparios medžiagos. Keramikos ir kitų medžiagų mišiniai','666.7','Rupioji (grubioji) keramika. Ugniai atsparios medžiagos. Keramikos ir kitų medžiagų mišiniai','','','',false,true);
+d.add(409,402,'666.9','<div class="nodetag">666.9</div></span>&nbsp;&nbsp;Gipso, kalkių ir cemento pramonė. Rišamosios medžiagos ??. Gipsai ir jų kompozicijos. Skiedinys ir betonas','666.9','Gipso, kalkių ir cemento pramonė. Rišamosios medžiagos ??. Gipsai ir jų kompozicijos. Skiedinys ir betonas','','','',false,true);
+d.add(410,343,'667','<div class="nodetag">667</div></span>&nbsp;&nbsp;Dažų gamyba','667','Dažų gamyba','','','',false,true);
+d.add(411,410,'667.2','<div class="nodetag">667.2</div></span>&nbsp;&nbsp;Dažiklių gamyba. Dažiklių gaminimas ir naudojimas','667.2','Dažiklių gamyba. Dažiklių gaminimas ir naudojimas','','','',false,true);
+d.add(412,410,'667.4','<div class="nodetag">667.4</div></span>&nbsp;&nbsp;Rašalai','667.4','Rašalai','','','',false,true);
+d.add(413,410,'667.5','<div class="nodetag">667.5</div></span>&nbsp;&nbsp;Poligrafiniai dažai (juodi ar spalvoti). Litografiniai dažai. Rašymo ir piešimo pieštukai. Spalvoti pieštukai','667.5','Poligrafiniai dažai (juodi ar spalvoti). Litografiniai dažai. Rašymo ir piešimo pieštukai. Spalvoti pieštukai','','','',false,true);
+d.add(414,410,'667.6','<div class="nodetag">667.6</div></span>&nbsp;&nbsp;Dangos ir dengimo technologija. Dažai. Lakai. Politūros','667.6','Dangos ir dengimo technologija. Dažai. Lakai. Politūros','','','',false,true);
+d.add(415,410,'667.7','<div class="nodetag">667.7</div></span>&nbsp;&nbsp;Dažymas ir t.t. įvairių medžiagų (išskyrus spaudą ir tapybą)','667.7','Dažymas ir t.t. įvairių medžiagų (išskyrus spaudą ir tapybą)','','','',false,true);
+d.add(416,343,'669','<div class="nodetag">669</div></span>&nbsp;&nbsp;Metalurgija','669','Metalurgija','','','',false,true);
+d.add(417,416,'669.1','<div class="nodetag">669.1</div></span>&nbsp;&nbsp;Juodoji metalurgija. Geležis ir plienas','669.1','Juodoji metalurgija. Geležis ir plienas','','','',false,true);
+d.add(418,416,'669.2','<div class="nodetag">669.2</div></span>&nbsp;&nbsp;Spalvotieji metalai apskritai','669.2','Spalvotieji metalai apskritai','','','',false,true);
+d.add(419,0,'67','<div class="nodetag">67</div></span>&nbsp;&nbsp;Įvairios pramonės šakos ir amatai','67','Įvairios pramonės šakos ir amatai','','','',false,true);
+d.add(420,419,'671','<div class="nodetag">671</div></span>&nbsp;&nbsp;Tauriųjų metalų , brangakmenių gaminiai, dirbiniai','671','Tauriųjų metalų , brangakmenių gaminiai, dirbiniai','','','',false,true);
+d.add(421,420,'671.1','<div class="nodetag">671.1</div></span>&nbsp;&nbsp;Aukso ir sidabro gaminiai, dirbiniai. Gaminiai iš kitų tauriųjų metalų. Juvelyriniai dirbiniai, papuošalai','671.1','Aukso ir sidabro gaminiai, dirbiniai. Gaminiai iš kitų tauriųjų metalų. Juvelyriniai dirbiniai, papuošalai','','','',false,true);
+d.add(422,420,'671.4','<div class="nodetag">671.4</div></span>&nbsp;&nbsp;Monetų ir medalių gamyba. Pinigų kalykla','671.4','Monetų ir medalių gamyba. Pinigų kalykla','','','',false,true);
+d.add(423,419,'672','<div class="nodetag">672</div></span>&nbsp;&nbsp;Geležies ir plieno gaminiai, dirbiniai apskritai','672','Geležies ir plieno gaminiai, dirbiniai apskritai','','','',false,true);
+d.add(424,419,'673','<div class="nodetag">673</div></span>&nbsp;&nbsp;Gaminiai (dirbinai) iš spalvotųjų metalų (išskyrus brangiuosius metalus)','673','Gaminiai (dirbinai) iš spalvotųjų metalų (išskyrus brangiuosius metalus)','','','',false,true);
+d.add(425,419,'674','<div class="nodetag">674</div></span>&nbsp;&nbsp;Medienos apdirbimo pramonė','674','Medienos apdirbimo pramonė','','','',false,true);
+d.add(426,419,'675','<div class="nodetag">675</div></span>&nbsp;&nbsp;Odos pramonė (tame tarpe kailių ir sintetinės odos)','675','Odos pramonė (tame tarpe kailių ir sintetinės odos)','','','',false,true);
+d.add(427,419,'676','<div class="nodetag">676</div></span>&nbsp;&nbsp;Celiuliozės, popieriaus ir kartono pramonė','676','Celiuliozės, popieriaus ir kartono pramonė','','','',false,true);
+d.add(428,419,'677','<div class="nodetag">677</div></span>&nbsp;&nbsp;Tekstilės gamyba','677','Tekstilės gamyba','','','',false,true);
+d.add(429,428,'677.1/.5','<div class="nodetag">677.1/.5</div></span>&nbsp;&nbsp;Tekstilės pluoštai','677.1/.5','Tekstilės pluoštai','','','',false,true);
+d.add(430,429,'677.1/.3','<div class="nodetag">677.1/.3</div></span>&nbsp;&nbsp;Natūralieji pluoštai','677.1/.3','Natūralieji pluoštai','','','',false,true);
+d.add(431,430,'677.1/.2','<div class="nodetag">677.1/.2</div></span>&nbsp;&nbsp;Augaliniai pluoštai','677.1/.2','Augaliniai pluoštai','','','',false,true);
+d.add(432,431,'677.1','<div class="nodetag">677.1</div></span>&nbsp;&nbsp;Karnienos pluoštai (pluoštai iš dviskilčių augalų stiebų). Kietieji pluoštai (pluoštai iš vienskilčių augalų lapų ir vaisų)','677.1','Karnienos pluoštai (pluoštai iš dviskilčių augalų stiebų). Kietieji pluoštai (pluoštai iš vienskilčių augalų lapų ir vaisų)','','','',false,true);
+d.add(433,431,'677.2','<div class="nodetag">677.2</div></span>&nbsp;&nbsp;Augalinės kilmės plaukeliai','677.2','Augalinės kilmės plaukeliai','','','',false,true);
+d.add(434,430,'677.3','<div class="nodetag">677.3</div></span>&nbsp;&nbsp;Gyvulinės kilmės pluoštai','677.3','Gyvulinės kilmės pluoštai','','','',false,true);
+d.add(435,429,'677.4','<div class="nodetag">677.4</div></span>&nbsp;&nbsp;Dirbtiniai pluoštai','677.4','Dirbtiniai pluoštai','','','',false,true);
+d.add(436,429,'677.5','<div class="nodetag">677.5</div></span>&nbsp;&nbsp;Mineraliniai ir metaliniai pluoštai. Pynimo medžiagos. Guminiai siūlai. Popieriniai siūlai','677.5','Mineraliniai ir metaliniai pluoštai. Pynimo medžiagos. Guminiai siūlai. Popieriniai siūlai','','','',false,true);
+d.add(437,419,'678','<div class="nodetag">678</div></span>&nbsp;&nbsp;Polimerų gamyba. Kaučiuko gamyba. Plastiko gamyba','678','Polimerų gamyba. Kaučiuko gamyba. Plastiko gamyba','','','',false,true);
+d.add(438,437,'678.4','<div class="nodetag">678.4</div></span>&nbsp;&nbsp;Natūrali guma. Kitos stambiamolekulinės medžiagos turinčios tik anglies ir vandenilio','678.4','Natūrali guma. Kitos stambiamolekulinės medžiagos turinčios tik anglies ir vandenilio','','','',false,true);
+d.add(439,437,'678.5','<div class="nodetag">678.5</div></span>&nbsp;&nbsp;Plastikai','678.5','Plastikai','','','',false,true);
+d.add(440,437,'678.6','<div class="nodetag">678.6</div></span>&nbsp;&nbsp;Sintetiniai polikondensacijos produktai. Polikondensatai. Sintetinės dervos. Sintetinės struktūros ir kt.','678.6','Sintetiniai polikondensacijos produktai. Polikondensatai. Sintetinės dervos. Sintetinės struktūros ir kt.','','','',false,true);
+d.add(441,437,'678.7','<div class="nodetag">678.7</div></span>&nbsp;&nbsp;Sintetiniai polimerizacijos produktai. Polimerizatai. Sintetinės gumos','678.7','Sintetiniai polimerizacijos produktai. Polimerizatai. Sintetinės gumos','','','',false,true);
+d.add(442,419,'679','<div class="nodetag">679</div></span>&nbsp;&nbsp;Pramonės šakos, kurioms naudojamos įvairios technologinės medžiagos','679','Pramonės šakos, kurioms naudojamos įvairios technologinės medžiagos','','','',false,true);
+d.add(443,442,'679.7','<div class="nodetag">679.7</div></span>&nbsp;&nbsp;Kabelių ir virvių pramonė','679.7','Kabelių ir virvių pramonė','','','',false,true);
+d.add(444,442,'679.8','<div class="nodetag">679.8</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Stone technology. Stone industry</span>','679.8','Stone technology. Stone industry','','','',false,true);
+d.add(445,442,'679.9','<div class="nodetag">679.9</div></span>&nbsp;&nbsp;Kitų natūralių apdirbimui skirtų medžiagų technologija','679.9','Kitų natūralių apdirbimui skirtų medžiagų technologija','','','',false,true);
+d.add(446,0,'68','<div class="nodetag">68</div></span>&nbsp;&nbsp;Įvairios pramonės šakos, amatai ir verslai','68','Įvairios pramonės šakos, amatai ir verslai','','','',false,true);
+d.add(447,446,'681','<div class="nodetag">681</div></span>&nbsp;&nbsp;Tikslieji mechanizmai ir instrumentai','681','Tikslieji mechanizmai ir instrumentai','','','',false,true);
+d.add(448,447,'681.1','<div class="nodetag">681.1</div></span>&nbsp;&nbsp;Aparatai su sukamaisias ar varomaisiais mechanizmais','681.1','Aparatai su sukamaisias ar varomaisiais mechanizmais','','','',false,true);
+d.add(449,447,'681.2','<div class="nodetag">681.2</div></span>&nbsp;&nbsp;Prietaisų pramonė. Prietaisai. Matavimo prietaisai ir jų gamyba. Svarstyklės. Svėrimo prietaisai','681.2','Prietaisų pramonė. Prietaisai. Matavimo prietaisai ir jų gamyba. Svarstyklės. Svėrimo prietaisai','','','',false,true);
+d.add(450,447,'681.5','<div class="nodetag">681.5</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Automatic control technology. Smart technology</span>','681.5','Automatic control technology. Smart technology','','','',false,true);
+d.add(451,447,'681.6','<div class="nodetag">681.6</div></span>&nbsp;&nbsp;Grafinės reprodukcijos mašinos ir įranga','681.6','Grafinės reprodukcijos mašinos ir įranga','','','',false,true);
+d.add(452,447,'681.7','<div class="nodetag">681.7</div></span>&nbsp;&nbsp;Optiniai aparatai ir prietaisai','681.7','Optiniai aparatai ir prietaisai','','','',false,true);
+d.add(453,447,'681.8','<div class="nodetag">681.8</div></span>&nbsp;&nbsp;Techninė akustika','681.8','Techninė akustika','','','',false,true);
+d.add(454,446,'682','<div class="nodetag">682</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Smithery. Blacksmithery. Farriery. Hand-forged ironwork</span>','682','Smithery. Blacksmithery. Farriery. Hand-forged ironwork','','','',false,true);
+d.add(455,454,'682.1','<div class="nodetag">682.1</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Farriery. Shoe-smithing</span>','682.1','Farriery. Shoe-smithing','','','',false,true);
+d.add(456,454,'682.3','<div class="nodetag">682.3</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Toolsmithing. Edge-tool forging</span>','682.3','Toolsmithing. Edge-tool forging','','','',false,true);
+d.add(457,454,'682.5','<div class="nodetag">682.5</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Furnishing ironwork</span>','682.5','Furnishing ironwork','','','',false,true);
+d.add(458,454,'682.6','<div class="nodetag">682.6</div></span>&nbsp;&nbsp;Statybiniai apkaustai','682.6','Statybiniai apkaustai','','','',false,true);
+d.add(459,446,'683','<div class="nodetag">683</div></span>&nbsp;&nbsp;Geležies dirbiniai (smulkūs). Metalo dirbiniai (lenvieji). Spynų gamyba. Bottling. Lempos. Kaitinimo įranga','683','Geležies dirbiniai (smulkūs). Metalo dirbiniai (lenvieji). Spynų gamyba. Bottling. Lempos. Kaitinimo įranga','','','',false,true);
+d.add(460,446,'684','<div class="nodetag">684</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Furniture and allied industries. Furniture manufacture. Upholstery</span>','684','Furniture and allied industries. Furniture manufacture. Upholstery','','','',false,true);
+d.add(461,460,'684.4','<div class="nodetag">684.4</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Furniture. Furniture design and manufacture</span>','684.4','Furniture. Furniture design and manufacture','','','',false,true);
+d.add(462,460,'684.6','<div class="nodetag">684.6</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Veneering. Marquetry. Inlay etc.</span>','684.6','Veneering. Marquetry. Inlay etc.','','','',false,true);
+d.add(463,460,'684.7','<div class="nodetag">684.7</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Upholstery. Bedding. Covers. Hangings</span>','684.7','Upholstery. Bedding. Covers. Hangings','','','',false,true);
+d.add(464,446,'685','<div class="nodetag">685</div></span>&nbsp;&nbsp;Balnininkystė. Avalynė. Pirštinės. Kelionės, sporto žaidimų ir kt. įranga','685','Balnininkystė. Avalynė. Pirštinės. Kelionės, sporto žaidimų ir kt. įranga','','','',false,true);
+d.add(465,464,'685.1','<div class="nodetag">685.1</div></span>&nbsp;&nbsp;Balnininkystė. Pakinktų gamyba','685.1','Balnininkystė. Pakinktų gamyba','','','',false,true);
+d.add(466,464,'685.2','<div class="nodetag">685.2</div></span>&nbsp;&nbsp;Ekipuotė. Diržų gamyba. Odos dirbiniai, gaminiai ir kiti reikmenys','685.2','Ekipuotė. Diržų gamyba. Odos dirbiniai, gaminiai ir kiti reikmenys','','','',false,true);
+d.add(467,464,'685.3','<div class="nodetag">685.3</div></span>&nbsp;&nbsp;Avalynė. Kitos judėjimo, persikėlimo priemonės','685.3','Avalynė. Kitos judėjimo, persikėlimo priemonės','','','',false,true);
+d.add(468,464,'685.4','<div class="nodetag">685.4</div></span>&nbsp;&nbsp;Pirštinės. Pirštinių gamyba','685.4','Pirštinės. Pirštinių gamyba','','','',false,true);
+d.add(469,464,'685.5','<div class="nodetag">685.5</div></span>&nbsp;&nbsp;Kelionės reikmenys. Turistinė įranga','685.5','Kelionės reikmenys. Turistinė įranga','','','',false,true);
+d.add(470,464,'685.6','<div class="nodetag">685.6</div></span>&nbsp;&nbsp;Sporto ir žaidimų įranga. Atletikos, gimnastikos ir fizinio lavinimo įranga','685.6','Sporto ir žaidimų įranga. Atletikos, gimnastikos ir fizinio lavinimo įranga','','','',false,true);
+d.add(471,464,'685.7','<div class="nodetag">685.7</div></span>&nbsp;&nbsp;Alpinizmo, kopimo įranga. Plaukimo įranga','685.7','Alpinizmo, kopimo įranga. Plaukimo įranga','','','',false,true);
+d.add(472,464,'685.8','<div class="nodetag">685.8</div></span>&nbsp;&nbsp;Stalo žaidimų įranga','685.8','Stalo žaidimų įranga','','','',false,true);
+d.add(473,446,'686','<div class="nodetag">686</div></span>&nbsp;&nbsp;Knygų įrišimas. Dengimas metalu. Veidrodžių gamyba. Raštinės reikmenys','686','Knygų įrišimas. Dengimas metalu. Veidrodžių gamyba. Raštinės reikmenys','','','',false,true);
+d.add(474,446,'687','<div class="nodetag">687</div></span>&nbsp;&nbsp;Siuvimo pramonė. Drabužių siuvimas. Grožio kultūra','687','Siuvimo pramonė. Drabužių siuvimas. Grožio kultūra','','','',false,true);
+d.add(475,474,'687.1','<div class="nodetag">687.1</div></span>&nbsp;&nbsp;Viršutiniai drabužiai. Siuvimas','687.1','Viršutiniai drabužiai. Siuvimas','','','',false,true);
+d.add(476,474,'687.2','<div class="nodetag">687.2</div></span>&nbsp;&nbsp;Baltiniai. Moteriškas apatinis trikotažas','687.2','Baltiniai. Moteriškas apatinis trikotažas','','','',false,true);
+d.add(477,474,'687.3','<div class="nodetag">687.3</div></span>&nbsp;&nbsp;Mezginiai, trikotažo gaminiai. Kaklaraiščiai. Drabužių apsaugos priemonės','687.3','Mezginiai, trikotažo gaminiai. Kaklaraiščiai. Drabužių apsaugos priemonės','','','',false,true);
+d.add(478,474,'687.4','<div class="nodetag">687.4</div></span>&nbsp;&nbsp;Galvos apdangalai. Skrybėlių gamyba. Skrybėlaitės','687.4','Galvos apdangalai. Skrybėlių gamyba. Skrybėlaitės','','','',false,true);
+d.add(479,474,'687.5','<div class="nodetag">687.5</div></span>&nbsp;&nbsp;Grožio kultūros pramonė','687.5','Grožio kultūros pramonė','','','',false,true);
+d.add(480,474,'687.8','<div class="nodetag">687.8</div></span>&nbsp;&nbsp;Dirbtiniai kailiai','687.8','Dirbtiniai kailiai','','','',false,true);
+d.add(481,474,'687.9','<div class="nodetag">687.9</div></span>&nbsp;&nbsp;Šepečių gamyba. Šluotos ir kt.','687.9','Šepečių gamyba. Šluotos ir kt.','','','',false,true);
+d.add(482,446,'688','<div class="nodetag">688</div></span>&nbsp;&nbsp;Galanterijos dirbinai ir gaminiai. Žaislai. Dekoratyviniai dirbiniai','688','Galanterijos dirbinai ir gaminiai. Žaislai. Dekoratyviniai dirbiniai','','','',false,true);
+d.add(483,482,'688.7','<div class="nodetag">688.7</div></span>&nbsp;&nbsp;Žaislai. Pramogų, pokštų reikmenys. Puošmenos','688.7','Žaislai. Pramogų, pokštų reikmenys. Puošmenos','','','',false,true);
+d.add(484,446,'689','<div class="nodetag">689</div></span>&nbsp;&nbsp;Mėgėjiški rankdarbiai. Techniniai pomėgiai, hobi','689','Mėgėjiški rankdarbiai. Techniniai pomėgiai, hobi','','','',false,true);
+d.add(485,0,'69','<div class="nodetag">69</div></span>&nbsp;&nbsp;Statyba. Statybinės medžiagos. Statybos darbai','69','Statyba. Statybinės medžiagos. Statybos darbai','','','',false,true);
+d.add(486,485,'691','<div class="nodetag">691</div></span>&nbsp;&nbsp;Statybinės medžiagos. Statybiniai komponentai, sudedamosios dalys, sandai','691','Statybinės medžiagos. Statybiniai komponentai, sudedamosios dalys, sandai','','','',false,true);
+d.add(487,485,'692','<div class="nodetag">692</div></span>&nbsp;&nbsp;Pastatų konstrukcinės dalys ir elementai','692','Pastatų konstrukcinės dalys ir elementai','','','',false,true);
+d.add(488,485,'693','<div class="nodetag">693</div></span>&nbsp;&nbsp;Mūro darbai ir susiję statybos darbai','693','Mūro darbai ir susiję statybos darbai','','','',false,true);
+d.add(489,485,'694','<div class="nodetag">694</div></span>&nbsp;&nbsp;Medžio darbai statyboje. Medžio darbai. Stalystės dirbiniai','694','Medžio darbai statyboje. Medžio darbai. Stalystės dirbiniai','','','',false,true);
+d.add(490,485,'696','<div class="nodetag">696</div></span>&nbsp;&nbsp;Pastatų inžinerinė įranga, vidinės komunikacijos (kanalizacijos įranga, sanitarinė techninė įranga, dujotiekio įranga, garų įranga, elektros įranga). Šaltkalvis vamzdynininkas. Vandentiekio darbininkas, vandentiekininkas. Šaltkalvis. Drenuotojas. Elektrikas. Kitos specialybės, amatai','696','Pastatų inžinerinė įranga, vidinės komunikacijos (kanalizacijos įranga, sanitarinė techninė įranga, dujotiekio įranga, garų įranga, elektros įranga). Šaltkalvis vamzdynininkas. Vandentiekio darbininkas, vandentiekininkas. Šaltkalvis. Drenuotojas. Elektrikas. Kitos specialybės, amatai','','','',false,true);
+d.add(491,485,'697','<div class="nodetag">697</div></span>&nbsp;&nbsp;Pastatų šildymas, vėdinimas, oro kondicionavimas','697','Pastatų šildymas, vėdinimas, oro kondicionavimas','','','',false,true);
+d.add(492,485,'698','<div class="nodetag">698</div></span>&nbsp;&nbsp;Apdailos darbai','698','Apdailos darbai','','','',false,true);
+d.config.useSelection = false;
+d.config.inOrder = true;
+d.config.useIcons = false;
+document.write(d);
+//-->
+</script>
+</div>
+</div><div id="expandbox" onclick="expandbox(); return false;">&nbsp;</div>
+<div id="recordbox" class="debugbkg">
+<div class="fronthint">Spustelėkite skyrių kairėje įrašams išskleisti</div>
+</div>
+
+        <div id="footer">
+            <div class="footersectionleft">
+                The UDC Summary (UDCS) provides a selection of around 2,600 classes from the whole scheme which comprises more than 70,000 entries.
+                Please send questions and suggestions to <a href="mailto:udcs@udcc.org?subject=UDC Summary Enquiry">udcs@udcc.org</a><br><br>
+	            <p>
+		            The data provided in this Summary is released under the <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative Commons Attribution Share Alike 3.0 license</a> <a href="../about.htm">[more]</a>
+	            </p>
+            </div>
+            <div class="footermiddle">
+                <a href="http://www.udcc.org"><img src="../images/udclogowhite.png" border="0"></a>
+            </div>
+			<div class="footerright">
+                For complete UDC schedules see <a href="http://www.udc-hub.com/">UDC Online Hub</a><br/><a href="http://www.udc-hub.com/"><img width="60" height="35" src="../images/udclogo.png"/></a>
+
+			</div>
+        </div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-13138465-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>

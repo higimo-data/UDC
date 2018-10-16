@@ -1,0 +1,901 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>UDC Summary</title>
+    <link rel="stylesheet" href="../reset.css" type="text/css" />
+    <link rel="stylesheet" href="../udc2000.css" type="text/css" />
+	    <link rel="StyleSheet" href="dtree2.css" type="text/css" />
+	    <script type="text/javascript" src="dtree.js"></script>
+	    <script type="text/javascript" src="udcdisplay_9.js"></script>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+</head>
+
+<body >
+<div id="centercontainer" class="debugbkg">
+    <div id="titlebox" class="debugbkg">
+		<div id="rightbox">
+        	<div id="languagecount">57 languages</div>
+            <div id="languagebox">
+            <select id="selectedlang" style="vertical-align: middle;" onchange="location = this.options[this.selectedIndex].value;">
+			<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=af&pr=Y">Afrikaans (Afrikaans) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sq&pr=Y">Albanian (Shqip) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=anp&pr=Y">Angika (अंगिका) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ar&pr=Y">Arabic (العربية) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=hy&pr=Y">Armenian (հայերեն) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=eu&pr=Y">Basque (Euskara) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=be&pr=Y">Belarusian (Беларуская) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=bn&pr=Y">Bengali (বাংলা) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=bho&pr=Y">Bhojpuri (भोजपुरी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=bg&pr=Y">Bulgarian (Български) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ca&pr=Y">Catalan (Català) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=chi&pr=Y">Chinese (中文) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=hr&pr=Y">Croatian (Hrvatski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=cs&pr=Y">Czech (Čeština) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=da&pr=Y">Danish (Dansk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=nl&pr=Y" selected>Dutch (Nederlands) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=en&pr=Y">English (English) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=eo&pr=Y">Esperanto (Esperanto) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=et&pr=Y">Estonian (Eesti) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=fi&pr=Y">Finnish (Suomi) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=fr&pr=Y">French (Français) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=gl&pr=Y">Galician (Galego) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ka&pr=Y">Georgian (ქართული) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=de&pr=Y">German (Deutsch) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=el&pr=Y">Greek (Ελληνικά) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=hi&pr=Y">Hindi (हिन्दी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=hu&pr=Y">Hungarian (Magyar) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=id&pr=Y">Indonesian (Bahasa Ind) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ga&pr=Y">Irish (Gaeilge) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=it&pr=Y">Italian (Italiano) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ja&pr=Y">Japanese (日本語) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=kn&pr=Y">Kannada (ಕನ್ನಡ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=kk&pr=Y">Kazakh (Қазақ тілі) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=lv&pr=Y">Latvian (Latviešu) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=lt&pr=Y">Lithuanian (lietuvių) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=mk&pr=Y">Macedonian (македонски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ml&pr=Y">Malayalam (മലയാളം) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=mr&pr=Y">Marathi (मराठी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=no&pr=Y">Norwegian (Norsk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=pl&pr=Y">Polish (Polski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=pt&pr=Y">Portuguese (Português) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=pa&pr=Y">Punjabi (ਪੰਜਾਬੀ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ro&pr=Y">Romanian (Româna) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ru&pr=Y">Russian (Pусский) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sa&pr=Y">Sanskrit (Saṃskṛtam) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sr&pr=Y">Serbian (Српски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=si&pr=Y">Sinhala (සිංහල) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sk&pr=Y">Slovak (Slovenský) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sl&pr=Y">Slovenian (Slovenski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=es&pr=Y">Spanish (Español) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sv&pr=Y">Swedish (Svenska) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ta&pr=Y">Tamil (தமிழ்) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=te&pr=Y">Telugu (తెలుగు) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=tr&pr=Y">Turkish (Türkçe) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=uk&pr=Y">Ukrainian (Yкраї́нська) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=uz&pr=Y">Uzbek (oʻzbek) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=vi&pr=Y">Vietnamese (tiếng Việt) </option>
+            </select>
+            </div>
+            </div>
+        </div>
+		<div id="menubox" class="debugbkg">
+            <ul class="menu boldmenu">
+<li><a href="index.php@lang=nl">TOPKLASSEN</a></li>
+<li><a href="index.php@tag=--&amp;lang=nl">TEKENS</a></li>
+<li><a href="index.php@tag=---&amp;lang=nl">HULPGETALLEN</a></li>
+<li><a href="index.php@tag=0&amp;lang=nl">0</a></li>
+<li><a href="index.php@tag=1&amp;lang=nl">1</a></li>
+<li><a href="index.php@tag=2&amp;lang=nl">2</a></li>
+<li><a href="index.php@tag=3&amp;lang=nl">3</a></li>
+<li><a  class="vacant" href="index.php@tag=---&amp;lang=nl#">4</a></li>
+<li><a href="index.php@tag=5&amp;lang=nl">5</a></li>
+<li><a href="index.php@tag=6&amp;lang=nl">6</a></li>
+<li><a href="index.php@tag=7&amp;lang=nl">7</a></li>
+<li><a href="index.php@tag=8&amp;lang=nl">8</a></li>
+<li><a href="index.php@tag=9&amp;lang=nl">9</a></li>
+</ul>
+<input type="hidden" id="if_loading" name="if_loading" value="Laden"/>
+<input type="hidden" id="if_lang" name="if_lang" value="2"/>
+<ul class="rightmenu boldmenu">
+<li><a href="../translation.htm">VERTALING</a></li>
+<li><a href="index.php@tag=---&amp;lang=nl#" title="Under Development">MAPPINGS</a></li>
+<li><a href="../exports.htm" title="Data Exports">EXPORTEER</a></li>
+<li><a href="index.php@tag=---&amp;lang=nl#" title="Under Development">ALFABETISCH REGISTER</a></li>
+<li><a href="index.php@tag=---&amp;lang=nl#" title="Under Development">HANDLEIDING</a></li>
+<li><a href="../about.htm" title="About the UDC Summary">OVER</a></li>
+</ul>
+
+        </div>
+		<input type="hidden" id="leftWidth" value="420"/><input type="hidden" id="rightWidth" value="522"/>
+		<div id="classmarkbox" class="debugbkg">
+
+<div id="openclosemenu"><a href="javascript: d.openAll();">&nbsp;vouw alle uit</a> | <a href="javascript: d.closeAll();">vouw alle op</a></div>
+<div id="classtree">
+<script type="text/javascript">
+<!--
+d = new dTree('d');
+d.config.hrefIsClick = true;
+d.add(0,-1,'---','<span class="nodetag"></span>ALGEMENE HULPTABELLEN','---','','','','',false,true);
+d.add(1,0,'=...','<div class="nodetag">=...</div></span>&nbsp;&nbsp;Tabel 1c - Algemene hulptabel van talen','=...','Tabel 1c - Algemene hulptabel van talen','','','',false,true);
+d.add(2,1,'=...`01/`08','<div class="nodetag">=...`01/`08</div></span>&nbsp;&nbsp;Speciale hulpgetallen voor oorsprong en perioden van talen. Ontwikkelingsfasen','=...`01/`08','Speciale hulpgetallen voor oorsprong en perioden van talen. Ontwikkelingsfasen','','','',false,true);
+d.add(3,2,'=...`01','<div class="nodetag">=...`01</div></span>&nbsp;&nbsp;Oude periode. Archaïsche periode','=...`01','Oude periode. Archaïsche periode','','','',false,true);
+d.add(4,2,'=...`04','<div class="nodetag">=...`04</div></span>&nbsp;&nbsp;Middenperiode','=...`04','Middenperiode','','','',false,true);
+d.add(5,2,'=...`06','<div class="nodetag">=...`06</div></span>&nbsp;&nbsp;Moderne periode','=...`06','Moderne periode','','','',false,true);
+d.add(6,1,'=...`276/`282','<div class="nodetag">=...`276/`282</div></span>&nbsp;&nbsp;Bijzondere hulpgetallen voor lokale en regionale talen, varianten en streektalen','=...`276/`282','Bijzondere hulpgetallen voor lokale en regionale talen, varianten en streektalen','','','',false,true);
+d.add(7,6,'=...`276','<div class="nodetag">=...`276</div></span>&nbsp;&nbsp;Sociolecten, groepstalen. Beroepstalen, vaktalen. Streektalen','=...`276','Sociolecten, groepstalen. Beroepstalen, vaktalen. Streektalen','','','',false,true);
+d.add(8,6,'=...`282','<div class="nodetag">=...`282</div></span>&nbsp;&nbsp;Dialecten. Lokale en regionale talen. Varianten en streektalen','=...`282','Dialecten. Lokale en regionale talen. Varianten en streektalen','','','',false,true);
+d.add(9,1,'=00','<div class="nodetag">=00</div></span>&nbsp;&nbsp;Meertalig. Veeltalig. Polyglottisch','=00','Meertalig. Veeltalig. Polyglottisch','','','',false,true);
+d.add(10,1,'=030','<div class="nodetag">=030</div></span>&nbsp;&nbsp;Vertaalde documenten. Vertalingen','=030','Vertaalde documenten. Vertalingen','','','',false,true);
+d.add(11,1,'=1/=9','<div class="nodetag">=1/=9</div></span>&nbsp;&nbsp;Talen (natuurlijke en kunstmatige)','=1/=9','Talen (natuurlijke en kunstmatige)','','','',false,true);
+d.add(12,11,'=1/=8','<div class="nodetag">=1/=8</div></span>&nbsp;&nbsp;Natuurlijke talen','=1/=8','Natuurlijke talen','','','',false,true);
+d.add(13,12,'=1/=2','<div class="nodetag">=1/=2</div></span>&nbsp;&nbsp;Indo-europese talen','=1/=2','Indo-europese talen','','','',false,true);
+d.add(14,13,'=1','<div class="nodetag">=1</div></span>&nbsp;&nbsp;Indo-Europese talen van Europa','=1','Indo-Europese talen van Europa','','','',false,true);
+d.add(15,14,'=11','<div class="nodetag">=11</div></span>&nbsp;&nbsp;Germaanse talen','=11','Germaanse talen','','','',false,true);
+d.add(16,15,'=111','<div class="nodetag">=111</div></span>&nbsp;&nbsp;Engels','=111','Engels','','','',false,true);
+d.add(17,15,'=112','<div class="nodetag">=112</div></span>&nbsp;&nbsp;West-Germaanse talen (anders dan Engels)','=112','West-Germaanse talen (anders dan Engels)','','','',false,true);
+d.add(18,17,'=112.2','<div class="nodetag">=112.2</div></span>&nbsp;&nbsp;Duits (Hoog-Duits, geschreven standaard Duits)','=112.2','Duits (Hoog-Duits, geschreven standaard Duits)','','','',false,true);
+d.add(19,17,'=112.5','<div class="nodetag">=112.5</div></span>&nbsp;&nbsp;Nederlands (Vlaams in België en Noordoost Frankrijk)','=112.5','Nederlands (Vlaams in België en Noordoost Frankrijk)','','','',false,true);
+d.add(20,17,'=112.6','<div class="nodetag">=112.6</div></span>&nbsp;&nbsp;Afrikaans','=112.6','Afrikaans','','','',false,true);
+d.add(21,15,'=113','<div class="nodetag">=113</div></span>&nbsp;&nbsp;Noord-Germaanse (Noordse) talen','=113','Noord-Germaanse (Noordse) talen','','','',false,true);
+d.add(22,21,'=113.3','<div class="nodetag">=113.3</div></span>&nbsp;&nbsp;IJslands','=113.3','IJslands','','','',false,true);
+d.add(23,21,'=113.4','<div class="nodetag">=113.4</div></span>&nbsp;&nbsp;Deens','=113.4','Deens','','','',false,true);
+d.add(24,21,'=113.5','<div class="nodetag">=113.5</div></span>&nbsp;&nbsp;Noors','=113.5','Noors','','','',false,true);
+d.add(25,21,'=113.6','<div class="nodetag">=113.6</div></span>&nbsp;&nbsp;Zweeds','=113.6','Zweeds','','','',false,true);
+d.add(26,15,'=114','<div class="nodetag">=114</div></span>&nbsp;&nbsp;Oost-Germaanse talen','=114','Oost-Germaanse talen','','','',false,true);
+d.add(27,14,'=12','<div class="nodetag">=12</div></span>&nbsp;&nbsp;Italische talen','=12','Italische talen','','','',false,true);
+d.add(28,27,'=122','<div class="nodetag">=122</div></span>&nbsp;&nbsp;Umbro-Sabellische (Osko-Umbrische) talen','=122','Umbro-Sabellische (Osko-Umbrische) talen','','','',false,true);
+d.add(29,27,'=124','<div class="nodetag">=124</div></span>&nbsp;&nbsp;Latijn','=124','Latijn','','','',false,true);
+d.add(30,14,'=13','<div class="nodetag">=13</div></span>&nbsp;&nbsp;Romaanse talen','=13','Romaanse talen','','','',false,true);
+d.add(31,30,'=131','<div class="nodetag">=131</div></span>&nbsp;&nbsp;Italo-Romaanse talen','=131','Italo-Romaanse talen','','','',false,true);
+d.add(32,31,'=131.1','<div class="nodetag">=131.1</div></span>&nbsp;&nbsp;Italiaans','=131.1','Italiaans','','','',false,true);
+d.add(33,30,'=132','<div class="nodetag">=132</div></span>&nbsp;&nbsp;Reto-Romaanse talen','=132','Reto-Romaanse talen','','','',false,true);
+d.add(34,30,'=133','<div class="nodetag">=133</div></span>&nbsp;&nbsp;Gallo-Romaanse talen','=133','Gallo-Romaanse talen','','','',false,true);
+d.add(35,34,'=133.1','<div class="nodetag">=133.1</div></span>&nbsp;&nbsp;Frans','=133.1','Frans','','','',false,true);
+d.add(36,30,'=134','<div class="nodetag">=134</div></span>&nbsp;&nbsp;Ibero-Romaanse talen','=134','Ibero-Romaanse talen','','','',false,true);
+d.add(37,36,'=134.1','<div class="nodetag">=134.1</div></span>&nbsp;&nbsp;Catalaans','=134.1','Catalaans','','','',false,true);
+d.add(38,36,'=134.2','<div class="nodetag">=134.2</div></span>&nbsp;&nbsp;Spaans','=134.2','Spaans','','','',false,true);
+d.add(39,36,'=134.3','<div class="nodetag">=134.3</div></span>&nbsp;&nbsp;Portugees','=134.3','Portugees','','','',false,true);
+d.add(40,36,'=134.4','<div class="nodetag">=134.4</div></span>&nbsp;&nbsp;Gallicisch','=134.4','Gallicisch','','','',false,true);
+d.add(41,30,'=135','<div class="nodetag">=135</div></span>&nbsp;&nbsp;Oost-Romaanse talen. Romaanse Balkantalen','=135','Oost-Romaanse talen. Romaanse Balkantalen','','','',false,true);
+d.add(42,41,'=135.1','<div class="nodetag">=135.1</div></span>&nbsp;&nbsp;Roemeens','=135.1','Roemeens','','','',false,true);
+d.add(43,14,'=14','<div class="nodetag">=14</div></span>&nbsp;&nbsp;Grieks (Helleens)','=14','Grieks (Helleens)','','','',false,true);
+d.add(44,14,'=15','<div class="nodetag">=15</div></span>&nbsp;&nbsp;Keltische talen','=15','Keltische talen','','','',false,true);
+d.add(45,44,'=152','<div class="nodetag">=152</div></span>&nbsp;&nbsp;Goidelische groep','=152','Goidelische groep','','','',false,true);
+d.add(46,45,'=152.1','<div class="nodetag">=152.1</div></span>&nbsp;&nbsp;Iers','=152.1','Iers','','','',false,true);
+d.add(47,45,'=152.2','<div class="nodetag">=152.2</div></span>&nbsp;&nbsp;Gaëlisch (Schots-Keltisch)','=152.2','Gaëlisch (Schots-Keltisch)','','','',false,true);
+d.add(48,44,'=153','<div class="nodetag">=153</div></span>&nbsp;&nbsp;Brythonische groep','=153','Brythonische groep','','','',false,true);
+d.add(49,14,'=16','<div class="nodetag">=16</div></span>&nbsp;&nbsp;Slavische talen','=16','Slavische talen','','','',false,true);
+d.add(50,49,'=161','<div class="nodetag">=161</div></span>&nbsp;&nbsp;Oost-Slavische talen','=161','Oost-Slavische talen','','','',false,true);
+d.add(51,50,'=161.1','<div class="nodetag">=161.1</div></span>&nbsp;&nbsp;Russisch','=161.1','Russisch','','','',false,true);
+d.add(52,50,'=161.2','<div class="nodetag">=161.2</div></span>&nbsp;&nbsp;Oekraïens','=161.2','Oekraïens','','','',false,true);
+d.add(53,50,'=161.3','<div class="nodetag">=161.3</div></span>&nbsp;&nbsp;Wit-Russisch (Belorus-Russisch)','=161.3','Wit-Russisch (Belorus-Russisch)','','','',false,true);
+d.add(54,49,'=162','<div class="nodetag">=162</div></span>&nbsp;&nbsp;West-Slavische talen','=162','West-Slavische talen','','','',false,true);
+d.add(55,54,'=162.1','<div class="nodetag">=162.1</div></span>&nbsp;&nbsp;Pools','=162.1','Pools','','','',false,true);
+d.add(56,54,'=162.3','<div class="nodetag">=162.3</div></span>&nbsp;&nbsp;Tsjechisch','=162.3','Tsjechisch','','','',false,true);
+d.add(57,54,'=162.4','<div class="nodetag">=162.4</div></span>&nbsp;&nbsp;Slowaaks','=162.4','Slowaaks','','','',false,true);
+d.add(58,49,'=163','<div class="nodetag">=163</div></span>&nbsp;&nbsp;Zuid-Slavische talen','=163','Zuid-Slavische talen','','','',false,true);
+d.add(59,58,'=163.2','<div class="nodetag">=163.2</div></span>&nbsp;&nbsp;Bulgaars','=163.2','Bulgaars','','','',false,true);
+d.add(60,58,'=163.3','<div class="nodetag">=163.3</div></span>&nbsp;&nbsp;Macedonisch','=163.3','Macedonisch','','','',false,true);
+d.add(61,58,'=163.4','<div class="nodetag">=163.4</div></span>&nbsp;&nbsp;Servisch en Kroatisch','=163.4','Servisch en Kroatisch','','','',false,true);
+d.add(62,61,'=163.41','<div class="nodetag">=163.41</div></span>&nbsp;&nbsp;Servisch','=163.41','Servisch','','','',false,true);
+d.add(63,61,'=163.42','<div class="nodetag">=163.42</div></span>&nbsp;&nbsp;Kroatisch','=163.42','Kroatisch','','','',false,true);
+d.add(64,58,'=163.6','<div class="nodetag">=163.6</div></span>&nbsp;&nbsp;Sloveens','=163.6','Sloveens','','','',false,true);
+d.add(65,14,'=17','<div class="nodetag">=17</div></span>&nbsp;&nbsp;Baltische talen','=17','Baltische talen','','','',false,true);
+d.add(66,65,'=172','<div class="nodetag">=172</div></span>&nbsp;&nbsp;Litouws','=172','Litouws','','','',false,true);
+d.add(67,65,'=174','<div class="nodetag">=174</div></span>&nbsp;&nbsp;Lets','=174','Lets','','','',false,true);
+d.add(68,14,'=18','<div class="nodetag">=18</div></span>&nbsp;&nbsp;Albanees','=18','Albanees','','','',false,true);
+d.add(69,14,'=19','<div class="nodetag">=19</div></span>&nbsp;&nbsp;Armeens','=19','Armeens','','','',false,true);
+d.add(70,13,'=2','<div class="nodetag">=2</div></span>&nbsp;&nbsp;Indo-Iraanse talen, Nurestaans (Kafiriaans) en dode Indo-Europese talen','=2','Indo-Iraanse talen, Nurestaans (Kafiriaans) en dode Indo-Europese talen','','','',false,true);
+d.add(71,70,'=21/=22','<div class="nodetag">=21/=22</div></span>&nbsp;&nbsp;Indo-Iraanse talen','=21/=22','Indo-Iraanse talen','','','',false,true);
+d.add(72,71,'=21','<div class="nodetag">=21</div></span>&nbsp;&nbsp;Indische talen (Indo-Arische talen)','=21','Indische talen (Indo-Arische talen)','','','',false,true);
+d.add(73,72,'=211','<div class="nodetag">=211</div></span>&nbsp;&nbsp;Sanskriet','=211','Sanskriet','','','',false,true);
+d.add(74,72,'=212','<div class="nodetag">=212</div></span>&nbsp;&nbsp;Pali','=212','Pali','','','',false,true);
+d.add(75,72,'=213','<div class="nodetag">=213</div></span>&nbsp;&nbsp;Prakrit','=213','Prakrit','','','',false,true);
+d.add(76,72,'=214','<div class="nodetag">=214</div></span>&nbsp;&nbsp;Moderne Indische talen','=214','Moderne Indische talen','','','',false,true);
+d.add(77,76,'=214.1','<div class="nodetag">=214.1</div></span>&nbsp;&nbsp;Dardische groep van Indische talen','=214.1','Dardische groep van Indische talen','','','',false,true);
+d.add(78,76,'=214.2','<div class="nodetag">=214.2</div></span>&nbsp;&nbsp;Centrale groep van Indische talen','=214.2','Centrale groep van Indische talen','','','',false,true);
+d.add(79,78,'=214.21','<div class="nodetag">=214.21</div></span>&nbsp;&nbsp;Hindi','=214.21','Hindi','','','',false,true);
+d.add(80,78,'=214.22','<div class="nodetag">=214.22</div></span>&nbsp;&nbsp;Urdu','=214.22','Urdu','','','',false,true);
+d.add(81,78,'=214.25','<div class="nodetag">=214.25</div></span>&nbsp;&nbsp;Gujarati','=214.25','Gujarati','','','',false,true);
+d.add(82,78,'=214.27','<div class="nodetag">=214.27</div></span>&nbsp;&nbsp;Punjabi (Panjabi)','=214.27','Punjabi (Panjabi)','','','',false,true);
+d.add(83,78,'=214.28','<div class="nodetag">=214.28</div></span>&nbsp;&nbsp;Rajasthani','=214.28','Rajasthani','','','',false,true);
+d.add(84,76,'=214.3','<div class="nodetag">=214.3</div></span>&nbsp;&nbsp;Oostelijke groep van Indische talen','=214.3','Oostelijke groep van Indische talen','','','',false,true);
+d.add(85,84,'=214.32','<div class="nodetag">=214.32</div></span>&nbsp;&nbsp;Bengaals (Bangla)','=214.32','Bengaals (Bangla)','','','',false,true);
+d.add(86,84,'=214.35','<div class="nodetag">=214.35</div></span>&nbsp;&nbsp;Marathi','=214.35','Marathi','','','',false,true);
+d.add(87,76,'=214.4','<div class="nodetag">=214.4</div></span>&nbsp;&nbsp;Noordelijke groep van Indische talen','=214.4','Noordelijke groep van Indische talen','','','',false,true);
+d.add(88,87,'=214.43','<div class="nodetag">=214.43</div></span>&nbsp;&nbsp;Nepalees','=214.43','Nepalees','','','',false,true);
+d.add(89,76,'=214.5','<div class="nodetag">=214.5</div></span>&nbsp;&nbsp;Noordwestelijke groep van Indische talen','=214.5','Noordwestelijke groep van Indische talen','','','',false,true);
+d.add(90,89,'=214.52','<div class="nodetag">=214.52</div></span>&nbsp;&nbsp;Sindhi','=214.52','Sindhi','','','',false,true);
+d.add(91,89,'=214.58','<div class="nodetag">=214.58</div></span>&nbsp;&nbsp;Romani (Zigeunertaal)','=214.58','Romani (Zigeunertaal)','','','',false,true);
+d.add(92,76,'=214.6','<div class="nodetag">=214.6</div></span>&nbsp;&nbsp;Singalees-Maledivische groep','=214.6','Singalees-Maledivische groep','','','',false,true);
+d.add(93,71,'=22','<div class="nodetag">=22</div></span>&nbsp;&nbsp;Iraanse talen','=22','Iraanse talen','','','',false,true);
+d.add(94,93,'=221','<div class="nodetag">=221</div></span>&nbsp;&nbsp;Oost-Iraanse talen','=221','Oost-Iraanse talen','','','',false,true);
+d.add(95,94,'=221.31','<div class="nodetag">=221.31</div></span>&nbsp;&nbsp;Pasjtoe (Pashto)','=221.31','Pasjtoe (Pashto)','','','',false,true);
+d.add(96,93,'=222/=223','<div class="nodetag">=222/=223</div></span>&nbsp;&nbsp;West-Iraanse talen','=222/=223','West-Iraanse talen','','','',false,true);
+d.add(97,96,'=222.1','<div class="nodetag">=222.1</div></span>&nbsp;&nbsp;Perzisch','=222.1','Perzisch','','','',false,true);
+d.add(98,96,'=222.5','<div class="nodetag">=222.5</div></span>&nbsp;&nbsp;Koerdisch','=222.5','Koerdisch','','','',false,true);
+d.add(99,70,'=29','<div class="nodetag">=29</div></span>&nbsp;&nbsp;Dode Indo-Europese talen (niet elders vermeld)','=29','Dode Indo-Europese talen (niet elders vermeld)','','','',false,true);
+d.add(100,12,'=3','<div class="nodetag">=3</div></span>&nbsp;&nbsp;Dode talen met onbekende affiliatie. Kaukasische talen','=3','Dode talen met onbekende affiliatie. Kaukasische talen','','','',false,true);
+d.add(101,100,'=34','<div class="nodetag">=34</div></span>&nbsp;&nbsp;Dode talen van onbekende verwantschap, gesproken in het gebied rond de Middellandse Zee en in het Nabije Oosten (uitgezonderd Semitisch)','=34','Dode talen van onbekende verwantschap, gesproken in het gebied rond de Middellandse Zee en in het Nabije Oosten (uitgezonderd Semitisch)','','','',false,true);
+d.add(102,100,'=35','<div class="nodetag">=35</div></span>&nbsp;&nbsp;Kaukasische talen','=35','Kaukasische talen','','','',false,true);
+d.add(103,102,'=351','<div class="nodetag">=351</div></span>&nbsp;&nbsp;Noordoostelijke groep van Kaukasische talen','=351','Noordoostelijke groep van Kaukasische talen','','','',false,true);
+d.add(104,102,'=352','<div class="nodetag">=352</div></span>&nbsp;&nbsp;Noordwestelijke groep van Kaukasische talen','=352','Noordwestelijke groep van Kaukasische talen','','','',false,true);
+d.add(105,102,'=353','<div class="nodetag">=353</div></span>&nbsp;&nbsp;Zuidelijke Kaukasische / Kartvelische groep','=353','Zuidelijke Kaukasische / Kartvelische groep','','','',false,true);
+d.add(106,105,'=353.1','<div class="nodetag">=353.1</div></span>&nbsp;&nbsp;Georgisch','=353.1','Georgisch','','','',false,true);
+d.add(107,100,'=361','<div class="nodetag">=361</div></span>&nbsp;&nbsp;Baskisch (Euskara)','=361','Baskisch (Euskara)','','','',false,true);
+d.add(108,12,'=4','<div class="nodetag">=4</div></span>&nbsp;&nbsp;Afro-Aziatische, Nilo-Saharaanse, Niger-Congo- (Congo-Kordofaanse, Niger-Kurdufanian), Khoisan talen','=4','Afro-Aziatische, Nilo-Saharaanse, Niger-Congo- (Congo-Kordofaanse, Niger-Kurdufanian), Khoisan talen','','','',false,true);
+d.add(109,108,'=41','<div class="nodetag">=41</div></span>&nbsp;&nbsp;Afro-Aziatische talen (Hamito-Semitische talen)','=41','Afro-Aziatische talen (Hamito-Semitische talen)','','','',false,true);
+d.add(110,109,'=411','<div class="nodetag">=411</div></span>&nbsp;&nbsp;Semitische talen','=411','Semitische talen','','','',false,true);
+d.add(111,110,'=411.1','<div class="nodetag">=411.1</div></span>&nbsp;&nbsp;Noordelijke Semitische talen','=411.1','Noordelijke Semitische talen','','','',false,true);
+d.add(112,111,'=411.16','<div class="nodetag">=411.16</div></span>&nbsp;&nbsp;Hebreeuws','=411.16','Hebreeuws','','','',false,true);
+d.add(113,110,'=411.2','<div class="nodetag">=411.2</div></span>&nbsp;&nbsp;Zuidwestelijke Semitische talen','=411.2','Zuidwestelijke Semitische talen','','','',false,true);
+d.add(114,113,'=411.21','<div class="nodetag">=411.21</div></span>&nbsp;&nbsp;Arabisch','=411.21','Arabisch','','','',false,true);
+d.add(115,110,'=411.3','<div class="nodetag">=411.3</div></span>&nbsp;&nbsp;Zuidoostelijke Semitische talen','=411.3','Zuidoostelijke Semitische talen','','','',false,true);
+d.add(116,110,'=411.4','<div class="nodetag">=411.4</div></span>&nbsp;&nbsp;Ethiopisch-Semitische talen','=411.4','Ethiopisch-Semitische talen','','','',false,true);
+d.add(117,109,'=412','<div class="nodetag">=412</div></span>&nbsp;&nbsp;Egyptisch-Koptisch','=412','Egyptisch-Koptisch','','','',false,true);
+d.add(118,109,'=413','<div class="nodetag">=413</div></span>&nbsp;&nbsp;Berbertalen','=413','Berbertalen','','','',false,true);
+d.add(119,109,'=414','<div class="nodetag">=414</div></span>&nbsp;&nbsp;Tsjadische talen','=414','Tsjadische talen','','','',false,true);
+d.add(120,119,'=414.231','<div class="nodetag">=414.231</div></span>&nbsp;&nbsp;Hausa','=414.231','Hausa','','','',false,true);
+d.add(121,109,'=415','<div class="nodetag">=415</div></span>&nbsp;&nbsp;Koesjitische talen','=415','Koesjitische talen','','','',false,true);
+d.add(122,109,'=416','<div class="nodetag">=416</div></span>&nbsp;&nbsp;Omotische talen','=416','Omotische talen','','','',false,true);
+d.add(123,108,'=42','<div class="nodetag">=42</div></span>&nbsp;&nbsp;Nilo-Saharaanse talen','=42','Nilo-Saharaanse talen','','','',false,true);
+d.add(124,123,'=422','<div class="nodetag">=422</div></span>&nbsp;&nbsp;Sahara tak','=422','Sahara tak','','','',false,true);
+d.add(125,123,'=425','<div class="nodetag">=425</div></span>&nbsp;&nbsp;Koman talen','=425','Koman talen','','','',false,true);
+d.add(126,123,'=426','<div class="nodetag">=426</div></span>&nbsp;&nbsp;Chari-Nijl tak','=426','Chari-Nijl tak','','','',false,true);
+d.add(127,108,'=43','<div class="nodetag">=43</div></span>&nbsp;&nbsp;Kongo-Kordofaanse talen (Niger-Kordofaanse talen)','=43','Kongo-Kordofaanse talen (Niger-Kordofaanse talen)','','','',false,true);
+d.add(128,127,'=431','<div class="nodetag">=431</div></span>&nbsp;&nbsp;Kordofaanse talen','=431','Kordofaanse talen','','','',false,true);
+d.add(129,127,'=432','<div class="nodetag">=432</div></span>&nbsp;&nbsp;Niger-Kongo talen','=432','Niger-Kongo talen','','','',false,true);
+d.add(130,108,'=45','<div class="nodetag">=45</div></span>&nbsp;&nbsp;Khoisantalen','=45','Khoisantalen','','','',false,true);
+d.add(131,12,'=5','<div class="nodetag">=5</div></span>&nbsp;&nbsp;Oeraals-Altaïsche, Palaeo-Siberische, Eskimo-Aleoetische, Dravidische en Sino-Tibetaanse talen. Japanees. Koreaans','=5','Oeraals-Altaïsche, Palaeo-Siberische, Eskimo-Aleoetische, Dravidische en Sino-Tibetaanse talen. Japanees. Koreaans','','','',false,true);
+d.add(132,131,'=51','<div class="nodetag">=51</div></span>&nbsp;&nbsp;Oeraalse-Altaïsche talen','=51','Oeraalse-Altaïsche talen','','','',false,true);
+d.add(133,132,'=511','<div class="nodetag">=511</div></span>&nbsp;&nbsp;Oeraalse talen','=511','Oeraalse talen','','','',false,true);
+d.add(134,133,'=511.1','<div class="nodetag">=511.1</div></span>&nbsp;&nbsp;Fins-Oegrische (Finoegrische) talen','=511.1','Fins-Oegrische (Finoegrische) talen','','','',false,true);
+d.add(135,134,'=511.11','<div class="nodetag">=511.11</div></span>&nbsp;&nbsp;Finse talen','=511.11','Finse talen','','','',false,true);
+d.add(136,135,'=511.111','<div class="nodetag">=511.111</div></span>&nbsp;&nbsp;Fins','=511.111','Fins','','','',false,true);
+d.add(137,135,'=511.113','<div class="nodetag">=511.113</div></span>&nbsp;&nbsp;Ests','=511.113','Ests','','','',false,true);
+d.add(138,134,'=511.12','<div class="nodetag">=511.12</div></span>&nbsp;&nbsp;Samisch. Samitalen','=511.12','Samisch. Samitalen','','','',false,true);
+d.add(139,134,'=511.14','<div class="nodetag">=511.14</div></span>&nbsp;&nbsp;Oegrische talen','=511.14','Oegrische talen','','','',false,true);
+d.add(140,139,'=511.141','<div class="nodetag">=511.141</div></span>&nbsp;&nbsp;Hongaars','=511.141','Hongaars','','','',false,true);
+d.add(141,133,'=511.2','<div class="nodetag">=511.2</div></span>&nbsp;&nbsp;Samojeedse talen','=511.2','Samojeedse talen','','','',false,true);
+d.add(142,132,'=512','<div class="nodetag">=512</div></span>&nbsp;&nbsp;Altaïsche talen','=512','Altaïsche talen','','','',false,true);
+d.add(143,142,'=512.1','<div class="nodetag">=512.1</div></span>&nbsp;&nbsp;Turkse talen','=512.1','Turkse talen','','','',false,true);
+d.add(144,143,'=512.12','<div class="nodetag">=512.12</div></span>&nbsp;&nbsp;Centrale groep van Turkse talen','=512.12','Centrale groep van Turkse talen','','','',false,true);
+d.add(145,144,'=512.122','<div class="nodetag">=512.122</div></span>&nbsp;&nbsp;Kazachs','=512.122','Kazachs','','','',false,true);
+d.add(146,143,'=512.13','<div class="nodetag">=512.13</div></span>&nbsp;&nbsp;Oostelijke (Karluk) groep','=512.13','Oostelijke (Karluk) groep','','','',false,true);
+d.add(147,146,'=512.133','<div class="nodetag">=512.133</div></span>&nbsp;&nbsp;Oezbeeks','=512.133','Oezbeeks','','','',false,true);
+d.add(148,143,'=512.14','<div class="nodetag">=512.14</div></span>&nbsp;&nbsp;Westelijke groep van Turkse talen','=512.14','Westelijke groep van Turkse talen','','','',false,true);
+d.add(149,143,'=512.15','<div class="nodetag">=512.15</div></span>&nbsp;&nbsp;Noordelijke groep van Turkse talen','=512.15','Noordelijke groep van Turkse talen','','','',false,true);
+d.add(150,149,'=512.154','<div class="nodetag">=512.154</div></span>&nbsp;&nbsp;Kirgizisch (Kirghizisch)','=512.154','Kirgizisch (Kirghizisch)','','','',false,true);
+d.add(151,143,'=512.16','<div class="nodetag">=512.16</div></span>&nbsp;&nbsp;Zuidelijke groep','=512.16','Zuidelijke groep','','','',false,true);
+d.add(152,151,'=512.161','<div class="nodetag">=512.161</div></span>&nbsp;&nbsp;Turks (Osmaans)','=512.161','Turks (Osmaans)','','','',false,true);
+d.add(153,151,'=512.162','<div class="nodetag">=512.162</div></span>&nbsp;&nbsp;Azerbeidzjaans','=512.162','Azerbeidzjaans','','','',false,true);
+d.add(154,151,'=512.164','<div class="nodetag">=512.164</div></span>&nbsp;&nbsp;Turkmeens','=512.164','Turkmeens','','','',false,true);
+d.add(155,142,'=512.2','<div class="nodetag">=512.2</div></span>&nbsp;&nbsp;Toengoezische talen','=512.2','Toengoezische talen','','','',false,true);
+d.add(156,142,'=512.3','<div class="nodetag">=512.3</div></span>&nbsp;&nbsp;Mongoolse talen','=512.3','Mongoolse talen','','','',false,true);
+d.add(157,131,'=521','<div class="nodetag">=521</div></span>&nbsp;&nbsp;Japans','=521','Japans','','','',false,true);
+d.add(158,131,'=531','<div class="nodetag">=531</div></span>&nbsp;&nbsp;Koreaans','=531','Koreaans','','','',false,true);
+d.add(159,131,'=541','<div class="nodetag">=541</div></span>&nbsp;&nbsp;Ainu','=541','Ainu','','','',false,true);
+d.add(160,131,'=55','<div class="nodetag">=55</div></span>&nbsp;&nbsp;Paleosiberische talen','=55','Paleosiberische talen','','','',false,true);
+d.add(161,131,'=56','<div class="nodetag">=56</div></span>&nbsp;&nbsp;Eskimo-Aleoettalen','=56','Eskimo-Aleoettalen','','','',false,true);
+d.add(162,131,'=58','<div class="nodetag">=58</div></span>&nbsp;&nbsp;Sino-Tibetaanse talen','=58','Sino-Tibetaanse talen','','','',false,true);
+d.add(163,162,'=581','<div class="nodetag">=581</div></span>&nbsp;&nbsp;Chinese talen','=581','Chinese talen','','','',false,true);
+d.add(164,162,'=582','<div class="nodetag">=582</div></span>&nbsp;&nbsp;Kam-Thaise talen','=582','Kam-Thaise talen','','','',false,true);
+d.add(165,162,'=583','<div class="nodetag">=583</div></span>&nbsp;&nbsp;Miao-Yaotalen','=583','Miao-Yaotalen','','','',false,true);
+d.add(166,162,'=584','<div class="nodetag">=584</div></span>&nbsp;&nbsp;Tibeto-Birmaanse talen','=584','Tibeto-Birmaanse talen','','','',false,true);
+d.add(167,12,'=6','<div class="nodetag">=6</div></span>&nbsp;&nbsp;Austro-Aziatische talen. Austronesische talen','=6','Austro-Aziatische talen. Austronesische talen','','','',false,true);
+d.add(168,167,'=61','<div class="nodetag">=61</div></span>&nbsp;&nbsp;Austro-Aziatische talen','=61','Austro-Aziatische talen','','','',false,true);
+d.add(169,168,'=611','<div class="nodetag">=611</div></span>&nbsp;&nbsp;Malacca (Aslian) groep','=611','Malacca (Aslian) groep','','','',false,true);
+d.add(170,168,'=612','<div class="nodetag">=612</div></span>&nbsp;&nbsp;Mon-Khmer talen','=612','Mon-Khmer talen','','','',false,true);
+d.add(171,170,'=612.4','<div class="nodetag">=612.4</div></span>&nbsp;&nbsp;Cambodiaans (Khmer)','=612.4','Cambodiaans (Khmer)','','','',false,true);
+d.add(172,170,'=612.91','<div class="nodetag">=612.91</div></span>&nbsp;&nbsp;Vietnamees','=612.91','Vietnamees','','','',false,true);
+d.add(173,168,'=613','<div class="nodetag">=613</div></span>&nbsp;&nbsp;Munda talen','=613','Munda talen','','','',false,true);
+d.add(174,168,'=614','<div class="nodetag">=614</div></span>&nbsp;&nbsp;Nicobarese groep','=614','Nicobarese groep','','','',false,true);
+d.add(175,167,'=62','<div class="nodetag">=62</div></span>&nbsp;&nbsp;Austronesische talen','=62','Austronesische talen','','','',false,true);
+d.add(176,175,'=621','<div class="nodetag">=621</div></span>&nbsp;&nbsp;Maleis-Polynesische talen','=621','Maleis-Polynesische talen','','','',false,true);
+d.add(177,176,'=621.251','<div class="nodetag">=621.251</div></span>&nbsp;&nbsp;Maleis (Bahasa Indonesia, Bahasa Malaya)','=621.251','Maleis (Bahasa Indonesia, Bahasa Malaya)','','','',false,true);
+d.add(178,175,'=622','<div class="nodetag">=622</div></span>&nbsp;&nbsp;Oceanische talen','=622','Oceanische talen','','','',false,true);
+d.add(179,12,'=7','<div class="nodetag">=7</div></span>&nbsp;&nbsp;Indo-Pacifische talen (niet-Austronesiche). Australische talen','=7','Indo-Pacifische talen (niet-Austronesiche). Australische talen','','','',false,true);
+d.add(180,179,'=71','<div class="nodetag">=71</div></span>&nbsp;&nbsp;Indo-Pacifische (niet-Austronesische) talen','=71','Indo-Pacifische (niet-Austronesische) talen','','','',false,true);
+d.add(181,180,'=713','<div class="nodetag">=713</div></span>&nbsp;&nbsp;Papoeatalen, Nieuw Guinea','=713','Papoeatalen, Nieuw Guinea','','','',false,true);
+d.add(182,180,'=714','<div class="nodetag">=714</div></span>&nbsp;&nbsp;Noordoostelijke Nieuw-Guinese (Madang) talen','=714','Noordoostelijke Nieuw-Guinese (Madang) talen','','','',false,true);
+d.add(183,180,'=715','<div class="nodetag">=715</div></span>&nbsp;&nbsp;Westelijke Nieuw-Guinese talen','=715','Westelijke Nieuw-Guinese talen','','','',false,true);
+d.add(184,180,'=716','<div class="nodetag">=716</div></span>&nbsp;&nbsp;Bougainvilleanees','=716','Bougainvilleanees','','','',false,true);
+d.add(185,180,'=718','<div class="nodetag">=718</div></span>&nbsp;&nbsp;Tasmaans','=718','Tasmaans','','','',false,true);
+d.add(186,180,'=719','<div class="nodetag">=719</div></span>&nbsp;&nbsp;Overige niet-Austronesische talen','=719','Overige niet-Austronesische talen','','','',false,true);
+d.add(187,179,'=72','<div class="nodetag">=72</div></span>&nbsp;&nbsp;Australische talen','=72','Australische talen','','','',false,true);
+d.add(188,187,'=721','<div class="nodetag">=721</div></span>&nbsp;&nbsp;Pama-Maric groep','=721','Pama-Maric groep','','','',false,true);
+d.add(189,187,'=722','<div class="nodetag">=722</div></span>&nbsp;&nbsp;Pama-Nyungan groep','=722','Pama-Nyungan groep','','','',false,true);
+d.add(190,187,'=729','<div class="nodetag">=729</div></span>&nbsp;&nbsp;Overige Australische talen','=729','Overige Australische talen','','','',false,true);
+d.add(191,12,'=8','<div class="nodetag">=8</div></span>&nbsp;&nbsp;Amerikaanse inheemse talen','=8','Amerikaanse inheemse talen','','','',false,true);
+d.add(192,191,'=81','<div class="nodetag">=81</div></span>&nbsp;&nbsp;Inheemse talen van Canada, de Verenigde Staten en Noordelijk Centraal-Mexico','=81','Inheemse talen van Canada, de Verenigde Staten en Noordelijk Centraal-Mexico','','','',false,true);
+d.add(193,191,'=82','<div class="nodetag">=82</div></span>&nbsp;&nbsp;Inheemse talen van westelijke Noord-Amerikaanse kust, Mexico en Yucatan','=82','Inheemse talen van westelijke Noord-Amerikaanse kust, Mexico en Yucatan','','','',false,true);
+d.add(194,193,'=821.24','<div class="nodetag">=821.24</div></span>&nbsp;&nbsp;Mixe-Zoque talen','=821.24','Mixe-Zoque talen','','','',false,true);
+d.add(195,193,'=822.21','<div class="nodetag">=822.21</div></span>&nbsp;&nbsp;Nahuatl','=822.21','Nahuatl','','','',false,true);
+d.add(196,193,'=823.7','<div class="nodetag">=823.7</div></span>&nbsp;&nbsp;Zapoteekse talen','=823.7','Zapoteekse talen','','','',false,true);
+d.add(197,191,'=84/=88','<div class="nodetag">=84/=88</div></span>&nbsp;&nbsp;Centraal- en Zuid-Amerikaanse inheemse talen','=84/=88','Centraal- en Zuid-Amerikaanse inheemse talen','','','',false,true);
+d.add(198,197,'=84','<div class="nodetag">=84</div></span>&nbsp;&nbsp;Ge-Páno-Caribische talen. Macro-Chibchan talen','=84','Ge-Páno-Caribische talen. Macro-Chibchan talen','','','',false,true);
+d.add(199,198,'=842','<div class="nodetag">=842</div></span>&nbsp;&nbsp;Ge-Pano-Caribische talen','=842','Ge-Pano-Caribische talen','','','',false,true);
+d.add(200,198,'=845','<div class="nodetag">=845</div></span>&nbsp;&nbsp;Macro-Chibchaanse talen','=845','Macro-Chibchaanse talen','','','',false,true);
+d.add(201,197,'=85','<div class="nodetag">=85</div></span>&nbsp;&nbsp;Andean-Equatoriale talen','=85','Andean-Equatoriale talen','','','',false,true);
+d.add(202,201,'=852','<div class="nodetag">=852</div></span>&nbsp;&nbsp;Andestalen','=852','Andestalen','','','',false,true);
+d.add(203,202,'=852.11','<div class="nodetag">=852.11</div></span>&nbsp;&nbsp;Aymara','=852.11','Aymara','','','',false,true);
+d.add(204,202,'=852.2','<div class="nodetag">=852.2</div></span>&nbsp;&nbsp;Quechuatalen','=852.2','Quechuatalen','','','',false,true);
+d.add(205,202,'=852.5','<div class="nodetag">=852.5</div></span>&nbsp;&nbsp;Araucaniaanse talen','=852.5','Araucaniaanse talen','','','',false,true);
+d.add(206,205,'=852.51','<div class="nodetag">=852.51</div></span>&nbsp;&nbsp;Mapuche (Mapudungu)','=852.51','Mapuche (Mapudungu)','','','',false,true);
+d.add(207,201,'=855','<div class="nodetag">=855</div></span>&nbsp;&nbsp;Equatoriale talen','=855','Equatoriale talen','','','',false,true);
+d.add(208,207,'=855.21','<div class="nodetag">=855.21</div></span>&nbsp;&nbsp;Guaranitalen','=855.21','Guaranitalen','','','',false,true);
+d.add(209,197,'=86','<div class="nodetag">=86</div></span>&nbsp;&nbsp;Chacotalen. Talen van Patagonië en Vuurland','=86','Chacotalen. Talen van Patagonië en Vuurland','','','',false,true);
+d.add(210,209,'=862','<div class="nodetag">=862</div></span>&nbsp;&nbsp;Chacotalen','=862','Chacotalen','','','',false,true);
+d.add(211,209,'=865','<div class="nodetag">=865</div></span>&nbsp;&nbsp;Talen van Patagonië en Vuurland','=865','Talen van Patagonië en Vuurland','','','',false,true);
+d.add(212,197,'=88','<div class="nodetag">=88</div></span>&nbsp;&nbsp;Geïsoleerde, niet-geklasseerde inheemse talen van Centraal- en Zuid-Amerika','=88','Geïsoleerde, niet-geklasseerde inheemse talen van Centraal- en Zuid-Amerika','','','',false,true);
+d.add(213,11,'=9','<div class="nodetag">=9</div></span>&nbsp;&nbsp;Kunstmatige talen','=9','Kunstmatige talen','','','',false,true);
+d.add(214,213,'=92','<div class="nodetag">=92</div></span>&nbsp;&nbsp;Kunstmatige wereldtalen bestemd voor gebruik door mensen. Internationale hulptalen','=92','Kunstmatige wereldtalen bestemd voor gebruik door mensen. Internationale hulptalen','','','',false,true);
+d.add(215,214,'=922','<div class="nodetag">=922</div></span>&nbsp;&nbsp;Esperanto (ontwikkeld door Zamenhof)','=922','Esperanto (ontwikkeld door Zamenhof)','','','',false,true);
+d.add(216,213,'=93','<div class="nodetag">=93</div></span>&nbsp;&nbsp;Kunstmatige talen toegepast om machines te instrueren. Programmeertalen. Computertalen','=93','Kunstmatige talen toegepast om machines te instrueren. Programmeertalen. Computertalen','','','',false,true);
+d.add(217,0,'(0...)','<div class="nodetag">(0...)</div></span>&nbsp;&nbsp;Tabel 1d - Algemene hulpgetallen van vorm','(0...)','Tabel 1d - Algemene hulpgetallen van vorm','','','',false,true);
+d.add(218,217,'(0.02/.08)','<div class="nodetag">(0.02/.08)</div></span>&nbsp;&nbsp;Bijzondere hulpgetallen voor de vorm van documenten','(0.02/.08)','Bijzondere hulpgetallen voor de vorm van documenten','','','',false,true);
+d.add(219,218,'(0.02)','<div class="nodetag">(0.02)</div></span>&nbsp;&nbsp;Documenten naar fysieke, uiterlijke vorm','(0.02)','Documenten naar fysieke, uiterlijke vorm','','','',false,true);
+d.add(220,218,'(0.03)','<div class="nodetag">(0.03)</div></span>&nbsp;&nbsp;Documenten naar productiewijze','(0.03)','Documenten naar productiewijze','','','',false,true);
+d.add(221,220,'(0.032)','<div class="nodetag">(0.032)</div></span>&nbsp;&nbsp;Handgeschreven documenten (autografische, holografische exemplaren). Manuscripten. Beelddocumenten (tekeningen, schilderijen)','(0.032)','Handgeschreven documenten (autografische, holografische exemplaren). Manuscripten. Beelddocumenten (tekeningen, schilderijen)','','','',false,true);
+d.add(222,220,'(0.034)','<div class="nodetag">(0.034)</div></span>&nbsp;&nbsp;Machine-leesbare documenten','(0.034)','Machine-leesbare documenten','','','',false,true);
+d.add(223,218,'(0.04)','<div class="nodetag">(0.04)</div></span>&nbsp;&nbsp;Documenten naar productiestadium','(0.04)','Documenten naar productiestadium','','','',false,true);
+d.add(224,218,'(0.05)','<div class="nodetag">(0.05)</div></span>&nbsp;&nbsp;Documenten voor specifieke gebuikersgroepen','(0.05)','Documenten voor specifieke gebuikersgroepen','','','',false,true);
+d.add(225,218,'(0.06)','<div class="nodetag">(0.06)</div></span>&nbsp;&nbsp;Documenten naar niveau van presentatie en beschikbaarheid','(0.06)','Documenten naar niveau van presentatie en beschikbaarheid','','','',false,true);
+d.add(226,218,'(0.07)','<div class="nodetag">(0.07)</div></span>&nbsp;&nbsp;Toegevoegde zaken uitgegeven bij een document','(0.07)','Toegevoegde zaken uitgegeven bij een document','','','',false,true);
+d.add(227,218,'(0.08)','<div class="nodetag">(0.08)</div></span>&nbsp;&nbsp;Afzonderlijk uitgegeven supplementen of delen van documenten','(0.08)','Afzonderlijk uitgegeven supplementen of delen van documenten','','','',false,true);
+d.add(228,217,'(01)','<div class="nodetag">(01)</div></span>&nbsp;&nbsp;Bibliografieën','(01)','Bibliografieën','','','',false,true);
+d.add(229,217,'(02)','<div class="nodetag">(02)</div></span>&nbsp;&nbsp;Boeken in het algemeen','(02)','Boeken in het algemeen','','','',false,true);
+d.add(230,217,'(03)','<div class="nodetag">(03)</div></span>&nbsp;&nbsp;Naslagwerken','(03)','Naslagwerken','','','',false,true);
+d.add(231,230,'(031)','<div class="nodetag">(031)</div></span>&nbsp;&nbsp;Encyclopedieën','(031)','Encyclopedieën','','','',false,true);
+d.add(232,230,'(035)','<div class="nodetag">(035)</div></span>&nbsp;&nbsp;Handleidingen. Handboeken','(035)','Handleidingen. Handboeken','','','',false,true);
+d.add(233,230,'(036)','<div class="nodetag">(036)</div></span>&nbsp;&nbsp;Handleidingen (met praktische en beschrijvende informatie)','(036)','Handleidingen (met praktische en beschrijvende informatie)','','','',false,true);
+d.add(234,230,'(038)','<div class="nodetag">(038)</div></span>&nbsp;&nbsp;Woordenboeken','(038)','Woordenboeken','','','',false,true);
+d.add(235,217,'(04)','<div class="nodetag">(04)</div></span>&nbsp;&nbsp;Niet-seriële uitgaven. Separata','(04)','Niet-seriële uitgaven. Separata','','','',false,true);
+d.add(236,235,'(041)','<div class="nodetag">(041)</div></span>&nbsp;&nbsp;Brochures. Pamfletten','(041)','Brochures. Pamfletten','','','',false,true);
+d.add(237,235,'(042)','<div class="nodetag">(042)</div></span>&nbsp;&nbsp;Voordrachten. Lezingen. Toespraken','(042)','Voordrachten. Lezingen. Toespraken','','','',false,true);
+d.add(238,235,'(043)','<div class="nodetag">(043)</div></span>&nbsp;&nbsp;Universitaire thesen. Dissertaties','(043)','Universitaire thesen. Dissertaties','','','',false,true);
+d.add(239,235,'(044)','<div class="nodetag">(044)</div></span>&nbsp;&nbsp;Persoonlijke documenten. Correspondentie. Brieven. Rondschrijven (Circulaires)','(044)','Persoonlijke documenten. Correspondentie. Brieven. Rondschrijven (Circulaires)','','','',false,true);
+d.add(240,235,'(045)','<div class="nodetag">(045)</div></span>&nbsp;&nbsp;Artikelen in seriële publicaties, reeksen, enz. Bijdragen','(045)','Artikelen in seriële publicaties, reeksen, enz. Bijdragen','','','',false,true);
+d.add(241,235,'(046)','<div class="nodetag">(046)</div></span>&nbsp;&nbsp;Krantenartikelen','(046)','Krantenartikelen','','','',false,true);
+d.add(242,235,'(047)','<div class="nodetag">(047)</div></span>&nbsp;&nbsp;Rapporten. Notities. Bulletins','(047)','Rapporten. Notities. Bulletins','','','',false,true);
+d.add(243,235,'(048)','<div class="nodetag">(048)</div></span>&nbsp;&nbsp;Bibliografische beschrijvingen. Samenvattingen. Uittreksels. Overzichten','(048)','Bibliografische beschrijvingen. Samenvattingen. Uittreksels. Overzichten','','','',false,true);
+d.add(244,235,'(049)','<div class="nodetag">(049)</div></span>&nbsp;&nbsp;Overige niet-seriële drukken','(049)','Overige niet-seriële drukken','','','',false,true);
+d.add(245,217,'(05)','<div class="nodetag">(05)</div></span>&nbsp;&nbsp;Seriële publicaties. Tijdschriften. Reeksen','(05)','Seriële publicaties. Tijdschriften. Reeksen','','','',false,true);
+d.add(246,245,'(051)','<div class="nodetag">(051)</div></span>&nbsp;&nbsp;Periodieken (in strikte zin)','(051)','Periodieken (in strikte zin)','','','',false,true);
+d.add(247,245,'(054)','<div class="nodetag">(054)</div></span>&nbsp;&nbsp;Kranten, dagbladen','(054)','Kranten, dagbladen','','','',false,true);
+d.add(248,245,'(055)','<div class="nodetag">(055)</div></span>&nbsp;&nbsp;Nieuwsbulletins. Rondschrijven. Informatiebulletins','(055)','Nieuwsbulletins. Rondschrijven. Informatiebulletins','','','',false,true);
+d.add(249,245,'(058)','<div class="nodetag">(058)</div></span>&nbsp;&nbsp;Jaarboeken. Adresboeken','(058)','Jaarboeken. Adresboeken','','','',false,true);
+d.add(250,245,'(059)','<div class="nodetag">(059)</div></span>&nbsp;&nbsp;Almanakken. Kalenders (van elk type)','(059)','Almanakken. Kalenders (van elk type)','','','',false,true);
+d.add(251,217,'(06)','<div class="nodetag">(06)</div></span>&nbsp;&nbsp;Publicaties van verenigingen en organisaties','(06)','Publicaties van verenigingen en organisaties','','','',false,true);
+d.add(252,217,'(07)','<div class="nodetag">(07)</div></span>&nbsp;&nbsp;Documenten voor instructie, onderwijs, studie en opleiding','(07)','Documenten voor instructie, onderwijs, studie en opleiding','','','',false,true);
+d.add(253,252,'(072)','<div class="nodetag">(072)</div></span>&nbsp;&nbsp;Documentair lesmateriaal. Didactisch materiaal','(072)','Documentair lesmateriaal. Didactisch materiaal','','','',false,true);
+d.add(254,252,'(073)','<div class="nodetag">(073)</div></span>&nbsp;&nbsp;Studiepakketten. Syllabi','(073)','Studiepakketten. Syllabi','','','',false,true);
+d.add(255,252,'(075)','<div class="nodetag">(075)</div></span>&nbsp;&nbsp;Onderwijskundige uitgaven. Schoolboeken. Uitgaven voor studenten','(075)','Onderwijskundige uitgaven. Schoolboeken. Uitgaven voor studenten','','','',false,true);
+d.add(256,252,'(076)','<div class="nodetag">(076)</div></span>&nbsp;&nbsp;Documenten voor praktische instructie en opleiding','(076)','Documenten voor praktische instructie en opleiding','','','',false,true);
+d.add(257,252,'(078)','<div class="nodetag">(078)</div></span>&nbsp;&nbsp;Onderwijsdocumenten en -materiaal niet elders vermeld','(078)','Onderwijsdocumenten en -materiaal niet elders vermeld','','','',false,true);
+d.add(258,252,'(079)','<div class="nodetag">(079)</div></span>&nbsp;&nbsp;Documenten met betrekking tot wedstrijden, toetsen, examens, enz.','(079)','Documenten met betrekking tot wedstrijden, toetsen, examens, enz.','','','',false,true);
+d.add(259,217,'(08)','<div class="nodetag">(08)</div></span>&nbsp;&nbsp;Verzamelde werken en werken van verschillende schrijvers. Formulieren. Lijsten. Illustraties. Zakelijke publicaties','(08)','Verzamelde werken en werken van verschillende schrijvers. Formulieren. Lijsten. Illustraties. Zakelijke publicaties','','','',false,true);
+d.add(260,259,'(081)','<div class="nodetag">(081)</div></span>&nbsp;&nbsp;Verzamelde werken van individuele auteurs','(081)','Verzamelde werken van individuele auteurs','','','',false,true);
+d.add(261,259,'(082)','<div class="nodetag">(082)</div></span>&nbsp;&nbsp;Verzamelde werken van verschillende auteurs','(082)','Verzamelde werken van verschillende auteurs','','','',false,true);
+d.add(262,259,'(083)','<div class="nodetag">(083)</div></span>&nbsp;&nbsp;Technische en normatieve documenten. Tabellen. Lijsten, enz.','(083)','Technische en normatieve documenten. Tabellen. Lijsten, enz.','','','',false,true);
+d.add(263,259,'(084)','<div class="nodetag">(084)</div></span>&nbsp;&nbsp;Afbeeldingen. Geïllustreerde documenten. Prenten','(084)','Afbeeldingen. Geïllustreerde documenten. Prenten','','','',false,true);
+d.add(264,259,'(085)','<div class="nodetag">(085)</div></span>&nbsp;&nbsp;Publicaties van bedrijven (industrieel, commercieel). Handelspubliciteit, handelsinformatie, advertentiemateriaal','(085)','Publicaties van bedrijven (industrieel, commercieel). Handelspubliciteit, handelsinformatie, advertentiemateriaal','','','',false,true);
+d.add(265,259,'(086)','<div class="nodetag">(086)</div></span>&nbsp;&nbsp;Driedimensionale (ruimtelijke) documenten. Audio- en audiovisuele documenten','(086)','Driedimensionale (ruimtelijke) documenten. Audio- en audiovisuele documenten','','','',false,true);
+d.add(266,265,'(086.3)','<div class="nodetag">(086.3)</div></span>&nbsp;&nbsp;Specimen. Originele voorwerpen als document','(086.3)','Specimen. Originele voorwerpen als document','','','',false,true);
+d.add(267,265,'(086.7)','<div class="nodetag">(086.7)</div></span>&nbsp;&nbsp;Geluidsdocumenten. Geluidsopnamen','(086.7)','Geluidsdocumenten. Geluidsopnamen','','','',false,true);
+d.add(268,265,'(086.8)','<div class="nodetag">(086.8)</div></span>&nbsp;&nbsp;Audiovisuele documenten. Videobanden. Beeldplaten','(086.8)','Audiovisuele documenten. Videobanden. Beeldplaten','','','',false,true);
+d.add(269,259,'(088)','<div class="nodetag">(088)</div></span>&nbsp;&nbsp;Attestaties. Bewijzen. Speciale documenten','(088)','Attestaties. Bewijzen. Speciale documenten','','','',false,true);
+d.add(270,217,'(09)','<div class="nodetag">(09)</div></span>&nbsp;&nbsp;Presentatie in geschiedkundige vorm. Geschiedkundige bronnen. Rechtsbronnen','(09)','Presentatie in geschiedkundige vorm. Geschiedkundige bronnen. Rechtsbronnen','','','',false,true);
+d.add(271,270,'(091)','<div class="nodetag">(091)</div></span>&nbsp;&nbsp;Presentatie in chronologische, historische vorm. Geschiedkundige beschrijving in engere zin','(091)','Presentatie in chronologische, historische vorm. Geschiedkundige beschrijving in engere zin','','','',false,true);
+d.add(272,270,'(092)','<div class="nodetag">(092)</div></span>&nbsp;&nbsp;Beschrijvingen in biografische vorm','(092)','Beschrijvingen in biografische vorm','','','',false,true);
+d.add(273,270,'(093)','<div class="nodetag">(093)</div></span>&nbsp;&nbsp;Geschiedkundige bronnen','(093)','Geschiedkundige bronnen','','','',false,true);
+d.add(274,270,'(094)','<div class="nodetag">(094)</div></span>&nbsp;&nbsp;Rechtsbronnen','(094)','Rechtsbronnen','','','',false,true);
+d.add(275,0,'(1/9)','<div class="nodetag">(1/9)</div></span>&nbsp;&nbsp;Tabel 1e. Algemene hulpgetallen van plaats','(1/9)','Tabel 1e. Algemene hulpgetallen van plaats','','','',false,true);
+d.add(276,275,'(1)','<div class="nodetag">(1)</div></span>&nbsp;&nbsp;Plaats en ruimte in het algemeen. Localisatie. Oriëntatie','(1)','Plaats en ruimte in het algemeen. Localisatie. Oriëntatie','','','',false,true);
+d.add(277,276,'(100)','<div class="nodetag">(100)</div></span>&nbsp;&nbsp;Universeel met betrekking tot de plaats. Internationaal. Alle landen in het algemeen','(100)','Universeel met betrekking tot de plaats. Internationaal. Alle landen in het algemeen','','','',false,true);
+d.add(278,275,'(1-0/-9)','<div class="nodetag">(1-0/-9)</div></span>&nbsp;&nbsp;Speciale hulpgetallen voor grenzen en ruimtelijke vormen van verschillende aard','(1-0/-9)','Speciale hulpgetallen voor grenzen en ruimtelijke vormen van verschillende aard','','','',false,true);
+d.add(279,278,'(1-0)','<div class="nodetag">(1-0)</div></span>&nbsp;&nbsp;Zones','(1-0)','Zones','','','',false,true);
+d.add(280,278,'(1-1)','<div class="nodetag">(1-1)</div></span>&nbsp;&nbsp;Oriëntatie. Kompasstreken. Relatieve positie','(1-1)','Oriëntatie. Kompasstreken. Relatieve positie','','','',false,true);
+d.add(281,280,'(1-11)','<div class="nodetag">(1-11)</div></span>&nbsp;&nbsp;Oost. Oostelijk','(1-11)','Oost. Oostelijk','','','',false,true);
+d.add(282,280,'(1-12)','<div class="nodetag">(1-12)</div></span>&nbsp;&nbsp;Zuidoost. Zuidoostelijk','(1-12)','Zuidoost. Zuidoostelijk','','','',false,true);
+d.add(283,280,'(1-13)','<div class="nodetag">(1-13)</div></span>&nbsp;&nbsp;Zuid. Zuidelijk','(1-13)','Zuid. Zuidelijk','','','',false,true);
+d.add(284,280,'(1-14)','<div class="nodetag">(1-14)</div></span>&nbsp;&nbsp;Zuidwest. Zuidwestelijk','(1-14)','Zuidwest. Zuidwestelijk','','','',false,true);
+d.add(285,280,'(1-15)','<div class="nodetag">(1-15)</div></span>&nbsp;&nbsp;West. Westelijk','(1-15)','West. Westelijk','','','',false,true);
+d.add(286,280,'(1-16)','<div class="nodetag">(1-16)</div></span>&nbsp;&nbsp;Noordwest. Noordwestelijk','(1-16)','Noordwest. Noordwestelijk','','','',false,true);
+d.add(287,280,'(1-17)','<div class="nodetag">(1-17)</div></span>&nbsp;&nbsp;Noord. Noordelijk','(1-17)','Noord. Noordelijk','','','',false,true);
+d.add(288,280,'(1-18)','<div class="nodetag">(1-18)</div></span>&nbsp;&nbsp;Noordoost. Noordoostelijk','(1-18)','Noordoost. Noordoostelijk','','','',false,true);
+d.add(289,280,'(1-19)','<div class="nodetag">(1-19)</div></span>&nbsp;&nbsp;Relatieve plaatsbepaling, richting en oriëntatie','(1-19)','Relatieve plaatsbepaling, richting en oriëntatie','','','',false,true);
+d.add(290,278,'(1-2/-4)','<div class="nodetag">(1-2/-4)</div></span>&nbsp;&nbsp;Politieke eenheden. Bestuurlijke eenheden','(1-2/-4)','Politieke eenheden. Bestuurlijke eenheden','','','',false,true);
+d.add(291,290,'(1-2)','<div class="nodetag">(1-2)</div></span>&nbsp;&nbsp;Laagste bestuurseenheden. Gemeenten','(1-2)','Laagste bestuurseenheden. Gemeenten','','','',false,true);
+d.add(292,291,'(1-24)','<div class="nodetag">(1-24)</div></span>&nbsp;&nbsp;Verbanden van buurgemeenten tot bestuurlijke eenheden','(1-24)','Verbanden van buurgemeenten tot bestuurlijke eenheden','','','',false,true);
+d.add(293,291,'(1-25)','<div class="nodetag">(1-25)</div></span>&nbsp;&nbsp;Hoofdsteden. Metropolen','(1-25)','Hoofdsteden. Metropolen','','','',false,true);
+d.add(294,290,'(1-3)','<div class="nodetag">(1-3)</div></span>&nbsp;&nbsp;Grotere bestuurseenheden','(1-3)','Grotere bestuurseenheden','','','',false,true);
+d.add(295,294,'(1-32)','<div class="nodetag">(1-32)</div></span>&nbsp;&nbsp;Hogere bestuurseenheden. Provincies','(1-32)','Hogere bestuurseenheden. Provincies','','','',false,true);
+d.add(296,294,'(1-35)','<div class="nodetag">(1-35)</div></span>&nbsp;&nbsp;Middelhoge bestuurseenheden','(1-35)','Middelhoge bestuurseenheden','','','',false,true);
+d.add(297,294,'(1-37)','<div class="nodetag">(1-37)</div></span>&nbsp;&nbsp;Lagere bestuurseenheden','(1-37)','Lagere bestuurseenheden','','','',false,true);
+d.add(298,290,'(1-4)','<div class="nodetag">(1-4)</div></span>&nbsp;&nbsp;Hoogste bestuursniveau. Naties. Staten. Statenbonden','(1-4)','Hoogste bestuursniveau. Naties. Staten. Statenbonden','','','',false,true);
+d.add(299,298,'(1-43)','<div class="nodetag">(1-43)</div></span>&nbsp;&nbsp;Staten binnen een confederatie. Federale staten. Autonome republieken','(1-43)','Staten binnen een confederatie. Federale staten. Autonome republieken','','','',false,true);
+d.add(300,298,'(1-44)','<div class="nodetag">(1-44)</div></span>&nbsp;&nbsp;Wereldrijken. Verband tussen moederland, dominions en kolonidn','(1-44)','Wereldrijken. Verband tussen moederland, dominions en kolonidn','','','',false,true);
+d.add(301,278,'(1-5)','<div class="nodetag">(1-5)</div></span>&nbsp;&nbsp;Afhankelijke of semi-afhankelijke territoria','(1-5)','Afhankelijke of semi-afhankelijke territoria','','','',false,true);
+d.add(302,278,'(1-6)','<div class="nodetag">(1-6)</div></span>&nbsp;&nbsp;Staten of groeperingen van staten vanuit verschillende gezichtspunten','(1-6)','Staten of groeperingen van staten vanuit verschillende gezichtspunten','','','',false,true);
+d.add(303,278,'(1-7)','<div class="nodetag">(1-7)</div></span>&nbsp;&nbsp;Plaatsen en gebieden naar particulier, openbaar en andere bijzondere kenmerken','(1-7)','Plaatsen en gebieden naar particulier, openbaar en andere bijzondere kenmerken','','','',false,true);
+d.add(304,278,'(1-8)','<div class="nodetag">(1-8)</div></span>&nbsp;&nbsp;Plaatsbepaling. Bron. Transito. Bestemming','(1-8)','Plaatsbepaling. Bron. Transito. Bestemming','','','',false,true);
+d.add(305,278,'(1-9)','<div class="nodetag">(1-9)</div></span>&nbsp;&nbsp;Indeling van de aarde vanuit bijzondere gezichtspunten','(1-9)','Indeling van de aarde vanuit bijzondere gezichtspunten','','','',false,true);
+d.add(306,275,'(2)','<div class="nodetag">(2)</div></span>&nbsp;&nbsp;Fysiografische aanduiding','(2)','Fysiografische aanduiding','','','',false,true);
+d.add(307,306,'(20)','<div class="nodetag">(20)</div></span>&nbsp;&nbsp;Ecosfeer','(20)','Ecosfeer','','','',false,true);
+d.add(308,306,'(21)','<div class="nodetag">(21)</div></span>&nbsp;&nbsp;Aardoppervlak in het algemeen. Landoppervlakten in het bijzonder. Natuurlijke zones en gebieden','(21)','Aardoppervlak in het algemeen. Landoppervlakten in het bijzonder. Natuurlijke zones en gebieden','','','',false,true);
+d.add(309,306,'(23)','<div class="nodetag">(23)</div></span>&nbsp;&nbsp;Boven de zeespiegel, zeeniveau. Oppervlakteprofiel. Reliëf. Bovengronds in het algemeen. Gebergten, bergen','(23)','Boven de zeespiegel, zeeniveau. Oppervlakteprofiel. Reliëf. Bovengronds in het algemeen. Gebergten, bergen','','','',false,true);
+d.add(310,306,'(24)','<div class="nodetag">(24)</div></span>&nbsp;&nbsp;Beneden zeeniveau. Ondergronds. Subterrestrisch','(24)','Beneden zeeniveau. Ondergronds. Subterrestrisch','','','',false,true);
+d.add(311,306,'(25)','<div class="nodetag">(25)</div></span>&nbsp;&nbsp;Natuurlijk vlak land (op, boven of onder zeeniveau). De grond in de natuurlijke staat, gecultiveerd of bewoond','(25)','Natuurlijk vlak land (op, boven of onder zeeniveau). De grond in de natuurlijke staat, gecultiveerd of bewoond','','','',false,true);
+d.add(312,306,'(26)','<div class="nodetag">(26)</div></span>&nbsp;&nbsp;Oceanen, zeedn en onderlinge verbindingen','(26)','Oceanen, zeedn en onderlinge verbindingen','','','',false,true);
+d.add(313,306,'(28)','<div class="nodetag">(28)</div></span>&nbsp;&nbsp;Binnenwateren','(28)','Binnenwateren','','','',false,true);
+d.add(314,275,'(3/9)','<div class="nodetag">(3/9)</div></span>&nbsp;&nbsp;Individuele plaatsen van de antieke en moderne wereld','(3/9)','Individuele plaatsen van de antieke en moderne wereld','','','',false,true);
+d.add(315,314,'(3)','<div class="nodetag">(3)</div></span>&nbsp;&nbsp;Plaatsen van de Oude en Middeleeuwse wereld','(3)','Plaatsen van de Oude en Middeleeuwse wereld','','','',false,true);
+d.add(316,315,'(31)','<div class="nodetag">(31)</div></span>&nbsp;&nbsp;Oud-China. Oud-Japan','(31)','Oud-China. Oud-Japan','','','',false,true);
+d.add(317,315,'(32)','<div class="nodetag">(32)</div></span>&nbsp;&nbsp;Aegyptus. Oud-Egypte','(32)','Aegyptus. Oud-Egypte','','','',false,true);
+d.add(318,315,'(33)','<div class="nodetag">(33)</div></span>&nbsp;&nbsp;Judea. Het Heilige Land. Gebied van de Israëlieten','(33)','Judea. Het Heilige Land. Gebied van de Israëlieten','','','',false,true);
+d.add(319,315,'(34)','<div class="nodetag">(34)</div></span>&nbsp;&nbsp;Oud-India','(34)','Oud-India','','','',false,true);
+d.add(320,315,'(35)','<div class="nodetag">(35)</div></span>&nbsp;&nbsp;Medo-Perzië','(35)','Medo-Perzië','','','',false,true);
+d.add(321,315,'(36)','<div class="nodetag">(36)</div></span>&nbsp;&nbsp;Gebieden van de zo genoemde barbarenvolken','(36)','Gebieden van de zo genoemde barbarenvolken','','','',false,true);
+d.add(322,315,'(37)','<div class="nodetag">(37)</div></span>&nbsp;&nbsp;Italia. Oud-Rome en -Italië','(37)','Italia. Oud-Rome en -Italië','','','',false,true);
+d.add(323,315,'(38)','<div class="nodetag">(38)</div></span>&nbsp;&nbsp;Graecia. Oud-Griekenland','(38)','Graecia. Oud-Griekenland','','','',false,true);
+d.add(324,315,'(399)','<div class="nodetag">(399)</div></span>&nbsp;&nbsp;Overige gebieden. Oude geografische indelingen anders dan die van de Klassieke Oudheid','(399)','Overige gebieden. Oude geografische indelingen anders dan die van de Klassieke Oudheid','','','',false,true);
+d.add(325,324,'(399.7)','<div class="nodetag">(399.7)</div></span>&nbsp;&nbsp;Gebieden van de Oud-Amerikaanse cultuur. Pre-Columbiaans Amerika','(399.7)','Gebieden van de Oud-Amerikaanse cultuur. Pre-Columbiaans Amerika','','','',false,true);
+d.add(326,314,'(4/9)','<div class="nodetag">(4/9)</div></span>&nbsp;&nbsp;Landen en plaatsen van de moderne wereld','(4/9)','Landen en plaatsen van de moderne wereld','','','',false,true);
+d.add(327,326,'(4)','<div class="nodetag">(4)</div></span>&nbsp;&nbsp;Europa','(4)','Europa','','','',false,true);
+d.add(328,327,'(41)','<div class="nodetag">(41)</div></span>&nbsp;&nbsp;Landen van de Britse eilanden','(41)','Landen van de Britse eilanden','','','',false,true);
+d.add(329,328,'(410)','<div class="nodetag">(410)</div></span>&nbsp;&nbsp;Verenigd Koninkrijk van Groot-Brittannië en Noord-Ierland (United Kingdom of Great Britain and Northern Ireland)','(410)','Verenigd Koninkrijk van Groot-Brittannië en Noord-Ierland (United Kingdom of Great Britain and Northern Ireland)','','','',false,true);
+d.add(330,328,'(417)','<div class="nodetag">(417)</div></span>&nbsp;&nbsp;Ierland (Ireland, Ierland. Ierse republiek (Ireland. Republic of Ireland / Éire). Ierse Republiek','(417)','Ierland (Ireland, Ierland. Ierse republiek (Ireland. Republic of Ireland / Éire). Ierse Republiek','','','',false,true);
+d.add(331,327,'(430)','<div class="nodetag">(430)</div></span>&nbsp;&nbsp;Duitsland. Bondsrepubliek Duitsland (Bundesrepublik Deutschland)','(430)','Duitsland. Bondsrepubliek Duitsland (Bundesrepublik Deutschland)','','','',false,true);
+d.add(332,327,'(435.9)','<div class="nodetag">(435.9)</div></span>&nbsp;&nbsp;Luxemburg. Groothertogdom Luxemburg (Luxembourg. Grand-Duché de Luxembourg. Grossherzogtum Luxemburg. Grousherzogdem Lëtzebuerg)','(435.9)','Luxemburg. Groothertogdom Luxemburg (Luxembourg. Grand-Duché de Luxembourg. Grossherzogtum Luxemburg. Grousherzogdem Lëtzebuerg)','','','',false,true);
+d.add(333,327,'(436)','<div class="nodetag">(436)</div></span>&nbsp;&nbsp;Oostenrijk. Republiek Oostenrijk (Österreich. Republik Österreich)','(436)','Oostenrijk. Republiek Oostenrijk (Österreich. Republik Österreich)','','','',false,true);
+d.add(334,327,'(437.3)','<div class="nodetag">(437.3)</div></span>&nbsp;&nbsp;Tsjechië. Tsjechische Republiek (Česko. Česká Republika)','(437.3)','Tsjechië. Tsjechische Republiek (Česko. Česká Republika)','','','',false,true);
+d.add(335,327,'(437.6)','<div class="nodetag">(437.6)</div></span>&nbsp;&nbsp;Slowakije. Slowaakse Republiek (Slovensko. Slovenská Republika)','(437.6)','Slowakije. Slowaakse Republiek (Slovensko. Slovenská Republika)','','','',false,true);
+d.add(336,327,'(438)','<div class="nodetag">(438)</div></span>&nbsp;&nbsp;Polen. Poolse Republiek. (Polska. Rzeczpospolita Polska)','(438)','Polen. Poolse Republiek. (Polska. Rzeczpospolita Polska)','','','',false,true);
+d.add(337,327,'(439)','<div class="nodetag">(439)</div></span>&nbsp;&nbsp;Hongarije. Magyarország','(439)','Hongarije. Magyarország','','','',false,true);
+d.add(338,327,'(44)','<div class="nodetag">(44)</div></span>&nbsp;&nbsp;Frankrijk. Republiek Frankrijk (France. République Française)','(44)','Frankrijk. Republiek Frankrijk (France. République Française)','','','',false,true);
+d.add(339,327,'(450)','<div class="nodetag">(450)</div></span>&nbsp;&nbsp;Italië. Republiek Italië (Italia. Republica Italiana)','(450)','Italië. Republiek Italië (Italia. Republica Italiana)','','','',false,true);
+d.add(340,327,'(454.4)','<div class="nodetag">(454.4)</div></span>&nbsp;&nbsp;San Marino. Republiek San Marino (Serenissima Repubblica di San Marino)','(454.4)','San Marino. Republiek San Marino (Serenissima Repubblica di San Marino)','','','',false,true);
+d.add(341,327,'(456.31)','<div class="nodetag">(456.31)</div></span>&nbsp;&nbsp;Vaticaanstad. Staat Vaticaanstad (Stato della citta del Vaticano)','(456.31)','Vaticaanstad. Staat Vaticaanstad (Stato della citta del Vaticano)','','','',false,true);
+d.add(342,327,'(458.2)','<div class="nodetag">(458.2)</div></span>&nbsp;&nbsp;Malta. Republiek Malta (Repubblika ta\' Malta)','(458.2)','Malta. Republiek Malta (Repubblika ta\' Malta)','','','',false,true);
+d.add(343,327,'(46)','<div class="nodetag">(46)</div></span>&nbsp;&nbsp;Landen van het Iberisch schiereiland','(46)','Landen van het Iberisch schiereiland','','','',false,true);
+d.add(344,343,'(460)','<div class="nodetag">(460)</div></span>&nbsp;&nbsp;Spanje. Koninkrijk Spanje (España. Reino de España)','(460)','Spanje. Koninkrijk Spanje (España. Reino de España)','','','',false,true);
+d.add(345,343,'(467)','<div class="nodetag">(467)</div></span>&nbsp;&nbsp;Andorra. Het Prinsdom Andorra. Principat d\'Andorra','(467)','Andorra. Het Prinsdom Andorra. Principat d\'Andorra','','','',false,true);
+d.add(346,343,'(469)','<div class="nodetag">(469)</div></span>&nbsp;&nbsp;Portugal. Portugese Republiek (República Portuguesa)','(469)','Portugal. Portugese Republiek (República Portuguesa)','','','',false,true);
+d.add(347,327,'(470+571)','<div class="nodetag">(470+571)</div></span>&nbsp;&nbsp;Rusland. Russische Federatie (Rossiya. Rossiiskaya Federatsiya)','(470+571)','Rusland. Russische Federatie (Rossiya. Rossiiskaya Federatsiya)','','','',false,true);
+d.add(348,327,'(474)','<div class="nodetag">(474)</div></span>&nbsp;&nbsp;Baltische staten','(474)','Baltische staten','','','',false,true);
+d.add(349,348,'(474.2)','<div class="nodetag">(474.2)</div></span>&nbsp;&nbsp;Estland. Republiek Estland (Eesti, Eesti Vabariik)','(474.2)','Estland. Republiek Estland (Eesti, Eesti Vabariik)','','','',false,true);
+d.add(350,348,'(474.3)','<div class="nodetag">(474.3)</div></span>&nbsp;&nbsp;Letland. Republiek Letland. Latvijas Republika','(474.3)','Letland. Republiek Letland. Latvijas Republika','','','',false,true);
+d.add(351,348,'(474.5)','<div class="nodetag">(474.5)</div></span>&nbsp;&nbsp;Litouwen. Republiek Litouwen. (Lietuva. Lietuvos Respublika)','(474.5)','Litouwen. Republiek Litouwen. (Lietuva. Lietuvos Respublika)','','','',false,true);
+d.add(352,327,'(476)','<div class="nodetag">(476)</div></span>&nbsp;&nbsp;Wit-Rusland. Republiek Wit-Rusland (Belarus`)','(476)','Wit-Rusland. Republiek Wit-Rusland (Belarus`)','','','',false,true);
+d.add(353,327,'(477)','<div class="nodetag">(477)</div></span>&nbsp;&nbsp;Oekraïne (Ukrayina)','(477)','Oekraïne (Ukrayina)','','','',false,true);
+d.add(354,327,'(478)','<div class="nodetag">(478)</div></span>&nbsp;&nbsp;Moldavië. Republiek Moldova. Republica Moldoveneasca','(478)','Moldavië. Republiek Moldova. Republica Moldoveneasca','','','',false,true);
+d.add(355,327,'(479)','<div class="nodetag">(479)</div></span>&nbsp;&nbsp;Landen van de Kaukasus','(479)','Landen van de Kaukasus','','','',false,true);
+d.add(356,355,'(479.22)','<div class="nodetag">(479.22)</div></span>&nbsp;&nbsp;Georgië. Republiek Georgië. Sakartvelo. Sakartvelos Respublika','(479.22)','Georgië. Republiek Georgië. Sakartvelo. Sakartvelos Respublika','','','',false,true);
+d.add(357,355,'(479.24)','<div class="nodetag">(479.24)</div></span>&nbsp;&nbsp;Azerbeidzjan. Republiek Azerbeidzjan. Azərbaycan Respublikası','(479.24)','Azerbeidzjan. Republiek Azerbeidzjan. Azərbaycan Respublikası','','','',false,true);
+d.add(358,355,'(479.25)','<div class="nodetag">(479.25)</div></span>&nbsp;&nbsp;Armenië. Armeense Republiek. Hayastan. Hayastani Hanrapetut’yun (Haikakan Hanrapetoutioun)','(479.25)','Armenië. Armeense Republiek. Hayastan. Hayastani Hanrapetut’yun (Haikakan Hanrapetoutioun)','','','',false,true);
+d.add(359,327,'(48)','<div class="nodetag">(48)</div></span>&nbsp;&nbsp;Landen van Scandinavië','(48)','Landen van Scandinavië','','','',false,true);
+d.add(360,359,'(480)','<div class="nodetag">(480)</div></span>&nbsp;&nbsp;Finland. Republiek Finland (Suomi. Suomen Tasavalta. Republiken Finland)','(480)','Finland. Republiek Finland (Suomi. Suomen Tasavalta. Republiken Finland)','','','',false,true);
+d.add(361,359,'(481)','<div class="nodetag">(481)</div></span>&nbsp;&nbsp;Noorwegen. Koninkrijk Noorwegen (Kongeriket Norge {nob}, Kongeriket Noreg {nno})','(481)','Noorwegen. Koninkrijk Noorwegen (Kongeriket Norge {nob}, Kongeriket Noreg {nno})','','','',false,true);
+d.add(362,359,'(485)','<div class="nodetag">(485)</div></span>&nbsp;&nbsp;Zweden. Koninkrijk Zweden (Sverige. Konungariket Sverige)','(485)','Zweden. Koninkrijk Zweden (Sverige. Konungariket Sverige)','','','',false,true);
+d.add(363,359,'(489)','<div class="nodetag">(489)</div></span>&nbsp;&nbsp;Denemarken. Koninkrijk Denemarken (Danmark, Kongeriget Danmark)','(489)','Denemarken. Koninkrijk Denemarken (Danmark, Kongeriget Danmark)','','','',false,true);
+d.add(364,327,'(491.1)','<div class="nodetag">(491.1)</div></span>&nbsp;&nbsp;IJsland. Republiek IJsland (Ísland. Lýðveldið Ísland)','(491.1)','IJsland. Republiek IJsland (Ísland. Lýðveldið Ísland)','','','',false,true);
+d.add(365,327,'(492)','<div class="nodetag">(492)</div></span>&nbsp;&nbsp;Nederland. Koninkrijk der Nederlanden','(492)','Nederland. Koninkrijk der Nederlanden','','','',false,true);
+d.add(366,327,'(493)','<div class="nodetag">(493)</div></span>&nbsp;&nbsp;België (Belgique). Koninkrijk België (Royaume de Belgique)','(493)','België (Belgique). Koninkrijk België (Royaume de Belgique)','','','',false,true);
+d.add(367,327,'(494)','<div class="nodetag">(494)</div></span>&nbsp;&nbsp;Zwitserland (Schweiz). Zwitsers Eedgenootschap (Schweiz. Schweizerische Eidgenossenschaftt. Confédération suisse. Confederazione Svizzera. Confederaziun svizra)','(494)','Zwitserland (Schweiz). Zwitsers Eedgenootschap (Schweiz. Schweizerische Eidgenossenschaftt. Confédération suisse. Confederazione Svizzera. Confederaziun svizra)','','','',false,true);
+d.add(368,367,'(494.9)','<div class="nodetag">(494.9)</div></span>&nbsp;&nbsp;Liechtenstein. Vorstendom Liechtenstein (Fürstentum Liechtenstein)','(494.9)','Liechtenstein. Vorstendom Liechtenstein (Fürstentum Liechtenstein)','','','',false,true);
+d.add(369,327,'(495)','<div class="nodetag">(495)</div></span>&nbsp;&nbsp;Griekenland. Helleense Republiek (\'Ellás. Elliniki Dimokratia)','(495)','Griekenland. Helleense Republiek (\'Ellás. Elliniki Dimokratia)','','','',false,true);
+d.add(370,327,'(496.5)','<div class="nodetag">(496.5)</div></span>&nbsp;&nbsp;Albanië. Republiek Albanië (Shqipëria. Republika e Shqipërisë)','(496.5)','Albanië. Republiek Albanië (Shqipëria. Republika e Shqipërisë)','','','',false,true);
+d.add(371,327,'(497)','<div class="nodetag">(497)</div></span>&nbsp;&nbsp;De Balkanstaten in het algemeen','(497)','De Balkanstaten in het algemeen','','','',false,true);
+d.add(372,371,'(497.11)','<div class="nodetag">(497.11)</div></span>&nbsp;&nbsp;Servië. Republiek Servië (Srbija. Republika Srbija)','(497.11)','Servië. Republiek Servië (Srbija. Republika Srbija)','','','',false,true);
+d.add(373,371,'(497.16)','<div class="nodetag">(497.16)</div></span>&nbsp;&nbsp;Montenegro (Crna Gora)','(497.16)','Montenegro (Crna Gora)','','','',false,true);
+d.add(374,371,'(497.2)','<div class="nodetag">(497.2)</div></span>&nbsp;&nbsp;Bulgarije. Republiek Bulgarije (Balgarija. Republika Bulgariya)','(497.2)','Bulgarije. Republiek Bulgarije (Balgarija. Republika Bulgariya)','','','',false,true);
+d.add(375,371,'(497.4)','<div class="nodetag">(497.4)</div></span>&nbsp;&nbsp;Slovenië. Republiek Slovenië (Slovenija. Republika Slovenija)','(497.4)','Slovenië. Republiek Slovenië (Slovenija. Republika Slovenija)','','','',false,true);
+d.add(376,371,'(497.5)','<div class="nodetag">(497.5)</div></span>&nbsp;&nbsp;Kroatië. Republiek Kroatië (Hrvatska. Republika Hrvatska)','(497.5)','Kroatië. Republiek Kroatië (Hrvatska. Republika Hrvatska)','','','',false,true);
+d.add(377,371,'(497.6)','<div class="nodetag">(497.6)</div></span>&nbsp;&nbsp;Bosnië-Hercegovina (Bosna i Hercegovina). Republiek Bosnië en Hercegovina (Bosna i Hercegovina)','(497.6)','Bosnië-Hercegovina (Bosna i Hercegovina). Republiek Bosnië en Hercegovina (Bosna i Hercegovina)','','','',false,true);
+d.add(378,371,'(497.7)','<div class="nodetag">(497.7)</div></span>&nbsp;&nbsp;Macedonië. Voormalige Joegoslavische Republiek Macedonië. F.Y.R.O. Makedonia. Republika Makedonija','(497.7)','Macedonië. Voormalige Joegoslavische Republiek Macedonië. F.Y.R.O. Makedonia. Republika Makedonija','','','',false,true);
+d.add(379,327,'(498)','<div class="nodetag">(498)</div></span>&nbsp;&nbsp;Roemenië. Republiek Roemenië (România)','(498)','Roemenië. Republiek Roemenië (România)','','','',false,true);
+d.add(380,326,'(5)','<div class="nodetag">(5)</div></span>&nbsp;&nbsp;Azië','(5)','Azië','','','',false,true);
+d.add(381,380,'(510)','<div class="nodetag">(510)</div></span>&nbsp;&nbsp;China. Volksrepubliek China (Zhōnghuá Rénmín Gònghéguó)','(510)','China. Volksrepubliek China (Zhōnghuá Rénmín Gònghéguó)','','','',false,true);
+d.add(382,380,'(512.317)','<div class="nodetag">(512.317)</div></span>&nbsp;&nbsp;Hong Kong. Xianggang (Hsiang-Kang)','(512.317)','Hong Kong. Xianggang (Hsiang-Kang)','','','',false,true);
+d.add(383,380,'(512.318)','<div class="nodetag">(512.318)</div></span>&nbsp;&nbsp;Aomen. Macau (Macao)','(512.318)','Aomen. Macau (Macao)','','','',false,true);
+d.add(384,380,'(515)','<div class="nodetag">(515)</div></span>&nbsp;&nbsp;Tibet. Tibet autonome regio. Xizang Zizhiqu','(515)','Tibet. Tibet autonome regio. Xizang Zizhiqu','','','',false,true);
+d.add(385,380,'(517.9)','<div class="nodetag">(517.9)</div></span>&nbsp;&nbsp;Mongolië. Staat Mongolië (Mongol Uls)','(517.9)','Mongolië. Staat Mongolië (Mongol Uls)','','','',false,true);
+d.add(386,380,'(519)','<div class="nodetag">(519)</div></span>&nbsp;&nbsp;Korea (tot 1948)','(519)','Korea (tot 1948)','','','',false,true);
+d.add(387,386,'(519.3)','<div class="nodetag">(519.3)</div></span>&nbsp;&nbsp;Noord-Korea. Democratische Volksrepubliek Korea (Choson-Minjujuui-Inmin-Konghwaguk)','(519.3)','Noord-Korea. Democratische Volksrepubliek Korea (Choson-Minjujuui-Inmin-Konghwaguk)','','','',false,true);
+d.add(388,386,'(519.5)','<div class="nodetag">(519.5)</div></span>&nbsp;&nbsp;Zuid-Korea. Republiek Korea (Taehan-min\'guk)','(519.5)','Zuid-Korea. Republiek Korea (Taehan-min\'guk)','','','',false,true);
+d.add(389,380,'(52)','<div class="nodetag">(52)</div></span>&nbsp;&nbsp;Japan en omliggende eilanden','(52)','Japan en omliggende eilanden','','','',false,true);
+d.add(390,389,'(520)','<div class="nodetag">(520)</div></span>&nbsp;&nbsp;Japan (Nippon / Nihon. Nippon-koku / Nihon Koku)','(520)','Japan (Nippon / Nihon. Nippon-koku / Nihon Koku)','','','',false,true);
+d.add(391,389,'(529)','<div class="nodetag">(529)</div></span>&nbsp;&nbsp;Taiwan (T\'aiwan)','(529)','Taiwan (T\'aiwan)','','','',false,true);
+d.add(392,380,'(53)','<div class="nodetag">(53)</div></span>&nbsp;&nbsp;Arabische staten en gebieden','(53)','Arabische staten en gebieden','','','',false,true);
+d.add(393,392,'(532)','<div class="nodetag">(532)</div></span>&nbsp;&nbsp;Saoedi-Arabië. Saoedi-Arabisch Koninkrijk (al-Mamlaka al-ʻArabiyya as-Suʻūdiyya)','(532)','Saoedi-Arabië. Saoedi-Arabisch Koninkrijk (al-Mamlaka al-ʻArabiyya as-Suʻūdiyya)','','','',false,true);
+d.add(394,392,'(533)','<div class="nodetag">(533)</div></span>&nbsp;&nbsp;Jemen. Republiek Jemen (Al-Jumhūriyyah al-Yamaniyyah)','(533)','Jemen. Republiek Jemen (Al-Jumhūriyyah al-Yamaniyyah)','','','',false,true);
+d.add(395,392,'(535)','<div class="nodetag">(535)</div></span>&nbsp;&nbsp;Oman. Sultanaat Oman (Salṭanat ʻUmān)','(535)','Oman. Sultanaat Oman (Salṭanat ʻUmān)','','','',false,true);
+d.add(396,392,'(536)','<div class="nodetag">(536)</div></span>&nbsp;&nbsp;Oost-Arabische staten. Golfstaten','(536)','Oost-Arabische staten. Golfstaten','','','',false,true);
+d.add(397,396,'(536.2)','<div class="nodetag">(536.2)</div></span>&nbsp;&nbsp;Verenigde Arabische Emiraten (Dawlat al-Imārāt al-‘Arabīyah al-Muttaḥidah)','(536.2)','Verenigde Arabische Emiraten (Dawlat al-Imārāt al-‘Arabīyah al-Muttaḥidah)','','','',false,true);
+d.add(398,396,'(536.4)','<div class="nodetag">(536.4)</div></span>&nbsp;&nbsp;Katar. Staat Qatar (Dawlat Qatar)','(536.4)','Katar. Staat Qatar (Dawlat Qatar)','','','',false,true);
+d.add(399,396,'(536.5)','<div class="nodetag">(536.5)</div></span>&nbsp;&nbsp;Bahrein. Koninkrijk Bahrein (Mamlakat al-Baḥrayn)','(536.5)','Bahrein. Koninkrijk Bahrein (Mamlakat al-Baḥrayn)','','','',false,true);
+d.add(400,396,'(536.8)','<div class="nodetag">(536.8)</div></span>&nbsp;&nbsp;Koeweit. Staat Koeweit (Dawlat al-Kuwayt)','(536.8)','Koeweit. Staat Koeweit (Dawlat al-Kuwayt)','','','',false,true);
+d.add(401,380,'(54)','<div class="nodetag">(54)</div></span>&nbsp;&nbsp;Staten van het Indiaas subcontinent','(54)','Staten van het Indiaas subcontinent','','','',false,true);
+d.add(402,401,'(540)','<div class="nodetag">(540)</div></span>&nbsp;&nbsp;India. Republiek India (Bhārat Gaṇarājya)','(540)','India. Republiek India (Bhārat Gaṇarājya)','','','',false,true);
+d.add(403,401,'(541.31)','<div class="nodetag">(541.31)</div></span>&nbsp;&nbsp;Bhutan. Koninkrijk Bhutan (Druk Yul. Druk Gyal Khab)','(541.31)','Bhutan. Koninkrijk Bhutan (Druk Yul. Druk Gyal Khab)','','','',false,true);
+d.add(404,401,'(541.35)','<div class="nodetag">(541.35)</div></span>&nbsp;&nbsp;Nepal. Federale Democratische Republiek Nepal (Sanghiya Loktantrik Ganatantra Nepal)','(541.35)','Nepal. Federale Democratische Republiek Nepal (Sanghiya Loktantrik Ganatantra Nepal)','','','',false,true);
+d.add(405,401,'(548.7)','<div class="nodetag">(548.7)</div></span>&nbsp;&nbsp;Sri Lanka. Democratische Socialistische Republiek Sri Lanka (Sri Lankā Prajathanthrika Samajavadi Janarajaya. Illankai Chananaayaka Chosalisa Kudiyarasu)','(548.7)','Sri Lanka. Democratische Socialistische Republiek Sri Lanka (Sri Lankā Prajathanthrika Samajavadi Janarajaya. Illankai Chananaayaka Chosalisa Kudiyarasu)','','','',false,true);
+d.add(406,401,'(548.82)','<div class="nodetag">(548.82)</div></span>&nbsp;&nbsp;Malediven (Maldives). Republiek Malediven (Divehi Rājjey ge Jumhuriyyā)','(548.82)','Malediven (Maldives). Republiek Malediven (Divehi Rājjey ge Jumhuriyyā)','','','',false,true);
+d.add(407,401,'(549.1)','<div class="nodetag">(549.1)</div></span>&nbsp;&nbsp;Pakistan (Pakistan). Islamitische Republiek Pakistan','(549.1)','Pakistan (Pakistan). Islamitische Republiek Pakistan','','','',false,true);
+d.add(408,401,'(549.3)','<div class="nodetag">(549.3)</div></span>&nbsp;&nbsp;Bangladesh. Volksrepubliek Bangladesh','(549.3)','Bangladesh. Volksrepubliek Bangladesh','','','',false,true);
+d.add(409,380,'(55)','<div class="nodetag">(55)</div></span>&nbsp;&nbsp;Iran. Islamitische Republiek Iran (Jomhuri-ye Eslāmi-ye Irān)','(55)','Iran. Islamitische Republiek Iran (Jomhuri-ye Eslāmi-ye Irān)','','','',false,true);
+d.add(410,380,'(56)','<div class="nodetag">(56)</div></span>&nbsp;&nbsp;Levant. Klein-Azië. Asia Minor','(56)','Levant. Klein-Azië. Asia Minor','','','',false,true);
+d.add(411,410,'(560)','<div class="nodetag">(560)</div></span>&nbsp;&nbsp;Turkije. Republiek Turkije (Türkiye Cumhuriyeti)','(560)','Turkije. Republiek Turkije (Türkiye Cumhuriyeti)','','','',false,true);
+d.add(412,410,'(564.3)','<div class="nodetag">(564.3)</div></span>&nbsp;&nbsp;Cyprus. Republiek Cyprus (Kypriakí Dīmokratí. Kıbrıs Cumhuriyeti)','(564.3)','Cyprus. Republiek Cyprus (Kypriakí Dīmokratí. Kıbrıs Cumhuriyeti)','','','',false,true);
+d.add(413,410,'(567)','<div class="nodetag">(567)</div></span>&nbsp;&nbsp;Irak. Republiek Irak (Jumhūriyat Al-Irāq. Komara Îraqê)','(567)','Irak. Republiek Irak (Jumhūriyat Al-Irāq. Komara Îraqê)','','','',false,true);
+d.add(414,410,'(569.1)','<div class="nodetag">(569.1)</div></span>&nbsp;&nbsp;Syrie. Arabische Republiek Syrië (Al-Jumhūriyyah al-ʿArabiyyah as-Sūriyyah)','(569.1)','Syrie. Arabische Republiek Syrië (Al-Jumhūriyyah al-ʿArabiyyah as-Sūriyyah)','','','',false,true);
+d.add(415,410,'(569.3)','<div class="nodetag">(569.3)</div></span>&nbsp;&nbsp;Libanon (Lubnan). Republiek Libanon','(569.3)','Libanon (Lubnan). Republiek Libanon','','','',false,true);
+d.add(416,410,'(569.4)','<div class="nodetag">(569.4)</div></span>&nbsp;&nbsp;Israël. Staat Israël (Medīnat Yisrā\'el. Dawlat Isrā\'īl)','(569.4)','Israël. Staat Israël (Medīnat Yisrā\'el. Dawlat Isrā\'īl)','','','',false,true);
+d.add(417,410,'(569.5)','<div class="nodetag">(569.5)</div></span>&nbsp;&nbsp;Jordanië. Hasjemitisch Koninkrijk Jordanië (Urdunn / L\'Ürdünn. al Mamlaka al Urduniya al Hashemiyah)','(569.5)','Jordanië. Hasjemitisch Koninkrijk Jordanië (Urdunn / L\'Ürdünn. al Mamlaka al Urduniya al Hashemiyah)','','','',false,true);
+d.add(418,380,'(57)','<div class="nodetag">(57)</div></span>&nbsp;&nbsp;Voormalige Aziatische U.S.S.R.','(57)','Voormalige Aziatische U.S.S.R.','','','',false,true);
+d.add(419,418,'(571)','<div class="nodetag">(571)</div></span>&nbsp;&nbsp;Russische Federatie in Azië','(571)','Russische Federatie in Azië','','','',false,true);
+d.add(420,418,'(574)','<div class="nodetag">(574)</div></span>&nbsp;&nbsp;Kazachstan. Republiek Kazachstan. Qazaqstan Respublïkası','(574)','Kazachstan. Republiek Kazachstan. Qazaqstan Respublïkası','','','',false,true);
+d.add(421,418,'(575.1)','<div class="nodetag">(575.1)</div></span>&nbsp;&nbsp;Republiek Uzbekistan (O’zbekiston Respublikasi)','(575.1)','Republiek Uzbekistan (O’zbekiston Respublikasi)','','','',false,true);
+d.add(422,418,'(575.2)','<div class="nodetag">(575.2)</div></span>&nbsp;&nbsp;Kirgizië. Republiek Kirgizië (Kyrgyz Respublikasy. Kyrgyzskaya Respublika)','(575.2)','Kirgizië. Republiek Kirgizië (Kyrgyz Respublikasy. Kyrgyzskaya Respublika)','','','',false,true);
+d.add(423,418,'(575.3)','<div class="nodetag">(575.3)</div></span>&nbsp;&nbsp;Tadzjikistan. Republiek Tadzjikistan (Jumhurii Tojikiston)','(575.3)','Tadzjikistan. Republiek Tadzjikistan (Jumhurii Tojikiston)','','','',false,true);
+d.add(424,418,'(575.4)','<div class="nodetag">(575.4)</div></span>&nbsp;&nbsp;Turkmenistan . Republiek Turkmenistan (Türkmenistan Respublikasy)','(575.4)','Turkmenistan . Republiek Turkmenistan (Türkmenistan Respublikasy)','','','',false,true);
+d.add(425,380,'(581)','<div class="nodetag">(581)</div></span>&nbsp;&nbsp;Afghanistan. Islamitische Staat Afghanistan (Jomhūrī-ye Eslāmī-ye Afġānistān. Da Afġānistān Islāmī Jomhoriyat)','(581)','Afghanistan. Islamitische Staat Afghanistan (Jomhūrī-ye Eslāmī-ye Afġānistān. Da Afġānistān Islāmī Jomhoriyat)','','','',false,true);
+d.add(426,380,'(59)','<div class="nodetag">(59)</div></span>&nbsp;&nbsp;Zuidoost-Aziatische Staten en Gebieden','(59)','Zuidoost-Aziatische Staten en Gebieden','','','',false,true);
+d.add(427,426,'(591)','<div class="nodetag">(591)</div></span>&nbsp;&nbsp;Myanmar [Birma]. Republiek der Unie van Myanmar. Pyidaunzu Thanmăda Myăma Nainngandaw','(591)','Myanmar [Birma]. Republiek der Unie van Myanmar. Pyidaunzu Thanmăda Myăma Nainngandaw','','','',false,true);
+d.add(428,426,'(592.3)','<div class="nodetag">(592.3)</div></span>&nbsp;&nbsp;Singapore. Republiek Singapore','(592.3)','Singapore. Republiek Singapore','','','',false,true);
+d.add(429,426,'(592.6)','<div class="nodetag">(592.6)</div></span>&nbsp;&nbsp;Brunei. Staat Brunei Darussalam (Negara Brunei Darussalam)','(592.6)','Brunei. Staat Brunei Darussalam (Negara Brunei Darussalam)','','','',false,true);
+d.add(430,426,'(593)','<div class="nodetag">(593)</div></span>&nbsp;&nbsp;Thailand (Prathet Thai). Koninkrijk Thailand','(593)','Thailand (Prathet Thai). Koninkrijk Thailand','','','',false,true);
+d.add(431,426,'(594)','<div class="nodetag">(594)</div></span>&nbsp;&nbsp;Indonesië. Republiek Indonesië (Republik Indonesia)','(594)','Indonesië. Republiek Indonesië (Republik Indonesia)','','','',false,true);
+d.add(432,426,'(595)','<div class="nodetag">(595)</div></span>&nbsp;&nbsp;Maleisie. Maleisische Federatie (Persekutuan Tanah Malaysia)','(595)','Maleisie. Maleisische Federatie (Persekutuan Tanah Malaysia)','','','',false,true);
+d.add(433,426,'(596/598)','<div class="nodetag">(596/598)</div></span>&nbsp;&nbsp;Indo-China','(596/598)','Indo-China','','','',false,true);
+d.add(434,433,'(596)','<div class="nodetag">(596)</div></span>&nbsp;&nbsp;Cambodja. Koninkrijk Cambodja (Srok Khmae (Prateh Kampuchea). Preăh Réachéa Anachâk Kâmpŭchea)','(596)','Cambodja. Koninkrijk Cambodja (Srok Khmae (Prateh Kampuchea). Preăh Réachéa Anachâk Kâmpŭchea)','','','',false,true);
+d.add(435,433,'(597)','<div class="nodetag">(597)</div></span>&nbsp;&nbsp;Vietnam. Socialistische Republiek Vietnam (Cộng hòa xã hội chủ nghĩa Việt Nam)','(597)','Vietnam. Socialistische Republiek Vietnam (Cộng hòa xã hội chủ nghĩa Việt Nam)','','','',false,true);
+d.add(436,433,'(598)','<div class="nodetag">(598)</div></span>&nbsp;&nbsp;Laos. Democratische Volksrepubliek Laos (Meuang Lao. Sathalanalat Paxathipatai Paxaxon Lao)','(598)','Laos. Democratische Volksrepubliek Laos (Meuang Lao. Sathalanalat Paxathipatai Paxaxon Lao)','','','',false,true);
+d.add(437,426,'(599)','<div class="nodetag">(599)</div></span>&nbsp;&nbsp;De Filippijnen. Republiek der Filippijnen (Republika ng Pilipinas)','(599)','De Filippijnen. Republiek der Filippijnen (Republika ng Pilipinas)','','','',false,true);
+d.add(438,326,'(6)','<div class="nodetag">(6)</div></span>&nbsp;&nbsp;Afrika','(6)','Afrika','','','',false,true);
+d.add(439,438,'(61)','<div class="nodetag">(61)</div></span>&nbsp;&nbsp;Noord-Afrikaanse staten in het algemeen. Maghreb. Barbarije','(61)','Noord-Afrikaanse staten in het algemeen. Maghreb. Barbarije','','','',false,true);
+d.add(440,439,'(611)','<div class="nodetag">(611)</div></span>&nbsp;&nbsp;Tunesië. Republiek Tunesië (Al-Jumhūriyya at-Tūnisiyya)','(611)','Tunesië. Republiek Tunesië (Al-Jumhūriyya at-Tūnisiyya)','','','',false,true);
+d.add(441,439,'(612)','<div class="nodetag">(612)</div></span>&nbsp;&nbsp;Libië. Arabische Libische Socialistische Volks-Jamahiriyyah (Al-Jamāhīrīyyah al-‘Arabīyyah al-Lībīyyah ash-Sha’bīyyah al-Īshtīrākīyyah)','(612)','Libië. Arabische Libische Socialistische Volks-Jamahiriyyah (Al-Jamāhīrīyyah al-‘Arabīyyah al-Lībīyyah ash-Sha’bīyyah al-Īshtīrākīyyah)','','','',false,true);
+d.add(442,438,'(620)','<div class="nodetag">(620)</div></span>&nbsp;&nbsp;Egypte. Arabische Republiek Egypte (Ǧumhūrīyâtu Miṣra l-ʿArabīyâ)','(620)','Egypte. Arabische Republiek Egypte (Ǧumhūrīyâtu Miṣra l-ʿArabīyâ)','','','',false,true);
+d.add(443,438,'(624)','<div class="nodetag">(624)</div></span>&nbsp;&nbsp;Soedan. Republiek Soedan (Jumhūriyyat as-Sūdān)','(624)','Soedan. Republiek Soedan (Jumhūriyyat as-Sūdān)','','','',false,true);
+d.add(444,443,'(624.1)','<div class="nodetag">(624.1)</div></span>&nbsp;&nbsp;Soedan. al-Sūdān. Republiek Soedan. Jumhūriyyat as-Sūdān','(624.1)','Soedan. al-Sūdān. Republiek Soedan. Jumhūriyyat as-Sūdān','','','',false,true);
+d.add(445,443,'(624.4)','<div class="nodetag">(624.4)</div></span>&nbsp;&nbsp;Zuid-Soedan. Republiek Zuid-Soedan','(624.4)','Zuid-Soedan. Republiek Zuid-Soedan','','','',false,true);
+d.add(446,438,'(630)','<div class="nodetag">(630)</div></span>&nbsp;&nbsp;Ethiopië. Federale Democratische Republiek Ethiopië (Ityop\'iya. Ityop\'iya Federalawi Demokrasiyawi Ripeblik)','(630)','Ethiopië. Federale Democratische Republiek Ethiopië (Ityop\'iya. Ityop\'iya Federalawi Demokrasiyawi Ripeblik)','','','',false,true);
+d.add(447,438,'(635)','<div class="nodetag">(635)</div></span>&nbsp;&nbsp;Eritrea. Republiek Eritrea (Dawlātu Iritrīyā)','(635)','Eritrea. Republiek Eritrea (Dawlātu Iritrīyā)','','','',false,true);
+d.add(448,438,'(64)','<div class="nodetag">(64)</div></span>&nbsp;&nbsp;Marokko. Koninkrijk Marokko (Al-Mamlakâtu l-Maġribīyâ)','(64)','Marokko. Koninkrijk Marokko (Al-Mamlakâtu l-Maġribīyâ)','','','',false,true);
+d.add(449,438,'(65)','<div class="nodetag">(65)</div></span>&nbsp;&nbsp;Algerije (Al-Jaza\'ir). Algerijnse Arabische Volksrepubliek (Al Jaza\'ir. Al Jumhuriyah al Jaza\'iriyah ad Dimuqratiyah ash Sha\'biyah)','(65)','Algerije (Al-Jaza\'ir). Algerijnse Arabische Volksrepubliek (Al Jaza\'ir. Al Jumhuriyah al Jaza\'iriyah ad Dimuqratiyah ash Sha\'biyah)','','','',false,true);
+d.add(450,438,'(66)','<div class="nodetag">(66)</div></span>&nbsp;&nbsp;West-Afrikaanse staten en gebieden','(66)','West-Afrikaanse staten en gebieden','','','',false,true);
+d.add(451,450,'(661.2)','<div class="nodetag">(661.2)</div></span>&nbsp;&nbsp;Mauretanië. Islamitische Republiek Mauretanië (Al-Jumhūriyyah al-Islāmiyyah al-Mūrītāniyyah)','(661.2)','Mauretanië. Islamitische Republiek Mauretanië (Al-Jumhūriyyah al-Islāmiyyah al-Mūrītāniyyah)','','','',false,true);
+d.add(452,450,'(662.1)','<div class="nodetag">(662.1)</div></span>&nbsp;&nbsp;Mali. Republiek Mali (République du Mali)','(662.1)','Mali. Republiek Mali (République du Mali)','','','',false,true);
+d.add(453,450,'(662.5)','<div class="nodetag">(662.5)</div></span>&nbsp;&nbsp;Burkina Faso. Democratische Volksrepubliek Boerkina Faso (République de Burkina Faso)','(662.5)','Burkina Faso. Democratische Volksrepubliek Boerkina Faso (République de Burkina Faso)','','','',false,true);
+d.add(454,450,'(662.6)','<div class="nodetag">(662.6)</div></span>&nbsp;&nbsp;Niger. Republiek Niger (Republique du Niger)','(662.6)','Niger. Republiek Niger (Republique du Niger)','','','',false,true);
+d.add(455,450,'(663)','<div class="nodetag">(663)</div></span>&nbsp;&nbsp;Senegal. Republiek Senegal (République du Sénégal)','(663)','Senegal. Republiek Senegal (République du Sénégal)','','','',false,true);
+d.add(456,450,'(664)','<div class="nodetag">(664)</div></span>&nbsp;&nbsp;Sierra Leone. Republiek Sierra Leone (Republic of Sierra Leone)','(664)','Sierra Leone. Republiek Sierra Leone (Republic of Sierra Leone)','','','',false,true);
+d.add(457,450,'(665)','<div class="nodetag">(665)</div></span>&nbsp;&nbsp;Gambia en Guinea','(665)','Gambia en Guinea','','','',false,true);
+d.add(458,457,'(665.1)','<div class="nodetag">(665.1)</div></span>&nbsp;&nbsp;Gambia. Republiek Gambia (Republic of The Gambia)','(665.1)','Gambia. Republiek Gambia (Republic of The Gambia)','','','',false,true);
+d.add(459,457,'(665.2)','<div class="nodetag">(665.2)</div></span>&nbsp;&nbsp;Guinee. Republiek Guinee (République de Guinée)','(665.2)','Guinee. Republiek Guinee (République de Guinée)','','','',false,true);
+d.add(460,457,'(665.7)','<div class="nodetag">(665.7)</div></span>&nbsp;&nbsp;Guinee-Bissau. Republiek Guinee-Bissau (República da Guiné-Bissau)','(665.7)','Guinee-Bissau. Republiek Guinee-Bissau (República da Guiné-Bissau)','','','',false,true);
+d.add(461,457,'(665.8)','<div class="nodetag">(665.8)</div></span>&nbsp;&nbsp;Kaapverdië. Republiek Kaapverdië (República de Cabo Verde)','(665.8)','Kaapverdië. Republiek Kaapverdië (República de Cabo Verde)','','','',false,true);
+d.add(462,450,'(666.2)','<div class="nodetag">(666.2)</div></span>&nbsp;&nbsp;Liberia. Republiek Liberia (Republic of Liberia)','(666.2)','Liberia. Republiek Liberia (Republic of Liberia)','','','',false,true);
+d.add(463,450,'(666.8)','<div class="nodetag">(666.8)</div></span>&nbsp;&nbsp;Ivoorkust. Republiek Ivoorkust (République de Côte d\'Ivoire)','(666.8)','Ivoorkust. Republiek Ivoorkust (République de Côte d\'Ivoire)','','','',false,true);
+d.add(464,450,'(667)','<div class="nodetag">(667)</div></span>&nbsp;&nbsp;Ghana. Republiek Ghana (Republic of Ghana)','(667)','Ghana. Republiek Ghana (Republic of Ghana)','','','',false,true);
+d.add(465,450,'(668.1)','<div class="nodetag">(668.1)</div></span>&nbsp;&nbsp;Togo. Togolese Republiek (République togolaise)','(668.1)','Togo. Togolese Republiek (République togolaise)','','','',false,true);
+d.add(466,450,'(668.2)','<div class="nodetag">(668.2)</div></span>&nbsp;&nbsp;Benin. Republiek Benin (République du Bénin)','(668.2)','Benin. Republiek Benin (République du Bénin)','','','',false,true);
+d.add(467,450,'(669.1)','<div class="nodetag">(669.1)</div></span>&nbsp;&nbsp;Nigeria. Federale Republiek Nigeria (Federal Republic of Nigeria)','(669.1)','Nigeria. Federale Republiek Nigeria (Federal Republic of Nigeria)','','','',false,true);
+d.add(468,450,'(669.95)','<div class="nodetag">(669.95)</div></span>&nbsp;&nbsp;Sao Tomé en Príncipe. Democratische Republiek Sao Tomé en Príncipe (República Democrática de São Tomé e Principe)','(669.95)','Sao Tomé en Príncipe. Democratische Republiek Sao Tomé en Príncipe (República Democrática de São Tomé e Principe)','','','',false,true);
+d.add(469,438,'(67)','<div class="nodetag">(67)</div></span>&nbsp;&nbsp;Equatoriale, midden en oostelijke Afrikaanse staten en gebieden','(67)','Equatoriale, midden en oostelijke Afrikaanse staten en gebieden','','','',false,true);
+d.add(470,469,'(671.1)','<div class="nodetag">(671.1)</div></span>&nbsp;&nbsp;Kameroen. Republiek Kameroen (République du Cameroun / Republic of Cameroon)','(671.1)','Kameroen. Republiek Kameroen (République du Cameroun / Republic of Cameroon)','','','',false,true);
+d.add(471,469,'(671.8)','<div class="nodetag">(671.8)</div></span>&nbsp;&nbsp;Equatoriaal-Guinea. Republiek Equatoriaal-Guinea (República de Guinea Ecuatorial / République de la Guinée Équatoriale / República da Guiné Equatorial','(671.8)','Equatoriaal-Guinea. Republiek Equatoriaal-Guinea (República de Guinea Ecuatorial / République de la Guinée Équatoriale / República da Guiné Equatorial','','','',false,true);
+d.add(472,469,'(672.1)','<div class="nodetag">(672.1)</div></span>&nbsp;&nbsp;Gabon. Gabonese Republiek (République Gabonaise)','(672.1)','Gabon. Gabonese Republiek (République Gabonaise)','','','',false,true);
+d.add(473,469,'(672.4)','<div class="nodetag">(672.4)</div></span>&nbsp;&nbsp;Kongo. Republiek Kongo (République du Congo)','(672.4)','Kongo. Republiek Kongo (République du Congo)','','','',false,true);
+d.add(474,469,'(673)','<div class="nodetag">(673)</div></span>&nbsp;&nbsp;Angola. Volksrepubliek Angola (Republica de Angola)','(673)','Angola. Volksrepubliek Angola (Republica de Angola)','','','',false,true);
+d.add(475,469,'(674.1)','<div class="nodetag">(674.1)</div></span>&nbsp;&nbsp;Centraal-Afrikaanse Republiek (République Centrafricaine)','(674.1)','Centraal-Afrikaanse Republiek (République Centrafricaine)','','','',false,true);
+d.add(476,469,'(674.3)','<div class="nodetag">(674.3)</div></span>&nbsp;&nbsp;Tsjaad. Republiek Tsjaad (République du Tchad / Jumhūriyyat Tshād)','(674.3)','Tsjaad. Republiek Tsjaad (République du Tchad / Jumhūriyyat Tshād)','','','',false,true);
+d.add(477,469,'(675)','<div class="nodetag">(675)</div></span>&nbsp;&nbsp;Congo. Democratische Republiek Congo (République Democratique du Congo) [voormalig Zaïre]','(675)','Congo. Democratische Republiek Congo (République Democratique du Congo) [voormalig Zaïre]','','','',false,true);
+d.add(478,477,'(675.97)','<div class="nodetag">(675.97)</div></span>&nbsp;&nbsp;Burundi. Republiek Burundi (Republika y\'u Burundi / République du Burundi)','(675.97)','Burundi. Republiek Burundi (Republika y\'u Burundi / République du Burundi)','','','',false,true);
+d.add(479,477,'(675.98)','<div class="nodetag">(675.98)</div></span>&nbsp;&nbsp;Rwanda. Republiek Rwanda (Republika y\'u Rwanda / République Rwandaise / Republic of Rwanda','(675.98)','Rwanda. Republiek Rwanda (Republika y\'u Rwanda / République Rwandaise / Republic of Rwanda','','','',false,true);
+d.add(480,469,'(676.1)','<div class="nodetag">(676.1)</div></span>&nbsp;&nbsp;Oeganda (Uganda). Republiek Oeganda','(676.1)','Oeganda (Uganda). Republiek Oeganda','','','',false,true);
+d.add(481,469,'(676.2)','<div class="nodetag">(676.2)</div></span>&nbsp;&nbsp;Kenia. Republiek Kenia (Republic of Kenya / Jamhuri ya Kenya)','(676.2)','Kenia. Republiek Kenia (Republic of Kenya / Jamhuri ya Kenya)','','','',false,true);
+d.add(482,469,'(677.8)','<div class="nodetag">(677.8)</div></span>&nbsp;&nbsp;Somalië. Republiek Somalië (Soomaaliya / As-Soemal)','(677.8)','Somalië. Republiek Somalië (Soomaaliya / As-Soemal)','','','',false,true);
+d.add(483,469,'(677.9)','<div class="nodetag">(677.9)</div></span>&nbsp;&nbsp;Djibouti. Republiek Djibouti (République de Djibouti / Jumhouriyya Djibouti)','(677.9)','Djibouti. Republiek Djibouti (République de Djibouti / Jumhouriyya Djibouti)','','','',false,true);
+d.add(484,469,'(678)','<div class="nodetag">(678)</div></span>&nbsp;&nbsp;Tanzania. Verenigde Republiek Tanzania (Jamhuri ya Muungano wa Tanzaniais)','(678)','Tanzania. Verenigde Republiek Tanzania (Jamhuri ya Muungano wa Tanzaniais)','','','',false,true);
+d.add(485,469,'(679)','<div class="nodetag">(679)</div></span>&nbsp;&nbsp;Mozambique. Republiek Mozambique (Republica de Moçambique)','(679)','Mozambique. Republiek Mozambique (Republica de Moçambique)','','','',false,true);
+d.add(486,438,'(68)','<div class="nodetag">(68)</div></span>&nbsp;&nbsp;Staten en gebieden van zuidelijk Afrika','(68)','Staten en gebieden van zuidelijk Afrika','','','',false,true);
+d.add(487,486,'(680)','<div class="nodetag">(680)</div></span>&nbsp;&nbsp;Zuid-Afrika (South Africa). Republiek van Zuid-Afrika','(680)','Zuid-Afrika (South Africa). Republiek van Zuid-Afrika','','','',false,true);
+d.add(488,486,'(688.1)','<div class="nodetag">(688.1)</div></span>&nbsp;&nbsp;Namibië. Republiek Namibië (Republic of Namibia0','(688.1)','Namibië. Republiek Namibië (Republic of Namibia0','','','',false,true);
+d.add(489,486,'(688.3)','<div class="nodetag">(688.3)</div></span>&nbsp;&nbsp;Botswana. Republiek Botswana (Republic of Botswana / Lefatshe la Botswana)','(688.3)','Botswana. Republiek Botswana (Republic of Botswana / Lefatshe la Botswana)','','','',false,true);
+d.add(490,486,'(688.5)','<div class="nodetag">(688.5)</div></span>&nbsp;&nbsp;Lesotho. Koninkrijk Lesotho (\'Muso oa Lesotho / Kingdom of Lesotho)','(688.5)','Lesotho. Koninkrijk Lesotho (\'Muso oa Lesotho / Kingdom of Lesotho)','','','',false,true);
+d.add(491,486,'(688.7)','<div class="nodetag">(688.7)</div></span>&nbsp;&nbsp;Swaziland. Koninkrijk Swaziland (Kingdom of Swaziland / Umbuso we Swatini)','(688.7)','Swaziland. Koninkrijk Swaziland (Kingdom of Swaziland / Umbuso we Swatini)','','','',false,true);
+d.add(492,486,'(689.1)','<div class="nodetag">(689.1)</div></span>&nbsp;&nbsp;Zimbabwe. Republiek Zimbabwe (Republic of Zimbabwe)','(689.1)','Zimbabwe. Republiek Zimbabwe (Republic of Zimbabwe)','','','',false,true);
+d.add(493,486,'(689.4)','<div class="nodetag">(689.4)</div></span>&nbsp;&nbsp;Zambia. Republiek Zambia (Republic of Zambia)','(689.4)','Zambia. Republiek Zambia (Republic of Zambia)','','','',false,true);
+d.add(494,486,'(689.7)','<div class="nodetag">(689.7)</div></span>&nbsp;&nbsp;Malawi. Republiek Malawi (Republic of Malawi / Dziko La Malaŵi)','(689.7)','Malawi. Republiek Malawi (Republic of Malawi / Dziko La Malaŵi)','','','',false,true);
+d.add(495,438,'(69)','<div class="nodetag">(69)</div></span>&nbsp;&nbsp;Afrikaanse eilanden van de Indische en zuidelijke Atlantische Oceaan','(69)','Afrikaanse eilanden van de Indische en zuidelijke Atlantische Oceaan','','','',false,true);
+d.add(496,495,'(691)','<div class="nodetag">(691)</div></span>&nbsp;&nbsp;Madagaskar. Republiek Madagaskar (République de Madagascar / Repoblikan\'i Madagasikara)','(691)','Madagaskar. Republiek Madagaskar (République de Madagascar / Repoblikan\'i Madagasikara)','','','',false,true);
+d.add(497,495,'(694)','<div class="nodetag">(694)</div></span>&nbsp;&nbsp;Eilanden ten noorden van Madagaskar','(694)','Eilanden ten noorden van Madagaskar','','','',false,true);
+d.add(498,495,'(696)','<div class="nodetag">(696)</div></span>&nbsp;&nbsp;Seychellen. Republiek der Seychellen (République des Seychelles)','(696)','Seychellen. Republiek der Seychellen (République des Seychelles)','','','',false,true);
+d.add(499,495,'(697)','<div class="nodetag">(697)</div></span>&nbsp;&nbsp;Brits Territorium van de Indische Oceaan (British Indian Ocean Territory, BOT) [VK]','(697)','Brits Territorium van de Indische Oceaan (British Indian Ocean Territory, BOT) [VK]','','','',false,true);
+d.add(500,495,'(698)','<div class="nodetag">(698)</div></span>&nbsp;&nbsp;Mascarene Eilanden','(698)','Mascarene Eilanden','','','',false,true);
+d.add(501,500,'(698.1)','<div class="nodetag">(698.1)</div></span>&nbsp;&nbsp;Réunion [Frankrijk]','(698.1)','Réunion [Frankrijk]','','','',false,true);
+d.add(502,500,'(698.2)','<div class="nodetag">(698.2)</div></span>&nbsp;&nbsp;Mauritius. Republiek Mauritius (République de Maurice)','(698.2)','Mauritius. Republiek Mauritius (République de Maurice)','','','',false,true);
+d.add(503,495,'(699)','<div class="nodetag">(699)</div></span>&nbsp;&nbsp;Afgelegen eilanden in de zuidelijke Indische en zuidelijke Atlantische Oceaan','(699)','Afgelegen eilanden in de zuidelijke Indische en zuidelijke Atlantische Oceaan','','','',false,true);
+d.add(504,326,'(7/8)','<div class="nodetag">(7/8)</div></span>&nbsp;&nbsp;Noord- en Zuid-Amerika. De Amerika\'s','(7/8)','Noord- en Zuid-Amerika. De Amerika\'s','','','',false,true);
+d.add(505,504,'(7)','<div class="nodetag">(7)</div></span>&nbsp;&nbsp;Noord-Amerika en Midden-Amerika','(7)','Noord-Amerika en Midden-Amerika','','','',false,true);
+d.add(506,505,'(71)','<div class="nodetag">(71)</div></span>&nbsp;&nbsp;Canada','(71)','Canada','','','',false,true);
+d.add(507,505,'(72)','<div class="nodetag">(72)</div></span>&nbsp;&nbsp;Mexico. Staten in Centraal-Amerika. Caribisch gebied','(72)','Mexico. Staten in Centraal-Amerika. Caribisch gebied','','','',false,true);
+d.add(508,507,'(721/727)','<div class="nodetag">(721/727)</div></span>&nbsp;&nbsp;Mexico. Verenigde Mexicaanse Staten (Estados Unidos Mexicanos)','(721/727)','Mexico. Verenigde Mexicaanse Staten (Estados Unidos Mexicanos)','','','',false,true);
+d.add(509,507,'(728)','<div class="nodetag">(728)</div></span>&nbsp;&nbsp;Staten in Midden-Amerika','(728)','Staten in Midden-Amerika','','','',false,true);
+d.add(510,509,'(728.1)','<div class="nodetag">(728.1)</div></span>&nbsp;&nbsp;Guatemala. Republiek Guatemala (República de Guatemala)','(728.1)','Guatemala. Republiek Guatemala (República de Guatemala)','','','',false,true);
+d.add(511,509,'(728.2)','<div class="nodetag">(728.2)</div></span>&nbsp;&nbsp;Belize, Belice','(728.2)','Belize, Belice','','','',false,true);
+d.add(512,509,'(728.3)','<div class="nodetag">(728.3)</div></span>&nbsp;&nbsp;Honduras. Republiek Honduras (República de Honduras)','(728.3)','Honduras. Republiek Honduras (República de Honduras)','','','',false,true);
+d.add(513,509,'(728.4)','<div class="nodetag">(728.4)</div></span>&nbsp;&nbsp;El Salvador. Republiek El Salvador (República de El Salvador)','(728.4)','El Salvador. Republiek El Salvador (República de El Salvador)','','','',false,true);
+d.add(514,509,'(728.5)','<div class="nodetag">(728.5)</div></span>&nbsp;&nbsp;Nicaragua. Republiek Nicaragua (República de Nicaragua)','(728.5)','Nicaragua. Republiek Nicaragua (República de Nicaragua)','','','',false,true);
+d.add(515,509,'(728.6)','<div class="nodetag">(728.6)</div></span>&nbsp;&nbsp;Costa Rica. Republiek Costa Rica','(728.6)','Costa Rica. Republiek Costa Rica','','','',false,true);
+d.add(516,509,'(728.7)','<div class="nodetag">(728.7)</div></span>&nbsp;&nbsp;Panama. Republiek Panama (República de Panamá)','(728.7)','Panama. Republiek Panama (República de Panamá)','','','',false,true);
+d.add(517,507,'(729)','<div class="nodetag">(729)</div></span>&nbsp;&nbsp;Caribisch Gebied. West-Indië, Grote en Kleine Antillen','(729)','Caribisch Gebied. West-Indië, Grote en Kleine Antillen','','','',false,true);
+d.add(518,517,'(729.1/.5)','<div class="nodetag">(729.1/.5)</div></span>&nbsp;&nbsp;Grote Antillen','(729.1/.5)','Grote Antillen','','','',false,true);
+d.add(519,518,'(729.1)','<div class="nodetag">(729.1)</div></span>&nbsp;&nbsp;Cuba. Republiek Cuba (República de Cuba)','(729.1)','Cuba. Republiek Cuba (República de Cuba)','','','',false,true);
+d.add(520,518,'(729.2)','<div class="nodetag">(729.2)</div></span>&nbsp;&nbsp;Jamaica (Jamaica)','(729.2)','Jamaica (Jamaica)','','','',false,true);
+d.add(521,518,'(729.29)','<div class="nodetag">(729.29)</div></span>&nbsp;&nbsp;Kaaimaneilanden (Cayman Islands) [VK]','(729.29)','Kaaimaneilanden (Cayman Islands) [VK]','','','',false,true);
+d.add(522,518,'(729.3/.4)','<div class="nodetag">(729.3/.4)</div></span>&nbsp;&nbsp;Hispaniola (La Española)','(729.3/.4)','Hispaniola (La Española)','','','',false,true);
+d.add(523,522,'(729.3)','<div class="nodetag">(729.3)</div></span>&nbsp;&nbsp;Dominicaanse Republiek (República Dominicana)','(729.3)','Dominicaanse Republiek (República Dominicana)','','','',false,true);
+d.add(524,522,'(729.4)','<div class="nodetag">(729.4)</div></span>&nbsp;&nbsp;Haïti. Republiek Haïti (République d\'Haïti / Repiblik Ayiti)','(729.4)','Haïti. Republiek Haïti (République d\'Haïti / Repiblik Ayiti)','','','',false,true);
+d.add(525,518,'(729.5)','<div class="nodetag">(729.5)</div></span>&nbsp;&nbsp;Puerto-Rico. Gemenebest van Porto Rico (Estado Libre Asociado de Puerto Rico / Commonwealth of Puerto Rico)','(729.5)','Puerto-Rico. Gemenebest van Porto Rico (Estado Libre Asociado de Puerto Rico / Commonwealth of Puerto Rico)','','','',false,true);
+d.add(526,517,'(729.68)','<div class="nodetag">(729.68)</div></span>&nbsp;&nbsp;Turks en Caicoseilanden (Turks and Caicos Islands) [VK]','(729.68)','Turks en Caicoseilanden (Turks and Caicos Islands) [VK]','','','',false,true);
+d.add(527,517,'(729.7/.8)','<div class="nodetag">(729.7/.8)</div></span>&nbsp;&nbsp;Kleine Antillen (Eastern Caribbean)','(729.7/.8)','Kleine Antillen (Eastern Caribbean)','','','',false,true);
+d.add(528,527,'(729.7)','<div class="nodetag">(729.7)</div></span>&nbsp;&nbsp;Bovenwindse eilanden (Leeward Islands)','(729.7)','Bovenwindse eilanden (Leeward Islands)','','','',false,true);
+d.add(529,528,'(729.71)','<div class="nodetag">(729.71)</div></span>&nbsp;&nbsp;Virgineilanden (Virgin Islands) [VS]','(729.71)','Virgineilanden (Virgin Islands) [VS]','','','',false,true);
+d.add(530,528,'(729.724)','<div class="nodetag">(729.724)</div></span>&nbsp;&nbsp;Saint Kitts en Nevis. Federatie van Saint Kitts en Nevis (Federation of St Kitts-Nevis)','(729.724)','Saint Kitts en Nevis. Federatie van Saint Kitts en Nevis (Federation of St Kitts-Nevis)','','','',false,true);
+d.add(531,528,'(729.726)','<div class="nodetag">(729.726)</div></span>&nbsp;&nbsp;Antigua en Barbuda (Antigua and Barbuda)','(729.726)','Antigua en Barbuda (Antigua and Barbuda)','','','',false,true);
+d.add(532,528,'(729.727)','<div class="nodetag">(729.727)</div></span>&nbsp;&nbsp;Montserrat [VK]','(729.727)','Montserrat [VK]','','','',false,true);
+d.add(533,528,'(729.74)','<div class="nodetag">(729.74)</div></span>&nbsp;&nbsp;Franse gebieden inde Kleine Antillen','(729.74)','Franse gebieden inde Kleine Antillen','','','',false,true);
+d.add(534,533,'(729.741)','<div class="nodetag">(729.741)</div></span>&nbsp;&nbsp;Guadeloupe (regio en departement) (Frankrijk)','(729.741)','Guadeloupe (regio en departement) (Frankrijk)','','','',false,true);
+d.add(535,533,'(729.745)','<div class="nodetag">(729.745)</div></span>&nbsp;&nbsp;Martinique (regio en departement) (Frankrijk)','(729.745)','Martinique (regio en departement) (Frankrijk)','','','',false,true);
+d.add(536,527,'(729.8)','<div class="nodetag">(729.8)</div></span>&nbsp;&nbsp;Benedenwindse eilanden (Windward Islands)','(729.8)','Benedenwindse eilanden (Windward Islands)','','','',false,true);
+d.add(537,536,'(729.821)','<div class="nodetag">(729.821)</div></span>&nbsp;&nbsp;Dominica. Gemenebest van Dominica (Commonwealth of Dominica)','(729.821)','Dominica. Gemenebest van Dominica (Commonwealth of Dominica)','','','',false,true);
+d.add(538,536,'(729.822)','<div class="nodetag">(729.822)</div></span>&nbsp;&nbsp;Sint Lucia. Staat Sint Lucia','(729.822)','Sint Lucia. Staat Sint Lucia','','','',false,true);
+d.add(539,536,'(729.824)','<div class="nodetag">(729.824)</div></span>&nbsp;&nbsp;Sint-Vincent en de Grenadines (Saint Vincent and the Grenadines)','(729.824)','Sint-Vincent en de Grenadines (Saint Vincent and the Grenadines)','','','',false,true);
+d.add(540,536,'(729.828)','<div class="nodetag">(729.828)</div></span>&nbsp;&nbsp;Grenada (Grenada)','(729.828)','Grenada (Grenada)','','','',false,true);
+d.add(541,536,'(729.86)','<div class="nodetag">(729.86)</div></span>&nbsp;&nbsp;Barbados (Barbados)','(729.86)','Barbados (Barbados)','','','',false,true);
+d.add(542,536,'(729.87)','<div class="nodetag">(729.87)</div></span>&nbsp;&nbsp;Trinidad en Tobago (Trinidad and Tobago). Republiek Trinidad en Tobago (Republic of Trinidad and Tobago)','(729.87)','Trinidad en Tobago (Trinidad and Tobago). Republiek Trinidad en Tobago (Republic of Trinidad and Tobago)','','','',false,true);
+d.add(543,536,'(729.88)','<div class="nodetag">(729.88)</div></span>&nbsp;&nbsp;Nederlandse gebieden inde Kleine Antillen. Nederlandse Antillen. Antia Hulandes','(729.88)','Nederlandse gebieden inde Kleine Antillen. Nederlandse Antillen. Antia Hulandes','','','',false,true);
+d.add(544,543,'(729.885)','<div class="nodetag">(729.885)</div></span>&nbsp;&nbsp;Aruba (Koninkrijk der Nederlanden)','(729.885)','Aruba (Koninkrijk der Nederlanden)','','','',false,true);
+d.add(545,517,'(729.9)','<div class="nodetag">(729.9)</div></span>&nbsp;&nbsp;Bermuda [VK]','(729.9)','Bermuda [VK]','','','',false,true);
+d.add(546,505,'(73)','<div class="nodetag">(73)</div></span>&nbsp;&nbsp;Verenigde Staten van Amerika, VS (United States of America, USA)','(73)','Verenigde Staten van Amerika, VS (United States of America, USA)','','','',false,true);
+d.add(547,504,'(8)','<div class="nodetag">(8)</div></span>&nbsp;&nbsp;Zuid-Amerika','(8)','Zuid-Amerika','','','',false,true);
+d.add(548,547,'(81)','<div class="nodetag">(81)</div></span>&nbsp;&nbsp;Brazilië. Federatieve Republiek Brazilië (República Federativa do Brasil)','(81)','Brazilië. Federatieve Republiek Brazilië (República Federativa do Brasil)','','','',false,true);
+d.add(549,547,'(82)','<div class="nodetag">(82)</div></span>&nbsp;&nbsp;Argentinië. Republiek Argentinië, República Argentina','(82)','Argentinië. Republiek Argentinië, República Argentina','','','',false,true);
+d.add(550,547,'(83)','<div class="nodetag">(83)</div></span>&nbsp;&nbsp;Chili. Republiek Chili. República de Chile','(83)','Chili. Republiek Chili. República de Chile','','','',false,true);
+d.add(551,547,'(84)','<div class="nodetag">(84)</div></span>&nbsp;&nbsp;Bolivia. Multinationale Staat Bolivia. Estado Plurinacional de Bolivia. Bulibya Mamallaqta. Wuliwya Suyu. Tetã Volívia','(84)','Bolivia. Multinationale Staat Bolivia. Estado Plurinacional de Bolivia. Bulibya Mamallaqta. Wuliwya Suyu. Tetã Volívia','','','',false,true);
+d.add(552,547,'(85)','<div class="nodetag">(85)</div></span>&nbsp;&nbsp;Peru. Republiek Peru. República del Perú.','(85)','Peru. Republiek Peru. República del Perú.','','','',false,true);
+d.add(553,547,'(862)','<div class="nodetag">(862)</div></span>&nbsp;&nbsp;Colombia. Republiek Colombia. República de Colombia','(862)','Colombia. Republiek Colombia. República de Colombia','','','',false,true);
+d.add(554,547,'(866)','<div class="nodetag">(866)</div></span>&nbsp;&nbsp;Ecuador. Republiek Ecuador. República del Ecuador','(866)','Ecuador. Republiek Ecuador. República del Ecuador','','','',false,true);
+d.add(555,547,'(87)','<div class="nodetag">(87)</div></span>&nbsp;&nbsp;Venezuela. Bolivariaanse Republiek Venezuela. República Bolivariana de Venezuela','(87)','Venezuela. Bolivariaanse Republiek Venezuela. República Bolivariana de Venezuela','','','',false,true);
+d.add(556,547,'(88)','<div class="nodetag">(88)</div></span>&nbsp;&nbsp;De Guyana\'s','(88)','De Guyana\'s','','','',false,true);
+d.add(557,556,'(881)','<div class="nodetag">(881)</div></span>&nbsp;&nbsp;Guyana. Coöperatieve Republiek Guyana. Co-operative Republic of Guyana','(881)','Guyana. Coöperatieve Republiek Guyana. Co-operative Republic of Guyana','','','',false,true);
+d.add(558,556,'(882)','<div class="nodetag">(882)</div></span>&nbsp;&nbsp;Frans Guyana (Guyane française) (overzees departement van Frankrijk)','(882)','Frans Guyana (Guyane française) (overzees departement van Frankrijk)','','','',false,true);
+d.add(559,556,'(883)','<div class="nodetag">(883)</div></span>&nbsp;&nbsp;Suriname. Republiek Suriname. Sranan','(883)','Suriname. Republiek Suriname. Sranan','','','',false,true);
+d.add(560,547,'(893)','<div class="nodetag">(893)</div></span>&nbsp;&nbsp;Paraguay. Republiek Paraguay (República del Paraguay. Tetã Paraguái)','(893)','Paraguay. Republiek Paraguay (República del Paraguay. Tetã Paraguái)','','','',false,true);
+d.add(561,547,'(899)','<div class="nodetag">(899)</div></span>&nbsp;&nbsp;Uruguay. Republiek ten oosten van de Uruguay (República Oriental del Uruguay)','(899)','Uruguay. Republiek ten oosten van de Uruguay (República Oriental del Uruguay)','','','',false,true);
+d.add(562,326,'(9)','<div class="nodetag">(9)</div></span>&nbsp;&nbsp;Staten en gebieden van de zuidelijke Grote Oceaan en Australië. Arctica. Antarctica','(9)','Staten en gebieden van de zuidelijke Grote Oceaan en Australië. Arctica. Antarctica','','','',false,true);
+d.add(563,562,'(931)','<div class="nodetag">(931)</div></span>&nbsp;&nbsp;Nieuw-Zeeland (New Zealand)','(931)','Nieuw-Zeeland (New Zealand)','','','',false,true);
+d.add(564,562,'(932/935)','<div class="nodetag">(932/935)</div></span>&nbsp;&nbsp;Melanesië. Staten en gebieden van Melanesië','(932/935)','Melanesië. Staten en gebieden van Melanesië','','','',false,true);
+d.add(565,562,'(94)','<div class="nodetag">(94)</div></span>&nbsp;&nbsp;Australië (Australia). Gemenebest van Australië (Commonwealth of Australia)','(94)','Australië (Australia). Gemenebest van Australië (Commonwealth of Australia)','','','',false,true);
+d.add(566,562,'(954)','<div class="nodetag">(954)</div></span>&nbsp;&nbsp;Papoea-Nieuw-Guinea. Onafhankelijke Staat Papoea-Nieuw-Guinea (Independent State of Papua New Guinea)','(954)','Papoea-Nieuw-Guinea. Onafhankelijke Staat Papoea-Nieuw-Guinea (Independent State of Papua New Guinea)','','','',false,true);
+d.add(567,562,'(961/964)','<div class="nodetag">(961/964)</div></span>&nbsp;&nbsp;Polynesië. Staten en gebieden van Polynesië','(961/964)','Polynesië. Staten en gebieden van Polynesië','','','',false,true);
+d.add(568,562,'(966/968)','<div class="nodetag">(966/968)</div></span>&nbsp;&nbsp;Micronesië (Micronesia). Staten en gebieden van Micronesië','(966/968)','Micronesië (Micronesia). Staten en gebieden van Micronesië','','','',false,true);
+d.add(569,562,'(97)','<div class="nodetag">(97)</div></span>&nbsp;&nbsp;Geïsoleerde eilanden in de Grote Oceaan','(97)','Geïsoleerde eilanden in de Grote Oceaan','','','',false,true);
+d.add(570,562,'(98)','<div class="nodetag">(98)</div></span>&nbsp;&nbsp;Arctica. Noordpoolgebieden','(98)','Arctica. Noordpoolgebieden','','','',false,true);
+d.add(571,570,'(988)','<div class="nodetag">(988)</div></span>&nbsp;&nbsp;Groenland (Gr°nland) [Denemarken]','(988)','Groenland (Gr°nland) [Denemarken]','','','',false,true);
+d.add(572,562,'(99)','<div class="nodetag">(99)</div></span>&nbsp;&nbsp;Antarctische territoria. Zuidpoolgebieden','(99)','Antarctische territoria. Zuidpoolgebieden','','','',false,true);
+d.add(573,0,'(=...)','<div class="nodetag">(=...)</div></span>&nbsp;&nbsp;Tabel 1f - Algemene hulpgetallen van afstamming, etnische groepering en nationaliteit','(=...)','Tabel 1f - Algemene hulpgetallen van afstamming, etnische groepering en nationaliteit','','','',false,true);
+d.add(574,573,'(=01)','<div class="nodetag">(=01)</div></span>&nbsp;&nbsp;Menselijke afstammingsgroepen','(=01)','Menselijke afstammingsgroepen','','','',false,true);
+d.add(575,574,'(=011)','<div class="nodetag">(=011)</div></span>&nbsp;&nbsp;Europees-continentale afstammingsgroep','(=011)','Europees-continentale afstammingsgroep','','','',false,true);
+d.add(576,574,'(=012)','<div class="nodetag">(=012)</div></span>&nbsp;&nbsp;Aziatisch-continentale afstammingsgroep','(=012)','Aziatisch-continentale afstammingsgroep','','','',false,true);
+d.add(577,574,'(=013)','<div class="nodetag">(=013)</div></span>&nbsp;&nbsp;Afrikaans-continentale afstammingsgroep','(=013)','Afrikaans-continentale afstammingsgroep','','','',false,true);
+d.add(578,574,'(=014)','<div class="nodetag">(=014)</div></span>&nbsp;&nbsp;Oceanische afstammingsgroep','(=014)','Oceanische afstammingsgroep','','','',false,true);
+d.add(579,574,'(=017)','<div class="nodetag">(=017)</div></span>&nbsp;&nbsp;Inheemse Amerikaans-continentale afstammingsgroep','(=017)','Inheemse Amerikaans-continentale afstammingsgroep','','','',false,true);
+d.add(580,573,'(=1/=8)','<div class="nodetag">(=1/=8)</div></span>&nbsp;&nbsp;Lingunstisch-culturele groepen, ethnische groepen, volken','(=1/=8)','Lingunstisch-culturele groepen, ethnische groepen, volken','','','',false,true);
+d.add(581,580,'(=1/=2)','<div class="nodetag">(=1/=2)</div></span>&nbsp;&nbsp;Indo-Europese volkeren','(=1/=2)','Indo-Europese volkeren','','','',false,true);
+d.add(582,581,'(=13)','<div class="nodetag">(=13)</div></span>&nbsp;&nbsp;Romaanse, Latijnse volkeren','(=13)','Romaanse, Latijnse volkeren','','','',false,true);
+d.add(583,573,'(=1:1/9)','<div class="nodetag">(=1:1/9)</div></span>&nbsp;&nbsp;Volkeren gerelateerd aan bepaalde plaatsen','(=1:1/9)','Volkeren gerelateerd aan bepaalde plaatsen','','','',false,true);
+d.add(584,0,'"..."','<div class="nodetag">"..."</div></span>&nbsp;&nbsp;Tabel 1g - Algemene hulpgetallen van tijd','"..."','Tabel 1g - Algemene hulpgetallen van tijd','','','',false,true);
+d.add(585,584,'"0/2"','<div class="nodetag">"0/2"</div></span>&nbsp;&nbsp;Data en tijdperken in de conventionele Christelijk (Gregoriaanse) tijdrekening','"0/2"','Data en tijdperken in de conventionele Christelijk (Gregoriaanse) tijdrekening','','','',false,true);
+d.add(586,585,'"0"','<div class="nodetag">"0"</div></span>&nbsp;&nbsp;Eerste millennium n.Chr.','"0"','Eerste millennium n.Chr.','','','',false,true);
+d.add(587,585,'"1"','<div class="nodetag">"1"</div></span>&nbsp;&nbsp;Tweede millennium n.Chr.','"1"','Tweede millennium n.Chr.','','','',false,true);
+d.add(588,585,'"2"','<div class="nodetag">"2"</div></span>&nbsp;&nbsp;Derde millennium n.Chr.','"2"','Derde millennium n.Chr.','','','',false,true);
+d.add(589,584,'"3/7"','<div class="nodetag">"3/7"</div></span>&nbsp;&nbsp;Tijdsindelingen anders dan data in de christelijke (gregoriaanse) tijdrekening','"3/7"','Tijdsindelingen anders dan data in de christelijke (gregoriaanse) tijdrekening','','','',false,true);
+d.add(590,589,'"3"','<div class="nodetag">"3"</div></span>&nbsp;&nbsp;Conventionele tijdsverdelingen, genummerd, benoemd, enz.','"3"','Conventionele tijdsverdelingen, genummerd, benoemd, enz.','','','',false,true);
+d.add(591,590,'"32"','<div class="nodetag">"32"</div></span>&nbsp;&nbsp;Het jaar. De seizoenen en andere onderverdelingen van het jaar','"32"','Het jaar. De seizoenen en andere onderverdelingen van het jaar','','','',false,true);
+d.add(592,591,'"321/324"','<div class="nodetag">"321/324"</div></span>&nbsp;&nbsp;Seizoenen','"321/324"','Seizoenen','','','',false,true);
+d.add(593,592,'"321"','<div class="nodetag">"321"</div></span>&nbsp;&nbsp;Lente. Voorjaar','"321"','Lente. Voorjaar','','','',false,true);
+d.add(594,592,'"322"','<div class="nodetag">"322"</div></span>&nbsp;&nbsp;Zomer','"322"','Zomer','','','',false,true);
+d.add(595,592,'"323"','<div class="nodetag">"323"</div></span>&nbsp;&nbsp;Herfst. Najaar','"323"','Herfst. Najaar','','','',false,true);
+d.add(596,592,'"324"','<div class="nodetag">"324"</div></span>&nbsp;&nbsp;Winter','"324"','Winter','','','',false,true);
+d.add(597,591,'"325"','<div class="nodetag">"325"</div></span>&nbsp;&nbsp;Kwartalen (trimesters)','"325"','Kwartalen (trimesters)','','','',false,true);
+d.add(598,591,'"327"','<div class="nodetag">"327"</div></span>&nbsp;&nbsp;Maanden','"327"','Maanden','','','',false,true);
+d.add(599,591,'"328"','<div class="nodetag">"328"</div></span>&nbsp;&nbsp;Weken','"328"','Weken','','','',false,true);
+d.add(600,591,'"329"','<div class="nodetag">"329"</div></span>&nbsp;&nbsp;Dagen','"329"','Dagen','','','',false,true);
+d.add(601,590,'"34"','<div class="nodetag">"34"</div></span>&nbsp;&nbsp;Dag- en nachtverschijnselen. Uren of Tijden van de dag','"34"','Dag- en nachtverschijnselen. Uren of Tijden van de dag','','','',false,true);
+d.add(602,601,'"344"','<div class="nodetag">"344"</div></span>&nbsp;&nbsp;Daglicht. Daglichturen','"344"','Daglicht. Daglichturen','','','',false,true);
+d.add(603,601,'"345"','<div class="nodetag">"345"</div></span>&nbsp;&nbsp;De nacht. Uren van duisternis of schemering','"345"','De nacht. Uren van duisternis of schemering','','','',false,true);
+d.add(604,590,'"36"','<div class="nodetag">"36"</div></span>&nbsp;&nbsp;Tijden van vrede, oorlog, gevaar, nood, moeilijkheden','"36"','Tijden van vrede, oorlog, gevaar, nood, moeilijkheden','','','',false,true);
+d.add(605,604,'"362"','<div class="nodetag">"362"</div></span>&nbsp;&nbsp;Vredestijd. Tijden zonder gevaar','"362"','Vredestijd. Tijden zonder gevaar','','','',false,true);
+d.add(606,604,'"363"','<div class="nodetag">"363"</div></span>&nbsp;&nbsp;Tijden van gevaar, dreiging','"363"','Tijden van gevaar, dreiging','','','',false,true);
+d.add(607,604,'"364"','<div class="nodetag">"364"</div></span>&nbsp;&nbsp;Oorlogstijd','"364"','Oorlogstijd','','','',false,true);
+d.add(608,604,'"367"','<div class="nodetag">"367"</div></span>&nbsp;&nbsp;Tijden naar gebruik of belasting','"367"','Tijden naar gebruik of belasting','','','',false,true);
+d.add(609,590,'"37"','<div class="nodetag">"37"</div></span>&nbsp;&nbsp;Werktijd. Tijd van activiteit, bezigheid, productie en dagelijkse routine','"37"','Werktijd. Tijd van activiteit, bezigheid, productie en dagelijkse routine','','','',false,true);
+d.add(610,609,'"372"','<div class="nodetag">"372"</div></span>&nbsp;&nbsp;Werkuren. Kantooruren','"372"','Werkuren. Kantooruren','','','',false,true);
+d.add(611,609,'"377"','<div class="nodetag">"377"</div></span>&nbsp;&nbsp;Rusttijd. Tijd voor recreatie, ontspanning. Vrije tijd. Tijd buiten de werkuren','"377"','Rusttijd. Tijd voor recreatie, ontspanning. Vrije tijd. Tijd buiten de werkuren','','','',false,true);
+d.add(612,590,'"38"','<div class="nodetag">"38"</div></span>&nbsp;&nbsp;Vrije dagen. Feest- en gedenkdagen','"38"','Vrije dagen. Feest- en gedenkdagen','','','',false,true);
+d.add(613,612,'"382"','<div class="nodetag">"382"</div></span>&nbsp;&nbsp;Erligieuze, kerkelijke feest- en gedenkdagen','"382"','Erligieuze, kerkelijke feest- en gedenkdagen','','','',false,true);
+d.add(614,612,'"383"','<div class="nodetag">"383"</div></span>&nbsp;&nbsp;Nationale en regionale feest- en gedenkdagen (niet-religieus)','"383"','Nationale en regionale feest- en gedenkdagen (niet-religieus)','','','',false,true);
+d.add(615,612,'"385"','<div class="nodetag">"385"</div></span>&nbsp;&nbsp;Individuele vakantie- en verlofdagen','"385"','Individuele vakantie- en verlofdagen','','','',false,true);
+d.add(616,589,'"4"','<div class="nodetag">"4"</div></span>&nbsp;&nbsp;Tijdsduur. Periode. Leeftijden en leeftijdsgroepen','"4"','Tijdsduur. Periode. Leeftijden en leeftijdsgroepen','','','',false,true);
+d.add(617,616,'"40"','<div class="nodetag">"40"</div></span>&nbsp;&nbsp;Relatieve tijdsduur, periode of termijn','"40"','Relatieve tijdsduur, periode of termijn','','','',false,true);
+d.add(618,617,'"401"','<div class="nodetag">"401"</div></span>&nbsp;&nbsp;Levensduur of tijdspanne met vaste tijdsduur of eindtijd. Periode of duurzaamheid','"401"','Levensduur of tijdspanne met vaste tijdsduur of eindtijd. Periode of duurzaamheid','','','',false,true);
+d.add(619,617,'"403"','<div class="nodetag">"403"</div></span>&nbsp;&nbsp;Korte tijdsduur. Korte termijn','"403"','Korte tijdsduur. Korte termijn','','','',false,true);
+d.add(620,617,'"404"','<div class="nodetag">"404"</div></span>&nbsp;&nbsp;Middellange tijdsduur. Middellange termijn','"404"','Middellange tijdsduur. Middellange termijn','','','',false,true);
+d.add(621,617,'"405"','<div class="nodetag">"405"</div></span>&nbsp;&nbsp;Lange tijdsduur. Lange termijn','"405"','Lange tijdsduur. Lange termijn','','','',false,true);
+d.add(622,617,'"408"','<div class="nodetag">"408"</div></span>&nbsp;&nbsp;Onbepaalde, ongelimiteerde tijdsduur. Zonder bepaalde termijn of eindtijd','"408"','Onbepaalde, ongelimiteerde tijdsduur. Zonder bepaalde termijn of eindtijd','','','',false,true);
+d.add(623,616,'"41"','<div class="nodetag">"41"</div></span>&nbsp;&nbsp;Duur van maximaal één dag','"41"','Duur van maximaal één dag','','','',false,true);
+d.add(624,616,'"42"','<div class="nodetag">"42"</div></span>&nbsp;&nbsp;Duur uitgedrukt in dagen','"42"','Duur uitgedrukt in dagen','','','',false,true);
+d.add(625,616,'"43"','<div class="nodetag">"43"</div></span>&nbsp;&nbsp;Duur uitgedrukt in dagen','"43"','Duur uitgedrukt in dagen','','','',false,true);
+d.add(626,616,'"44"','<div class="nodetag">"44"</div></span>&nbsp;&nbsp;Duren uitgedrukt in maanden','"44"','Duren uitgedrukt in maanden','','','',false,true);
+d.add(627,616,'"45"','<div class="nodetag">"45"</div></span>&nbsp;&nbsp;Tijdsduur uitgedrukt in jaren, eeuwen, millenniums enz.','"45"','Tijdsduur uitgedrukt in jaren, eeuwen, millenniums enz.','','','',false,true);
+d.add(628,616,'"46"','<div class="nodetag">"46"</div></span>&nbsp;&nbsp;Leeftijden en leeftijdsgroepen van personen, levende en niet-levende zaken of dingen','"46"','Leeftijden en leeftijdsgroepen van personen, levende en niet-levende zaken of dingen','','','',false,true);
+d.add(629,628,'"462"','<div class="nodetag">"462"</div></span>&nbsp;&nbsp;Leeftijd in dagen','"462"','Leeftijd in dagen','','','',false,true);
+d.add(630,628,'"463"','<div class="nodetag">"463"</div></span>&nbsp;&nbsp;Leeftijd in weken','"463"','Leeftijd in weken','','','',false,true);
+d.add(631,628,'"464"','<div class="nodetag">"464"</div></span>&nbsp;&nbsp;Leeftijd in maanden','"464"','Leeftijd in maanden','','','',false,true);
+d.add(632,628,'"465"','<div class="nodetag">"465"</div></span>&nbsp;&nbsp;Leeftijd uitgedrukt in jaren en decennia','"465"','Leeftijd uitgedrukt in jaren en decennia','','','',false,true);
+d.add(633,589,'"5"','<div class="nodetag">"5"</div></span>&nbsp;&nbsp;Periodiciteit. Frequentie. Herhaling na brpaalde intervallen','"5"','Periodiciteit. Frequentie. Herhaling na brpaalde intervallen','','','',false,true);
+d.add(634,633,'"51"','<div class="nodetag">"51"</div></span>&nbsp;&nbsp;Zich herhalend met intervallen van minder dan één dag. Frequenter dan dagelijks','"51"','Zich herhalend met intervallen van minder dan één dag. Frequenter dan dagelijks','','','',false,true);
+d.add(635,633,'"52"','<div class="nodetag">"52"</div></span>&nbsp;&nbsp;Zich herhalend met intervallen van een of meer dagen (uitgedrukt in dagen)','"52"','Zich herhalend met intervallen van een of meer dagen (uitgedrukt in dagen)','','','',false,true);
+d.add(636,633,'"53"','<div class="nodetag">"53"</div></span>&nbsp;&nbsp;Zich herhalend met intervallen van een of meer weken (uitgedrukt in weken)','"53"','Zich herhalend met intervallen van een of meer weken (uitgedrukt in weken)','','','',false,true);
+d.add(637,633,'"54"','<div class="nodetag">"54"</div></span>&nbsp;&nbsp;Zich herhalend met intervallen van een of meer maanden (uitgedrukt in maanden)','"54"','Zich herhalend met intervallen van een of meer maanden (uitgedrukt in maanden)','','','',false,true);
+d.add(638,633,'"55"','<div class="nodetag">"55"</div></span>&nbsp;&nbsp;Zich herhalend met intervallen van een of meer jaren (uitgedrukt in jaren, eeuwen, millenia)','"55"','Zich herhalend met intervallen van een of meer jaren (uitgedrukt in jaren, eeuwen, millenia)','','','',false,true);
+d.add(639,633,'"56"','<div class="nodetag">"56"</div></span>&nbsp;&nbsp;Zich herhalend in iedere generatie, mensenleven, enz. Levenscyclus','"56"','Zich herhalend in iedere generatie, mensenleven, enz. Levenscyclus','','','',false,true);
+d.add(640,589,'"6"','<div class="nodetag">"6"</div></span>&nbsp;&nbsp;Geologische, archeologische and culturele tijdsindelingen','"6"','Geologische, archeologische and culturele tijdsindelingen','','','',false,true);
+d.add(641,640,'"61/62"','<div class="nodetag">"61/62"</div></span>&nbsp;&nbsp;Geologische tijdschaal. Geochronologie','"61/62"','Geologische tijdschaal. Geochronologie','','','',false,true);
+d.add(642,641,'"61"','<div class="nodetag">"61"</div></span>&nbsp;&nbsp;Precambrium (meer dan 542 MYBP) (supereon)','"61"','Precambrium (meer dan 542 MYBP) (supereon)','','','',false,true);
+d.add(643,641,'"62"','<div class="nodetag">"62"</div></span>&nbsp;&nbsp;Fanerozoïcum (542 MYBP tot heden) (eon)','"62"','Fanerozoïcum (542 MYBP tot heden) (eon)','','','',false,true);
+d.add(644,643,'"621"','<div class="nodetag">"621"</div></span>&nbsp;&nbsp;Paleozoïcum (542-251 MYBP) (era)','"621"','Paleozoïcum (542-251 MYBP) (era)','','','',false,true);
+d.add(645,643,'"622"','<div class="nodetag">"622"</div></span>&nbsp;&nbsp;Mesozoïcum (251-65 MYBP) (era)','"622"','Mesozoïcum (251-65 MYBP) (era)','','','',false,true);
+d.add(646,643,'"628"','<div class="nodetag">"628"</div></span>&nbsp;&nbsp;Cenozoïcum (65 MYBP tot heden) (era)','"628"','Cenozoïcum (65 MYBP tot heden) (era)','','','',false,true);
+d.add(647,641,'"63"','<div class="nodetag">"63"</div></span>&nbsp;&nbsp;Archeologische, prehistorische, protohistorische perioden en tijdvakken','"63"','Archeologische, prehistorische, protohistorische perioden en tijdvakken','','','',false,true);
+d.add(648,640,'"67/69"','<div class="nodetag">"67/69"</div></span>&nbsp;&nbsp;Tijdrekeningen: universele, seculiere, niet-christelijke religeuze','"67/69"','Tijdrekeningen: universele, seculiere, niet-christelijke religeuze','','','',false,true);
+d.add(649,648,'"67"','<div class="nodetag">"67"</div></span>&nbsp;&nbsp;Universele tijdrekening. Voor heden','"67"','Universele tijdrekening. Voor heden','','','',false,true);
+d.add(650,648,'"68"','<div class="nodetag">"68"</div></span>&nbsp;&nbsp;Seculiere tijdrekeningen anders dan universeel en de christelijke (greoriaanse) kalender','"68"','Seculiere tijdrekeningen anders dan universeel en de christelijke (greoriaanse) kalender','','','',false,true);
+d.add(651,648,'"69"','<div class="nodetag">"69"</div></span>&nbsp;&nbsp;Data en tijdseenheden in niet-christelijke (niet-Gregoriaanse) religieuze tijdrekeningen','"69"','Data en tijdseenheden in niet-christelijke (niet-Gregoriaanse) religieuze tijdrekeningen','','','',false,true);
+d.add(652,589,'"7"','<div class="nodetag">"7"</div></span>&nbsp;&nbsp;Verschijnselen in tijd. Fenomenologie van tijd','"7"','Verschijnselen in tijd. Fenomenologie van tijd','','','',false,true);
+d.add(653,0,'-0...','<div class="nodetag">-0...</div></span>&nbsp;&nbsp;Tabel 1k - Algemene hulpgetallen van algemene kenmerken','-0...','Tabel 1k - Algemene hulpgetallen van algemene kenmerken','','','',false,true);
+d.add(654,653,'-02','<div class="nodetag">-02</div></span>&nbsp;&nbsp;Tabel 1k - Algemene hulpgetallen van eigenschappen, kenmerken','-02','Tabel 1k - Algemene hulpgetallen van eigenschappen, kenmerken','','','',false,true);
+d.add(655,654,'-021','<div class="nodetag">-021</div></span>&nbsp;&nbsp;Eigenschappen van \'existentie\'','-021','Eigenschappen van \'existentie\'','','','',false,true);
+d.add(656,654,'-022','<div class="nodetag">-022</div></span>&nbsp;&nbsp;Eigenschappen van grootte, graad, hoeveelheid, aantal, tijd, afmeting, grootte','-022','Eigenschappen van grootte, graad, hoeveelheid, aantal, tijd, afmeting, grootte','','','',false,true);
+d.add(657,654,'-023','<div class="nodetag">-023</div></span>&nbsp;&nbsp;Eigenschappen van gedaante','-023','Eigenschappen van gedaante','','','',false,true);
+d.add(658,654,'-024','<div class="nodetag">-024</div></span>&nbsp;&nbsp;Eigenschappen van structuur','-024','Eigenschappen van structuur','','','',false,true);
+d.add(659,654,'-025','<div class="nodetag">-025</div></span>&nbsp;&nbsp;Eigenschappen van ordening','-025','Eigenschappen van ordening','','','',false,true);
+d.add(660,654,'-026','<div class="nodetag">-026</div></span>&nbsp;&nbsp;Eigenschappen van actie en beweging','-026','Eigenschappen van actie en beweging','','','',false,true);
+d.add(661,654,'-027','<div class="nodetag">-027</div></span>&nbsp;&nbsp;Proceseigenschappen','-027','Proceseigenschappen','','','',false,true);
+d.add(662,654,'-028','<div class="nodetag">-028</div></span>&nbsp;&nbsp;Eigenschappen van stijl en presentatie','-028','Eigenschappen van stijl en presentatie','','','',false,true);
+d.add(663,662,'-028.41','<div class="nodetag">-028.41</div></span>&nbsp;&nbsp;Populair','-028.41','Populair','','','',false,true);
+d.add(664,662,'-028.42','<div class="nodetag">-028.42</div></span>&nbsp;&nbsp;Wetenschappelijk. Academisch','-028.42','Wetenschappelijk. Academisch','','','',false,true);
+d.add(665,662,'-028.43','<div class="nodetag">-028.43</div></span>&nbsp;&nbsp;Kritisch. Niet kritisch. Onkritisch','-028.43','Kritisch. Niet kritisch. Onkritisch','','','',false,true);
+d.add(666,662,'-028.44','<div class="nodetag">-028.44</div></span>&nbsp;&nbsp;Descriptief','-028.44','Descriptief','','','',false,true);
+d.add(667,662,'-028.45','<div class="nodetag">-028.45</div></span>&nbsp;&nbsp;Analytisch','-028.45','Analytisch','','','',false,true);
+d.add(668,662,'-028.46','<div class="nodetag">-028.46</div></span>&nbsp;&nbsp;Experimenteel. Pragmatisch','-028.46','Experimenteel. Pragmatisch','','','',false,true);
+d.add(669,662,'-028.47','<div class="nodetag">-028.47</div></span>&nbsp;&nbsp;Anekdotisch','-028.47','Anekdotisch','','','',false,true);
+d.add(670,662,'-028.5','<div class="nodetag">-028.5</div></span>&nbsp;&nbsp;Eigenschappen van schrijverschap','-028.5','Eigenschappen van schrijverschap','','','',false,true);
+d.add(671,662,'-028.6','<div class="nodetag">-028.6</div></span>&nbsp;&nbsp;Eigenschappen van ordening, rangschikking','-028.6','Eigenschappen van ordening, rangschikking','','','',false,true);
+d.add(672,654,'-029','<div class="nodetag">-029</div></span>&nbsp;&nbsp;Eigenschappen ontleend aan andere hoofdklassen','-029','Eigenschappen ontleend aan andere hoofdklassen','','','',false,true);
+d.add(673,653,'-03','<div class="nodetag">-03</div></span>&nbsp;&nbsp;Tabel 1k - Algemene hulpgetallen van materialen','-03','Tabel 1k - Algemene hulpgetallen van materialen','','','',false,true);
+d.add(674,673,'-032','<div class="nodetag">-032</div></span>&nbsp;&nbsp;Van nature voorkomende minerale stoffen','-032','Van nature voorkomende minerale stoffen','','','',false,true);
+d.add(675,673,'-033','<div class="nodetag">-033</div></span>&nbsp;&nbsp;Materialen, vervaardigd op basis van mineralen','-033','Materialen, vervaardigd op basis van mineralen','','','',false,true);
+d.add(676,673,'-034','<div class="nodetag">-034</div></span>&nbsp;&nbsp;Metalen','-034','Metalen','','','',false,true);
+d.add(677,673,'-035','<div class="nodetag">-035</div></span>&nbsp;&nbsp;Materialen, hoofdzakelijk van organische oorsprong','-035','Materialen, hoofdzakelijk van organische oorsprong','','','',false,true);
+d.add(678,673,'-036','<div class="nodetag">-036</div></span>&nbsp;&nbsp;Macromoleculaire stoffen. Rubber en kunststoffen','-036','Macromoleculaire stoffen. Rubber en kunststoffen','','','',false,true);
+d.add(679,673,'-037','<div class="nodetag">-037</div></span>&nbsp;&nbsp;Textiel. Vezels. Garens. Weefsels. Stoffen','-037','Textiel. Vezels. Garens. Weefsels. Stoffen','','','',false,true);
+d.add(680,653,'-04','<div class="nodetag">-04</div></span>&nbsp;&nbsp;Tabel 1k - Algemene hulpgetallen van relaties, processen en operaties','-04','Tabel 1k - Algemene hulpgetallen van relaties, processen en operaties','','','',false,true);
+d.add(681,680,'-042','<div class="nodetag">-042</div></span>&nbsp;&nbsp;Stadiarelaties','-042','Stadiarelaties','','','',false,true);
+d.add(682,681,'-042.1','<div class="nodetag">-042.1</div></span>&nbsp;&nbsp;Fase van neiging, beoordeling (voor of tegen)','-042.1','Fase van neiging, beoordeling (voor of tegen)','','','',false,true);
+d.add(683,681,'-042.2','<div class="nodetag">-042.2</div></span>&nbsp;&nbsp;Vergelijkingsstadium','-042.2','Vergelijkingsstadium','','','',false,true);
+d.add(684,681,'-042.3','<div class="nodetag">-042.3</div></span>&nbsp;&nbsp;Beïnvloedingsstadium','-042.3','Beïnvloedingsstadium','','','',false,true);
+d.add(685,681,'-042.4','<div class="nodetag">-042.4</div></span>&nbsp;&nbsp;Instrumentale stadium. Uiteenzettingsstadium','-042.4','Instrumentale stadium. Uiteenzettingsstadium','','','',false,true);
+d.add(686,681,'-042.5/.8','<div class="nodetag">-042.5/.8</div></span>&nbsp;&nbsp;Andere termen die relaties tussen entiteiten beschrijven','-042.5/.8','Andere termen die relaties tussen entiteiten beschrijven','','','',false,true);
+d.add(687,680,'-043','<div class="nodetag">-043</div></span>&nbsp;&nbsp;Algemene processen','-043','Algemene processen','','','',false,true);
+d.add(688,687,'-043.8/.9','<div class="nodetag">-043.8/.9</div></span>&nbsp;&nbsp;Processen gerelateerd aan bestaan','-043.8/.9','Processen gerelateerd aan bestaan','','','',false,true);
+d.add(689,680,'-044.3','<div class="nodetag">-044.3</div></span>&nbsp;&nbsp;Processen gerelateerd aan waarde, nut','-044.3','Processen gerelateerd aan waarde, nut','','','',false,true);
+d.add(690,680,'-044.4','<div class="nodetag">-044.4</div></span>&nbsp;&nbsp;Processen gerelateerd aan rangschikking en volgorde','-044.4','Processen gerelateerd aan rangschikking en volgorde','','','',false,true);
+d.add(691,680,'-044.5','<div class="nodetag">-044.5</div></span>&nbsp;&nbsp;Processen gerelateerd aan grootte','-044.5','Processen gerelateerd aan grootte','','','',false,true);
+d.add(692,680,'-044.6','<div class="nodetag">-044.6</div></span>&nbsp;&nbsp;Processen gerelateerd aan aantal en graad','-044.6','Processen gerelateerd aan aantal en graad','','','',false,true);
+d.add(693,680,'-044.7','<div class="nodetag">-044.7</div></span>&nbsp;&nbsp;Processen gerelateerd aan tijd en chronologie','-044.7','Processen gerelateerd aan tijd en chronologie','','','',false,true);
+d.add(694,680,'-044.8','<div class="nodetag">-044.8</div></span>&nbsp;&nbsp;Processen gerelateerd aan afmeting','-044.8','Processen gerelateerd aan afmeting','','','',false,true);
+d.add(695,680,'-044.9','<div class="nodetag">-044.9</div></span>&nbsp;&nbsp;Processen gerelateerd aan vorm','-044.9','Processen gerelateerd aan vorm','','','',false,true);
+d.add(696,680,'-045','<div class="nodetag">-045</div></span>&nbsp;&nbsp;Processen gerelateerd aan positie, arrangement, beweging','-045','Processen gerelateerd aan positie, arrangement, beweging','','','',false,true);
+d.add(697,680,'-047/-049','<div class="nodetag">-047/-049</div></span>&nbsp;&nbsp;Algemene operaties en activiteiten','-047/-049','Algemene operaties en activiteiten','','','',false,true);
+d.add(698,653,'-05','<div class="nodetag">-05</div></span>&nbsp;&nbsp;Tabel 1k - Algemene hulpgetallen van personen en persoonlijke kenmerken','-05','Tabel 1k - Algemene hulpgetallen van personen en persoonlijke kenmerken','','','',false,true);
+d.add(699,698,'-051','<div class="nodetag">-051</div></span>&nbsp;&nbsp;Personen als handelend individu, personen die handelend optreden, beoefenaren (studerend, fabricerend, bedienend enz.)','-051','Personen als handelend individu, personen die handelend optreden, beoefenaren (studerend, fabricerend, bedienend enz.)','','','',false,true);
+d.add(700,698,'-052','<div class="nodetag">-052</div></span>&nbsp;&nbsp;Personen als doel, klanten, verbruikers (bestudeerd, bediend, enz.)','-052','Personen als doel, klanten, verbruikers (bestudeerd, bediend, enz.)','','','',false,true);
+d.add(701,698,'-053','<div class="nodetag">-053</div></span>&nbsp;&nbsp;Personen naar leeftijd of leeftijdsgroep','-053','Personen naar leeftijd of leeftijdsgroep','','','',false,true);
+d.add(702,701,'-053.1','<div class="nodetag">-053.1</div></span>&nbsp;&nbsp;Menselijk bestaan, geboren of ongeboren, levend of dood','-053.1','Menselijk bestaan, geboren of ongeboren, levend of dood','','','',false,true);
+d.add(703,701,'-053.2','<div class="nodetag">-053.2</div></span>&nbsp;&nbsp;Kinderen en zuigelingen (in het algemeen)','-053.2','Kinderen en zuigelingen (in het algemeen)','','','',false,true);
+d.add(704,701,'-053.8','<div class="nodetag">-053.8</div></span>&nbsp;&nbsp;Volwassenen','-053.8','Volwassenen','','','',false,true);
+d.add(705,701,'-053.9','<div class="nodetag">-053.9</div></span>&nbsp;&nbsp;Oudere mensen. Bejaarden. Senioren','-053.9','Oudere mensen. Bejaarden. Senioren','','','',false,true);
+d.add(706,698,'-054','<div class="nodetag">-054</div></span>&nbsp;&nbsp;Personen naar etnische kenmerken, nationaliteit, staatsburgerschap, enz.','-054','Personen naar etnische kenmerken, nationaliteit, staatsburgerschap, enz.','','','',false,true);
+d.add(707,706,'-054.4','<div class="nodetag">-054.4</div></span>&nbsp;&nbsp;Ingezetenen (staatsburgers van het eigen land of staatsburgers van andere staten)','-054.4','Ingezetenen (staatsburgers van het eigen land of staatsburgers van andere staten)','','','',false,true);
+d.add(708,706,'-054.5','<div class="nodetag">-054.5</div></span>&nbsp;&nbsp;Staatsburgers. Onderdanen van een land','-054.5','Staatsburgers. Onderdanen van een land','','','',false,true);
+d.add(709,706,'-054.6','<div class="nodetag">-054.6</div></span>&nbsp;&nbsp;Staatsburgers van andere staten. Vreemdelingen. Buitenlanders','-054.6','Staatsburgers van andere staten. Vreemdelingen. Buitenlanders','','','',false,true);
+d.add(710,706,'-054.7','<div class="nodetag">-054.7</div></span>&nbsp;&nbsp;Bannelingen. Ballingen. Gerepatrieerden. Migranten. Statenlozen','-054.7','Bannelingen. Ballingen. Gerepatrieerden. Migranten. Statenlozen','','','',false,true);
+d.add(711,698,'-055','<div class="nodetag">-055</div></span>&nbsp;&nbsp;Personen naar geslacht en (bloed)verwantschap','-055','Personen naar geslacht en (bloed)verwantschap','','','',false,true);
+d.add(712,711,'-055.1','<div class="nodetag">-055.1</div></span>&nbsp;&nbsp;Mannelijke personen. Mannen','-055.1','Mannelijke personen. Mannen','','','',false,true);
+d.add(713,711,'-055.2','<div class="nodetag">-055.2</div></span>&nbsp;&nbsp;Vrouwelijke personen. Vrouwen','-055.2','Vrouwelijke personen. Vrouwen','','','',false,true);
+d.add(714,711,'-055.3','<div class="nodetag">-055.3</div></span>&nbsp;&nbsp;Personen naar sexuele oriëntatie','-055.3','Personen naar sexuele oriëntatie','','','',false,true);
+d.add(715,711,'-055.5','<div class="nodetag">-055.5</div></span>&nbsp;&nbsp;Personen in (voor)ouderlijke relatie. Voorouders. Voorzaten','-055.5','Personen in (voor)ouderlijke relatie. Voorouders. Voorzaten','','','',false,true);
+d.add(716,711,'-055.6','<div class="nodetag">-055.6</div></span>&nbsp;&nbsp;Familieleden in dalende lijn. Afstammelingen','-055.6','Familieleden in dalende lijn. Afstammelingen','','','',false,true);
+d.add(717,711,'-055.7','<div class="nodetag">-055.7</div></span>&nbsp;&nbsp;Personen verwant in de zijlijn','-055.7','Personen verwant in de zijlijn','','','',false,true);
+d.add(718,698,'-056','<div class="nodetag">-056</div></span>&nbsp;&nbsp;Personen naar lichamelijke gesteldheid, gezondheid, dispositie, erfelijke of andere kenmerken','-056','Personen naar lichamelijke gesteldheid, gezondheid, dispositie, erfelijke of andere kenmerken','','','',false,true);
+d.add(719,718,'-056.1','<div class="nodetag">-056.1</div></span>&nbsp;&nbsp;Personen naar algemene lichamelijke gesteldheid, dispositie of karakter','-056.1','Personen naar algemene lichamelijke gesteldheid, dispositie of karakter','','','',false,true);
+d.add(720,718,'-056.2','<div class="nodetag">-056.2</div></span>&nbsp;&nbsp;Personen naar lichamelijke gesteldheid en gezondheid','-056.2','Personen naar lichamelijke gesteldheid en gezondheid','','','',false,true);
+d.add(721,718,'-056.3','<div class="nodetag">-056.3</div></span>&nbsp;&nbsp;Personen naar intelligentie en naar geestelijke of psychologische toestand','-056.3','Personen naar intelligentie en naar geestelijke of psychologische toestand','','','',false,true);
+d.add(722,718,'-056.4','<div class="nodetag">-056.4</div></span>&nbsp;&nbsp;Personen naar temperament, aanleg','-056.4','Personen naar temperament, aanleg','','','',false,true);
+d.add(723,698,'-057','<div class="nodetag">-057</div></span>&nbsp;&nbsp;Personen naar bezigheid, beroep, werk, levensonderhoud en opleiding','-057','Personen naar bezigheid, beroep, werk, levensonderhoud en opleiding','','','',false,true);
+d.add(724,723,'-057.1','<div class="nodetag">-057.1</div></span>&nbsp;&nbsp;Personen naar werk, beroep, administratieve status','-057.1','Personen naar werk, beroep, administratieve status','','','',false,true);
+d.add(725,723,'-057.2','<div class="nodetag">-057.2</div></span>&nbsp;&nbsp;Technisch personeel. Geschoolde handarbeiders. Werklieden (Blauwe boorden)','-057.2','Technisch personeel. Geschoolde handarbeiders. Werklieden (Blauwe boorden)','','','',false,true);
+d.add(726,723,'-057.3','<div class="nodetag">-057.3</div></span>&nbsp;&nbsp;Administratief personeel. Klerken. Kantoorpersoneel (Witte boorden)','-057.3','Administratief personeel. Klerken. Kantoorpersoneel (Witte boorden)','','','',false,true);
+d.add(727,723,'-057.4','<div class="nodetag">-057.4</div></span>&nbsp;&nbsp;Werknemers met een hogere of academische opleiding','-057.4','Werknemers met een hogere of academische opleiding','','','',false,true);
+d.add(728,723,'-057.5','<div class="nodetag">-057.5</div></span>&nbsp;&nbsp;Personen met betrekking tot de werkplek en de plaats van tewerkstelling. Personen met betrekking tot de onderneming','-057.5','Personen met betrekking tot de werkplek en de plaats van tewerkstelling. Personen met betrekking tot de onderneming','','','',false,true);
+d.add(729,723,'-057.6','<div class="nodetag">-057.6</div></span>&nbsp;&nbsp;Personen naar hun woonplaats met betrekking tot hun werk of andere activiteit','-057.6','Personen naar hun woonplaats met betrekking tot hun werk of andere activiteit','','','',false,true);
+d.add(730,723,'-057.7','<div class="nodetag">-057.7</div></span>&nbsp;&nbsp;Personen naar bron van inkomen of financiële zekerheid','-057.7','Personen naar bron van inkomen of financiële zekerheid','','','',false,true);
+d.add(731,723,'-057.8','<div class="nodetag">-057.8</div></span>&nbsp;&nbsp;Personen naar opleiding, vakbekwaamheid, ervaring','-057.8','Personen naar opleiding, vakbekwaamheid, ervaring','','','',false,true);
+d.add(732,723,'-057.9','<div class="nodetag">-057.9</div></span>&nbsp;&nbsp;Personen naar uitvoerende taken','-057.9','Personen naar uitvoerende taken','','','',false,true);
+d.add(733,698,'-058','<div class="nodetag">-058</div></span>&nbsp;&nbsp;Personen naar sociale klasse, burgerlijke status','-058','Personen naar sociale klasse, burgerlijke status','','','',false,true);
+d.add(734,733,'-058.1','<div class="nodetag">-058.1</div></span>&nbsp;&nbsp;Personen naar sociale klasse of status','-058.1','Personen naar sociale klasse of status','','','',false,true);
+d.add(735,733,'-058.3','<div class="nodetag">-058.3</div></span>&nbsp;&nbsp;Personen naar economische categorieën (middelen van bestaan, zekerheid, andere rechten)','-058.3','Personen naar economische categorieën (middelen van bestaan, zekerheid, andere rechten)','','','',false,true);
+d.add(736,733,'-058.5','<div class="nodetag">-058.5</div></span>&nbsp;&nbsp;Personen sociaal-economisch behorend tot de zelfkant van de samenleving','-058.5','Personen sociaal-economisch behorend tot de zelfkant van de samenleving','','','',false,true);
+d.add(737,733,'-058.6','<div class="nodetag">-058.6</div></span>&nbsp;&nbsp;Slachtoffers van omstandigheden','-058.6','Slachtoffers van omstandigheden','','','',false,true);
+d.add(738,733,'-058.7','<div class="nodetag">-058.7</div></span>&nbsp;&nbsp;Afhankelijke personen','-058.7','Afhankelijke personen','','','',false,true);
+d.add(739,733,'-058.8','<div class="nodetag">-058.8</div></span>&nbsp;&nbsp;Personen naar gehuwde, gezins- of andere burgerlijke status','-058.8','Personen naar gehuwde, gezins- of andere burgerlijke status','','','',false,true);
+d.config.useSelection = false;
+d.config.inOrder = true;
+d.config.useIcons = false;
+document.write(d);
+//-->
+</script>
+</div>
+</div><div id="expandbox" onclick="expandbox(); return false;">&nbsp;</div>
+<div id="recordbox" class="debugbkg">
+<div class="fronthint">klik op een klasse links om de records te tonen</div>
+</div>
+
+        <div id="footer">
+            <div class="footersectionleft">
+                The UDC Summary (UDCS) provides a selection of around 2,600 classes from the whole scheme which comprises more than 70,000 entries.
+                Please send questions and suggestions to <a href="mailto:udcs@udcc.org?subject=UDC Summary Enquiry">udcs@udcc.org</a><br><br>
+	            <p>
+		            The data provided in this Summary is released under the <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative Commons Attribution Share Alike 3.0 license</a> <a href="../about.htm">[more]</a>
+	            </p>
+            </div>
+            <div class="footermiddle">
+                <a href="http://www.udcc.org"><img src="../images/udclogowhite.png" border="0"></a>
+            </div>
+			<div class="footerright">
+                For complete UDC schedules see <a href="http://www.udc-hub.com/">UDC Online Hub</a><br/><a href="http://www.udc-hub.com/"><img width="60" height="35" src="../images/udclogo.png"/></a>
+
+			</div>
+        </div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-13138465-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>

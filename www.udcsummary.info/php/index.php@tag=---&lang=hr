@@ -1,0 +1,901 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>UDC Summary</title>
+    <link rel="stylesheet" href="../reset.css" type="text/css" />
+    <link rel="stylesheet" href="../udc2000.css" type="text/css" />
+	    <link rel="StyleSheet" href="dtree2.css" type="text/css" />
+	    <script type="text/javascript" src="dtree.js"></script>
+	    <script type="text/javascript" src="udcdisplay_9.js"></script>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+</head>
+
+<body >
+<div id="centercontainer" class="debugbkg">
+    <div id="titlebox" class="debugbkg">
+		<div id="rightbox">
+        	<div id="languagecount">57 languages</div>
+            <div id="languagebox">
+            <select id="selectedlang" style="vertical-align: middle;" onchange="location = this.options[this.selectedIndex].value;">
+			<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=af&pr=Y">Afrikaans (Afrikaans) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sq&pr=Y">Albanian (Shqip) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=anp&pr=Y">Angika (अंगिका) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ar&pr=Y">Arabic (العربية) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=hy&pr=Y">Armenian (հայերեն) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=eu&pr=Y">Basque (Euskara) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=be&pr=Y">Belarusian (Беларуская) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=bn&pr=Y">Bengali (বাংলা) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=bho&pr=Y">Bhojpuri (भोजपुरी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=bg&pr=Y">Bulgarian (Български) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ca&pr=Y">Catalan (Català) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=chi&pr=Y">Chinese (中文) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=hr&pr=Y" selected>Croatian (Hrvatski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=cs&pr=Y">Czech (Čeština) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=da&pr=Y">Danish (Dansk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=nl&pr=Y">Dutch (Nederlands) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=en&pr=Y">English (English) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=eo&pr=Y">Esperanto (Esperanto) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=et&pr=Y">Estonian (Eesti) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=fi&pr=Y">Finnish (Suomi) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=fr&pr=Y">French (Français) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=gl&pr=Y">Galician (Galego) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ka&pr=Y">Georgian (ქართული) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=de&pr=Y">German (Deutsch) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=el&pr=Y">Greek (Ελληνικά) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=hi&pr=Y">Hindi (हिन्दी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=hu&pr=Y">Hungarian (Magyar) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=id&pr=Y">Indonesian (Bahasa Ind) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ga&pr=Y">Irish (Gaeilge) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=it&pr=Y">Italian (Italiano) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ja&pr=Y">Japanese (日本語) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=kn&pr=Y">Kannada (ಕನ್ನಡ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=kk&pr=Y">Kazakh (Қазақ тілі) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=lv&pr=Y">Latvian (Latviešu) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=lt&pr=Y">Lithuanian (lietuvių) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=mk&pr=Y">Macedonian (македонски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ml&pr=Y">Malayalam (മലയാളം) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=mr&pr=Y">Marathi (मराठी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=no&pr=Y">Norwegian (Norsk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=pl&pr=Y">Polish (Polski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=pt&pr=Y">Portuguese (Português) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=pa&pr=Y">Punjabi (ਪੰਜਾਬੀ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ro&pr=Y">Romanian (Româna) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ru&pr=Y">Russian (Pусский) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sa&pr=Y">Sanskrit (Saṃskṛtam) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sr&pr=Y">Serbian (Српски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=si&pr=Y">Sinhala (සිංහල) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sk&pr=Y">Slovak (Slovenský) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sl&pr=Y">Slovenian (Slovenski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=es&pr=Y">Spanish (Español) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sv&pr=Y">Swedish (Svenska) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ta&pr=Y">Tamil (தமிழ்) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=te&pr=Y">Telugu (తెలుగు) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=tr&pr=Y">Turkish (Türkçe) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=uk&pr=Y">Ukrainian (Yкраї́нська) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=uz&pr=Y">Uzbek (oʻzbek) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=vi&pr=Y">Vietnamese (tiếng Việt) </option>
+            </select>
+            </div>
+            </div>
+        </div>
+		<div id="menubox" class="debugbkg">
+            <ul class="menu boldmenu">
+<li><a href="index.php@lang=hr">POČETNA</a></li>
+<li><a href="index.php@tag=--&amp;lang=hr">ZNAKOVI</a></li>
+<li><a href="index.php@tag=---&amp;lang=hr">POMOĆNI BR.</a></li>
+<li><a href="index.php@tag=0&amp;lang=hr">0</a></li>
+<li><a href="index.php@tag=1&amp;lang=hr">1</a></li>
+<li><a href="index.php@tag=2&amp;lang=hr">2</a></li>
+<li><a href="index.php@tag=3&amp;lang=hr">3</a></li>
+<li><a  class="vacant" href="index.php@tag=---&amp;lang=hr#">4</a></li>
+<li><a href="index.php@tag=5&amp;lang=hr">5</a></li>
+<li><a href="index.php@tag=6&amp;lang=hr">6</a></li>
+<li><a href="index.php@tag=7&amp;lang=hr">7</a></li>
+<li><a href="index.php@tag=8&amp;lang=hr">8</a></li>
+<li><a href="index.php@tag=9&amp;lang=hr">9</a></li>
+</ul>
+<input type="hidden" id="if_loading" name="if_loading" value="Učitava se"/>
+<input type="hidden" id="if_lang" name="if_lang" value="7"/>
+<ul class="rightmenu boldmenu">
+<li><a href="../translation.htm">PRIJEVODI</a></li>
+<li><a href="index.php@tag=---&amp;lang=hr#" title="Under Development">MAPIRANJE</a></li>
+<li><a href="../exports.htm" title="Data Exports">ISPISI</a></li>
+<li><a href="index.php@tag=---&amp;lang=hr#" title="Under Development">ABC KAZALO</a></li>
+<li><a href="index.php@tag=---&amp;lang=hr#" title="Under Development">UVOD</a></li>
+<li><a href="../about.htm" title="About the UDC Summary">INFO</a></li>
+</ul>
+
+        </div>
+		<input type="hidden" id="leftWidth" value="420"/><input type="hidden" id="rightWidth" value="522"/>
+		<div id="classmarkbox" class="debugbkg">
+
+<div id="openclosemenu"><a href="javascript: d.openAll();">&nbsp;otvori sve</a> | <a href="javascript: d.closeAll();">zatvori sve</a></div>
+<div id="classtree">
+<script type="text/javascript">
+<!--
+d = new dTree('d');
+d.config.hrefIsClick = true;
+d.add(0,-1,'---','<span class="nodetag"></span>OPĆI POMOĆNI BROJEVI','---','','','','',false,true);
+d.add(1,0,'=...','<div class="nodetag">=...</div></span>&nbsp;&nbsp;Tablica 1c - Opće pomoćne oznake za jezik','=...','Tablica 1c - Opće pomoćne oznake za jezik','','','',false,true);
+d.add(2,1,'=...`01/`08','<div class="nodetag">=...`01/`08</div></span>&nbsp;&nbsp;Posebne pomoćne oznake za porijeklo, razdoblja i stupnjeve razvoja jezika','=...`01/`08','Posebne pomoćne oznake za porijeklo, razdoblja i stupnjeve razvoja jezika','','','',false,true);
+d.add(3,2,'=...`01','<div class="nodetag">=...`01</div></span>&nbsp;&nbsp;Staro razdoblje. Arhajsko razdoblje','=...`01','Staro razdoblje. Arhajsko razdoblje','','','',false,true);
+d.add(4,2,'=...`04','<div class="nodetag">=...`04</div></span>&nbsp;&nbsp;Srednje razdoblje','=...`04','Srednje razdoblje','','','',false,true);
+d.add(5,2,'=...`06','<div class="nodetag">=...`06</div></span>&nbsp;&nbsp;Suvremeno razdoblje','=...`06','Suvremeno razdoblje','','','',false,true);
+d.add(6,1,'=...`276/`282','<div class="nodetag">=...`276/`282</div></span>&nbsp;&nbsp;Posebne pomoćne oznake za uporabu jezika, narječja i inačice','=...`276/`282','Posebne pomoćne oznake za uporabu jezika, narječja i inačice','','','',false,true);
+d.add(7,6,'=...`276','<div class="nodetag">=...`276</div></span>&nbsp;&nbsp;Društveni dijalekti. Profesionalni sleng. Posebni narodni, pučki oblici','=...`276','Društveni dijalekti. Profesionalni sleng. Posebni narodni, pučki oblici','','','',false,true);
+d.add(8,6,'=...`282','<div class="nodetag">=...`282</div></span>&nbsp;&nbsp;Dijalekti. Lokalni i regionalni jezici. Varijante i vernakulari','=...`282','Dijalekti. Lokalni i regionalni jezici. Varijante i vernakulari','','','',false,true);
+d.add(9,1,'=00','<div class="nodetag">=00</div></span>&nbsp;&nbsp;Višejezično. Poliglotsko','=00','Višejezično. Poliglotsko','','','',false,true);
+d.add(10,1,'=030','<div class="nodetag">=030</div></span>&nbsp;&nbsp;Prevedeni dokumenti. Prijevodi','=030','Prevedeni dokumenti. Prijevodi','','','',false,true);
+d.add(11,1,'=1/=9','<div class="nodetag">=1/=9</div></span>&nbsp;&nbsp;Jezici (prirodni i umjetni)','=1/=9','Jezici (prirodni i umjetni)','','','',false,true);
+d.add(12,11,'=1/=8','<div class="nodetag">=1/=8</div></span>&nbsp;&nbsp;Prirodni jezici','=1/=8','Prirodni jezici','','','',false,true);
+d.add(13,12,'=1/=2','<div class="nodetag">=1/=2</div></span>&nbsp;&nbsp;Indoeuropski jezici','=1/=2','Indoeuropski jezici','','','',false,true);
+d.add(14,13,'=1','<div class="nodetag">=1</div></span>&nbsp;&nbsp;Indoeuropski jezici u Europi','=1','Indoeuropski jezici u Europi','','','',false,true);
+d.add(15,14,'=11','<div class="nodetag">=11</div></span>&nbsp;&nbsp;Germanski jezici','=11','Germanski jezici','','','',false,true);
+d.add(16,15,'=111','<div class="nodetag">=111</div></span>&nbsp;&nbsp;Engleski','=111','Engleski','','','',false,true);
+d.add(17,15,'=112','<div class="nodetag">=112</div></span>&nbsp;&nbsp;Zapadnogermanski jezici (osim engleskog)','=112','Zapadnogermanski jezici (osim engleskog)','','','',false,true);
+d.add(18,17,'=112.2','<div class="nodetag">=112.2</div></span>&nbsp;&nbsp;Njemački (visokonjemački, standardni pisani njemački)','=112.2','Njemački (visokonjemački, standardni pisani njemački)','','','',false,true);
+d.add(19,17,'=112.5','<div class="nodetag">=112.5</div></span>&nbsp;&nbsp;Nizozemski / Flamanski u Belgiji i sjevornoistočnoj Francuskoj','=112.5','Nizozemski / Flamanski u Belgiji i sjevornoistočnoj Francuskoj','','','',false,true);
+d.add(20,17,'=112.6','<div class="nodetag">=112.6</div></span>&nbsp;&nbsp;Afrikaans','=112.6','Afrikaans','','','',false,true);
+d.add(21,15,'=113','<div class="nodetag">=113</div></span>&nbsp;&nbsp;Sjevernogermanski / Nordijski jezici','=113','Sjevernogermanski / Nordijski jezici','','','',false,true);
+d.add(22,21,'=113.3','<div class="nodetag">=113.3</div></span>&nbsp;&nbsp;Islandski','=113.3','Islandski','','','',false,true);
+d.add(23,21,'=113.4','<div class="nodetag">=113.4</div></span>&nbsp;&nbsp;Danski','=113.4','Danski','','','',false,true);
+d.add(24,21,'=113.5','<div class="nodetag">=113.5</div></span>&nbsp;&nbsp;Norveški','=113.5','Norveški','','','',false,true);
+d.add(25,21,'=113.6','<div class="nodetag">=113.6</div></span>&nbsp;&nbsp;Švedski','=113.6','Švedski','','','',false,true);
+d.add(26,15,'=114','<div class="nodetag">=114</div></span>&nbsp;&nbsp;Istočnogermanski jezici','=114','Istočnogermanski jezici','','','',false,true);
+d.add(27,14,'=12','<div class="nodetag">=12</div></span>&nbsp;&nbsp;Italski jezici','=12','Italski jezici','','','',false,true);
+d.add(28,27,'=122','<div class="nodetag">=122</div></span>&nbsp;&nbsp;Umbrijsko-sabelijski / Oskičko-umbrijski jezici','=122','Umbrijsko-sabelijski / Oskičko-umbrijski jezici','','','',false,true);
+d.add(29,27,'=124','<div class="nodetag">=124</div></span>&nbsp;&nbsp;Latinski','=124','Latinski','','','',false,true);
+d.add(30,14,'=13','<div class="nodetag">=13</div></span>&nbsp;&nbsp;Romanski jezici','=13','Romanski jezici','','','',false,true);
+d.add(31,30,'=131','<div class="nodetag">=131</div></span>&nbsp;&nbsp;Italo-romanski jezici','=131','Italo-romanski jezici','','','',false,true);
+d.add(32,31,'=131.1','<div class="nodetag">=131.1</div></span>&nbsp;&nbsp;Talijanski','=131.1','Talijanski','','','',false,true);
+d.add(33,30,'=132','<div class="nodetag">=132</div></span>&nbsp;&nbsp;Retoromanski jezici','=132','Retoromanski jezici','','','',false,true);
+d.add(34,30,'=133','<div class="nodetag">=133</div></span>&nbsp;&nbsp;Galsko-romanski jezici','=133','Galsko-romanski jezici','','','',false,true);
+d.add(35,34,'=133.1','<div class="nodetag">=133.1</div></span>&nbsp;&nbsp;Francuski','=133.1','Francuski','','','',false,true);
+d.add(36,30,'=134','<div class="nodetag">=134</div></span>&nbsp;&nbsp;Ibero-romanski jezici','=134','Ibero-romanski jezici','','','',false,true);
+d.add(37,36,'=134.1','<div class="nodetag">=134.1</div></span>&nbsp;&nbsp;Katalonski','=134.1','Katalonski','','','',false,true);
+d.add(38,36,'=134.2','<div class="nodetag">=134.2</div></span>&nbsp;&nbsp;Španjolski','=134.2','Španjolski','','','',false,true);
+d.add(39,36,'=134.3','<div class="nodetag">=134.3</div></span>&nbsp;&nbsp;Portugalski','=134.3','Portugalski','','','',false,true);
+d.add(40,36,'=134.4','<div class="nodetag">=134.4</div></span>&nbsp;&nbsp;Galicijski','=134.4','Galicijski','','','',false,true);
+d.add(41,30,'=135','<div class="nodetag">=135</div></span>&nbsp;&nbsp;Istočnoromanski jezici','=135','Istočnoromanski jezici','','','',false,true);
+d.add(42,41,'=135.1','<div class="nodetag">=135.1</div></span>&nbsp;&nbsp;Rumunjski','=135.1','Rumunjski','','','',false,true);
+d.add(43,14,'=14','<div class="nodetag">=14</div></span>&nbsp;&nbsp;Grčki / Helenski','=14','Grčki / Helenski','','','',false,true);
+d.add(44,14,'=15','<div class="nodetag">=15</div></span>&nbsp;&nbsp;Keltski jezici','=15','Keltski jezici','','','',false,true);
+d.add(45,44,'=152','<div class="nodetag">=152</div></span>&nbsp;&nbsp;Gojdelska skupina','=152','Gojdelska skupina','','','',false,true);
+d.add(46,45,'=152.1','<div class="nodetag">=152.1</div></span>&nbsp;&nbsp;Irski','=152.1','Irski','','','',false,true);
+d.add(47,45,'=152.2','<div class="nodetag">=152.2</div></span>&nbsp;&nbsp;Škotski gaelik','=152.2','Škotski gaelik','','','',false,true);
+d.add(48,44,'=153','<div class="nodetag">=153</div></span>&nbsp;&nbsp;Britonska skupina','=153','Britonska skupina','','','',false,true);
+d.add(49,14,'=16','<div class="nodetag">=16</div></span>&nbsp;&nbsp;Slavenski jezici','=16','Slavenski jezici','','','',false,true);
+d.add(50,49,'=161','<div class="nodetag">=161</div></span>&nbsp;&nbsp;Istočnoslavenski jezici','=161','Istočnoslavenski jezici','','','',false,true);
+d.add(51,50,'=161.1','<div class="nodetag">=161.1</div></span>&nbsp;&nbsp;Ruski','=161.1','Ruski','','','',false,true);
+d.add(52,50,'=161.2','<div class="nodetag">=161.2</div></span>&nbsp;&nbsp;Ukrajinski','=161.2','Ukrajinski','','','',false,true);
+d.add(53,50,'=161.3','<div class="nodetag">=161.3</div></span>&nbsp;&nbsp;Bjeloruski','=161.3','Bjeloruski','','','',false,true);
+d.add(54,49,'=162','<div class="nodetag">=162</div></span>&nbsp;&nbsp;Zapadnoslavenski jezici','=162','Zapadnoslavenski jezici','','','',false,true);
+d.add(55,54,'=162.1','<div class="nodetag">=162.1</div></span>&nbsp;&nbsp;Poljski','=162.1','Poljski','','','',false,true);
+d.add(56,54,'=162.3','<div class="nodetag">=162.3</div></span>&nbsp;&nbsp;Češki','=162.3','Češki','','','',false,true);
+d.add(57,54,'=162.4','<div class="nodetag">=162.4</div></span>&nbsp;&nbsp;Slovački','=162.4','Slovački','','','',false,true);
+d.add(58,49,'=163','<div class="nodetag">=163</div></span>&nbsp;&nbsp;Južnoslavenski jezici','=163','Južnoslavenski jezici','','','',false,true);
+d.add(59,58,'=163.2','<div class="nodetag">=163.2</div></span>&nbsp;&nbsp;Bugarski','=163.2','Bugarski','','','',false,true);
+d.add(60,58,'=163.3','<div class="nodetag">=163.3</div></span>&nbsp;&nbsp;Makedonski','=163.3','Makedonski','','','',false,true);
+d.add(61,58,'=163.4','<div class="nodetag">=163.4</div></span>&nbsp;&nbsp;Srpski i hrvatski','=163.4','Srpski i hrvatski','','','',false,true);
+d.add(62,61,'=163.41','<div class="nodetag">=163.41</div></span>&nbsp;&nbsp;Srpski','=163.41','Srpski','','','',false,true);
+d.add(63,61,'=163.42','<div class="nodetag">=163.42</div></span>&nbsp;&nbsp;Hrvatski','=163.42','Hrvatski','','','',false,true);
+d.add(64,58,'=163.6','<div class="nodetag">=163.6</div></span>&nbsp;&nbsp;Slovenski','=163.6','Slovenski','','','',false,true);
+d.add(65,14,'=17','<div class="nodetag">=17</div></span>&nbsp;&nbsp;Baltički jezici','=17','Baltički jezici','','','',false,true);
+d.add(66,65,'=172','<div class="nodetag">=172</div></span>&nbsp;&nbsp;Litavski','=172','Litavski','','','',false,true);
+d.add(67,65,'=174','<div class="nodetag">=174</div></span>&nbsp;&nbsp;Latvijski / Letonski','=174','Latvijski / Letonski','','','',false,true);
+d.add(68,14,'=18','<div class="nodetag">=18</div></span>&nbsp;&nbsp;Albanski','=18','Albanski','','','',false,true);
+d.add(69,14,'=19','<div class="nodetag">=19</div></span>&nbsp;&nbsp;Armenski','=19','Armenski','','','',false,true);
+d.add(70,13,'=2','<div class="nodetag">=2</div></span>&nbsp;&nbsp;Indoiranski, nuristanski / kafirski i mrtvi indoeuropski jezici','=2','Indoiranski, nuristanski / kafirski i mrtvi indoeuropski jezici','','','',false,true);
+d.add(71,70,'=21/=22','<div class="nodetag">=21/=22</div></span>&nbsp;&nbsp;Indoiranski jezici','=21/=22','Indoiranski jezici','','','',false,true);
+d.add(72,71,'=21','<div class="nodetag">=21</div></span>&nbsp;&nbsp;Indijski jezici','=21','Indijski jezici','','','',false,true);
+d.add(73,72,'=211','<div class="nodetag">=211</div></span>&nbsp;&nbsp;Sanskrt','=211','Sanskrt','','','',false,true);
+d.add(74,72,'=212','<div class="nodetag">=212</div></span>&nbsp;&nbsp;Pali','=212','Pali','','','',false,true);
+d.add(75,72,'=213','<div class="nodetag">=213</div></span>&nbsp;&nbsp;Prakrt','=213','Prakrt','','','',false,true);
+d.add(76,72,'=214','<div class="nodetag">=214</div></span>&nbsp;&nbsp;Suvremeni indijski jezici','=214','Suvremeni indijski jezici','','','',false,true);
+d.add(77,76,'=214.1','<div class="nodetag">=214.1</div></span>&nbsp;&nbsp;Dardska skupina indijskih jezika','=214.1','Dardska skupina indijskih jezika','','','',false,true);
+d.add(78,76,'=214.2','<div class="nodetag">=214.2</div></span>&nbsp;&nbsp;Središnja skupina indijskih jezika','=214.2','Središnja skupina indijskih jezika','','','',false,true);
+d.add(79,78,'=214.21','<div class="nodetag">=214.21</div></span>&nbsp;&nbsp;Hindski','=214.21','Hindski','','','',false,true);
+d.add(80,78,'=214.22','<div class="nodetag">=214.22</div></span>&nbsp;&nbsp;Urdski','=214.22','Urdski','','','',false,true);
+d.add(81,78,'=214.25','<div class="nodetag">=214.25</div></span>&nbsp;&nbsp;Gudžaratski','=214.25','Gudžaratski','','','',false,true);
+d.add(82,78,'=214.27','<div class="nodetag">=214.27</div></span>&nbsp;&nbsp;Pandžapski','=214.27','Pandžapski','','','',false,true);
+d.add(83,78,'=214.28','<div class="nodetag">=214.28</div></span>&nbsp;&nbsp;Radžasthanski','=214.28','Radžasthanski','','','',false,true);
+d.add(84,76,'=214.3','<div class="nodetag">=214.3</div></span>&nbsp;&nbsp;Istočna skupina indijskih jezika','=214.3','Istočna skupina indijskih jezika','','','',false,true);
+d.add(85,84,'=214.32','<div class="nodetag">=214.32</div></span>&nbsp;&nbsp;Bengalski','=214.32','Bengalski','','','',false,true);
+d.add(86,84,'=214.35','<div class="nodetag">=214.35</div></span>&nbsp;&nbsp;Marathski','=214.35','Marathski','','','',false,true);
+d.add(87,76,'=214.4','<div class="nodetag">=214.4</div></span>&nbsp;&nbsp;Sjeverna skupina indijskih jezika','=214.4','Sjeverna skupina indijskih jezika','','','',false,true);
+d.add(88,87,'=214.43','<div class="nodetag">=214.43</div></span>&nbsp;&nbsp;Nepalski','=214.43','Nepalski','','','',false,true);
+d.add(89,76,'=214.5','<div class="nodetag">=214.5</div></span>&nbsp;&nbsp;Sjeverozapadna skupina indijskih jezika','=214.5','Sjeverozapadna skupina indijskih jezika','','','',false,true);
+d.add(90,89,'=214.52','<div class="nodetag">=214.52</div></span>&nbsp;&nbsp;Sindhi','=214.52','Sindhi','','','',false,true);
+d.add(91,89,'=214.58','<div class="nodetag">=214.58</div></span>&nbsp;&nbsp;Romski','=214.58','Romski','','','',false,true);
+d.add(92,76,'=214.6','<div class="nodetag">=214.6</div></span>&nbsp;&nbsp;Singalsko-maldivska skupina','=214.6','Singalsko-maldivska skupina','','','',false,true);
+d.add(93,71,'=22','<div class="nodetag">=22</div></span>&nbsp;&nbsp;Iranski jezici','=22','Iranski jezici','','','',false,true);
+d.add(94,93,'=221','<div class="nodetag">=221</div></span>&nbsp;&nbsp;Istočnoiranski jezici','=221','Istočnoiranski jezici','','','',false,true);
+d.add(95,94,'=221.31','<div class="nodetag">=221.31</div></span>&nbsp;&nbsp;Pašto','=221.31','Pašto','','','',false,true);
+d.add(96,93,'=222/=223','<div class="nodetag">=222/=223</div></span>&nbsp;&nbsp;Zapadnoiranski jezici','=222/=223','Zapadnoiranski jezici','','','',false,true);
+d.add(97,96,'=222.1','<div class="nodetag">=222.1</div></span>&nbsp;&nbsp;Perzijski','=222.1','Perzijski','','','',false,true);
+d.add(98,96,'=222.5','<div class="nodetag">=222.5</div></span>&nbsp;&nbsp;Kurdski','=222.5','Kurdski','','','',false,true);
+d.add(99,70,'=29','<div class="nodetag">=29</div></span>&nbsp;&nbsp;Mrtvi indoeuropski jezici (nespomenuti drugdje)','=29','Mrtvi indoeuropski jezici (nespomenuti drugdje)','','','',false,true);
+d.add(100,12,'=3','<div class="nodetag">=3</div></span>&nbsp;&nbsp;Mrtvi jezici nepoznatog porijekla. Kavkaski jezici','=3','Mrtvi jezici nepoznatog porijekla. Kavkaski jezici','','','',false,true);
+d.add(101,100,'=34','<div class="nodetag">=34</div></span>&nbsp;&nbsp;Mrtvi jezici nepoznatog porijekla, govoreni na Sredozemlju i Bliskom istoku (osim semitskih)','=34','Mrtvi jezici nepoznatog porijekla, govoreni na Sredozemlju i Bliskom istoku (osim semitskih)','','','',false,true);
+d.add(102,100,'=35','<div class="nodetag">=35</div></span>&nbsp;&nbsp;Kavkaski jezici','=35','Kavkaski jezici','','','',false,true);
+d.add(103,102,'=351','<div class="nodetag">=351</div></span>&nbsp;&nbsp;Sjeveroistočna skupina kavkaskih jezika','=351','Sjeveroistočna skupina kavkaskih jezika','','','',false,true);
+d.add(104,102,'=352','<div class="nodetag">=352</div></span>&nbsp;&nbsp;Sjeverozapadna skupina kavkaskih jezika','=352','Sjeverozapadna skupina kavkaskih jezika','','','',false,true);
+d.add(105,102,'=353','<div class="nodetag">=353</div></span>&nbsp;&nbsp;Južna skupina kavkaskih jezika / Kartvelska skupina jezika','=353','Južna skupina kavkaskih jezika / Kartvelska skupina jezika','','','',false,true);
+d.add(106,105,'=353.1','<div class="nodetag">=353.1</div></span>&nbsp;&nbsp;Gruzijski','=353.1','Gruzijski','','','',false,true);
+d.add(107,100,'=361','<div class="nodetag">=361</div></span>&nbsp;&nbsp;Baskijski / Euskera / Euskara','=361','Baskijski / Euskera / Euskara','','','',false,true);
+d.add(108,12,'=4','<div class="nodetag">=4</div></span>&nbsp;&nbsp;Afroazijski, nilsko-saharski, kongo-kordofanski, khoisanski jezici','=4','Afroazijski, nilsko-saharski, kongo-kordofanski, khoisanski jezici','','','',false,true);
+d.add(109,108,'=41','<div class="nodetag">=41</div></span>&nbsp;&nbsp;Afroazijski (hamitsko-semitski) jezici','=41','Afroazijski (hamitsko-semitski) jezici','','','',false,true);
+d.add(110,109,'=411','<div class="nodetag">=411</div></span>&nbsp;&nbsp;Semitski jezici','=411','Semitski jezici','','','',false,true);
+d.add(111,110,'=411.1','<div class="nodetag">=411.1</div></span>&nbsp;&nbsp;Sjeverni semitski jezici','=411.1','Sjeverni semitski jezici','','','',false,true);
+d.add(112,111,'=411.16','<div class="nodetag">=411.16</div></span>&nbsp;&nbsp;Hebrejski','=411.16','Hebrejski','','','',false,true);
+d.add(113,110,'=411.2','<div class="nodetag">=411.2</div></span>&nbsp;&nbsp;Jugozapadni semitski jezici','=411.2','Jugozapadni semitski jezici','','','',false,true);
+d.add(114,113,'=411.21','<div class="nodetag">=411.21</div></span>&nbsp;&nbsp;Arapski','=411.21','Arapski','','','',false,true);
+d.add(115,110,'=411.3','<div class="nodetag">=411.3</div></span>&nbsp;&nbsp;Jugoistočni semitski jezici','=411.3','Jugoistočni semitski jezici','','','',false,true);
+d.add(116,110,'=411.4','<div class="nodetag">=411.4</div></span>&nbsp;&nbsp;Etiopsko-semitski jezici','=411.4','Etiopsko-semitski jezici','','','',false,true);
+d.add(117,109,'=412','<div class="nodetag">=412</div></span>&nbsp;&nbsp;Egipatsko-koptski','=412','Egipatsko-koptski','','','',false,true);
+d.add(118,109,'=413','<div class="nodetag">=413</div></span>&nbsp;&nbsp;Berberski jezici','=413','Berberski jezici','','','',false,true);
+d.add(119,109,'=414','<div class="nodetag">=414</div></span>&nbsp;&nbsp;Čadski jezici','=414','Čadski jezici','','','',false,true);
+d.add(120,119,'=414.231','<div class="nodetag">=414.231</div></span>&nbsp;&nbsp;Hausa','=414.231','Hausa','','','',false,true);
+d.add(121,109,'=415','<div class="nodetag">=415</div></span>&nbsp;&nbsp;Kušitski jezici','=415','Kušitski jezici','','','',false,true);
+d.add(122,109,'=416','<div class="nodetag">=416</div></span>&nbsp;&nbsp;Omotski jezici','=416','Omotski jezici','','','',false,true);
+d.add(123,108,'=42','<div class="nodetag">=42</div></span>&nbsp;&nbsp;Nilsko-saharski jezici','=42','Nilsko-saharski jezici','','','',false,true);
+d.add(124,123,'=422','<div class="nodetag">=422</div></span>&nbsp;&nbsp;Saharska grana','=422','Saharska grana','','','',false,true);
+d.add(125,123,'=425','<div class="nodetag">=425</div></span>&nbsp;&nbsp;Komanski jezici','=425','Komanski jezici','','','',false,true);
+d.add(126,123,'=426','<div class="nodetag">=426</div></span>&nbsp;&nbsp;Šari-nilska grana','=426','Šari-nilska grana','','','',false,true);
+d.add(127,108,'=43','<div class="nodetag">=43</div></span>&nbsp;&nbsp;Kongo-kordofanski / Niger-kordofanski jezici','=43','Kongo-kordofanski / Niger-kordofanski jezici','','','',false,true);
+d.add(128,127,'=431','<div class="nodetag">=431</div></span>&nbsp;&nbsp;Kordofanski jezici','=431','Kordofanski jezici','','','',false,true);
+d.add(129,127,'=432','<div class="nodetag">=432</div></span>&nbsp;&nbsp;Niger-kongo jezici','=432','Niger-kongo jezici','','','',false,true);
+d.add(130,108,'=45','<div class="nodetag">=45</div></span>&nbsp;&nbsp;Khoisanski jezici','=45','Khoisanski jezici','','','',false,true);
+d.add(131,12,'=5','<div class="nodetag">=5</div></span>&nbsp;&nbsp;Uralsko-altajski, paleosibirski, eskimo-aleutski, dravidski i kinesko-tibetanski jezici. Japanski. Korejski','=5','Uralsko-altajski, paleosibirski, eskimo-aleutski, dravidski i kinesko-tibetanski jezici. Japanski. Korejski','','','',false,true);
+d.add(132,131,'=51','<div class="nodetag">=51</div></span>&nbsp;&nbsp;Uralo-altajski jezici','=51','Uralo-altajski jezici','','','',false,true);
+d.add(133,132,'=511','<div class="nodetag">=511</div></span>&nbsp;&nbsp;Uralski jezici','=511','Uralski jezici','','','',false,true);
+d.add(134,133,'=511.1','<div class="nodetag">=511.1</div></span>&nbsp;&nbsp;Ugrofinski jezici','=511.1','Ugrofinski jezici','','','',false,true);
+d.add(135,134,'=511.11','<div class="nodetag">=511.11</div></span>&nbsp;&nbsp;Finski jezici','=511.11','Finski jezici','','','',false,true);
+d.add(136,135,'=511.111','<div class="nodetag">=511.111</div></span>&nbsp;&nbsp;Finski jezik','=511.111','Finski jezik','','','',false,true);
+d.add(137,135,'=511.113','<div class="nodetag">=511.113</div></span>&nbsp;&nbsp;Estonski','=511.113','Estonski','','','',false,true);
+d.add(138,134,'=511.12','<div class="nodetag">=511.12</div></span>&nbsp;&nbsp;Sami / Saami / Laponski jezici','=511.12','Sami / Saami / Laponski jezici','','','',false,true);
+d.add(139,134,'=511.14','<div class="nodetag">=511.14</div></span>&nbsp;&nbsp;Ugarski jezici','=511.14','Ugarski jezici','','','',false,true);
+d.add(140,139,'=511.141','<div class="nodetag">=511.141</div></span>&nbsp;&nbsp;Mađarski','=511.141','Mađarski','','','',false,true);
+d.add(141,133,'=511.2','<div class="nodetag">=511.2</div></span>&nbsp;&nbsp;Samojedski jezici','=511.2','Samojedski jezici','','','',false,true);
+d.add(142,132,'=512','<div class="nodetag">=512</div></span>&nbsp;&nbsp;Altajski jezici','=512','Altajski jezici','','','',false,true);
+d.add(143,142,'=512.1','<div class="nodetag">=512.1</div></span>&nbsp;&nbsp;Turkijski jezici','=512.1','Turkijski jezici','','','',false,true);
+d.add(144,143,'=512.12','<div class="nodetag">=512.12</div></span>&nbsp;&nbsp;Središnja skupina turkijskih jezika','=512.12','Središnja skupina turkijskih jezika','','','',false,true);
+d.add(145,144,'=512.122','<div class="nodetag">=512.122</div></span>&nbsp;&nbsp;Kazahski','=512.122','Kazahski','','','',false,true);
+d.add(146,143,'=512.13','<div class="nodetag">=512.13</div></span>&nbsp;&nbsp;Istočna / Karlučka skupina turkijskih jezika','=512.13','Istočna / Karlučka skupina turkijskih jezika','','','',false,true);
+d.add(147,146,'=512.133','<div class="nodetag">=512.133</div></span>&nbsp;&nbsp;Uzbečki','=512.133','Uzbečki','','','',false,true);
+d.add(148,143,'=512.14','<div class="nodetag">=512.14</div></span>&nbsp;&nbsp;Zapadna skupina turkijskih jezika','=512.14','Zapadna skupina turkijskih jezika','','','',false,true);
+d.add(149,143,'=512.15','<div class="nodetag">=512.15</div></span>&nbsp;&nbsp;Sjeverna skupina turkijskih jezika','=512.15','Sjeverna skupina turkijskih jezika','','','',false,true);
+d.add(150,149,'=512.154','<div class="nodetag">=512.154</div></span>&nbsp;&nbsp;Kirgiski','=512.154','Kirgiski','','','',false,true);
+d.add(151,143,'=512.16','<div class="nodetag">=512.16</div></span>&nbsp;&nbsp;Južna skupina turkijskih jezika','=512.16','Južna skupina turkijskih jezika','','','',false,true);
+d.add(152,151,'=512.161','<div class="nodetag">=512.161</div></span>&nbsp;&nbsp;Turski (osmanlijski)','=512.161','Turski (osmanlijski)','','','',false,true);
+d.add(153,151,'=512.162','<div class="nodetag">=512.162</div></span>&nbsp;&nbsp;Azerbajdžanski','=512.162','Azerbajdžanski','','','',false,true);
+d.add(154,151,'=512.164','<div class="nodetag">=512.164</div></span>&nbsp;&nbsp;Turkmenski','=512.164','Turkmenski','','','',false,true);
+d.add(155,142,'=512.2','<div class="nodetag">=512.2</div></span>&nbsp;&nbsp;Tunguski jezici','=512.2','Tunguski jezici','','','',false,true);
+d.add(156,142,'=512.3','<div class="nodetag">=512.3</div></span>&nbsp;&nbsp;Mongolski jezici','=512.3','Mongolski jezici','','','',false,true);
+d.add(157,131,'=521','<div class="nodetag">=521</div></span>&nbsp;&nbsp;Japanski','=521','Japanski','','','',false,true);
+d.add(158,131,'=531','<div class="nodetag">=531</div></span>&nbsp;&nbsp;Korejski','=531','Korejski','','','',false,true);
+d.add(159,131,'=541','<div class="nodetag">=541</div></span>&nbsp;&nbsp;Ainu','=541','Ainu','','','',false,true);
+d.add(160,131,'=55','<div class="nodetag">=55</div></span>&nbsp;&nbsp;Paleosibirski jezici','=55','Paleosibirski jezici','','','',false,true);
+d.add(161,131,'=56','<div class="nodetag">=56</div></span>&nbsp;&nbsp;Eskimsko-aleutski jezici','=56','Eskimsko-aleutski jezici','','','',false,true);
+d.add(162,131,'=58','<div class="nodetag">=58</div></span>&nbsp;&nbsp;Kinesko-tibetski jezici','=58','Kinesko-tibetski jezici','','','',false,true);
+d.add(163,162,'=581','<div class="nodetag">=581</div></span>&nbsp;&nbsp;Kineski jezici','=581','Kineski jezici','','','',false,true);
+d.add(164,162,'=582','<div class="nodetag">=582</div></span>&nbsp;&nbsp;Kam-Tai jezici','=582','Kam-Tai jezici','','','',false,true);
+d.add(165,162,'=583','<div class="nodetag">=583</div></span>&nbsp;&nbsp;Mjao-Jao jezici','=583','Mjao-Jao jezici','','','',false,true);
+d.add(166,162,'=584','<div class="nodetag">=584</div></span>&nbsp;&nbsp;Tibetsko-burmanski jezici','=584','Tibetsko-burmanski jezici','','','',false,true);
+d.add(167,12,'=6','<div class="nodetag">=6</div></span>&nbsp;&nbsp;Australazijski jezici. Australnezijski jezici','=6','Australazijski jezici. Australnezijski jezici','','','',false,true);
+d.add(168,167,'=61','<div class="nodetag">=61</div></span>&nbsp;&nbsp;Australazijski jezici','=61','Australazijski jezici','','','',false,true);
+d.add(169,168,'=611','<div class="nodetag">=611</div></span>&nbsp;&nbsp;Malaka / Aslijska skupina','=611','Malaka / Aslijska skupina','','','',false,true);
+d.add(170,168,'=612','<div class="nodetag">=612</div></span>&nbsp;&nbsp;Mon-khmerski jezici','=612','Mon-khmerski jezici','','','',false,true);
+d.add(171,170,'=612.4','<div class="nodetag">=612.4</div></span>&nbsp;&nbsp;Kambodžanski / Khmerski','=612.4','Kambodžanski / Khmerski','','','',false,true);
+d.add(172,170,'=612.91','<div class="nodetag">=612.91</div></span>&nbsp;&nbsp;Vijetnamski','=612.91','Vijetnamski','','','',false,true);
+d.add(173,168,'=613','<div class="nodetag">=613</div></span>&nbsp;&nbsp;Munda jezici','=613','Munda jezici','','','',false,true);
+d.add(174,168,'=614','<div class="nodetag">=614</div></span>&nbsp;&nbsp;Nikobarska skupina','=614','Nikobarska skupina','','','',false,true);
+d.add(175,167,'=62','<div class="nodetag">=62</div></span>&nbsp;&nbsp;Australnezijski jezici','=62','Australnezijski jezici','','','',false,true);
+d.add(176,175,'=621','<div class="nodetag">=621</div></span>&nbsp;&nbsp;Malajsko-polinezijski jezici','=621','Malajsko-polinezijski jezici','','','',false,true);
+d.add(177,176,'=621.251','<div class="nodetag">=621.251</div></span>&nbsp;&nbsp;Malajski / Bahasa indonezijski / Bahasa malajski','=621.251','Malajski / Bahasa indonezijski / Bahasa malajski','','','',false,true);
+d.add(178,175,'=622','<div class="nodetag">=622</div></span>&nbsp;&nbsp;Jezici Oceanije','=622','Jezici Oceanije','','','',false,true);
+d.add(179,12,'=7','<div class="nodetag">=7</div></span>&nbsp;&nbsp;Indopacifički (ne-australnezijski) jezici. Australski jezici','=7','Indopacifički (ne-australnezijski) jezici. Australski jezici','','','',false,true);
+d.add(180,179,'=71','<div class="nodetag">=71</div></span>&nbsp;&nbsp;Indopacifički (ne-australnezijski) jezici','=71','Indopacifički (ne-australnezijski) jezici','','','',false,true);
+d.add(181,180,'=713','<div class="nodetag">=713</div></span>&nbsp;&nbsp;Novogvinejski / Papuanski jezici','=713','Novogvinejski / Papuanski jezici','','','',false,true);
+d.add(182,180,'=714','<div class="nodetag">=714</div></span>&nbsp;&nbsp;Sjeveroistočni novogvinejski / Madang','=714','Sjeveroistočni novogvinejski / Madang','','','',false,true);
+d.add(183,180,'=715','<div class="nodetag">=715</div></span>&nbsp;&nbsp;Zapadni novogvinejski jezici','=715','Zapadni novogvinejski jezici','','','',false,true);
+d.add(184,180,'=716','<div class="nodetag">=716</div></span>&nbsp;&nbsp;Bugenvilski','=716','Bugenvilski','','','',false,true);
+d.add(185,180,'=718','<div class="nodetag">=718</div></span>&nbsp;&nbsp;Tasmanijski / Palawa jezici','=718','Tasmanijski / Palawa jezici','','','',false,true);
+d.add(186,180,'=719','<div class="nodetag">=719</div></span>&nbsp;&nbsp;Drugi indopacifički jezici','=719','Drugi indopacifički jezici','','','',false,true);
+d.add(187,179,'=72','<div class="nodetag">=72</div></span>&nbsp;&nbsp;Australski jezici','=72','Australski jezici','','','',false,true);
+d.add(188,187,'=721','<div class="nodetag">=721</div></span>&nbsp;&nbsp;Pama-maric skupina','=721','Pama-maric skupina','','','',false,true);
+d.add(189,187,'=722','<div class="nodetag">=722</div></span>&nbsp;&nbsp;Pama-nyungan skupina','=722','Pama-nyungan skupina','','','',false,true);
+d.add(190,187,'=729','<div class="nodetag">=729</div></span>&nbsp;&nbsp;Drugi australski jezici','=729','Drugi australski jezici','','','',false,true);
+d.add(191,12,'=8','<div class="nodetag">=8</div></span>&nbsp;&nbsp;Američki autohtoni jezici','=8','Američki autohtoni jezici','','','',false,true);
+d.add(192,191,'=81','<div class="nodetag">=81</div></span>&nbsp;&nbsp;Autohtoni jezici Kanade, SAD, sjevernog i središnjeg Meksika','=81','Autohtoni jezici Kanade, SAD, sjevernog i središnjeg Meksika','','','',false,true);
+d.add(193,191,'=82','<div class="nodetag">=82</div></span>&nbsp;&nbsp;Autohtoni jezici zapadne obale Sjeverne Amerike, Meksika i Yucatana','=82','Autohtoni jezici zapadne obale Sjeverne Amerike, Meksika i Yucatana','','','',false,true);
+d.add(194,193,'=821.24','<div class="nodetag">=821.24</div></span>&nbsp;&nbsp;Soke jezici','=821.24','Soke jezici','','','',false,true);
+d.add(195,193,'=822.21','<div class="nodetag">=822.21</div></span>&nbsp;&nbsp;Nahuatl','=822.21','Nahuatl','','','',false,true);
+d.add(196,193,'=823.7','<div class="nodetag">=823.7</div></span>&nbsp;&nbsp;Zapotečki jezici','=823.7','Zapotečki jezici','','','',false,true);
+d.add(197,191,'=84/=88','<div class="nodetag">=84/=88</div></span>&nbsp;&nbsp;Autohtoni jezici Srednje i Južne Amerike','=84/=88','Autohtoni jezici Srednje i Južne Amerike','','','',false,true);
+d.add(198,197,'=84','<div class="nodetag">=84</div></span>&nbsp;&nbsp;Že-pano karipski jezici. Makro-čipča jezici','=84','Že-pano karipski jezici. Makro-čipča jezici','','','',false,true);
+d.add(199,198,'=842','<div class="nodetag">=842</div></span>&nbsp;&nbsp;Že-pano-karipski jezici','=842','Že-pano-karipski jezici','','','',false,true);
+d.add(200,198,'=845','<div class="nodetag">=845</div></span>&nbsp;&nbsp;Makro-čipča jezici','=845','Makro-čipča jezici','','','',false,true);
+d.add(201,197,'=85','<div class="nodetag">=85</div></span>&nbsp;&nbsp;Andski jezici. Ekvatorijalni jezici','=85','Andski jezici. Ekvatorijalni jezici','','','',false,true);
+d.add(202,201,'=852','<div class="nodetag">=852</div></span>&nbsp;&nbsp;Andski jezici','=852','Andski jezici','','','',false,true);
+d.add(203,202,'=852.11','<div class="nodetag">=852.11</div></span>&nbsp;&nbsp;Ajmara','=852.11','Ajmara','','','',false,true);
+d.add(204,202,'=852.2','<div class="nodetag">=852.2</div></span>&nbsp;&nbsp;Kečua jezici','=852.2','Kečua jezici','','','',false,true);
+d.add(205,202,'=852.5','<div class="nodetag">=852.5</div></span>&nbsp;&nbsp;Araukanski jezici','=852.5','Araukanski jezici','','','',false,true);
+d.add(206,205,'=852.51','<div class="nodetag">=852.51</div></span>&nbsp;&nbsp;Mapuče / Mapudungun','=852.51','Mapuče / Mapudungun','','','',false,true);
+d.add(207,201,'=855','<div class="nodetag">=855</div></span>&nbsp;&nbsp;Ekvatorijalni jezici','=855','Ekvatorijalni jezici','','','',false,true);
+d.add(208,207,'=855.21','<div class="nodetag">=855.21</div></span>&nbsp;&nbsp;Guarani jezici','=855.21','Guarani jezici','','','',false,true);
+d.add(209,197,'=86','<div class="nodetag">=86</div></span>&nbsp;&nbsp;Čako jezici. Patagonski i jezici Ognjene zemlje','=86','Čako jezici. Patagonski i jezici Ognjene zemlje','','','',false,true);
+d.add(210,209,'=862','<div class="nodetag">=862</div></span>&nbsp;&nbsp;Čako jezici','=862','Čako jezici','','','',false,true);
+d.add(211,209,'=865','<div class="nodetag">=865</div></span>&nbsp;&nbsp;Patagonski i jezici Ognjene zemlje','=865','Patagonski i jezici Ognjene zemlje','','','',false,true);
+d.add(212,197,'=88','<div class="nodetag">=88</div></span>&nbsp;&nbsp;Izolirani, neklasificirani autohtoni jezici Srednje i Južne Amerike','=88','Izolirani, neklasificirani autohtoni jezici Srednje i Južne Amerike','','','',false,true);
+d.add(213,11,'=9','<div class="nodetag">=9</div></span>&nbsp;&nbsp;Umjetni jezici','=9','Umjetni jezici','','','',false,true);
+d.add(214,213,'=92','<div class="nodetag">=92</div></span>&nbsp;&nbsp;Umjetni jezici za međuljudsku komunikaciju. Međunarodni pomoćni jezici (interjezici)','=92','Umjetni jezici za međuljudsku komunikaciju. Međunarodni pomoćni jezici (interjezici)','','','',false,true);
+d.add(215,214,'=922','<div class="nodetag">=922</div></span>&nbsp;&nbsp;Esperanto (prema Zamenhofu)','=922','Esperanto (prema Zamenhofu)','','','',false,true);
+d.add(216,213,'=93','<div class="nodetag">=93</div></span>&nbsp;&nbsp;Umjetni jezici namijenjeni strojevima. Programski jezici. Kompjutorski jezici','=93','Umjetni jezici namijenjeni strojevima. Programski jezici. Kompjutorski jezici','','','',false,true);
+d.add(217,0,'(0...)','<div class="nodetag">(0...)</div></span>&nbsp;&nbsp;Tablica 1d - Opće pomoćne oznake za oblik','(0...)','Tablica 1d - Opće pomoćne oznake za oblik','','','',false,true);
+d.add(218,217,'(0.02/.08)','<div class="nodetag">(0.02/.08)</div></span>&nbsp;&nbsp;Posebne pomoćne oznake za oblik dokumenta','(0.02/.08)','Posebne pomoćne oznake za oblik dokumenta','','','',false,true);
+d.add(219,218,'(0.02)','<div class="nodetag">(0.02)</div></span>&nbsp;&nbsp;Dokumenti prema fizičkom, vanjskom obliku','(0.02)','Dokumenti prema fizičkom, vanjskom obliku','','','',false,true);
+d.add(220,218,'(0.03)','<div class="nodetag">(0.03)</div></span>&nbsp;&nbsp;Dokumenti prema načinu proizvodnje','(0.03)','Dokumenti prema načinu proizvodnje','','','',false,true);
+d.add(221,220,'(0.032)','<div class="nodetag">(0.032)</div></span>&nbsp;&nbsp;Rukom pisani dokumenti (autografski, holografski primjerci). Rukopisi. Slikovni dokumenti (crteži, slike)','(0.032)','Rukom pisani dokumenti (autografski, holografski primjerci). Rukopisi. Slikovni dokumenti (crteži, slike)','','','',false,true);
+d.add(222,220,'(0.034)','<div class="nodetag">(0.034)</div></span>&nbsp;&nbsp;Strojno čitljivi dokumenti','(0.034)','Strojno čitljivi dokumenti','','','',false,true);
+d.add(223,218,'(0.04)','<div class="nodetag">(0.04)</div></span>&nbsp;&nbsp;Dokumenti prema stupnju proizvodnje','(0.04)','Dokumenti prema stupnju proizvodnje','','','',false,true);
+d.add(224,218,'(0.05)','<div class="nodetag">(0.05)</div></span>&nbsp;&nbsp;Dokumenti za pojedine skupine korisnika','(0.05)','Dokumenti za pojedine skupine korisnika','','','',false,true);
+d.add(225,218,'(0.06)','<div class="nodetag">(0.06)</div></span>&nbsp;&nbsp;Dokumenti prema razini prikaza i dostupnosti','(0.06)','Dokumenti prema razini prikaza i dostupnosti','','','',false,true);
+d.add(226,218,'(0.07)','<div class="nodetag">(0.07)</div></span>&nbsp;&nbsp;Prilozi objavljeni uz dokumente','(0.07)','Prilozi objavljeni uz dokumente','','','',false,true);
+d.add(227,218,'(0.08)','<div class="nodetag">(0.08)</div></span>&nbsp;&nbsp;Samostalno objavljeni suplementi ili dijelovi dokumenta','(0.08)','Samostalno objavljeni suplementi ili dijelovi dokumenta','','','',false,true);
+d.add(228,217,'(01)','<div class="nodetag">(01)</div></span>&nbsp;&nbsp;Bibliografije','(01)','Bibliografije','','','',false,true);
+d.add(229,217,'(02)','<div class="nodetag">(02)</div></span>&nbsp;&nbsp;Knjige općenito','(02)','Knjige općenito','','','',false,true);
+d.add(230,217,'(03)','<div class="nodetag">(03)</div></span>&nbsp;&nbsp;Referentna djela','(03)','Referentna djela','','','',false,true);
+d.add(231,230,'(031)','<div class="nodetag">(031)</div></span>&nbsp;&nbsp;Enciklopedije. Leksikoni','(031)','Enciklopedije. Leksikoni','','','',false,true);
+d.add(232,230,'(035)','<div class="nodetag">(035)</div></span>&nbsp;&nbsp;Priručnici','(035)','Priručnici','','','',false,true);
+d.add(233,230,'(036)','<div class="nodetag">(036)</div></span>&nbsp;&nbsp;Vodiči (s praktičnim i opisnim informacijama)','(036)','Vodiči (s praktičnim i opisnim informacijama)','','','',false,true);
+d.add(234,230,'(038)','<div class="nodetag">(038)</div></span>&nbsp;&nbsp;Rječnici','(038)','Rječnici','','','',false,true);
+d.add(235,217,'(04)','<div class="nodetag">(04)</div></span>&nbsp;&nbsp;Zasebni separati','(04)','Zasebni separati','','','',false,true);
+d.add(236,235,'(041)','<div class="nodetag">(041)</div></span>&nbsp;&nbsp;Pamfleti. Brošure','(041)','Pamfleti. Brošure','','','',false,true);
+d.add(237,235,'(042)','<div class="nodetag">(042)</div></span>&nbsp;&nbsp;Javni govori. Predavanja. Govori','(042)','Javni govori. Predavanja. Govori','','','',false,true);
+d.add(238,235,'(043)','<div class="nodetag">(043)</div></span>&nbsp;&nbsp;Teze. Disertacije','(043)','Teze. Disertacije','','','',false,true);
+d.add(239,235,'(044)','<div class="nodetag">(044)</div></span>&nbsp;&nbsp;Osobni dokumenti. Korespondencija. Pisma. Okružnice','(044)','Osobni dokumenti. Korespondencija. Pisma. Okružnice','','','',false,true);
+d.add(240,235,'(045)','<div class="nodetag">(045)</div></span>&nbsp;&nbsp;Članci u časopisima, zbirkama i sl. Prilozi','(045)','Članci u časopisima, zbirkama i sl. Prilozi','','','',false,true);
+d.add(241,235,'(046)','<div class="nodetag">(046)</div></span>&nbsp;&nbsp;Novinski članci','(046)','Novinski članci','','','',false,true);
+d.add(242,235,'(047)','<div class="nodetag">(047)</div></span>&nbsp;&nbsp;Izvještaji. Obavijesti. Bilteni','(047)','Izvještaji. Obavijesti. Bilteni','','','',false,true);
+d.add(243,235,'(048)','<div class="nodetag">(048)</div></span>&nbsp;&nbsp;Bibliografski opisi. Kratki sadržaji. Sažeci. Pregledi','(048)','Bibliografski opisi. Kratki sadržaji. Sažeci. Pregledi','','','',false,true);
+d.add(244,235,'(049)','<div class="nodetag">(049)</div></span>&nbsp;&nbsp;Drugi zasebni separati','(049)','Drugi zasebni separati','','','',false,true);
+d.add(245,217,'(05)','<div class="nodetag">(05)</div></span>&nbsp;&nbsp;Serijske publikacije. Periodika','(05)','Serijske publikacije. Periodika','','','',false,true);
+d.add(246,245,'(051)','<div class="nodetag">(051)</div></span>&nbsp;&nbsp;Periodika (u užem smislu)','(051)','Periodika (u užem smislu)','','','',false,true);
+d.add(247,245,'(054)','<div class="nodetag">(054)</div></span>&nbsp;&nbsp;Novine','(054)','Novine','','','',false,true);
+d.add(248,245,'(055)','<div class="nodetag">(055)</div></span>&nbsp;&nbsp;Novinski bilteni. Okružnice. Informativni bilteni','(055)','Novinski bilteni. Okružnice. Informativni bilteni','','','',false,true);
+d.add(249,245,'(058)','<div class="nodetag">(058)</div></span>&nbsp;&nbsp;Godišnjaci. Adresari','(058)','Godišnjaci. Adresari','','','',false,true);
+d.add(250,245,'(059)','<div class="nodetag">(059)</div></span>&nbsp;&nbsp;Almanasi. Kalendari (svih vrsta)','(059)','Almanasi. Kalendari (svih vrsta)','','','',false,true);
+d.add(251,217,'(06)','<div class="nodetag">(06)</div></span>&nbsp;&nbsp;Publikacije društava, udruženja, organizacija','(06)','Publikacije društava, udruženja, organizacija','','','',false,true);
+d.add(252,217,'(07)','<div class="nodetag">(07)</div></span>&nbsp;&nbsp;Dokumenti za poduku, nastavu, učenje, izobrazbu','(07)','Dokumenti za poduku, nastavu, učenje, izobrazbu','','','',false,true);
+d.add(253,252,'(072)','<div class="nodetag">(072)</div></span>&nbsp;&nbsp;Obrazovna pomagala. Učila','(072)','Obrazovna pomagala. Učila','','','',false,true);
+d.add(254,252,'(073)','<div class="nodetag">(073)</div></span>&nbsp;&nbsp;Nastavni planovi. Nastavni programi','(073)','Nastavni planovi. Nastavni programi','','','',false,true);
+d.add(255,252,'(075)','<div class="nodetag">(075)</div></span>&nbsp;&nbsp;Obrazovni tekstovi. Školske knjige. Udžbenici','(075)','Obrazovni tekstovi. Školske knjige. Udžbenici','','','',false,true);
+d.add(256,252,'(076)','<div class="nodetag">(076)</div></span>&nbsp;&nbsp;Dokumenti za praktičnu poduku, izobrazbu','(076)','Dokumenti za praktičnu poduku, izobrazbu','','','',false,true);
+d.add(257,252,'(078)','<div class="nodetag">(078)</div></span>&nbsp;&nbsp;Drugi obrazovni dokumenti i građa','(078)','Drugi obrazovni dokumenti i građa','','','',false,true);
+d.add(258,252,'(079)','<div class="nodetag">(079)</div></span>&nbsp;&nbsp;Dokumenti povezani s natjecanjima, testovima, ispitima i sl.','(079)','Dokumenti povezani s natjecanjima, testovima, ispitima i sl.','','','',false,true);
+d.add(259,217,'(08)','<div class="nodetag">(08)</div></span>&nbsp;&nbsp;Sabrana i poligrafska djela. Formulari. Popisi. Ilustracije. Poslovne publikacije','(08)','Sabrana i poligrafska djela. Formulari. Popisi. Ilustracije. Poslovne publikacije','','','',false,true);
+d.add(260,259,'(081)','<div class="nodetag">(081)</div></span>&nbsp;&nbsp;Individualne poligrafije. Sabrana djela jednog autora','(081)','Individualne poligrafije. Sabrana djela jednog autora','','','',false,true);
+d.add(261,259,'(082)','<div class="nodetag">(082)</div></span>&nbsp;&nbsp;Kolektivne poligrafije. Sabrana djela više autora','(082)','Kolektivne poligrafije. Sabrana djela više autora','','','',false,true);
+d.add(262,259,'(083)','<div class="nodetag">(083)</div></span>&nbsp;&nbsp;Tehnički i normativni dokumenti. Tablice. Popisi i sl.','(083)','Tehnički i normativni dokumenti. Tablice. Popisi i sl.','','','',false,true);
+d.add(263,259,'(084)','<div class="nodetag">(084)</div></span>&nbsp;&nbsp;Slike. Ilustrirani dokumenti. Grafički dokumenti','(084)','Slike. Ilustrirani dokumenti. Grafički dokumenti','','','',false,true);
+d.add(264,259,'(085)','<div class="nodetag">(085)</div></span>&nbsp;&nbsp;Izdanja poslovnih tvrtki (industrijskih, trgovačkih). Trgovačka propaganda, obavijesti, oglasni materijal','(085)','Izdanja poslovnih tvrtki (industrijskih, trgovačkih). Trgovačka propaganda, obavijesti, oglasni materijal','','','',false,true);
+d.add(265,259,'(086)','<div class="nodetag">(086)</div></span>&nbsp;&nbsp;Trodimenzionalni dokumenti. Audio i audiovizualni dokumenti','(086)','Trodimenzionalni dokumenti. Audio i audiovizualni dokumenti','','','',false,true);
+d.add(266,265,'(086.3)','<div class="nodetag">(086.3)</div></span>&nbsp;&nbsp;Uzorci, predmeti kao dokumenti','(086.3)','Uzorci, predmeti kao dokumenti','','','',false,true);
+d.add(267,265,'(086.7)','<div class="nodetag">(086.7)</div></span>&nbsp;&nbsp;Audio dokumenti. Zvučni zapisi','(086.7)','Audio dokumenti. Zvučni zapisi','','','',false,true);
+d.add(268,265,'(086.8)','<div class="nodetag">(086.8)</div></span>&nbsp;&nbsp;Video zapisi','(086.8)','Video zapisi','','','',false,true);
+d.add(269,259,'(088)','<div class="nodetag">(088)</div></span>&nbsp;&nbsp;Svjedodžbe. Dokumenti posebne namjene','(088)','Svjedodžbe. Dokumenti posebne namjene','','','',false,true);
+d.add(270,217,'(09)','<div class="nodetag">(09)</div></span>&nbsp;&nbsp;Prikazivanje u povijesnom obliku. Pravni i povijesni izvori','(09)','Prikazivanje u povijesnom obliku. Pravni i povijesni izvori','','','',false,true);
+d.add(271,270,'(091)','<div class="nodetag">(091)</div></span>&nbsp;&nbsp;Prikazivanje u kronološkom, povijesnom obliku. Povijesno prikazivanje u užem smislu','(091)','Prikazivanje u kronološkom, povijesnom obliku. Povijesno prikazivanje u užem smislu','','','',false,true);
+d.add(272,270,'(092)','<div class="nodetag">(092)</div></span>&nbsp;&nbsp;Biografsko prikazivanje','(092)','Biografsko prikazivanje','','','',false,true);
+d.add(273,270,'(093)','<div class="nodetag">(093)</div></span>&nbsp;&nbsp;Povijesni izvori','(093)','Povijesni izvori','','','',false,true);
+d.add(274,270,'(094)','<div class="nodetag">(094)</div></span>&nbsp;&nbsp;Pravni izvori. Pravni dokumenti','(094)','Pravni izvori. Pravni dokumenti','','','',false,true);
+d.add(275,0,'(1/9)','<div class="nodetag">(1/9)</div></span>&nbsp;&nbsp;Tablica 1e - Opće pomoćne oznake za mjesto','(1/9)','Tablica 1e - Opće pomoćne oznake za mjesto','','','',false,true);
+d.add(276,275,'(1)','<div class="nodetag">(1)</div></span>&nbsp;&nbsp;Mjesto i prostor uopće. Smještaj. Orijentacija','(1)','Mjesto i prostor uopće. Smještaj. Orijentacija','','','',false,true);
+d.add(277,276,'(100)','<div class="nodetag">(100)</div></span>&nbsp;&nbsp;Mjesto općenito. Međunarodno. Sve zemlje uopće','(100)','Mjesto općenito. Međunarodno. Sve zemlje uopće','','','',false,true);
+d.add(278,275,'(1-0/-9)','<div class="nodetag">(1-0/-9)</div></span>&nbsp;&nbsp;Posebne pomoćne oznake za granične i prostorne oblike različitih vrsta','(1-0/-9)','Posebne pomoćne oznake za granične i prostorne oblike različitih vrsta','','','',false,true);
+d.add(279,278,'(1-0)','<div class="nodetag">(1-0)</div></span>&nbsp;&nbsp;Zone. Područja','(1-0)','Zone. Područja','','','',false,true);
+d.add(280,278,'(1-1)','<div class="nodetag">(1-1)</div></span>&nbsp;&nbsp;Orijentacija. Strane svijeta. Relativni položaj','(1-1)','Orijentacija. Strane svijeta. Relativni položaj','','','',false,true);
+d.add(281,280,'(1-11)','<div class="nodetag">(1-11)</div></span>&nbsp;&nbsp;Istok. Istočno','(1-11)','Istok. Istočno','','','',false,true);
+d.add(282,280,'(1-12)','<div class="nodetag">(1-12)</div></span>&nbsp;&nbsp;Jugoistok. Jugoistočno','(1-12)','Jugoistok. Jugoistočno','','','',false,true);
+d.add(283,280,'(1-13)','<div class="nodetag">(1-13)</div></span>&nbsp;&nbsp;Jug. Južno','(1-13)','Jug. Južno','','','',false,true);
+d.add(284,280,'(1-14)','<div class="nodetag">(1-14)</div></span>&nbsp;&nbsp;Jugozapad. Jugozapadno','(1-14)','Jugozapad. Jugozapadno','','','',false,true);
+d.add(285,280,'(1-15)','<div class="nodetag">(1-15)</div></span>&nbsp;&nbsp;Zapad. Zapadno','(1-15)','Zapad. Zapadno','','','',false,true);
+d.add(286,280,'(1-16)','<div class="nodetag">(1-16)</div></span>&nbsp;&nbsp;Sjeverozapad. Sjeverozapadno','(1-16)','Sjeverozapad. Sjeverozapadno','','','',false,true);
+d.add(287,280,'(1-17)','<div class="nodetag">(1-17)</div></span>&nbsp;&nbsp;Sjever. Sjeverno','(1-17)','Sjever. Sjeverno','','','',false,true);
+d.add(288,280,'(1-18)','<div class="nodetag">(1-18)</div></span>&nbsp;&nbsp;Sjeveroistok. Sjeveroistočno','(1-18)','Sjeveroistok. Sjeveroistočno','','','',false,true);
+d.add(289,280,'(1-19)','<div class="nodetag">(1-19)</div></span>&nbsp;&nbsp;Relativni položaj, smjer i orijentacija','(1-19)','Relativni položaj, smjer i orijentacija','','','',false,true);
+d.add(290,278,'(1-2/-4)','<div class="nodetag">(1-2/-4)</div></span>&nbsp;&nbsp;Političke jedinice. Upravne jedinice','(1-2/-4)','Političke jedinice. Upravne jedinice','','','',false,true);
+d.add(291,290,'(1-2)','<div class="nodetag">(1-2)</div></span>&nbsp;&nbsp;Najniže upravne jedinice. Lokaliteti','(1-2)','Najniže upravne jedinice. Lokaliteti','','','',false,true);
+d.add(292,291,'(1-24)','<div class="nodetag">(1-24)</div></span>&nbsp;&nbsp;Skupne lokalne upravne jedinice','(1-24)','Skupne lokalne upravne jedinice','','','',false,true);
+d.add(293,291,'(1-25)','<div class="nodetag">(1-25)</div></span>&nbsp;&nbsp;Glavni gradovi. Metropole','(1-25)','Glavni gradovi. Metropole','','','',false,true);
+d.add(294,290,'(1-3)','<div class="nodetag">(1-3)</div></span>&nbsp;&nbsp;Veće jedinice unutar države','(1-3)','Veće jedinice unutar države','','','',false,true);
+d.add(295,294,'(1-32)','<div class="nodetag">(1-32)</div></span>&nbsp;&nbsp;Upravne jedinice više razine. Pokrajine','(1-32)','Upravne jedinice više razine. Pokrajine','','','',false,true);
+d.add(296,294,'(1-35)','<div class="nodetag">(1-35)</div></span>&nbsp;&nbsp;Upravne jedinice srednje razine','(1-35)','Upravne jedinice srednje razine','','','',false,true);
+d.add(297,294,'(1-37)','<div class="nodetag">(1-37)</div></span>&nbsp;&nbsp;Upravne jedinice niže razine','(1-37)','Upravne jedinice niže razine','','','',false,true);
+d.add(298,290,'(1-4)','<div class="nodetag">(1-4)</div></span>&nbsp;&nbsp;Jedinice najviše (državne) razine. Države. Konfederacije','(1-4)','Jedinice najviše (državne) razine. Države. Konfederacije','','','',false,true);
+d.add(299,298,'(1-43)','<div class="nodetag">(1-43)</div></span>&nbsp;&nbsp;Države unutar konfederacije. Federalne države. Savezne države. Autonomne republike','(1-43)','Države unutar konfederacije. Federalne države. Savezne države. Autonomne republike','','','',false,true);
+d.add(300,298,'(1-44)','<div class="nodetag">(1-44)</div></span>&nbsp;&nbsp;Carstva. Veza, savez matice zemlje, dominiona i kolonija','(1-44)','Carstva. Veza, savez matice zemlje, dominiona i kolonija','','','',false,true);
+d.add(301,278,'(1-5)','<div class="nodetag">(1-5)</div></span>&nbsp;&nbsp;Ovisna ili djelomično ovisna područja','(1-5)','Ovisna ili djelomično ovisna područja','','','',false,true);
+d.add(302,278,'(1-6)','<div class="nodetag">(1-6)</div></span>&nbsp;&nbsp;Države ili grupacije država s različitih gledišta','(1-6)','Države ili grupacije država s različitih gledišta','','','',false,true);
+d.add(303,278,'(1-7)','<div class="nodetag">(1-7)</div></span>&nbsp;&nbsp;Mjesta i područja prema privatnom, javnom ili drugom posebnom obilježju','(1-7)','Mjesta i područja prema privatnom, javnom ili drugom posebnom obilježju','','','',false,true);
+d.add(304,278,'(1-8)','<div class="nodetag">(1-8)</div></span>&nbsp;&nbsp;Smještaj. Polazno odredište. Prolazno odredište. Krajnje odredište','(1-8)','Smještaj. Polazno odredište. Prolazno odredište. Krajnje odredište','','','',false,true);
+d.add(305,278,'(1-9)','<div class="nodetag">(1-9)</div></span>&nbsp;&nbsp;Regionalizacija prema posebnim gledištima','(1-9)','Regionalizacija prema posebnim gledištima','','','',false,true);
+d.add(306,275,'(2)','<div class="nodetag">(2)</div></span>&nbsp;&nbsp;Fizičko-geografsko označivanje','(2)','Fizičko-geografsko označivanje','','','',false,true);
+d.add(307,306,'(20)','<div class="nodetag">(20)</div></span>&nbsp;&nbsp;Ekosfera','(20)','Ekosfera','','','',false,true);
+d.add(308,306,'(21)','<div class="nodetag">(21)</div></span>&nbsp;&nbsp;Površina Zemlje općenito. Kopno. Zone i područja prirode','(21)','Površina Zemlje općenito. Kopno. Zone i područja prirode','','','',false,true);
+d.add(309,306,'(23)','<div class="nodetag">(23)</div></span>&nbsp;&nbsp;Iznad morske razine. Površinski reljef. Iznad tla općenito. Planine','(23)','Iznad morske razine. Površinski reljef. Iznad tla općenito. Planine','','','',false,true);
+d.add(310,306,'(24)','<div class="nodetag">(24)</div></span>&nbsp;&nbsp;Podmorska razina. Podzemlje. Podzemno','(24)','Podmorska razina. Podzemlje. Podzemno','','','',false,true);
+d.add(311,306,'(25)','<div class="nodetag">(25)</div></span>&nbsp;&nbsp;Prirodno tlo (na, iznad ili ispod razine mora). Tlo u njegovom prirodnom stanju, obrađeno ili nastanjeno','(25)','Prirodno tlo (na, iznad ili ispod razine mora). Tlo u njegovom prirodnom stanju, obrađeno ili nastanjeno','','','',false,true);
+d.add(312,306,'(26)','<div class="nodetag">(26)</div></span>&nbsp;&nbsp;Oceani, mora i morski prolazi','(26)','Oceani, mora i morski prolazi','','','',false,true);
+d.add(313,306,'(28)','<div class="nodetag">(28)</div></span>&nbsp;&nbsp;Kopnene vode','(28)','Kopnene vode','','','',false,true);
+d.add(314,275,'(3/9)','<div class="nodetag">(3/9)</div></span>&nbsp;&nbsp;Pojedina mjesta starog i suvremenog svijeta','(3/9)','Pojedina mjesta starog i suvremenog svijeta','','','',false,true);
+d.add(315,314,'(3)','<div class="nodetag">(3)</div></span>&nbsp;&nbsp;Mjesta u doba starog i srednjeg vijeka','(3)','Mjesta u doba starog i srednjeg vijeka','','','',false,true);
+d.add(316,315,'(31)','<div class="nodetag">(31)</div></span>&nbsp;&nbsp;Drevna Kina i Japan','(31)','Drevna Kina i Japan','','','',false,true);
+d.add(317,315,'(32)','<div class="nodetag">(32)</div></span>&nbsp;&nbsp;Drevni Egipat','(32)','Drevni Egipat','','','',false,true);
+d.add(318,315,'(33)','<div class="nodetag">(33)</div></span>&nbsp;&nbsp;Drevna rimska provincija Judeja. Sveta Zemlja. Područje Židova','(33)','Drevna rimska provincija Judeja. Sveta Zemlja. Područje Židova','','','',false,true);
+d.add(319,315,'(34)','<div class="nodetag">(34)</div></span>&nbsp;&nbsp;Drevna Indija','(34)','Drevna Indija','','','',false,true);
+d.add(320,315,'(35)','<div class="nodetag">(35)</div></span>&nbsp;&nbsp;Medo-Perzija','(35)','Medo-Perzija','','','',false,true);
+d.add(321,315,'(36)','<div class="nodetag">(36)</div></span>&nbsp;&nbsp;Područja tzv. barbara','(36)','Područja tzv. barbara','','','',false,true);
+d.add(322,315,'(37)','<div class="nodetag">(37)</div></span>&nbsp;&nbsp;Italija. Stari Rim i Italija','(37)','Italija. Stari Rim i Italija','','','',false,true);
+d.add(323,315,'(38)','<div class="nodetag">(38)</div></span>&nbsp;&nbsp;Stara Grčka','(38)','Stara Grčka','','','',false,true);
+d.add(324,315,'(399)','<div class="nodetag">(399)</div></span>&nbsp;&nbsp;Druga područja. Stare zemljopisne podjele, različite od onih klasične antike','(399)','Druga područja. Stare zemljopisne podjele, različite od onih klasične antike','','','',false,true);
+d.add(325,324,'(399.7)','<div class="nodetag">(399.7)</div></span>&nbsp;&nbsp;Područja drevnih američkih kultura. Pretkolumbovska Amerika','(399.7)','Područja drevnih američkih kultura. Pretkolumbovska Amerika','','','',false,true);
+d.add(326,314,'(4/9)','<div class="nodetag">(4/9)</div></span>&nbsp;&nbsp;Zemlje i mjesta suvremenog svijeta','(4/9)','Zemlje i mjesta suvremenog svijeta','','','',false,true);
+d.add(327,326,'(4)','<div class="nodetag">(4)</div></span>&nbsp;&nbsp;Europa','(4)','Europa','','','',false,true);
+d.add(328,327,'(41)','<div class="nodetag">(41)</div></span>&nbsp;&nbsp;Zemlje Britanskog otočja','(41)','Zemlje Britanskog otočja','','','',false,true);
+d.add(329,328,'(410)','<div class="nodetag">(410)</div></span>&nbsp;&nbsp;Ujedinjeno Kraljevstvo Velike Britanije i Sjeverne Irske','(410)','Ujedinjeno Kraljevstvo Velike Britanije i Sjeverne Irske','','','',false,true);
+d.add(330,328,'(417)','<div class="nodetag">(417)</div></span>&nbsp;&nbsp;Irska','(417)','Irska','','','',false,true);
+d.add(331,327,'(430)','<div class="nodetag">(430)</div></span>&nbsp;&nbsp;Njemačka','(430)','Njemačka','','','',false,true);
+d.add(332,327,'(435.9)','<div class="nodetag">(435.9)</div></span>&nbsp;&nbsp;Luksemburg','(435.9)','Luksemburg','','','',false,true);
+d.add(333,327,'(436)','<div class="nodetag">(436)</div></span>&nbsp;&nbsp;Austrija','(436)','Austrija','','','',false,true);
+d.add(334,327,'(437.3)','<div class="nodetag">(437.3)</div></span>&nbsp;&nbsp;Češka','(437.3)','Češka','','','',false,true);
+d.add(335,327,'(437.6)','<div class="nodetag">(437.6)</div></span>&nbsp;&nbsp;Slovačka','(437.6)','Slovačka','','','',false,true);
+d.add(336,327,'(438)','<div class="nodetag">(438)</div></span>&nbsp;&nbsp;Poljska','(438)','Poljska','','','',false,true);
+d.add(337,327,'(439)','<div class="nodetag">(439)</div></span>&nbsp;&nbsp;Mađarska','(439)','Mađarska','','','',false,true);
+d.add(338,327,'(44)','<div class="nodetag">(44)</div></span>&nbsp;&nbsp;Francuska','(44)','Francuska','','','',false,true);
+d.add(339,327,'(450)','<div class="nodetag">(450)</div></span>&nbsp;&nbsp;Italija','(450)','Italija','','','',false,true);
+d.add(340,327,'(454.4)','<div class="nodetag">(454.4)</div></span>&nbsp;&nbsp;San Marino','(454.4)','San Marino','','','',false,true);
+d.add(341,327,'(456.31)','<div class="nodetag">(456.31)</div></span>&nbsp;&nbsp;Vatikan','(456.31)','Vatikan','','','',false,true);
+d.add(342,327,'(458.2)','<div class="nodetag">(458.2)</div></span>&nbsp;&nbsp;Malta','(458.2)','Malta','','','',false,true);
+d.add(343,327,'(46)','<div class="nodetag">(46)</div></span>&nbsp;&nbsp;Države pirenejskog poluotoka','(46)','Države pirenejskog poluotoka','','','',false,true);
+d.add(344,343,'(460)','<div class="nodetag">(460)</div></span>&nbsp;&nbsp;Španjolska','(460)','Španjolska','','','',false,true);
+d.add(345,343,'(467)','<div class="nodetag">(467)</div></span>&nbsp;&nbsp;Andora. Kneževina Andora','(467)','Andora. Kneževina Andora','','','',false,true);
+d.add(346,343,'(469)','<div class="nodetag">(469)</div></span>&nbsp;&nbsp;Portugal','(469)','Portugal','','','',false,true);
+d.add(347,327,'(470+571)','<div class="nodetag">(470+571)</div></span>&nbsp;&nbsp;Rusija','(470+571)','Rusija','','','',false,true);
+d.add(348,327,'(474)','<div class="nodetag">(474)</div></span>&nbsp;&nbsp;Baltičke države','(474)','Baltičke države','','','',false,true);
+d.add(349,348,'(474.2)','<div class="nodetag">(474.2)</div></span>&nbsp;&nbsp;Estonija','(474.2)','Estonija','','','',false,true);
+d.add(350,348,'(474.3)','<div class="nodetag">(474.3)</div></span>&nbsp;&nbsp;Latvija','(474.3)','Latvija','','','',false,true);
+d.add(351,348,'(474.5)','<div class="nodetag">(474.5)</div></span>&nbsp;&nbsp;Litva','(474.5)','Litva','','','',false,true);
+d.add(352,327,'(476)','<div class="nodetag">(476)</div></span>&nbsp;&nbsp;Bjelorusija','(476)','Bjelorusija','','','',false,true);
+d.add(353,327,'(477)','<div class="nodetag">(477)</div></span>&nbsp;&nbsp;Ukrajina','(477)','Ukrajina','','','',false,true);
+d.add(354,327,'(478)','<div class="nodetag">(478)</div></span>&nbsp;&nbsp;Moldavija','(478)','Moldavija','','','',false,true);
+d.add(355,327,'(479)','<div class="nodetag">(479)</div></span>&nbsp;&nbsp;Kavkaz kao cjelina','(479)','Kavkaz kao cjelina','','','',false,true);
+d.add(356,355,'(479.22)','<div class="nodetag">(479.22)</div></span>&nbsp;&nbsp;Gruzija','(479.22)','Gruzija','','','',false,true);
+d.add(357,355,'(479.24)','<div class="nodetag">(479.24)</div></span>&nbsp;&nbsp;Azerbajdžan','(479.24)','Azerbajdžan','','','',false,true);
+d.add(358,355,'(479.25)','<div class="nodetag">(479.25)</div></span>&nbsp;&nbsp;Armenija','(479.25)','Armenija','','','',false,true);
+d.add(359,327,'(48)','<div class="nodetag">(48)</div></span>&nbsp;&nbsp;Skandinavske države','(48)','Skandinavske države','','','',false,true);
+d.add(360,359,'(480)','<div class="nodetag">(480)</div></span>&nbsp;&nbsp;Finska','(480)','Finska','','','',false,true);
+d.add(361,359,'(481)','<div class="nodetag">(481)</div></span>&nbsp;&nbsp;Norveška','(481)','Norveška','','','',false,true);
+d.add(362,359,'(485)','<div class="nodetag">(485)</div></span>&nbsp;&nbsp;Švedska','(485)','Švedska','','','',false,true);
+d.add(363,359,'(489)','<div class="nodetag">(489)</div></span>&nbsp;&nbsp;Danska','(489)','Danska','','','',false,true);
+d.add(364,327,'(491.1)','<div class="nodetag">(491.1)</div></span>&nbsp;&nbsp;Island. Republika Island','(491.1)','Island. Republika Island','','','',false,true);
+d.add(365,327,'(492)','<div class="nodetag">(492)</div></span>&nbsp;&nbsp;Nizozemska. Kraljevina Nizozemska','(492)','Nizozemska. Kraljevina Nizozemska','','','',false,true);
+d.add(366,327,'(493)','<div class="nodetag">(493)</div></span>&nbsp;&nbsp;Belgija. Kraljevina Belgija','(493)','Belgija. Kraljevina Belgija','','','',false,true);
+d.add(367,327,'(494)','<div class="nodetag">(494)</div></span>&nbsp;&nbsp;Švicarska. Švicarska Konfederacija','(494)','Švicarska. Švicarska Konfederacija','','','',false,true);
+d.add(368,367,'(494.9)','<div class="nodetag">(494.9)</div></span>&nbsp;&nbsp;Lihtenštajn. Kneževina Lihtenštajn','(494.9)','Lihtenštajn. Kneževina Lihtenštajn','','','',false,true);
+d.add(369,327,'(495)','<div class="nodetag">(495)</div></span>&nbsp;&nbsp;Grčka. Helenska republika','(495)','Grčka. Helenska republika','','','',false,true);
+d.add(370,327,'(496.5)','<div class="nodetag">(496.5)</div></span>&nbsp;&nbsp;Albanija. Republika Albanija','(496.5)','Albanija. Republika Albanija','','','',false,true);
+d.add(371,327,'(497)','<div class="nodetag">(497)</div></span>&nbsp;&nbsp;Balkanske države','(497)','Balkanske države','','','',false,true);
+d.add(372,371,'(497.11)','<div class="nodetag">(497.11)</div></span>&nbsp;&nbsp;Srbija. Republika Srbija','(497.11)','Srbija. Republika Srbija','','','',false,true);
+d.add(373,371,'(497.16)','<div class="nodetag">(497.16)</div></span>&nbsp;&nbsp;Crna Gora','(497.16)','Crna Gora','','','',false,true);
+d.add(374,371,'(497.2)','<div class="nodetag">(497.2)</div></span>&nbsp;&nbsp;Bugarska. Republika Bugarska','(497.2)','Bugarska. Republika Bugarska','','','',false,true);
+d.add(375,371,'(497.4)','<div class="nodetag">(497.4)</div></span>&nbsp;&nbsp;Slovenija. Republika Slovenija','(497.4)','Slovenija. Republika Slovenija','','','',false,true);
+d.add(376,371,'(497.5)','<div class="nodetag">(497.5)</div></span>&nbsp;&nbsp;Hrvatska. Republika Hrvatska','(497.5)','Hrvatska. Republika Hrvatska','','','',false,true);
+d.add(377,371,'(497.6)','<div class="nodetag">(497.6)</div></span>&nbsp;&nbsp;Bosna i Hercegovina. Republika Bosna i Hercegovina','(497.6)','Bosna i Hercegovina. Republika Bosna i Hercegovina','','','',false,true);
+d.add(378,371,'(497.7)','<div class="nodetag">(497.7)</div></span>&nbsp;&nbsp;Makedonija. Bivša jugoslavenska Republika Makedonija','(497.7)','Makedonija. Bivša jugoslavenska Republika Makedonija','','','',false,true);
+d.add(379,327,'(498)','<div class="nodetag">(498)</div></span>&nbsp;&nbsp;Rumunjska. Republika Rumunjska','(498)','Rumunjska. Republika Rumunjska','','','',false,true);
+d.add(380,326,'(5)','<div class="nodetag">(5)</div></span>&nbsp;&nbsp;Azija','(5)','Azija','','','',false,true);
+d.add(381,380,'(510)','<div class="nodetag">(510)</div></span>&nbsp;&nbsp;Kina','(510)','Kina','','','',false,true);
+d.add(382,380,'(512.317)','<div class="nodetag">(512.317)</div></span>&nbsp;&nbsp;Hong Kong','(512.317)','Hong Kong','','','',false,true);
+d.add(383,380,'(512.318)','<div class="nodetag">(512.318)</div></span>&nbsp;&nbsp;Makao','(512.318)','Makao','','','',false,true);
+d.add(384,380,'(515)','<div class="nodetag">(515)</div></span>&nbsp;&nbsp;Tibet','(515)','Tibet','','','',false,true);
+d.add(385,380,'(517.9)','<div class="nodetag">(517.9)</div></span>&nbsp;&nbsp;Mongolija','(517.9)','Mongolija','','','',false,true);
+d.add(386,380,'(519)','<div class="nodetag">(519)</div></span>&nbsp;&nbsp;Koreja (do 1948.)','(519)','Koreja (do 1948.)','','','',false,true);
+d.add(387,386,'(519.3)','<div class="nodetag">(519.3)</div></span>&nbsp;&nbsp;Sjeverna Koreja','(519.3)','Sjeverna Koreja','','','',false,true);
+d.add(388,386,'(519.5)','<div class="nodetag">(519.5)</div></span>&nbsp;&nbsp;Južna Koreja','(519.5)','Južna Koreja','','','',false,true);
+d.add(389,380,'(52)','<div class="nodetag">(52)</div></span>&nbsp;&nbsp;Japan i pripadajući otoci','(52)','Japan i pripadajući otoci','','','',false,true);
+d.add(390,389,'(520)','<div class="nodetag">(520)</div></span>&nbsp;&nbsp;Japan','(520)','Japan','','','',false,true);
+d.add(391,389,'(529)','<div class="nodetag">(529)</div></span>&nbsp;&nbsp;Tajvan','(529)','Tajvan','','','',false,true);
+d.add(392,380,'(53)','<div class="nodetag">(53)</div></span>&nbsp;&nbsp;Arapske države i područja','(53)','Arapske države i područja','','','',false,true);
+d.add(393,392,'(532)','<div class="nodetag">(532)</div></span>&nbsp;&nbsp;Saudijska Arabija','(532)','Saudijska Arabija','','','',false,true);
+d.add(394,392,'(533)','<div class="nodetag">(533)</div></span>&nbsp;&nbsp;Jemen','(533)','Jemen','','','',false,true);
+d.add(395,392,'(535)','<div class="nodetag">(535)</div></span>&nbsp;&nbsp;Oman','(535)','Oman','','','',false,true);
+d.add(396,392,'(536)','<div class="nodetag">(536)</div></span>&nbsp;&nbsp;Istočne arapske zemlje. Države Perzijskog zaljeva','(536)','Istočne arapske zemlje. Države Perzijskog zaljeva','','','',false,true);
+d.add(397,396,'(536.2)','<div class="nodetag">(536.2)</div></span>&nbsp;&nbsp;Ujedinjeni Arapski Emirati','(536.2)','Ujedinjeni Arapski Emirati','','','',false,true);
+d.add(398,396,'(536.4)','<div class="nodetag">(536.4)</div></span>&nbsp;&nbsp;Katar','(536.4)','Katar','','','',false,true);
+d.add(399,396,'(536.5)','<div class="nodetag">(536.5)</div></span>&nbsp;&nbsp;Bahrajn','(536.5)','Bahrajn','','','',false,true);
+d.add(400,396,'(536.8)','<div class="nodetag">(536.8)</div></span>&nbsp;&nbsp;Kuvajt','(536.8)','Kuvajt','','','',false,true);
+d.add(401,380,'(54)','<div class="nodetag">(54)</div></span>&nbsp;&nbsp;Države Indijskog potkontinenta','(54)','Države Indijskog potkontinenta','','','',false,true);
+d.add(402,401,'(540)','<div class="nodetag">(540)</div></span>&nbsp;&nbsp;Indija','(540)','Indija','','','',false,true);
+d.add(403,401,'(541.31)','<div class="nodetag">(541.31)</div></span>&nbsp;&nbsp;Butan','(541.31)','Butan','','','',false,true);
+d.add(404,401,'(541.35)','<div class="nodetag">(541.35)</div></span>&nbsp;&nbsp;Nepal','(541.35)','Nepal','','','',false,true);
+d.add(405,401,'(548.7)','<div class="nodetag">(548.7)</div></span>&nbsp;&nbsp;Šri Lanka','(548.7)','Šri Lanka','','','',false,true);
+d.add(406,401,'(548.82)','<div class="nodetag">(548.82)</div></span>&nbsp;&nbsp;Maldivi','(548.82)','Maldivi','','','',false,true);
+d.add(407,401,'(549.1)','<div class="nodetag">(549.1)</div></span>&nbsp;&nbsp;Pakistan','(549.1)','Pakistan','','','',false,true);
+d.add(408,401,'(549.3)','<div class="nodetag">(549.3)</div></span>&nbsp;&nbsp;Bangladeš','(549.3)','Bangladeš','','','',false,true);
+d.add(409,380,'(55)','<div class="nodetag">(55)</div></span>&nbsp;&nbsp;Iran','(55)','Iran','','','',false,true);
+d.add(410,380,'(56)','<div class="nodetag">(56)</div></span>&nbsp;&nbsp;Levant. Mala Azija','(56)','Levant. Mala Azija','','','',false,true);
+d.add(411,410,'(560)','<div class="nodetag">(560)</div></span>&nbsp;&nbsp;Turska','(560)','Turska','','','',false,true);
+d.add(412,410,'(564.3)','<div class="nodetag">(564.3)</div></span>&nbsp;&nbsp;Cipar','(564.3)','Cipar','','','',false,true);
+d.add(413,410,'(567)','<div class="nodetag">(567)</div></span>&nbsp;&nbsp;Irak','(567)','Irak','','','',false,true);
+d.add(414,410,'(569.1)','<div class="nodetag">(569.1)</div></span>&nbsp;&nbsp;Sirija','(569.1)','Sirija','','','',false,true);
+d.add(415,410,'(569.3)','<div class="nodetag">(569.3)</div></span>&nbsp;&nbsp;Libanon','(569.3)','Libanon','','','',false,true);
+d.add(416,410,'(569.4)','<div class="nodetag">(569.4)</div></span>&nbsp;&nbsp;Izrael','(569.4)','Izrael','','','',false,true);
+d.add(417,410,'(569.5)','<div class="nodetag">(569.5)</div></span>&nbsp;&nbsp;Jordan','(569.5)','Jordan','','','',false,true);
+d.add(418,380,'(57)','<div class="nodetag">(57)</div></span>&nbsp;&nbsp;Bivši Savez Sovjetskih Socijalističkih Republika - azijski dio','(57)','Bivši Savez Sovjetskih Socijalističkih Republika - azijski dio','','','',false,true);
+d.add(419,418,'(571)','<div class="nodetag">(571)</div></span>&nbsp;&nbsp;Ruska Federacija u Aziji','(571)','Ruska Federacija u Aziji','','','',false,true);
+d.add(420,418,'(574)','<div class="nodetag">(574)</div></span>&nbsp;&nbsp;Kazahstan','(574)','Kazahstan','','','',false,true);
+d.add(421,418,'(575.1)','<div class="nodetag">(575.1)</div></span>&nbsp;&nbsp;Uzbekistan','(575.1)','Uzbekistan','','','',false,true);
+d.add(422,418,'(575.2)','<div class="nodetag">(575.2)</div></span>&nbsp;&nbsp;Kirgistan','(575.2)','Kirgistan','','','',false,true);
+d.add(423,418,'(575.3)','<div class="nodetag">(575.3)</div></span>&nbsp;&nbsp;Tadžikistan','(575.3)','Tadžikistan','','','',false,true);
+d.add(424,418,'(575.4)','<div class="nodetag">(575.4)</div></span>&nbsp;&nbsp;Turkmenistan','(575.4)','Turkmenistan','','','',false,true);
+d.add(425,380,'(581)','<div class="nodetag">(581)</div></span>&nbsp;&nbsp;Afganistan','(581)','Afganistan','','','',false,true);
+d.add(426,380,'(59)','<div class="nodetag">(59)</div></span>&nbsp;&nbsp;Države i područja jugoistočne Azije','(59)','Države i područja jugoistočne Azije','','','',false,true);
+d.add(427,426,'(591)','<div class="nodetag">(591)</div></span>&nbsp;&nbsp;Mijanmar','(591)','Mijanmar','','','',false,true);
+d.add(428,426,'(592.3)','<div class="nodetag">(592.3)</div></span>&nbsp;&nbsp;Singapur','(592.3)','Singapur','','','',false,true);
+d.add(429,426,'(592.6)','<div class="nodetag">(592.6)</div></span>&nbsp;&nbsp;Brunej','(592.6)','Brunej','','','',false,true);
+d.add(430,426,'(593)','<div class="nodetag">(593)</div></span>&nbsp;&nbsp;Tajland','(593)','Tajland','','','',false,true);
+d.add(431,426,'(594)','<div class="nodetag">(594)</div></span>&nbsp;&nbsp;Indonezija','(594)','Indonezija','','','',false,true);
+d.add(432,426,'(595)','<div class="nodetag">(595)</div></span>&nbsp;&nbsp;Malezija','(595)','Malezija','','','',false,true);
+d.add(433,426,'(596/598)','<div class="nodetag">(596/598)</div></span>&nbsp;&nbsp;Indokina','(596/598)','Indokina','','','',false,true);
+d.add(434,433,'(596)','<div class="nodetag">(596)</div></span>&nbsp;&nbsp;Kambodža','(596)','Kambodža','','','',false,true);
+d.add(435,433,'(597)','<div class="nodetag">(597)</div></span>&nbsp;&nbsp;Vijetnam','(597)','Vijetnam','','','',false,true);
+d.add(436,433,'(598)','<div class="nodetag">(598)</div></span>&nbsp;&nbsp;Laos','(598)','Laos','','','',false,true);
+d.add(437,426,'(599)','<div class="nodetag">(599)</div></span>&nbsp;&nbsp;Filipini','(599)','Filipini','','','',false,true);
+d.add(438,326,'(6)','<div class="nodetag">(6)</div></span>&nbsp;&nbsp;Afrika','(6)','Afrika','','','',false,true);
+d.add(439,438,'(61)','<div class="nodetag">(61)</div></span>&nbsp;&nbsp;Države sjeverne Afrike uopće. Magreb','(61)','Države sjeverne Afrike uopće. Magreb','','','',false,true);
+d.add(440,439,'(611)','<div class="nodetag">(611)</div></span>&nbsp;&nbsp;Tunis','(611)','Tunis','','','',false,true);
+d.add(441,439,'(612)','<div class="nodetag">(612)</div></span>&nbsp;&nbsp;Libija','(612)','Libija','','','',false,true);
+d.add(442,438,'(620)','<div class="nodetag">(620)</div></span>&nbsp;&nbsp;Egipat','(620)','Egipat','','','',false,true);
+d.add(443,438,'(624)','<div class="nodetag">(624)</div></span>&nbsp;&nbsp;Sudan. Južni Sudan','(624)','Sudan. Južni Sudan','','','',false,true);
+d.add(444,443,'(624.1)','<div class="nodetag">(624.1)</div></span>&nbsp;&nbsp;Sudan. Republika Sudan','(624.1)','Sudan. Republika Sudan','','','',false,true);
+d.add(445,443,'(624.4)','<div class="nodetag">(624.4)</div></span>&nbsp;&nbsp;Južni Sudan. Republika Južni Sudan','(624.4)','Južni Sudan. Republika Južni Sudan','','','',false,true);
+d.add(446,438,'(630)','<div class="nodetag">(630)</div></span>&nbsp;&nbsp;Etiopija','(630)','Etiopija','','','',false,true);
+d.add(447,438,'(635)','<div class="nodetag">(635)</div></span>&nbsp;&nbsp;Eritreja','(635)','Eritreja','','','',false,true);
+d.add(448,438,'(64)','<div class="nodetag">(64)</div></span>&nbsp;&nbsp;Maroko','(64)','Maroko','','','',false,true);
+d.add(449,438,'(65)','<div class="nodetag">(65)</div></span>&nbsp;&nbsp;Alžir','(65)','Alžir','','','',false,true);
+d.add(450,438,'(66)','<div class="nodetag">(66)</div></span>&nbsp;&nbsp;Države i područja zapadne Afrike','(66)','Države i područja zapadne Afrike','','','',false,true);
+d.add(451,450,'(661.2)','<div class="nodetag">(661.2)</div></span>&nbsp;&nbsp;Mauritanija','(661.2)','Mauritanija','','','',false,true);
+d.add(452,450,'(662.1)','<div class="nodetag">(662.1)</div></span>&nbsp;&nbsp;Mali','(662.1)','Mali','','','',false,true);
+d.add(453,450,'(662.5)','<div class="nodetag">(662.5)</div></span>&nbsp;&nbsp;Burkina Faso','(662.5)','Burkina Faso','','','',false,true);
+d.add(454,450,'(662.6)','<div class="nodetag">(662.6)</div></span>&nbsp;&nbsp;Niger','(662.6)','Niger','','','',false,true);
+d.add(455,450,'(663)','<div class="nodetag">(663)</div></span>&nbsp;&nbsp;Senegal','(663)','Senegal','','','',false,true);
+d.add(456,450,'(664)','<div class="nodetag">(664)</div></span>&nbsp;&nbsp;Sijera Leone','(664)','Sijera Leone','','','',false,true);
+d.add(457,450,'(665)','<div class="nodetag">(665)</div></span>&nbsp;&nbsp;Gambija i Gvineja','(665)','Gambija i Gvineja','','','',false,true);
+d.add(458,457,'(665.1)','<div class="nodetag">(665.1)</div></span>&nbsp;&nbsp;Gambija','(665.1)','Gambija','','','',false,true);
+d.add(459,457,'(665.2)','<div class="nodetag">(665.2)</div></span>&nbsp;&nbsp;Gvineja','(665.2)','Gvineja','','','',false,true);
+d.add(460,457,'(665.7)','<div class="nodetag">(665.7)</div></span>&nbsp;&nbsp;Gvineja Bisao','(665.7)','Gvineja Bisao','','','',false,true);
+d.add(461,457,'(665.8)','<div class="nodetag">(665.8)</div></span>&nbsp;&nbsp;Kapverdski otoci','(665.8)','Kapverdski otoci','','','',false,true);
+d.add(462,450,'(666.2)','<div class="nodetag">(666.2)</div></span>&nbsp;&nbsp;Liberija','(666.2)','Liberija','','','',false,true);
+d.add(463,450,'(666.8)','<div class="nodetag">(666.8)</div></span>&nbsp;&nbsp;Obala Bjelokosti','(666.8)','Obala Bjelokosti','','','',false,true);
+d.add(464,450,'(667)','<div class="nodetag">(667)</div></span>&nbsp;&nbsp;Gana','(667)','Gana','','','',false,true);
+d.add(465,450,'(668.1)','<div class="nodetag">(668.1)</div></span>&nbsp;&nbsp;Togo','(668.1)','Togo','','','',false,true);
+d.add(466,450,'(668.2)','<div class="nodetag">(668.2)</div></span>&nbsp;&nbsp;Benin','(668.2)','Benin','','','',false,true);
+d.add(467,450,'(669.1)','<div class="nodetag">(669.1)</div></span>&nbsp;&nbsp;Nigerija','(669.1)','Nigerija','','','',false,true);
+d.add(468,450,'(669.95)','<div class="nodetag">(669.95)</div></span>&nbsp;&nbsp;São Tomé i Príncipe','(669.95)','São Tomé i Príncipe','','','',false,true);
+d.add(469,438,'(67)','<div class="nodetag">(67)</div></span>&nbsp;&nbsp;Države i područja ekvatorijalne, središnje i istočne Afrike','(67)','Države i područja ekvatorijalne, središnje i istočne Afrike','','','',false,true);
+d.add(470,469,'(671.1)','<div class="nodetag">(671.1)</div></span>&nbsp;&nbsp;Kamerun','(671.1)','Kamerun','','','',false,true);
+d.add(471,469,'(671.8)','<div class="nodetag">(671.8)</div></span>&nbsp;&nbsp;Ekvatorijalna Gvineja','(671.8)','Ekvatorijalna Gvineja','','','',false,true);
+d.add(472,469,'(672.1)','<div class="nodetag">(672.1)</div></span>&nbsp;&nbsp;Gabon','(672.1)','Gabon','','','',false,true);
+d.add(473,469,'(672.4)','<div class="nodetag">(672.4)</div></span>&nbsp;&nbsp;Kongo','(672.4)','Kongo','','','',false,true);
+d.add(474,469,'(673)','<div class="nodetag">(673)</div></span>&nbsp;&nbsp;Angola','(673)','Angola','','','',false,true);
+d.add(475,469,'(674.1)','<div class="nodetag">(674.1)</div></span>&nbsp;&nbsp;Centralna Afrička Republika','(674.1)','Centralna Afrička Republika','','','',false,true);
+d.add(476,469,'(674.3)','<div class="nodetag">(674.3)</div></span>&nbsp;&nbsp;Čad','(674.3)','Čad','','','',false,true);
+d.add(477,469,'(675)','<div class="nodetag">(675)</div></span>&nbsp;&nbsp;Kongo','(675)','Kongo','','','',false,true);
+d.add(478,477,'(675.97)','<div class="nodetag">(675.97)</div></span>&nbsp;&nbsp;Burundi','(675.97)','Burundi','','','',false,true);
+d.add(479,477,'(675.98)','<div class="nodetag">(675.98)</div></span>&nbsp;&nbsp;Ruanda','(675.98)','Ruanda','','','',false,true);
+d.add(480,469,'(676.1)','<div class="nodetag">(676.1)</div></span>&nbsp;&nbsp;Uganda','(676.1)','Uganda','','','',false,true);
+d.add(481,469,'(676.2)','<div class="nodetag">(676.2)</div></span>&nbsp;&nbsp;Kenija','(676.2)','Kenija','','','',false,true);
+d.add(482,469,'(677.8)','<div class="nodetag">(677.8)</div></span>&nbsp;&nbsp;Somalija','(677.8)','Somalija','','','',false,true);
+d.add(483,469,'(677.9)','<div class="nodetag">(677.9)</div></span>&nbsp;&nbsp;Džibuti','(677.9)','Džibuti','','','',false,true);
+d.add(484,469,'(678)','<div class="nodetag">(678)</div></span>&nbsp;&nbsp;Tanzanija','(678)','Tanzanija','','','',false,true);
+d.add(485,469,'(679)','<div class="nodetag">(679)</div></span>&nbsp;&nbsp;Mozambik','(679)','Mozambik','','','',false,true);
+d.add(486,438,'(68)','<div class="nodetag">(68)</div></span>&nbsp;&nbsp;Države i područja južne Afrike','(68)','Države i područja južne Afrike','','','',false,true);
+d.add(487,486,'(680)','<div class="nodetag">(680)</div></span>&nbsp;&nbsp;Južnoafrička Republika','(680)','Južnoafrička Republika','','','',false,true);
+d.add(488,486,'(688.1)','<div class="nodetag">(688.1)</div></span>&nbsp;&nbsp;Namibija','(688.1)','Namibija','','','',false,true);
+d.add(489,486,'(688.3)','<div class="nodetag">(688.3)</div></span>&nbsp;&nbsp;Bocvana','(688.3)','Bocvana','','','',false,true);
+d.add(490,486,'(688.5)','<div class="nodetag">(688.5)</div></span>&nbsp;&nbsp;Lesoto','(688.5)','Lesoto','','','',false,true);
+d.add(491,486,'(688.7)','<div class="nodetag">(688.7)</div></span>&nbsp;&nbsp;Svazi','(688.7)','Svazi','','','',false,true);
+d.add(492,486,'(689.1)','<div class="nodetag">(689.1)</div></span>&nbsp;&nbsp;Zimbabve','(689.1)','Zimbabve','','','',false,true);
+d.add(493,486,'(689.4)','<div class="nodetag">(689.4)</div></span>&nbsp;&nbsp;Zambija','(689.4)','Zambija','','','',false,true);
+d.add(494,486,'(689.7)','<div class="nodetag">(689.7)</div></span>&nbsp;&nbsp;Malavi','(689.7)','Malavi','','','',false,true);
+d.add(495,438,'(69)','<div class="nodetag">(69)</div></span>&nbsp;&nbsp;Afrički otoci Indijskog i južnog Atlantskog oceana','(69)','Afrički otoci Indijskog i južnog Atlantskog oceana','','','',false,true);
+d.add(496,495,'(691)','<div class="nodetag">(691)</div></span>&nbsp;&nbsp;Madagaskar','(691)','Madagaskar','','','',false,true);
+d.add(497,495,'(694)','<div class="nodetag">(694)</div></span>&nbsp;&nbsp;Otoci sjeverno od Madagaskara','(694)','Otoci sjeverno od Madagaskara','','','',false,true);
+d.add(498,495,'(696)','<div class="nodetag">(696)</div></span>&nbsp;&nbsp;Sejšeli','(696)','Sejšeli','','','',false,true);
+d.add(499,495,'(697)','<div class="nodetag">(697)</div></span>&nbsp;&nbsp;Britanski indijskooceanski teritorij (BIOT) (UK)','(697)','Britanski indijskooceanski teritorij (BIOT) (UK)','','','',false,true);
+d.add(500,495,'(698)','<div class="nodetag">(698)</div></span>&nbsp;&nbsp;Maskareni','(698)','Maskareni','','','',false,true);
+d.add(501,500,'(698.1)','<div class="nodetag">(698.1)</div></span>&nbsp;&nbsp;Réunion (Francuska)','(698.1)','Réunion (Francuska)','','','',false,true);
+d.add(502,500,'(698.2)','<div class="nodetag">(698.2)</div></span>&nbsp;&nbsp;Mauricijus','(698.2)','Mauricijus','','','',false,true);
+d.add(503,495,'(699)','<div class="nodetag">(699)</div></span>&nbsp;&nbsp;Granični (krajnji) otoci južnog Indijskog i južnog Atlantskog oceana','(699)','Granični (krajnji) otoci južnog Indijskog i južnog Atlantskog oceana','','','',false,true);
+d.add(504,326,'(7/8)','<div class="nodetag">(7/8)</div></span>&nbsp;&nbsp;Sjeverna i Južna Amerika. Amerike','(7/8)','Sjeverna i Južna Amerika. Amerike','','','',false,true);
+d.add(505,504,'(7)','<div class="nodetag">(7)</div></span>&nbsp;&nbsp;Sjeverna i Srednja Amerika','(7)','Sjeverna i Srednja Amerika','','','',false,true);
+d.add(506,505,'(71)','<div class="nodetag">(71)</div></span>&nbsp;&nbsp;Kanada','(71)','Kanada','','','',false,true);
+d.add(507,505,'(72)','<div class="nodetag">(72)</div></span>&nbsp;&nbsp;Meksiko. Države Srednje Amerike. Karipski teritoriji','(72)','Meksiko. Države Srednje Amerike. Karipski teritoriji','','','',false,true);
+d.add(508,507,'(721/727)','<div class="nodetag">(721/727)</div></span>&nbsp;&nbsp;Meksiko','(721/727)','Meksiko','','','',false,true);
+d.add(509,507,'(728)','<div class="nodetag">(728)</div></span>&nbsp;&nbsp;Države Srednje Amerike','(728)','Države Srednje Amerike','','','',false,true);
+d.add(510,509,'(728.1)','<div class="nodetag">(728.1)</div></span>&nbsp;&nbsp;Gvatemala','(728.1)','Gvatemala','','','',false,true);
+d.add(511,509,'(728.2)','<div class="nodetag">(728.2)</div></span>&nbsp;&nbsp;Belize','(728.2)','Belize','','','',false,true);
+d.add(512,509,'(728.3)','<div class="nodetag">(728.3)</div></span>&nbsp;&nbsp;Honduras','(728.3)','Honduras','','','',false,true);
+d.add(513,509,'(728.4)','<div class="nodetag">(728.4)</div></span>&nbsp;&nbsp;Salvador','(728.4)','Salvador','','','',false,true);
+d.add(514,509,'(728.5)','<div class="nodetag">(728.5)</div></span>&nbsp;&nbsp;Nikaragva','(728.5)','Nikaragva','','','',false,true);
+d.add(515,509,'(728.6)','<div class="nodetag">(728.6)</div></span>&nbsp;&nbsp;Kostarika','(728.6)','Kostarika','','','',false,true);
+d.add(516,509,'(728.7)','<div class="nodetag">(728.7)</div></span>&nbsp;&nbsp;Panama','(728.7)','Panama','','','',false,true);
+d.add(517,507,'(729)','<div class="nodetag">(729)</div></span>&nbsp;&nbsp;Otoci Karipskog mora. Antili','(729)','Otoci Karipskog mora. Antili','','','',false,true);
+d.add(518,517,'(729.1/.5)','<div class="nodetag">(729.1/.5)</div></span>&nbsp;&nbsp;Veliki Antili','(729.1/.5)','Veliki Antili','','','',false,true);
+d.add(519,518,'(729.1)','<div class="nodetag">(729.1)</div></span>&nbsp;&nbsp;Kuba','(729.1)','Kuba','','','',false,true);
+d.add(520,518,'(729.2)','<div class="nodetag">(729.2)</div></span>&nbsp;&nbsp;Jamajka','(729.2)','Jamajka','','','',false,true);
+d.add(521,518,'(729.29)','<div class="nodetag">(729.29)</div></span>&nbsp;&nbsp;Kajmanski otoci (UK)','(729.29)','Kajmanski otoci (UK)','','','',false,true);
+d.add(522,518,'(729.3/.4)','<div class="nodetag">(729.3/.4)</div></span>&nbsp;&nbsp;Hispaniola','(729.3/.4)','Hispaniola','','','',false,true);
+d.add(523,522,'(729.3)','<div class="nodetag">(729.3)</div></span>&nbsp;&nbsp;Dominikanska Republika','(729.3)','Dominikanska Republika','','','',false,true);
+d.add(524,522,'(729.4)','<div class="nodetag">(729.4)</div></span>&nbsp;&nbsp;Haiti','(729.4)','Haiti','','','',false,true);
+d.add(525,518,'(729.5)','<div class="nodetag">(729.5)</div></span>&nbsp;&nbsp;Portoriko (SAD)','(729.5)','Portoriko (SAD)','','','',false,true);
+d.add(526,517,'(729.68)','<div class="nodetag">(729.68)</div></span>&nbsp;&nbsp;Otoci Turks i Caicos (UK)','(729.68)','Otoci Turks i Caicos (UK)','','','',false,true);
+d.add(527,517,'(729.7/.8)','<div class="nodetag">(729.7/.8)</div></span>&nbsp;&nbsp;Mali Antili (Istočni Karibi)','(729.7/.8)','Mali Antili (Istočni Karibi)','','','',false,true);
+d.add(528,527,'(729.7)','<div class="nodetag">(729.7)</div></span>&nbsp;&nbsp;Otoci Leeward','(729.7)','Otoci Leeward','','','',false,true);
+d.add(529,528,'(729.71)','<div class="nodetag">(729.71)</div></span>&nbsp;&nbsp;Otoci Virgin (SAD)','(729.71)','Otoci Virgin (SAD)','','','',false,true);
+d.add(530,528,'(729.724)','<div class="nodetag">(729.724)</div></span>&nbsp;&nbsp;St. Kitts-Nevis','(729.724)','St. Kitts-Nevis','','','',false,true);
+d.add(531,528,'(729.726)','<div class="nodetag">(729.726)</div></span>&nbsp;&nbsp;Antigua i Barbuda','(729.726)','Antigua i Barbuda','','','',false,true);
+d.add(532,528,'(729.727)','<div class="nodetag">(729.727)</div></span>&nbsp;&nbsp;Montserrat (UK)','(729.727)','Montserrat (UK)','','','',false,true);
+d.add(533,528,'(729.74)','<div class="nodetag">(729.74)</div></span>&nbsp;&nbsp;Francuske teritorije u Malim Antilima','(729.74)','Francuske teritorije u Malim Antilima','','','',false,true);
+d.add(534,533,'(729.741)','<div class="nodetag">(729.741)</div></span>&nbsp;&nbsp;Guadeloupe (regija) (Francuska)','(729.741)','Guadeloupe (regija) (Francuska)','','','',false,true);
+d.add(535,533,'(729.745)','<div class="nodetag">(729.745)</div></span>&nbsp;&nbsp;Martinique (regija) (Francuska)','(729.745)','Martinique (regija) (Francuska)','','','',false,true);
+d.add(536,527,'(729.8)','<div class="nodetag">(729.8)</div></span>&nbsp;&nbsp;Otoci Windward','(729.8)','Otoci Windward','','','',false,true);
+d.add(537,536,'(729.821)','<div class="nodetag">(729.821)</div></span>&nbsp;&nbsp;Dominika','(729.821)','Dominika','','','',false,true);
+d.add(538,536,'(729.822)','<div class="nodetag">(729.822)</div></span>&nbsp;&nbsp;Sv. Lucija','(729.822)','Sv. Lucija','','','',false,true);
+d.add(539,536,'(729.824)','<div class="nodetag">(729.824)</div></span>&nbsp;&nbsp;Sv. Vincent i Grenadini','(729.824)','Sv. Vincent i Grenadini','','','',false,true);
+d.add(540,536,'(729.828)','<div class="nodetag">(729.828)</div></span>&nbsp;&nbsp;Grenada','(729.828)','Grenada','','','',false,true);
+d.add(541,536,'(729.86)','<div class="nodetag">(729.86)</div></span>&nbsp;&nbsp;Barbados','(729.86)','Barbados','','','',false,true);
+d.add(542,536,'(729.87)','<div class="nodetag">(729.87)</div></span>&nbsp;&nbsp;Trinidad i Tobago','(729.87)','Trinidad i Tobago','','','',false,true);
+d.add(543,536,'(729.88)','<div class="nodetag">(729.88)</div></span>&nbsp;&nbsp;Nizozemski Antili','(729.88)','Nizozemski Antili','','','',false,true);
+d.add(544,543,'(729.885)','<div class="nodetag">(729.885)</div></span>&nbsp;&nbsp;Aruba (Nizozemska)','(729.885)','Aruba (Nizozemska)','','','',false,true);
+d.add(545,517,'(729.9)','<div class="nodetag">(729.9)</div></span>&nbsp;&nbsp;Bermudi (UK)','(729.9)','Bermudi (UK)','','','',false,true);
+d.add(546,505,'(73)','<div class="nodetag">(73)</div></span>&nbsp;&nbsp;Sjedinjene Američke Države (SAD)','(73)','Sjedinjene Američke Države (SAD)','','','',false,true);
+d.add(547,504,'(8)','<div class="nodetag">(8)</div></span>&nbsp;&nbsp;Južna Amerika','(8)','Južna Amerika','','','',false,true);
+d.add(548,547,'(81)','<div class="nodetag">(81)</div></span>&nbsp;&nbsp;Brazil','(81)','Brazil','','','',false,true);
+d.add(549,547,'(82)','<div class="nodetag">(82)</div></span>&nbsp;&nbsp;Argentina','(82)','Argentina','','','',false,true);
+d.add(550,547,'(83)','<div class="nodetag">(83)</div></span>&nbsp;&nbsp;Čile','(83)','Čile','','','',false,true);
+d.add(551,547,'(84)','<div class="nodetag">(84)</div></span>&nbsp;&nbsp;Bolivija','(84)','Bolivija','','','',false,true);
+d.add(552,547,'(85)','<div class="nodetag">(85)</div></span>&nbsp;&nbsp;Peru','(85)','Peru','','','',false,true);
+d.add(553,547,'(862)','<div class="nodetag">(862)</div></span>&nbsp;&nbsp;Kolumbija','(862)','Kolumbija','','','',false,true);
+d.add(554,547,'(866)','<div class="nodetag">(866)</div></span>&nbsp;&nbsp;Ekvador','(866)','Ekvador','','','',false,true);
+d.add(555,547,'(87)','<div class="nodetag">(87)</div></span>&nbsp;&nbsp;Venezuela','(87)','Venezuela','','','',false,true);
+d.add(556,547,'(88)','<div class="nodetag">(88)</div></span>&nbsp;&nbsp;Gvajane','(88)','Gvajane','','','',false,true);
+d.add(557,556,'(881)','<div class="nodetag">(881)</div></span>&nbsp;&nbsp;Gvajana','(881)','Gvajana','','','',false,true);
+d.add(558,556,'(882)','<div class="nodetag">(882)</div></span>&nbsp;&nbsp;Francuska Gvajana','(882)','Francuska Gvajana','','','',false,true);
+d.add(559,556,'(883)','<div class="nodetag">(883)</div></span>&nbsp;&nbsp;Surinam','(883)','Surinam','','','',false,true);
+d.add(560,547,'(893)','<div class="nodetag">(893)</div></span>&nbsp;&nbsp;Paragvaj','(893)','Paragvaj','','','',false,true);
+d.add(561,547,'(899)','<div class="nodetag">(899)</div></span>&nbsp;&nbsp;Urugvaj','(899)','Urugvaj','','','',false,true);
+d.add(562,326,'(9)','<div class="nodetag">(9)</div></span>&nbsp;&nbsp;Države i regije južnog Tihog oceana i Australija. Arktik. Antarktika','(9)','Države i regije južnog Tihog oceana i Australija. Arktik. Antarktika','','','',false,true);
+d.add(563,562,'(931)','<div class="nodetag">(931)</div></span>&nbsp;&nbsp;Novi Zeland','(931)','Novi Zeland','','','',false,true);
+d.add(564,562,'(932/935)','<div class="nodetag">(932/935)</div></span>&nbsp;&nbsp;Melanezija. Države i regije Melanezije','(932/935)','Melanezija. Države i regije Melanezije','','','',false,true);
+d.add(565,562,'(94)','<div class="nodetag">(94)</div></span>&nbsp;&nbsp;Australija. Australski Commonwealth','(94)','Australija. Australski Commonwealth','','','',false,true);
+d.add(566,562,'(954)','<div class="nodetag">(954)</div></span>&nbsp;&nbsp;Papua Nova Gvineja','(954)','Papua Nova Gvineja','','','',false,true);
+d.add(567,562,'(961/964)','<div class="nodetag">(961/964)</div></span>&nbsp;&nbsp;Polinezija. Države i regije Polinezije','(961/964)','Polinezija. Države i regije Polinezije','','','',false,true);
+d.add(568,562,'(966/968)','<div class="nodetag">(966/968)</div></span>&nbsp;&nbsp;Mikronezija. Države i regije Mikronezije','(966/968)','Mikronezija. Države i regije Mikronezije','','','',false,true);
+d.add(569,562,'(97)','<div class="nodetag">(97)</div></span>&nbsp;&nbsp;Izdvojeni otoci Tihog oceana','(97)','Izdvojeni otoci Tihog oceana','','','',false,true);
+d.add(570,562,'(98)','<div class="nodetag">(98)</div></span>&nbsp;&nbsp;Arktička područja','(98)','Arktička područja','','','',false,true);
+d.add(571,570,'(988)','<div class="nodetag">(988)</div></span>&nbsp;&nbsp;Grenland (Gronland) (Danska)','(988)','Grenland (Gronland) (Danska)','','','',false,true);
+d.add(572,562,'(99)','<div class="nodetag">(99)</div></span>&nbsp;&nbsp;Antarktički teritoriji. Područja Južnog pola','(99)','Antarktički teritoriji. Područja Južnog pola','','','',false,true);
+d.add(573,0,'(=...)','<div class="nodetag">(=...)</div></span>&nbsp;&nbsp;Tablica 1f - Opće pomoćne oznake za ljudske pretke, etničke skupine i narode','(=...)','Tablica 1f - Opće pomoćne oznake za ljudske pretke, etničke skupine i narode','','','',false,true);
+d.add(574,573,'(=01)','<div class="nodetag">(=01)</div></span>&nbsp;&nbsp;Skupine ljudskih predaka','(=01)','Skupine ljudskih predaka','','','',false,true);
+d.add(575,574,'(=011)','<div class="nodetag">(=011)</div></span>&nbsp;&nbsp;Skupine predaka europskog kontinenta','(=011)','Skupine predaka europskog kontinenta','','','',false,true);
+d.add(576,574,'(=012)','<div class="nodetag">(=012)</div></span>&nbsp;&nbsp;Skupine predaka azijskog kontinenta','(=012)','Skupine predaka azijskog kontinenta','','','',false,true);
+d.add(577,574,'(=013)','<div class="nodetag">(=013)</div></span>&nbsp;&nbsp;Skupine predaka afričkog kontinenta','(=013)','Skupine predaka afričkog kontinenta','','','',false,true);
+d.add(578,574,'(=014)','<div class="nodetag">(=014)</div></span>&nbsp;&nbsp;Skupine predaka Oceanije','(=014)','Skupine predaka Oceanije','','','',false,true);
+d.add(579,574,'(=017)','<div class="nodetag">(=017)</div></span>&nbsp;&nbsp;Skupina predaka američkih starosjedioca','(=017)','Skupina predaka američkih starosjedioca','','','',false,true);
+d.add(580,573,'(=1/=8)','<div class="nodetag">(=1/=8)</div></span>&nbsp;&nbsp;Jezično-kulturne skupine, etničke skupine, narodi','(=1/=8)','Jezično-kulturne skupine, etničke skupine, narodi','','','',false,true);
+d.add(581,580,'(=1/=2)','<div class="nodetag">(=1/=2)</div></span>&nbsp;&nbsp;Indoeuropski narodi','(=1/=2)','Indoeuropski narodi','','','',false,true);
+d.add(582,581,'(=13)','<div class="nodetag">(=13)</div></span>&nbsp;&nbsp;Romanski, \"latinski\" narodi','(=13)','Romanski, \"latinski\" narodi','','','',false,true);
+d.add(583,573,'(=1:1/9)','<div class="nodetag">(=1:1/9)</div></span>&nbsp;&nbsp;Narodi povezani s određenim mjestima','(=1:1/9)','Narodi povezani s određenim mjestima','','','',false,true);
+d.add(584,0,'"..."','<div class="nodetag">"..."</div></span>&nbsp;&nbsp;Tablica 1g - Opće pomoćne oznake za vrijeme','"..."','Tablica 1g - Opće pomoćne oznake za vrijeme','','','',false,true);
+d.add(585,584,'"0/2"','<div class="nodetag">"0/2"</div></span>&nbsp;&nbsp;Datumi i vremenski razmaci po kršćanskom/gregorijanskom računanju vremena','"0/2"','Datumi i vremenski razmaci po kršćanskom/gregorijanskom računanju vremena','','','',false,true);
+d.add(586,585,'"0"','<div class="nodetag">"0"</div></span>&nbsp;&nbsp;Prvo tisućljeće n. e.','"0"','Prvo tisućljeće n. e.','','','',false,true);
+d.add(587,585,'"1"','<div class="nodetag">"1"</div></span>&nbsp;&nbsp;Drugo tisućljeće n. e.','"1"','Drugo tisućljeće n. e.','','','',false,true);
+d.add(588,585,'"2"','<div class="nodetag">"2"</div></span>&nbsp;&nbsp;Treće tisućljeće n. e.','"2"','Treće tisućljeće n. e.','','','',false,true);
+d.add(589,584,'"3/7"','<div class="nodetag">"3/7"</div></span>&nbsp;&nbsp;Vremenske podjele po drugom, nekršćanskom/negregorijanskom računanju vremena','"3/7"','Vremenske podjele po drugom, nekršćanskom/negregorijanskom računanju vremena','','','',false,true);
+d.add(590,589,'"3"','<div class="nodetag">"3"</div></span>&nbsp;&nbsp;Uobičajene vremenske podjele i potpodjele: izražene brojevima, riječima','"3"','Uobičajene vremenske podjele i potpodjele: izražene brojevima, riječima','','','',false,true);
+d.add(591,590,'"32"','<div class="nodetag">"32"</div></span>&nbsp;&nbsp;Godina. Godišnja doba i druge podjele godine','"32"','Godina. Godišnja doba i druge podjele godine','','','',false,true);
+d.add(592,591,'"321/324"','<div class="nodetag">"321/324"</div></span>&nbsp;&nbsp;Godišnja doba','"321/324"','Godišnja doba','','','',false,true);
+d.add(593,592,'"321"','<div class="nodetag">"321"</div></span>&nbsp;&nbsp;Proljeće','"321"','Proljeće','','','',false,true);
+d.add(594,592,'"322"','<div class="nodetag">"322"</div></span>&nbsp;&nbsp;Ljeto','"322"','Ljeto','','','',false,true);
+d.add(595,592,'"323"','<div class="nodetag">"323"</div></span>&nbsp;&nbsp;Jesen','"323"','Jesen','','','',false,true);
+d.add(596,592,'"324"','<div class="nodetag">"324"</div></span>&nbsp;&nbsp;Zima','"324"','Zima','','','',false,true);
+d.add(597,591,'"325"','<div class="nodetag">"325"</div></span>&nbsp;&nbsp;Kvartali (četvrtgodišta, tromjesečja)','"325"','Kvartali (četvrtgodišta, tromjesečja)','','','',false,true);
+d.add(598,591,'"327"','<div class="nodetag">"327"</div></span>&nbsp;&nbsp;Mjeseci','"327"','Mjeseci','','','',false,true);
+d.add(599,591,'"328"','<div class="nodetag">"328"</div></span>&nbsp;&nbsp;Tjedni','"328"','Tjedni','','','',false,true);
+d.add(600,591,'"329"','<div class="nodetag">"329"</div></span>&nbsp;&nbsp;Dani','"329"','Dani','','','',false,true);
+d.add(601,590,'"34"','<div class="nodetag">"34"</div></span>&nbsp;&nbsp;Fenomen dani i noći. Sati ili vremenski razmaci u danu','"34"','Fenomen dani i noći. Sati ili vremenski razmaci u danu','','','',false,true);
+d.add(602,601,'"344"','<div class="nodetag">"344"</div></span>&nbsp;&nbsp;Dan. Dnevni sati','"344"','Dan. Dnevni sati','','','',false,true);
+d.add(603,601,'"345"','<div class="nodetag">"345"</div></span>&nbsp;&nbsp;Noć. Sati mraka ili polumraka','"345"','Noć. Sati mraka ili polumraka','','','',false,true);
+d.add(604,590,'"36"','<div class="nodetag">"36"</div></span>&nbsp;&nbsp;Vrijeme mira, rata, opasnosti, izvanrednog stanja, teškoća','"36"','Vrijeme mira, rata, opasnosti, izvanrednog stanja, teškoća','','','',false,true);
+d.add(605,604,'"362"','<div class="nodetag">"362"</div></span>&nbsp;&nbsp;Vrijeme mira. Vrijeme bez opasnosti','"362"','Vrijeme mira. Vrijeme bez opasnosti','','','',false,true);
+d.add(606,604,'"363"','<div class="nodetag">"363"</div></span>&nbsp;&nbsp;Vrijeme opasnosti, ugroženosti','"363"','Vrijeme opasnosti, ugroženosti','','','',false,true);
+d.add(607,604,'"364"','<div class="nodetag">"364"</div></span>&nbsp;&nbsp;Vrijeme rata','"364"','Vrijeme rata','','','',false,true);
+d.add(608,604,'"367"','<div class="nodetag">"367"</div></span>&nbsp;&nbsp;Vrijeme prema iskorištenosti, opterećenju, zahtjevnosti','"367"','Vrijeme prema iskorištenosti, opterećenju, zahtjevnosti','','','',false,true);
+d.add(609,590,'"37"','<div class="nodetag">"37"</div></span>&nbsp;&nbsp;Vrijeme radne aktivnosti, zaposlenosti, proizvodnje, dnevne rutine','"37"','Vrijeme radne aktivnosti, zaposlenosti, proizvodnje, dnevne rutine','','','',false,true);
+d.add(610,609,'"372"','<div class="nodetag">"372"</div></span>&nbsp;&nbsp;Radno vrijeme. Vrijeme službi. Vrijeme posla','"372"','Radno vrijeme. Vrijeme službi. Vrijeme posla','','','',false,true);
+d.add(611,609,'"377"','<div class="nodetag">"377"</div></span>&nbsp;&nbsp;Vrijeme odmora i rekreacije. Slobodno vrijeme. Razdoblje izvan radnog vremena','"377"','Vrijeme odmora i rekreacije. Slobodno vrijeme. Razdoblje izvan radnog vremena','','','',false,true);
+d.add(612,590,'"38"','<div class="nodetag">"38"</div></span>&nbsp;&nbsp;Praznici. Blagdani i obljetnice','"38"','Praznici. Blagdani i obljetnice','','','',false,true);
+d.add(613,612,'"382"','<div class="nodetag">"382"</div></span>&nbsp;&nbsp;Vjerski blagdani, svetkovine i obljetnice','"382"','Vjerski blagdani, svetkovine i obljetnice','','','',false,true);
+d.add(614,612,'"383"','<div class="nodetag">"383"</div></span>&nbsp;&nbsp;Državni, nacionalni ili regionalni praznici (osim vjerskih)','"383"','Državni, nacionalni ili regionalni praznici (osim vjerskih)','','','',false,true);
+d.add(615,612,'"385"','<div class="nodetag">"385"</div></span>&nbsp;&nbsp;Godišnji odmor, dopust, raspust','"385"','Godišnji odmor, dopust, raspust','','','',false,true);
+d.add(616,589,'"4"','<div class="nodetag">"4"</div></span>&nbsp;&nbsp;Trajanje. Vremenski razmak. Razdoblje. Rok. Doba i dobne skupine','"4"','Trajanje. Vremenski razmak. Razdoblje. Rok. Doba i dobne skupine','','','',false,true);
+d.add(617,616,'"40"','<div class="nodetag">"40"</div></span>&nbsp;&nbsp;Relativno trajanje, razdoblje, rok','"40"','Relativno trajanje, razdoblje, rok','','','',false,true);
+d.add(618,617,'"401"','<div class="nodetag">"401"</div></span>&nbsp;&nbsp;Život ili životni vijek s određenim trajanjem ili krajnjim rokom. Razdoblje trajnosti','"401"','Život ili životni vijek s određenim trajanjem ili krajnjim rokom. Razdoblje trajnosti','','','',false,true);
+d.add(619,617,'"403"','<div class="nodetag">"403"</div></span>&nbsp;&nbsp;Kratko trajanje. Kratkoročno','"403"','Kratko trajanje. Kratkoročno','','','',false,true);
+d.add(620,617,'"404"','<div class="nodetag">"404"</div></span>&nbsp;&nbsp;Trajanje srednje dužine. Srednjoročno','"404"','Trajanje srednje dužine. Srednjoročno','','','',false,true);
+d.add(621,617,'"405"','<div class="nodetag">"405"</div></span>&nbsp;&nbsp;Dugo trajanje. Dugoročno','"405"','Dugo trajanje. Dugoročno','','','',false,true);
+d.add(622,617,'"408"','<div class="nodetag">"408"</div></span>&nbsp;&nbsp;Neodređeno, neograničeno trajanje. Bez određenog krajnjeg roka','"408"','Neodređeno, neograničeno trajanje. Bez određenog krajnjeg roka','','','',false,true);
+d.add(623,616,'"41"','<div class="nodetag">"41"</div></span>&nbsp;&nbsp;Trajanje od jednog dana','"41"','Trajanje od jednog dana','','','',false,true);
+d.add(624,616,'"42"','<div class="nodetag">"42"</div></span>&nbsp;&nbsp;Trajanje izraženo u danima','"42"','Trajanje izraženo u danima','','','',false,true);
+d.add(625,616,'"43"','<div class="nodetag">"43"</div></span>&nbsp;&nbsp;Trajanje izraženo u tjednima','"43"','Trajanje izraženo u tjednima','','','',false,true);
+d.add(626,616,'"44"','<div class="nodetag">"44"</div></span>&nbsp;&nbsp;Trajanje izraženo u mjesecima','"44"','Trajanje izraženo u mjesecima','','','',false,true);
+d.add(627,616,'"45"','<div class="nodetag">"45"</div></span>&nbsp;&nbsp;Trajanje izraženo godinama, stoljećima, tisućljećima itd.','"45"','Trajanje izraženo godinama, stoljećima, tisućljećima itd.','','','',false,true);
+d.add(628,616,'"46"','<div class="nodetag">"46"</div></span>&nbsp;&nbsp;Dob i dobne skupine osoba, živih bića i neživih stvari','"46"','Dob i dobne skupine osoba, živih bića i neživih stvari','','','',false,true);
+d.add(629,628,'"462"','<div class="nodetag">"462"</div></span>&nbsp;&nbsp;Dob izražena u danima','"462"','Dob izražena u danima','','','',false,true);
+d.add(630,628,'"463"','<div class="nodetag">"463"</div></span>&nbsp;&nbsp;Dob izražena u tjednima','"463"','Dob izražena u tjednima','','','',false,true);
+d.add(631,628,'"464"','<div class="nodetag">"464"</div></span>&nbsp;&nbsp;Dob izražena u mjesecima','"464"','Dob izražena u mjesecima','','','',false,true);
+d.add(632,628,'"465"','<div class="nodetag">"465"</div></span>&nbsp;&nbsp;Dob izražena u godinama i desetljećima','"465"','Dob izražena u godinama i desetljećima','','','',false,true);
+d.add(633,589,'"5"','<div class="nodetag">"5"</div></span>&nbsp;&nbsp;Periodičnost. Učestalost. Pojavljivanje u određenim intervalima','"5"','Periodičnost. Učestalost. Pojavljivanje u određenim intervalima','','','',false,true);
+d.add(634,633,'"51"','<div class="nodetag">"51"</div></span>&nbsp;&nbsp;Koji se ponavlja u intervalima kraćima od jednog dana. Češće od jedanput dnevno','"51"','Koji se ponavlja u intervalima kraćima od jednog dana. Češće od jedanput dnevno','','','',false,true);
+d.add(635,633,'"52"','<div class="nodetag">"52"</div></span>&nbsp;&nbsp;Koji se ponavlja u intervalima od jednog dana ili više (izraženo u danima)','"52"','Koji se ponavlja u intervalima od jednog dana ili više (izraženo u danima)','','','',false,true);
+d.add(636,633,'"53"','<div class="nodetag">"53"</div></span>&nbsp;&nbsp;Koji se ponavlja u intervalima od jednog tjedna i više (izraženo u tjednima)','"53"','Koji se ponavlja u intervalima od jednog tjedna i više (izraženo u tjednima)','','','',false,true);
+d.add(637,633,'"54"','<div class="nodetag">"54"</div></span>&nbsp;&nbsp;Koji se ponavlja u intervalima od jednog mjeseca i više (izraženo u mjesecima)','"54"','Koji se ponavlja u intervalima od jednog mjeseca i više (izraženo u mjesecima)','','','',false,true);
+d.add(638,633,'"55"','<div class="nodetag">"55"</div></span>&nbsp;&nbsp;Koji se ponavlja u intervalima od 1 godine ili više (izraženo u godinama, stoljećima, tisućljećima)','"55"','Koji se ponavlja u intervalima od 1 godine ili više (izraženo u godinama, stoljećima, tisućljećima)','','','',false,true);
+d.add(639,633,'"56"','<div class="nodetag">"56"</div></span>&nbsp;&nbsp;Koji se pojavljuje u svakoj generaciji, tijekom ljudskog vijeka. Životni ciklus','"56"','Koji se pojavljuje u svakoj generaciji, tijekom ljudskog vijeka. Životni ciklus','','','',false,true);
+d.add(640,589,'"6"','<div class="nodetag">"6"</div></span>&nbsp;&nbsp;Geološke i arheološke podjele vremena. Periodizacija kulturnih razdoblja','"6"','Geološke i arheološke podjele vremena. Periodizacija kulturnih razdoblja','','','',false,true);
+d.add(641,640,'"61/62"','<div class="nodetag">"61/62"</div></span>&nbsp;&nbsp;Geološka podjela vremena. Geokronologija','"61/62"','Geološka podjela vremena. Geokronologija','','','',false,true);
+d.add(642,641,'"61"','<div class="nodetag">"61"</div></span>&nbsp;&nbsp;Prakambrij (više od 542 milijuna godina prije sadašnjosti) (supereon)','"61"','Prakambrij (više od 542 milijuna godina prije sadašnjosti) (supereon)','','','',false,true);
+d.add(643,641,'"62"','<div class="nodetag">"62"</div></span>&nbsp;&nbsp;Fanerozoik (542 milijuna godina prije sadašnjosti do danas) (eon)','"62"','Fanerozoik (542 milijuna godina prije sadašnjosti do danas) (eon)','','','',false,true);
+d.add(644,643,'"621"','<div class="nodetag">"621"</div></span>&nbsp;&nbsp;Paleozoik (542-251 milijuna godina prije sadašnjosti) (era)','"621"','Paleozoik (542-251 milijuna godina prije sadašnjosti) (era)','','','',false,true);
+d.add(645,643,'"622"','<div class="nodetag">"622"</div></span>&nbsp;&nbsp;Mezozoik (251-65.5 milijuna godina prije sadašnjosti) (era)','"622"','Mezozoik (251-65.5 milijuna godina prije sadašnjosti) (era)','','','',false,true);
+d.add(646,643,'"628"','<div class="nodetag">"628"</div></span>&nbsp;&nbsp;Kenozoik (65.5 milijuna godina prije sadašnjosti do danas) (era)','"628"','Kenozoik (65.5 milijuna godina prije sadašnjosti do danas) (era)','','','',false,true);
+d.add(647,641,'"63"','<div class="nodetag">"63"</div></span>&nbsp;&nbsp;Arheološka, pretpovijesna, protopovijesna razdoblja i doba','"63"','Arheološka, pretpovijesna, protopovijesna razdoblja i doba','','','',false,true);
+d.add(648,640,'"67/69"','<div class="nodetag">"67/69"</div></span>&nbsp;&nbsp;Računanje vremena: univerzalno, svjetovno, nekršćansko','"67/69"','Računanje vremena: univerzalno, svjetovno, nekršćansko','','','',false,true);
+d.add(649,648,'"67"','<div class="nodetag">"67"</div></span>&nbsp;&nbsp;Univerzalno računanje vremena. Prije sadašnjosti','"67"','Univerzalno računanje vremena. Prije sadašnjosti','','','',false,true);
+d.add(650,648,'"68"','<div class="nodetag">"68"</div></span>&nbsp;&nbsp;Svjetovno računanje vremena koje nije ni univerzalno niti po kršćanskom/gregorijanskom kalendaru','"68"','Svjetovno računanje vremena koje nije ni univerzalno niti po kršćanskom/gregorijanskom kalendaru','','','',false,true);
+d.add(651,648,'"69"','<div class="nodetag">"69"</div></span>&nbsp;&nbsp;Datumi i vremenske jedinice prema nekršćanskom/negregorijanskom računanju vremena','"69"','Datumi i vremenske jedinice prema nekršćanskom/negregorijanskom računanju vremena','','','',false,true);
+d.add(652,589,'"7"','<div class="nodetag">"7"</div></span>&nbsp;&nbsp;Pojave u vremenu. Fenomenologija vremena','"7"','Pojave u vremenu. Fenomenologija vremena','','','',false,true);
+d.add(653,0,'-0...','<div class="nodetag">-0...</div></span>&nbsp;&nbsp;Tablica 1k - Opće pomoćne oznake za opće karakteristike','-0...','Tablica 1k - Opće pomoćne oznake za opće karakteristike','','','',false,true);
+d.add(654,653,'-02','<div class="nodetag">-02</div></span>&nbsp;&nbsp;Tablica 1k - Opće pomoćne oznake za svojstva','-02','Tablica 1k - Opće pomoćne oznake za svojstva','','','',false,true);
+d.add(655,654,'-021','<div class="nodetag">-021</div></span>&nbsp;&nbsp;Svojstva postojanja','-021','Svojstva postojanja','','','',false,true);
+d.add(656,654,'-022','<div class="nodetag">-022</div></span>&nbsp;&nbsp;Svojstva veličine, stupnja, kvantitete, količine, broja, privremene vrijednosti, dimenzije','-022','Svojstva veličine, stupnja, kvantitete, količine, broja, privremene vrijednosti, dimenzije','','','',false,true);
+d.add(657,654,'-023','<div class="nodetag">-023</div></span>&nbsp;&nbsp;Svojstva oblika','-023','Svojstva oblika','','','',false,true);
+d.add(658,654,'-024','<div class="nodetag">-024</div></span>&nbsp;&nbsp;Svojstva strukture','-024','Svojstva strukture','','','',false,true);
+d.add(659,654,'-025','<div class="nodetag">-025</div></span>&nbsp;&nbsp;Svojstva rasporeda','-025','Svojstva rasporeda','','','',false,true);
+d.add(660,654,'-026','<div class="nodetag">-026</div></span>&nbsp;&nbsp;Svojstva djelovanja i kretanja','-026','Svojstva djelovanja i kretanja','','','',false,true);
+d.add(661,654,'-027','<div class="nodetag">-027</div></span>&nbsp;&nbsp;Radna svojstva, svojstva djelovanja, operacijska svojstva','-027','Radna svojstva, svojstva djelovanja, operacijska svojstva','','','',false,true);
+d.add(662,654,'-028','<div class="nodetag">-028</div></span>&nbsp;&nbsp;Svojstva stila i prezentacije','-028','Svojstva stila i prezentacije','','','',false,true);
+d.add(663,662,'-028.41','<div class="nodetag">-028.41</div></span>&nbsp;&nbsp;Popularno','-028.41','Popularno','','','',false,true);
+d.add(664,662,'-028.42','<div class="nodetag">-028.42</div></span>&nbsp;&nbsp;Učeno. Znanstveno. Akademsko','-028.42','Učeno. Znanstveno. Akademsko','','','',false,true);
+d.add(665,662,'-028.43','<div class="nodetag">-028.43</div></span>&nbsp;&nbsp;Kritično. Nekritično','-028.43','Kritično. Nekritično','','','',false,true);
+d.add(666,662,'-028.44','<div class="nodetag">-028.44</div></span>&nbsp;&nbsp;Opisno, deskriptivno','-028.44','Opisno, deskriptivno','','','',false,true);
+d.add(667,662,'-028.45','<div class="nodetag">-028.45</div></span>&nbsp;&nbsp;Analitično','-028.45','Analitično','','','',false,true);
+d.add(668,662,'-028.46','<div class="nodetag">-028.46</div></span>&nbsp;&nbsp;Iskustveno. Pragmatično','-028.46','Iskustveno. Pragmatično','','','',false,true);
+d.add(669,662,'-028.47','<div class="nodetag">-028.47</div></span>&nbsp;&nbsp;Anegdotalno','-028.47','Anegdotalno','','','',false,true);
+d.add(670,662,'-028.5','<div class="nodetag">-028.5</div></span>&nbsp;&nbsp;Svojstva autorstva','-028.5','Svojstva autorstva','','','',false,true);
+d.add(671,662,'-028.6','<div class="nodetag">-028.6</div></span>&nbsp;&nbsp;Svojstva reda, rasporeda','-028.6','Svojstva reda, rasporeda','','','',false,true);
+d.add(672,654,'-029','<div class="nodetag">-029</div></span>&nbsp;&nbsp;Svojstva izvedena iz drugih glavnih skupina','-029','Svojstva izvedena iz drugih glavnih skupina','','','',false,true);
+d.add(673,653,'-03','<div class="nodetag">-03</div></span>&nbsp;&nbsp;Tablica 1k - Opće pomoćne oznake za materijale','-03','Tablica 1k - Opće pomoćne oznake za materijale','','','',false,true);
+d.add(674,673,'-032','<div class="nodetag">-032</div></span>&nbsp;&nbsp;Prirodni materijali mineralnog porijekla','-032','Prirodni materijali mineralnog porijekla','','','',false,true);
+d.add(675,673,'-033','<div class="nodetag">-033</div></span>&nbsp;&nbsp;Industrijski materijali mineralnog porijekla','-033','Industrijski materijali mineralnog porijekla','','','',false,true);
+d.add(676,673,'-034','<div class="nodetag">-034</div></span>&nbsp;&nbsp;Metali','-034','Metali','','','',false,true);
+d.add(677,673,'-035','<div class="nodetag">-035</div></span>&nbsp;&nbsp;Materijali pretežno organskog porijekla','-035','Materijali pretežno organskog porijekla','','','',false,true);
+d.add(678,673,'-036','<div class="nodetag">-036</div></span>&nbsp;&nbsp;Makromolekularni materijali. Gume i plastike','-036','Makromolekularni materijali. Gume i plastike','','','',false,true);
+d.add(679,673,'-037','<div class="nodetag">-037</div></span>&nbsp;&nbsp;Tekstili. Vlakna. Pređa. Tkanine. Platno','-037','Tekstili. Vlakna. Pređa. Tkanine. Platno','','','',false,true);
+d.add(680,653,'-04','<div class="nodetag">-04</div></span>&nbsp;&nbsp;Tablica 1k - Opće pomoćne oznake za odnose, procese i postupke','-04','Tablica 1k - Opće pomoćne oznake za odnose, procese i postupke','','','',false,true);
+d.add(681,680,'-042','<div class="nodetag">-042</div></span>&nbsp;&nbsp;Faza odnosa','-042','Faza odnosa','','','',false,true);
+d.add(682,681,'-042.1','<div class="nodetag">-042.1</div></span>&nbsp;&nbsp;Faza pristranosti','-042.1','Faza pristranosti','','','',false,true);
+d.add(683,681,'-042.2','<div class="nodetag">-042.2</div></span>&nbsp;&nbsp;Faza usporedbe','-042.2','Faza usporedbe','','','',false,true);
+d.add(684,681,'-042.3','<div class="nodetag">-042.3</div></span>&nbsp;&nbsp;Faza utjecaja','-042.3','Faza utjecaja','','','',false,true);
+d.add(685,681,'-042.4','<div class="nodetag">-042.4</div></span>&nbsp;&nbsp;Faza sredstva, alata. Faza izlaganja','-042.4','Faza sredstva, alata. Faza izlaganja','','','',false,true);
+d.add(686,681,'-042.5/.8','<div class="nodetag">-042.5/.8</div></span>&nbsp;&nbsp;Drugi načini opisivanja odnosa među entitetima','-042.5/.8','Drugi načini opisivanja odnosa među entitetima','','','',false,true);
+d.add(687,680,'-043','<div class="nodetag">-043</div></span>&nbsp;&nbsp;Opći procesi','-043','Opći procesi','','','',false,true);
+d.add(688,687,'-043.8/.9','<div class="nodetag">-043.8/.9</div></span>&nbsp;&nbsp;Procesi postojanja','-043.8/.9','Procesi postojanja','','','',false,true);
+d.add(689,680,'-044.3','<div class="nodetag">-044.3</div></span>&nbsp;&nbsp;Procesi vrijednosti','-044.3','Procesi vrijednosti','','','',false,true);
+d.add(690,680,'-044.4','<div class="nodetag">-044.4</div></span>&nbsp;&nbsp;Procesi redanja i nizanja','-044.4','Procesi redanja i nizanja','','','',false,true);
+d.add(691,680,'-044.5','<div class="nodetag">-044.5</div></span>&nbsp;&nbsp;Procesi veličine, snage','-044.5','Procesi veličine, snage','','','',false,true);
+d.add(692,680,'-044.6','<div class="nodetag">-044.6</div></span>&nbsp;&nbsp;Procesi broja i stupnja','-044.6','Procesi broja i stupnja','','','',false,true);
+d.add(693,680,'-044.7','<div class="nodetag">-044.7</div></span>&nbsp;&nbsp;Procesi koji se odnose na vrijeme i kronologiju','-044.7','Procesi koji se odnose na vrijeme i kronologiju','','','',false,true);
+d.add(694,680,'-044.8','<div class="nodetag">-044.8</div></span>&nbsp;&nbsp;Procesi koji se odnose na dimenziju','-044.8','Procesi koji se odnose na dimenziju','','','',false,true);
+d.add(695,680,'-044.9','<div class="nodetag">-044.9</div></span>&nbsp;&nbsp;Procesi koji se odnose na oblik','-044.9','Procesi koji se odnose na oblik','','','',false,true);
+d.add(696,680,'-045','<div class="nodetag">-045</div></span>&nbsp;&nbsp;Procesi povezani s položajem, rasporedom, kretanjem','-045','Procesi povezani s položajem, rasporedom, kretanjem','','','',false,true);
+d.add(697,680,'-047/-049','<div class="nodetag">-047/-049</div></span>&nbsp;&nbsp;Opći postupci i aktivnosti','-047/-049','Opći postupci i aktivnosti','','','',false,true);
+d.add(698,653,'-05','<div class="nodetag">-05</div></span>&nbsp;&nbsp;Tablica 1k - Opće pomoćne oznake za osobe i osobne karakteristike','-05','Tablica 1k - Opće pomoćne oznake za osobe i osobne karakteristike','','','',false,true);
+d.add(699,698,'-051','<div class="nodetag">-051</div></span>&nbsp;&nbsp;Osobe kao subjekti, činitelji, praktičari (osobe koje izučavaju, stvaraju, služe i sl.)','-051','Osobe kao subjekti, činitelji, praktičari (osobe koje izučavaju, stvaraju, služe i sl.)','','','',false,true);
+d.add(700,698,'-052','<div class="nodetag">-052</div></span>&nbsp;&nbsp;Osobe kao objekti, stranke, korisnici (osobe koje se izučava, služi i sl.)','-052','Osobe kao objekti, stranke, korisnici (osobe koje se izučava, služi i sl.)','','','',false,true);
+d.add(701,698,'-053','<div class="nodetag">-053</div></span>&nbsp;&nbsp;Osobe prema dobi ili dobnim skupinama','-053','Osobe prema dobi ili dobnim skupinama','','','',false,true);
+d.add(702,701,'-053.1','<div class="nodetag">-053.1</div></span>&nbsp;&nbsp;Ljudska bića, rođena ili nerođena, živa ili mrtva','-053.1','Ljudska bića, rođena ili nerođena, živa ili mrtva','','','',false,true);
+d.add(703,701,'-053.2','<div class="nodetag">-053.2</div></span>&nbsp;&nbsp;Djeca ili dojenčad (uopće)','-053.2','Djeca ili dojenčad (uopće)','','','',false,true);
+d.add(704,701,'-053.8','<div class="nodetag">-053.8</div></span>&nbsp;&nbsp;Odrasli. Zreli ljudi','-053.8','Odrasli. Zreli ljudi','','','',false,true);
+d.add(705,701,'-053.9','<div class="nodetag">-053.9</div></span>&nbsp;&nbsp;Stare osobe. Osobe treće dobi','-053.9','Stare osobe. Osobe treće dobi','','','',false,true);
+d.add(706,698,'-054','<div class="nodetag">-054</div></span>&nbsp;&nbsp;Osobe prema etničkim karakteristikama, nacionalnosti, državljanstvu i sl.','-054','Osobe prema etničkim karakteristikama, nacionalnosti, državljanstvu i sl.','','','',false,true);
+d.add(707,706,'-054.4','<div class="nodetag">-054.4</div></span>&nbsp;&nbsp;Stanovnici (državljani ili nedržavljani)','-054.4','Stanovnici (državljani ili nedržavljani)','','','',false,true);
+d.add(708,706,'-054.5','<div class="nodetag">-054.5</div></span>&nbsp;&nbsp;Državljani. Građani neke zemlje','-054.5','Državljani. Građani neke zemlje','','','',false,true);
+d.add(709,706,'-054.6','<div class="nodetag">-054.6</div></span>&nbsp;&nbsp;Nedržavljani. Stranci. Tuđinci','-054.6','Nedržavljani. Stranci. Tuđinci','','','',false,true);
+d.add(710,706,'-054.7','<div class="nodetag">-054.7</div></span>&nbsp;&nbsp;Iseljenici (dobrovolji ili prisilni). Izgnanici. Povratnici. Migranti. Apatridi','-054.7','Iseljenici (dobrovolji ili prisilni). Izgnanici. Povratnici. Migranti. Apatridi','','','',false,true);
+d.add(711,698,'-055','<div class="nodetag">-055</div></span>&nbsp;&nbsp;Osobe prema rodu i srodstvu','-055','Osobe prema rodu i srodstvu','','','',false,true);
+d.add(712,711,'-055.1','<div class="nodetag">-055.1</div></span>&nbsp;&nbsp;Muške osobe. Muškarci','-055.1','Muške osobe. Muškarci','','','',false,true);
+d.add(713,711,'-055.2','<div class="nodetag">-055.2</div></span>&nbsp;&nbsp;Ženske osobe. Žene','-055.2','Ženske osobe. Žene','','','',false,true);
+d.add(714,711,'-055.3','<div class="nodetag">-055.3</div></span>&nbsp;&nbsp;Osobe prema seksualnoj orijentaciji','-055.3','Osobe prema seksualnoj orijentaciji','','','',false,true);
+d.add(715,711,'-055.5','<div class="nodetag">-055.5</div></span>&nbsp;&nbsp;Osobe u roditeljskoj ili uzlaznoj liniji. Preci. Praoci','-055.5','Osobe u roditeljskoj ili uzlaznoj liniji. Preci. Praoci','','','',false,true);
+d.add(716,711,'-055.6','<div class="nodetag">-055.6</div></span>&nbsp;&nbsp;Osobe u sinovskoj ili silaznoj liniji','-055.6','Osobe u sinovskoj ili silaznoj liniji','','','',false,true);
+d.add(717,711,'-055.7','<div class="nodetag">-055.7</div></span>&nbsp;&nbsp;Osobe u srodstvu po bočnoj liniji','-055.7','Osobe u srodstvu po bočnoj liniji','','','',false,true);
+d.add(718,698,'-056','<div class="nodetag">-056</div></span>&nbsp;&nbsp;Osobe prema građi tijela, zdravlju, sklonosti, nasljednim ili drugim značajkama','-056','Osobe prema građi tijela, zdravlju, sklonosti, nasljednim ili drugim značajkama','','','',false,true);
+d.add(719,718,'-056.1','<div class="nodetag">-056.1</div></span>&nbsp;&nbsp;Osobe prema građi tijela, naravi ili karakteru','-056.1','Osobe prema građi tijela, naravi ili karakteru','','','',false,true);
+d.add(720,718,'-056.2','<div class="nodetag">-056.2</div></span>&nbsp;&nbsp;Osobe prema fizičkom stanju i zdravlju','-056.2','Osobe prema fizičkom stanju i zdravlju','','','',false,true);
+d.add(721,718,'-056.3','<div class="nodetag">-056.3</div></span>&nbsp;&nbsp;Osobe prema inteligenciji i mentalnom ili psihičkom stanju','-056.3','Osobe prema inteligenciji i mentalnom ili psihičkom stanju','','','',false,true);
+d.add(722,718,'-056.4','<div class="nodetag">-056.4</div></span>&nbsp;&nbsp;Osobe prema temperamentu, sklonostima','-056.4','Osobe prema temperamentu, sklonostima','','','',false,true);
+d.add(723,698,'-057','<div class="nodetag">-057</div></span>&nbsp;&nbsp;Osobe prema zanimanju, poslu, uzdržavanju, obrazovanju','-057','Osobe prema zanimanju, poslu, uzdržavanju, obrazovanju','','','',false,true);
+d.add(724,723,'-057.1','<div class="nodetag">-057.1</div></span>&nbsp;&nbsp;Osobe prema poslu, zaposlenju, administrativnom statusu','-057.1','Osobe prema poslu, zaposlenju, administrativnom statusu','','','',false,true);
+d.add(725,723,'-057.2','<div class="nodetag">-057.2</div></span>&nbsp;&nbsp;Tehničko osoblje. Tvornički radnici. Fizički radnici','-057.2','Tehničko osoblje. Tvornički radnici. Fizički radnici','','','',false,true);
+d.add(726,723,'-057.3','<div class="nodetag">-057.3</div></span>&nbsp;&nbsp;Činovničko, administrativno osoblje. Činovnici. Uredsko osoblje','-057.3','Činovničko, administrativno osoblje. Činovnici. Uredsko osoblje','','','',false,true);
+d.add(727,723,'-057.4','<div class="nodetag">-057.4</div></span>&nbsp;&nbsp;Profesionalni ili akademski djelatnici','-057.4','Profesionalni ili akademski djelatnici','','','',false,true);
+d.add(728,723,'-057.5','<div class="nodetag">-057.5</div></span>&nbsp;&nbsp;Osobe u odnosu na radno mjesto, mjesto zaposlenja. Osobe u odnosu na poduzeće','-057.5','Osobe u odnosu na radno mjesto, mjesto zaposlenja. Osobe u odnosu na poduzeće','','','',false,true);
+d.add(729,723,'-057.6','<div class="nodetag">-057.6</div></span>&nbsp;&nbsp;Osobe prema prebivalištu i njegovoj vezi s poslom ili drugim aktivnostima','-057.6','Osobe prema prebivalištu i njegovoj vezi s poslom ili drugim aktivnostima','','','',false,true);
+d.add(730,723,'-057.7','<div class="nodetag">-057.7</div></span>&nbsp;&nbsp;Osobe prema izvorima prihoda ili prema osiguranju','-057.7','Osobe prema izvorima prihoda ili prema osiguranju','','','',false,true);
+d.add(731,723,'-057.8','<div class="nodetag">-057.8</div></span>&nbsp;&nbsp;Osobe prema obrazovanju, obuci, iskustvu','-057.8','Osobe prema obrazovanju, obuci, iskustvu','','','',false,true);
+d.add(732,723,'-057.9','<div class="nodetag">-057.9</div></span>&nbsp;&nbsp;Osobe prema izvršnim funkcijama','-057.9','Osobe prema izvršnim funkcijama','','','',false,true);
+d.add(733,698,'-058','<div class="nodetag">-058</div></span>&nbsp;&nbsp;Osobe prema društvenoj klasi, građanskom statusu','-058','Osobe prema društvenoj klasi, građanskom statusu','','','',false,true);
+d.add(734,733,'-058.1','<div class="nodetag">-058.1</div></span>&nbsp;&nbsp;Osobe prema društvenoj klasi ili položaju','-058.1','Osobe prema društvenoj klasi ili položaju','','','',false,true);
+d.add(735,733,'-058.3','<div class="nodetag">-058.3</div></span>&nbsp;&nbsp;Osobe prema ekonomskim kategorijama (sredstva, osiguranje, druga prava)','-058.3','Osobe prema ekonomskim kategorijama (sredstva, osiguranje, druga prava)','','','',false,true);
+d.add(736,733,'-058.5','<div class="nodetag">-058.5</div></span>&nbsp;&nbsp;Osobe koje pripadaju rubnim socioekonomskim kategorijama. Rubne društvene skupine','-058.5','Osobe koje pripadaju rubnim socioekonomskim kategorijama. Rubne društvene skupine','','','',false,true);
+d.add(737,733,'-058.6','<div class="nodetag">-058.6</div></span>&nbsp;&nbsp;Žrtve okolnosti','-058.6','Žrtve okolnosti','','','',false,true);
+d.add(738,733,'-058.7','<div class="nodetag">-058.7</div></span>&nbsp;&nbsp;Ovisne osobe. Štićenici','-058.7','Ovisne osobe. Štićenici','','','',false,true);
+d.add(739,733,'-058.8','<div class="nodetag">-058.8</div></span>&nbsp;&nbsp;Osobe prema bračnom, obiteljskom ili drugom građanskom statusu','-058.8','Osobe prema bračnom, obiteljskom ili drugom građanskom statusu','','','',false,true);
+d.config.useSelection = false;
+d.config.inOrder = true;
+d.config.useIcons = false;
+document.write(d);
+//-->
+</script>
+</div>
+</div><div id="expandbox" onclick="expandbox(); return false;">&nbsp;</div>
+<div id="recordbox" class="debugbkg">
+<div class="fronthint">za detaljni prikaz klikni na razred u lijevom dijelu ekrana</div>
+</div>
+
+        <div id="footer">
+            <div class="footersectionleft">
+                The UDC Summary (UDCS) provides a selection of around 2,600 classes from the whole scheme which comprises more than 70,000 entries.
+                Please send questions and suggestions to <a href="mailto:udcs@udcc.org?subject=UDC Summary Enquiry">udcs@udcc.org</a><br><br>
+	            <p>
+		            The data provided in this Summary is released under the <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative Commons Attribution Share Alike 3.0 license</a> <a href="../about.htm">[more]</a>
+	            </p>
+            </div>
+            <div class="footermiddle">
+                <a href="http://www.udcc.org"><img src="../images/udclogowhite.png" border="0"></a>
+            </div>
+			<div class="footerright">
+                For complete UDC schedules see <a href="http://www.udc-hub.com/">UDC Online Hub</a><br/><a href="http://www.udc-hub.com/"><img width="60" height="35" src="../images/udclogo.png"/></a>
+
+			</div>
+        </div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-13138465-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>

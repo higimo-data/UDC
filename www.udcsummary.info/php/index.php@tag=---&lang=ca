@@ -1,0 +1,901 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>UDC Summary</title>
+    <link rel="stylesheet" href="../reset.css" type="text/css" />
+    <link rel="stylesheet" href="../udc2000.css" type="text/css" />
+	    <link rel="StyleSheet" href="dtree2.css" type="text/css" />
+	    <script type="text/javascript" src="dtree.js"></script>
+	    <script type="text/javascript" src="udcdisplay_9.js"></script>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+</head>
+
+<body >
+<div id="centercontainer" class="debugbkg">
+    <div id="titlebox" class="debugbkg">
+		<div id="rightbox">
+        	<div id="languagecount">57 languages</div>
+            <div id="languagebox">
+            <select id="selectedlang" style="vertical-align: middle;" onchange="location = this.options[this.selectedIndex].value;">
+			<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=af&pr=Y">Afrikaans (Afrikaans) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sq&pr=Y">Albanian (Shqip) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=anp&pr=Y">Angika (अंगिका) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ar&pr=Y">Arabic (العربية) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=hy&pr=Y">Armenian (հայերեն) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=eu&pr=Y">Basque (Euskara) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=be&pr=Y">Belarusian (Беларуская) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=bn&pr=Y">Bengali (বাংলা) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=bho&pr=Y">Bhojpuri (भोजपुरी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=bg&pr=Y">Bulgarian (Български) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ca&pr=Y" selected>Catalan (Català) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=chi&pr=Y">Chinese (中文) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=hr&pr=Y">Croatian (Hrvatski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=cs&pr=Y">Czech (Čeština) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=da&pr=Y">Danish (Dansk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=nl&pr=Y">Dutch (Nederlands) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=en&pr=Y">English (English) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=eo&pr=Y">Esperanto (Esperanto) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=et&pr=Y">Estonian (Eesti) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=fi&pr=Y">Finnish (Suomi) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=fr&pr=Y">French (Français) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=gl&pr=Y">Galician (Galego) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ka&pr=Y">Georgian (ქართული) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=de&pr=Y">German (Deutsch) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=el&pr=Y">Greek (Ελληνικά) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=hi&pr=Y">Hindi (हिन्दी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=hu&pr=Y">Hungarian (Magyar) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=id&pr=Y">Indonesian (Bahasa Ind) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ga&pr=Y">Irish (Gaeilge) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=it&pr=Y">Italian (Italiano) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ja&pr=Y">Japanese (日本語) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=kn&pr=Y">Kannada (ಕನ್ನಡ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=kk&pr=Y">Kazakh (Қазақ тілі) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=lv&pr=Y">Latvian (Latviešu) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=lt&pr=Y">Lithuanian (lietuvių) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=mk&pr=Y">Macedonian (македонски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ml&pr=Y">Malayalam (മലയാളം) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=mr&pr=Y">Marathi (मराठी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=no&pr=Y">Norwegian (Norsk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=pl&pr=Y">Polish (Polski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=pt&pr=Y">Portuguese (Português) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=pa&pr=Y">Punjabi (ਪੰਜਾਬੀ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ro&pr=Y">Romanian (Româna) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ru&pr=Y">Russian (Pусский) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sa&pr=Y">Sanskrit (Saṃskṛtam) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sr&pr=Y">Serbian (Српски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=si&pr=Y">Sinhala (සිංහල) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sk&pr=Y">Slovak (Slovenský) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sl&pr=Y">Slovenian (Slovenski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=es&pr=Y">Spanish (Español) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sv&pr=Y">Swedish (Svenska) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ta&pr=Y">Tamil (தமிழ்) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=te&pr=Y">Telugu (తెలుగు) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=tr&pr=Y">Turkish (Türkçe) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=uk&pr=Y">Ukrainian (Yкраї́нська) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=uz&pr=Y">Uzbek (oʻzbek) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=vi&pr=Y">Vietnamese (tiếng Việt) </option>
+            </select>
+            </div>
+            </div>
+        </div>
+		<div id="menubox" class="debugbkg">
+            <ul class="menu boldmenu">
+<li><a href="index.php@lang=ca">TOP</a></li>
+<li><a href="index.php@tag=--&amp;lang=ca">SIGNES</a></li>
+<li><a href="index.php@tag=---&amp;lang=ca">AUXILIARS</a></li>
+<li><a href="index.php@tag=0&amp;lang=ca">0</a></li>
+<li><a href="index.php@tag=1&amp;lang=ca">1</a></li>
+<li><a href="index.php@tag=2&amp;lang=ca">2</a></li>
+<li><a href="index.php@tag=3&amp;lang=ca">3</a></li>
+<li><a  class="vacant" href="index.php@tag=---&amp;lang=ca#">4</a></li>
+<li><a href="index.php@tag=5&amp;lang=ca">5</a></li>
+<li><a href="index.php@tag=6&amp;lang=ca">6</a></li>
+<li><a href="index.php@tag=7&amp;lang=ca">7</a></li>
+<li><a href="index.php@tag=8&amp;lang=ca">8</a></li>
+<li><a href="index.php@tag=9&amp;lang=ca">9</a></li>
+</ul>
+<input type="hidden" id="if_loading" name="if_loading" value="Carregant"/>
+<input type="hidden" id="if_lang" name="if_lang" value="24"/>
+<ul class="rightmenu boldmenu">
+<li><a href="../translation.htm">TRADUCCIONS</a></li>
+<li><a href="index.php@tag=---&amp;lang=ca#" title="Under Development">MAPATGES</a></li>
+<li><a href="../exports.htm" title="Data Exports">EXPORTACIONS</a></li>
+<li><a href="index.php@tag=---&amp;lang=ca#" title="Under Development">ÍNDEX ALFABÈTIC</a></li>
+<li><a href="index.php@tag=---&amp;lang=ca#" title="Under Development">GUIA</a></li>
+<li><a href="../about.htm" title="About the UDC Summary">INFO</a></li>
+</ul>
+
+        </div>
+		<input type="hidden" id="leftWidth" value="420"/><input type="hidden" id="rightWidth" value="522"/>
+		<div id="classmarkbox" class="debugbkg">
+
+<div id="openclosemenu"><a href="javascript: d.openAll();">&nbsp;desplegar-ho tot</a> | <a href="javascript: d.closeAll();">contraure-ho tot</a></div>
+<div id="classtree">
+<script type="text/javascript">
+<!--
+d = new dTree('d');
+d.config.hrefIsClick = true;
+d.add(0,-1,'---','<span class="nodetag"></span>AUXILIARS COMUNS','---','','','','',false,true);
+d.add(1,0,'=...','<div class="nodetag">=...</div></span>&nbsp;&nbsp;Auxiliars comuns de llengua. Taula 1c','=...','Auxiliars comuns de llengua. Taula 1c','','','',false,true);
+d.add(2,1,'=...`01/`08','<div class="nodetag">=...`01/`08</div></span>&nbsp;&nbsp;Auxiliars especials per als orígens i els períodes de les llengües. Fases de desenvolupament','=...`01/`08','Auxiliars especials per als orígens i els períodes de les llengües. Fases de desenvolupament','','','',false,true);
+d.add(3,2,'=...`01','<div class="nodetag">=...`01</div></span>&nbsp;&nbsp;Període antic. Període arcaic','=...`01','Període antic. Període arcaic','','','',false,true);
+d.add(4,2,'=...`04','<div class="nodetag">=...`04</div></span>&nbsp;&nbsp;Període mitjà, medieval. Edat mitjana','=...`04','Període mitjà, medieval. Edat mitjana','','','',false,true);
+d.add(5,2,'=...`06','<div class="nodetag">=...`06</div></span>&nbsp;&nbsp;Període modern. Període contemporani','=...`06','Període modern. Període contemporani','','','',false,true);
+d.add(6,1,'=...`276/`282','<div class="nodetag">=...`276/`282</div></span>&nbsp;&nbsp;Auxiliars especials per als usos de la llengua, dialectes i variants','=...`276/`282','Auxiliars especials per als usos de la llengua, dialectes i variants','','','',false,true);
+d.add(7,6,'=...`276','<div class="nodetag">=...`276</div></span>&nbsp;&nbsp;Dialectes socials, sociolectes. Argot. Formes vernacles especials','=...`276','Dialectes socials, sociolectes. Argot. Formes vernacles especials','','','',false,true);
+d.add(8,6,'=...`282','<div class="nodetag">=...`282</div></span>&nbsp;&nbsp;Dialectes. Llengües locals i regionals. Variants i llengües vernacles','=...`282','Dialectes. Llengües locals i regionals. Variants i llengües vernacles','','','',false,true);
+d.add(9,1,'=00','<div class="nodetag">=00</div></span>&nbsp;&nbsp;Multilingüe. Poliglot','=00','Multilingüe. Poliglot','','','',false,true);
+d.add(10,1,'=030','<div class="nodetag">=030</div></span>&nbsp;&nbsp;Documents traduïts. Traduccions','=030','Documents traduïts. Traduccions','','','',false,true);
+d.add(11,1,'=1/=9','<div class="nodetag">=1/=9</div></span>&nbsp;&nbsp;Llengües i llenguatges (naturals i artificials)','=1/=9','Llengües i llenguatges (naturals i artificials)','','','',false,true);
+d.add(12,11,'=1/=8','<div class="nodetag">=1/=8</div></span>&nbsp;&nbsp;Llengües (naturals)','=1/=8','Llengües (naturals)','','','',false,true);
+d.add(13,12,'=1/=2','<div class="nodetag">=1/=2</div></span>&nbsp;&nbsp;Llengües indoeuropees en general','=1/=2','Llengües indoeuropees en general','','','',false,true);
+d.add(14,13,'=1','<div class="nodetag">=1</div></span>&nbsp;&nbsp;Llengües indoeuropees d\'Europa','=1','Llengües indoeuropees d\'Europa','','','',false,true);
+d.add(15,14,'=11','<div class="nodetag">=11</div></span>&nbsp;&nbsp;Llengües germàniques','=11','Llengües germàniques','','','',false,true);
+d.add(16,15,'=111','<div class="nodetag">=111</div></span>&nbsp;&nbsp;Anglès','=111','Anglès','','','',false,true);
+d.add(17,15,'=112','<div class="nodetag">=112</div></span>&nbsp;&nbsp;Llengües germàniques occidentals (diferents de l\'anglès)','=112','Llengües germàniques occidentals (diferents de l\'anglès)','','','',false,true);
+d.add(18,17,'=112.2','<div class="nodetag">=112.2</div></span>&nbsp;&nbsp;Alemany','=112.2','Alemany','','','',false,true);
+d.add(19,17,'=112.5','<div class="nodetag">=112.5</div></span>&nbsp;&nbsp;Neerlandès, holandès','=112.5','Neerlandès, holandès','','','',false,true);
+d.add(20,17,'=112.6','<div class="nodetag">=112.6</div></span>&nbsp;&nbsp;Afrikaans','=112.6','Afrikaans','','','',false,true);
+d.add(21,15,'=113','<div class="nodetag">=113</div></span>&nbsp;&nbsp;Llengües germàniques septentrionals (nòrdiques)','=113','Llengües germàniques septentrionals (nòrdiques)','','','',false,true);
+d.add(22,21,'=113.3','<div class="nodetag">=113.3</div></span>&nbsp;&nbsp;Islandès','=113.3','Islandès','','','',false,true);
+d.add(23,21,'=113.4','<div class="nodetag">=113.4</div></span>&nbsp;&nbsp;Danès','=113.4','Danès','','','',false,true);
+d.add(24,21,'=113.5','<div class="nodetag">=113.5</div></span>&nbsp;&nbsp;Noruec','=113.5','Noruec','','','',false,true);
+d.add(25,21,'=113.6','<div class="nodetag">=113.6</div></span>&nbsp;&nbsp;Suec','=113.6','Suec','','','',false,true);
+d.add(26,15,'=114','<div class="nodetag">=114</div></span>&nbsp;&nbsp;Llengües germàniques orientals','=114','Llengües germàniques orientals','','','',false,true);
+d.add(27,14,'=12','<div class="nodetag">=12</div></span>&nbsp;&nbsp;Llengües itàliques clàssiques','=12','Llengües itàliques clàssiques','','','',false,true);
+d.add(28,27,'=122','<div class="nodetag">=122</div></span>&nbsp;&nbsp;Llengües oscoúmbriques (umbre-sabèl·lic)','=122','Llengües oscoúmbriques (umbre-sabèl·lic)','','','',false,true);
+d.add(29,27,'=124','<div class="nodetag">=124</div></span>&nbsp;&nbsp;Llatí','=124','Llatí','','','',false,true);
+d.add(30,14,'=13','<div class="nodetag">=13</div></span>&nbsp;&nbsp;Llengües romàniques','=13','Llengües romàniques','','','',false,true);
+d.add(31,30,'=131','<div class="nodetag">=131</div></span>&nbsp;&nbsp;Llengües italoromàniques','=131','Llengües italoromàniques','','','',false,true);
+d.add(32,31,'=131.1','<div class="nodetag">=131.1</div></span>&nbsp;&nbsp;Italià','=131.1','Italià','','','',false,true);
+d.add(33,30,'=132','<div class="nodetag">=132</div></span>&nbsp;&nbsp;Llengües retoromàniques','=132','Llengües retoromàniques','','','',false,true);
+d.add(34,30,'=133','<div class="nodetag">=133</div></span>&nbsp;&nbsp;Llengües gal·loromàniques','=133','Llengües gal·loromàniques','','','',false,true);
+d.add(35,34,'=133.1','<div class="nodetag">=133.1</div></span>&nbsp;&nbsp;Francès','=133.1','Francès','','','',false,true);
+d.add(36,30,'=134','<div class="nodetag">=134</div></span>&nbsp;&nbsp;Llengües iberoromàniques','=134','Llengües iberoromàniques','','','',false,true);
+d.add(37,36,'=134.1','<div class="nodetag">=134.1</div></span>&nbsp;&nbsp;Català','=134.1','Català','','','',false,true);
+d.add(38,36,'=134.2','<div class="nodetag">=134.2</div></span>&nbsp;&nbsp;Castellà, espanyol','=134.2','Castellà, espanyol','','','',false,true);
+d.add(39,36,'=134.3','<div class="nodetag">=134.3</div></span>&nbsp;&nbsp;Portuguès','=134.3','Portuguès','','','',false,true);
+d.add(40,36,'=134.4','<div class="nodetag">=134.4</div></span>&nbsp;&nbsp;Gallec','=134.4','Gallec','','','',false,true);
+d.add(41,30,'=135','<div class="nodetag">=135</div></span>&nbsp;&nbsp;Llengües romàniques orientals (balcàniques)','=135','Llengües romàniques orientals (balcàniques)','','','',false,true);
+d.add(42,41,'=135.1','<div class="nodetag">=135.1</div></span>&nbsp;&nbsp;Romanès','=135.1','Romanès','','','',false,true);
+d.add(43,14,'=14','<div class="nodetag">=14</div></span>&nbsp;&nbsp;Grec','=14','Grec','','','',false,true);
+d.add(44,14,'=15','<div class="nodetag">=15</div></span>&nbsp;&nbsp;Llengües cèltiques','=15','Llengües cèltiques','','','',false,true);
+d.add(45,44,'=152','<div class="nodetag">=152</div></span>&nbsp;&nbsp;Grup gaèlic','=152','Grup gaèlic','','','',false,true);
+d.add(46,45,'=152.1','<div class="nodetag">=152.1</div></span>&nbsp;&nbsp;Gaèlic irlandès','=152.1','Gaèlic irlandès','','','',false,true);
+d.add(47,45,'=152.2','<div class="nodetag">=152.2</div></span>&nbsp;&nbsp;Gaèlic escocès','=152.2','Gaèlic escocès','','','',false,true);
+d.add(48,44,'=153','<div class="nodetag">=153</div></span>&nbsp;&nbsp;Grup britònic','=153','Grup britònic','','','',false,true);
+d.add(49,14,'=16','<div class="nodetag">=16</div></span>&nbsp;&nbsp;Llengües eslaves','=16','Llengües eslaves','','','',false,true);
+d.add(50,49,'=161','<div class="nodetag">=161</div></span>&nbsp;&nbsp;Llengües eslaves orientals','=161','Llengües eslaves orientals','','','',false,true);
+d.add(51,50,'=161.1','<div class="nodetag">=161.1</div></span>&nbsp;&nbsp;Rus','=161.1','Rus','','','',false,true);
+d.add(52,50,'=161.2','<div class="nodetag">=161.2</div></span>&nbsp;&nbsp;Ucraïnès','=161.2','Ucraïnès','','','',false,true);
+d.add(53,50,'=161.3','<div class="nodetag">=161.3</div></span>&nbsp;&nbsp;Bielorús','=161.3','Bielorús','','','',false,true);
+d.add(54,49,'=162','<div class="nodetag">=162</div></span>&nbsp;&nbsp;Llengües eslaves occidentals','=162','Llengües eslaves occidentals','','','',false,true);
+d.add(55,54,'=162.1','<div class="nodetag">=162.1</div></span>&nbsp;&nbsp;Polonès','=162.1','Polonès','','','',false,true);
+d.add(56,54,'=162.3','<div class="nodetag">=162.3</div></span>&nbsp;&nbsp;Txec','=162.3','Txec','','','',false,true);
+d.add(57,54,'=162.4','<div class="nodetag">=162.4</div></span>&nbsp;&nbsp;Eslovac','=162.4','Eslovac','','','',false,true);
+d.add(58,49,'=163','<div class="nodetag">=163</div></span>&nbsp;&nbsp;Llengües eslaves meridionals','=163','Llengües eslaves meridionals','','','',false,true);
+d.add(59,58,'=163.2','<div class="nodetag">=163.2</div></span>&nbsp;&nbsp;Búlgar','=163.2','Búlgar','','','',false,true);
+d.add(60,58,'=163.3','<div class="nodetag">=163.3</div></span>&nbsp;&nbsp;Macedoni','=163.3','Macedoni','','','',false,true);
+d.add(61,58,'=163.4','<div class="nodetag">=163.4</div></span>&nbsp;&nbsp;Serbocroat','=163.4','Serbocroat','','','',false,true);
+d.add(62,61,'=163.41','<div class="nodetag">=163.41</div></span>&nbsp;&nbsp;Serbi','=163.41','Serbi','','','',false,true);
+d.add(63,61,'=163.42','<div class="nodetag">=163.42</div></span>&nbsp;&nbsp;Croat','=163.42','Croat','','','',false,true);
+d.add(64,58,'=163.6','<div class="nodetag">=163.6</div></span>&nbsp;&nbsp;Eslovè','=163.6','Eslovè','','','',false,true);
+d.add(65,14,'=17','<div class="nodetag">=17</div></span>&nbsp;&nbsp;Llengües bàltiques','=17','Llengües bàltiques','','','',false,true);
+d.add(66,65,'=172','<div class="nodetag">=172</div></span>&nbsp;&nbsp;Lituà','=172','Lituà','','','',false,true);
+d.add(67,65,'=174','<div class="nodetag">=174</div></span>&nbsp;&nbsp;Letó','=174','Letó','','','',false,true);
+d.add(68,14,'=18','<div class="nodetag">=18</div></span>&nbsp;&nbsp;Albanès','=18','Albanès','','','',false,true);
+d.add(69,14,'=19','<div class="nodetag">=19</div></span>&nbsp;&nbsp;Armeni','=19','Armeni','','','',false,true);
+d.add(70,13,'=2','<div class="nodetag">=2</div></span>&nbsp;&nbsp;Llengües indoiràniques, nuristànic (kafir) i llengües mortes indoeuropees','=2','Llengües indoiràniques, nuristànic (kafir) i llengües mortes indoeuropees','','','',false,true);
+d.add(71,70,'=21/=22','<div class="nodetag">=21/=22</div></span>&nbsp;&nbsp;Llengües indoiràniques','=21/=22','Llengües indoiràniques','','','',false,true);
+d.add(72,71,'=21','<div class="nodetag">=21</div></span>&nbsp;&nbsp;Llengües indoàries','=21','Llengües indoàries','','','',false,true);
+d.add(73,72,'=211','<div class="nodetag">=211</div></span>&nbsp;&nbsp;Sànscrit','=211','Sànscrit','','','',false,true);
+d.add(74,72,'=212','<div class="nodetag">=212</div></span>&nbsp;&nbsp;Pali','=212','Pali','','','',false,true);
+d.add(75,72,'=213','<div class="nodetag">=213</div></span>&nbsp;&nbsp;Pràcrit','=213','Pràcrit','','','',false,true);
+d.add(76,72,'=214','<div class="nodetag">=214</div></span>&nbsp;&nbsp;Llengües indoàries modernes','=214','Llengües indoàries modernes','','','',false,true);
+d.add(77,76,'=214.1','<div class="nodetag">=214.1</div></span>&nbsp;&nbsp;Grup dàrdic','=214.1','Grup dàrdic','','','',false,true);
+d.add(78,76,'=214.2','<div class="nodetag">=214.2</div></span>&nbsp;&nbsp;Grup central de les llengües indoàries','=214.2','Grup central de les llengües indoàries','','','',false,true);
+d.add(79,78,'=214.21','<div class="nodetag">=214.21</div></span>&nbsp;&nbsp;Hindi','=214.21','Hindi','','','',false,true);
+d.add(80,78,'=214.22','<div class="nodetag">=214.22</div></span>&nbsp;&nbsp;Urdú','=214.22','Urdú','','','',false,true);
+d.add(81,78,'=214.25','<div class="nodetag">=214.25</div></span>&nbsp;&nbsp;Gujarati','=214.25','Gujarati','','','',false,true);
+d.add(82,78,'=214.27','<div class="nodetag">=214.27</div></span>&nbsp;&nbsp;Panjabi','=214.27','Panjabi','','','',false,true);
+d.add(83,78,'=214.28','<div class="nodetag">=214.28</div></span>&nbsp;&nbsp;Rajasthani','=214.28','Rajasthani','','','',false,true);
+d.add(84,76,'=214.3','<div class="nodetag">=214.3</div></span>&nbsp;&nbsp;Grup oriental de les llengües indoàries','=214.3','Grup oriental de les llengües indoàries','','','',false,true);
+d.add(85,84,'=214.32','<div class="nodetag">=214.32</div></span>&nbsp;&nbsp;Bengalí','=214.32','Bengalí','','','',false,true);
+d.add(86,84,'=214.35','<div class="nodetag">=214.35</div></span>&nbsp;&nbsp;Marathi','=214.35','Marathi','','','',false,true);
+d.add(87,76,'=214.4','<div class="nodetag">=214.4</div></span>&nbsp;&nbsp;Grup septentrional de les llengües indoàries','=214.4','Grup septentrional de les llengües indoàries','','','',false,true);
+d.add(88,87,'=214.43','<div class="nodetag">=214.43</div></span>&nbsp;&nbsp;Nepalès','=214.43','Nepalès','','','',false,true);
+d.add(89,76,'=214.5','<div class="nodetag">=214.5</div></span>&nbsp;&nbsp;Grup nord-occidental de les llengües indoàries','=214.5','Grup nord-occidental de les llengües indoàries','','','',false,true);
+d.add(90,89,'=214.52','<div class="nodetag">=214.52</div></span>&nbsp;&nbsp;Sindhi','=214.52','Sindhi','','','',false,true);
+d.add(91,89,'=214.58','<div class="nodetag">=214.58</div></span>&nbsp;&nbsp;Romaní (gitano)','=214.58','Romaní (gitano)','','','',false,true);
+d.add(92,76,'=214.6','<div class="nodetag">=214.6</div></span>&nbsp;&nbsp;Grup singalès-maldivès (diveí)','=214.6','Grup singalès-maldivès (diveí)','','','',false,true);
+d.add(93,71,'=22','<div class="nodetag">=22</div></span>&nbsp;&nbsp;Llengües iràniques','=22','Llengües iràniques','','','',false,true);
+d.add(94,93,'=221','<div class="nodetag">=221</div></span>&nbsp;&nbsp;Llengües iràniques orientals','=221','Llengües iràniques orientals','','','',false,true);
+d.add(95,94,'=221.31','<div class="nodetag">=221.31</div></span>&nbsp;&nbsp;Paixtu (afganès)','=221.31','Paixtu (afganès)','','','',false,true);
+d.add(96,93,'=222/=223','<div class="nodetag">=222/=223</div></span>&nbsp;&nbsp;Llengües iràniques occidentals','=222/=223','Llengües iràniques occidentals','','','',false,true);
+d.add(97,96,'=222.1','<div class="nodetag">=222.1</div></span>&nbsp;&nbsp;Persa','=222.1','Persa','','','',false,true);
+d.add(98,96,'=222.5','<div class="nodetag">=222.5</div></span>&nbsp;&nbsp;Kurd','=222.5','Kurd','','','',false,true);
+d.add(99,70,'=29','<div class="nodetag">=29</div></span>&nbsp;&nbsp;Llengües mortes indoeuropees (no classificades enlloc més)','=29','Llengües mortes indoeuropees (no classificades enlloc més)','','','',false,true);
+d.add(100,12,'=3','<div class="nodetag">=3</div></span>&nbsp;&nbsp;Llengües mortes d\'origen desconegut. Llengües caucàsiques','=3','Llengües mortes d\'origen desconegut. Llengües caucàsiques','','','',false,true);
+d.add(101,100,'=34','<div class="nodetag">=34</div></span>&nbsp;&nbsp;Llengües mortes d\'origen desconegut parlades al Mediterrani i a l\'Orient Mitjà (excepte les semítiques)','=34','Llengües mortes d\'origen desconegut parlades al Mediterrani i a l\'Orient Mitjà (excepte les semítiques)','','','',false,true);
+d.add(102,100,'=35','<div class="nodetag">=35</div></span>&nbsp;&nbsp;Llengües caucàsiques','=35','Llengües caucàsiques','','','',false,true);
+d.add(103,102,'=351','<div class="nodetag">=351</div></span>&nbsp;&nbsp;Grup nord-oriental de les llengües caucàsiques','=351','Grup nord-oriental de les llengües caucàsiques','','','',false,true);
+d.add(104,102,'=352','<div class="nodetag">=352</div></span>&nbsp;&nbsp;Grup nord-occidental de les llengües caucàsiques','=352','Grup nord-occidental de les llengües caucàsiques','','','',false,true);
+d.add(105,102,'=353','<div class="nodetag">=353</div></span>&nbsp;&nbsp;Grup meridional (kartvelià) de les llengües caucàsiques','=353','Grup meridional (kartvelià) de les llengües caucàsiques','','','',false,true);
+d.add(106,105,'=353.1','<div class="nodetag">=353.1</div></span>&nbsp;&nbsp;Georgià','=353.1','Georgià','','','',false,true);
+d.add(107,100,'=361','<div class="nodetag">=361</div></span>&nbsp;&nbsp;Basc. Euskara, èuscar','=361','Basc. Euskara, èuscar','','','',false,true);
+d.add(108,12,'=4','<div class="nodetag">=4</div></span>&nbsp;&nbsp;Llengües afroasiàtiques, nilosaharianes, congoleses-kurdufanianes, khoisan','=4','Llengües afroasiàtiques, nilosaharianes, congoleses-kurdufanianes, khoisan','','','',false,true);
+d.add(109,108,'=41','<div class="nodetag">=41</div></span>&nbsp;&nbsp;Llengües afroasiàtiques (camitosemítiques)','=41','Llengües afroasiàtiques (camitosemítiques)','','','',false,true);
+d.add(110,109,'=411','<div class="nodetag">=411</div></span>&nbsp;&nbsp;Llengües semítiques','=411','Llengües semítiques','','','',false,true);
+d.add(111,110,'=411.1','<div class="nodetag">=411.1</div></span>&nbsp;&nbsp;Llengües semítiques septentrionals','=411.1','Llengües semítiques septentrionals','','','',false,true);
+d.add(112,111,'=411.16','<div class="nodetag">=411.16</div></span>&nbsp;&nbsp;Hebreu','=411.16','Hebreu','','','',false,true);
+d.add(113,110,'=411.2','<div class="nodetag">=411.2</div></span>&nbsp;&nbsp;Llengües semítiques sud-occidentals','=411.2','Llengües semítiques sud-occidentals','','','',false,true);
+d.add(114,113,'=411.21','<div class="nodetag">=411.21</div></span>&nbsp;&nbsp;Àrab','=411.21','Àrab','','','',false,true);
+d.add(115,110,'=411.3','<div class="nodetag">=411.3</div></span>&nbsp;&nbsp;Llengües semítiques sud-orientals','=411.3','Llengües semítiques sud-orientals','','','',false,true);
+d.add(116,110,'=411.4','<div class="nodetag">=411.4</div></span>&nbsp;&nbsp;Llengües semítiques etiòpiques','=411.4','Llengües semítiques etiòpiques','','','',false,true);
+d.add(117,109,'=412','<div class="nodetag">=412</div></span>&nbsp;&nbsp;Egipci-copte','=412','Egipci-copte','','','',false,true);
+d.add(118,109,'=413','<div class="nodetag">=413</div></span>&nbsp;&nbsp;Llengües berbers','=413','Llengües berbers','','','',false,true);
+d.add(119,109,'=414','<div class="nodetag">=414</div></span>&nbsp;&nbsp;Llengües del Txad (txadià)','=414','Llengües del Txad (txadià)','','','',false,true);
+d.add(120,119,'=414.231','<div class="nodetag">=414.231</div></span>&nbsp;&nbsp;Hausa','=414.231','Hausa','','','',false,true);
+d.add(121,109,'=415','<div class="nodetag">=415</div></span>&nbsp;&nbsp;Llengües cuixítiques','=415','Llengües cuixítiques','','','',false,true);
+d.add(122,109,'=416','<div class="nodetag">=416</div></span>&nbsp;&nbsp;Llengües omòtiques','=416','Llengües omòtiques','','','',false,true);
+d.add(123,108,'=42','<div class="nodetag">=42</div></span>&nbsp;&nbsp;Llengües nilosaharianes','=42','Llengües nilosaharianes','','','',false,true);
+d.add(124,123,'=422','<div class="nodetag">=422</div></span>&nbsp;&nbsp;Branca sahariana','=422','Branca sahariana','','','',false,true);
+d.add(125,123,'=425','<div class="nodetag">=425</div></span>&nbsp;&nbsp;Llengües komanes','=425','Llengües komanes','','','',false,true);
+d.add(126,123,'=426','<div class="nodetag">=426</div></span>&nbsp;&nbsp;Branca chari-nilòtica','=426','Branca chari-nilòtica','','','',false,true);
+d.add(127,108,'=43','<div class="nodetag">=43</div></span>&nbsp;&nbsp;Llengües congoleses-kurdufanianes (nigerokurdufanianes)','=43','Llengües congoleses-kurdufanianes (nigerokurdufanianes)','','','',false,true);
+d.add(128,127,'=431','<div class="nodetag">=431</div></span>&nbsp;&nbsp;Llengües kurdufanianes','=431','Llengües kurdufanianes','','','',false,true);
+d.add(129,127,'=432','<div class="nodetag">=432</div></span>&nbsp;&nbsp;Llengües nigerocongoleses','=432','Llengües nigerocongoleses','','','',false,true);
+d.add(130,108,'=45','<div class="nodetag">=45</div></span>&nbsp;&nbsp;Llengües khoisan','=45','Llengües khoisan','','','',false,true);
+d.add(131,12,'=5','<div class="nodetag">=5</div></span>&nbsp;&nbsp;Llengües uraloaltaiques. Japonès. Coreà. Ainu. Llengües paleosiberianes, esquimoaleutanes, dravídiques, sinotibetanes','=5','Llengües uraloaltaiques. Japonès. Coreà. Ainu. Llengües paleosiberianes, esquimoaleutanes, dravídiques, sinotibetanes','','','',false,true);
+d.add(132,131,'=51','<div class="nodetag">=51</div></span>&nbsp;&nbsp;Llengües uraloaltaiques','=51','Llengües uraloaltaiques','','','',false,true);
+d.add(133,132,'=511','<div class="nodetag">=511</div></span>&nbsp;&nbsp;Llengües uralianes','=511','Llengües uralianes','','','',false,true);
+d.add(134,133,'=511.1','<div class="nodetag">=511.1</div></span>&nbsp;&nbsp;Llengües finoúgriques','=511.1','Llengües finoúgriques','','','',false,true);
+d.add(135,134,'=511.11','<div class="nodetag">=511.11</div></span>&nbsp;&nbsp;Llengües fineses','=511.11','Llengües fineses','','','',false,true);
+d.add(136,135,'=511.111','<div class="nodetag">=511.111</div></span>&nbsp;&nbsp;Finès (suomi)','=511.111','Finès (suomi)','','','',false,true);
+d.add(137,135,'=511.113','<div class="nodetag">=511.113</div></span>&nbsp;&nbsp;Estonià','=511.113','Estonià','','','',false,true);
+d.add(138,134,'=511.12','<div class="nodetag">=511.12</div></span>&nbsp;&nbsp;Sami, lapó','=511.12','Sami, lapó','','','',false,true);
+d.add(139,134,'=511.14','<div class="nodetag">=511.14</div></span>&nbsp;&nbsp;Llengües úgriques','=511.14','Llengües úgriques','','','',false,true);
+d.add(140,139,'=511.141','<div class="nodetag">=511.141</div></span>&nbsp;&nbsp;Hongarès (magiar)','=511.141','Hongarès (magiar)','','','',false,true);
+d.add(141,133,'=511.2','<div class="nodetag">=511.2</div></span>&nbsp;&nbsp;Llengües samoiedes','=511.2','Llengües samoiedes','','','',false,true);
+d.add(142,132,'=512','<div class="nodetag">=512</div></span>&nbsp;&nbsp;Llengües altaiques','=512','Llengües altaiques','','','',false,true);
+d.add(143,142,'=512.1','<div class="nodetag">=512.1</div></span>&nbsp;&nbsp;Llengües turqueses','=512.1','Llengües turqueses','','','',false,true);
+d.add(144,143,'=512.12','<div class="nodetag">=512.12</div></span>&nbsp;&nbsp;Grup central de les llengües turqueses','=512.12','Grup central de les llengües turqueses','','','',false,true);
+d.add(145,144,'=512.122','<div class="nodetag">=512.122</div></span>&nbsp;&nbsp;Kazakh','=512.122','Kazakh','','','',false,true);
+d.add(146,143,'=512.13','<div class="nodetag">=512.13</div></span>&nbsp;&nbsp;Grup oriental (karluk) de les llengües turqueses','=512.13','Grup oriental (karluk) de les llengües turqueses','','','',false,true);
+d.add(147,146,'=512.133','<div class="nodetag">=512.133</div></span>&nbsp;&nbsp;Uzbek','=512.133','Uzbek','','','',false,true);
+d.add(148,143,'=512.14','<div class="nodetag">=512.14</div></span>&nbsp;&nbsp;Grup occidental de les llengües turqueses','=512.14','Grup occidental de les llengües turqueses','','','',false,true);
+d.add(149,143,'=512.15','<div class="nodetag">=512.15</div></span>&nbsp;&nbsp;Grup septentrional de les llengües turqueses','=512.15','Grup septentrional de les llengües turqueses','','','',false,true);
+d.add(150,149,'=512.154','<div class="nodetag">=512.154</div></span>&nbsp;&nbsp;Kirguís','=512.154','Kirguís','','','',false,true);
+d.add(151,143,'=512.16','<div class="nodetag">=512.16</div></span>&nbsp;&nbsp;Grup meridional de les llengües turqueses','=512.16','Grup meridional de les llengües turqueses','','','',false,true);
+d.add(152,151,'=512.161','<div class="nodetag">=512.161</div></span>&nbsp;&nbsp;Turc (osmanlí)','=512.161','Turc (osmanlí)','','','',false,true);
+d.add(153,151,'=512.162','<div class="nodetag">=512.162</div></span>&nbsp;&nbsp;Àzeri','=512.162','Àzeri','','','',false,true);
+d.add(154,151,'=512.164','<div class="nodetag">=512.164</div></span>&nbsp;&nbsp;Turcman','=512.164','Turcman','','','',false,true);
+d.add(155,142,'=512.2','<div class="nodetag">=512.2</div></span>&nbsp;&nbsp;Llengües tungús','=512.2','Llengües tungús','','','',false,true);
+d.add(156,142,'=512.3','<div class="nodetag">=512.3</div></span>&nbsp;&nbsp;Llengües mongoles','=512.3','Llengües mongoles','','','',false,true);
+d.add(157,131,'=521','<div class="nodetag">=521</div></span>&nbsp;&nbsp;Japonès','=521','Japonès','','','',false,true);
+d.add(158,131,'=531','<div class="nodetag">=531</div></span>&nbsp;&nbsp;Coreà','=531','Coreà','','','',false,true);
+d.add(159,131,'=541','<div class="nodetag">=541</div></span>&nbsp;&nbsp;Ainu','=541','Ainu','','','',false,true);
+d.add(160,131,'=55','<div class="nodetag">=55</div></span>&nbsp;&nbsp;Llengües paleosiberianes','=55','Llengües paleosiberianes','','','',false,true);
+d.add(161,131,'=56','<div class="nodetag">=56</div></span>&nbsp;&nbsp;Llengües esquimoaleutanes','=56','Llengües esquimoaleutanes','','','',false,true);
+d.add(162,131,'=58','<div class="nodetag">=58</div></span>&nbsp;&nbsp;Llengües sinotibetanes','=58','Llengües sinotibetanes','','','',false,true);
+d.add(163,162,'=581','<div class="nodetag">=581</div></span>&nbsp;&nbsp;Llengües xineses','=581','Llengües xineses','','','',false,true);
+d.add(164,162,'=582','<div class="nodetag">=582</div></span>&nbsp;&nbsp;Llengües kam-tai','=582','Llengües kam-tai','','','',false,true);
+d.add(165,162,'=583','<div class="nodetag">=583</div></span>&nbsp;&nbsp;Llengües hmong-mien (miao-yao)','=583','Llengües hmong-mien (miao-yao)','','','',false,true);
+d.add(166,162,'=584','<div class="nodetag">=584</div></span>&nbsp;&nbsp;Llengües tibetobirmanes','=584','Llengües tibetobirmanes','','','',false,true);
+d.add(167,12,'=6','<div class="nodetag">=6</div></span>&nbsp;&nbsp;Llengües austroasiàtiques. Llengües austronèsiques','=6','Llengües austroasiàtiques. Llengües austronèsiques','','','',false,true);
+d.add(168,167,'=61','<div class="nodetag">=61</div></span>&nbsp;&nbsp;Llengües austroasiàtiques','=61','Llengües austroasiàtiques','','','',false,true);
+d.add(169,168,'=611','<div class="nodetag">=611</div></span>&nbsp;&nbsp;Grup aslià','=611','Grup aslià','','','',false,true);
+d.add(170,168,'=612','<div class="nodetag">=612</div></span>&nbsp;&nbsp;Llengües monkhmer','=612','Llengües monkhmer','','','',false,true);
+d.add(171,170,'=612.4','<div class="nodetag">=612.4</div></span>&nbsp;&nbsp;Khmer (cambodjà)','=612.4','Khmer (cambodjà)','','','',false,true);
+d.add(172,170,'=612.91','<div class="nodetag">=612.91</div></span>&nbsp;&nbsp;Vietnamita','=612.91','Vietnamita','','','',false,true);
+d.add(173,168,'=613','<div class="nodetag">=613</div></span>&nbsp;&nbsp;Llengües munda','=613','Llengües munda','','','',false,true);
+d.add(174,168,'=614','<div class="nodetag">=614</div></span>&nbsp;&nbsp;Grup nicobarès','=614','Grup nicobarès','','','',false,true);
+d.add(175,167,'=62','<div class="nodetag">=62</div></span>&nbsp;&nbsp;Llengües austronèsiques','=62','Llengües austronèsiques','','','',false,true);
+d.add(176,175,'=621','<div class="nodetag">=621</div></span>&nbsp;&nbsp;Llengües malaiopolinèsies','=621','Llengües malaiopolinèsies','','','',false,true);
+d.add(177,176,'=621.251','<div class="nodetag">=621.251</div></span>&nbsp;&nbsp;Malai, indonesi','=621.251','Malai, indonesi','','','',false,true);
+d.add(178,175,'=622','<div class="nodetag">=622</div></span>&nbsp;&nbsp;Llengües d\'Oceania','=622','Llengües d\'Oceania','','','',false,true);
+d.add(179,12,'=7','<div class="nodetag">=7</div></span>&nbsp;&nbsp;Llengües indopacífiques (no austronèsiques). Llengües australianes','=7','Llengües indopacífiques (no austronèsiques). Llengües australianes','','','',false,true);
+d.add(180,179,'=71','<div class="nodetag">=71</div></span>&nbsp;&nbsp;Llengües indopacífiques (no austronèsiques)','=71','Llengües indopacífiques (no austronèsiques)','','','',false,true);
+d.add(181,180,'=713','<div class="nodetag">=713</div></span>&nbsp;&nbsp;Llengües papús de Nova Guinea','=713','Llengües papús de Nova Guinea','','','',false,true);
+d.add(182,180,'=714','<div class="nodetag">=714</div></span>&nbsp;&nbsp;Llengües papús nord-orientals (madang)','=714','Llengües papús nord-orientals (madang)','','','',false,true);
+d.add(183,180,'=715','<div class="nodetag">=715</div></span>&nbsp;&nbsp;Llengües papús occidentals','=715','Llengües papús occidentals','','','',false,true);
+d.add(184,180,'=716','<div class="nodetag">=716</div></span>&nbsp;&nbsp;Llengües de Bougainville','=716','Llengües de Bougainville','','','',false,true);
+d.add(185,180,'=718','<div class="nodetag">=718</div></span>&nbsp;&nbsp;Tasmanià','=718','Tasmanià','','','',false,true);
+d.add(186,180,'=719','<div class="nodetag">=719</div></span>&nbsp;&nbsp;Altres llengües indopacífiques','=719','Altres llengües indopacífiques','','','',false,true);
+d.add(187,179,'=72','<div class="nodetag">=72</div></span>&nbsp;&nbsp;Llengües australianes','=72','Llengües australianes','','','',false,true);
+d.add(188,187,'=721','<div class="nodetag">=721</div></span>&nbsp;&nbsp;Grup pama-maric','=721','Grup pama-maric','','','',false,true);
+d.add(189,187,'=722','<div class="nodetag">=722</div></span>&nbsp;&nbsp;Grup pama-nyungan','=722','Grup pama-nyungan','','','',false,true);
+d.add(190,187,'=729','<div class="nodetag">=729</div></span>&nbsp;&nbsp;Altres llengües aborígens d\'Austràlia','=729','Altres llengües aborígens d\'Austràlia','','','',false,true);
+d.add(191,12,'=8','<div class="nodetag">=8</div></span>&nbsp;&nbsp;Llengües ameríndies','=8','Llengües ameríndies','','','',false,true);
+d.add(192,191,'=81','<div class="nodetag">=81</div></span>&nbsp;&nbsp;Llengües aborígens de l\'Amèrica del Nord','=81','Llengües aborígens de l\'Amèrica del Nord','','','',false,true);
+d.add(193,191,'=82','<div class="nodetag">=82</div></span>&nbsp;&nbsp;Llengües aborígens de Mèxic i del Yucatan','=82','Llengües aborígens de Mèxic i del Yucatan','','','',false,true);
+d.add(194,193,'=821.24','<div class="nodetag">=821.24</div></span>&nbsp;&nbsp;Mixe-Soque','=821.24','Mixe-Soque','','','',false,true);
+d.add(195,193,'=822.21','<div class="nodetag">=822.21</div></span>&nbsp;&nbsp;Nàhuatl','=822.21','Nàhuatl','','','',false,true);
+d.add(196,193,'=823.7','<div class="nodetag">=823.7</div></span>&nbsp;&nbsp;Llengües zapoteques','=823.7','Llengües zapoteques','','','',false,true);
+d.add(197,191,'=84/=88','<div class="nodetag">=84/=88</div></span>&nbsp;&nbsp;Llengües aborígens de l\'Amèrica Central i del Sud','=84/=88','Llengües aborígens de l\'Amèrica Central i del Sud','','','',false,true);
+d.add(198,197,'=84','<div class="nodetag">=84</div></span>&nbsp;&nbsp;Llengües ge-pano-carib. Llengües macro-txibtxanes','=84','Llengües ge-pano-carib. Llengües macro-txibtxanes','','','',false,true);
+d.add(199,198,'=842','<div class="nodetag">=842</div></span>&nbsp;&nbsp;Llengües ge-pano-carib','=842','Llengües ge-pano-carib','','','',false,true);
+d.add(200,198,'=845','<div class="nodetag">=845</div></span>&nbsp;&nbsp;Llengües macro-txibtxanes','=845','Llengües macro-txibtxanes','','','',false,true);
+d.add(201,197,'=85','<div class="nodetag">=85</div></span>&nbsp;&nbsp;Llengües andines. Llengües equatorials','=85','Llengües andines. Llengües equatorials','','','',false,true);
+d.add(202,201,'=852','<div class="nodetag">=852</div></span>&nbsp;&nbsp;Llengües andines','=852','Llengües andines','','','',false,true);
+d.add(203,202,'=852.11','<div class="nodetag">=852.11</div></span>&nbsp;&nbsp;Llengües aimara','=852.11','Llengües aimara','','','',false,true);
+d.add(204,202,'=852.2','<div class="nodetag">=852.2</div></span>&nbsp;&nbsp;Llengües quítxua','=852.2','Llengües quítxua','','','',false,true);
+d.add(205,202,'=852.5','<div class="nodetag">=852.5</div></span>&nbsp;&nbsp;Llengües araucanes','=852.5','Llengües araucanes','','','',false,true);
+d.add(206,205,'=852.51','<div class="nodetag">=852.51</div></span>&nbsp;&nbsp;Maputxe, mapudungun','=852.51','Maputxe, mapudungun','','','',false,true);
+d.add(207,201,'=855','<div class="nodetag">=855</div></span>&nbsp;&nbsp;Llengües equatorials','=855','Llengües equatorials','','','',false,true);
+d.add(208,207,'=855.21','<div class="nodetag">=855.21</div></span>&nbsp;&nbsp;Llengües guaranís','=855.21','Llengües guaranís','','','',false,true);
+d.add(209,197,'=86','<div class="nodetag">=86</div></span>&nbsp;&nbsp;Llengües del Chaco. Llengües de la Patagònia i la Terra del Foc','=86','Llengües del Chaco. Llengües de la Patagònia i la Terra del Foc','','','',false,true);
+d.add(210,209,'=862','<div class="nodetag">=862</div></span>&nbsp;&nbsp;Llengües del Chaco','=862','Llengües del Chaco','','','',false,true);
+d.add(211,209,'=865','<div class="nodetag">=865</div></span>&nbsp;&nbsp;Llengües de la Patagònia i de la Terra del Foc','=865','Llengües de la Patagònia i de la Terra del Foc','','','',false,true);
+d.add(212,197,'=88','<div class="nodetag">=88</div></span>&nbsp;&nbsp;Llengües aborígens aïllades o no classificades de l\'Amèrica Central i del Sud','=88','Llengües aborígens aïllades o no classificades de l\'Amèrica Central i del Sud','','','',false,true);
+d.add(213,11,'=9','<div class="nodetag">=9</div></span>&nbsp;&nbsp;Llengües i llenguatges artificials','=9','Llengües i llenguatges artificials','','','',false,true);
+d.add(214,213,'=92','<div class="nodetag">=92</div></span>&nbsp;&nbsp;Llengües artificials emprades pels éssers humans. Llengües auxiliars internacionals (interllengües).','=92','Llengües artificials emprades pels éssers humans. Llengües auxiliars internacionals (interllengües).','','','',false,true);
+d.add(215,214,'=922','<div class="nodetag">=922</div></span>&nbsp;&nbsp;Esperanto','=922','Esperanto','','','',false,true);
+d.add(216,213,'=93','<div class="nodetag">=93</div></span>&nbsp;&nbsp;Llenguatges artificials emprats per les màquines. Llenguatges de programació. Llenguatges informàtics','=93','Llenguatges artificials emprats per les màquines. Llenguatges de programació. Llenguatges informàtics','','','',false,true);
+d.add(217,0,'(0...)','<div class="nodetag">(0...)</div></span>&nbsp;&nbsp;Auxiliars comuns de forma. Taula 1d','(0...)','Auxiliars comuns de forma. Taula 1d','','','',false,true);
+d.add(218,217,'(0.02/.08)','<div class="nodetag">(0.02/.08)</div></span>&nbsp;&nbsp;Auxiliars especials dels auxiliars de forma, segons la forma física i de presentació, la producció, les característiques d\'ús i el material suplementari dels documents','(0.02/.08)','Auxiliars especials dels auxiliars de forma, segons la forma física i de presentació, la producció, les característiques d\'ús i el material suplementari dels documents','','','',false,true);
+d.add(219,218,'(0.02)','<div class="nodetag">(0.02)</div></span>&nbsp;&nbsp;Documents segons la forma física, de presentació externa','(0.02)','Documents segons la forma física, de presentació externa','','','',false,true);
+d.add(220,218,'(0.03)','<div class="nodetag">(0.03)</div></span>&nbsp;&nbsp;Documents segons el mètode de producció','(0.03)','Documents segons el mètode de producció','','','',false,true);
+d.add(221,220,'(0.032)','<div class="nodetag">(0.032)</div></span>&nbsp;&nbsp;Documents escrits a mà (autògrafs, hològrafs). Manuscrits. Documents pictòrics (dibuixos, pintures)','(0.032)','Documents escrits a mà (autògrafs, hològrafs). Manuscrits. Documents pictòrics (dibuixos, pintures)','','','',false,true);
+d.add(222,220,'(0.034)','<div class="nodetag">(0.034)</div></span>&nbsp;&nbsp;Documents llegibles per màquina, per ordinador','(0.034)','Documents llegibles per màquina, per ordinador','','','',false,true);
+d.add(223,218,'(0.04)','<div class="nodetag">(0.04)</div></span>&nbsp;&nbsp;Documents segons l\'etapa de producció','(0.04)','Documents segons l\'etapa de producció','','','',false,true);
+d.add(224,218,'(0.05)','<div class="nodetag">(0.05)</div></span>&nbsp;&nbsp;Documents segons els destinataris, l\'audiència','(0.05)','Documents segons els destinataris, l\'audiència','','','',false,true);
+d.add(225,218,'(0.06)','<div class="nodetag">(0.06)</div></span>&nbsp;&nbsp;Documents segons el nivell de presentació i la seva disponibilitat i accessibilitat','(0.06)','Documents segons el nivell de presentació i la seva disponibilitat i accessibilitat','','','',false,true);
+d.add(226,218,'(0.07)','<div class="nodetag">(0.07)</div></span>&nbsp;&nbsp;Elements suplementaris que apareixen amb el document','(0.07)','Elements suplementaris que apareixen amb el document','','','',false,true);
+d.add(227,218,'(0.08)','<div class="nodetag">(0.08)</div></span>&nbsp;&nbsp;Suplements o parts de documents publicats per separat','(0.08)','Suplements o parts de documents publicats per separat','','','',false,true);
+d.add(228,217,'(01)','<div class="nodetag">(01)</div></span>&nbsp;&nbsp;Bibliografies','(01)','Bibliografies','','','',false,true);
+d.add(229,217,'(02)','<div class="nodetag">(02)</div></span>&nbsp;&nbsp;Llibres en general','(02)','Llibres en general','','','',false,true);
+d.add(230,217,'(03)','<div class="nodetag">(03)</div></span>&nbsp;&nbsp;Obres de referència','(03)','Obres de referència','','','',false,true);
+d.add(231,230,'(031)','<div class="nodetag">(031)</div></span>&nbsp;&nbsp;Enciclopèdies','(031)','Enciclopèdies','','','',false,true);
+d.add(232,230,'(035)','<div class="nodetag">(035)</div></span>&nbsp;&nbsp;Manuals. Tractats','(035)','Manuals. Tractats','','','',false,true);
+d.add(233,230,'(036)','<div class="nodetag">(036)</div></span>&nbsp;&nbsp;Guies (amb informació pràctica i descriptiva)','(036)','Guies (amb informació pràctica i descriptiva)','','','',false,true);
+d.add(234,230,'(038)','<div class="nodetag">(038)</div></span>&nbsp;&nbsp;Diccionaris','(038)','Diccionaris','','','',false,true);
+d.add(235,217,'(04)','<div class="nodetag">(04)</div></span>&nbsp;&nbsp;Separates no seriades. Conferències. Tesis i dissertacions. Articles. Correspondència','(04)','Separates no seriades. Conferències. Tesis i dissertacions. Articles. Correspondència','','','',false,true);
+d.add(236,235,'(041)','<div class="nodetag">(041)</div></span>&nbsp;&nbsp;Fullets. Pamflets','(041)','Fullets. Pamflets','','','',false,true);
+d.add(237,235,'(042)','<div class="nodetag">(042)</div></span>&nbsp;&nbsp;Discursos. Conferències. Al·locucions','(042)','Discursos. Conferències. Al·locucions','','','',false,true);
+d.add(238,235,'(043)','<div class="nodetag">(043)</div></span>&nbsp;&nbsp;Tesis. Dissertacions. Treballs de final de carrera','(043)','Tesis. Dissertacions. Treballs de final de carrera','','','',false,true);
+d.add(239,235,'(044)','<div class="nodetag">(044)</div></span>&nbsp;&nbsp;Documents personals. Correspondència. Cartes. Circulars','(044)','Documents personals. Correspondència. Cartes. Circulars','','','',false,true);
+d.add(240,235,'(045)','<div class="nodetag">(045)</div></span>&nbsp;&nbsp;Articles dins les publicacions en sèrie, col·leccions, etc. Contribucions','(045)','Articles dins les publicacions en sèrie, col·leccions, etc. Contribucions','','','',false,true);
+d.add(241,235,'(046)','<div class="nodetag">(046)</div></span>&nbsp;&nbsp;Articles de diari, de premsa','(046)','Articles de diari, de premsa','','','',false,true);
+d.add(242,235,'(047)','<div class="nodetag">(047)</div></span>&nbsp;&nbsp;Informes. Notícies. Butlletins','(047)','Informes. Notícies. Butlletins','','','',false,true);
+d.add(243,235,'(048)','<div class="nodetag">(048)</div></span>&nbsp;&nbsp;Descripcions bibliogràfiques. Resums. Ressenyes. Enquestes','(048)','Descripcions bibliogràfiques. Resums. Ressenyes. Enquestes','','','',false,true);
+d.add(244,235,'(049)','<div class="nodetag">(049)</div></span>&nbsp;&nbsp;Altres separates no seriades','(049)','Altres separates no seriades','','','',false,true);
+d.add(245,217,'(05)','<div class="nodetag">(05)</div></span>&nbsp;&nbsp;Publicacions en sèrie. Publicacions periòdiques. Revistes. Diaris','(05)','Publicacions en sèrie. Publicacions periòdiques. Revistes. Diaris','','','',false,true);
+d.add(246,245,'(051)','<div class="nodetag">(051)</div></span>&nbsp;&nbsp;Publicacions periòdiques. Revistes','(051)','Publicacions periòdiques. Revistes','','','',false,true);
+d.add(247,245,'(054)','<div class="nodetag">(054)</div></span>&nbsp;&nbsp;Diaris','(054)','Diaris','','','',false,true);
+d.add(248,245,'(055)','<div class="nodetag">(055)</div></span>&nbsp;&nbsp;Butlletins de notícies. Butlletins informatius','(055)','Butlletins de notícies. Butlletins informatius','','','',false,true);
+d.add(249,245,'(058)','<div class="nodetag">(058)</div></span>&nbsp;&nbsp;Anuaris. Directoris','(058)','Anuaris. Directoris','','','',false,true);
+d.add(250,245,'(059)','<div class="nodetag">(059)</div></span>&nbsp;&nbsp;Almanacs. Calendaris (de tot tipus)','(059)','Almanacs. Calendaris (de tot tipus)','','','',false,true);
+d.add(251,217,'(06)','<div class="nodetag">(06)</div></span>&nbsp;&nbsp;Publicacions relacionades amb entitats (societats, associacions, organitzacions, etc.)','(06)','Publicacions relacionades amb entitats (societats, associacions, organitzacions, etc.)','','','',false,true);
+d.add(252,217,'(07)','<div class="nodetag">(07)</div></span>&nbsp;&nbsp;Documents per a l\'ensenyament, la formació i l\'estudi','(07)','Documents per a l\'ensenyament, la formació i l\'estudi','','','',false,true);
+d.add(253,252,'(072)','<div class="nodetag">(072)</div></span>&nbsp;&nbsp;Documents pedagògics, per a l\'ensenyament. Ajudes per al professorat','(072)','Documents pedagògics, per a l\'ensenyament. Ajudes per al professorat','','','',false,true);
+d.add(254,252,'(073)','<div class="nodetag">(073)</div></span>&nbsp;&nbsp;Programes i plans d\'estudi. Curricula educatius','(073)','Programes i plans d\'estudi. Curricula educatius','','','',false,true);
+d.add(255,252,'(075)','<div class="nodetag">(075)</div></span>&nbsp;&nbsp;Llibres de text. Manuals escolars. Textos pedagògics per als estudiants','(075)','Llibres de text. Manuals escolars. Textos pedagògics per als estudiants','','','',false,true);
+d.add(256,252,'(076)','<div class="nodetag">(076)</div></span>&nbsp;&nbsp;Documents i manuals per a la instrucció pràctica','(076)','Documents i manuals per a la instrucció pràctica','','','',false,true);
+d.add(257,252,'(078)','<div class="nodetag">(078)</div></span>&nbsp;&nbsp;Documents i materials didàctics no classificats enlloc més','(078)','Documents i materials didàctics no classificats enlloc més','','','',false,true);
+d.add(258,252,'(079)','<div class="nodetag">(079)</div></span>&nbsp;&nbsp;Documents relatius als concursos, qüestionaris, tests, exàmens, etc.','(079)','Documents relatius als concursos, qüestionaris, tests, exàmens, etc.','','','',false,true);
+d.add(259,217,'(08)','<div class="nodetag">(08)</div></span>&nbsp;&nbsp;Poligrafies i col·leccions. Formularis. Llistes. Il·lustracions. Publicacions comercials','(08)','Poligrafies i col·leccions. Formularis. Llistes. Il·lustracions. Publicacions comercials','','','',false,true);
+d.add(260,259,'(081)','<div class="nodetag">(081)</div></span>&nbsp;&nbsp;Poligrafies individuals. Reculls d\'obres d\'autors individuals','(081)','Poligrafies individuals. Reculls d\'obres d\'autors individuals','','','',false,true);
+d.add(261,259,'(082)','<div class="nodetag">(082)</div></span>&nbsp;&nbsp;Poligrafies col·lectives. Reculls d\'obres de diversos autors','(082)','Poligrafies col·lectives. Reculls d\'obres de diversos autors','','','',false,true);
+d.add(262,259,'(083)','<div class="nodetag">(083)</div></span>&nbsp;&nbsp;Documents tècnics i normatius. Taules. Llistes, etc.','(083)','Documents tècnics i normatius. Taules. Llistes, etc.','','','',false,true);
+d.add(263,259,'(084)','<div class="nodetag">(084)</div></span>&nbsp;&nbsp;Imatges. Documents iconogràfics. Documents gràfics','(084)','Imatges. Documents iconogràfics. Documents gràfics','','','',false,true);
+d.add(264,259,'(085)','<div class="nodetag">(085)</div></span>&nbsp;&nbsp;Publicacions d\'empreses (comercials i industrials). Documents publicitaris. Informació comercial','(085)','Publicacions d\'empreses (comercials i industrials). Documents publicitaris. Informació comercial','','','',false,true);
+d.add(265,259,'(086)','<div class="nodetag">(086)</div></span>&nbsp;&nbsp;Documents i objectes en tres dimensions. Documents sonors i audiovisuals','(086)','Documents i objectes en tres dimensions. Documents sonors i audiovisuals','','','',false,true);
+d.add(266,265,'(086.3)','<div class="nodetag">(086.3)</div></span>&nbsp;&nbsp;Objectes i espècimens (mostres) com a documents','(086.3)','Objectes i espècimens (mostres) com a documents','','','',false,true);
+d.add(267,265,'(086.7)','<div class="nodetag">(086.7)</div></span>&nbsp;&nbsp;Documents àudio. Enregistraments sonors','(086.7)','Documents àudio. Enregistraments sonors','','','',false,true);
+d.add(268,265,'(086.8)','<div class="nodetag">(086.8)</div></span>&nbsp;&nbsp;Enregistraments de vídeo','(086.8)','Enregistraments de vídeo','','','',false,true);
+d.add(269,259,'(088)','<div class="nodetag">(088)</div></span>&nbsp;&nbsp;Documents testificatius, atestats. Documents amb finalitats específiques','(088)','Documents testificatius, atestats. Documents amb finalitats específiques','','','',false,true);
+d.add(270,217,'(09)','<div class="nodetag">(09)</div></span>&nbsp;&nbsp;Publicacions amb forma de coneixement històrica. Fonts històriques i legals','(09)','Publicacions amb forma de coneixement històrica. Fonts històriques i legals','','','',false,true);
+d.add(271,270,'(091)','<div class="nodetag">(091)</div></span>&nbsp;&nbsp;Presentació sota forma històrica, cronològica. Forma de coneixement històrica en sentit estricte','(091)','Presentació sota forma històrica, cronològica. Forma de coneixement històrica en sentit estricte','','','',false,true);
+d.add(272,270,'(092)','<div class="nodetag">(092)</div></span>&nbsp;&nbsp;Presentació biogràfica','(092)','Presentació biogràfica','','','',false,true);
+d.add(273,270,'(093)','<div class="nodetag">(093)</div></span>&nbsp;&nbsp;Fonts històriques','(093)','Fonts històriques','','','',false,true);
+d.add(274,270,'(094)','<div class="nodetag">(094)</div></span>&nbsp;&nbsp;Fonts jurídiques. Documents legals','(094)','Fonts jurídiques. Documents legals','','','',false,true);
+d.add(275,0,'(1/9)','<div class="nodetag">(1/9)</div></span>&nbsp;&nbsp;Auxiliars comuns de lloc. Taula 1e','(1/9)','Auxiliars comuns de lloc. Taula 1e','','','',false,true);
+d.add(276,275,'(1)','<div class="nodetag">(1)</div></span>&nbsp;&nbsp;Lloc i espai en general. Situació. Orientació','(1)','Lloc i espai en general. Situació. Orientació','','','',false,true);
+d.add(277,276,'(100)','<div class="nodetag">(100)</div></span>&nbsp;&nbsp;Universal. Internacional. Tots els països i territoris en general','(100)','Universal. Internacional. Tots els països i territoris en general','','','',false,true);
+d.add(278,275,'(1-0/-9)','<div class="nodetag">(1-0/-9)</div></span>&nbsp;&nbsp;Auxiliars especials per a les fronteres, la regionalització i els diferents tipus de formes de l\'espai','(1-0/-9)','Auxiliars especials per a les fronteres, la regionalització i els diferents tipus de formes de l\'espai','','','',false,true);
+d.add(279,278,'(1-0)','<div class="nodetag">(1-0)</div></span>&nbsp;&nbsp;Zones','(1-0)','Zones','','','',false,true);
+d.add(280,278,'(1-1)','<div class="nodetag">(1-1)</div></span>&nbsp;&nbsp;Orientació. Punts cardinals. Posició relativa','(1-1)','Orientació. Punts cardinals. Posició relativa','','','',false,true);
+d.add(281,280,'(1-11)','<div class="nodetag">(1-11)</div></span>&nbsp;&nbsp;Est. Orient. Llevant','(1-11)','Est. Orient. Llevant','','','',false,true);
+d.add(282,280,'(1-12)','<div class="nodetag">(1-12)</div></span>&nbsp;&nbsp;Sud-Est. Sud-oriental','(1-12)','Sud-Est. Sud-oriental','','','',false,true);
+d.add(283,280,'(1-13)','<div class="nodetag">(1-13)</div></span>&nbsp;&nbsp;Sud. Meridional','(1-13)','Sud. Meridional','','','',false,true);
+d.add(284,280,'(1-14)','<div class="nodetag">(1-14)</div></span>&nbsp;&nbsp;Sud-Oest. Sud-occidental','(1-14)','Sud-Oest. Sud-occidental','','','',false,true);
+d.add(285,280,'(1-15)','<div class="nodetag">(1-15)</div></span>&nbsp;&nbsp;Oest. Occident. Ponent','(1-15)','Oest. Occident. Ponent','','','',false,true);
+d.add(286,280,'(1-16)','<div class="nodetag">(1-16)</div></span>&nbsp;&nbsp;Nord-Oest. Nord-occidental','(1-16)','Nord-Oest. Nord-occidental','','','',false,true);
+d.add(287,280,'(1-17)','<div class="nodetag">(1-17)</div></span>&nbsp;&nbsp;Nord. Septentrional','(1-17)','Nord. Septentrional','','','',false,true);
+d.add(288,280,'(1-18)','<div class="nodetag">(1-18)</div></span>&nbsp;&nbsp;Nord-Est. Nord-oriental','(1-18)','Nord-Est. Nord-oriental','','','',false,true);
+d.add(289,280,'(1-19)','<div class="nodetag">(1-19)</div></span>&nbsp;&nbsp;Posició, emplaçament, direcció i orientació relatives','(1-19)','Posició, emplaçament, direcció i orientació relatives','','','',false,true);
+d.add(290,278,'(1-2/-4)','<div class="nodetag">(1-2/-4)</div></span>&nbsp;&nbsp;Unitats polítiques. Unitats administratives','(1-2/-4)','Unitats polítiques. Unitats administratives','','','',false,true);
+d.add(291,290,'(1-2)','<div class="nodetag">(1-2)</div></span>&nbsp;&nbsp;Localitats, municipis. Unitats administratives locals de base','(1-2)','Localitats, municipis. Unitats administratives locals de base','','','',false,true);
+d.add(292,291,'(1-24)','<div class="nodetag">(1-24)</div></span>&nbsp;&nbsp;Unitats administratives locals mancomunades','(1-24)','Unitats administratives locals mancomunades','','','',false,true);
+d.add(293,291,'(1-25)','<div class="nodetag">(1-25)</div></span>&nbsp;&nbsp;Capitals. Metròpolis','(1-25)','Capitals. Metròpolis','','','',false,true);
+d.add(294,290,'(1-3)','<div class="nodetag">(1-3)</div></span>&nbsp;&nbsp;Unitats administratives dins de l\'Estat','(1-3)','Unitats administratives dins de l\'Estat','','','',false,true);
+d.add(295,294,'(1-32)','<div class="nodetag">(1-32)</div></span>&nbsp;&nbsp;Unitats administratives de rang superior. Províncies','(1-32)','Unitats administratives de rang superior. Províncies','','','',false,true);
+d.add(296,294,'(1-35)','<div class="nodetag">(1-35)</div></span>&nbsp;&nbsp;Unitats administratives de rang intermig','(1-35)','Unitats administratives de rang intermig','','','',false,true);
+d.add(297,294,'(1-37)','<div class="nodetag">(1-37)</div></span>&nbsp;&nbsp;Unitats administratives de rang inferior','(1-37)','Unitats administratives de rang inferior','','','',false,true);
+d.add(298,290,'(1-4)','<div class="nodetag">(1-4)</div></span>&nbsp;&nbsp;Estats. Nacions. Confederacions','(1-4)','Estats. Nacions. Confederacions','','','',false,true);
+d.add(299,298,'(1-43)','<div class="nodetag">(1-43)</div></span>&nbsp;&nbsp;Estats constituents dins d\'una confederació. Estats federals. Repúbliques autònomes','(1-43)','Estats constituents dins d\'una confederació. Estats federals. Repúbliques autònomes','','','',false,true);
+d.add(300,298,'(1-44)','<div class="nodetag">(1-44)</div></span>&nbsp;&nbsp;Imperis. Combinació de metròpoli i colònies. Dominions','(1-44)','Imperis. Combinació de metròpoli i colònies. Dominions','','','',false,true);
+d.add(301,278,'(1-5)','<div class="nodetag">(1-5)</div></span>&nbsp;&nbsp;Territoris dependents o semidependents','(1-5)','Territoris dependents o semidependents','','','',false,true);
+d.add(302,278,'(1-6)','<div class="nodetag">(1-6)</div></span>&nbsp;&nbsp;Estats o grups d\'estats independents des de diversos punts de vista','(1-6)','Estats o grups d\'estats independents des de diversos punts de vista','','','',false,true);
+d.add(303,278,'(1-7)','<div class="nodetag">(1-7)</div></span>&nbsp;&nbsp;Llocs, indrets i regions segons el seu caràcter privat, públic i altres característiques especials','(1-7)','Llocs, indrets i regions segons el seu caràcter privat, públic i altres característiques especials','','','',false,true);
+d.add(304,278,'(1-8)','<div class="nodetag">(1-8)</div></span>&nbsp;&nbsp;Emplaçament. Origen. Trànsit. Destinació','(1-8)','Emplaçament. Origen. Trànsit. Destinació','','','',false,true);
+d.add(305,278,'(1-9)','<div class="nodetag">(1-9)</div></span>&nbsp;&nbsp;Regionalització d\'acord amb punts de vista especialitzats','(1-9)','Regionalització d\'acord amb punts de vista especialitzats','','','',false,true);
+d.add(306,275,'(2)','<div class="nodetag">(2)</div></span>&nbsp;&nbsp;Designació fisiogràfica. Llocs i medis físics','(2)','Designació fisiogràfica. Llocs i medis físics','','','',false,true);
+d.add(307,306,'(20)','<div class="nodetag">(20)</div></span>&nbsp;&nbsp;Ecosfera','(20)','Ecosfera','','','',false,true);
+d.add(308,306,'(21)','<div class="nodetag">(21)</div></span>&nbsp;&nbsp;Superfície de la Terra en general. Àrees continentals (terra ferma) en particular. Zones i regions naturals','(21)','Superfície de la Terra en general. Àrees continentals (terra ferma) en particular. Zones i regions naturals','','','',false,true);
+d.add(309,306,'(23)','<div class="nodetag">(23)</div></span>&nbsp;&nbsp;Sobre el nivell del mar. Superfície amb relleu. Muntanyes','(23)','Sobre el nivell del mar. Superfície amb relleu. Muntanyes','','','',false,true);
+d.add(310,306,'(24)','<div class="nodetag">(24)</div></span>&nbsp;&nbsp;Sota el nivell del mar. Sota terra. Subterrani','(24)','Sota el nivell del mar. Sota terra. Subterrani','','','',false,true);
+d.add(311,306,'(25)','<div class="nodetag">(25)</div></span>&nbsp;&nbsp;Sòl, superfície natural plana (per sobre, per sota o al mateix nivell del mar). La terra ferma en estat natural, conreada o habitada','(25)','Sòl, superfície natural plana (per sobre, per sota o al mateix nivell del mar). La terra ferma en estat natural, conreada o habitada','','','',false,true);
+d.add(312,306,'(26)','<div class="nodetag">(26)</div></span>&nbsp;&nbsp;Oceans. Mars. Aigües marines','(26)','Oceans. Mars. Aigües marines','','','',false,true);
+d.add(313,306,'(28)','<div class="nodetag">(28)</div></span>&nbsp;&nbsp;Aigües continentals. Aigües interiors','(28)','Aigües continentals. Aigües interiors','','','',false,true);
+d.add(314,275,'(3/9)','<div class="nodetag">(3/9)</div></span>&nbsp;&nbsp;Llocs i territoris de l\'Antiguitat i del món contemporani','(3/9)','Llocs i territoris de l\'Antiguitat i del món contemporani','','','',false,true);
+d.add(315,314,'(3)','<div class="nodetag">(3)</div></span>&nbsp;&nbsp;Llocs del món antic i medieval','(3)','Llocs del món antic i medieval','','','',false,true);
+d.add(316,315,'(31)','<div class="nodetag">(31)</div></span>&nbsp;&nbsp;Antic Orient. Xina i Japó en l\'Antiguitat','(31)','Antic Orient. Xina i Japó en l\'Antiguitat','','','',false,true);
+d.add(317,315,'(32)','<div class="nodetag">(32)</div></span>&nbsp;&nbsp;Antic Egipte','(32)','Antic Egipte','','','',false,true);
+d.add(318,315,'(33)','<div class="nodetag">(33)</div></span>&nbsp;&nbsp;Judea. Terra Santa. Regió dels israelites','(33)','Judea. Terra Santa. Regió dels israelites','','','',false,true);
+d.add(319,315,'(34)','<div class="nodetag">(34)</div></span>&nbsp;&nbsp;Antiga Índia','(34)','Antiga Índia','','','',false,true);
+d.add(320,315,'(35)','<div class="nodetag">(35)</div></span>&nbsp;&nbsp;Pèrsia i Mèdia','(35)','Pèrsia i Mèdia','','','',false,true);
+d.add(321,315,'(36)','<div class="nodetag">(36)</div></span>&nbsp;&nbsp;Regions dels pobles anomenats bàrbars','(36)','Regions dels pobles anomenats bàrbars','','','',false,true);
+d.add(322,315,'(37)','<div class="nodetag">(37)</div></span>&nbsp;&nbsp;Antiga Roma. Itàlia en l\'Antiguitat','(37)','Antiga Roma. Itàlia en l\'Antiguitat','','','',false,true);
+d.add(323,315,'(38)','<div class="nodetag">(38)</div></span>&nbsp;&nbsp;Antiga Grècia','(38)','Antiga Grècia','','','',false,true);
+d.add(324,315,'(399)','<div class="nodetag">(399)</div></span>&nbsp;&nbsp;Altres regions de l\'Antiguitat. Divisions geogràfiques diferents de les corresponents a l\'Antiguitat clàssica','(399)','Altres regions de l\'Antiguitat. Divisions geogràfiques diferents de les corresponents a l\'Antiguitat clàssica','','','',false,true);
+d.add(325,324,'(399.7)','<div class="nodetag">(399.7)</div></span>&nbsp;&nbsp;Regions de les civilitzacions ameríndies. Amèrica precolombina','(399.7)','Regions de les civilitzacions ameríndies. Amèrica precolombina','','','',false,true);
+d.add(326,314,'(4/9)','<div class="nodetag">(4/9)</div></span>&nbsp;&nbsp;Països, estats i regions del món contemporani','(4/9)','Països, estats i regions del món contemporani','','','',false,true);
+d.add(327,326,'(4)','<div class="nodetag">(4)</div></span>&nbsp;&nbsp;Europa','(4)','Europa','','','',false,true);
+d.add(328,327,'(41)','<div class="nodetag">(41)</div></span>&nbsp;&nbsp;Illes Britàniques','(41)','Illes Britàniques','','','',false,true);
+d.add(329,328,'(410)','<div class="nodetag">(410)</div></span>&nbsp;&nbsp;Regne Unit de la Gran Bretanya i Irlanda del Nord. United Kingdom of Great Britain and Northern Ireland','(410)','Regne Unit de la Gran Bretanya i Irlanda del Nord. United Kingdom of Great Britain and Northern Ireland','','','',false,true);
+d.add(330,328,'(417)','<div class="nodetag">(417)</div></span>&nbsp;&nbsp;Irlanda. República d\'Irlanda. Ireland. Eire','(417)','Irlanda. República d\'Irlanda. Ireland. Eire','','','',false,true);
+d.add(331,327,'(430)','<div class="nodetag">(430)</div></span>&nbsp;&nbsp;Alemanya. República Federal d\'Alemanya. Bundesrepublik. Deutschland','(430)','Alemanya. República Federal d\'Alemanya. Bundesrepublik. Deutschland','','','',false,true);
+d.add(332,327,'(435.9)','<div class="nodetag">(435.9)</div></span>&nbsp;&nbsp;Luxemburg. Gran Ducat de Luxemburg. Grand-Duché de Luxembourg. Grossherzogtum Luxemburg. Grousherzogdem Lëtzebuerg','(435.9)','Luxemburg. Gran Ducat de Luxemburg. Grand-Duché de Luxembourg. Grossherzogtum Luxemburg. Grousherzogdem Lëtzebuerg','','','',false,true);
+d.add(333,327,'(436)','<div class="nodetag">(436)</div></span>&nbsp;&nbsp;Àustria. República austríaca. Republik Österreich','(436)','Àustria. República austríaca. Republik Österreich','','','',false,true);
+d.add(334,327,'(437.3)','<div class="nodetag">(437.3)</div></span>&nbsp;&nbsp;Txèquia. República txeca. Česko. Česká Republika','(437.3)','Txèquia. República txeca. Česko. Česká Republika','','','',false,true);
+d.add(335,327,'(437.6)','<div class="nodetag">(437.6)</div></span>&nbsp;&nbsp;Eslovàquia. República eslovaca. Slovensko. Slovenská Republika','(437.6)','Eslovàquia. República eslovaca. Slovensko. Slovenská Republika','','','',false,true);
+d.add(336,327,'(438)','<div class="nodetag">(438)</div></span>&nbsp;&nbsp;Polònia. República polonesa. Rzeczpospolita Polska','(438)','Polònia. República polonesa. Rzeczpospolita Polska','','','',false,true);
+d.add(337,327,'(439)','<div class="nodetag">(439)</div></span>&nbsp;&nbsp;Hongria. República hongaresa. Magyarorszag. Magyar Köztársaság','(439)','Hongria. República hongaresa. Magyarorszag. Magyar Köztársaság','','','',false,true);
+d.add(338,327,'(44)','<div class="nodetag">(44)</div></span>&nbsp;&nbsp;França. República francesa. République Française','(44)','França. República francesa. République Française','','','',false,true);
+d.add(339,327,'(450)','<div class="nodetag">(450)</div></span>&nbsp;&nbsp;Itàlia. República italiana. Repubblica Italiana','(450)','Itàlia. República italiana. Repubblica Italiana','','','',false,true);
+d.add(340,327,'(454.4)','<div class="nodetag">(454.4)</div></span>&nbsp;&nbsp;San Marino. República de San Marino. Serenissima Repubblica di San Marino','(454.4)','San Marino. República de San Marino. Serenissima Repubblica di San Marino','','','',false,true);
+d.add(341,327,'(456.31)','<div class="nodetag">(456.31)</div></span>&nbsp;&nbsp;Vaticà. Estat de la Ciutat del Vaticà (Santa Seu). Stato della Città del Vaticano','(456.31)','Vaticà. Estat de la Ciutat del Vaticà (Santa Seu). Stato della Città del Vaticano','','','',false,true);
+d.add(342,327,'(458.2)','<div class="nodetag">(458.2)</div></span>&nbsp;&nbsp;Malta. República de Malta. Repubblika ta\' Malta','(458.2)','Malta. República de Malta. Repubblika ta\' Malta','','','',false,true);
+d.add(343,327,'(46)','<div class="nodetag">(46)</div></span>&nbsp;&nbsp;Península Ibèrica','(46)','Península Ibèrica','','','',false,true);
+d.add(344,343,'(460)','<div class="nodetag">(460)</div></span>&nbsp;&nbsp;Espanya. Regne d\'Espanya. Reino de España','(460)','Espanya. Regne d\'Espanya. Reino de España','','','',false,true);
+d.add(345,343,'(467)','<div class="nodetag">(467)</div></span>&nbsp;&nbsp;Andorra. Principat d\'Andorra. Principauté d\'Andorre','(467)','Andorra. Principat d\'Andorra. Principauté d\'Andorre','','','',false,true);
+d.add(346,343,'(469)','<div class="nodetag">(469)</div></span>&nbsp;&nbsp;Portugal. República Portuguesa','(469)','Portugal. República Portuguesa','','','',false,true);
+d.add(347,327,'(470+571)','<div class="nodetag">(470+571)</div></span>&nbsp;&nbsp;Rússia. Federació russa. Rossiya. Rossiiskaya Federatsiya','(470+571)','Rússia. Federació russa. Rossiya. Rossiiskaya Federatsiya','','','',false,true);
+d.add(348,327,'(474)','<div class="nodetag">(474)</div></span>&nbsp;&nbsp;Estats bàltics','(474)','Estats bàltics','','','',false,true);
+d.add(349,348,'(474.2)','<div class="nodetag">(474.2)</div></span>&nbsp;&nbsp;Estònia. República d\'Estònia. Eesti Vabariig','(474.2)','Estònia. República d\'Estònia. Eesti Vabariig','','','',false,true);
+d.add(350,348,'(474.3)','<div class="nodetag">(474.3)</div></span>&nbsp;&nbsp;Letònia. República de Letònia. Latvijas Republikas','(474.3)','Letònia. República de Letònia. Latvijas Republikas','','','',false,true);
+d.add(351,348,'(474.5)','<div class="nodetag">(474.5)</div></span>&nbsp;&nbsp;Lituània. República de Lituània. Lietuvos Respublika','(474.5)','Lituània. República de Lituània. Lietuvos Respublika','','','',false,true);
+d.add(352,327,'(476)','<div class="nodetag">(476)</div></span>&nbsp;&nbsp;República de Bielorússia. Belarus. Respublika Belarus','(476)','República de Bielorússia. Belarus. Respublika Belarus','','','',false,true);
+d.add(353,327,'(477)','<div class="nodetag">(477)</div></span>&nbsp;&nbsp;Ucraïna. República d\'Ucraïna. Ukrajina','(477)','Ucraïna. República d\'Ucraïna. Ukrajina','','','',false,true);
+d.add(354,327,'(478)','<div class="nodetag">(478)</div></span>&nbsp;&nbsp;Moldàvia. República de Moldàvia. Republica Moldova','(478)','Moldàvia. República de Moldàvia. Republica Moldova','','','',false,true);
+d.add(355,327,'(479)','<div class="nodetag">(479)</div></span>&nbsp;&nbsp;El Caucas en conjunt','(479)','El Caucas en conjunt','','','',false,true);
+d.add(356,355,'(479.22)','<div class="nodetag">(479.22)</div></span>&nbsp;&nbsp;Geòrgia. República de Geòrgia. Sakartvelo. Sakartvelos Respublika','(479.22)','Geòrgia. República de Geòrgia. Sakartvelo. Sakartvelos Respublika','','','',false,true);
+d.add(357,355,'(479.24)','<div class="nodetag">(479.24)</div></span>&nbsp;&nbsp;Azerbaidjan. República d\'Azrbeidjan. Republik Azərbaidžan','(479.24)','Azerbaidjan. República d\'Azrbeidjan. Republik Azərbaidžan','','','',false,true);
+d.add(358,355,'(479.25)','<div class="nodetag">(479.25)</div></span>&nbsp;&nbsp;Armènia. Hajastan','(479.25)','Armènia. Hajastan','','','',false,true);
+d.add(359,327,'(48)','<div class="nodetag">(48)</div></span>&nbsp;&nbsp;Estats escandinaus','(48)','Estats escandinaus','','','',false,true);
+d.add(360,359,'(480)','<div class="nodetag">(480)</div></span>&nbsp;&nbsp;Finlàndia. República de Finlàndia. Suomen Tasavalta. Republiken Finland','(480)','Finlàndia. República de Finlàndia. Suomen Tasavalta. Republiken Finland','','','',false,true);
+d.add(361,359,'(481)','<div class="nodetag">(481)</div></span>&nbsp;&nbsp;Noruega. Regne de Noruega. Kongeriket Norge','(481)','Noruega. Regne de Noruega. Kongeriket Norge','','','',false,true);
+d.add(362,359,'(485)','<div class="nodetag">(485)</div></span>&nbsp;&nbsp;Suècia. Regne de Suècia. Konungariket Sverige','(485)','Suècia. Regne de Suècia. Konungariket Sverige','','','',false,true);
+d.add(363,359,'(489)','<div class="nodetag">(489)</div></span>&nbsp;&nbsp;Dinamarca. Danmark. Regne de Dinamarca. Kongeriget Danmark','(489)','Dinamarca. Danmark. Regne de Dinamarca. Kongeriget Danmark','','','',false,true);
+d.add(364,327,'(491.1)','<div class="nodetag">(491.1)</div></span>&nbsp;&nbsp;Islàndia. República d\'Islàndia. Lýdhveldidh Ísland','(491.1)','Islàndia. República d\'Islàndia. Lýdhveldidh Ísland','','','',false,true);
+d.add(365,327,'(492)','<div class="nodetag">(492)</div></span>&nbsp;&nbsp;Holanda. Països Baixos. Regne dels Països Baixos. Koninkrijk der Nederlanden','(492)','Holanda. Països Baixos. Regne dels Països Baixos. Koninkrijk der Nederlanden','','','',false,true);
+d.add(366,327,'(493)','<div class="nodetag">(493)</div></span>&nbsp;&nbsp;Bèlgica. Belgique. België. Belgien. Regne de Bèlgica. Royaume de Belgique. Koninkrijk België. Königreich Belgien','(493)','Bèlgica. Belgique. België. Belgien. Regne de Bèlgica. Royaume de Belgique. Koninkrijk België. Königreich Belgien','','','',false,true);
+d.add(367,327,'(494)','<div class="nodetag">(494)</div></span>&nbsp;&nbsp;Suïssa. Confederació Suïssa. Confédération Suisse. Confédération Helvétique. Schweizerische Eidgenossenschaft. Confederazione Svizzera. Confederaziun svizra. Confederatio Helvetica','(494)','Suïssa. Confederació Suïssa. Confédération Suisse. Confédération Helvétique. Schweizerische Eidgenossenschaft. Confederazione Svizzera. Confederaziun svizra. Confederatio Helvetica','','','',false,true);
+d.add(368,367,'(494.9)','<div class="nodetag">(494.9)</div></span>&nbsp;&nbsp;Liechtenstein. Principauté de Liechtenstein. Fürstentum Liechtenstein','(494.9)','Liechtenstein. Principauté de Liechtenstein. Fürstentum Liechtenstein','','','',false,true);
+d.add(369,327,'(495)','<div class="nodetag">(495)</div></span>&nbsp;&nbsp;Grècia. Hèl·lade. República Hel·lènica. Ellinikí Dimokratía','(495)','Grècia. Hèl·lade. República Hel·lènica. Ellinikí Dimokratía','','','',false,true);
+d.add(370,327,'(496.5)','<div class="nodetag">(496.5)</div></span>&nbsp;&nbsp;Albània. República d\'Albània. Shqipëria. Republika e Shqipërisë','(496.5)','Albània. República d\'Albània. Shqipëria. Republika e Shqipërisë','','','',false,true);
+d.add(371,327,'(497)','<div class="nodetag">(497)</div></span>&nbsp;&nbsp;Estats balcànics','(497)','Estats balcànics','','','',false,true);
+d.add(372,371,'(497.11)','<div class="nodetag">(497.11)</div></span>&nbsp;&nbsp;Sèrbia. República de Sèrbia. Republika Srbija','(497.11)','Sèrbia. República de Sèrbia. Republika Srbija','','','',false,true);
+d.add(373,371,'(497.16)','<div class="nodetag">(497.16)</div></span>&nbsp;&nbsp;Montenegro. Crna Gora','(497.16)','Montenegro. Crna Gora','','','',false,true);
+d.add(374,371,'(497.2)','<div class="nodetag">(497.2)</div></span>&nbsp;&nbsp;Bulgària. República de Bulgària. Republika Bulgarija','(497.2)','Bulgària. República de Bulgària. Republika Bulgarija','','','',false,true);
+d.add(375,371,'(497.4)','<div class="nodetag">(497.4)</div></span>&nbsp;&nbsp;Eslovènia. República d\'Eslovènia. Republika Slovenija','(497.4)','Eslovènia. República d\'Eslovènia. Republika Slovenija','','','',false,true);
+d.add(376,371,'(497.5)','<div class="nodetag">(497.5)</div></span>&nbsp;&nbsp;Croàcia. República de Croàcia. Republika Hrvatska','(497.5)','Croàcia. República de Croàcia. Republika Hrvatska','','','',false,true);
+d.add(377,371,'(497.6)','<div class="nodetag">(497.6)</div></span>&nbsp;&nbsp;Bòsnia i Hercegovina. República de Bòsnia i Hercegovina. Republika Bosna i Hercegovina','(497.6)','Bòsnia i Hercegovina. República de Bòsnia i Hercegovina. Republika Bosna i Hercegovina','','','',false,true);
+d.add(378,371,'(497.7)','<div class="nodetag">(497.7)</div></span>&nbsp;&nbsp;Macedònia. República de Macedònia. Republika Makedonija','(497.7)','Macedònia. República de Macedònia. Republika Makedonija','','','',false,true);
+d.add(379,327,'(498)','<div class="nodetag">(498)</div></span>&nbsp;&nbsp;Romania. República de Romania. România','(498)','Romania. República de Romania. România','','','',false,true);
+d.add(380,326,'(5)','<div class="nodetag">(5)</div></span>&nbsp;&nbsp;Àsia','(5)','Àsia','','','',false,true);
+d.add(381,380,'(510)','<div class="nodetag">(510)</div></span>&nbsp;&nbsp;Xina. República Popular de la Xina. Zhonghua Renmin Gongheguo','(510)','Xina. República Popular de la Xina. Zhonghua Renmin Gongheguo','','','',false,true);
+d.add(382,380,'(512.317)','<div class="nodetag">(512.317)</div></span>&nbsp;&nbsp;Hong Kong. Xianggang (Hsiang-Kang)','(512.317)','Hong Kong. Xianggang (Hsiang-Kang)','','','',false,true);
+d.add(383,380,'(512.318)','<div class="nodetag">(512.318)</div></span>&nbsp;&nbsp;Macau. Aomen (Ao-men)','(512.318)','Macau. Aomen (Ao-men)','','','',false,true);
+d.add(384,380,'(515)','<div class="nodetag">(515)</div></span>&nbsp;&nbsp;Tibet. Xizang. Hsi-Tsang','(515)','Tibet. Xizang. Hsi-Tsang','','','',false,true);
+d.add(385,380,'(517.9)','<div class="nodetag">(517.9)</div></span>&nbsp;&nbsp;Mongòlia. República Popular de Mongòlia. Büged Nayramdah Mongol Ulas','(517.9)','Mongòlia. República Popular de Mongòlia. Büged Nayramdah Mongol Ulas','','','',false,true);
+d.add(386,380,'(519)','<div class="nodetag">(519)</div></span>&nbsp;&nbsp;Corea','(519)','Corea','','','',false,true);
+d.add(387,386,'(519.3)','<div class="nodetag">(519.3)</div></span>&nbsp;&nbsp;Corea del Nord. República Democràtica Popular de Corea. Chosŏn Minjujuŭi In\'min Konghwaguk','(519.3)','Corea del Nord. República Democràtica Popular de Corea. Chosŏn Minjujuŭi In\'min Konghwaguk','','','',false,true);
+d.add(388,386,'(519.5)','<div class="nodetag">(519.5)</div></span>&nbsp;&nbsp;Corea del Sud. República de Corea. Taehan-Min\'guk','(519.5)','Corea del Sud. República de Corea. Taehan-Min\'guk','','','',false,true);
+d.add(389,380,'(52)','<div class="nodetag">(52)</div></span>&nbsp;&nbsp;Japó i les illes adjacents','(52)','Japó i les illes adjacents','','','',false,true);
+d.add(390,389,'(520)','<div class="nodetag">(520)</div></span>&nbsp;&nbsp;Japó. Nippon (Nihon)','(520)','Japó. Nippon (Nihon)','','','',false,true);
+d.add(391,389,'(529)','<div class="nodetag">(529)</div></span>&nbsp;&nbsp;Taiwan. Formosa (històric). República de la Xina. Chung-hua Min-kuo','(529)','Taiwan. Formosa (històric). República de la Xina. Chung-hua Min-kuo','','','',false,true);
+d.add(392,380,'(53)','<div class="nodetag">(53)</div></span>&nbsp;&nbsp;Estats i territoris de la Península Aràbiga. Aràbia','(53)','Estats i territoris de la Península Aràbiga. Aràbia','','','',false,true);
+d.add(393,392,'(532)','<div class="nodetag">(532)</div></span>&nbsp;&nbsp;Aràbia Saudita. Regne d\'Aràbia Saudita. al-Mamlaka al-\'Arabīyya as-Sa\'ūdīyya','(532)','Aràbia Saudita. Regne d\'Aràbia Saudita. al-Mamlaka al-\'Arabīyya as-Sa\'ūdīyya','','','',false,true);
+d.add(394,392,'(533)','<div class="nodetag">(533)</div></span>&nbsp;&nbsp;Iemen. República del Iemen','(533)','Iemen. República del Iemen','','','',false,true);
+d.add(395,392,'(535)','<div class="nodetag">(535)</div></span>&nbsp;&nbsp;Oman. Soldanat d\'Oman. Saltanat \'Umān','(535)','Oman. Soldanat d\'Oman. Saltanat \'Umān','','','',false,true);
+d.add(396,392,'(536)','<div class="nodetag">(536)</div></span>&nbsp;&nbsp;Estats àrabs occidentals (estats del Golf Pèrsic)','(536)','Estats àrabs occidentals (estats del Golf Pèrsic)','','','',false,true);
+d.add(397,396,'(536.2)','<div class="nodetag">(536.2)</div></span>&nbsp;&nbsp;Emirats Àrabs Units. Unió dels Emirats Àrabs. Ittihād al-Imārāt al-Arabīya','(536.2)','Emirats Àrabs Units. Unió dels Emirats Àrabs. Ittihād al-Imārāt al-Arabīya','','','',false,true);
+d.add(398,396,'(536.4)','<div class="nodetag">(536.4)</div></span>&nbsp;&nbsp;Qatar. Estat de Qatar. Dawlat Qatar','(536.4)','Qatar. Estat de Qatar. Dawlat Qatar','','','',false,true);
+d.add(399,396,'(536.5)','<div class="nodetag">(536.5)</div></span>&nbsp;&nbsp;Bahrain. Regne de Bahrain. Mamlakat al-Bahrayn','(536.5)','Bahrain. Regne de Bahrain. Mamlakat al-Bahrayn','','','',false,true);
+d.add(400,396,'(536.8)','<div class="nodetag">(536.8)</div></span>&nbsp;&nbsp;Kuwait. Estat de Kuwait. Dawlat al-Kuwayt','(536.8)','Kuwait. Estat de Kuwait. Dawlat al-Kuwayt','','','',false,true);
+d.add(401,380,'(54)','<div class="nodetag">(54)</div></span>&nbsp;&nbsp;Estats del subcontinent indi','(54)','Estats del subcontinent indi','','','',false,true);
+d.add(402,401,'(540)','<div class="nodetag">(540)</div></span>&nbsp;&nbsp;Índia. República de l\'Índia. Bhā-rat','(540)','Índia. República de l\'Índia. Bhā-rat','','','',false,true);
+d.add(403,401,'(541.31)','<div class="nodetag">(541.31)</div></span>&nbsp;&nbsp;Bhutan. Regne de Bhutan. Druk-Yul','(541.31)','Bhutan. Regne de Bhutan. Druk-Yul','','','',false,true);
+d.add(404,401,'(541.35)','<div class="nodetag">(541.35)</div></span>&nbsp;&nbsp;Nepal. República Federal Democràtica del Nepal. Sanghiya Loktantrik Ganatantra Nepal','(541.35)','Nepal. República Federal Democràtica del Nepal. Sanghiya Loktantrik Ganatantra Nepal','','','',false,true);
+d.add(405,401,'(548.7)','<div class="nodetag">(548.7)</div></span>&nbsp;&nbsp;Sri Lanka. Ceilan (històric). República Socialista Democràtica de Sri Lanka. Sri Lanka- Prajathanthrika Samajavadi Janarajaya. Ilangai Jananayaka Socia','(548.7)','Sri Lanka. Ceilan (històric). República Socialista Democràtica de Sri Lanka. Sri Lanka- Prajathanthrika Samajavadi Janarajaya. Ilangai Jananayaka Socia','','','',false,true);
+d.add(406,401,'(548.82)','<div class="nodetag">(548.82)</div></span>&nbsp;&nbsp;Maldives. República de Maldives. Divehi Jumhuriyya','(548.82)','Maldives. República de Maldives. Divehi Jumhuriyya','','','',false,true);
+d.add(407,401,'(549.1)','<div class="nodetag">(549.1)</div></span>&nbsp;&nbsp;Pakistan. República Islàmica del Pakistan. Islāmī Jamhūrīya-e Pākistān','(549.1)','Pakistan. República Islàmica del Pakistan. Islāmī Jamhūrīya-e Pākistān','','','',false,true);
+d.add(408,401,'(549.3)','<div class="nodetag">(549.3)</div></span>&nbsp;&nbsp;Bangla Desh. República Popular de Bangla Desh. Gana Prajātantrī Bangladesh','(549.3)','Bangla Desh. República Popular de Bangla Desh. Gana Prajātantrī Bangladesh','','','',false,true);
+d.add(409,380,'(55)','<div class="nodetag">(55)</div></span>&nbsp;&nbsp;Iran. Pèrsia (històric). República Islàmica d\'Iran. Jomhūrīyeh Islāmīyeh Irān','(55)','Iran. Pèrsia (històric). República Islàmica d\'Iran. Jomhūrīyeh Islāmīyeh Irān','','','',false,true);
+d.add(410,380,'(56)','<div class="nodetag">(56)</div></span>&nbsp;&nbsp;Àsia Menor. Pròxim Orient. Orient Mitjà','(56)','Àsia Menor. Pròxim Orient. Orient Mitjà','','','',false,true);
+d.add(411,410,'(560)','<div class="nodetag">(560)</div></span>&nbsp;&nbsp;Turquia. República de Turquia. Türkiye Cumhuriyeti','(560)','Turquia. República de Turquia. Türkiye Cumhuriyeti','','','',false,true);
+d.add(412,410,'(564.3)','<div class="nodetag">(564.3)</div></span>&nbsp;&nbsp;Xipre. República de Xipre. Kipriakí Dimokratía. Kıbrıs Cumhuriyeti','(564.3)','Xipre. República de Xipre. Kipriakí Dimokratía. Kıbrıs Cumhuriyeti','','','',false,true);
+d.add(413,410,'(567)','<div class="nodetag">(567)</div></span>&nbsp;&nbsp;Iraq. República de l\'Iraq. al-Gumhūrīya al-\'Irāqīya','(567)','Iraq. República de l\'Iraq. al-Gumhūrīya al-\'Irāqīya','','','',false,true);
+d.add(414,410,'(569.1)','<div class="nodetag">(569.1)</div></span>&nbsp;&nbsp;Síria. República Àrab Siriana. al-Gumhūrīya al-\'Arabīya al-Sūrīya','(569.1)','Síria. República Àrab Siriana. al-Gumhūrīya al-\'Arabīya al-Sūrīya','','','',false,true);
+d.add(415,410,'(569.3)','<div class="nodetag">(569.3)</div></span>&nbsp;&nbsp;Líban. República del Líban. al-Gumhūrīya al-Lubnānīya','(569.3)','Líban. República del Líban. al-Gumhūrīya al-Lubnānīya','','','',false,true);
+d.add(416,410,'(569.4)','<div class="nodetag">(569.4)</div></span>&nbsp;&nbsp;Israel. Estat d\'Israel. Medinat Yisra\'e. Isrā\'īl','(569.4)','Israel. Estat d\'Israel. Medinat Yisra\'e. Isrā\'īl','','','',false,true);
+d.add(417,410,'(569.5)','<div class="nodetag">(569.5)</div></span>&nbsp;&nbsp;Jordània. Regne Haiximita de Jordània. al-Mamlaka al-Urdunnīya al-Hāšimīya','(569.5)','Jordània. Regne Haiximita de Jordània. al-Mamlaka al-Urdunnīya al-Hāšimīya','','','',false,true);
+d.add(418,380,'(57)','<div class="nodetag">(57)</div></span>&nbsp;&nbsp;Part asiàtica de l\'antiga Unió de Repúbliques Socialistes Soviètiques (URSS)','(57)','Part asiàtica de l\'antiga Unió de Repúbliques Socialistes Soviètiques (URSS)','','','',false,true);
+d.add(419,418,'(571)','<div class="nodetag">(571)</div></span>&nbsp;&nbsp;Federació Russa a l\'Àsia','(571)','Federació Russa a l\'Àsia','','','',false,true);
+d.add(420,418,'(574)','<div class="nodetag">(574)</div></span>&nbsp;&nbsp;Kazakhstan. República del Kazakhstan. Qazaqstan Respublikasï','(574)','Kazakhstan. República del Kazakhstan. Qazaqstan Respublikasï','','','',false,true);
+d.add(421,418,'(575.1)','<div class="nodetag">(575.1)</div></span>&nbsp;&nbsp;Uzbekistan. República de l\'Uzbekistan. Ozbekistan Jumhuriyäti','(575.1)','Uzbekistan. República de l\'Uzbekistan. Ozbekistan Jumhuriyäti','','','',false,true);
+d.add(422,418,'(575.2)','<div class="nodetag">(575.2)</div></span>&nbsp;&nbsp;Kirguizistan. República del Kirguizistan. Kyrgyz Respublikasy','(575.2)','Kirguizistan. República del Kirguizistan. Kyrgyz Respublikasy','','','',false,true);
+d.add(423,418,'(575.3)','<div class="nodetag">(575.3)</div></span>&nbsp;&nbsp;Tadjikistan. República del Tadjikistan. Jumjurii Tojikistan','(575.3)','Tadjikistan. República del Tadjikistan. Jumjurii Tojikistan','','','',false,true);
+d.add(424,418,'(575.4)','<div class="nodetag">(575.4)</div></span>&nbsp;&nbsp;Turkmenistan. República del Turkmenistan. Türkmenistan Jumhuriyäti','(575.4)','Turkmenistan. República del Turkmenistan. Türkmenistan Jumhuriyäti','','','',false,true);
+d.add(425,380,'(581)','<div class="nodetag">(581)</div></span>&nbsp;&nbsp;Afganistan. República Islàmica de l\'Afganistan. Jomhūrī-ye Eslāmī-ye Afġānistān. Da Afġānistān Islāmī Jomhoriyat','(581)','Afganistan. República Islàmica de l\'Afganistan. Jomhūrī-ye Eslāmī-ye Afġānistān. Da Afġānistān Islāmī Jomhoriyat','','','',false,true);
+d.add(426,380,'(59)','<div class="nodetag">(59)</div></span>&nbsp;&nbsp;Estats i territoris del Sud-est asiàtic','(59)','Estats i territoris del Sud-est asiàtic','','','',false,true);
+d.add(427,426,'(591)','<div class="nodetag">(591)</div></span>&nbsp;&nbsp;Myanmar. Birmània (històric). Unió de Myanmar. Pyeidaungzu Myanma Naingngandaw','(591)','Myanmar. Birmània (històric). Unió de Myanmar. Pyeidaungzu Myanma Naingngandaw','','','',false,true);
+d.add(428,426,'(592.3)','<div class="nodetag">(592.3)</div></span>&nbsp;&nbsp;Singapur. República de Singapur','(592.3)','Singapur. República de Singapur','','','',false,true);
+d.add(429,426,'(592.6)','<div class="nodetag">(592.6)</div></span>&nbsp;&nbsp;Brunei. Soldanat de Brunei. Negara Brunei Darussalam','(592.6)','Brunei. Soldanat de Brunei. Negara Brunei Darussalam','','','',false,true);
+d.add(430,426,'(593)','<div class="nodetag">(593)</div></span>&nbsp;&nbsp;Tailàndia. Siam (històric). Regne de Tailàndia. Muang Thai (Prathet Thai)','(593)','Tailàndia. Siam (històric). Regne de Tailàndia. Muang Thai (Prathet Thai)','','','',false,true);
+d.add(431,426,'(594)','<div class="nodetag">(594)</div></span>&nbsp;&nbsp;Indonèsia. Republik Indonesia','(594)','Indonèsia. Republik Indonesia','','','',false,true);
+d.add(432,426,'(595)','<div class="nodetag">(595)</div></span>&nbsp;&nbsp;Malàisia. Malaysia','(595)','Malàisia. Malaysia','','','',false,true);
+d.add(433,426,'(596/598)','<div class="nodetag">(596/598)</div></span>&nbsp;&nbsp;Indoxina','(596/598)','Indoxina','','','',false,true);
+d.add(434,433,'(596)','<div class="nodetag">(596)</div></span>&nbsp;&nbsp;Cambodja. Kampuchea','(596)','Cambodja. Kampuchea','','','',false,true);
+d.add(435,433,'(597)','<div class="nodetag">(597)</div></span>&nbsp;&nbsp;Vietnam. República Socialista del Vietnam. Cong Hoa Xa Hoi Chu Nghia Viet Nam','(597)','Vietnam. República Socialista del Vietnam. Cong Hoa Xa Hoi Chu Nghia Viet Nam','','','',false,true);
+d.add(436,433,'(598)','<div class="nodetag">(598)</div></span>&nbsp;&nbsp;Laos. República Democràtica Popular de Laos. Sathalanalat Paxathipatai Paxaxôn Lao','(598)','Laos. República Democràtica Popular de Laos. Sathalanalat Paxathipatai Paxaxôn Lao','','','',false,true);
+d.add(437,426,'(599)','<div class="nodetag">(599)</div></span>&nbsp;&nbsp;Filipines. República de les Filipines. Republika ñg Pilipinas. Republic of the Philippines','(599)','Filipines. República de les Filipines. Republika ñg Pilipinas. Republic of the Philippines','','','',false,true);
+d.add(438,326,'(6)','<div class="nodetag">(6)</div></span>&nbsp;&nbsp;Àfrica','(6)','Àfrica','','','',false,true);
+d.add(439,438,'(61)','<div class="nodetag">(61)</div></span>&nbsp;&nbsp;Estats del nord d\'Àfrica. Magrib','(61)','Estats del nord d\'Àfrica. Magrib','','','',false,true);
+d.add(440,439,'(611)','<div class="nodetag">(611)</div></span>&nbsp;&nbsp;Tunísia. República de Tunísia. al-Gumhūrīya al-Tūnisīya','(611)','Tunísia. República de Tunísia. al-Gumhūrīya al-Tūnisīya','','','',false,true);
+d.add(441,439,'(612)','<div class="nodetag">(612)</div></span>&nbsp;&nbsp;Líbia. al-Gamāhīrīya al-\'Arabīya al-Lībīya','(612)','Líbia. al-Gamāhīrīya al-\'Arabīya al-Lībīya','','','',false,true);
+d.add(442,438,'(620)','<div class="nodetag">(620)</div></span>&nbsp;&nbsp;Egipte. República Àrab d\'Egipte. Gumhūrīya Misr al-\'Arabīya','(620)','Egipte. República Àrab d\'Egipte. Gumhūrīya Misr al-\'Arabīya','','','',false,true);
+d.add(443,438,'(624)','<div class="nodetag">(624)</div></span>&nbsp;&nbsp;Sudan. República del Sudan. República del Sudan del Sud','(624)','Sudan. República del Sudan. República del Sudan del Sud','','','',false,true);
+d.add(444,443,'(624.1)','<div class="nodetag">(624.1)</div></span>&nbsp;&nbsp;Sudan. al-Sūdān. República del Sudan. al-Gumhūrīyat al-Sūdān','(624.1)','Sudan. al-Sūdān. República del Sudan. al-Gumhūrīyat al-Sūdān','','','',false,true);
+d.add(445,443,'(624.4)','<div class="nodetag">(624.4)</div></span>&nbsp;&nbsp;República del Sudan del Sud','(624.4)','República del Sudan del Sud','','','',false,true);
+d.add(446,438,'(630)','<div class="nodetag">(630)</div></span>&nbsp;&nbsp;Etiòpia. República Federal Democràtica d\'Etiòpia. Ītyop\'iya Fēdēralāwī Dīmōkrāsīyāwī Rīpeblīk','(630)','Etiòpia. República Federal Democràtica d\'Etiòpia. Ītyop\'iya Fēdēralāwī Dīmōkrāsīyāwī Rīpeblīk','','','',false,true);
+d.add(447,438,'(635)','<div class="nodetag">(635)</div></span>&nbsp;&nbsp;Eritrea. Hagəre Ertra (Dawlâtu Iritrīya)','(635)','Eritrea. Hagəre Ertra (Dawlâtu Iritrīya)','','','',false,true);
+d.add(448,438,'(64)','<div class="nodetag">(64)</div></span>&nbsp;&nbsp;Marroc. Regne del Marroc. al-Mamlaka al-Magribīya','(64)','Marroc. Regne del Marroc. al-Mamlaka al-Magribīya','','','',false,true);
+d.add(449,438,'(65)','<div class="nodetag">(65)</div></span>&nbsp;&nbsp;Algèria. República Algeriana Democràtica i Popular. al-Ğazā’ir. al-Gumhūrīya al-Gazā\'irīya al-Dīmuqrāţīya al-Sa\'bīya','(65)','Algèria. República Algeriana Democràtica i Popular. al-Ğazā’ir. al-Gumhūrīya al-Gazā\'irīya al-Dīmuqrāţīya al-Sa\'bīya','','','',false,true);
+d.add(450,438,'(66)','<div class="nodetag">(66)</div></span>&nbsp;&nbsp;Estats i territoris de l\'Àfrica occidental','(66)','Estats i territoris de l\'Àfrica occidental','','','',false,true);
+d.add(451,450,'(661.2)','<div class="nodetag">(661.2)</div></span>&nbsp;&nbsp;Mauritània. República Islàmica de Mauritània. al-Gumhūrīya al-Islāmīya al-Mūrītānīya','(661.2)','Mauritània. República Islàmica de Mauritània. al-Gumhūrīya al-Islāmīya al-Mūrītānīya','','','',false,true);
+d.add(452,450,'(662.1)','<div class="nodetag">(662.1)</div></span>&nbsp;&nbsp;Mali. Sudan francès (històric). République du Mali','(662.1)','Mali. Sudan francès (històric). République du Mali','','','',false,true);
+d.add(453,450,'(662.5)','<div class="nodetag">(662.5)</div></span>&nbsp;&nbsp;Burkina Faso. Alt Volta (històric). République de Burkina Faso','(662.5)','Burkina Faso. Alt Volta (històric). République de Burkina Faso','','','',false,true);
+d.add(454,450,'(662.6)','<div class="nodetag">(662.6)</div></span>&nbsp;&nbsp;Níger. République du Niger','(662.6)','Níger. République du Niger','','','',false,true);
+d.add(455,450,'(663)','<div class="nodetag">(663)</div></span>&nbsp;&nbsp;Senegal. République du Sénégal','(663)','Senegal. République du Sénégal','','','',false,true);
+d.add(456,450,'(664)','<div class="nodetag">(664)</div></span>&nbsp;&nbsp;Sierra Leone. Republic of Sierra Leone','(664)','Sierra Leone. Republic of Sierra Leone','','','',false,true);
+d.add(457,450,'(665)','<div class="nodetag">(665)</div></span>&nbsp;&nbsp;Estats i territoris de l\'Alta Guinea','(665)','Estats i territoris de l\'Alta Guinea','','','',false,true);
+d.add(458,457,'(665.1)','<div class="nodetag">(665.1)</div></span>&nbsp;&nbsp;Gàmbia. Republic of The Gambia','(665.1)','Gàmbia. Republic of The Gambia','','','',false,true);
+d.add(459,457,'(665.2)','<div class="nodetag">(665.2)</div></span>&nbsp;&nbsp;Guinea. République de Guinée','(665.2)','Guinea. République de Guinée','','','',false,true);
+d.add(460,457,'(665.7)','<div class="nodetag">(665.7)</div></span>&nbsp;&nbsp;Guinea Bissau. Républica da Guiné-Bissau','(665.7)','Guinea Bissau. Républica da Guiné-Bissau','','','',false,true);
+d.add(461,457,'(665.8)','<div class="nodetag">(665.8)</div></span>&nbsp;&nbsp;Cap Verd. República de Cabo Verde','(665.8)','Cap Verd. República de Cabo Verde','','','',false,true);
+d.add(462,450,'(666.2)','<div class="nodetag">(666.2)</div></span>&nbsp;&nbsp;Libèria. Republic of Liberia','(666.2)','Libèria. Republic of Liberia','','','',false,true);
+d.add(463,450,'(666.8)','<div class="nodetag">(666.8)</div></span>&nbsp;&nbsp;Costa d\'Ivori. République de Côte d\'Ivoire','(666.8)','Costa d\'Ivori. République de Côte d\'Ivoire','','','',false,true);
+d.add(464,450,'(667)','<div class="nodetag">(667)</div></span>&nbsp;&nbsp;Ghana. Republic of Ghana','(667)','Ghana. Republic of Ghana','','','',false,true);
+d.add(465,450,'(668.1)','<div class="nodetag">(668.1)</div></span>&nbsp;&nbsp;Togo. République togolaise','(668.1)','Togo. République togolaise','','','',false,true);
+d.add(466,450,'(668.2)','<div class="nodetag">(668.2)</div></span>&nbsp;&nbsp;Benín. Dahomey (històric). République du Bénin','(668.2)','Benín. Dahomey (històric). République du Bénin','','','',false,true);
+d.add(467,450,'(669.1)','<div class="nodetag">(669.1)</div></span>&nbsp;&nbsp;Nigèria. Federal Republic of Nigeria','(669.1)','Nigèria. Federal Republic of Nigeria','','','',false,true);
+d.add(468,450,'(669.95)','<div class="nodetag">(669.95)</div></span>&nbsp;&nbsp;São Tomé i Príncipe. República Democrática de São Tomé e Príncipe','(669.95)','São Tomé i Príncipe. República Democrática de São Tomé e Príncipe','','','',false,true);
+d.add(469,438,'(67)','<div class="nodetag">(67)</div></span>&nbsp;&nbsp;Estats i territoris de l\'Àfrica oriental, central i equatorial','(67)','Estats i territoris de l\'Àfrica oriental, central i equatorial','','','',false,true);
+d.add(470,469,'(671.1)','<div class="nodetag">(671.1)</div></span>&nbsp;&nbsp;Camerun. United Republic of Cameroon. République du Cameroun','(671.1)','Camerun. United Republic of Cameroon. République du Cameroun','','','',false,true);
+d.add(471,469,'(671.8)','<div class="nodetag">(671.8)</div></span>&nbsp;&nbsp;Guinea Equatorial. República de Guinea Ecuatorial','(671.8)','Guinea Equatorial. República de Guinea Ecuatorial','','','',false,true);
+d.add(472,469,'(672.1)','<div class="nodetag">(672.1)</div></span>&nbsp;&nbsp;Gabon. République gabonaise','(672.1)','Gabon. République gabonaise','','','',false,true);
+d.add(473,469,'(672.4)','<div class="nodetag">(672.4)</div></span>&nbsp;&nbsp;República del Congo. República Popular del Congo. République du Congo','(672.4)','República del Congo. República Popular del Congo. République du Congo','','','',false,true);
+d.add(474,469,'(673)','<div class="nodetag">(673)</div></span>&nbsp;&nbsp;Angola. República de Angola','(673)','Angola. República de Angola','','','',false,true);
+d.add(475,469,'(674.1)','<div class="nodetag">(674.1)</div></span>&nbsp;&nbsp;República Centreafricana. République Centrafricaine. Ubangui-Chari','(674.1)','República Centreafricana. République Centrafricaine. Ubangui-Chari','','','',false,true);
+d.add(476,469,'(674.3)','<div class="nodetag">(674.3)</div></span>&nbsp;&nbsp;Txad. Jumhūrūiyah Tshād. République du Tchad','(674.3)','Txad. Jumhūrūiyah Tshād. République du Tchad','','','',false,true);
+d.add(477,469,'(675)','<div class="nodetag">(675)</div></span>&nbsp;&nbsp;República Democràtica del Congo. Congo Belga. Zaire','(675)','República Democràtica del Congo. Congo Belga. Zaire','','','',false,true);
+d.add(478,477,'(675.97)','<div class="nodetag">(675.97)</div></span>&nbsp;&nbsp;Burundi. République du Burundi. Republika \'Uburundi','(675.97)','Burundi. République du Burundi. Republika \'Uburundi','','','',false,true);
+d.add(479,477,'(675.98)','<div class="nodetag">(675.98)</div></span>&nbsp;&nbsp;Rwanda. Republika y\'u Rwanda. République Rwandaise','(675.98)','Rwanda. Republika y\'u Rwanda. République Rwandaise','','','',false,true);
+d.add(480,469,'(676.1)','<div class="nodetag">(676.1)</div></span>&nbsp;&nbsp;Uganda. Republic of Uganda','(676.1)','Uganda. Republic of Uganda','','','',false,true);
+d.add(481,469,'(676.2)','<div class="nodetag">(676.2)</div></span>&nbsp;&nbsp;Kenya. Republic of Kenya. Jamhuri ya Kenya','(676.2)','Kenya. Republic of Kenya. Jamhuri ya Kenya','','','',false,true);
+d.add(482,469,'(677.8)','<div class="nodetag">(677.8)</div></span>&nbsp;&nbsp;Somàlia. Jamhuuriyadda Dimuqraadiga Soomaaliya. Ǧumhūrīya al-Sūmāl al-Dimuqrātīya','(677.8)','Somàlia. Jamhuuriyadda Dimuqraadiga Soomaaliya. Ǧumhūrīya al-Sūmāl al-Dimuqrātīya','','','',false,true);
+d.add(483,469,'(677.9)','<div class="nodetag">(677.9)</div></span>&nbsp;&nbsp;Djibouti. Ǧumhūrīya Ǧībūtī. République de Djibouti','(677.9)','Djibouti. Ǧumhūrīya Ǧībūtī. République de Djibouti','','','',false,true);
+d.add(484,469,'(678)','<div class="nodetag">(678)</div></span>&nbsp;&nbsp;Tanzània. Jamhuri ya Mwungano wa Tanzania. United Republic of Tanzania','(678)','Tanzània. Jamhuri ya Mwungano wa Tanzania. United Republic of Tanzania','','','',false,true);
+d.add(485,469,'(679)','<div class="nodetag">(679)</div></span>&nbsp;&nbsp;Moçambic. República de Moçambique','(679)','Moçambic. República de Moçambique','','','',false,true);
+d.add(486,438,'(68)','<div class="nodetag">(68)</div></span>&nbsp;&nbsp;Estats i territoris de l\'Àfrica meridional','(68)','Estats i territoris de l\'Àfrica meridional','','','',false,true);
+d.add(487,486,'(680)','<div class="nodetag">(680)</div></span>&nbsp;&nbsp;República de Sud-àfrica. Republiek van Suid-Africa. Republic of South Africa','(680)','República de Sud-àfrica. Republiek van Suid-Africa. Republic of South Africa','','','',false,true);
+d.add(488,486,'(688.1)','<div class="nodetag">(688.1)</div></span>&nbsp;&nbsp;Namíbia. Republic of Namibia','(688.1)','Namíbia. Republic of Namibia','','','',false,true);
+d.add(489,486,'(688.3)','<div class="nodetag">(688.3)</div></span>&nbsp;&nbsp;Botswana. Republic of Botswana','(688.3)','Botswana. Republic of Botswana','','','',false,true);
+d.add(490,486,'(688.5)','<div class="nodetag">(688.5)</div></span>&nbsp;&nbsp;Lesotho. Kingdom of Lesotho. Muso oa Lesotho','(688.5)','Lesotho. Kingdom of Lesotho. Muso oa Lesotho','','','',false,true);
+d.add(491,486,'(688.7)','<div class="nodetag">(688.7)</div></span>&nbsp;&nbsp;Swazilàndia. Kingdom of Swaziland. Umbuso weSwatini','(688.7)','Swazilàndia. Kingdom of Swaziland. Umbuso weSwatini','','','',false,true);
+d.add(492,486,'(689.1)','<div class="nodetag">(689.1)</div></span>&nbsp;&nbsp;Zimbabue. Zimbabwe. Rhodèsia. Republic of Zimbabwe','(689.1)','Zimbabue. Zimbabwe. Rhodèsia. Republic of Zimbabwe','','','',false,true);
+d.add(493,486,'(689.4)','<div class="nodetag">(689.4)</div></span>&nbsp;&nbsp;Zàmbia. Republic of Zambia','(689.4)','Zàmbia. Republic of Zambia','','','',false,true);
+d.add(494,486,'(689.7)','<div class="nodetag">(689.7)</div></span>&nbsp;&nbsp;Malawi. Republic of Malawi','(689.7)','Malawi. Republic of Malawi','','','',false,true);
+d.add(495,438,'(69)','<div class="nodetag">(69)</div></span>&nbsp;&nbsp;Illes africanes de l\'Oceà Índic i del sud de l\'Atlàntic','(69)','Illes africanes de l\'Oceà Índic i del sud de l\'Atlàntic','','','',false,true);
+d.add(496,495,'(691)','<div class="nodetag">(691)</div></span>&nbsp;&nbsp;Madagascar. Repoblikan\'i Madagasikara. République de Madagascar. Republic of Madagascar','(691)','Madagascar. Repoblikan\'i Madagasikara. République de Madagascar. Republic of Madagascar','','','',false,true);
+d.add(497,495,'(694)','<div class="nodetag">(694)</div></span>&nbsp;&nbsp;Illes del nord de Madagascar','(694)','Illes del nord de Madagascar','','','',false,true);
+d.add(498,495,'(696)','<div class="nodetag">(696)</div></span>&nbsp;&nbsp;Seychelles. Republic of Seychelles. République des Seychelles. Repiblik Sesel','(696)','Seychelles. Republic of Seychelles. République des Seychelles. Repiblik Sesel','','','',false,true);
+d.add(499,495,'(697)','<div class="nodetag">(697)</div></span>&nbsp;&nbsp;Territori Britànic de l\'Oceà Índic (Regne Unit). British Indian Ocean Territory (BIOT)','(697)','Territori Britànic de l\'Oceà Índic (Regne Unit). British Indian Ocean Territory (BIOT)','','','',false,true);
+d.add(500,495,'(698)','<div class="nodetag">(698)</div></span>&nbsp;&nbsp;Illes Mascarenyes','(698)','Illes Mascarenyes','','','',false,true);
+d.add(501,500,'(698.1)','<div class="nodetag">(698.1)</div></span>&nbsp;&nbsp;Illa de la Reunió (França)','(698.1)','Illa de la Reunió (França)','','','',false,true);
+d.add(502,500,'(698.2)','<div class="nodetag">(698.2)</div></span>&nbsp;&nbsp;Maurici. Republic of Mauritius. Repiblik Moris. République de Maurice','(698.2)','Maurici. Republic of Mauritius. Repiblik Moris. République de Maurice','','','',false,true);
+d.add(503,495,'(699)','<div class="nodetag">(699)</div></span>&nbsp;&nbsp;Illes remotes i meridionals de l\'Oceà Índic i de l\'Oceà Atlàntic','(699)','Illes remotes i meridionals de l\'Oceà Índic i de l\'Oceà Atlàntic','','','',false,true);
+d.add(504,326,'(7/8)','<div class="nodetag">(7/8)</div></span>&nbsp;&nbsp;Amèrica del Nord i del Sud. Les Amèriques en conjunt','(7/8)','Amèrica del Nord i del Sud. Les Amèriques en conjunt','','','',false,true);
+d.add(505,504,'(7)','<div class="nodetag">(7)</div></span>&nbsp;&nbsp;Amèrica del Nord i Amèrica Central','(7)','Amèrica del Nord i Amèrica Central','','','',false,true);
+d.add(506,505,'(71)','<div class="nodetag">(71)</div></span>&nbsp;&nbsp;Canadà. Canada','(71)','Canadà. Canada','','','',false,true);
+d.add(507,505,'(72)','<div class="nodetag">(72)</div></span>&nbsp;&nbsp;Mèxic. Estats de l\'Amèrica Central. Territoris del Carib. Amèrica Llatina','(72)','Mèxic. Estats de l\'Amèrica Central. Territoris del Carib. Amèrica Llatina','','','',false,true);
+d.add(508,507,'(721/727)','<div class="nodetag">(721/727)</div></span>&nbsp;&nbsp;Mèxic. México (Méjico). Estados Unidos Mexicanos','(721/727)','Mèxic. México (Méjico). Estados Unidos Mexicanos','','','',false,true);
+d.add(509,507,'(728)','<div class="nodetag">(728)</div></span>&nbsp;&nbsp;Estats de l\'Amèrica Central. Amèrica Llatina','(728)','Estats de l\'Amèrica Central. Amèrica Llatina','','','',false,true);
+d.add(510,509,'(728.1)','<div class="nodetag">(728.1)</div></span>&nbsp;&nbsp;Guatemala. República de Guatemala','(728.1)','Guatemala. República de Guatemala','','','',false,true);
+d.add(511,509,'(728.2)','<div class="nodetag">(728.2)</div></span>&nbsp;&nbsp;Belize','(728.2)','Belize','','','',false,true);
+d.add(512,509,'(728.3)','<div class="nodetag">(728.3)</div></span>&nbsp;&nbsp;Hondures. República de Honduras','(728.3)','Hondures. República de Honduras','','','',false,true);
+d.add(513,509,'(728.4)','<div class="nodetag">(728.4)</div></span>&nbsp;&nbsp;El Salvador. República de El Salvador','(728.4)','El Salvador. República de El Salvador','','','',false,true);
+d.add(514,509,'(728.5)','<div class="nodetag">(728.5)</div></span>&nbsp;&nbsp;Nicaragua. República de Nicaragua','(728.5)','Nicaragua. República de Nicaragua','','','',false,true);
+d.add(515,509,'(728.6)','<div class="nodetag">(728.6)</div></span>&nbsp;&nbsp;Costa Rica. República de Costa Rica','(728.6)','Costa Rica. República de Costa Rica','','','',false,true);
+d.add(516,509,'(728.7)','<div class="nodetag">(728.7)</div></span>&nbsp;&nbsp;Panamà. República de Panamá','(728.7)','Panamà. República de Panamá','','','',false,true);
+d.add(517,507,'(729)','<div class="nodetag">(729)</div></span>&nbsp;&nbsp;Territoris del Carib. Antilles (West Indies)','(729)','Territoris del Carib. Antilles (West Indies)','','','',false,true);
+d.add(518,517,'(729.1/.5)','<div class="nodetag">(729.1/.5)</div></span>&nbsp;&nbsp;Grans Antilles','(729.1/.5)','Grans Antilles','','','',false,true);
+d.add(519,518,'(729.1)','<div class="nodetag">(729.1)</div></span>&nbsp;&nbsp;Cuba. República de Cuba','(729.1)','Cuba. República de Cuba','','','',false,true);
+d.add(520,518,'(729.2)','<div class="nodetag">(729.2)</div></span>&nbsp;&nbsp;Jamaica','(729.2)','Jamaica','','','',false,true);
+d.add(521,518,'(729.29)','<div class="nodetag">(729.29)</div></span>&nbsp;&nbsp;Illes Caiman (Regne Unit)','(729.29)','Illes Caiman (Regne Unit)','','','',false,true);
+d.add(522,518,'(729.3/.4)','<div class="nodetag">(729.3/.4)</div></span>&nbsp;&nbsp;Hispaniola. L\'Espanyola','(729.3/.4)','Hispaniola. L\'Espanyola','','','',false,true);
+d.add(523,522,'(729.3)','<div class="nodetag">(729.3)</div></span>&nbsp;&nbsp;República Dominicana','(729.3)','República Dominicana','','','',false,true);
+d.add(524,522,'(729.4)','<div class="nodetag">(729.4)</div></span>&nbsp;&nbsp;Haití. República d\'Haití','(729.4)','Haití. República d\'Haití','','','',false,true);
+d.add(525,518,'(729.5)','<div class="nodetag">(729.5)</div></span>&nbsp;&nbsp;Puerto Rico (Estats Units d\'Amèrica)','(729.5)','Puerto Rico (Estats Units d\'Amèrica)','','','',false,true);
+d.add(526,517,'(729.68)','<div class="nodetag">(729.68)</div></span>&nbsp;&nbsp;Illes Turks i Caicos (Regne Unit)','(729.68)','Illes Turks i Caicos (Regne Unit)','','','',false,true);
+d.add(527,517,'(729.7/.8)','<div class="nodetag">(729.7/.8)</div></span>&nbsp;&nbsp;Petites Antilles','(729.7/.8)','Petites Antilles','','','',false,true);
+d.add(528,527,'(729.7)','<div class="nodetag">(729.7)</div></span>&nbsp;&nbsp;Illes de Sotavent','(729.7)','Illes de Sotavent','','','',false,true);
+d.add(529,528,'(729.71)','<div class="nodetag">(729.71)</div></span>&nbsp;&nbsp;Illes Verges nord-americanes (Estats Units d\'Amèrica)','(729.71)','Illes Verges nord-americanes (Estats Units d\'Amèrica)','','','',false,true);
+d.add(530,528,'(729.724)','<div class="nodetag">(729.724)</div></span>&nbsp;&nbsp;Saint Christopher i Nevis','(729.724)','Saint Christopher i Nevis','','','',false,true);
+d.add(531,528,'(729.726)','<div class="nodetag">(729.726)</div></span>&nbsp;&nbsp;Antigua i Barbuda','(729.726)','Antigua i Barbuda','','','',false,true);
+d.add(532,528,'(729.727)','<div class="nodetag">(729.727)</div></span>&nbsp;&nbsp;Montserrat (Regne Unit)','(729.727)','Montserrat (Regne Unit)','','','',false,true);
+d.add(533,528,'(729.74)','<div class="nodetag">(729.74)</div></span>&nbsp;&nbsp;Antilles franceses','(729.74)','Antilles franceses','','','',false,true);
+d.add(534,533,'(729.741)','<div class="nodetag">(729.741)</div></span>&nbsp;&nbsp;Guadalupe (França)','(729.741)','Guadalupe (França)','','','',false,true);
+d.add(535,533,'(729.745)','<div class="nodetag">(729.745)</div></span>&nbsp;&nbsp;Martinica (França)','(729.745)','Martinica (França)','','','',false,true);
+d.add(536,527,'(729.8)','<div class="nodetag">(729.8)</div></span>&nbsp;&nbsp;Illes de Sobrevent','(729.8)','Illes de Sobrevent','','','',false,true);
+d.add(537,536,'(729.821)','<div class="nodetag">(729.821)</div></span>&nbsp;&nbsp;Dominica','(729.821)','Dominica','','','',false,true);
+d.add(538,536,'(729.822)','<div class="nodetag">(729.822)</div></span>&nbsp;&nbsp;Saint Lucia','(729.822)','Saint Lucia','','','',false,true);
+d.add(539,536,'(729.824)','<div class="nodetag">(729.824)</div></span>&nbsp;&nbsp;Saint Vincent i les Grenadines','(729.824)','Saint Vincent i les Grenadines','','','',false,true);
+d.add(540,536,'(729.828)','<div class="nodetag">(729.828)</div></span>&nbsp;&nbsp;Grenada','(729.828)','Grenada','','','',false,true);
+d.add(541,536,'(729.86)','<div class="nodetag">(729.86)</div></span>&nbsp;&nbsp;Barbados','(729.86)','Barbados','','','',false,true);
+d.add(542,536,'(729.87)','<div class="nodetag">(729.87)</div></span>&nbsp;&nbsp;Trinitat i Tobago','(729.87)','Trinitat i Tobago','','','',false,true);
+d.add(543,536,'(729.88)','<div class="nodetag">(729.88)</div></span>&nbsp;&nbsp;Antilles neerlandeses. Antia Hulandes','(729.88)','Antilles neerlandeses. Antia Hulandes','','','',false,true);
+d.add(544,543,'(729.885)','<div class="nodetag">(729.885)</div></span>&nbsp;&nbsp;Aruba (Països Baixos)','(729.885)','Aruba (Països Baixos)','','','',false,true);
+d.add(545,517,'(729.9)','<div class="nodetag">(729.9)</div></span>&nbsp;&nbsp;Bermudes (Regne Unit)','(729.9)','Bermudes (Regne Unit)','','','',false,true);
+d.add(546,505,'(73)','<div class="nodetag">(73)</div></span>&nbsp;&nbsp;Estats Units d\'Amèrica (EUA). United States of America (USA)','(73)','Estats Units d\'Amèrica (EUA). United States of America (USA)','','','',false,true);
+d.add(547,504,'(8)','<div class="nodetag">(8)</div></span>&nbsp;&nbsp;Amèrica del Sud. Estats i regions de l\'Amèrica del Sud. Amèrica Llatina','(8)','Amèrica del Sud. Estats i regions de l\'Amèrica del Sud. Amèrica Llatina','','','',false,true);
+d.add(548,547,'(81)','<div class="nodetag">(81)</div></span>&nbsp;&nbsp;Brasil. República Federativa do Brasil','(81)','Brasil. República Federativa do Brasil','','','',false,true);
+d.add(549,547,'(82)','<div class="nodetag">(82)</div></span>&nbsp;&nbsp;Argentina. República de Argentina','(82)','Argentina. República de Argentina','','','',false,true);
+d.add(550,547,'(83)','<div class="nodetag">(83)</div></span>&nbsp;&nbsp;Xile. República de Chile','(83)','Xile. República de Chile','','','',false,true);
+d.add(551,547,'(84)','<div class="nodetag">(84)</div></span>&nbsp;&nbsp;Bolívia. República de Bolívia','(84)','Bolívia. República de Bolívia','','','',false,true);
+d.add(552,547,'(85)','<div class="nodetag">(85)</div></span>&nbsp;&nbsp;Perú. República del Perú','(85)','Perú. República del Perú','','','',false,true);
+d.add(553,547,'(862)','<div class="nodetag">(862)</div></span>&nbsp;&nbsp;Colòmbia. República de Colombia','(862)','Colòmbia. República de Colombia','','','',false,true);
+d.add(554,547,'(866)','<div class="nodetag">(866)</div></span>&nbsp;&nbsp;Equador. República del Ecuador','(866)','Equador. República del Ecuador','','','',false,true);
+d.add(555,547,'(87)','<div class="nodetag">(87)</div></span>&nbsp;&nbsp;Veneçuela. República de Venezuela','(87)','Veneçuela. República de Venezuela','','','',false,true);
+d.add(556,547,'(88)','<div class="nodetag">(88)</div></span>&nbsp;&nbsp;Les Guaianes','(88)','Les Guaianes','','','',false,true);
+d.add(557,556,'(881)','<div class="nodetag">(881)</div></span>&nbsp;&nbsp;Guyana. República Cooperativa de Guyana. Cooperative Republic of Guyana','(881)','Guyana. República Cooperativa de Guyana. Cooperative Republic of Guyana','','','',false,true);
+d.add(558,556,'(882)','<div class="nodetag">(882)</div></span>&nbsp;&nbsp;Guaiana Francesa. Guyane française (région et département français d\'outre-mer)','(882)','Guaiana Francesa. Guyane française (région et département français d\'outre-mer)','','','',false,true);
+d.add(559,556,'(883)','<div class="nodetag">(883)</div></span>&nbsp;&nbsp;Surinam. Republic of Suriname. Republiek Suriname','(883)','Surinam. Republic of Suriname. Republiek Suriname','','','',false,true);
+d.add(560,547,'(893)','<div class="nodetag">(893)</div></span>&nbsp;&nbsp;Paraguai. República del Paraguay','(893)','Paraguai. República del Paraguay','','','',false,true);
+d.add(561,547,'(899)','<div class="nodetag">(899)</div></span>&nbsp;&nbsp;Uruguai. República Oriental del Uruguay','(899)','Uruguai. República Oriental del Uruguay','','','',false,true);
+d.add(562,326,'(9)','<div class="nodetag">(9)</div></span>&nbsp;&nbsp;Estats i regions del Pacífic del Sud i Austràlia. Àrtic. Antàrtic','(9)','Estats i regions del Pacífic del Sud i Austràlia. Àrtic. Antàrtic','','','',false,true);
+d.add(563,562,'(931)','<div class="nodetag">(931)</div></span>&nbsp;&nbsp;Nova Zelanda. New Zealand. Aotearoa','(931)','Nova Zelanda. New Zealand. Aotearoa','','','',false,true);
+d.add(564,562,'(932/935)','<div class="nodetag">(932/935)</div></span>&nbsp;&nbsp;Melanèsia. Estats i regions de la Melanèsia','(932/935)','Melanèsia. Estats i regions de la Melanèsia','','','',false,true);
+d.add(565,562,'(94)','<div class="nodetag">(94)</div></span>&nbsp;&nbsp;Austràlia. Commonwealth of Australia','(94)','Austràlia. Commonwealth of Australia','','','',false,true);
+d.add(566,562,'(954)','<div class="nodetag">(954)</div></span>&nbsp;&nbsp;Papua Nova Guinea. Papua New Guinea','(954)','Papua Nova Guinea. Papua New Guinea','','','',false,true);
+d.add(567,562,'(961/964)','<div class="nodetag">(961/964)</div></span>&nbsp;&nbsp;Polinèsia. Estats i regions de la Polinèsia','(961/964)','Polinèsia. Estats i regions de la Polinèsia','','','',false,true);
+d.add(568,562,'(966/968)','<div class="nodetag">(966/968)</div></span>&nbsp;&nbsp;Micronèsia. Estats i regions de la Micronèsia','(966/968)','Micronèsia. Estats i regions de la Micronèsia','','','',false,true);
+d.add(569,562,'(97)','<div class="nodetag">(97)</div></span>&nbsp;&nbsp;Illes aïllades de l\'Oceà Pacífic','(97)','Illes aïllades de l\'Oceà Pacífic','','','',false,true);
+d.add(570,562,'(98)','<div class="nodetag">(98)</div></span>&nbsp;&nbsp;Territoris àrtics','(98)','Territoris àrtics','','','',false,true);
+d.add(571,570,'(988)','<div class="nodetag">(988)</div></span>&nbsp;&nbsp;Grenlàndia (Dinamarca). Groenlàndia. Kalaallit Nunaat. Grønland','(988)','Grenlàndia (Dinamarca). Groenlàndia. Kalaallit Nunaat. Grønland','','','',false,true);
+d.add(572,562,'(99)','<div class="nodetag">(99)</div></span>&nbsp;&nbsp;Territoris de l\'Antàrtida. Regions del Pol Sud','(99)','Territoris de l\'Antàrtida. Regions del Pol Sud','','','',false,true);
+d.add(573,0,'(=...)','<div class="nodetag">(=...)</div></span>&nbsp;&nbsp;Auxiliars comuns de grup ètnic, ascendència i nacionalitat. Taula 1f','(=...)','Auxiliars comuns de grup ètnic, ascendència i nacionalitat. Taula 1f','','','',false,true);
+d.add(574,573,'(=01)','<div class="nodetag">(=01)</div></span>&nbsp;&nbsp;Grups humans segons l\'ascendència','(=01)','Grups humans segons l\'ascendència','','','',false,true);
+d.add(575,574,'(=011)','<div class="nodetag">(=011)</div></span>&nbsp;&nbsp;Grups d\'ascendència continental europea','(=011)','Grups d\'ascendència continental europea','','','',false,true);
+d.add(576,574,'(=012)','<div class="nodetag">(=012)</div></span>&nbsp;&nbsp;Grups d\'ascendència continental asiàtica','(=012)','Grups d\'ascendència continental asiàtica','','','',false,true);
+d.add(577,574,'(=013)','<div class="nodetag">(=013)</div></span>&nbsp;&nbsp;Grups d\'ascendència continental africana','(=013)','Grups d\'ascendència continental africana','','','',false,true);
+d.add(578,574,'(=014)','<div class="nodetag">(=014)</div></span>&nbsp;&nbsp;Grups d\'ascendència oceànica','(=014)','Grups d\'ascendència oceànica','','','',false,true);
+d.add(579,574,'(=017)','<div class="nodetag">(=017)</div></span>&nbsp;&nbsp;Grups d\'ascendència ameríndia','(=017)','Grups d\'ascendència ameríndia','','','',false,true);
+d.add(580,573,'(=1/=8)','<div class="nodetag">(=1/=8)</div></span>&nbsp;&nbsp;Grups ètnics. Pobles i grups lingüístics i culturals','(=1/=8)','Grups ètnics. Pobles i grups lingüístics i culturals','','','',false,true);
+d.add(581,580,'(=1/=2)','<div class="nodetag">(=1/=2)</div></span>&nbsp;&nbsp;Ètnies i pobles indoeuropeus','(=1/=2)','Ètnies i pobles indoeuropeus','','','',false,true);
+d.add(582,581,'(=13)','<div class="nodetag">(=13)</div></span>&nbsp;&nbsp;Pobles romànics. Ètnies i pobles \"llatins\"','(=13)','Pobles romànics. Ètnies i pobles \"llatins\"','','','',false,true);
+d.add(583,573,'(=1:1/9)','<div class="nodetag">(=1:1/9)</div></span>&nbsp;&nbsp;Pobles relacionats amb llocs concrets','(=1:1/9)','Pobles relacionats amb llocs concrets','','','',false,true);
+d.add(584,0,'"..."','<div class="nodetag">"..."</div></span>&nbsp;&nbsp;Auxiliars comuns de temps. Taula 1g','"..."','Auxiliars comuns de temps. Taula 1g','','','',false,true);
+d.add(585,584,'"0/2"','<div class="nodetag">"0/2"</div></span>&nbsp;&nbsp;Dates i períodes cronològics (dC) d\'acord amb el calendari gregorià (cristià)','"0/2"','Dates i períodes cronològics (dC) d\'acord amb el calendari gregorià (cristià)','','','',false,true);
+d.add(586,585,'"0"','<div class="nodetag">"0"</div></span>&nbsp;&nbsp;Primer mil·lenni dC','"0"','Primer mil·lenni dC','','','',false,true);
+d.add(587,585,'"1"','<div class="nodetag">"1"</div></span>&nbsp;&nbsp;Segon mil·lenni dC','"1"','Segon mil·lenni dC','','','',false,true);
+d.add(588,585,'"2"','<div class="nodetag">"2"</div></span>&nbsp;&nbsp;Tercer mil·lenni dC','"2"','Tercer mil·lenni dC','','','',false,true);
+d.add(589,584,'"3/7"','<div class="nodetag">"3/7"</div></span>&nbsp;&nbsp;Divisions cronològiques diferents al calendari gregorià (cristià)','"3/7"','Divisions cronològiques diferents al calendari gregorià (cristià)','','','',false,true);
+d.add(590,589,'"3"','<div class="nodetag">"3"</div></span>&nbsp;&nbsp;Divisions cronològiques convencionals: xifres, noms, etc.','"3"','Divisions cronològiques convencionals: xifres, noms, etc.','','','',false,true);
+d.add(591,590,'"32"','<div class="nodetag">"32"</div></span>&nbsp;&nbsp;L\'any. Estacions i altres divisions de l\'any','"32"','L\'any. Estacions i altres divisions de l\'any','','','',false,true);
+d.add(592,591,'"321/324"','<div class="nodetag">"321/324"</div></span>&nbsp;&nbsp;Les estacions de l\'any','"321/324"','Les estacions de l\'any','','','',false,true);
+d.add(593,592,'"321"','<div class="nodetag">"321"</div></span>&nbsp;&nbsp;Primavera','"321"','Primavera','','','',false,true);
+d.add(594,592,'"322"','<div class="nodetag">"322"</div></span>&nbsp;&nbsp;Estiu','"322"','Estiu','','','',false,true);
+d.add(595,592,'"323"','<div class="nodetag">"323"</div></span>&nbsp;&nbsp;Tardor','"323"','Tardor','','','',false,true);
+d.add(596,592,'"324"','<div class="nodetag">"324"</div></span>&nbsp;&nbsp;Hivern','"324"','Hivern','','','',false,true);
+d.add(597,591,'"325"','<div class="nodetag">"325"</div></span>&nbsp;&nbsp;Trimestres','"325"','Trimestres','','','',false,true);
+d.add(598,591,'"327"','<div class="nodetag">"327"</div></span>&nbsp;&nbsp;Mesos','"327"','Mesos','','','',false,true);
+d.add(599,591,'"328"','<div class="nodetag">"328"</div></span>&nbsp;&nbsp;Setmanes','"328"','Setmanes','','','',false,true);
+d.add(600,591,'"329"','<div class="nodetag">"329"</div></span>&nbsp;&nbsp;Dies','"329"','Dies','','','',false,true);
+d.add(601,590,'"34"','<div class="nodetag">"34"</div></span>&nbsp;&nbsp;El dia i la nit. Les hores i els períodes del dia','"34"','El dia i la nit. Les hores i els períodes del dia','','','',false,true);
+d.add(602,601,'"344"','<div class="nodetag">"344"</div></span>&nbsp;&nbsp;El dia. Hores de llum del dia. Matí i tarda','"344"','El dia. Hores de llum del dia. Matí i tarda','','','',false,true);
+d.add(603,601,'"345"','<div class="nodetag">"345"</div></span>&nbsp;&nbsp;La nit. Hores de foscor o penombra. Vespre, nit i matinada','"345"','La nit. Hores de foscor o penombra. Vespre, nit i matinada','','','',false,true);
+d.add(604,590,'"36"','<div class="nodetag">"36"</div></span>&nbsp;&nbsp;Temps de pau i temps de guerra. Temps de conflicte. Temps difícils, de perill i emergència','"36"','Temps de pau i temps de guerra. Temps de conflicte. Temps difícils, de perill i emergència','','','',false,true);
+d.add(605,604,'"362"','<div class="nodetag">"362"</div></span>&nbsp;&nbsp;Temps de pau','"362"','Temps de pau','','','',false,true);
+d.add(606,604,'"363"','<div class="nodetag">"363"</div></span>&nbsp;&nbsp;Temps de perill, amenaça','"363"','Temps de perill, amenaça','','','',false,true);
+d.add(607,604,'"364"','<div class="nodetag">"364"</div></span>&nbsp;&nbsp;Temps de guerra','"364"','Temps de guerra','','','',false,true);
+d.add(608,604,'"367"','<div class="nodetag">"367"</div></span>&nbsp;&nbsp;Temps associat als nivells d\'ús, càrrega d\'activitat o demanda','"367"','Temps associat als nivells d\'ús, càrrega d\'activitat o demanda','','','',false,true);
+d.add(609,590,'"37"','<div class="nodetag">"37"</div></span>&nbsp;&nbsp;Temps de treball. Temps relacionat amb la feina i la producció. Rutina diària de treball','"37"','Temps de treball. Temps relacionat amb la feina i la producció. Rutina diària de treball','','','',false,true);
+d.add(610,609,'"372"','<div class="nodetag">"372"</div></span>&nbsp;&nbsp;Jornada i hores de treball. Hores laborables. Hores de servei','"372"','Jornada i hores de treball. Hores laborables. Hores de servei','','','',false,true);
+d.add(611,609,'"377"','<div class="nodetag">"377"</div></span>&nbsp;&nbsp;Temps de descans i lleure. Temps lliure. Temps fora de la jornada de treball','"377"','Temps de descans i lleure. Temps lliure. Temps fora de la jornada de treball','','','',false,true);
+d.add(612,590,'"38"','<div class="nodetag">"38"</div></span>&nbsp;&nbsp;Vacances. Festivitats. Esdeveniments commemoratius','"38"','Vacances. Festivitats. Esdeveniments commemoratius','','','',false,true);
+d.add(613,612,'"382"','<div class="nodetag">"382"</div></span>&nbsp;&nbsp;Festivitats i esdeveniments commemoratius religiosos','"382"','Festivitats i esdeveniments commemoratius religiosos','','','',false,true);
+d.add(614,612,'"383"','<div class="nodetag">"383"</div></span>&nbsp;&nbsp;Festivitats oficials, nacionals, regionals, etc. laiques (diferents de les religioses)','"383"','Festivitats oficials, nacionals, regionals, etc. laiques (diferents de les religioses)','','','',false,true);
+d.add(615,612,'"385"','<div class="nodetag">"385"</div></span>&nbsp;&nbsp;Vacances, permisos i llicències privades i personals. Temps lliure personal','"385"','Vacances, permisos i llicències privades i personals. Temps lliure personal','','','',false,true);
+d.add(616,589,'"4"','<div class="nodetag">"4"</div></span>&nbsp;&nbsp;Durada. Període. Termini. Edats i grups d\'edat','"4"','Durada. Període. Termini. Edats i grups d\'edat','','','',false,true);
+d.add(617,616,'"40"','<div class="nodetag">"40"</div></span>&nbsp;&nbsp;Durada. Període. Termini','"40"','Durada. Període. Termini','','','',false,true);
+d.add(618,617,'"401"','<div class="nodetag">"401"</div></span>&nbsp;&nbsp;Termini amb data límit. Durabilitat','"401"','Termini amb data límit. Durabilitat','','','',false,true);
+d.add(619,617,'"403"','<div class="nodetag">"403"</div></span>&nbsp;&nbsp;Curta durada. A curt termini','"403"','Curta durada. A curt termini','','','',false,true);
+d.add(620,617,'"404"','<div class="nodetag">"404"</div></span>&nbsp;&nbsp;Durada mitjana. A mitjà termini','"404"','Durada mitjana. A mitjà termini','','','',false,true);
+d.add(621,617,'"405"','<div class="nodetag">"405"</div></span>&nbsp;&nbsp;Llarga durada. A llarg termini','"405"','Llarga durada. A llarg termini','','','',false,true);
+d.add(622,617,'"408"','<div class="nodetag">"408"</div></span>&nbsp;&nbsp;Durada indefinida, il·limitada. Sense data límit','"408"','Durada indefinida, il·limitada. Sense data límit','','','',false,true);
+d.add(623,616,'"41"','<div class="nodetag">"41"</div></span>&nbsp;&nbsp;Durada inferior a un dia','"41"','Durada inferior a un dia','','','',false,true);
+d.add(624,616,'"42"','<div class="nodetag">"42"</div></span>&nbsp;&nbsp;Durada expressada en dies','"42"','Durada expressada en dies','','','',false,true);
+d.add(625,616,'"43"','<div class="nodetag">"43"</div></span>&nbsp;&nbsp;Durada expressada en setmanes','"43"','Durada expressada en setmanes','','','',false,true);
+d.add(626,616,'"44"','<div class="nodetag">"44"</div></span>&nbsp;&nbsp;Durada expressada en mesos','"44"','Durada expressada en mesos','','','',false,true);
+d.add(627,616,'"45"','<div class="nodetag">"45"</div></span>&nbsp;&nbsp;Durada expressada en anys, dècades, segles, mil·lennis, etc.','"45"','Durada expressada en anys, dècades, segles, mil·lennis, etc.','','','',false,true);
+d.add(628,616,'"46"','<div class="nodetag">"46"</div></span>&nbsp;&nbsp;Edats i grups d\'edat de les persones, éssers vius i ens inanimats','"46"','Edats i grups d\'edat de les persones, éssers vius i ens inanimats','','','',false,true);
+d.add(629,628,'"462"','<div class="nodetag">"462"</div></span>&nbsp;&nbsp;Edat expressada en dies','"462"','Edat expressada en dies','','','',false,true);
+d.add(630,628,'"463"','<div class="nodetag">"463"</div></span>&nbsp;&nbsp;Edat expressada en setmanes','"463"','Edat expressada en setmanes','','','',false,true);
+d.add(631,628,'"464"','<div class="nodetag">"464"</div></span>&nbsp;&nbsp;Edat expressada en mesos','"464"','Edat expressada en mesos','','','',false,true);
+d.add(632,628,'"465"','<div class="nodetag">"465"</div></span>&nbsp;&nbsp;Edat expressada en anys i dècades','"465"','Edat expressada en anys i dècades','','','',false,true);
+d.add(633,589,'"5"','<div class="nodetag">"5"</div></span>&nbsp;&nbsp;Periodicitat. Freqüència. Repetició a intervals determinats','"5"','Periodicitat. Freqüència. Repetició a intervals determinats','','','',false,true);
+d.add(634,633,'"51"','<div class="nodetag">"51"</div></span>&nbsp;&nbsp;Repetició a intervals de menys d\'un dia. Freqüència superior a la diària','"51"','Repetició a intervals de menys d\'un dia. Freqüència superior a la diària','','','',false,true);
+d.add(635,633,'"52"','<div class="nodetag">"52"</div></span>&nbsp;&nbsp;Freqüència diària. Repetició a intervals d\'un dia o més (expressada en dies)','"52"','Freqüència diària. Repetició a intervals d\'un dia o més (expressada en dies)','','','',false,true);
+d.add(636,633,'"53"','<div class="nodetag">"53"</div></span>&nbsp;&nbsp;Freqüència setmanal. Repetició a intervals d\'una setmana o més (expressada en setmanes)','"53"','Freqüència setmanal. Repetició a intervals d\'una setmana o més (expressada en setmanes)','','','',false,true);
+d.add(637,633,'"54"','<div class="nodetag">"54"</div></span>&nbsp;&nbsp;Freqüència mensual. Repetició a intervals d\'un mes o més (expressada en mesos)','"54"','Freqüència mensual. Repetició a intervals d\'un mes o més (expressada en mesos)','','','',false,true);
+d.add(638,633,'"55"','<div class="nodetag">"55"</div></span>&nbsp;&nbsp;Freqüència anual. Repetició a intervals d\'un any o més (expressada en anys, dècades, segles, mil·lennis)','"55"','Freqüència anual. Repetició a intervals d\'un any o més (expressada en anys, dècades, segles, mil·lennis)','','','',false,true);
+d.add(639,633,'"56"','<div class="nodetag">"56"</div></span>&nbsp;&nbsp;Repetició a intervals generacionals, vitals, etc. Cicle de vida','"56"','Repetició a intervals generacionals, vitals, etc. Cicle de vida','','','',false,true);
+d.add(640,589,'"6"','<div class="nodetag">"6"</div></span>&nbsp;&nbsp;Divisions del temps geològiques, arqueològiques i culturals','"6"','Divisions del temps geològiques, arqueològiques i culturals','','','',false,true);
+d.add(641,640,'"61/62"','<div class="nodetag">"61/62"</div></span>&nbsp;&nbsp;Divisió del temps geològica (litològica, biològica, paleològica)','"61/62"','Divisió del temps geològica (litològica, biològica, paleològica)','','','',false,true);
+d.add(642,641,'"61"','<div class="nodetag">"61"</div></span>&nbsp;&nbsp;Precambrià (més de -542 Ma) (supereó)','"61"','Precambrià (més de -542 Ma) (supereó)','','','',false,true);
+d.add(643,641,'"62"','<div class="nodetag">"62"</div></span>&nbsp;&nbsp;Fanerozoic (-542 Ma fins al present) (eó)','"62"','Fanerozoic (-542 Ma fins al present) (eó)','','','',false,true);
+d.add(644,643,'"621"','<div class="nodetag">"621"</div></span>&nbsp;&nbsp;Paleozoic (dels -542 Ma fins als -251 Ma) (era)','"621"','Paleozoic (dels -542 Ma fins als -251 Ma) (era)','','','',false,true);
+d.add(645,643,'"622"','<div class="nodetag">"622"</div></span>&nbsp;&nbsp;Mesozoic (dels -251 Ma fins als -65,5 Ma) (era)','"622"','Mesozoic (dels -251 Ma fins als -65,5 Ma) (era)','','','',false,true);
+d.add(646,643,'"628"','<div class="nodetag">"628"</div></span>&nbsp;&nbsp;Cenozoic (Cainozoic) (-65,5 Ma fins al present) (era)','"628"','Cenozoic (Cainozoic) (-65,5 Ma fins al present) (era)','','','',false,true);
+d.add(647,641,'"63"','<div class="nodetag">"63"</div></span>&nbsp;&nbsp;Edats i períodes arqueològics, prehistòrics i protohistòrics','"63"','Edats i períodes arqueològics, prehistòrics i protohistòrics','','','',false,true);
+d.add(648,640,'"67/69"','<div class="nodetag">"67/69"</div></span>&nbsp;&nbsp;Escales/Còmputs temporals: universal, secular, religiosos no cristians','"67/69"','Escales/Còmputs temporals: universal, secular, religiosos no cristians','','','',false,true);
+d.add(649,648,'"67"','<div class="nodetag">"67"</div></span>&nbsp;&nbsp;Escala de temps universal. Abans del present','"67"','Escala de temps universal. Abans del present','','','',false,true);
+d.add(650,648,'"68"','<div class="nodetag">"68"</div></span>&nbsp;&nbsp;Escala de temps secular diferent a l\'escala universal i al calendari gregorià (cristià)','"68"','Escala de temps secular diferent a l\'escala universal i al calendari gregorià (cristià)','','','',false,true);
+d.add(651,648,'"69"','<div class="nodetag">"69"</div></span>&nbsp;&nbsp;Dates i unitats cronològiques en les escales de temps no cristianes (no gregorianes)','"69"','Dates i unitats cronològiques en les escales de temps no cristianes (no gregorianes)','','','',false,true);
+d.add(652,589,'"7"','<div class="nodetag">"7"</div></span>&nbsp;&nbsp;Fenòmens i successos en el temps. Fenomenologia del temps','"7"','Fenòmens i successos en el temps. Fenomenologia del temps','','','',false,true);
+d.add(653,0,'-0...','<div class="nodetag">-0...</div></span>&nbsp;&nbsp;Auxiliars comuns de característiques generals: propietats, materials, relacions/processos i persones. Taula 1k','-0...','Auxiliars comuns de característiques generals: propietats, materials, relacions/processos i persones. Taula 1k','','','',false,true);
+d.add(654,653,'-02','<div class="nodetag">-02</div></span>&nbsp;&nbsp;Auxiliars comuns de propietats. Taula 1k','-02','Auxiliars comuns de propietats. Taula 1k','','','',false,true);
+d.add(655,654,'-021','<div class="nodetag">-021</div></span>&nbsp;&nbsp;Propietats referents a l\'existència','-021','Propietats referents a l\'existència','','','',false,true);
+d.add(656,654,'-022','<div class="nodetag">-022</div></span>&nbsp;&nbsp;Propietats referents a la magnitud, el grau, la quantitat, el nombre, els valors temporals, la dimensió, la mida','-022','Propietats referents a la magnitud, el grau, la quantitat, el nombre, els valors temporals, la dimensió, la mida','','','',false,true);
+d.add(657,654,'-023','<div class="nodetag">-023</div></span>&nbsp;&nbsp;Propietats referents a la forma','-023','Propietats referents a la forma','','','',false,true);
+d.add(658,654,'-024','<div class="nodetag">-024</div></span>&nbsp;&nbsp;Propietats referents a l\'estructura. Propietats referents a la posició','-024','Propietats referents a l\'estructura. Propietats referents a la posició','','','',false,true);
+d.add(659,654,'-025','<div class="nodetag">-025</div></span>&nbsp;&nbsp;Propietats referents a la disposició','-025','Propietats referents a la disposició','','','',false,true);
+d.add(660,654,'-026','<div class="nodetag">-026</div></span>&nbsp;&nbsp;Propietats referents a l\'acció i el moviment','-026','Propietats referents a l\'acció i el moviment','','','',false,true);
+d.add(661,654,'-027','<div class="nodetag">-027</div></span>&nbsp;&nbsp;Propietats operatives','-027','Propietats operatives','','','',false,true);
+d.add(662,654,'-028','<div class="nodetag">-028</div></span>&nbsp;&nbsp;Propietats referents a l\'estil i a la presentació','-028','Propietats referents a l\'estil i a la presentació','','','',false,true);
+d.add(663,662,'-028.41','<div class="nodetag">-028.41</div></span>&nbsp;&nbsp;Popular. Divulgador','-028.41','Popular. Divulgador','','','',false,true);
+d.add(664,662,'-028.42','<div class="nodetag">-028.42</div></span>&nbsp;&nbsp;Culte. Acadèmic','-028.42','Culte. Acadèmic','','','',false,true);
+d.add(665,662,'-028.43','<div class="nodetag">-028.43</div></span>&nbsp;&nbsp;Crític. No crític','-028.43','Crític. No crític','','','',false,true);
+d.add(666,662,'-028.44','<div class="nodetag">-028.44</div></span>&nbsp;&nbsp;Descriptiu','-028.44','Descriptiu','','','',false,true);
+d.add(667,662,'-028.45','<div class="nodetag">-028.45</div></span>&nbsp;&nbsp;Analític','-028.45','Analític','','','',false,true);
+d.add(668,662,'-028.46','<div class="nodetag">-028.46</div></span>&nbsp;&nbsp;Pragmàtic. Basat en l\'experiència','-028.46','Pragmàtic. Basat en l\'experiència','','','',false,true);
+d.add(669,662,'-028.47','<div class="nodetag">-028.47</div></span>&nbsp;&nbsp;Anecdòtic','-028.47','Anecdòtic','','','',false,true);
+d.add(670,662,'-028.5','<div class="nodetag">-028.5</div></span>&nbsp;&nbsp;Propietats referents a l\'autoria','-028.5','Propietats referents a l\'autoria','','','',false,true);
+d.add(671,662,'-028.6','<div class="nodetag">-028.6</div></span>&nbsp;&nbsp;Propietats referents a l\'ordre, ordenació','-028.6','Propietats referents a l\'ordre, ordenació','','','',false,true);
+d.add(672,654,'-029','<div class="nodetag">-029</div></span>&nbsp;&nbsp;Propietats derivades d\'altres classes principals','-029','Propietats derivades d\'altres classes principals','','','',false,true);
+d.add(673,653,'-03','<div class="nodetag">-03</div></span>&nbsp;&nbsp;Auxiliars comuns de materials. Taula Ik','-03','Auxiliars comuns de materials. Taula Ik','','','',false,true);
+d.add(674,673,'-032','<div class="nodetag">-032</div></span>&nbsp;&nbsp;Materials minerals d\'origen natural','-032','Materials minerals d\'origen natural','','','',false,true);
+d.add(675,673,'-033','<div class="nodetag">-033</div></span>&nbsp;&nbsp;Materials manufacturats a base de minerals','-033','Materials manufacturats a base de minerals','','','',false,true);
+d.add(676,673,'-034','<div class="nodetag">-034</div></span>&nbsp;&nbsp;Metalls','-034','Metalls','','','',false,true);
+d.add(677,673,'-035','<div class="nodetag">-035</div></span>&nbsp;&nbsp;Materials d\'origen principalment orgànic','-035','Materials d\'origen principalment orgànic','','','',false,true);
+d.add(678,673,'-036','<div class="nodetag">-036</div></span>&nbsp;&nbsp;Materials macromoleculars. Cautxú i plàstic','-036','Materials macromoleculars. Cautxú i plàstic','','','',false,true);
+d.add(679,673,'-037','<div class="nodetag">-037</div></span>&nbsp;&nbsp;Materials tèxtils. Fibres. Fils. Teixits. Roba','-037','Materials tèxtils. Fibres. Fils. Teixits. Roba','','','',false,true);
+d.add(680,653,'-04','<div class="nodetag">-04</div></span>&nbsp;&nbsp;Auxiliars comunes de relacions, processos i accions. Taula 1k','-04','Auxiliars comunes de relacions, processos i accions. Taula 1k','','','',false,true);
+d.add(681,680,'-042','<div class="nodetag">-042</div></span>&nbsp;&nbsp;Relacions entre conceptes','-042','Relacions entre conceptes','','','',false,true);
+d.add(682,681,'-042.1','<div class="nodetag">-042.1</div></span>&nbsp;&nbsp;Relació d\'orientació','-042.1','Relació d\'orientació','','','',false,true);
+d.add(683,681,'-042.2','<div class="nodetag">-042.2</div></span>&nbsp;&nbsp;Relació de comparació','-042.2','Relació de comparació','','','',false,true);
+d.add(684,681,'-042.3','<div class="nodetag">-042.3</div></span>&nbsp;&nbsp;Relació d\'influència','-042.3','Relació d\'influència','','','',false,true);
+d.add(685,681,'-042.4','<div class="nodetag">-042.4</div></span>&nbsp;&nbsp;Relació d\'instrument. Relació d\'aspecte','-042.4','Relació d\'instrument. Relació d\'aspecte','','','',false,true);
+d.add(686,681,'-042.5/.8','<div class="nodetag">-042.5/.8</div></span>&nbsp;&nbsp;Altres termes descriptius de relacions entre entitats','-042.5/.8','Altres termes descriptius de relacions entre entitats','','','',false,true);
+d.add(687,680,'-043','<div class="nodetag">-043</div></span>&nbsp;&nbsp;Processos generals','-043','Processos generals','','','',false,true);
+d.add(688,687,'-043.8/.9','<div class="nodetag">-043.8/.9</div></span>&nbsp;&nbsp;Processos referents a l\'existència','-043.8/.9','Processos referents a l\'existència','','','',false,true);
+d.add(689,680,'-044.3','<div class="nodetag">-044.3</div></span>&nbsp;&nbsp;Processos referents al valor','-044.3','Processos referents al valor','','','',false,true);
+d.add(690,680,'-044.4','<div class="nodetag">-044.4</div></span>&nbsp;&nbsp;Processos referents a l\'ordre i la seqüència','-044.4','Processos referents a l\'ordre i la seqüència','','','',false,true);
+d.add(691,680,'-044.5','<div class="nodetag">-044.5</div></span>&nbsp;&nbsp;Processos referents a la magnitud','-044.5','Processos referents a la magnitud','','','',false,true);
+d.add(692,680,'-044.6','<div class="nodetag">-044.6</div></span>&nbsp;&nbsp;Processos referents al nombre i al grau','-044.6','Processos referents al nombre i al grau','','','',false,true);
+d.add(693,680,'-044.7','<div class="nodetag">-044.7</div></span>&nbsp;&nbsp;Processos referents al temps i a la cronologia','-044.7','Processos referents al temps i a la cronologia','','','',false,true);
+d.add(694,680,'-044.8','<div class="nodetag">-044.8</div></span>&nbsp;&nbsp;Processos referents a la dimensió','-044.8','Processos referents a la dimensió','','','',false,true);
+d.add(695,680,'-044.9','<div class="nodetag">-044.9</div></span>&nbsp;&nbsp;Processos referents a la forma','-044.9','Processos referents a la forma','','','',false,true);
+d.add(696,680,'-045','<div class="nodetag">-045</div></span>&nbsp;&nbsp;Processos referents a la posició, la disposició, el moviment, les propietats físiques i els estats de la matèria','-045','Processos referents a la posició, la disposició, el moviment, les propietats físiques i els estats de la matèria','','','',false,true);
+d.add(697,680,'-047/-049','<div class="nodetag">-047/-049</div></span>&nbsp;&nbsp;Accions i activitats generals','-047/-049','Accions i activitats generals','','','',false,true);
+d.add(698,653,'-05','<div class="nodetag">-05</div></span>&nbsp;&nbsp;Auxiliars comuns de persones i característiques personals. Taula 1k','-05','Auxiliars comuns de persones i característiques personals. Taula 1k','','','',false,true);
+d.add(699,698,'-051','<div class="nodetag">-051</div></span>&nbsp;&nbsp;Les persones com a agents, com a subjectes actius, que duen a terme una acció (que estudien, que fan alguna cosa, que serveixen, etc.)','-051','Les persones com a agents, com a subjectes actius, que duen a terme una acció (que estudien, que fan alguna cosa, que serveixen, etc.)','','','',false,true);
+d.add(700,698,'-052','<div class="nodetag">-052</div></span>&nbsp;&nbsp;Les persones com a objectiu, com a subjectes pacients, clients, usuaris (persones estudiades, servides, etc.)','-052','Les persones com a objectiu, com a subjectes pacients, clients, usuaris (persones estudiades, servides, etc.)','','','',false,true);
+d.add(701,698,'-053','<div class="nodetag">-053</div></span>&nbsp;&nbsp;Persones segons l\'edat o grups d\'edat','-053','Persones segons l\'edat o grups d\'edat','','','',false,true);
+d.add(702,701,'-053.1','<div class="nodetag">-053.1</div></span>&nbsp;&nbsp;Éssers humans, nascuts o a néixer, vius o morts','-053.1','Éssers humans, nascuts o a néixer, vius o morts','','','',false,true);
+d.add(703,701,'-053.2','<div class="nodetag">-053.2</div></span>&nbsp;&nbsp;Infants, nadons i lactants (en general)','-053.2','Infants, nadons i lactants (en general)','','','',false,true);
+d.add(704,701,'-053.8','<div class="nodetag">-053.8</div></span>&nbsp;&nbsp;Adults. Persones madures','-053.8','Adults. Persones madures','','','',false,true);
+d.add(705,701,'-053.9','<div class="nodetag">-053.9</div></span>&nbsp;&nbsp;Ancians. Persones grans. Sèniors','-053.9','Ancians. Persones grans. Sèniors','','','',false,true);
+d.add(706,698,'-054','<div class="nodetag">-054</div></span>&nbsp;&nbsp;Persones segons l\'ètnia, la nacionalitat, la ciutadania, etc.','-054','Persones segons l\'ètnia, la nacionalitat, la ciutadania, etc.','','','',false,true);
+d.add(707,706,'-054.4','<div class="nodetag">-054.4</div></span>&nbsp;&nbsp;Residents (nacionals o estrangers)','-054.4','Residents (nacionals o estrangers)','','','',false,true);
+d.add(708,706,'-054.5','<div class="nodetag">-054.5</div></span>&nbsp;&nbsp;Nacionals. Ciutadans d\'un país','-054.5','Nacionals. Ciutadans d\'un país','','','',false,true);
+d.add(709,706,'-054.6','<div class="nodetag">-054.6</div></span>&nbsp;&nbsp;Estrangers','-054.6','Estrangers','','','',false,true);
+d.add(710,706,'-054.7','<div class="nodetag">-054.7</div></span>&nbsp;&nbsp;Expatriats. Exiliats. Repatriats. Migrants. Apàtrides','-054.7','Expatriats. Exiliats. Repatriats. Migrants. Apàtrides','','','',false,true);
+d.add(711,698,'-055','<div class="nodetag">-055</div></span>&nbsp;&nbsp;Persones segons el sexe i el parentiu','-055','Persones segons el sexe i el parentiu','','','',false,true);
+d.add(712,711,'-055.1','<div class="nodetag">-055.1</div></span>&nbsp;&nbsp;Homes. Sexe masculí','-055.1','Homes. Sexe masculí','','','',false,true);
+d.add(713,711,'-055.2','<div class="nodetag">-055.2</div></span>&nbsp;&nbsp;Dones. Sexe femení','-055.2','Dones. Sexe femení','','','',false,true);
+d.add(714,711,'-055.3','<div class="nodetag">-055.3</div></span>&nbsp;&nbsp;Persones segons l\'orientació sexual','-055.3','Persones segons l\'orientació sexual','','','',false,true);
+d.add(715,711,'-055.5','<div class="nodetag">-055.5</div></span>&nbsp;&nbsp;Persones amb una relació de parentiu o d\'ascendència. Ancestres. Avantpassats. Progenitors. Pares','-055.5','Persones amb una relació de parentiu o d\'ascendència. Ancestres. Avantpassats. Progenitors. Pares','','','',false,true);
+d.add(716,711,'-055.6','<div class="nodetag">-055.6</div></span>&nbsp;&nbsp;Persones amb una relació de filiació o de descendència. Progènie. Fills','-055.6','Persones amb una relació de filiació o de descendència. Progènie. Fills','','','',false,true);
+d.add(717,711,'-055.7','<div class="nodetag">-055.7</div></span>&nbsp;&nbsp;Persones amb una relació col·lateral (diferent de la línia directa de parentiu)','-055.7','Persones amb una relació col·lateral (diferent de la línia directa de parentiu)','','','',false,true);
+d.add(718,698,'-056','<div class="nodetag">-056</div></span>&nbsp;&nbsp;Persones segons la constitució, la salut, el temperament, els trets hereditaris o d\'altres característiques similars','-056','Persones segons la constitució, la salut, el temperament, els trets hereditaris o d\'altres característiques similars','','','',false,true);
+d.add(719,718,'-056.1','<div class="nodetag">-056.1</div></span>&nbsp;&nbsp;Persones segons la constitució en general, el temperament o el caràcter','-056.1','Persones segons la constitució en general, el temperament o el caràcter','','','',false,true);
+d.add(720,718,'-056.2','<div class="nodetag">-056.2</div></span>&nbsp;&nbsp;Persones segons l\'estat de salut física i mental','-056.2','Persones segons l\'estat de salut física i mental','','','',false,true);
+d.add(721,718,'-056.3','<div class="nodetag">-056.3</div></span>&nbsp;&nbsp;Persones segons la intel·ligència i l\'estat psíquic o mental','-056.3','Persones segons la intel·ligència i l\'estat psíquic o mental','','','',false,true);
+d.add(722,718,'-056.4','<div class="nodetag">-056.4</div></span>&nbsp;&nbsp;Persones segons el temperament, la predisposició','-056.4','Persones segons el temperament, la predisposició','','','',false,true);
+d.add(723,698,'-057','<div class="nodetag">-057</div></span>&nbsp;&nbsp;Persones segons la professió, el treball, l\'ocupació, els mitjans de subsistència, la instrucció','-057','Persones segons la professió, el treball, l\'ocupació, els mitjans de subsistència, la instrucció','','','',false,true);
+d.add(724,723,'-057.1','<div class="nodetag">-057.1</div></span>&nbsp;&nbsp;Persones segons el treball, l\'ocupació, l\'estatus administratiu','-057.1','Persones segons el treball, l\'ocupació, l\'estatus administratiu','','','',false,true);
+d.add(725,723,'-057.2','<div class="nodetag">-057.2</div></span>&nbsp;&nbsp;Personal tècnic. Operaris. Obrers. Treballadors manuals','-057.2','Personal tècnic. Operaris. Obrers. Treballadors manuals','','','',false,true);
+d.add(726,723,'-057.3','<div class="nodetag">-057.3</div></span>&nbsp;&nbsp;Personal administratiu. Personal d\'oficina. Oficinistes','-057.3','Personal administratiu. Personal d\'oficina. Oficinistes','','','',false,true);
+d.add(727,723,'-057.4','<div class="nodetag">-057.4</div></span>&nbsp;&nbsp;Professionals liberals o acadèmics','-057.4','Professionals liberals o acadèmics','','','',false,true);
+d.add(728,723,'-057.5','<div class="nodetag">-057.5</div></span>&nbsp;&nbsp;Persones segons el lloc de treball. Persones en relació amb l\'empresa','-057.5','Persones segons el lloc de treball. Persones en relació amb l\'empresa','','','',false,true);
+d.add(729,723,'-057.6','<div class="nodetag">-057.6</div></span>&nbsp;&nbsp;Persones segons el domicili i la relació amb el lloc de treball o una altra activitat','-057.6','Persones segons el domicili i la relació amb el lloc de treball o una altra activitat','','','',false,true);
+d.add(730,723,'-057.7','<div class="nodetag">-057.7</div></span>&nbsp;&nbsp;Persones segons la font d\'ingressos o d\'assegurança','-057.7','Persones segons la font d\'ingressos o d\'assegurança','','','',false,true);
+d.add(731,723,'-057.8','<div class="nodetag">-057.8</div></span>&nbsp;&nbsp;Persones segons l\'educació, la instrucció, la formació, l\'experiència','-057.8','Persones segons l\'educació, la instrucció, la formació, l\'experiència','','','',false,true);
+d.add(732,723,'-057.9','<div class="nodetag">-057.9</div></span>&nbsp;&nbsp;Persones segons les funcions executives, administratives o de comandament','-057.9','Persones segons les funcions executives, administratives o de comandament','','','',false,true);
+d.add(733,698,'-058','<div class="nodetag">-058</div></span>&nbsp;&nbsp;Persones segons la classe social, l\'estat civil','-058','Persones segons la classe social, l\'estat civil','','','',false,true);
+d.add(734,733,'-058.1','<div class="nodetag">-058.1</div></span>&nbsp;&nbsp;Persones segons la classe o l\'estatus social','-058.1','Persones segons la classe o l\'estatus social','','','',false,true);
+d.add(735,733,'-058.3','<div class="nodetag">-058.3</div></span>&nbsp;&nbsp;Persones segons categories econòmiques (mitjans, seguretat, garanties i altres drets)','-058.3','Persones segons categories econòmiques (mitjans, seguretat, garanties i altres drets)','','','',false,true);
+d.add(736,733,'-058.5','<div class="nodetag">-058.5</div></span>&nbsp;&nbsp;Grups marginals. Persones que pertanyen a grups socioeconòmics marginals. Persones amb risc d\'exclusió social','-058.5','Grups marginals. Persones que pertanyen a grups socioeconòmics marginals. Persones amb risc d\'exclusió social','','','',false,true);
+d.add(737,733,'-058.6','<div class="nodetag">-058.6</div></span>&nbsp;&nbsp;Víctimes de circumstàncies','-058.6','Víctimes de circumstàncies','','','',false,true);
+d.add(738,733,'-058.7','<div class="nodetag">-058.7</div></span>&nbsp;&nbsp;Persones dependents, a càrrec','-058.7','Persones dependents, a càrrec','','','',false,true);
+d.add(739,733,'-058.8','<div class="nodetag">-058.8</div></span>&nbsp;&nbsp;Persones segons l\'estat civil, la situació familiar, matrimonial o de parella','-058.8','Persones segons l\'estat civil, la situació familiar, matrimonial o de parella','','','',false,true);
+d.config.useSelection = false;
+d.config.inOrder = true;
+d.config.useIcons = false;
+document.write(d);
+//-->
+</script>
+</div>
+</div><div id="expandbox" onclick="expandbox(); return false;">&nbsp;</div>
+<div id="recordbox" class="debugbkg">
+<div class="fronthint">feu clic al damunt d'una classe de l'esquerra per veure els registres</div>
+</div>
+
+        <div id="footer">
+            <div class="footersectionleft">
+                The UDC Summary (UDCS) provides a selection of around 2,600 classes from the whole scheme which comprises more than 70,000 entries.
+                Please send questions and suggestions to <a href="mailto:udcs@udcc.org?subject=UDC Summary Enquiry">udcs@udcc.org</a><br><br>
+	            <p>
+		            The data provided in this Summary is released under the <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative Commons Attribution Share Alike 3.0 license</a> <a href="../about.htm">[more]</a>
+	            </p>
+            </div>
+            <div class="footermiddle">
+                <a href="http://www.udcc.org"><img src="../images/udclogowhite.png" border="0"></a>
+            </div>
+			<div class="footerright">
+                For complete UDC schedules see <a href="http://www.udc-hub.com/">UDC Online Hub</a><br/><a href="http://www.udc-hub.com/"><img width="60" height="35" src="../images/udclogo.png"/></a>
+
+			</div>
+        </div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-13138465-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>

@@ -1,0 +1,654 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>UDC Summary</title>
+    <link rel="stylesheet" href="../reset.css" type="text/css" />
+    <link rel="stylesheet" href="../udc2000.css" type="text/css" />
+	    <link rel="StyleSheet" href="dtree2.css" type="text/css" />
+	    <script type="text/javascript" src="dtree.js"></script>
+	    <script type="text/javascript" src="udcdisplay_9.js"></script>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+</head>
+
+<body >
+<div id="centercontainer" class="debugbkg">
+    <div id="titlebox" class="debugbkg">
+		<div id="rightbox">
+        	<div id="languagecount">57 languages</div>
+            <div id="languagebox">
+            <select id="selectedlang" style="vertical-align: middle;" onchange="location = this.options[this.selectedIndex].value;">
+			<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=af&pr=Y">Afrikaans (Afrikaans) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sq&pr=Y">Albanian (Shqip) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=anp&pr=Y">Angika (अंगिका) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ar&pr=Y">Arabic (العربية) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hy&pr=Y">Armenian (հայերեն) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=eu&pr=Y">Basque (Euskara) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=be&pr=Y">Belarusian (Беларуская) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bn&pr=Y">Bengali (বাংলা) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bho&pr=Y">Bhojpuri (भोजपुरी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bg&pr=Y">Bulgarian (Български) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ca&pr=Y">Catalan (Català) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=chi&pr=Y">Chinese (中文) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hr&pr=Y">Croatian (Hrvatski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=cs&pr=Y">Czech (Čeština) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=da&pr=Y">Danish (Dansk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=nl&pr=Y">Dutch (Nederlands) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=en&pr=Y">English (English) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=eo&pr=Y">Esperanto (Esperanto) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=et&pr=Y">Estonian (Eesti) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=fi&pr=Y">Finnish (Suomi) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=fr&pr=Y">French (Français) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=gl&pr=Y">Galician (Galego) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ka&pr=Y">Georgian (ქართული) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=de&pr=Y">German (Deutsch) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=el&pr=Y">Greek (Ελληνικά) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hi&pr=Y" selected>Hindi (हिन्दी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hu&pr=Y">Hungarian (Magyar) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=id&pr=Y">Indonesian (Bahasa Ind) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ga&pr=Y">Irish (Gaeilge) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=it&pr=Y">Italian (Italiano) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ja&pr=Y">Japanese (日本語) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=kn&pr=Y">Kannada (ಕನ್ನಡ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=kk&pr=Y">Kazakh (Қазақ тілі) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=lv&pr=Y">Latvian (Latviešu) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=lt&pr=Y">Lithuanian (lietuvių) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=mk&pr=Y">Macedonian (македонски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ml&pr=Y">Malayalam (മലയാളം) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=mr&pr=Y">Marathi (मराठी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=no&pr=Y">Norwegian (Norsk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pl&pr=Y">Polish (Polski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pt&pr=Y">Portuguese (Português) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pa&pr=Y">Punjabi (ਪੰਜਾਬੀ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ro&pr=Y">Romanian (Româna) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ru&pr=Y">Russian (Pусский) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sa&pr=Y">Sanskrit (Saṃskṛtam) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sr&pr=Y">Serbian (Српски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=si&pr=Y">Sinhala (සිංහල) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sk&pr=Y">Slovak (Slovenský) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sl&pr=Y">Slovenian (Slovenski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=es&pr=Y">Spanish (Español) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sv&pr=Y">Swedish (Svenska) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ta&pr=Y">Tamil (தமிழ்) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=te&pr=Y">Telugu (తెలుగు) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=tr&pr=Y">Turkish (Türkçe) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=uk&pr=Y">Ukrainian (Yкраї́нська) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=uz&pr=Y">Uzbek (oʻzbek) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=vi&pr=Y">Vietnamese (tiếng Việt) </option>
+            </select>
+            </div>
+            </div>
+        </div>
+		<div id="menubox" class="debugbkg">
+            <ul class="menu boldmenu">
+<li><a href="index.php@lang=hi">सबसे ऊपर</a></li>
+<li><a href="index.php@tag=--&amp;lang=hi">संकेत</a></li>
+<li><a href="index.php@tag=---&amp;lang=hi">सहायक</a></li>
+<li><a href="index.php@tag=0&amp;lang=hi">0</a></li>
+<li><a href="index.php@tag=1&amp;lang=hi">1</a></li>
+<li><a href="index.php@tag=2&amp;lang=hi">2</a></li>
+<li><a href="index.php@tag=3&amp;lang=hi">3</a></li>
+<li><a  class="vacant" href="index.php@tag=6&amp;lang=hi#">4</a></li>
+<li><a href="index.php@tag=5&amp;lang=hi">5</a></li>
+<li><a href="index.php@tag=6&amp;lang=hi">6</a></li>
+<li><a href="index.php@tag=7&amp;lang=hi">7</a></li>
+<li><a href="index.php@tag=8&amp;lang=hi">8</a></li>
+<li><a href="index.php@tag=9&amp;lang=hi">9</a></li>
+</ul>
+<input type="hidden" id="if_loading" name="if_loading" value="लोडिंग"/>
+<input type="hidden" id="if_lang" name="if_lang" value="18"/>
+<ul class="rightmenu boldmenu">
+<li><a href="../translation.htm">अनुवाद</a></li>
+<li><a href="index.php@tag=6&amp;lang=hi#" title="Under Development">मानचित्रण</a></li>
+<li><a href="../exports.htm" title="Data Exports">निर्यात</a></li>
+<li><a href="index.php@tag=6&amp;lang=hi#" title="Under Development">ABC सूची</a></li>
+<li><a href="index.php@tag=6&amp;lang=hi#" title="Under Development">मार्गदर्शक</a></li>
+<li><a href="../about.htm" title="About the UDC Summary">विषय में</a></li>
+</ul>
+
+        </div>
+		<input type="hidden" id="leftWidth" value="420"/><input type="hidden" id="rightWidth" value="522"/>
+		<div id="classmarkbox" class="debugbkg">
+
+<div id="openclosemenu"><a href="javascript: d.openAll();">&nbsp;विस्तार</a> | <a href="javascript: d.closeAll();">संक्षिप्त</a></div>
+<div id="classtree">
+<script type="text/javascript">
+<!--
+d = new dTree('d');
+d.config.hrefIsClick = true;
+d.add(0,-1,'6','<span class="nodetag">6</span>&nbsp;&nbsp;व्यावहारिक विज्ञान. चिकित्सा शास्र. प्रौद्योगिकी/टैकनोलजी.','6','','','','',false,true);
+d.add(1,0,'60','<div class="nodetag">60</div></span>&nbsp;&nbsp;जैव प्रौद्योगिकी','60','जैव प्रौद्योगिकी','','','',false,true);
+d.add(2,1,'601','<div class="nodetag">601</div></span>&nbsp;&nbsp;मूलभूत अवधारणाएं','601','मूलभूत अवधारणाएं','','','',false,true);
+d.add(3,1,'602','<div class="nodetag">602</div></span>&nbsp;&nbsp;जैव प्रौद्योगिकी में प्रक्रिया और तकनीक','602','जैव प्रौद्योगिकी में प्रक्रिया और तकनीक','','','',false,true);
+d.add(4,1,'604','<div class="nodetag">604</div></span>&nbsp;&nbsp;जैव प्रौद्योगिकी उत्पाद','604','जैव प्रौद्योगिकी उत्पाद','','','',false,true);
+d.add(5,1,'606','<div class="nodetag">606</div></span>&nbsp;&nbsp;जैव प्रौद्योगिकी के अनुप्रयोग','606','जैव प्रौद्योगिकी के अनुप्रयोग','','','',false,true);
+d.add(6,1,'608','<div class="nodetag">608</div></span>&nbsp;&nbsp;जैव प्रौद्योगिकी के मुद्दे','608','जैव प्रौद्योगिकी के मुद्दे','','','',false,true);
+d.add(7,0,'61','<div class="nodetag">61</div></span>&nbsp;&nbsp;चिकित्सा विज्ञान','61','चिकित्सा विज्ञान','','','',false,true);
+d.add(8,7,'611/612','<div class="nodetag">611/612</div></span>&nbsp;&nbsp;मानव जीव विज्ञान','611/612','मानव जीव विज्ञान','','','',false,true);
+d.add(9,8,'611','<div class="nodetag">611</div></span>&nbsp;&nbsp;एनाटॉमी. मानव शरीर रचना और तुलनात्मक एनाटॉमी','611','एनाटॉमी. मानव शरीर रचना और तुलनात्मक एनाटॉमी','','','',false,true);
+d.add(10,8,'612','<div class="nodetag">612</div></span>&nbsp;&nbsp;शरीर क्रिया विज्ञान. मानव और तुलनात्मक फिजियोलॉजी','612','शरीर क्रिया विज्ञान. मानव और तुलनात्मक फिजियोलॉजी','','','',false,true);
+d.add(11,10,'612.1/.8','<div class="nodetag">612.1/.8</div></span>&nbsp;&nbsp;व्यवस्थित शरीर क्रिया विज्ञान','612.1/.8','व्यवस्थित शरीर क्रिया विज्ञान','','','',false,true);
+d.add(12,11,'612.1','<div class="nodetag">612.1</div></span>&nbsp;&nbsp;खून. हृदय, संचार प्रणाली','612.1','खून. हृदय, संचार प्रणाली','','','',false,true);
+d.add(13,11,'612.2','<div class="nodetag">612.2</div></span>&nbsp;&nbsp;श्वसन. श्वास. श्वसन प्रणाली','612.2','श्वसन. श्वास. श्वसन प्रणाली','','','',false,true);
+d.add(14,11,'612.3','<div class="nodetag">612.3</div></span>&nbsp;&nbsp;पालन-पोषण. खाना. पाचन. पोषण','612.3','पालन-पोषण. खाना. पाचन. पोषण','','','',false,true);
+d.add(15,11,'612.4','<div class="nodetag">612.4</div></span>&nbsp;&nbsp;ग्रंथी प्रणाली. स्राव. मलत्याग','612.4','ग्रंथी प्रणाली. स्राव. मलत्याग','','','',false,true);
+d.add(16,11,'612.5','<div class="nodetag">612.5</div></span>&nbsp;&nbsp;पशु गर्मी. थर्मल प्रक्रियाएं','612.5','पशु गर्मी. थर्मल प्रक्रियाएं','','','',false,true);
+d.add(17,11,'612.6','<div class="nodetag">612.6</div></span>&nbsp;&nbsp;प्रजनन. विकास. विकास','612.6','प्रजनन. विकास. विकास','','','',false,true);
+d.add(18,11,'612.7','<div class="nodetag">612.7</div></span>&nbsp;&nbsp;मोटर कार्य. गति के अंग. आवाज. वेष्टन','612.7','मोटर कार्य. गति के अंग. आवाज. वेष्टन','','','',false,true);
+d.add(19,11,'612.8','<div class="nodetag">612.8</div></span>&nbsp;&nbsp;तंत्रिका तंत्र. संवेदी अंग','612.8','तंत्रिका तंत्र. संवेदी अंग','','','',false,true);
+d.add(20,7,'613','<div class="nodetag">613</div></span>&nbsp;&nbsp;स्वच्छता आम तौर पर. निजी स्वास्थ्य और स्वच्छता','613','स्वच्छता आम तौर पर. निजी स्वास्थ्य और स्वच्छता','','','',false,true);
+d.add(21,20,'613.2','<div class="nodetag">613.2</div></span>&nbsp;&nbsp;डायटेटिक्स. पोषण और खाद्य पदार्थ पर लागू आहार सिद्धांत','613.2','डायटेटिक्स. पोषण और खाद्य पदार्थ पर लागू आहार सिद्धांत','','','',false,true);
+d.add(22,20,'613.3','<div class="nodetag">613.3</div></span>&nbsp;&nbsp;पेय. उपचारात्मक पेय. औषधीय जल. तरल आहार','613.3','पेय. उपचारात्मक पेय. औषधीय जल. तरल आहार','','','',false,true);
+d.add(23,20,'613.4','<div class="nodetag">613.4</div></span>&nbsp;&nbsp;व्यक्तिगत स्वच्छता. वस्त्र','613.4','व्यक्तिगत स्वच्छता. वस्त्र','','','',false,true);
+d.add(24,20,'613.5','<div class="nodetag">613.5</div></span>&nbsp;&nbsp;आवासों की स्वच्छता','613.5','आवासों की स्वच्छता','','','',false,true);
+d.add(25,20,'613.6','<div class="nodetag">613.6</div></span>&nbsp;&nbsp;व्यावसायिक स्वास्थ्य के खतरे. व्यावसायिक स्वास्थ्य और स्वच्छता','613.6','व्यावसायिक स्वास्थ्य के खतरे. व्यावसायिक स्वास्थ्य और स्वच्छता','','','',false,true);
+d.add(26,20,'613.7','<div class="nodetag">613.7</div></span>&nbsp;&nbsp;स्वास्थ्य और अवकाश, मनोरंजन की स्वच्छता, नींद','613.7','स्वास्थ्य और अवकाश, मनोरंजन की स्वच्छता, नींद','','','',false,true);
+d.add(27,20,'613.8','<div class="nodetag">613.8</div></span>&nbsp;&nbsp;स्वास्थ्य और तंत्रिका तंत्र की स्वच्छता. स्वास्थ्य और नैतिकता','613.8','स्वास्थ्य और तंत्रिका तंत्र की स्वच्छता. स्वास्थ्य और नैतिकता','','','',false,true);
+d.add(28,20,'613.9','<div class="nodetag">613.9</div></span>&nbsp;&nbsp;उम्र, लिंग, जातियता के संबंध में स्वास्थ्य और स्वच्छता','613.9','उम्र, लिंग, जातियता के संबंध में स्वास्थ्य और स्वच्छता','','','',false,true);
+d.add(29,7,'614','<div class="nodetag">614</div></span>&nbsp;&nbsp;सार्वजनिक स्वास्थ्य और स्वच्छता. दुर्घटना की रोकथाम','614','सार्वजनिक स्वास्थ्य और स्वच्छता. दुर्घटना की रोकथाम','','','',false,true);
+d.add(30,29,'614.1','<div class="nodetag">614.1</div></span>&nbsp;&nbsp;जनसंख्या. जनसंख्या ह्रास','614.1','जनसंख्या. जनसंख्या ह्रास','','','',false,true);
+d.add(31,29,'614.2','<div class="nodetag">614.2</div></span>&nbsp;&nbsp;स्वास्थ्य के सार्वजनिक और पेशेवर संगठन','614.2','स्वास्थ्य के सार्वजनिक और पेशेवर संगठन','','','',false,true);
+d.add(32,29,'614.3','<div class="nodetag">614.3</div></span>&nbsp;&nbsp;स्वच्छता निरीक्षण और नियंत्रण','614.3','स्वच्छता निरीक्षण और नियंत्रण','','','',false,true);
+d.add(33,32,'614.39','<div class="nodetag">614.39</div></span>&nbsp;&nbsp;राष्ट्रीय स्वास्थ्य सेवाएं','614.39','राष्ट्रीय स्वास्थ्य सेवाएं','','','',false,true);
+d.add(34,29,'614.4','<div class="nodetag">614.4</div></span>&nbsp;&nbsp;संक्रामक रोग (संक्रामक, संक्रामक) का रोकथाम और नियंत्रण. महामारी की रोकथाम','614.4','संक्रामक रोग (संक्रामक, संक्रामक) का रोकथाम और नियंत्रण. महामारी की रोकथाम','','','',false,true);
+d.add(35,29,'614.6','<div class="nodetag">614.6</div></span>&nbsp;&nbsp;स्वच्छता कब्रिस्तान. मृत का निपटान','614.6','स्वच्छता कब्रिस्तान. मृत का निपटान','','','',false,true);
+d.add(36,29,'614.7','<div class="nodetag">614.7</div></span>&nbsp;&nbsp;हवा, पानी, मिट्टी की शुचिता. प्रदूषण और उसके नियंत्रण','614.7','हवा, पानी, मिट्टी की शुचिता. प्रदूषण और उसके नियंत्रण','','','',false,true);
+d.add(37,29,'614.8','<div class="nodetag">614.8</div></span>&nbsp;&nbsp;दुर्घटनाएं. जोखिम. खतरों. दुर्घटना निवारण. निजी सुरक्षा. सुरक्षा','614.8','दुर्घटनाएं. जोखिम. खतरों. दुर्घटना निवारण. निजी सुरक्षा. सुरक्षा','','','',false,true);
+d.add(38,29,'614.9','<div class="nodetag">614.9</div></span>&nbsp;&nbsp;पशु स्वास्थ्य. पशु चिकित्सा स्वास्थ्य','614.9','पशु स्वास्थ्य. पशु चिकित्सा स्वास्थ्य','','','',false,true);
+d.add(39,7,'615','<div class="nodetag">615</div></span>&nbsp;&nbsp;औषध. चिकित्सा विज्ञान. ज़हरज्ञान','615','औषध. चिकित्सा विज्ञान. ज़हरज्ञान','','','',false,true);
+d.add(40,39,'615.1','<div class="nodetag">615.1</div></span>&nbsp;&nbsp;सामान्य और व्यावसायिक फार्मेसी','615.1','सामान्य और व्यावसायिक फार्मेसी','','','',false,true);
+d.add(41,39,'615.2','<div class="nodetag">615.2</div></span>&nbsp;&nbsp;दवाई उनके प्रमुख कार्य के अनुसार','615.2','दवाई उनके प्रमुख कार्य के अनुसार','','','',false,true);
+d.add(42,39,'615.3','<div class="nodetag">615.3</div></span>&nbsp;&nbsp;दवाई उनके मूल के अनुसार','615.3','दवाई उनके मूल के अनुसार','','','',false,true);
+d.add(43,39,'615.4','<div class="nodetag">615.4</div></span>&nbsp;&nbsp;दवा की तैयारी. सामग्री चिकित्सा. उपकरण','615.4','दवा की तैयारी. सामग्री चिकित्सा. उपकरण','','','',false,true);
+d.add(44,39,'615.8','<div class="nodetag">615.8</div></span>&nbsp;&nbsp;भौतिक चिकित्सा. दैहिक चिकित्सा. रेडियोथेरेपी. अन्य चिकित्सा की दृष्टि से अनिर्धारित चिकित्सीय उपचार','615.8','भौतिक चिकित्सा. दैहिक चिकित्सा. रेडियोथेरेपी. अन्य चिकित्सा की दृष्टि से अनिर्धारित चिकित्सीय उपचार','','','',false,true);
+d.add(45,39,'615.9','<div class="nodetag">615.9</div></span>&nbsp;&nbsp;सामान्य विष विज्ञान . विष और विषाक्तता (नशा) के सामान्य पढ़ाई','615.9','सामान्य विष विज्ञान . विष और विषाक्तता (नशा) के सामान्य पढ़ाई','','','',false,true);
+d.add(46,7,'616','<div class="nodetag">616</div></span>&nbsp;&nbsp;पैथोलॉजी. नैदानिक चिकित्सा','616','पैथोलॉजी. नैदानिक चिकित्सा','','','',false,true);
+d.add(47,46,'616-001/-009','<div class="nodetag">616-001/-009</div></span>&nbsp;&nbsp;रूग्ण प्रक्रियाओं के लिए विशेष सहायक संख्या','616-001/-009','रूग्ण प्रक्रियाओं के लिए विशेष सहायक संख्या','','','',false,true);
+d.add(48,47,'616-001','<div class="nodetag">616-001</div></span>&nbsp;&nbsp;सदमा. चोट. घाव','616-001','सदमा. चोट. घाव','','','',false,true);
+d.add(49,47,'616-002','<div class="nodetag">616-002</div></span>&nbsp;&nbsp;सूजन. जलन. श्लेष्म रक्ताधिक्य','616-002','सूजन. जलन. श्लेष्म रक्ताधिक्य','','','',false,true);
+d.add(50,47,'616-003','<div class="nodetag">616-003</div></span>&nbsp;&nbsp;प्रतिगामी और विरोहक प्रक्रियाएं','616-003','प्रतिगामी और विरोहक प्रक्रियाएं','','','',false,true);
+d.add(51,47,'616-004','<div class="nodetag">616-004</div></span>&nbsp;&nbsp;काठिन्य. सख्त (कठोरता). सिरैसस','616-004','काठिन्य. सख्त (कठोरता). सिरैसस','','','',false,true);
+d.add(52,47,'616-005','<div class="nodetag">616-005</div></span>&nbsp;&nbsp;स्थानीय संचार विकार','616-005','स्थानीय संचार विकार','','','',false,true);
+d.add(53,47,'616-006','<div class="nodetag">616-006</div></span>&nbsp;&nbsp;ट्यूमर. अर्बुद. ब्लास्टोमेटा. कोरिस्टोमेटा, हमार्टोमेटा. ऑन्कोलॉजी','616-006','ट्यूमर. अर्बुद. ब्लास्टोमेटा. कोरिस्टोमेटा, हमार्टोमेटा. ऑन्कोलॉजी','','','',false,true);
+d.add(54,47,'616-007','<div class="nodetag">616-007</div></span>&nbsp;&nbsp;दोषपूर्ण संरचनात्मक विकास. शारीरिक विकृति. विरूपताओं. हेमिटरेटा.ख़राब अंगों. टेरटालजी. राक्षस. असामान्यताएं','616-007','दोषपूर्ण संरचनात्मक विकास. शारीरिक विकृति. विरूपताओं. हेमिटरेटा.ख़राब अंगों. टेरटालजी. राक्षस. असामान्यताएं','','','',false,true);
+d.add(55,47,'616-008','<div class="nodetag">616-008</div></span>&nbsp;&nbsp;कार्यात्मक और चयापचय संबंधी विकार','616-008','कार्यात्मक और चयापचय संबंधी विकार','','','',false,true);
+d.add(56,47,'616-009','<div class="nodetag">616-009</div></span>&nbsp;&nbsp;तंत्रिका (तंत्रिका) विकारों','616-009','तंत्रिका (तंत्रिका) विकारों','','','',false,true);
+d.add(57,46,'616-01/-099','<div class="nodetag">616-01/-099</div></span>&nbsp;&nbsp;विकृति विज्ञान के सामान्य पहलुओं के लिए विशेष सहायक संख्या','616-01/-099','विकृति विज्ञान के सामान्य पहलुओं के लिए विशेष सहायक संख्या','','','',false,true);
+d.add(58,57,'616-01','<div class="nodetag">616-01</div></span>&nbsp;&nbsp;रोग, रोगियों और चिकित्सा हस्तक्षेप के विभिन्न पहलुओं','616-01','रोग, रोगियों और चिकित्सा हस्तक्षेप के विभिन्न पहलुओं','','','',false,true);
+d.add(59,57,'616-02','<div class="nodetag">616-02</div></span>&nbsp;&nbsp;ऐटिओलॉजी. रोग कारण विज्ञान','616-02','ऐटिओलॉजी. रोग कारण विज्ञान','','','',false,true);
+d.add(60,57,'616-03','<div class="nodetag">616-03</div></span>&nbsp;&nbsp;रोग उपचार के विभिन्न रूप, दवा के प्रशासन,','616-03','रोग उपचार के विभिन्न रूप, दवा के प्रशासन,','','','',false,true);
+d.add(61,57,'616-05','<div class="nodetag">616-05</div></span>&nbsp;&nbsp;व्यक्तियों और विकृति में व्यक्तिगत विशेषताओं. रोगी के लक्षण','616-05','व्यक्तियों और विकृति में व्यक्तिगत विशेषताओं. रोगी के लक्षण','','','',false,true);
+d.add(62,57,'616-06','<div class="nodetag">616-06</div></span>&nbsp;&nbsp;जटिलताएं. परिणाम नतीजे. सहमति, साथ की स्थिती. सहसंबंध. पिछली बीमारियां. स्वास्थ्य का पिछली स्थिती. दो रोगों का विरोध','616-06','जटिलताएं. परिणाम नतीजे. सहमति, साथ की स्थिती. सहसंबंध. पिछली बीमारियां. स्वास्थ्य का पिछली स्थिती. दो रोगों का विरोध','','','',false,true);
+d.add(63,57,'616-07','<div class="nodetag">616-07</div></span>&nbsp;&nbsp;रोगी की देखभाल. नर्सिंग. सहकारी उपचार. तकनीक ऑपरेटिव. सर्जरी. शल्य चिकित्सा संज्ञाहरण','616-07','रोगी की देखभाल. नर्सिंग. सहकारी उपचार. तकनीक ऑपरेटिव. सर्जरी. शल्य चिकित्सा संज्ञाहरण','','','',false,true);
+d.add(64,57,'616-08','<div class="nodetag">616-08</div></span>&nbsp;&nbsp;शरीर रचना रोग. रुग्ण शरीर रचना विज्ञान','616-08','शरीर रचना रोग. रुग्ण शरीर रचना विज्ञान','','','',false,true);
+d.add(65,57,'616-091','<div class="nodetag">616-091</div></span>&nbsp;&nbsp;शरीर रचना रोग. रुग्ण शरीर रचना विज्ञान','616-091','शरीर रचना रोग. रुग्ण शरीर रचना विज्ञान','','','',false,true);
+d.add(66,57,'616-092','<div class="nodetag">616-092</div></span>&nbsp;&nbsp;शरीर क्रिया विज्ञान रोग. प्रक्रियाओं, रोगों की कार्रवाई की विधा. रोगजनन. रोगों की उत्पत्ति का अध्ययन','616-092','शरीर क्रिया विज्ञान रोग. प्रक्रियाओं, रोगों की कार्रवाई की विधा. रोगजनन. रोगों की उत्पत्ति का अध्ययन','','','',false,true);
+d.add(67,57,'616-093','<div class="nodetag">616-093</div></span>&nbsp;&nbsp;माइक्रोबियल तकनीक','616-093','माइक्रोबियल तकनीक','','','',false,true);
+d.add(68,57,'616-094','<div class="nodetag">616-094</div></span>&nbsp;&nbsp;सूक्ष्म आकारिकी','616-094','सूक्ष्म आकारिकी','','','',false,true);
+d.add(69,57,'616-095','<div class="nodetag">616-095</div></span>&nbsp;&nbsp;सूक्ष्म शरीर क्रिया विज्ञान','616-095','सूक्ष्म शरीर क्रिया विज्ञान','','','',false,true);
+d.add(70,57,'616-097','<div class="nodetag">616-097</div></span>&nbsp;&nbsp;इम्यूनोजेनेसिटी','616-097','इम्यूनोजेनेसिटी','','','',false,true);
+d.add(71,57,'616-098','<div class="nodetag">616-098</div></span>&nbsp;&nbsp;माइक्रोबियल भौतिकी, रसायन, उपापचय, अपचय','616-098','माइक्रोबियल भौतिकी, रसायन, उपापचय, अपचय','','','',false,true);
+d.add(72,57,'616-099','<div class="nodetag">616-099</div></span>&nbsp;&nbsp;विषाक्तता. नशा','616-099','विषाक्तता. नशा','','','',false,true);
+d.add(73,46,'616-71/-78','<div class="nodetag">616-71/-78</div></span>&nbsp;&nbsp;चिकित्सा और शल्य चिकित्सा उपकरण और उपकरणों के लिए विशेष सहायक संख्या','616-71/-78','चिकित्सा और शल्य चिकित्सा उपकरण और उपकरणों के लिए विशेष सहायक संख्या','','','',false,true);
+d.add(74,73,'616-71','<div class="nodetag">616-71</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Medical instruments and equipment in general</span>','616-71','Medical instruments and equipment in general','','','',false,true);
+d.add(75,73,'616-72','<div class="nodetag">616-72</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Surgical and therapeutic instruments</span>','616-72','Surgical and therapeutic instruments','','','',false,true);
+d.add(76,73,'616-74','<div class="nodetag">616-74</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Reinforcement and reparative materials and equipment</span>','616-74','Reinforcement and reparative materials and equipment','','','',false,true);
+d.add(77,73,'616-76','<div class="nodetag">616-76</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Corrective and protective appliances, aids etc.</span>','616-76','Corrective and protective appliances, aids etc.','','','',false,true);
+d.add(78,73,'616-77','<div class="nodetag">616-77</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Prosthetic materials and parts. Artificial organs etc.</span>','616-77','Prosthetic materials and parts. Artificial organs etc.','','','',false,true);
+d.add(79,73,'616-78','<div class="nodetag">616-78</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Machines and mechanical apparatus</span>','616-78','Machines and mechanical apparatus','','','',false,true);
+d.add(80,46,'616.1/.9','<div class="nodetag">616.1/.9</div></span>&nbsp;&nbsp;विशेष विकृति विज्ञान','616.1/.9','विशेष विकृति विज्ञान','','','',false,true);
+d.add(81,80,'616.1','<div class="nodetag">616.1</div></span>&nbsp;&nbsp;परिसंचरण तंत्र, रूधिर नलिका की विकृति विज्ञान. ह्रदवाहिनी की शिकायतें','616.1','परिसंचरण तंत्र, रूधिर नलिका की विकृति विज्ञान. ह्रदवाहिनी की शिकायतें','','','',false,true);
+d.add(82,80,'616.2','<div class="nodetag">616.2</div></span>&nbsp;&nbsp;श्वसन तंत्र की विकृति विज्ञान. श्वसन अंग की शिकायतें','616.2','श्वसन तंत्र की विकृति विज्ञान. श्वसन अंग की शिकायतें','','','',false,true);
+d.add(83,80,'616.3','<div class="nodetag">616.3</div></span>&nbsp;&nbsp;पाचन तंत्र की विकृति विज्ञान. आहार नाल की शिकायतें','616.3','पाचन तंत्र की विकृति विज्ञान. आहार नाल की शिकायतें','','','',false,true);
+d.add(84,83,'616.31','<div class="nodetag">616.31</div></span>&nbsp;&nbsp;श्वांस रंध्र विज्ञान. मुख गुहा. मुख. मुख और दाँत की बिमारियाँ','616.31','श्वांस रंध्र विज्ञान. मुख गुहा. मुख. मुख और दाँत की बिमारियाँ','','','',false,true);
+d.add(85,80,'616.4','<div class="nodetag">616.4</div></span>&nbsp;&nbsp;लसिका तंत्र की विकृति विज्ञान, हीमोपॉयोटिक (हीमैटोपॉयोटिक) अंग, अंतःस्त्रावी','616.4','लसिका तंत्र की विकृति विज्ञान, हीमोपॉयोटिक (हीमैटोपॉयोटिक) अंग, अंतःस्त्रावी','','','',false,true);
+d.add(86,80,'616.5','<div class="nodetag">616.5</div></span>&nbsp;&nbsp;चर्म. सामान्य आवरण. नैदानिक चर्म विज्ञान. चर्म संबंधी शिकायतें','616.5','चर्म. सामान्य आवरण. नैदानिक चर्म विज्ञान. चर्म संबंधी शिकायतें','','','',false,true);
+d.add(87,80,'616.6','<div class="nodetag">616.6</div></span>&nbsp;&nbsp;मूत्र-जनन तंत्र की विकृति विज्ञान. मूत्र और जनन संबंधी शिकायतें','616.6','मूत्र-जनन तंत्र की विकृति विज्ञान. मूत्र और जनन संबंधी शिकायतें','','','',false,true);
+d.add(88,80,'616.7','<div class="nodetag">616.7</div></span>&nbsp;&nbsp;गति के अंगो की विकृति विज्ञान. अस्थि एवं गति प्रणाली','616.7','गति के अंगो की विकृति विज्ञान. अस्थि एवं गति प्रणाली','','','',false,true);
+d.add(89,80,'616.8','<div class="nodetag">616.8</div></span>&nbsp;&nbsp;न्यूरोलॉजी. तंत्रिका तंत्र की विकृति विज्ञान. तंत्रिका तंत्र','616.8','न्यूरोलॉजी. तंत्रिका तंत्र की विकृति विज्ञान. तंत्रिका तंत्र','','','',false,true);
+d.add(90,89,'616.89','<div class="nodetag">616.89</div></span>&nbsp;&nbsp;मनश्चिकित्सा. रोगात्मक मनोरोग. मनोरोग. फ्रेनोपैथी. साइकोसिस. मानसिक विषमता. रुग्ण मानसिक राज्य. व्यवहारिक और भावनात्मक गड़बड़ी','616.89','मनश्चिकित्सा. रोगात्मक मनोरोग. मनोरोग. फ्रेनोपैथी. साइकोसिस. मानसिक विषमता. रुग्ण मानसिक राज्य. व्यवहारिक और भावनात्मक गड़बड़ी','','','',false,true);
+d.add(91,80,'616.9','<div class="nodetag">616.9</div></span>&nbsp;&nbsp;संक्रामक रोग. संक्रामक और फैलने वाले रोग, बुखार','616.9','संक्रामक रोग. संक्रामक और फैलने वाले रोग, बुखार','','','',false,true);
+d.add(92,7,'617','<div class="nodetag">617</div></span>&nbsp;&nbsp;सर्जरी. आर्थोपेडिक्स. नेत्र विज्ञान','617','सर्जरी. आर्थोपेडिक्स. नेत्र विज्ञान','','','',false,true);
+d.add(93,92,'617.3','<div class="nodetag">617.3</div></span>&nbsp;&nbsp;सामान्य रूप में आर्थोपेडिक्स','617.3','सामान्य रूप में आर्थोपेडिक्स','','','',false,true);
+d.add(94,92,'617.7','<div class="nodetag">617.7</div></span>&nbsp;&nbsp;नेत्र विज्ञान. नेत्र विकार और उपचार','617.7','नेत्र विज्ञान. नेत्र विकार और उपचार','','','',false,true);
+d.add(95,7,'618','<div class="nodetag">618</div></span>&nbsp;&nbsp;स्त्री रोग. दाई का काम','618','स्त्री रोग. दाई का काम','','','',false,true);
+d.add(96,0,'62','<div class="nodetag">62</div></span>&nbsp;&nbsp;इंजीनियरिंग / अभियांत्रिकी . सामान्य में तकनीक .','62','इंजीनियरिंग / अभियांत्रिकी . सामान्य में तकनीक .','','','',false,true);
+d.add(97,96,'62-1/-9','<div class="nodetag">62-1/-9</div></span>&nbsp;&nbsp;मशीनों, उपकरणों, संयंत्र, प्रक्रियाओं और उत्पादों की विशेषताओं और विवरण की विशेष सहायक संख्या','62-1/-9','मशीनों, उपकरणों, संयंत्र, प्रक्रियाओं और उत्पादों की विशेषताओं और विवरण की विशेष सहायक संख्या','','','',false,true);
+d.add(98,97,'62-1','<div class="nodetag">62-1</div></span>&nbsp;&nbsp;मशीनों के सामान्य लक्षण आदि','62-1','मशीनों के सामान्य लक्षण आदि','','','',false,true);
+d.add(99,97,'62-2','<div class="nodetag">62-2</div></span>&nbsp;&nbsp;अचल और चल भाग, मशीनों के घटक','62-2','अचल और चल भाग, मशीनों के घटक','','','',false,true);
+d.add(100,97,'62-3','<div class="nodetag">62-3</div></span>&nbsp;&nbsp;तरल पदार्थ नियंत्रित भाग और ड्राइव. वाल्व, क्लोज़र आदि','62-3','तरल पदार्थ नियंत्रित भाग और ड्राइव. वाल्व, क्लोज़र आदि','','','',false,true);
+d.add(101,97,'62-4','<div class="nodetag">62-4</div></span>&nbsp;&nbsp;राज्य, स्थिति, सामग्री, सतहों, वस्तुओं, उत्पाद का प्रपत्र','62-4','राज्य, स्थिति, सामग्री, सतहों, वस्तुओं, उत्पाद का प्रपत्र','','','',false,true);
+d.add(102,97,'62-5','<div class="nodetag">62-5</div></span>&nbsp;&nbsp;संचालन और मशीनों और प्रक्रियाओं का नियंत्रण','62-5','संचालन और मशीनों और प्रक्रियाओं का नियंत्रण','','','',false,true);
+d.add(103,97,'62-6','<div class="nodetag">62-6</div></span>&nbsp;&nbsp;ईंधन और मशीनरी और प्रतिष्ठानों के अन्य स्रोत ऊष्मा विशेषताएँ','62-6','ईंधन और मशीनरी और प्रतिष्ठानों के अन्य स्रोत ऊष्मा विशेषताएँ','','','',false,true);
+d.add(104,97,'62-7','<div class="nodetag">62-7</div></span>&nbsp;&nbsp;सर्विसिंग, और मशीनों के रखरखाव के संरक्षण के लिए उपकरणों','62-7','सर्विसिंग, और मशीनों के रखरखाव के संरक्षण के लिए उपकरणों','','','',false,true);
+d.add(105,97,'62-8','<div class="nodetag">62-8</div></span>&nbsp;&nbsp;मकसद सत्ता, आगे बढ़नेवाला बल के अनुसार मशीनें. मशीन की ऊर्जा के स्रोत','62-8','मकसद सत्ता, आगे बढ़नेवाला बल के अनुसार मशीनें. मशीन की ऊर्जा के स्रोत','','','',false,true);
+d.add(106,97,'62-9','<div class="nodetag">62-9</div></span>&nbsp;&nbsp;चर की स्थिति, और उत्पादन प्रक्रियाओं, संयंत्र और उपकरण की विशेषताएं','62-9','चर की स्थिति, और उत्पादन प्रक्रियाओं, संयंत्र और उपकरण की विशेषताएं','','','',false,true);
+d.add(107,106,'62-91','<div class="nodetag">62-91</div></span>&nbsp;&nbsp;सामग्री के रुप: विशेषताएं और प्रभावित करने वाले कारक','62-91','सामग्री के रुप: विशेषताएं और प्रभावित करने वाले कारक','','','',false,true);
+d.add(108,106,'62-92','<div class="nodetag">62-92</div></span>&nbsp;&nbsp;अभिकर्मकों के मामले में प्रतिक्रियएं. अभिकर्मक','62-92','अभिकर्मकों के मामले में प्रतिक्रियएं. अभिकर्मक','','','',false,true);
+d.add(109,106,'62-93','<div class="nodetag">62-93</div></span>&nbsp;&nbsp;कार्यविधि के अनुसार प्रक्रियाएं, मशीन और उपकरण, निरंतरता, संगठन, मीडिया इत्यादी','62-93','कार्यविधि के अनुसार प्रक्रियाएं, मशीन और उपकरण, निरंतरता, संगठन, मीडिया इत्यादी','','','',false,true);
+d.add(110,106,'62-94','<div class="nodetag">62-94</div></span>&nbsp;&nbsp;दिशा, वेग दर, प्रक्रियाओं की अवधि आदि','62-94','दिशा, वेग दर, प्रक्रियाओं की अवधि आदि','','','',false,true);
+d.add(111,106,'62-95','<div class="nodetag">62-95</div></span>&nbsp;&nbsp;सरल और विविध प्रक्रियाएं. एकल चरण और विभिन्न चरण प्रक्रिया','62-95','सरल और विविध प्रक्रियाएं. एकल चरण और विभिन्न चरण प्रक्रिया','','','',false,true);
+d.add(112,106,'62-96','<div class="nodetag">62-96</div></span>&nbsp;&nbsp;उत्पाद गुण बदलने के मामले में प्रक्रिया. सामान्य में संशोधन','62-96','उत्पाद गुण बदलने के मामले में प्रक्रिया. सामान्य में संशोधन','','','',false,true);
+d.add(113,106,'62-97','<div class="nodetag">62-97</div></span>&nbsp;&nbsp;थर्मल विशेषताएं. तापमान. तापमान रेंज','62-97','थर्मल विशेषताएं. तापमान. तापमान रेंज','','','',false,true);
+d.add(114,106,'62-98','<div class="nodetag">62-98</div></span>&nbsp;&nbsp;दबाव. दबाव रेंज','62-98','दबाव. दबाव रेंज','','','',false,true);
+d.add(115,96,'620','<div class="nodetag">620</div></span>&nbsp;&nbsp;परीक्षण सामग्री. वाणिज्यिक सामग्री. विद्युत स्टेशनों. ऊर्जा के अर्थशास्त्र','620','परीक्षण सामग्री. वाणिज्यिक सामग्री. विद्युत स्टेशनों. ऊर्जा के अर्थशास्त्र','','','',false,true);
+d.add(116,115,'620.3','<div class="nodetag">620.3</div></span>&nbsp;&nbsp;नैनो प्रौद्योगिकी.','620.3','नैनो प्रौद्योगिकी.','','','',false,true);
+d.add(117,115,'620.9','<div class="nodetag">620.9</div></span>&nbsp;&nbsp;सामान्य रूप में ऊर्जा के अर्थशास्त्र','620.9','सामान्य रूप में ऊर्जा के अर्थशास्त्र','','','',false,true);
+d.add(118,96,'621','<div class="nodetag">621</div></span>&nbsp;&nbsp;सामान्य में यांत्रिक इंजीनियरिंग. परमाणु प्रौद्योगिकी. इलेक्ट्रिकल इंजीनियरिंग. मशीनरी','621','सामान्य में यांत्रिक इंजीनियरिंग. परमाणु प्रौद्योगिकी. इलेक्ट्रिकल इंजीनियरिंग. मशीनरी','','','',false,true);
+d.add(119,118,'621.1','<div class="nodetag">621.1</div></span>&nbsp;&nbsp;सामान्य रूप में हीट इंजन. उत्पादन, वितरण और भाप का उपयोग करें. भाप इंजन. बॉयलर','621.1','सामान्य रूप में हीट इंजन. उत्पादन, वितरण और भाप का उपयोग करें. भाप इंजन. बॉयलर','','','',false,true);
+d.add(120,118,'621.22','<div class="nodetag">621.22</div></span>&nbsp;&nbsp;ऊर्जा हाइड्रोलिक. बिजली पानी. हाइड्रोलिक मशीनरी','621.22','ऊर्जा हाइड्रोलिक. बिजली पानी. हाइड्रोलिक मशीनरी','','','',false,true);
+d.add(121,118,'621.3','<div class="nodetag">621.3</div></span>&nbsp;&nbsp;इलेक्ट्रिकल इंजीनियरिंग','621.3','इलेक्ट्रिकल इंजीनियरिंग','','','',false,true);
+d.add(122,118,'621.4','<div class="nodetag">621.4</div></span>&nbsp;&nbsp;ऊष्मा इंजन (भाप इंजन को छोड़कर)','621.4','ऊष्मा इंजन (भाप इंजन को छोड़कर)','','','',false,true);
+d.add(123,118,'621.5','<div class="nodetag">621.5</div></span>&nbsp;&nbsp;वायवीय ऊर्जा, मशीनरी और उपकरण. प्रशीतन','621.5','वायवीय ऊर्जा, मशीनरी और उपकरण. प्रशीतन','','','',false,true);
+d.add(124,118,'621.6','<div class="nodetag">621.6</div></span>&nbsp;&nbsp;तरल पदार्थ, भंडारण और वितरण संयंत्र और तकनीक','621.6','तरल पदार्थ, भंडारण और वितरण संयंत्र और तकनीक','','','',false,true);
+d.add(125,118,'621.7','<div class="nodetag">621.7</div></span>&nbsp;&nbsp;सामान्य यांत्रिक प्रौद्योगिकी: प्रक्रियाएं, उपकरण, मशीन, उपकरण','621.7','सामान्य यांत्रिक प्रौद्योगिकी: प्रक्रियाएं, उपकरण, मशीन, उपकरण','','','',false,true);
+d.add(126,118,'621.8','<div class="nodetag">621.8</div></span>&nbsp;&nbsp;मशीन तत्व. मकसद विद्युत इंजीनियरी. सामग्री हैंडलिंग. सामग्री. स्नेहन','621.8','मशीन तत्व. मकसद विद्युत इंजीनियरी. सामग्री हैंडलिंग. सामग्री. स्नेहन','','','',false,true);
+d.add(127,118,'621.9','<div class="nodetag">621.9</div></span>&nbsp;&nbsp;मशीनिंग या चिप के गठन के साथ कार्य करना. घर्षण कार्य. हथौड़े और प्रेस','621.9','मशीनिंग या चिप के गठन के साथ कार्य करना. घर्षण कार्य. हथौड़े और प्रेस','','','',false,true);
+d.add(128,96,'622','<div class="nodetag">622</div></span>&nbsp;&nbsp;खनन','622','खनन','','','',false,true);
+d.add(129,128,'622.1','<div class="nodetag">622.1</div></span>&nbsp;&nbsp;प्रारंभिक जांच. खदान सर्वेक्षण और मानचित्रण. खनिज भंडार (सतह और भूमिगत) के अन्वेषण','622.1','प्रारंभिक जांच. खदान सर्वेक्षण और मानचित्रण. खनिज भंडार (सतह और भूमिगत) के अन्वेषण','','','',false,true);
+d.add(130,128,'622.2','<div class="nodetag">622.2</div></span>&nbsp;&nbsp;खनन प्रक्रिया. अन्वेषण, उद्घाटन हुआ, विकास, खनिज भंडारों का कार्य','622.2','खनन प्रक्रिया. अन्वेषण, उद्घाटन हुआ, विकास, खनिज भंडारों का कार्य','','','',false,true);
+d.add(131,128,'622.3','<div class="nodetag">622.3</div></span>&nbsp;&nbsp;विशिष्ट खनिजों के खनन, अयस्कों, चट्टानों','622.3','विशिष्ट खनिजों के खनन, अयस्कों, चट्टानों','','','',false,true);
+d.add(132,128,'622.4','<div class="nodetag">622.4</div></span>&nbsp;&nbsp;वेंटिलेशन, एयर कंडीशनिंग, हीटिंग और खानों की रोशनी','622.4','वेंटिलेशन, एयर कंडीशनिंग, हीटिंग और खानों की रोशनी','','','',false,true);
+d.add(133,128,'622.5','<div class="nodetag">622.5</div></span>&nbsp;&nbsp;खानों की जल निकासी. जल निकासी','622.5','खानों की जल निकासी. जल निकासी','','','',false,true);
+d.add(134,128,'622.6','<div class="nodetag">622.6</div></span>&nbsp;&nbsp;ढुलाई और हैंडलिंग. उत्थापन. घुमावदार. भूतल परिवहन','622.6','ढुलाई और हैंडलिंग. उत्थापन. घुमावदार. भूतल परिवहन','','','',false,true);
+d.add(135,128,'622.7','<div class="nodetag">622.7</div></span>&nbsp;&nbsp;उपचार, खनिजों के प्रसंस्करण. खनिज ड्रेसिंग. अयस्क तैयारी','622.7','उपचार, खनिजों के प्रसंस्करण. खनिज ड्रेसिंग. अयस्क तैयारी','','','',false,true);
+d.add(136,128,'622.8','<div class="nodetag">622.8</div></span>&nbsp;&nbsp;खनन के खतरे, दुर्घटनाएं और नुकसान. स्वास्थ्य और खानों में सुरक्षा','622.8','खनन के खतरे, दुर्घटनाएं और नुकसान. स्वास्थ्य और खानों में सुरक्षा','','','',false,true);
+d.add(137,96,'623','<div class="nodetag">623</div></span>&nbsp;&nbsp;सैन्य इंजीनियरिंग','623','सैन्य इंजीनियरिंग','','','',false,true);
+d.add(138,137,'623.1/.7','<div class="nodetag">623.1/.7</div></span>&nbsp;&nbsp;भूमि आधारित सैन्य इंजीनियरिंग. तोपें','623.1/.7','भूमि आधारित सैन्य इंजीनियरिंग. तोपें','','','',false,true);
+d.add(139,138,'623.1/.3','<div class="nodetag">623.1/.3</div></span>&nbsp;&nbsp;इंजीनियरिंग फील्ड. किलेबंदी. रक्षा कार्य','623.1/.3','इंजीनियरिंग फील्ड. किलेबंदी. रक्षा कार्य','','','',false,true);
+d.add(140,139,'623.1','<div class="nodetag">623.1</div></span>&nbsp;&nbsp;भवन. स्थायी दुर्गों. गढ़वाले लाइन और क्षेत्र','623.1','भवन. स्थायी दुर्गों. गढ़वाले लाइन और क्षेत्र','','','',false,true);
+d.add(141,139,'623.2','<div class="nodetag">623.2</div></span>&nbsp;&nbsp;आक्रमण और बचाव कार्य. घेराबंदी कार्य. क्षेत्र का दुर्गकरण. खाई कार्य','623.2','आक्रमण और बचाव कार्य. घेराबंदी कार्य. क्षेत्र का दुर्गकरण. खाई कार्य','','','',false,true);
+d.add(142,139,'623.3','<div class="nodetag">623.3</div></span>&nbsp;&nbsp;भूमि बारूदी सुरंगें. क्षेत्र बाधाएं. बाढ़','623.3','भूमि बारूदी सुरंगें. क्षेत्र बाधाएं. बाढ़','','','',false,true);
+d.add(143,138,'623.4','<div class="nodetag">623.4</div></span>&nbsp;&nbsp;आयुध. आयुध. हथियार. हथियार. बंदूकें. तोपखाने. छोटे हथियार. पक्ष हथियार. बख्तरबंद वाहन और अन्य सेवा वाहन. गोला बारूद और युद्ध गैसों. गाइडेड मिसाइल और राकेट','623.4','आयुध. आयुध. हथियार. हथियार. बंदूकें. तोपखाने. छोटे हथियार. पक्ष हथियार. बख्तरबंद वाहन और अन्य सेवा वाहन. गोला बारूद और युद्ध गैसों. गाइडेड मिसाइल और राकेट','','','',false,true);
+d.add(144,138,'623.5','<div class="nodetag">623.5</div></span>&nbsp;&nbsp;प्राक्षेपिकी. तोपखाना. सैद्धांतिक और प्रायोगिक समस्याओं','623.5','प्राक्षेपिकी. तोपखाना. सैद्धांतिक और प्रायोगिक समस्याओं','','','',false,true);
+d.add(145,138,'623.6','<div class="nodetag">623.6</div></span>&nbsp;&nbsp;क्षेत्र इंजीनियरिंग उपकरण और संचालन. संचार की लाइनें. रडार प्रत्युपाय. सैन्य भौगोलिक स्थिति','623.6','क्षेत्र इंजीनियरिंग उपकरण और संचालन. संचार की लाइनें. रडार प्रत्युपाय. सैन्य भौगोलिक स्थिति','','','',false,true);
+d.add(146,138,'623.7','<div class="nodetag">623.7</div></span>&nbsp;&nbsp;सेना और नौसेना के विमानन. वायु रक्षा','623.7','सेना और नौसेना के विमानन. वायु रक्षा','','','',false,true);
+d.add(147,137,'623.8/.9','<div class="nodetag">623.8/.9</div></span>&nbsp;&nbsp;नौसेना इंजीनियरिंग','623.8/.9','नौसेना इंजीनियरिंग','','','',false,true);
+d.add(148,147,'623.8','<div class="nodetag">623.8</div></span>&nbsp;&nbsp;नौसेना निर्माण. नौसैनिक अड्डे. युद्धपोत और अन्य जहाज','623.8','नौसेना निर्माण. नौसैनिक अड्डे. युद्धपोत और अन्य जहाज','','','',false,true);
+d.add(149,147,'623.9','<div class="nodetag">623.9</div></span>&nbsp;&nbsp;नौसेना बलों के उपकरण और सामग्री. जहाजों के आयुध और संरक्षण. पनडुब्बी गढ़','623.9','नौसेना बलों के उपकरण और सामग्री. जहाजों के आयुध और संरक्षण. पनडुब्बी गढ़','','','',false,true);
+d.add(150,96,'624','<div class="nodetag">624</div></span>&nbsp;&nbsp;नागरिक और संरचनात्मक इंजीनियरी सामान्यतया','624','नागरिक और संरचनात्मक इंजीनियरी सामान्यतया','','','',false,true);
+d.add(151,150,'624.01/.07','<div class="nodetag">624.01/.07</div></span>&nbsp;&nbsp;सिविल और संरचनात्मक इंजीनियरी के लिए विशेष सहायक उपखंड','624.01/.07','सिविल और संरचनात्मक इंजीनियरी के लिए विशेष सहायक उपखंड','','','',false,true);
+d.add(152,151,'624.01','<div class="nodetag">624.01</div></span>&nbsp;&nbsp;संरचना और सामग्री और निर्माण की विधि के अनुसार संरचनात्मक भागों','624.01','संरचना और सामग्री और निर्माण की विधि के अनुसार संरचनात्मक भागों','','','',false,true);
+d.add(153,151,'624.03','<div class="nodetag">624.03</div></span>&nbsp;&nbsp;आकार, स्थायित्व, स्थान और संरचनाओं का आकार','624.03','आकार, स्थायित्व, स्थान और संरचनाओं का आकार','','','',false,true);
+d.add(154,151,'624.04','<div class="nodetag">624.04</div></span>&nbsp;&nbsp;संरचनात्मक डिजाइन. चित्रमय और संरचनाओं और प्रणालियों की जांच और विश्लेषणात्मक स्टैटिक्स गणना के लिए','624.04','संरचनात्मक डिजाइन. चित्रमय और संरचनाओं और प्रणालियों की जांच और विश्लेषणात्मक स्टैटिक्स गणना के लिए','','','',false,true);
+d.add(155,151,'624.05','<div class="nodetag">624.05</div></span>&nbsp;&nbsp;साइट, संगठन और संयंत्र. निर्माण विधियाँ','624.05','साइट, संगठन और संयंत्र. निर्माण विधियाँ','','','',false,true);
+d.add(156,151,'624.07','<div class="nodetag">624.07</div></span>&nbsp;&nbsp;संरचनात्मक तत्व. लोड धारक सदस्य','624.07','संरचनात्मक तत्व. लोड धारक सदस्य','','','',false,true);
+d.add(157,150,'624.1','<div class="nodetag">624.1</div></span>&nbsp;&nbsp;आधारभूत संरचना. ज़मीनी कार्य. नींव. सुरंग','624.1','आधारभूत संरचना. ज़मीनी कार्य. नींव. सुरंग','','','',false,true);
+d.add(158,150,'624.21/.8','<div class="nodetag">624.21/.8</div></span>&nbsp;&nbsp;पुल निर्माण','624.21/.8','पुल निर्माण','','','',false,true);
+d.add(159,158,'624.3','<div class="nodetag">624.3</div></span>&nbsp;&nbsp;ट्रस पुल (खुला-वेब, जाली गर्डर पुल)','624.3','ट्रस पुल (खुला-वेब, जाली गर्डर पुल)','','','',false,true);
+d.add(160,158,'624.5','<div class="nodetag">624.5</div></span>&nbsp;&nbsp;केबल पुल. निलंबन पुल','624.5','केबल पुल. निलंबन पुल','','','',false,true);
+d.add(161,158,'624.6','<div class="nodetag">624.6</div></span>&nbsp;&nbsp;आर्क पुल','624.6','आर्क पुल','','','',false,true);
+d.add(162,158,'624.8','<div class="nodetag">624.8</div></span>&nbsp;&nbsp;जंगम पुल','624.8','जंगम पुल','','','',false,true);
+d.add(163,150,'624.9','<div class="nodetag">624.9</div></span>&nbsp;&nbsp;जटिल रचना (पुलों को छोड़कर). अपने आप में पूर्ण जटिल रचना.','624.9','जटिल रचना (पुलों को छोड़कर). अपने आप में पूर्ण जटिल रचना.','','','',false,true);
+d.add(164,96,'625','<div class="nodetag">625</div></span>&nbsp;&nbsp;भूमि परिवहन की सिविल इंजीनियरिंग. इंजीनियरिंग रेलवे. राजमार्ग इंजीनियरिंग','625','भूमि परिवहन की सिविल इंजीनियरिंग. इंजीनियरिंग रेलवे. राजमार्ग इंजीनियरिंग','','','',false,true);
+d.add(165,164,'625.1/.5','<div class="nodetag">625.1/.5</div></span>&nbsp;&nbsp;रेलवे. ट्रैम्वे. केबलवे','625.1/.5','रेलवे. ट्रैम्वे. केबलवे','','','',false,true);
+d.add(166,165,'625.1','<div class="nodetag">625.1</div></span>&nbsp;&nbsp;रेल सामान्य रूप में. ट्रैक निर्माण','625.1','रेल सामान्य रूप में. ट्रैक निर्माण','','','',false,true);
+d.add(167,165,'625.5','<div class="nodetag">625.5</div></span>&nbsp;&nbsp;केबल रेल. रस्से से चलाया जानेवाला रेल. निलंबन रेल. हवाई रोपवे और केबलवे. टेल्फर','625.5','केबल रेल. रस्से से चलाया जानेवाला रेल. निलंबन रेल. हवाई रोपवे और केबलवे. टेल्फर','','','',false,true);
+d.add(168,164,'625.7/.8','<div class="nodetag">625.7/.8</div></span>&nbsp;&nbsp;राजमार्ग इंजीनियरिंग','625.7/.8','राजमार्ग इंजीनियरिंग','','','',false,true);
+d.add(169,168,'625.7','<div class="nodetag">625.7</div></span>&nbsp;&nbsp;सामान्य रूप में राजमार्ग. सड़क. कैरेज़वे. सड़कों. ग्रामीण और शहरी सड़क प्रणालियाँ','625.7','सामान्य रूप में राजमार्ग. सड़क. कैरेज़वे. सड़कों. ग्रामीण और शहरी सड़क प्रणालियाँ','','','',false,true);
+d.add(170,168,'625.8','<div class="nodetag">625.8</div></span>&nbsp;&nbsp;राजमार्गों की कठिन सरफेसिंग. फुटपाथ, कालीन या अपरदन प्रक्रिया. तैयार करना और सामग्री का उपयोग','625.8','राजमार्गों की कठिन सरफेसिंग. फुटपाथ, कालीन या अपरदन प्रक्रिया. तैयार करना और सामग्री का उपयोग','','','',false,true);
+d.add(171,96,'626/627','<div class="nodetag">626/627</div></span>&nbsp;&nbsp;हाइड्रोलिक इंजीनियरिंग और निर्माण. पानी (जलीय) संरचनाएं','626/627','हाइड्रोलिक इंजीनियरिंग और निर्माण. पानी (जलीय) संरचनाएं','','','',false,true);
+d.add(172,171,'626','<div class="nodetag">626</div></span>&nbsp;&nbsp;हाइड्रोलिक इंजीनियरिंग सामान्यतया','626','हाइड्रोलिक इंजीनियरिंग सामान्यतया','','','',false,true);
+d.add(173,172,'626.1','<div class="nodetag">626.1</div></span>&nbsp;&nbsp;अंतर्देशीय जलमार्ग नौगम्य. नहरों. नहरकृत नदियाँ','626.1','अंतर्देशीय जलमार्ग नौगम्य. नहरों. नहरकृत नदियाँ','','','',false,true);
+d.add(174,172,'626.4','<div class="nodetag">626.4</div></span>&nbsp;&nbsp;ताले','626.4','ताले','','','',false,true);
+d.add(175,172,'626.5','<div class="nodetag">626.5</div></span>&nbsp;&nbsp;नलिकाओं को उठाने वाले गियर और झुकेप्लेन','626.5','नलिकाओं को उठाने वाले गियर और झुकेप्लेन','','','',false,true);
+d.add(176,172,'626.8','<div class="nodetag">626.8</div></span>&nbsp;&nbsp;कृषि जलगति. सिंचाई, जल निकासी और उद्धार इंजीनियरिंग','626.8','कृषि जलगति. सिंचाई, जल निकासी और उद्धार इंजीनियरिंग','','','',false,true);
+d.add(177,172,'626.9','<div class="nodetag">626.9</div></span>&nbsp;&nbsp;समुद्री नहरें. जहाज नहरें','626.9','समुद्री नहरें. जहाज नहरें','','','',false,true);
+d.add(178,171,'627','<div class="nodetag">627</div></span>&nbsp;&nbsp;प्राकृतिक जलमार्ग, बंदरगाह, बंदरगाह और पत्तन इंजीनियरिंग. नौवहन, निकर्षण बचाना, और बचाव की सुविधा. बांध और हाइड्रोलिक पावर प्लांट','627','प्राकृतिक जलमार्ग, बंदरगाह, बंदरगाह और पत्तन इंजीनियरिंग. नौवहन, निकर्षण बचाना, और बचाव की सुविधा. बांध और हाइड्रोलिक पावर प्लांट','','','',false,true);
+d.add(179,178,'627.2','<div class="nodetag">627.2</div></span>&nbsp;&nbsp;बंदरगाह, बंदरगाह और रोडस्टीड्स, इंजीनियरिंग और निर्माण कार्य सामान्यतया','627.2','बंदरगाह, बंदरगाह और रोडस्टीड्स, इंजीनियरिंग और निर्माण कार्य सामान्यतया','','','',false,true);
+d.add(180,178,'627.3','<div class="nodetag">627.3</div></span>&nbsp;&nbsp;पोर्ट सुविधाएं. गोदी. घाट. जहाज़ी घाट. प्रतिष्ठान और उपकरण','627.3','पोर्ट सुविधाएं. गोदी. घाट. जहाज़ी घाट. प्रतिष्ठान और उपकरण','','','',false,true);
+d.add(181,178,'627.4','<div class="nodetag">627.4</div></span>&nbsp;&nbsp;नदी के किनारे सुरक्षा. नदियों और सीधे धाराओं. अन्य नदी सुधार कार्य','627.4','नदी के किनारे सुरक्षा. नदियों और सीधे धाराओं. अन्य नदी सुधार कार्य','','','',false,true);
+d.add(182,178,'627.5','<div class="nodetag">627.5</div></span>&nbsp;&nbsp;अन्य जलमार्ग संरक्षण और सुधार के काम . बस्ती. सुरक्षा तट. भूमि जल निकासी और सुधार','627.5','अन्य जलमार्ग संरक्षण और सुधार के काम . बस्ती. सुरक्षा तट. भूमि जल निकासी और सुधार','','','',false,true);
+d.add(183,178,'627.7','<div class="nodetag">627.7</div></span>&nbsp;&nbsp;नौवहन सुविधाएं. रखरखाव चैनल. समुद्री बचाव और बचाव सुविधाएं','627.7','नौवहन सुविधाएं. रखरखाव चैनल. समुद्री बचाव और बचाव सुविधाएं','','','',false,true);
+d.add(184,178,'627.8','<div class="nodetag">627.8</div></span>&nbsp;&nbsp;बांधों. हाइड्रोलिक पावर प्लांट काम','627.8','बांधों. हाइड्रोलिक पावर प्लांट काम','','','',false,true);
+d.add(185,96,'628','<div class="nodetag">628</div></span>&nbsp;&nbsp;सार्वजनिक स्वास्थ्य इंजीनियरिंग. पानी. सफाई. रोशन इंजीनियरिंग','628','सार्वजनिक स्वास्थ्य इंजीनियरिंग. पानी. सफाई. रोशन इंजीनियरिंग','','','',false,true);
+d.add(186,185,'628.1','<div class="nodetag">628.1</div></span>&nbsp;&nbsp;आपूर्ति पानी. जल उपचार. पानी की खपत','628.1','आपूर्ति पानी. जल उपचार. पानी की खपत','','','',false,true);
+d.add(187,185,'628.2','<div class="nodetag">628.2</div></span>&nbsp;&nbsp;शहरी जल हटाने. टाउन जल निकासी. मल','628.2','शहरी जल हटाने. टाउन जल निकासी. मल','','','',false,true);
+d.add(188,185,'628.3','<div class="nodetag">628.3</div></span>&nbsp;&nbsp;सीवेज. उपचार, निपटान, सीवेज का उपयोग','628.3','सीवेज. उपचार, निपटान, सीवेज का उपयोग','','','',false,true);
+d.add(189,185,'628.4','<div class="nodetag">628.4</div></span>&nbsp;&nbsp;शहरी स्वच्छता. कचड़ा. उत्सर्जन. कूड़ा. कचरा. शहर के कचरे का संग्रह और निस्तारण','628.4','शहरी स्वच्छता. कचड़ा. उत्सर्जन. कूड़ा. कचरा. शहर के कचरे का संग्रह और निस्तारण','','','',false,true);
+d.add(190,185,'628.5','<div class="nodetag">628.5</div></span>&nbsp;&nbsp;औद्योगिक और अन्य हानिकारक वस्तुओ के खिलाफ उपाय','628.5','औद्योगिक और अन्य हानिकारक वस्तुओ के खिलाफ उपाय','','','',false,true);
+d.add(191,185,'628.6','<div class="nodetag">628.6</div></span>&nbsp;&nbsp;ड्रेनेज और इमारतों की स्वच्छता के प्रतिष्ठान (विशेष रूप से सार्वजनिक स्वास्थ्य आवश्यकताएं)','628.6','ड्रेनेज और इमारतों की स्वच्छता के प्रतिष्ठान (विशेष रूप से सार्वजनिक स्वास्थ्य आवश्यकताएं)','','','',false,true);
+d.add(192,185,'628.8','<div class="nodetag">628.8</div></span>&nbsp;&nbsp;आंतरिक जलवायु. एयर कंडीशनिंग. ताप. हवा करना','628.8','आंतरिक जलवायु. एयर कंडीशनिंग. ताप. हवा करना','','','',false,true);
+d.add(193,185,'628.9','<div class="nodetag">628.9</div></span>&nbsp;&nbsp;प्रकाश व्यवस्था. रोशनी इंजीनियरिंग','628.9','प्रकाश व्यवस्था. रोशनी इंजीनियरिंग','','','',false,true);
+d.add(194,96,'629','<div class="nodetag">629</div></span>&nbsp;&nbsp;परिवहन वाहन इंजीनियरिंग','629','परिवहन वाहन इंजीनियरिंग','','','',false,true);
+d.add(195,194,'629.01/.08','<div class="nodetag">629.01/.08</div></span>&nbsp;&nbsp;परिवहन वाहन इंजीनियरिंग के लिए विशेष सहायक संख्या','629.01/.08','परिवहन वाहन इंजीनियरिंग के लिए विशेष सहायक संख्या','','','',false,true);
+d.add(196,195,'629.01','<div class="nodetag">629.01</div></span>&nbsp;&nbsp;वाहन डिजाइन सिद्धांतों: विशेषताएं, क्षमता, परीक्षण','629.01','वाहन डिजाइन सिद्धांतों: विशेषताएं, क्षमता, परीक्षण','','','',false,true);
+d.add(197,195,'629.02','<div class="nodetag">629.02</div></span>&nbsp;&nbsp;वाहन संरचना, निर्माण के सिद्धांतों, सामान्य लेआउट और भागों','629.02','वाहन संरचना, निर्माण के सिद्धांतों, सामान्य लेआउट और भागों','','','',false,true);
+d.add(198,195,'629.03','<div class="nodetag">629.03</div></span>&nbsp;&nbsp;प्रणोदन प्रणाली','629.03','प्रणोदन प्रणाली','','','',false,true);
+d.add(199,195,'629.04','<div class="nodetag">629.04</div></span>&nbsp;&nbsp;आंतरिक लेआउट: आवास स्थापना, व्यक्तियों और माल ढुलाई के लिए, उपकरण','629.04','आंतरिक लेआउट: आवास स्थापना, व्यक्तियों और माल ढुलाई के लिए, उपकरण','','','',false,true);
+d.add(200,195,'629.05','<div class="nodetag">629.05</div></span>&nbsp;&nbsp;मार्गदर्शन, नियंत्रण दीक्षा और नेविगेशन प्रणाली और उपकरण (वाहन पर सवार)','629.05','मार्गदर्शन, नियंत्रण दीक्षा और नेविगेशन प्रणाली और उपकरण (वाहन पर सवार)','','','',false,true);
+d.add(201,195,'629.06','<div class="nodetag">629.06</div></span>&nbsp;&nbsp;वाहन सहायक प्रणालियां और उपकरण','629.06','वाहन सहायक प्रणालियां और उपकरण','','','',false,true);
+d.add(202,195,'629.07','<div class="nodetag">629.07</div></span>&nbsp;&nbsp;वाहनों से होने वाले आपरेशन के तकनीकी पहलू (परिचालन तकनीक)','629.07','वाहनों से होने वाले आपरेशन के तकनीकी पहलू (परिचालन तकनीक)','','','',false,true);
+d.add(203,195,'629.08','<div class="nodetag">629.08</div></span>&nbsp;&nbsp;आधार उपकरण, प्रतिष्ठानों और इसी तकनीकी प्रक्रियाएं','629.08','आधार उपकरण, प्रतिष्ठानों और इसी तकनीकी प्रक्रियाएं','','','',false,true);
+d.add(204,194,'629.3','<div class="nodetag">629.3</div></span>&nbsp;&nbsp;भूमि वाहन इंजीनियरिंग (रेल वाहनों को छोड़कर)','629.3','भूमि वाहन इंजीनियरिंग (रेल वाहनों को छोड़कर)','','','',false,true);
+d.add(205,194,'629.4','<div class="nodetag">629.4</div></span>&nbsp;&nbsp;रेल गाड़ी इंजीनियरिंग. लोकोमोटिव. रोलिंग स्टॉक. रेलवे यार्ड. प्रतिष्ठान और सेवाओं स्टॉक रोलिंग के साथ संबंध','629.4','रेल गाड़ी इंजीनियरिंग. लोकोमोटिव. रोलिंग स्टॉक. रेलवे यार्ड. प्रतिष्ठान और सेवाओं स्टॉक रोलिंग के साथ संबंध','','','',false,true);
+d.add(206,194,'629.5','<div class="nodetag">629.5</div></span>&nbsp;&nbsp;जल इंजीनियरिंग. समुद्री इंजीनियरिंग. नौका जहाज निर्माण','629.5','जल इंजीनियरिंग. समुद्री इंजीनियरिंग. नौका जहाज निर्माण','','','',false,true);
+d.add(207,194,'629.7','<div class="nodetag">629.7</div></span>&nbsp;&nbsp;वायु और अंतरिक्ष परिवहन इंजीनियरिंग. वैमानिकी और विमान. रॉकेट और मिसाइल. अंतरिक्ष यान','629.7','वायु और अंतरिक्ष परिवहन इंजीनियरिंग. वैमानिकी और विमान. रॉकेट और मिसाइल. अंतरिक्ष यान','','','',false,true);
+d.add(208,0,'63','<div class="nodetag">63</div></span>&nbsp;&nbsp;कृषि और संबंधित विज्ञान तथा तकनीक. वानिकी. कृषिकर्म. वन्यजीव शोषण.','63','कृषि और संबंधित विज्ञान तथा तकनीक. वानिकी. कृषिकर्म. वन्यजीव शोषण.','','','',false,true);
+d.add(209,208,'630','<div class="nodetag">630</div></span>&nbsp;&nbsp;वानिकी','630','वानिकी','','','',false,true);
+d.add(210,209,'630*0','<div class="nodetag">630*0</div></span>&nbsp;&nbsp;वन, वानिकी और वन उत्पादों के उपयोग','630*0','वन, वानिकी और वन उत्पादों के उपयोग','','','',false,true);
+d.add(211,209,'630*1','<div class="nodetag">630*1</div></span>&nbsp;&nbsp;पर्यावरण के कारक. वन जीव विज्ञान','630*1','पर्यावरण के कारक. वन जीव विज्ञान','','','',false,true);
+d.add(212,209,'630*2','<div class="nodetag">630*2</div></span>&nbsp;&nbsp;जंगल - विज्ञान','630*2','जंगल - विज्ञान','','','',false,true);
+d.add(213,209,'630*3','<div class="nodetag">630*3</div></span>&nbsp;&nbsp;वानिकी में काम विज्ञान (काम अध्ययन). लकड़ी की कटाई: प्रवेश और परिवहन. वन इंजीनियरिंग','630*3','वानिकी में काम विज्ञान (काम अध्ययन). लकड़ी की कटाई: प्रवेश और परिवहन. वन इंजीनियरिंग','','','',false,true);
+d.add(214,209,'630*4','<div class="nodetag">630*4</div></span>&nbsp;&nbsp;वन चोटों और सुरक्षा','630*4','वन चोटों और सुरक्षा','','','',false,true);
+d.add(215,209,'630*5','<div class="nodetag">630*5</div></span>&nbsp;&nbsp;वन क्षेत्रमिति. वेतन वृद्धि, विकास और खड़ा ढांचा. सर्वेक्षण और मानचित्रण','630*5','वन क्षेत्रमिति. वेतन वृद्धि, विकास और खड़ा ढांचा. सर्वेक्षण और मानचित्रण','','','',false,true);
+d.add(216,209,'630*6','<div class="nodetag">630*6</div></span>&nbsp;&nbsp;वन प्रबंधन. वानिकी का व्यवसाय अर्थशास्त्र. प्रशासन और वन उद्यमों में से एक संगठन','630*6','वन प्रबंधन. वानिकी का व्यवसाय अर्थशास्त्र. प्रशासन और वन उद्यमों में से एक संगठन','','','',false,true);
+d.add(217,209,'630*7','<div class="nodetag">630*7</div></span>&nbsp;&nbsp;वन उत्पादों के विपणन. वन परिवहन के अर्थशास्त्र और लकड़ी उद्योग','630*7','वन उत्पादों के विपणन. वन परिवहन के अर्थशास्त्र और लकड़ी उद्योग','','','',false,true);
+d.add(218,209,'630*8','<div class="nodetag">630*8</div></span>&nbsp;&nbsp;वन उत्पादों और उनके उपयोग','630*8','वन उत्पादों और उनके उपयोग','','','',false,true);
+d.add(219,209,'630*9','<div class="nodetag">630*9</div></span>&nbsp;&nbsp;वन और वन को देखने के राष्ट्रीय बिंदु से. वानिकी का सामाजिक अर्थशास्त्र','630*9','वन और वन को देखने के राष्ट्रीय बिंदु से. वानिकी का सामाजिक अर्थशास्त्र','','','',false,true);
+d.add(220,208,'631/635','<div class="nodetag">631/635</div></span>&nbsp;&nbsp;कृषि प्रबंधन. अग्रोनोमी. बागवानी','631/635','कृषि प्रबंधन. अग्रोनोमी. बागवानी','','','',false,true);
+d.add(221,220,'631','<div class="nodetag">631</div></span>&nbsp;&nbsp;कृषि सामान्य में','631','कृषि सामान्य में','','','',false,true);
+d.add(222,221,'631.1','<div class="nodetag">631.1</div></span>&nbsp;&nbsp;कृषि प्रबंधन और संगठन','631.1','कृषि प्रबंधन और संगठन','','','',false,true);
+d.add(223,221,'631.2','<div class="nodetag">631.2</div></span>&nbsp;&nbsp;पुराने भवनों इमारतों और प्रतिष्ठानों. पशुधन, उत्पादन, मशीनरी और उपकरणों के लिए भवन','631.2','पुराने भवनों इमारतों और प्रतिष्ठानों. पशुधन, उत्पादन, मशीनरी और उपकरणों के लिए भवन','','','',false,true);
+d.add(224,221,'631.3','<div class="nodetag">631.3</div></span>&nbsp;&nbsp;कृषि मशीनों, औजार और उपकरण','631.3','कृषि मशीनों, औजार और उपकरण','','','',false,true);
+d.add(225,221,'631.4','<div class="nodetag">631.4</div></span>&nbsp;&nbsp;विज्ञान मिट्टी. मिट्टी - संबंधी विद्या. मिट्टी अनुसंधान','631.4','विज्ञान मिट्टी. मिट्टी - संबंधी विद्या. मिट्टी अनुसंधान','','','',false,true);
+d.add(226,221,'631.5','<div class="nodetag">631.5</div></span>&nbsp;&nbsp;कृषि कार्यों','631.5','कृषि कार्यों','','','',false,true);
+d.add(227,221,'631.6','<div class="nodetag">631.6</div></span>&nbsp;&nbsp;ग्रामीण अभियंत्रण','631.6','ग्रामीण अभियंत्रण','','','',false,true);
+d.add(228,221,'631.8','<div class="nodetag">631.8</div></span>&nbsp;&nbsp;उर्वरक खाद, मिट्टी और संवर्धन. विकास का संवर्धन. पौधों उत्तेजक','631.8','उर्वरक खाद, मिट्टी और संवर्धन. विकास का संवर्धन. पौधों उत्तेजक','','','',false,true);
+d.add(229,220,'632','<div class="nodetag">632</div></span>&nbsp;&nbsp;पौधों को नुकसान, चोटों. पौधों रोग. कीट, जीव पौधों के लिए हानिकारक. पौध संरक्षण','632','पौधों को नुकसान, चोटों. पौधों रोग. कीट, जीव पौधों के लिए हानिकारक. पौध संरक्षण','','','',false,true);
+d.add(230,220,'633/635','<div class="nodetag">633/635</div></span>&nbsp;&nbsp;सामान्य रूप में बागवानी. विशिष्ट फसलों','633/635','सामान्य रूप में बागवानी. विशिष्ट फसलों','','','',false,true);
+d.add(231,230,'633','<div class="nodetag">633</div></span>&nbsp;&nbsp;फसलों और उनके उत्पादन','633','फसलों और उनके उत्पादन','','','',false,true);
+d.add(232,231,'633.1','<div class="nodetag">633.1</div></span>&nbsp;&nbsp;अनाज. अनाज फसलें','633.1','अनाज. अनाज फसलें','','','',false,true);
+d.add(233,231,'633.2','<div class="nodetag">633.2</div></span>&nbsp;&nbsp;चारा घास. घास का मैदान और चारागाह घास','633.2','चारा घास. घास का मैदान और चारागाह घास','','','',false,true);
+d.add(234,231,'633.3','<div class="nodetag">633.3</div></span>&nbsp;&nbsp;घास को छोड़कर चारा पौधों','633.3','घास को छोड़कर चारा पौधों','','','',false,true);
+d.add(235,231,'633.4','<div class="nodetag">633.4</div></span>&nbsp;&nbsp;खाद्य जड़ों. रूट फसलों','633.4','खाद्य जड़ों. रूट फसलों','','','',false,true);
+d.add(236,231,'633.5','<div class="nodetag">633.5</div></span>&nbsp;&nbsp;कपड़ा और फाइबर संयंत्र','633.5','कपड़ा और फाइबर संयंत्र','','','',false,true);
+d.add(237,231,'633.6','<div class="nodetag">633.6</div></span>&nbsp;&nbsp;चीनी और स्टार्च पौधे','633.6','चीनी और स्टार्च पौधे','','','',false,true);
+d.add(238,231,'633.7','<div class="nodetag">633.7</div></span>&nbsp;&nbsp;पौधों उत्तेजक उपज. पेय संयंत्र','633.7','पौधों उत्तेजक उपज. पेय संयंत्र','','','',false,true);
+d.add(239,231,'633.8','<div class="nodetag">633.8</div></span>&nbsp;&nbsp;सुगंधित पौधों. मसाला पौधों. चिकना पौधों. डाई पौधों. कमाना पौधों. औषधीय पौधों','633.8','सुगंधित पौधों. मसाला पौधों. चिकना पौधों. डाई पौधों. कमाना पौधों. औषधीय पौधों','','','',false,true);
+d.add(240,231,'633.9','<div class="nodetag">633.9</div></span>&nbsp;&nbsp;औद्योगिक उपयोग के साथ अन्य पौधों','633.9','औद्योगिक उपयोग के साथ अन्य पौधों','','','',false,true);
+d.add(241,230,'634','<div class="nodetag">634</div></span>&nbsp;&nbsp;फलों को उगाना','634','फलों को उगाना','','','',false,true);
+d.add(242,241,'634.2','<div class="nodetag">634.2</div></span>&nbsp;&nbsp;पत्थर फल.','634.2','पत्थर फल.','','','',false,true);
+d.add(243,241,'634.3','<div class="nodetag">634.3</div></span>&nbsp;&nbsp;रूटेसियस और मोरेसियस फल. सामान्य खट्टे फल','634.3','रूटेसियस और मोरेसियस फल. सामान्य खट्टे फल','','','',false,true);
+d.add(244,241,'634.4','<div class="nodetag">634.4</div></span>&nbsp;&nbsp;अन्य लुगदी फल','634.4','अन्य लुगदी फल','','','',false,true);
+d.add(245,241,'634.5','<div class="nodetag">634.5</div></span>&nbsp;&nbsp;नट्स','634.5','नट्स','','','',false,true);
+d.add(246,241,'634.6','<div class="nodetag">634.6</div></span>&nbsp;&nbsp;विभिन्न उष्णकटिबंधीय फल','634.6','विभिन्न उष्णकटिबंधीय फल','','','',false,true);
+d.add(247,241,'634.7','<div class="nodetag">634.7</div></span>&nbsp;&nbsp;झाड. और फूलों के पौधों के छोटे फल. जामुन','634.7','झाड. और फूलों के पौधों के छोटे फल. जामुन','','','',false,true);
+d.add(248,241,'634.8','<div class="nodetag">634.8</div></span>&nbsp;&nbsp;अंगूर की खेती. अंगूर दाखलताओं. दाख की बारियां','634.8','अंगूर की खेती. अंगूर दाखलताओं. दाख की बारियां','','','',false,true);
+d.add(249,230,'635','<div class="nodetag">635</div></span>&nbsp;&nbsp;गार्डन पौधों. बागवानी','635','गार्डन पौधों. बागवानी','','','',false,true);
+d.add(250,249,'635.1/.8','<div class="nodetag">635.1/.8</div></span>&nbsp;&nbsp;सब्जियों. रसोई बागवानी','635.1/.8','सब्जियों. रसोई बागवानी','','','',false,true);
+d.add(251,250,'635.1','<div class="nodetag">635.1</div></span>&nbsp;&nbsp;खाद्य और जड़ों. रूट सब्जियों','635.1','खाद्य और जड़ों. रूट सब्जियों','','','',false,true);
+d.add(252,250,'635.2','<div class="nodetag">635.2</div></span>&nbsp;&nbsp;खाद्य बल्बों','635.2','खाद्य बल्बों','','','',false,true);
+d.add(253,250,'635.3','<div class="nodetag">635.3</div></span>&nbsp;&nbsp;खाद्य गुलाबी पत्ते, या फूलों के साथ पौधे','635.3','खाद्य गुलाबी पत्ते, या फूलों के साथ पौधे','','','',false,true);
+d.add(254,250,'635.4','<div class="nodetag">635.4</div></span>&nbsp;&nbsp;अन्य हरी सब्जियों. पत्ता सब्जियां','635.4','अन्य हरी सब्जियों. पत्ता सब्जियां','','','',false,true);
+d.add(255,250,'635.6','<div class="nodetag">635.6</div></span>&nbsp;&nbsp;खाद्य फल और बीज. दलहन','635.6','खाद्य फल और बीज. दलहन','','','',false,true);
+d.add(256,250,'635.7','<div class="nodetag">635.7</div></span>&nbsp;&nbsp;खुशबूदार जड़ी बूटियों. पकाई के लिए पौधे','635.7','खुशबूदार जड़ी बूटियों. पकाई के लिए पौधे','','','',false,true);
+d.add(257,250,'635.8','<div class="nodetag">635.8</div></span>&nbsp;&nbsp;खाद्य कवक','635.8','खाद्य कवक','','','',false,true);
+d.add(258,249,'635.9','<div class="nodetag">635.9</div></span>&nbsp;&nbsp;टूम. सजावटी पौधों. सजावटी बागवानी','635.9','टूम. सजावटी पौधों. सजावटी बागवानी','','','',false,true);
+d.add(259,208,'636','<div class="nodetag">636</div></span>&nbsp;&nbsp;पशु पालन और सामान्य में प्रजनन. पशुधन पालन. घरेलू पशुओं का प्रजनन','636','पशु पालन और सामान्य में प्रजनन. पशुधन पालन. घरेलू पशुओं का प्रजनन','','','',false,true);
+d.add(260,259,'636.01/.09','<div class="nodetag">636.01/.09</div></span>&nbsp;&nbsp;पशुपालन के लिए विशेष सहायक संख्या','636.01/.09','पशुपालन के लिए विशेष सहायक संख्या','','','',false,true);
+d.add(261,260,'636.01','<div class="nodetag">636.01</div></span>&nbsp;&nbsp;मनुष्यों द्वारा रखा जानवरों के विकास मूल, और पालन . पशुओं के पालन और प्रशिक्षण का जैविक आधार','636.01','मनुष्यों द्वारा रखा जानवरों के विकास मूल, और पालन . पशुओं के पालन और प्रशिक्षण का जैविक आधार','','','',false,true);
+d.add(262,260,'636.02','<div class="nodetag">636.02</div></span>&nbsp;&nbsp;पशु प्रजनन, वैज्ञानिक उपयोग के लिए रखना','636.02','पशु प्रजनन, वैज्ञानिक उपयोग के लिए रखना','','','',false,true);
+d.add(263,260,'636.03','<div class="nodetag">636.03</div></span>&nbsp;&nbsp;पशु नस्ल या खाना या अन्य उत्पादन (उत्पादकता, उपज) के लिए रखा. खेत और खेत पशुओं में सामान्य','636.03','पशु नस्ल या खाना या अन्य उत्पादन (उत्पादकता, उपज) के लिए रखा. खेत और खेत पशुओं में सामान्य','','','',false,true);
+d.add(264,260,'636.04','<div class="nodetag">636.04</div></span>&nbsp;&nbsp;पशु नस्ल या मनुष्यों की सेवा या काम और खुशी के लिए रखाना','636.04','पशु नस्ल या मनुष्यों की सेवा या काम और खुशी के लिए रखाना','','','',false,true);
+d.add(265,260,'636.05','<div class="nodetag">636.05</div></span>&nbsp;&nbsp;पशु प्रजनन के अनुसार','636.05','पशु प्रजनन के अनुसार','','','',false,true);
+d.add(266,260,'636.06','<div class="nodetag">636.06</div></span>&nbsp;&nbsp;विशेषताओं, संविधान और घरेलू पशुओं का विशेष जैविक विशेषताएँ','636.06','विशेषताओं, संविधान और घरेलू पशुओं का विशेष जैविक विशेषताएँ','','','',false,true);
+d.add(267,260,'636.08','<div class="nodetag">636.08</div></span>&nbsp;&nbsp;प्रजनन और पालन के सामान्य प्रश्न','636.08','प्रजनन और पालन के सामान्य प्रश्न','','','',false,true);
+d.add(268,260,'636.09','<div class="nodetag">636.09</div></span>&nbsp;&nbsp;पशु चिकित्सा विज्ञान','636.09','पशु चिकित्सा विज्ञान','','','',false,true);
+d.add(269,259,'636.1','<div class="nodetag">636.1</div></span>&nbsp;&nbsp;घरेलू घोड़े. घोड़े','636.1','घरेलू घोड़े. घोड़े','','','',false,true);
+d.add(270,259,'636.2','<div class="nodetag">636.2</div></span>&nbsp;&nbsp;बड़े जानवर जो अपना चारा पेट से निकाल कर चबाते हौं. पशु, बैल','636.2','बड़े जानवर जो अपना चारा पेट से निकाल कर चबाते हौं. पशु, बैल','','','',false,true);
+d.add(271,259,'636.3','<div class="nodetag">636.3</div></span>&nbsp;&nbsp;घरेलू घोड़े. घोड़े','636.3','घरेलू घोड़े. घोड़े','','','',false,true);
+d.add(272,259,'636.4','<div class="nodetag">636.4</div></span>&nbsp;&nbsp;सूअरों. सूअर','636.4','सूअरों. सूअर','','','',false,true);
+d.add(273,259,'636.5','<div class="nodetag">636.5</div></span>&nbsp;&nbsp;पोल्ट्री','636.5','पोल्ट्री','','','',false,true);
+d.add(274,259,'636.6','<div class="nodetag">636.6</div></span>&nbsp;&nbsp;(मुर्गी और खेल को छोड़कर) पक्षी नस्ल या मनुष्य द्वारा रखी','636.6','(मुर्गी और खेल को छोड़कर) पक्षी नस्ल या मनुष्य द्वारा रखी','','','',false,true);
+d.add(275,259,'636.7','<div class="nodetag">636.7</div></span>&nbsp;&nbsp;कुत्तों','636.7','कुत्तों','','','',false,true);
+d.add(276,259,'636.8','<div class="nodetag">636.8</div></span>&nbsp;&nbsp;बिल्लियों','636.8','बिल्लियों','','','',false,true);
+d.add(277,259,'636.9','<div class="nodetag">636.9</div></span>&nbsp;&nbsp;अन्य मनुष्यों द्वारा रखा जानवरों','636.9','अन्य मनुष्यों द्वारा रखा जानवरों','','','',false,true);
+d.add(278,208,'637','<div class="nodetag">637</div></span>&nbsp;&nbsp;घरेलू जानवरों और खेल का निर्माण','637','घरेलू जानवरों और खेल का निर्माण','','','',false,true);
+d.add(279,208,'638','<div class="nodetag">638</div></span>&nbsp;&nbsp;रखते हुए प्रजनन, और कीड़े और अन्य प्रबंधन','638','रखते हुए प्रजनन, और कीड़े और अन्य प्रबंधन','','','',false,true);
+d.add(280,208,'639','<div class="nodetag">639</div></span>&nbsp;&nbsp;शिकार. मछली पकड़ने. मछली प्रजनन','639','शिकार. मछली पकड़ने. मछली प्रजनन','','','',false,true);
+d.add(281,280,'639.1','<div class="nodetag">639.1</div></span>&nbsp;&nbsp;शिकार','639.1','शिकार','','','',false,true);
+d.add(282,280,'639.2','<div class="nodetag">639.2</div></span>&nbsp;&nbsp;मछली पकड़ने. मत्स्य पालन','639.2','मछली पकड़ने. मत्स्य पालन','','','',false,true);
+d.add(283,280,'639.3','<div class="nodetag">639.3</div></span>&nbsp;&nbsp;प्रजनन मछली. मछली पालन','639.3','प्रजनन मछली. मछली पालन','','','',false,true);
+d.add(284,280,'639.4','<div class="nodetag">639.4</div></span>&nbsp;&nbsp;जलीय मोलस्क्स (शंख) का प्रजनन','639.4','जलीय मोलस्क्स (शंख) का प्रजनन','','','',false,true);
+d.add(285,280,'639.5','<div class="nodetag">639.5</div></span>&nbsp;&nbsp;जलीय क्रसटेशियन का प्रजनन','639.5','जलीय क्रसटेशियन का प्रजनन','','','',false,true);
+d.add(286,280,'639.6','<div class="nodetag">639.6</div></span>&nbsp;&nbsp;अन्य समुद्री उत्पादों','639.6','अन्य समुद्री उत्पादों','','','',false,true);
+d.add(287,0,'64','<div class="nodetag">64</div></span>&nbsp;&nbsp;घर अर्थशास्त्र. घरेलु विज्ञान. गृह व्यवस्था.','64','घर अर्थशास्त्र. घरेलु विज्ञान. गृह व्यवस्था.','','','',false,true);
+d.add(288,287,'64.01/.08','<div class="nodetag">64.01/.08</div></span>&nbsp;&nbsp;घरेलू विज्ञान के लिए विशेष सहायक','64.01/.08','घरेलू विज्ञान के लिए विशेष सहायक','','','',false,true);
+d.add(289,288,'64.01','<div class="nodetag">64.01</div></span>&nbsp;&nbsp;घर. घरेलू प्रबंधन','64.01','घर. घरेलू प्रबंधन','','','',false,true);
+d.add(290,288,'64.048','<div class="nodetag">64.048</div></span>&nbsp;&nbsp;काम के अध्ययन और घर में काम के तरीके','64.048','काम के अध्ययन और घर में काम के तरीके','','','',false,true);
+d.add(291,288,'64.05','<div class="nodetag">64.05</div></span>&nbsp;&nbsp;गृह अर्थशास्त्र. गृह व्यवस्था, विशेष प्रकार के व्यक्ति के लिए एक घर व्यवस्थित और सुसज्जित करना','64.05','गृह अर्थशास्त्र. गृह व्यवस्था, विशेष प्रकार के व्यक्ति के लिए एक घर व्यवस्थित और सुसज्जित करना','','','',false,true);
+d.add(292,288,'64.06','<div class="nodetag">64.06</div></span>&nbsp;&nbsp;घरेलू उपकरणों और मशीनों. घर में श्रम की बचत करने वाले उपकरण','64.06','घरेलू उपकरणों और मशीनों. घर में श्रम की बचत करने वाले उपकरण','','','',false,true);
+d.add(293,288,'64.08','<div class="nodetag">64.08</div></span>&nbsp;&nbsp;चलने वाला घर. निष्कासन','64.08','चलने वाला घर. निष्कासन','','','',false,true);
+d.add(294,287,'640','<div class="nodetag">640</div></span>&nbsp;&nbsp;घर के प्रकार','640','घर के प्रकार','','','',false,true);
+d.add(295,287,'641/642','<div class="nodetag">641/642</div></span>&nbsp;&nbsp;खाना. खाना पकाना. व्यंजन. भोजन','641/642','खाना. खाना पकाना. व्यंजन. भोजन','','','',false,true);
+d.add(296,295,'641','<div class="nodetag">641</div></span>&nbsp;&nbsp;खाना. खाना पकाना. बर्तन','641','खाना. खाना पकाना. बर्तन','','','',false,true);
+d.add(297,295,'642','<div class="nodetag">642</div></span>&nbsp;&nbsp;भोजन और भोजन समय. मेज़ पर खाने के बर्तन इत्यादि','642','भोजन और भोजन समय. मेज़ पर खाने के बर्तन इत्यादि','','','',false,true);
+d.add(298,287,'643/645','<div class="nodetag">643/645</div></span>&nbsp;&nbsp;घर. घरेलू फिटिंग और सामान','643/645','घर. घरेलू फिटिंग और सामान','','','',false,true);
+d.add(299,298,'643','<div class="nodetag">643</div></span>&nbsp;&nbsp;घर. आवास','643','घर. आवास','','','',false,true);
+d.add(300,298,'644','<div class="nodetag">644</div></span>&nbsp;&nbsp;घरों में स्वास्थ्य और सुविधा के लिए प्रतिष्ठान','644','घरों में स्वास्थ्य और सुविधा के लिए प्रतिष्ठान','','','',false,true);
+d.add(301,300,'644.1','<div class="nodetag">644.1</div></span>&nbsp;&nbsp;इनडोर जलवायु नियंत्रण. ताप. वेंटिलेशन. वातानुकूलन','644.1','इनडोर जलवायु नियंत्रण. ताप. वेंटिलेशन. वातानुकूलन','','','',false,true);
+d.add(302,300,'644.3','<div class="nodetag">644.3</div></span>&nbsp;&nbsp;घरेलू प्रकाश','644.3','घरेलू प्रकाश','','','',false,true);
+d.add(303,300,'644.6','<div class="nodetag">644.6</div></span>&nbsp;&nbsp;घरेलू जल आपूर्ति और स्वच्छता स्थापनाओं','644.6','घरेलू जल आपूर्ति और स्वच्छता स्थापनाओं','','','',false,true);
+d.add(304,298,'645','<div class="nodetag">645</div></span>&nbsp;&nbsp;फर्नीचर और घरेलू फिटिंग','645','फर्नीचर और घरेलू फिटिंग','','','',false,true);
+d.add(305,287,'646/649','<div class="nodetag">646/649</div></span>&nbsp;&nbsp;निजी आवश्यक वस्तुएँ. घरेलू प्रबंधन','646/649','निजी आवश्यक वस्तुएँ. घरेलू प्रबंधन','','','',false,true);
+d.add(306,305,'646','<div class="nodetag">646</div></span>&nbsp;&nbsp;कपड़े. शरीर की देखभाल','646','कपड़े. शरीर की देखभाल','','','',false,true);
+d.add(307,306,'646.2','<div class="nodetag">646.2</div></span>&nbsp;&nbsp;घर पर कपड़े की मरम्मत और बनाना. घरेलू सिलाई','646.2','घर पर कपड़े की मरम्मत और बनाना. घरेलू सिलाई','','','',false,true);
+d.add(308,306,'646.4','<div class="nodetag">646.4</div></span>&nbsp;&nbsp;कपड़े. वस्त्र','646.4','कपड़े. वस्त्र','','','',false,true);
+d.add(309,306,'646.7','<div class="nodetag">646.7</div></span>&nbsp;&nbsp;शरीर की देखभाल. सौंदर्य की देखभाल. ड्रेसिंग और अड्रेसिंग के लिए सहायक उपकरण','646.7','शरीर की देखभाल. सौंदर्य की देखभाल. ड्रेसिंग और अड्रेसिंग के लिए सहायक उपकरण','','','',false,true);
+d.add(310,305,'648','<div class="nodetag">648</div></span>&nbsp;&nbsp;धोना. धुलाई वाले कपडे. सफाई','648','धोना. धुलाई वाले कपडे. सफाई','','','',false,true);
+d.add(311,305,'649','<div class="nodetag">649</div></span>&nbsp;&nbsp;बच्चों, अशक्त व्यक्तियों, अतिथियों की घरेलू देखभाल','649','बच्चों, अशक्त व्यक्तियों, अतिथियों की घरेलू देखभाल','','','',false,true);
+d.add(312,0,'65','<div class="nodetag">65</div></span>&nbsp;&nbsp;संचार तथा परिवहन उद्योग. लेखा कर्म. व्यवसाय या व्यापार प्रबंधन. सार्वजनिक सम्बन्ध.','65','संचार तथा परिवहन उद्योग. लेखा कर्म. व्यवसाय या व्यापार प्रबंधन. सार्वजनिक सम्बन्ध.','','','',false,true);
+d.add(313,312,'654','<div class="nodetag">654</div></span>&nbsp;&nbsp;दूरसंचार और टेलीकंट्रोल (संगठन, सेवाएं)','654','दूरसंचार और टेलीकंट्रोल (संगठन, सेवाएं)','','','',false,true);
+d.add(314,313,'654.1','<div class="nodetag">654.1</div></span>&nbsp;&nbsp;टेलीग्राफी. टेलीफोनी. रेडियो. टेलीविजन','654.1','टेलीग्राफी. टेलीफोनी. रेडियो. टेलीविजन','','','',false,true);
+d.add(315,313,'654.9','<div class="nodetag">654.9</div></span>&nbsp;&nbsp;सिग्नलिंग. विभिन्न दूरसंचार सेवाएं. रिमोट कंट्रोल (टेलीकंट्रोल)','654.9','सिग्नलिंग. विभिन्न दूरसंचार सेवाएं. रिमोट कंट्रोल (टेलीकंट्रोल)','','','',false,true);
+d.add(316,312,'655','<div class="nodetag">655</div></span>&nbsp;&nbsp;ग्राफिक उद्योगों. मुद्रण. प्रकाशन. पुस्तक व्यापार','655','ग्राफिक उद्योगों. मुद्रण. प्रकाशन. पुस्तक व्यापार','','','',false,true);
+d.add(317,316,'655.1','<div class="nodetag">655.1</div></span>&nbsp;&nbsp;सामान्य रूप में प्रिंटिंग उद्योग','655.1','सामान्य रूप में प्रिंटिंग उद्योग','','','',false,true);
+d.add(318,316,'655.4','<div class="nodetag">655.4</div></span>&nbsp;&nbsp;प्रकाशन और किताब बिकना सामान्य रूप में','655.4','प्रकाशन और किताब बिकना सामान्य रूप में','','','',false,true);
+d.add(319,312,'656','<div class="nodetag">656</div></span>&nbsp;&nbsp;परिवहन और डाक सेवाओं. यातायात संगठन और नियंत्रण','656','परिवहन और डाक सेवाओं. यातायात संगठन और नियंत्रण','','','',false,true);
+d.add(320,319,'656.1/.5','<div class="nodetag">656.1/.5</div></span>&nbsp;&nbsp;भूमि परिवहन','656.1/.5','भूमि परिवहन','','','',false,true);
+d.add(321,320,'656.1','<div class="nodetag">656.1</div></span>&nbsp;&nbsp;सड़क परिवहन','656.1','सड़क परिवहन','','','',false,true);
+d.add(322,320,'656.2','<div class="nodetag">656.2</div></span>&nbsp;&nbsp;रेल परिवहन. रेल यातायात','656.2','रेल परिवहन. रेल यातायात','','','',false,true);
+d.add(323,320,'656.4','<div class="nodetag">656.4</div></span>&nbsp;&nbsp;रेल द्वारा परिवहन','656.4','रेल द्वारा परिवहन','','','',false,true);
+d.add(324,320,'656.5','<div class="nodetag">656.5</div></span>&nbsp;&nbsp;कन्वेयर सिस्टम और पाइपलाइन द्वारा भूमि परिवहन','656.5','कन्वेयर सिस्टम और पाइपलाइन द्वारा भूमि परिवहन','','','',false,true);
+d.add(325,319,'656.6','<div class="nodetag">656.6</div></span>&nbsp;&nbsp;पानी से परिवहन','656.6','पानी से परिवहन','','','',false,true);
+d.add(326,319,'656.7','<div class="nodetag">656.7</div></span>&nbsp;&nbsp;हवा से परिवहन. हवाई यातायात','656.7','हवा से परिवहन. हवाई यातायात','','','',false,true);
+d.add(327,319,'656.8','<div class="nodetag">656.8</div></span>&nbsp;&nbsp;डाक सेवाओं और प्रशासन','656.8','डाक सेवाओं और प्रशासन','','','',false,true);
+d.add(328,312,'657','<div class="nodetag">657</div></span>&nbsp;&nbsp;लेखाकर्म','657','लेखाकर्म','','','',false,true);
+d.add(329,312,'658','<div class="nodetag">658</div></span>&nbsp;&nbsp;व्यवसाय प्रबंधन, प्रशासन. व्यावसायिक संगठन','658','व्यवसाय प्रबंधन, प्रशासन. व्यावसायिक संगठन','','','',false,true);
+d.add(330,329,'658.1','<div class="nodetag">658.1</div></span>&nbsp;&nbsp;उद्यम का फार्म. वित्त','658.1','उद्यम का फार्म. वित्त','','','',false,true);
+d.add(331,329,'658.2','<div class="nodetag">658.2</div></span>&nbsp;&nbsp;प्रतिष्ठानों और संयंत्र. परिसर. इमारतें, काम, कारखानों. सामग्री','658.2','प्रतिष्ठानों और संयंत्र. परिसर. इमारतें, काम, कारखानों. सामग्री','','','',false,true);
+d.add(332,329,'658.3','<div class="nodetag">658.3</div></span>&nbsp;&nbsp;उद्यम में मानव संबंधों. कार्मिक प्रबंधन','658.3','उद्यम में मानव संबंधों. कार्मिक प्रबंधन','','','',false,true);
+d.add(333,329,'658.5','<div class="nodetag">658.5</div></span>&nbsp;&nbsp;उत्पादन इंजीनियरिंग और योजना बना. डिजाइन. उत्पादन प्रबंधन और नियंत्रण','658.5','उत्पादन इंजीनियरिंग और योजना बना. डिजाइन. उत्पादन प्रबंधन और नियंत्रण','','','',false,true);
+d.add(334,329,'658.6','<div class="nodetag">658.6</div></span>&nbsp;&nbsp;वाणिज्यिक संगठन और अभ्यास. माल. सेवाएँ','658.6','वाणिज्यिक संगठन और अभ्यास. माल. सेवाएँ','','','',false,true);
+d.add(335,329,'658.7','<div class="nodetag">658.7</div></span>&nbsp;&nbsp;ख़रीदना. क्रय. खरीद. स्टॉक का प्रबंधन','658.7','ख़रीदना. क्रय. खरीद. स्टॉक का प्रबंधन','','','',false,true);
+d.add(336,329,'658.8','<div class="nodetag">658.8</div></span>&nbsp;&nbsp;विपणन. बिक्री. बेचना. वितरण','658.8','विपणन. बिक्री. बेचना. वितरण','','','',false,true);
+d.add(337,329,'658.9','<div class="nodetag">658.9</div></span>&nbsp;&nbsp;अन्य वाणिज्यिक गतिविधियाँ','658.9','अन्य वाणिज्यिक गतिविधियाँ','','','',false,true);
+d.add(338,312,'659','<div class="nodetag">659</div></span>&nbsp;&nbsp;प्रचार. सार्वजनिक संबंध','659','प्रचार. सार्वजनिक संबंध','','','',false,true);
+d.add(339,338,'659.1','<div class="nodetag">659.1</div></span>&nbsp;&nbsp;प्रचार. विज्ञापन','659.1','प्रचार. विज्ञापन','','','',false,true);
+d.add(340,338,'659.2','<div class="nodetag">659.2</div></span>&nbsp;&nbsp;सूचना का कार्य. सलाह और परामर्शी सेवाए','659.2','सूचना का कार्य. सलाह और परामर्शी सेवाए','','','',false,true);
+d.add(341,338,'659.3','<div class="nodetag">659.3</div></span>&nbsp;&nbsp;संचार मास. सूचना, बड़े पैमाने पर जनता की शिक्षाप्रद','659.3','संचार मास. सूचना, बड़े पैमाने पर जनता की शिक्षाप्रद','','','',false,true);
+d.add(342,338,'659.4','<div class="nodetag">659.4</div></span>&nbsp;&nbsp;सार्वजनिक संबंध (पीआर)','659.4','सार्वजनिक संबंध (पीआर)','','','',false,true);
+d.add(343,0,'66','<div class="nodetag">66</div></span>&nbsp;&nbsp;रसायन तकनीक या रासायनिक तकनीक. रसायन सम्बंधित उद्योग .','66','रसायन तकनीक या रासायनिक तकनीक. रसायन सम्बंधित उद्योग .','','','',false,true);
+d.add(344,343,'66.01/.09','<div class="nodetag">66.01/.09</div></span>&nbsp;&nbsp;केमिकल इंजीनियरिंग के लिए विशेष सहायक संख्या','66.01/.09','केमिकल इंजीनियरिंग के लिए विशेष सहायक संख्या','','','',false,true);
+d.add(345,344,'66.01','<div class="nodetag">66.01</div></span>&nbsp;&nbsp;केमिकल इंजीनियरिंग की बुनियादी बातें','66.01','केमिकल इंजीनियरिंग की बुनियादी बातें','','','',false,true);
+d.add(346,344,'66.02','<div class="nodetag">66.02</div></span>&nbsp;&nbsp;रासायनिक प्रसंस्करण संचालन और सामान्य रूप में उपकरण','66.02','रासायनिक प्रसंस्करण संचालन और सामान्य रूप में उपकरण','','','',false,true);
+d.add(347,344,'66.03','<div class="nodetag">66.03</div></span>&nbsp;&nbsp;सामग्री, विशेषताएं, प्रक्रियाएं और उपकरण','66.03','सामग्री, विशेषताएं, प्रक्रियाएं और उपकरण','','','',false,true);
+d.add(348,344,'66.04','<div class="nodetag">66.04</div></span>&nbsp;&nbsp;गर्मी उपचार संचालन और उपकरण','66.04','गर्मी उपचार संचालन और उपकरण','','','',false,true);
+d.add(349,344,'66.06','<div class="nodetag">66.06</div></span>&nbsp;&nbsp;तरल पदार्थ की रासायनिक प्रौद्योगिकी. तरल पदार्थ के साथ या के इलाज के लिए प्रक्रिया और उपकरण','66.06','तरल पदार्थ की रासायनिक प्रौद्योगिकी. तरल पदार्थ के साथ या के इलाज के लिए प्रक्रिया और उपकरण','','','',false,true);
+d.add(350,344,'66.07','<div class="nodetag">66.07</div></span>&nbsp;&nbsp;गैसों का रासायनिक प्रौद्योगिकी','66.07','गैसों का रासायनिक प्रौद्योगिकी','','','',false,true);
+d.add(351,344,'66.08','<div class="nodetag">66.08</div></span>&nbsp;&nbsp;शारीरिक और संचालन भौतिक और उपकरणों. रासायनिक प्रक्रियाओं पर शारीरिक और भौतिक प्रभाव','66.08','शारीरिक और संचालन भौतिक और उपकरणों. रासायनिक प्रक्रियाओं पर शारीरिक और भौतिक प्रभाव','','','',false,true);
+d.add(352,343,'661','<div class="nodetag">661</div></span>&nbsp;&nbsp;रसायन','661','रसायन','','','',false,true);
+d.add(353,352,'661.1','<div class="nodetag">661.1</div></span>&nbsp;&nbsp;विशेष रसायन उद्योगों','661.1','विशेष रसायन उद्योगों','','','',false,true);
+d.add(354,352,'661.2','<div class="nodetag">661.2</div></span>&nbsp;&nbsp;सल्फर और उसके डेरिवेटिव का उत्पादन','661.2','सल्फर और उसके डेरिवेटिव का उत्पादन','','','',false,true);
+d.add(355,352,'661.3','<div class="nodetag">661.3</div></span>&nbsp;&nbsp;सोडा और पोटाश, क्षार का उत्पादन','661.3','सोडा और पोटाश, क्षार का उत्पादन','','','',false,true);
+d.add(356,352,'661.4','<div class="nodetag">661.4</div></span>&nbsp;&nbsp;हैलोजन और हलोजन यौगिकों के उत्पादन, अकार्बनिक परॉक्सी-यौगिक','661.4','हैलोजन और हलोजन यौगिकों के उत्पादन, अकार्बनिक परॉक्सी-यौगिक','','','',false,true);
+d.add(357,352,'661.5','<div class="nodetag">661.5</div></span>&nbsp;&nbsp;नाइट्रोजन यौगिकों के उत्पादन. नाइट्रोजन का निर्धारण. सामान्य रूप में नाइट्रोजन उद्योग','661.5','नाइट्रोजन यौगिकों के उत्पादन. नाइट्रोजन का निर्धारण. सामान्य रूप में नाइट्रोजन उद्योग','','','',false,true);
+d.add(358,352,'661.6','<div class="nodetag">661.6</div></span>&nbsp;&nbsp;विभिन्न अधातु और सेमीधातु (मेटलॉयड), और उनके यौगिकों के उत्पादन','661.6','विभिन्न अधातु और सेमीधातु (मेटलॉयड), और उनके यौगिकों के उत्पादन','','','',false,true);
+d.add(359,352,'661.7','<div class="nodetag">661.7</div></span>&nbsp;&nbsp;कार्बनिक पदार्थों के उत्पादन. कार्बनिक रसायन','661.7','कार्बनिक पदार्थों के उत्पादन. कार्बनिक रसायन','','','',false,true);
+d.add(360,352,'661.8','<div class="nodetag">661.8</div></span>&nbsp;&nbsp;धातु सामान्य में यौगिकों. लवण. खनिज यौगिकों','661.8','धातु सामान्य में यौगिकों. लवण. खनिज यौगिकों','','','',false,true);
+d.add(361,352,'661.9','<div class="nodetag">661.9</div></span>&nbsp;&nbsp;गैसों का उत्पादन','661.9','गैसों का उत्पादन','','','',false,true);
+d.add(362,343,'662','<div class="nodetag">662</div></span>&nbsp;&nbsp;विस्फोटक. ईंधन','662','विस्फोटक. ईंधन','','','',false,true);
+d.add(363,362,'662.1/.4','<div class="nodetag">662.1/.4</div></span>&nbsp;&nbsp;विस्फोटक.','662.1/.4','विस्फोटक.','','','',false,true);
+d.add(364,363,'662.1','<div class="nodetag">662.1</div></span>&nbsp;&nbsp;आतिशबाजी. चमकदार और संबंधित उपकरणों','662.1','आतिशबाजी. चमकदार और संबंधित उपकरणों','','','',false,true);
+d.add(365,363,'662.2','<div class="nodetag">662.2</div></span>&nbsp;&nbsp;उच्च विस्फोटक','662.2','उच्च विस्फोटक','','','',false,true);
+d.add(366,363,'662.3','<div class="nodetag">662.3</div></span>&nbsp;&nbsp;प्रणोदक पाउडर. बारुद','662.3','प्रणोदक पाउडर. बारुद','','','',false,true);
+d.add(367,363,'662.4','<div class="nodetag">662.4</div></span>&nbsp;&nbsp;आरंभकर्ता, विस्फोटकों के लिए प्राइमरों. डिटोनेटर','662.4','आरंभकर्ता, विस्फोटकों के लिए प्राइमरों. डिटोनेटर','','','',false,true);
+d.add(368,362,'662.5','<div class="nodetag">662.5</div></span>&nbsp;&nbsp;माचिस.लाइटर','662.5','माचिस.लाइटर','','','',false,true);
+d.add(369,362,'662.6/.9','<div class="nodetag">662.6/.9</div></span>&nbsp;&nbsp;गर्मी अर्थव्यवस्था. ईंधन अर्थव्यवस्था. ईंधन. हीटिंग','662.6/.9','गर्मी अर्थव्यवस्था. ईंधन अर्थव्यवस्था. ईंधन. हीटिंग','','','',false,true);
+d.add(370,369,'662.6','<div class="nodetag">662.6</div></span>&nbsp;&nbsp;गर्मी या ईंधन सामान्य में अर्थव्यवस्था. दहन. प्राकृतिक ईंधन','662.6','गर्मी या ईंधन सामान्य में अर्थव्यवस्था. दहन. प्राकृतिक ईंधन','','','',false,true);
+d.add(371,369,'662.7','<div class="nodetag">662.7</div></span>&nbsp;&nbsp;प्रौद्योगिकी ईंधन. संसाधित ईंधन','662.7','प्रौद्योगिकी ईंधन. संसाधित ईंधन','','','',false,true);
+d.add(372,369,'662.8','<div class="nodetag">662.8</div></span>&nbsp;&nbsp;ईंधन के घनीकरण के लिए यांत्रिक उपचार. ब्रिकेटिंग','662.8','ईंधन के घनीकरण के लिए यांत्रिक उपचार. ब्रिकेटिंग','','','',false,true);
+d.add(373,369,'662.9','<div class="nodetag">662.9</div></span>&nbsp;&nbsp;भट्ठी और दहन इंजीनियरिंग','662.9','भट्ठी और दहन इंजीनियरिंग','','','',false,true);
+d.add(374,343,'663','<div class="nodetag">663</div></span>&nbsp;&nbsp;सूक्ष्मजैविकी औद्योगिक. किण्वन उद्योग. पेय उद्योग. उत्तेजक उद्योग','663','सूक्ष्मजैविकी औद्योगिक. किण्वन उद्योग. पेय उद्योग. उत्तेजक उद्योग','','','',false,true);
+d.add(375,374,'663.1','<div class="nodetag">663.1</div></span>&nbsp;&nbsp;सूक्ष्मजीवविज्ञानी उद्योग. विज्ञान और सूक्ष्म जीव विज्ञान लागू तकनीक.','663.1','सूक्ष्मजीवविज्ञानी उद्योग. विज्ञान और सूक्ष्म जीव विज्ञान लागू तकनीक.','','','',false,true);
+d.add(376,374,'663.2','<div class="nodetag">663.2</div></span>&nbsp;&nbsp;शराब.वाइन बनाना.','663.2','शराब.वाइन बनाना.','','','',false,true);
+d.add(377,374,'663.3','<div class="nodetag">663.3</div></span>&nbsp;&nbsp;साइडर. नाशपाती की मदिरा. अन्य फलों मदिरा, मदिरा सार','663.3','साइडर. नाशपाती की मदिरा. अन्य फलों मदिरा, मदिरा सार','','','',false,true);
+d.add(378,374,'663.4','<div class="nodetag">663.4</div></span>&nbsp;&nbsp;बियर. पक. यव्य','663.4','बियर. पक. यव्य','','','',false,true);
+d.add(379,374,'663.5','<div class="nodetag">663.5</div></span>&nbsp;&nbsp;पीने योग्य शराब. शराब (प्रबल आत्माओं). शराब आसवन, शोधन','663.5','पीने योग्य शराब. शराब (प्रबल आत्माओं). शराब आसवन, शोधन','','','',false,true);
+d.add(380,374,'663.6','<div class="nodetag">663.6</div></span>&nbsp;&nbsp;पेय पदार्थ और अन्य औद्योगिक उपयोगों के लिए पानी. खनिज पानी. औषधीय जल. खाद्य बर्फ','663.6','पेय पदार्थ और अन्य औद्योगिक उपयोगों के लिए पानी. खनिज पानी. औषधीय जल. खाद्य बर्फ','','','',false,true);
+d.add(381,374,'663.8','<div class="nodetag">663.8</div></span>&nbsp;&nbsp;पेय के सम्मिश्रण के लिए मुख्य सामग्री. फल और सब्जी का रस. शर्बत . मीठी सुगन्धित मदिरा. शीतल पेय','663.8','पेय के सम्मिश्रण के लिए मुख्य सामग्री. फल और सब्जी का रस. शर्बत . मीठी सुगन्धित मदिरा. शीतल पेय','','','',false,true);
+d.add(382,374,'663.9','<div class="nodetag">663.9</div></span>&nbsp;&nbsp;चॉकलेट. कोको. कॉफी. चाय. तंबाकू','663.9','चॉकलेट. कोको. कॉफी. चाय. तंबाकू','','','',false,true);
+d.add(383,343,'664','<div class="nodetag">664</div></span>&nbsp;&nbsp;उत्पादन और परिरक्षण ठोस खाद्य पदार्थों के','664','उत्पादन और परिरक्षण ठोस खाद्य पदार्थों के','','','',false,true);
+d.add(384,383,'664.1','<div class="nodetag">664.1</div></span>&nbsp;&nbsp;चीनी. गुड़. ग्लूकोज आदि','664.1','चीनी. गुड़. ग्लूकोज आदि','','','',false,true);
+d.add(385,383,'664.2','<div class="nodetag">664.2</div></span>&nbsp;&nbsp;स्टार्च. मंडिल सामग्री','664.2','स्टार्च. मंडिल सामग्री','','','',false,true);
+d.add(386,383,'664.3','<div class="nodetag">664.3</div></span>&nbsp;&nbsp;खाद्य तेल और वसा. मार्जरीन. प्रोटीन खाद्य पदार्थों','664.3','खाद्य तेल और वसा. मार्जरीन. प्रोटीन खाद्य पदार्थों','','','',false,true);
+d.add(387,383,'664.4','<div class="nodetag">664.4</div></span>&nbsp;&nbsp;खाद्य खनिज','664.4','खाद्य खनिज','','','',false,true);
+d.add(388,383,'664.5','<div class="nodetag">664.5</div></span>&nbsp;&nbsp;मसाले. मसालों','664.5','मसाले. मसालों','','','',false,true);
+d.add(389,383,'664.6/.7','<div class="nodetag">664.6/.7</div></span>&nbsp;&nbsp;अनाज के प्रौद्योगिकी और संसाधन','664.6/.7','अनाज के प्रौद्योगिकी और संसाधन','','','',false,true);
+d.add(390,389,'664.6','<div class="nodetag">664.6</div></span>&nbsp;&nbsp;पकाना. रोटी. आटा हलवाई की दुकान','664.6','पकाना. रोटी. आटा हलवाई की दुकान','','','',false,true);
+d.add(391,389,'664.7','<div class="nodetag">664.7</div></span>&nbsp;&nbsp;अनाज प्रौद्योगिकी . आटा और अनाज पिसाई. अनाज प्रसंस्करण','664.7','अनाज प्रौद्योगिकी . आटा और अनाज पिसाई. अनाज प्रसंस्करण','','','',false,true);
+d.add(392,383,'664.8/.9','<div class="nodetag">664.8/.9</div></span>&nbsp;&nbsp;खाद्य संरक्षण तकनीक','664.8/.9','खाद्य संरक्षण तकनीक','','','',false,true);
+d.add(393,343,'665','<div class="nodetag">665</div></span>&nbsp;&nbsp;तेल. वसा. मोम चिपकने. गोंद. रेजिन','665','तेल. वसा. मोम चिपकने. गोंद. रेजिन','','','',false,true);
+d.add(394,393,'665.1','<div class="nodetag">665.1</div></span>&nbsp;&nbsp;तेल, वसा, मोम से व्युत्पन्न उत्पादों के सामान्य','665.1','तेल, वसा, मोम से व्युत्पन्न उत्पादों के सामान्य','','','',false,true);
+d.add(395,393,'665.2','<div class="nodetag">665.2</div></span>&nbsp;&nbsp;तेल, वसा और जानवर मूल के मोम','665.2','तेल, वसा और जानवर मूल के मोम','','','',false,true);
+d.add(396,393,'665.3','<div class="nodetag">665.3</div></span>&nbsp;&nbsp;वनस्पति तेल, वसा, मोम.','665.3','वनस्पति तेल, वसा, मोम.','','','',false,true);
+d.add(397,393,'665.5','<div class="nodetag">665.5</div></span>&nbsp;&nbsp;आवश्यक तेल. इत्र की दुकान. सौंदर्य प्रसाधन','665.5','आवश्यक तेल. इत्र की दुकान. सौंदर्य प्रसाधन','','','',false,true);
+d.add(398,393,'665.6/.7','<div class="nodetag">665.6/.7</div></span>&nbsp;&nbsp;पेट्रोलियम के प्रक्रियाओं और उत्पादों से संबद्ध उद्योग.','665.6/.7','पेट्रोलियम के प्रक्रियाओं और उत्पादों से संबद्ध उद्योग.','','','',false,true);
+d.add(399,398,'665.6','<div class="nodetag">665.6</div></span>&nbsp;&nbsp;खनिज तेल प्रौद्योगिकी. पेट्रोलियम प्रौद्योगिकी और संबद्ध उत्पाद','665.6','खनिज तेल प्रौद्योगिकी. पेट्रोलियम प्रौद्योगिकी और संबद्ध उत्पाद','','','',false,true);
+d.add(400,398,'665.7','<div class="nodetag">665.7</div></span>&nbsp;&nbsp;खनिज तेल उद्योग के उत्पाद. खनिज तेल और इसी तरह के उत्पाद.','665.7','खनिज तेल उद्योग के उत्पाद. खनिज तेल और इसी तरह के उत्पाद.','','','',false,true);
+d.add(401,393,'665.9','<div class="nodetag">665.9</div></span>&nbsp;&nbsp;विविध कार्बनिक रसायन उद्योग','665.9','विविध कार्बनिक रसायन उद्योग','','','',false,true);
+d.add(402,343,'666','<div class="nodetag">666</div></span>&nbsp;&nbsp;कांच उद्योग. चीनी मिट्टी की चीज़ें. सीमेंट और कंक्रीट','666','कांच उद्योग. चीनी मिट्टी की चीज़ें. सीमेंट और कंक्रीट','','','',false,true);
+d.add(403,402,'666.1','<div class="nodetag">666.1</div></span>&nbsp;&nbsp;कांच उद्योग. काँच प्रौद्योगिकी. कांच निर्माण सामान्य रूप में . व्यापक अर्थ में ग्लास','666.1','कांच उद्योग. काँच प्रौद्योगिकी. कांच निर्माण सामान्य रूप में . व्यापक अर्थ में ग्लास','','','',false,true);
+d.add(404,402,'666.3/.7','<div class="nodetag">666.3/.7</div></span>&nbsp;&nbsp;मिट्टी के पात्र','666.3/.7','मिट्टी के पात्र','','','',false,true);
+d.add(405,404,'666.3','<div class="nodetag">666.3</div></span>&nbsp;&nbsp;सामान्य रूप में चीनी मिट्टी की चीज़ें. चीनी मिट्टी के कच्चे माल','666.3','सामान्य रूप में चीनी मिट्टी की चीज़ें. चीनी मिट्टी के कच्चे माल','','','',false,true);
+d.add(406,404,'666.5','<div class="nodetag">666.5</div></span>&nbsp;&nbsp;चीनी मिट्टी के बरतन. चीन','666.5','चीनी मिट्टी के बरतन. चीन','','','',false,true);
+d.add(407,404,'666.6','<div class="nodetag">666.6</div></span>&nbsp;&nbsp;पत्थर के पात्र. मिट्टी के बरतन (झरझरा चीनी मिट्टी के बर्तन)','666.6','पत्थर के पात्र. मिट्टी के बरतन (झरझरा चीनी मिट्टी के बर्तन)','','','',false,true);
+d.add(408,404,'666.7','<div class="nodetag">666.7</div></span>&nbsp;&nbsp;मोटे चीनी मिट्टी की चीज़ें. अपवर्तक. कठिन सिरेमिक सामग्री. चीनी मिट्टी की चीज़ें और अन्य सामग्री का मिश्रण','666.7','मोटे चीनी मिट्टी की चीज़ें. अपवर्तक. कठिन सिरेमिक सामग्री. चीनी मिट्टी की चीज़ें और अन्य सामग्री का मिश्रण','','','',false,true);
+d.add(409,402,'666.9','<div class="nodetag">666.9</div></span>&nbsp;&nbsp;जिप्सम चूना, सीमेंट और उद्योगों. कड़ी मेहनत से माल की स्थापना. मलहम और रचनाएँ. मोर्टार और कंक्रीट','666.9','जिप्सम चूना, सीमेंट और उद्योगों. कड़ी मेहनत से माल की स्थापना. मलहम और रचनाएँ. मोर्टार और कंक्रीट','','','',false,true);
+d.add(410,343,'667','<div class="nodetag">667</div></span>&nbsp;&nbsp;रंग उद्योग','667','रंग उद्योग','','','',false,true);
+d.add(411,410,'667.2','<div class="nodetag">667.2</div></span>&nbsp;&nbsp;रंजक द्रव्य उद्योग. निर्माण और रंजक द्रव्य का उपयोग','667.2','रंजक द्रव्य उद्योग. निर्माण और रंजक द्रव्य का उपयोग','','','',false,true);
+d.add(412,410,'667.4','<div class="nodetag">667.4</div></span>&nbsp;&nbsp;लेखन स्याही','667.4','लेखन स्याही','','','',false,true);
+d.add(413,410,'667.5','<div class="nodetag">667.5</div></span>&nbsp;&nbsp;मुद्रण स्याही (काला या रंगीन). पत्थर का छापा स्याही. लेखन और पेंसिल ड्राइंग. रंगीन चित्रांकनी','667.5','मुद्रण स्याही (काला या रंगीन). पत्थर का छापा स्याही. लेखन और पेंसिल ड्राइंग. रंगीन चित्रांकनी','','','',false,true);
+d.add(414,410,'667.6','<div class="nodetag">667.6</div></span>&nbsp;&nbsp;कोटिंग्स और कोटिंग तकनीक. पेंट. वार्निश. रोगन','667.6','कोटिंग्स और कोटिंग तकनीक. पेंट. वार्निश. रोगन','','','',false,true);
+d.add(415,410,'667.7','<div class="nodetag">667.7</div></span>&nbsp;&nbsp;विभिन्न सामग्रियों के रंग, धुंधला हो जाना आदि, (मुद्रण और पेंटिंग को छोड़कर)','667.7','विभिन्न सामग्रियों के रंग, धुंधला हो जाना आदि, (मुद्रण और पेंटिंग को छोड़कर)','','','',false,true);
+d.add(416,343,'669','<div class="nodetag">669</div></span>&nbsp;&nbsp;धातुकर्म','669','धातुकर्म','','','',false,true);
+d.add(417,416,'669.1','<div class="nodetag">669.1</div></span>&nbsp;&nbsp;लौह धातु विज्ञान. लोहा और इस्पात','669.1','लौह धातु विज्ञान. लोहा और इस्पात','','','',false,true);
+d.add(418,416,'669.2','<div class="nodetag">669.2</div></span>&nbsp;&nbsp;सामान्य तौर पर nonferrous धातुओं','669.2','सामान्य तौर पर nonferrous धातुओं','','','',false,true);
+d.add(419,0,'67','<div class="nodetag">67</div></span>&nbsp;&nbsp;विविध उद्योग, व्यापार और शिल्प .','67','विविध उद्योग, व्यापार और शिल्प .','','','',false,true);
+d.add(420,419,'671','<div class="nodetag">671</div></span>&nbsp;&nbsp;कीमती धातुओं के चीज, जवाहरात, कीमती पत्थर','671','कीमती धातुओं के चीज, जवाहरात, कीमती पत्थर','','','',false,true);
+d.add(421,420,'671.1','<div class="nodetag">671.1</div></span>&nbsp;&nbsp;सोने और चांदी के चीज. अन्य कीमती धातुओं के चीज. ज्वैलरी','671.1','सोने और चांदी के चीज. अन्य कीमती धातुओं के चीज. ज्वैलरी','','','',false,true);
+d.add(422,420,'671.4','<div class="nodetag">671.4</div></span>&nbsp;&nbsp;सिक्के और पदक के निर्माण. टंकशाला','671.4','सिक्के और पदक के निर्माण. टंकशाला','','','',false,true);
+d.add(423,419,'672','<div class="nodetag">672</div></span>&nbsp;&nbsp;लोहा और इस्पात के चीज सामान्य में','672','लोहा और इस्पात के चीज सामान्य में','','','',false,true);
+d.add(424,419,'673','<div class="nodetag">673</div></span>&nbsp;&nbsp;अलौह धातुओं के लेख (कीमती धातुओं को छोड़कर)','673','अलौह धातुओं के लेख (कीमती धातुओं को छोड़कर)','','','',false,true);
+d.add(425,419,'674','<div class="nodetag">674</div></span>&nbsp;&nbsp;लकड़ी और बढ़ईगिरी उद्योग','674','लकड़ी और बढ़ईगिरी उद्योग','','','',false,true);
+d.add(426,419,'675','<div class="nodetag">675</div></span>&nbsp;&nbsp;चमड़ा उद्योग (फर और नकली लेदर सहित )','675','चमड़ा उद्योग (फर और नकली लेदर सहित )','','','',false,true);
+d.add(427,419,'676','<div class="nodetag">676</div></span>&nbsp;&nbsp;लुगदी कागज और बोर्ड उद्योग','676','लुगदी कागज और बोर्ड उद्योग','','','',false,true);
+d.add(428,419,'677','<div class="nodetag">677</div></span>&nbsp;&nbsp;वस्त्र उद्योग','677','वस्त्र उद्योग','','','',false,true);
+d.add(429,428,'677.1/.5','<div class="nodetag">677.1/.5</div></span>&nbsp;&nbsp;कपड़ा फाइबर','677.1/.5','कपड़ा फाइबर','','','',false,true);
+d.add(430,429,'677.1/.3','<div class="nodetag">677.1/.3</div></span>&nbsp;&nbsp;प्राकृतिक फाइबर','677.1/.3','प्राकृतिक फाइबर','','','',false,true);
+d.add(431,430,'677.1/.2','<div class="nodetag">677.1/.2</div></span>&nbsp;&nbsp;वनस्पति फाइबर','677.1/.2','वनस्पति फाइबर','','','',false,true);
+d.add(432,431,'677.1','<div class="nodetag">677.1</div></span>&nbsp;&nbsp;बैस्टफाइबर (द्वीबीजपत्री तने से उत्पन्न फाइबर). कड़े फाइबर (एकबीजपत्री पत्ते और फल से उत्पन्न फाइबर)','677.1','बैस्टफाइबर (द्वीबीजपत्री तने से उत्पन्न फाइबर). कड़े फाइबर (एकबीजपत्री पत्ते और फल से उत्पन्न फाइबर)','','','',false,true);
+d.add(433,431,'677.2','<div class="nodetag">677.2</div></span>&nbsp;&nbsp;सब्जी बाल','677.2','सब्जी बाल','','','',false,true);
+d.add(434,430,'677.3','<div class="nodetag">677.3</div></span>&nbsp;&nbsp;पशु फाइबर','677.3','पशु फाइबर','','','',false,true);
+d.add(435,429,'677.4','<div class="nodetag">677.4</div></span>&nbsp;&nbsp;मानव-रचित फाइबर','677.4','मानव-रचित फाइबर','','','',false,true);
+d.add(436,429,'677.5','<div class="nodetag">677.5</div></span>&nbsp;&nbsp;खनिज और धातु फाइबर. सामग्री ब्रेडिंग. रबर धागे. कागज सूत','677.5','खनिज और धातु फाइबर. सामग्री ब्रेडिंग. रबर धागे. कागज सूत','','','',false,true);
+d.add(437,419,'678','<div class="nodetag">678</div></span>&nbsp;&nbsp;बड़े आण्विक उद्योग पर आधारित सामग्री. रबर उद्योग. प्लास्टिक उद्योग','678','बड़े आण्विक उद्योग पर आधारित सामग्री. रबर उद्योग. प्लास्टिक उद्योग','','','',false,true);
+d.add(438,437,'678.4','<div class="nodetag">678.4</div></span>&nbsp;&nbsp;प्राकृतिक रबड़. अन्य प्राकृतिक बड़े आण्विक पदार्थ केवल कार्बन और हाइड्रोजन युक्त','678.4','प्राकृतिक रबड़. अन्य प्राकृतिक बड़े आण्विक पदार्थ केवल कार्बन और हाइड्रोजन युक्त','','','',false,true);
+d.add(439,437,'678.5','<div class="nodetag">678.5</div></span>&nbsp;&nbsp;प्लास्टिक','678.5','प्लास्टिक','','','',false,true);
+d.add(440,437,'678.6','<div class="nodetag">678.6</div></span>&nbsp;&nbsp;सिंथेटिक पॉलीकन्डेनसेशन उत्पाद. पॉलीकन्डेनसेट. सिंथेटिक रेजिन. सिंथेटिक फाइबर आदि','678.6','सिंथेटिक पॉलीकन्डेनसेशन उत्पाद. पॉलीकन्डेनसेट. सिंथेटिक रेजिन. सिंथेटिक फाइबर आदि','','','',false,true);
+d.add(441,437,'678.7','<div class="nodetag">678.7</div></span>&nbsp;&nbsp;सिंथेटिक पॉलीमराइज़ेशन उत्पाद. पॉलीमराइज़ेट. सिंथेटिक रबर','678.7','सिंथेटिक पॉलीमराइज़ेशन उत्पाद. पॉलीमराइज़ेट. सिंथेटिक रबर','','','',false,true);
+d.add(442,419,'679','<div class="nodetag">679</div></span>&nbsp;&nbsp;विभिन्न माल पर आधारित उद्योग','679','विभिन्न माल पर आधारित उद्योग','','','',false,true);
+d.add(443,442,'679.7','<div class="nodetag">679.7</div></span>&nbsp;&nbsp;केबल और डोरियाँ उद्योगों','679.7','केबल और डोरियाँ उद्योगों','','','',false,true);
+d.add(444,442,'679.8','<div class="nodetag">679.8</div></span>&nbsp;&nbsp;पत्थर प्रौद्योगिकी. पत्थर उद्योग','679.8','पत्थर प्रौद्योगिकी. पत्थर उद्योग','','','',false,true);
+d.add(445,442,'679.9','<div class="nodetag">679.9</div></span>&nbsp;&nbsp;अन्य प्राकृतिक सामग्री केप्रौद्योगिकी','679.9','अन्य प्राकृतिक सामग्री केप्रौद्योगिकी','','','',false,true);
+d.add(446,0,'68','<div class="nodetag">68</div></span>&nbsp;&nbsp;उद्योग, व्यापार और शिल्प के लिए तैयार और एकत्रित वस्तुएं.','68','उद्योग, व्यापार और शिल्प के लिए तैयार और एकत्रित वस्तुएं.','','','',false,true);
+d.add(447,446,'681','<div class="nodetag">681</div></span>&nbsp;&nbsp;सटीक तंत्र और यंत्र','681','सटीक तंत्र और यंत्र','','','',false,true);
+d.add(448,447,'681.1','<div class="nodetag">681.1</div></span>&nbsp;&nbsp;तंत्र पहिया के साथ या मोटर तंत्र','681.1','तंत्र पहिया के साथ या मोटर तंत्र','','','',false,true);
+d.add(449,447,'681.2','<div class="nodetag">681.2</div></span>&nbsp;&nbsp;सामान्य रुप में उपकरण बनाना. इंस्ट्रुमेंटेशन. माप उपकरणों और उनके निर्माण. तुला. तौलने वाले उपकरण','681.2','सामान्य रुप में उपकरण बनाना. इंस्ट्रुमेंटेशन. माप उपकरणों और उनके निर्माण. तुला. तौलने वाले उपकरण','','','',false,true);
+d.add(450,447,'681.5','<div class="nodetag">681.5</div></span>&nbsp;&nbsp;स्वत: नियंत्रण प्रौद्योगिकी. स्मार्ट प्रौद्योगिकी','681.5','स्वत: नियंत्रण प्रौद्योगिकी. स्मार्ट प्रौद्योगिकी','','','',false,true);
+d.add(451,447,'681.6','<div class="nodetag">681.6</div></span>&nbsp;&nbsp;ग्राफिक प्रजनन मशीनों और उपकरणों','681.6','ग्राफिक प्रजनन मशीनों और उपकरणों','','','',false,true);
+d.add(452,447,'681.7','<div class="nodetag">681.7</div></span>&nbsp;&nbsp;ऑप्टिकल उपकरण और उपकरणों','681.7','ऑप्टिकल उपकरण और उपकरणों','','','',false,true);
+d.add(453,447,'681.8','<div class="nodetag">681.8</div></span>&nbsp;&nbsp;तकनीकी ध्वनिकी','681.8','तकनीकी ध्वनिकी','','','',false,true);
+d.add(454,446,'682','<div class="nodetag">682</div></span>&nbsp;&nbsp;गढ़ने का काम. लोहार का काम. लोहार-ख़ाना. हाथ कुट्टित लोहे का काम','682','गढ़ने का काम. लोहार का काम. लोहार-ख़ाना. हाथ कुट्टित लोहे का काम','','','',false,true);
+d.add(455,454,'682.1','<div class="nodetag">682.1</div></span>&nbsp;&nbsp;लोहार-ख़ाना. जूता बनाना','682.1','लोहार-ख़ाना. जूता बनाना','','','',false,true);
+d.add(456,454,'682.3','<div class="nodetag">682.3</div></span>&nbsp;&nbsp;औजार का काम. बढ़त कायम उपकरण','682.3','औजार का काम. बढ़त कायम उपकरण','','','',false,true);
+d.add(457,454,'682.5','<div class="nodetag">682.5</div></span>&nbsp;&nbsp;भट्टी पर चढ़ाना','682.5','भट्टी पर चढ़ाना','','','',false,true);
+d.add(458,454,'682.6','<div class="nodetag">682.6</div></span>&nbsp;&nbsp;इमारती लौह कायॅ','682.6','इमारती लौह कायॅ','','','',false,true);
+d.add(459,446,'683','<div class="nodetag">683</div></span>&nbsp;&nbsp;हार्डवेयर. बॉटलिंग. लैंप. हीटिंग उपकरणों','683','हार्डवेयर. बॉटलिंग. लैंप. हीटिंग उपकरणों','','','',false,true);
+d.add(460,446,'684','<div class="nodetag">684</div></span>&nbsp;&nbsp;फर्नीचर और संबद्ध उद्योग. फर्नीचर निर्माण. असबाब','684','फर्नीचर और संबद्ध उद्योग. फर्नीचर निर्माण. असबाब','','','',false,true);
+d.add(461,460,'684.4','<div class="nodetag">684.4</div></span>&nbsp;&nbsp;फर्नीचर. फर्नीचर डिजाइन और निर्माण','684.4','फर्नीचर. फर्नीचर डिजाइन और निर्माण','','','',false,true);
+d.add(462,460,'684.6','<div class="nodetag">684.6</div></span>&nbsp;&nbsp;Veneering. Marquetry. आदि जड़ना','684.6','Veneering. Marquetry. आदि जड़ना','','','',false,true);
+d.add(463,460,'684.7','<div class="nodetag">684.7</div></span>&nbsp;&nbsp;असबाब. बिस्तर. शामिल हैं. परदा','684.7','असबाब. बिस्तर. शामिल हैं. परदा','','','',false,true);
+d.add(464,446,'685','<div class="nodetag">685</div></span>&nbsp;&nbsp;जुते.यात्रा,खेल और अन्य सामग्री','685','जुते.यात्रा,खेल और अन्य सामग्री','','','',false,true);
+d.add(465,464,'685.1','<div class="nodetag">685.1</div></span>&nbsp;&nbsp;काठी. माज चढ़ाना','685.1','काठी. माज चढ़ाना','','','',false,true);
+d.add(466,464,'685.2','<div class="nodetag">685.2</div></span>&nbsp;&nbsp;पेटी बनाना. चमड़ा उपकरण और अनुरूप उत्पाद','685.2','पेटी बनाना. चमड़ा उपकरण और अनुरूप उत्पाद','','','',false,true);
+d.add(467,464,'685.3','<div class="nodetag">685.3</div></span>&nbsp;&nbsp;जूते. चलने के लिए अन्य सामग्री','685.3','जूते. चलने के लिए अन्य सामग्री','','','',false,true);
+d.add(468,464,'685.4','<div class="nodetag">685.4</div></span>&nbsp;&nbsp;दस्ताने, दस्ताने बनाना','685.4','दस्ताने, दस्ताने बनाना','','','',false,true);
+d.add(469,464,'685.5','<div class="nodetag">685.5</div></span>&nbsp;&nbsp;यात्रा के सामान. कैम्पिंग उपकरण','685.5','यात्रा के सामान. कैम्पिंग उपकरण','','','',false,true);
+d.add(470,464,'685.6','<div class="nodetag">685.6</div></span>&nbsp;&nbsp;खेल और खेल के उपकरण. एथलेटिक्स के उपकरण और प्रतिष्ठान, जिमनास्टिक, शारीरिक प्रशिक्षण','685.6','खेल और खेल के उपकरण. एथलेटिक्स के उपकरण और प्रतिष्ठान, जिमनास्टिक, शारीरिक प्रशिक्षण','','','',false,true);
+d.add(471,464,'685.7','<div class="nodetag">685.7</div></span>&nbsp;&nbsp;पर्वतारोहण, चढ़ाई के उपकरण. तैराकी उपकरण','685.7','पर्वतारोहण, चढ़ाई के उपकरण. तैराकी उपकरण','','','',false,true);
+d.add(472,464,'685.8','<div class="nodetag">685.8</div></span>&nbsp;&nbsp;बोर्ड और टेबल का खेल के लिए यंत्र','685.8','बोर्ड और टेबल का खेल के लिए यंत्र','','','',false,true);
+d.add(473,446,'686','<div class="nodetag">686</div></span>&nbsp;&nbsp;जिल्द. दर्पण बनाना. स्टेशनरी','686','जिल्द. दर्पण बनाना. स्टेशनरी','','','',false,true);
+d.add(474,446,'687','<div class="nodetag">687</div></span>&nbsp;&nbsp;वस्त्र उद्योग. परिधान निर्माण. सौंदर्य संस्कृति','687','वस्त्र उद्योग. परिधान निर्माण. सौंदर्य संस्कृति','','','',false,true);
+d.add(475,474,'687.1','<div class="nodetag">687.1</div></span>&nbsp;&nbsp;बाहरी कपड़े. सिलाई','687.1','बाहरी कपड़े. सिलाई','','','',false,true);
+d.add(476,474,'687.2','<div class="nodetag">687.2</div></span>&nbsp;&nbsp;नीचे पहनने के कपड़ा','687.2','नीचे पहनने के कपड़ा','','','',false,true);
+d.add(477,474,'687.3','<div class="nodetag">687.3</div></span>&nbsp;&nbsp;बुना हुआ कपड़ा. संबंधों. सुरक्षा और रक्षा कपड़ों के लिए उपकरण','687.3','बुना हुआ कपड़ा. संबंधों. सुरक्षा और रक्षा कपड़ों के लिए उपकरण','','','',false,true);
+d.add(478,474,'687.4','<div class="nodetag">687.4</div></span>&nbsp;&nbsp;टोपी. टोपी बनाना. मेमों की टोपी','687.4','टोपी. टोपी बनाना. मेमों की टोपी','','','',false,true);
+d.add(479,474,'687.5','<div class="nodetag">687.5</div></span>&nbsp;&nbsp;सौंदर्य संस्कृति उद्योगों','687.5','सौंदर्य संस्कृति उद्योगों','','','',false,true);
+d.add(480,474,'687.8','<div class="nodetag">687.8</div></span>&nbsp;&nbsp;कृत्रिम फर बनाना','687.8','कृत्रिम फर बनाना','','','',false,true);
+d.add(481,474,'687.9','<div class="nodetag">687.9</div></span>&nbsp;&nbsp;ब्रश उद्योग. झाडू आदि','687.9','ब्रश उद्योग. झाडू आदि','','','',false,true);
+d.add(482,446,'688','<div class="nodetag">688</div></span>&nbsp;&nbsp;फैंसी सामान. खिलौने. सजावटी सामान','688','फैंसी सामान. खिलौने. सजावटी सामान','','','',false,true);
+d.add(483,482,'688.7','<div class="nodetag">688.7</div></span>&nbsp;&nbsp;खिलौने. मनोरंजन के लिए लेख, गुर','688.7','खिलौने. मनोरंजन के लिए लेख, गुर','','','',false,true);
+d.add(484,446,'689','<div class="nodetag">689</div></span>&nbsp;&nbsp;शौकिया हस्तकला. तकनिकी रुचि','689','शौकिया हस्तकला. तकनिकी रुचि','','','',false,true);
+d.add(485,0,'69','<div class="nodetag">69</div></span>&nbsp;&nbsp;भवन (निर्माण) व्यापार. निर्माण सामग्री. निर्माण अभ्यास और प्रक्रिया.','69','भवन (निर्माण) व्यापार. निर्माण सामग्री. निर्माण अभ्यास और प्रक्रिया.','','','',false,true);
+d.add(486,485,'691','<div class="nodetag">691</div></span>&nbsp;&nbsp;भवन (निर्माण) सामग्री.भवन सामग्री','691','भवन (निर्माण) सामग्री.भवन सामग्री','','','',false,true);
+d.add(487,485,'692','<div class="nodetag">692</div></span>&nbsp;&nbsp;भवनों के बनावटी हिस्से और भाग','692','भवनों के बनावटी हिस्से और भाग','','','',false,true);
+d.add(488,485,'693','<div class="nodetag">693</div></span>&nbsp;&nbsp;राजगीरी और दूसरे इमारती कारीगरी','693','राजगीरी और दूसरे इमारती कारीगरी','','','',false,true);
+d.add(489,485,'694','<div class="nodetag">694</div></span>&nbsp;&nbsp;लकड़ी का निर्माण-कार्य. बढईगिरी. बढ़ईखाना','694','लकड़ी का निर्माण-कार्य. बढईगिरी. बढ़ईखाना','','','',false,true);
+d.add(490,485,'696','<div class="nodetag">696</div></span>&nbsp;&nbsp;उपकरण, सेवाओं, इमारतों में प्रतिष्ठानों (सैनिटरी, गैस, भाप, बिजली). पाइप फिटर. नलसाज. धातु कार्यकर्ता. बिजली मिस्त्री. अन्य ट्रेड','696','उपकरण, सेवाओं, इमारतों में प्रतिष्ठानों (सैनिटरी, गैस, भाप, बिजली). पाइप फिटर. नलसाज. धातु कार्यकर्ता. बिजली मिस्त्री. अन्य ट्रेड','','','',false,true);
+d.add(491,485,'697','<div class="nodetag">697</div></span>&nbsp;&nbsp;इमारतों की हीटिंग, वेंटिलेशन और एयर कंडीशनिंग','697','इमारतों की हीटिंग, वेंटिलेशन और एयर कंडीशनिंग','','','',false,true);
+d.add(492,485,'698','<div class="nodetag">698</div></span>&nbsp;&nbsp;फिनिशिंग और सजावटी ट्रेड','698','फिनिशिंग और सजावटी ट्रेड','','','',false,true);
+d.config.useSelection = false;
+d.config.inOrder = true;
+d.config.useIcons = false;
+document.write(d);
+//-->
+</script>
+</div>
+</div><div id="expandbox" onclick="expandbox(); return false;">&nbsp;</div>
+<div id="recordbox" class="debugbkg">
+<div class="fronthint">रिकार्ड देखने के लिए बाँए तरफ के वर्ग को क्लिक करें</div>
+</div>
+
+        <div id="footer">
+            <div class="footersectionleft">
+                The UDC Summary (UDCS) provides a selection of around 2,600 classes from the whole scheme which comprises more than 70,000 entries.
+                Please send questions and suggestions to <a href="mailto:udcs@udcc.org?subject=UDC Summary Enquiry">udcs@udcc.org</a><br><br>
+	            <p>
+		            The data provided in this Summary is released under the <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative Commons Attribution Share Alike 3.0 license</a> <a href="../about.htm">[more]</a>
+	            </p>
+            </div>
+            <div class="footermiddle">
+                <a href="http://www.udcc.org"><img src="../images/udclogowhite.png" border="0"></a>
+            </div>
+			<div class="footerright">
+                For complete UDC schedules see <a href="http://www.udc-hub.com/">UDC Online Hub</a><br/><a href="http://www.udc-hub.com/"><img width="60" height="35" src="../images/udclogo.png"/></a>
+
+			</div>
+        </div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-13138465-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>

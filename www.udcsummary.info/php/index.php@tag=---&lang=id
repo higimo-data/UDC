@@ -1,0 +1,901 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>UDC Summary</title>
+    <link rel="stylesheet" href="../reset.css" type="text/css" />
+    <link rel="stylesheet" href="../udc2000.css" type="text/css" />
+	    <link rel="StyleSheet" href="dtree2.css" type="text/css" />
+	    <script type="text/javascript" src="dtree.js"></script>
+	    <script type="text/javascript" src="udcdisplay_9.js"></script>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+</head>
+
+<body >
+<div id="centercontainer" class="debugbkg">
+    <div id="titlebox" class="debugbkg">
+		<div id="rightbox">
+        	<div id="languagecount">57 languages</div>
+            <div id="languagebox">
+            <select id="selectedlang" style="vertical-align: middle;" onchange="location = this.options[this.selectedIndex].value;">
+			<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=af&pr=Y">Afrikaans (Afrikaans) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sq&pr=Y">Albanian (Shqip) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=anp&pr=Y">Angika (अंगिका) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ar&pr=Y">Arabic (العربية) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=hy&pr=Y">Armenian (հայերեն) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=eu&pr=Y">Basque (Euskara) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=be&pr=Y">Belarusian (Беларуская) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=bn&pr=Y">Bengali (বাংলা) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=bho&pr=Y">Bhojpuri (भोजपुरी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=bg&pr=Y">Bulgarian (Български) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ca&pr=Y">Catalan (Català) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=chi&pr=Y">Chinese (中文) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=hr&pr=Y">Croatian (Hrvatski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=cs&pr=Y">Czech (Čeština) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=da&pr=Y">Danish (Dansk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=nl&pr=Y">Dutch (Nederlands) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=en&pr=Y">English (English) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=eo&pr=Y">Esperanto (Esperanto) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=et&pr=Y">Estonian (Eesti) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=fi&pr=Y">Finnish (Suomi) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=fr&pr=Y">French (Français) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=gl&pr=Y">Galician (Galego) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ka&pr=Y">Georgian (ქართული) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=de&pr=Y">German (Deutsch) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=el&pr=Y">Greek (Ελληνικά) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=hi&pr=Y">Hindi (हिन्दी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=hu&pr=Y">Hungarian (Magyar) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=id&pr=Y" selected>Indonesian (Bahasa Ind) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ga&pr=Y">Irish (Gaeilge) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=it&pr=Y">Italian (Italiano) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ja&pr=Y">Japanese (日本語) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=kn&pr=Y">Kannada (ಕನ್ನಡ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=kk&pr=Y">Kazakh (Қазақ тілі) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=lv&pr=Y">Latvian (Latviešu) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=lt&pr=Y">Lithuanian (lietuvių) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=mk&pr=Y">Macedonian (македонски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ml&pr=Y">Malayalam (മലയാളം) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=mr&pr=Y">Marathi (मराठी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=no&pr=Y">Norwegian (Norsk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=pl&pr=Y">Polish (Polski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=pt&pr=Y">Portuguese (Português) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=pa&pr=Y">Punjabi (ਪੰਜਾਬੀ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ro&pr=Y">Romanian (Româna) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ru&pr=Y">Russian (Pусский) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sa&pr=Y">Sanskrit (Saṃskṛtam) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sr&pr=Y">Serbian (Српски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=si&pr=Y">Sinhala (සිංහල) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sk&pr=Y">Slovak (Slovenský) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sl&pr=Y">Slovenian (Slovenski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=es&pr=Y">Spanish (Español) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sv&pr=Y">Swedish (Svenska) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ta&pr=Y">Tamil (தமிழ்) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=te&pr=Y">Telugu (తెలుగు) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=tr&pr=Y">Turkish (Türkçe) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=uk&pr=Y">Ukrainian (Yкраї́нська) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=uz&pr=Y">Uzbek (oʻzbek) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=vi&pr=Y">Vietnamese (tiếng Việt) </option>
+            </select>
+            </div>
+            </div>
+        </div>
+		<div id="menubox" class="debugbkg">
+            <ul class="menu boldmenu">
+<li><a href="index.php@lang=id">BERANDA</a></li>
+<li><a href="index.php@tag=--&amp;lang=id">TANDA</a></li>
+<li><a href="index.php@tag=---&amp;lang=id">TAMBAHAN</a></li>
+<li><a href="index.php@tag=0&amp;lang=id">0</a></li>
+<li><a href="index.php@tag=1&amp;lang=id">1</a></li>
+<li><a href="index.php@tag=2&amp;lang=id">2</a></li>
+<li><a href="index.php@tag=3&amp;lang=id">3</a></li>
+<li><a  class="vacant" href="index.php@tag=---&amp;lang=id#">4</a></li>
+<li><a href="index.php@tag=5&amp;lang=id">5</a></li>
+<li><a href="index.php@tag=6&amp;lang=id">6</a></li>
+<li><a href="index.php@tag=7&amp;lang=id">7</a></li>
+<li><a href="index.php@tag=8&amp;lang=id">8</a></li>
+<li><a href="index.php@tag=9&amp;lang=id">9</a></li>
+</ul>
+<input type="hidden" id="if_loading" name="if_loading" value="Memuat"/>
+<input type="hidden" id="if_lang" name="if_lang" value="40"/>
+<ul class="rightmenu boldmenu">
+<li><a href="../translation.htm">TERJEMAHAN</a></li>
+<li><a href="index.php@tag=---&amp;lang=id#" title="Under Development">PEMETAAN</a></li>
+<li><a href="../exports.htm" title="Data Exports">EKSPOR</a></li>
+<li><a href="index.php@tag=---&amp;lang=id#" title="Under Development">INDEKS ABJAD</a></li>
+<li><a href="index.php@tag=---&amp;lang=id#" title="Under Development">PANDUAN</a></li>
+<li><a href="../about.htm" title="About the UDC Summary">TENTANG</a></li>
+</ul>
+
+        </div>
+		<input type="hidden" id="leftWidth" value="420"/><input type="hidden" id="rightWidth" value="522"/>
+		<div id="classmarkbox" class="debugbkg">
+
+<div id="openclosemenu"><a href="javascript: d.openAll();">&nbsp;Tampilkan semua</a> | <a href="javascript: d.closeAll();">Persingkat semua</a></div>
+<div id="classtree">
+<script type="text/javascript">
+<!--
+d = new dTree('d');
+d.config.hrefIsClick = true;
+d.add(0,-1,'---','<span class="nodetag"></span>ANGKA TANDA BANTU UMUM','---','','','','',false,true);
+d.add(1,0,'=...','<div class="nodetag">=...</div></span>&nbsp;&nbsp;Tanda bantu umum untuk bahasa. Tabel 1c','=...','Tanda bantu umum untuk bahasa. Tabel 1c','','','',false,true);
+d.add(2,1,'=...`01/`08','<div class="nodetag">=...`01/`08</div></span>&nbsp;&nbsp;Subdivisi tanda bantu khusus untuk asal usul, periode bahasa dan tahap-tahap pengembangan','=...`01/`08','Subdivisi tanda bantu khusus untuk asal usul, periode bahasa dan tahap-tahap pengembangan','','','',false,true);
+d.add(3,2,'=...`01','<div class="nodetag">=...`01</div></span>&nbsp;&nbsp;Periode purba Periode arkaik','=...`01','Periode purba Periode arkaik','','','',false,true);
+d.add(4,2,'=...`04','<div class="nodetag">=...`04</div></span>&nbsp;&nbsp;Periode pertengahan','=...`04','Periode pertengahan','','','',false,true);
+d.add(5,2,'=...`06','<div class="nodetag">=...`06</div></span>&nbsp;&nbsp;Periode modern','=...`06','Periode modern','','','',false,true);
+d.add(6,1,'=...`276/`282','<div class="nodetag">=...`276/`282</div></span>&nbsp;&nbsp;Subdivisi tanda bantu khusus untuk penggunaan bahasa, dialek dan varian','=...`276/`282','Subdivisi tanda bantu khusus untuk penggunaan bahasa, dialek dan varian','','','',false,true);
+d.add(7,6,'=...`276','<div class="nodetag">=...`276</div></span>&nbsp;&nbsp;Dialek sosial Slang kejuruan Bentuk vernakular khusus','=...`276','Dialek sosial Slang kejuruan Bentuk vernakular khusus','','','',false,true);
+d.add(8,6,'=...`282','<div class="nodetag">=...`282</div></span>&nbsp;&nbsp;Dialek Bahasa lokal dan regional. Varian dan vernakular','=...`282','Dialek Bahasa lokal dan regional. Varian dan vernakular','','','',false,true);
+d.add(9,1,'=00','<div class="nodetag">=00</div></span>&nbsp;&nbsp;Multilingual Poliglot','=00','Multilingual Poliglot','','','',false,true);
+d.add(10,1,'=030','<div class="nodetag">=030</div></span>&nbsp;&nbsp;Dokumen yang diterjemahkan terjemahan','=030','Dokumen yang diterjemahkan terjemahan','','','',false,true);
+d.add(11,1,'=1/=9','<div class="nodetag">=1/=9</div></span>&nbsp;&nbsp;Bahasa (alamiah dan buatan)','=1/=9','Bahasa (alamiah dan buatan)','','','',false,true);
+d.add(12,11,'=1/=8','<div class="nodetag">=1/=8</div></span>&nbsp;&nbsp;Bahasa alamiah','=1/=8','Bahasa alamiah','','','',false,true);
+d.add(13,12,'=1/=2','<div class="nodetag">=1/=2</div></span>&nbsp;&nbsp;Bahasa-bahasa Indo-Eropa','=1/=2','Bahasa-bahasa Indo-Eropa','','','',false,true);
+d.add(14,13,'=1','<div class="nodetag">=1</div></span>&nbsp;&nbsp;Bahasa-bahasa Indo-Eropa dari Eropa','=1','Bahasa-bahasa Indo-Eropa dari Eropa','','','',false,true);
+d.add(15,14,'=11','<div class="nodetag">=11</div></span>&nbsp;&nbsp;Bahasa-abahasa German','=11','Bahasa-abahasa German','','','',false,true);
+d.add(16,15,'=111','<div class="nodetag">=111</div></span>&nbsp;&nbsp;Bahasa Inggris','=111','Bahasa Inggris','','','',false,true);
+d.add(17,15,'=112','<div class="nodetag">=112</div></span>&nbsp;&nbsp;Bahasa-bahasa German barat (selain bahasa Inggris)','=112','Bahasa-bahasa German barat (selain bahasa Inggris)','','','',false,true);
+d.add(18,17,'=112.2','<div class="nodetag">=112.2</div></span>&nbsp;&nbsp;Bahasa Jerman','=112.2','Bahasa Jerman','','','',false,true);
+d.add(19,17,'=112.5','<div class="nodetag">=112.5</div></span>&nbsp;&nbsp;Bahasa Belanda','=112.5','Bahasa Belanda','','','',false,true);
+d.add(20,17,'=112.6','<div class="nodetag">=112.6</div></span>&nbsp;&nbsp;Bahasa Afrikaans','=112.6','Bahasa Afrikaans','','','',false,true);
+d.add(21,15,'=113','<div class="nodetag">=113</div></span>&nbsp;&nbsp;Bahasa-bahasa German utara/Nord utara','=113','Bahasa-bahasa German utara/Nord utara','','','',false,true);
+d.add(22,21,'=113.3','<div class="nodetag">=113.3</div></span>&nbsp;&nbsp;Bahasa islandia','=113.3','Bahasa islandia','','','',false,true);
+d.add(23,21,'=113.4','<div class="nodetag">=113.4</div></span>&nbsp;&nbsp;Bahasa Denmark','=113.4','Bahasa Denmark','','','',false,true);
+d.add(24,21,'=113.5','<div class="nodetag">=113.5</div></span>&nbsp;&nbsp;Bahasa Norwegia','=113.5','Bahasa Norwegia','','','',false,true);
+d.add(25,21,'=113.6','<div class="nodetag">=113.6</div></span>&nbsp;&nbsp;Bahasa Swedia','=113.6','Bahasa Swedia','','','',false,true);
+d.add(26,15,'=114','<div class="nodetag">=114</div></span>&nbsp;&nbsp;Bahasa-bahasa German timur','=114','Bahasa-bahasa German timur','','','',false,true);
+d.add(27,14,'=12','<div class="nodetag">=12</div></span>&nbsp;&nbsp;Bahasa-bahasa Itali','=12','Bahasa-bahasa Itali','','','',false,true);
+d.add(28,27,'=122','<div class="nodetag">=122</div></span>&nbsp;&nbsp;Bahasa-bahasa Umbro-Sabellia/Osco-Umbria','=122','Bahasa-bahasa Umbro-Sabellia/Osco-Umbria','','','',false,true);
+d.add(29,27,'=124','<div class="nodetag">=124</div></span>&nbsp;&nbsp;Bahasa Latin','=124','Bahasa Latin','','','',false,true);
+d.add(30,14,'=13','<div class="nodetag">=13</div></span>&nbsp;&nbsp;Bahasa-bahasa Roman','=13','Bahasa-bahasa Roman','','','',false,true);
+d.add(31,30,'=131','<div class="nodetag">=131</div></span>&nbsp;&nbsp;Bahasa-bahasa Itali-Roman','=131','Bahasa-bahasa Itali-Roman','','','',false,true);
+d.add(32,31,'=131.1','<div class="nodetag">=131.1</div></span>&nbsp;&nbsp;Bahasa Itali','=131.1','Bahasa Itali','','','',false,true);
+d.add(33,30,'=132','<div class="nodetag">=132</div></span>&nbsp;&nbsp;Bahasa-bahasa Rhaeot-Roman','=132','Bahasa-bahasa Rhaeot-Roman','','','',false,true);
+d.add(34,30,'=133','<div class="nodetag">=133</div></span>&nbsp;&nbsp;Bahasa-bahasa Gallo - Roman','=133','Bahasa-bahasa Gallo - Roman','','','',false,true);
+d.add(35,34,'=133.1','<div class="nodetag">=133.1</div></span>&nbsp;&nbsp;Bahasa Prancis','=133.1','Bahasa Prancis','','','',false,true);
+d.add(36,30,'=134','<div class="nodetag">=134</div></span>&nbsp;&nbsp;Bahasa-bahasa Ibero-Roman','=134','Bahasa-bahasa Ibero-Roman','','','',false,true);
+d.add(37,36,'=134.1','<div class="nodetag">=134.1</div></span>&nbsp;&nbsp;Bahasa Catalan','=134.1','Bahasa Catalan','','','',false,true);
+d.add(38,36,'=134.2','<div class="nodetag">=134.2</div></span>&nbsp;&nbsp;Bahasa Spanyol','=134.2','Bahasa Spanyol','','','',false,true);
+d.add(39,36,'=134.3','<div class="nodetag">=134.3</div></span>&nbsp;&nbsp;Bahasa Portugis','=134.3','Bahasa Portugis','','','',false,true);
+d.add(40,36,'=134.4','<div class="nodetag">=134.4</div></span>&nbsp;&nbsp;Bahasa Gallega (Galisia)','=134.4','Bahasa Gallega (Galisia)','','','',false,true);
+d.add(41,30,'=135','<div class="nodetag">=135</div></span>&nbsp;&nbsp;Bahasa-bahasa Balkan Roman / Bahasa-bahasa Roman Timur','=135','Bahasa-bahasa Balkan Roman / Bahasa-bahasa Roman Timur','','','',false,true);
+d.add(42,41,'=135.1','<div class="nodetag">=135.1</div></span>&nbsp;&nbsp;Bahasa Romania','=135.1','Bahasa Romania','','','',false,true);
+d.add(43,14,'=14','<div class="nodetag">=14</div></span>&nbsp;&nbsp;Bahasa Yunani / Helenik','=14','Bahasa Yunani / Helenik','','','',false,true);
+d.add(44,14,'=15','<div class="nodetag">=15</div></span>&nbsp;&nbsp;Bahasa-bahasa Celtc','=15','Bahasa-bahasa Celtc','','','',false,true);
+d.add(45,44,'=152','<div class="nodetag">=152</div></span>&nbsp;&nbsp;Kelompok bahasa Goldelik','=152','Kelompok bahasa Goldelik','','','',false,true);
+d.add(46,45,'=152.1','<div class="nodetag">=152.1</div></span>&nbsp;&nbsp;Bahasa Irlandia','=152.1','Bahasa Irlandia','','','',false,true);
+d.add(47,45,'=152.2','<div class="nodetag">=152.2</div></span>&nbsp;&nbsp;Bahasa Skot Gaelik','=152.2','Bahasa Skot Gaelik','','','',false,true);
+d.add(48,44,'=153','<div class="nodetag">=153</div></span>&nbsp;&nbsp;Kelompok bahasa Bryton','=153','Kelompok bahasa Bryton','','','',false,true);
+d.add(49,14,'=16','<div class="nodetag">=16</div></span>&nbsp;&nbsp;Bahasa-bahasa Slav','=16','Bahasa-bahasa Slav','','','',false,true);
+d.add(50,49,'=161','<div class="nodetag">=161</div></span>&nbsp;&nbsp;Bahasa-bahasa Slav timur','=161','Bahasa-bahasa Slav timur','','','',false,true);
+d.add(51,50,'=161.1','<div class="nodetag">=161.1</div></span>&nbsp;&nbsp;Bahasa Rusia','=161.1','Bahasa Rusia','','','',false,true);
+d.add(52,50,'=161.2','<div class="nodetag">=161.2</div></span>&nbsp;&nbsp;Bahasa Ukraina','=161.2','Bahasa Ukraina','','','',false,true);
+d.add(53,50,'=161.3','<div class="nodetag">=161.3</div></span>&nbsp;&nbsp;Bahasa Belarusia','=161.3','Bahasa Belarusia','','','',false,true);
+d.add(54,49,'=162','<div class="nodetag">=162</div></span>&nbsp;&nbsp;Bahasa-bahasa Slav barat','=162','Bahasa-bahasa Slav barat','','','',false,true);
+d.add(55,54,'=162.1','<div class="nodetag">=162.1</div></span>&nbsp;&nbsp;Bahasa Polan','=162.1','Bahasa Polan','','','',false,true);
+d.add(56,54,'=162.3','<div class="nodetag">=162.3</div></span>&nbsp;&nbsp;Bahasa Czech','=162.3','Bahasa Czech','','','',false,true);
+d.add(57,54,'=162.4','<div class="nodetag">=162.4</div></span>&nbsp;&nbsp;Bahasa Slovak','=162.4','Bahasa Slovak','','','',false,true);
+d.add(58,49,'=163','<div class="nodetag">=163</div></span>&nbsp;&nbsp;Bahasa -bahasa Slav Selatan','=163','Bahasa -bahasa Slav Selatan','','','',false,true);
+d.add(59,58,'=163.2','<div class="nodetag">=163.2</div></span>&nbsp;&nbsp;Bahasa Bulgaria','=163.2','Bahasa Bulgaria','','','',false,true);
+d.add(60,58,'=163.3','<div class="nodetag">=163.3</div></span>&nbsp;&nbsp;Bahasa Makedonia','=163.3','Bahasa Makedonia','','','',false,true);
+d.add(61,58,'=163.4','<div class="nodetag">=163.4</div></span>&nbsp;&nbsp;Bahasa Serbia dan Kroasia','=163.4','Bahasa Serbia dan Kroasia','','','',false,true);
+d.add(62,61,'=163.41','<div class="nodetag">=163.41</div></span>&nbsp;&nbsp;Bahasa Serbia dan Kroasia','=163.41','Bahasa Serbia dan Kroasia','','','',false,true);
+d.add(63,61,'=163.42','<div class="nodetag">=163.42</div></span>&nbsp;&nbsp;Bahasa Kroasia','=163.42','Bahasa Kroasia','','','',false,true);
+d.add(64,58,'=163.6','<div class="nodetag">=163.6</div></span>&nbsp;&nbsp;Bahasa Slovenia','=163.6','Bahasa Slovenia','','','',false,true);
+d.add(65,14,'=17','<div class="nodetag">=17</div></span>&nbsp;&nbsp;Bahasa-bahasa Baltik','=17','Bahasa-bahasa Baltik','','','',false,true);
+d.add(66,65,'=172','<div class="nodetag">=172</div></span>&nbsp;&nbsp;Bahasa Lithuania','=172','Bahasa Lithuania','','','',false,true);
+d.add(67,65,'=174','<div class="nodetag">=174</div></span>&nbsp;&nbsp;Bahasa Latvia / Lettish','=174','Bahasa Latvia / Lettish','','','',false,true);
+d.add(68,14,'=18','<div class="nodetag">=18</div></span>&nbsp;&nbsp;Bahasa Albania','=18','Bahasa Albania','','','',false,true);
+d.add(69,14,'=19','<div class="nodetag">=19</div></span>&nbsp;&nbsp;Bahasa Armenia','=19','Bahasa Armenia','','','',false,true);
+d.add(70,13,'=2','<div class="nodetag">=2</div></span>&nbsp;&nbsp;Bahasa-bahasa Indo-Iran, Nuristan dan bahasa-bahasa Indo-Eropa yang sudah mati','=2','Bahasa-bahasa Indo-Iran, Nuristan dan bahasa-bahasa Indo-Eropa yang sudah mati','','','',false,true);
+d.add(71,70,'=21/=22','<div class="nodetag">=21/=22</div></span>&nbsp;&nbsp;Bahasa-bahasa Indo-Iran','=21/=22','Bahasa-bahasa Indo-Iran','','','',false,true);
+d.add(72,71,'=21','<div class="nodetag">=21</div></span>&nbsp;&nbsp;Bahasa-bahasa Indi','=21','Bahasa-bahasa Indi','','','',false,true);
+d.add(73,72,'=211','<div class="nodetag">=211</div></span>&nbsp;&nbsp;Bahasa sanskrit (Sansekerta)','=211','Bahasa sanskrit (Sansekerta)','','','',false,true);
+d.add(74,72,'=212','<div class="nodetag">=212</div></span>&nbsp;&nbsp;Bahasa Pali','=212','Bahasa Pali','','','',false,true);
+d.add(75,72,'=213','<div class="nodetag">=213</div></span>&nbsp;&nbsp;Bahasa Prakrit','=213','Bahasa Prakrit','','','',false,true);
+d.add(76,72,'=214','<div class="nodetag">=214</div></span>&nbsp;&nbsp;Bahasa-bahasa India modern','=214','Bahasa-bahasa India modern','','','',false,true);
+d.add(77,76,'=214.1','<div class="nodetag">=214.1</div></span>&nbsp;&nbsp;Bahasa-bahasa Indi kelompok Dardik','=214.1','Bahasa-bahasa Indi kelompok Dardik','','','',false,true);
+d.add(78,76,'=214.2','<div class="nodetag">=214.2</div></span>&nbsp;&nbsp;Bahasa-bahasa Indikelompok tengah','=214.2','Bahasa-bahasa Indikelompok tengah','','','',false,true);
+d.add(79,78,'=214.21','<div class="nodetag">=214.21</div></span>&nbsp;&nbsp;Bahasa Hindi','=214.21','Bahasa Hindi','','','',false,true);
+d.add(80,78,'=214.22','<div class="nodetag">=214.22</div></span>&nbsp;&nbsp;Bahasa Urdu','=214.22','Bahasa Urdu','','','',false,true);
+d.add(81,78,'=214.25','<div class="nodetag">=214.25</div></span>&nbsp;&nbsp;Bahasa Gujarati','=214.25','Bahasa Gujarati','','','',false,true);
+d.add(82,78,'=214.27','<div class="nodetag">=214.27</div></span>&nbsp;&nbsp;Bahasa Punjabi / Panjabi','=214.27','Bahasa Punjabi / Panjabi','','','',false,true);
+d.add(83,78,'=214.28','<div class="nodetag">=214.28</div></span>&nbsp;&nbsp;Bahasa Rajasthani','=214.28','Bahasa Rajasthani','','','',false,true);
+d.add(84,76,'=214.3','<div class="nodetag">=214.3</div></span>&nbsp;&nbsp;Bahasa-bahasa India kelompok timur','=214.3','Bahasa-bahasa India kelompok timur','','','',false,true);
+d.add(85,84,'=214.32','<div class="nodetag">=214.32</div></span>&nbsp;&nbsp;Bahasa Bengali / Bangla','=214.32','Bahasa Bengali / Bangla','','','',false,true);
+d.add(86,84,'=214.35','<div class="nodetag">=214.35</div></span>&nbsp;&nbsp;Bahasa Marathi','=214.35','Bahasa Marathi','','','',false,true);
+d.add(87,76,'=214.4','<div class="nodetag">=214.4</div></span>&nbsp;&nbsp;Bahasa-bahasa India kelompok utara','=214.4','Bahasa-bahasa India kelompok utara','','','',false,true);
+d.add(88,87,'=214.43','<div class="nodetag">=214.43</div></span>&nbsp;&nbsp;Bahasa Nepal','=214.43','Bahasa Nepal','','','',false,true);
+d.add(89,76,'=214.5','<div class="nodetag">=214.5</div></span>&nbsp;&nbsp;Bahasa-bahasa India kelompok barat laut','=214.5','Bahasa-bahasa India kelompok barat laut','','','',false,true);
+d.add(90,89,'=214.52','<div class="nodetag">=214.52</div></span>&nbsp;&nbsp;Bahasa Sindh','=214.52','Bahasa Sindh','','','',false,true);
+d.add(91,89,'=214.58','<div class="nodetag">=214.58</div></span>&nbsp;&nbsp;Bahasa Romani / Gipsy / Gypsy','=214.58','Bahasa Romani / Gipsy / Gypsy','','','',false,true);
+d.add(92,76,'=214.6','<div class="nodetag">=214.6</div></span>&nbsp;&nbsp;Kelompok bahasa Singhala - Maldivia','=214.6','Kelompok bahasa Singhala - Maldivia','','','',false,true);
+d.add(93,71,'=22','<div class="nodetag">=22</div></span>&nbsp;&nbsp;Bahasa-bahasa Iran','=22','Bahasa-bahasa Iran','','','',false,true);
+d.add(94,93,'=221','<div class="nodetag">=221</div></span>&nbsp;&nbsp;Bahasa-bahasa Iran timur','=221','Bahasa-bahasa Iran timur','','','',false,true);
+d.add(95,94,'=221.31','<div class="nodetag">=221.31</div></span>&nbsp;&nbsp;Bahasa Pashto (Pushto)','=221.31','Bahasa Pashto (Pushto)','','','',false,true);
+d.add(96,93,'=222/=223','<div class="nodetag">=222/=223</div></span>&nbsp;&nbsp;Bahasa-bahasa Iran Barat','=222/=223','Bahasa-bahasa Iran Barat','','','',false,true);
+d.add(97,96,'=222.1','<div class="nodetag">=222.1</div></span>&nbsp;&nbsp;Bahasa Persi','=222.1','Bahasa Persi','','','',false,true);
+d.add(98,96,'=222.5','<div class="nodetag">=222.5</div></span>&nbsp;&nbsp;Bahasa Kurdish','=222.5','Bahasa Kurdish','','','',false,true);
+d.add(99,70,'=29','<div class="nodetag">=29</div></span>&nbsp;&nbsp;Bahasa-bahasa mati Indo-Eropa (tidak tercatat di mana-mana)','=29','Bahasa-bahasa mati Indo-Eropa (tidak tercatat di mana-mana)','','','',false,true);
+d.add(100,12,'=3','<div class="nodetag">=3</div></span>&nbsp;&nbsp;Bahasa-bahasa mati yang tidak diketahui afiliasinya. Bahasa-bahasa Kaukasia','=3','Bahasa-bahasa mati yang tidak diketahui afiliasinya. Bahasa-bahasa Kaukasia','','','',false,true);
+d.add(101,100,'=34','<div class="nodetag">=34</div></span>&nbsp;&nbsp;Bahasa-bahasa mati yang tidak diketahui afiliasinya, digunakan di kawasan Laut Tengah dan Timur Dekat (kecuali bahasa Semit)','=34','Bahasa-bahasa mati yang tidak diketahui afiliasinya, digunakan di kawasan Laut Tengah dan Timur Dekat (kecuali bahasa Semit)','','','',false,true);
+d.add(102,100,'=35','<div class="nodetag">=35</div></span>&nbsp;&nbsp;Bahasa-bahasa Kaukasia','=35','Bahasa-bahasa Kaukasia','','','',false,true);
+d.add(103,102,'=351','<div class="nodetag">=351</div></span>&nbsp;&nbsp;Bahasa-bahasa Kakukasia kelompok timur laut','=351','Bahasa-bahasa Kakukasia kelompok timur laut','','','',false,true);
+d.add(104,102,'=352','<div class="nodetag">=352</div></span>&nbsp;&nbsp;Bahasa-bahasa Kaukasia kelompok barat laut','=352','Bahasa-bahasa Kaukasia kelompok barat laut','','','',false,true);
+d.add(105,102,'=353','<div class="nodetag">=353</div></span>&nbsp;&nbsp;Kelompok bahasa Kaukasia selatan / Kartvelia','=353','Kelompok bahasa Kaukasia selatan / Kartvelia','','','',false,true);
+d.add(106,105,'=353.1','<div class="nodetag">=353.1</div></span>&nbsp;&nbsp;Bahasa Georgia','=353.1','Bahasa Georgia','','','',false,true);
+d.add(107,100,'=361','<div class="nodetag">=361</div></span>&nbsp;&nbsp;Bahasa Basque / Euskera / Euskara','=361','Bahasa Basque / Euskera / Euskara','','','',false,true);
+d.add(108,12,'=4','<div class="nodetag">=4</div></span>&nbsp;&nbsp;Bahasa-bahasa Afro-Asia, Nilo-Sahara, Kongo - Kordofania, Khoisa','=4','Bahasa-bahasa Afro-Asia, Nilo-Sahara, Kongo - Kordofania, Khoisa','','','',false,true);
+d.add(109,108,'=41','<div class="nodetag">=41</div></span>&nbsp;&nbsp;Bahasa-bahasa Afro-Asia / Hamito - Semit','=41','Bahasa-bahasa Afro-Asia / Hamito - Semit','','','',false,true);
+d.add(110,109,'=411','<div class="nodetag">=411</div></span>&nbsp;&nbsp;Bahasa-bahasa Semit','=411','Bahasa-bahasa Semit','','','',false,true);
+d.add(111,110,'=411.1','<div class="nodetag">=411.1</div></span>&nbsp;&nbsp;Bahasa-bahasa Semit Utara','=411.1','Bahasa-bahasa Semit Utara','','','',false,true);
+d.add(112,111,'=411.16','<div class="nodetag">=411.16</div></span>&nbsp;&nbsp;Bahasa Yahudi','=411.16','Bahasa Yahudi','','','',false,true);
+d.add(113,110,'=411.2','<div class="nodetag">=411.2</div></span>&nbsp;&nbsp;Bahasa-bahasa Semit barat daya','=411.2','Bahasa-bahasa Semit barat daya','','','',false,true);
+d.add(114,113,'=411.21','<div class="nodetag">=411.21</div></span>&nbsp;&nbsp;Bahasa Arab','=411.21','Bahasa Arab','','','',false,true);
+d.add(115,110,'=411.3','<div class="nodetag">=411.3</div></span>&nbsp;&nbsp;Bahasa-bahasa Semit tenggara','=411.3','Bahasa-bahasa Semit tenggara','','','',false,true);
+d.add(116,110,'=411.4','<div class="nodetag">=411.4</div></span>&nbsp;&nbsp;Bahasa-bahasa Ethiopia / Ethio-Semit','=411.4','Bahasa-bahasa Ethiopia / Ethio-Semit','','','',false,true);
+d.add(117,109,'=412','<div class="nodetag">=412</div></span>&nbsp;&nbsp;Bahasa Mesir-Kopt','=412','Bahasa Mesir-Kopt','','','',false,true);
+d.add(118,109,'=413','<div class="nodetag">=413</div></span>&nbsp;&nbsp;Bahasa-bahasa Berber','=413','Bahasa-bahasa Berber','','','',false,true);
+d.add(119,109,'=414','<div class="nodetag">=414</div></span>&nbsp;&nbsp;Bahasa-bahasa Chadik','=414','Bahasa-bahasa Chadik','','','',false,true);
+d.add(120,119,'=414.231','<div class="nodetag">=414.231</div></span>&nbsp;&nbsp;Bahasa Hausa','=414.231','Bahasa Hausa','','','',false,true);
+d.add(121,109,'=415','<div class="nodetag">=415</div></span>&nbsp;&nbsp;bahasa-bahasa Kushitik','=415','bahasa-bahasa Kushitik','','','',false,true);
+d.add(122,109,'=416','<div class="nodetag">=416</div></span>&nbsp;&nbsp;Bahasa-bahasa Omotik','=416','Bahasa-bahasa Omotik','','','',false,true);
+d.add(123,108,'=42','<div class="nodetag">=42</div></span>&nbsp;&nbsp;Bahasa-bahasa Nil-Sahara','=42','Bahasa-bahasa Nil-Sahara','','','',false,true);
+d.add(124,123,'=422','<div class="nodetag">=422</div></span>&nbsp;&nbsp;Bahasa-bahasa Sahara','=422','Bahasa-bahasa Sahara','','','',false,true);
+d.add(125,123,'=425','<div class="nodetag">=425</div></span>&nbsp;&nbsp;Bahasa-bahasa Koman','=425','Bahasa-bahasa Koman','','','',false,true);
+d.add(126,123,'=426','<div class="nodetag">=426</div></span>&nbsp;&nbsp;Bahasa-bahasa Sudan Timur','=426','Bahasa-bahasa Sudan Timur','','','',false,true);
+d.add(127,108,'=43','<div class="nodetag">=43</div></span>&nbsp;&nbsp;Bahasa-bahasa Kongo - Kordofan / Niger - Kordofan','=43','Bahasa-bahasa Kongo - Kordofan / Niger - Kordofan','','','',false,true);
+d.add(128,127,'=431','<div class="nodetag">=431</div></span>&nbsp;&nbsp;Bahasa-bahasa Kordonafia','=431','Bahasa-bahasa Kordonafia','','','',false,true);
+d.add(129,127,'=432','<div class="nodetag">=432</div></span>&nbsp;&nbsp;Bahasa-bahasa Niger-Kongo','=432','Bahasa-bahasa Niger-Kongo','','','',false,true);
+d.add(130,108,'=45','<div class="nodetag">=45</div></span>&nbsp;&nbsp;Bahasa-bahasa Koisan','=45','Bahasa-bahasa Koisan','','','',false,true);
+d.add(131,12,'=5','<div class="nodetag">=5</div></span>&nbsp;&nbsp;Bahasa-bahasa Ural-Altai, Palaeo-Siberia, Eskimo-Aleut, Dravidia-Sino-Tibet. Bahasa Jepang, Korea, Ainu','=5','Bahasa-bahasa Ural-Altai, Palaeo-Siberia, Eskimo-Aleut, Dravidia-Sino-Tibet. Bahasa Jepang, Korea, Ainu','','','',false,true);
+d.add(132,131,'=51','<div class="nodetag">=51</div></span>&nbsp;&nbsp;Bahasa-bahasa Ural-Altai','=51','Bahasa-bahasa Ural-Altai','','','',false,true);
+d.add(133,132,'=511','<div class="nodetag">=511</div></span>&nbsp;&nbsp;Bahasa-bahasa Ural-Altai','=511','Bahasa-bahasa Ural-Altai','','','',false,true);
+d.add(134,133,'=511.1','<div class="nodetag">=511.1</div></span>&nbsp;&nbsp;Bahasa-bahasa Fin-Ugri','=511.1','Bahasa-bahasa Fin-Ugri','','','',false,true);
+d.add(135,134,'=511.11','<div class="nodetag">=511.11</div></span>&nbsp;&nbsp;Bahasa-bahasa Fin','=511.11','Bahasa-bahasa Fin','','','',false,true);
+d.add(136,135,'=511.111','<div class="nodetag">=511.111</div></span>&nbsp;&nbsp;Bahasa Finland','=511.111','Bahasa Finland','','','',false,true);
+d.add(137,135,'=511.113','<div class="nodetag">=511.113</div></span>&nbsp;&nbsp;Bahasa Estonia','=511.113','Bahasa Estonia','','','',false,true);
+d.add(138,134,'=511.12','<div class="nodetag">=511.12</div></span>&nbsp;&nbsp;Bahasa-bahasa Sami / Saami / Lapp','=511.12','Bahasa-bahasa Sami / Saami / Lapp','','','',false,true);
+d.add(139,134,'=511.14','<div class="nodetag">=511.14</div></span>&nbsp;&nbsp;Bahasa-bahasa Ugri','=511.14','Bahasa-bahasa Ugri','','','',false,true);
+d.add(140,139,'=511.141','<div class="nodetag">=511.141</div></span>&nbsp;&nbsp;Bahasa Hongaria','=511.141','Bahasa Hongaria','','','',false,true);
+d.add(141,133,'=511.2','<div class="nodetag">=511.2</div></span>&nbsp;&nbsp;Bahasa-bahasa Samoyed','=511.2','Bahasa-bahasa Samoyed','','','',false,true);
+d.add(142,132,'=512','<div class="nodetag">=512</div></span>&nbsp;&nbsp;Bahasa-bahasa Altai','=512','Bahasa-bahasa Altai','','','',false,true);
+d.add(143,142,'=512.1','<div class="nodetag">=512.1</div></span>&nbsp;&nbsp;Bahasa-bahasa Turki','=512.1','Bahasa-bahasa Turki','','','',false,true);
+d.add(144,143,'=512.12','<div class="nodetag">=512.12</div></span>&nbsp;&nbsp;Bahasa-bahasa Turkikelompok tengah','=512.12','Bahasa-bahasa Turkikelompok tengah','','','',false,true);
+d.add(145,144,'=512.122','<div class="nodetag">=512.122</div></span>&nbsp;&nbsp;Bahasa Kazakh','=512.122','Bahasa Kazakh','','','',false,true);
+d.add(146,143,'=512.13','<div class="nodetag">=512.13</div></span>&nbsp;&nbsp;Bahasa-bahasa Turki kelompok timur / Karluk','=512.13','Bahasa-bahasa Turki kelompok timur / Karluk','','','',false,true);
+d.add(147,146,'=512.133','<div class="nodetag">=512.133</div></span>&nbsp;&nbsp;Bahasa Uzbek','=512.133','Bahasa Uzbek','','','',false,true);
+d.add(148,143,'=512.14','<div class="nodetag">=512.14</div></span>&nbsp;&nbsp;Bahasa-bahasa Turki kelompok barat','=512.14','Bahasa-bahasa Turki kelompok barat','','','',false,true);
+d.add(149,143,'=512.15','<div class="nodetag">=512.15</div></span>&nbsp;&nbsp;Bahasa-bahasa Turki kelompok utara','=512.15','Bahasa-bahasa Turki kelompok utara','','','',false,true);
+d.add(150,149,'=512.154','<div class="nodetag">=512.154</div></span>&nbsp;&nbsp;Bahasa Kirghiz / Kyrgiz / Kirgiz','=512.154','Bahasa Kirghiz / Kyrgiz / Kirgiz','','','',false,true);
+d.add(151,143,'=512.16','<div class="nodetag">=512.16</div></span>&nbsp;&nbsp;Bahasa-bahasa Turki kelompok selatan','=512.16','Bahasa-bahasa Turki kelompok selatan','','','',false,true);
+d.add(152,151,'=512.161','<div class="nodetag">=512.161</div></span>&nbsp;&nbsp;Bahasa Turki / Osmanli','=512.161','Bahasa Turki / Osmanli','','','',false,true);
+d.add(153,151,'=512.162','<div class="nodetag">=512.162</div></span>&nbsp;&nbsp;Bahasa Azerbaijan','=512.162','Bahasa Azerbaijan','','','',false,true);
+d.add(154,151,'=512.164','<div class="nodetag">=512.164</div></span>&nbsp;&nbsp;Bahasa Turkmen','=512.164','Bahasa Turkmen','','','',false,true);
+d.add(155,142,'=512.2','<div class="nodetag">=512.2</div></span>&nbsp;&nbsp;Bahasa-bahasa Tungus','=512.2','Bahasa-bahasa Tungus','','','',false,true);
+d.add(156,142,'=512.3','<div class="nodetag">=512.3</div></span>&nbsp;&nbsp;Bahasa-bahasa Mongolia','=512.3','Bahasa-bahasa Mongolia','','','',false,true);
+d.add(157,131,'=521','<div class="nodetag">=521</div></span>&nbsp;&nbsp;Bahasa Jepang','=521','Bahasa Jepang','','','',false,true);
+d.add(158,131,'=531','<div class="nodetag">=531</div></span>&nbsp;&nbsp;Bahasa Korea','=531','Bahasa Korea','','','',false,true);
+d.add(159,131,'=541','<div class="nodetag">=541</div></span>&nbsp;&nbsp;Bahasa Ainu','=541','Bahasa Ainu','','','',false,true);
+d.add(160,131,'=55','<div class="nodetag">=55</div></span>&nbsp;&nbsp;Bahasa-bahasa Palaeoo - Siberia','=55','Bahasa-bahasa Palaeoo - Siberia','','','',false,true);
+d.add(161,131,'=56','<div class="nodetag">=56</div></span>&nbsp;&nbsp;Bahasa-bahasa Eskimo-Aleut','=56','Bahasa-bahasa Eskimo-Aleut','','','',false,true);
+d.add(162,131,'=58','<div class="nodetag">=58</div></span>&nbsp;&nbsp;Bahasa-bahasa Sino-Tibet','=58','Bahasa-bahasa Sino-Tibet','','','',false,true);
+d.add(163,162,'=581','<div class="nodetag">=581</div></span>&nbsp;&nbsp;Bahasa-bahasa Cina','=581','Bahasa-bahasa Cina','','','',false,true);
+d.add(164,162,'=582','<div class="nodetag">=582</div></span>&nbsp;&nbsp;Bahasa-bahasa Kam-Tai','=582','Bahasa-bahasa Kam-Tai','','','',false,true);
+d.add(165,162,'=583','<div class="nodetag">=583</div></span>&nbsp;&nbsp;Bahasa-bahasa Miao-Yao','=583','Bahasa-bahasa Miao-Yao','','','',false,true);
+d.add(166,162,'=584','<div class="nodetag">=584</div></span>&nbsp;&nbsp;Bahasa-bahasa Tibet-Burma','=584','Bahasa-bahasa Tibet-Burma','','','',false,true);
+d.add(167,12,'=6','<div class="nodetag">=6</div></span>&nbsp;&nbsp;bahasa-bahasa Austro-Asia. Bahasa-bahasa Austronesia','=6','bahasa-bahasa Austro-Asia. Bahasa-bahasa Austronesia','','','',false,true);
+d.add(168,167,'=61','<div class="nodetag">=61</div></span>&nbsp;&nbsp;bahasa-bahasa Austro-Asia','=61','bahasa-bahasa Austro-Asia','','','',false,true);
+d.add(169,168,'=611','<div class="nodetag">=611</div></span>&nbsp;&nbsp;Kelompok bahasa Malacca / Aslia','=611','Kelompok bahasa Malacca / Aslia','','','',false,true);
+d.add(170,168,'=612','<div class="nodetag">=612</div></span>&nbsp;&nbsp;Bahasa-bahasa Mon-Khmer','=612','Bahasa-bahasa Mon-Khmer','','','',false,true);
+d.add(171,170,'=612.4','<div class="nodetag">=612.4</div></span>&nbsp;&nbsp;Bahasa Kambodia / Khmer','=612.4','Bahasa Kambodia / Khmer','','','',false,true);
+d.add(172,170,'=612.91','<div class="nodetag">=612.91</div></span>&nbsp;&nbsp;Bahasa Vietnam','=612.91','Bahasa Vietnam','','','',false,true);
+d.add(173,168,'=613','<div class="nodetag">=613</div></span>&nbsp;&nbsp;Bahasa-bahasa Munda','=613','Bahasa-bahasa Munda','','','',false,true);
+d.add(174,168,'=614','<div class="nodetag">=614</div></span>&nbsp;&nbsp;Kelompok bahasa Nikobar','=614','Kelompok bahasa Nikobar','','','',false,true);
+d.add(175,167,'=62','<div class="nodetag">=62</div></span>&nbsp;&nbsp;Bahasa-bahasa Austronesia','=62','Bahasa-bahasa Austronesia','','','',false,true);
+d.add(176,175,'=621','<div class="nodetag">=621</div></span>&nbsp;&nbsp;Bahasa-bahasa Malayo-Polynesia','=621','Bahasa-bahasa Malayo-Polynesia','','','',false,true);
+d.add(177,176,'=621.251','<div class="nodetag">=621.251</div></span>&nbsp;&nbsp;Melayu / Bahasa Indonesia / Bahasa Malaysia','=621.251','Melayu / Bahasa Indonesia / Bahasa Malaysia','','','',false,true);
+d.add(178,175,'=622','<div class="nodetag">=622</div></span>&nbsp;&nbsp;Bahasa-bahasa Ocean','=622','Bahasa-bahasa Ocean','','','',false,true);
+d.add(179,12,'=7','<div class="nodetag">=7</div></span>&nbsp;&nbsp;Bahasa-bahasa Indo-Pasifik / non-Austronesia. Bahasa-bahasa Australia','=7','Bahasa-bahasa Indo-Pasifik / non-Austronesia. Bahasa-bahasa Australia','','','',false,true);
+d.add(180,179,'=71','<div class="nodetag">=71</div></span>&nbsp;&nbsp;Bahasa-bahasa Indo-Pasifik (non-Austronesia)','=71','Bahasa-bahasa Indo-Pasifik (non-Austronesia)','','','',false,true);
+d.add(181,180,'=713','<div class="nodetag">=713</div></span>&nbsp;&nbsp;Bahasa-bahasa New Guiinea / Papua','=713','Bahasa-bahasa New Guiinea / Papua','','','',false,true);
+d.add(182,180,'=714','<div class="nodetag">=714</div></span>&nbsp;&nbsp;Bahasa-bahasa New Guinea timur laut / Madang','=714','Bahasa-bahasa New Guinea timur laut / Madang','','','',false,true);
+d.add(183,180,'=715','<div class="nodetag">=715</div></span>&nbsp;&nbsp;Bahasa-bahasa New Guinea barat','=715','Bahasa-bahasa New Guinea barat','','','',false,true);
+d.add(184,180,'=716','<div class="nodetag">=716</div></span>&nbsp;&nbsp;Bahasa-bahasa Bougainville','=716','Bahasa-bahasa Bougainville','','','',false,true);
+d.add(185,180,'=718','<div class="nodetag">=718</div></span>&nbsp;&nbsp;Bahasa Tasmania','=718','Bahasa Tasmania','','','',false,true);
+d.add(186,180,'=719','<div class="nodetag">=719</div></span>&nbsp;&nbsp;Bahasa-bahasa Indo-Pasifik lainnya','=719','Bahasa-bahasa Indo-Pasifik lainnya','','','',false,true);
+d.add(187,179,'=72','<div class="nodetag">=72</div></span>&nbsp;&nbsp;Bahasa-bahasa Australia lainnya','=72','Bahasa-bahasa Australia lainnya','','','',false,true);
+d.add(188,187,'=721','<div class="nodetag">=721</div></span>&nbsp;&nbsp;Kelompok bahasa Pama-Marik','=721','Kelompok bahasa Pama-Marik','','','',false,true);
+d.add(189,187,'=722','<div class="nodetag">=722</div></span>&nbsp;&nbsp;Kelompok bahasa Pama-Nyungan','=722','Kelompok bahasa Pama-Nyungan','','','',false,true);
+d.add(190,187,'=729','<div class="nodetag">=729</div></span>&nbsp;&nbsp;Bahasa-bahasa Australia lainnya','=729','Bahasa-bahasa Australia lainnya','','','',false,true);
+d.add(191,12,'=8','<div class="nodetag">=8</div></span>&nbsp;&nbsp;Bahasa-bahasa asli Amerika','=8','Bahasa-bahasa asli Amerika','','','',false,true);
+d.add(192,191,'=81','<div class="nodetag">=81</div></span>&nbsp;&nbsp;Bahasa-bahasa asli dari Kanada, Amerika Serikat dan Meksiko bagian utara-tengah','=81','Bahasa-bahasa asli dari Kanada, Amerika Serikat dan Meksiko bagian utara-tengah','','','',false,true);
+d.add(193,191,'=82','<div class="nodetag">=82</div></span>&nbsp;&nbsp;Bahasa-bahasa asli Pantai Amerika Utara bagian barat, Meksiko dan Yucatan','=82','Bahasa-bahasa asli Pantai Amerika Utara bagian barat, Meksiko dan Yucatan','','','',false,true);
+d.add(194,193,'=821.24','<div class="nodetag">=821.24</div></span>&nbsp;&nbsp;Bahasa-bahasa Mize-Zoque','=821.24','Bahasa-bahasa Mize-Zoque','','','',false,true);
+d.add(195,193,'=822.21','<div class="nodetag">=822.21</div></span>&nbsp;&nbsp;Bahasa Nahuati','=822.21','Bahasa Nahuati','','','',false,true);
+d.add(196,193,'=823.7','<div class="nodetag">=823.7</div></span>&nbsp;&nbsp;Bahasa-bahasa Zapaotec','=823.7','Bahasa-bahasa Zapaotec','','','',false,true);
+d.add(197,191,'=84/=88','<div class="nodetag">=84/=88</div></span>&nbsp;&nbsp;Bahasa-bahasa asli Amerika Tengah dan Selatan','=84/=88','Bahasa-bahasa asli Amerika Tengah dan Selatan','','','',false,true);
+d.add(198,197,'=84','<div class="nodetag">=84</div></span>&nbsp;&nbsp;Bahasa-bahasa Ge-Pano-Carib. Bahasa-bahasa Macro-Chibchan','=84','Bahasa-bahasa Ge-Pano-Carib. Bahasa-bahasa Macro-Chibchan','','','',false,true);
+d.add(199,198,'=842','<div class="nodetag">=842</div></span>&nbsp;&nbsp;Bahasa-bahasa Ge-Pano-Carib. Bahasa-bahasa Macro-Chibchan','=842','Bahasa-bahasa Ge-Pano-Carib. Bahasa-bahasa Macro-Chibchan','','','',false,true);
+d.add(200,198,'=845','<div class="nodetag">=845</div></span>&nbsp;&nbsp;Bahasa-bahasa Macro-Chibchan','=845','Bahasa-bahasa Macro-Chibchan','','','',false,true);
+d.add(201,197,'=85','<div class="nodetag">=85</div></span>&nbsp;&nbsp;Bahasa-bahasa Andes. Bahasa-bahasa Equator','=85','Bahasa-bahasa Andes. Bahasa-bahasa Equator','','','',false,true);
+d.add(202,201,'=852','<div class="nodetag">=852</div></span>&nbsp;&nbsp;Bahasa-bahasa Andes. Bahasa-bahasa Equator','=852','Bahasa-bahasa Andes. Bahasa-bahasa Equator','','','',false,true);
+d.add(203,202,'=852.11','<div class="nodetag">=852.11</div></span>&nbsp;&nbsp;Bahasa Aymara','=852.11','Bahasa Aymara','','','',false,true);
+d.add(204,202,'=852.2','<div class="nodetag">=852.2</div></span>&nbsp;&nbsp;Bahasa-bahasa Quechua','=852.2','Bahasa-bahasa Quechua','','','',false,true);
+d.add(205,202,'=852.5','<div class="nodetag">=852.5</div></span>&nbsp;&nbsp;Bahasa-bahasa Araucan','=852.5','Bahasa-bahasa Araucan','','','',false,true);
+d.add(206,205,'=852.51','<div class="nodetag">=852.51</div></span>&nbsp;&nbsp;Bahasa-bahasa Mapuche / Mapudungun','=852.51','Bahasa-bahasa Mapuche / Mapudungun','','','',false,true);
+d.add(207,201,'=855','<div class="nodetag">=855</div></span>&nbsp;&nbsp;Bahasa-bahasa Equator','=855','Bahasa-bahasa Equator','','','',false,true);
+d.add(208,207,'=855.21','<div class="nodetag">=855.21</div></span>&nbsp;&nbsp;Bahasa-bahasa Guarani','=855.21','Bahasa-bahasa Guarani','','','',false,true);
+d.add(209,197,'=86','<div class="nodetag">=86</div></span>&nbsp;&nbsp;Bahasa-bahasa Chaco, Bahasa-bahasa Patagonia dan Fuegia','=86','Bahasa-bahasa Chaco, Bahasa-bahasa Patagonia dan Fuegia','','','',false,true);
+d.add(210,209,'=862','<div class="nodetag">=862</div></span>&nbsp;&nbsp;Bahasa-bahasa Chaco','=862','Bahasa-bahasa Chaco','','','',false,true);
+d.add(211,209,'=865','<div class="nodetag">=865</div></span>&nbsp;&nbsp;Bahasa-bahasa Patagonia dan Fuegia','=865','Bahasa-bahasa Patagonia dan Fuegia','','','',false,true);
+d.add(212,197,'=88','<div class="nodetag">=88</div></span>&nbsp;&nbsp;Bahasa-bahasa asli Amerika Tengah dan Selatan yang terasing, tidak dikelompokkan','=88','Bahasa-bahasa asli Amerika Tengah dan Selatan yang terasing, tidak dikelompokkan','','','',false,true);
+d.add(213,11,'=9','<div class="nodetag">=9</div></span>&nbsp;&nbsp;Bahasa buatan yang digunakan untuk memerintahkan mesin. Bahasa-bahasa pemrograman. Bahasa komputer','=9','Bahasa buatan yang digunakan untuk memerintahkan mesin. Bahasa-bahasa pemrograman. Bahasa komputer','','','',false,true);
+d.add(214,213,'=92','<div class="nodetag">=92</div></span>&nbsp;&nbsp;Bahasa buatan untuk digunakan di antara manusia.. Bahasa bantu internasional (interbahasa)','=92','Bahasa buatan untuk digunakan di antara manusia.. Bahasa bantu internasional (interbahasa)','','','',false,true);
+d.add(215,214,'=922','<div class="nodetag">=922</div></span>&nbsp;&nbsp;Bahasa Esperanto','=922','Bahasa Esperanto','','','',false,true);
+d.add(216,213,'=93','<div class="nodetag">=93</div></span>&nbsp;&nbsp;Bahasa buatan yang digunakan untuk memerintahkan mesin. Bahasa-bahasa pemrograman. Bahasa komputer','=93','Bahasa buatan yang digunakan untuk memerintahkan mesin. Bahasa-bahasa pemrograman. Bahasa komputer','','','',false,true);
+d.add(217,0,'(0...)','<div class="nodetag">(0...)</div></span>&nbsp;&nbsp;Tanda bantu umum untuk bentuk. Tabel 1d','(0...)','Tanda bantu umum untuk bentuk. Tabel 1d','','','',false,true);
+d.add(218,217,'(0.02/.08)','<div class="nodetag">(0.02/.08)</div></span>&nbsp;&nbsp;Subdivisi bantu khusus untuk bentuk dokumen','(0.02/.08)','Subdivisi bantu khusus untuk bentuk dokumen','','','',false,true);
+d.add(219,218,'(0.02)','<div class="nodetag">(0.02)</div></span>&nbsp;&nbsp;Dokumen menurut bentuk fisik, ekstern','(0.02)','Dokumen menurut bentuk fisik, ekstern','','','',false,true);
+d.add(220,218,'(0.03)','<div class="nodetag">(0.03)</div></span>&nbsp;&nbsp;Dokumen menurut metode produksi','(0.03)','Dokumen menurut metode produksi','','','',false,true);
+d.add(221,220,'(0.032)','<div class="nodetag">(0.032)</div></span>&nbsp;&nbsp;Dokumen tulisan tangan ( autograf, kopi holograf). Manuskrip. Dokumen gmbar (gambar, lukisan).','(0.032)','Dokumen tulisan tangan ( autograf, kopi holograf). Manuskrip. Dokumen gmbar (gambar, lukisan).','','','',false,true);
+d.add(222,220,'(0.034)','<div class="nodetag">(0.034)</div></span>&nbsp;&nbsp;Dokumen terbacakan mesin','(0.034)','Dokumen terbacakan mesin','','','',false,true);
+d.add(223,218,'(0.04)','<div class="nodetag">(0.04)</div></span>&nbsp;&nbsp;Dokumen menurut tahapproduksi','(0.04)','Dokumen menurut tahapproduksi','','','',false,true);
+d.add(224,218,'(0.05)','<div class="nodetag">(0.05)</div></span>&nbsp;&nbsp;Dokumen untuk pengguna jenis khusus','(0.05)','Dokumen untuk pengguna jenis khusus','','','',false,true);
+d.add(225,218,'(0.06)','<div class="nodetag">(0.06)</div></span>&nbsp;&nbsp;Dokumen menurut tingkat presentasi dan ketersediaan','(0.06)','Dokumen menurut tingkat presentasi dan ketersediaan','','','',false,true);
+d.add(226,218,'(0.07)','<div class="nodetag">(0.07)</div></span>&nbsp;&nbsp;Borang suplemen diedarkan bersama-sama sebuah dokumen','(0.07)','Borang suplemen diedarkan bersama-sama sebuah dokumen','','','',false,true);
+d.add(227,218,'(0.08)','<div class="nodetag">(0.08)</div></span>&nbsp;&nbsp;Suplemen yang diedarkan terpisah atau bagian-bagian dokumen','(0.08)','Suplemen yang diedarkan terpisah atau bagian-bagian dokumen','','','',false,true);
+d.add(228,217,'(01)','<div class="nodetag">(01)</div></span>&nbsp;&nbsp;Bibliografi','(01)','Bibliografi','','','',false,true);
+d.add(229,217,'(02)','<div class="nodetag">(02)</div></span>&nbsp;&nbsp;Buku pada umumnya','(02)','Buku pada umumnya','','','',false,true);
+d.add(230,217,'(03)','<div class="nodetag">(03)</div></span>&nbsp;&nbsp;Karya referens(i)','(03)','Karya referens(i)','','','',false,true);
+d.add(231,230,'(031)','<div class="nodetag">(031)</div></span>&nbsp;&nbsp;Ensiklopedia','(031)','Ensiklopedia','','','',false,true);
+d.add(232,230,'(035)','<div class="nodetag">(035)</div></span>&nbsp;&nbsp;Buku pegangan. Buku pedoman (manual)','(035)','Buku pegangan. Buku pedoman (manual)','','','',false,true);
+d.add(233,230,'(036)','<div class="nodetag">(036)</div></span>&nbsp;&nbsp;Buku panduan (dengan informassi praktis dan deskriptif)','(036)','Buku panduan (dengan informassi praktis dan deskriptif)','','','',false,true);
+d.add(234,230,'(038)','<div class="nodetag">(038)</div></span>&nbsp;&nbsp;Kamus bahasa, kamus subjek khusus dan teknik','(038)','Kamus bahasa, kamus subjek khusus dan teknik','','','',false,true);
+d.add(235,217,'(04)','<div class="nodetag">(04)</div></span>&nbsp;&nbsp;Memisahkan nonserial. Separata','(04)','Memisahkan nonserial. Separata','','','',false,true);
+d.add(236,235,'(041)','<div class="nodetag">(041)</div></span>&nbsp;&nbsp;Pamflet. Brosur','(041)','Pamflet. Brosur','','','',false,true);
+d.add(237,235,'(042)','<div class="nodetag">(042)</div></span>&nbsp;&nbsp;Pengarahan.Kuliah. Pidato','(042)','Pengarahan.Kuliah. Pidato','','','',false,true);
+d.add(238,235,'(043)','<div class="nodetag">(043)</div></span>&nbsp;&nbsp;Tesis. Disertasi','(043)','Tesis. Disertasi','','','',false,true);
+d.add(239,235,'(044)','<div class="nodetag">(044)</div></span>&nbsp;&nbsp;Dokumen pribadi. Korespondensi (surat menyurat). Surat. Sirkuler (edaran)','(044)','Dokumen pribadi. Korespondensi (surat menyurat). Surat. Sirkuler (edaran)','','','',false,true);
+d.add(240,235,'(045)','<div class="nodetag">(045)</div></span>&nbsp;&nbsp;Artikel dalam serial, kumpulan dsb. Kontribusi','(045)','Artikel dalam serial, kumpulan dsb. Kontribusi','','','',false,true);
+d.add(241,235,'(046)','<div class="nodetag">(046)</div></span>&nbsp;&nbsp;Artikel surat kabar','(046)','Artikel surat kabar','','','',false,true);
+d.add(242,235,'(047)','<div class="nodetag">(047)</div></span>&nbsp;&nbsp;Laporan. Pemberitahuan. Buletin','(047)','Laporan. Pemberitahuan. Buletin','','','',false,true);
+d.add(243,235,'(048)','<div class="nodetag">(048)</div></span>&nbsp;&nbsp;Deskripsi bibliografis. Abstrak. Ringkasan.Survei.','(048)','Deskripsi bibliografis. Abstrak. Ringkasan.Survei.','','','',false,true);
+d.add(244,235,'(049)','<div class="nodetag">(049)</div></span>&nbsp;&nbsp;Pisahan nonserial lainnya','(049)','Pisahan nonserial lainnya','','','',false,true);
+d.add(245,217,'(05)','<div class="nodetag">(05)</div></span>&nbsp;&nbsp;Publikasi serial. Majalah','(05)','Publikasi serial. Majalah','','','',false,true);
+d.add(246,245,'(051)','<div class="nodetag">(051)</div></span>&nbsp;&nbsp;Majalah (dalam arti ketat)','(051)','Majalah (dalam arti ketat)','','','',false,true);
+d.add(247,245,'(054)','<div class="nodetag">(054)</div></span>&nbsp;&nbsp;Surat kabar. Pers. Jurnalisme','(054)','Surat kabar. Pers. Jurnalisme','','','',false,true);
+d.add(248,245,'(055)','<div class="nodetag">(055)</div></span>&nbsp;&nbsp;Buletin berita. Newsletter. Buletin informasi','(055)','Buletin berita. Newsletter. Buletin informasi','','','',false,true);
+d.add(249,245,'(058)','<div class="nodetag">(058)</div></span>&nbsp;&nbsp;Buku tahunan.ektori','(058)','Buku tahunan.ektori','','','',false,true);
+d.add(250,245,'(059)','<div class="nodetag">(059)</div></span>&nbsp;&nbsp;Almanak. Kalender (semua jenis)','(059)','Almanak. Kalender (semua jenis)','','','',false,true);
+d.add(251,217,'(06)','<div class="nodetag">(06)</div></span>&nbsp;&nbsp;Dokumen yang berkaitan dengan perhimpunan, asosiasi, organisasi','(06)','Dokumen yang berkaitan dengan perhimpunan, asosiasi, organisasi','','','',false,true);
+d.add(252,217,'(07)','<div class="nodetag">(07)</div></span>&nbsp;&nbsp;Dokumen untuk instruksi, pengajaran, pembelajaran, pelatihan','(07)','Dokumen untuk instruksi, pengajaran, pembelajaran, pelatihan','','','',false,true);
+d.add(253,252,'(072)','<div class="nodetag">(072)</div></span>&nbsp;&nbsp;Materl dokumenter untuk pengajaran. Alat bantu pengajaran.','(072)','Materl dokumenter untuk pengajaran. Alat bantu pengajaran.','','','',false,true);
+d.add(254,252,'(073)','<div class="nodetag">(073)</div></span>&nbsp;&nbsp;Kurikulum. Silabus','(073)','Kurikulum. Silabus','','','',false,true);
+d.add(255,252,'(075)','<div class="nodetag">(075)</div></span>&nbsp;&nbsp;Teks pendidikan. Buku sekolah. Buku ajar untuk siswa.','(075)','Teks pendidikan. Buku sekolah. Buku ajar untuk siswa.','','','',false,true);
+d.add(256,252,'(076)','<div class="nodetag">(076)</div></span>&nbsp;&nbsp;Dokumen untuk instruksi, pelatihan praktis','(076)','Dokumen untuk instruksi, pelatihan praktis','','','',false,true);
+d.add(257,252,'(078)','<div class="nodetag">(078)</div></span>&nbsp;&nbsp;Dokumen dan material pendidikan yang tidak tercatat di mana-mana','(078)','Dokumen dan material pendidikan yang tidak tercatat di mana-mana','','','',false,true);
+d.add(258,252,'(079)','<div class="nodetag">(079)</div></span>&nbsp;&nbsp;Dokumen terkait dengan kompetisi, tes, ujian, dsb','(079)','Dokumen terkait dengan kompetisi, tes, ujian, dsb','','','',false,true);
+d.add(259,217,'(08)','<div class="nodetag">(08)</div></span>&nbsp;&nbsp;Karya kumpulan dan poligrafis. Bentuk. Senarai. Ilustrasi. Publikasi bisnis','(08)','Karya kumpulan dan poligrafis. Bentuk. Senarai. Ilustrasi. Publikasi bisnis','','','',false,true);
+d.add(260,259,'(081)','<div class="nodetag">(081)</div></span>&nbsp;&nbsp;Poligrafi perseorangan. Kumpulan karya pengarang perseorangan','(081)','Poligrafi perseorangan. Kumpulan karya pengarang perseorangan','','','',false,true);
+d.add(261,259,'(082)','<div class="nodetag">(082)</div></span>&nbsp;&nbsp;Poligrafi kolektif. Kumpulan karya oleh beberapa pengarang','(082)','Poligrafi kolektif. Kumpulan karya oleh beberapa pengarang','','','',false,true);
+d.add(262,259,'(083)','<div class="nodetag">(083)</div></span>&nbsp;&nbsp;Dokumen teknik dan normatif. Tabel. Daftar','(083)','Dokumen teknik dan normatif. Tabel. Daftar','','','',false,true);
+d.add(263,259,'(084)','<div class="nodetag">(084)</div></span>&nbsp;&nbsp;Citra. Dokumen gambar. Dokumen grafis','(084)','Citra. Dokumen gambar. Dokumen grafis','','','',false,true);
+d.add(264,259,'(085)','<div class="nodetag">(085)</div></span>&nbsp;&nbsp;Publikasi perusahaan bisnis (industri, komersial). Publisitas niaga, informasi niaga, materi iklan','(085)','Publikasi perusahaan bisnis (industri, komersial). Publisitas niaga, informasi niaga, materi iklan','','','',false,true);
+d.add(265,259,'(086)','<div class="nodetag">(086)</div></span>&nbsp;&nbsp;Dokumen tiga dimensi (padat). Dokumen audio dan audiovisual.','(086)','Dokumen tiga dimensi (padat). Dokumen audio dan audiovisual.','','','',false,true);
+d.add(266,265,'(086.3)','<div class="nodetag">(086.3)</div></span>&nbsp;&nbsp;Spesimen, objek sebagai dokumen','(086.3)','Spesimen, objek sebagai dokumen','','','',false,true);
+d.add(267,265,'(086.7)','<div class="nodetag">(086.7)</div></span>&nbsp;&nbsp;Dokumen audio. Rekaman suara','(086.7)','Dokumen audio. Rekaman suara','','','',false,true);
+d.add(268,265,'(086.8)','<div class="nodetag">(086.8)</div></span>&nbsp;&nbsp;Rekaman video','(086.8)','Rekaman video','','','',false,true);
+d.add(269,259,'(088)','<div class="nodetag">(088)</div></span>&nbsp;&nbsp;Atestasi. Dokumen tujuan khusus','(088)','Atestasi. Dokumen tujuan khusus','','','',false,true);
+d.add(270,217,'(09)','<div class="nodetag">(09)</div></span>&nbsp;&nbsp;Penyajian i dalam bentuk historis. Sumber hukum dan historis','(09)','Penyajian i dalam bentuk historis. Sumber hukum dan historis','','','',false,true);
+d.add(271,270,'(091)','<div class="nodetag">(091)</div></span>&nbsp;&nbsp;Penyajian dalam bentuk kronologis, historis. Penyajian dalam bentuk historis murni','(091)','Penyajian dalam bentuk kronologis, historis. Penyajian dalam bentuk historis murni','','','',false,true);
+d.add(272,270,'(092)','<div class="nodetag">(092)</div></span>&nbsp;&nbsp;Penyajian biografi','(092)','Penyajian biografi','','','',false,true);
+d.add(273,270,'(093)','<div class="nodetag">(093)</div></span>&nbsp;&nbsp;Sumber sejarah','(093)','Sumber sejarah','','','',false,true);
+d.add(274,270,'(094)','<div class="nodetag">(094)</div></span>&nbsp;&nbsp;Sumber hukum. Dokumen hukum','(094)','Sumber hukum. Dokumen hukum','','','',false,true);
+d.add(275,0,'(1/9)','<div class="nodetag">(1/9)</div></span>&nbsp;&nbsp;Angka bantu umum untuk tempat. Tabel 1e','(1/9)','Angka bantu umum untuk tempat. Tabel 1e','','','',false,true);
+d.add(276,275,'(1)','<div class="nodetag">(1)</div></span>&nbsp;&nbsp;Tempat dan ruang pada umumnya. Lokalisasi. Orientasi','(1)','Tempat dan ruang pada umumnya. Lokalisasi. Orientasi','','','',false,true);
+d.add(277,276,'(100)','<div class="nodetag">(100)</div></span>&nbsp;&nbsp;Universal dalam arti tempat. Internasional.emua negara pada umumnya','(100)','Universal dalam arti tempat. Internasional.emua negara pada umumnya','','','',false,true);
+d.add(278,275,'(1-0/-9)','<div class="nodetag">(1-0/-9)</div></span>&nbsp;&nbsp;Subdivisi bantu khusus untuk batas dan bentuk spasial berbagai jenis','(1-0/-9)','Subdivisi bantu khusus untuk batas dan bentuk spasial berbagai jenis','','','',false,true);
+d.add(279,278,'(1-0)','<div class="nodetag">(1-0)</div></span>&nbsp;&nbsp;Zona','(1-0)','Zona','','','',false,true);
+d.add(280,278,'(1-1)','<div class="nodetag">(1-1)</div></span>&nbsp;&nbsp;Orientasi. Titik kompas. Posisi relatif','(1-1)','Orientasi. Titik kompas. Posisi relatif','','','',false,true);
+d.add(281,280,'(1-11)','<div class="nodetag">(1-11)</div></span>&nbsp;&nbsp;Timur. Bagian (arah) timur','(1-11)','Timur. Bagian (arah) timur','','','',false,true);
+d.add(282,280,'(1-12)','<div class="nodetag">(1-12)</div></span>&nbsp;&nbsp;Tenggara. Bagian (arah) tenggara','(1-12)','Tenggara. Bagian (arah) tenggara','','','',false,true);
+d.add(283,280,'(1-13)','<div class="nodetag">(1-13)</div></span>&nbsp;&nbsp;Selatan. Bagian (arah) selatan','(1-13)','Selatan. Bagian (arah) selatan','','','',false,true);
+d.add(284,280,'(1-14)','<div class="nodetag">(1-14)</div></span>&nbsp;&nbsp;Barat daya. Bagian (arah) barat daya','(1-14)','Barat daya. Bagian (arah) barat daya','','','',false,true);
+d.add(285,280,'(1-15)','<div class="nodetag">(1-15)</div></span>&nbsp;&nbsp;Barat. Bagian (arah) barat','(1-15)','Barat. Bagian (arah) barat','','','',false,true);
+d.add(286,280,'(1-16)','<div class="nodetag">(1-16)</div></span>&nbsp;&nbsp;Barat laut. Bagian (arah) barat laut.','(1-16)','Barat laut. Bagian (arah) barat laut.','','','',false,true);
+d.add(287,280,'(1-17)','<div class="nodetag">(1-17)</div></span>&nbsp;&nbsp;Utara. Bagian (arah) utara','(1-17)','Utara. Bagian (arah) utara','','','',false,true);
+d.add(288,280,'(1-18)','<div class="nodetag">(1-18)</div></span>&nbsp;&nbsp;Timur laut. Bagian (arah) timur laut','(1-18)','Timur laut. Bagian (arah) timur laut','','','',false,true);
+d.add(289,280,'(1-19)','<div class="nodetag">(1-19)</div></span>&nbsp;&nbsp;Lokasi,arah dan orientasi relatif','(1-19)','Lokasi,arah dan orientasi relatif','','','',false,true);
+d.add(290,278,'(1-2/-4)','<div class="nodetag">(1-2/-4)</div></span>&nbsp;&nbsp;Unit politik. Unit administrasi','(1-2/-4)','Unit politik. Unit administrasi','','','',false,true);
+d.add(291,290,'(1-2)','<div class="nodetag">(1-2)</div></span>&nbsp;&nbsp;Unit administrasi terendah. Lokalitas','(1-2)','Unit administrasi terendah. Lokalitas','','','',false,true);
+d.add(292,291,'(1-24)','<div class="nodetag">(1-24)</div></span>&nbsp;&nbsp;Unit gabungan administrasi lokal','(1-24)','Unit gabungan administrasi lokal','','','',false,true);
+d.add(293,291,'(1-25)','<div class="nodetag">(1-25)</div></span>&nbsp;&nbsp;Kota ibukota. Metropolis','(1-25)','Kota ibukota. Metropolis','','','',false,true);
+d.add(294,290,'(1-3)','<div class="nodetag">(1-3)</div></span>&nbsp;&nbsp;Unit lebih besar dalam sebuah negara / negara bagian.','(1-3)','Unit lebih besar dalam sebuah negara / negara bagian.','','','',false,true);
+d.add(295,294,'(1-32)','<div class="nodetag">(1-32)</div></span>&nbsp;&nbsp;Unit adminsitrasi tingkat tinggi. Provinsi','(1-32)','Unit adminsitrasi tingkat tinggi. Provinsi','','','',false,true);
+d.add(296,294,'(1-35)','<div class="nodetag">(1-35)</div></span>&nbsp;&nbsp;Unit administrasi tingkat menengah','(1-35)','Unit administrasi tingkat menengah','','','',false,true);
+d.add(297,294,'(1-37)','<div class="nodetag">(1-37)</div></span>&nbsp;&nbsp;Unit administrasi tingkat rendah','(1-37)','Unit administrasi tingkat rendah','','','',false,true);
+d.add(298,290,'(1-4)','<div class="nodetag">(1-4)</div></span>&nbsp;&nbsp;Unit (negara) tingkat tertinggi. Negara. Negara bagian. Konfederasi','(1-4)','Unit (negara) tingkat tertinggi. Negara. Negara bagian. Konfederasi','','','',false,true);
+d.add(299,298,'(1-43)','<div class="nodetag">(1-43)</div></span>&nbsp;&nbsp;Negara konstituen dalam sebuah federasi. Negara federal. Republik otonom','(1-43)','Negara konstituen dalam sebuah federasi. Negara federal. Republik otonom','','','',false,true);
+d.add(300,298,'(1-44)','<div class="nodetag">(1-44)</div></span>&nbsp;&nbsp;Kemaharajaan. Kombinasi negara induk, dominion dan koloni','(1-44)','Kemaharajaan. Kombinasi negara induk, dominion dan koloni','','','',false,true);
+d.add(301,278,'(1-5)','<div class="nodetag">(1-5)</div></span>&nbsp;&nbsp;Teritori tak bebas atau setengah tak bebas','(1-5)','Teritori tak bebas atau setengah tak bebas','','','',false,true);
+d.add(302,278,'(1-6)','<div class="nodetag">(1-6)</div></span>&nbsp;&nbsp;Negara-negara atau pengelompokan negara-negara dari berbagai titk pandang','(1-6)','Negara-negara atau pengelompokan negara-negara dari berbagai titk pandang','','','',false,true);
+d.add(303,278,'(1-7)','<div class="nodetag">(1-7)</div></span>&nbsp;&nbsp;Tempat dan daerah menurut privasi, kepublikan dan fitur khusus lainnya','(1-7)','Tempat dan daerah menurut privasi, kepublikan dan fitur khusus lainnya','','','',false,true);
+d.add(304,278,'(1-8)','<div class="nodetag">(1-8)</div></span>&nbsp;&nbsp;Lokasi. Asal usul. Transit. Tujuan (destinasi)','(1-8)','Lokasi. Asal usul. Transit. Tujuan (destinasi)','','','',false,true);
+d.add(305,278,'(1-9)','<div class="nodetag">(1-9)</div></span>&nbsp;&nbsp;Regionalisasi menurut titik pandang khusus','(1-9)','Regionalisasi menurut titik pandang khusus','','','',false,true);
+d.add(306,275,'(2)','<div class="nodetag">(2)</div></span>&nbsp;&nbsp;Penandaan fisiografis','(2)','Penandaan fisiografis','','','',false,true);
+d.add(307,306,'(20)','<div class="nodetag">(20)</div></span>&nbsp;&nbsp;Eosfere','(20)','Eosfere','','','',false,true);
+d.add(308,306,'(21)','<div class="nodetag">(21)</div></span>&nbsp;&nbsp;Permukaan bumi pada umumnya. Daerah darat pada khususnya. Zona (mintakat) dan kawasan alami.','(21)','Permukaan bumi pada umumnya. Daerah darat pada khususnya. Zona (mintakat) dan kawasan alami.','','','',false,true);
+d.add(309,306,'(23)','<div class="nodetag">(23)</div></span>&nbsp;&nbsp;Di atas permukaan laut. Permukaan timbul. Secara umum di atas tanah. Pengunungan','(23)','Di atas permukaan laut. Permukaan timbul. Secara umum di atas tanah. Pengunungan','','','',false,true);
+d.add(310,306,'(24)','<div class="nodetag">(24)</div></span>&nbsp;&nbsp;Di bawah permukaan laut. Bawah tanah. Dalam tanah','(24)','Di bawah permukaan laut. Bawah tanah. Dalam tanah','','','',false,true);
+d.add(311,306,'(25)','<div class="nodetag">(25)</div></span>&nbsp;&nbsp;Tanah datar alami ( pada permukaaan, di atas atau di bawah permukaan laut). Tanah dalam kondisi aslinya, ditanami atau dihuni','(25)','Tanah datar alami ( pada permukaaan, di atas atau di bawah permukaan laut). Tanah dalam kondisi aslinya, ditanami atau dihuni','','','',false,true);
+d.add(312,306,'(26)','<div class="nodetag">(26)</div></span>&nbsp;&nbsp;Samudra, laut dan interkoneksi','(26)','Samudra, laut dan interkoneksi','','','',false,true);
+d.add(313,306,'(28)','<div class="nodetag">(28)</div></span>&nbsp;&nbsp;Perairan tawar','(28)','Perairan tawar','','','',false,true);
+d.add(314,275,'(3/9)','<div class="nodetag">(3/9)</div></span>&nbsp;&nbsp;Tempat-tempat di dunia purba dan modertn','(3/9)','Tempat-tempat di dunia purba dan modertn','','','',false,true);
+d.add(315,314,'(3)','<div class="nodetag">(3)</div></span>&nbsp;&nbsp;Tempat-tempat dari dunia purba dan menengah','(3)','Tempat-tempat dari dunia purba dan menengah','','','',false,true);
+d.add(316,315,'(31)','<div class="nodetag">(31)</div></span>&nbsp;&nbsp;Cina dan Jepang Purba','(31)','Cina dan Jepang Purba','','','',false,true);
+d.add(317,315,'(32)','<div class="nodetag">(32)</div></span>&nbsp;&nbsp;Mesir Purba','(32)','Mesir Purba','','','',false,true);
+d.add(318,315,'(33)','<div class="nodetag">(33)</div></span>&nbsp;&nbsp;Romawi Purba. Provinsi judea. Tanah Suci. Kawasan orang Israel','(33)','Romawi Purba. Provinsi judea. Tanah Suci. Kawasan orang Israel','','','',false,true);
+d.add(319,315,'(34)','<div class="nodetag">(34)</div></span>&nbsp;&nbsp;India Purba','(34)','India Purba','','','',false,true);
+d.add(320,315,'(35)','<div class="nodetag">(35)</div></span>&nbsp;&nbsp;Medo-Persia','(35)','Medo-Persia','','','',false,true);
+d.add(321,315,'(36)','<div class="nodetag">(36)</div></span>&nbsp;&nbsp;Kawasan yang disebut kawasan barbar','(36)','Kawasan yang disebut kawasan barbar','','','',false,true);
+d.add(322,315,'(37)','<div class="nodetag">(37)</div></span>&nbsp;&nbsp;Italia. Roma Purba dan Italia','(37)','Italia. Roma Purba dan Italia','','','',false,true);
+d.add(323,315,'(38)','<div class="nodetag">(38)</div></span>&nbsp;&nbsp;Yunani purba','(38)','Yunani purba','','','',false,true);
+d.add(324,315,'(399)','<div class="nodetag">(399)</div></span>&nbsp;&nbsp;Kawasan lain. Pembagian geografi purba selain baharian klasik','(399)','Kawasan lain. Pembagian geografi purba selain baharian klasik','','','',false,true);
+d.add(325,324,'(399.7)','<div class="nodetag">(399.7)</div></span>&nbsp;&nbsp;Kawasan kebudayaan Amerika purba. Amerika Pra-Kolumbia','(399.7)','Kawasan kebudayaan Amerika purba. Amerika Pra-Kolumbia','','','',false,true);
+d.add(326,314,'(4/9)','<div class="nodetag">(4/9)</div></span>&nbsp;&nbsp;Negara dan tempat-tempat dunia modern','(4/9)','Negara dan tempat-tempat dunia modern','','','',false,true);
+d.add(327,326,'(4)','<div class="nodetag">(4)</div></span>&nbsp;&nbsp;Eropa','(4)','Eropa','','','',false,true);
+d.add(328,327,'(41)','<div class="nodetag">(41)</div></span>&nbsp;&nbsp;Negara-negara Kepulauan Inggris','(41)','Negara-negara Kepulauan Inggris','','','',false,true);
+d.add(329,328,'(410)','<div class="nodetag">(410)</div></span>&nbsp;&nbsp;Inggris dan Irlandia Utara','(410)','Inggris dan Irlandia Utara','','','',false,true);
+d.add(330,328,'(417)','<div class="nodetag">(417)</div></span>&nbsp;&nbsp;Irlandia. Republik Irlandia. Eitre','(417)','Irlandia. Republik Irlandia. Eitre','','','',false,true);
+d.add(331,327,'(430)','<div class="nodetag">(430)</div></span>&nbsp;&nbsp;Jerman. Republik Federal Jerman. Bundesrepublik. Deutschland','(430)','Jerman. Republik Federal Jerman. Bundesrepublik. Deutschland','','','',false,true);
+d.add(332,327,'(435.9)','<div class="nodetag">(435.9)</div></span>&nbsp;&nbsp;Luksemburg. Keadipatian Luksemburg. Grand-Duche de Luxembourg. Grossherzogtum Luxemburg. Grousherzogdem Letzeburg','(435.9)','Luksemburg. Keadipatian Luksemburg. Grand-Duche de Luxembourg. Grossherzogtum Luxemburg. Grousherzogdem Letzeburg','','','',false,true);
+d.add(333,327,'(436)','<div class="nodetag">(436)</div></span>&nbsp;&nbsp;Austria. Republik Austria. Republik Osterreich','(436)','Austria. Republik Austria. Republik Osterreich','','','',false,true);
+d.add(334,327,'(437.3)','<div class="nodetag">(437.3)</div></span>&nbsp;&nbsp;Republik Czech. Czechia. Cesko. Ceska Republika','(437.3)','Republik Czech. Czechia. Cesko. Ceska Republika','','','',false,true);
+d.add(335,327,'(437.6)','<div class="nodetag">(437.6)</div></span>&nbsp;&nbsp;Slovakia. Republik Slovakia. Slovensko.Slovenska Republika','(437.6)','Slovakia. Republik Slovakia. Slovensko.Slovenska Republika','','','',false,true);
+d.add(336,327,'(438)','<div class="nodetag">(438)</div></span>&nbsp;&nbsp;Polandia. Republik Polandia. Rzeczpospolita Polska','(438)','Polandia. Republik Polandia. Rzeczpospolita Polska','','','',false,true);
+d.add(337,327,'(439)','<div class="nodetag">(439)</div></span>&nbsp;&nbsp;Hongaria. Republik Hongaria. Magyarorszag. Magyar Koztarsasag','(439)','Hongaria. Republik Hongaria. Magyarorszag. Magyar Koztarsasag','','','',false,true);
+d.add(338,327,'(44)','<div class="nodetag">(44)</div></span>&nbsp;&nbsp;Prancis. Republik Prancis. Republique Francaise','(44)','Prancis. Republik Prancis. Republique Francaise','','','',false,true);
+d.add(339,327,'(450)','<div class="nodetag">(450)</div></span>&nbsp;&nbsp;Italia. Republik Italia. Republica italiana','(450)','Italia. Republik Italia. Republica italiana','','','',false,true);
+d.add(340,327,'(454.4)','<div class="nodetag">(454.4)</div></span>&nbsp;&nbsp;San Marino. Republik Paling Tenang San Marino. Serenissisme Republica di San Marino','(454.4)','San Marino. Republik Paling Tenang San Marino. Serenissisme Republica di San Marino','','','',false,true);
+d.add(341,327,'(456.31)','<div class="nodetag">(456.31)</div></span>&nbsp;&nbsp;Varikan. Negara Kota Vatikan (Takhta Suci). Stato della Citta del Vaticano','(456.31)','Varikan. Negara Kota Vatikan (Takhta Suci). Stato della Citta del Vaticano','','','',false,true);
+d.add(342,327,'(458.2)','<div class="nodetag">(458.2)</div></span>&nbsp;&nbsp;Malta.Republik Malta. Republika ta\' Malta','(458.2)','Malta.Republik Malta. Republika ta\' Malta','','','',false,true);
+d.add(343,327,'(46)','<div class="nodetag">(46)</div></span>&nbsp;&nbsp;Negara-negara Semenajung Iberia','(46)','Negara-negara Semenajung Iberia','','','',false,true);
+d.add(344,343,'(460)','<div class="nodetag">(460)</div></span>&nbsp;&nbsp;Spanyol. Kerajaan Soanyol. Reino de Espana','(460)','Spanyol. Kerajaan Soanyol. Reino de Espana','','','',false,true);
+d.add(345,343,'(467)','<div class="nodetag">(467)</div></span>&nbsp;&nbsp;Andorra. Kepangeranan Andorra. Principat d\'Andorra','(467)','Andorra. Kepangeranan Andorra. Principat d\'Andorra','','','',false,true);
+d.add(346,343,'(469)','<div class="nodetag">(469)</div></span>&nbsp;&nbsp;Portugal.epublik Portugal. Republica Portuguesa','(469)','Portugal.epublik Portugal. Republica Portuguesa','','','',false,true);
+d.add(347,327,'(470+571)','<div class="nodetag">(470+571)</div></span>&nbsp;&nbsp;Rusia. Federasi Rusia. Rossiya. Rossiiskaya Federatsiya','(470+571)','Rusia. Federasi Rusia. Rossiya. Rossiiskaya Federatsiya','','','',false,true);
+d.add(348,327,'(474)','<div class="nodetag">(474)</div></span>&nbsp;&nbsp;Negara-negara Baltik pada umumnya','(474)','Negara-negara Baltik pada umumnya','','','',false,true);
+d.add(349,348,'(474.2)','<div class="nodetag">(474.2)</div></span>&nbsp;&nbsp;Estonia. Republik Estonia. Eesti Vabarikk','(474.2)','Estonia. Republik Estonia. Eesti Vabarikk','','','',false,true);
+d.add(350,348,'(474.3)','<div class="nodetag">(474.3)</div></span>&nbsp;&nbsp;Latvia. Republik Latvia. Latvijas Republika','(474.3)','Latvia. Republik Latvia. Latvijas Republika','','','',false,true);
+d.add(351,348,'(474.5)','<div class="nodetag">(474.5)</div></span>&nbsp;&nbsp;Lithuania. Republik Lithuania. Lietuvos Respublika','(474.5)','Lithuania. Republik Lithuania. Lietuvos Respublika','','','',false,true);
+d.add(352,327,'(476)','<div class="nodetag">(476)</div></span>&nbsp;&nbsp;Belarus. Republik Belarus. Respublika Belarus','(476)','Belarus. Republik Belarus. Respublika Belarus','','','',false,true);
+d.add(353,327,'(477)','<div class="nodetag">(477)</div></span>&nbsp;&nbsp;Ukraina (Ukraine). Ukrayina','(477)','Ukraina (Ukraine). Ukrayina','','','',false,true);
+d.add(354,327,'(478)','<div class="nodetag">(478)</div></span>&nbsp;&nbsp;Moldova. Republik Moldova. Republika Moldoveneasca','(478)','Moldova. Republik Moldova. Republika Moldoveneasca','','','',false,true);
+d.add(355,327,'(479)','<div class="nodetag">(479)</div></span>&nbsp;&nbsp;Negara-negara kawsan Kaukasus','(479)','Negara-negara kawsan Kaukasus','','','',false,true);
+d.add(356,355,'(479.22)','<div class="nodetag">(479.22)</div></span>&nbsp;&nbsp;Georgia. Republik Georgia. Sakartvelo. Sakartvelos Respublika','(479.22)','Georgia. Republik Georgia. Sakartvelo. Sakartvelos Respublika','','','',false,true);
+d.add(357,355,'(479.24)','<div class="nodetag">(479.24)</div></span>&nbsp;&nbsp;Azerbaijan. Reopublik Azerbaijan. Azarbaycan Respublikasi','(479.24)','Azerbaijan. Reopublik Azerbaijan. Azarbaycan Respublikasi','','','',false,true);
+d.add(358,355,'(479.25)','<div class="nodetag">(479.25)</div></span>&nbsp;&nbsp;Armenia. Republik Armenia. Hayastan. Hayastani Hnarapetut\'yun (Haikakan Hanrapetoutioun)','(479.25)','Armenia. Republik Armenia. Hayastan. Hayastani Hnarapetut\'yun (Haikakan Hanrapetoutioun)','','','',false,true);
+d.add(359,327,'(48)','<div class="nodetag">(48)</div></span>&nbsp;&nbsp;Negara-negara Skandinavia','(48)','Negara-negara Skandinavia','','','',false,true);
+d.add(360,359,'(480)','<div class="nodetag">(480)</div></span>&nbsp;&nbsp;Finlandia. Republik finlandia. Suomi. Suomen Tasavaita. Republiken Finland','(480)','Finlandia. Republik finlandia. Suomi. Suomen Tasavaita. Republiken Finland','','','',false,true);
+d.add(361,359,'(481)','<div class="nodetag">(481)</div></span>&nbsp;&nbsp;Norwegia. Kerajaan Norwegia. Kongeriket Norge. Kongeriket Noreg','(481)','Norwegia. Kerajaan Norwegia. Kongeriket Norge. Kongeriket Noreg','','','',false,true);
+d.add(362,359,'(485)','<div class="nodetag">(485)</div></span>&nbsp;&nbsp;Swedia. Kerajaan Swedia. Konunngariket Sverige','(485)','Swedia. Kerajaan Swedia. Konunngariket Sverige','','','',false,true);
+d.add(363,359,'(489)','<div class="nodetag">(489)</div></span>&nbsp;&nbsp;denmark. Kerajaan denmark. Kongeriget Danmark','(489)','denmark. Kerajaan denmark. Kongeriget Danmark','','','',false,true);
+d.add(364,327,'(491.1)','<div class="nodetag">(491.1)</div></span>&nbsp;&nbsp;Islandia. Republik Islandia. Lyoveldio Island','(491.1)','Islandia. Republik Islandia. Lyoveldio Island','','','',false,true);
+d.add(365,327,'(492)','<div class="nodetag">(492)</div></span>&nbsp;&nbsp;Nederland. Kerajaan Belanda. Koninkrijk der Nederlanden','(492)','Nederland. Kerajaan Belanda. Koninkrijk der Nederlanden','','','',false,true);
+d.add(366,327,'(493)','<div class="nodetag">(493)</div></span>&nbsp;&nbsp;Belgia. Kerajaan Belgia. Royaume de Belgique. Koninkrijk Belgie. Konigreich Belgien','(493)','Belgia. Kerajaan Belgia. Royaume de Belgique. Koninkrijk Belgie. Konigreich Belgien','','','',false,true);
+d.add(367,327,'(494)','<div class="nodetag">(494)</div></span>&nbsp;&nbsp;Switzerland. Konfederasi Swiss. Konfederazione Svizzera. Confederaziun svizra. Confoederatio Helvetica','(494)','Switzerland. Konfederasi Swiss. Konfederazione Svizzera. Confederaziun svizra. Confoederatio Helvetica','','','',false,true);
+d.add(368,367,'(494.9)','<div class="nodetag">(494.9)</div></span>&nbsp;&nbsp;Liechtenstein. Keadipatian Liechtenstein. Furstentum Liechtenstein','(494.9)','Liechtenstein. Keadipatian Liechtenstein. Furstentum Liechtenstein','','','',false,true);
+d.add(369,327,'(495)','<div class="nodetag">(495)</div></span>&nbsp;&nbsp;Yunani. Republik Yunani. Elliniki Dimokratia','(495)','Yunani. Republik Yunani. Elliniki Dimokratia','','','',false,true);
+d.add(370,327,'(496.5)','<div class="nodetag">(496.5)</div></span>&nbsp;&nbsp;Albania. Republik Albania. Shqiperia. Republika e Shqiperise','(496.5)','Albania. Republik Albania. Shqiperia. Republika e Shqiperise','','','',false,true);
+d.add(371,327,'(497)','<div class="nodetag">(497)</div></span>&nbsp;&nbsp;Negara-negara Balkan','(497)','Negara-negara Balkan','','','',false,true);
+d.add(372,371,'(497.11)','<div class="nodetag">(497.11)</div></span>&nbsp;&nbsp;Serbia. Republik Serbia. Republika Srbija','(497.11)','Serbia. Republik Serbia. Republika Srbija','','','',false,true);
+d.add(373,371,'(497.16)','<div class="nodetag">(497.16)</div></span>&nbsp;&nbsp;Montenegro. Crna Gora','(497.16)','Montenegro. Crna Gora','','','',false,true);
+d.add(374,371,'(497.2)','<div class="nodetag">(497.2)</div></span>&nbsp;&nbsp;Bulgaria. Republik Bulgaria. Bulharsko. Republika Bulgariya','(497.2)','Bulgaria. Republik Bulgaria. Bulharsko. Republika Bulgariya','','','',false,true);
+d.add(375,371,'(497.4)','<div class="nodetag">(497.4)</div></span>&nbsp;&nbsp;Slovenia. Republik Slovenia. Republika Slovenija','(497.4)','Slovenia. Republik Slovenia. Republika Slovenija','','','',false,true);
+d.add(376,371,'(497.5)','<div class="nodetag">(497.5)</div></span>&nbsp;&nbsp;Kroasia. Republik Kroasia. Republik Hrvatska','(497.5)','Kroasia. Republik Kroasia. Republik Hrvatska','','','',false,true);
+d.add(377,371,'(497.6)','<div class="nodetag">(497.6)</div></span>&nbsp;&nbsp;Bosnia-Herzegovina. Republik Bosnia-Herzegovina. Bosna I Hercegovina','(497.6)','Bosnia-Herzegovina. Republik Bosnia-Herzegovina. Bosna I Hercegovina','','','',false,true);
+d.add(378,371,'(497.7)','<div class="nodetag">(497.7)</div></span>&nbsp;&nbsp;Makedonia. Bekas Republik Yugoslavia Makedonia. Republika Makedonija','(497.7)','Makedonia. Bekas Republik Yugoslavia Makedonia. Republika Makedonija','','','',false,true);
+d.add(379,327,'(498)','<div class="nodetag">(498)</div></span>&nbsp;&nbsp;Romania. Republik Romania. Romania','(498)','Romania. Republik Romania. Romania','','','',false,true);
+d.add(380,326,'(5)','<div class="nodetag">(5)</div></span>&nbsp;&nbsp;Asia','(5)','Asia','','','',false,true);
+d.add(381,380,'(510)','<div class="nodetag">(510)</div></span>&nbsp;&nbsp;Cina. Republik Rakyat Cina. Zhonghua Renmin Gongheguo','(510)','Cina. Republik Rakyat Cina. Zhonghua Renmin Gongheguo','','','',false,true);
+d.add(382,380,'(512.317)','<div class="nodetag">(512.317)</div></span>&nbsp;&nbsp;Hong Kong. Xianggang (Hsiang-Kang)','(512.317)','Hong Kong. Xianggang (Hsiang-Kang)','','','',false,true);
+d.add(383,380,'(512.318)','<div class="nodetag">(512.318)</div></span>&nbsp;&nbsp;Makau (Macau, Macao). Aomen (Ao-men)','(512.318)','Makau (Macau, Macao). Aomen (Ao-men)','','','',false,true);
+d.add(384,380,'(515)','<div class="nodetag">(515)</div></span>&nbsp;&nbsp;Tibet. Daerah Otonomi Tibet. Xizang Zizhiqu','(515)','Tibet. Daerah Otonomi Tibet. Xizang Zizhiqu','','','',false,true);
+d.add(385,380,'(517.9)','<div class="nodetag">(517.9)</div></span>&nbsp;&nbsp;Mongolia. Negara Mongolia. Mongol Uls','(517.9)','Mongolia. Negara Mongolia. Mongol Uls','','','',false,true);
+d.add(386,380,'(519)','<div class="nodetag">(519)</div></span>&nbsp;&nbsp;Korea','(519)','Korea','','','',false,true);
+d.add(387,386,'(519.3)','<div class="nodetag">(519.3)</div></span>&nbsp;&nbsp;Korea Utara. Republik Demokrasi Rakyat Korea. Choson Minjujuui inmin Konghwaguk','(519.3)','Korea Utara. Republik Demokrasi Rakyat Korea. Choson Minjujuui inmin Konghwaguk','','','',false,true);
+d.add(388,386,'(519.5)','<div class="nodetag">(519.5)</div></span>&nbsp;&nbsp;Korea Selatan. Republik Korea. Taehan Min\'guk','(519.5)','Korea Selatan. Republik Korea. Taehan Min\'guk','','','',false,true);
+d.add(389,380,'(52)','<div class="nodetag">(52)</div></span>&nbsp;&nbsp;Jepang dan pulau sekitarnya','(52)','Jepang dan pulau sekitarnya','','','',false,true);
+d.add(390,389,'(520)','<div class="nodetag">(520)</div></span>&nbsp;&nbsp;Jepang. Nippon/ Nihon. Nippon-koku/ Nihon Koku','(520)','Jepang. Nippon/ Nihon. Nippon-koku/ Nihon Koku','','','',false,true);
+d.add(391,389,'(529)','<div class="nodetag">(529)</div></span>&nbsp;&nbsp;Taiwan. Republik Cina. Zhonghua Minguo','(529)','Taiwan. Republik Cina. Zhonghua Minguo','','','',false,true);
+d.add(392,380,'(53)','<div class="nodetag">(53)</div></span>&nbsp;&nbsp;Negara-negara dan teritori Arab.','(53)','Negara-negara dan teritori Arab.','','','',false,true);
+d.add(393,392,'(532)','<div class="nodetag">(532)</div></span>&nbsp;&nbsp;Saudia Arabia. Kerajaan Saudi Arabia. Al-Mamlaka al-Arabiyya as Suudiyya','(532)','Saudia Arabia. Kerajaan Saudi Arabia. Al-Mamlaka al-Arabiyya as Suudiyya','','','',false,true);
+d.add(394,392,'(533)','<div class="nodetag">(533)</div></span>&nbsp;&nbsp;Yaman. Republik Yaman. Al-Jumhuriyyah al-Yamaniyyah','(533)','Yaman. Republik Yaman. Al-Jumhuriyyah al-Yamaniyyah','','','',false,true);
+d.add(395,392,'(535)','<div class="nodetag">(535)</div></span>&nbsp;&nbsp;Oman. Kesultanan Oman. Saltanat Uman','(535)','Oman. Kesultanan Oman. Saltanat Uman','','','',false,true);
+d.add(396,392,'(536)','<div class="nodetag">(536)</div></span>&nbsp;&nbsp;Negara-negara Arab Timur (negara-negara Teluk)','(536)','Negara-negara Arab Timur (negara-negara Teluk)','','','',false,true);
+d.add(397,396,'(536.2)','<div class="nodetag">(536.2)</div></span>&nbsp;&nbsp;Emirat Arab Serikat. Dawlat al-imarata al-Arabiyah al-Muttahidah','(536.2)','Emirat Arab Serikat. Dawlat al-imarata al-Arabiyah al-Muttahidah','','','',false,true);
+d.add(398,396,'(536.4)','<div class="nodetag">(536.4)</div></span>&nbsp;&nbsp;Qatar. Negara Qatar. Daulat Qatar','(536.4)','Qatar. Negara Qatar. Daulat Qatar','','','',false,true);
+d.add(399,396,'(536.5)','<div class="nodetag">(536.5)</div></span>&nbsp;&nbsp;Bahrain. Kerajaan Bahwain. Mamlakat al-Bahrayn','(536.5)','Bahrain. Kerajaan Bahwain. Mamlakat al-Bahrayn','','','',false,true);
+d.add(400,396,'(536.8)','<div class="nodetag">(536.8)</div></span>&nbsp;&nbsp;Kuwait. Negara Kuwait. Daulat al-Kuwayt','(536.8)','Kuwait. Negara Kuwait. Daulat al-Kuwayt','','','',false,true);
+d.add(401,380,'(54)','<div class="nodetag">(54)</div></span>&nbsp;&nbsp;Negara-negara di anak benua India','(54)','Negara-negara di anak benua India','','','',false,true);
+d.add(402,401,'(540)','<div class="nodetag">(540)</div></span>&nbsp;&nbsp;India. Republik India. Bharat Ganarajya','(540)','India. Republik India. Bharat Ganarajya','','','',false,true);
+d.add(403,401,'(541.31)','<div class="nodetag">(541.31)</div></span>&nbsp;&nbsp;Bhutan. Kerajaan Bhutan. Druk-yul. Druk Gyai Khab (Dru Gakhap)','(541.31)','Bhutan. Kerajaan Bhutan. Druk-yul. Druk Gyai Khab (Dru Gakhap)','','','',false,true);
+d.add(404,401,'(541.35)','<div class="nodetag">(541.35)</div></span>&nbsp;&nbsp;Nepal. Republik Demokrasi Federal Nepal. Sanghiya Loktantrik Ganatantra Nepal','(541.35)','Nepal. Republik Demokrasi Federal Nepal. Sanghiya Loktantrik Ganatantra Nepal','','','',false,true);
+d.add(405,401,'(548.7)','<div class="nodetag">(548.7)</div></span>&nbsp;&nbsp;Sri Lanka. Republik Sosialis Demokrasi Sri Lanka. Sri Lanka Prajathanthrika Samajavadi Janaraya Illanka','(548.7)','Sri Lanka. Republik Sosialis Demokrasi Sri Lanka. Sri Lanka Prajathanthrika Samajavadi Janaraya Illanka','','','',false,true);
+d.add(406,401,'(548.82)','<div class="nodetag">(548.82)</div></span>&nbsp;&nbsp;Maladewa. Republik Maladewa. Divehi Rajjey ge Jumhuriyya','(548.82)','Maladewa. Republik Maladewa. Divehi Rajjey ge Jumhuriyya','','','',false,true);
+d.add(407,401,'(549.1)','<div class="nodetag">(549.1)</div></span>&nbsp;&nbsp;Pakistan. Republik islam Pakistan. Islami Jumhuri-ye Pakistan.','(549.1)','Pakistan. Republik islam Pakistan. Islami Jumhuri-ye Pakistan.','','','',false,true);
+d.add(408,401,'(549.3)','<div class="nodetag">(549.3)</div></span>&nbsp;&nbsp;Bangladesh. Republik Rakyat Bangladesh. Gonoprojatontri Bangladesh','(549.3)','Bangladesh. Republik Rakyat Bangladesh. Gonoprojatontri Bangladesh','','','',false,true);
+d.add(409,380,'(55)','<div class="nodetag">(55)</div></span>&nbsp;&nbsp;Iran. Republik Islam Iran. Jomhuri-ye Eslami-ye Iran','(55)','Iran. Republik Islam Iran. Jomhuri-ye Eslami-ye Iran','','','',false,true);
+d.add(410,380,'(56)','<div class="nodetag">(56)</div></span>&nbsp;&nbsp;Levant. Asia Kecil','(56)','Levant. Asia Kecil','','','',false,true);
+d.add(411,410,'(560)','<div class="nodetag">(560)</div></span>&nbsp;&nbsp;Turki. Republik Turki. Turkiye Cumhuriyeti','(560)','Turki. Republik Turki. Turkiye Cumhuriyeti','','','',false,true);
+d.add(412,410,'(564.3)','<div class="nodetag">(564.3)</div></span>&nbsp;&nbsp;Siprus. Republik Siprus. Kypriaki DimokratiaKibris Cumhuriyeti','(564.3)','Siprus. Republik Siprus. Kypriaki DimokratiaKibris Cumhuriyeti','','','',false,true);
+d.add(413,410,'(567)','<div class="nodetag">(567)</div></span>&nbsp;&nbsp;Irak. Republik Irak. Jumhuriyat Al-Iraq. Komara Iraqe','(567)','Irak. Republik Irak. Jumhuriyat Al-Iraq. Komara Iraqe','','','',false,true);
+d.add(414,410,'(569.1)','<div class="nodetag">(569.1)</div></span>&nbsp;&nbsp;Syria. Republik Arab Syria. Surya Al-Jumhuriyyah al-Arabiyyah as-Suriyyah','(569.1)','Syria. Republik Arab Syria. Surya Al-Jumhuriyyah al-Arabiyyah as-Suriyyah','','','',false,true);
+d.add(415,410,'(569.3)','<div class="nodetag">(569.3)</div></span>&nbsp;&nbsp;Lebanon. Republik Lebanon. Lubnan. Liban al-Jumhuriyah al-Lubnaniyah. Republique Libanaise','(569.3)','Lebanon. Republik Lebanon. Lubnan. Liban al-Jumhuriyah al-Lubnaniyah. Republique Libanaise','','','',false,true);
+d.add(416,410,'(569.4)','<div class="nodetag">(569.4)</div></span>&nbsp;&nbsp;Israel. Negara Israel. Medinant Yisra\'el. Dawlat Isra\'il','(569.4)','Israel. Negara Israel. Medinant Yisra\'el. Dawlat Isra\'il','','','',false,true);
+d.add(417,410,'(569.5)','<div class="nodetag">(569.5)</div></span>&nbsp;&nbsp;Jordan. Kerajaan Hashmit Jordan. Urdunn / L\'Urdunn, al Mamlaka al Urduniya Hasemiyah','(569.5)','Jordan. Kerajaan Hashmit Jordan. Urdunn / L\'Urdunn, al Mamlaka al Urduniya Hasemiyah','','','',false,true);
+d.add(418,380,'(57)','<div class="nodetag">(57)</div></span>&nbsp;&nbsp;Bekas USSR Asia','(57)','Bekas USSR Asia','','','',false,true);
+d.add(419,418,'(571)','<div class="nodetag">(571)</div></span>&nbsp;&nbsp;Federasi Rusia di Asia','(571)','Federasi Rusia di Asia','','','',false,true);
+d.add(420,418,'(574)','<div class="nodetag">(574)</div></span>&nbsp;&nbsp;Kazakhstan. Republik Kazahkstan. Qazaqstan Respublikasy. Respublika Kazakhstan','(574)','Kazakhstan. Republik Kazahkstan. Qazaqstan Respublikasy. Respublika Kazakhstan','','','',false,true);
+d.add(421,418,'(575.1)','<div class="nodetag">(575.1)</div></span>&nbsp;&nbsp;Uzbekistan. Republik Uzbekistan. O\'zbekiston Respublikasi','(575.1)','Uzbekistan. Republik Uzbekistan. O\'zbekiston Respublikasi','','','',false,true);
+d.add(422,418,'(575.2)','<div class="nodetag">(575.2)</div></span>&nbsp;&nbsp;Kyrgyzstan. Republik Kyrgyztan. Kyrgyz Respublikasy Kyrgyzkaya Respublika','(575.2)','Kyrgyzstan. Republik Kyrgyztan. Kyrgyz Respublikasy Kyrgyzkaya Respublika','','','',false,true);
+d.add(423,418,'(575.3)','<div class="nodetag">(575.3)</div></span>&nbsp;&nbsp;Tajikistan. Republik Tajikistan. Jumhuri Tojikiston','(575.3)','Tajikistan. Republik Tajikistan. Jumhuri Tojikiston','','','',false,true);
+d.add(424,418,'(575.4)','<div class="nodetag">(575.4)</div></span>&nbsp;&nbsp;Turkmenistan. Republik Turkmenistan. Tukmenia. Turkmenistan Republikasy','(575.4)','Turkmenistan. Republik Turkmenistan. Tukmenia. Turkmenistan Republikasy','','','',false,true);
+d.add(425,380,'(581)','<div class="nodetag">(581)</div></span>&nbsp;&nbsp;Afghanistan. Republik islam Afghanistan. Afghanistan Jomhuri-ye eslami-ye Afghanistan. Da Afghanistan Islami Jomhoriyat','(581)','Afghanistan. Republik islam Afghanistan. Afghanistan Jomhuri-ye eslami-ye Afghanistan. Da Afghanistan Islami Jomhoriyat','','','',false,true);
+d.add(426,380,'(59)','<div class="nodetag">(59)</div></span>&nbsp;&nbsp;Negara-negara dan teritori Asia Tenggara','(59)','Negara-negara dan teritori Asia Tenggara','','','',false,true);
+d.add(427,426,'(591)','<div class="nodetag">(591)</div></span>&nbsp;&nbsp;Myanmar (Burmaa). Republik Uni Myanmar. Pyidaunzu Thanmada Myama Nainnngandaw','(591)','Myanmar (Burmaa). Republik Uni Myanmar. Pyidaunzu Thanmada Myama Nainnngandaw','','','',false,true);
+d.add(428,426,'(592.3)','<div class="nodetag">(592.3)</div></span>&nbsp;&nbsp;Singapura. Republik Singapura','(592.3)','Singapura. Republik Singapura','','','',false,true);
+d.add(429,426,'(592.6)','<div class="nodetag">(592.6)</div></span>&nbsp;&nbsp;Brunei. Kerajaan Brunei Darussalam. Negara Brunei Darussalam','(592.6)','Brunei. Kerajaan Brunei Darussalam. Negara Brunei Darussalam','','','',false,true);
+d.add(430,426,'(593)','<div class="nodetag">(593)</div></span>&nbsp;&nbsp;Thailand. Kerajaan Thailand. Muang Thai (Prathes Thai). Ratcha Anachak Thai','(593)','Thailand. Kerajaan Thailand. Muang Thai (Prathes Thai). Ratcha Anachak Thai','','','',false,true);
+d.add(431,426,'(594)','<div class="nodetag">(594)</div></span>&nbsp;&nbsp;Indonesia. Republik Indonesia. Republik Indonesia','(594)','Indonesia. Republik Indonesia. Republik Indonesia','','','',false,true);
+d.add(432,426,'(595)','<div class="nodetag">(595)</div></span>&nbsp;&nbsp;Malaysia. Federasi Malaysia. Persekutuan Tanah Malaysia','(595)','Malaysia. Federasi Malaysia. Persekutuan Tanah Malaysia','','','',false,true);
+d.add(433,426,'(596/598)','<div class="nodetag">(596/598)</div></span>&nbsp;&nbsp;Indo-Cina','(596/598)','Indo-Cina','','','',false,true);
+d.add(434,433,'(596)','<div class="nodetag">(596)</div></span>&nbsp;&nbsp;Kambodia. Kerajaan Kambodia. Srok Khmae (Prateh Kampuchea). Preah Reachea Anachak Kampuchea','(596)','Kambodia. Kerajaan Kambodia. Srok Khmae (Prateh Kampuchea). Preah Reachea Anachak Kampuchea','','','',false,true);
+d.add(435,433,'(597)','<div class="nodetag">(597)</div></span>&nbsp;&nbsp;Vietnam. Republik Sosialis Vietnam. Cong hoa xa hoi chu nghia Viet Nam','(597)','Vietnam. Republik Sosialis Vietnam. Cong hoa xa hoi chu nghia Viet Nam','','','',false,true);
+d.add(436,433,'(598)','<div class="nodetag">(598)</div></span>&nbsp;&nbsp;Laos. Republik Demokrasi Rakyat Laos. Meuang Lao. Sathanalat Paxayhipatai','(598)','Laos. Republik Demokrasi Rakyat Laos. Meuang Lao. Sathanalat Paxayhipatai','','','',false,true);
+d.add(437,426,'(599)','<div class="nodetag">(599)</div></span>&nbsp;&nbsp;Filipina. Republik Filipina. Republika ng Pilipinas','(599)','Filipina. Republik Filipina. Republika ng Pilipinas','','','',false,true);
+d.add(438,326,'(6)','<div class="nodetag">(6)</div></span>&nbsp;&nbsp;Afrika','(6)','Afrika','','','',false,true);
+d.add(439,438,'(61)','<div class="nodetag">(61)</div></span>&nbsp;&nbsp;Negara-negara Afrika utara pada umumnya. Maghribi. Negara-negara Bajak Laut','(61)','Negara-negara Afrika utara pada umumnya. Maghribi. Negara-negara Bajak Laut','','','',false,true);
+d.add(440,439,'(611)','<div class="nodetag">(611)</div></span>&nbsp;&nbsp;Tunisia. Republik Tunisia. Tunis / Tunis. Al-Jumhuriyya at-Tumisiya','(611)','Tunisia. Republik Tunisia. Tunis / Tunis. Al-Jumhuriyya at-Tumisiya','','','',false,true);
+d.add(441,439,'(612)','<div class="nodetag">(612)</div></span>&nbsp;&nbsp;Libya. Negara Libya. Libya','(612)','Libya. Negara Libya. Libya','','','',false,true);
+d.add(442,438,'(620)','<div class="nodetag">(620)</div></span>&nbsp;&nbsp;Mesir. Republik Arab Mesir. MiSr. Gumhuriyatu Misra i-Arabiya','(620)','Mesir. Republik Arab Mesir. MiSr. Gumhuriyatu Misra i-Arabiya','','','',false,true);
+d.add(443,438,'(624)','<div class="nodetag">(624)</div></span>&nbsp;&nbsp;Republik Sudan. Republik Sudan Selatan','(624)','Republik Sudan. Republik Sudan Selatan','','','',false,true);
+d.add(444,443,'(624.1)','<div class="nodetag">(624.1)</div></span>&nbsp;&nbsp;Sudan. Al-Sudan. Republik Sudan. Jumhuriyyat as-Sudan','(624.1)','Sudan. Al-Sudan. Republik Sudan. Jumhuriyyat as-Sudan','','','',false,true);
+d.add(445,443,'(624.4)','<div class="nodetag">(624.4)</div></span>&nbsp;&nbsp;Republik Sudan Selatan','(624.4)','Republik Sudan Selatan','','','',false,true);
+d.add(446,438,'(630)','<div class="nodetag">(630)</div></span>&nbsp;&nbsp;Ethiopia. Republik Demokrasi Federal Ethiopia. Ityoppya ye-Ityoppya Federalawi Dimokrasiyawi Ripeblik / ya-ityopya Federalawi Dimokrasiyawi Ripablik','(630)','Ethiopia. Republik Demokrasi Federal Ethiopia. Ityoppya ye-Ityoppya Federalawi Dimokrasiyawi Ripeblik / ya-ityopya Federalawi Dimokrasiyawi Ripablik','','','',false,true);
+d.add(447,438,'(635)','<div class="nodetag">(635)</div></span>&nbsp;&nbsp;Eritrea. Negara Eritrea. Ertra. Hagare Ertra (Dawlatu Iritriya)','(635)','Eritrea. Negara Eritrea. Ertra. Hagare Ertra (Dawlatu Iritriya)','','','',false,true);
+d.add(448,438,'(64)','<div class="nodetag">(64)</div></span>&nbsp;&nbsp;Maroko. Kerajaan Maroko. Al-Magrib. Al-Mamlakatu i-Magribiya','(64)','Maroko. Kerajaan Maroko. Al-Magrib. Al-Mamlakatu i-Magribiya','','','',false,true);
+d.add(449,438,'(65)','<div class="nodetag">(65)</div></span>&nbsp;&nbsp;Aljazair. Republik Demokrasi Rakyat Aljazair. Al Jasa\'ir. Al Jumhuriyah al Jaza\'iriyah ad Dimuqratiyah ash Sha\'biyah','(65)','Aljazair. Republik Demokrasi Rakyat Aljazair. Al Jasa\'ir. Al Jumhuriyah al Jaza\'iriyah ad Dimuqratiyah ash Sha\'biyah','','','',false,true);
+d.add(450,438,'(66)','<div class="nodetag">(66)</div></span>&nbsp;&nbsp;Negara dan teritori Afrika Barat secara sempit','(66)','Negara dan teritori Afrika Barat secara sempit','','','',false,true);
+d.add(451,450,'(661.2)','<div class="nodetag">(661.2)</div></span>&nbsp;&nbsp;Mauritania. Republik Islam Mauritania. Muritaniya. Al-Jumhuriyyah al-Islamiyyah al-Muritaniyyah','(661.2)','Mauritania. Republik Islam Mauritania. Muritaniya. Al-Jumhuriyyah al-Islamiyyah al-Muritaniyyah','','','',false,true);
+d.add(452,450,'(662.1)','<div class="nodetag">(662.1)</div></span>&nbsp;&nbsp;Mali. Republik Mali. Republique du Mali','(662.1)','Mali. Republik Mali. Republique du Mali','','','',false,true);
+d.add(453,450,'(662.5)','<div class="nodetag">(662.5)</div></span>&nbsp;&nbsp;Burkina Faso. Republik Demokrasi Rakyat Burkina Faso. Republique Democratique Populaire de Burknia Faso','(662.5)','Burkina Faso. Republik Demokrasi Rakyat Burkina Faso. Republique Democratique Populaire de Burknia Faso','','','',false,true);
+d.add(454,450,'(662.6)','<div class="nodetag">(662.6)</div></span>&nbsp;&nbsp;Niger. Republik Niger. Republique du Niger','(662.6)','Niger. Republik Niger. Republique du Niger','','','',false,true);
+d.add(455,450,'(663)','<div class="nodetag">(663)</div></span>&nbsp;&nbsp;Senegal. Republik Senegal. Republique du Senegal','(663)','Senegal. Republik Senegal. Republique du Senegal','','','',false,true);
+d.add(456,450,'(664)','<div class="nodetag">(664)</div></span>&nbsp;&nbsp;Sierra Leone. Republik Sierra Leone.','(664)','Sierra Leone. Republik Sierra Leone.','','','',false,true);
+d.add(457,450,'(665)','<div class="nodetag">(665)</div></span>&nbsp;&nbsp;Gambia dan Guinea','(665)','Gambia dan Guinea','','','',false,true);
+d.add(458,457,'(665.1)','<div class="nodetag">(665.1)</div></span>&nbsp;&nbsp;Gambia. Gambia. Republik Gambia','(665.1)','Gambia. Gambia. Republik Gambia','','','',false,true);
+d.add(459,457,'(665.2)','<div class="nodetag">(665.2)</div></span>&nbsp;&nbsp;Guinea. Republik Guinea. Republique de Guinee','(665.2)','Guinea. Republik Guinea. Republique de Guinee','','','',false,true);
+d.add(460,457,'(665.7)','<div class="nodetag">(665.7)</div></span>&nbsp;&nbsp;Guinea-Bissau. Republik Guinea-Bissau. Republica da Guine-Bissau','(665.7)','Guinea-Bissau. Republik Guinea-Bissau. Republica da Guine-Bissau','','','',false,true);
+d.add(461,457,'(665.8)','<div class="nodetag">(665.8)</div></span>&nbsp;&nbsp;Tanjung Verde. Republik Cape Verde. Republica de Cabo Verde','(665.8)','Tanjung Verde. Republik Cape Verde. Republica de Cabo Verde','','','',false,true);
+d.add(462,450,'(666.2)','<div class="nodetag">(666.2)</div></span>&nbsp;&nbsp;Liberia. Republik Liberia','(666.2)','Liberia. Republik Liberia','','','',false,true);
+d.add(463,450,'(666.8)','<div class="nodetag">(666.8)</div></span>&nbsp;&nbsp;Pantai Gading. Republik Pantai Gading. Pantai Gading. Republique de Cote d\'Ivoire','(666.8)','Pantai Gading. Republik Pantai Gading. Pantai Gading. Republique de Cote d\'Ivoire','','','',false,true);
+d.add(464,450,'(667)','<div class="nodetag">(667)</div></span>&nbsp;&nbsp;Ghana.epublik Ghana','(667)','Ghana.epublik Ghana','','','',false,true);
+d.add(465,450,'(668.1)','<div class="nodetag">(668.1)</div></span>&nbsp;&nbsp;Togo. Republik Togo. Republique togolaise','(668.1)','Togo. Republik Togo. Republique togolaise','','','',false,true);
+d.add(466,450,'(668.2)','<div class="nodetag">(668.2)</div></span>&nbsp;&nbsp;Benin. Republik Benin. Republique du Benin.','(668.2)','Benin. Republik Benin. Republique du Benin.','','','',false,true);
+d.add(467,450,'(669.1)','<div class="nodetag">(669.1)</div></span>&nbsp;&nbsp;Nigeria. Republik Federal Nigeria','(669.1)','Nigeria. Republik Federal Nigeria','','','',false,true);
+d.add(468,450,'(669.95)','<div class="nodetag">(669.95)</div></span>&nbsp;&nbsp;Sao Tome dan Principe. Republik Demokrasi Sao Tome dan Principe. Republica Democratica de Sao Tome e Principe','(669.95)','Sao Tome dan Principe. Republik Demokrasi Sao Tome dan Principe. Republica Democratica de Sao Tome e Principe','','','',false,true);
+d.add(469,438,'(67)','<div class="nodetag">(67)</div></span>&nbsp;&nbsp;Negara-negara dan teritori Afrika ekuator, tengah dan timur','(67)','Negara-negara dan teritori Afrika ekuator, tengah dan timur','','','',false,true);
+d.add(470,469,'(671.1)','<div class="nodetag">(671.1)</div></span>&nbsp;&nbsp;Kamerun. Republik Serikat Kamerun','(671.1)','Kamerun. Republik Serikat Kamerun','','','',false,true);
+d.add(471,469,'(671.8)','<div class="nodetag">(671.8)</div></span>&nbsp;&nbsp;Guinea Ekuator. Republik Guinea Equator','(671.8)','Guinea Ekuator. Republik Guinea Equator','','','',false,true);
+d.add(472,469,'(672.1)','<div class="nodetag">(672.1)</div></span>&nbsp;&nbsp;Gabon. Republik Gabon. Republique Gabonaise','(672.1)','Gabon. Republik Gabon. Republique Gabonaise','','','',false,true);
+d.add(473,469,'(672.4)','<div class="nodetag">(672.4)</div></span>&nbsp;&nbsp;Kongo. Republik Kongo. Republique du Congo. Republika ya Kongo. Republik ya Kongo.','(672.4)','Kongo. Republik Kongo. Republique du Congo. Republika ya Kongo. Republik ya Kongo.','','','',false,true);
+d.add(474,469,'(673)','<div class="nodetag">(673)</div></span>&nbsp;&nbsp;Angola. Republik Angola','(673)','Angola. Republik Angola','','','',false,true);
+d.add(475,469,'(674.1)','<div class="nodetag">(674.1)</div></span>&nbsp;&nbsp;Republik Afrika Tengah','(674.1)','Republik Afrika Tengah','','','',false,true);
+d.add(476,469,'(674.3)','<div class="nodetag">(674.3)</div></span>&nbsp;&nbsp;Chad. Republik Chad','(674.3)','Chad. Republik Chad','','','',false,true);
+d.add(477,469,'(675)','<div class="nodetag">(675)</div></span>&nbsp;&nbsp;Republik Demokrasi Kongo. Republique Democratique du Congo. Republik ya Kongo Demokratiki. Jamhuri ya Kidemokrasia ya Kongo.','(675)','Republik Demokrasi Kongo. Republique Democratique du Congo. Republik ya Kongo Demokratiki. Jamhuri ya Kidemokrasia ya Kongo.','','','',false,true);
+d.add(478,477,'(675.97)','<div class="nodetag">(675.97)</div></span>&nbsp;&nbsp;Burundi. Republik Burundi','(675.97)','Burundi. Republik Burundi','','','',false,true);
+d.add(479,477,'(675.98)','<div class="nodetag">(675.98)</div></span>&nbsp;&nbsp;Rwanda. Republik Rwanda','(675.98)','Rwanda. Republik Rwanda','','','',false,true);
+d.add(480,469,'(676.1)','<div class="nodetag">(676.1)</div></span>&nbsp;&nbsp;Uganda. Republik Uganda','(676.1)','Uganda. Republik Uganda','','','',false,true);
+d.add(481,469,'(676.2)','<div class="nodetag">(676.2)</div></span>&nbsp;&nbsp;Kenya. Republik Kenya. Jamhuri ya Kenya','(676.2)','Kenya. Republik Kenya. Jamhuri ya Kenya','','','',false,true);
+d.add(482,469,'(677.8)','<div class="nodetag">(677.8)</div></span>&nbsp;&nbsp;Somalia. Republik Demokrasi Somali','(677.8)','Somalia. Republik Demokrasi Somali','','','',false,true);
+d.add(483,469,'(677.9)','<div class="nodetag">(677.9)</div></span>&nbsp;&nbsp;Jubuti. i. Republik Jibuti. . Jumhouriya Jibuti','(677.9)','Jubuti. i. Republik Jibuti. . Jumhouriya Jibuti','','','',false,true);
+d.add(484,469,'(678)','<div class="nodetag">(678)</div></span>&nbsp;&nbsp;Tanzania. Republik Serikat Tanzania','(678)','Tanzania. Republik Serikat Tanzania','','','',false,true);
+d.add(485,469,'(679)','<div class="nodetag">(679)</div></span>&nbsp;&nbsp;Mozambik.. Republik Mozambik.. Republica de Mocambique','(679)','Mozambik.. Republik Mozambik.. Republica de Mocambique','','','',false,true);
+d.add(486,438,'(68)','<div class="nodetag">(68)</div></span>&nbsp;&nbsp;Negara-negara dan teritori Afrika bagian selatan','(68)','Negara-negara dan teritori Afrika bagian selatan','','','',false,true);
+d.add(487,486,'(680)','<div class="nodetag">(680)</div></span>&nbsp;&nbsp;Afrika Selatan. Republik Afrika Selatan.','(680)','Afrika Selatan. Republik Afrika Selatan.','','','',false,true);
+d.add(488,486,'(688.1)','<div class="nodetag">(688.1)</div></span>&nbsp;&nbsp;Namibia. Republik Namibia','(688.1)','Namibia. Republik Namibia','','','',false,true);
+d.add(489,486,'(688.3)','<div class="nodetag">(688.3)</div></span>&nbsp;&nbsp;Botswana. Republik Botswana. Lefatse la Botswana','(688.3)','Botswana. Republik Botswana. Lefatse la Botswana','','','',false,true);
+d.add(490,486,'(688.5)','<div class="nodetag">(688.5)</div></span>&nbsp;&nbsp;Lesotho. Kerajaan Lesotho. Muso oa Lesotho','(688.5)','Lesotho. Kerajaan Lesotho. Muso oa Lesotho','','','',false,true);
+d.add(491,486,'(688.7)','<div class="nodetag">(688.7)</div></span>&nbsp;&nbsp;Swaziland. Kerajaan Swaziland. Umbuso weSwatini','(688.7)','Swaziland. Kerajaan Swaziland. Umbuso weSwatini','','','',false,true);
+d.add(492,486,'(689.1)','<div class="nodetag">(689.1)</div></span>&nbsp;&nbsp;Zimbabwe. Republik Zimbabwe','(689.1)','Zimbabwe. Republik Zimbabwe','','','',false,true);
+d.add(493,486,'(689.4)','<div class="nodetag">(689.4)</div></span>&nbsp;&nbsp;Zambia. Republik Zambia','(689.4)','Zambia. Republik Zambia','','','',false,true);
+d.add(494,486,'(689.7)','<div class="nodetag">(689.7)</div></span>&nbsp;&nbsp;Malawi. Republik Malawi','(689.7)','Malawi. Republik Malawi','','','',false,true);
+d.add(495,438,'(69)','<div class="nodetag">(69)</div></span>&nbsp;&nbsp;Pulau-pulau Afrika di Samudra India dan Atlantik Selatan','(69)','Pulau-pulau Afrika di Samudra India dan Atlantik Selatan','','','',false,true);
+d.add(496,495,'(691)','<div class="nodetag">(691)</div></span>&nbsp;&nbsp;Madagaskar. Republik Demokrasi Madagaskar. Repoblikan\' Madagasikara','(691)','Madagaskar. Republik Demokrasi Madagaskar. Repoblikan\' Madagasikara','','','',false,true);
+d.add(497,495,'(694)','<div class="nodetag">(694)</div></span>&nbsp;&nbsp;Pulau-pulau sebelah utara Madagaskar','(694)','Pulau-pulau sebelah utara Madagaskar','','','',false,true);
+d.add(498,495,'(696)','<div class="nodetag">(696)</div></span>&nbsp;&nbsp;Seychelles. Republik Seychelles. Republique des Seychelles','(696)','Seychelles. Republik Seychelles. Republique des Seychelles','','','',false,true);
+d.add(499,495,'(697)','<div class="nodetag">(697)</div></span>&nbsp;&nbsp;British Indian Occean Territory (BIOT) (Inggris)','(697)','British Indian Occean Territory (BIOT) (Inggris)','','','',false,true);
+d.add(500,495,'(698)','<div class="nodetag">(698)</div></span>&nbsp;&nbsp;Pulau Mascarene','(698)','Pulau Mascarene','','','',false,true);
+d.add(501,500,'(698.1)','<div class="nodetag">(698.1)</div></span>&nbsp;&nbsp;Reunion (Prancis), Mauritius','(698.1)','Reunion (Prancis), Mauritius','','','',false,true);
+d.add(502,500,'(698.2)','<div class="nodetag">(698.2)</div></span>&nbsp;&nbsp;Mauritius. Republik Mauritius. Republik Moris. Reppublique de Maurice','(698.2)','Mauritius. Republik Mauritius. Republik Moris. Reppublique de Maurice','','','',false,true);
+d.add(503,495,'(699)','<div class="nodetag">(699)</div></span>&nbsp;&nbsp;Pulau-pulau terpencil di Samudra India Selatan dan Atlantik Selatan','(699)','Pulau-pulau terpencil di Samudra India Selatan dan Atlantik Selatan','','','',false,true);
+d.add(504,326,'(7/8)','<div class="nodetag">(7/8)</div></span>&nbsp;&nbsp;Amerika, Amerika Selatan dan Utara. Amerika','(7/8)','Amerika, Amerika Selatan dan Utara. Amerika','','','',false,true);
+d.add(505,504,'(7)','<div class="nodetag">(7)</div></span>&nbsp;&nbsp;Amerika Utara dan Tengah','(7)','Amerika Utara dan Tengah','','','',false,true);
+d.add(506,505,'(71)','<div class="nodetag">(71)</div></span>&nbsp;&nbsp;Kanada','(71)','Kanada','','','',false,true);
+d.add(507,505,'(72)','<div class="nodetag">(72)</div></span>&nbsp;&nbsp;Meksiko. Negara-negara Amerika Tengah. Teritori Karibea','(72)','Meksiko. Negara-negara Amerika Tengah. Teritori Karibea','','','',false,true);
+d.add(508,507,'(721/727)','<div class="nodetag">(721/727)</div></span>&nbsp;&nbsp;Meksiko. Negara Meksiko Serikat. Mexico (Mejico). Establos Unidos Mexicanos','(721/727)','Meksiko. Negara Meksiko Serikat. Mexico (Mejico). Establos Unidos Mexicanos','','','',false,true);
+d.add(509,507,'(728)','<div class="nodetag">(728)</div></span>&nbsp;&nbsp;Negara-negara Amerika Tengah','(728)','Negara-negara Amerika Tengah','','','',false,true);
+d.add(510,509,'(728.1)','<div class="nodetag">(728.1)</div></span>&nbsp;&nbsp;Guatemala. Republik Guatemala. Republica de Guatemala.','(728.1)','Guatemala. Republik Guatemala. Republica de Guatemala.','','','',false,true);
+d.add(511,509,'(728.2)','<div class="nodetag">(728.2)</div></span>&nbsp;&nbsp;Belize. Belice','(728.2)','Belize. Belice','','','',false,true);
+d.add(512,509,'(728.3)','<div class="nodetag">(728.3)</div></span>&nbsp;&nbsp;Honduras. Republik Honduras. Republica de Honduras.','(728.3)','Honduras. Republik Honduras. Republica de Honduras.','','','',false,true);
+d.add(513,509,'(728.4)','<div class="nodetag">(728.4)</div></span>&nbsp;&nbsp;El Salvador. Republik El Salvador. Republica de El Salvador','(728.4)','El Salvador. Republik El Salvador. Republica de El Salvador','','','',false,true);
+d.add(514,509,'(728.5)','<div class="nodetag">(728.5)</div></span>&nbsp;&nbsp;Nikaragua. Republik Nikaragua. Republica de Nicaragua','(728.5)','Nikaragua. Republik Nikaragua. Republica de Nicaragua','','','',false,true);
+d.add(515,509,'(728.6)','<div class="nodetag">(728.6)</div></span>&nbsp;&nbsp;Kosta Rika. Republik Kosta Rika. Republica de Costa Rica','(728.6)','Kosta Rika. Republik Kosta Rika. Republica de Costa Rica','','','',false,true);
+d.add(516,509,'(728.7)','<div class="nodetag">(728.7)</div></span>&nbsp;&nbsp;Panama. Republik Panama. Republica de Panama','(728.7)','Panama. Republik Panama. Republica de Panama','','','',false,true);
+d.add(517,507,'(729)','<div class="nodetag">(729)</div></span>&nbsp;&nbsp;Teritori Karibea. India Barat (Antilles)','(729)','Teritori Karibea. India Barat (Antilles)','','','',false,true);
+d.add(518,517,'(729.1/.5)','<div class="nodetag">(729.1/.5)</div></span>&nbsp;&nbsp;Antilles Besar','(729.1/.5)','Antilles Besar','','','',false,true);
+d.add(519,518,'(729.1)','<div class="nodetag">(729.1)</div></span>&nbsp;&nbsp;kuba. Republik Kuba. Republica de Cuba','(729.1)','kuba. Republik Kuba. Republica de Cuba','','','',false,true);
+d.add(520,518,'(729.2)','<div class="nodetag">(729.2)</div></span>&nbsp;&nbsp;Jamaika','(729.2)','Jamaika','','','',false,true);
+d.add(521,518,'(729.29)','<div class="nodetag">(729.29)</div></span>&nbsp;&nbsp;Cayman Islands (Inggris)','(729.29)','Cayman Islands (Inggris)','','','',false,true);
+d.add(522,518,'(729.3/.4)','<div class="nodetag">(729.3/.4)</div></span>&nbsp;&nbsp;Hispaniola','(729.3/.4)','Hispaniola','','','',false,true);
+d.add(523,522,'(729.3)','<div class="nodetag">(729.3)</div></span>&nbsp;&nbsp;Republik Dominika','(729.3)','Republik Dominika','','','',false,true);
+d.add(524,522,'(729.4)','<div class="nodetag">(729.4)</div></span>&nbsp;&nbsp;Haiti. Republik Haiti','(729.4)','Haiti. Republik Haiti','','','',false,true);
+d.add(525,518,'(729.5)','<div class="nodetag">(729.5)</div></span>&nbsp;&nbsp;Puerto Rico. Commonwealth of Puerto Rico (AS)','(729.5)','Puerto Rico. Commonwealth of Puerto Rico (AS)','','','',false,true);
+d.add(526,517,'(729.68)','<div class="nodetag">(729.68)</div></span>&nbsp;&nbsp;Kepulauan Turks dan Caicos (Inggris)','(729.68)','Kepulauan Turks dan Caicos (Inggris)','','','',false,true);
+d.add(527,517,'(729.7/.8)','<div class="nodetag">(729.7/.8)</div></span>&nbsp;&nbsp;Antilles Kecil (Karibea Timur)','(729.7/.8)','Antilles Kecil (Karibea Timur)','','','',false,true);
+d.add(528,527,'(729.7)','<div class="nodetag">(729.7)</div></span>&nbsp;&nbsp;Leeward islands','(729.7)','Leeward islands','','','',false,true);
+d.add(529,528,'(729.71)','<div class="nodetag">(729.71)</div></span>&nbsp;&nbsp;Kepulauan Virgin (Kepulauan Virgin Amerika) (AS)','(729.71)','Kepulauan Virgin (Kepulauan Virgin Amerika) (AS)','','','',false,true);
+d.add(530,528,'(729.724)','<div class="nodetag">(729.724)</div></span>&nbsp;&nbsp;St Kitts-Nevis. Federasi St Kitts-Nevis','(729.724)','St Kitts-Nevis. Federasi St Kitts-Nevis','','','',false,true);
+d.add(531,528,'(729.726)','<div class="nodetag">(729.726)</div></span>&nbsp;&nbsp;Antigua dan Barbuda','(729.726)','Antigua dan Barbuda','','','',false,true);
+d.add(532,528,'(729.727)','<div class="nodetag">(729.727)</div></span>&nbsp;&nbsp;Montserrat (Inggris)','(729.727)','Montserrat (Inggris)','','','',false,true);
+d.add(533,528,'(729.74)','<div class="nodetag">(729.74)</div></span>&nbsp;&nbsp;Teritori Prancis di Antilles kecil','(729.74)','Teritori Prancis di Antilles kecil','','','',false,true);
+d.add(534,533,'(729.741)','<div class="nodetag">(729.741)</div></span>&nbsp;&nbsp;Guadaloupe (daerah dan departemen seberang lautan) (Prancis)','(729.741)','Guadaloupe (daerah dan departemen seberang lautan) (Prancis)','','','',false,true);
+d.add(535,533,'(729.745)','<div class="nodetag">(729.745)</div></span>&nbsp;&nbsp;Martinique (kawasan dan departemen seberang lautan) (Prancis)','(729.745)','Martinique (kawasan dan departemen seberang lautan) (Prancis)','','','',false,true);
+d.add(536,527,'(729.8)','<div class="nodetag">(729.8)</div></span>&nbsp;&nbsp;Windward Islands','(729.8)','Windward Islands','','','',false,true);
+d.add(537,536,'(729.821)','<div class="nodetag">(729.821)</div></span>&nbsp;&nbsp;Dominika. Commonwealth of Dominica','(729.821)','Dominika. Commonwealth of Dominica','','','',false,true);
+d.add(538,536,'(729.822)','<div class="nodetag">(729.822)</div></span>&nbsp;&nbsp;Saint Lucia. Negara Saint Lucia','(729.822)','Saint Lucia. Negara Saint Lucia','','','',false,true);
+d.add(539,536,'(729.824)','<div class="nodetag">(729.824)</div></span>&nbsp;&nbsp;saint Vincent. Saint Vincent dan Grenadines','(729.824)','saint Vincent. Saint Vincent dan Grenadines','','','',false,true);
+d.add(540,536,'(729.828)','<div class="nodetag">(729.828)</div></span>&nbsp;&nbsp;Grenada','(729.828)','Grenada','','','',false,true);
+d.add(541,536,'(729.86)','<div class="nodetag">(729.86)</div></span>&nbsp;&nbsp;Barbados','(729.86)','Barbados','','','',false,true);
+d.add(542,536,'(729.87)','<div class="nodetag">(729.87)</div></span>&nbsp;&nbsp;Trinidad dan Toibago. Republik Trinidad dan Tibago','(729.87)','Trinidad dan Toibago. Republik Trinidad dan Tibago','','','',false,true);
+d.add(543,536,'(729.88)','<div class="nodetag">(729.88)</div></span>&nbsp;&nbsp;Teritori Nederland di Antilles Kecil (Karibea). Nederlandse Antillen. Antia Hulandes','(729.88)','Teritori Nederland di Antilles Kecil (Karibea). Nederlandse Antillen. Antia Hulandes','','','',false,true);
+d.add(544,543,'(729.885)','<div class="nodetag">(729.885)</div></span>&nbsp;&nbsp;Aruba (Kerajaan belanda)','(729.885)','Aruba (Kerajaan belanda)','','','',false,true);
+d.add(545,517,'(729.9)','<div class="nodetag">(729.9)</div></span>&nbsp;&nbsp;Bermuda (Somers Islands) (Inggris)','(729.9)','Bermuda (Somers Islands) (Inggris)','','','',false,true);
+d.add(546,505,'(73)','<div class="nodetag">(73)</div></span>&nbsp;&nbsp;Amerika Serikat (AS)','(73)','Amerika Serikat (AS)','','','',false,true);
+d.add(547,504,'(8)','<div class="nodetag">(8)</div></span>&nbsp;&nbsp;Amerika Selatan','(8)','Amerika Selatan','','','',false,true);
+d.add(548,547,'(81)','<div class="nodetag">(81)</div></span>&nbsp;&nbsp;Brazilia. Republik Federasi Brazilia. Republica Federativa do Brasil','(81)','Brazilia. Republik Federasi Brazilia. Republica Federativa do Brasil','','','',false,true);
+d.add(549,547,'(82)','<div class="nodetag">(82)</div></span>&nbsp;&nbsp;Argentina. Republik Argentina. Republica Argentina','(82)','Argentina. Republik Argentina. Republica Argentina','','','',false,true);
+d.add(550,547,'(83)','<div class="nodetag">(83)</div></span>&nbsp;&nbsp;Cile. Republik Cile. Republica de Chile','(83)','Cile. Republik Cile. Republica de Chile','','','',false,true);
+d.add(551,547,'(84)','<div class="nodetag">(84)</div></span>&nbsp;&nbsp;Bolivia. Negara Plurinasional Bolivia. Estado Plurinacional de Bolivia. Bulibya Mamallaqta. Wullwya Suhu. Teta Volivia','(84)','Bolivia. Negara Plurinasional Bolivia. Estado Plurinacional de Bolivia. Bulibya Mamallaqta. Wullwya Suhu. Teta Volivia','','','',false,true);
+d.add(552,547,'(85)','<div class="nodetag">(85)</div></span>&nbsp;&nbsp;Peru. Republik Peru. Republica del Peru','(85)','Peru. Republik Peru. Republica del Peru','','','',false,true);
+d.add(553,547,'(862)','<div class="nodetag">(862)</div></span>&nbsp;&nbsp;Kolombia. Republik Kolombia. Republica de Colombia','(862)','Kolombia. Republik Kolombia. Republica de Colombia','','','',false,true);
+d.add(554,547,'(866)','<div class="nodetag">(866)</div></span>&nbsp;&nbsp;Ekuador. Republik Ekuador. Republica del Ecuador','(866)','Ekuador. Republik Ekuador. Republica del Ecuador','','','',false,true);
+d.add(555,547,'(87)','<div class="nodetag">(87)</div></span>&nbsp;&nbsp;Venezuela. Republik Bolivar Venezuela. Republica Bolivariana de Venezuela.','(87)','Venezuela. Republik Bolivar Venezuela. Republica Bolivariana de Venezuela.','','','',false,true);
+d.add(556,547,'(88)','<div class="nodetag">(88)</div></span>&nbsp;&nbsp;Guiana','(88)','Guiana','','','',false,true);
+d.add(557,556,'(881)','<div class="nodetag">(881)</div></span>&nbsp;&nbsp;Guyana. Republik Ko-operatif Guyana','(881)','Guyana. Republik Ko-operatif Guyana','','','',false,true);
+d.add(558,556,'(882)','<div class="nodetag">(882)</div></span>&nbsp;&nbsp;Guiana Prancis. Departemen Seberang Laut Guyana. Guyane francaise . Guyane (departemen seberang lautan)','(882)','Guiana Prancis. Departemen Seberang Laut Guyana. Guyane francaise . Guyane (departemen seberang lautan)','','','',false,true);
+d.add(559,556,'(883)','<div class="nodetag">(883)</div></span>&nbsp;&nbsp;Suriname. Republik Suriname. Sranan. Repoubliek Suriname','(883)','Suriname. Republik Suriname. Sranan. Repoubliek Suriname','','','',false,true);
+d.add(560,547,'(893)','<div class="nodetag">(893)</div></span>&nbsp;&nbsp;Paraguay. Republik Paraguay. Republica del Paraguay. Teta Paraguai.','(893)','Paraguay. Republik Paraguay. Republica del Paraguay. Teta Paraguai.','','','',false,true);
+d.add(561,547,'(899)','<div class="nodetag">(899)</div></span>&nbsp;&nbsp;Uruguay. Republik Timur Uruguay. Republica Oriental del Uruguay','(899)','Uruguay. Republik Timur Uruguay. Republica Oriental del Uruguay','','','',false,true);
+d.add(562,326,'(9)','<div class="nodetag">(9)</div></span>&nbsp;&nbsp;Negara dan kawasan Pasifik Selatan dan Australia Kutub Utara. Kutub Selatan','(9)','Negara dan kawasan Pasifik Selatan dan Australia Kutub Utara. Kutub Selatan','','','',false,true);
+d.add(563,562,'(931)','<div class="nodetag">(931)</div></span>&nbsp;&nbsp;New Zealand (Selandia Baru)','(931)','New Zealand (Selandia Baru)','','','',false,true);
+d.add(564,562,'(932/935)','<div class="nodetag">(932/935)</div></span>&nbsp;&nbsp;Melanesia. Negara dan kawasan Melanesia','(932/935)','Melanesia. Negara dan kawasan Melanesia','','','',false,true);
+d.add(565,562,'(94)','<div class="nodetag">(94)</div></span>&nbsp;&nbsp;Australia. Commonwealth of Australia','(94)','Australia. Commonwealth of Australia','','','',false,true);
+d.add(566,562,'(954)','<div class="nodetag">(954)</div></span>&nbsp;&nbsp;Papua Nugini. Negara Merdeka Papua New Guinea','(954)','Papua Nugini. Negara Merdeka Papua New Guinea','','','',false,true);
+d.add(567,562,'(961/964)','<div class="nodetag">(961/964)</div></span>&nbsp;&nbsp;Polynesia. Negara dan kawasan Polynesia','(961/964)','Polynesia. Negara dan kawasan Polynesia','','','',false,true);
+d.add(568,562,'(966/968)','<div class="nodetag">(966/968)</div></span>&nbsp;&nbsp;Micronesia. Negara dan kawasan Micronesia','(966/968)','Micronesia. Negara dan kawasan Micronesia','','','',false,true);
+d.add(569,562,'(97)','<div class="nodetag">(97)</div></span>&nbsp;&nbsp;Pulau-pulau terpencil Samudra Pasifik','(97)','Pulau-pulau terpencil Samudra Pasifik','','','',false,true);
+d.add(570,562,'(98)','<div class="nodetag">(98)</div></span>&nbsp;&nbsp;Teritori Kutub Utara','(98)','Teritori Kutub Utara','','','',false,true);
+d.add(571,570,'(988)','<div class="nodetag">(988)</div></span>&nbsp;&nbsp;Pulau Hijau. Greenland/Grondland (Denmark)','(988)','Pulau Hijau. Greenland/Grondland (Denmark)','','','',false,true);
+d.add(572,562,'(99)','<div class="nodetag">(99)</div></span>&nbsp;&nbsp;Teritori Kutub Selatan. Kawasan Kutub Selatan','(99)','Teritori Kutub Selatan. Kawasan Kutub Selatan','','','',false,true);
+d.add(573,0,'(=...)','<div class="nodetag">(=...)</div></span>&nbsp;&nbsp;Tanda bantu umum nenek moyang manusia, kelompok etnik dan kebangsaan. Tabel 1f','(=...)','Tanda bantu umum nenek moyang manusia, kelompok etnik dan kebangsaan. Tabel 1f','','','',false,true);
+d.add(574,573,'(=01)','<div class="nodetag">(=01)</div></span>&nbsp;&nbsp;Kelompok nenek moyang manusia','(=01)','Kelompok nenek moyang manusia','','','',false,true);
+d.add(575,574,'(=011)','<div class="nodetag">(=011)</div></span>&nbsp;&nbsp;Kelompok Purba Benua Eropa','(=011)','Kelompok Purba Benua Eropa','','','',false,true);
+d.add(576,574,'(=012)','<div class="nodetag">(=012)</div></span>&nbsp;&nbsp;Kelompok Purba Benua Asia','(=012)','Kelompok Purba Benua Asia','','','',false,true);
+d.add(577,574,'(=013)','<div class="nodetag">(=013)</div></span>&nbsp;&nbsp;Kelompok Purba Benua Afrika','(=013)','Kelompok Purba Benua Afrika','','','',false,true);
+d.add(578,574,'(=014)','<div class="nodetag">(=014)</div></span>&nbsp;&nbsp;Kelompok Purba Oceania','(=014)','Kelompok Purba Oceania','','','',false,true);
+d.add(579,574,'(=017)','<div class="nodetag">(=017)</div></span>&nbsp;&nbsp;Kelompok Purba Benua Asli Amerika','(=017)','Kelompok Purba Benua Asli Amerika','','','',false,true);
+d.add(580,573,'(=1/=8)','<div class="nodetag">(=1/=8)</div></span>&nbsp;&nbsp;Kelompok kultural-linguistoik, kelompok etnik, orang-orang','(=1/=8)','Kelompok kultural-linguistoik, kelompok etnik, orang-orang','','','',false,true);
+d.add(581,580,'(=1/=2)','<div class="nodetag">(=1/=2)</div></span>&nbsp;&nbsp;Orang-orang Indo-Eropa','(=1/=2)','Orang-orang Indo-Eropa','','','',false,true);
+d.add(582,581,'(=13)','<div class="nodetag">(=13)</div></span>&nbsp;&nbsp;Orang-orang Romanik, Latin','(=13)','Orang-orang Romanik, Latin','','','',false,true);
+d.add(583,573,'(=1:1/9)','<div class="nodetag">(=1:1/9)</div></span>&nbsp;&nbsp;Orang-orang yang diasosiakan dengan tempat tertentu','(=1:1/9)','Orang-orang yang diasosiakan dengan tempat tertentu','','','',false,true);
+d.add(584,0,'"..."','<div class="nodetag">"..."</div></span>&nbsp;&nbsp;Tanda bantu umum waktu. Tabel 1g','"..."','Tanda bantu umum waktu. Tabel 1g','','','',false,true);
+d.add(585,584,'"0/2"','<div class="nodetag">"0/2"</div></span>&nbsp;&nbsp;Tahun dan jangkauan waktu (Sesudah Masehi) dalam tarikh konvensional Masehi (Gregori)','"0/2"','Tahun dan jangkauan waktu (Sesudah Masehi) dalam tarikh konvensional Masehi (Gregori)','','','',false,true);
+d.add(586,585,'"0"','<div class="nodetag">"0"</div></span>&nbsp;&nbsp;Milenium Pertama Sesudah masehi','"0"','Milenium Pertama Sesudah masehi','','','',false,true);
+d.add(587,585,'"1"','<div class="nodetag">"1"</div></span>&nbsp;&nbsp;Milenium kedua Sesudah Masehi','"1"','Milenium kedua Sesudah Masehi','','','',false,true);
+d.add(588,585,'"2"','<div class="nodetag">"2"</div></span>&nbsp;&nbsp;Milenium Ketiga Sesudah Masehi','"2"','Milenium Ketiga Sesudah Masehi','','','',false,true);
+d.add(589,584,'"3/7"','<div class="nodetag">"3/7"</div></span>&nbsp;&nbsp;Pembagian waktu selain tahun dalam tarikh Masehi (Gregori)','"3/7"','Pembagian waktu selain tahun dalam tarikh Masehi (Gregori)','','','',false,true);
+d.add(590,589,'"3"','<div class="nodetag">"3"</div></span>&nbsp;&nbsp;Pembagian dan subpembagian konvensional waktu: bernomor, bernama, dsb','"3"','Pembagian dan subpembagian konvensional waktu: bernomor, bernama, dsb','','','',false,true);
+d.add(591,590,'"32"','<div class="nodetag">"32"</div></span>&nbsp;&nbsp;Tahun. Musim dan pembagian lain dari tahun','"32"','Tahun. Musim dan pembagian lain dari tahun','','','',false,true);
+d.add(592,591,'"321/324"','<div class="nodetag">"321/324"</div></span>&nbsp;&nbsp;Musim','"321/324"','Musim','','','',false,true);
+d.add(593,592,'"321"','<div class="nodetag">"321"</div></span>&nbsp;&nbsp;Musim semi','"321"','Musim semi','','','',false,true);
+d.add(594,592,'"322"','<div class="nodetag">"322"</div></span>&nbsp;&nbsp;Musim panas','"322"','Musim panas','','','',false,true);
+d.add(595,592,'"323"','<div class="nodetag">"323"</div></span>&nbsp;&nbsp;Musim gugur','"323"','Musim gugur','','','',false,true);
+d.add(596,592,'"324"','<div class="nodetag">"324"</div></span>&nbsp;&nbsp;Musim dingin','"324"','Musim dingin','','','',false,true);
+d.add(597,591,'"325"','<div class="nodetag">"325"</div></span>&nbsp;&nbsp;Kuartal (tahun kuartal, trisemester)','"325"','Kuartal (tahun kuartal, trisemester)','','','',false,true);
+d.add(598,591,'"327"','<div class="nodetag">"327"</div></span>&nbsp;&nbsp;Bulan','"327"','Bulan','','','',false,true);
+d.add(599,591,'"328"','<div class="nodetag">"328"</div></span>&nbsp;&nbsp;Minggu','"328"','Minggu','','','',false,true);
+d.add(600,591,'"329"','<div class="nodetag">"329"</div></span>&nbsp;&nbsp;Hari','"329"','Hari','','','',false,true);
+d.add(601,590,'"34"','<div class="nodetag">"34"</div></span>&nbsp;&nbsp;Fenomena siang dan malam. Jam atau waktu hari','"34"','Fenomena siang dan malam. Jam atau waktu hari','','','',false,true);
+d.add(602,601,'"344"','<div class="nodetag">"344"</div></span>&nbsp;&nbsp;Siang hari. Jam siang hari','"344"','Siang hari. Jam siang hari','','','',false,true);
+d.add(603,601,'"345"','<div class="nodetag">"345"</div></span>&nbsp;&nbsp;Malam hari. Saat gelap atau setengah gelap','"345"','Malam hari. Saat gelap atau setengah gelap','','','',false,true);
+d.add(604,590,'"36"','<div class="nodetag">"36"</div></span>&nbsp;&nbsp;Masa-masa damai, perang, bahaya, darurat, sulit.','"36"','Masa-masa damai, perang, bahaya, darurat, sulit.','','','',false,true);
+d.add(605,604,'"362"','<div class="nodetag">"362"</div></span>&nbsp;&nbsp;Masa damai. Masa tak ada bahaya','"362"','Masa damai. Masa tak ada bahaya','','','',false,true);
+d.add(606,604,'"363"','<div class="nodetag">"363"</div></span>&nbsp;&nbsp;Waktu berbahaya, ancaman','"363"','Waktu berbahaya, ancaman','','','',false,true);
+d.add(607,604,'"364"','<div class="nodetag">"364"</div></span>&nbsp;&nbsp;Masa perang','"364"','Masa perang','','','',false,true);
+d.add(608,604,'"367"','<div class="nodetag">"367"</div></span>&nbsp;&nbsp;Waktu menurut volume penggunaan, beban, permintaan','"367"','Waktu menurut volume penggunaan, beban, permintaan','','','',false,true);
+d.add(609,590,'"37"','<div class="nodetag">"37"</div></span>&nbsp;&nbsp;Waktu aktivitas kerja, pekerjaan, produksi, kegiatan rutin harian','"37"','Waktu aktivitas kerja, pekerjaan, produksi, kegiatan rutin harian','','','',false,true);
+d.add(610,609,'"372"','<div class="nodetag">"372"</div></span>&nbsp;&nbsp;Jam kerja. Jam layanan. Waktu kerja','"372"','Jam kerja. Jam layanan. Waktu kerja','','','',false,true);
+d.add(611,609,'"377"','<div class="nodetag">"377"</div></span>&nbsp;&nbsp;Waktu rehat dan rekreasi. Waktu senggang. Waktu bebas. Waktu di luar jam kerja.','"377"','Waktu rehat dan rekreasi. Waktu senggang. Waktu bebas. Waktu di luar jam kerja.','','','',false,true);
+d.add(612,590,'"38"','<div class="nodetag">"38"</div></span>&nbsp;&nbsp;Liburan. Peristiwa peringatan dan pesta','"38"','Liburan. Peristiwa peringatan dan pesta','','','',false,true);
+d.add(613,612,'"382"','<div class="nodetag">"382"</div></span>&nbsp;&nbsp;Liburan keagamaan, peristiwa peringatan dan pesta','"382"','Liburan keagamaan, peristiwa peringatan dan pesta','','','',false,true);
+d.add(614,612,'"383"','<div class="nodetag">"383"</div></span>&nbsp;&nbsp;Libur umum, nasional atau setempat (selain libur keagamaan)','"383"','Libur umum, nasional atau setempat (selain libur keagamaan)','','','',false,true);
+d.add(615,612,'"385"','<div class="nodetag">"385"</div></span>&nbsp;&nbsp;Liburan, vakansi atau cuti pribadi','"385"','Liburan, vakansi atau cuti pribadi','','','',false,true);
+d.add(616,589,'"4"','<div class="nodetag">"4"</div></span>&nbsp;&nbsp;Durasi. Rentang waktu. Periode. Kala. Masa dan kelompok masa.','"4"','Durasi. Rentang waktu. Periode. Kala. Masa dan kelompok masa.','','','',false,true);
+d.add(617,616,'"40"','<div class="nodetag">"40"</div></span>&nbsp;&nbsp;Durasi, periode, waktu relatif.','"40"','Durasi, periode, waktu relatif.','','','',false,true);
+d.add(618,617,'"401"','<div class="nodetag">"401"</div></span>&nbsp;&nbsp;Hidup atau masa hidup dengan syarat tertentu atau tenggat waktu. Periode daya tahan (ketahanan)','"401"','Hidup atau masa hidup dengan syarat tertentu atau tenggat waktu. Periode daya tahan (ketahanan)','','','',false,true);
+d.add(619,617,'"403"','<div class="nodetag">"403"</div></span>&nbsp;&nbsp;Durasi pendek. Waktu singkat','"403"','Durasi pendek. Waktu singkat','','','',false,true);
+d.add(620,617,'"404"','<div class="nodetag">"404"</div></span>&nbsp;&nbsp;Durasi sedang. Waktu sedang','"404"','Durasi sedang. Waktu sedang','','','',false,true);
+d.add(621,617,'"405"','<div class="nodetag">"405"</div></span>&nbsp;&nbsp;Durasi panjang. Waktu panjang','"405"','Durasi panjang. Waktu panjang','','','',false,true);
+d.add(622,617,'"408"','<div class="nodetag">"408"</div></span>&nbsp;&nbsp;Durasi taktertentu, tak terbatas. Tanpa waktu atau tengat waktu spesifik','"408"','Durasi taktertentu, tak terbatas. Tanpa waktu atau tengat waktu spesifik','','','',false,true);
+d.add(623,616,'"41"','<div class="nodetag">"41"</div></span>&nbsp;&nbsp;Durasi hingga satu hari','"41"','Durasi hingga satu hari','','','',false,true);
+d.add(624,616,'"42"','<div class="nodetag">"42"</div></span>&nbsp;&nbsp;Durasi dinyatakan dalam hari','"42"','Durasi dinyatakan dalam hari','','','',false,true);
+d.add(625,616,'"43"','<div class="nodetag">"43"</div></span>&nbsp;&nbsp;Durasi dinyatakan dalam minggu','"43"','Durasi dinyatakan dalam minggu','','','',false,true);
+d.add(626,616,'"44"','<div class="nodetag">"44"</div></span>&nbsp;&nbsp;durasi dinyatakan bulan','"44"','durasi dinyatakan bulan','','','',false,true);
+d.add(627,616,'"45"','<div class="nodetag">"45"</div></span>&nbsp;&nbsp;Durasi dinyatrakan dalam tahun, abad, millenium, dsb','"45"','Durasi dinyatrakan dalam tahun, abad, millenium, dsb','','','',false,true);
+d.add(628,616,'"46"','<div class="nodetag">"46"</div></span>&nbsp;&nbsp;Usia dan kelompok usia orang, benda bernyawa dan tak bernyawa','"46"','Usia dan kelompok usia orang, benda bernyawa dan tak bernyawa','','','',false,true);
+d.add(629,628,'"462"','<div class="nodetag">"462"</div></span>&nbsp;&nbsp;Usia dalam bilangan harian','"462"','Usia dalam bilangan harian','','','',false,true);
+d.add(630,628,'"463"','<div class="nodetag">"463"</div></span>&nbsp;&nbsp;Usia dalam bilangan minggu','"463"','Usia dalam bilangan minggu','','','',false,true);
+d.add(631,628,'"464"','<div class="nodetag">"464"</div></span>&nbsp;&nbsp;Usia dalam bilangan bulan','"464"','Usia dalam bilangan bulan','','','',false,true);
+d.add(632,628,'"465"','<div class="nodetag">"465"</div></span>&nbsp;&nbsp;Usia dinyatakan dalam bilangan tahun dan dasawarsa','"465"','Usia dinyatakan dalam bilangan tahun dan dasawarsa','','','',false,true);
+d.add(633,589,'"5"','<div class="nodetag">"5"</div></span>&nbsp;&nbsp;Keberkalaan. Frekuensi.Perulangan pada interval tertentu','"5"','Keberkalaan. Frekuensi.Perulangan pada interval tertentu','','','',false,true);
+d.add(634,633,'"51"','<div class="nodetag">"51"</div></span>&nbsp;&nbsp;Kejadian berulang pada interval kurang dari satu hari. Lebih sering daripada satu hari','"51"','Kejadian berulang pada interval kurang dari satu hari. Lebih sering daripada satu hari','','','',false,true);
+d.add(635,633,'"52"','<div class="nodetag">"52"</div></span>&nbsp;&nbsp;Kejadian berulang i pada interval 1 hari atau lebih (diungkapkan dalam hari)','"52"','Kejadian berulang i pada interval 1 hari atau lebih (diungkapkan dalam hari)','','','',false,true);
+d.add(636,633,'"53"','<div class="nodetag">"53"</div></span>&nbsp;&nbsp;Kejadian berulang pada interval 1 minggu atau lebih (dinyatakan dalam minggu)','"53"','Kejadian berulang pada interval 1 minggu atau lebih (dinyatakan dalam minggu)','','','',false,true);
+d.add(637,633,'"54"','<div class="nodetag">"54"</div></span>&nbsp;&nbsp;Kejadian berulang pada interval 1 bulan atau ;lebih (dinyatakan dalam bulan)','"54"','Kejadian berulang pada interval 1 bulan atau ;lebih (dinyatakan dalam bulan)','','','',false,true);
+d.add(638,633,'"55"','<div class="nodetag">"55"</div></span>&nbsp;&nbsp;Kejadian berulang pada interval 1 tahun atau lebih (diungkapkan dalam tahun, abad, milenium)','"55"','Kejadian berulang pada interval 1 tahun atau lebih (diungkapkan dalam tahun, abad, milenium)','','','',false,true);
+d.add(639,633,'"56"','<div class="nodetag">"56"</div></span>&nbsp;&nbsp;Kejadian berulang setiap generasi, waktu hidup dsb. Daur hidup','"56"','Kejadian berulang setiap generasi, waktu hidup dsb. Daur hidup','','','',false,true);
+d.add(640,589,'"6"','<div class="nodetag">"6"</div></span>&nbsp;&nbsp;Pembagian waktu geologi, arkeologi dan kultural','"6"','Pembagian waktu geologi, arkeologi dan kultural','','','',false,true);
+d.add(641,640,'"61/62"','<div class="nodetag">"61/62"</div></span>&nbsp;&nbsp;Pembagian waktu geologi. Geokronologi.','"61/62"','Pembagian waktu geologi. Geokronologi.','','','',false,true);
+d.add(642,641,'"61"','<div class="nodetag">"61"</div></span>&nbsp;&nbsp;Precambria (lebih dari 542 jutatahun yang lalu) (supereon)','"61"','Precambria (lebih dari 542 jutatahun yang lalu) (supereon)','','','',false,true);
+d.add(643,641,'"62"','<div class="nodetag">"62"</div></span>&nbsp;&nbsp;Phanerozoic (542 juta tahun yang lalu sampai sekarang) (eon)','"62"','Phanerozoic (542 juta tahun yang lalu sampai sekarang) (eon)','','','',false,true);
+d.add(644,643,'"621"','<div class="nodetag">"621"</div></span>&nbsp;&nbsp;Palaeozoic / Paleozoic (542 - 251 juta tahun yang lalu) (era)','"621"','Palaeozoic / Paleozoic (542 - 251 juta tahun yang lalu) (era)','','','',false,true);
+d.add(645,643,'"622"','<div class="nodetag">"622"</div></span>&nbsp;&nbsp;Mesozoic (251 - 65.5 milyar tahun lalu) (era)','"622"','Mesozoic (251 - 65.5 milyar tahun lalu) (era)','','','',false,true);
+d.add(646,643,'"628"','<div class="nodetag">"628"</div></span>&nbsp;&nbsp;Cenozoic (65.5 milyar tahun lalui hingga sekarang) (era)','"628"','Cenozoic (65.5 milyar tahun lalui hingga sekarang) (era)','','','',false,true);
+d.add(647,641,'"63"','<div class="nodetag">"63"</div></span>&nbsp;&nbsp;Periode dan masa Arkeologi, prasejarah,protosejarah','"63"','Periode dan masa Arkeologi, prasejarah,protosejarah','','','',false,true);
+d.add(648,640,'"67/69"','<div class="nodetag">"67/69"</div></span>&nbsp;&nbsp;Perhitungan waktu universal, sekuler, non-Kristen','"67/69"','Perhitungan waktu universal, sekuler, non-Kristen','','','',false,true);
+d.add(649,648,'"67"','<div class="nodetag">"67"</div></span>&nbsp;&nbsp;Perhitungan waktu universal. Dahulu. Sekarang','"67"','Perhitungan waktu universal. Dahulu. Sekarang','','','',false,true);
+d.add(650,648,'"68"','<div class="nodetag">"68"</div></span>&nbsp;&nbsp;Perhitungan waktu sekuler selain dari kalender universal dan Kristen (Gregorian)','"68"','Perhitungan waktu sekuler selain dari kalender universal dan Kristen (Gregorian)','','','',false,true);
+d.add(651,648,'"69"','<div class="nodetag">"69"</div></span>&nbsp;&nbsp;Unit tahun dan waktu pada perhitungan waktu agama Non-Kristen (non-Gregorian)','"69"','Unit tahun dan waktu pada perhitungan waktu agama Non-Kristen (non-Gregorian)','','','',false,true);
+d.add(652,589,'"7"','<div class="nodetag">"7"</div></span>&nbsp;&nbsp;Fenomena dalam waktu. Fenomenologi waktu','"7"','Fenomena dalam waktu. Fenomenologi waktu','','','',false,true);
+d.add(653,0,'-0...','<div class="nodetag">-0...</div></span>&nbsp;&nbsp;Tanda tambahan umum untuk karakteristik umum. Sifat, Material, Hubungan/Proses dan Orang Tabel 1k','-0...','Tanda tambahan umum untuk karakteristik umum. Sifat, Material, Hubungan/Proses dan Orang Tabel 1k','','','',false,true);
+d.add(654,653,'-02','<div class="nodetag">-02</div></span>&nbsp;&nbsp;Tanda tambahan umum sifat. Tabel 1k','-02','Tanda tambahan umum sifat. Tabel 1k','','','',false,true);
+d.add(655,654,'-021','<div class="nodetag">-021</div></span>&nbsp;&nbsp;Ciri eksistensi','-021','Ciri eksistensi','','','',false,true);
+d.add(656,654,'-022','<div class="nodetag">-022</div></span>&nbsp;&nbsp;Ciri magnitudo, derajat, kuantitas, jumlah, nilai sementara, dimensi, besaran','-022','Ciri magnitudo, derajat, kuantitas, jumlah, nilai sementara, dimensi, besaran','','','',false,true);
+d.add(657,654,'-023','<div class="nodetag">-023</div></span>&nbsp;&nbsp;Ciri bentuk','-023','Ciri bentuk','','','',false,true);
+d.add(658,654,'-024','<div class="nodetag">-024</div></span>&nbsp;&nbsp;Ciri struktur. Ciri posisi','-024','Ciri struktur. Ciri posisi','','','',false,true);
+d.add(659,654,'-025','<div class="nodetag">-025</div></span>&nbsp;&nbsp;Ciri penataan','-025','Ciri penataan','','','',false,true);
+d.add(660,654,'-026','<div class="nodetag">-026</div></span>&nbsp;&nbsp;Ciri tindakan dan gerakan','-026','Ciri tindakan dan gerakan','','','',false,true);
+d.add(661,654,'-027','<div class="nodetag">-027</div></span>&nbsp;&nbsp;Ciri-ciri operasional','-027','Ciri-ciri operasional','','','',false,true);
+d.add(662,654,'-028','<div class="nodetag">-028</div></span>&nbsp;&nbsp;Ciri gaya dan presentasi','-028','Ciri gaya dan presentasi','','','',false,true);
+d.add(663,662,'-028.41','<div class="nodetag">-028.41</div></span>&nbsp;&nbsp;Populer','-028.41','Populer','','','',false,true);
+d.add(664,662,'-028.42','<div class="nodetag">-028.42</div></span>&nbsp;&nbsp;Ilmiah. Krepanditan. Akademik','-028.42','Ilmiah. Krepanditan. Akademik','','','',false,true);
+d.add(665,662,'-028.43','<div class="nodetag">-028.43</div></span>&nbsp;&nbsp;Kritis. Non-kritis. Tak kritis','-028.43','Kritis. Non-kritis. Tak kritis','','','',false,true);
+d.add(666,662,'-028.44','<div class="nodetag">-028.44</div></span>&nbsp;&nbsp;Deskriptif','-028.44','Deskriptif','','','',false,true);
+d.add(667,662,'-028.45','<div class="nodetag">-028.45</div></span>&nbsp;&nbsp;Analitis','-028.45','Analitis','','','',false,true);
+d.add(668,662,'-028.46','<div class="nodetag">-028.46</div></span>&nbsp;&nbsp;Eksperiensial. Pragmatik','-028.46','Eksperiensial. Pragmatik','','','',false,true);
+d.add(669,662,'-028.47','<div class="nodetag">-028.47</div></span>&nbsp;&nbsp;Anekdot','-028.47','Anekdot','','','',false,true);
+d.add(670,662,'-028.5','<div class="nodetag">-028.5</div></span>&nbsp;&nbsp;Ciri kepengarangan','-028.5','Ciri kepengarangan','','','',false,true);
+d.add(671,662,'-028.6','<div class="nodetag">-028.6</div></span>&nbsp;&nbsp;Ciri tatanan, susunan','-028.6','Ciri tatanan, susunan','','','',false,true);
+d.add(672,654,'-029','<div class="nodetag">-029</div></span>&nbsp;&nbsp;Ciri yang berasal dari kelas utama lainnya','-029','Ciri yang berasal dari kelas utama lainnya','','','',false,true);
+d.add(673,653,'-03','<div class="nodetag">-03</div></span>&nbsp;&nbsp;Tanda tambahan umum material. Tabel 1k','-03','Tanda tambahan umum material. Tabel 1k','','','',false,true);
+d.add(674,673,'-032','<div class="nodetag">-032</div></span>&nbsp;&nbsp;Bahan mineral yang terbentuk secara alami','-032','Bahan mineral yang terbentuk secara alami','','','',false,true);
+d.add(675,673,'-033','<div class="nodetag">-033</div></span>&nbsp;&nbsp;Bahan berbasis mineral yang dimanufaktur','-033','Bahan berbasis mineral yang dimanufaktur','','','',false,true);
+d.add(676,673,'-034','<div class="nodetag">-034</div></span>&nbsp;&nbsp;Logam','-034','Logam','','','',false,true);
+d.add(677,673,'-035','<div class="nodetag">-035</div></span>&nbsp;&nbsp;Bahan yang terutama berasal dari organik','-035','Bahan yang terutama berasal dari organik','','','',false,true);
+d.add(678,673,'-036','<div class="nodetag">-036</div></span>&nbsp;&nbsp;Bahan makromolekuler. Karet dan plastik','-036','Bahan makromolekuler. Karet dan plastik','','','',false,true);
+d.add(679,673,'-037','<div class="nodetag">-037</div></span>&nbsp;&nbsp;Tekstil. Serat. Benang. Tenun. Pakaian','-037','Tekstil. Serat. Benang. Tenun. Pakaian','','','',false,true);
+d.add(680,653,'-04','<div class="nodetag">-04</div></span>&nbsp;&nbsp;Tanda tambahan umum hubungan, proses dan operasi. Tabel 1k','-04','Tanda tambahan umum hubungan, proses dan operasi. Tabel 1k','','','',false,true);
+d.add(681,680,'-042','<div class="nodetag">-042</div></span>&nbsp;&nbsp;Hubungan fase','-042','Hubungan fase','','','',false,true);
+d.add(682,681,'-042.1','<div class="nodetag">-042.1</div></span>&nbsp;&nbsp;Fase bias','-042.1','Fase bias','','','',false,true);
+d.add(683,681,'-042.2','<div class="nodetag">-042.2</div></span>&nbsp;&nbsp;Fase bandingan','-042.2','Fase bandingan','','','',false,true);
+d.add(684,681,'-042.3','<div class="nodetag">-042.3</div></span>&nbsp;&nbsp;Fase pengaruh','-042.3','Fase pengaruh','','','',false,true);
+d.add(685,681,'-042.4','<div class="nodetag">-042.4</div></span>&nbsp;&nbsp;Fase alat Fase paparan','-042.4','Fase alat Fase paparan','','','',false,true);
+d.add(686,681,'-042.5/.8','<div class="nodetag">-042.5/.8</div></span>&nbsp;&nbsp;Istilah lain yang menggamnbarkan hubungan antara entitas','-042.5/.8','Istilah lain yang menggamnbarkan hubungan antara entitas','','','',false,true);
+d.add(687,680,'-043','<div class="nodetag">-043</div></span>&nbsp;&nbsp;Proses umum','-043','Proses umum','','','',false,true);
+d.add(688,687,'-043.8/.9','<div class="nodetag">-043.8/.9</div></span>&nbsp;&nbsp;Proses eksistensi','-043.8/.9','Proses eksistensi','','','',false,true);
+d.add(689,680,'-044.3','<div class="nodetag">-044.3</div></span>&nbsp;&nbsp;Proses nilai','-044.3','Proses nilai','','','',false,true);
+d.add(690,680,'-044.4','<div class="nodetag">-044.4</div></span>&nbsp;&nbsp;Proses penataan dan pengurutan','-044.4','Proses penataan dan pengurutan','','','',false,true);
+d.add(691,680,'-044.5','<div class="nodetag">-044.5</div></span>&nbsp;&nbsp;Proses magnitudo','-044.5','Proses magnitudo','','','',false,true);
+d.add(692,680,'-044.6','<div class="nodetag">-044.6</div></span>&nbsp;&nbsp;Proses bilangan dan derajat','-044.6','Proses bilangan dan derajat','','','',false,true);
+d.add(693,680,'-044.7','<div class="nodetag">-044.7</div></span>&nbsp;&nbsp;Proses yang berkaitan dengan waktu dan kronologi','-044.7','Proses yang berkaitan dengan waktu dan kronologi','','','',false,true);
+d.add(694,680,'-044.8','<div class="nodetag">-044.8</div></span>&nbsp;&nbsp;Proses yang berkaitan dengan dimensi','-044.8','Proses yang berkaitan dengan dimensi','','','',false,true);
+d.add(695,680,'-044.9','<div class="nodetag">-044.9</div></span>&nbsp;&nbsp;Proses yang berkaitan dengan bentuk','-044.9','Proses yang berkaitan dengan bentuk','','','',false,true);
+d.add(696,680,'-045','<div class="nodetag">-045</div></span>&nbsp;&nbsp;Proses yang berkaitan dengan posisis, penataan, gerakan, ciri fisik, status materi','-045','Proses yang berkaitan dengan posisis, penataan, gerakan, ciri fisik, status materi','','','',false,true);
+d.add(697,680,'-047/-049','<div class="nodetag">-047/-049</div></span>&nbsp;&nbsp;Operasi dan aktivitas umum','-047/-049','Operasi dan aktivitas umum','','','',false,true);
+d.add(698,653,'-05','<div class="nodetag">-05</div></span>&nbsp;&nbsp;Tanda bantu umum untuk orang dan karakteristik orang. Tabel 1k','-05','Tanda bantu umum untuk orang dan karakteristik orang. Tabel 1k','','','',false,true);
+d.add(699,698,'-051','<div class="nodetag">-051</div></span>&nbsp;&nbsp;Orang sebagai agen, pelaksana, praktisi ( termasuk membuat, melayani, dsb)','-051','Orang sebagai agen, pelaksana, praktisi ( termasuk membuat, melayani, dsb)','','','',false,true);
+d.add(700,698,'-052','<div class="nodetag">-052</div></span>&nbsp;&nbsp;Orang sebagai sasaran, klien, pemakai (kinaji, dilayani dsb)','-052','Orang sebagai sasaran, klien, pemakai (kinaji, dilayani dsb)','','','',false,true);
+d.add(701,698,'-053','<div class="nodetag">-053</div></span>&nbsp;&nbsp;Orang menurut usia atau kelompk usia','-053','Orang menurut usia atau kelompk usia','','','',false,true);
+d.add(702,701,'-053.1','<div class="nodetag">-053.1</div></span>&nbsp;&nbsp;Orang, lahir atau tak lahir, hidup atau mati','-053.1','Orang, lahir atau tak lahir, hidup atau mati','','','',false,true);
+d.add(703,701,'-053.2','<div class="nodetag">-053.2</div></span>&nbsp;&nbsp;Kanak-kanak dan bayi (pada umumnya)','-053.2','Kanak-kanak dan bayi (pada umumnya)','','','',false,true);
+d.add(704,701,'-053.8','<div class="nodetag">-053.8</div></span>&nbsp;&nbsp;Dewasa. Orang dewasa','-053.8','Dewasa. Orang dewasa','','','',false,true);
+d.add(705,701,'-053.9','<div class="nodetag">-053.9</div></span>&nbsp;&nbsp;Orang berusia tua. Orang dalam usia tua. Orang usia lanjut','-053.9','Orang berusia tua. Orang dalam usia tua. Orang usia lanjut','','','',false,true);
+d.add(706,698,'-054','<div class="nodetag">-054</div></span>&nbsp;&nbsp;Orang menurut karakteristik etnik, kebangsaan, kewarganegaraan, dsb','-054','Orang menurut karakteristik etnik, kebangsaan, kewarganegaraan, dsb','','','',false,true);
+d.add(707,706,'-054.4','<div class="nodetag">-054.4</div></span>&nbsp;&nbsp;Penduduk (warga atau bukan warga)','-054.4','Penduduk (warga atau bukan warga)','','','',false,true);
+d.add(708,706,'-054.5','<div class="nodetag">-054.5</div></span>&nbsp;&nbsp;Bangsa. Warganegara sebuah negara','-054.5','Bangsa. Warganegara sebuah negara','','','',false,true);
+d.add(709,706,'-054.6','<div class="nodetag">-054.6</div></span>&nbsp;&nbsp;Bukan warganegara. Orang asing. Mahluk asing','-054.6','Bukan warganegara. Orang asing. Mahluk asing','','','',false,true);
+d.add(710,706,'-054.7','<div class="nodetag">-054.7</div></span>&nbsp;&nbsp;Ekspatriat. Pelarian. Repatriat. Migran. Orang tak bernegara','-054.7','Ekspatriat. Pelarian. Repatriat. Migran. Orang tak bernegara','','','',false,true);
+d.add(711,698,'-055','<div class="nodetag">-055</div></span>&nbsp;&nbsp;Orang menurut gender dan kekerabatan','-055','Orang menurut gender dan kekerabatan','','','',false,true);
+d.add(712,711,'-055.1','<div class="nodetag">-055.1</div></span>&nbsp;&nbsp;Pria. Lelaki (Laki-laki)','-055.1','Pria. Lelaki (Laki-laki)','','','',false,true);
+d.add(713,711,'-055.2','<div class="nodetag">-055.2</div></span>&nbsp;&nbsp;Wanita. Perempuan','-055.2','Wanita. Perempuan','','','',false,true);
+d.add(714,711,'-055.3','<div class="nodetag">-055.3</div></span>&nbsp;&nbsp;Orang menurut orientasi seks','-055.3','Orang menurut orientasi seks','','','',false,true);
+d.add(715,711,'-055.5','<div class="nodetag">-055.5</div></span>&nbsp;&nbsp;Orang dalam hubungannya dengan orang tua atau keturunan. Nenek moyang. Leluhur','-055.5','Orang dalam hubungannya dengan orang tua atau keturunan. Nenek moyang. Leluhur','','','',false,true);
+d.add(716,711,'-055.6','<div class="nodetag">-055.6</div></span>&nbsp;&nbsp;Orang dalam hubungan filial atau keturunan','-055.6','Orang dalam hubungan filial atau keturunan','','','',false,true);
+d.add(717,711,'-055.7','<div class="nodetag">-055.7</div></span>&nbsp;&nbsp;Orang dalam hubungan kolateral','-055.7','Orang dalam hubungan kolateral','','','',false,true);
+d.add(718,698,'-056','<div class="nodetag">-056</div></span>&nbsp;&nbsp;Orang menurut perangai, kesehatan, watak peranagi, keturunan atau ciri lainnya','-056','Orang menurut perangai, kesehatan, watak peranagi, keturunan atau ciri lainnya','','','',false,true);
+d.add(719,718,'-056.1','<div class="nodetag">-056.1</div></span>&nbsp;&nbsp;Orang menurut perangai, watak umum ataukarakter.','-056.1','Orang menurut perangai, watak umum ataukarakter.','','','',false,true);
+d.add(720,718,'-056.2','<div class="nodetag">-056.2</div></span>&nbsp;&nbsp;Orang menurut status fisik dan kesehatan','-056.2','Orang menurut status fisik dan kesehatan','','','',false,true);
+d.add(721,718,'-056.3','<div class="nodetag">-056.3</div></span>&nbsp;&nbsp;Orang menurut kecerdasan dan status mental atau psikologi','-056.3','Orang menurut kecerdasan dan status mental atau psikologi','','','',false,true);
+d.add(722,718,'-056.4','<div class="nodetag">-056.4</div></span>&nbsp;&nbsp;Orang menurut temperamen, watak umum','-056.4','Orang menurut temperamen, watak umum','','','',false,true);
+d.add(723,698,'-057','<div class="nodetag">-057</div></span>&nbsp;&nbsp;Orang menurut pekerjaan, kerja, mata pencaharian, pendidikan','-057','Orang menurut pekerjaan, kerja, mata pencaharian, pendidikan','','','',false,true);
+d.add(724,723,'-057.1','<div class="nodetag">-057.1</div></span>&nbsp;&nbsp;Orang menurut status kerja, pekerjaan, administrasi','-057.1','Orang menurut status kerja, pekerjaan, administrasi','','','',false,true);
+d.add(725,723,'-057.2','<div class="nodetag">-057.2</div></span>&nbsp;&nbsp;Tenaga teknik. Tenaga operasi. Pekerja manual (pekerja kerah biru)','-057.2','Tenaga teknik. Tenaga operasi. Pekerja manual (pekerja kerah biru)','','','',false,true);
+d.add(726,723,'-057.3','<div class="nodetag">-057.3</div></span>&nbsp;&nbsp;Tenaga administrasi, tata usaha. Jurutulis. Tenaga perkantoran (pekerja kerah putih)','-057.3','Tenaga administrasi, tata usaha. Jurutulis. Tenaga perkantoran (pekerja kerah putih)','','','',false,true);
+d.add(727,723,'-057.4','<div class="nodetag">-057.4</div></span>&nbsp;&nbsp;Pekerja akademik atau profesional','-057.4','Pekerja akademik atau profesional','','','',false,true);
+d.add(728,723,'-057.5','<div class="nodetag">-057.5</div></span>&nbsp;&nbsp;Orang dalam hubungannya dengan tempat kerja, tempat pekerjaan. Orang dalam hubungannya dengan usaha','-057.5','Orang dalam hubungannya dengan tempat kerja, tempat pekerjaan. Orang dalam hubungannya dengan usaha','','','',false,true);
+d.add(729,723,'-057.6','<div class="nodetag">-057.6</div></span>&nbsp;&nbsp;Orang menurut domisili dan hubungannya dengan pekerjaan atau aktivitas lainnya.','-057.6','Orang menurut domisili dan hubungannya dengan pekerjaan atau aktivitas lainnya.','','','',false,true);
+d.add(730,723,'-057.7','<div class="nodetag">-057.7</div></span>&nbsp;&nbsp;Orang menurut sumber penghasilan atau asuransi','-057.7','Orang menurut sumber penghasilan atau asuransi','','','',false,true);
+d.add(731,723,'-057.8','<div class="nodetag">-057.8</div></span>&nbsp;&nbsp;Orang menurut pendidikan, pelatihan, pengalaman','-057.8','Orang menurut pendidikan, pelatihan, pengalaman','','','',false,true);
+d.add(732,723,'-057.9','<div class="nodetag">-057.9</div></span>&nbsp;&nbsp;Orang menurut fungsi eksekutif','-057.9','Orang menurut fungsi eksekutif','','','',false,true);
+d.add(733,698,'-058','<div class="nodetag">-058</div></span>&nbsp;&nbsp;Orang menurut kelas sosial, status sipil','-058','Orang menurut kelas sosial, status sipil','','','',false,true);
+d.add(734,733,'-058.1','<div class="nodetag">-058.1</div></span>&nbsp;&nbsp;Orang menurut klas atau status sosial','-058.1','Orang menurut klas atau status sosial','','','',false,true);
+d.add(735,733,'-058.3','<div class="nodetag">-058.3</div></span>&nbsp;&nbsp;Orang menurut kategori ekonomi (sarana, kesejahteraan, hak-hak lainnya)','-058.3','Orang menurut kategori ekonomi (sarana, kesejahteraan, hak-hak lainnya)','','','',false,true);
+d.add(736,733,'-058.5','<div class="nodetag">-058.5</div></span>&nbsp;&nbsp;Orang yang termasuk kategori sosioekonomi marjinal. Kelompok terpinggirkan.','-058.5','Orang yang termasuk kategori sosioekonomi marjinal. Kelompok terpinggirkan.','','','',false,true);
+d.add(737,733,'-058.6','<div class="nodetag">-058.6</div></span>&nbsp;&nbsp;Korban lingkungan sekitar','-058.6','Korban lingkungan sekitar','','','',false,true);
+d.add(738,733,'-058.7','<div class="nodetag">-058.7</div></span>&nbsp;&nbsp;Orang yang tergantung pada orang lain. Tanggungan','-058.7','Orang yang tergantung pada orang lain. Tanggungan','','','',false,true);
+d.add(739,733,'-058.8','<div class="nodetag">-058.8</div></span>&nbsp;&nbsp;Orang menurut status perkawinanan, keluarga atau sipil lainnya','-058.8','Orang menurut status perkawinanan, keluarga atau sipil lainnya','','','',false,true);
+d.config.useSelection = false;
+d.config.inOrder = true;
+d.config.useIcons = false;
+document.write(d);
+//-->
+</script>
+</div>
+</div><div id="expandbox" onclick="expandbox(); return false;">&nbsp;</div>
+<div id="recordbox" class="debugbkg">
+<div class="fronthint">klik nomor kelas pada bagian kiri untuk menampilkan cantuman</div>
+</div>
+
+        <div id="footer">
+            <div class="footersectionleft">
+                The UDC Summary (UDCS) provides a selection of around 2,600 classes from the whole scheme which comprises more than 70,000 entries.
+                Please send questions and suggestions to <a href="mailto:udcs@udcc.org?subject=UDC Summary Enquiry">udcs@udcc.org</a><br><br>
+	            <p>
+		            The data provided in this Summary is released under the <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative Commons Attribution Share Alike 3.0 license</a> <a href="../about.htm">[more]</a>
+	            </p>
+            </div>
+            <div class="footermiddle">
+                <a href="http://www.udcc.org"><img src="../images/udclogowhite.png" border="0"></a>
+            </div>
+			<div class="footerright">
+                For complete UDC schedules see <a href="http://www.udc-hub.com/">UDC Online Hub</a><br/><a href="http://www.udc-hub.com/"><img width="60" height="35" src="../images/udclogo.png"/></a>
+
+			</div>
+        </div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-13138465-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>

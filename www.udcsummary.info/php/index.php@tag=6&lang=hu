@@ -1,0 +1,654 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>UDC Summary</title>
+    <link rel="stylesheet" href="../reset.css" type="text/css" />
+    <link rel="stylesheet" href="../udc2000.css" type="text/css" />
+	    <link rel="StyleSheet" href="dtree2.css" type="text/css" />
+	    <script type="text/javascript" src="dtree.js"></script>
+	    <script type="text/javascript" src="udcdisplay_9.js"></script>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+</head>
+
+<body >
+<div id="centercontainer" class="debugbkg">
+    <div id="titlebox" class="debugbkg">
+		<div id="rightbox">
+        	<div id="languagecount">57 languages</div>
+            <div id="languagebox">
+            <select id="selectedlang" style="vertical-align: middle;" onchange="location = this.options[this.selectedIndex].value;">
+			<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=af&pr=Y">Afrikaans (Afrikaans) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sq&pr=Y">Albanian (Shqip) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=anp&pr=Y">Angika (अंगिका) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ar&pr=Y">Arabic (العربية) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hy&pr=Y">Armenian (հայերեն) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=eu&pr=Y">Basque (Euskara) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=be&pr=Y">Belarusian (Беларуская) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bn&pr=Y">Bengali (বাংলা) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bho&pr=Y">Bhojpuri (भोजपुरी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bg&pr=Y">Bulgarian (Български) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ca&pr=Y">Catalan (Català) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=chi&pr=Y">Chinese (中文) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hr&pr=Y">Croatian (Hrvatski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=cs&pr=Y">Czech (Čeština) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=da&pr=Y">Danish (Dansk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=nl&pr=Y">Dutch (Nederlands) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=en&pr=Y">English (English) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=eo&pr=Y">Esperanto (Esperanto) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=et&pr=Y">Estonian (Eesti) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=fi&pr=Y">Finnish (Suomi) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=fr&pr=Y">French (Français) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=gl&pr=Y">Galician (Galego) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ka&pr=Y">Georgian (ქართული) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=de&pr=Y">German (Deutsch) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=el&pr=Y">Greek (Ελληνικά) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hi&pr=Y">Hindi (हिन्दी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hu&pr=Y" selected>Hungarian (Magyar) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=id&pr=Y">Indonesian (Bahasa Ind) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ga&pr=Y">Irish (Gaeilge) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=it&pr=Y">Italian (Italiano) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ja&pr=Y">Japanese (日本語) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=kn&pr=Y">Kannada (ಕನ್ನಡ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=kk&pr=Y">Kazakh (Қазақ тілі) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=lv&pr=Y">Latvian (Latviešu) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=lt&pr=Y">Lithuanian (lietuvių) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=mk&pr=Y">Macedonian (македонски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ml&pr=Y">Malayalam (മലയാളം) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=mr&pr=Y">Marathi (मराठी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=no&pr=Y">Norwegian (Norsk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pl&pr=Y">Polish (Polski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pt&pr=Y">Portuguese (Português) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pa&pr=Y">Punjabi (ਪੰਜਾਬੀ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ro&pr=Y">Romanian (Româna) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ru&pr=Y">Russian (Pусский) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sa&pr=Y">Sanskrit (Saṃskṛtam) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sr&pr=Y">Serbian (Српски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=si&pr=Y">Sinhala (සිංහල) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sk&pr=Y">Slovak (Slovenský) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sl&pr=Y">Slovenian (Slovenski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=es&pr=Y">Spanish (Español) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sv&pr=Y">Swedish (Svenska) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ta&pr=Y">Tamil (தமிழ்) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=te&pr=Y">Telugu (తెలుగు) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=tr&pr=Y">Turkish (Türkçe) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=uk&pr=Y">Ukrainian (Yкраї́нська) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=uz&pr=Y">Uzbek (oʻzbek) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=vi&pr=Y">Vietnamese (tiếng Việt) </option>
+            </select>
+            </div>
+            </div>
+        </div>
+		<div id="menubox" class="debugbkg">
+            <ul class="menu boldmenu">
+<li><a href="index.php@lang=hu">LEGMAGASABB</a></li>
+<li><a href="index.php@tag=--&amp;lang=hu">JELEK</a></li>
+<li><a href="index.php@tag=---&amp;lang=hu">ALOSZTÁSOK</a></li>
+<li><a href="index.php@tag=0&amp;lang=hu">0</a></li>
+<li><a href="index.php@tag=1&amp;lang=hu">1</a></li>
+<li><a href="index.php@tag=2&amp;lang=hu">2</a></li>
+<li><a href="index.php@tag=3&amp;lang=hu">3</a></li>
+<li><a  class="vacant" href="index.php@tag=6&amp;lang=hu#">4</a></li>
+<li><a href="index.php@tag=5&amp;lang=hu">5</a></li>
+<li><a href="index.php@tag=6&amp;lang=hu">6</a></li>
+<li><a href="index.php@tag=7&amp;lang=hu">7</a></li>
+<li><a href="index.php@tag=8&amp;lang=hu">8</a></li>
+<li><a href="index.php@tag=9&amp;lang=hu">9</a></li>
+</ul>
+<input type="hidden" id="if_loading" name="if_loading" value="Betöltés"/>
+<input type="hidden" id="if_lang" name="if_lang" value="16"/>
+<ul class="rightmenu boldmenu">
+<li><a href="../translation.htm">FORDÍTÁSOK</a></li>
+<li><a href="index.php@tag=6&amp;lang=hu#" title="Under Development">HOZZÁRENDELÉS</a></li>
+<li><a href="../exports.htm" title="Data Exports">EXPORT</a></li>
+<li><a href="index.php@tag=6&amp;lang=hu#" title="Under Development">BETŰRENDES MUTATÓ</a></li>
+<li><a href="index.php@tag=6&amp;lang=hu#" title="Under Development">ÚTMUTATÓ</a></li>
+<li><a href="../about.htm" title="About the UDC Summary">ISMERTETÉS</a></li>
+</ul>
+
+        </div>
+		<input type="hidden" id="leftWidth" value="420"/><input type="hidden" id="rightWidth" value="522"/>
+		<div id="classmarkbox" class="debugbkg">
+
+<div id="openclosemenu"><a href="javascript: d.openAll();">&nbsp;részletezve</a> | <a href="javascript: d.closeAll();">összevonva</a></div>
+<div id="classtree">
+<script type="text/javascript">
+<!--
+d = new dTree('d');
+d.config.hrefIsClick = true;
+d.add(0,-1,'6','<span class="nodetag">6</span>&nbsp;&nbsp;ALKALMAZOTT TUDOMÁNYOK. ORVOSTUDOMÁNY. MŰSZAKI TUDOMÁNYOK','6','','','','',false,true);
+d.add(1,0,'60','<div class="nodetag">60</div></span>&nbsp;&nbsp;Az alkalmazott tudományokra vonatkozó általános kérdések','60','Az alkalmazott tudományokra vonatkozó általános kérdések','','','',false,true);
+d.add(2,1,'601','<div class="nodetag">601</div></span>&nbsp;&nbsp;Alapelvek. Alapfogalmak','601','Alapelvek. Alapfogalmak','','','',false,true);
+d.add(3,1,'602','<div class="nodetag">602</div></span>&nbsp;&nbsp;Folyamatok és módszerek','602','Folyamatok és módszerek','','','',false,true);
+d.add(4,1,'604','<div class="nodetag">604</div></span>&nbsp;&nbsp;Termékek','604','Termékek','','','',false,true);
+d.add(5,1,'606','<div class="nodetag">606</div></span>&nbsp;&nbsp;A biotechnológia alkalmazása','606','A biotechnológia alkalmazása','','','',false,true);
+d.add(6,1,'608','<div class="nodetag">608</div></span>&nbsp;&nbsp;A biotechnológia kimenetei','608','A biotechnológia kimenetei','','','',false,true);
+d.add(7,0,'61','<div class="nodetag">61</div></span>&nbsp;&nbsp;Orvostudomány','61','Orvostudomány','','','',false,true);
+d.add(8,7,'611/612','<div class="nodetag">611/612</div></span>&nbsp;&nbsp;Humán biológia','611/612','Humán biológia','','','',false,true);
+d.add(9,8,'611','<div class="nodetag">611</div></span>&nbsp;&nbsp;Anatómia. Emberi és összehasonlító anatómia','611','Anatómia. Emberi és összehasonlító anatómia','','','',false,true);
+d.add(10,8,'612','<div class="nodetag">612</div></span>&nbsp;&nbsp;Fiziológia. Élettan. Emberi és összehasonlító élettan','612','Fiziológia. Élettan. Emberi és összehasonlító élettan','','','',false,true);
+d.add(11,10,'612.1/.8','<div class="nodetag">612.1/.8</div></span>&nbsp;&nbsp;Rendszeres élettan','612.1/.8','Rendszeres élettan','','','',false,true);
+d.add(12,11,'612.1','<div class="nodetag">612.1</div></span>&nbsp;&nbsp;Vér. Szív- és érrendszer. Cardiovascularis rendszer. Vérkeringés','612.1','Vér. Szív- és érrendszer. Cardiovascularis rendszer. Vérkeringés','','','',false,true);
+d.add(13,11,'612.2','<div class="nodetag">612.2</div></span>&nbsp;&nbsp;Légzés. Légzőrendszer','612.2','Légzés. Légzőrendszer','','','',false,true);
+d.add(14,11,'612.3','<div class="nodetag">612.3</div></span>&nbsp;&nbsp;Táplálkozás. Emésztés','612.3','Táplálkozás. Emésztés','','','',false,true);
+d.add(15,11,'612.4','<div class="nodetag">612.4</div></span>&nbsp;&nbsp;Mirigyek élettana. Elválasztás és kiválasztás ','612.4','Mirigyek élettana. Elválasztás és kiválasztás ','','','',false,true);
+d.add(16,11,'612.5','<div class="nodetag">612.5</div></span>&nbsp;&nbsp;Állati hő. A hővel kapcsolatos folyamatok, pl. hőtermelés, hőleadás, láz, hőszabályozás stb. ','612.5','Állati hő. A hővel kapcsolatos folyamatok, pl. hőtermelés, hőleadás, láz, hőszabályozás stb. ','','','',false,true);
+d.add(17,11,'612.6','<div class="nodetag">612.6</div></span>&nbsp;&nbsp;Szaporodás. Növekedés és fejlődés. Életkorok','612.6','Szaporodás. Növekedés és fejlődés. Életkorok','','','',false,true);
+d.add(18,11,'612.7','<div class="nodetag">612.7</div></span>&nbsp;&nbsp;Motorikus funkciók. Mozgásszervek. Hang. Bőr','612.7','Motorikus funkciók. Mozgásszervek. Hang. Bőr','','','',false,true);
+d.add(19,11,'612.8','<div class="nodetag">612.8</div></span>&nbsp;&nbsp;Idegrendszer. Érzékszervek','612.8','Idegrendszer. Érzékszervek','','','',false,true);
+d.add(20,7,'613','<div class="nodetag">613</div></span>&nbsp;&nbsp;Általános és személyi higiéné','613','Általános és személyi higiéné','','','',false,true);
+d.add(21,20,'613.2','<div class="nodetag">613.2</div></span>&nbsp;&nbsp;Táplálkozáshigiéné (dietetika)','613.2','Táplálkozáshigiéné (dietetika)','','','',false,true);
+d.add(22,20,'613.3','<div class="nodetag">613.3</div></span>&nbsp;&nbsp;Italok. Ivókúrák. Gyógyvizek. Ásványvizek. Folyadék diéta','613.3','Italok. Ivókúrák. Gyógyvizek. Ásványvizek. Folyadék diéta','','','',false,true);
+d.add(23,20,'613.4','<div class="nodetag">613.4</div></span>&nbsp;&nbsp;A test tisztántartása. Ruházkodás','613.4','A test tisztántartása. Ruházkodás','','','',false,true);
+d.add(24,20,'613.5','<div class="nodetag">613.5</div></span>&nbsp;&nbsp;Lakásegészségügy','613.5','Lakásegészségügy','','','',false,true);
+d.add(25,20,'613.6','<div class="nodetag">613.6</div></span>&nbsp;&nbsp;Foglalkozási higiéné. Foglalkozási ártalmak és veszélyek','613.6','Foglalkozási higiéné. Foglalkozási ártalmak és veszélyek','','','',false,true);
+d.add(26,20,'613.7','<div class="nodetag">613.7</div></span>&nbsp;&nbsp;A pihenés, üdülés, alvás egészségügye','613.7','A pihenés, üdülés, alvás egészségügye','','','',false,true);
+d.add(27,20,'613.8','<div class="nodetag">613.8</div></span>&nbsp;&nbsp;Az idegrendszer higiénéje. Egészség és erkölcs','613.8','Az idegrendszer higiénéje. Egészség és erkölcs','','','',false,true);
+d.add(28,20,'613.9','<div class="nodetag">613.9</div></span>&nbsp;&nbsp;Higiéné a népfajták, életkorok és nemek vonatkozásában','613.9','Higiéné a népfajták, életkorok és nemek vonatkozásában','','','',false,true);
+d.add(29,7,'614','<div class="nodetag">614</div></span>&nbsp;&nbsp;Közegészségügy. Balesetvédelem','614','Közegészségügy. Balesetvédelem','','','',false,true);
+d.add(30,29,'614.1','<div class="nodetag">614.1</div></span>&nbsp;&nbsp;A népesség növekedése és csökkenése','614.1','A népesség növekedése és csökkenése','','','',false,true);
+d.add(31,29,'614.2','<div class="nodetag">614.2</div></span>&nbsp;&nbsp;Az egészségügy szervezete szakmai szempontból','614.2','Az egészségügy szervezete szakmai szempontból','','','',false,true);
+d.add(32,29,'614.3','<div class="nodetag">614.3</div></span>&nbsp;&nbsp;Egészségügyi ellenőrzés és felügyelet','614.3','Egészségügyi ellenőrzés és felügyelet','','','',false,true);
+d.add(33,32,'614.39','<div class="nodetag">614.39</div></span>&nbsp;&nbsp;Közigazgatási orvosi szolgálat','614.39','Közigazgatási orvosi szolgálat','','','',false,true);
+d.add(34,29,'614.4','<div class="nodetag">614.4</div></span>&nbsp;&nbsp;Fertőző betegségek, járványok és megelőzésük','614.4','Fertőző betegségek, járványok és megelőzésük','','','',false,true);
+d.add(35,29,'614.6','<div class="nodetag">614.6</div></span>&nbsp;&nbsp;Temetők egészségügye. Halottakkal kapcsolatos intézkedések','614.6','Temetők egészségügye. Halottakkal kapcsolatos intézkedések','','','',false,true);
+d.add(36,29,'614.7','<div class="nodetag">614.7</div></span>&nbsp;&nbsp;A levegő, víz, talaj higiénéje. Szennyezés és ellenőrzése','614.7','A levegő, víz, talaj higiénéje. Szennyezés és ellenőrzése','','','',false,true);
+d.add(37,29,'614.8','<div class="nodetag">614.8</div></span>&nbsp;&nbsp;Balesetek. Balesetveszélyek. Kockázatok. Balesetvédelem. Balesetelhárítás. Biztonság','614.8','Balesetek. Balesetveszélyek. Kockázatok. Balesetvédelem. Balesetelhárítás. Biztonság','','','',false,true);
+d.add(38,29,'614.9','<div class="nodetag">614.9</div></span>&nbsp;&nbsp;Állategészségügy. Állatorvosi higiéné','614.9','Állategészségügy. Állatorvosi higiéné','','','',false,true);
+d.add(39,7,'615','<div class="nodetag">615</div></span>&nbsp;&nbsp;Gyógyszertan. Farmakológia. Terapeutika. Toxikológia','615','Gyógyszertan. Farmakológia. Terapeutika. Toxikológia','','','',false,true);
+d.add(40,39,'615.1','<div class="nodetag">615.1</div></span>&nbsp;&nbsp;Általános gyógyszerészet és gyógyszerészi hivatás','615.1','Általános gyógyszerészet és gyógyszerészi hivatás','','','',false,true);
+d.add(41,39,'615.2','<div class="nodetag">615.2</div></span>&nbsp;&nbsp;Gyógyszerek fő hatásuk alapján ','615.2','Gyógyszerek fő hatásuk alapján ','','','',false,true);
+d.add(42,39,'615.3','<div class="nodetag">615.3</div></span>&nbsp;&nbsp;Gyógyszerek eredetük szerint','615.3','Gyógyszerek eredetük szerint','','','',false,true);
+d.add(43,39,'615.4','<div class="nodetag">615.4</div></span>&nbsp;&nbsp;Gyógyszerészeti készítmények. Gyógyászati anyagok, eszközök','615.4','Gyógyszerészeti készítmények. Gyógyászati anyagok, eszközök','','','',false,true);
+d.add(44,39,'615.8','<div class="nodetag">615.8</div></span>&nbsp;&nbsp;Fizikoterápia. Sugárterápia és egyéb (nem gyógyszeres) terápiás eljárások','615.8','Fizikoterápia. Sugárterápia és egyéb (nem gyógyszeres) terápiás eljárások','','','',false,true);
+d.add(45,39,'615.9','<div class="nodetag">615.9</div></span>&nbsp;&nbsp;Általános méregtan. Toxikológia. Mérgezések','615.9','Általános méregtan. Toxikológia. Mérgezések','','','',false,true);
+d.add(46,7,'616','<div class="nodetag">616</div></span>&nbsp;&nbsp;Patológia. Kórtan. Klinikai orvostan','616','Patológia. Kórtan. Klinikai orvostan','','','',false,true);
+d.add(47,46,'616-001/-009','<div class="nodetag">616-001/-009</div></span>&nbsp;&nbsp;A kóros folyamatokat kifejező speciális alosztások','616-001/-009','A kóros folyamatokat kifejező speciális alosztások','','','',false,true);
+d.add(48,47,'616-001','<div class="nodetag">616-001</div></span>&nbsp;&nbsp;Sérülések általában. Sebek','616-001','Sérülések általában. Sebek','','','',false,true);
+d.add(49,47,'616-002','<div class="nodetag">616-002</div></span>&nbsp;&nbsp;Gyulladás. Irritáció. Gyulladásos irritáció. Hyperaemia. Nyákképződés','616-002','Gyulladás. Irritáció. Gyulladásos irritáció. Hyperaemia. Nyákképződés','','','',false,true);
+d.add(50,47,'616-003','<div class="nodetag">616-003</div></span>&nbsp;&nbsp;Regresszív és reparatív folyamatok','616-003','Regresszív és reparatív folyamatok','','','',false,true);
+d.add(51,47,'616-004','<div class="nodetag">616-004</div></span>&nbsp;&nbsp;Keményedés. Induratio. Sclerosis. Cirrhosis','616-004','Keményedés. Induratio. Sclerosis. Cirrhosis','','','',false,true);
+d.add(52,47,'616-005','<div class="nodetag">616-005</div></span>&nbsp;&nbsp;Helyi keringési zavarok','616-005','Helyi keringési zavarok','','','',false,true);
+d.add(53,47,'616-006','<div class="nodetag">616-006</div></span>&nbsp;&nbsp;Daganatok. Neoplasmák. Blastoma. Choristoma. Hamartoma. Onkológia ','616-006','Daganatok. Neoplasmák. Blastoma. Choristoma. Hamartoma. Onkológia ','','','',false,true);
+d.add(54,47,'616-007','<div class="nodetag">616-007</div></span>&nbsp;&nbsp;Fejlődési rendellenességek. Fiziológiai deformitások. Anomáliák. Szervek rendellenes mérete. Teratologia. Torzszülöttek','616-007','Fejlődési rendellenességek. Fiziológiai deformitások. Anomáliák. Szervek rendellenes mérete. Teratologia. Torzszülöttek','','','',false,true);
+d.add(55,47,'616-008','<div class="nodetag">616-008</div></span>&nbsp;&nbsp;A szervek működésének és anyagcseréjének zavarai','616-008','A szervek működésének és anyagcseréjének zavarai','','','',false,true);
+d.add(56,47,'616-009','<div class="nodetag">616-009</div></span>&nbsp;&nbsp;Ideges zavarok. Neurogén zavarok','616-009','Ideges zavarok. Neurogén zavarok','','','',false,true);
+d.add(57,46,'616-01/-099','<div class="nodetag">616-01/-099</div></span>&nbsp;&nbsp;A patológia általános szempontjait  kifejező speciális alosztások','616-01/-099','A patológia általános szempontjait  kifejező speciális alosztások','','','',false,true);
+d.add(58,57,'616-01','<div class="nodetag">616-01</div></span>&nbsp;&nbsp;Különböző szempontok a betegségre, a betegre és az orvosi működésre vonatkozólag','616-01','Különböző szempontok a betegségre, a betegre és az orvosi működésre vonatkozólag','','','',false,true);
+d.add(59,57,'616-02','<div class="nodetag">616-02</div></span>&nbsp;&nbsp;Aetiologia. Kóroktan','616-02','Aetiologia. Kóroktan','','','',false,true);
+d.add(60,57,'616-03','<div class="nodetag">616-03</div></span>&nbsp;&nbsp;A betegségek lefolyásának, kezelésének különböző formái. Gyógyszeres kezelés','616-03','A betegségek lefolyásának, kezelésének különböző formái. Gyógyszeres kezelés','','','',false,true);
+d.add(61,57,'616-05','<div class="nodetag">616-05</div></span>&nbsp;&nbsp;Személyek és személyi jellemzők a patológiában. A páciens jellemzői','616-05','Személyek és személyi jellemzők a patológiában. A páciens jellemzői','','','',false,true);
+d.add(62,57,'616-06','<div class="nodetag">616-06</div></span>&nbsp;&nbsp;Komplikációk. Szövődmények. Következmények. egyidejű fennállás. Korrelációk. Előzetes betegségek. Antagonizmusok','616-06','Komplikációk. Szövődmények. Következmények. egyidejű fennállás. Korrelációk. Előzetes betegségek. Antagonizmusok','','','',false,true);
+d.add(63,57,'616-07','<div class="nodetag">616-07</div></span>&nbsp;&nbsp;Vizsgálatok. Diagnosztika. Tünettan. Semiologia. Szimptómák. Propedeutika','616-07','Vizsgálatok. Diagnosztika. Tünettan. Semiologia. Szimptómák. Propedeutika','','','',false,true);
+d.add(64,57,'616-08','<div class="nodetag">616-08</div></span>&nbsp;&nbsp;Kezelés','616-08','Kezelés','','','',false,true);
+d.add(65,57,'616-091','<div class="nodetag">616-091</div></span>&nbsp;&nbsp;Kórbonctan','616-091','Kórbonctan','','','',false,true);
+d.add(66,57,'616-092','<div class="nodetag">616-092</div></span>&nbsp;&nbsp;Kórélettan. Pathogenesis. Kóreredet. A betegség hatásmechanizmusa','616-092','Kórélettan. Pathogenesis. Kóreredet. A betegség hatásmechanizmusa','','','',false,true);
+d.add(67,57,'616-093','<div class="nodetag">616-093</div></span>&nbsp;&nbsp;Bakteriológiai és parazitológiai (mikrobális) technika','616-093','Bakteriológiai és parazitológiai (mikrobális) technika','','','',false,true);
+d.add(68,57,'616-094','<div class="nodetag">616-094</div></span>&nbsp;&nbsp;Bakteriológiai és parazitológiai (mikrobális) morfológia','616-094','Bakteriológiai és parazitológiai (mikrobális) morfológia','','','',false,true);
+d.add(69,57,'616-095','<div class="nodetag">616-095</div></span>&nbsp;&nbsp;Bakteriológiai és parazitológiai (mikrobális) élettan','616-095','Bakteriológiai és parazitológiai (mikrobális) élettan','','','',false,true);
+d.add(70,57,'616-097','<div class="nodetag">616-097</div></span>&nbsp;&nbsp;Antigének. Antitestek','616-097','Antigének. Antitestek','','','',false,true);
+d.add(71,57,'616-098','<div class="nodetag">616-098</div></span>&nbsp;&nbsp;Bakteriológiai és parazitológiai (mikrobális) fizika, kémia, anyagcsere, tenyészeteik lebontási folyamatai','616-098','Bakteriológiai és parazitológiai (mikrobális) fizika, kémia, anyagcsere, tenyészeteik lebontási folyamatai','','','',false,true);
+d.add(72,57,'616-099','<div class="nodetag">616-099</div></span>&nbsp;&nbsp;Mérgezések. Intoxikációk','616-099','Mérgezések. Intoxikációk','','','',false,true);
+d.add(73,46,'616-71/-78','<div class="nodetag">616-71/-78</div></span>&nbsp;&nbsp;Orvosi műszerek, műszerezés, felszerelés fogalmait kifejező speciális alosztás','616-71/-78','Orvosi műszerek, műszerezés, felszerelés fogalmait kifejező speciális alosztás','','','',false,true);
+d.add(74,73,'616-71','<div class="nodetag">616-71</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Medical instruments and equipment in general</span>','616-71','Medical instruments and equipment in general','','','',false,true);
+d.add(75,73,'616-72','<div class="nodetag">616-72</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Surgical and therapeutic instruments</span>','616-72','Surgical and therapeutic instruments','','','',false,true);
+d.add(76,73,'616-74','<div class="nodetag">616-74</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Reinforcement and reparative materials and equipment</span>','616-74','Reinforcement and reparative materials and equipment','','','',false,true);
+d.add(77,73,'616-76','<div class="nodetag">616-76</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Corrective and protective appliances, aids etc.</span>','616-76','Corrective and protective appliances, aids etc.','','','',false,true);
+d.add(78,73,'616-77','<div class="nodetag">616-77</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Prosthetic materials and parts. Artificial organs etc.</span>','616-77','Prosthetic materials and parts. Artificial organs etc.','','','',false,true);
+d.add(79,73,'616-78','<div class="nodetag">616-78</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Machines and mechanical apparatus</span>','616-78','Machines and mechanical apparatus','','','',false,true);
+d.add(80,46,'616.1/.9','<div class="nodetag">616.1/.9</div></span>&nbsp;&nbsp;Részletes kórtan','616.1/.9','Részletes kórtan','','','',false,true);
+d.add(81,80,'616.1','<div class="nodetag">616.1</div></span>&nbsp;&nbsp;A vérkeringési szervek, véredények betegségei. Cardiovascularis panaszok','616.1','A vérkeringési szervek, véredények betegségei. Cardiovascularis panaszok','','','',false,true);
+d.add(82,80,'616.2','<div class="nodetag">616.2</div></span>&nbsp;&nbsp;A légzőszervek patológiája. Légzőszervi bántalmak','616.2','A légzőszervek patológiája. Légzőszervi bántalmak','','','',false,true);
+d.add(83,80,'616.3','<div class="nodetag">616.3</div></span>&nbsp;&nbsp;Az emésztőszervek betegségei. Bélpanaszok','616.3','Az emésztőszervek betegségei. Bélpanaszok','','','',false,true);
+d.add(84,83,'616.31','<div class="nodetag">616.31</div></span>&nbsp;&nbsp;Száj és szájüreg. A szájüreg betegségei. Száj- és fogbetegségek. Stomatologia','616.31','Száj és szájüreg. A szájüreg betegségei. Száj- és fogbetegségek. Stomatologia','','','',false,true);
+d.add(85,80,'616.4','<div class="nodetag">616.4</div></span>&nbsp;&nbsp;A vérképző rendszer, a nyirokrendszer, a belső elválasztású mirigyek betegségei','616.4','A vérképző rendszer, a nyirokrendszer, a belső elválasztású mirigyek betegségei','','','',false,true);
+d.add(86,80,'616.5','<div class="nodetag">616.5</div></span>&nbsp;&nbsp;Bőrgyógyászat. Dermatológia. A köztakaró betegségei. Bőrpanaszok','616.5','Bőrgyógyászat. Dermatológia. A köztakaró betegségei. Bőrpanaszok','','','',false,true);
+d.add(87,80,'616.6','<div class="nodetag">616.6</div></span>&nbsp;&nbsp;Az urogenitális rendszer betegségei. Urológia. Az urológiai és nemi szervek panaszai','616.6','Az urogenitális rendszer betegségei. Urológia. Az urológiai és nemi szervek panaszai','','','',false,true);
+d.add(88,80,'616.7','<div class="nodetag">616.7</div></span>&nbsp;&nbsp;A mozgásszervek patológiája. A váz- és locmotoros rendszer','616.7','A mozgásszervek patológiája. A váz- és locmotoros rendszer','','','',false,true);
+d.add(89,80,'616.8','<div class="nodetag">616.8</div></span>&nbsp;&nbsp;Idegkórtan. Neurológia. Az idegek és az idegrendszer patológiája','616.8','Idegkórtan. Neurológia. Az idegek és az idegrendszer patológiája','','','',false,true);
+d.add(90,89,'616.89','<div class="nodetag">616.89</div></span>&nbsp;&nbsp;Pszichiátria. Elmekórtan (patopsychologia). Lelki anomáliák. Kóros lelki állapotok. Pszichózisok. Viselkedési és érzelmi zavarok','616.89','Pszichiátria. Elmekórtan (patopsychologia). Lelki anomáliák. Kóros lelki állapotok. Pszichózisok. Viselkedési és érzelmi zavarok','','','',false,true);
+d.add(91,80,'616.9','<div class="nodetag">616.9</div></span>&nbsp;&nbsp;Fertőző és ragályos betegségek','616.9','Fertőző és ragályos betegségek','','','',false,true);
+d.add(92,7,'617','<div class="nodetag">617</div></span>&nbsp;&nbsp;Sebészet. Ortopédia. Szemészet','617','Sebészet. Ortopédia. Szemészet','','','',false,true);
+d.add(93,92,'617.3','<div class="nodetag">617.3</div></span>&nbsp;&nbsp;Ortopédia. Orthopaedia','617.3','Ortopédia. Orthopaedia','','','',false,true);
+d.add(94,92,'617.7','<div class="nodetag">617.7</div></span>&nbsp;&nbsp;Szemészet. Opththalmologia','617.7','Szemészet. Opththalmologia','','','',false,true);
+d.add(95,7,'618','<div class="nodetag">618</div></span>&nbsp;&nbsp;Nőgyógyászat. Szülészet','618','Nőgyógyászat. Szülészet','','','',false,true);
+d.add(96,0,'62','<div class="nodetag">62</div></span>&nbsp;&nbsp;Mérnöki tudományok. Technika általában','62','Mérnöki tudományok. Technika általában','','','',false,true);
+d.add(97,96,'62-1/-9','<div class="nodetag">62-1/-9</div></span>&nbsp;&nbsp;Gépek, készülékek, berendezések, eljárások, gyártmányok és tárgyak jellemzői és részei fogalmait kifejező speciális alosztások','62-1/-9','Gépek, készülékek, berendezések, eljárások, gyártmányok és tárgyak jellemzői és részei fogalmait kifejező speciális alosztások','','','',false,true);
+d.add(98,97,'62-1','<div class="nodetag">62-1</div></span>&nbsp;&nbsp;Gépek általános jellemzői ','62-1','Gépek általános jellemzői ','','','',false,true);
+d.add(99,97,'62-2','<div class="nodetag">62-2</div></span>&nbsp;&nbsp;Gépek, szerkezetek, berendezések álló és mozgó részei ','62-2','Gépek, szerkezetek, berendezések álló és mozgó részei ','','','',false,true);
+d.add(100,97,'62-3','<div class="nodetag">62-3</div></span>&nbsp;&nbsp;Vezérmű és részei. Vezérműhajtás. Tolattyús vezérlés. Szelepes vezérlés ','62-3','Vezérmű és részei. Vezérműhajtás. Tolattyús vezérlés. Szelepes vezérlés ','','','',false,true);
+d.add(101,97,'62-4','<div class="nodetag">62-4</div></span>&nbsp;&nbsp;Anyagállapot. Felület. Külalak ','62-4','Anyagállapot. Felület. Külalak ','','','',false,true);
+d.add(102,97,'62-5','<div class="nodetag">62-5</div></span>&nbsp;&nbsp;Gépek üzeme. Gépek és folyamatok vezérlése','62-5','Gépek üzeme. Gépek és folyamatok vezérlése','','','',false,true);
+d.add(103,97,'62-6','<div class="nodetag">62-6</div></span>&nbsp;&nbsp;Gépek és berendezések tüzelőanyag és egyéb hőforrások szerint ','62-6','Gépek és berendezések tüzelőanyag és egyéb hőforrások szerint ','','','',false,true);
+d.add(104,97,'62-7','<div class="nodetag">62-7</div></span>&nbsp;&nbsp;Gépek kezelése, karbantartása és védelme','62-7','Gépek kezelése, karbantartása és védelme','','','',false,true);
+d.add(105,97,'62-8','<div class="nodetag">62-8</div></span>&nbsp;&nbsp;Gépek és készülékek hajtóerő szerint. A gépek energiaforrásai','62-8','Gépek és készülékek hajtóerő szerint. A gépek energiaforrásai','','','',false,true);
+d.add(106,97,'62-9','<div class="nodetag">62-9</div></span>&nbsp;&nbsp;Üzemelési feltételek és jellemzők (eljárások és berendezések)','62-9','Üzemelési feltételek és jellemzők (eljárások és berendezések)','','','',false,true);
+d.add(107,106,'62-91','<div class="nodetag">62-91</div></span>&nbsp;&nbsp;Az anyagállapot változatai és jellemzői','62-91','Az anyagállapot változatai és jellemzői','','','',false,true);
+d.add(108,106,'62-92','<div class="nodetag">62-92</div></span>&nbsp;&nbsp;Reakciók a reagensek szempontjából. Reagensek','62-92','Reakciók a reagensek szempontjából. Reagensek','','','',false,true);
+d.add(109,106,'62-93','<div class="nodetag">62-93</div></span>&nbsp;&nbsp;Eljárások, berendezések a közvetlenség, a folyamatosság, a gépesítettségi fok, a kapcsolatok, az eszközök szempontjából','62-93','Eljárások, berendezések a közvetlenség, a folyamatosság, a gépesítettségi fok, a kapcsolatok, az eszközök szempontjából','','','',false,true);
+d.add(110,106,'62-94','<div class="nodetag">62-94</div></span>&nbsp;&nbsp;Az eljárások iránya és sebessége','62-94','Az eljárások iránya és sebessége','','','',false,true);
+d.add(111,106,'62-95','<div class="nodetag">62-95</div></span>&nbsp;&nbsp;Egyszerű és lépcsős eljárások','62-95','Egyszerű és lépcsős eljárások','','','',false,true);
+d.add(112,106,'62-96','<div class="nodetag">62-96</div></span>&nbsp;&nbsp;Eljárások a termék tulajdonságai szempontjából. Módosítások általában','62-96','Eljárások a termék tulajdonságai szempontjából. Módosítások általában','','','',false,true);
+d.add(113,106,'62-97','<div class="nodetag">62-97</div></span>&nbsp;&nbsp;Hőtani jellemzők. Hőmérséklet. Hőmérsékleti tartomány','62-97','Hőtani jellemzők. Hőmérséklet. Hőmérsékleti tartomány','','','',false,true);
+d.add(114,106,'62-98','<div class="nodetag">62-98</div></span>&nbsp;&nbsp;Nyomástartomány. A nyomás mértéke. A nyomásra vonatkozó jellemzők','62-98','Nyomástartomány. A nyomás mértéke. A nyomásra vonatkozó jellemzők','','','',false,true);
+d.add(115,96,'620','<div class="nodetag">620</div></span>&nbsp;&nbsp;Anyagvizsgálat. Anyagismeret. Erőművek. Energiagazdálkodás','620','Anyagvizsgálat. Anyagismeret. Erőművek. Energiagazdálkodás','','','',false,true);
+d.add(116,115,'620.3','<div class="nodetag">620.3</div></span>&nbsp;&nbsp;Nanotechnológia','620.3','Nanotechnológia','','','',false,true);
+d.add(117,115,'620.9','<div class="nodetag">620.9</div></span>&nbsp;&nbsp;Energiagazdálkodás általában','620.9','Energiagazdálkodás általában','','','',false,true);
+d.add(118,96,'621','<div class="nodetag">621</div></span>&nbsp;&nbsp;Általános gépészet. Magtechnika. Nukleáris technika. Elektrotechnika. Mechanikai technológia általában','621','Általános gépészet. Magtechnika. Nukleáris technika. Elektrotechnika. Mechanikai technológia általában','','','',false,true);
+d.add(119,118,'621.1','<div class="nodetag">621.1</div></span>&nbsp;&nbsp;Hőerőgépek általában. Gőz fejlesztése, elosztása, hasznosítása. Gőzgép. Gőzkazán. Vízmelegítő','621.1','Hőerőgépek általában. Gőz fejlesztése, elosztása, hasznosítása. Gőzgép. Gőzkazán. Vízmelegítő','','','',false,true);
+d.add(120,118,'621.22','<div class="nodetag">621.22</div></span>&nbsp;&nbsp;Hidraulikus energia. Vízerőgépek','621.22','Hidraulikus energia. Vízerőgépek','','','',false,true);
+d.add(121,118,'621.3','<div class="nodetag">621.3</div></span>&nbsp;&nbsp;Elektrotechnika','621.3','Elektrotechnika','','','',false,true);
+d.add(122,118,'621.4','<div class="nodetag">621.4</div></span>&nbsp;&nbsp;Hőerőgépek (a gőzgépek kivételével)','621.4','Hőerőgépek (a gőzgépek kivételével)','','','',false,true);
+d.add(123,118,'621.5','<div class="nodetag">621.5</div></span>&nbsp;&nbsp;Légnyomásos energia, gépek és szerszámok. Hűtéstechnika','621.5','Légnyomásos energia, gépek és szerszámok. Hűtéstechnika','','','',false,true);
+d.add(124,118,'621.6','<div class="nodetag">621.6</div></span>&nbsp;&nbsp;Berendezések folyadékok és gázok kezelésére, szállítására, tárolására','621.6','Berendezések folyadékok és gázok kezelésére, szállítására, tárolására','','','',false,true);
+d.add(125,118,'621.7','<div class="nodetag">621.7</div></span>&nbsp;&nbsp;Mechanikai technológia, megmunkálás általában: folyamatok szerszámok, gépek, berendezések','621.7','Mechanikai technológia, megmunkálás általában: folyamatok szerszámok, gépek, berendezések','','','',false,true);
+d.add(126,118,'621.8','<div class="nodetag">621.8</div></span>&nbsp;&nbsp;Gépelemek. Hajtástechnika. Hajtóművek. Anyagmozgatás. Kötőelemek. Kenés','621.8','Gépelemek. Hajtástechnika. Hajtóművek. Anyagmozgatás. Kötőelemek. Kenés','','','',false,true);
+d.add(127,118,'621.9','<div class="nodetag">621.9</div></span>&nbsp;&nbsp;Forgácsoló megmunkálás. Vágás, csiszolás, köszörülés, aprítás, lemezmegmunkálás stb.','621.9','Forgácsoló megmunkálás. Vágás, csiszolás, köszörülés, aprítás, lemezmegmunkálás stb.','','','',false,true);
+d.add(128,96,'622','<div class="nodetag">622</div></span>&nbsp;&nbsp;Bányászat','622','Bányászat','','','',false,true);
+d.add(129,128,'622.1','<div class="nodetag">622.1</div></span>&nbsp;&nbsp;Bányamérés. Kutatás. Mintavétel. Külszíni és föld alatti ásványi lelőhelyek kutatása','622.1','Bányamérés. Kutatás. Mintavétel. Külszíni és föld alatti ásványi lelőhelyek kutatása','','','',false,true);
+d.add(130,128,'622.2','<div class="nodetag">622.2</div></span>&nbsp;&nbsp;Bányászati munkálatok a feltárással és kitermeléssel, jövesztéssel kapcsolatban','622.2','Bányászati munkálatok a feltárással és kitermeléssel, jövesztéssel kapcsolatban','','','',false,true);
+d.add(131,128,'622.3','<div class="nodetag">622.3</div></span>&nbsp;&nbsp;Bányászati ágazatok a kitermelt ásványok, ércek, kövek szerint','622.3','Bányászati ágazatok a kitermelt ásványok, ércek, kövek szerint','','','',false,true);
+d.add(132,128,'622.4','<div class="nodetag">622.4</div></span>&nbsp;&nbsp;Bányaszellőztetés. Bányavilágítás','622.4','Bányaszellőztetés. Bányavilágítás','','','',false,true);
+d.add(133,128,'622.5','<div class="nodetag">622.5</div></span>&nbsp;&nbsp;Bányavíz. Vízmentesítés','622.5','Bányavíz. Vízmentesítés','','','',false,true);
+d.add(134,128,'622.6','<div class="nodetag">622.6</div></span>&nbsp;&nbsp;Szállítás a bányaüzemben, a fejtésben, a vágatokban stb. ','622.6','Szállítás a bányaüzemben, a fejtésben, a vágatokban stb. ','','','',false,true);
+d.add(135,128,'622.7','<div class="nodetag">622.7</div></span>&nbsp;&nbsp;Ásvány-előkészítés. Kezelés, feldolgozás, dúsítás stb. ','622.7','Ásvány-előkészítés. Kezelés, feldolgozás, dúsítás stb. ','','','',false,true);
+d.add(136,128,'622.8','<div class="nodetag">622.8</div></span>&nbsp;&nbsp;Veszélyek, balesetek, károk a bányászatban. Egészségvédelem és biztonsági intézkedések. Bányamentés','622.8','Veszélyek, balesetek, károk a bányászatban. Egészségvédelem és biztonsági intézkedések. Bányamentés','','','',false,true);
+d.add(137,96,'623','<div class="nodetag">623</div></span>&nbsp;&nbsp;Haditechnika','623','Haditechnika','','','',false,true);
+d.add(138,137,'623.1/.7','<div class="nodetag">623.1/.7</div></span>&nbsp;&nbsp;Szárazföldi haditechnika. Tüzérség','623.1/.7','Szárazföldi haditechnika. Tüzérség','','','',false,true);
+d.add(139,138,'623.1/.3','<div class="nodetag">623.1/.3</div></span>&nbsp;&nbsp;Műszaki csapatok technikája. Erődítmények és védelmi építmények ','623.1/.3','Műszaki csapatok technikája. Erődítmények és védelmi építmények ','','','',false,true);
+d.add(140,139,'623.1','<div class="nodetag">623.1</div></span>&nbsp;&nbsp;Erődítmények. Állandó erősítések. Megerősített vonalak és területek','623.1','Erődítmények. Állandó erősítések. Megerősített vonalak és területek','','','',false,true);
+d.add(141,139,'623.2','<div class="nodetag">623.2</div></span>&nbsp;&nbsp;Támadó és védelmi építmények. Tábori erődítmények. Sáncok. Árkok','623.2','Támadó és védelmi építmények. Tábori erődítmények. Sáncok. Árkok','','','',false,true);
+d.add(142,139,'623.3','<div class="nodetag">623.3</div></span>&nbsp;&nbsp;Szárazföldi aknamezők. Terepakadályok. Elárasztás','623.3','Szárazföldi aknamezők. Terepakadályok. Elárasztás','','','',false,true);
+d.add(143,138,'623.4','<div class="nodetag">623.4</div></span>&nbsp;&nbsp;Fegyverzeti anyagok. Tüzérségi eszközök. Páncélozott és egyéb katonai járművek. Kézi lőfegyverek. Lőszerek. Vegyi harcanyagok. Irányított lövedékek és rakéták','623.4','Fegyverzeti anyagok. Tüzérségi eszközök. Páncélozott és egyéb katonai járművek. Kézi lőfegyverek. Lőszerek. Vegyi harcanyagok. Irányított lövedékek és rakéták','','','',false,true);
+d.add(144,138,'623.5','<div class="nodetag">623.5</div></span>&nbsp;&nbsp;Lövéstan. Ballisztika. Elméleti és kísérleti kérdések','623.5','Lövéstan. Ballisztika. Elméleti és kísérleti kérdések','','','',false,true);
+d.add(145,138,'623.6','<div class="nodetag">623.6</div></span>&nbsp;&nbsp;Műszaki csapatok felszerelése és tevékenysége. Katonai híradás- és radartechnika. Katonai térképészet','623.6','Műszaki csapatok felszerelése és tevékenysége. Katonai híradás- és radartechnika. Katonai térképészet','','','',false,true);
+d.add(146,138,'623.7','<div class="nodetag">623.7</div></span>&nbsp;&nbsp;Katonai és haditengerészeti légi járművek','623.7','Katonai és haditengerészeti légi járművek','','','',false,true);
+d.add(147,137,'623.8/.9','<div class="nodetag">623.8/.9</div></span>&nbsp;&nbsp;Haditengerészeti technika','623.8/.9','Haditengerészeti technika','','','',false,true);
+d.add(148,147,'623.8','<div class="nodetag">623.8</div></span>&nbsp;&nbsp;Hajók és haditengerészeti létesítmények építése. Haditengerészeti támaszpontok. Hadihajók és más vízi járművek','623.8','Hajók és haditengerészeti létesítmények építése. Haditengerészeti támaszpontok. Hadihajók és más vízi járművek','','','',false,true);
+d.add(149,147,'623.9','<div class="nodetag">623.9</div></span>&nbsp;&nbsp;Haditengerészeti anyagok. Hajók védelme és fegyverzete. Víz alatti védelem','623.9','Haditengerészeti anyagok. Hajók védelme és fegyverzete. Víz alatti védelem','','','',false,true);
+d.add(150,96,'624','<div class="nodetag">624</div></span>&nbsp;&nbsp;Építőmérnöki tudományok általában','624','Építőmérnöki tudományok általában','','','',false,true);
+d.add(151,150,'624.01/.07','<div class="nodetag">624.01/.07</div></span>&nbsp;&nbsp;Mély- és magasépítési tervezés fogalmait kifejező speciális alosztások','624.01/.07','Mély- és magasépítési tervezés fogalmait kifejező speciális alosztások','','','',false,true);
+d.add(152,151,'624.01','<div class="nodetag">624.01</div></span>&nbsp;&nbsp;Épületszerkezetek és szerkezeti egységek az építőanyagok és az építési mód szerint','624.01','Épületszerkezetek és szerkezeti egységek az építőanyagok és az építési mód szerint','','','',false,true);
+d.add(153,151,'624.03','<div class="nodetag">624.03</div></span>&nbsp;&nbsp;Szerkezetek mérete, élettartama, fekvése és alakja','624.03','Szerkezetek mérete, élettartama, fekvése és alakja','','','',false,true);
+d.add(154,151,'624.04','<div class="nodetag">624.04</div></span>&nbsp;&nbsp;Szerkezettervezés. Grafosztatika és analitikus statika alkalmazása szerkezetek vizsgálatánál és számításánál','624.04','Szerkezettervezés. Grafosztatika és analitikus statika alkalmazása szerkezetek vizsgálatánál és számításánál','','','',false,true);
+d.add(155,151,'624.05','<div class="nodetag">624.05</div></span>&nbsp;&nbsp;Az építési hely szervezése, berendezése. Építési eljárások','624.05','Az építési hely szervezése, berendezése. Építési eljárások','','','',false,true);
+d.add(156,151,'624.07','<div class="nodetag">624.07</div></span>&nbsp;&nbsp;Szerkezeti elemek. Teherhordó szerkezetek','624.07','Szerkezeti elemek. Teherhordó szerkezetek','','','',false,true);
+d.add(157,150,'624.1','<div class="nodetag">624.1</div></span>&nbsp;&nbsp;Mélyépítés. Alépítmények. Földművek. Alapozás. Alagútépítés','624.1','Mélyépítés. Alépítmények. Földművek. Alapozás. Alagútépítés','','','',false,true);
+d.add(158,150,'624.21/.8','<div class="nodetag">624.21/.8</div></span>&nbsp;&nbsp;Hídépítés','624.21/.8','Hídépítés','','','',false,true);
+d.add(159,158,'624.3','<div class="nodetag">624.3</div></span>&nbsp;&nbsp;Rácsos híd (áttört gerincű tartóval, rácsos tartóval)','624.3','Rácsos híd (áttört gerincű tartóval, rácsos tartóval)','','','',false,true);
+d.add(160,158,'624.5','<div class="nodetag">624.5</div></span>&nbsp;&nbsp;Kábelhíd. Függőhíd. Lánchíd','624.5','Kábelhíd. Függőhíd. Lánchíd','','','',false,true);
+d.add(161,158,'624.6','<div class="nodetag">624.6</div></span>&nbsp;&nbsp;Ívhíd, boltozott híd','624.6','Ívhíd, boltozott híd','','','',false,true);
+d.add(162,158,'624.8','<div class="nodetag">624.8</div></span>&nbsp;&nbsp;Mozgóhíd','624.8','Mozgóhíd','','','',false,true);
+d.add(163,150,'624.9','<div class="nodetag">624.9</div></span>&nbsp;&nbsp;Magasépítés. Felépítmények (kivéve hidak). Önálló felépítmények','624.9','Magasépítés. Felépítmények (kivéve hidak). Önálló felépítmények','','','',false,true);
+d.add(164,96,'625','<div class="nodetag">625</div></span>&nbsp;&nbsp;Szárazföldi közlekedésmérnöki tudományok. Szárazföldi közlekedési utak technikája. Vasútépítés. Útépítés','625','Szárazföldi közlekedésmérnöki tudományok. Szárazföldi közlekedési utak technikája. Vasútépítés. Útépítés','','','',false,true);
+d.add(165,164,'625.1/.5','<div class="nodetag">625.1/.5</div></span>&nbsp;&nbsp;Vasútépítés. Vasutak. Villamosvasutak. Drótkötélpályák ','625.1/.5','Vasútépítés. Vasutak. Villamosvasutak. Drótkötélpályák ','','','',false,true);
+d.add(166,165,'625.1','<div class="nodetag">625.1</div></span>&nbsp;&nbsp;Vasutak általában. Pályatest. Vágányépítés','625.1','Vasutak általában. Pályatest. Vágányépítés','','','',false,true);
+d.add(167,165,'625.5','<div class="nodetag">625.5</div></span>&nbsp;&nbsp;Drótkötélpálya. Sikló. Függővasút. Függőpálya. Villamos függővasút','625.5','Drótkötélpálya. Sikló. Függővasút. Függőpálya. Villamos függővasút','','','',false,true);
+d.add(168,164,'625.7/.8','<div class="nodetag">625.7/.8</div></span>&nbsp;&nbsp;Útépítés. Közútépítés','625.7/.8','Útépítés. Közútépítés','','','',false,true);
+d.add(169,168,'625.7','<div class="nodetag">625.7</div></span>&nbsp;&nbsp;Útépítés, közútépítés általában. Utak, úttestek, utcák. Vidéki és városi úthálózatok','625.7','Útépítés, közútépítés általában. Utak, úttestek, utcák. Vidéki és városi úthálózatok','','','',false,true);
+d.add(170,168,'625.8','<div class="nodetag">625.8</div></span>&nbsp;&nbsp;Kemény felületű útburkolások. Útburkolat, fedőréteg, burkoló réteg. Anyagok előkészítése és használata','625.8','Kemény felületű útburkolások. Útburkolat, fedőréteg, burkoló réteg. Anyagok előkészítése és használata','','','',false,true);
+d.add(171,96,'626/627','<div class="nodetag">626/627</div></span>&nbsp;&nbsp;Vízépítés. Vízépítmények, vízi szerkezetek','626/627','Vízépítés. Vízépítmények, vízi szerkezetek','','','',false,true);
+d.add(172,171,'626','<div class="nodetag">626</div></span>&nbsp;&nbsp;Vízépítés általában ','626','Vízépítés általában ','','','',false,true);
+d.add(173,172,'626.1','<div class="nodetag">626.1</div></span>&nbsp;&nbsp;Belvízi hajózási utak. Hajócsatornák. Szabályozott, csatornázott folyók','626.1','Belvízi hajózási utak. Hajócsatornák. Szabályozott, csatornázott folyók','','','',false,true);
+d.add(174,172,'626.4','<div class="nodetag">626.4</div></span>&nbsp;&nbsp;Zsilip, hajózsilip','626.4','Zsilip, hajózsilip','','','',false,true);
+d.add(175,172,'626.5','<div class="nodetag">626.5</div></span>&nbsp;&nbsp;Hajóemelő berendezések és lejtős síkú hajóemelő szerkezetek, hajósiklók','626.5','Hajóemelő berendezések és lejtős síkú hajóemelő szerkezetek, hajósiklók','','','',false,true);
+d.add(176,172,'626.8','<div class="nodetag">626.8</div></span>&nbsp;&nbsp;Mezőgazdasági vízépítés. Öntözési, drénezési és meliorációs technika','626.8','Mezőgazdasági vízépítés. Öntözési, drénezési és meliorációs technika','','','',false,true);
+d.add(177,172,'626.9','<div class="nodetag">626.9</div></span>&nbsp;&nbsp;Tengeri csatornák. Hajózható csatornák','626.9','Tengeri csatornák. Hajózható csatornák','','','',false,true);
+d.add(178,171,'627','<div class="nodetag">627</div></span>&nbsp;&nbsp;Természetes vízi utak, kikötők és partok építése. Hajózási, kotrási és mentési eszközök. Duzzasztógátak és vízerőművek','627','Természetes vízi utak, kikötők és partok építése. Hajózási, kotrási és mentési eszközök. Duzzasztógátak és vízerőművek','','','',false,true);
+d.add(179,178,'627.2','<div class="nodetag">627.2</div></span>&nbsp;&nbsp;Kikötő és horgonyzóhely, védett rév: mérnöki és építési munka általában','627.2','Kikötő és horgonyzóhely, védett rév: mérnöki és építési munka általában','','','',false,true);
+d.add(180,178,'627.3','<div class="nodetag">627.3</div></span>&nbsp;&nbsp;Kikötő belső létesítményei. Dokk. Rakpart. Berendezés és felszerelés','627.3','Kikötő belső létesítményei. Dokk. Rakpart. Berendezés és felszerelés','','','',false,true);
+d.add(181,178,'627.4','<div class="nodetag">627.4</div></span>&nbsp;&nbsp;Folyópartok védelme. Folyó-, folyamszabályozás (kanyarulatok levágása). Egyéb folyamszabályozási műveletek','627.4','Folyópartok védelme. Folyó-, folyamszabályozás (kanyarulatok levágása). Egyéb folyamszabályozási műveletek','','','',false,true);
+d.add(182,178,'627.5','<div class="nodetag">627.5</div></span>&nbsp;&nbsp;Vízi utak védelmére és szabályozására szolgáló egyéb berendezések. Töltés, gát. Partvédelem, partbiztosítás. Vízrendezés és lecsapolás','627.5','Vízi utak védelmére és szabályozására szolgáló egyéb berendezések. Töltés, gát. Partvédelem, partbiztosítás. Vízrendezés és lecsapolás','','','',false,true);
+d.add(183,178,'627.7','<div class="nodetag">627.7</div></span>&nbsp;&nbsp;Hajózási, navigációs eszközök. Mederfenntartás. Tengeri mentés, mentőeszközök','627.7','Hajózási, navigációs eszközök. Mederfenntartás. Tengeri mentés, mentőeszközök','','','',false,true);
+d.add(184,178,'627.8','<div class="nodetag">627.8</div></span>&nbsp;&nbsp;Duzzasztógátak. Vízerőművek műtárgyai','627.8','Duzzasztógátak. Vízerőművek műtárgyai','','','',false,true);
+d.add(185,96,'628','<div class="nodetag">628</div></span>&nbsp;&nbsp;Egészségügyi mérnöki technika. Vízellátás. Hulladékkezelés. Világítástechnika','628','Egészségügyi mérnöki technika. Vízellátás. Hulladékkezelés. Világítástechnika','','','',false,true);
+d.add(186,185,'628.1','<div class="nodetag">628.1</div></span>&nbsp;&nbsp;Vízellátás. Vízkezelés. Vízfogyasztás','628.1','Vízellátás. Vízkezelés. Vízfogyasztás','','','',false,true);
+d.add(187,185,'628.2','<div class="nodetag">628.2</div></span>&nbsp;&nbsp;Csatornázás. Szennyvízelvezetés','628.2','Csatornázás. Szennyvízelvezetés','','','',false,true);
+d.add(188,185,'628.3','<div class="nodetag">628.3</div></span>&nbsp;&nbsp;Szennyvíz. Szennyvíz kezelése, elhelyezése és hasznosítása','628.3','Szennyvíz. Szennyvíz kezelése, elhelyezése és hasznosítása','','','',false,true);
+d.add(189,185,'628.4','<div class="nodetag">628.4</div></span>&nbsp;&nbsp;Település-egészségügy. Városegészségügy. Hulladékok. Hulladékgyűjtés és elhelyezés','628.4','Település-egészségügy. Városegészségügy. Hulladékok. Hulladékgyűjtés és elhelyezés','','','',false,true);
+d.add(190,185,'628.5','<div class="nodetag">628.5</div></span>&nbsp;&nbsp;Ipari és egyéb ártalmak elleni műszaki védelem','628.5','Ipari és egyéb ártalmak elleni műszaki védelem','','','',false,true);
+d.add(191,185,'628.6','<div class="nodetag">628.6</div></span>&nbsp;&nbsp;Épületek csatornázása és egészségügyi berendezései. Lakáshigiéne','628.6','Épületek csatornázása és egészségügyi berendezései. Lakáshigiéne','','','',false,true);
+d.add(192,185,'628.8','<div class="nodetag">628.8</div></span>&nbsp;&nbsp;Klímatechnika. Légkondicionálás. Fűtés. Ventilláció','628.8','Klímatechnika. Légkondicionálás. Fűtés. Ventilláció','','','',false,true);
+d.add(193,185,'628.9','<div class="nodetag">628.9</div></span>&nbsp;&nbsp;Világítástechnika. Fénytechnika','628.9','Világítástechnika. Fénytechnika','','','',false,true);
+d.add(194,96,'629','<div class="nodetag">629</div></span>&nbsp;&nbsp;Járműtechnika','629','Járműtechnika','','','',false,true);
+d.add(195,194,'629.01/.08','<div class="nodetag">629.01/.08</div></span>&nbsp;&nbsp;Közlekedési eszközök, járműtechnika fogalmaihoz kapcsolható speciális alosztások','629.01/.08','Közlekedési eszközök, járműtechnika fogalmaihoz kapcsolható speciális alosztások','','','',false,true);
+d.add(196,195,'629.01','<div class="nodetag">629.01</div></span>&nbsp;&nbsp;Járművek tervezési jellemzői. Tulajdonságok. Teljesítmény. Vizsgálatok','629.01','Járművek tervezési jellemzői. Tulajdonságok. Teljesítmény. Vizsgálatok','','','',false,true);
+d.add(197,195,'629.02','<div class="nodetag">629.02</div></span>&nbsp;&nbsp;Járműszerkezet. Szerkesztési elvek. Általános elrendezés és alkatrészek','629.02','Járműszerkezet. Szerkesztési elvek. Általános elrendezés és alkatrészek','','','',false,true);
+d.add(198,195,'629.03','<div class="nodetag">629.03</div></span>&nbsp;&nbsp;Hajtóműrendszerek','629.03','Hajtóműrendszerek','','','',false,true);
+d.add(199,195,'629.04','<div class="nodetag">629.04</div></span>&nbsp;&nbsp;Belső berendezés és belső terek felszerelése. Kikészítés','629.04','Belső berendezés és belső terek felszerelése. Kikészítés','','','',false,true);
+d.add(200,195,'629.05','<div class="nodetag">629.05</div></span>&nbsp;&nbsp;Járművek irányító- és szabályozórendszerei. Műszerek és készülékek (járművön)','629.05','Járművek irányító- és szabályozórendszerei. Műszerek és készülékek (járművön)','','','',false,true);
+d.add(201,195,'629.06','<div class="nodetag">629.06</div></span>&nbsp;&nbsp;Járművek segédrendszerei és eszközei','629.06','Járművek segédrendszerei és eszközei','','','',false,true);
+d.add(202,195,'629.07','<div class="nodetag">629.07</div></span>&nbsp;&nbsp;Járműüzemelési módok, indulás, felszállás, megállás, ideértve a menetteljesítményt','629.07','Járműüzemelési módok, indulás, felszállás, megállás, ideértve a menetteljesítményt','','','',false,true);
+d.add(203,195,'629.08','<div class="nodetag">629.08</div></span>&nbsp;&nbsp;Járműkarbantartás alapberendezései, felszerelései és eljárásai','629.08','Járműkarbantartás alapberendezései, felszerelései és eljárásai','','','',false,true);
+d.add(204,194,'629.3','<div class="nodetag">629.3</div></span>&nbsp;&nbsp;Földi járműmérnöki tudomány (kivéve a sínjárműveket)','629.3','Földi járműmérnöki tudomány (kivéve a sínjárműveket)','','','',false,true);
+d.add(205,194,'629.4','<div class="nodetag">629.4</div></span>&nbsp;&nbsp;Vasúti járműtechnika. Mozdonyok. Vasúti gördülőanyag. Vasúti járműtelep. Vasúti gördülőanyaggal kapcsolatos berendezések és szolgáltatások','629.4','Vasúti járműtechnika. Mozdonyok. Vasúti gördülőanyag. Vasúti járműtelep. Vasúti gördülőanyaggal kapcsolatos berendezések és szolgáltatások','','','',false,true);
+d.add(206,194,'629.5','<div class="nodetag">629.5</div></span>&nbsp;&nbsp;Vízi járművek technikája. Tengerészet. Csónakok. Hajók. Csónak- és hajóépítés','629.5','Vízi járművek technikája. Tengerészet. Csónakok. Hajók. Csónak- és hajóépítés','','','',false,true);
+d.add(207,194,'629.7','<div class="nodetag">629.7</div></span>&nbsp;&nbsp;Légi járművek és űrjárművek (kozmikus járművek) technikája. Rakéták és távirányított lövedékek. Űrhajózás','629.7','Légi járművek és űrjárművek (kozmikus járművek) technikája. Rakéták és távirányított lövedékek. Űrhajózás','','','',false,true);
+d.add(208,0,'63','<div class="nodetag">63</div></span>&nbsp;&nbsp;Mezőgazdaság. Erdőgazdaság. Állattenyésztés. Vadászat. Halászat ','63','Mezőgazdaság. Erdőgazdaság. Állattenyésztés. Vadászat. Halászat ','','','',false,true);
+d.add(209,208,'630','<div class="nodetag">630</div></span>&nbsp;&nbsp;Erdészet. Erdőgazdaság','630','Erdészet. Erdőgazdaság','','','',false,true);
+d.add(210,209,'630*0','<div class="nodetag">630*0</div></span>&nbsp;&nbsp;Erdők. Erdészet. Erdőgazdaság. Erdőművelés. Erdészeti termékek ','630*0','Erdők. Erdészet. Erdőgazdaság. Erdőművelés. Erdészeti termékek ','','','',false,true);
+d.add(211,209,'630*1','<div class="nodetag">630*1</div></span>&nbsp;&nbsp;Természeti feltételek. Erdészeti biológia','630*1','Természeti feltételek. Erdészeti biológia','','','',false,true);
+d.add(212,209,'630*2','<div class="nodetag">630*2</div></span>&nbsp;&nbsp;Általános erdészeti biológia','630*2','Általános erdészeti biológia','','','',false,true);
+d.add(213,209,'630*3','<div class="nodetag">630*3</div></span>&nbsp;&nbsp;Munkaismeretek és gyakorlatszerzés. Fakitermelés és szállítás. Erdőmérnöki tudományok','630*3','Munkaismeretek és gyakorlatszerzés. Fakitermelés és szállítás. Erdőmérnöki tudományok','','','',false,true);
+d.add(214,209,'630*4','<div class="nodetag">630*4</div></span>&nbsp;&nbsp;Erdővédelem','630*4','Erdővédelem','','','',false,true);
+d.add(215,209,'630*5','<div class="nodetag">630*5</div></span>&nbsp;&nbsp;Faméréstan. Fanövekedés, szaporulat. Az állományok növekedése és szerkezete. Felmérés és térképezés','630*5','Faméréstan. Fanövekedés, szaporulat. Az állományok növekedése és szerkezete. Felmérés és térképezés','','','',false,true);
+d.add(216,209,'630*6','<div class="nodetag">630*6</div></span>&nbsp;&nbsp;Erdőrendezés. Erdészeti üzemgazdaság. Igazgatás és szervezés. ','630*6','Erdőrendezés. Erdészeti üzemgazdaság. Igazgatás és szervezés. ','','','',false,true);
+d.add(217,209,'630*7','<div class="nodetag">630*7</div></span>&nbsp;&nbsp;Erdészeti termékek maketingje. Az erdészeti szállításügy és feldolgozó iparok gazdasági kérdései','630*7','Erdészeti termékek maketingje. Az erdészeti szállításügy és feldolgozó iparok gazdasági kérdései','','','',false,true);
+d.add(218,209,'630*8','<div class="nodetag">630*8</div></span>&nbsp;&nbsp;Erdei termékek és felhasználásuk','630*8','Erdei termékek és felhasználásuk','','','',false,true);
+d.add(219,209,'630*9','<div class="nodetag">630*9</div></span>&nbsp;&nbsp;Erdősítés és erdészet nemzeti szempontjai. Erdészeti, erdőtelepítési politika. Az erdészet szociális-gazdasági helyzete','630*9','Erdősítés és erdészet nemzeti szempontjai. Erdészeti, erdőtelepítési politika. Az erdészet szociális-gazdasági helyzete','','','',false,true);
+d.add(220,208,'631/635','<div class="nodetag">631/635</div></span>&nbsp;&nbsp;Mezőgazdasági üzemtan. Szántóföldi növénytermesztés és kertészet','631/635','Mezőgazdasági üzemtan. Szántóföldi növénytermesztés és kertészet','','','',false,true);
+d.add(221,220,'631','<div class="nodetag">631</div></span>&nbsp;&nbsp;Mezőgazdaság általában','631','Mezőgazdaság általában','','','',false,true);
+d.add(222,221,'631.1','<div class="nodetag">631.1</div></span>&nbsp;&nbsp;Mezőgazdasági üzemek vezetése és szervezése','631.1','Mezőgazdasági üzemek vezetése és szervezése','','','',false,true);
+d.add(223,221,'631.2','<div class="nodetag">631.2</div></span>&nbsp;&nbsp;Mezőgazdasági üzemi épületek, építmények. Állattartás céljára szolgáló épületek, berendezések, felszerelések','631.2','Mezőgazdasági üzemi épületek, építmények. Állattartás céljára szolgáló épületek, berendezések, felszerelések','','','',false,true);
+d.add(224,221,'631.3','<div class="nodetag">631.3</div></span>&nbsp;&nbsp;Mezőgazdasági gépek, eszközök és felszerelések','631.3','Mezőgazdasági gépek, eszközök és felszerelések','','','',false,true);
+d.add(225,221,'631.4','<div class="nodetag">631.4</div></span>&nbsp;&nbsp;Talajtan. Talajvizsgálat. Termőföldkutatás','631.4','Talajtan. Talajvizsgálat. Termőföldkutatás','','','',false,true);
+d.add(226,221,'631.5','<div class="nodetag">631.5</div></span>&nbsp;&nbsp;Mezőgazdasági munkálatok','631.5','Mezőgazdasági munkálatok','','','',false,true);
+d.add(227,221,'631.6','<div class="nodetag">631.6</div></span>&nbsp;&nbsp;A földművelés mérnöki technikája','631.6','A földművelés mérnöki technikája','','','',false,true);
+d.add(228,221,'631.8','<div class="nodetag">631.8</div></span>&nbsp;&nbsp;Trágyafélék. Trágyázás. Növekedésserkentés','631.8','Trágyafélék. Trágyázás. Növekedésserkentés','','','',false,true);
+d.add(229,220,'632','<div class="nodetag">632</div></span>&nbsp;&nbsp;Növényi károk. Növénybetegségek. Kártevők. Növényvédelem','632','Növényi károk. Növénybetegségek. Kártevők. Növényvédelem','','','',false,true);
+d.add(230,220,'633/635','<div class="nodetag">633/635</div></span>&nbsp;&nbsp;Kertészet általában','633/635','Kertészet általában','','','',false,true);
+d.add(231,230,'633','<div class="nodetag">633</div></span>&nbsp;&nbsp;Szántóföldi növénytermesztés','633','Szántóföldi növénytermesztés','','','',false,true);
+d.add(232,231,'633.1','<div class="nodetag">633.1</div></span>&nbsp;&nbsp;Gabonafélék. Szemes termények','633.1','Gabonafélék. Szemes termények','','','',false,true);
+d.add(233,231,'633.2','<div class="nodetag">633.2</div></span>&nbsp;&nbsp;Takarmányfüvek. Rétifüvek','633.2','Takarmányfüvek. Rétifüvek','','','',false,true);
+d.add(234,231,'633.3','<div class="nodetag">633.3</div></span>&nbsp;&nbsp;Takarmánynövények a pázsitfüvek kivételével','633.3','Takarmánynövények a pázsitfüvek kivételével','','','',false,true);
+d.add(235,231,'633.4','<div class="nodetag">633.4</div></span>&nbsp;&nbsp;Gyökértermésűek. Gumósok','633.4','Gyökértermésűek. Gumósok','','','',false,true);
+d.add(236,231,'633.5','<div class="nodetag">633.5</div></span>&nbsp;&nbsp;Textil- és rostnövények','633.5','Textil- és rostnövények','','','',false,true);
+d.add(237,231,'633.6','<div class="nodetag">633.6</div></span>&nbsp;&nbsp;Cukor- és keményítőtartalmú növények','633.6','Cukor- és keményítőtartalmú növények','','','',false,true);
+d.add(238,231,'633.7','<div class="nodetag">633.7</div></span>&nbsp;&nbsp;Élvezeti növények. Élénkítőszereket termő és italnövények','633.7','Élvezeti növények. Élénkítőszereket termő és italnövények','','','',false,true);
+d.add(239,231,'633.8','<div class="nodetag">633.8</div></span>&nbsp;&nbsp;Illóolaj-tartalmú növények. Fűszernövények. Olajos növények. Festéktartalmú növények. Csersavtartalmú növények. Gyógynövények','633.8','Illóolaj-tartalmú növények. Fűszernövények. Olajos növények. Festéktartalmú növények. Csersavtartalmú növények. Gyógynövények','','','',false,true);
+d.add(240,231,'633.9','<div class="nodetag">633.9</div></span>&nbsp;&nbsp;Egyéb ipari növények','633.9','Egyéb ipari növények','','','',false,true);
+d.add(241,230,'634','<div class="nodetag">634</div></span>&nbsp;&nbsp;Gyümölcstermesztés','634','Gyümölcstermesztés','','','',false,true);
+d.add(242,241,'634.2','<div class="nodetag">634.2</div></span>&nbsp;&nbsp;Csonthéjas gyümölcsök általában','634.2','Csonthéjas gyümölcsök általában','','','',false,true);
+d.add(243,241,'634.3','<div class="nodetag">634.3</div></span>&nbsp;&nbsp;Rutacea-félék és Moracea-félék. Citrusfélék általában','634.3','Rutacea-félék és Moracea-félék. Citrusfélék általában','','','',false,true);
+d.add(244,241,'634.4','<div class="nodetag">634.4</div></span>&nbsp;&nbsp;Húsos és hüvelyes gyümölcsök','634.4','Húsos és hüvelyes gyümölcsök','','','',false,true);
+d.add(245,241,'634.5','<div class="nodetag">634.5</div></span>&nbsp;&nbsp;Diófélék','634.5','Diófélék','','','',false,true);
+d.add(246,241,'634.6','<div class="nodetag">634.6</div></span>&nbsp;&nbsp;Különféle trópusi és szubtrópusi gyümölcsök','634.6','Különféle trópusi és szubtrópusi gyümölcsök','','','',false,true);
+d.add(247,241,'634.7','<div class="nodetag">634.7</div></span>&nbsp;&nbsp;Cserjék és gyógyhatású növények kis gyümölcsei, bogyói. Áfonyák','634.7','Cserjék és gyógyhatású növények kis gyümölcsei, bogyói. Áfonyák','','','',false,true);
+d.add(248,241,'634.8','<div class="nodetag">634.8</div></span>&nbsp;&nbsp;Szőlőművelés, szőlészet, szőlőnövények, szőlőültetvények','634.8','Szőlőművelés, szőlészet, szőlőnövények, szőlőültetvények','','','',false,true);
+d.add(249,230,'635','<div class="nodetag">635</div></span>&nbsp;&nbsp;Kerti növények. Kertészet','635','Kerti növények. Kertészet','','','',false,true);
+d.add(250,249,'635.1/.8','<div class="nodetag">635.1/.8</div></span>&nbsp;&nbsp;Zöldségfélék termesztése. Konyhakertészet','635.1/.8','Zöldségfélék termesztése. Konyhakertészet','','','',false,true);
+d.add(251,250,'635.1','<div class="nodetag">635.1</div></span>&nbsp;&nbsp;Gyökérnövények. Gyökgumósok','635.1','Gyökérnövények. Gyökgumósok','','','',false,true);
+d.add(252,250,'635.2','<div class="nodetag">635.2</div></span>&nbsp;&nbsp;Gumós növények. Éti hagymafélék','635.2','Gumós növények. Éti hagymafélék','','','',false,true);
+d.add(253,250,'635.3','<div class="nodetag">635.3</div></span>&nbsp;&nbsp;Ehető szárú, levelű, virágú növények','635.3','Ehető szárú, levelű, virágú növények','','','',false,true);
+d.add(254,250,'635.4','<div class="nodetag">635.4</div></span>&nbsp;&nbsp;Zöldségfélék. Leveles zöldségek','635.4','Zöldségfélék. Leveles zöldségek','','','',false,true);
+d.add(255,250,'635.6','<div class="nodetag">635.6</div></span>&nbsp;&nbsp;Ehető gyümölcsök és magvak. Hüvelyesek','635.6','Ehető gyümölcsök és magvak. Hüvelyesek','','','',false,true);
+d.add(256,250,'635.7','<div class="nodetag">635.7</div></span>&nbsp;&nbsp;Aromás füvek. Fűszernövények','635.7','Aromás füvek. Fűszernövények','','','',false,true);
+d.add(257,250,'635.8','<div class="nodetag">635.8</div></span>&nbsp;&nbsp;Ehető gombák','635.8','Ehető gombák','','','',false,true);
+d.add(258,249,'635.9','<div class="nodetag">635.9</div></span>&nbsp;&nbsp;Dísznövények. Dísznövénykertészet','635.9','Dísznövények. Dísznövénykertészet','','','',false,true);
+d.add(259,208,'636','<div class="nodetag">636</div></span>&nbsp;&nbsp;Állattenyésztés általában. Haszonállatok tenyésztése. Háziállatok tenyésztése','636','Állattenyésztés általában. Haszonállatok tenyésztése. Háziállatok tenyésztése','','','',false,true);
+d.add(260,259,'636.01/.09','<div class="nodetag">636.01/.09</div></span>&nbsp;&nbsp;Az állattenyésztés fogalmaihoz kapcsolható speciális alosztások','636.01/.09','Az állattenyésztés fogalmaihoz kapcsolható speciális alosztások','','','',false,true);
+d.add(261,260,'636.01','<div class="nodetag">636.01</div></span>&nbsp;&nbsp;Az ember által tartott állatok eredete, törzsfejlődése és háziasítása. A felnevelés és idomítás biológiai alapjai','636.01','Az ember által tartott állatok eredete, törzsfejlődése és háziasítása. A felnevelés és idomítás biológiai alapjai','','','',false,true);
+d.add(262,260,'636.02','<div class="nodetag">636.02</div></span>&nbsp;&nbsp;Állatok tartása tenyésztésre, bemutatásra és tudományos célra','636.02','Állatok tartása tenyésztésre, bemutatásra és tudományos célra','','','',false,true);
+d.add(263,260,'636.03','<div class="nodetag">636.03</div></span>&nbsp;&nbsp;Állatok tartása élelmiszeripari és egyéb termékek előállítására (termelékenység, hozam). Istállózott és legelőn tartott állatok általában','636.03','Állatok tartása élelmiszeripari és egyéb termékek előállítására (termelékenység, hozam). Istállózott és legelőn tartott állatok általában','','','',false,true);
+d.add(264,260,'636.04','<div class="nodetag">636.04</div></span>&nbsp;&nbsp;Állatok tenyésztése és tartása munkára és az ember kiszolgálására vagy szórakoztatására','636.04','Állatok tenyésztése és tartása munkára és az ember kiszolgálására vagy szórakoztatására','','','',false,true);
+d.add(265,260,'636.05','<div class="nodetag">636.05</div></span>&nbsp;&nbsp;Állatok a tenyésztés szempontjából','636.05','Állatok a tenyésztés szempontjából','','','',false,true);
+d.add(266,260,'636.06','<div class="nodetag">636.06</div></span>&nbsp;&nbsp;Háziállatok jellemzői, alkatuk és speciális biológiai jellegzetességük','636.06','Háziállatok jellemzői, alkatuk és speciális biológiai jellegzetességük','','','',false,true);
+d.add(267,260,'636.08','<div class="nodetag">636.08</div></span>&nbsp;&nbsp;A tenyésztés problémái általában','636.08','A tenyésztés problémái általában','','','',false,true);
+d.add(268,260,'636.09','<div class="nodetag">636.09</div></span>&nbsp;&nbsp;Állatorvostudomány','636.09','Állatorvostudomány','','','',false,true);
+d.add(269,259,'636.1','<div class="nodetag">636.1</div></span>&nbsp;&nbsp;Házilovak. Lovak','636.1','Házilovak. Lovak','','','',false,true);
+d.add(270,259,'636.2','<div class="nodetag">636.2</div></span>&nbsp;&nbsp;Nagy kérődzők. Marhák, ökrök','636.2','Nagy kérődzők. Marhák, ökrök','','','',false,true);
+d.add(271,259,'636.3','<div class="nodetag">636.3</div></span>&nbsp;&nbsp;Kis kérődzők. Juhok. Kecskék','636.3','Kis kérődzők. Juhok. Kecskék','','','',false,true);
+d.add(272,259,'636.4','<div class="nodetag">636.4</div></span>&nbsp;&nbsp;Sertések','636.4','Sertések','','','',false,true);
+d.add(273,259,'636.5','<div class="nodetag">636.5</div></span>&nbsp;&nbsp;Baromfiak','636.5','Baromfiak','','','',false,true);
+d.add(274,259,'636.6','<div class="nodetag">636.6</div></span>&nbsp;&nbsp;Ember által tenyésztett és/vagy tartott madarak (baromfin és vadszárnyason kívül)','636.6','Ember által tenyésztett és/vagy tartott madarak (baromfin és vadszárnyason kívül)','','','',false,true);
+d.add(275,259,'636.7','<div class="nodetag">636.7</div></span>&nbsp;&nbsp;Kutyák','636.7','Kutyák','','','',false,true);
+d.add(276,259,'636.8','<div class="nodetag">636.8</div></span>&nbsp;&nbsp;Macskák','636.8','Macskák','','','',false,true);
+d.add(277,259,'636.9','<div class="nodetag">636.9</div></span>&nbsp;&nbsp;Ember által tartott egyéb állatok','636.9','Ember által tartott egyéb állatok','','','',false,true);
+d.add(278,208,'637','<div class="nodetag">637</div></span>&nbsp;&nbsp;Tej, hús és más állati termékek','637','Tej, hús és más állati termékek','','','',false,true);
+d.add(279,208,'638','<div class="nodetag">638</div></span>&nbsp;&nbsp;Rovarok és egyéb ízeltlábúak tartása, tenyésztése','638','Rovarok és egyéb ízeltlábúak tartása, tenyésztése','','','',false,true);
+d.add(280,208,'639','<div class="nodetag">639</div></span>&nbsp;&nbsp;Vadászat. Halászat. Haltenyésztés','639','Vadászat. Halászat. Haltenyésztés','','','',false,true);
+d.add(281,280,'639.1','<div class="nodetag">639.1</div></span>&nbsp;&nbsp;Vadászat','639.1','Vadászat','','','',false,true);
+d.add(282,280,'639.2','<div class="nodetag">639.2</div></span>&nbsp;&nbsp;Halászat','639.2','Halászat','','','',false,true);
+d.add(283,280,'639.3','<div class="nodetag">639.3</div></span>&nbsp;&nbsp;Haltenyésztés','639.3','Haltenyésztés','','','',false,true);
+d.add(284,280,'639.4','<div class="nodetag">639.4</div></span>&nbsp;&nbsp;Puhatestűek és héjas állatok tenyésztése','639.4','Puhatestűek és héjas állatok tenyésztése','','','',false,true);
+d.add(285,280,'639.5','<div class="nodetag">639.5</div></span>&nbsp;&nbsp;Rákfélék, tengerisünök, piócák stb. tenyésztése','639.5','Rákfélék, tengerisünök, piócák stb. tenyésztése','','','',false,true);
+d.add(286,280,'639.6','<div class="nodetag">639.6</div></span>&nbsp;&nbsp;Egyéb tengeri termékek. Szivacs, korall, algák','639.6','Egyéb tengeri termékek. Szivacs, korall, algák','','','',false,true);
+d.add(287,0,'64','<div class="nodetag">64</div></span>&nbsp;&nbsp;Háztartás. Háztartástan','64','Háztartás. Háztartástan','','','',false,true);
+d.add(288,287,'64.01/.08','<div class="nodetag">64.01/.08</div></span>&nbsp;&nbsp;A háztartástan fogalmaihoz kapcsolható speciális alosztások','64.01/.08','A háztartástan fogalmaihoz kapcsolható speciális alosztások','','','',false,true);
+d.add(289,288,'64.01','<div class="nodetag">64.01</div></span>&nbsp;&nbsp;A háztartástan elmélete. A háztartásszervezés elmélete és gyakorlata','64.01','A háztartástan elmélete. A háztartásszervezés elmélete és gyakorlata','','','',false,true);
+d.add(290,288,'64.048','<div class="nodetag">64.048</div></span>&nbsp;&nbsp;Munkaelemzés és munkamódszer-tanulmányok a háztartásban','64.048','Munkaelemzés és munkamódszer-tanulmányok a háztartásban','','','',false,true);
+d.add(291,288,'64.05','<div class="nodetag">64.05</div></span>&nbsp;&nbsp;Háztartás, háztartásvezetés, lakásberendezés, lakásfelszerelések stb. meghatározott személyek számára','64.05','Háztartás, háztartásvezetés, lakásberendezés, lakásfelszerelések stb. meghatározott személyek számára','','','',false,true);
+d.add(292,288,'64.06','<div class="nodetag">64.06</div></span>&nbsp;&nbsp;Háztartási gépek és készülékek. berendezések a munka megkönnyítésére','64.06','Háztartási gépek és készülékek. berendezések a munka megkönnyítésére','','','',false,true);
+d.add(293,288,'64.08','<div class="nodetag">64.08</div></span>&nbsp;&nbsp;Költözés','64.08','Költözés','','','',false,true);
+d.add(294,287,'640','<div class="nodetag">640</div></span>&nbsp;&nbsp;A háztartások, háztartásvezetés fajtái','640','A háztartások, háztartásvezetés fajtái','','','',false,true);
+d.add(295,287,'641/642','<div class="nodetag">641/642</div></span>&nbsp;&nbsp;Élelmiszerek. Ételek és elkészítésük. Étkezések','641/642','Élelmiszerek. Ételek és elkészítésük. Étkezések','','','',false,true);
+d.add(296,295,'641','<div class="nodetag">641</div></span>&nbsp;&nbsp;Élelmiszerek. Ételek és elkészítésük','641','Élelmiszerek. Ételek és elkészítésük','','','',false,true);
+d.add(297,295,'642','<div class="nodetag">642</div></span>&nbsp;&nbsp;Étkezések és étkezési idő. Teríték, asztali edények és étkészletek','642','Étkezések és étkezési idő. Teríték, asztali edények és étkészletek','','','',false,true);
+d.add(298,287,'643/645','<div class="nodetag">643/645</div></span>&nbsp;&nbsp;Lakás. Lakberendezés. Lakásberendezési tárgyak','643/645','Lakás. Lakberendezés. Lakásberendezési tárgyak','','','',false,true);
+d.add(299,298,'643','<div class="nodetag">643</div></span>&nbsp;&nbsp;Lakás. Lakóhely','643','Lakás. Lakóhely','','','',false,true);
+d.add(300,298,'644','<div class="nodetag">644</div></span>&nbsp;&nbsp;Egészségügyi berendezések és kényelmi eszközök a lakásban','644','Egészségügyi berendezések és kényelmi eszközök a lakásban','','','',false,true);
+d.add(301,300,'644.1','<div class="nodetag">644.1</div></span>&nbsp;&nbsp;Fűtés. Szellőztetés. Légkondicionálás (klimatizálás)','644.1','Fűtés. Szellőztetés. Légkondicionálás (klimatizálás)','','','',false,true);
+d.add(302,300,'644.3','<div class="nodetag">644.3</div></span>&nbsp;&nbsp;Világítás a háztartásban','644.3','Világítás a háztartásban','','','',false,true);
+d.add(303,300,'644.6','<div class="nodetag">644.6</div></span>&nbsp;&nbsp;Vízellátás és egészségi berendezések a háztartásban','644.6','Vízellátás és egészségi berendezések a háztartásban','','','',false,true);
+d.add(304,298,'645','<div class="nodetag">645</div></span>&nbsp;&nbsp;Lakberendezés. Bútorzat, lakásfelszerelési tárgyak','645','Lakberendezés. Bútorzat, lakásfelszerelési tárgyak','','','',false,true);
+d.add(305,287,'646/649','<div class="nodetag">646/649</div></span>&nbsp;&nbsp;Személyes szükségletek a háztartásban. Háztartásvezetés','646/649','Személyes szükségletek a háztartásban. Háztartásvezetés','','','',false,true);
+d.add(306,305,'646','<div class="nodetag">646</div></span>&nbsp;&nbsp;Ruházat és testápolás','646','Ruházat és testápolás','','','',false,true);
+d.add(307,306,'646.2','<div class="nodetag">646.2</div></span>&nbsp;&nbsp;Ruházat készítése és javítása a háztartásban. Otthoni ruhakészítés','646.2','Ruházat készítése és javítása a háztartásban. Otthoni ruhakészítés','','','',false,true);
+d.add(308,306,'646.4','<div class="nodetag">646.4</div></span>&nbsp;&nbsp;Ruházat. Öltözékek','646.4','Ruházat. Öltözékek','','','',false,true);
+d.add(309,306,'646.7','<div class="nodetag">646.7</div></span>&nbsp;&nbsp;Testápolás. Szépségápolás (házi kozmetika). Öltözködési segédeszközök','646.7','Testápolás. Szépségápolás (házi kozmetika). Öltözködési segédeszközök','','','',false,true);
+d.add(310,305,'648','<div class="nodetag">648</div></span>&nbsp;&nbsp;Mosás és tisztítás. Mosoda és vegytisztító','648','Mosás és tisztítás. Mosoda és vegytisztító','','','',false,true);
+d.add(311,305,'649','<div class="nodetag">649</div></span>&nbsp;&nbsp;Gyermekek, betegek, vendégek ellátása a háztartásban','649','Gyermekek, betegek, vendégek ellátása a háztartásban','','','',false,true);
+d.add(312,0,'65','<div class="nodetag">65</div></span>&nbsp;&nbsp;Ipari, kereskedelmi, közlekedési és távközlési üzemek szervezése és vezetése. Közönségkapcsolataik','65','Ipari, kereskedelmi, közlekedési és távközlési üzemek szervezése és vezetése. Közönségkapcsolataik','','','',false,true);
+d.add(313,312,'654','<div class="nodetag">654</div></span>&nbsp;&nbsp;Híradásügy. Távközlés. Távvezérlés (Szervezés és üzem) ','654','Híradásügy. Távközlés. Távvezérlés (Szervezés és üzem) ','','','',false,true);
+d.add(314,313,'654.1','<div class="nodetag">654.1</div></span>&nbsp;&nbsp;Távírás. Távbeszélés, telefon. Rádió. Televízió','654.1','Távírás. Távbeszélés, telefon. Rádió. Televízió','','','',false,true);
+d.add(315,313,'654.9','<div class="nodetag">654.9</div></span>&nbsp;&nbsp;Jelzések. Különböző hírközlési szolgáltatások. Távirányítás','654.9','Jelzések. Különböző hírközlési szolgáltatások. Távirányítás','','','',false,true);
+d.add(316,312,'655','<div class="nodetag">655</div></span>&nbsp;&nbsp;Grafikai iparok. Nyomdászat. Kiadók. Könyvkereskedelem ','655','Grafikai iparok. Nyomdászat. Kiadók. Könyvkereskedelem ','','','',false,true);
+d.add(317,316,'655.1','<div class="nodetag">655.1</div></span>&nbsp;&nbsp;Nyomdászat általában','655.1','Nyomdászat általában','','','',false,true);
+d.add(318,316,'655.4','<div class="nodetag">655.4</div></span>&nbsp;&nbsp;A könyvkiadás és könyvkereskedelem általában','655.4','A könyvkiadás és könyvkereskedelem általában','','','',false,true);
+d.add(319,312,'656','<div class="nodetag">656</div></span>&nbsp;&nbsp;A közlekedés és a posta. Forgalomszervezés és ellenőrzés ','656','A közlekedés és a posta. Forgalomszervezés és ellenőrzés ','','','',false,true);
+d.add(320,319,'656.1/.5','<div class="nodetag">656.1/.5</div></span>&nbsp;&nbsp;Szárazföldi közlekedés','656.1/.5','Szárazföldi közlekedés','','','',false,true);
+d.add(321,320,'656.1','<div class="nodetag">656.1</div></span>&nbsp;&nbsp;Közúti közlekedés','656.1','Közúti közlekedés','','','',false,true);
+d.add(322,320,'656.2','<div class="nodetag">656.2</div></span>&nbsp;&nbsp;Vasúti közlekedés','656.2','Vasúti közlekedés','','','',false,true);
+d.add(323,320,'656.4','<div class="nodetag">656.4</div></span>&nbsp;&nbsp;Kisvasúti közlekedés','656.4','Kisvasúti közlekedés','','','',false,true);
+d.add(324,320,'656.5','<div class="nodetag">656.5</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Land transport by conveyor systems and pipelines</span>','656.5','Land transport by conveyor systems and pipelines','','','',false,true);
+d.add(325,319,'656.6','<div class="nodetag">656.6</div></span>&nbsp;&nbsp;Vízi közlekedés','656.6','Vízi közlekedés','','','',false,true);
+d.add(326,319,'656.7','<div class="nodetag">656.7</div></span>&nbsp;&nbsp;Légi közlekedés. Légi szállítás','656.7','Légi közlekedés. Légi szállítás','','','',false,true);
+d.add(327,319,'656.8','<div class="nodetag">656.8</div></span>&nbsp;&nbsp;Postai szolgáltatások. Postaüzem','656.8','Postai szolgáltatások. Postaüzem','','','',false,true);
+d.add(328,312,'657','<div class="nodetag">657</div></span>&nbsp;&nbsp;Számvitel. Könyvvitel','657','Számvitel. Könyvvitel','','','',false,true);
+d.add(329,312,'658','<div class="nodetag">658</div></span>&nbsp;&nbsp;Üzletvezetés. Vállalatirányítás. Kereskedelmi szervezés','658','Üzletvezetés. Vállalatirányítás. Kereskedelmi szervezés','','','',false,true);
+d.add(330,329,'658.1','<div class="nodetag">658.1</div></span>&nbsp;&nbsp;Vállalati formák. Pénzügyek','658.1','Vállalati formák. Pénzügyek','','','',false,true);
+d.add(331,329,'658.2','<div class="nodetag">658.2</div></span>&nbsp;&nbsp;Berendezések, géppark. Épületek, üzemek, gyárak. Felszerelések','658.2','Berendezések, géppark. Épületek, üzemek, gyárak. Felszerelések','','','',false,true);
+d.add(332,329,'658.3','<div class="nodetag">658.3</div></span>&nbsp;&nbsp;Személyi kapcsolatok a vállalaton belül. Human relations','658.3','Személyi kapcsolatok a vállalaton belül. Human relations','','','',false,true);
+d.add(333,329,'658.5','<div class="nodetag">658.5</div></span>&nbsp;&nbsp;Gyártásszervezés és gyártástervezés. Kivitelezés. Gyártásirányítás és ellenőrzés','658.5','Gyártásszervezés és gyártástervezés. Kivitelezés. Gyártásirányítás és ellenőrzés','','','',false,true);
+d.add(334,329,'658.6','<div class="nodetag">658.6</div></span>&nbsp;&nbsp;A kereskedelem szervezése és gyakorlata. Áruk. Szolgáltatások','658.6','A kereskedelem szervezése és gyakorlata. Áruk. Szolgáltatások','','','',false,true);
+d.add(335,329,'658.7','<div class="nodetag">658.7</div></span>&nbsp;&nbsp;Bevásárlás. Beszerzés. Készletezés','658.7','Bevásárlás. Beszerzés. Készletezés','','','',false,true);
+d.add(336,329,'658.8','<div class="nodetag">658.8</div></span>&nbsp;&nbsp;Marketing. Értékesítés. Eladás. Elosztás','658.8','Marketing. Értékesítés. Eladás. Elosztás','','','',false,true);
+d.add(337,329,'658.9','<div class="nodetag">658.9</div></span>&nbsp;&nbsp;Egyéb kereskedelmi ügyletek','658.9','Egyéb kereskedelmi ügyletek','','','',false,true);
+d.add(338,312,'659','<div class="nodetag">659</div></span>&nbsp;&nbsp;Hirdetésügy. Reklám. Tájékoztató tevékenység. Public relations','659','Hirdetésügy. Reklám. Tájékoztató tevékenység. Public relations','','','',false,true);
+d.add(339,338,'659.1','<div class="nodetag">659.1</div></span>&nbsp;&nbsp;Reklám','659.1','Reklám','','','',false,true);
+d.add(340,338,'659.2','<div class="nodetag">659.2</div></span>&nbsp;&nbsp;Információs tevékenység. Tanácsadó szolgáltatások','659.2','Információs tevékenység. Tanácsadó szolgáltatások','','','',false,true);
+d.add(341,338,'659.3','<div class="nodetag">659.3</div></span>&nbsp;&nbsp;Tömegkommunikáció, tömegtájékoztatás','659.3','Tömegkommunikáció, tömegtájékoztatás','','','',false,true);
+d.add(342,338,'659.4','<div class="nodetag">659.4</div></span>&nbsp;&nbsp;Közönségkapcsolatok. A közvélemény alakítása. Public relations (PR)','659.4','Közönségkapcsolatok. A közvélemény alakítása. Public relations (PR)','','','',false,true);
+d.add(343,0,'66','<div class="nodetag">66</div></span>&nbsp;&nbsp;Vegyipar és rokon iparágak. Kémiai technológia','66','Vegyipar és rokon iparágak. Kémiai technológia','','','',false,true);
+d.add(344,343,'66.01/.09','<div class="nodetag">66.01/.09</div></span>&nbsp;&nbsp;A vegyészmérnöki tudományok fogalmaihoz kapcsolható speciális alosztások','66.01/.09','A vegyészmérnöki tudományok fogalmaihoz kapcsolható speciális alosztások','','','',false,true);
+d.add(345,344,'66.01','<div class="nodetag">66.01</div></span>&nbsp;&nbsp;A vegyészmérnöki tudományok alapjai','66.01','A vegyészmérnöki tudományok alapjai','','','',false,true);
+d.add(346,344,'66.02','<div class="nodetag">66.02</div></span>&nbsp;&nbsp;Vegyipari műveletek és berendezések általában','66.02','Vegyipari műveletek és berendezések általában','','','',false,true);
+d.add(347,344,'66.03','<div class="nodetag">66.03</div></span>&nbsp;&nbsp;Az egyes vegyipari ágazatok sajátos eljárásai és berendezései','66.03','Az egyes vegyipari ágazatok sajátos eljárásai és berendezései','','','',false,true);
+d.add(348,344,'66.04','<div class="nodetag">66.04</div></span>&nbsp;&nbsp;Hőkezelési eljárások és berendezések','66.04','Hőkezelési eljárások és berendezések','','','',false,true);
+d.add(349,344,'66.06','<div class="nodetag">66.06</div></span>&nbsp;&nbsp;Folyadékok kémiai technológiája. Eljárások és készülékek folyadékok kezelésére, ill. folyadékokkal végzett kezelésre','66.06','Folyadékok kémiai technológiája. Eljárások és készülékek folyadékok kezelésére, ill. folyadékokkal végzett kezelésre','','','',false,true);
+d.add(350,344,'66.07','<div class="nodetag">66.07</div></span>&nbsp;&nbsp;Gázok kémiai technológiája','66.07','Gázok kémiai technológiája','','','',false,true);
+d.add(351,344,'66.08','<div class="nodetag">66.08</div></span>&nbsp;&nbsp;Fizikai és fizikai-kémiai eljárások és berendezések a vegyiparban','66.08','Fizikai és fizikai-kémiai eljárások és berendezések a vegyiparban','','','',false,true);
+d.add(352,343,'661','<div class="nodetag">661</div></span>&nbsp;&nbsp;Vegyi anyagok. Kemikáliák. Vegyipari gyártmányok','661','Vegyi anyagok. Kemikáliák. Vegyipari gyártmányok','','','',false,true);
+d.add(353,352,'661.1','<div class="nodetag">661.1</div></span>&nbsp;&nbsp;Különleges vegyiparok','661.1','Különleges vegyiparok','','','',false,true);
+d.add(354,352,'661.2','<div class="nodetag">661.2</div></span>&nbsp;&nbsp;Kén és származékainak előállítása','661.2','Kén és származékainak előállítása','','','',false,true);
+d.add(355,352,'661.3','<div class="nodetag">661.3</div></span>&nbsp;&nbsp;Szóda, hamuzsír és alkáliák előállítása','661.3','Szóda, hamuzsír és alkáliák előállítása','','','',false,true);
+d.add(356,352,'661.4','<div class="nodetag">661.4</div></span>&nbsp;&nbsp;Halogének és halogénvegyületek, szervetlen peroxivegyületek előállítása','661.4','Halogének és halogénvegyületek, szervetlen peroxivegyületek előállítása','','','',false,true);
+d.add(357,352,'661.5','<div class="nodetag">661.5</div></span>&nbsp;&nbsp;Nitrogénvegyületek előállítása. Nitrogén megkötése. Nitrogénipar','661.5','Nitrogénvegyületek előállítása. Nitrogén megkötése. Nitrogénipar','','','',false,true);
+d.add(358,352,'661.6','<div class="nodetag">661.6</div></span>&nbsp;&nbsp;Nemfémes elemek, félfémek (metalloidok) és vegyületeik előállítása','661.6','Nemfémes elemek, félfémek (metalloidok) és vegyületeik előállítása','','','',false,true);
+d.add(359,352,'661.7','<div class="nodetag">661.7</div></span>&nbsp;&nbsp;Szerves anyagok előállítása','661.7','Szerves anyagok előállítása','','','',false,true);
+d.add(360,352,'661.8','<div class="nodetag">661.8</div></span>&nbsp;&nbsp;Fémvegyületek általában. Sók. Ásványi vegyületek','661.8','Fémvegyületek általában. Sók. Ásványi vegyületek','','','',false,true);
+d.add(361,352,'661.9','<div class="nodetag">661.9</div></span>&nbsp;&nbsp;Gázok előállítása','661.9','Gázok előállítása','','','',false,true);
+d.add(362,343,'662','<div class="nodetag">662</div></span>&nbsp;&nbsp;Robbantóanyagok. Tüzelőanyagok','662','Robbantóanyagok. Tüzelőanyagok','','','',false,true);
+d.add(363,362,'662.1/.4','<div class="nodetag">662.1/.4</div></span>&nbsp;&nbsp;Robbanóanyagok','662.1/.4','Robbanóanyagok','','','',false,true);
+d.add(364,363,'662.1','<div class="nodetag">662.1</div></span>&nbsp;&nbsp;Tűzijátékok. Pirotechnikai és rokon eszközök','662.1','Tűzijátékok. Pirotechnikai és rokon eszközök','','','',false,true);
+d.add(365,363,'662.2','<div class="nodetag">662.2</div></span>&nbsp;&nbsp;Nagy hatóerejű robbanóanyagok','662.2','Nagy hatóerejű robbanóanyagok','','','',false,true);
+d.add(366,363,'662.3','<div class="nodetag">662.3</div></span>&nbsp;&nbsp;Lőporok. Indítótöltetek','662.3','Lőporok. Indítótöltetek','','','',false,true);
+d.add(367,363,'662.4','<div class="nodetag">662.4</div></span>&nbsp;&nbsp;Iniciáló robbanóanyagok Gyújtók','662.4','Iniciáló robbanóanyagok Gyújtók','','','',false,true);
+d.add(368,362,'662.5','<div class="nodetag">662.5</div></span>&nbsp;&nbsp;Tűzszerszámok. Gyújtók. Gyújtószerkezetek. Gyújtókészülékek. Gyufák','662.5','Tűzszerszámok. Gyújtók. Gyújtószerkezetek. Gyújtókészülékek. Gyufák','','','',false,true);
+d.add(369,362,'662.6/.9','<div class="nodetag">662.6/.9</div></span>&nbsp;&nbsp;Hőgazdálkodás. Tüzelőanyagok. Tüzeléstechnika. Hőtechnika','662.6/.9','Hőgazdálkodás. Tüzelőanyagok. Tüzeléstechnika. Hőtechnika','','','',false,true);
+d.add(370,369,'662.6','<div class="nodetag">662.6</div></span>&nbsp;&nbsp;Hőgazdálkodás általában. Égés. Természetes tüzelőanyagok','662.6','Hőgazdálkodás általában. Égés. Természetes tüzelőanyagok','','','',false,true);
+d.add(371,369,'662.7','<div class="nodetag">662.7</div></span>&nbsp;&nbsp;Tüzelőanyag-technológia. Kémiai eljárással előállított tüzelőanyagok','662.7','Tüzelőanyag-technológia. Kémiai eljárással előállított tüzelőanyagok','','','',false,true);
+d.add(372,369,'662.8','<div class="nodetag">662.8</div></span>&nbsp;&nbsp;Mechanikai eljárások a tüzelőanyagok szilárdítására. Brikettezés','662.8','Mechanikai eljárások a tüzelőanyagok szilárdítására. Brikettezés','','','',false,true);
+d.add(373,369,'662.9','<div class="nodetag">662.9</div></span>&nbsp;&nbsp;Tüzeléstechnika','662.9','Tüzeléstechnika','','','',false,true);
+d.add(374,343,'663','<div class="nodetag">663</div></span>&nbsp;&nbsp;Mikrobiológiai iparok. Erjedési iparok. Italipar. Élvezeti cikkek ipara. Szeszipar','663','Mikrobiológiai iparok. Erjedési iparok. Italipar. Élvezeti cikkek ipara. Szeszipar','','','',false,true);
+d.add(375,374,'663.1','<div class="nodetag">663.1</div></span>&nbsp;&nbsp;Mikrobiológiai iparok. Az alkalmazott mikrobiológia tudománya és eljárásai. Alkalmazott mikológia','663.1','Mikrobiológiai iparok. Az alkalmazott mikrobiológia tudománya és eljárásai. Alkalmazott mikológia','','','',false,true);
+d.add(376,374,'663.2','<div class="nodetag">663.2</div></span>&nbsp;&nbsp;Bor. Borkészítés. Borászat','663.2','Bor. Borkészítés. Borászat','','','',false,true);
+d.add(377,374,'663.3','<div class="nodetag">663.3</div></span>&nbsp;&nbsp;Almabor, körtebor. Egyéb gyümölcsborok, növényi borok','663.3','Almabor, körtebor. Egyéb gyümölcsborok, növényi borok','','','',false,true);
+d.add(378,374,'663.4','<div class="nodetag">663.4</div></span>&nbsp;&nbsp;Sör. Sörfőzés. Malátakészítés','663.4','Sör. Sörfőzés. Malátakészítés','','','',false,true);
+d.add(379,374,'663.5','<div class="nodetag">663.5</div></span>&nbsp;&nbsp;Alkohol. Szeszes italok. Égetett szeszes italok. Alkohol lepárlás és finomítás','663.5','Alkohol. Szeszes italok. Égetett szeszes italok. Alkohol lepárlás és finomítás','','','',false,true);
+d.add(380,374,'663.6','<div class="nodetag">663.6</div></span>&nbsp;&nbsp;Ivóvíz italgyártási és egyéb ipari felhasználása. Ásványvizek gyógyvizek. Étkezési jég ','663.6','Ivóvíz italgyártási és egyéb ipari felhasználása. Ásványvizek gyógyvizek. Étkezési jég ','','','',false,true);
+d.add(381,374,'663.8','<div class="nodetag">663.8</div></span>&nbsp;&nbsp;Keverékitalok fő alapanyagai. Gyümölcslevek és egyéb zöldség ivólevek. Szörpök. Likőrök. Alkoholmentes üdítőitalok ','663.8','Keverékitalok fő alapanyagai. Gyümölcslevek és egyéb zöldség ivólevek. Szörpök. Likőrök. Alkoholmentes üdítőitalok ','','','',false,true);
+d.add(382,374,'663.9','<div class="nodetag">663.9</div></span>&nbsp;&nbsp;Csokoládé. Kakaó. Kávé. Tea. Dohány ','663.9','Csokoládé. Kakaó. Kávé. Tea. Dohány ','','','',false,true);
+d.add(383,343,'664','<div class="nodetag">664</div></span>&nbsp;&nbsp;Élelmiszerek előállítása és tartósítása','664','Élelmiszerek előállítása és tartósítása','','','',false,true);
+d.add(384,383,'664.1','<div class="nodetag">664.1</div></span>&nbsp;&nbsp;Cukorgyártás. Melasz. Glukóz stb.','664.1','Cukorgyártás. Melasz. Glukóz stb.','','','',false,true);
+d.add(385,383,'664.2','<div class="nodetag">664.2</div></span>&nbsp;&nbsp;Keményítőtartalmú anyagok. Keményítő','664.2','Keményítőtartalmú anyagok. Keményítő','','','',false,true);
+d.add(386,383,'664.3','<div class="nodetag">664.3</div></span>&nbsp;&nbsp;Étolaj. Étkezési zsír. Margarin. Fehérje','664.3','Étolaj. Étkezési zsír. Margarin. Fehérje','','','',false,true);
+d.add(387,383,'664.4','<div class="nodetag">664.4</div></span>&nbsp;&nbsp;Ásványi tápanyagok','664.4','Ásványi tápanyagok','','','',false,true);
+d.add(388,383,'664.5','<div class="nodetag">664.5</div></span>&nbsp;&nbsp;Fűszerek. Ízesítők','664.5','Fűszerek. Ízesítők','','','',false,true);
+d.add(389,383,'664.6/.7','<div class="nodetag">664.6/.7</div></span>&nbsp;&nbsp;Gabona magvak technológiája és feldolgozása','664.6/.7','Gabona magvak technológiája és feldolgozása','','','',false,true);
+d.add(390,389,'664.6','<div class="nodetag">664.6</div></span>&nbsp;&nbsp;Sütőipar. Kenyér- és sütőipari finomtermékek. Cukrászáru','664.6','Sütőipar. Kenyér- és sütőipari finomtermékek. Cukrászáru','','','',false,true);
+d.add(391,389,'664.7','<div class="nodetag">664.7</div></span>&nbsp;&nbsp;Gabonafeldolgozás. Liszt és kukorica őrlés. Malomipar','664.7','Gabonafeldolgozás. Liszt és kukorica őrlés. Malomipar','','','',false,true);
+d.add(392,383,'664.8/.9','<div class="nodetag">664.8/.9</div></span>&nbsp;&nbsp;Élelmiszertartósítási eljárások','664.8/.9','Élelmiszertartósítási eljárások','','','',false,true);
+d.add(393,343,'665','<div class="nodetag">665</div></span>&nbsp;&nbsp;Olajok, zsírok, viaszok, ragasztóanyagok, gumifélék és (természetes) gyanták','665','Olajok, zsírok, viaszok, ragasztóanyagok, gumifélék és (természetes) gyanták','','','',false,true);
+d.add(394,393,'665.1','<div class="nodetag">665.1</div></span>&nbsp;&nbsp;Olajok, zsírok, viaszok és az azokból előállított készítmények általában','665.1','Olajok, zsírok, viaszok és az azokból előállított készítmények általában','','','',false,true);
+d.add(395,393,'665.2','<div class="nodetag">665.2</div></span>&nbsp;&nbsp;Állati eredetű olajok, zsírok, viaszok','665.2','Állati eredetű olajok, zsírok, viaszok','','','',false,true);
+d.add(396,393,'665.3','<div class="nodetag">665.3</div></span>&nbsp;&nbsp;Növényi olajok, zsírok, viaszok. Foszfatidok','665.3','Növényi olajok, zsírok, viaszok. Foszfatidok','','','',false,true);
+d.add(397,393,'665.5','<div class="nodetag">665.5</div></span>&nbsp;&nbsp;Illóolajok. Illatszerészet. Kozmetikai készítmények','665.5','Illóolajok. Illatszerészet. Kozmetikai készítmények','','','',false,true);
+d.add(398,393,'665.6/.7','<div class="nodetag">665.6/.7</div></span>&nbsp;&nbsp;Kőolajipar (ásványolajipar) és rokon iparok feldolgozó eljárásai és termékei','665.6/.7','Kőolajipar (ásványolajipar) és rokon iparok feldolgozó eljárásai és termékei','','','',false,true);
+d.add(399,398,'665.6','<div class="nodetag">665.6</div></span>&nbsp;&nbsp;Ásványolaj technológia. Kőolaj és rokon termékek technológiája','665.6','Ásványolaj technológia. Kőolaj és rokon termékek technológiája','','','',false,true);
+d.add(400,398,'665.7','<div class="nodetag">665.7</div></span>&nbsp;&nbsp;A kőolaj-feldolgozás termékei. Ásványolajok és hasonló termékek','665.7','A kőolaj-feldolgozás termékei. Ásványolajok és hasonló termékek','','','',false,true);
+d.add(401,393,'665.9','<div class="nodetag">665.9</div></span>&nbsp;&nbsp;Különféle szerves kémiai iparok','665.9','Különféle szerves kémiai iparok','','','',false,true);
+d.add(402,343,'666','<div class="nodetag">666</div></span>&nbsp;&nbsp;Szilikátipar. Üvegipar. Kerámiák. Cement és beton','666','Szilikátipar. Üvegipar. Kerámiák. Cement és beton','','','',false,true);
+d.add(403,402,'666.1','<div class="nodetag">666.1</div></span>&nbsp;&nbsp;Üvegipar. Üvegtechnológia. Üveggyártás általában. Az üveg átfogó értelemben ','666.1','Üvegipar. Üvegtechnológia. Üveggyártás általában. Az üveg átfogó értelemben ','','','',false,true);
+d.add(404,402,'666.3/.7','<div class="nodetag">666.3/.7</div></span>&nbsp;&nbsp;Kerámiaipar','666.3/.7','Kerámiaipar','','','',false,true);
+d.add(405,404,'666.3','<div class="nodetag">666.3</div></span>&nbsp;&nbsp;Kerámiaipar általában. Kerámiai nyersanyagok','666.3','Kerámiaipar általában. Kerámiai nyersanyagok','','','',false,true);
+d.add(406,404,'666.5','<div class="nodetag">666.5</div></span>&nbsp;&nbsp;Porcelán','666.5','Porcelán','','','',false,true);
+d.add(407,404,'666.6','<div class="nodetag">666.6</div></span>&nbsp;&nbsp;Kőedény. Cserépedény (porózus kerámiai termékek.) ','666.6','Kőedény. Cserépedény (porózus kerámiai termékek.) ','','','',false,true);
+d.add(408,404,'666.7','<div class="nodetag">666.7</div></span>&nbsp;&nbsp;Durvakerámiák. Nehéz agyagáruk.. Tűzálló gyártmányok. Kemény kerámia anyagok. Kerámiák és egyéb anyagok keverékei ','666.7','Durvakerámiák. Nehéz agyagáruk.. Tűzálló gyártmányok. Kemény kerámia anyagok. Kerámiák és egyéb anyagok keverékei ','','','',false,true);
+d.add(409,402,'666.9','<div class="nodetag">666.9</div></span>&nbsp;&nbsp;Mész-, gipsz- és cementiparok. Egyéb kötőanyagok. Vakolatok. Habarcs. Beton','666.9','Mész-, gipsz- és cementiparok. Egyéb kötőanyagok. Vakolatok. Habarcs. Beton','','','',false,true);
+d.add(410,343,'667','<div class="nodetag">667</div></span>&nbsp;&nbsp;Festéstechnikai iparágak','667','Festéstechnikai iparágak','','','',false,true);
+d.add(411,410,'667.2','<div class="nodetag">667.2</div></span>&nbsp;&nbsp;Színezékipar. Színezékek készítése és felhasználása','667.2','Színezékipar. Színezékek készítése és felhasználása','','','',false,true);
+d.add(412,410,'667.4','<div class="nodetag">667.4</div></span>&nbsp;&nbsp;Tinták. Íróanyagok','667.4','Tinták. Íróanyagok','','','',false,true);
+d.add(413,410,'667.5','<div class="nodetag">667.5</div></span>&nbsp;&nbsp;Nyomdafestékek (fekete vagy színezett) Litográfiai tinták. Író- és rajzoló ceruzák. Színezett rajzkréták','667.5','Nyomdafestékek (fekete vagy színezett) Litográfiai tinták. Író- és rajzoló ceruzák. Színezett rajzkréták','','','',false,true);
+d.add(414,410,'667.6','<div class="nodetag">667.6</div></span>&nbsp;&nbsp;Bevonó festékanyagok. Bevonó festéstechnikák. Festékek, lakkfestékek, lakkok','667.6','Bevonó festékanyagok. Bevonó festéstechnikák. Festékek, lakkfestékek, lakkok','','','',false,true);
+d.add(415,410,'667.7','<div class="nodetag">667.7</div></span>&nbsp;&nbsp;Különböző anyagok színezése és átszínezése stb. a nyomtatáson és festésen kívül','667.7','Különböző anyagok színezése és átszínezése stb. a nyomtatáson és festésen kívül','','','',false,true);
+d.add(416,343,'669','<div class="nodetag">669</div></span>&nbsp;&nbsp;Kohászat','669','Kohászat','','','',false,true);
+d.add(417,416,'669.1','<div class="nodetag">669.1</div></span>&nbsp;&nbsp;Vaskohászat. Vas és acél','669.1','Vaskohászat. Vas és acél','','','',false,true);
+d.add(418,416,'669.2','<div class="nodetag">669.2</div></span>&nbsp;&nbsp;Fémkohászat. Nemvasfémek metallurgiája','669.2','Fémkohászat. Nemvasfémek metallurgiája','','','',false,true);
+d.add(419,0,'67','<div class="nodetag">67</div></span>&nbsp;&nbsp;Különféle iparágak és mechanikai technológiák. Kézművesség','67','Különféle iparágak és mechanikai technológiák. Kézművesség','','','',false,true);
+d.add(420,419,'671','<div class="nodetag">671</div></span>&nbsp;&nbsp;Nemesfémekből és drágakövekből készült tárgyak','671','Nemesfémekből és drágakövekből készült tárgyak','','','',false,true);
+d.add(421,420,'671.1','<div class="nodetag">671.1</div></span>&nbsp;&nbsp;Aranyból, ezüstből készült tárgyak. Egyéb nemesfém-tárgyak. Ékszeripar','671.1','Aranyból, ezüstből készült tárgyak. Egyéb nemesfém-tárgyak. Ékszeripar','','','',false,true);
+d.add(422,420,'671.4','<div class="nodetag">671.4</div></span>&nbsp;&nbsp;Érmek és érmék verése. Pénzverés','671.4','Érmek és érmék verése. Pénzverés','','','',false,true);
+d.add(423,419,'672','<div class="nodetag">672</div></span>&nbsp;&nbsp;Vasból és acélból készült tárgyak általában','672','Vasból és acélból készült tárgyak általában','','','',false,true);
+d.add(424,419,'673','<div class="nodetag">673</div></span>&nbsp;&nbsp;Nem vasfémekből készült tárgyak (nemesfémek kivételével)','673','Nem vasfémekből készült tárgyak (nemesfémek kivételével)','','','',false,true);
+d.add(425,419,'674','<div class="nodetag">674</div></span>&nbsp;&nbsp;Faipar','674','Faipar','','','',false,true);
+d.add(426,419,'675','<div class="nodetag">675</div></span>&nbsp;&nbsp;Bőripar (beleértve a szőrmeipart és műbőripart) ','675','Bőripar (beleértve a szőrmeipart és műbőripart) ','','','',false,true);
+d.add(427,419,'676','<div class="nodetag">676</div></span>&nbsp;&nbsp;Cellulóz-, papír- és kartonipar ','676','Cellulóz-, papír- és kartonipar ','','','',false,true);
+d.add(428,419,'677','<div class="nodetag">677</div></span>&nbsp;&nbsp;Textilipar','677','Textilipar','','','',false,true);
+d.add(429,428,'677.1/.5','<div class="nodetag">677.1/.5</div></span>&nbsp;&nbsp;Szálasanyagok','677.1/.5','Szálasanyagok','','','',false,true);
+d.add(430,429,'677.1/.3','<div class="nodetag">677.1/.3</div></span>&nbsp;&nbsp;Természetes szálasanyagok (természetes szálak)','677.1/.3','Természetes szálasanyagok (természetes szálak)','','','',false,true);
+d.add(431,430,'677.1/.2','<div class="nodetag">677.1/.2</div></span>&nbsp;&nbsp;Növényi eredetű szálasanyagok','677.1/.2','Növényi eredetű szálasanyagok','','','',false,true);
+d.add(432,431,'677.1','<div class="nodetag">677.1</div></span>&nbsp;&nbsp;Háncsrostok (Kétszikűek szárrostjai). Vulkánfíber (Egyszikűek levél- és gyümölcsrostjai)  ','677.1','Háncsrostok (Kétszikűek szárrostjai). Vulkánfíber (Egyszikűek levél- és gyümölcsrostjai)  ','','','',false,true);
+d.add(433,431,'677.2','<div class="nodetag">677.2</div></span>&nbsp;&nbsp;Növényi eredetű szőrök','677.2','Növényi eredetű szőrök','','','',false,true);
+d.add(434,430,'677.3','<div class="nodetag">677.3</div></span>&nbsp;&nbsp;Állati eredetű szálasanyagok','677.3','Állati eredetű szálasanyagok','','','',false,true);
+d.add(435,429,'677.4','<div class="nodetag">677.4</div></span>&nbsp;&nbsp;Mesterséges szálasanyagok, műszálak, vegyi szálak','677.4','Mesterséges szálasanyagok, műszálak, vegyi szálak','','','',false,true);
+d.add(436,429,'677.5','<div class="nodetag">677.5</div></span>&nbsp;&nbsp;Ásványi eredetű (szervetlen anyagú) szálak és fémszálak. Növényi eredetű fonatoló anyagok. Gumiszálak. Papírfonalak','677.5','Ásványi eredetű (szervetlen anyagú) szálak és fémszálak. Növényi eredetű fonatoló anyagok. Gumiszálak. Papírfonalak','','','',false,true);
+d.add(437,419,'678','<div class="nodetag">678</div></span>&nbsp;&nbsp;Nagy molekulájú anyagok ipara. Gumiipar. Műanyagipar','678','Nagy molekulájú anyagok ipara. Gumiipar. Műanyagipar','','','',false,true);
+d.add(438,437,'678.4','<div class="nodetag">678.4</div></span>&nbsp;&nbsp;Kaucsuk. Egyéb természetes nagy molekulájú anyagok, amelyek csak szenet és hidrogént tartalmaznak','678.4','Kaucsuk. Egyéb természetes nagy molekulájú anyagok, amelyek csak szenet és hidrogént tartalmaznak','','','',false,true);
+d.add(439,437,'678.5','<div class="nodetag">678.5</div></span>&nbsp;&nbsp;Műanyagok','678.5','Műanyagok','','','',false,true);
+d.add(440,437,'678.6','<div class="nodetag">678.6</div></span>&nbsp;&nbsp;Szintetikus polikondenzációs termékek. Polikondenzátumok. Műgyanták. Szintetikus szálak stb. ','678.6','Szintetikus polikondenzációs termékek. Polikondenzátumok. Műgyanták. Szintetikus szálak stb. ','','','',false,true);
+d.add(441,437,'678.7','<div class="nodetag">678.7</div></span>&nbsp;&nbsp;Szintetikus polimerek. Műgyanta, műkaucsuk, műgumi','678.7','Szintetikus polimerek. Műgyanta, műkaucsuk, műgumi','','','',false,true);
+d.add(442,419,'679','<div class="nodetag">679</div></span>&nbsp;&nbsp;Különféle anyagokat megmunkáló iparágak','679','Különféle anyagokat megmunkáló iparágak','','','',false,true);
+d.add(443,442,'679.7','<div class="nodetag">679.7</div></span>&nbsp;&nbsp;Kábel- és kötélipar','679.7','Kábel- és kötélipar','','','',false,true);
+d.add(444,442,'679.8','<div class="nodetag">679.8</div></span>&nbsp;&nbsp;Kövek technológiája. Kőmegmunkálás, kőfeldolgozás iparágai','679.8','Kövek technológiája. Kőmegmunkálás, kőfeldolgozás iparágai','','','',false,true);
+d.add(445,442,'679.9','<div class="nodetag">679.9</div></span>&nbsp;&nbsp;Egyéb megmunkálható természetes anyagok technológiája','679.9','Egyéb megmunkálható természetes anyagok technológiája','','','',false,true);
+d.add(446,0,'68','<div class="nodetag">68</div></span>&nbsp;&nbsp;Továbbfeldolgozó iparok. Készárut, készterméket gyártó iparágak ','68','Továbbfeldolgozó iparok. Készárut, készterméket gyártó iparágak ','','','',false,true);
+d.add(447,446,'681','<div class="nodetag">681</div></span>&nbsp;&nbsp;Finommechanika. Műszeripar. Precíziós műszerek','681','Finommechanika. Műszeripar. Precíziós műszerek','','','',false,true);
+d.add(448,447,'681.1','<div class="nodetag">681.1</div></span>&nbsp;&nbsp;Kerekes és hajtóműves finommechanikai szerkezetek','681.1','Kerekes és hajtóműves finommechanikai szerkezetek','','','',false,true);
+d.add(449,447,'681.2','<div class="nodetag">681.2</div></span>&nbsp;&nbsp;Műszergyártás általában. Műszerezés. Mérőeszközök és gyártásuk. Mérlegek. Súlymérő eszközök','681.2','Műszergyártás általában. Műszerezés. Mérőeszközök és gyártásuk. Mérlegek. Súlymérő eszközök','','','',false,true);
+d.add(450,447,'681.5','<div class="nodetag">681.5</div></span>&nbsp;&nbsp;Szabályozástechnika. Intelligens technika','681.5','Szabályozástechnika. Intelligens technika','','','',false,true);
+d.add(451,447,'681.6','<div class="nodetag">681.6</div></span>&nbsp;&nbsp;Sokszorosító gépek és tartozékaik ','681.6','Sokszorosító gépek és tartozékaik ','','','',false,true);
+d.add(452,447,'681.7','<div class="nodetag">681.7</div></span>&nbsp;&nbsp;Optikai készülékek és műszerek','681.7','Optikai készülékek és műszerek','','','',false,true);
+d.add(453,447,'681.8','<div class="nodetag">681.8</div></span>&nbsp;&nbsp;Műszaki akusztika. Hangszerek','681.8','Műszaki akusztika. Hangszerek','','','',false,true);
+d.add(454,446,'682','<div class="nodetag">682</div></span>&nbsp;&nbsp;Kovácsipar. Patkolókovács-ipar. Kézzel kovácsolt vasalások, vasveretek','682','Kovácsipar. Patkolókovács-ipar. Kézzel kovácsolt vasalások, vasveretek','','','',false,true);
+d.add(455,454,'682.1','<div class="nodetag">682.1</div></span>&nbsp;&nbsp;Patkolókovács-ipar','682.1','Patkolókovács-ipar','','','',false,true);
+d.add(456,454,'682.3','<div class="nodetag">682.3</div></span>&nbsp;&nbsp;Szerszámkovácsipar. Szerkovácsipar','682.3','Szerszámkovácsipar. Szerkovácsipar','','','',false,true);
+d.add(457,454,'682.5','<div class="nodetag">682.5</div></span>&nbsp;&nbsp;Bútorvasalások','682.5','Bútorvasalások','','','',false,true);
+d.add(458,454,'682.6','<div class="nodetag">682.6</div></span>&nbsp;&nbsp;Épületvasalások','682.6','Épületvasalások','','','',false,true);
+d.add(459,446,'683','<div class="nodetag">683</div></span>&nbsp;&nbsp;Vasáruk. Fémáruk. Lakatosipar. Palackozás. Lámpák. Fűtőszerkezetek','683','Vasáruk. Fémáruk. Lakatosipar. Palackozás. Lámpák. Fűtőszerkezetek','','','',false,true);
+d.add(460,446,'684','<div class="nodetag">684</div></span>&nbsp;&nbsp;Bútoripar és rokon iparágai. Bútorgyártás. Kárpitosipar','684','Bútoripar és rokon iparágai. Bútorgyártás. Kárpitosipar','','','',false,true);
+d.add(461,460,'684.4','<div class="nodetag">684.4</div></span>&nbsp;&nbsp;Bútorok. Bútortervezés és bútorgyártás','684.4','Bútorok. Bútortervezés és bútorgyártás','','','',false,true);
+d.add(462,460,'684.6','<div class="nodetag">684.6</div></span>&nbsp;&nbsp;Furnérozás. Berakás. Intarzia stb.','684.6','Furnérozás. Berakás. Intarzia stb.','','','',false,true);
+d.add(463,460,'684.7','<div class="nodetag">684.7</div></span>&nbsp;&nbsp;Kárpitosipar. Bútorhuzatok. Takarók. Drapéria','684.7','Kárpitosipar. Bútorhuzatok. Takarók. Drapéria','','','',false,true);
+d.add(464,446,'685','<div class="nodetag">685</div></span>&nbsp;&nbsp;Bőrfeldolgozó ipar. Nyergesipar. Kesztyűipar. Utazási, sport-, játék- és egyéb felszerelések','685','Bőrfeldolgozó ipar. Nyergesipar. Kesztyűipar. Utazási, sport-, játék- és egyéb felszerelések','','','',false,true);
+d.add(465,464,'685.1','<div class="nodetag">685.1</div></span>&nbsp;&nbsp;Nyergesipar. Lószerszámkészítő ipar','685.1','Nyergesipar. Lószerszámkészítő ipar','','','',false,true);
+d.add(466,464,'685.2','<div class="nodetag">685.2</div></span>&nbsp;&nbsp;Szíjgyártóipar. Szíjak készítése. Bőr kellékek és felszerelések','685.2','Szíjgyártóipar. Szíjak készítése. Bőr kellékek és felszerelések','','','',false,true);
+d.add(467,464,'685.3','<div class="nodetag">685.3</div></span>&nbsp;&nbsp;Cipőipar. Lábbelikészítés. Járókészülékek','685.3','Cipőipar. Lábbelikészítés. Járókészülékek','','','',false,true);
+d.add(468,464,'685.4','<div class="nodetag">685.4</div></span>&nbsp;&nbsp;Kesztyűipar. Kesztyűgyártás','685.4','Kesztyűipar. Kesztyűgyártás','','','',false,true);
+d.add(469,464,'685.5','<div class="nodetag">685.5</div></span>&nbsp;&nbsp;Utazási cikkek. Kempingcikkek','685.5','Utazási cikkek. Kempingcikkek','','','',false,true);
+d.add(470,464,'685.6','<div class="nodetag">685.6</div></span>&nbsp;&nbsp;Sportcikkek és játékfelszerelések. Tornaszerek, sportszerek, testedzés eszközei','685.6','Sportcikkek és játékfelszerelések. Tornaszerek, sportszerek, testedzés eszközei','','','',false,true);
+d.add(471,464,'685.7','<div class="nodetag">685.7</div></span>&nbsp;&nbsp;Hegymászó- és alpinista felszerelések. Úszófelszerelések','685.7','Hegymászó- és alpinista felszerelések. Úszófelszerelések','','','',false,true);
+d.add(472,464,'685.8','<div class="nodetag">685.8</div></span>&nbsp;&nbsp;Játékcikkek, táblajátékok','685.8','Játékcikkek, táblajátékok','','','',false,true);
+d.add(473,446,'686','<div class="nodetag">686</div></span>&nbsp;&nbsp;Könyvkötés. Fémbevonatok készítése. Üvegesmesterség. Irodaszerek','686','Könyvkötés. Fémbevonatok készítése. Üvegesmesterség. Irodaszerek','','','',false,true);
+d.add(474,446,'687','<div class="nodetag">687</div></span>&nbsp;&nbsp;Ruházati ipar. Konfekcióáruk. Szépségápolás ','687','Ruházati ipar. Konfekcióáruk. Szépségápolás ','','','',false,true);
+d.add(475,474,'687.1','<div class="nodetag">687.1</div></span>&nbsp;&nbsp;Felsőruházat. Szabászat','687.1','Felsőruházat. Szabászat','','','',false,true);
+d.add(476,474,'687.2','<div class="nodetag">687.2</div></span>&nbsp;&nbsp;Fehérnemű. Vászonnemű. Alsóruházat','687.2','Fehérnemű. Vászonnemű. Alsóruházat','','','',false,true);
+d.add(477,474,'687.3','<div class="nodetag">687.3</div></span>&nbsp;&nbsp;Kötött, hurkolt áruk. Nyakkendők. Ruházat védelmét szolgáló eszközök','687.3','Kötött, hurkolt áruk. Nyakkendők. Ruházat védelmét szolgáló eszközök','','','',false,true);
+d.add(478,474,'687.4','<div class="nodetag">687.4</div></span>&nbsp;&nbsp;Kalaposipar. Fejfedők. Kalapok. Sapkák ','687.4','Kalaposipar. Fejfedők. Kalapok. Sapkák ','','','',false,true);
+d.add(479,474,'687.5','<div class="nodetag">687.5</div></span>&nbsp;&nbsp;Szépségápolási ipar ','687.5','Szépségápolási ipar ','','','',false,true);
+d.add(480,474,'687.8','<div class="nodetag">687.8</div></span>&nbsp;&nbsp;Műszőrme áruk','687.8','Műszőrme áruk','','','',false,true);
+d.add(481,474,'687.9','<div class="nodetag">687.9</div></span>&nbsp;&nbsp;Kefe-, ecset- és seprűipar','687.9','Kefe-, ecset- és seprűipar','','','',false,true);
+d.add(482,446,'688','<div class="nodetag">688</div></span>&nbsp;&nbsp;Díszműáruk. Játékszerek. Dísztárgyak','688','Díszműáruk. Játékszerek. Dísztárgyak','','','',false,true);
+d.add(483,482,'688.7','<div class="nodetag">688.7</div></span>&nbsp;&nbsp;Játékszerek. Szórakoztató és mutatványos eszközök. Díszítések','688.7','Játékszerek. Szórakoztató és mutatványos eszközök. Díszítések','','','',false,true);
+d.add(484,446,'689','<div class="nodetag">689</div></span>&nbsp;&nbsp;Barkácsolás. Műszaki jellegű hobbik, amatőr munkák','689','Barkácsolás. Műszaki jellegű hobbik, amatőr munkák','','','',false,true);
+d.add(485,0,'69','<div class="nodetag">69</div></span>&nbsp;&nbsp;Építőipar. Építőanyagok. Építési munkák','69','Építőipar. Építőanyagok. Építési munkák','','','',false,true);
+d.add(486,485,'691','<div class="nodetag">691</div></span>&nbsp;&nbsp;Építőanyagok. Építőelemek','691','Építőanyagok. Építőelemek','','','',false,true);
+d.add(487,485,'692','<div class="nodetag">692</div></span>&nbsp;&nbsp;Épületszerkezetek és épületek részei','692','Épületszerkezetek és épületek részei','','','',false,true);
+d.add(488,485,'693','<div class="nodetag">693</div></span>&nbsp;&nbsp;Kőművesmesterség és rokon építőmesterségek','693','Kőművesmesterség és rokon építőmesterségek','','','',false,true);
+d.add(489,485,'694','<div class="nodetag">694</div></span>&nbsp;&nbsp;Faszerkezetek. Ácsmunkák. Épületasztalos munkák','694','Faszerkezetek. Ácsmunkák. Épületasztalos munkák','','','',false,true);
+d.add(490,485,'696','<div class="nodetag">696</div></span>&nbsp;&nbsp;Épületek szolgáltató berendezései és felszerelései (egészségügyi, gáz-, gőz és elektromos berendezések). Csőszerelő. Bádogos. Fémmunkás. Villanyszerelő. Egyéb mesterségek','696','Épületek szolgáltató berendezései és felszerelései (egészségügyi, gáz-, gőz és elektromos berendezések). Csőszerelő. Bádogos. Fémmunkás. Villanyszerelő. Egyéb mesterségek','','','',false,true);
+d.add(491,485,'697','<div class="nodetag">697</div></span>&nbsp;&nbsp;Épületek fűtése, szellőztetése és klimatizálása (légkondicionálása)','697','Épületek fűtése, szellőztetése és klimatizálása (légkondicionálása)','','','',false,true);
+d.add(492,485,'698','<div class="nodetag">698</div></span>&nbsp;&nbsp;Építőipari befejező és díszítő munkák','698','Építőipari befejező és díszítő munkák','','','',false,true);
+d.config.useSelection = false;
+d.config.inOrder = true;
+d.config.useIcons = false;
+document.write(d);
+//-->
+</script>
+</div>
+</div><div id="expandbox" onclick="expandbox(); return false;">&nbsp;</div>
+<div id="recordbox" class="debugbkg">
+<div class="fronthint">Kattintson a jelzetre és a baloldalon megjelenik a rekord</div>
+</div>
+
+        <div id="footer">
+            <div class="footersectionleft">
+                The UDC Summary (UDCS) provides a selection of around 2,600 classes from the whole scheme which comprises more than 70,000 entries.
+                Please send questions and suggestions to <a href="mailto:udcs@udcc.org?subject=UDC Summary Enquiry">udcs@udcc.org</a><br><br>
+	            <p>
+		            The data provided in this Summary is released under the <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative Commons Attribution Share Alike 3.0 license</a> <a href="../about.htm">[more]</a>
+	            </p>
+            </div>
+            <div class="footermiddle">
+                <a href="http://www.udcc.org"><img src="../images/udclogowhite.png" border="0"></a>
+            </div>
+			<div class="footerright">
+                For complete UDC schedules see <a href="http://www.udc-hub.com/">UDC Online Hub</a><br/><a href="http://www.udc-hub.com/"><img width="60" height="35" src="../images/udclogo.png"/></a>
+
+			</div>
+        </div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-13138465-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>

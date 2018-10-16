@@ -1,0 +1,654 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>UDC Summary</title>
+    <link rel="stylesheet" href="../reset.css" type="text/css" />
+    <link rel="stylesheet" href="../udc2000.css" type="text/css" />
+	    <link rel="StyleSheet" href="dtree2.css" type="text/css" />
+	    <script type="text/javascript" src="dtree.js"></script>
+	    <script type="text/javascript" src="udcdisplay_9.js"></script>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+</head>
+
+<body >
+<div id="centercontainer" class="debugbkg">
+    <div id="titlebox" class="debugbkg">
+		<div id="rightbox">
+        	<div id="languagecount">57 languages</div>
+            <div id="languagebox">
+            <select id="selectedlang" style="vertical-align: middle;" onchange="location = this.options[this.selectedIndex].value;">
+			<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=af&pr=Y">Afrikaans (Afrikaans) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sq&pr=Y">Albanian (Shqip) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=anp&pr=Y">Angika (अंगिका) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ar&pr=Y">Arabic (العربية) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hy&pr=Y">Armenian (հայերեն) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=eu&pr=Y">Basque (Euskara) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=be&pr=Y">Belarusian (Беларуская) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bn&pr=Y">Bengali (বাংলা) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bho&pr=Y">Bhojpuri (भोजपुरी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bg&pr=Y">Bulgarian (Български) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ca&pr=Y">Catalan (Català) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=chi&pr=Y">Chinese (中文) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hr&pr=Y">Croatian (Hrvatski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=cs&pr=Y">Czech (Čeština) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=da&pr=Y">Danish (Dansk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=nl&pr=Y">Dutch (Nederlands) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=en&pr=Y">English (English) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=eo&pr=Y">Esperanto (Esperanto) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=et&pr=Y">Estonian (Eesti) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=fi&pr=Y">Finnish (Suomi) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=fr&pr=Y">French (Français) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=gl&pr=Y">Galician (Galego) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ka&pr=Y">Georgian (ქართული) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=de&pr=Y">German (Deutsch) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=el&pr=Y">Greek (Ελληνικά) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hi&pr=Y">Hindi (हिन्दी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hu&pr=Y">Hungarian (Magyar) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=id&pr=Y">Indonesian (Bahasa Ind) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ga&pr=Y">Irish (Gaeilge) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=it&pr=Y">Italian (Italiano) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ja&pr=Y">Japanese (日本語) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=kn&pr=Y">Kannada (ಕನ್ನಡ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=kk&pr=Y">Kazakh (Қазақ тілі) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=lv&pr=Y">Latvian (Latviešu) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=lt&pr=Y">Lithuanian (lietuvių) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=mk&pr=Y">Macedonian (македонски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ml&pr=Y">Malayalam (മലയാളം) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=mr&pr=Y">Marathi (मराठी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=no&pr=Y">Norwegian (Norsk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pl&pr=Y">Polish (Polski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pt&pr=Y">Portuguese (Português) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pa&pr=Y">Punjabi (ਪੰਜਾਬੀ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ro&pr=Y" selected>Romanian (Româna) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ru&pr=Y">Russian (Pусский) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sa&pr=Y">Sanskrit (Saṃskṛtam) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sr&pr=Y">Serbian (Српски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=si&pr=Y">Sinhala (සිංහල) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sk&pr=Y">Slovak (Slovenský) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sl&pr=Y">Slovenian (Slovenski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=es&pr=Y">Spanish (Español) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sv&pr=Y">Swedish (Svenska) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ta&pr=Y">Tamil (தமிழ்) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=te&pr=Y">Telugu (తెలుగు) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=tr&pr=Y">Turkish (Türkçe) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=uk&pr=Y">Ukrainian (Yкраї́нська) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=uz&pr=Y">Uzbek (oʻzbek) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=vi&pr=Y">Vietnamese (tiếng Việt) </option>
+            </select>
+            </div>
+            </div>
+        </div>
+		<div id="menubox" class="debugbkg">
+            <ul class="menu boldmenu">
+<li><a href="index.php@lang=ro">ÎNCEPUT</a></li>
+<li><a href="index.php@tag=--&amp;lang=ro">SEMNE</a></li>
+<li><a href="index.php@tag=---&amp;lang=ro">AUXILIARIES</a></li>
+<li><a href="index.php@tag=0&amp;lang=ro">0</a></li>
+<li><a href="index.php@tag=1&amp;lang=ro">1</a></li>
+<li><a href="index.php@tag=2&amp;lang=ro">2</a></li>
+<li><a href="index.php@tag=3&amp;lang=ro">3</a></li>
+<li><a  class="vacant" href="index.php@tag=6&amp;lang=ro#">4</a></li>
+<li><a href="index.php@tag=5&amp;lang=ro">5</a></li>
+<li><a href="index.php@tag=6&amp;lang=ro">6</a></li>
+<li><a href="index.php@tag=7&amp;lang=ro">7</a></li>
+<li><a href="index.php@tag=8&amp;lang=ro">8</a></li>
+<li><a href="index.php@tag=9&amp;lang=ro">9</a></li>
+</ul>
+<input type="hidden" id="if_loading" name="if_loading" value="Loading"/>
+<input type="hidden" id="if_lang" name="if_lang" value="14"/>
+<ul class="rightmenu boldmenu">
+<li><a href="../translation.htm">TRADUCERI</a></li>
+<li><a href="index.php@tag=6&amp;lang=ro#" title="Under Development">CONCORDANȚE</a></li>
+<li><a href="../exports.htm" title="Data Exports">EXPORTURI</a></li>
+<li><a href="index.php@tag=6&amp;lang=ro#" title="Under Development">INDEX ALFABETIC</a></li>
+<li><a href="index.php@tag=6&amp;lang=ro#" title="Under Development">GHID</a></li>
+<li><a href="../about.htm" title="About the UDC Summary">DESPRE</a></li>
+</ul>
+
+        </div>
+		<input type="hidden" id="leftWidth" value="420"/><input type="hidden" id="rightWidth" value="522"/>
+		<div id="classmarkbox" class="debugbkg">
+
+<div id="openclosemenu"><a href="javascript: d.openAll();">&nbsp;extinde tot</a> | <a href="javascript: d.closeAll();">restrânge tot</a></div>
+<div id="classtree">
+<script type="text/javascript">
+<!--
+d = new dTree('d');
+d.config.hrefIsClick = true;
+d.add(0,-1,'6','<span class="nodetag">6</span>&nbsp;&nbsp;ȘTIINȚE APLICATE. MEDICINĂ. TEHNOLOGIE','6','','','','',false,true);
+d.add(1,0,'60','<div class="nodetag">60</div></span>&nbsp;&nbsp;Biotehnologie','60','Biotehnologie','','','',false,true);
+d.add(2,1,'601','<div class="nodetag">601</div></span>&nbsp;&nbsp;Concepte fundamentale','601','Concepte fundamentale','','','',false,true);
+d.add(3,1,'602','<div class="nodetag">602</div></span>&nbsp;&nbsp;Procese şi tehnici în biotehnologie','602','Procese şi tehnici în biotehnologie','','','',false,true);
+d.add(4,1,'604','<div class="nodetag">604</div></span>&nbsp;&nbsp;Produse biotehnologice','604','Produse biotehnologice','','','',false,true);
+d.add(5,1,'606','<div class="nodetag">606</div></span>&nbsp;&nbsp;Aplicaţii ale biotehnologiei','606','Aplicaţii ale biotehnologiei','','','',false,true);
+d.add(6,1,'608','<div class="nodetag">608</div></span>&nbsp;&nbsp;Probleme în biotehnologie','608','Probleme în biotehnologie','','','',false,true);
+d.add(7,0,'61','<div class="nodetag">61</div></span>&nbsp;&nbsp;Stiințe medicale. Medicină','61','Stiințe medicale. Medicină','','','',false,true);
+d.add(8,7,'611/612','<div class="nodetag">611/612</div></span>&nbsp;&nbsp;Biologie umană','611/612','Biologie umană','','','',false,true);
+d.add(9,8,'611','<div class="nodetag">611</div></span>&nbsp;&nbsp;Anatomie. Anatomie umană și comparată.','611','Anatomie. Anatomie umană și comparată.','','','',false,true);
+d.add(10,8,'612','<div class="nodetag">612</div></span>&nbsp;&nbsp;Fiziologie. Fiziologie umană și comparată','612','Fiziologie. Fiziologie umană și comparată','','','',false,true);
+d.add(11,10,'612.1/.8','<div class="nodetag">612.1/.8</div></span>&nbsp;&nbsp;Fiziologie sistematică','612.1/.8','Fiziologie sistematică','','','',false,true);
+d.add(12,11,'612.1','<div class="nodetag">612.1</div></span>&nbsp;&nbsp;Sânge. Sistem circulator, cardiovascular','612.1','Sânge. Sistem circulator, cardiovascular','','','',false,true);
+d.add(13,11,'612.2','<div class="nodetag">612.2</div></span>&nbsp;&nbsp;Respiraţie. Suflu. Sistem respirator','612.2','Respiraţie. Suflu. Sistem respirator','','','',false,true);
+d.add(14,11,'612.3','<div class="nodetag">612.3</div></span>&nbsp;&nbsp;Alimentaţie. Hrănire. Digestie. Nutriţie','612.3','Alimentaţie. Hrănire. Digestie. Nutriţie','','','',false,true);
+d.add(15,11,'612.4','<div class="nodetag">612.4</div></span>&nbsp;&nbsp;Sistem endocrin. Secreţie. Excreţie','612.4','Sistem endocrin. Secreţie. Excreţie','','','',false,true);
+d.add(16,11,'612.5','<div class="nodetag">612.5</div></span>&nbsp;&nbsp;Căldură animală. Procese termice','612.5','Căldură animală. Procese termice','','','',false,true);
+d.add(17,11,'612.6','<div class="nodetag">612.6</div></span>&nbsp;&nbsp;Reproducere. Creştere. Dezvoltare','612.6','Reproducere. Creştere. Dezvoltare','','','',false,true);
+d.add(18,11,'612.7','<div class="nodetag">612.7</div></span>&nbsp;&nbsp;Funcţii motrice. Organe de locomoţie. Voce. Tegument','612.7','Funcţii motrice. Organe de locomoţie. Voce. Tegument','','','',false,true);
+d.add(19,11,'612.8','<div class="nodetag">612.8</div></span>&nbsp;&nbsp;Sistem nervos. Organe de simţ','612.8','Sistem nervos. Organe de simţ','','','',false,true);
+d.add(20,7,'613','<div class="nodetag">613</div></span>&nbsp;&nbsp;Igienă. Igienă și sănătate personală','613','Igienă. Igienă și sănătate personală','','','',false,true);
+d.add(21,20,'613.2','<div class="nodetag">613.2</div></span>&nbsp;&nbsp;Dietă. Principii de nutriţie aplicate la hrană şi alimente','613.2','Dietă. Principii de nutriţie aplicate la hrană şi alimente','','','',false,true);
+d.add(22,20,'613.3','<div class="nodetag">613.3</div></span>&nbsp;&nbsp;Băuturi. Băuturi curative. Ape medicinale. Dieta lichidelor','613.3','Băuturi. Băuturi curative. Ape medicinale. Dieta lichidelor','','','',false,true);
+d.add(23,20,'613.4','<div class="nodetag">613.4</div></span>&nbsp;&nbsp;Igienă personală. Îmbrăcăminte','613.4','Igienă personală. Îmbrăcăminte','','','',false,true);
+d.add(24,20,'613.5','<div class="nodetag">613.5</div></span>&nbsp;&nbsp;Salubritatea locuinţelor','613.5','Salubritatea locuinţelor','','','',false,true);
+d.add(25,20,'613.6','<div class="nodetag">613.6</div></span>&nbsp;&nbsp;Riscuri privind sănătatea muncii. Igiena şi sănătatea muncii','613.6','Riscuri privind sănătatea muncii. Igiena şi sănătatea muncii','','','',false,true);
+d.add(26,20,'613.7','<div class="nodetag">613.7</div></span>&nbsp;&nbsp;Sănătatea şi igiena timpului liber, recreaţiei, somnului','613.7','Sănătatea şi igiena timpului liber, recreaţiei, somnului','','','',false,true);
+d.add(27,20,'613.8','<div class="nodetag">613.8</div></span>&nbsp;&nbsp;Sănătatea şi igiena sistemului nervos. Sănătate şi etică','613.8','Sănătatea şi igiena sistemului nervos. Sănătate şi etică','','','',false,true);
+d.add(28,20,'613.9','<div class="nodetag">613.9</div></span>&nbsp;&nbsp;Sănătatea şi igiena în relaţie cu vârsta, sexul, etnia','613.9','Sănătatea şi igiena în relaţie cu vârsta, sexul, etnia','','','',false,true);
+d.add(29,7,'614','<div class="nodetag">614</div></span>&nbsp;&nbsp;Igienă și sănătate publică. Prevenirea accidentelor','614','Igienă și sănătate publică. Prevenirea accidentelor','','','',false,true);
+d.add(30,29,'614.1','<div class="nodetag">614.1</div></span>&nbsp;&nbsp;Populare. Depopulare','614.1','Populare. Depopulare','','','',false,true);
+d.add(31,29,'614.2','<div class="nodetag">614.2</div></span>&nbsp;&nbsp;Organizarea publică şi profesională a sănătăţii','614.2','Organizarea publică şi profesională a sănătăţii','','','',false,true);
+d.add(32,29,'614.3','<div class="nodetag">614.3</div></span>&nbsp;&nbsp;Inspecţie şi control sanitar','614.3','Inspecţie şi control sanitar','','','',false,true);
+d.add(33,32,'614.39','<div class="nodetag">614.39</div></span>&nbsp;&nbsp;Servicii naţionale de sănătate','614.39','Servicii naţionale de sănătate','','','',false,true);
+d.add(34,29,'614.4','<div class="nodetag">614.4</div></span>&nbsp;&nbsp;Prevenirea şi controlul maladiilor transmisibile (infecţioase, contagioase). Prevenirea epidemiilor','614.4','Prevenirea şi controlul maladiilor transmisibile (infecţioase, contagioase). Prevenirea epidemiilor','','','',false,true);
+d.add(35,29,'614.6','<div class="nodetag">614.6</div></span>&nbsp;&nbsp;Igiena cimitirelor. Administraţia morţilor','614.6','Igiena cimitirelor. Administraţia morţilor','','','',false,true);
+d.add(36,29,'614.7','<div class="nodetag">614.7</div></span>&nbsp;&nbsp;Igiena aerului, apei, solului. Poluarea şi controlul său','614.7','Igiena aerului, apei, solului. Poluarea şi controlul său','','','',false,true);
+d.add(37,29,'614.8','<div class="nodetag">614.8</div></span>&nbsp;&nbsp;Accidente. Riscuri. Hazarduri. Prevenirea accidentelor. Protecţie personală. Siguranţă','614.8','Accidente. Riscuri. Hazarduri. Prevenirea accidentelor. Protecţie personală. Siguranţă','','','',false,true);
+d.add(38,29,'614.9','<div class="nodetag">614.9</div></span>&nbsp;&nbsp;Sănătatea animalelor. Igienă veterinară','614.9','Sănătatea animalelor. Igienă veterinară','','','',false,true);
+d.add(39,7,'615','<div class="nodetag">615</div></span>&nbsp;&nbsp;Farnacologie. Terapeutică. Toxicologie','615','Farnacologie. Terapeutică. Toxicologie','','','',false,true);
+d.add(40,39,'615.1','<div class="nodetag">615.1</div></span>&nbsp;&nbsp;Farmacia în general şi profesia de farmacist','615.1','Farmacia în general şi profesia de farmacist','','','',false,true);
+d.add(41,39,'615.2','<div class="nodetag">615.2</div></span>&nbsp;&nbsp;Medicamentele potrivit acţiunii lor principale','615.2','Medicamentele potrivit acţiunii lor principale','','','',false,true);
+d.add(42,39,'615.3','<div class="nodetag">615.3</div></span>&nbsp;&nbsp;Medicamentele potrivit originii lor','615.3','Medicamentele potrivit originii lor','','','',false,true);
+d.add(43,39,'615.4','<div class="nodetag">615.4</div></span>&nbsp;&nbsp;Preparate farmaceutice. Materiale medicale. Echipamente','615.4','Preparate farmaceutice. Materiale medicale. Echipamente','','','',false,true);
+d.add(44,39,'615.8','<div class="nodetag">615.8</div></span>&nbsp;&nbsp;Fizioterapie. Terapie fizică. Radioterapie. Alte tratamente terapeutice non-medicamentoase','615.8','Fizioterapie. Terapie fizică. Radioterapie. Alte tratamente terapeutice non-medicamentoase','','','',false,true);
+d.add(45,39,'615.9','<div class="nodetag">615.9</div></span>&nbsp;&nbsp;Toxicologie generală. Studii generale asupra otrăvurilor şi otrăvirii (intoxicaţiei)','615.9','Toxicologie generală. Studii generale asupra otrăvurilor şi otrăvirii (intoxicaţiei)','','','',false,true);
+d.add(46,7,'616','<div class="nodetag">616</div></span>&nbsp;&nbsp;Patologie. Medicină clinică','616','Patologie. Medicină clinică','','','',false,true);
+d.add(47,46,'616-001/-009','<div class="nodetag">616-001/-009</div></span>&nbsp;&nbsp;Indici auxiliari speciali pentru procese patologice','616-001/-009','Indici auxiliari speciali pentru procese patologice','','','',false,true);
+d.add(48,47,'616-001','<div class="nodetag">616-001</div></span>&nbsp;&nbsp;Traumatisme. Răni. Leziuni','616-001','Traumatisme. Răni. Leziuni','','','',false,true);
+d.add(49,47,'616-002','<div class="nodetag">616-002</div></span>&nbsp;&nbsp;Inflamare. Iritare. Congestie (hiperemie). Congestie mucoasă','616-002','Inflamare. Iritare. Congestie (hiperemie). Congestie mucoasă','','','',false,true);
+d.add(50,47,'616-003','<div class="nodetag">616-003</div></span>&nbsp;&nbsp;Procese regresive şi reparatorii','616-003','Procese regresive şi reparatorii','','','',false,true);
+d.add(51,47,'616-004','<div class="nodetag">616-004</div></span>&nbsp;&nbsp;Scleroză. Durificare (induraţie). Ciroză','616-004','Scleroză. Durificare (induraţie). Ciroză','','','',false,true);
+d.add(52,47,'616-005','<div class="nodetag">616-005</div></span>&nbsp;&nbsp;Tulburări circulatorii locale','616-005','Tulburări circulatorii locale','','','',false,true);
+d.add(53,47,'616-006','<div class="nodetag">616-006</div></span>&nbsp;&nbsp;Tumori. Neoplasme. Blastoame. Coriostoame. Hamartoame. Oncologie','616-006','Tumori. Neoplasme. Blastoame. Coriostoame. Hamartoame. Oncologie','','','',false,true);
+d.add(54,47,'616-007','<div class="nodetag">616-007</div></span>&nbsp;&nbsp;Dezvoltare structurală deficitară. Deformaţii fiziologice. Malformaţii. Hemiterata. Organe supradimensionate, subdimensionate','616-007','Dezvoltare structurală deficitară. Deformaţii fiziologice. Malformaţii. Hemiterata. Organe supradimensionate, subdimensionate','','','',false,true);
+d.add(55,47,'616-008','<div class="nodetag">616-008</div></span>&nbsp;&nbsp;Tulburări funcţionale şi metabolice','616-008','Tulburări funcţionale şi metabolice','','','',false,true);
+d.add(56,47,'616-009','<div class="nodetag">616-009</div></span>&nbsp;&nbsp;Tulburări nervoase','616-009','Tulburări nervoase','','','',false,true);
+d.add(57,46,'616-01/-099','<div class="nodetag">616-01/-099</div></span>&nbsp;&nbsp;Indici auxiliari speciali pentru aspecte generale ale patologiei','616-01/-099','Indici auxiliari speciali pentru aspecte generale ale patologiei','','','',false,true);
+d.add(58,57,'616-01','<div class="nodetag">616-01</div></span>&nbsp;&nbsp;Diverse aspecte ale bolii, ale pacienţilor şi ale intervenţiei medicale','616-01','Diverse aspecte ale bolii, ale pacienţilor şi ale intervenţiei medicale','','','',false,true);
+d.add(59,57,'616-02','<div class="nodetag">616-02</div></span>&nbsp;&nbsp;Etiologie. Ştiinţa despre cauzele bolii','616-02','Etiologie. Ştiinţa despre cauzele bolii','','','',false,true);
+d.add(60,57,'616-03','<div class="nodetag">616-03</div></span>&nbsp;&nbsp;Diverse forme ale bolii, ale tratamentului, ale administrării medicamentelor','616-03','Diverse forme ale bolii, ale tratamentului, ale administrării medicamentelor','','','',false,true);
+d.add(61,57,'616-05','<div class="nodetag">616-05</div></span>&nbsp;&nbsp;Persoane şi caracteristici personale în patologie. Caracteristici ale pacienţilor','616-05','Persoane şi caracteristici personale în patologie. Caracteristici ale pacienţilor','','','',false,true);
+d.add(62,57,'616-06','<div class="nodetag">616-06</div></span>&nbsp;&nbsp;Complicaţii. Consecinţe. Repersursiuni. Concurenţă, simultaneitate. Corelalaţie. Boli anterioare. Stare de sănătate anterioară. Antagonism dintre două boli','616-06','Complicaţii. Consecinţe. Repersursiuni. Concurenţă, simultaneitate. Corelalaţie. Boli anterioare. Stare de sănătate anterioară. Antagonism dintre două boli','','','',false,true);
+d.add(63,57,'616-07','<div class="nodetag">616-07</div></span>&nbsp;&nbsp;Semiologie. Simptomatologie. Semne şi simptome. Examinare. Diagnostic. Propedeutică','616-07','Semiologie. Simptomatologie. Semne şi simptome. Examinare. Diagnostic. Propedeutică','','','',false,true);
+d.add(64,57,'616-08','<div class="nodetag">616-08</div></span>&nbsp;&nbsp;Tratament','616-08','Tratament','','','',false,true);
+d.add(65,57,'616-091','<div class="nodetag">616-091</div></span>&nbsp;&nbsp;Anatomie patologică. Anatomie morbidă','616-091','Anatomie patologică. Anatomie morbidă','','','',false,true);
+d.add(66,57,'616-092','<div class="nodetag">616-092</div></span>&nbsp;&nbsp;Fiziologie patologică. Procese, mod de acţiune al bolilor. Patogeneză. Studiul originii bolilor','616-092','Fiziologie patologică. Procese, mod de acţiune al bolilor. Patogeneză. Studiul originii bolilor','','','',false,true);
+d.add(67,57,'616-093','<div class="nodetag">616-093</div></span>&nbsp;&nbsp;Tehnici microbiene','616-093','Tehnici microbiene','','','',false,true);
+d.add(68,57,'616-094','<div class="nodetag">616-094</div></span>&nbsp;&nbsp;Morfologie microbiană','616-094','Morfologie microbiană','','','',false,true);
+d.add(69,57,'616-095','<div class="nodetag">616-095</div></span>&nbsp;&nbsp;Fiziologie microbiană','616-095','Fiziologie microbiană','','','',false,true);
+d.add(70,57,'616-097','<div class="nodetag">616-097</div></span>&nbsp;&nbsp;Imunogenetică','616-097','Imunogenetică','','','',false,true);
+d.add(71,57,'616-098','<div class="nodetag">616-098</div></span>&nbsp;&nbsp;Fizică, chimie microbiană. Metabolism, catabolism microbian','616-098','Fizică, chimie microbiană. Metabolism, catabolism microbian','','','',false,true);
+d.add(72,57,'616-099','<div class="nodetag">616-099</div></span>&nbsp;&nbsp;Otrăvire. Intoxicare','616-099','Otrăvire. Intoxicare','','','',false,true);
+d.add(73,46,'616-71/-78','<div class="nodetag">616-71/-78</div></span>&nbsp;&nbsp;Indici auxiliari speciali pentru instrumente şi echipament medical şi chirurgical','616-71/-78','Indici auxiliari speciali pentru instrumente şi echipament medical şi chirurgical','','','',false,true);
+d.add(74,73,'616-71','<div class="nodetag">616-71</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Medical instruments and equipment in general</span>','616-71','Medical instruments and equipment in general','','','',false,true);
+d.add(75,73,'616-72','<div class="nodetag">616-72</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Surgical and therapeutic instruments</span>','616-72','Surgical and therapeutic instruments','','','',false,true);
+d.add(76,73,'616-74','<div class="nodetag">616-74</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Reinforcement and reparative materials and equipment</span>','616-74','Reinforcement and reparative materials and equipment','','','',false,true);
+d.add(77,73,'616-76','<div class="nodetag">616-76</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Corrective and protective appliances, aids etc.</span>','616-76','Corrective and protective appliances, aids etc.','','','',false,true);
+d.add(78,73,'616-77','<div class="nodetag">616-77</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Prosthetic materials and parts. Artificial organs etc.</span>','616-77','Prosthetic materials and parts. Artificial organs etc.','','','',false,true);
+d.add(79,73,'616-78','<div class="nodetag">616-78</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Machines and mechanical apparatus</span>','616-78','Machines and mechanical apparatus','','','',false,true);
+d.add(80,46,'616.1/.9','<div class="nodetag">616.1/.9</div></span>&nbsp;&nbsp;Patologie specială','616.1/.9','Patologie specială','','','',false,true);
+d.add(81,80,'616.1','<div class="nodetag">616.1</div></span>&nbsp;&nbsp;Patologia sistemului circulator, a vaselor sanguine. Tulburări cardiovasculare','616.1','Patologia sistemului circulator, a vaselor sanguine. Tulburări cardiovasculare','','','',false,true);
+d.add(82,80,'616.2','<div class="nodetag">616.2</div></span>&nbsp;&nbsp;Patologia sistemului respirator. Tulburări ale organelor de respiraţie','616.2','Patologia sistemului respirator. Tulburări ale organelor de respiraţie','','','',false,true);
+d.add(83,80,'616.3','<div class="nodetag">616.3</div></span>&nbsp;&nbsp;Patologia sistemului digestiv. Tulburări ale tubului alimentar','616.3','Patologia sistemului digestiv. Tulburări ale tubului alimentar','','','',false,true);
+d.add(84,83,'616.31','<div class="nodetag">616.31</div></span>&nbsp;&nbsp;Stomatologie. Cavitatea bucală. Gură. Boli ale gurii şi dinţilor','616.31','Stomatologie. Cavitatea bucală. Gură. Boli ale gurii şi dinţilor','','','',false,true);
+d.add(85,80,'616.4','<div class="nodetag">616.4</div></span>&nbsp;&nbsp;Patologia sistemului limfatic, a organelor hemopoietice şi endocrine','616.4','Patologia sistemului limfatic, a organelor hemopoietice şi endocrine','','','',false,true);
+d.add(86,80,'616.5','<div class="nodetag">616.5</div></span>&nbsp;&nbsp;Piele. Tegumente în general. Dermatologie clinică. Tulburări cutanate','616.5','Piele. Tegumente în general. Dermatologie clinică. Tulburări cutanate','','','',false,true);
+d.add(87,80,'616.6','<div class="nodetag">616.6</div></span>&nbsp;&nbsp;Patologia sistemului urogenital. Boli urinare şi sexuale (genitale)','616.6','Patologia sistemului urogenital. Boli urinare şi sexuale (genitale)','','','',false,true);
+d.add(88,80,'616.7','<div class="nodetag">616.7</div></span>&nbsp;&nbsp;Patologia organelor de locomoţie. Sistemul osos şi locomotor','616.7','Patologia organelor de locomoţie. Sistemul osos şi locomotor','','','',false,true);
+d.add(89,80,'616.8','<div class="nodetag">616.8</div></span>&nbsp;&nbsp;Neurologie. Neuropatologie. Sistem nervos','616.8','Neurologie. Neuropatologie. Sistem nervos','','','',false,true);
+d.add(90,89,'616.89','<div class="nodetag">616.89</div></span>&nbsp;&nbsp;Psihiatrie. Psihiatrie patologică. Psihopathologie. Frenopatii. Psihoze. Anomalii mintale. Stări morbide mintale. Tulburări de comportament şi emoţionale','616.89','Psihiatrie. Psihiatrie patologică. Psihopathologie. Frenopatii. Psihoze. Anomalii mintale. Stări morbide mintale. Tulburări de comportament şi emoţionale','','','',false,true);
+d.add(91,80,'616.9','<div class="nodetag">616.9</div></span>&nbsp;&nbsp;Boli transmisibile. Boli infecţionase şi contagioase, stări febrile','616.9','Boli transmisibile. Boli infecţionase şi contagioase, stări febrile','','','',false,true);
+d.add(92,7,'617','<div class="nodetag">617</div></span>&nbsp;&nbsp;Chirurgie. Ortopedie. Oftalmologie','617','Chirurgie. Ortopedie. Oftalmologie','','','',false,true);
+d.add(93,92,'617.3','<div class="nodetag">617.3</div></span>&nbsp;&nbsp;Ortopedie în general','617.3','Ortopedie în general','','','',false,true);
+d.add(94,92,'617.7','<div class="nodetag">617.7</div></span>&nbsp;&nbsp;Oftalmologie. Tulburări şi tratamente ale ochilor','617.7','Oftalmologie. Tulburări şi tratamente ale ochilor','','','',false,true);
+d.add(95,7,'618','<div class="nodetag">618</div></span>&nbsp;&nbsp;Ginecologie. Obstetrică','618','Ginecologie. Obstetrică','','','',false,true);
+d.add(96,0,'62','<div class="nodetag">62</div></span>&nbsp;&nbsp;Inginerie. Tehnică în general','62','Inginerie. Tehnică în general','','','',false,true);
+d.add(97,96,'62-1/-9','<div class="nodetag">62-1/-9</div></span>&nbsp;&nbsp;Indici auxiliari speciali pentru caracteristici și detalii ale mașinilor, aparatelor, instalațiilor, proceselor și produselor.','62-1/-9','Indici auxiliari speciali pentru caracteristici și detalii ale mașinilor, aparatelor, instalațiilor, proceselor și produselor.','','','',false,true);
+d.add(98,97,'62-1','<div class="nodetag">62-1</div></span>&nbsp;&nbsp;Caracteristici generale ale mașinilor etc.','62-1','Caracteristici generale ale mașinilor etc.','','','',false,true);
+d.add(99,97,'62-2','<div class="nodetag">62-2</div></span>&nbsp;&nbsp;Organe sau subansamble fixe și mobile ale mașinilor','62-2','Organe sau subansamble fixe și mobile ale mașinilor','','','',false,true);
+d.add(100,97,'62-3','<div class="nodetag">62-3</div></span>&nbsp;&nbsp;Organe și subansamble pentru distribuția fluidelor. Sertare, supape etc.','62-3','Organe și subansamble pentru distribuția fluidelor. Sertare, supape etc.','','','',false,true);
+d.add(101,97,'62-4','<div class="nodetag">62-4</div></span>&nbsp;&nbsp;Starea, condiția și forma materialelor, suprafețelor, obiectelor și produselor','62-4','Starea, condiția și forma materialelor, suprafețelor, obiectelor și produselor','','','',false,true);
+d.add(102,97,'62-5','<div class="nodetag">62-5</div></span>&nbsp;&nbsp;Funcționarea, comanda și reglarea mașinilor și proceselor','62-5','Funcționarea, comanda și reglarea mașinilor și proceselor','','','',false,true);
+d.add(103,97,'62-6','<div class="nodetag">62-6</div></span>&nbsp;&nbsp;Caracteristici ale mașinilor și instalațiilor privind combustibilul utilizat și alte surse termice','62-6','Caracteristici ale mașinilor și instalațiilor privind combustibilul utilizat și alte surse termice','','','',false,true);
+d.add(104,97,'62-7','<div class="nodetag">62-7</div></span>&nbsp;&nbsp;Supravegherea, întreținerea și protecția mașinilor','62-7','Supravegherea, întreținerea și protecția mașinilor','','','',false,true);
+d.add(105,97,'62-8','<div class="nodetag">62-8</div></span>&nbsp;&nbsp;Caracterizarea mașinilor după modul de acționare, puterea motrică și forța de propulsie. Sursa energetică a mașinilor','62-8','Caracterizarea mașinilor după modul de acționare, puterea motrică și forța de propulsie. Sursa energetică a mașinilor','','','',false,true);
+d.add(106,97,'62-9','<div class="nodetag">62-9</div></span>&nbsp;&nbsp;Variabile, condiții de lucru și caracteristici ale proceselor de producție, instalațiilor și echipamentului','62-9','Variabile, condiții de lucru și caracteristici ale proceselor de producție, instalațiilor și echipamentului','','','',false,true);
+d.add(107,106,'62-91','<div class="nodetag">62-91</div></span>&nbsp;&nbsp;Starea materialului: caracteristici și variabile','62-91','Starea materialului: caracteristici și variabile','','','',false,true);
+d.add(108,106,'62-92','<div class="nodetag">62-92</div></span>&nbsp;&nbsp;Reacții în funcție de agenți. Reactivi','62-92','Reacții în funcție de agenți. Reactivi','','','',false,true);
+d.add(109,106,'62-93','<div class="nodetag">62-93</div></span>&nbsp;&nbsp;Procese, mașini și echipament după modul de lucru, continuitate, asociere și mediul de lucru','62-93','Procese, mașini și echipament după modul de lucru, continuitate, asociere și mediul de lucru','','','',false,true);
+d.add(110,106,'62-94','<div class="nodetag">62-94</div></span>&nbsp;&nbsp;Direcție, viteză, ritm, durată a proceselor','62-94','Direcție, viteză, ritm, durată a proceselor','','','',false,true);
+d.add(111,106,'62-95','<div class="nodetag">62-95</div></span>&nbsp;&nbsp;Procese simple și multiple. Procese cu o treaptă și cu mai multe trepte','62-95','Procese simple și multiple. Procese cu o treaptă și cu mai multe trepte','','','',false,true);
+d.add(112,106,'62-96','<div class="nodetag">62-96</div></span>&nbsp;&nbsp;Procese care schimbă proprietățile produsului. Modificări în general','62-96','Procese care schimbă proprietățile produsului. Modificări în general','','','',false,true);
+d.add(113,106,'62-97','<div class="nodetag">62-97</div></span>&nbsp;&nbsp;Caracteristici termice. Temperatură. Gama de temperaturi','62-97','Caracteristici termice. Temperatură. Gama de temperaturi','','','',false,true);
+d.add(114,106,'62-98','<div class="nodetag">62-98</div></span>&nbsp;&nbsp;Presiune. Domeniu de presiune','62-98','Presiune. Domeniu de presiune','','','',false,true);
+d.add(115,96,'620','<div class="nodetag">620</div></span>&nbsp;&nbsp;Încercarea materialelor. Materiale comerciale și cunoașterea mărfurilor, centrale energetice. Economie energetică','620','Încercarea materialelor. Materiale comerciale și cunoașterea mărfurilor, centrale energetice. Economie energetică','','','',false,true);
+d.add(116,115,'620.3','<div class="nodetag">620.3</div></span>&nbsp;&nbsp;Nanotehnologie','620.3','Nanotehnologie','','','',false,true);
+d.add(117,115,'620.9','<div class="nodetag">620.9</div></span>&nbsp;&nbsp;Economia energiei în general','620.9','Economia energiei în general','','','',false,true);
+d.add(118,96,'621','<div class="nodetag">621</div></span>&nbsp;&nbsp;Construcția de mașini în general. Tehnică nucleară. Electrotehnică. Tehnologie mecanică','621','Construcția de mașini în general. Tehnică nucleară. Electrotehnică. Tehnologie mecanică','','','',false,true);
+d.add(119,118,'621.1','<div class="nodetag">621.1</div></span>&nbsp;&nbsp;Motoare termice în general. Producerea, distribuția și utilizarea aburului. Motoare (mașini) cu abur. Cazane de abur','621.1','Motoare termice în general. Producerea, distribuția și utilizarea aburului. Motoare (mașini) cu abur. Cazane de abur','','','',false,true);
+d.add(120,118,'621.22','<div class="nodetag">621.22</div></span>&nbsp;&nbsp;Energie hidraulică. Energia apei. Mașini hidraulice','621.22','Energie hidraulică. Energia apei. Mașini hidraulice','','','',false,true);
+d.add(121,118,'621.3','<div class="nodetag">621.3</div></span>&nbsp;&nbsp;Electrotehnică','621.3','Electrotehnică','','','',false,true);
+d.add(122,118,'621.4','<div class="nodetag">621.4</div></span>&nbsp;&nbsp;Motoare termice (cu excepția motoarelor cu abur)','621.4','Motoare termice (cu excepția motoarelor cu abur)','','','',false,true);
+d.add(123,118,'621.5','<div class="nodetag">621.5</div></span>&nbsp;&nbsp;Energie pneumatică, mașini și scule. Refrigerare','621.5','Energie pneumatică, mașini și scule. Refrigerare','','','',false,true);
+d.add(124,118,'621.6','<div class="nodetag">621.6</div></span>&nbsp;&nbsp;Instalații și metode pentru transportul, depozitarea și distribuția fluidelor','621.6','Instalații și metode pentru transportul, depozitarea și distribuția fluidelor','','','',false,true);
+d.add(125,118,'621.7','<div class="nodetag">621.7</div></span>&nbsp;&nbsp;Tehnologie mecanică în general: procese, scule, mașini, aparate','621.7','Tehnologie mecanică în general: procese, scule, mașini, aparate','','','',false,true);
+d.add(126,118,'621.8','<div class="nodetag">621.8</div></span>&nbsp;&nbsp;Organe de mașini. Transmiterea energiei mecanice. Manipularea materialelor. Fixare. Ungere','621.8','Organe de mașini. Transmiterea energiei mecanice. Manipularea materialelor. Fixare. Ungere','','','',false,true);
+d.add(127,118,'621.9','<div class="nodetag">621.9</div></span>&nbsp;&nbsp;Prelucrare mecanică și așchierea. Prelucrare abrazivă. Ciocane și prese','621.9','Prelucrare mecanică și așchierea. Prelucrare abrazivă. Ciocane și prese','','','',false,true);
+d.add(128,96,'622','<div class="nodetag">622</div></span>&nbsp;&nbsp;Industrie minieră','622','Industrie minieră','','','',false,true);
+d.add(129,128,'622.1','<div class="nodetag">622.1</div></span>&nbsp;&nbsp;Investigații preliminare. Topografie minieră și ridicarea de hărți. Exploatarea zăcămintelor minerale (de suprafață și subterane)','622.1','Investigații preliminare. Topografie minieră și ridicarea de hărți. Exploatarea zăcămintelor minerale (de suprafață și subterane)','','','',false,true);
+d.add(130,128,'622.2','<div class="nodetag">622.2</div></span>&nbsp;&nbsp;Operații miniere. Exploatare, deschidere, dezvoltare, prelucrarea zăcămintelor minerale','622.2','Operații miniere. Exploatare, deschidere, dezvoltare, prelucrarea zăcămintelor minerale','','','',false,true);
+d.add(131,128,'622.3','<div class="nodetag">622.3</div></span>&nbsp;&nbsp;Exploatări miniere pentru anumite minerale, minereuri, roci','622.3','Exploatări miniere pentru anumite minerale, minereuri, roci','','','',false,true);
+d.add(132,128,'622.4','<div class="nodetag">622.4</div></span>&nbsp;&nbsp;Aeraj minier. Ventilație, condiționarea aerului, încălzire și iluminat în mine','622.4','Aeraj minier. Ventilație, condiționarea aerului, încălzire și iluminat în mine','','','',false,true);
+d.add(133,128,'622.5','<div class="nodetag">622.5</div></span>&nbsp;&nbsp;Drenaj, evacuarea apei din mine','622.5','Drenaj, evacuarea apei din mine','','','',false,true);
+d.add(134,128,'622.6','<div class="nodetag">622.6</div></span>&nbsp;&nbsp;Manipulare și transport. Ridicare. Transport de suprafață. Tracțiune','622.6','Manipulare și transport. Ridicare. Transport de suprafață. Tracțiune','','','',false,true);
+d.add(135,128,'622.7','<div class="nodetag">622.7</div></span>&nbsp;&nbsp;Tratarea și prelucrarea mineralelor. Îmbogățirea mineralelor. Prepararea minereurilor','622.7','Tratarea și prelucrarea mineralelor. Îmbogățirea mineralelor. Prepararea minereurilor','','','',false,true);
+d.add(136,128,'622.8','<div class="nodetag">622.8</div></span>&nbsp;&nbsp;Pericole, accidente și stricăciuni în mine. Protecția sănătății și siguranța în mine','622.8','Pericole, accidente și stricăciuni în mine. Protecția sănătății și siguranța în mine','','','',false,true);
+d.add(137,96,'623','<div class="nodetag">623</div></span>&nbsp;&nbsp;Tehnică militară','623','Tehnică militară','','','',false,true);
+d.add(138,137,'623.1/.7','<div class="nodetag">623.1/.7</div></span>&nbsp;&nbsp;Tehnica armatei de uscat și a aviației. Artilerie','623.1/.7','Tehnica armatei de uscat și a aviației. Artilerie','','','',false,true);
+d.add(139,138,'623.1/.3','<div class="nodetag">623.1/.3</div></span>&nbsp;&nbsp;Geniu, lucrări de genistice. Fortificații și lucrări de apărare','623.1/.3','Geniu, lucrări de genistice. Fortificații și lucrări de apărare','','','',false,true);
+d.add(140,139,'623.1','<div class="nodetag">623.1</div></span>&nbsp;&nbsp;Fortărețe, cetăți. Fortificații permanente, forturi. Linii și regiuni fortificate','623.1','Fortărețe, cetăți. Fortificații permanente, forturi. Linii și regiuni fortificate','','','',false,true);
+d.add(141,139,'623.2','<div class="nodetag">623.2</div></span>&nbsp;&nbsp;Lucrări ofensive și defensive. Lucrări de asediu. Fortificații de campanie. Tranșee','623.2','Lucrări ofensive și defensive. Lucrări de asediu. Fortificații de campanie. Tranșee','','','',false,true);
+d.add(142,139,'623.3','<div class="nodetag">623.3</div></span>&nbsp;&nbsp;Câmpuri de mine terestre. Obstacole. Inundări','623.3','Câmpuri de mine terestre. Obstacole. Inundări','','','',false,true);
+d.add(143,138,'623.4','<div class="nodetag">623.4</div></span>&nbsp;&nbsp;Armament. Muniţie. Arme. Artilerie. Arme de calibru mic. Arme de mână. Blindate şi alte vehicule de serviciu. Muniție și gaze de luptă. Proiectile dirijate și rachete','623.4','Armament. Muniţie. Arme. Artilerie. Arme de calibru mic. Arme de mână. Blindate şi alte vehicule de serviciu. Muniție și gaze de luptă. Proiectile dirijate și rachete','','','',false,true);
+d.add(144,138,'623.5','<div class="nodetag">623.5</div></span>&nbsp;&nbsp;Balistică. Trageri de artilerie. Probleme teoretice și experimentale','623.5','Balistică. Trageri de artilerie. Probleme teoretice și experimentale','','','',false,true);
+d.add(145,138,'623.6','<div class="nodetag">623.6</div></span>&nbsp;&nbsp;Echipament și lucrări ale trupelor de geniu. Linii de comunicații. Contraacțiuni radar. Topografie militară','623.6','Echipament și lucrări ale trupelor de geniu. Linii de comunicații. Contraacțiuni radar. Topografie militară','','','',false,true);
+d.add(146,138,'623.7','<div class="nodetag">623.7</div></span>&nbsp;&nbsp;Aviație militară și navală. Camuflaje etc.','623.7','Aviație militară și navală. Camuflaje etc.','','','',false,true);
+d.add(147,137,'623.8/.9','<div class="nodetag">623.8/.9</div></span>&nbsp;&nbsp;Tehnică navală militară','623.8/.9','Tehnică navală militară','','','',false,true);
+d.add(148,147,'623.8','<div class="nodetag">623.8</div></span>&nbsp;&nbsp;Construcții navale. Baze navale. Nave de râzboi și alte vase','623.8','Construcții navale. Baze navale. Nave de râzboi și alte vase','','','',false,true);
+d.add(149,147,'623.9','<div class="nodetag">623.9</div></span>&nbsp;&nbsp;Materiale și echipament al forțelor marinei militare. Protecția și armamentul navelor. Apărare antisubmarină','623.9','Materiale și echipament al forțelor marinei militare. Protecția și armamentul navelor. Apărare antisubmarină','','','',false,true);
+d.add(150,96,'624','<div class="nodetag">624</div></span>&nbsp;&nbsp;Ingineria construcțiilor în general','624','Ingineria construcțiilor în general','','','',false,true);
+d.add(151,150,'624.01/.07','<div class="nodetag">624.01/.07</div></span>&nbsp;&nbsp;Subdiviziuni auxiliare speciae pentru ingineria construcţiilor civile şi structurale','624.01/.07','Subdiviziuni auxiliare speciae pentru ingineria construcţiilor civile şi structurale','','','',false,true);
+d.add(152,151,'624.01','<div class="nodetag">624.01</div></span>&nbsp;&nbsp;Construcții și părți ale construcțiilor după material și metoda de construcție','624.01','Construcții și părți ale construcțiilor după material și metoda de construcție','','','',false,true);
+d.add(153,151,'624.03','<div class="nodetag">624.03</div></span>&nbsp;&nbsp;Construcții după mărime, permanență, așezare și formă','624.03','Construcții după mărime, permanență, așezare și formă','','','',false,true);
+d.add(154,151,'624.04','<div class="nodetag">624.04</div></span>&nbsp;&nbsp;Construcție structurală. Statica grafică și analitică utilizată pentru încercarea și calculul structurilor','624.04','Construcție structurală. Statica grafică și analitică utilizată pentru încercarea și calculul structurilor','','','',false,true);
+d.add(155,151,'624.05','<div class="nodetag">624.05</div></span>&nbsp;&nbsp;Loc, organizare și instalații. Metode de construcție','624.05','Loc, organizare și instalații. Metode de construcție','','','',false,true);
+d.add(156,151,'624.07','<div class="nodetag">624.07</div></span>&nbsp;&nbsp;Elemente structurale ale construcțiilor. Calcule de rezistență','624.07','Elemente structurale ale construcțiilor. Calcule de rezistență','','','',false,true);
+d.add(157,150,'624.1','<div class="nodetag">624.1</div></span>&nbsp;&nbsp;Infrastructură. Lucrări terasiere. Fundații. Tunele','624.1','Infrastructură. Lucrări terasiere. Fundații. Tunele','','','',false,true);
+d.add(158,150,'624.21/.8','<div class="nodetag">624.21/.8</div></span>&nbsp;&nbsp;Poduri','624.21/.8','Poduri','','','',false,true);
+d.add(159,158,'624.3','<div class="nodetag">624.3</div></span>&nbsp;&nbsp;Poduri cu zăbrele. Poduri celulare sau în rețea','624.3','Poduri cu zăbrele. Poduri celulare sau în rețea','','','',false,true);
+d.add(160,158,'624.5','<div class="nodetag">624.5</div></span>&nbsp;&nbsp;Poduri cu cablu. Poduri articulate cu bolț','624.5','Poduri cu cablu. Poduri articulate cu bolț','','','',false,true);
+d.add(161,158,'624.6','<div class="nodetag">624.6</div></span>&nbsp;&nbsp;Poduri cu arcade, cu arce','624.6','Poduri cu arcade, cu arce','','','',false,true);
+d.add(162,158,'624.8','<div class="nodetag">624.8</div></span>&nbsp;&nbsp;Poduri mobile','624.8','Poduri mobile','','','',false,true);
+d.add(163,150,'624.9','<div class="nodetag">624.9</div></span>&nbsp;&nbsp;Suprastructură, lucrări supraterane (în afara podurilor). Suprastructuri complete','624.9','Suprastructură, lucrări supraterane (în afara podurilor). Suprastructuri complete','','','',false,true);
+d.add(164,96,'625','<div class="nodetag">625</div></span>&nbsp;&nbsp;Construcția căilor de transport terestru. Construcţii de căi ferate. Construcţii de drumuri','625','Construcția căilor de transport terestru. Construcţii de căi ferate. Construcţii de drumuri','','','',false,true);
+d.add(165,164,'625.1/.5','<div class="nodetag">625.1/.5</div></span>&nbsp;&nbsp;Căi ferate. Tramvaie. Funiculare','625.1/.5','Căi ferate. Tramvaie. Funiculare','','','',false,true);
+d.add(166,165,'625.1','<div class="nodetag">625.1</div></span>&nbsp;&nbsp;Căi ferate în general. Linii. Construcția de linii','625.1','Căi ferate în general. Linii. Construcția de linii','','','',false,true);
+d.add(167,165,'625.5','<div class="nodetag">625.5</div></span>&nbsp;&nbsp;Căi ferate cu tracțiune. Căi ferate suspendate. Funiculare aeriene, teleferice','625.5','Căi ferate cu tracțiune. Căi ferate suspendate. Funiculare aeriene, teleferice','','','',false,true);
+d.add(168,164,'625.7/.8','<div class="nodetag">625.7/.8</div></span>&nbsp;&nbsp;Construcția căilor rutiere','625.7/.8','Construcția căilor rutiere','','','',false,true);
+d.add(169,168,'625.7','<div class="nodetag">625.7</div></span>&nbsp;&nbsp;Căi rutiere în general. Drumuri, șosele, autostrăzi, străzi. Sisteme rurale și urbane de drumuri','625.7','Căi rutiere în general. Drumuri, șosele, autostrăzi, străzi. Sisteme rurale și urbane de drumuri','','','',false,true);
+d.add(170,168,'625.8','<div class="nodetag">625.8</div></span>&nbsp;&nbsp;Suprafața dură a drumurilor principale. Pavaj, îmbrăcăminte, pistă (strat) de uzură. Prepararea și utilizarea materialelor de pavare','625.8','Suprafața dură a drumurilor principale. Pavaj, îmbrăcăminte, pistă (strat) de uzură. Prepararea și utilizarea materialelor de pavare','','','',false,true);
+d.add(171,96,'626/627','<div class="nodetag">626/627</div></span>&nbsp;&nbsp;Construcții hidrotehnice. Structuri acvatice','626/627','Construcții hidrotehnice. Structuri acvatice','','','',false,true);
+d.add(172,171,'626','<div class="nodetag">626</div></span>&nbsp;&nbsp;Inginerie hidrotehnică în general','626','Inginerie hidrotehnică în general','','','',false,true);
+d.add(173,172,'626.1','<div class="nodetag">626.1</div></span>&nbsp;&nbsp;Căi navigabile interioare. Canale, râuri regularizate, șenale','626.1','Căi navigabile interioare. Canale, râuri regularizate, șenale','','','',false,true);
+d.add(174,172,'626.4','<div class="nodetag">626.4</div></span>&nbsp;&nbsp;Ecluze','626.4','Ecluze','','','',false,true);
+d.add(175,172,'626.5','<div class="nodetag">626.5</div></span>&nbsp;&nbsp;Mecanisme de ridicare și planuri înclinate pentru nave','626.5','Mecanisme de ridicare și planuri înclinate pentru nave','','','',false,true);
+d.add(176,172,'626.8','<div class="nodetag">626.8</div></span>&nbsp;&nbsp;Hidrotehnică agricolă. Lucrări de irigație, drenare și îmbunătățiri agricole','626.8','Hidrotehnică agricolă. Lucrări de irigație, drenare și îmbunătățiri agricole','','','',false,true);
+d.add(177,172,'626.9','<div class="nodetag">626.9</div></span>&nbsp;&nbsp;Canale maritime artificiale. Canale pentru nave','626.9','Canale maritime artificiale. Canale pentru nave','','','',false,true);
+d.add(178,171,'627','<div class="nodetag">627</div></span>&nbsp;&nbsp;Lucrări pe căi de navigație naturale, în porturi şi pe țărm. Amenajări de navigație, dragare, salvare și ajutor. Baraje și centrale hidraulice de energie','627','Lucrări pe căi de navigație naturale, în porturi şi pe țărm. Amenajări de navigație, dragare, salvare și ajutor. Baraje și centrale hidraulice de energie','','','',false,true);
+d.add(179,178,'627.2','<div class="nodetag">627.2</div></span>&nbsp;&nbsp;Porturi, rade și lucrările de construcție respective, în general','627.2','Porturi, rade și lucrările de construcție respective, în general','','','',false,true);
+d.add(180,178,'627.3','<div class="nodetag">627.3</div></span>&nbsp;&nbsp;Amenajări pe țărm în cadrul portului. Docuri, debarcadere, cheiuri. Instalații și echipament','627.3','Amenajări pe țărm în cadrul portului. Docuri, debarcadere, cheiuri. Instalații și echipament','','','',false,true);
+d.add(181,178,'627.4','<div class="nodetag">627.4</div></span>&nbsp;&nbsp;Protecția malurilor râurilor și fluviilor. Îndepărtarea cursului râurilor și fluviilor. Alte lucrări de îmbunătățire','627.4','Protecția malurilor râurilor și fluviilor. Îndepărtarea cursului râurilor și fluviilor. Alte lucrări de îmbunătățire','','','',false,true);
+d.add(182,178,'627.5','<div class="nodetag">627.5</div></span>&nbsp;&nbsp;Alte protecții și ameliorări la căile de apă. Diguri. Protejarea malurilor. Drenarea și îmbunătățirea solului','627.5','Alte protecții și ameliorări la căile de apă. Diguri. Protejarea malurilor. Drenarea și îmbunătățirea solului','','','',false,true);
+d.add(183,178,'627.7','<div class="nodetag">627.7</div></span>&nbsp;&nbsp;Lucrări de navigație. Întreținerea șenalului navigabil. Dotări pentru salvare și ajutor pe mare','627.7','Lucrări de navigație. Întreținerea șenalului navigabil. Dotări pentru salvare și ajutor pe mare','','','',false,true);
+d.add(184,178,'627.8','<div class="nodetag">627.8</div></span>&nbsp;&nbsp;Baraje. Lucrări de construcție a centralelor hidraulice de energie','627.8','Baraje. Lucrări de construcție a centralelor hidraulice de energie','','','',false,true);
+d.add(185,96,'628','<div class="nodetag">628</div></span>&nbsp;&nbsp;Tehnică sanitară. Apă. Igienă sanitară. Tehnica iluminatului','628','Tehnică sanitară. Apă. Igienă sanitară. Tehnica iluminatului','','','',false,true);
+d.add(186,185,'628.1','<div class="nodetag">628.1</div></span>&nbsp;&nbsp;Alimentarea cu apă. Tratarea apei. Consum de apă','628.1','Alimentarea cu apă. Tratarea apei. Consum de apă','','','',false,true);
+d.add(187,185,'628.2','<div class="nodetag">628.2</div></span>&nbsp;&nbsp;Îndepărtarea (evacuarea) apelor urbane. Drenare urbană. Canalizare','628.2','Îndepărtarea (evacuarea) apelor urbane. Drenare urbană. Canalizare','','','',false,true);
+d.add(188,185,'628.3','<div class="nodetag">628.3</div></span>&nbsp;&nbsp;Ape reziduale, de canal. Tratarea, evacuarea, utilizarea apelor reziduale','628.3','Ape reziduale, de canal. Tratarea, evacuarea, utilizarea apelor reziduale','','','',false,true);
+d.add(189,185,'628.4','<div class="nodetag">628.4</div></span>&nbsp;&nbsp;Igienă urbană, Deșeuri, reziduuri, gunoaie. Strângerea și evacuarea deșeurilor urbane, salubritate urbană','628.4','Igienă urbană, Deșeuri, reziduuri, gunoaie. Strângerea și evacuarea deșeurilor urbane, salubritate urbană','','','',false,true);
+d.add(190,185,'628.5','<div class="nodetag">628.5</div></span>&nbsp;&nbsp;Măsuri contra prejudiciilor industriale și de altă natură','628.5','Măsuri contra prejudiciilor industriale și de altă natură','','','',false,true);
+d.add(191,185,'628.6','<div class="nodetag">628.6</div></span>&nbsp;&nbsp;Canalizare și instalații sanitare în clădiri (cerințe speciale ale igienei publice)','628.6','Canalizare și instalații sanitare în clădiri (cerințe speciale ale igienei publice)','','','',false,true);
+d.add(192,185,'628.8','<div class="nodetag">628.8</div></span>&nbsp;&nbsp;Climat interior. Aer condiționat. Încălzire. Ventilaţie','628.8','Climat interior. Aer condiționat. Încălzire. Ventilaţie','','','',false,true);
+d.add(193,185,'628.9','<div class="nodetag">628.9</div></span>&nbsp;&nbsp;Iluminat. Tehnica iluminatului','628.9','Iluminat. Tehnica iluminatului','','','',false,true);
+d.add(194,96,'629','<div class="nodetag">629</div></span>&nbsp;&nbsp;Tehnica mijloacelor de transport','629','Tehnica mijloacelor de transport','','','',false,true);
+d.add(195,194,'629.01/.08','<div class="nodetag">629.01/.08</div></span>&nbsp;&nbsp;Indici auxiliari speciali pentru industria mijloacelor de transport','629.01/.08','Indici auxiliari speciali pentru industria mijloacelor de transport','','','',false,true);
+d.add(196,195,'629.01','<div class="nodetag">629.01</div></span>&nbsp;&nbsp;Principii constructive ale mijlocului de transport: caracteristici, performanțe, încercări','629.01','Principii constructive ale mijlocului de transport: caracteristici, performanțe, încercări','','','',false,true);
+d.add(197,195,'629.02','<div class="nodetag">629.02</div></span>&nbsp;&nbsp;Structura mijlocului de transport. Principii constructive. Desen de ansamblu, părți, piese','629.02','Structura mijlocului de transport. Principii constructive. Desen de ansamblu, părți, piese','','','',false,true);
+d.add(198,195,'629.03','<div class="nodetag">629.03</div></span>&nbsp;&nbsp;Sisteme de propulsie','629.03','Sisteme de propulsie','','','',false,true);
+d.add(199,195,'629.04','<div class="nodetag">629.04</div></span>&nbsp;&nbsp;Amenajări interioare: spații, instalații, echipament pentru persoane și marfă','629.04','Amenajări interioare: spații, instalații, echipament pentru persoane și marfă','','','',false,true);
+d.add(200,195,'629.05','<div class="nodetag">629.05</div></span>&nbsp;&nbsp;Sisteme și aparate pentru conducere, dirijare și navigație (pe mijlocul de transport','629.05','Sisteme și aparate pentru conducere, dirijare și navigație (pe mijlocul de transport','','','',false,true);
+d.add(201,195,'629.06','<div class="nodetag">629.06</div></span>&nbsp;&nbsp;Sisteme și dispozitive auxiliare pe vehicule','629.06','Sisteme și dispozitive auxiliare pe vehicule','','','',false,true);
+d.add(202,195,'629.07','<div class="nodetag">629.07</div></span>&nbsp;&nbsp;Aspecte tehnice în exploatarea vehiculelor (tehnici de funcţionare)','629.07','Aspecte tehnice în exploatarea vehiculelor (tehnici de funcţionare)','','','',false,true);
+d.add(203,195,'629.08','<div class="nodetag">629.08</div></span>&nbsp;&nbsp;Echipamente, instalații de bază și procedee tehnice corespunzătoare','629.08','Echipamente, instalații de bază și procedee tehnice corespunzătoare','','','',false,true);
+d.add(204,194,'629.3','<div class="nodetag">629.3</div></span>&nbsp;&nbsp;Vehicule terestre (în afara celor pe șine)','629.3','Vehicule terestre (în afara celor pe șine)','','','',false,true);
+d.add(205,194,'629.4','<div class="nodetag">629.4</div></span>&nbsp;&nbsp;Tehnica vehiculelor pe șine. Locomotive și vagoane. Material rulant. Depouri și triaje de cale ferată. Instalații și servicii pentru material rulant','629.4','Tehnica vehiculelor pe șine. Locomotive și vagoane. Material rulant. Depouri și triaje de cale ferată. Instalații și servicii pentru material rulant','','','',false,true);
+d.add(206,194,'629.5','<div class="nodetag">629.5</div></span>&nbsp;&nbsp;Tehnică navală. Ambarcațiuni, nave. Construcția de bărci și de nave','629.5','Tehnică navală. Ambarcațiuni, nave. Construcția de bărci și de nave','','','',false,true);
+d.add(207,194,'629.7','<div class="nodetag">629.7</div></span>&nbsp;&nbsp;Tehnica transportului aerian și spațial. Aeronautică și aeronave. Rachete și proiectile reactive. Aeronautică și nave spațiale','629.7','Tehnica transportului aerian și spațial. Aeronautică și aeronave. Rachete și proiectile reactive. Aeronautică și nave spațiale','','','',false,true);
+d.add(208,0,'63','<div class="nodetag">63</div></span>&nbsp;&nbsp;Agricultură și alte științe și tehnici înrudite. Silvicultură. Agricultură. Exploatarea vieții sălbatice','63','Agricultură și alte științe și tehnici înrudite. Silvicultură. Agricultură. Exploatarea vieții sălbatice','','','',false,true);
+d.add(209,208,'630','<div class="nodetag">630</div></span>&nbsp;&nbsp;Silvicultură','630','Silvicultură','','','',false,true);
+d.add(210,209,'630*0','<div class="nodetag">630*0</div></span>&nbsp;&nbsp;Păduri, silvicultură şi utilizarea produselor forestiere','630*0','Păduri, silvicultură şi utilizarea produselor forestiere','','','',false,true);
+d.add(211,209,'630*1','<div class="nodetag">630*1</div></span>&nbsp;&nbsp;Factori de mediu în silvicultură. Biologie forestieră','630*1','Factori de mediu în silvicultură. Biologie forestieră','','','',false,true);
+d.add(212,209,'630*2','<div class="nodetag">630*2</div></span>&nbsp;&nbsp;Biologie forestieră','630*2','Biologie forestieră','','','',false,true);
+d.add(213,209,'630*3','<div class="nodetag">630*3</div></span>&nbsp;&nbsp;Situație, așezare. Topografie forestieră','630*3','Situație, așezare. Topografie forestieră','','','',false,true);
+d.add(214,209,'630*4','<div class="nodetag">630*4</div></span>&nbsp;&nbsp;Sol forestier','630*4','Sol forestier','','','',false,true);
+d.add(215,209,'630*5','<div class="nodetag">630*5</div></span>&nbsp;&nbsp;Ecologie animală a pădurilor','630*5','Ecologie animală a pădurilor','','','',false,true);
+d.add(216,209,'630*6','<div class="nodetag">630*6</div></span>&nbsp;&nbsp;Hidrologie forestieră. Conservarea apei. Conservarea solului și eroziune','630*6','Hidrologie forestieră. Conservarea apei. Conservarea solului și eroziune','','','',false,true);
+d.add(217,209,'630*7','<div class="nodetag">630*7</div></span>&nbsp;&nbsp;Marketing pentru produsele forestiere. Economia transporturilor forestiere şi industria lemnului','630*7','Marketing pentru produsele forestiere. Economia transporturilor forestiere şi industria lemnului','','','',false,true);
+d.add(218,209,'630*8','<div class="nodetag">630*8</div></span>&nbsp;&nbsp;Produse forestiere şi utilizarea acestora','630*8','Produse forestiere şi utilizarea acestora','','','',false,true);
+d.add(219,209,'630*9','<div class="nodetag">630*9</div></span>&nbsp;&nbsp;Alte produse (minore, secundare) ale pădurii','630*9','Alte produse (minore, secundare) ale pădurii','','','',false,true);
+d.add(220,208,'631/635','<div class="nodetag">631/635</div></span>&nbsp;&nbsp;Conducerea fermelor . Agronomie. Horticultură','631/635','Conducerea fermelor . Agronomie. Horticultură','','','',false,true);
+d.add(221,220,'631','<div class="nodetag">631</div></span>&nbsp;&nbsp;Agricultură în general','631','Agricultură în general','','','',false,true);
+d.add(222,221,'631.1','<div class="nodetag">631.1</div></span>&nbsp;&nbsp;Conducerea și organizarea fermelor','631.1','Conducerea și organizarea fermelor','','','',false,true);
+d.add(223,221,'631.2','<div class="nodetag">631.2</div></span>&nbsp;&nbsp;Clădiri, construcții și instalații agricole. Clădiri pentru animale, produse, mașini și echipamente','631.2','Clădiri, construcții și instalații agricole. Clădiri pentru animale, produse, mașini și echipamente','','','',false,true);
+d.add(224,221,'631.3','<div class="nodetag">631.3</div></span>&nbsp;&nbsp;Mașini agricole, echipamente și utilaje agricole','631.3','Mașini agricole, echipamente și utilaje agricole','','','',false,true);
+d.add(225,221,'631.4','<div class="nodetag">631.4</div></span>&nbsp;&nbsp;Știința solului. Pedologie. Cercetări pedologice','631.4','Știința solului. Pedologie. Cercetări pedologice','','','',false,true);
+d.add(226,221,'631.5','<div class="nodetag">631.5</div></span>&nbsp;&nbsp;Lucrări agricole','631.5','Lucrări agricole','','','',false,true);
+d.add(227,221,'631.6','<div class="nodetag">631.6</div></span>&nbsp;&nbsp;Ameliorații. Îmbunătățiri funciare și agricole','631.6','Ameliorații. Îmbunătățiri funciare și agricole','','','',false,true);
+d.add(228,221,'631.8','<div class="nodetag">631.8</div></span>&nbsp;&nbsp;Îngrășăminte chimice și naturale. Îmbogățirea solului. Stimularea creșterii. Stimulanți pentru plante','631.8','Îngrășăminte chimice și naturale. Îmbogățirea solului. Stimularea creșterii. Stimulanți pentru plante','','','',false,true);
+d.add(229,220,'632','<div class="nodetag">632</div></span>&nbsp;&nbsp;Boli ale plantelor. Dăunători și organisme vătămătoare pentru plante. Protejarea plantelor','632','Boli ale plantelor. Dăunători și organisme vătămătoare pentru plante. Protejarea plantelor','','','',false,true);
+d.add(230,220,'633/635','<div class="nodetag">633/635</div></span>&nbsp;&nbsp;Horticultură în general','633/635','Horticultură în general','','','',false,true);
+d.add(231,230,'633','<div class="nodetag">633</div></span>&nbsp;&nbsp;Cultura plantelor de câmp','633','Cultura plantelor de câmp','','','',false,true);
+d.add(232,231,'633.1','<div class="nodetag">633.1</div></span>&nbsp;&nbsp;Cereale. Recolte de grâne','633.1','Cereale. Recolte de grâne','','','',false,true);
+d.add(233,231,'633.2','<div class="nodetag">633.2</div></span>&nbsp;&nbsp;Ierburi de nutreț. Ierburi de fâneață și pășune','633.2','Ierburi de nutreț. Ierburi de fâneață și pășune','','','',false,true);
+d.add(234,231,'633.3','<div class="nodetag">633.3</div></span>&nbsp;&nbsp;Plante de nutreț cu excepţia ierburilor','633.3','Plante de nutreț cu excepţia ierburilor','','','',false,true);
+d.add(235,231,'633.4','<div class="nodetag">633.4</div></span>&nbsp;&nbsp;Rădăcini și tubercule comestibile. Culturi de rădăcinoase','633.4','Rădăcini și tubercule comestibile. Culturi de rădăcinoase','','','',false,true);
+d.add(236,231,'633.5','<div class="nodetag">633.5</div></span>&nbsp;&nbsp;Plante textile și fibroase','633.5','Plante textile și fibroase','','','',false,true);
+d.add(237,231,'633.6','<div class="nodetag">633.6</div></span>&nbsp;&nbsp;Plante de zahăr și de amidon','633.6','Plante de zahăr și de amidon','','','',false,true);
+d.add(238,231,'633.7','<div class="nodetag">633.7</div></span>&nbsp;&nbsp;Plante producătoare de stimulente. Plante pentru băuturi','633.7','Plante producătoare de stimulente. Plante pentru băuturi','','','',false,true);
+d.add(239,231,'633.8','<div class="nodetag">633.8</div></span>&nbsp;&nbsp;Plante aromatice. Condimente. Plante aleaginoase. Plante colorante. Plante tanante. Plante medicinale','633.8','Plante aromatice. Condimente. Plante aleaginoase. Plante colorante. Plante tanante. Plante medicinale','','','',false,true);
+d.add(240,231,'633.9','<div class="nodetag">633.9</div></span>&nbsp;&nbsp;Alte plante cu utilizări industriale','633.9','Alte plante cu utilizări industriale','','','',false,true);
+d.add(241,230,'634','<div class="nodetag">634</div></span>&nbsp;&nbsp;Cultura fructelor','634','Cultura fructelor','','','',false,true);
+d.add(242,241,'634.2','<div class="nodetag">634.2</div></span>&nbsp;&nbsp;Fructe cu sâmbure. Drupe în general','634.2','Fructe cu sâmbure. Drupe în general','','','',false,true);
+d.add(243,241,'634.3','<div class="nodetag">634.3</div></span>&nbsp;&nbsp;Fructe de nutacee și moracee. Fructe citrice în general','634.3','Fructe de nutacee și moracee. Fructe citrice în general','','','',false,true);
+d.add(244,241,'634.4','<div class="nodetag">634.4</div></span>&nbsp;&nbsp;Alte fructe tropicale cărnoase (cu miez, cu pulpă)','634.4','Alte fructe tropicale cărnoase (cu miez, cu pulpă)','','','',false,true);
+d.add(245,241,'634.5','<div class="nodetag">634.5</div></span>&nbsp;&nbsp;Nucifere. Fructe cu coajă tare','634.5','Nucifere. Fructe cu coajă tare','','','',false,true);
+d.add(246,241,'634.6','<div class="nodetag">634.6</div></span>&nbsp;&nbsp;Diferite fructe tropicale și subtropicale','634.6','Diferite fructe tropicale și subtropicale','','','',false,true);
+d.add(247,241,'634.7','<div class="nodetag">634.7</div></span>&nbsp;&nbsp;Fructe mici ale tufelror și ale plantelor ierbacee. Arbuști baciferi','634.7','Fructe mici ale tufelror și ale plantelor ierbacee. Arbuști baciferi','','','',false,true);
+d.add(248,241,'634.8','<div class="nodetag">634.8</div></span>&nbsp;&nbsp;Viticultură. Viță de vie. Vii','634.8','Viticultură. Viță de vie. Vii','','','',false,true);
+d.add(249,230,'635','<div class="nodetag">635</div></span>&nbsp;&nbsp;Plante de grădină. Grădinărit','635','Plante de grădină. Grădinărit','','','',false,true);
+d.add(250,249,'635.1/.8','<div class="nodetag">635.1/.8</div></span>&nbsp;&nbsp;Legume. Grădini culinare și de zarzavat','635.1/.8','Legume. Grădini culinare și de zarzavat','','','',false,true);
+d.add(251,250,'635.1','<div class="nodetag">635.1</div></span>&nbsp;&nbsp;Rădăcini comestibile. Rădăcinile ca legume. Rădăcinoase','635.1','Rădăcini comestibile. Rădăcinile ca legume. Rădăcinoase','','','',false,true);
+d.add(252,250,'635.2','<div class="nodetag">635.2</div></span>&nbsp;&nbsp;Tubercule și bulbi comestibili','635.2','Tubercule și bulbi comestibili','','','',false,true);
+d.add(253,250,'635.3','<div class="nodetag">635.3</div></span>&nbsp;&nbsp;Plante cu tulpini, frunze sau flori comestibile','635.3','Plante cu tulpini, frunze sau flori comestibile','','','',false,true);
+d.add(254,250,'635.4','<div class="nodetag">635.4</div></span>&nbsp;&nbsp;Legume verzi. Frunzele ca legume','635.4','Legume verzi. Frunzele ca legume','','','',false,true);
+d.add(255,250,'635.6','<div class="nodetag">635.6</div></span>&nbsp;&nbsp;Fructe și semințe comestibile. Boabe de leguminoase','635.6','Fructe și semințe comestibile. Boabe de leguminoase','','','',false,true);
+d.add(256,250,'635.7','<div class="nodetag">635.7</div></span>&nbsp;&nbsp;Plante aromate. Plante condimentare','635.7','Plante aromate. Plante condimentare','','','',false,true);
+d.add(257,250,'635.8','<div class="nodetag">635.8</div></span>&nbsp;&nbsp;Ciuperci comestibile','635.8','Ciuperci comestibile','','','',false,true);
+d.add(258,249,'635.9','<div class="nodetag">635.9</div></span>&nbsp;&nbsp;Plante ornamentale și decorative. Grădinărit ornamental','635.9','Plante ornamentale și decorative. Grădinărit ornamental','','','',false,true);
+d.add(259,208,'636','<div class="nodetag">636</div></span>&nbsp;&nbsp;Zootehnie. Creșterea și înmulțirea animalelor. Creșterea vitelor, a șeptelului. Înmulțirea animalelor domestice','636','Zootehnie. Creșterea și înmulțirea animalelor. Creșterea vitelor, a șeptelului. Înmulțirea animalelor domestice','','','',false,true);
+d.add(260,259,'636.01/.09','<div class="nodetag">636.01/.09</div></span>&nbsp;&nbsp;Indici auxiliari speciali pentru creşterea animalelor','636.01/.09','Indici auxiliari speciali pentru creşterea animalelor','','','',false,true);
+d.add(261,260,'636.01','<div class="nodetag">636.01</div></span>&nbsp;&nbsp;Originea, evoluția și domesticirea animalelor crescute de om. îmblânzirea animalelor. Baze biologice ale creșterii și formării','636.01','Originea, evoluția și domesticirea animalelor crescute de om. îmblânzirea animalelor. Baze biologice ale creșterii și formării','','','',false,true);
+d.add(262,260,'636.02','<div class="nodetag">636.02</div></span>&nbsp;&nbsp;Animale crescute pentru înmulțire, prezentare și utilizări științifice','636.02','Animale crescute pentru înmulțire, prezentare și utilizări științifice','','','',false,true);
+d.add(263,260,'636.03','<div class="nodetag">636.03</div></span>&nbsp;&nbsp;Animale crescute sau îngrijite pentru obținerea de alimente și alte produse (productivitate, producție). Animale de fermă și de pășune în general','636.03','Animale crescute sau îngrijite pentru obținerea de alimente și alte produse (productivitate, producție). Animale de fermă și de pășune în general','','','',false,true);
+d.add(264,260,'636.04','<div class="nodetag">636.04</div></span>&nbsp;&nbsp;Animale crescute sau îngrijite pentru muncă și servicii sau pentru agrement','636.04','Animale crescute sau îngrijite pentru muncă și servicii sau pentru agrement','','','',false,true);
+d.add(265,260,'636.05','<div class="nodetag">636.05</div></span>&nbsp;&nbsp;Animale după rasă','636.05','Animale după rasă','','','',false,true);
+d.add(266,260,'636.06','<div class="nodetag">636.06</div></span>&nbsp;&nbsp;Caracteristici, constituție și însușiri biologice speciale ale animalelor domestice','636.06','Caracteristici, constituție și însușiri biologice speciale ale animalelor domestice','','','',false,true);
+d.add(267,260,'636.08','<div class="nodetag">636.08</div></span>&nbsp;&nbsp;Probleme generale de prăbușire și creștere','636.08','Probleme generale de prăbușire și creștere','','','',false,true);
+d.add(268,260,'636.09','<div class="nodetag">636.09</div></span>&nbsp;&nbsp;Medicină veterinară','636.09','Medicină veterinară','','','',false,true);
+d.add(269,259,'636.1','<div class="nodetag">636.1</div></span>&nbsp;&nbsp;Cabaline domestice. Cai','636.1','Cabaline domestice. Cai','','','',false,true);
+d.add(270,259,'636.2','<div class="nodetag">636.2</div></span>&nbsp;&nbsp;Rumegătoare mari, taurine. Vite, boi','636.2','Rumegătoare mari, taurine. Vite, boi','','','',false,true);
+d.add(271,259,'636.3','<div class="nodetag">636.3</div></span>&nbsp;&nbsp;Rumegătoare mici','636.3','Rumegătoare mici','','','',false,true);
+d.add(272,259,'636.4','<div class="nodetag">636.4</div></span>&nbsp;&nbsp;Porc. Porcine','636.4','Porc. Porcine','','','',false,true);
+d.add(273,259,'636.5','<div class="nodetag">636.5</div></span>&nbsp;&nbsp;Păsări domestice','636.5','Păsări domestice','','','',false,true);
+d.add(274,259,'636.6','<div class="nodetag">636.6</div></span>&nbsp;&nbsp;Păsări (în afară de păsări de curte sau vânat) crescute sau întreținute de om','636.6','Păsări (în afară de păsări de curte sau vânat) crescute sau întreținute de om','','','',false,true);
+d.add(275,259,'636.7','<div class="nodetag">636.7</div></span>&nbsp;&nbsp;Câini','636.7','Câini','','','',false,true);
+d.add(276,259,'636.8','<div class="nodetag">636.8</div></span>&nbsp;&nbsp;Pisici','636.8','Pisici','','','',false,true);
+d.add(277,259,'636.9','<div class="nodetag">636.9</div></span>&nbsp;&nbsp;Alte animale crescute de om','636.9','Alte animale crescute de om','','','',false,true);
+d.add(278,208,'637','<div class="nodetag">637</div></span>&nbsp;&nbsp;Produse ale animalelor domestice (de curte) și de vânat','637','Produse ale animalelor domestice (de curte) și de vânat','','','',false,true);
+d.add(279,208,'638','<div class="nodetag">638</div></span>&nbsp;&nbsp;Întreținerea, creșterea și utilizarea insectelor și a altor astropode','638','Întreținerea, creșterea și utilizarea insectelor și a altor astropode','','','',false,true);
+d.add(280,208,'639','<div class="nodetag">639</div></span>&nbsp;&nbsp;Vânătoare. Pescuit. Piscicultură','639','Vânătoare. Pescuit. Piscicultură','','','',false,true);
+d.add(281,280,'639.1','<div class="nodetag">639.1</div></span>&nbsp;&nbsp;Vânătoare','639.1','Vânătoare','','','',false,true);
+d.add(282,280,'639.2','<div class="nodetag">639.2</div></span>&nbsp;&nbsp;Pescuit. Pescării și produsele lor','639.2','Pescuit. Pescării și produsele lor','','','',false,true);
+d.add(283,280,'639.3','<div class="nodetag">639.3</div></span>&nbsp;&nbsp;Creșterea peștilor. Piscicultură','639.3','Creșterea peștilor. Piscicultură','','','',false,true);
+d.add(284,280,'639.4','<div class="nodetag">639.4</div></span>&nbsp;&nbsp;Creșterea moluștelor acvatice (scoici)','639.4','Creșterea moluștelor acvatice (scoici)','','','',false,true);
+d.add(285,280,'639.5','<div class="nodetag">639.5</div></span>&nbsp;&nbsp;Creşterea crustaceelor acvatice','639.5','Creşterea crustaceelor acvatice','','','',false,true);
+d.add(286,280,'639.6','<div class="nodetag">639.6</div></span>&nbsp;&nbsp;Alte produse marine','639.6','Alte produse marine','','','',false,true);
+d.add(287,0,'64','<div class="nodetag">64</div></span>&nbsp;&nbsp;Economie casnică. Științe domestice. Întreținerea casei','64','Economie casnică. Științe domestice. Întreținerea casei','','','',false,true);
+d.add(288,287,'64.01/.08','<div class="nodetag">64.01/.08</div></span>&nbsp;&nbsp;Indici auxiliari speciali pentru economie casnică','64.01/.08','Indici auxiliari speciali pentru economie casnică','','','',false,true);
+d.add(289,288,'64.01','<div class="nodetag">64.01</div></span>&nbsp;&nbsp;Casa. Administraţia casei','64.01','Casa. Administraţia casei','','','',false,true);
+d.add(290,288,'64.048','<div class="nodetag">64.048</div></span>&nbsp;&nbsp;Studierea muncii și a metodelor de lucru în administrarea casnică','64.048','Studierea muncii și a metodelor de lucru în administrarea casnică','','','',false,true);
+d.add(291,288,'64.05','<div class="nodetag">64.05</div></span>&nbsp;&nbsp;Economie casnică, administrare casnică, amenajări și echipamente casnice etc. pentru anumite feluri de persoane','64.05','Economie casnică, administrare casnică, amenajări și echipamente casnice etc. pentru anumite feluri de persoane','','','',false,true);
+d.add(292,288,'64.06','<div class="nodetag">64.06</div></span>&nbsp;&nbsp;Aparate, dispozitive și mașini care economisesc muncile casnice','64.06','Aparate, dispozitive și mașini care economisesc muncile casnice','','','',false,true);
+d.add(293,288,'64.08','<div class="nodetag">64.08</div></span>&nbsp;&nbsp;Mutări. Schimbarea locuinței','64.08','Mutări. Schimbarea locuinței','','','',false,true);
+d.add(294,287,'640','<div class="nodetag">640</div></span>&nbsp;&nbsp;Tipuri de gospodărie','640','Tipuri de gospodărie','','','',false,true);
+d.add(295,287,'641/642','<div class="nodetag">641/642</div></span>&nbsp;&nbsp;Alimente. Gătit. Mâncăruri. Mere','641/642','Alimente. Gătit. Mâncăruri. Mere','','','',false,true);
+d.add(296,295,'641','<div class="nodetag">641</div></span>&nbsp;&nbsp;Hrană. Preparare. Feluri de mâncare','641','Hrană. Preparare. Feluri de mâncare','','','',false,true);
+d.add(297,295,'642','<div class="nodetag">642</div></span>&nbsp;&nbsp;Mese și timpuri de masă. Veselă','642','Mese și timpuri de masă. Veselă','','','',false,true);
+d.add(298,287,'643/645','<div class="nodetag">643/645</div></span>&nbsp;&nbsp;Casa. Dotare și mobilier în administrarea caselor','643/645','Casa. Dotare și mobilier în administrarea caselor','','','',false,true);
+d.add(299,298,'643','<div class="nodetag">643</div></span>&nbsp;&nbsp;Casa. Locuința','643','Casa. Locuința','','','',false,true);
+d.add(300,298,'644','<div class="nodetag">644</div></span>&nbsp;&nbsp;Instalații sanitare și de confort în locuințe','644','Instalații sanitare și de confort în locuințe','','','',false,true);
+d.add(301,300,'644.1','<div class="nodetag">644.1</div></span>&nbsp;&nbsp;Reglarea climatului interior. Încălzire. Ventilație. Condiționarea aerului','644.1','Reglarea climatului interior. Încălzire. Ventilație. Condiționarea aerului','','','',false,true);
+d.add(302,300,'644.3','<div class="nodetag">644.3</div></span>&nbsp;&nbsp;Iluminat casnic','644.3','Iluminat casnic','','','',false,true);
+d.add(303,300,'644.6','<div class="nodetag">644.6</div></span>&nbsp;&nbsp;Alimentare cu apă și instalații sanitare în locuințe','644.6','Alimentare cu apă și instalații sanitare în locuințe','','','',false,true);
+d.add(304,298,'645','<div class="nodetag">645</div></span>&nbsp;&nbsp;Mobilier și obiecte de dotare în locuințe, birouri etc.','645','Mobilier și obiecte de dotare în locuințe, birouri etc.','','','',false,true);
+d.add(305,287,'646/649','<div class="nodetag">646/649</div></span>&nbsp;&nbsp;Necesități personale. Îngrijire casnică','646/649','Necesități personale. Îngrijire casnică','','','',false,true);
+d.add(306,305,'646','<div class="nodetag">646</div></span>&nbsp;&nbsp;Îmbrăcăminte. Îngrijirea corpului','646','Îmbrăcăminte. Îngrijirea corpului','','','',false,true);
+d.add(307,306,'646.2','<div class="nodetag">646.2</div></span>&nbsp;&nbsp;Confecționarea și repararea casnică a îmbrăcămintei. Croitorie casnică','646.2','Confecționarea și repararea casnică a îmbrăcămintei. Croitorie casnică','','','',false,true);
+d.add(308,306,'646.4','<div class="nodetag">646.4</div></span>&nbsp;&nbsp;Îmbrăcăminte. Haine','646.4','Îmbrăcăminte. Haine','','','',false,true);
+d.add(309,306,'646.7','<div class="nodetag">646.7</div></span>&nbsp;&nbsp;Îngrijirea corpului. Toaletă corporală și de frumusețe. Accesorii pentru îmbrăcare și dezbrăcare','646.7','Îngrijirea corpului. Toaletă corporală și de frumusețe. Accesorii pentru îmbrăcare și dezbrăcare','','','',false,true);
+d.add(310,305,'648','<div class="nodetag">648</div></span>&nbsp;&nbsp;Spălarea rufelor și îmbrăcămintei. Spălătorii. Curățenie casnică','648','Spălarea rufelor și îmbrăcămintei. Spălătorii. Curățenie casnică','','','',false,true);
+d.add(311,305,'649','<div class="nodetag">649</div></span>&nbsp;&nbsp;Îngrijirea casnică a copiilor, a invalizilor, a oaspeților','649','Îngrijirea casnică a copiilor, a invalizilor, a oaspeților','','','',false,true);
+d.add(312,0,'65','<div class="nodetag">65</div></span>&nbsp;&nbsp;Conducere și organizare în industrie, comerț și comunicații','65','Conducere și organizare în industrie, comerț și comunicații','','','',false,true);
+d.add(313,312,'654','<div class="nodetag">654</div></span>&nbsp;&nbsp;Telecomunicații și telecomandă (organizare, funcționare)','654','Telecomunicații și telecomandă (organizare, funcționare)','','','',false,true);
+d.add(314,313,'654.1','<div class="nodetag">654.1</div></span>&nbsp;&nbsp;Telegrafie. Telefonie. Radio. Televiziune','654.1','Telegrafie. Telefonie. Radio. Televiziune','','','',false,true);
+d.add(315,313,'654.9','<div class="nodetag">654.9</div></span>&nbsp;&nbsp;Semnalizare. Servicii diverse de telecomunicații. Comenzi la distanță (telecomandă)','654.9','Semnalizare. Servicii diverse de telecomunicații. Comenzi la distanță (telecomandă)','','','',false,true);
+d.add(316,312,'655','<div class="nodetag">655</div></span>&nbsp;&nbsp;Industria poligrafică. Tipografii. Editură. Librării','655','Industria poligrafică. Tipografii. Editură. Librării','','','',false,true);
+d.add(317,316,'655.1','<div class="nodetag">655.1</div></span>&nbsp;&nbsp;Industria tipografică în general','655.1','Industria tipografică în general','','','',false,true);
+d.add(318,316,'655.4','<div class="nodetag">655.4</div></span>&nbsp;&nbsp;Publicare și vânzarea publicațiilor în general. Edituri și librării','655.4','Publicare și vânzarea publicațiilor în general. Edituri și librării','','','',false,true);
+d.add(319,312,'656','<div class="nodetag">656</div></span>&nbsp;&nbsp;Transport și servicii poștale. Organizarea și controlul circulației','656','Transport și servicii poștale. Organizarea și controlul circulației','','','',false,true);
+d.add(320,319,'656.1/.5','<div class="nodetag">656.1/.5</div></span>&nbsp;&nbsp;Transport terestru','656.1/.5','Transport terestru','','','',false,true);
+d.add(321,320,'656.1','<div class="nodetag">656.1</div></span>&nbsp;&nbsp;Transport rutier','656.1','Transport rutier','','','',false,true);
+d.add(322,320,'656.2','<div class="nodetag">656.2</div></span>&nbsp;&nbsp;Transport pe șine, feroviară. Circulație feroviară','656.2','Transport pe șine, feroviară. Circulație feroviară','','','',false,true);
+d.add(323,320,'656.4','<div class="nodetag">656.4</div></span>&nbsp;&nbsp;Transport pe căi ferate ușoare, mici','656.4','Transport pe căi ferate ușoare, mici','','','',false,true);
+d.add(324,320,'656.5','<div class="nodetag">656.5</div></span>&nbsp;&nbsp;Transporturi terestre prin sisteme transportoare şi conducte','656.5','Transporturi terestre prin sisteme transportoare şi conducte','','','',false,true);
+d.add(325,319,'656.6','<div class="nodetag">656.6</div></span>&nbsp;&nbsp;Transport pe apă, transport naval','656.6','Transport pe apă, transport naval','','','',false,true);
+d.add(326,319,'656.7','<div class="nodetag">656.7</div></span>&nbsp;&nbsp;Transport aerian. Trafic aerian','656.7','Transport aerian. Trafic aerian','','','',false,true);
+d.add(327,319,'656.8','<div class="nodetag">656.8</div></span>&nbsp;&nbsp;Servicii poștale și administrarea lor','656.8','Servicii poștale și administrarea lor','','','',false,true);
+d.add(328,312,'657','<div class="nodetag">657</div></span>&nbsp;&nbsp;Contabilitate','657','Contabilitate','','','',false,true);
+d.add(329,312,'658','<div class="nodetag">658</div></span>&nbsp;&nbsp;Conducere și administrare în exploatare. Organizare comercială','658','Conducere și administrare în exploatare. Organizare comercială','','','',false,true);
+d.add(330,329,'658.1','<div class="nodetag">658.1</div></span>&nbsp;&nbsp;Forme de întreprinderi. Finanțare','658.1','Forme de întreprinderi. Finanțare','','','',false,true);
+d.add(331,329,'658.2','<div class="nodetag">658.2</div></span>&nbsp;&nbsp;Instalații. Local, clădiri, ateliere, fabrici, uzine. Materiale','658.2','Instalații. Local, clădiri, ateliere, fabrici, uzine. Materiale','','','',false,true);
+d.add(332,329,'658.3','<div class="nodetag">658.3</div></span>&nbsp;&nbsp;Relații umane în întreprindere. Management de personal','658.3','Relații umane în întreprindere. Management de personal','','','',false,true);
+d.add(333,329,'658.5','<div class="nodetag">658.5</div></span>&nbsp;&nbsp;Planificarea și organizarea producției. Proiectare, construcție. Conducerea și controlul producției','658.5','Planificarea și organizarea producției. Proiectare, construcție. Conducerea și controlul producției','','','',false,true);
+d.add(334,329,'658.6','<div class="nodetag">658.6</div></span>&nbsp;&nbsp;Organizare și practică în comerț. Mărfuri. Servicii','658.6','Organizare și practică în comerț. Mărfuri. Servicii','','','',false,true);
+d.add(335,329,'658.7','<div class="nodetag">658.7</div></span>&nbsp;&nbsp;Cumpărare. Aprovizionare. Procurare. Conducerea stocurilor','658.7','Cumpărare. Aprovizionare. Procurare. Conducerea stocurilor','','','',false,true);
+d.add(336,329,'658.8','<div class="nodetag">658.8</div></span>&nbsp;&nbsp;Vânzare. Desfacere. Marketing. Repartiție','658.8','Vânzare. Desfacere. Marketing. Repartiție','','','',false,true);
+d.add(337,329,'658.9','<div class="nodetag">658.9</div></span>&nbsp;&nbsp;Alte activități financiare','658.9','Alte activități financiare','','','',false,true);
+d.add(338,312,'659','<div class="nodetag">659</div></span>&nbsp;&nbsp;Publicitate. Informare. Relații cu publicul','659','Publicitate. Informare. Relații cu publicul','','','',false,true);
+d.add(339,338,'659.1','<div class="nodetag">659.1</div></span>&nbsp;&nbsp;Publicitate. Reclamă','659.1','Publicitate. Reclamă','','','',false,true);
+d.add(340,338,'659.2','<div class="nodetag">659.2</div></span>&nbsp;&nbsp;Servicii de informare. Servicii de sfaturi și consultații','659.2','Servicii de informare. Servicii de sfaturi și consultații','','','',false,true);
+d.add(341,338,'659.3','<div class="nodetag">659.3</div></span>&nbsp;&nbsp;Comunicare în masă. Informare și lămurire a publicului larg','659.3','Comunicare în masă. Informare și lămurire a publicului larg','','','',false,true);
+d.add(342,338,'659.4','<div class="nodetag">659.4</div></span>&nbsp;&nbsp;Relații cu publicul. Propagandă. Influențarea opiniilor','659.4','Relații cu publicul. Propagandă. Influențarea opiniilor','','','',false,true);
+d.add(343,0,'66','<div class="nodetag">66</div></span>&nbsp;&nbsp;Tehnologie chimică. Industrii chimice și înrudite','66','Tehnologie chimică. Industrii chimice și înrudite','','','',false,true);
+d.add(344,343,'66.01/.09','<div class="nodetag">66.01/.09</div></span>&nbsp;&nbsp;Indici auxiliari speciali pentru tehnologie chimică','66.01/.09','Indici auxiliari speciali pentru tehnologie chimică','','','',false,true);
+d.add(345,344,'66.01','<div class="nodetag">66.01</div></span>&nbsp;&nbsp;Principii și probleme fundamentale ale tehnologiei chimice','66.01','Principii și probleme fundamentale ale tehnologiei chimice','','','',false,true);
+d.add(346,344,'66.02','<div class="nodetag">66.02</div></span>&nbsp;&nbsp;Operații și utilaje de prelucrare chimică în general','66.02','Operații și utilaje de prelucrare chimică în general','','','',false,true);
+d.add(347,344,'66.03','<div class="nodetag">66.03</div></span>&nbsp;&nbsp;Procese și echipament specifice unor anumite industrii','66.03','Procese și echipament specifice unor anumite industrii','','','',false,true);
+d.add(348,344,'66.04','<div class="nodetag">66.04</div></span>&nbsp;&nbsp;Operații și utilaje de tratament termic','66.04','Operații și utilaje de tratament termic','','','',false,true);
+d.add(349,344,'66.06','<div class="nodetag">66.06</div></span>&nbsp;&nbsp;Tehnologie chimică a lichidelor. Procedee și utilaje pentru tratarea lichidelor sau tratamente cu lichide','66.06','Tehnologie chimică a lichidelor. Procedee și utilaje pentru tratarea lichidelor sau tratamente cu lichide','','','',false,true);
+d.add(350,344,'66.07','<div class="nodetag">66.07</div></span>&nbsp;&nbsp;Tehnologia chimică a gazelor','66.07','Tehnologia chimică a gazelor','','','',false,true);
+d.add(351,344,'66.08','<div class="nodetag">66.08</div></span>&nbsp;&nbsp;Operații și echipamente fizice și fizicochimice. Influențe fizice și fizicochimice asupra proceselor chimice','66.08','Operații și echipamente fizice și fizicochimice. Influențe fizice și fizicochimice asupra proceselor chimice','','','',false,true);
+d.add(352,343,'661','<div class="nodetag">661</div></span>&nbsp;&nbsp;Produse chimice','661','Produse chimice','','','',false,true);
+d.add(353,352,'661.1','<div class="nodetag">661.1</div></span>&nbsp;&nbsp;Industrii chimice speciale','661.1','Industrii chimice speciale','','','',false,true);
+d.add(354,352,'661.2','<div class="nodetag">661.2</div></span>&nbsp;&nbsp;Producerea sulfului și a derivaților săi','661.2','Producerea sulfului și a derivaților săi','','','',false,true);
+d.add(355,352,'661.3','<div class="nodetag">661.3</div></span>&nbsp;&nbsp;Propducerea sodei și potasei. Producerea substanțelor alcaline, a alcaliilor','661.3','Propducerea sodei și potasei. Producerea substanțelor alcaline, a alcaliilor','','','',false,true);
+d.add(356,352,'661.4','<div class="nodetag">661.4</div></span>&nbsp;&nbsp;Producerea halogenilor, a compușilor cu halogeni și a peroxo-compușilor anorganici','661.4','Producerea halogenilor, a compușilor cu halogeni și a peroxo-compușilor anorganici','','','',false,true);
+d.add(357,352,'661.5','<div class="nodetag">661.5</div></span>&nbsp;&nbsp;Producerea compușilor de azot. Fixarea azotului. Industria azotului în general','661.5','Producerea compușilor de azot. Fixarea azotului. Industria azotului în general','','','',false,true);
+d.add(358,352,'661.6','<div class="nodetag">661.6</div></span>&nbsp;&nbsp;Producerea de diferite nonmetale și semimetale (metaloizi) și a compușilor acestora','661.6','Producerea de diferite nonmetale și semimetale (metaloizi) și a compușilor acestora','','','',false,true);
+d.add(359,352,'661.7','<div class="nodetag">661.7</div></span>&nbsp;&nbsp;Producerea substanțelor organice. Produse chimice organice','661.7','Producerea substanțelor organice. Produse chimice organice','','','',false,true);
+d.add(360,352,'661.8','<div class="nodetag">661.8</div></span>&nbsp;&nbsp;Compuși metalici în general. Săruri. Compuși minerali','661.8','Compuși metalici în general. Săruri. Compuși minerali','','','',false,true);
+d.add(361,352,'661.9','<div class="nodetag">661.9</div></span>&nbsp;&nbsp;Producerea gazelor','661.9','Producerea gazelor','','','',false,true);
+d.add(362,343,'662','<div class="nodetag">662</div></span>&nbsp;&nbsp;Explozivi. Combustibili','662','Explozivi. Combustibili','','','',false,true);
+d.add(363,362,'662.1/.4','<div class="nodetag">662.1/.4</div></span>&nbsp;&nbsp;Explozivi','662.1/.4','Explozivi','','','',false,true);
+d.add(364,363,'662.1','<div class="nodetag">662.1</div></span>&nbsp;&nbsp;Artificii și focuri diverse. Dispozitive pirotehnice și înrudite','662.1','Artificii și focuri diverse. Dispozitive pirotehnice și înrudite','','','',false,true);
+d.add(365,363,'662.2','<div class="nodetag">662.2</div></span>&nbsp;&nbsp;Explozivi detonanți','662.2','Explozivi detonanți','','','',false,true);
+d.add(366,363,'662.3','<div class="nodetag">662.3</div></span>&nbsp;&nbsp;Pulberi balistice. Pulberi de propulsie a încărcăturii. Pulberi de tun, pușcă etc.','662.3','Pulberi balistice. Pulberi de propulsie a încărcăturii. Pulberi de tun, pușcă etc.','','','',false,true);
+d.add(367,363,'662.4','<div class="nodetag">662.4</div></span>&nbsp;&nbsp;Inițiatori, amorse pentru explozivi. Detonatori, stupile, focoase','662.4','Inițiatori, amorse pentru explozivi. Detonatori, stupile, focoase','','','',false,true);
+d.add(368,362,'662.5','<div class="nodetag">662.5</div></span>&nbsp;&nbsp;Dispozitive de aprins focul. Aprinzătoare. Chibrituri. Brichete de aprins','662.5','Dispozitive de aprins focul. Aprinzătoare. Chibrituri. Brichete de aprins','','','',false,true);
+d.add(369,362,'662.6/.9','<div class="nodetag">662.6/.9</div></span>&nbsp;&nbsp;Economia căldurii. Economia combustibililor. Combustibili. Încălzire','662.6/.9','Economia căldurii. Economia combustibililor. Combustibili. Încălzire','','','',false,true);
+d.add(370,369,'662.6','<div class="nodetag">662.6</div></span>&nbsp;&nbsp;Economia căldurii sau a combustibililor în general. Combustie. Combustibili naturali','662.6','Economia căldurii sau a combustibililor în general. Combustie. Combustibili naturali','','','',false,true);
+d.add(371,369,'662.7','<div class="nodetag">662.7</div></span>&nbsp;&nbsp;Tehnologia combustibililor. Combustibili prelucrați','662.7','Tehnologia combustibililor. Combustibili prelucrați','','','',false,true);
+d.add(372,369,'662.8','<div class="nodetag">662.8</div></span>&nbsp;&nbsp;Prelucrare mecanică pentru aglomerarea combustibililor în bucăți. Brichetare','662.8','Prelucrare mecanică pentru aglomerarea combustibililor în bucăți. Brichetare','','','',false,true);
+d.add(373,369,'662.9','<div class="nodetag">662.9</div></span>&nbsp;&nbsp;Tehnica încălzitului și a combustiei','662.9','Tehnica încălzitului și a combustiei','','','',false,true);
+d.add(374,343,'663','<div class="nodetag">663</div></span>&nbsp;&nbsp;Microbiologie industrială. micrologie industrială. Fermentare, industrii de fermentare. Industria băuturilor. Industria stimulenților.','663','Microbiologie industrială. micrologie industrială. Fermentare, industrii de fermentare. Industria băuturilor. Industria stimulenților.','','','',false,true);
+d.add(375,374,'663.1','<div class="nodetag">663.1</div></span>&nbsp;&nbsp;Industrii microbiologice. Stiința și tehnica microbiologiei aplicate. Micologie aplicată','663.1','Industrii microbiologice. Stiința și tehnica microbiologiei aplicate. Micologie aplicată','','','',false,true);
+d.add(376,374,'663.2','<div class="nodetag">663.2</div></span>&nbsp;&nbsp;Vin. Producerea vinului. Oenologie','663.2','Vin. Producerea vinului. Oenologie','','','',false,true);
+d.add(377,374,'663.3','<div class="nodetag">663.3</div></span>&nbsp;&nbsp;Cidru. Vin de pere. Alte vinuri din fructe','663.3','Cidru. Vin de pere. Alte vinuri din fructe','','','',false,true);
+d.add(378,374,'663.4','<div class="nodetag">663.4</div></span>&nbsp;&nbsp;Bere. Industria berii . Malț','663.4','Bere. Industria berii . Malț','','','',false,true);
+d.add(379,374,'663.5','<div class="nodetag">663.5</div></span>&nbsp;&nbsp;Alcool potabil. Băuturi spirtoase (Băuturi tari pe bază de alcool). Distilarea și rafinarea alcoolului','663.5','Alcool potabil. Băuturi spirtoase (Băuturi tari pe bază de alcool). Distilarea și rafinarea alcoolului','','','',false,true);
+d.add(380,374,'663.6','<div class="nodetag">663.6</div></span>&nbsp;&nbsp;Apă pentru băuturi și alte utilizări industriale. Ape minerale. Ape medicinale. Gheață alimentară','663.6','Apă pentru băuturi și alte utilizări industriale. Ape minerale. Ape medicinale. Gheață alimentară','','','',false,true);
+d.add(381,374,'663.8','<div class="nodetag">663.8</div></span>&nbsp;&nbsp;Ingredienți principali pentru amestecarea băuturilor. Sucuri de fructe și legume. Siropuri. Lichioruri. Băuturi ușoare','663.8','Ingredienți principali pentru amestecarea băuturilor. Sucuri de fructe și legume. Siropuri. Lichioruri. Băuturi ușoare','','','',false,true);
+d.add(382,374,'663.9','<div class="nodetag">663.9</div></span>&nbsp;&nbsp;Ciocolată. Cacao. Cafea. Ceai. Tutun','663.9','Ciocolată. Cacao. Cafea. Ceai. Tutun','','','',false,true);
+d.add(383,343,'664','<div class="nodetag">664</div></span>&nbsp;&nbsp;Producerea și consevarea alimentelor solide','664','Producerea și consevarea alimentelor solide','','','',false,true);
+d.add(384,383,'664.1','<div class="nodetag">664.1</div></span>&nbsp;&nbsp;Zahăr. Melasă. Glucoză etc.','664.1','Zahăr. Melasă. Glucoză etc.','','','',false,true);
+d.add(385,383,'664.2','<div class="nodetag">664.2</div></span>&nbsp;&nbsp;Amidon. Materiale amilacee, cu amidon','664.2','Amidon. Materiale amilacee, cu amidon','','','',false,true);
+d.add(386,383,'664.3','<div class="nodetag">664.3</div></span>&nbsp;&nbsp;Uleiuri și grăsimi alimentare. Margarină. Alimente cu proteine','664.3','Uleiuri și grăsimi alimentare. Margarină. Alimente cu proteine','','','',false,true);
+d.add(387,383,'664.4','<div class="nodetag">664.4</div></span>&nbsp;&nbsp;Minerale comestibile','664.4','Minerale comestibile','','','',false,true);
+d.add(388,383,'664.5','<div class="nodetag">664.5</div></span>&nbsp;&nbsp;Arome. Condimente','664.5','Arome. Condimente','','','',false,true);
+d.add(389,383,'664.6/.7','<div class="nodetag">664.6/.7</div></span>&nbsp;&nbsp;Tehnologia și prelucrarea grăunțelor de cereale','664.6/.7','Tehnologia și prelucrarea grăunțelor de cereale','','','',false,true);
+d.add(390,389,'664.6','<div class="nodetag">664.6</div></span>&nbsp;&nbsp;Brutărie. Pâine. Produse de panificaţie','664.6','Brutărie. Pâine. Produse de panificaţie','','','',false,true);
+d.add(391,389,'664.7','<div class="nodetag">664.7</div></span>&nbsp;&nbsp;Tehnologia cerealelor. Morărit. Prelucrarea grânelor','664.7','Tehnologia cerealelor. Morărit. Prelucrarea grânelor','','','',false,true);
+d.add(392,383,'664.8/.9','<div class="nodetag">664.8/.9</div></span>&nbsp;&nbsp;Tehnologia conservării alimentelor','664.8/.9','Tehnologia conservării alimentelor','','','',false,true);
+d.add(393,343,'665','<div class="nodetag">665</div></span>&nbsp;&nbsp;Uleiuri. Grăsimi. Ceruri. Adezivi. Gume. Rășine','665','Uleiuri. Grăsimi. Ceruri. Adezivi. Gume. Rășine','','','',false,true);
+d.add(394,393,'665.1','<div class="nodetag">665.1</div></span>&nbsp;&nbsp;Generalități privind uleiurile, grăsimile, cerurile și produsele derivate ale acestora','665.1','Generalități privind uleiurile, grăsimile, cerurile și produsele derivate ale acestora','','','',false,true);
+d.add(395,393,'665.2','<div class="nodetag">665.2</div></span>&nbsp;&nbsp;Uleiuri, grăsimi și ceruri de origine animală','665.2','Uleiuri, grăsimi și ceruri de origine animală','','','',false,true);
+d.add(396,393,'665.3','<div class="nodetag">665.3</div></span>&nbsp;&nbsp;Uleiuri, grăsimi, ceruri și fosfatide vegetale','665.3','Uleiuri, grăsimi, ceruri și fosfatide vegetale','','','',false,true);
+d.add(397,393,'665.5','<div class="nodetag">665.5</div></span>&nbsp;&nbsp;Uleiuri eterice. Parfumerie. Cosmetică','665.5','Uleiuri eterice. Parfumerie. Cosmetică','','','',false,true);
+d.add(398,393,'665.6/.7','<div class="nodetag">665.6/.7</div></span>&nbsp;&nbsp;Procese și produse ale industriilor petrolului și înrudite','665.6/.7','Procese și produse ale industriilor petrolului și înrudite','','','',false,true);
+d.add(399,398,'665.6','<div class="nodetag">665.6</div></span>&nbsp;&nbsp;Tehnologia uleiurilor minerale. Tehnologia petrolului și a produselor similare','665.6','Tehnologia uleiurilor minerale. Tehnologia petrolului și a produselor similare','','','',false,true);
+d.add(400,398,'665.7','<div class="nodetag">665.7</div></span>&nbsp;&nbsp;Produse ale industriei uleiurilor minerale. Uleiuri minerale și produse similare','665.7','Produse ale industriei uleiurilor minerale. Uleiuri minerale și produse similare','','','',false,true);
+d.add(401,393,'665.9','<div class="nodetag">665.9</div></span>&nbsp;&nbsp;Diverse industrii de chimie organică','665.9','Diverse industrii de chimie organică','','','',false,true);
+d.add(402,343,'666','<div class="nodetag">666</div></span>&nbsp;&nbsp;Industria sticlei. Ceramică. Ciment și beton','666','Industria sticlei. Ceramică. Ciment și beton','','','',false,true);
+d.add(403,402,'666.1','<div class="nodetag">666.1</div></span>&nbsp;&nbsp;Industria sticlei. Tehnologia sticlei. Fabricara sticlei în general. Sticlă în sens general','666.1','Industria sticlei. Tehnologia sticlei. Fabricara sticlei în general. Sticlă în sens general','','','',false,true);
+d.add(404,402,'666.3/.7','<div class="nodetag">666.3/.7</div></span>&nbsp;&nbsp;Ceramică','666.3/.7','Ceramică','','','',false,true);
+d.add(405,404,'666.3','<div class="nodetag">666.3</div></span>&nbsp;&nbsp;Ceramică în general. Materii prime ceramice','666.3','Ceramică în general. Materii prime ceramice','','','',false,true);
+d.add(406,404,'666.5','<div class="nodetag">666.5</div></span>&nbsp;&nbsp;Porțelan. Ceramică fină','666.5','Porțelan. Ceramică fină','','','',false,true);
+d.add(407,404,'666.6','<div class="nodetag">666.6</div></span>&nbsp;&nbsp;Produse de gresie. Produse e pământ ars (produse de ceramică poroasă)','666.6','Produse de gresie. Produse e pământ ars (produse de ceramică poroasă)','','','',false,true);
+d.add(408,404,'666.7','<div class="nodetag">666.7</div></span>&nbsp;&nbsp;Ceramică densă. Ceramică grea. Refractare. Materiale ceramice dure. Amestecuri de materiale ceramice și alte materiale','666.7','Ceramică densă. Ceramică grea. Refractare. Materiale ceramice dure. Amestecuri de materiale ceramice și alte materiale','','','',false,true);
+d.add(409,402,'666.9','<div class="nodetag">666.9</div></span>&nbsp;&nbsp;Industriile ghipsului, varului și cimentului. Materiale petrifiabile. Mase de ipsos și compoziția lor. Mortar de var și ciment. Beton','666.9','Industriile ghipsului, varului și cimentului. Materiale petrifiabile. Mase de ipsos și compoziția lor. Mortar de var și ciment. Beton','','','',false,true);
+d.add(410,343,'667','<div class="nodetag">667</div></span>&nbsp;&nbsp;Industria coloranților','667','Industria coloranților','','','',false,true);
+d.add(411,410,'667.2','<div class="nodetag">667.2</div></span>&nbsp;&nbsp;Industria coloranților. Fabricarea și utilizarea coloranților','667.2','Industria coloranților. Fabricarea și utilizarea coloranților','','','',false,true);
+d.add(412,410,'667.4','<div class="nodetag">667.4</div></span>&nbsp;&nbsp;Cerneluri de scris','667.4','Cerneluri de scris','','','',false,true);
+d.add(413,410,'667.5','<div class="nodetag">667.5</div></span>&nbsp;&nbsp;Cerneluri tipografice, de imprimerie (negre sau colorate). Cerneluri litografice. Creioane de scris și desenat. Creioane colorate','667.5','Cerneluri tipografice, de imprimerie (negre sau colorate). Cerneluri litografice. Creioane de scris și desenat. Creioane colorate','','','',false,true);
+d.add(414,410,'667.6','<div class="nodetag">667.6</div></span>&nbsp;&nbsp;Acoperiri și metode de vopsire. Vopsele. Firnisuri. Lacuri','667.6','Acoperiri și metode de vopsire. Vopsele. Firnisuri. Lacuri','','','',false,true);
+d.add(415,410,'667.7','<div class="nodetag">667.7</div></span>&nbsp;&nbsp;Colorare, lăcuire etc., a diferitelor materiale (în afară de tipărire și vopsire)','667.7','Colorare, lăcuire etc., a diferitelor materiale (în afară de tipărire și vopsire)','','','',false,true);
+d.add(416,343,'669','<div class="nodetag">669</div></span>&nbsp;&nbsp;Metalurgie','669','Metalurgie','','','',false,true);
+d.add(417,416,'669.1','<div class="nodetag">669.1</div></span>&nbsp;&nbsp;Metalurgie feroasă, siderurgie. Fontă și oțel','669.1','Metalurgie feroasă, siderurgie. Fontă și oțel','','','',false,true);
+d.add(418,416,'669.2','<div class="nodetag">669.2</div></span>&nbsp;&nbsp;Metale neferoase în general','669.2','Metale neferoase în general','','','',false,true);
+d.add(419,0,'67','<div class="nodetag">67</div></span>&nbsp;&nbsp;Industrii, meserii și îndeletniciri pentru materiale diverse','67','Industrii, meserii și îndeletniciri pentru materiale diverse','','','',false,true);
+d.add(420,419,'671','<div class="nodetag">671</div></span>&nbsp;&nbsp;Obiecte din metale prețioase, nestemate, pietre prețioase','671','Obiecte din metale prețioase, nestemate, pietre prețioase','','','',false,true);
+d.add(421,420,'671.1','<div class="nodetag">671.1</div></span>&nbsp;&nbsp;Obiecte din aur și argint. Obiecte din alte metale prețioase. Bijuterii','671.1','Obiecte din aur și argint. Obiecte din alte metale prețioase. Bijuterii','','','',false,true);
+d.add(422,420,'671.4','<div class="nodetag">671.4</div></span>&nbsp;&nbsp;Fabricarea monedelor și medaliilor. Batere de monede, monetărie','671.4','Fabricarea monedelor și medaliilor. Batere de monede, monetărie','','','',false,true);
+d.add(423,419,'672','<div class="nodetag">672</div></span>&nbsp;&nbsp;Obiecte din fier și oțel în general','672','Obiecte din fier și oțel în general','','','',false,true);
+d.add(424,419,'673','<div class="nodetag">673</div></span>&nbsp;&nbsp;Articole de metale neferoase (în afară de cele prețioase)','673','Articole de metale neferoase (în afară de cele prețioase)','','','',false,true);
+d.add(425,419,'674','<div class="nodetag">674</div></span>&nbsp;&nbsp;Industria lemnului și cherestelei','674','Industria lemnului și cherestelei','','','',false,true);
+d.add(426,419,'675','<div class="nodetag">675</div></span>&nbsp;&nbsp;Industria pielăriei (inclusiv blănuri și imitații de piele)','675','Industria pielăriei (inclusiv blănuri și imitații de piele)','','','',false,true);
+d.add(427,419,'676','<div class="nodetag">676</div></span>&nbsp;&nbsp;Industria celulozei, hârtiei și a cartonului','676','Industria celulozei, hârtiei și a cartonului','','','',false,true);
+d.add(428,419,'677','<div class="nodetag">677</div></span>&nbsp;&nbsp;Industria textilă','677','Industria textilă','','','',false,true);
+d.add(429,428,'677.1/.5','<div class="nodetag">677.1/.5</div></span>&nbsp;&nbsp;Fibre textile','677.1/.5','Fibre textile','','','',false,true);
+d.add(430,429,'677.1/.3','<div class="nodetag">677.1/.3</div></span>&nbsp;&nbsp;Fibre naturale','677.1/.3','Fibre naturale','','','',false,true);
+d.add(431,430,'677.1/.2','<div class="nodetag">677.1/.2</div></span>&nbsp;&nbsp;Fibre vegetale','677.1/.2','Fibre vegetale','','','',false,true);
+d.add(432,431,'677.1','<div class="nodetag">677.1</div></span>&nbsp;&nbsp;Fibre de bast (fibre ale tulpinilor de dicotiledonate). Fibre dure (fibre de frunze și fructe de monocotiledonate)','677.1','Fibre de bast (fibre ale tulpinilor de dicotiledonate). Fibre dure (fibre de frunze și fructe de monocotiledonate)','','','',false,true);
+d.add(433,431,'677.2','<div class="nodetag">677.2</div></span>&nbsp;&nbsp;Păr vegetal','677.2','Păr vegetal','','','',false,true);
+d.add(434,430,'677.3','<div class="nodetag">677.3</div></span>&nbsp;&nbsp;Fibre animale','677.3','Fibre animale','','','',false,true);
+d.add(435,429,'677.4','<div class="nodetag">677.4</div></span>&nbsp;&nbsp;Fibre artificiale','677.4','Fibre artificiale','','','',false,true);
+d.add(436,429,'677.5','<div class="nodetag">677.5</div></span>&nbsp;&nbsp;Fibre minerale şi metalice. Materiale de împletit. Fire de cauciuc. Fibre de hârtie','677.5','Fibre minerale şi metalice. Materiale de împletit. Fire de cauciuc. Fibre de hârtie','','','',false,true);
+d.add(437,419,'678','<div class="nodetag">678</div></span>&nbsp;&nbsp;Industrii bazate pe materiale macromoleculare. Industria cauciucului. Industria materialelor plastice','678','Industrii bazate pe materiale macromoleculare. Industria cauciucului. Industria materialelor plastice','','','',false,true);
+d.add(438,437,'678.4','<div class="nodetag">678.4</div></span>&nbsp;&nbsp;Cauciuc natural. Alte materiale macromoleculare naturale ce conțin numai carbon și hidrogen','678.4','Cauciuc natural. Alte materiale macromoleculare naturale ce conțin numai carbon și hidrogen','','','',false,true);
+d.add(439,437,'678.5','<div class="nodetag">678.5</div></span>&nbsp;&nbsp;Materiale plastice','678.5','Materiale plastice','','','',false,true);
+d.add(440,437,'678.6','<div class="nodetag">678.6</div></span>&nbsp;&nbsp;Produse sintetice de policondensare. Policondensați. Rășini sintetice. Fibre sintetice etc.','678.6','Produse sintetice de policondensare. Policondensați. Rășini sintetice. Fibre sintetice etc.','','','',false,true);
+d.add(441,437,'678.7','<div class="nodetag">678.7</div></span>&nbsp;&nbsp;Produse sintetice de polimerizare. Materiale polimerizate. Cauciuc sintetic','678.7','Produse sintetice de polimerizare. Materiale polimerizate. Cauciuc sintetic','','','',false,true);
+d.add(442,419,'679','<div class="nodetag">679</div></span>&nbsp;&nbsp;Industrii pentru materiale prelucrabile diferite','679','Industrii pentru materiale prelucrabile diferite','','','',false,true);
+d.add(443,442,'679.7','<div class="nodetag">679.7</div></span>&nbsp;&nbsp;Industria cablurilor și frânghiilor','679.7','Industria cablurilor și frânghiilor','','','',false,true);
+d.add(444,442,'679.8','<div class="nodetag">679.8</div></span>&nbsp;&nbsp;Tehnologia și prelucrarea pietrelor. Industria pietrei','679.8','Tehnologia și prelucrarea pietrelor. Industria pietrei','','','',false,true);
+d.add(445,442,'679.9','<div class="nodetag">679.9</div></span>&nbsp;&nbsp;Tehnologia altor materiale prelucrabile','679.9','Tehnologia altor materiale prelucrabile','','','',false,true);
+d.add(446,0,'68','<div class="nodetag">68</div></span>&nbsp;&nbsp;Industrii, meserii și îndeletniciri pentru produse finite și asamblate','68','Industrii, meserii și îndeletniciri pentru produse finite și asamblate','','','',false,true);
+d.add(447,446,'681','<div class="nodetag">681</div></span>&nbsp;&nbsp;Mecanisme și instrumente de precizie. Mecanică de precizie. Mecanică fină','681','Mecanisme și instrumente de precizie. Mecanică de precizie. Mecanică fină','','','',false,true);
+d.add(448,447,'681.1','<div class="nodetag">681.1</div></span>&nbsp;&nbsp;Aparate cu mecanisme cu roți dințate sau cu motor','681.1','Aparate cu mecanisme cu roți dințate sau cu motor','','','',false,true);
+d.add(449,447,'681.2','<div class="nodetag">681.2</div></span>&nbsp;&nbsp;Fabricarea aparatelor în general. Dotare cu aparate. Aparate de măsură și fabricarea lor. Cântare, balanțe. Dispozitive de cântărit','681.2','Fabricarea aparatelor în general. Dotare cu aparate. Aparate de măsură și fabricarea lor. Cântare, balanțe. Dispozitive de cântărit','','','',false,true);
+d.add(450,447,'681.5','<div class="nodetag">681.5</div></span>&nbsp;&nbsp;Tehnica controlului automat. Tehnologie inteligentă','681.5','Tehnica controlului automat. Tehnologie inteligentă','','','',false,true);
+d.add(451,447,'681.6','<div class="nodetag">681.6</div></span>&nbsp;&nbsp;Mașini și echipament de reproducere grafică','681.6','Mașini și echipament de reproducere grafică','','','',false,true);
+d.add(452,447,'681.7','<div class="nodetag">681.7</div></span>&nbsp;&nbsp;Aparate și instrumente optice','681.7','Aparate și instrumente optice','','','',false,true);
+d.add(453,447,'681.8','<div class="nodetag">681.8</div></span>&nbsp;&nbsp;Acustică tehnică. Instrumente muzicale','681.8','Acustică tehnică. Instrumente muzicale','','','',false,true);
+d.add(454,446,'682','<div class="nodetag">682</div></span>&nbsp;&nbsp;Fierărie, forjă de meșteșugar. Potcovărie. Lucrări manuale de fier forjat. Feronerie','682','Fierărie, forjă de meșteșugar. Potcovărie. Lucrări manuale de fier forjat. Feronerie','','','',false,true);
+d.add(455,454,'682.1','<div class="nodetag">682.1</div></span>&nbsp;&nbsp;Potcovărie. Forjarea de potcoave','682.1','Potcovărie. Forjarea de potcoave','','','',false,true);
+d.add(456,454,'682.3','<div class="nodetag">682.3</div></span>&nbsp;&nbsp;Forjare de scule ascuțite','682.3','Forjare de scule ascuțite','','','',false,true);
+d.add(457,454,'682.5','<div class="nodetag">682.5</div></span>&nbsp;&nbsp;Armături și fierărie de construcții','682.5','Armături și fierărie de construcții','','','',false,true);
+d.add(458,454,'682.6','<div class="nodetag">682.6</div></span>&nbsp;&nbsp;Armături și fierărie de construcții','682.6','Armături și fierărie de construcții','','','',false,true);
+d.add(459,446,'683','<div class="nodetag">683</div></span>&nbsp;&nbsp;Articole de fierărie. Articole mărunte din fier. Lăcătușărie. Îmbuteliere. Lămpi. Sisteme de încălzire','683','Articole de fierărie. Articole mărunte din fier. Lăcătușărie. Îmbuteliere. Lămpi. Sisteme de încălzire','','','',false,true);
+d.add(460,446,'684','<div class="nodetag">684</div></span>&nbsp;&nbsp;Industria mobilei și industrii înrudite. Fabricarea mobilei. Tapițerie','684','Industria mobilei și industrii înrudite. Fabricarea mobilei. Tapițerie','','','',false,true);
+d.add(461,460,'684.4','<div class="nodetag">684.4</div></span>&nbsp;&nbsp;Mobilă. Proiectarea și fabricația mobilei','684.4','Mobilă. Proiectarea și fabricația mobilei','','','',false,true);
+d.add(462,460,'684.6','<div class="nodetag">684.6</div></span>&nbsp;&nbsp;Furniruire. Marchetare. Încrustații. Etc.','684.6','Furniruire. Marchetare. Încrustații. Etc.','','','',false,true);
+d.add(463,460,'684.7','<div class="nodetag">684.7</div></span>&nbsp;&nbsp;Tapițerie. Plapumărie. Cuverturi. Perdele. Lucrări de decorare','684.7','Tapițerie. Plapumărie. Cuverturi. Perdele. Lucrări de decorare','','','',false,true);
+d.add(464,446,'685','<div class="nodetag">685</div></span>&nbsp;&nbsp;Curelărie. Încălțăminte. Mănuși. Articole pentru călătorii, sport, jocuri și altele','685','Curelărie. Încălțăminte. Mănuși. Articole pentru călătorii, sport, jocuri și altele','','','',false,true);
+d.add(465,464,'685.1','<div class="nodetag">685.1</div></span>&nbsp;&nbsp;Şelărie. Harnașamente','685.1','Şelărie. Harnașamente','','','',false,true);
+d.add(466,464,'685.2','<div class="nodetag">685.2</div></span>&nbsp;&nbsp;Echipament personal (în principal din piele). Curele. Articole din piele și alte piese de îmbrăcăminte','685.2','Echipament personal (în principal din piele). Curele. Articole din piele și alte piese de îmbrăcăminte','','','',false,true);
+d.add(467,464,'685.3','<div class="nodetag">685.3</div></span>&nbsp;&nbsp;Încălțăminte. Alte ajutoare pentru locomoție','685.3','Încălțăminte. Alte ajutoare pentru locomoție','','','',false,true);
+d.add(468,464,'685.4','<div class="nodetag">685.4</div></span>&nbsp;&nbsp;Mănuși, fabricarea mănușilor','685.4','Mănuși, fabricarea mănușilor','','','',false,true);
+d.add(469,464,'685.5','<div class="nodetag">685.5</div></span>&nbsp;&nbsp;Articole de călătorie. Echipament de camping','685.5','Articole de călătorie. Echipament de camping','','','',false,true);
+d.add(470,464,'685.6','<div class="nodetag">685.6</div></span>&nbsp;&nbsp;Echipament pentru sport și jocuri. Echipament și instalații pentru atlestism, gimnastică, exerciții fizice','685.6','Echipament pentru sport și jocuri. Echipament și instalații pentru atlestism, gimnastică, exerciții fizice','','','',false,true);
+d.add(471,464,'685.7','<div class="nodetag">685.7</div></span>&nbsp;&nbsp;Echipament de alpinism și cățărat la munte. Echipament de înnot','685.7','Echipament de alpinism și cățărat la munte. Echipament de înnot','','','',false,true);
+d.add(472,464,'685.8','<div class="nodetag">685.8</div></span>&nbsp;&nbsp;Echipament pentru jocuri de masă și pe tablouri','685.8','Echipament pentru jocuri de masă și pe tablouri','','','',false,true);
+d.add(473,446,'686','<div class="nodetag">686</div></span>&nbsp;&nbsp;Legătorie de carte. Metalizare. Fabricarea oglinzilor. Articole de birou','686','Legătorie de carte. Metalizare. Fabricarea oglinzilor. Articole de birou','','','',false,true);
+d.add(474,446,'687','<div class="nodetag">687</div></span>&nbsp;&nbsp;Industria îmbrăcămintei, confecții. Fabricarea articolelor de toaletă. Cosmetică','687','Industria îmbrăcămintei, confecții. Fabricarea articolelor de toaletă. Cosmetică','','','',false,true);
+d.add(475,474,'687.1','<div class="nodetag">687.1</div></span>&nbsp;&nbsp;Haine. Confecții. Croitorie','687.1','Haine. Confecții. Croitorie','','','',false,true);
+d.add(476,474,'687.2','<div class="nodetag">687.2</div></span>&nbsp;&nbsp;Lenjerie. Rufărie','687.2','Lenjerie. Rufărie','','','',false,true);
+d.add(477,474,'687.3','<div class="nodetag">687.3</div></span>&nbsp;&nbsp;Tricotaje. Cravate. Dispozitive de asigurare și protejat îmbrăcămintea','687.3','Tricotaje. Cravate. Dispozitive de asigurare și protejat îmbrăcămintea','','','',false,true);
+d.add(478,474,'687.4','<div class="nodetag">687.4</div></span>&nbsp;&nbsp;Acoperirea capului. Fabricarea pălăriilor pentru bărbați, pălărieri. Fabricarea pălăriilor pentru femei, modiste','687.4','Acoperirea capului. Fabricarea pălăriilor pentru bărbați, pălărieri. Fabricarea pălăriilor pentru femei, modiste','','','',false,true);
+d.add(479,474,'687.5','<div class="nodetag">687.5</div></span>&nbsp;&nbsp;Industrii de îngrijire și frumusețe','687.5','Industrii de îngrijire și frumusețe','','','',false,true);
+d.add(480,474,'687.8','<div class="nodetag">687.8</div></span>&nbsp;&nbsp;Blănuri artificiale','687.8','Blănuri artificiale','','','',false,true);
+d.add(481,474,'687.9','<div class="nodetag">687.9</div></span>&nbsp;&nbsp;Industria periilor. Mături etc.','687.9','Industria periilor. Mături etc.','','','',false,true);
+d.add(482,446,'688','<div class="nodetag">688</div></span>&nbsp;&nbsp;Articole de lux şi fantezie. Jucării. Articole decorative','688','Articole de lux şi fantezie. Jucării. Articole decorative','','','',false,true);
+d.add(483,482,'688.7','<div class="nodetag">688.7</div></span>&nbsp;&nbsp;Jucării. Articole de amuzament și distracție','688.7','Jucării. Articole de amuzament și distracție','','','',false,true);
+d.add(484,446,'689','<div class="nodetag">689</div></span>&nbsp;&nbsp;Lucrări de amator. Pasiuni tehnice. Bricolaj, hobby, amatorism','689','Lucrări de amator. Pasiuni tehnice. Bricolaj, hobby, amatorism','','','',false,true);
+d.add(485,0,'69','<div class="nodetag">69</div></span>&nbsp;&nbsp;Industria construcţiilor. Materiale de construcție. Tehnologii și procedee în construcții','69','Industria construcţiilor. Materiale de construcție. Tehnologii și procedee în construcții','','','',false,true);
+d.add(486,485,'691','<div class="nodetag">691</div></span>&nbsp;&nbsp;Materiale de construcție. Părți ale construcțiilor','691','Materiale de construcție. Părți ale construcțiilor','','','',false,true);
+d.add(487,485,'692','<div class="nodetag">692</div></span>&nbsp;&nbsp;Părți și elemente structurale ale construcțiilor','692','Părți și elemente structurale ale construcțiilor','','','',false,true);
+d.add(488,485,'693','<div class="nodetag">693</div></span>&nbsp;&nbsp;Lucrări de zidărie și meserii înrudite','693','Lucrări de zidărie și meserii înrudite','','','',false,true);
+d.add(489,485,'694','<div class="nodetag">694</div></span>&nbsp;&nbsp;Lucrări de construcţii în lemn. Dulgherie. Tâmplărie','694','Lucrări de construcţii în lemn. Dulgherie. Tâmplărie','','','',false,true);
+d.add(490,485,'696','<div class="nodetag">696</div></span>&nbsp;&nbsp;Echipament, servicii și instalații în construcții și clădiri (sanitare, de gaze, de abur, electrice). Meseriile de instalator, lucrător în plumb, în metale, în canalizare. Electrician. Alte meserii','696','Echipament, servicii și instalații în construcții și clădiri (sanitare, de gaze, de abur, electrice). Meseriile de instalator, lucrător în plumb, în metale, în canalizare. Electrician. Alte meserii','','','',false,true);
+d.add(491,485,'697','<div class="nodetag">697</div></span>&nbsp;&nbsp;Instalaţii de încălzire, ventilare și aer condiționat în construcții','697','Instalaţii de încălzire, ventilare și aer condiționat în construcții','','','',false,true);
+d.add(492,485,'698','<div class="nodetag">698</div></span>&nbsp;&nbsp;Lucrări de finisare și decorare a construcțiilor','698','Lucrări de finisare și decorare a construcțiilor','','','',false,true);
+d.config.useSelection = false;
+d.config.inOrder = true;
+d.config.useIcons = false;
+document.write(d);
+//-->
+</script>
+</div>
+</div><div id="expandbox" onclick="expandbox(); return false;">&nbsp;</div>
+<div id="recordbox" class="debugbkg">
+<div class="fronthint">click pe o clasă pentru afișarea înregistrărilor</div>
+</div>
+
+        <div id="footer">
+            <div class="footersectionleft">
+                The UDC Summary (UDCS) provides a selection of around 2,600 classes from the whole scheme which comprises more than 70,000 entries.
+                Please send questions and suggestions to <a href="mailto:udcs@udcc.org?subject=UDC Summary Enquiry">udcs@udcc.org</a><br><br>
+	            <p>
+		            The data provided in this Summary is released under the <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative Commons Attribution Share Alike 3.0 license</a> <a href="../about.htm">[more]</a>
+	            </p>
+            </div>
+            <div class="footermiddle">
+                <a href="http://www.udcc.org"><img src="../images/udclogowhite.png" border="0"></a>
+            </div>
+			<div class="footerright">
+                For complete UDC schedules see <a href="http://www.udc-hub.com/">UDC Online Hub</a><br/><a href="http://www.udc-hub.com/"><img width="60" height="35" src="../images/udclogo.png"/></a>
+
+			</div>
+        </div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-13138465-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>

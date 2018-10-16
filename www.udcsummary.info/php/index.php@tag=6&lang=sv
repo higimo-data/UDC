@@ -1,0 +1,654 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>UDC Summary</title>
+    <link rel="stylesheet" href="../reset.css" type="text/css" />
+    <link rel="stylesheet" href="../udc2000.css" type="text/css" />
+	    <link rel="StyleSheet" href="dtree2.css" type="text/css" />
+	    <script type="text/javascript" src="dtree.js"></script>
+	    <script type="text/javascript" src="udcdisplay_9.js"></script>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+</head>
+
+<body >
+<div id="centercontainer" class="debugbkg">
+    <div id="titlebox" class="debugbkg">
+		<div id="rightbox">
+        	<div id="languagecount">57 languages</div>
+            <div id="languagebox">
+            <select id="selectedlang" style="vertical-align: middle;" onchange="location = this.options[this.selectedIndex].value;">
+			<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=af&pr=Y">Afrikaans (Afrikaans) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sq&pr=Y">Albanian (Shqip) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=anp&pr=Y">Angika (अंगिका) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ar&pr=Y">Arabic (العربية) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hy&pr=Y">Armenian (հայերեն) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=eu&pr=Y">Basque (Euskara) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=be&pr=Y">Belarusian (Беларуская) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bn&pr=Y">Bengali (বাংলা) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bho&pr=Y">Bhojpuri (भोजपुरी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bg&pr=Y">Bulgarian (Български) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ca&pr=Y">Catalan (Català) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=chi&pr=Y">Chinese (中文) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hr&pr=Y">Croatian (Hrvatski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=cs&pr=Y">Czech (Čeština) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=da&pr=Y">Danish (Dansk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=nl&pr=Y">Dutch (Nederlands) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=en&pr=Y">English (English) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=eo&pr=Y">Esperanto (Esperanto) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=et&pr=Y">Estonian (Eesti) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=fi&pr=Y">Finnish (Suomi) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=fr&pr=Y">French (Français) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=gl&pr=Y">Galician (Galego) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ka&pr=Y">Georgian (ქართული) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=de&pr=Y">German (Deutsch) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=el&pr=Y">Greek (Ελληνικά) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hi&pr=Y">Hindi (हिन्दी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hu&pr=Y">Hungarian (Magyar) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=id&pr=Y">Indonesian (Bahasa Ind) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ga&pr=Y">Irish (Gaeilge) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=it&pr=Y">Italian (Italiano) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ja&pr=Y">Japanese (日本語) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=kn&pr=Y">Kannada (ಕನ್ನಡ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=kk&pr=Y">Kazakh (Қазақ тілі) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=lv&pr=Y">Latvian (Latviešu) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=lt&pr=Y">Lithuanian (lietuvių) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=mk&pr=Y">Macedonian (македонски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ml&pr=Y">Malayalam (മലയാളം) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=mr&pr=Y">Marathi (मराठी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=no&pr=Y">Norwegian (Norsk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pl&pr=Y">Polish (Polski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pt&pr=Y">Portuguese (Português) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pa&pr=Y">Punjabi (ਪੰਜਾਬੀ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ro&pr=Y">Romanian (Româna) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ru&pr=Y">Russian (Pусский) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sa&pr=Y">Sanskrit (Saṃskṛtam) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sr&pr=Y">Serbian (Српски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=si&pr=Y">Sinhala (සිංහල) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sk&pr=Y">Slovak (Slovenský) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sl&pr=Y">Slovenian (Slovenski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=es&pr=Y">Spanish (Español) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sv&pr=Y" selected>Swedish (Svenska) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ta&pr=Y">Tamil (தமிழ்) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=te&pr=Y">Telugu (తెలుగు) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=tr&pr=Y">Turkish (Türkçe) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=uk&pr=Y">Ukrainian (Yкраї́нська) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=uz&pr=Y">Uzbek (oʻzbek) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=vi&pr=Y">Vietnamese (tiếng Việt) </option>
+            </select>
+            </div>
+            </div>
+        </div>
+		<div id="menubox" class="debugbkg">
+            <ul class="menu boldmenu">
+<li><a href="index.php@lang=sv">UPP</a></li>
+<li><a href="index.php@tag=--&amp;lang=sv">SYMBOLER</a></li>
+<li><a href="index.php@tag=---&amp;lang=sv">TILLÄGG</a></li>
+<li><a href="index.php@tag=0&amp;lang=sv">0</a></li>
+<li><a href="index.php@tag=1&amp;lang=sv">1</a></li>
+<li><a href="index.php@tag=2&amp;lang=sv">2</a></li>
+<li><a href="index.php@tag=3&amp;lang=sv">3</a></li>
+<li><a  class="vacant" href="index.php@tag=6&amp;lang=sv#">4</a></li>
+<li><a href="index.php@tag=5&amp;lang=sv">5</a></li>
+<li><a href="index.php@tag=6&amp;lang=sv">6</a></li>
+<li><a href="index.php@tag=7&amp;lang=sv">7</a></li>
+<li><a href="index.php@tag=8&amp;lang=sv">8</a></li>
+<li><a href="index.php@tag=9&amp;lang=sv">9</a></li>
+</ul>
+<input type="hidden" id="if_loading" name="if_loading" value="Laddar"/>
+<input type="hidden" id="if_lang" name="if_lang" value="5"/>
+<ul class="rightmenu boldmenu">
+<li><a href="../translation.htm">ÖVERSÄTTNINGAR</a></li>
+<li><a href="index.php@tag=6&amp;lang=sv#" title="Under Development">MAPPNING</a></li>
+<li><a href="../exports.htm" title="Data Exports">EXPORT</a></li>
+<li><a href="index.php@tag=6&amp;lang=sv#" title="Under Development">A/Ö REGISTER</a></li>
+<li><a href="index.php@tag=6&amp;lang=sv#" title="Under Development">GUIDE</a></li>
+<li><a href="../about.htm" title="About the UDC Summary">OM</a></li>
+</ul>
+
+        </div>
+		<input type="hidden" id="leftWidth" value="420"/><input type="hidden" id="rightWidth" value="522"/>
+		<div id="classmarkbox" class="debugbkg">
+
+<div id="openclosemenu"><a href="javascript: d.openAll();">&nbsp;expand all</a> | <a href="javascript: d.closeAll();">collapse all</a></div>
+<div id="classtree">
+<script type="text/javascript">
+<!--
+d = new dTree('d');
+d.config.hrefIsClick = true;
+d.add(0,-1,'6','<span class="nodetag">6</span>&nbsp;&nbsp;TILLÄMPADE VETENSKAPER. MEDICIN. TEKNOLOGI','6','','','','',false,true);
+d.add(1,0,'60','<div class="nodetag">60</div></span>&nbsp;&nbsp;Bioteknologi','60','Bioteknologi','','','',false,true);
+d.add(2,1,'601','<div class="nodetag">601</div></span>&nbsp;&nbsp;Fundamentala begrepp','601','Fundamentala begrepp','','','',false,true);
+d.add(3,1,'602','<div class="nodetag">602</div></span>&nbsp;&nbsp;Processer och tekniker inom bioteknologi','602','Processer och tekniker inom bioteknologi','','','',false,true);
+d.add(4,1,'604','<div class="nodetag">604</div></span>&nbsp;&nbsp;Bioteknologiska produkter','604','Bioteknologiska produkter','','','',false,true);
+d.add(5,1,'606','<div class="nodetag">606</div></span>&nbsp;&nbsp;Tillämpningar av bioteknologi','606','Tillämpningar av bioteknologi','','','',false,true);
+d.add(6,1,'608','<div class="nodetag">608</div></span>&nbsp;&nbsp;Frågor rörande bioteknologi','608','Frågor rörande bioteknologi','','','',false,true);
+d.add(7,0,'61','<div class="nodetag">61</div></span>&nbsp;&nbsp;Medicinska vetenskaper','61','Medicinska vetenskaper','','','',false,true);
+d.add(8,7,'611/612','<div class="nodetag">611/612</div></span>&nbsp;&nbsp;Humanbiologi','611/612','Humanbiologi','','','',false,true);
+d.add(9,8,'611','<div class="nodetag">611</div></span>&nbsp;&nbsp;Anatomi','611','Anatomi','','','',false,true);
+d.add(10,8,'612','<div class="nodetag">612</div></span>&nbsp;&nbsp;Fysiologi','612','Fysiologi','','','',false,true);
+d.add(11,10,'612.1/.8','<div class="nodetag">612.1/.8</div></span>&nbsp;&nbsp;Systematisk fysiologi','612.1/.8','Systematisk fysiologi','','','',false,true);
+d.add(12,11,'612.1','<div class="nodetag">612.1</div></span>&nbsp;&nbsp;Blodet. kardiovaskulärt, cirkulerande system','612.1','Blodet. kardiovaskulärt, cirkulerande system','','','',false,true);
+d.add(13,11,'612.2','<div class="nodetag">612.2</div></span>&nbsp;&nbsp;Respiration. Andning. Andningssystemet','612.2','Respiration. Andning. Andningssystemet','','','',false,true);
+d.add(14,11,'612.3','<div class="nodetag">612.3</div></span>&nbsp;&nbsp;Näringsfysiologi. Födoämnen. Matsmältning. Nutrition','612.3','Näringsfysiologi. Födoämnen. Matsmältning. Nutrition','','','',false,true);
+d.add(15,11,'612.4','<div class="nodetag">612.4</div></span>&nbsp;&nbsp;Körtlars fysiologi. Sekretion. Exkretion','612.4','Körtlars fysiologi. Sekretion. Exkretion','','','',false,true);
+d.add(16,11,'612.5','<div class="nodetag">612.5</div></span>&nbsp;&nbsp;Djurvärme. Värmeregulation','612.5','Djurvärme. Värmeregulation','','','',false,true);
+d.add(17,11,'612.6','<div class="nodetag">612.6</div></span>&nbsp;&nbsp;Fortplantning. Individens tillväxt och utveckling','612.6','Fortplantning. Individens tillväxt och utveckling','','','',false,true);
+d.add(18,11,'612.7','<div class="nodetag">612.7</div></span>&nbsp;&nbsp;Rörelsefunktioner. Rörelseorgan. Röst. Hud','612.7','Rörelsefunktioner. Rörelseorgan. Röst. Hud','','','',false,true);
+d.add(19,11,'612.8','<div class="nodetag">612.8</div></span>&nbsp;&nbsp;Nervsystemet. Sinnesorgan','612.8','Nervsystemet. Sinnesorgan','','','',false,true);
+d.add(20,7,'613','<div class="nodetag">613</div></span>&nbsp;&nbsp;Hygien. Enskild hälsovård','613','Hygien. Enskild hälsovård','','','',false,true);
+d.add(21,20,'613.2','<div class="nodetag">613.2</div></span>&nbsp;&nbsp;Näringslära. Näringsprinciper tillämpade i näringsintag och diet','613.2','Näringslära. Näringsprinciper tillämpade i näringsintag och diet','','','',false,true);
+d.add(22,20,'613.3','<div class="nodetag">613.3</div></span>&nbsp;&nbsp;Dricker. Läkande dricker. Medicinalvatten. Vätskediet','613.3','Dricker. Läkande dricker. Medicinalvatten. Vätskediet','','','',false,true);
+d.add(23,20,'613.4','<div class="nodetag">613.4</div></span>&nbsp;&nbsp;Personlig hygien. Klädsel','613.4','Personlig hygien. Klädsel','','','',false,true);
+d.add(24,20,'613.5','<div class="nodetag">613.5</div></span>&nbsp;&nbsp;Bostadshygien','613.5','Bostadshygien','','','',false,true);
+d.add(25,20,'613.6','<div class="nodetag">613.6</div></span>&nbsp;&nbsp;Yrkeshälsofaror. Yrkeshälsohygien','613.6','Yrkeshälsofaror. Yrkeshälsohygien','','','',false,true);
+d.add(26,20,'613.7','<div class="nodetag">613.7</div></span>&nbsp;&nbsp;Hälsa och hygien under fritid, rekreation, sömn','613.7','Hälsa och hygien under fritid, rekreation, sömn','','','',false,true);
+d.add(27,20,'613.8','<div class="nodetag">613.8</div></span>&nbsp;&nbsp;Nervsystemets hälsa och hygien. Hygien och etik','613.8','Nervsystemets hälsa och hygien. Hygien och etik','','','',false,true);
+d.add(28,20,'613.9','<div class="nodetag">613.9</div></span>&nbsp;&nbsp;Hälsa och hygien med hänsyn till ålder, kön, etnicitet','613.9','Hälsa och hygien med hänsyn till ålder, kön, etnicitet','','','',false,true);
+d.add(29,7,'614','<div class="nodetag">614</div></span>&nbsp;&nbsp;Offentlig hälso- och sjukvård. Olycksfallsbekämpning. Skyddsteknik','614','Offentlig hälso- och sjukvård. Olycksfallsbekämpning. Skyddsteknik','','','',false,true);
+d.add(30,29,'614.1','<div class="nodetag">614.1</div></span>&nbsp;&nbsp;Befolkning. Avfolkning','614.1','Befolkning. Avfolkning','','','',false,true);
+d.add(31,29,'614.2','<div class="nodetag">614.2</div></span>&nbsp;&nbsp;Hälso- och sjukvårdens organisation','614.2','Hälso- och sjukvårdens organisation','','','',false,true);
+d.add(32,29,'614.3','<div class="nodetag">614.3</div></span>&nbsp;&nbsp;Sanitetsinspektion och kontroll','614.3','Sanitetsinspektion och kontroll','','','',false,true);
+d.add(33,32,'614.39','<div class="nodetag">614.39</div></span>&nbsp;&nbsp;Nationella hälsotjänster','614.39','Nationella hälsotjänster','','','',false,true);
+d.add(34,29,'614.4','<div class="nodetag">614.4</div></span>&nbsp;&nbsp;Bekämpning av smittosamma sjukdomar. Förebyggande av epidemier','614.4','Bekämpning av smittosamma sjukdomar. Förebyggande av epidemier','','','',false,true);
+d.add(35,29,'614.6','<div class="nodetag">614.6</div></span>&nbsp;&nbsp;Kyrkogårdshygien. Likhygien','614.6','Kyrkogårdshygien. Likhygien','','','',false,true);
+d.add(36,29,'614.7','<div class="nodetag">614.7</div></span>&nbsp;&nbsp;Omgivningshygien i luft, vatten och mark. Förorening och dess kontroll','614.7','Omgivningshygien i luft, vatten och mark. Förorening och dess kontroll','','','',false,true);
+d.add(37,29,'614.8','<div class="nodetag">614.8</div></span>&nbsp;&nbsp;Olycksrisker. Förebyggande av olyckor. Skyddsteknik','614.8','Olycksrisker. Förebyggande av olyckor. Skyddsteknik','','','',false,true);
+d.add(38,29,'614.9','<div class="nodetag">614.9</div></span>&nbsp;&nbsp;Djurhälsa','614.9','Djurhälsa','','','',false,true);
+d.add(39,7,'615','<div class="nodetag">615</div></span>&nbsp;&nbsp;Läkemedelslära. Farmakologi. Terapi. Toxikologi','615','Läkemedelslära. Farmakologi. Terapi. Toxikologi','','','',false,true);
+d.add(40,39,'615.1','<div class="nodetag">615.1</div></span>&nbsp;&nbsp;Allmän och yrkesmässig farmaci','615.1','Allmän och yrkesmässig farmaci','','','',false,true);
+d.add(41,39,'615.2','<div class="nodetag">615.2</div></span>&nbsp;&nbsp;Läkemedel indelade med hänsyn till sina huvudsakliga verkningar','615.2','Läkemedel indelade med hänsyn till sina huvudsakliga verkningar','','','',false,true);
+d.add(42,39,'615.3','<div class="nodetag">615.3</div></span>&nbsp;&nbsp;Läkemedel indelade efter deras ursprung','615.3','Läkemedel indelade efter deras ursprung','','','',false,true);
+d.add(43,39,'615.4','<div class="nodetag">615.4</div></span>&nbsp;&nbsp;Farmaceutiska preparat. Materiel. Utrustning','615.4','Farmaceutiska preparat. Materiel. Utrustning','','','',false,true);
+d.add(44,39,'615.8','<div class="nodetag">615.8</div></span>&nbsp;&nbsp;Sjukgymnastik. Fysikalisk terapi. Radioterapi. Annan icke-medicinsk terapeutisk behandling','615.8','Sjukgymnastik. Fysikalisk terapi. Radioterapi. Annan icke-medicinsk terapeutisk behandling','','','',false,true);
+d.add(45,39,'615.9','<div class="nodetag">615.9</div></span>&nbsp;&nbsp;Allmän toxikologi. Allmänna studier av gifter och förgiftning','615.9','Allmän toxikologi. Allmänna studier av gifter och förgiftning','','','',false,true);
+d.add(46,7,'616','<div class="nodetag">616</div></span>&nbsp;&nbsp;Patologi. Klinisk medicin','616','Patologi. Klinisk medicin','','','',false,true);
+d.add(47,46,'616-001/-009','<div class="nodetag">616-001/-009</div></span>&nbsp;&nbsp;Speciella tillägg','616-001/-009','Speciella tillägg','','','',false,true);
+d.add(48,47,'616-001','<div class="nodetag">616-001</div></span>&nbsp;&nbsp;Traumata. Sårskador. Frakturer','616-001','Traumata. Sårskador. Frakturer','','','',false,true);
+d.add(49,47,'616-002','<div class="nodetag">616-002</div></span>&nbsp;&nbsp;Inflammationer','616-002','Inflammationer','','','',false,true);
+d.add(50,47,'616-003','<div class="nodetag">616-003</div></span>&nbsp;&nbsp;Regressiva processer. Avsöndring. Ärrbildning','616-003','Regressiva processer. Avsöndring. Ärrbildning','','','',false,true);
+d.add(51,47,'616-004','<div class="nodetag">616-004</div></span>&nbsp;&nbsp;Skleros. Åderförkalkning','616-004','Skleros. Åderförkalkning','','','',false,true);
+d.add(52,47,'616-005','<div class="nodetag">616-005</div></span>&nbsp;&nbsp;Cirkulationsrubbningar. Blodstockning. Infarkt','616-005','Cirkulationsrubbningar. Blodstockning. Infarkt','','','',false,true);
+d.add(53,47,'616-006','<div class="nodetag">616-006</div></span>&nbsp;&nbsp;Tumörer. Neoplasmer. Onkologi','616-006','Tumörer. Neoplasmer. Onkologi','','','',false,true);
+d.add(54,47,'616-007','<div class="nodetag">616-007</div></span>&nbsp;&nbsp;Teratologi. Missbildningar','616-007','Teratologi. Missbildningar','','','',false,true);
+d.add(55,47,'616-008','<div class="nodetag">616-008</div></span>&nbsp;&nbsp;Funktionsrubbningar hos organen. Metaboliska rubbningar','616-008','Funktionsrubbningar hos organen. Metaboliska rubbningar','','','',false,true);
+d.add(56,47,'616-009','<div class="nodetag">616-009</div></span>&nbsp;&nbsp;Neurologiska och nervösa rubbningar','616-009','Neurologiska och nervösa rubbningar','','','',false,true);
+d.add(57,46,'616-01/-099','<div class="nodetag">616-01/-099</div></span>&nbsp;&nbsp;Speciella tillägg för allmänna synpunkter rörande patologi','616-01/-099','Speciella tillägg för allmänna synpunkter rörande patologi','','','',false,true);
+d.add(58,57,'616-01','<div class="nodetag">616-01</div></span>&nbsp;&nbsp;Diverse aspekter av sjukdomar, patienter och läkarbehandling','616-01','Diverse aspekter av sjukdomar, patienter och läkarbehandling','','','',false,true);
+d.add(59,57,'616-02','<div class="nodetag">616-02</div></span>&nbsp;&nbsp;Etiologi. Sjukdomsorsaker','616-02','Etiologi. Sjukdomsorsaker','','','',false,true);
+d.add(60,57,'616-03','<div class="nodetag">616-03</div></span>&nbsp;&nbsp;Sjukdomsformer och -förlopp. Behandling','616-03','Sjukdomsformer och -förlopp. Behandling','','','',false,true);
+d.add(61,57,'616-05','<div class="nodetag">616-05</div></span>&nbsp;&nbsp;Personer i relation till sjukdom och läkekonst','616-05','Personer i relation till sjukdom och läkekonst','','','',false,true);
+d.add(62,57,'616-06','<div class="nodetag">616-06</div></span>&nbsp;&nbsp;Komplikationer. Konsekvenser. Återverkningar. Korrelation. Tidigare sjukdomar. Tidigare hälsotillstånd. Antagonism mellan två sjukdomar','616-06','Komplikationer. Konsekvenser. Återverkningar. Korrelation. Tidigare sjukdomar. Tidigare hälsotillstånd. Antagonism mellan två sjukdomar','','','',false,true);
+d.add(63,57,'616-07','<div class="nodetag">616-07</div></span>&nbsp;&nbsp;Semiologi. Symptomatologi. Diagnostik','616-07','Semiologi. Symptomatologi. Diagnostik','','','',false,true);
+d.add(64,57,'616-08','<div class="nodetag">616-08</div></span>&nbsp;&nbsp;Behandling. Terapi','616-08','Behandling. Terapi','','','',false,true);
+d.add(65,57,'616-091','<div class="nodetag">616-091</div></span>&nbsp;&nbsp;Patologisk anatomi','616-091','Patologisk anatomi','','','',false,true);
+d.add(66,57,'616-092','<div class="nodetag">616-092</div></span>&nbsp;&nbsp;Patologisk fysiologi','616-092','Patologisk fysiologi','','','',false,true);
+d.add(67,57,'616-093','<div class="nodetag">616-093</div></span>&nbsp;&nbsp;Mikrobiell teknik','616-093','Mikrobiell teknik','','','',false,true);
+d.add(68,57,'616-094','<div class="nodetag">616-094</div></span>&nbsp;&nbsp;Mikrobiell morfologi','616-094','Mikrobiell morfologi','','','',false,true);
+d.add(69,57,'616-095','<div class="nodetag">616-095</div></span>&nbsp;&nbsp;Mikrobiell fysiologi','616-095','Mikrobiell fysiologi','','','',false,true);
+d.add(70,57,'616-097','<div class="nodetag">616-097</div></span>&nbsp;&nbsp;Antigener. Antikroppar','616-097','Antigener. Antikroppar','','','',false,true);
+d.add(71,57,'616-098','<div class="nodetag">616-098</div></span>&nbsp;&nbsp;Mikrobiell fysik, kemi, metabolism,katabolism','616-098','Mikrobiell fysik, kemi, metabolism,katabolism','','','',false,true);
+d.add(72,57,'616-099','<div class="nodetag">616-099</div></span>&nbsp;&nbsp;Förgiftningar','616-099','Förgiftningar','','','',false,true);
+d.add(73,46,'616-71/-78','<div class="nodetag">616-71/-78</div></span>&nbsp;&nbsp;Speciella tillägg för medicinska och kirurgiska instrument','616-71/-78','Speciella tillägg för medicinska och kirurgiska instrument','','','',false,true);
+d.add(74,73,'616-71','<div class="nodetag">616-71</div></span>&nbsp;&nbsp;Medicinska instrument och utrustning, allmänt','616-71','Medicinska instrument och utrustning, allmänt','','','',false,true);
+d.add(75,73,'616-72','<div class="nodetag">616-72</div></span>&nbsp;&nbsp;Kirurgiska och terapeutiska instrument','616-72','Kirurgiska och terapeutiska instrument','','','',false,true);
+d.add(76,73,'616-74','<div class="nodetag">616-74</div></span>&nbsp;&nbsp;Material och utrustning för förstärkning och återställning','616-74','Material och utrustning för förstärkning och återställning','','','',false,true);
+d.add(77,73,'616-76','<div class="nodetag">616-76</div></span>&nbsp;&nbsp;Korrigerande och skyddande apparater, hjälpmedel osv.','616-76','Korrigerande och skyddande apparater, hjälpmedel osv.','','','',false,true);
+d.add(78,73,'616-77','<div class="nodetag">616-77</div></span>&nbsp;&nbsp;Protesis och delar. Konstgjorda organ osv.','616-77','Protesis och delar. Konstgjorda organ osv.','','','',false,true);
+d.add(79,73,'616-78','<div class="nodetag">616-78</div></span>&nbsp;&nbsp;Maskiner och mekanisk utrustning','616-78','Maskiner och mekanisk utrustning','','','',false,true);
+d.add(80,46,'616.1/.9','<div class="nodetag">616.1/.9</div></span>&nbsp;&nbsp;Speciell patologi','616.1/.9','Speciell patologi','','','',false,true);
+d.add(81,80,'616.1','<div class="nodetag">616.1</div></span>&nbsp;&nbsp;Cirkulationssystemets patologi, blodkärl. Kardiovaskulära besvär','616.1','Cirkulationssystemets patologi, blodkärl. Kardiovaskulära besvär','','','',false,true);
+d.add(82,80,'616.2','<div class="nodetag">616.2</div></span>&nbsp;&nbsp;Andningsorganens sjukdomar. Andningsorganens besvär','616.2','Andningsorganens sjukdomar. Andningsorganens besvär','','','',false,true);
+d.add(83,80,'616.3','<div class="nodetag">616.3</div></span>&nbsp;&nbsp;Matsmältningsorganens sjukdomar. Matsmältningskanalens besvär','616.3','Matsmältningsorganens sjukdomar. Matsmältningskanalens besvär','','','',false,true);
+d.add(84,83,'616.31','<div class="nodetag">616.31</div></span>&nbsp;&nbsp;Stomatologi. Munhålan. Munnen. Sjukdomar i mun och tänder','616.31','Stomatologi. Munhålan. Munnen. Sjukdomar i mun och tänder','','','',false,true);
+d.add(85,80,'616.4','<div class="nodetag">616.4</div></span>&nbsp;&nbsp;Sjukdomar i blodbildande organ, endokryna körtlar och retikuloendoteliala system','616.4','Sjukdomar i blodbildande organ, endokryna körtlar och retikuloendoteliala system','','','',false,true);
+d.add(86,80,'616.5','<div class="nodetag">616.5</div></span>&nbsp;&nbsp;Hudsjukdomar. Dermatologi','616.5','Hudsjukdomar. Dermatologi','','','',false,true);
+d.add(87,80,'616.6','<div class="nodetag">616.6</div></span>&nbsp;&nbsp;Urogenitala systemets sjukdomar. Urin-och köns (genitala) besvär. Urologi','616.6','Urogenitala systemets sjukdomar. Urin-och köns (genitala) besvär. Urologi','','','',false,true);
+d.add(88,80,'616.7','<div class="nodetag">616.7</div></span>&nbsp;&nbsp;Rörelseapparatens sjukdomar. Skelett-och rörelseapparatens system','616.7','Rörelseapparatens sjukdomar. Skelett-och rörelseapparatens system','','','',false,true);
+d.add(89,80,'616.8','<div class="nodetag">616.8</div></span>&nbsp;&nbsp;Neurologi. Nervsjukdomar. Nervsystemet','616.8','Neurologi. Nervsjukdomar. Nervsystemet','','','',false,true);
+d.add(90,89,'616.89','<div class="nodetag">616.89</div></span>&nbsp;&nbsp;Psykiatri. Mentalsjukdomar','616.89','Psykiatri. Mentalsjukdomar','','','',false,true);
+d.add(91,80,'616.9','<div class="nodetag">616.9</div></span>&nbsp;&nbsp;Infektionssjukdomar. Smittsamma sjukdomar','616.9','Infektionssjukdomar. Smittsamma sjukdomar','','','',false,true);
+d.add(92,7,'617','<div class="nodetag">617</div></span>&nbsp;&nbsp;Kirurgi','617','Kirurgi','','','',false,true);
+d.add(93,92,'617.3','<div class="nodetag">617.3</div></span>&nbsp;&nbsp;Ortropedi','617.3','Ortropedi','','','',false,true);
+d.add(94,92,'617.7','<div class="nodetag">617.7</div></span>&nbsp;&nbsp;Oftalmologi. Ögonsjukdomar och dess behandling','617.7','Oftalmologi. Ögonsjukdomar och dess behandling','','','',false,true);
+d.add(95,7,'618','<div class="nodetag">618</div></span>&nbsp;&nbsp;Gynekologi. Obstetrik','618','Gynekologi. Obstetrik','','','',false,true);
+d.add(96,0,'62','<div class="nodetag">62</div></span>&nbsp;&nbsp;Ingenjörsvetenskaper. Teknik','62','Ingenjörsvetenskaper. Teknik','','','',false,true);
+d.add(97,96,'62-1/-9','<div class="nodetag">62-1/-9</div></span>&nbsp;&nbsp;Speciella tillägg för maskindetaljer, processer, produkter i allmänhet','62-1/-9','Speciella tillägg för maskindetaljer, processer, produkter i allmänhet','','','',false,true);
+d.add(98,97,'62-1','<div class="nodetag">62-1</div></span>&nbsp;&nbsp;Allmän beskrivning av maskiner','62-1','Allmän beskrivning av maskiner','','','',false,true);
+d.add(99,97,'62-2','<div class="nodetag">62-2</div></span>&nbsp;&nbsp;Fasta och rörliga delar av maskiner','62-2','Fasta och rörliga delar av maskiner','','','',false,true);
+d.add(100,97,'62-3','<div class="nodetag">62-3</div></span>&nbsp;&nbsp;Styrorgan. Drivanordningar för styrorgan','62-3','Styrorgan. Drivanordningar för styrorgan','','','',false,true);
+d.add(101,97,'62-4','<div class="nodetag">62-4</div></span>&nbsp;&nbsp;Ämnestillstånd. Yttillstånd. Yttre form av föremålen','62-4','Ämnestillstånd. Yttillstånd. Yttre form av föremålen','','','',false,true);
+d.add(102,97,'62-5','<div class="nodetag">62-5</div></span>&nbsp;&nbsp;Drift med maskiner. Reglering','62-5','Drift med maskiner. Reglering','','','',false,true);
+d.add(103,97,'62-6','<div class="nodetag">62-6</div></span>&nbsp;&nbsp;Indelning av maskiner efter bränsle eller värmekälla','62-6','Indelning av maskiner efter bränsle eller värmekälla','','','',false,true);
+d.add(104,97,'62-7','<div class="nodetag">62-7</div></span>&nbsp;&nbsp;Skötsel och vård av maskiner','62-7','Skötsel och vård av maskiner','','','',false,true);
+d.add(105,97,'62-8','<div class="nodetag">62-8</div></span>&nbsp;&nbsp;Indelning av maskiner efter driftsätt','62-8','Indelning av maskiner efter driftsätt','','','',false,true);
+d.add(106,97,'62-9','<div class="nodetag">62-9</div></span>&nbsp;&nbsp;Driftdata och -villkor','62-9','Driftdata och -villkor','','','',false,true);
+d.add(107,106,'62-91','<div class="nodetag">62-91</div></span>&nbsp;&nbsp;Tillståndsdata: egenskaper och variabler','62-91','Tillståndsdata: egenskaper och variabler','','','',false,true);
+d.add(108,106,'62-92','<div class="nodetag">62-92</div></span>&nbsp;&nbsp;Reaktion i form av reaktanter. Reaktanter','62-92','Reaktion i form av reaktanter. Reaktanter','','','',false,true);
+d.add(109,106,'62-93','<div class="nodetag">62-93</div></span>&nbsp;&nbsp;Processer, maskiner och utrustning beroendee på hur de fungerar, kontinuitet, föreningar, miljö','62-93','Processer, maskiner och utrustning beroendee på hur de fungerar, kontinuitet, föreningar, miljö','','','',false,true);
+d.add(110,106,'62-94','<div class="nodetag">62-94</div></span>&nbsp;&nbsp;Processernas riktning, hastighet, takt, längd, o.a.v.','62-94','Processernas riktning, hastighet, takt, längd, o.a.v.','','','',false,true);
+d.add(111,106,'62-95','<div class="nodetag">62-95</div></span>&nbsp;&nbsp;Enkla och flerfaldiga processer. Enstegs- och flerstegsmetoder.','62-95','Enkla och flerfaldiga processer. Enstegs- och flerstegsmetoder.','','','',false,true);
+d.add(112,106,'62-96','<div class="nodetag">62-96</div></span>&nbsp;&nbsp;Processer i termer av att ändra produkternas egenskaper. Förändringar i allmänhet','62-96','Processer i termer av att ändra produkternas egenskaper. Förändringar i allmänhet','','','',false,true);
+d.add(113,106,'62-97','<div class="nodetag">62-97</div></span>&nbsp;&nbsp;Termiska egenskaper. Temperatur. Temperaturområden','62-97','Termiska egenskaper. Temperatur. Temperaturområden','','','',false,true);
+d.add(114,106,'62-98','<div class="nodetag">62-98</div></span>&nbsp;&nbsp;Tryck. Tryckarea','62-98','Tryck. Tryckarea','','','',false,true);
+d.add(115,96,'620','<div class="nodetag">620</div></span>&nbsp;&nbsp;Materialprovning. Varumärkekännedom. Kraftcentraler. Kraftförsörjning','620','Materialprovning. Varumärkekännedom. Kraftcentraler. Kraftförsörjning','','','',false,true);
+d.add(116,115,'620.3','<div class="nodetag">620.3</div></span>&nbsp;&nbsp;Nanoteknologi','620.3','Nanoteknologi','','','',false,true);
+d.add(117,115,'620.9','<div class="nodetag">620.9</div></span>&nbsp;&nbsp;Kraftförsörjning','620.9','Kraftförsörjning','','','',false,true);
+d.add(118,96,'621','<div class="nodetag">621</div></span>&nbsp;&nbsp;Maskinbyggnad, allmän. Kärnteknik, Mekanisk teknologi','621','Maskinbyggnad, allmän. Kärnteknik, Mekanisk teknologi','','','',false,true);
+d.add(119,118,'621.1','<div class="nodetag">621.1</div></span>&nbsp;&nbsp;Allmänt om värmekraftmaskiner. Produktion, fördelning och användning av ånga. Ångkraftmaskiner. Ångpannor','621.1','Allmänt om värmekraftmaskiner. Produktion, fördelning och användning av ånga. Ångkraftmaskiner. Ångpannor','','','',false,true);
+d.add(120,118,'621.22','<div class="nodetag">621.22</div></span>&nbsp;&nbsp;Hydraulisk energi. Vattenkraft. Hydrauliska maskiner','621.22','Hydraulisk energi. Vattenkraft. Hydrauliska maskiner','','','',false,true);
+d.add(121,118,'621.3','<div class="nodetag">621.3</div></span>&nbsp;&nbsp;Elektroteknik','621.3','Elektroteknik','','','',false,true);
+d.add(122,118,'621.4','<div class="nodetag">621.4</div></span>&nbsp;&nbsp;Värmekraftmaskiner (utom ångmaskiner)','621.4','Värmekraftmaskiner (utom ångmaskiner)','','','',false,true);
+d.add(123,118,'621.5','<div class="nodetag">621.5</div></span>&nbsp;&nbsp;Pneumatisk energi, maskiner och verktyg. Refrigeration','621.5','Pneumatisk energi, maskiner och verktyg. Refrigeration','','','',false,true);
+d.add(124,118,'621.6','<div class="nodetag">621.6</div></span>&nbsp;&nbsp;Maskiner och amordningar för lagring och transport av gaser och vätskor','621.6','Maskiner och amordningar för lagring och transport av gaser och vätskor','','','',false,true);
+d.add(125,118,'621.7','<div class="nodetag">621.7</div></span>&nbsp;&nbsp;Plastisk bearbetning. Gjuteriteknik. Värmebehandling. Ytbehandling. Packning','621.7','Plastisk bearbetning. Gjuteriteknik. Värmebehandling. Ytbehandling. Packning','','','',false,true);
+d.add(126,118,'621.8','<div class="nodetag">621.8</div></span>&nbsp;&nbsp;Maskinelement. Drivkraftteknik. Transmissioner. Växlar. Kuggar. Smörjning','621.8','Maskinelement. Drivkraftteknik. Transmissioner. Växlar. Kuggar. Smörjning','','','',false,true);
+d.add(127,118,'621.9','<div class="nodetag">621.9</div></span>&nbsp;&nbsp;Spånavskiljande bearbetning. Slipning och liknande processer. Hammare och pressar','621.9','Spånavskiljande bearbetning. Slipning och liknande processer. Hammare och pressar','','','',false,true);
+d.add(128,96,'622','<div class="nodetag">622</div></span>&nbsp;&nbsp;Gruvhantering','622','Gruvhantering','','','',false,true);
+d.add(129,128,'622.1','<div class="nodetag">622.1</div></span>&nbsp;&nbsp;Förberedande arbeten','622.1','Förberedande arbeten','','','',false,true);
+d.add(130,128,'622.2','<div class="nodetag">622.2</div></span>&nbsp;&nbsp;Allmänna gruvarbeten och brytningsmetoder. Exploration, öppnande, utveckling, bearbetning av mineralfyndigheter','622.2','Allmänna gruvarbeten och brytningsmetoder. Exploration, öppnande, utveckling, bearbetning av mineralfyndigheter','','','',false,true);
+d.add(131,128,'622.3','<div class="nodetag">622.3</div></span>&nbsp;&nbsp;Utvinning av speciella mineral','622.3','Utvinning av speciella mineral','','','',false,true);
+d.add(132,128,'622.4','<div class="nodetag">622.4</div></span>&nbsp;&nbsp;Gruvventilation. Gruvbelysning. Schaktuppvärmning','622.4','Gruvventilation. Gruvbelysning. Schaktuppvärmning','','','',false,true);
+d.add(133,128,'622.5','<div class="nodetag">622.5</div></span>&nbsp;&nbsp;Vattenundanhållning','622.5','Vattenundanhållning','','','',false,true);
+d.add(134,128,'622.6','<div class="nodetag">622.6</div></span>&nbsp;&nbsp;Transport under jord. Uppfordring. Transport i dagen','622.6','Transport under jord. Uppfordring. Transport i dagen','','','',false,true);
+d.add(135,128,'622.7','<div class="nodetag">622.7</div></span>&nbsp;&nbsp;Anrikning. Efterbehandling av anrikningsprodukter','622.7','Anrikning. Efterbehandling av anrikningsprodukter','','','',false,true);
+d.add(136,128,'622.8','<div class="nodetag">622.8</div></span>&nbsp;&nbsp;Gruvexplosioner. Gruvbränder. Ras. Olycksfall i gruvor. Säkerhetsanordningar och räddningsväsen i gruvor','622.8','Gruvexplosioner. Gruvbränder. Ras. Olycksfall i gruvor. Säkerhetsanordningar och räddningsväsen i gruvor','','','',false,true);
+d.add(137,96,'623','<div class="nodetag">623</div></span>&nbsp;&nbsp;Militärteknik','623','Militärteknik','','','',false,true);
+d.add(138,137,'623.1/.7','<div class="nodetag">623.1/.7</div></span>&nbsp;&nbsp;Militärmateriel. Militärtekniska installationer. Vapensystem. Artilleri','623.1/.7','Militärmateriel. Militärtekniska installationer. Vapensystem. Artilleri','','','',false,true);
+d.add(139,138,'623.1/.3','<div class="nodetag">623.1/.3</div></span>&nbsp;&nbsp;Militärtekniska installationer. Fortifikationer. Försvarsverk','623.1/.3','Militärtekniska installationer. Fortifikationer. Försvarsverk','','','',false,true);
+d.add(140,139,'623.1','<div class="nodetag">623.1</div></span>&nbsp;&nbsp;Fort. Permanenta fortifikationer. Befästa linjer och områden','623.1','Fort. Permanenta fortifikationer. Befästa linjer och områden','','','',false,true);
+d.add(141,139,'623.2','<div class="nodetag">623.2</div></span>&nbsp;&nbsp;Avvärjnings- och försvarsverk. Fältbefästningar. Värn. Nästen','623.2','Avvärjnings- och försvarsverk. Fältbefästningar. Värn. Nästen','','','',false,true);
+d.add(142,139,'623.3','<div class="nodetag">623.3</div></span>&nbsp;&nbsp;Terrängmineringar. Terränghinder. Översvämningshinder','623.3','Terrängmineringar. Terränghinder. Översvämningshinder','','','',false,true);
+d.add(143,138,'623.4','<div class="nodetag">623.4</div></span>&nbsp;&nbsp;Vapensystem. Artilleri. Bestickade och obestyckade stridsfordon. Handeldvapen. Huggvapen. Ammunition och stridsgaser','623.4','Vapensystem. Artilleri. Bestickade och obestyckade stridsfordon. Handeldvapen. Huggvapen. Ammunition och stridsgaser','','','',false,true);
+d.add(144,138,'623.5','<div class="nodetag">623.5</div></span>&nbsp;&nbsp;Ballistik. Artilleriet. Teoretiska och experimentella problem','623.5','Ballistik. Artilleriet. Teoretiska och experimentella problem','','','',false,true);
+d.add(145,138,'623.6','<div class="nodetag">623.6</div></span>&nbsp;&nbsp;Fältutrustning och anläggningsverksamhet. Kommunikationslinjer. Radar motåtgärder. Militär topografi','623.6','Fältutrustning och anläggningsverksamhet. Kommunikationslinjer. Radar motåtgärder. Militär topografi','','','',false,true);
+d.add(146,138,'623.7','<div class="nodetag">623.7</div></span>&nbsp;&nbsp;Militär och marin flygteknin. Luftförsvar','623.7','Militär och marin flygteknin. Luftförsvar','','','',false,true);
+d.add(147,137,'623.8/.9','<div class="nodetag">623.8/.9</div></span>&nbsp;&nbsp;Marin teknologi','623.8/.9','Marin teknologi','','','',false,true);
+d.add(148,147,'623.8','<div class="nodetag">623.8</div></span>&nbsp;&nbsp;Marina installationer. Flottbaser. Örlogsfartyg och andra fartyg','623.8','Marina installationer. Flottbaser. Örlogsfartyg och andra fartyg','','','',false,true);
+d.add(149,147,'623.9','<div class="nodetag">623.9</div></span>&nbsp;&nbsp;Material och utrustning av sjöstridskrafter. Skydd och beväpning av fartyg. Undervattensförsvar','623.9','Material och utrustning av sjöstridskrafter. Skydd och beväpning av fartyg. Undervattensförsvar','','','',false,true);
+d.add(150,96,'624','<div class="nodetag">624</div></span>&nbsp;&nbsp;Civil och strukturell teknik i allmänhet','624','Civil och strukturell teknik i allmänhet','','','',false,true);
+d.add(151,150,'624.01/.07','<div class="nodetag">624.01/.07</div></span>&nbsp;&nbsp;Speciella tilläggstal för byggnadskonstruktion','624.01/.07','Speciella tilläggstal för byggnadskonstruktion','','','',false,true);
+d.add(152,151,'624.01','<div class="nodetag">624.01</div></span>&nbsp;&nbsp;Konstruktioner indelade efter byggmaterial och byggsätt','624.01','Konstruktioner indelade efter byggmaterial och byggsätt','','','',false,true);
+d.add(153,151,'624.03','<div class="nodetag">624.03</div></span>&nbsp;&nbsp;Speciella konstruktioner med hänsyn till storlek, livslängd, läge och form','624.03','Speciella konstruktioner med hänsyn till storlek, livslängd, läge och form','','','',false,true);
+d.add(154,151,'624.04','<div class="nodetag">624.04</div></span>&nbsp;&nbsp;Konstruktiondesign. Grafiska och analytiska statistikuppgifter för utredning och beräkning av konstruktioner','624.04','Konstruktiondesign. Grafiska och analytiska statistikuppgifter för utredning och beräkning av konstruktioner','','','',false,true);
+d.add(155,151,'624.05','<div class="nodetag">624.05</div></span>&nbsp;&nbsp;Konstruktioner ur byggplatssynpunkt','624.05','Konstruktioner ur byggplatssynpunkt','','','',false,true);
+d.add(156,151,'624.07','<div class="nodetag">624.07</div></span>&nbsp;&nbsp;Strukturelement. Bärande delar','624.07','Strukturelement. Bärande delar','','','',false,true);
+d.add(157,150,'624.1','<div class="nodetag">624.1</div></span>&nbsp;&nbsp;Markarbeten. Grundläggning. Tunnelbyggnad','624.1','Markarbeten. Grundläggning. Tunnelbyggnad','','','',false,true);
+d.add(158,150,'624.21/.8','<div class="nodetag">624.21/.8</div></span>&nbsp;&nbsp;Brokonstruktion','624.21/.8','Brokonstruktion','','','',false,true);
+d.add(159,158,'624.3','<div class="nodetag">624.3</div></span>&nbsp;&nbsp;Fackverksbroar (balkbroar)','624.3','Fackverksbroar (balkbroar)','','','',false,true);
+d.add(160,158,'624.5','<div class="nodetag">624.5</div></span>&nbsp;&nbsp;Kabelbroar. Hängbroar','624.5','Kabelbroar. Hängbroar','','','',false,true);
+d.add(161,158,'624.6','<div class="nodetag">624.6</div></span>&nbsp;&nbsp;Bågbroar','624.6','Bågbroar','','','',false,true);
+d.add(162,158,'624.8','<div class="nodetag">624.8</div></span>&nbsp;&nbsp;Rörliga broar','624.8','Rörliga broar','','','',false,true);
+d.add(163,150,'624.9','<div class="nodetag">624.9</div></span>&nbsp;&nbsp;Konstruktionsprinciper för byggnadsverk med stor spännvidd eller stor höjd (utom broar)','624.9','Konstruktionsprinciper för byggnadsverk med stor spännvidd eller stor höjd (utom broar)','','','',false,true);
+d.add(164,96,'625','<div class="nodetag">625</div></span>&nbsp;&nbsp;Anläggningsarbeten för landtransporter. Trafikleder. Gatu- och vägbyggnad','625','Anläggningsarbeten för landtransporter. Trafikleder. Gatu- och vägbyggnad','','','',false,true);
+d.add(165,164,'625.1/.5','<div class="nodetag">625.1/.5</div></span>&nbsp;&nbsp;Järnvägar','625.1/.5','Järnvägar','','','',false,true);
+d.add(166,165,'625.1','<div class="nodetag">625.1</div></span>&nbsp;&nbsp;Järnvägar i allmänhet','625.1','Järnvägar i allmänhet','','','',false,true);
+d.add(167,165,'625.5','<div class="nodetag">625.5</div></span>&nbsp;&nbsp;Kabelbanor. Bergbanor. Hängande banor. Linbanor','625.5','Kabelbanor. Bergbanor. Hängande banor. Linbanor','','','',false,true);
+d.add(168,164,'625.7/.8','<div class="nodetag">625.7/.8</div></span>&nbsp;&nbsp;Gatu- och vägbyggnad','625.7/.8','Gatu- och vägbyggnad','','','',false,true);
+d.add(169,168,'625.7','<div class="nodetag">625.7</div></span>&nbsp;&nbsp;Gator och vägar allmänt. Landsvägar. Körbanor. Gator. Vägsystem','625.7','Gator och vägar allmänt. Landsvägar. Körbanor. Gator. Vägsystem','','','',false,true);
+d.add(170,168,'625.8','<div class="nodetag">625.8</div></span>&nbsp;&nbsp;Gatu- och vägbeläggningar. Förberedelser och användning av olika material','625.8','Gatu- och vägbeläggningar. Förberedelser och användning av olika material','','','',false,true);
+d.add(171,96,'626/627','<div class="nodetag">626/627</div></span>&nbsp;&nbsp;Vattenbyggnad','626/627','Vattenbyggnad','','','',false,true);
+d.add(172,171,'626','<div class="nodetag">626</div></span>&nbsp;&nbsp;Vattenbyggnad i allmänhet','626','Vattenbyggnad i allmänhet','','','',false,true);
+d.add(173,172,'626.1','<div class="nodetag">626.1</div></span>&nbsp;&nbsp;Inre farleder. Kanaler. Kanaliserade floder','626.1','Inre farleder. Kanaler. Kanaliserade floder','','','',false,true);
+d.add(174,172,'626.4','<div class="nodetag">626.4</div></span>&nbsp;&nbsp;Slussar','626.4','Slussar','','','',false,true);
+d.add(175,172,'626.5','<div class="nodetag">626.5</div></span>&nbsp;&nbsp;Lyftanordningar och lutande plan för fartyg','626.5','Lyftanordningar och lutande plan för fartyg','','','',false,true);
+d.add(176,172,'626.8','<div class="nodetag">626.8</div></span>&nbsp;&nbsp;Jordbrukshydraulik. Bevattning, dränering och återvinningsteknik','626.8','Jordbrukshydraulik. Bevattning, dränering och återvinningsteknik','','','',false,true);
+d.add(177,172,'626.9','<div class="nodetag">626.9</div></span>&nbsp;&nbsp;Havskanaler. Fartygskanaler','626.9','Havskanaler. Fartygskanaler','','','',false,true);
+d.add(178,171,'627','<div class="nodetag">627</div></span>&nbsp;&nbsp;Anläggningsarbeten i hamnar, vattendrag och i öppet hav. Navigations-, muddrings-, bärgnings- och räddningsutrustning. Dammanläggningar','627','Anläggningsarbeten i hamnar, vattendrag och i öppet hav. Navigations-, muddrings-, bärgnings- och räddningsutrustning. Dammanläggningar','','','',false,true);
+d.add(179,178,'627.2','<div class="nodetag">627.2</div></span>&nbsp;&nbsp;Hamnar inklusive inlopp. Hamnarbeten i allmänhet','627.2','Hamnar inklusive inlopp. Hamnarbeten i allmänhet','','','',false,true);
+d.add(180,178,'627.3','<div class="nodetag">627.3</div></span>&nbsp;&nbsp;Hamnutrustning. Dockor. Kajer. Anläggningar och utrustning','627.3','Hamnutrustning. Dockor. Kajer. Anläggningar och utrustning','','','',false,true);
+d.add(181,178,'627.4','<div class="nodetag">627.4</div></span>&nbsp;&nbsp;Reglering av floder för båttrafik. Uppdämningsanordningar. Andra förbättringar för flodreglering','627.4','Reglering av floder för båttrafik. Uppdämningsanordningar. Andra förbättringar för flodreglering','','','',false,true);
+d.add(182,178,'627.5','<div class="nodetag">627.5</div></span>&nbsp;&nbsp;Andra anläggningar för skydd och förbättring av vattendrag. Vallar. Stränder. Dränering och återvinning','627.5','Andra anläggningar för skydd och förbättring av vattendrag. Vallar. Stränder. Dränering och återvinning','','','',false,true);
+d.add(183,178,'627.7','<div class="nodetag">627.7</div></span>&nbsp;&nbsp;Underhåll av sjötrafikleder oh hamnar. Underhåll av vattnkraftanläggningar','627.7','Underhåll av sjötrafikleder oh hamnar. Underhåll av vattnkraftanläggningar','','','',false,true);
+d.add(184,178,'627.8','<div class="nodetag">627.8</div></span>&nbsp;&nbsp;Dammar. Hydrauliska kraftverk','627.8','Dammar. Hydrauliska kraftverk','','','',false,true);
+d.add(185,96,'628','<div class="nodetag">628</div></span>&nbsp;&nbsp;Teknisk hygien. Kommunal teknik. Vatten. Sanitet. Belysningsteknik','628','Teknisk hygien. Kommunal teknik. Vatten. Sanitet. Belysningsteknik','','','',false,true);
+d.add(186,185,'628.1','<div class="nodetag">628.1</div></span>&nbsp;&nbsp;Vattenförsörjning. Behandling och förbrukning av vatten','628.1','Vattenförsörjning. Behandling och förbrukning av vatten','','','',false,true);
+d.add(187,185,'628.2','<div class="nodetag">628.2</div></span>&nbsp;&nbsp;Spill- och dagvattenanläggningar i tätort','628.2','Spill- och dagvattenanläggningar i tätort','','','',false,true);
+d.add(188,185,'628.3','<div class="nodetag">628.3</div></span>&nbsp;&nbsp;Avloppsvatten. Behandling och rening','628.3','Avloppsvatten. Behandling och rening','','','',false,true);
+d.add(189,185,'628.4','<div class="nodetag">628.4</div></span>&nbsp;&nbsp;Samhällshygien. Avfallsprodukter. Renhållningsväsen+D1589','628.4','Samhällshygien. Avfallsprodukter. Renhållningsväsen+D1589','','','',false,true);
+d.add(190,185,'628.5','<div class="nodetag">628.5</div></span>&nbsp;&nbsp;Skydd mot miljöförstörelse från industrianläggningar','628.5','Skydd mot miljöförstörelse från industrianläggningar','','','',false,true);
+d.add(191,185,'628.6','<div class="nodetag">628.6</div></span>&nbsp;&nbsp;Dränering och sanitära installationer i bostäder (ur kommunalteknisk synpunk)','628.6','Dränering och sanitära installationer i bostäder (ur kommunalteknisk synpunk)','','','',false,true);
+d.add(192,185,'628.8','<div class="nodetag">628.8</div></span>&nbsp;&nbsp;Inomhusklimat. Uppvärmning. Ventilation. Luftkonditionering','628.8','Inomhusklimat. Uppvärmning. Ventilation. Luftkonditionering','','','',false,true);
+d.add(193,185,'628.9','<div class="nodetag">628.9</div></span>&nbsp;&nbsp;Belysningsteknik','628.9','Belysningsteknik','','','',false,true);
+d.add(194,96,'629','<div class="nodetag">629</div></span>&nbsp;&nbsp;Transportmedel','629','Transportmedel','','','',false,true);
+d.add(195,194,'629.01/.08','<div class="nodetag">629.01/.08</div></span>&nbsp;&nbsp;Speciella tillägg för fordonsteknin','629.01/.08','Speciella tillägg för fordonsteknin','','','',false,true);
+d.add(196,195,'629.01','<div class="nodetag">629.01</div></span>&nbsp;&nbsp;Grunddata för fordons konstruktion: egenskaper, möjligheter, tester','629.01','Grunddata för fordons konstruktion: egenskaper, möjligheter, tester','','','',false,true);
+d.add(197,195,'629.02','<div class="nodetag">629.02</div></span>&nbsp;&nbsp;Fordons struktur, konstruktionsprinciper, allmänna utformning och delar','629.02','Fordons struktur, konstruktionsprinciper, allmänna utformning och delar','','','',false,true);
+d.add(198,195,'629.03','<div class="nodetag">629.03</div></span>&nbsp;&nbsp;Framdrivningssystem','629.03','Framdrivningssystem','','','',false,true);
+d.add(199,195,'629.04','<div class="nodetag">629.04</div></span>&nbsp;&nbsp;Inredning: installation, utrustning för personer och gods','629.04','Inredning: installation, utrustning för personer och gods','','','',false,true);
+d.add(200,195,'629.05','<div class="nodetag">629.05</div></span>&nbsp;&nbsp;Körnings- och styrningssystem och instrument (fordonsburna)','629.05','Körnings- och styrningssystem och instrument (fordonsburna)','','','',false,true);
+d.add(201,195,'629.06','<div class="nodetag">629.06</div></span>&nbsp;&nbsp;Hjälpsystem och hjälpanordningar för fordon','629.06','Hjälpsystem och hjälpanordningar för fordon','','','',false,true);
+d.add(202,195,'629.07','<div class="nodetag">629.07</div></span>&nbsp;&nbsp;Drifts- och servicetjänst','629.07','Drifts- och servicetjänst','','','',false,true);
+d.add(203,195,'629.08','<div class="nodetag">629.08</div></span>&nbsp;&nbsp;Grundutrustning, verkstadsanläggningar och motsvarande tekniska förfaranden','629.08','Grundutrustning, verkstadsanläggningar och motsvarande tekniska förfaranden','','','',false,true);
+d.add(204,194,'629.3','<div class="nodetag">629.3</div></span>&nbsp;&nbsp;Markfordon (utom rälsfordon)','629.3','Markfordon (utom rälsfordon)','','','',false,true);
+d.add(205,194,'629.4','<div class="nodetag">629.4</div></span>&nbsp;&nbsp;Rällsfordon. Lokomotiv. Rullande materiel. Bangårdar. Installationer och tjänster','629.4','Rällsfordon. Lokomotiv. Rullande materiel. Bangårdar. Installationer och tjänster','','','',false,true);
+d.add(206,194,'629.5','<div class="nodetag">629.5</div></span>&nbsp;&nbsp;Fartyg. Skeppsbyggnad','629.5','Fartyg. Skeppsbyggnad','','','',false,true);
+d.add(207,194,'629.7','<div class="nodetag">629.7</div></span>&nbsp;&nbsp;Luft- och rymdfarkostteknik. Luftfarkoster. Raketer. Rymdfart. Rymdfarkoster','629.7','Luft- och rymdfarkostteknik. Luftfarkoster. Raketer. Rymdfart. Rymdfarkoster','','','',false,true);
+d.add(208,0,'63','<div class="nodetag">63</div></span>&nbsp;&nbsp;Jordbruk och besläktade vetenskaper och teknik. Skogsbruk. Lantbruk. Trädgårdsskötsel. Djurskötsel. Jakt. Fiske','63','Jordbruk och besläktade vetenskaper och teknik. Skogsbruk. Lantbruk. Trädgårdsskötsel. Djurskötsel. Jakt. Fiske','','','',false,true);
+d.add(209,208,'630','<div class="nodetag">630</div></span>&nbsp;&nbsp;Skogsbruk','630','Skogsbruk','','','',false,true);
+d.add(210,209,'630*0','<div class="nodetag">630*0</div></span>&nbsp;&nbsp;Skogar, skogsbruk och skogsprodukter','630*0','Skogar, skogsbruk och skogsprodukter','','','',false,true);
+d.add(211,209,'630*1','<div class="nodetag">630*1</div></span>&nbsp;&nbsp;Miljöfaktorer i skogsbruket','630*1','Miljöfaktorer i skogsbruket','','','',false,true);
+d.add(212,209,'630*2','<div class="nodetag">630*2</div></span>&nbsp;&nbsp;Skogsskötsel','630*2','Skogsskötsel','','','',false,true);
+d.add(213,209,'630*3','<div class="nodetag">630*3</div></span>&nbsp;&nbsp;Arbetsvetenskap. Avverkning','630*3','Arbetsvetenskap. Avverkning','','','',false,true);
+d.add(214,209,'630*4','<div class="nodetag">630*4</div></span>&nbsp;&nbsp;Skogsskador och skogsskydd','630*4','Skogsskador och skogsskydd','','','',false,true);
+d.add(215,209,'630*5','<div class="nodetag">630*5</div></span>&nbsp;&nbsp;Skogsuppskattning. Tillväxt. Skogsbeståndens utveckling och struktur','630*5','Skogsuppskattning. Tillväxt. Skogsbeståndens utveckling och struktur','','','',false,true);
+d.add(216,209,'630*6','<div class="nodetag">630*6</div></span>&nbsp;&nbsp;Skogsbrukets administration','630*6','Skogsbrukets administration','','','',false,true);
+d.add(217,209,'630*7','<div class="nodetag">630*7</div></span>&nbsp;&nbsp;Handel med skogsprodukter','630*7','Handel med skogsprodukter','','','',false,true);
+d.add(218,209,'630*8','<div class="nodetag">630*8</div></span>&nbsp;&nbsp;Skogsprodukter och deras användning','630*8','Skogsprodukter och deras användning','','','',false,true);
+d.add(219,209,'630*9','<div class="nodetag">630*9</div></span>&nbsp;&nbsp;Skogen och skogsbruket ur samhällsekonomiskt synpunkt','630*9','Skogen och skogsbruket ur samhällsekonomiskt synpunkt','','','',false,true);
+d.add(220,208,'631/635','<div class="nodetag">631/635</div></span>&nbsp;&nbsp;Lantbruk. Fruktodling','631/635','Lantbruk. Fruktodling','','','',false,true);
+d.add(221,220,'631','<div class="nodetag">631</div></span>&nbsp;&nbsp;Lantbruk i allmänhet','631','Lantbruk i allmänhet','','','',false,true);
+d.add(222,221,'631.1','<div class="nodetag">631.1</div></span>&nbsp;&nbsp;Lantbrukets administration och organisation','631.1','Lantbrukets administration och organisation','','','',false,true);
+d.add(223,221,'631.2','<div class="nodetag">631.2</div></span>&nbsp;&nbsp;Lantbruksbyggnader, konstruktioner och installationer. Byggnader för boskap, produkter, maskiner och utrustning','631.2','Lantbruksbyggnader, konstruktioner och installationer. Byggnader för boskap, produkter, maskiner och utrustning','','','',false,true);
+d.add(224,221,'631.3','<div class="nodetag">631.3</div></span>&nbsp;&nbsp;Lantbruksmaskiner och redskap','631.3','Lantbruksmaskiner och redskap','','','',false,true);
+d.add(225,221,'631.4','<div class="nodetag">631.4</div></span>&nbsp;&nbsp;Marklära. Jordundersökning','631.4','Marklära. Jordundersökning','','','',false,true);
+d.add(226,221,'631.5','<div class="nodetag">631.5</div></span>&nbsp;&nbsp;Lantbruksarbeten. Växtodling, allmänt','631.5','Lantbruksarbeten. Växtodling, allmänt','','','',false,true);
+d.add(227,221,'631.6','<div class="nodetag">631.6</div></span>&nbsp;&nbsp;Jordbruksteknik','631.6','Jordbruksteknik','','','',false,true);
+d.add(228,221,'631.8','<div class="nodetag">631.8</div></span>&nbsp;&nbsp;Växtnäring. Gödselmedel. Gödsling','631.8','Växtnäring. Gödselmedel. Gödsling','','','',false,true);
+d.add(229,220,'632','<div class="nodetag">632</div></span>&nbsp;&nbsp;Växtskador. Växtsjukdomar. Växtskydd. Skadebekämpning','632','Växtskador. Växtsjukdomar. Växtskydd. Skadebekämpning','','','',false,true);
+d.add(230,220,'633/635','<div class="nodetag">633/635</div></span>&nbsp;&nbsp;Växtodling. Speciella grödor','633/635','Växtodling. Speciella grödor','','','',false,true);
+d.add(231,230,'633','<div class="nodetag">633</div></span>&nbsp;&nbsp;Växter och växtodling','633','Växter och växtodling','','','',false,true);
+d.add(232,231,'633.1','<div class="nodetag">633.1</div></span>&nbsp;&nbsp;Spannmål. Säd','633.1','Spannmål. Säd','','','',false,true);
+d.add(233,231,'633.2','<div class="nodetag">633.2</div></span>&nbsp;&nbsp;Fodergräs. Ängsgräs','633.2','Fodergräs. Ängsgräs','','','',false,true);
+d.add(234,231,'633.3','<div class="nodetag">633.3</div></span>&nbsp;&nbsp;Foderväxter utom gräs','633.3','Foderväxter utom gräs','','','',false,true);
+d.add(235,231,'633.4','<div class="nodetag">633.4</div></span>&nbsp;&nbsp;Ätbara rotfrukter. Knölfrukter','633.4','Ätbara rotfrukter. Knölfrukter','','','',false,true);
+d.add(236,231,'633.5','<div class="nodetag">633.5</div></span>&nbsp;&nbsp;Textil- och fiberväxter','633.5','Textil- och fiberväxter','','','',false,true);
+d.add(237,231,'633.6','<div class="nodetag">633.6</div></span>&nbsp;&nbsp;Socker- och stärkelseväxter','633.6','Socker- och stärkelseväxter','','','',false,true);
+d.add(238,231,'633.7','<div class="nodetag">633.7</div></span>&nbsp;&nbsp;Njutningsmedelväxter. Växter för produktion av dricker','633.7','Njutningsmedelväxter. Växter för produktion av dricker','','','',false,true);
+d.add(239,231,'633.8','<div class="nodetag">633.8</div></span>&nbsp;&nbsp;Parfymväxter','633.8','Parfymväxter','','','',false,true);
+d.add(240,231,'633.9','<div class="nodetag">633.9</div></span>&nbsp;&nbsp;Övriga industriväxter','633.9','Övriga industriväxter','','','',false,true);
+d.add(241,230,'634','<div class="nodetag">634</div></span>&nbsp;&nbsp;Fruktodling','634','Fruktodling','','','',false,true);
+d.add(242,241,'634.2','<div class="nodetag">634.2</div></span>&nbsp;&nbsp;Stenfrukt','634.2','Stenfrukt','','','',false,true);
+d.add(243,241,'634.3','<div class="nodetag">634.3</div></span>&nbsp;&nbsp;Citrusfrukter. Fikon. Mullbär','634.3','Citrusfrukter. Fikon. Mullbär','','','',false,true);
+d.add(244,241,'634.4','<div class="nodetag">634.4</div></span>&nbsp;&nbsp;Köttfrukter','634.4','Köttfrukter','','','',false,true);
+d.add(245,241,'634.5','<div class="nodetag">634.5</div></span>&nbsp;&nbsp;Nötter','634.5','Nötter','','','',false,true);
+d.add(246,241,'634.6','<div class="nodetag">634.6</div></span>&nbsp;&nbsp;Olika tropiska och subtropiska frukter','634.6','Olika tropiska och subtropiska frukter','','','',false,true);
+d.add(247,241,'634.7','<div class="nodetag">634.7</div></span>&nbsp;&nbsp;Bär. Småfrukt','634.7','Bär. Småfrukt','','','',false,true);
+d.add(248,241,'634.8','<div class="nodetag">634.8</div></span>&nbsp;&nbsp;Vinodling. Vingård','634.8','Vinodling. Vingård','','','',false,true);
+d.add(249,230,'635','<div class="nodetag">635</div></span>&nbsp;&nbsp;Trädgårdsodling. Prydnadsväxtodling','635','Trädgårdsodling. Prydnadsväxtodling','','','',false,true);
+d.add(250,249,'635.1/.8','<div class="nodetag">635.1/.8</div></span>&nbsp;&nbsp;Grönsaker. Köksväxtodning','635.1/.8','Grönsaker. Köksväxtodning','','','',false,true);
+d.add(251,250,'635.1','<div class="nodetag">635.1</div></span>&nbsp;&nbsp;Rotfrukter','635.1','Rotfrukter','','','',false,true);
+d.add(252,250,'635.2','<div class="nodetag">635.2</div></span>&nbsp;&nbsp;Knölfrukter. Ätbara lökväxter','635.2','Knölfrukter. Ätbara lökväxter','','','',false,true);
+d.add(253,250,'635.3','<div class="nodetag">635.3</div></span>&nbsp;&nbsp;Växter med ätbara stamdelar, blad och blommor','635.3','Växter med ätbara stamdelar, blad och blommor','','','',false,true);
+d.add(254,250,'635.4','<div class="nodetag">635.4</div></span>&nbsp;&nbsp;Andra grönsaker. Bladgrönsaker (som trädgårdsprodukter)','635.4','Andra grönsaker. Bladgrönsaker (som trädgårdsprodukter)','','','',false,true);
+d.add(255,250,'635.6','<div class="nodetag">635.6</div></span>&nbsp;&nbsp;Växter med ätbara frön och frukter. Baljväxter','635.6','Växter med ätbara frön och frukter. Baljväxter','','','',false,true);
+d.add(256,250,'635.7','<div class="nodetag">635.7</div></span>&nbsp;&nbsp;Aromatiska växter. Kryddväxter','635.7','Aromatiska växter. Kryddväxter','','','',false,true);
+d.add(257,250,'635.8','<div class="nodetag">635.8</div></span>&nbsp;&nbsp;Ätbara fungi','635.8','Ätbara fungi','','','',false,true);
+d.add(258,249,'635.9','<div class="nodetag">635.9</div></span>&nbsp;&nbsp;Prydnadsväxter. Prydnadsväxtodling','635.9','Prydnadsväxter. Prydnadsväxtodling','','','',false,true);
+d.add(259,208,'636','<div class="nodetag">636</div></span>&nbsp;&nbsp;Husdjurskötsel','636','Husdjurskötsel','','','',false,true);
+d.add(260,259,'636.01/.09','<div class="nodetag">636.01/.09</div></span>&nbsp;&nbsp;Speciella tillägg inom husdjurskötsel','636.01/.09','Speciella tillägg inom husdjurskötsel','','','',false,true);
+d.add(261,260,'636.01','<div class="nodetag">636.01</div></span>&nbsp;&nbsp;Husdjurens härstamning, utveckling och domesticering. Tämja djur. Biologiska förutsättningar för uppfödning oc hdressyr','636.01','Husdjurens härstamning, utveckling och domesticering. Tämja djur. Biologiska förutsättningar för uppfödning oc hdressyr','','','',false,true);
+d.add(262,260,'636.02','<div class="nodetag">636.02</div></span>&nbsp;&nbsp;Djur för avel, utställning och vetenskapliga ändamål','636.02','Djur för avel, utställning och vetenskapliga ändamål','','','',false,true);
+d.add(263,260,'636.03','<div class="nodetag">636.03</div></span>&nbsp;&nbsp;Uppfödning av djur för produktion av livsmedel och andra animalisk produkter. Gårds- och ranchdjur i allmänhet','636.03','Uppfödning av djur för produktion av livsmedel och andra animalisk produkter. Gårds- och ranchdjur i allmänhet','','','',false,true);
+d.add(264,260,'636.04','<div class="nodetag">636.04</div></span>&nbsp;&nbsp;Djur för arbetsändamål och till människans tjänst eller nöje','636.04','Djur för arbetsändamål och till människans tjänst eller nöje','','','',false,true);
+d.add(265,260,'636.05','<div class="nodetag">636.05</div></span>&nbsp;&nbsp;Husdjur med hänsyn till förädling, ålder, kön osv.','636.05','Husdjur med hänsyn till förädling, ålder, kön osv.','','','',false,true);
+d.add(266,260,'636.06','<div class="nodetag">636.06</div></span>&nbsp;&nbsp;Husdjurens konstitution och speciella biologiska kännetecken','636.06','Husdjurens konstitution och speciella biologiska kännetecken','','','',false,true);
+d.add(267,260,'636.08','<div class="nodetag">636.08</div></span>&nbsp;&nbsp;Allmänna frågor rörande husdjursskötsel','636.08','Allmänna frågor rörande husdjursskötsel','','','',false,true);
+d.add(268,260,'636.09','<div class="nodetag">636.09</div></span>&nbsp;&nbsp;Veterinärmedicin','636.09','Veterinärmedicin','','','',false,true);
+d.add(269,259,'636.1','<div class="nodetag">636.1</div></span>&nbsp;&nbsp;Hästar','636.1','Hästar','','','',false,true);
+d.add(270,259,'636.2','<div class="nodetag">636.2</div></span>&nbsp;&nbsp;Nötkreatur','636.2','Nötkreatur','','','',false,true);
+d.add(271,259,'636.3','<div class="nodetag">636.3</div></span>&nbsp;&nbsp;Mindre idisslare','636.3','Mindre idisslare','','','',false,true);
+d.add(272,259,'636.4','<div class="nodetag">636.4</div></span>&nbsp;&nbsp;Svin. Gris','636.4','Svin. Gris','','','',false,true);
+d.add(273,259,'636.5','<div class="nodetag">636.5</div></span>&nbsp;&nbsp;Fjäderfä','636.5','Fjäderfä','','','',false,true);
+d.add(274,259,'636.6','<div class="nodetag">636.6</div></span>&nbsp;&nbsp;Övriga fåglar hållna som husdjur','636.6','Övriga fåglar hållna som husdjur','','','',false,true);
+d.add(275,259,'636.7','<div class="nodetag">636.7</div></span>&nbsp;&nbsp;Hundar','636.7','Hundar','','','',false,true);
+d.add(276,259,'636.8','<div class="nodetag">636.8</div></span>&nbsp;&nbsp;Katter','636.8','Katter','','','',false,true);
+d.add(277,259,'636.9','<div class="nodetag">636.9</div></span>&nbsp;&nbsp;Övriga husdjur. Djur i fångeskap','636.9','Övriga husdjur. Djur i fångeskap','','','',false,true);
+d.add(278,208,'637','<div class="nodetag">637</div></span>&nbsp;&nbsp;Husdjursprodukter inklusive vilt','637','Husdjursprodukter inklusive vilt','','','',false,true);
+d.add(279,208,'638','<div class="nodetag">638</div></span>&nbsp;&nbsp;Förvaring, uppfödning och skötsel av insekter och andra leddjur','638','Förvaring, uppfödning och skötsel av insekter och andra leddjur','','','',false,true);
+d.add(280,208,'639','<div class="nodetag">639</div></span>&nbsp;&nbsp;Jakt. Fiske. Fiskodling','639','Jakt. Fiske. Fiskodling','','','',false,true);
+d.add(281,280,'639.1','<div class="nodetag">639.1</div></span>&nbsp;&nbsp;Jakt','639.1','Jakt','','','',false,true);
+d.add(282,280,'639.2','<div class="nodetag">639.2</div></span>&nbsp;&nbsp;Fiske','639.2','Fiske','','','',false,true);
+d.add(283,280,'639.3','<div class="nodetag">639.3</div></span>&nbsp;&nbsp;Fiskodling','639.3','Fiskodling','','','',false,true);
+d.add(284,280,'639.4','<div class="nodetag">639.4</div></span>&nbsp;&nbsp;Uppfödning av vattenlevande mollusker (skaldjur)','639.4','Uppfödning av vattenlevande mollusker (skaldjur)','','','',false,true);
+d.add(285,280,'639.5','<div class="nodetag">639.5</div></span>&nbsp;&nbsp;Uppfödning av vattenlevande kräftdjur','639.5','Uppfödning av vattenlevande kräftdjur','','','',false,true);
+d.add(286,280,'639.6','<div class="nodetag">639.6</div></span>&nbsp;&nbsp;Odling av övriga havsdjur och havsväxter','639.6','Odling av övriga havsdjur och havsväxter','','','',false,true);
+d.add(287,0,'64','<div class="nodetag">64</div></span>&nbsp;&nbsp;Huslig ekonomi. Hushåll','64','Huslig ekonomi. Hushåll','','','',false,true);
+d.add(288,287,'64.01/.08','<div class="nodetag">64.01/.08</div></span>&nbsp;&nbsp;Speciella tillägg för huslig ekonomi','64.01/.08','Speciella tillägg för huslig ekonomi','','','',false,true);
+d.add(289,288,'64.01','<div class="nodetag">64.01</div></span>&nbsp;&nbsp;Hushållet. Planering. Organisation','64.01','Hushållet. Planering. Organisation','','','',false,true);
+d.add(290,288,'64.048','<div class="nodetag">64.048</div></span>&nbsp;&nbsp;Studier av arbete och arbetsmetoder i hushållet','64.048','Studier av arbete och arbetsmetoder i hushållet','','','',false,true);
+d.add(291,288,'64.05','<div class="nodetag">64.05</div></span>&nbsp;&nbsp;Huslig ekonomi för bestämda personer','64.05','Huslig ekonomi för bestämda personer','','','',false,true);
+d.add(292,288,'64.06','<div class="nodetag">64.06</div></span>&nbsp;&nbsp;Husgeråd. Hushållsmaskiner','64.06','Husgeråd. Hushållsmaskiner','','','',false,true);
+d.add(293,288,'64.08','<div class="nodetag">64.08</div></span>&nbsp;&nbsp;Flyttningar','64.08','Flyttningar','','','',false,true);
+d.add(294,287,'640','<div class="nodetag">640</div></span>&nbsp;&nbsp;Hushållstyper','640','Hushållstyper','','','',false,true);
+d.add(295,287,'641/642','<div class="nodetag">641/642</div></span>&nbsp;&nbsp;Livsmedel. Matlagning. Maträtter. Måltider','641/642','Livsmedel. Matlagning. Maträtter. Måltider','','','',false,true);
+d.add(296,295,'641','<div class="nodetag">641</div></span>&nbsp;&nbsp;Livsmedel. Matlagning. Maträtter','641','Livsmedel. Matlagning. Maträtter','','','',false,true);
+d.add(297,295,'642','<div class="nodetag">642</div></span>&nbsp;&nbsp;Måltider. Dukning','642','Måltider. Dukning','','','',false,true);
+d.add(298,287,'643/645','<div class="nodetag">643/645</div></span>&nbsp;&nbsp;Bostad. Bostadens beslag och inredning','643/645','Bostad. Bostadens beslag och inredning','','','',false,true);
+d.add(299,298,'643','<div class="nodetag">643</div></span>&nbsp;&nbsp;Bostaden. Hemmet','643','Bostaden. Hemmet','','','',false,true);
+d.add(300,298,'644','<div class="nodetag">644</div></span>&nbsp;&nbsp;Installationer för hälsa och välbefinnande i boendet','644','Installationer för hälsa och välbefinnande i boendet','','','',false,true);
+d.add(301,300,'644.1','<div class="nodetag">644.1</div></span>&nbsp;&nbsp;Värme. Ventilation. Luftkonditionering','644.1','Värme. Ventilation. Luftkonditionering','','','',false,true);
+d.add(302,300,'644.3','<div class="nodetag">644.3</div></span>&nbsp;&nbsp;Belysning','644.3','Belysning','','','',false,true);
+d.add(303,300,'644.6','<div class="nodetag">644.6</div></span>&nbsp;&nbsp;Vattenförsörjning och sanitära installationer','644.6','Vattenförsörjning och sanitära installationer','','','',false,true);
+d.add(304,298,'645','<div class="nodetag">645</div></span>&nbsp;&nbsp;Möbler och heminredning','645','Möbler och heminredning','','','',false,true);
+d.add(305,287,'646/649','<div class="nodetag">646/649</div></span>&nbsp;&nbsp;Personliga behov. Hushållens hantering','646/649','Personliga behov. Hushållens hantering','','','',false,true);
+d.add(306,305,'646','<div class="nodetag">646</div></span>&nbsp;&nbsp;Kläder. Kroppsvård','646','Kläder. Kroppsvård','','','',false,true);
+d.add(307,306,'646.2','<div class="nodetag">646.2</div></span>&nbsp;&nbsp;Hemsömnad och lagning av kläder','646.2','Hemsömnad och lagning av kläder','','','',false,true);
+d.add(308,306,'646.4','<div class="nodetag">646.4</div></span>&nbsp;&nbsp;Klädespersedlar','646.4','Klädespersedlar','','','',false,true);
+d.add(309,306,'646.7','<div class="nodetag">646.7</div></span>&nbsp;&nbsp;Kroppsvård. Shönhetsvård. Tillbehör för på- och avklädning','646.7','Kroppsvård. Shönhetsvård. Tillbehör för på- och avklädning','','','',false,true);
+d.add(310,305,'648','<div class="nodetag">648</div></span>&nbsp;&nbsp;Tvätt. Tvättinredningar. Rengöring','648','Tvätt. Tvättinredningar. Rengöring','','','',false,true);
+d.add(311,305,'649','<div class="nodetag">649</div></span>&nbsp;&nbsp;Vård av barn, sjuka, gäster','649','Vård av barn, sjuka, gäster','','','',false,true);
+d.add(312,0,'65','<div class="nodetag">65</div></span>&nbsp;&nbsp;Företagsekonomi. Industriell organisation. Kommunikation','65','Företagsekonomi. Industriell organisation. Kommunikation','','','',false,true);
+d.add(313,312,'654','<div class="nodetag">654</div></span>&nbsp;&nbsp;Telekommunikation och telekontroll (organization, tjänster)','654','Telekommunikation och telekontroll (organization, tjänster)','','','',false,true);
+d.add(314,313,'654.1','<div class="nodetag">654.1</div></span>&nbsp;&nbsp;Telegrafi. Telefoni. Radio. Television','654.1','Telegrafi. Telefoni. Radio. Television','','','',false,true);
+d.add(315,313,'654.9','<div class="nodetag">654.9</div></span>&nbsp;&nbsp;Signaltjänster. Upplysningstjänster. Fjärrservice (telekontroll)','654.9','Signaltjänster. Upplysningstjänster. Fjärrservice (telekontroll)','','','',false,true);
+d.add(316,312,'655','<div class="nodetag">655</div></span>&nbsp;&nbsp;Grafisk industri. Förlag. Bokhandel','655','Grafisk industri. Förlag. Bokhandel','','','',false,true);
+d.add(317,316,'655.1','<div class="nodetag">655.1</div></span>&nbsp;&nbsp;Boktryckeri','655.1','Boktryckeri','','','',false,true);
+d.add(318,316,'655.4','<div class="nodetag">655.4</div></span>&nbsp;&nbsp;Förlagsverksamhet. Bokhandel','655.4','Förlagsverksamhet. Bokhandel','','','',false,true);
+d.add(319,312,'656','<div class="nodetag">656</div></span>&nbsp;&nbsp;Transportväsen. Postväsen','656','Transportväsen. Postväsen','','','',false,true);
+d.add(320,319,'656.1/.5','<div class="nodetag">656.1/.5</div></span>&nbsp;&nbsp;Landtransporter','656.1/.5','Landtransporter','','','',false,true);
+d.add(321,320,'656.1','<div class="nodetag">656.1</div></span>&nbsp;&nbsp;Gatu- och vägtrafik','656.1','Gatu- och vägtrafik','','','',false,true);
+d.add(322,320,'656.2','<div class="nodetag">656.2</div></span>&nbsp;&nbsp;Järnvägstransporter. Järnvägstrafik','656.2','Järnvägstransporter. Järnvägstrafik','','','',false,true);
+d.add(323,320,'656.4','<div class="nodetag">656.4</div></span>&nbsp;&nbsp;Transport med lätta järnvägar','656.4','Transport med lätta järnvägar','','','',false,true);
+d.add(324,320,'656.5','<div class="nodetag">656.5</div></span>&nbsp;&nbsp;Övriga landtransporter','656.5','Övriga landtransporter','','','',false,true);
+d.add(325,319,'656.6','<div class="nodetag">656.6</div></span>&nbsp;&nbsp;Sjötransporter','656.6','Sjötransporter','','','',false,true);
+d.add(326,319,'656.7','<div class="nodetag">656.7</div></span>&nbsp;&nbsp;Flygtransporter. Flygtrafik','656.7','Flygtransporter. Flygtrafik','','','',false,true);
+d.add(327,319,'656.8','<div class="nodetag">656.8</div></span>&nbsp;&nbsp;Postväsen','656.8','Postväsen','','','',false,true);
+d.add(328,312,'657','<div class="nodetag">657</div></span>&nbsp;&nbsp;Räkenskaper','657','Räkenskaper','','','',false,true);
+d.add(329,312,'658','<div class="nodetag">658</div></span>&nbsp;&nbsp;Företagsekonomi. Försäljning. Varudistribution','658','Företagsekonomi. Försäljning. Varudistribution','','','',false,true);
+d.add(330,329,'658.1','<div class="nodetag">658.1</div></span>&nbsp;&nbsp;Företagsformer. Finansiering','658.1','Företagsformer. Finansiering','','','',false,true);
+d.add(331,329,'658.2','<div class="nodetag">658.2</div></span>&nbsp;&nbsp;Anläggningar. Byggnader. Produktionsmedel','658.2','Anläggningar. Byggnader. Produktionsmedel','','','',false,true);
+d.add(332,329,'658.3','<div class="nodetag">658.3</div></span>&nbsp;&nbsp;Personal. Mänskliga relationer. Personaladministration','658.3','Personal. Mänskliga relationer. Personaladministration','','','',false,true);
+d.add(333,329,'658.5','<div class="nodetag">658.5</div></span>&nbsp;&nbsp;Produktionsteknik och planering. Design. Produktionsstyrning och kontroll','658.5','Produktionsteknik och planering. Design. Produktionsstyrning och kontroll','','','',false,true);
+d.add(334,329,'658.6','<div class="nodetag">658.6</div></span>&nbsp;&nbsp;Kommersiell organisation och praktik. Varor. Tjänster','658.6','Kommersiell organisation och praktik. Varor. Tjänster','','','',false,true);
+d.add(335,329,'658.7','<div class="nodetag">658.7</div></span>&nbsp;&nbsp;Inköp. Anskaffning. Lagerorganisation','658.7','Inköp. Anskaffning. Lagerorganisation','','','',false,true);
+d.add(336,329,'658.8','<div class="nodetag">658.8</div></span>&nbsp;&nbsp;Marknadsföring. Försäljning. Distribution','658.8','Marknadsföring. Försäljning. Distribution','','','',false,true);
+d.add(337,329,'658.9','<div class="nodetag">658.9</div></span>&nbsp;&nbsp;Andra kommersiella verksamheter','658.9','Andra kommersiella verksamheter','','','',false,true);
+d.add(338,312,'659','<div class="nodetag">659</div></span>&nbsp;&nbsp;Reklam. PR','659','Reklam. PR','','','',false,true);
+d.add(339,338,'659.1','<div class="nodetag">659.1</div></span>&nbsp;&nbsp;Publicitet. Reklam','659.1','Publicitet. Reklam','','','',false,true);
+d.add(340,338,'659.2','<div class="nodetag">659.2</div></span>&nbsp;&nbsp;Informationsarbete. Rådgivnings- och konsulttjänster','659.2','Informationsarbete. Rådgivnings- och konsulttjänster','','','',false,true);
+d.add(341,338,'659.3','<div class="nodetag">659.3</div></span>&nbsp;&nbsp;Masskommunikation. Konsumentupplysning','659.3','Masskommunikation. Konsumentupplysning','','','',false,true);
+d.add(342,338,'659.4','<div class="nodetag">659.4</div></span>&nbsp;&nbsp;PR','659.4','PR','','','',false,true);
+d.add(343,0,'66','<div class="nodetag">66</div></span>&nbsp;&nbsp;Kemisk teknik. Kemisk-teknisk industri','66','Kemisk teknik. Kemisk-teknisk industri','','','',false,true);
+d.add(344,343,'66.01/.09','<div class="nodetag">66.01/.09</div></span>&nbsp;&nbsp;Speciella tillägg för kemisk teknologi','66.01/.09','Speciella tillägg för kemisk teknologi','','','',false,true);
+d.add(345,344,'66.01','<div class="nodetag">66.01</div></span>&nbsp;&nbsp;Kemisk teknologi','66.01','Kemisk teknologi','','','',false,true);
+d.add(346,344,'66.02','<div class="nodetag">66.02</div></span>&nbsp;&nbsp;Förfaranden och anordningar för den kemiska industrin i allmänhet','66.02','Förfaranden och anordningar för den kemiska industrin i allmänhet','','','',false,true);
+d.add(347,344,'66.03','<div class="nodetag">66.03</div></span>&nbsp;&nbsp;Material, egenskaper, processer och utrustning','66.03','Material, egenskaper, processer och utrustning','','','',false,true);
+d.add(348,344,'66.04','<div class="nodetag">66.04</div></span>&nbsp;&nbsp;Värmebehandlingsmetoder och utrustning','66.04','Värmebehandlingsmetoder och utrustning','','','',false,true);
+d.add(349,344,'66.06','<div class="nodetag">66.06</div></span>&nbsp;&nbsp;Kemisk teknik av vätskor. Processer och utrustning för behandling av eller med vätskor','66.06','Kemisk teknik av vätskor. Processer och utrustning för behandling av eller med vätskor','','','',false,true);
+d.add(350,344,'66.07','<div class="nodetag">66.07</div></span>&nbsp;&nbsp;Kemisk teknologi av gaser','66.07','Kemisk teknologi av gaser','','','',false,true);
+d.add(351,344,'66.08','<div class="nodetag">66.08</div></span>&nbsp;&nbsp;Speciella fysikaliska och fysikalisk-kemiska arbetsmetoder. Fysiska och fysikalisk-kemiska effekter på kemiska processer','66.08','Speciella fysikaliska och fysikalisk-kemiska arbetsmetoder. Fysiska och fysikalisk-kemiska effekter på kemiska processer','','','',false,true);
+d.add(352,343,'661','<div class="nodetag">661</div></span>&nbsp;&nbsp;Kemiska produkter i egentlig bemärkelse','661','Kemiska produkter i egentlig bemärkelse','','','',false,true);
+d.add(353,352,'661.1','<div class="nodetag">661.1</div></span>&nbsp;&nbsp;Speciella kemiska industrier','661.1','Speciella kemiska industrier','','','',false,true);
+d.add(354,352,'661.2','<div class="nodetag">661.2</div></span>&nbsp;&nbsp;Produktion av svavel och dess derivat','661.2','Produktion av svavel och dess derivat','','','',false,true);
+d.add(355,352,'661.3','<div class="nodetag">661.3</div></span>&nbsp;&nbsp;Alkalier, natrium- och kaliumkarbonatindustri','661.3','Alkalier, natrium- och kaliumkarbonatindustri','','','',false,true);
+d.add(356,352,'661.4','<div class="nodetag">661.4</div></span>&nbsp;&nbsp;Halogener, halogenföreningar, oorganiska perföreningar','661.4','Halogener, halogenföreningar, oorganiska perföreningar','','','',false,true);
+d.add(357,352,'661.5','<div class="nodetag">661.5</div></span>&nbsp;&nbsp;Kväveföreningar. Fixering av kväve. Kväveindustrin i allmänhet','661.5','Kväveföreningar. Fixering av kväve. Kväveindustrin i allmänhet','','','',false,true);
+d.add(358,352,'661.6','<div class="nodetag">661.6</div></span>&nbsp;&nbsp;Produktion av olika icke-metaller och semi-metaller och ders föreningar','661.6','Produktion av olika icke-metaller och semi-metaller och ders föreningar','','','',false,true);
+d.add(359,352,'661.7','<div class="nodetag">661.7</div></span>&nbsp;&nbsp;Produktion av organiska ämnen. Organiska ämnen','661.7','Produktion av organiska ämnen. Organiska ämnen','','','',false,true);
+d.add(360,352,'661.8','<div class="nodetag">661.8</div></span>&nbsp;&nbsp;Metallernas föreningar i allmänhet. Salter. Mineralfärger','661.8','Metallernas föreningar i allmänhet. Salter. Mineralfärger','','','',false,true);
+d.add(361,352,'661.9','<div class="nodetag">661.9</div></span>&nbsp;&nbsp;Gasproduktion','661.9','Gasproduktion','','','',false,true);
+d.add(362,343,'662','<div class="nodetag">662</div></span>&nbsp;&nbsp;Explosivämnen. Bränslen','662','Explosivämnen. Bränslen','','','',false,true);
+d.add(363,362,'662.1/.4','<div class="nodetag">662.1/.4</div></span>&nbsp;&nbsp;Explosivämnen','662.1/.4','Explosivämnen','','','',false,true);
+d.add(364,363,'662.1','<div class="nodetag">662.1</div></span>&nbsp;&nbsp;Fyrverkeri. Pyroteknik och närbesläktad teknik','662.1','Fyrverkeri. Pyroteknik och närbesläktad teknik','','','',false,true);
+d.add(365,363,'662.2','<div class="nodetag">662.2</div></span>&nbsp;&nbsp;Sprängämnen','662.2','Sprängämnen','','','',false,true);
+d.add(366,363,'662.3','<div class="nodetag">662.3</div></span>&nbsp;&nbsp;Drivämnen. Krut','662.3','Drivämnen. Krut','','','',false,true);
+d.add(367,363,'662.4','<div class="nodetag">662.4</div></span>&nbsp;&nbsp;Tändämnen. Tändmedel','662.4','Tändämnen. Tändmedel','','','',false,true);
+d.add(368,362,'662.5','<div class="nodetag">662.5</div></span>&nbsp;&nbsp;Elddon. Tändstickor','662.5','Elddon. Tändstickor','','','',false,true);
+d.add(369,362,'662.6/.9','<div class="nodetag">662.6/.9</div></span>&nbsp;&nbsp;Värmeteknik. Bränsleekonomi. Bränslen. Eldning','662.6/.9','Värmeteknik. Bränsleekonomi. Bränslen. Eldning','','','',false,true);
+d.add(370,369,'662.6','<div class="nodetag">662.6</div></span>&nbsp;&nbsp;Värmeteknik i allmänhet. Förbränning. Naturliga bränslen','662.6','Värmeteknik i allmänhet. Förbränning. Naturliga bränslen','','','',false,true);
+d.add(371,369,'662.7','<div class="nodetag">662.7</div></span>&nbsp;&nbsp;Artificiella bränslen. Termiska och kemiska','662.7','Artificiella bränslen. Termiska och kemiska','','','',false,true);
+d.add(372,369,'662.8','<div class="nodetag">662.8</div></span>&nbsp;&nbsp;Bearbetning av fasta bränslen. Brikettering','662.8','Bearbetning av fasta bränslen. Brikettering','','','',false,true);
+d.add(373,369,'662.9','<div class="nodetag">662.9</div></span>&nbsp;&nbsp;Eldningsteknik','662.9','Eldningsteknik','','','',false,true);
+d.add(374,343,'663','<div class="nodetag">663</div></span>&nbsp;&nbsp;Teknisk mikrobiologi. Jäsningsindustri.','663','Teknisk mikrobiologi. Jäsningsindustri.','','','',false,true);
+d.add(375,374,'663.1','<div class="nodetag">663.1</div></span>&nbsp;&nbsp;Mikrobiologiska industrier. Vetenskap och teknik för tillämpad mikrobiologi. Tillämpad mykologi','663.1','Mikrobiologiska industrier. Vetenskap och teknik för tillämpad mikrobiologi. Tillämpad mykologi','','','',false,true);
+d.add(376,374,'663.2','<div class="nodetag">663.2</div></span>&nbsp;&nbsp;Vin. Vinberedning. Vinkännedom','663.2','Vin. Vinberedning. Vinkännedom','','','',false,true);
+d.add(377,374,'663.3','<div class="nodetag">663.3</div></span>&nbsp;&nbsp;Fruktviner. Cider','663.3','Fruktviner. Cider','','','',false,true);
+d.add(378,374,'663.4','<div class="nodetag">663.4</div></span>&nbsp;&nbsp;Öl. Bryggerier. Mälterier','663.4','Öl. Bryggerier. Mälterier','','','',false,true);
+d.add(379,374,'663.5','<div class="nodetag">663.5</div></span>&nbsp;&nbsp;Alkohol. Brännvin. Brännerier','663.5','Alkohol. Brännvin. Brännerier','','','',false,true);
+d.add(380,374,'663.6','<div class="nodetag">663.6</div></span>&nbsp;&nbsp;Vatten för drycker och för speciella industriella ändamål. Mineralvatten. Medicinskt vatten. Ätbart is','663.6','Vatten för drycker och för speciella industriella ändamål. Mineralvatten. Medicinskt vatten. Ätbart is','','','',false,true);
+d.add(381,374,'663.8','<div class="nodetag">663.8</div></span>&nbsp;&nbsp;Blandade drycker. Fruktsafter. Likörer.','663.8','Blandade drycker. Fruktsafter. Likörer.','','','',false,true);
+d.add(382,374,'663.9','<div class="nodetag">663.9</div></span>&nbsp;&nbsp;Njutningsmedel. Choklad. Kakao. Kaffe. Te. Tobak','663.9','Njutningsmedel. Choklad. Kakao. Kaffe. Te. Tobak','','','',false,true);
+d.add(383,343,'664','<div class="nodetag">664</div></span>&nbsp;&nbsp;Födoämnesindustrier. Konservering','664','Födoämnesindustrier. Konservering','','','',false,true);
+d.add(384,383,'664.1','<div class="nodetag">664.1</div></span>&nbsp;&nbsp;Socker. Melass. Glukos mm.','664.1','Socker. Melass. Glukos mm.','','','',false,true);
+d.add(385,383,'664.2','<div class="nodetag">664.2</div></span>&nbsp;&nbsp;Stärkelse','664.2','Stärkelse','','','',false,true);
+d.add(386,383,'664.3','<div class="nodetag">664.3</div></span>&nbsp;&nbsp;Matolja. Matfett. Margarin. Äggviteämnen','664.3','Matolja. Matfett. Margarin. Äggviteämnen','','','',false,true);
+d.add(387,383,'664.4','<div class="nodetag">664.4</div></span>&nbsp;&nbsp;Mineraliska födoämnen','664.4','Mineraliska födoämnen','','','',false,true);
+d.add(388,383,'664.5','<div class="nodetag">664.5</div></span>&nbsp;&nbsp;Kryddor. Smaktillsatser','664.5','Kryddor. Smaktillsatser','','','',false,true);
+d.add(389,383,'664.6/.7','<div class="nodetag">664.6/.7</div></span>&nbsp;&nbsp;Spannmålets användning','664.6/.7','Spannmålets användning','','','',false,true);
+d.add(390,389,'664.6','<div class="nodetag">664.6</div></span>&nbsp;&nbsp;Bakning. Bageriprodukter','664.6','Bakning. Bageriprodukter','','','',false,true);
+d.add(391,389,'664.7','<div class="nodetag">664.7</div></span>&nbsp;&nbsp;Kvarnindustri. Kvarnprodukter','664.7','Kvarnindustri. Kvarnprodukter','','','',false,true);
+d.add(392,383,'664.8/.9','<div class="nodetag">664.8/.9</div></span>&nbsp;&nbsp;Konserverinsteknik','664.8/.9','Konserverinsteknik','','','',false,true);
+d.add(393,343,'665','<div class="nodetag">665</div></span>&nbsp;&nbsp;Oljor. Fetter. Vaxer','665','Oljor. Fetter. Vaxer','','','',false,true);
+d.add(394,393,'665.1','<div class="nodetag">665.1</div></span>&nbsp;&nbsp;Allmänt om oljor, fetter, vaxer och därav framställda produkter','665.1','Allmänt om oljor, fetter, vaxer och därav framställda produkter','','','',false,true);
+d.add(395,393,'665.2','<div class="nodetag">665.2</div></span>&nbsp;&nbsp;Animaliska oljor, fetter och vaxer','665.2','Animaliska oljor, fetter och vaxer','','','',false,true);
+d.add(396,393,'665.3','<div class="nodetag">665.3</div></span>&nbsp;&nbsp;Vegetabiliska oljor, fetter och vaxer','665.3','Vegetabiliska oljor, fetter och vaxer','','','',false,true);
+d.add(397,393,'665.5','<div class="nodetag">665.5</div></span>&nbsp;&nbsp;Eteriska oljer. Parfymeri. Kosmetiska produkter','665.5','Eteriska oljer. Parfymeri. Kosmetiska produkter','','','',false,true);
+d.add(398,393,'665.6/.7','<div class="nodetag">665.6/.7</div></span>&nbsp;&nbsp;Mineraloljeindustrin, dess processer och produkter','665.6/.7','Mineraloljeindustrin, dess processer och produkter','','','',false,true);
+d.add(399,398,'665.6','<div class="nodetag">665.6</div></span>&nbsp;&nbsp;Mineraloljeindustrin, dess processer','665.6','Mineraloljeindustrin, dess processer','','','',false,true);
+d.add(400,398,'665.7','<div class="nodetag">665.7</div></span>&nbsp;&nbsp;Mineraloljeindustrin, produkter','665.7','Mineraloljeindustrin, produkter','','','',false,true);
+d.add(401,393,'665.9','<div class="nodetag">665.9</div></span>&nbsp;&nbsp;Diverse organisk-kemiska industrier','665.9','Diverse organisk-kemiska industrier','','','',false,true);
+d.add(402,343,'666','<div class="nodetag">666</div></span>&nbsp;&nbsp;Glas. Emalj. Keramik. Konststen. Cement','666','Glas. Emalj. Keramik. Konststen. Cement','','','',false,true);
+d.add(403,402,'666.1','<div class="nodetag">666.1</div></span>&nbsp;&nbsp;Glasindustrin. Glasteknik. Glass tillverkning i allmänhet. Glas i allmän bemärkelse','666.1','Glasindustrin. Glasteknik. Glass tillverkning i allmänhet. Glas i allmän bemärkelse','','','',false,true);
+d.add(404,402,'666.3/.7','<div class="nodetag">666.3/.7</div></span>&nbsp;&nbsp;Keramik','666.3/.7','Keramik','','','',false,true);
+d.add(405,404,'666.3','<div class="nodetag">666.3</div></span>&nbsp;&nbsp;Keramik i allmänhet','666.3','Keramik i allmänhet','','','',false,true);
+d.add(406,404,'666.5','<div class="nodetag">666.5</div></span>&nbsp;&nbsp;Porslin','666.5','Porslin','','','',false,true);
+d.add(407,404,'666.6','<div class="nodetag">666.6</div></span>&nbsp;&nbsp;Stengods','666.6','Stengods','','','',false,true);
+d.add(408,404,'666.7','<div class="nodetag">666.7</div></span>&nbsp;&nbsp;Grovkeramik. Eldfast keramik. Hårda keramiska material. Blandningar av keramik och andra material','666.7','Grovkeramik. Eldfast keramik. Hårda keramiska material. Blandningar av keramik och andra material','','','',false,true);
+d.add(409,402,'666.9','<div class="nodetag">666.9</div></span>&nbsp;&nbsp;Kalk. Murbruk. Cement. Kitt. Betong','666.9','Kalk. Murbruk. Cement. Kitt. Betong','','','',false,true);
+d.add(410,343,'667','<div class="nodetag">667</div></span>&nbsp;&nbsp;Färgtekniska industrier','667','Färgtekniska industrier','','','',false,true);
+d.add(411,410,'667.2','<div class="nodetag">667.2</div></span>&nbsp;&nbsp;Färgämnesindustri. Tillverkning och användning av färgämnen','667.2','Färgämnesindustri. Tillverkning och användning av färgämnen','','','',false,true);
+d.add(412,410,'667.4','<div class="nodetag">667.4</div></span>&nbsp;&nbsp;Skrivbläck','667.4','Skrivbläck','','','',false,true);
+d.add(413,410,'667.5','<div class="nodetag">667.5</div></span>&nbsp;&nbsp;Trycksvärta. Tryckfärger. Litografisk bläck. Kritor. Skriv- och ritpennor. Färgpennor','667.5','Trycksvärta. Tryckfärger. Litografisk bläck. Kritor. Skriv- och ritpennor. Färgpennor','','','',false,true);
+d.add(414,410,'667.6','<div class="nodetag">667.6</div></span>&nbsp;&nbsp;Beläggningar och beläggningsteknik. Färger. Lacker','667.6','Beläggningar och beläggningsteknik. Färger. Lacker','','','',false,true);
+d.add(415,410,'667.7','<div class="nodetag">667.7</div></span>&nbsp;&nbsp;Färgning med andra metoder än målning och tryckning','667.7','Färgning med andra metoder än målning och tryckning','','','',false,true);
+d.add(416,343,'669','<div class="nodetag">669</div></span>&nbsp;&nbsp;Metallurgi','669','Metallurgi','','','',false,true);
+d.add(417,416,'669.1','<div class="nodetag">669.1</div></span>&nbsp;&nbsp;Järnets metallurgi. Järn och stål','669.1','Järnets metallurgi. Järn och stål','','','',false,true);
+d.add(418,416,'669.2','<div class="nodetag">669.2</div></span>&nbsp;&nbsp;Ickejärnmetallerna och deras metallurgi','669.2','Ickejärnmetallerna och deras metallurgi','','','',false,true);
+d.add(419,0,'67','<div class="nodetag">67</div></span>&nbsp;&nbsp;Diverse industrier och hantverk','67','Diverse industrier och hantverk','','','',false,true);
+d.add(420,419,'671','<div class="nodetag">671</div></span>&nbsp;&nbsp;Föremål av ädla metaller och ädelstenar','671','Föremål av ädla metaller och ädelstenar','','','',false,true);
+d.add(421,420,'671.1','<div class="nodetag">671.1</div></span>&nbsp;&nbsp;Juvelerarvaror. Guld- och silvervaror. Smycken','671.1','Juvelerarvaror. Guld- och silvervaror. Smycken','','','',false,true);
+d.add(422,420,'671.4','<div class="nodetag">671.4</div></span>&nbsp;&nbsp;Framställning av mynt och medaljer','671.4','Framställning av mynt och medaljer','','','',false,true);
+d.add(423,419,'672','<div class="nodetag">672</div></span>&nbsp;&nbsp;Järn- och stålmanufaktur i allmänhet','672','Järn- och stålmanufaktur i allmänhet','','','',false,true);
+d.add(424,419,'673','<div class="nodetag">673</div></span>&nbsp;&nbsp;Föremål av diverse metaller','673','Föremål av diverse metaller','','','',false,true);
+d.add(425,419,'674','<div class="nodetag">674</div></span>&nbsp;&nbsp;Timmer och trävaruindustrin','674','Timmer och trävaruindustrin','','','',false,true);
+d.add(426,419,'675','<div class="nodetag">675</div></span>&nbsp;&nbsp;Läderindustri (inklusive päls-och skinnimitationer)','675','Läderindustri (inklusive päls-och skinnimitationer)','','','',false,true);
+d.add(427,419,'676','<div class="nodetag">676</div></span>&nbsp;&nbsp;Massa-, pappers och kartongindustri','676','Massa-, pappers och kartongindustri','','','',false,true);
+d.add(428,419,'677','<div class="nodetag">677</div></span>&nbsp;&nbsp;Textilindustri','677','Textilindustri','','','',false,true);
+d.add(429,428,'677.1/.5','<div class="nodetag">677.1/.5</div></span>&nbsp;&nbsp;Textilfibrer','677.1/.5','Textilfibrer','','','',false,true);
+d.add(430,429,'677.1/.3','<div class="nodetag">677.1/.3</div></span>&nbsp;&nbsp;Naturliga fibrer','677.1/.3','Naturliga fibrer','','','',false,true);
+d.add(431,430,'677.1/.2','<div class="nodetag">677.1/.2</div></span>&nbsp;&nbsp;Växstfibrer','677.1/.2','Växstfibrer','','','',false,true);
+d.add(432,431,'677.1','<div class="nodetag">677.1</div></span>&nbsp;&nbsp;Bastfibrer (fibrer från dicotyledonstjälkar). Hårda fibrer (fibrer från monocotyledonblad och frukter)','677.1','Bastfibrer (fibrer från dicotyledonstjälkar). Hårda fibrer (fibrer från monocotyledonblad och frukter)','','','',false,true);
+d.add(433,431,'677.2','<div class="nodetag">677.2</div></span>&nbsp;&nbsp;Vegetabiliska hårstrån','677.2','Vegetabiliska hårstrån','','','',false,true);
+d.add(434,430,'677.3','<div class="nodetag">677.3</div></span>&nbsp;&nbsp;Djurfibrer','677.3','Djurfibrer','','','',false,true);
+d.add(435,429,'677.4','<div class="nodetag">677.4</div></span>&nbsp;&nbsp;Konstfibrer','677.4','Konstfibrer','','','',false,true);
+d.add(436,429,'677.5','<div class="nodetag">677.5</div></span>&nbsp;&nbsp;Mineralfibrer. Metallfibrer. Material för flätarbeten. Gummitråd. Pappersgarn','677.5','Mineralfibrer. Metallfibrer. Material för flätarbeten. Gummitråd. Pappersgarn','','','',false,true);
+d.add(437,419,'678','<div class="nodetag">678</div></span>&nbsp;&nbsp;Industri baserad på makromolekulära ämnen. Gummiindustri. Plastindustri','678','Industri baserad på makromolekulära ämnen. Gummiindustri. Plastindustri','','','',false,true);
+d.add(438,437,'678.4','<div class="nodetag">678.4</div></span>&nbsp;&nbsp;Gummi och andra naturliga polymera material som endast innehåller väte och kol','678.4','Gummi och andra naturliga polymera material som endast innehåller väte och kol','','','',false,true);
+d.add(439,437,'678.5','<div class="nodetag">678.5</div></span>&nbsp;&nbsp;Plaster, särskilt halvsyntetiska plaster','678.5','Plaster, särskilt halvsyntetiska plaster','','','',false,true);
+d.add(440,437,'678.6','<div class="nodetag">678.6</div></span>&nbsp;&nbsp;Syntetiska polykondensationsprodukter. Polykondensat. Konstfibrer etc','678.6','Syntetiska polykondensationsprodukter. Polykondensat. Konstfibrer etc','','','',false,true);
+d.add(441,437,'678.7','<div class="nodetag">678.7</div></span>&nbsp;&nbsp;Syntetiska polymerisationsprodukter. Syntetiska gummin','678.7','Syntetiska polymerisationsprodukter. Syntetiska gummin','','','',false,true);
+d.add(442,419,'679','<div class="nodetag">679</div></span>&nbsp;&nbsp;Industrier baserade på olika bearbetbara material','679','Industrier baserade på olika bearbetbara material','','','',false,true);
+d.add(443,442,'679.7','<div class="nodetag">679.7</div></span>&nbsp;&nbsp;Kabel- och repindustri','679.7','Kabel- och repindustri','','','',false,true);
+d.add(444,442,'679.8','<div class="nodetag">679.8</div></span>&nbsp;&nbsp;Stenteknologi. Stenindustri','679.8','Stenteknologi. Stenindustri','','','',false,true);
+d.add(445,442,'679.9','<div class="nodetag">679.9</div></span>&nbsp;&nbsp;Olika bearbetbara naturprodukter','679.9','Olika bearbetbara naturprodukter','','','',false,true);
+d.add(446,0,'68','<div class="nodetag">68</div></span>&nbsp;&nbsp;Industrier, hantverk och handel för färdiga eller monterade artiklar','68','Industrier, hantverk och handel för färdiga eller monterade artiklar','','','',false,true);
+d.add(447,446,'681','<div class="nodetag">681</div></span>&nbsp;&nbsp;Finmekanik','681','Finmekanik','','','',false,true);
+d.add(448,447,'681.1','<div class="nodetag">681.1</div></span>&nbsp;&nbsp;Apparater med hjul eller motordrivna mekanismer','681.1','Apparater med hjul eller motordrivna mekanismer','','','',false,true);
+d.add(449,447,'681.2','<div class="nodetag">681.2</div></span>&nbsp;&nbsp;Instrumenttillverkning. Instrumentering. Mätinstrument och deras tillverkning. Balansvåg. Vägningsanordningar','681.2','Instrumenttillverkning. Instrumentering. Mätinstrument och deras tillverkning. Balansvåg. Vägningsanordningar','','','',false,true);
+d.add(450,447,'681.5','<div class="nodetag">681.5</div></span>&nbsp;&nbsp;Reglerteknik. Automatisk styrning','681.5','Reglerteknik. Automatisk styrning','','','',false,true);
+d.add(451,447,'681.6','<div class="nodetag">681.6</div></span>&nbsp;&nbsp;Maskiner och utrustning för grafisk reproduktion','681.6','Maskiner och utrustning för grafisk reproduktion','','','',false,true);
+d.add(452,447,'681.7','<div class="nodetag">681.7</div></span>&nbsp;&nbsp;Optisk apparatur. Optisk teknik','681.7','Optisk apparatur. Optisk teknik','','','',false,true);
+d.add(453,447,'681.8','<div class="nodetag">681.8</div></span>&nbsp;&nbsp;Teknisk akustik','681.8','Teknisk akustik','','','',false,true);
+d.add(454,446,'682','<div class="nodetag">682</div></span>&nbsp;&nbsp;Smideshantverk. Hovslageri','682','Smideshantverk. Hovslageri','','','',false,true);
+d.add(455,454,'682.1','<div class="nodetag">682.1</div></span>&nbsp;&nbsp;Hovslageri','682.1','Hovslageri','','','',false,true);
+d.add(456,454,'682.3','<div class="nodetag">682.3</div></span>&nbsp;&nbsp;Verktygssmide. Vassverktygssmide','682.3','Verktygssmide. Vassverktygssmide','','','',false,true);
+d.add(457,454,'682.5','<div class="nodetag">682.5</div></span>&nbsp;&nbsp;Möbelslag','682.5','Möbelslag','','','',false,true);
+d.add(458,454,'682.6','<div class="nodetag">682.6</div></span>&nbsp;&nbsp;Smide','682.6','Smide','','','',false,true);
+d.add(459,446,'683','<div class="nodetag">683</div></span>&nbsp;&nbsp;Järnvaror. Hårdvaror. Låssmide. Förslutningar för flaskor o.dyj. Lamptillverkning. Uppvärmningsanordningar','683','Järnvaror. Hårdvaror. Låssmide. Förslutningar för flaskor o.dyj. Lamptillverkning. Uppvärmningsanordningar','','','',false,true);
+d.add(460,446,'684','<div class="nodetag">684</div></span>&nbsp;&nbsp;Möbelsnickeri och likartade industrier. Möbeltillverkning. Stoppning','684','Möbelsnickeri och likartade industrier. Möbeltillverkning. Stoppning','','','',false,true);
+d.add(461,460,'684.4','<div class="nodetag">684.4</div></span>&nbsp;&nbsp;Möbler. Design och tillverkning','684.4','Möbler. Design och tillverkning','','','',false,true);
+d.add(462,460,'684.6','<div class="nodetag">684.6</div></span>&nbsp;&nbsp;Finsnickeri. Fanérarbeten. Relief','684.6','Finsnickeri. Fanérarbeten. Relief','','','',false,true);
+d.add(463,460,'684.7','<div class="nodetag">684.7</div></span>&nbsp;&nbsp;Tapetserararbeten. Möbelstoppning. Dekorationsarbeten','684.7','Tapetserararbeten. Möbelstoppning. Dekorationsarbeten','','','',false,true);
+d.add(464,446,'685','<div class="nodetag">685</div></span>&nbsp;&nbsp;Sadelmakeri. Skomakeri. Handskmakeri. Reseffekter. Artiklar för sport och spel','685','Sadelmakeri. Skomakeri. Handskmakeri. Reseffekter. Artiklar för sport och spel','','','',false,true);
+d.add(465,464,'685.1','<div class="nodetag">685.1</div></span>&nbsp;&nbsp;Sadelmakeri. Tillverkning av seldon','685.1','Sadelmakeri. Tillverkning av seldon','','','',false,true);
+d.add(466,464,'685.2','<div class="nodetag">685.2</div></span>&nbsp;&nbsp;Utrustningsdetaljer, huvudsakligen av läder','685.2','Utrustningsdetaljer, huvudsakligen av läder','','','',false,true);
+d.add(467,464,'685.3','<div class="nodetag">685.3</div></span>&nbsp;&nbsp;Skomakeri. Olika redskap för förflyttning','685.3','Skomakeri. Olika redskap för förflyttning','','','',false,true);
+d.add(468,464,'685.4','<div class="nodetag">685.4</div></span>&nbsp;&nbsp;Handskmakeri','685.4','Handskmakeri','','','',false,true);
+d.add(469,464,'685.5','<div class="nodetag">685.5</div></span>&nbsp;&nbsp;Reseffekter. Campingutrustning','685.5','Reseffekter. Campingutrustning','','','',false,true);
+d.add(470,464,'685.6','<div class="nodetag">685.6</div></span>&nbsp;&nbsp;Sportartiklar. Gymnastikredskap','685.6','Sportartiklar. Gymnastikredskap','','','',false,true);
+d.add(471,464,'685.7','<div class="nodetag">685.7</div></span>&nbsp;&nbsp;Redskap för bergsbestigning. Simutrustning','685.7','Redskap för bergsbestigning. Simutrustning','','','',false,true);
+d.add(472,464,'685.8','<div class="nodetag">685.8</div></span>&nbsp;&nbsp;Lek- och spelartiklar','685.8','Lek- och spelartiklar','','','',false,true);
+d.add(473,446,'686','<div class="nodetag">686</div></span>&nbsp;&nbsp;Bokbinderi. Metallisering. Spegeltillverkning. Skriv- och kontorsmateriel','686','Bokbinderi. Metallisering. Spegeltillverkning. Skriv- och kontorsmateriel','','','',false,true);
+d.add(474,446,'687','<div class="nodetag">687</div></span>&nbsp;&nbsp;Bekädnadsindustri. Toalettartiklar','687','Bekädnadsindustri. Toalettartiklar','','','',false,true);
+d.add(475,474,'687.1','<div class="nodetag">687.1</div></span>&nbsp;&nbsp;Skrädderiarbete. Kläder i allmänhet','687.1','Skrädderiarbete. Kläder i allmänhet','','','',false,true);
+d.add(476,474,'687.2','<div class="nodetag">687.2</div></span>&nbsp;&nbsp;Linne. Underkläder','687.2','Linne. Underkläder','','','',false,true);
+d.add(477,474,'687.3','<div class="nodetag">687.3</div></span>&nbsp;&nbsp;Trikåvaror. Halsdukar. Hängslen. Skärp','687.3','Trikåvaror. Halsdukar. Hängslen. Skärp','','','',false,true);
+d.add(478,474,'687.4','<div class="nodetag">687.4</div></span>&nbsp;&nbsp;Huvudbonader. Hattmakeri','687.4','Huvudbonader. Hattmakeri','','','',false,true);
+d.add(479,474,'687.5','<div class="nodetag">687.5</div></span>&nbsp;&nbsp;Skönhetsvård','687.5','Skönhetsvård','','','',false,true);
+d.add(480,474,'687.8','<div class="nodetag">687.8</div></span>&nbsp;&nbsp;Konstläderindustri','687.8','Konstläderindustri','','','',false,true);
+d.add(481,474,'687.9','<div class="nodetag">687.9</div></span>&nbsp;&nbsp;Borstbinderi. Borstar. Penslar','687.9','Borstbinderi. Borstar. Penslar','','','',false,true);
+d.add(482,446,'688','<div class="nodetag">688</div></span>&nbsp;&nbsp;Galanterivaror. Leksaker. Dekorationsartiklar','688','Galanterivaror. Leksaker. Dekorationsartiklar','','','',false,true);
+d.add(483,482,'688.7','<div class="nodetag">688.7</div></span>&nbsp;&nbsp;Leksaker. Förströelseartiklar, skämtartiklar. Dekorationer','688.7','Leksaker. Förströelseartiklar, skämtartiklar. Dekorationer','','','',false,true);
+d.add(484,446,'689','<div class="nodetag">689</div></span>&nbsp;&nbsp;Tekniskt hobbyarbete','689','Tekniskt hobbyarbete','','','',false,true);
+d.add(485,0,'69','<div class="nodetag">69</div></span>&nbsp;&nbsp;Husbyggnadsverksamhet','69','Husbyggnadsverksamhet','','','',false,true);
+d.add(486,485,'691','<div class="nodetag">691</div></span>&nbsp;&nbsp;Byggmaterial. Byggkomponenter','691','Byggmaterial. Byggkomponenter','','','',false,true);
+d.add(487,485,'692','<div class="nodetag">692</div></span>&nbsp;&nbsp;Strukturella delag och byggnadselement','692','Strukturella delag och byggnadselement','','','',false,true);
+d.add(488,485,'693','<div class="nodetag">693</div></span>&nbsp;&nbsp;Murning, betonggjutning och liknande arbeten','693','Murning, betonggjutning och liknande arbeten','','','',false,true);
+d.add(489,485,'694','<div class="nodetag">694</div></span>&nbsp;&nbsp;Träbyggande. Snickeri. Sammanfogning','694','Träbyggande. Snickeri. Sammanfogning','','','',false,true);
+d.add(490,485,'696','<div class="nodetag">696</div></span>&nbsp;&nbsp;Installationsarbeten i byggnader','696','Installationsarbeten i byggnader','','','',false,true);
+d.add(491,485,'697','<div class="nodetag">697</div></span>&nbsp;&nbsp;Uppvärmning, ventilation och luftkonditionering av byggnader','697','Uppvärmning, ventilation och luftkonditionering av byggnader','','','',false,true);
+d.add(492,485,'698','<div class="nodetag">698</div></span>&nbsp;&nbsp;Efterbehandling och inredning','698','Efterbehandling och inredning','','','',false,true);
+d.config.useSelection = false;
+d.config.inOrder = true;
+d.config.useIcons = false;
+document.write(d);
+//-->
+</script>
+</div>
+</div><div id="expandbox" onclick="expandbox(); return false;">&nbsp;</div>
+<div id="recordbox" class="debugbkg">
+<div class="fronthint">klick över en klass till vänster för att visa alla underavdelningar</div>
+</div>
+
+        <div id="footer">
+            <div class="footersectionleft">
+                The UDC Summary (UDCS) provides a selection of around 2,600 classes from the whole scheme which comprises more than 70,000 entries.
+                Please send questions and suggestions to <a href="mailto:udcs@udcc.org?subject=UDC Summary Enquiry">udcs@udcc.org</a><br><br>
+	            <p>
+		            The data provided in this Summary is released under the <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative Commons Attribution Share Alike 3.0 license</a> <a href="../about.htm">[more]</a>
+	            </p>
+            </div>
+            <div class="footermiddle">
+                <a href="http://www.udcc.org"><img src="../images/udclogowhite.png" border="0"></a>
+            </div>
+			<div class="footerright">
+                For complete UDC schedules see <a href="http://www.udc-hub.com/">UDC Online Hub</a><br/><a href="http://www.udc-hub.com/"><img width="60" height="35" src="../images/udclogo.png"/></a>
+
+			</div>
+        </div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-13138465-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>

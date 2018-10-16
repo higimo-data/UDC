@@ -1,0 +1,654 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>UDC Summary</title>
+    <link rel="stylesheet" href="../reset.css" type="text/css" />
+    <link rel="stylesheet" href="../udc2000.css" type="text/css" />
+	    <link rel="StyleSheet" href="dtree2.css" type="text/css" />
+	    <script type="text/javascript" src="dtree.js"></script>
+	    <script type="text/javascript" src="udcdisplay_9.js"></script>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+</head>
+
+<body >
+<div id="centercontainer" class="debugbkg">
+    <div id="titlebox" class="debugbkg">
+		<div id="rightbox">
+        	<div id="languagecount">57 languages</div>
+            <div id="languagebox">
+            <select id="selectedlang" style="vertical-align: middle;" onchange="location = this.options[this.selectedIndex].value;">
+			<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=af&pr=Y">Afrikaans (Afrikaans) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sq&pr=Y">Albanian (Shqip) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=anp&pr=Y">Angika (अंगिका) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ar&pr=Y">Arabic (العربية) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hy&pr=Y">Armenian (հայերեն) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=eu&pr=Y">Basque (Euskara) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=be&pr=Y">Belarusian (Беларуская) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bn&pr=Y" selected>Bengali (বাংলা) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bho&pr=Y">Bhojpuri (भोजपुरी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bg&pr=Y">Bulgarian (Български) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ca&pr=Y">Catalan (Català) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=chi&pr=Y">Chinese (中文) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hr&pr=Y">Croatian (Hrvatski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=cs&pr=Y">Czech (Čeština) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=da&pr=Y">Danish (Dansk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=nl&pr=Y">Dutch (Nederlands) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=en&pr=Y">English (English) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=eo&pr=Y">Esperanto (Esperanto) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=et&pr=Y">Estonian (Eesti) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=fi&pr=Y">Finnish (Suomi) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=fr&pr=Y">French (Français) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=gl&pr=Y">Galician (Galego) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ka&pr=Y">Georgian (ქართული) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=de&pr=Y">German (Deutsch) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=el&pr=Y">Greek (Ελληνικά) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hi&pr=Y">Hindi (हिन्दी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hu&pr=Y">Hungarian (Magyar) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=id&pr=Y">Indonesian (Bahasa Ind) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ga&pr=Y">Irish (Gaeilge) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=it&pr=Y">Italian (Italiano) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ja&pr=Y">Japanese (日本語) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=kn&pr=Y">Kannada (ಕನ್ನಡ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=kk&pr=Y">Kazakh (Қазақ тілі) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=lv&pr=Y">Latvian (Latviešu) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=lt&pr=Y">Lithuanian (lietuvių) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=mk&pr=Y">Macedonian (македонски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ml&pr=Y">Malayalam (മലയാളം) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=mr&pr=Y">Marathi (मराठी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=no&pr=Y">Norwegian (Norsk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pl&pr=Y">Polish (Polski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pt&pr=Y">Portuguese (Português) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pa&pr=Y">Punjabi (ਪੰਜਾਬੀ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ro&pr=Y">Romanian (Româna) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ru&pr=Y">Russian (Pусский) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sa&pr=Y">Sanskrit (Saṃskṛtam) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sr&pr=Y">Serbian (Српски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=si&pr=Y">Sinhala (සිංහල) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sk&pr=Y">Slovak (Slovenský) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sl&pr=Y">Slovenian (Slovenski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=es&pr=Y">Spanish (Español) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sv&pr=Y">Swedish (Svenska) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ta&pr=Y">Tamil (தமிழ்) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=te&pr=Y">Telugu (తెలుగు) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=tr&pr=Y">Turkish (Türkçe) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=uk&pr=Y">Ukrainian (Yкраї́нська) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=uz&pr=Y">Uzbek (oʻzbek) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=vi&pr=Y">Vietnamese (tiếng Việt) </option>
+            </select>
+            </div>
+            </div>
+        </div>
+		<div id="menubox" class="debugbkg">
+            <ul class="menu boldmenu">
+<li><a href="index.php@lang=bn">শীর্ষশ্রেণি</a></li>
+<li><a href="index.php@tag=--&amp;lang=bn">চিহ্নমালা</a></li>
+<li><a href="index.php@tag=---&amp;lang=bn">সহায়িকাসমূহ</a></li>
+<li><a href="index.php@tag=0&amp;lang=bn">0</a></li>
+<li><a href="index.php@tag=1&amp;lang=bn">1</a></li>
+<li><a href="index.php@tag=2&amp;lang=bn">2</a></li>
+<li><a href="index.php@tag=3&amp;lang=bn">3</a></li>
+<li><a  class="vacant" href="index.php@tag=6&amp;lang=bn#">4</a></li>
+<li><a href="index.php@tag=5&amp;lang=bn">5</a></li>
+<li><a href="index.php@tag=6&amp;lang=bn">6</a></li>
+<li><a href="index.php@tag=7&amp;lang=bn">7</a></li>
+<li><a href="index.php@tag=8&amp;lang=bn">8</a></li>
+<li><a href="index.php@tag=9&amp;lang=bn">9</a></li>
+</ul>
+<input type="hidden" id="if_loading" name="if_loading" value="উপাত্ত স্থানান্তরিত হচ্ছে"/>
+<input type="hidden" id="if_lang" name="if_lang" value="29"/>
+<ul class="rightmenu boldmenu">
+<li><a href="../translation.htm">অনুবাদসমূহ</a></li>
+<li><a href="index.php@tag=6&amp;lang=bn#" title="Under Development">মানচিত্রায়ণসমূহ</a></li>
+<li><a href="../exports.htm" title="Data Exports">উপাত্ত নির্গমন</a></li>
+<li><a href="index.php@tag=6&amp;lang=bn#" title="Under Development">বর্ণানুক্রমিক নির্ঘণ্ট</a></li>
+<li><a href="index.php@tag=6&amp;lang=bn#" title="Under Development">নির্দেশিকা</a></li>
+<li><a href="../about.htm" title="About the UDC Summary">বিবরণ</a></li>
+</ul>
+
+        </div>
+		<input type="hidden" id="leftWidth" value="420"/><input type="hidden" id="rightWidth" value="522"/>
+		<div id="classmarkbox" class="debugbkg">
+
+<div id="openclosemenu"><a href="javascript: d.openAll();">&nbsp;সম্প্রসারিত করতে</a> | <a href="javascript: d.closeAll();">সংকুচিত করতে</a></div>
+<div id="classtree">
+<script type="text/javascript">
+<!--
+d = new dTree('d');
+d.config.hrefIsClick = true;
+d.add(0,-1,'6','<span class="nodetag">6</span>&nbsp;&nbsp;ব্যাবহারিক বিজ্ঞানসমূহ। চিকিৎসাশাস্ত্র। প্রযুক্তিবিদ্যা','6','','','','',false,true);
+d.add(1,0,'60','<div class="nodetag">60</div></span>&nbsp;&nbsp;জৈব প্রযুক্তিবিদ্যা','60','জৈব প্রযুক্তিবিদ্যা','','','',false,true);
+d.add(2,1,'601','<div class="nodetag">601</div></span>&nbsp;&nbsp;মৌলিক ধারণাসমূহ','601','মৌলিক ধারণাসমূহ','','','',false,true);
+d.add(3,1,'602','<div class="nodetag">602</div></span>&nbsp;&nbsp;জৈব প্রযুক্তিবিদ্যায় ব্যবহৃত প্রক্রিয়া ও কলাকৌশল','602','জৈব প্রযুক্তিবিদ্যায় ব্যবহৃত প্রক্রিয়া ও কলাকৌশল','','','',false,true);
+d.add(4,1,'604','<div class="nodetag">604</div></span>&nbsp;&nbsp;জৈব প্রযুক্তি উৎপাদ/বস্তু','604','জৈব প্রযুক্তি উৎপাদ/বস্তু','','','',false,true);
+d.add(5,1,'606','<div class="nodetag">606</div></span>&nbsp;&nbsp;জৈব প্রযুক্তিবিদ্যার ব্যবহার','606','জৈব প্রযুক্তিবিদ্যার ব্যবহার','','','',false,true);
+d.add(6,1,'608','<div class="nodetag">608</div></span>&nbsp;&nbsp;জৈব প্রযুক্তিবিদ্যার বিচার্য বিষয়','608','জৈব প্রযুক্তিবিদ্যার বিচার্য বিষয়','','','',false,true);
+d.add(7,0,'61','<div class="nodetag">61</div></span>&nbsp;&nbsp;চিকিৎসা বিজ্ঞানসমূহ','61','চিকিৎসা বিজ্ঞানসমূহ','','','',false,true);
+d.add(8,7,'611/612','<div class="nodetag">611/612</div></span>&nbsp;&nbsp;মানব জীববিজ্ঞান','611/612','মানব জীববিজ্ঞান','','','',false,true);
+d.add(9,8,'611','<div class="nodetag">611</div></span>&nbsp;&nbsp;অঙ্গসংস্থান। মানব ও তুলনামূলক অঙ্গসংস্থান','611','অঙ্গসংস্থান। মানব ও তুলনামূলক অঙ্গসংস্থান','','','',false,true);
+d.add(10,8,'612','<div class="nodetag">612</div></span>&nbsp;&nbsp;শারীরবিদ্যা। মানব ও তুলনামূলক শারীরবিদ্যা','612','শারীরবিদ্যা। মানব ও তুলনামূলক শারীরবিদ্যা','','','',false,true);
+d.add(11,10,'612.1/.8','<div class="nodetag">612.1/.8</div></span>&nbsp;&nbsp;প্রণালীবদ্ধ শারীরবিদ্যা','612.1/.8','প্রণালীবদ্ধ শারীরবিদ্যা','','','',false,true);
+d.add(12,11,'612.1','<div class="nodetag">612.1</div></span>&nbsp;&nbsp;রক্ত। হৃৎ-সংবহন, রক্তবাহ তন্ত্র','612.1','রক্ত। হৃৎ-সংবহন, রক্তবাহ তন্ত্র','','','',false,true);
+d.add(13,11,'612.2','<div class="nodetag">612.2</div></span>&nbsp;&nbsp;শ্বসন। শ্বাসক্রিয়া। শ্বসনতন্ত্র','612.2','শ্বসন। শ্বাসক্রিয়া। শ্বসনতন্ত্র','','','',false,true);
+d.add(14,11,'612.3','<div class="nodetag">612.3</div></span>&nbsp;&nbsp;খাদ্যসরবরাহ। ভোজন। পাচন। পুষ্টি','612.3','খাদ্যসরবরাহ। ভোজন। পাচন। পুষ্টি','','','',false,true);
+d.add(15,11,'612.4','<div class="nodetag">612.4</div></span>&nbsp;&nbsp;গ্রন্থিতন্ত্র। স্রাব/ক্ষরণ। রেচন','612.4','গ্রন্থিতন্ত্র। স্রাব/ক্ষরণ। রেচন','','','',false,true);
+d.add(16,11,'612.5','<div class="nodetag">612.5</div></span>&nbsp;&nbsp;প্রাণীর শরীরের তাপ। তাপ প্রক্রিয়া','612.5','প্রাণীর শরীরের তাপ। তাপ প্রক্রিয়া','','','',false,true);
+d.add(17,11,'612.6','<div class="nodetag">612.6</div></span>&nbsp;&nbsp;প্রজনন। বৃদ্ধি। বিকাশ','612.6','প্রজনন। বৃদ্ধি। বিকাশ','','','',false,true);
+d.add(18,11,'612.7','<div class="nodetag">612.7</div></span>&nbsp;&nbsp;চেষ্টিয় ক্রিয়া। চলন/গমন অঙ্গ। স্বর/কন্ঠস্বর। ত্বক','612.7','চেষ্টিয় ক্রিয়া। চলন/গমন অঙ্গ। স্বর/কন্ঠস্বর। ত্বক','','','',false,true);
+d.add(19,11,'612.8','<div class="nodetag">612.8</div></span>&nbsp;&nbsp;স্নায়ুতন্ত্র। সংজ্ঞাবহ অঙ্গ','612.8','স্নায়ুতন্ত্র। সংজ্ঞাবহ অঙ্গ','','','',false,true);
+d.add(20,7,'613','<div class="nodetag">613</div></span>&nbsp;&nbsp;স্বাস্থ্যবিজ্ঞান (ব্যাপকার্থে)। ব্যক্তিগত স্বাস্থ্য ও স্বাস্থ্যবিধি','613','স্বাস্থ্যবিজ্ঞান (ব্যাপকার্থে)। ব্যক্তিগত স্বাস্থ্য ও স্বাস্থ্যবিধি','','','',false,true);
+d.add(21,20,'613.2','<div class="nodetag">613.2</div></span>&nbsp;&nbsp;পথ্যবিজ্ঞান। ভক্ষণ এবং আহার্য্য/খাদ্যে ব্যবহৃত পুষ্টি সূত্র','613.2','পথ্যবিজ্ঞান। ভক্ষণ এবং আহার্য্য/খাদ্যে ব্যবহৃত পুষ্টি সূত্র','','','',false,true);
+d.add(22,20,'613.3','<div class="nodetag">613.3</div></span>&nbsp;&nbsp;পানীয়। আরোগ্যকারি পানীয়। ব্যধি নিরাময়ক পানীয়। তরল পথ্য','613.3','পানীয়। আরোগ্যকারি পানীয়। ব্যধি নিরাময়ক পানীয়। তরল পথ্য','','','',false,true);
+d.add(23,20,'613.4','<div class="nodetag">613.4</div></span>&nbsp;&nbsp;ব্যক্তিগত স্বাস্থ্যবিধি। পোশাক-আশাক','613.4','ব্যক্তিগত স্বাস্থ্যবিধি। পোশাক-আশাক','','','',false,true);
+d.add(24,20,'613.5','<div class="nodetag">613.5</div></span>&nbsp;&nbsp;আবাস সম্বন্ধীয় স্বাস্থ্যবিধি','613.5','আবাস সম্বন্ধীয় স্বাস্থ্যবিধি','','','',false,true);
+d.add(25,20,'613.6','<div class="nodetag">613.6</div></span>&nbsp;&nbsp;পেশাগত স্বাস্থ্য সম্বন্ধীয় বিপদ/ঝুঁকি। পেশাগত স্বাস্থ্য ও স্বাস্থ্যবিধি','613.6','পেশাগত স্বাস্থ্য সম্বন্ধীয় বিপদ/ঝুঁকি। পেশাগত স্বাস্থ্য ও স্বাস্থ্যবিধি','','','',false,true);
+d.add(26,20,'613.7','<div class="nodetag">613.7</div></span>&nbsp;&nbsp;অবসর, মনোরঞ্জন, নিদ্রা সম্বন্ধীয় স্বাস্থ্য ও স্বাস্থ্যবিধি','613.7','অবসর, মনোরঞ্জন, নিদ্রা সম্বন্ধীয় স্বাস্থ্য ও স্বাস্থ্যবিধি','','','',false,true);
+d.add(27,20,'613.8','<div class="nodetag">613.8</div></span>&nbsp;&nbsp;স্নায়ুতন্ত্র সম্বন্ধীয় স্বাস্থ্য ও স্বাস্থ্যবিধি। স্বাস্থ্য ও নীতিশাস্ত্র','613.8','স্নায়ুতন্ত্র সম্বন্ধীয় স্বাস্থ্য ও স্বাস্থ্যবিধি। স্বাস্থ্য ও নীতিশাস্ত্র','','','',false,true);
+d.add(28,20,'613.9','<div class="nodetag">613.9</div></span>&nbsp;&nbsp;বয়স, যৌনতা, জাতিয়তা সম্বন্ধীয় স্বাস্থ্য ও স্বাস্থ্যবিধি','613.9','বয়স, যৌনতা, জাতিয়তা সম্বন্ধীয় স্বাস্থ্য ও স্বাস্থ্যবিধি','','','',false,true);
+d.add(29,7,'614','<div class="nodetag">614</div></span>&nbsp;&nbsp;জনস্বাস্থ্য ও স্বাস্থ্যবিধি। দুর্ঘটনা নিবারণ','614','জনস্বাস্থ্য ও স্বাস্থ্যবিধি। দুর্ঘটনা নিবারণ','','','',false,true);
+d.add(30,29,'614.1','<div class="nodetag">614.1</div></span>&nbsp;&nbsp;জনসংখ্যা। জনসংখ্যা হ্রাস','614.1','জনসংখ্যা। জনসংখ্যা হ্রাস','','','',false,true);
+d.add(31,29,'614.2','<div class="nodetag">614.2</div></span>&nbsp;&nbsp;স্বাস্থ্য সম্বন্ধীয় সরকারি ও পেশাদারি সংস্থা','614.2','স্বাস্থ্য সম্বন্ধীয় সরকারি ও পেশাদারি সংস্থা','','','',false,true);
+d.add(32,29,'614.3','<div class="nodetag">614.3</div></span>&nbsp;&nbsp;স্বাস্থ্য-পরিদর্শন ও নিয়ন্ত্রণ','614.3','স্বাস্থ্য-পরিদর্শন ও নিয়ন্ত্রণ','','','',false,true);
+d.add(33,32,'614.39','<div class="nodetag">614.39</div></span>&nbsp;&nbsp;রাষ্ট্রীয় স্বাস্থ্য পরিসেবা','614.39','রাষ্ট্রীয় স্বাস্থ্য পরিসেবা','','','',false,true);
+d.add(34,29,'614.4','<div class="nodetag">614.4</div></span>&nbsp;&nbsp;সংক্রামক (ছোঁয়াচে) ব্যাধির নিবারণ ও নিয়ন্ত্রণ। মহামারী নিবারণ','614.4','সংক্রামক (ছোঁয়াচে) ব্যাধির নিবারণ ও নিয়ন্ত্রণ। মহামারী নিবারণ','','','',false,true);
+d.add(35,29,'614.6','<div class="nodetag">614.6</div></span>&nbsp;&nbsp;সমাধিক্ষেত্রের স্বাস্থ্যবিধি। মৃতদেহ সৎকার','614.6','সমাধিক্ষেত্রের স্বাস্থ্যবিধি। মৃতদেহ সৎকার','','','',false,true);
+d.add(36,29,'614.7','<div class="nodetag">614.7</div></span>&nbsp;&nbsp;বায়ু, জল, মাটির স্বাস্থ্যবিধি। দূষণ ও তার নিয়ন্ত্রণ','614.7','বায়ু, জল, মাটির স্বাস্থ্যবিধি। দূষণ ও তার নিয়ন্ত্রণ','','','',false,true);
+d.add(37,29,'614.8','<div class="nodetag">614.8</div></span>&nbsp;&nbsp;দুর্ঘটনা। ঝুঁকি। বিপদ। দুর্ঘটনা নিবারণ। আত্মরক্ষা। নিরাপত্তা','614.8','দুর্ঘটনা। ঝুঁকি। বিপদ। দুর্ঘটনা নিবারণ। আত্মরক্ষা। নিরাপত্তা','','','',false,true);
+d.add(38,29,'614.9','<div class="nodetag">614.9</div></span>&nbsp;&nbsp;প্রাণী স্বাস্থ্য। পশু স্বাস্থ্যবিধি','614.9','প্রাণী স্বাস্থ্য। পশু স্বাস্থ্যবিধি','','','',false,true);
+d.add(39,7,'615','<div class="nodetag">615</div></span>&nbsp;&nbsp;ভেষজবিদ্যা। আরোগ্যবিদ্যা। বিষবিদ্যা/অধিবিষবিদ্যা','615','ভেষজবিদ্যা। আরোগ্যবিদ্যা। বিষবিদ্যা/অধিবিষবিদ্যা','','','',false,true);
+d.add(40,39,'615.1','<div class="nodetag">615.1</div></span>&nbsp;&nbsp;সাধারণ ও পেশাদারি ঔষধালয়','615.1','সাধারণ ও পেশাদারি ঔষধালয়','','','',false,true);
+d.add(41,39,'615.2','<div class="nodetag">615.2</div></span>&nbsp;&nbsp;মূলক্রিয়া অনুসার ভেষজ-পদার্থ','615.2','মূলক্রিয়া অনুসার ভেষজ-পদার্থ','','','',false,true);
+d.add(42,39,'615.3','<div class="nodetag">615.3</div></span>&nbsp;&nbsp;উৎস অনুসার ভেষজ-পদার্থ','615.3','উৎস অনুসার ভেষজ-পদার্থ','','','',false,true);
+d.add(43,39,'615.4','<div class="nodetag">615.4</div></span>&nbsp;&nbsp;ভেষজ প্রস্তুতি। চিকিৎসা সামগ্রী। সরঞ্জাম','615.4','ভেষজ প্রস্তুতি। চিকিৎসা সামগ্রী। সরঞ্জাম','','','',false,true);
+d.add(44,39,'615.8','<div class="nodetag">615.8</div></span>&nbsp;&nbsp;শারীরচিকিৎসা/ফিজিওথেরাপি। ভৌতচিকিৎসা। বিকিরণ চিকিৎসা/রেডিওথেরাপি। অনান্য ঔষধবিহীন চিকিৎসা','615.8','শারীরচিকিৎসা/ফিজিওথেরাপি। ভৌতচিকিৎসা। বিকিরণ চিকিৎসা/রেডিওথেরাপি। অনান্য ঔষধবিহীন চিকিৎসা','','','',false,true);
+d.add(45,39,'615.9','<div class="nodetag">615.9</div></span>&nbsp;&nbsp;সাধারণ বিষবিদ্যা। বিষ এবং বিষণ (প্রমত্ততা) সম্পর্কিত সাধারণ অধ্যয়ন','615.9','সাধারণ বিষবিদ্যা। বিষ এবং বিষণ (প্রমত্ততা) সম্পর্কিত সাধারণ অধ্যয়ন','','','',false,true);
+d.add(46,7,'616','<div class="nodetag">616</div></span>&nbsp;&nbsp;রোগবিদ্যা। নিদানিক চিকিৎসাশাস্ত্র','616','রোগবিদ্যা। নিদানিক চিকিৎসাশাস্ত্র','','','',false,true);
+d.add(47,46,'616-001/-009','<div class="nodetag">616-001/-009</div></span>&nbsp;&nbsp;অসুস্থতা সম্বন্ধীয় বিশেষ সহায়িকা সংখ্যাসমূহ','616-001/-009','অসুস্থতা সম্বন্ধীয় বিশেষ সহায়িকা সংখ্যাসমূহ','','','',false,true);
+d.add(48,47,'616-001','<div class="nodetag">616-001</div></span>&nbsp;&nbsp;আঘাতমূলক। আঘাত। আঘাতজনিত ক্ষত','616-001','আঘাতমূলক। আঘাত। আঘাতজনিত ক্ষত','','','',false,true);
+d.add(49,47,'616-002','<div class="nodetag">616-002</div></span>&nbsp;&nbsp;প্রদাহ। যন্ত্রণাদায়ক। রক্তাদির আধিক্য। শ্লেষ্মাধিক্য','616-002','প্রদাহ। যন্ত্রণাদায়ক। রক্তাদির আধিক্য। শ্লেষ্মাধিক্য','','','',false,true);
+d.add(50,47,'616-003','<div class="nodetag">616-003</div></span>&nbsp;&nbsp;প্রত্যাবর্তী ও পুনরুদ্ধার প্রক্রিয়া','616-003','প্রত্যাবর্তী ও পুনরুদ্ধার প্রক্রিয়া','','','',false,true);
+d.add(51,47,'616-004','<div class="nodetag">616-004</div></span>&nbsp;&nbsp;ধমনীর কাঠিন্য। কঠিনীভবন। অন্ত্রাদির কাঠিন্য','616-004','ধমনীর কাঠিন্য। কঠিনীভবন। অন্ত্রাদির কাঠিন্য','','','',false,true);
+d.add(52,47,'616-005','<div class="nodetag">616-005</div></span>&nbsp;&nbsp;স্থানীয় সংবাহন তন্ত্রের বৈকল্য','616-005','স্থানীয় সংবাহন তন্ত্রের বৈকল্য','','','',false,true);
+d.add(53,47,'616-006','<div class="nodetag">616-006</div></span>&nbsp;&nbsp;অর্বুদ/টিউমার। নিওপ্লাজ্‌ম/কোষের অস্বাভাবিক বৃদ্ধি। ব্লাস্তমা। ক্রিসটোমা। হামারটমা। অর্বুদবিজ্ঞান','616-006','অর্বুদ/টিউমার। নিওপ্লাজ্‌ম/কোষের অস্বাভাবিক বৃদ্ধি। ব্লাস্তমা। ক্রিসটোমা। হামারটমা। অর্বুদবিজ্ঞান','','','',false,true);
+d.add(54,47,'616-007','<div class="nodetag">616-007</div></span>&nbsp;&nbsp;ত্রুটিপূর্ণ গাঠনিক বিকাশ। শারীরবৃত্তিয় বিকৃতি। ত্রুটিপূর্ণ গঠ্ন। হেমিটারেটা/জন্মগত-বিকৃতি-সম্পন্ন ব্যক্তিবর্গ। বৃহদাকৃতি, খর্বাকৃতি অঙ্গ। অঙ্গবিকৃতি বিজ্ঞান/টেরাটোলজি। দানবাকৃতি। অস্বাভাবিকতা','616-007','ত্রুটিপূর্ণ গাঠনিক বিকাশ। শারীরবৃত্তিয় বিকৃতি। ত্রুটিপূর্ণ গঠ্ন। হেমিটারেটা/জন্মগত-বিকৃতি-সম্পন্ন ব্যক্তিবর্গ। বৃহদাকৃতি, খর্বাকৃতি অঙ্গ। অঙ্গবিকৃতি বিজ্ঞান/টেরাটোলজি। দানবাকৃতি। অস্বাভাবিকতা','','','',false,true);
+d.add(55,47,'616-008','<div class="nodetag">616-008</div></span>&nbsp;&nbsp;ক্রিয়াজনিত ও বিপাকীয় বৈকল্য','616-008','ক্রিয়াজনিত ও বিপাকীয় বৈকল্য','','','',false,true);
+d.add(56,47,'616-009','<div class="nodetag">616-009</div></span>&nbsp;&nbsp;স্নায়ু বৈকল্য','616-009','স্নায়ু বৈকল্য','','','',false,true);
+d.add(57,46,'616-01/-099','<div class="nodetag">616-01/-099</div></span>&nbsp;&nbsp;রোগবিদ্যার সাধারণ বিষয় সম্বন্ধীয় বিশেষ সহায়িকা সংখ্যাসমূহ','616-01/-099','রোগবিদ্যার সাধারণ বিষয় সম্বন্ধীয় বিশেষ সহায়িকা সংখ্যাসমূহ','','','',false,true);
+d.add(58,57,'616-01','<div class="nodetag">616-01</div></span>&nbsp;&nbsp;রোগ, রোগী ও চিকিৎসার বিভিন্ন দিক','616-01','রোগ, রোগী ও চিকিৎসার বিভিন্ন দিক','','','',false,true);
+d.add(59,57,'616-02','<div class="nodetag">616-02</div></span>&nbsp;&nbsp;নিদানতত্ত্ব। রোগনিদান বিজ্ঞান','616-02','নিদানতত্ত্ব। রোগনিদান বিজ্ঞান','','','',false,true);
+d.add(60,57,'616-03','<div class="nodetag">616-03</div></span>&nbsp;&nbsp;রোগ, চিকিৎসা ও ভেষজ-পদার্থ প্রয়োগের বিভিন্ন রূপ','616-03','রোগ, চিকিৎসা ও ভেষজ-পদার্থ প্রয়োগের বিভিন্ন রূপ','','','',false,true);
+d.add(61,57,'616-05','<div class="nodetag">616-05</div></span>&nbsp;&nbsp;রোগবিদ্যায় ব্যক্তি ও ব্যক্তিগত বৈশিষ্ট্য। রোগীর বৈশিষ্ট্য','616-05','রোগবিদ্যায় ব্যক্তি ও ব্যক্তিগত বৈশিষ্ট্য। রোগীর বৈশিষ্ট্য','','','',false,true);
+d.add(62,57,'616-06','<div class="nodetag">616-06</div></span>&nbsp;&nbsp;জটিলতা। পরিণতি। প্রতিক্রিয়া। অনুষঙ্গী, যুগপৎ অবস্থা। অনুবন্ধ। পূর্বের অসুস্থতা। পূর্বের শারীরিক অবস্থা। দুটি ব্যধির বিরোধ','616-06','জটিলতা। পরিণতি। প্রতিক্রিয়া। অনুষঙ্গী, যুগপৎ অবস্থা। অনুবন্ধ। পূর্বের অসুস্থতা। পূর্বের শারীরিক অবস্থা। দুটি ব্যধির বিরোধ','','','',false,true);
+d.add(63,57,'616-07','<div class="nodetag">616-07</div></span>&nbsp;&nbsp;রোগলক্ষণ বিদ্যা। সংকেত ও লক্ষণ। পরীক্ষণ। রোগ নির্ণয়। প্রারম্ভিক বিষয়্সমূহ','616-07','রোগলক্ষণ বিদ্যা। সংকেত ও লক্ষণ। পরীক্ষণ। রোগ নির্ণয়। প্রারম্ভিক বিষয়্সমূহ','','','',false,true);
+d.add(64,57,'616-08','<div class="nodetag">616-08</div></span>&nbsp;&nbsp;চিকিৎসাপ্রণালী','616-08','চিকিৎসাপ্রণালী','','','',false,true);
+d.add(65,57,'616-091','<div class="nodetag">616-091</div></span>&nbsp;&nbsp;রোগবিদ্যাগত অঙ্গব্যবচ্ছেদবিদ্যা। অসুস্থতাসংক্রান্ত অঙ্গব্যবচ্ছেদবিদ্যা','616-091','রোগবিদ্যাগত অঙ্গব্যবচ্ছেদবিদ্যা। অসুস্থতাসংক্রান্ত অঙ্গব্যবচ্ছেদবিদ্যা','','','',false,true);
+d.add(66,57,'616-092','<div class="nodetag">616-092</div></span>&nbsp;&nbsp;রোগবিদ্যাগত শারীরবৃত্ত। রোগের প্রক্রিয়া, কার্য পদ্ধতি। রোগের উৎপত্তি। রোগের উৎপত্তির অধ্যয়ন','616-092','রোগবিদ্যাগত শারীরবৃত্ত। রোগের প্রক্রিয়া, কার্য পদ্ধতি। রোগের উৎপত্তি। রোগের উৎপত্তির অধ্যয়ন','','','',false,true);
+d.add(67,57,'616-093','<div class="nodetag">616-093</div></span>&nbsp;&nbsp;অণুজৈবিক পদ্ধতি','616-093','অণুজৈবিক পদ্ধতি','','','',false,true);
+d.add(68,57,'616-094','<div class="nodetag">616-094</div></span>&nbsp;&nbsp;অণুজৈবিক শারীরস্থান','616-094','অণুজৈবিক শারীরস্থান','','','',false,true);
+d.add(69,57,'616-095','<div class="nodetag">616-095</div></span>&nbsp;&nbsp;অণুজৈবিক শারীরবৃত্ত','616-095','অণুজৈবিক শারীরবৃত্ত','','','',false,true);
+d.add(70,57,'616-097','<div class="nodetag">616-097</div></span>&nbsp;&nbsp;রোগ প্রতিরোধ ক্ষমতা','616-097','রোগ প্রতিরোধ ক্ষমতা','','','',false,true);
+d.add(71,57,'616-098','<div class="nodetag">616-098</div></span>&nbsp;&nbsp;অণুজৈবিক পদার্থবিদ্যা, রসায়ন, বিপাক ক্রিয়া,','616-098','অণুজৈবিক পদার্থবিদ্যা, রসায়ন, বিপাক ক্রিয়া,','','','',false,true);
+d.add(72,57,'616-099','<div class="nodetag">616-099</div></span>&nbsp;&nbsp;বিষণ। প্রমত্ততা','616-099','বিষণ। প্রমত্ততা','','','',false,true);
+d.add(73,46,'616-71/-78','<div class="nodetag">616-71/-78</div></span>&nbsp;&nbsp;চিকিৎসা ও শল্যচিকিৎসায় ব্যবহৃত যন্ত্র ও সরঞ্জামের বিশেষ সহায়িকা সংখ্যাসমূহ','616-71/-78','চিকিৎসা ও শল্যচিকিৎসায় ব্যবহৃত যন্ত্র ও সরঞ্জামের বিশেষ সহায়িকা সংখ্যাসমূহ','','','',false,true);
+d.add(74,73,'616-71','<div class="nodetag">616-71</div></span>&nbsp;&nbsp;সাধারণ চিকিৎসা যন্ত্রপাতি এবং সরঞ্জাম','616-71','সাধারণ চিকিৎসা যন্ত্রপাতি এবং সরঞ্জাম','','','',false,true);
+d.add(75,73,'616-72','<div class="nodetag">616-72</div></span>&nbsp;&nbsp;শল্য চিকিৎসা এবং উপচর্যা যন্ত্রাদি','616-72','শল্য চিকিৎসা এবং উপচর্যা যন্ত্রাদি','','','',false,true);
+d.add(76,73,'616-74','<div class="nodetag">616-74</div></span>&nbsp;&nbsp;পুনর্বলন এবং ক্ষতিপূরণ সামগ্রী ও সরঞ্জাম','616-74','পুনর্বলন এবং ক্ষতিপূরণ সামগ্রী ও সরঞ্জাম','','','',false,true);
+d.add(77,73,'616-76','<div class="nodetag">616-76</div></span>&nbsp;&nbsp;সংশোধন এবং রক্ষণ যন্ত্রপাতি, সহায়ক, ইত্যাদি।','616-76','সংশোধন এবং রক্ষণ যন্ত্রপাতি, সহায়ক, ইত্যাদি।','','','',false,true);
+d.add(78,73,'616-77','<div class="nodetag">616-77</div></span>&nbsp;&nbsp;প্রস্থেটিক সামগ্রী এবং অংশ। কৃত্তিম অঙ্গসমূহ, ইত্যাদি।','616-77','প্রস্থেটিক সামগ্রী এবং অংশ। কৃত্তিম অঙ্গসমূহ, ইত্যাদি।','','','',false,true);
+d.add(79,73,'616-78','<div class="nodetag">616-78</div></span>&nbsp;&nbsp;যন্ত্র এবং যান্ত্রিক উপকরণ','616-78','যন্ত্র এবং যান্ত্রিক উপকরণ','','','',false,true);
+d.add(80,46,'616.1/.9','<div class="nodetag">616.1/.9</div></span>&nbsp;&nbsp;বিশেষ রোগবিদ্যা','616.1/.9','বিশেষ রোগবিদ্যা','','','',false,true);
+d.add(81,80,'616.1','<div class="nodetag">616.1</div></span>&nbsp;&nbsp;সংবহণ তন্ত্র, রক্তবাহের রোগবিদ্যা। হৃদ্‌-সংবহনতন্ত্রের পীড়া','616.1','সংবহণ তন্ত্র, রক্তবাহের রোগবিদ্যা। হৃদ্‌-সংবহনতন্ত্রের পীড়া','','','',false,true);
+d.add(82,80,'616.2','<div class="nodetag">616.2</div></span>&nbsp;&nbsp;শ্বাসতন্ত্রের রোগবিদ্যা। শ্বাসঅঙ্গের পীড়া','616.2','শ্বাসতন্ত্রের রোগবিদ্যা। শ্বাসঅঙ্গের পীড়া','','','',false,true);
+d.add(83,80,'616.3','<div class="nodetag">616.3</div></span>&nbsp;&nbsp;পরিপাক তন্ত্রের রোগ। খাদ্যনালির পীড়া/সমস্যা','616.3','পরিপাক তন্ত্রের রোগ। খাদ্যনালির পীড়া/সমস্যা','','','',false,true);
+d.add(84,83,'616.31','<div class="nodetag">616.31</div></span>&nbsp;&nbsp;স্টোমাটলজি/মুখবিবরের রোগবিদ্যা। মুখগহ্বর। মুখ। মুখ ও দাঁতের রোগ','616.31','স্টোমাটলজি/মুখবিবরের রোগবিদ্যা। মুখগহ্বর। মুখ। মুখ ও দাঁতের রোগ','','','',false,true);
+d.add(85,80,'616.4','<div class="nodetag">616.4</div></span>&nbsp;&nbsp;লসিকাবহতন্ত্র, রক্তক্ষরণ অঙ্গ, অন্তঃগ্রন্থির পীড়া','616.4','লসিকাবহতন্ত্র, রক্তক্ষরণ অঙ্গ, অন্তঃগ্রন্থির পীড়া','','','',false,true);
+d.add(86,80,'616.5','<div class="nodetag">616.5</div></span>&nbsp;&nbsp;ত্বক। সাধারণ ত্বক। নিদানিক ত্বকবিজ্ঞান। অন্তঃত্বকের সমস্যা','616.5','ত্বক। সাধারণ ত্বক। নিদানিক ত্বকবিজ্ঞান। অন্তঃত্বকের সমস্যা','','','',false,true);
+d.add(87,80,'616.6','<div class="nodetag">616.6</div></span>&nbsp;&nbsp;মূত্র-জননাঙ্গের রোগবিদ্যা। মূত্র-জননাঙ্গ ও যৌনাঙ্গের সমস্যা','616.6','মূত্র-জননাঙ্গের রোগবিদ্যা। মূত্র-জননাঙ্গ ও যৌনাঙ্গের সমস্যা','','','',false,true);
+d.add(88,80,'616.7','<div class="nodetag">616.7</div></span>&nbsp;&nbsp;চলন-গমন অঙ্গের রোগবিদ্যা। কঙ্কাল ও চেষ্টিয় তন্ত্র','616.7','চলন-গমন অঙ্গের রোগবিদ্যা। কঙ্কাল ও চেষ্টিয় তন্ত্র','','','',false,true);
+d.add(89,80,'616.8','<div class="nodetag">616.8</div></span>&nbsp;&nbsp;স্নায়ুবিজ্ঞান। স্নায়ুরোগবিদ্যা। স্নায়ুতন্ত্র','616.8','স্নায়ুবিজ্ঞান। স্নায়ুরোগবিদ্যা। স্নায়ুতন্ত্র','','','',false,true);
+d.add(90,89,'616.89','<div class="nodetag">616.89</div></span>&nbsp;&nbsp;মনোরোগবিদ্যা। রোগনির্ণায়ক মনোরোগবিদ্যা। মনোরোগ। উন্মাদরোগ। মানসিক বিকৃতি। মানসিক অস্বাভাবিকতা। অসুস্থ ব্যক্তির মানসিক অবস্থা। আচরণ জনিত ও আবেগ জনিত অশান্তি','616.89','মনোরোগবিদ্যা। রোগনির্ণায়ক মনোরোগবিদ্যা। মনোরোগ। উন্মাদরোগ। মানসিক বিকৃতি। মানসিক অস্বাভাবিকতা। অসুস্থ ব্যক্তির মানসিক অবস্থা। আচরণ জনিত ও আবেগ জনিত অশান্তি','','','',false,true);
+d.add(91,80,'616.9','<div class="nodetag">616.9</div></span>&nbsp;&nbsp;সংক্রামক ব্যাধি। সংক্রামক ও ছোঁয়াচে রোগ, জ্বর','616.9','সংক্রামক ব্যাধি। সংক্রামক ও ছোঁয়াচে রোগ, জ্বর','','','',false,true);
+d.add(92,7,'617','<div class="nodetag">617</div></span>&nbsp;&nbsp;শল্যচিকিৎসা। অস্থিবিকলঙ্গতা চিকিৎসা। চক্ষুরোগ চিকিৎসা','617','শল্যচিকিৎসা। অস্থিবিকলঙ্গতা চিকিৎসা। চক্ষুরোগ চিকিৎসা','','','',false,true);
+d.add(93,92,'617.3','<div class="nodetag">617.3</div></span>&nbsp;&nbsp;অস্থিবিকলঙ্গতা চিকিৎসাবিদ্যা (ব্যাপকার্থে)','617.3','অস্থিবিকলঙ্গতা চিকিৎসাবিদ্যা (ব্যাপকার্থে)','','','',false,true);
+d.add(94,92,'617.7','<div class="nodetag">617.7</div></span>&nbsp;&nbsp;চক্ষুরোগ চিকিৎসা। চক্ষুরোগ ও তার চিকিৎসাপ্রণালী','617.7','চক্ষুরোগ চিকিৎসা। চক্ষুরোগ ও তার চিকিৎসাপ্রণালী','','','',false,true);
+d.add(95,7,'618','<div class="nodetag">618</div></span>&nbsp;&nbsp;স্ত্রীরোগবিদ্যা। ধাত্রীবিদ্যা','618','স্ত্রীরোগবিদ্যা। ধাত্রীবিদ্যা','','','',false,true);
+d.add(96,0,'62','<div class="nodetag">62</div></span>&nbsp;&nbsp;প্রকৌশলবিদ্যা। প্রযুক্তিবিদ্যা (ব্যাপকার্থে)','62','প্রকৌশলবিদ্যা। প্রযুক্তিবিদ্যা (ব্যাপকার্থে)','','','',false,true);
+d.add(97,96,'62-1/-9','<div class="nodetag">62-1/-9</div></span>&nbsp;&nbsp;যন্ত্র, সরঞ্জাম, উৎপাদনাগার, প্রক্রিয়া ও উৎপাদিত সামগ্রীর বৈশিষ্ট্য ও বিশদ বিবরণের বিশেষ সহায়িকা সংখ্যাসমূহ','62-1/-9','যন্ত্র, সরঞ্জাম, উৎপাদনাগার, প্রক্রিয়া ও উৎপাদিত সামগ্রীর বৈশিষ্ট্য ও বিশদ বিবরণের বিশেষ সহায়িকা সংখ্যাসমূহ','','','',false,true);
+d.add(98,97,'62-1','<div class="nodetag">62-1</div></span>&nbsp;&nbsp;যন্ত্রের সাধারণ বৈশিষ্ট‌্যসমূহ, ইত্যাদি','62-1','যন্ত্রের সাধারণ বৈশিষ্ট‌্যসমূহ, ইত্যাদি','','','',false,true);
+d.add(99,97,'62-2','<div class="nodetag">62-2</div></span>&nbsp;&nbsp;যন্ত্রের স্থির ও চলমান অংশ, উপাদান','62-2','যন্ত্রের স্থির ও চলমান অংশ, উপাদান','','','',false,true);
+d.add(100,97,'62-3','<div class="nodetag">62-3</div></span>&nbsp;&nbsp;তরল নিয়ন্ত্রণকারী যন্ত্রাংশ। কপাট/ভাল্‌ভ্‌, ক্লোজার, ইত্যাদি','62-3','তরল নিয়ন্ত্রণকারী যন্ত্রাংশ। কপাট/ভাল্‌ভ্‌, ক্লোজার, ইত্যাদি','','','',false,true);
+d.add(101,97,'62-4','<div class="nodetag">62-4</div></span>&nbsp;&nbsp;অবস্থা, পদার্থের রূপ, পৃষ্ঠ/তল, উৎপাদিত বস্তু','62-4','অবস্থা, পদার্থের রূপ, পৃষ্ঠ/তল, উৎপাদিত বস্তু','','','',false,true);
+d.add(102,97,'62-5','<div class="nodetag">62-5</div></span>&nbsp;&nbsp;যন্ত্র ও যান্ত্রিক প্রক্রিয়ার চালনা ও নিয়ন্ত্রণ','62-5','যন্ত্র ও যান্ত্রিক প্রক্রিয়ার চালনা ও নিয়ন্ত্রণ','','','',false,true);
+d.add(103,97,'62-6','<div class="nodetag">62-6</div></span>&nbsp;&nbsp;যন্ত্রের জ্বালানী ও অন্যান্য তাপ-উৎস বৈশিষ্ট্য','62-6','যন্ত্রের জ্বালানী ও অন্যান্য তাপ-উৎস বৈশিষ্ট্য','','','',false,true);
+d.add(104,97,'62-7','<div class="nodetag">62-7</div></span>&nbsp;&nbsp;যন্ত্রের পরিচর্যা, রক্ষণাবেক্ষণ ও সংরক্ষণের সাধনীসমূহ','62-7','যন্ত্রের পরিচর্যা, রক্ষণাবেক্ষণ ও সংরক্ষণের সাধনীসমূহ','','','',false,true);
+d.add(105,97,'62-8','<div class="nodetag">62-8</div></span>&nbsp;&nbsp;চালিকা-শক্তি, পরিচালন বল অনুযায়ী যন্ত্রের প্রকারভেদ। যন্ত্রের শক্তির উৎস','62-8','চালিকা-শক্তি, পরিচালন বল অনুযায়ী যন্ত্রের প্রকারভেদ। যন্ত্রের শক্তির উৎস','','','',false,true);
+d.add(106,97,'62-9','<div class="nodetag">62-9</div></span>&nbsp;&nbsp;উৎপাদন প্রক্রিয়া, উৎপাদনাগার ও সরঞ্জামের চল, অবস্থা এবং বৈশিষ্ট্য','62-9','উৎপাদন প্রক্রিয়া, উৎপাদনাগার ও সরঞ্জামের চল, অবস্থা এবং বৈশিষ্ট্য','','','',false,true);
+d.add(107,106,'62-91','<div class="nodetag">62-91</div></span>&nbsp;&nbsp;পদার্থের অবস্থা : বৈশিষ্ট্য ও চল','62-91','পদার্থের অবস্থা : বৈশিষ্ট্য ও চল','','','',false,true);
+d.add(108,106,'62-92','<div class="nodetag">62-92</div></span>&nbsp;&nbsp;বিকারক সংক্রান্ত বিক্রিয়া। বিকারক','62-92','বিকারক সংক্রান্ত বিক্রিয়া। বিকারক','','','',false,true);
+d.add(109,106,'62-93','<div class="nodetag">62-93</div></span>&nbsp;&nbsp;কার্যপ্রণালী, ধারাবাহিকতা, সংযোগ, মাধ্যম অনুসার প্রক্রিয়া, যন্ত্রাদি ও সরঞ্জাম','62-93','কার্যপ্রণালী, ধারাবাহিকতা, সংযোগ, মাধ্যম অনুসার প্রক্রিয়া, যন্ত্রাদি ও সরঞ্জাম','','','',false,true);
+d.add(110,106,'62-94','<div class="nodetag">62-94</div></span>&nbsp;&nbsp;প্রক্রিয়ার দিক, গতি, হার, সময়কাল ইত্যাদি','62-94','প্রক্রিয়ার দিক, গতি, হার, সময়কাল ইত্যাদি','','','',false,true);
+d.add(111,106,'62-95','<div class="nodetag">62-95</div></span>&nbsp;&nbsp;সরল ও বহুমুখী প্রক্রিয়া। একক-ধাপ ও বহু-ধাপ বিশিষ্ট প্রক্রিয়া','62-95','সরল ও বহুমুখী প্রক্রিয়া। একক-ধাপ ও বহু-ধাপ বিশিষ্ট প্রক্রিয়া','','','',false,true);
+d.add(112,106,'62-96','<div class="nodetag">62-96</div></span>&nbsp;&nbsp;পদার্থের গুণ পরিবর্তন অনু্যায়ী প্রক্রিয়া। পরিবর্তন (ব্যাপকার্থে)','62-96','পদার্থের গুণ পরিবর্তন অনু্যায়ী প্রক্রিয়া। পরিবর্তন (ব্যাপকার্থে)','','','',false,true);
+d.add(113,106,'62-97','<div class="nodetag">62-97</div></span>&nbsp;&nbsp;তাপীয় বৈশিষ্ট্য। তাপমাত্রা। তাপমাত্রার সীমা','62-97','তাপীয় বৈশিষ্ট্য। তাপমাত্রা। তাপমাত্রার সীমা','','','',false,true);
+d.add(114,106,'62-98','<div class="nodetag">62-98</div></span>&nbsp;&nbsp;চাপ। চাপ সীমা','62-98','চাপ। চাপ সীমা','','','',false,true);
+d.add(115,96,'620','<div class="nodetag">620</div></span>&nbsp;&nbsp;উপকরণ পরীক্ষা। বাণিজ্যিক উপকরণসমূহ। শক্তি উৎপাদন কেন্দ্র। শক্তি অর্থনীতি','620','উপকরণ পরীক্ষা। বাণিজ্যিক উপকরণসমূহ। শক্তি উৎপাদন কেন্দ্র। শক্তি অর্থনীতি','','','',false,true);
+d.add(116,115,'620.3','<div class="nodetag">620.3</div></span>&nbsp;&nbsp;ন্যানোপ্রযুক্তি','620.3','ন্যানোপ্রযুক্তি','','','',false,true);
+d.add(117,115,'620.9','<div class="nodetag">620.9</div></span>&nbsp;&nbsp;শক্তি অর্থনীতি (ব্যাপকার্থে)','620.9','শক্তি অর্থনীতি (ব্যাপকার্থে)','','','',false,true);
+d.add(118,96,'621','<div class="nodetag">621</div></span>&nbsp;&nbsp;যন্ত্র প্রকৌশলবিদ্যা (ব্যাপকার্থে)। পারমাণবিক প্রযুক্তি। বৈদ্যুতিক প্রকৌশলবিদ্যা। যন্ত্রাদি','621','যন্ত্র প্রকৌশলবিদ্যা (ব্যাপকার্থে)। পারমাণবিক প্রযুক্তি। বৈদ্যুতিক প্রকৌশলবিদ্যা। যন্ত্রাদি','','','',false,true);
+d.add(119,118,'621.1','<div class="nodetag">621.1</div></span>&nbsp;&nbsp;তাপ ইঞ্জিন (ব্যাপকার্থে)। বাষ্পের উৎপাদন, বিতরণ ও ব্যবহার। বাষ্পীয় যন্ত্র/ইঞ্জিন। চুল্লি/বয়লার','621.1','তাপ ইঞ্জিন (ব্যাপকার্থে)। বাষ্পের উৎপাদন, বিতরণ ও ব্যবহার। বাষ্পীয় যন্ত্র/ইঞ্জিন। চুল্লি/বয়লার','','','',false,true);
+d.add(120,118,'621.22','<div class="nodetag">621.22</div></span>&nbsp;&nbsp;জল শক্তি। জল বিদ্যু। জল বিদ্যুৎ যন্ত্রাদি','621.22','জল শক্তি। জল বিদ্যু। জল বিদ্যুৎ যন্ত্রাদি','','','',false,true);
+d.add(121,118,'621.3','<div class="nodetag">621.3</div></span>&nbsp;&nbsp;বৈদ্যুতিক প্রকৌশলবিদ্যা','621.3','বৈদ্যুতিক প্রকৌশলবিদ্যা','','','',false,true);
+d.add(122,118,'621.4','<div class="nodetag">621.4</div></span>&nbsp;&nbsp;তাপ ইঞ্জিন (বাষ্পীয় ইঞ্জিন ব্যতীত)','621.4','তাপ ইঞ্জিন (বাষ্পীয় ইঞ্জিন ব্যতীত)','','','',false,true);
+d.add(123,118,'621.5','<div class="nodetag">621.5</div></span>&nbsp;&nbsp;বায়ব শক্তি, যন্ত্রাদি ও সাধনী। হিমায়ন/শীতন','621.5','বায়ব শক্তি, যন্ত্রাদি ও সাধনী। হিমায়ন/শীতন','','','',false,true);
+d.add(124,118,'621.6','<div class="nodetag">621.6</div></span>&nbsp;&nbsp;তরল বস্তুর সঞ্চালন, গুদামজাতকরণ, ও বিতরণ কেন্দ্র ও পদ্ধতি','621.6','তরল বস্তুর সঞ্চালন, গুদামজাতকরণ, ও বিতরণ কেন্দ্র ও পদ্ধতি','','','',false,true);
+d.add(125,118,'621.7','<div class="nodetag">621.7</div></span>&nbsp;&nbsp;যান্ত্রিক প্রযুক্তিবিদ্যা (ব্যাপকার্থে) : প্রক্রিয়া, সাধনী, যন্ত্রাদি, সরঞ্জাম','621.7','যান্ত্রিক প্রযুক্তিবিদ্যা (ব্যাপকার্থে) : প্রক্রিয়া, সাধনী, যন্ত্রাদি, সরঞ্জাম','','','',false,true);
+d.add(126,118,'621.8','<div class="nodetag">621.8</div></span>&nbsp;&nbsp;যন্ত্রের উপাদানসমূহ। চালিকা-শক্তি প্রকৌশলবিদ্যা। মাল সঞ্চালন। সংলগ্নকরণ। মসৃণকরণ/পিচ্ছিল করণ','621.8','যন্ত্রের উপাদানসমূহ। চালিকা-শক্তি প্রকৌশলবিদ্যা। মাল সঞ্চালন। সংলগ্নকরণ। মসৃণকরণ/পিচ্ছিল করণ','','','',false,true);
+d.add(127,118,'621.9','<div class="nodetag">621.9</div></span>&nbsp;&nbsp;টুকরো করিবার কার্য। ঘষা কার্য। হাতুড়ি ও চাপযন্ত্র','621.9','টুকরো করিবার কার্য। ঘষা কার্য। হাতুড়ি ও চাপযন্ত্র','','','',false,true);
+d.add(128,96,'622','<div class="nodetag">622</div></span>&nbsp;&nbsp;খনিবিদ্যা','622','খনিবিদ্যা','','','',false,true);
+d.add(129,128,'622.1','<div class="nodetag">622.1</div></span>&nbsp;&nbsp;প্রাথমিক পরীক্ষণ। খনির জরিপ ও মানচিত্রাঙ্কন। খনিজ সঞ্চয় অন্বেষণ (ভূপৃষ্ঠ ও ভূগর্ভস্থ)','622.1','প্রাথমিক পরীক্ষণ। খনির জরিপ ও মানচিত্রাঙ্কন। খনিজ সঞ্চয় অন্বেষণ (ভূপৃষ্ঠ ও ভূগর্ভস্থ)','','','',false,true);
+d.add(130,128,'622.2','<div class="nodetag">622.2</div></span>&nbsp;&nbsp;খনন প্রক্রিয়া। খনিজ সঞ্চয়ের অন্বেষণ, অনাবৃত্তকরণ, উন্নয়ন ও কার্যোপযোগী করণ','622.2','খনন প্রক্রিয়া। খনিজ সঞ্চয়ের অন্বেষণ, অনাবৃত্তকরণ, উন্নয়ন ও কার্যোপযোগী করণ','','','',false,true);
+d.add(131,128,'622.3','<div class="nodetag">622.3</div></span>&nbsp;&nbsp;নির্দিষ্ট খনিজ, আকরিক, প্রস্তর খনন','622.3','নির্দিষ্ট খনিজ, আকরিক, প্রস্তর খনন','','','',false,true);
+d.add(132,128,'622.4','<div class="nodetag">622.4</div></span>&nbsp;&nbsp;খনির বায়ুচলন, শীতাতপ নিয়ন্ত্রণ, তাপন ও আলোকিতকরণ','622.4','খনির বায়ুচলন, শীতাতপ নিয়ন্ত্রণ, তাপন ও আলোকিতকরণ','','','',false,true);
+d.add(133,128,'622.5','<div class="nodetag">622.5</div></span>&nbsp;&nbsp;খনি নিকাশি ব্যবস্থা। জল নিকাশি','622.5','খনি নিকাশি ব্যবস্থা। জল নিকাশি','','','',false,true);
+d.add(134,128,'622.6','<div class="nodetag">622.6</div></span>&nbsp;&nbsp;মালবহন ও সঞ্চালন। উত্তোলন। পরিবেষ্টন করা। ভূতল পরিবহন','622.6','মালবহন ও সঞ্চালন। উত্তোলন। পরিবেষ্টন করা। ভূতল পরিবহন','','','',false,true);
+d.add(135,128,'622.7','<div class="nodetag">622.7</div></span>&nbsp;&nbsp;খনিজ পদার্থের প্রস্তুতিকরণ, প্রক্রিয়াকরণ। খনিজ চৌরস করা। আকরিক প্রস্তুতকরণ','622.7','খনিজ পদার্থের প্রস্তুতিকরণ, প্রক্রিয়াকরণ। খনিজ চৌরস করা। আকরিক প্রস্তুতকরণ','','','',false,true);
+d.add(136,128,'622.8','<div class="nodetag">622.8</div></span>&nbsp;&nbsp;খনন কার্যের ঝুঁকি, দুর্ঘটনা, ক্ষয়ক্ষতি। খনিতে স্বাস্থ্য রক্ষা ও নিরাপত্তা','622.8','খনন কার্যের ঝুঁকি, দুর্ঘটনা, ক্ষয়ক্ষতি। খনিতে স্বাস্থ্য রক্ষা ও নিরাপত্তা','','','',false,true);
+d.add(137,96,'623','<div class="nodetag">623</div></span>&nbsp;&nbsp;সামরিক প্রকৌশলবিদ্যা','623','সামরিক প্রকৌশলবিদ্যা','','','',false,true);
+d.add(138,137,'623.1/.7','<div class="nodetag">623.1/.7</div></span>&nbsp;&nbsp;স্থল-ভিত্তিক সামরিক প্রকৌশলবিদ্যা। গোলন্দাজ বাহিনী','623.1/.7','স্থল-ভিত্তিক সামরিক প্রকৌশলবিদ্যা। গোলন্দাজ বাহিনী','','','',false,true);
+d.add(139,138,'623.1/.3','<div class="nodetag">623.1/.3</div></span>&nbsp;&nbsp;রণক্ষেত্র প্রকৌশলবিদ্যা। দুর্গ, পরিখা নির্মাণ। প্রতিরক্ষা কার্য','623.1/.3','রণক্ষেত্র প্রকৌশলবিদ্যা। দুর্গ, পরিখা নির্মাণ। প্রতিরক্ষা কার্য','','','',false,true);
+d.add(140,139,'623.1','<div class="nodetag">623.1</div></span>&nbsp;&nbsp;দুর্গ। স্থায়ী দুর্গ নির্মাণ। পাকাপোক্ত পঙ্‌ক্তি ও ক্ষেত্র','623.1','দুর্গ। স্থায়ী দুর্গ নির্মাণ। পাকাপোক্ত পঙ্‌ক্তি ও ক্ষেত্র','','','',false,true);
+d.add(141,139,'623.2','<div class="nodetag">623.2</div></span>&nbsp;&nbsp;আক্রমণ ও প্রতিরক্ষা কার্য। অবরোধ কার্য। রণক্ষেত্রে দুর্গ নির্মাণ। পরিখা নির্মাণ কার্য','623.2','আক্রমণ ও প্রতিরক্ষা কার্য। অবরোধ কার্য। রণক্ষেত্রে দুর্গ নির্মাণ। পরিখা নির্মাণ কার্য','','','',false,true);
+d.add(142,139,'623.3','<div class="nodetag">623.3</div></span>&nbsp;&nbsp;স্থল মাইন ক্ষেত্র। স্থলে অবরোধ সৃষ্টি করা। প্লাবিত করা','623.3','স্থল মাইন ক্ষেত্র। স্থলে অবরোধ সৃষ্টি করা। প্লাবিত করা','','','',false,true);
+d.add(143,138,'623.4','<div class="nodetag">623.4</div></span>&nbsp;&nbsp;যুদ্ধোপকরণ। যুদ্ধাস্ত্রাদি। অস্ত্র। অস্ত্রশস্ত্র। বন্দুক। কামান। ক্ষুদ্রঅস্ত্র। পার্শ্ব অস্ত্র। বর্মাচ্ছাদিত ও অন্যান্য যুদ্ধ যান। গোলাবারুদ ও যুদ্ধ গ্যাস। নিয়ন্ত্রিত ক্ষেপণাস্ত্র ও রকেট','623.4','যুদ্ধোপকরণ। যুদ্ধাস্ত্রাদি। অস্ত্র। অস্ত্রশস্ত্র। বন্দুক। কামান। ক্ষুদ্রঅস্ত্র। পার্শ্ব অস্ত্র। বর্মাচ্ছাদিত ও অন্যান্য যুদ্ধ যান। গোলাবারুদ ও যুদ্ধ গ্যাস। নিয়ন্ত্রিত ক্ষেপণাস্ত্র ও রকেট','','','',false,true);
+d.add(144,138,'623.5','<div class="nodetag">623.5</div></span>&nbsp;&nbsp;ক্ষেপণাস্ত্র্ববিদ্যা। গোলন্দাজিবিদ্যা। তাত্ত্বিক ও প্রায়োগিক সমস্যা','623.5','ক্ষেপণাস্ত্র্ববিদ্যা। গোলন্দাজিবিদ্যা। তাত্ত্বিক ও প্রায়োগিক সমস্যা','','','',false,true);
+d.add(145,138,'623.6','<div class="nodetag">623.6</div></span>&nbsp;&nbsp;রণক্ষেত্র প্রকৌশলবিদ্যার সরঞ্জাম ও কার্যাবলি। যোগাযোগ পদ্ধতি। রেডার প্রতিবিধান। সামরিক ভূ-সংস্থান','623.6','রণক্ষেত্র প্রকৌশলবিদ্যার সরঞ্জাম ও কার্যাবলি। যোগাযোগ পদ্ধতি। রেডার প্রতিবিধান। সামরিক ভূ-সংস্থান','','','',false,true);
+d.add(146,138,'623.7','<div class="nodetag">623.7</div></span>&nbsp;&nbsp;সামরিক ও নৌ বিমানচলন। আকাশ প্রতিরক্ষা','623.7','সামরিক ও নৌ বিমানচলন। আকাশ প্রতিরক্ষা','','','',false,true);
+d.add(147,137,'623.8/.9','<div class="nodetag">623.8/.9</div></span>&nbsp;&nbsp;নৌ-প্রকৌশলবিদ্যা','623.8/.9','নৌ-প্রকৌশলবিদ্যা','','','',false,true);
+d.add(148,147,'623.8','<div class="nodetag">623.8</div></span>&nbsp;&nbsp;নৌবাহিনী সংক্রান্ত নির্মাণ। নৌ-ঘাঁটি। রণতরী ও অন্যান্য জাহাজ','623.8','নৌবাহিনী সংক্রান্ত নির্মাণ। নৌ-ঘাঁটি। রণতরী ও অন্যান্য জাহাজ','','','',false,true);
+d.add(149,147,'623.9','<div class="nodetag">623.9</div></span>&nbsp;&nbsp;নৌবাহিনীর সামগ্রী ও সরঞ্জাম। জাহাজের রক্ষণ ও যুদ্ধোপকরণ। জলাভ্যন্তরীণ প্রতিরক্ষা','623.9','নৌবাহিনীর সামগ্রী ও সরঞ্জাম। জাহাজের রক্ষণ ও যুদ্ধোপকরণ। জলাভ্যন্তরীণ প্রতিরক্ষা','','','',false,true);
+d.add(150,96,'624','<div class="nodetag">624</div></span>&nbsp;&nbsp;পূর্ত ও ইমারতি প্রকৌশলবিদ্যা','624','পূর্ত ও ইমারতি প্রকৌশলবিদ্যা','','','',false,true);
+d.add(151,150,'624.01/.07','<div class="nodetag">624.01/.07</div></span>&nbsp;&nbsp;পূর্ত ও ইমারতি প্রকৌশলবিদ্যার বিশেষ সহায়িকা উপবিভাগ','624.01/.07','পূর্ত ও ইমারতি প্রকৌশলবিদ্যার বিশেষ সহায়িকা উপবিভাগ','','','',false,true);
+d.add(152,151,'624.01','<div class="nodetag">624.01</div></span>&nbsp;&nbsp;নির্মাণের সামগ্রী ও পদ্ধতি অনুসার কাঠামো ও কাঠামোর অংশ','624.01','নির্মাণের সামগ্রী ও পদ্ধতি অনুসার কাঠামো ও কাঠামোর অংশ','','','',false,true);
+d.add(153,151,'624.03','<div class="nodetag">624.03</div></span>&nbsp;&nbsp;কাঠামোর মাপ, স্থায়িত্ব, অবস্থান ও আকৃতি','624.03','কাঠামোর মাপ, স্থায়িত্ব, অবস্থান ও আকৃতি','','','',false,true);
+d.add(154,151,'624.04','<div class="nodetag">624.04</div></span>&nbsp;&nbsp;কাঠামোগত নকশা। কাঠামোর পরীক্ষণ ও পরিমাপণের রৈখিক ও বৈশ্লেষিক স্থিতিবিদ্যা','624.04','কাঠামোগত নকশা। কাঠামোর পরীক্ষণ ও পরিমাপণের রৈখিক ও বৈশ্লেষিক স্থিতিবিদ্যা','','','',false,true);
+d.add(155,151,'624.05','<div class="nodetag">624.05</div></span>&nbsp;&nbsp;কর্মস্থল, সংগঠন ও উৎপাদনাগার। নির্মাণ পদ্ধতি','624.05','কর্মস্থল, সংগঠন ও উৎপাদনাগার। নির্মাণ পদ্ধতি','','','',false,true);
+d.add(156,151,'624.07','<div class="nodetag">624.07</div></span>&nbsp;&nbsp;কাঠামোগত উপাদান। ভার-বাহক অবয়ব','624.07','কাঠামোগত উপাদান। ভার-বাহক অবয়ব','','','',false,true);
+d.add(157,150,'624.1','<div class="nodetag">624.1</div></span>&nbsp;&nbsp;উপকাঠামো। ভূমিকার্য। ভিত্তি/বনিয়াদ। সুড়ঙ্গ নির্মাণ','624.1','উপকাঠামো। ভূমিকার্য। ভিত্তি/বনিয়াদ। সুড়ঙ্গ নির্মাণ','','','',false,true);
+d.add(158,150,'624.21/.8','<div class="nodetag">624.21/.8</div></span>&nbsp;&nbsp;সেতু নির্মাণ','624.21/.8','সেতু নির্মাণ','','','',false,true);
+d.add(159,158,'624.3','<div class="nodetag">624.3</div></span>&nbsp;&nbsp;ট্রাস সেতু (বিম, গ্রাডার সহযোগে নদীর উপর রেল, যান চলাচলের জন্য ঝুলন্ত সেতু)','624.3','ট্রাস সেতু (বিম, গ্রাডার সহযোগে নদীর উপর রেল, যান চলাচলের জন্য ঝুলন্ত সেতু)','','','',false,true);
+d.add(160,158,'624.5','<div class="nodetag">624.5</div></span>&nbsp;&nbsp;রজ্জু/কেবল্‌ সেতু। ঝুলন্ত সেতু','624.5','রজ্জু/কেবল্‌ সেতু। ঝুলন্ত সেতু','','','',false,true);
+d.add(161,158,'624.6','<div class="nodetag">624.6</div></span>&nbsp;&nbsp;খিলানওয়ালা সেতু','624.6','খিলানওয়ালা সেতু','','','',false,true);
+d.add(162,158,'624.8','<div class="nodetag">624.8</div></span>&nbsp;&nbsp;চলমান সেতু','624.8','চলমান সেতু','','','',false,true);
+d.add(163,150,'624.9','<div class="nodetag">624.9</div></span>&nbsp;&nbsp;অধিকাঠামো (সেতু ব্যতীত)। স্বয়ংসম্পূর্ণ অধিকাঠামো','624.9','অধিকাঠামো (সেতু ব্যতীত)। স্বয়ংসম্পূর্ণ অধিকাঠামো','','','',false,true);
+d.add(164,96,'625','<div class="nodetag">625</div></span>&nbsp;&nbsp;স্থল পরিবহনের পূর্ত প্রকৌশলবিদ্যা। রেলপথ প্রকৌশলবিদ্যা। রাজপথ প্রকৌশলবিদ্যা','625','স্থল পরিবহনের পূর্ত প্রকৌশলবিদ্যা। রেলপথ প্রকৌশলবিদ্যা। রাজপথ প্রকৌশলবিদ্যা','','','',false,true);
+d.add(165,164,'625.1/.5','<div class="nodetag">625.1/.5</div></span>&nbsp;&nbsp;রেলপথ। ট্রাম পথ। কেবল্‌ পথ','625.1/.5','রেলপথ। ট্রাম পথ। কেবল্‌ পথ','','','',false,true);
+d.add(166,165,'625.1','<div class="nodetag">625.1</div></span>&nbsp;&nbsp;রেলপথ (ব্যাপকার্থে)। স্থায়ী পথ। রেললাইন নির্মাণ','625.1','রেলপথ (ব্যাপকার্থে)। স্থায়ী পথ। রেললাইন নির্মাণ','','','',false,true);
+d.add(167,165,'625.5','<div class="nodetag">625.5</div></span>&nbsp;&nbsp;কেবল্‌ রেলপথ। তারবাহিত রেলপথ। ঝুলন্ত রেলপথ। আকাশ রজ্জুপথ ও কেবল্‌পথ। উর্ধ্বাকাশে চালিত বাহন','625.5','কেবল্‌ রেলপথ। তারবাহিত রেলপথ। ঝুলন্ত রেলপথ। আকাশ রজ্জুপথ ও কেবল্‌পথ। উর্ধ্বাকাশে চালিত বাহন','','','',false,true);
+d.add(168,164,'625.7/.8','<div class="nodetag">625.7/.8</div></span>&nbsp;&nbsp;রাজপথ প্রকৌশলবিদ্যা','625.7/.8','রাজপথ প্রকৌশলবিদ্যা','','','',false,true);
+d.add(169,168,'625.7','<div class="nodetag">625.7</div></span>&nbsp;&nbsp;রাজপথ (ব্যাপকার্থে)। সড়ক। যানবাহন-পথ। রাস্তা। গ্রামীণ ও নগর সড়ক ব্যবস্থা','625.7','রাজপথ (ব্যাপকার্থে)। সড়ক। যানবাহন-পথ। রাস্তা। গ্রামীণ ও নগর সড়ক ব্যবস্থা','','','',false,true);
+d.add(170,168,'625.8','<div class="nodetag">625.8</div></span>&nbsp;&nbsp;রাজপথের কঠিন স্তর নির্মাণ। ফুটপাত, গালিচা বা ক্ষয়রোধক রদ্দা। সামগ্রীর প্রস্তুতকরণ এবং ব্যবহার','625.8','রাজপথের কঠিন স্তর নির্মাণ। ফুটপাত, গালিচা বা ক্ষয়রোধক রদ্দা। সামগ্রীর প্রস্তুতকরণ এবং ব্যবহার','','','',false,true);
+d.add(171,96,'626/627','<div class="nodetag">626/627</div></span>&nbsp;&nbsp;জলবাহী প্রকৌশলবিদ্যা ও নির্মাণ। জলীয় কাঠামো','626/627','জলবাহী প্রকৌশলবিদ্যা ও নির্মাণ। জলীয় কাঠামো','','','',false,true);
+d.add(172,171,'626','<div class="nodetag">626</div></span>&nbsp;&nbsp;জলবাহী প্রকৌশলবিদ্যা (ব্যাপকার্থে)','626','জলবাহী প্রকৌশলবিদ্যা (ব্যাপকার্থে)','','','',false,true);
+d.add(173,172,'626.1','<div class="nodetag">626.1</div></span>&nbsp;&nbsp;অন্তর্দেশীয় নাব্য জলপথ। খাল। খালকাটা নদী','626.1','অন্তর্দেশীয় নাব্য জলপথ। খাল। খালকাটা নদী','','','',false,true);
+d.add(174,172,'626.4','<div class="nodetag">626.4</div></span>&nbsp;&nbsp;জলকপাট','626.4','জলকপাট','','','',false,true);
+d.add(175,172,'626.5','<div class="nodetag">626.5</div></span>&nbsp;&nbsp;জাহাজের জন্য উত্তোলন গিয়ার ও আনত সমতল ক্ষেত্র','626.5','জাহাজের জন্য উত্তোলন গিয়ার ও আনত সমতল ক্ষেত্র','','','',false,true);
+d.add(176,172,'626.8','<div class="nodetag">626.8</div></span>&nbsp;&nbsp;কৃষিজ জলবাহ বিজ্ঞান। জলসেচন, জল নিকাশি ও পুনরুদ্ধার প্রকৌশলবিদ্যা','626.8','কৃষিজ জলবাহ বিজ্ঞান। জলসেচন, জল নিকাশি ও পুনরুদ্ধার প্রকৌশলবিদ্যা','','','',false,true);
+d.add(177,172,'626.9','<div class="nodetag">626.9</div></span>&nbsp;&nbsp;সামুদ্রিক খাল। জাহাজের জন্য খাল','626.9','সামুদ্রিক খাল। জাহাজের জন্য খাল','','','',false,true);
+d.add(178,171,'627','<div class="nodetag">627</div></span>&nbsp;&nbsp;প্রাকৃতিক জলপথ, বন্দর, পোতাশ্রয় ও তট প্রকৌশলবিদ্যা। নৌচালনা, ড্রেজিং, উত্তোলন ও উদ্ধারের সুযোগ-সুবিধা। বাঁধ ও জল বিদ্যুৎ কেন্দ্র','627','প্রাকৃতিক জলপথ, বন্দর, পোতাশ্রয় ও তট প্রকৌশলবিদ্যা। নৌচালনা, ড্রেজিং, উত্তোলন ও উদ্ধারের সুযোগ-সুবিধা। বাঁধ ও জল বিদ্যুৎ কেন্দ্র','','','',false,true);
+d.add(179,178,'627.2','<div class="nodetag">627.2</div></span>&nbsp;&nbsp;বন্দর, পোতাশ্রয় ও উপকূলবর্তী সমুদ্র : প্রকৌশল ও নির্মাণ কার্য (ব্যাপকার্থে)','627.2','বন্দর, পোতাশ্রয় ও উপকূলবর্তী সমুদ্র : প্রকৌশল ও নির্মাণ কার্য (ব্যাপকার্থে)','','','',false,true);
+d.add(180,178,'627.3','<div class="nodetag">627.3</div></span>&nbsp;&nbsp;বন্দরের অভ্যন্তরীন সুযোগ-সুবিধা। পোতাশ্রয়। জেটি। অবতরণস্থল। স্থাপিত যন্ত্রাদি ও সরঞ্জাম','627.3','বন্দরের অভ্যন্তরীন সুযোগ-সুবিধা। পোতাশ্রয়। জেটি। অবতরণস্থল। স্থাপিত যন্ত্রাদি ও সরঞ্জাম','','','',false,true);
+d.add(181,178,'627.4','<div class="nodetag">627.4</div></span>&nbsp;&nbsp;নদীতট সংরক্ষণ। নদী ও জলস্রোতের সরলীকরণ। নদী উন্নয়ন সম্বন্ধীয় অন্যান্য কার্য','627.4','নদীতট সংরক্ষণ। নদী ও জলস্রোতের সরলীকরণ। নদী উন্নয়ন সম্বন্ধীয় অন্যান্য কার্য','','','',false,true);
+d.add(182,178,'627.5','<div class="nodetag">627.5</div></span>&nbsp;&nbsp;অনান্য জলপথ সংরক্ষণ ও উন্নয়ন কার্য। বাঁধ। সমূদ্রতীর সংরক্ষণ। জল নিকাশি ব্যবস্থা ও পুনরুদ্ধার','627.5','অনান্য জলপথ সংরক্ষণ ও উন্নয়ন কার্য। বাঁধ। সমূদ্রতীর সংরক্ষণ। জল নিকাশি ব্যবস্থা ও পুনরুদ্ধার','','','',false,true);
+d.add(183,178,'627.7','<div class="nodetag">627.7</div></span>&nbsp;&nbsp;নৌপরিচালন ব্যবস্থা। খালের রক্ষণাবেক্ষণ। জলমগ্ন জাহাজ উত্তোলন ও উদ্ধার ব্যবস্থা','627.7','নৌপরিচালন ব্যবস্থা। খালের রক্ষণাবেক্ষণ। জলমগ্ন জাহাজ উত্তোলন ও উদ্ধার ব্যবস্থা','','','',false,true);
+d.add(184,178,'627.8','<div class="nodetag">627.8</div></span>&nbsp;&nbsp;বাঁধ। জলবাহ বিদ্যুৎ কেন্দ্র কার্য','627.8','বাঁধ। জলবাহ বিদ্যুৎ কেন্দ্র কার্য','','','',false,true);
+d.add(185,96,'628','<div class="nodetag">628</div></span>&nbsp;&nbsp;জনস্বাস্থ্য প্রকৌশলবিদ্যা। জল। স্বাস্থ্যবিধি। আলোকসজ্জা প্রকৌশলবিদ্যা','628','জনস্বাস্থ্য প্রকৌশলবিদ্যা। জল। স্বাস্থ্যবিধি। আলোকসজ্জা প্রকৌশলবিদ্যা','','','',false,true);
+d.add(186,185,'628.1','<div class="nodetag">628.1</div></span>&nbsp;&nbsp;জল সরবরাহ। জল শোধন। জলের ব্যবহার','628.1','জল সরবরাহ। জল শোধন। জলের ব্যবহার','','','',false,true);
+d.add(187,185,'628.2','<div class="nodetag">628.2</div></span>&nbsp;&nbsp;পৌর জল অপসারণ। নগর জলনিকাশি। পয়ঃপ্রণালী','628.2','পৌর জল অপসারণ। নগর জলনিকাশি। পয়ঃপ্রণালী','','','',false,true);
+d.add(188,185,'628.3','<div class="nodetag">628.3</div></span>&nbsp;&nbsp;বর্জ্য। বর্জ্য পদার্থের শোধন, নিষ্ক্রিয়করণ, ব্যবহার','628.3','বর্জ্য। বর্জ্য পদার্থের শোধন, নিষ্ক্রিয়করণ, ব্যবহার','','','',false,true);
+d.add(189,185,'628.4','<div class="nodetag">628.4</div></span>&nbsp;&nbsp;পৌর স্বাস্থ্যবিধি। আবর্জনা। জঞ্জাল। ময়লা। শহরী আবর্জনার সংগ্রহ ও নিষ্ক্রিয়করণ','628.4','পৌর স্বাস্থ্যবিধি। আবর্জনা। জঞ্জাল। ময়লা। শহরী আবর্জনার সংগ্রহ ও নিষ্ক্রিয়করণ','','','',false,true);
+d.add(190,185,'628.5','<div class="nodetag">628.5</div></span>&nbsp;&nbsp;শিল্পজাত আবর্জনা ও অনান্য ক্ষতিকর বস্তুর প্রতিবিধান','628.5','শিল্পজাত আবর্জনা ও অনান্য ক্ষতিকর বস্তুর প্রতিবিধান','','','',false,true);
+d.add(191,185,'628.6','<div class="nodetag">628.6</div></span>&nbsp;&nbsp;ইমারতের জলনিকাশি ও স্বাস্থ্যবিধি সন্বন্ধীয় কার্য (বিশেষরূপে জনস্বাস্থ্যের প্রয়োজনে)','628.6','ইমারতের জলনিকাশি ও স্বাস্থ্যবিধি সন্বন্ধীয় কার্য (বিশেষরূপে জনস্বাস্থ্যের প্রয়োজনে)','','','',false,true);
+d.add(192,185,'628.8','<div class="nodetag">628.8</div></span>&nbsp;&nbsp;অন্তরাঙ্গনের জলবায়ু। শীতাতপ নিয়ন্ত্রণ। তাপন। বায়ু চলাচল','628.8','অন্তরাঙ্গনের জলবায়ু। শীতাতপ নিয়ন্ত্রণ। তাপন। বায়ু চলাচল','','','',false,true);
+d.add(193,185,'628.9','<div class="nodetag">628.9</div></span>&nbsp;&nbsp;আলোকসম্পাত। আলোকসজ্জা প্রকৌশলবিদ্যা','628.9','আলোকসম্পাত। আলোকসজ্জা প্রকৌশলবিদ্যা','','','',false,true);
+d.add(194,96,'629','<div class="nodetag">629</div></span>&nbsp;&nbsp;পরিবহণ যান প্রকৌশলবিদ্যা','629','পরিবহণ যান প্রকৌশলবিদ্যা','','','',false,true);
+d.add(195,194,'629.01/.08','<div class="nodetag">629.01/.08</div></span>&nbsp;&nbsp;পরিবহণ যান প্রকৌশলবিদ্যার বিশেষ সহায়িকা সংখ্যাসমূহ','629.01/.08','পরিবহণ যান প্রকৌশলবিদ্যার বিশেষ সহায়িকা সংখ্যাসমূহ','','','',false,true);
+d.add(196,195,'629.01','<div class="nodetag">629.01</div></span>&nbsp;&nbsp;পরিবহণ যান নকশা নীতি : বৈশিষ্ট্য, ক্ষমতা, পরীক্ষা','629.01','পরিবহণ যান নকশা নীতি : বৈশিষ্ট্য, ক্ষমতা, পরীক্ষা','','','',false,true);
+d.add(197,195,'629.02','<div class="nodetag">629.02</div></span>&nbsp;&nbsp;পরিবহন যানের গঠন, নির্মাণ নীতি, পরিকল্পনা ও অঙ্গ প্রত্যঙ্গ','629.02','পরিবহন যানের গঠন, নির্মাণ নীতি, পরিকল্পনা ও অঙ্গ প্রত্যঙ্গ','','','',false,true);
+d.add(198,195,'629.03','<div class="nodetag">629.03</div></span>&nbsp;&nbsp;পরিচালন/প্রপালসন ব্যবস্থা','629.03','পরিচালন/প্রপালসন ব্যবস্থা','','','',false,true);
+d.add(199,195,'629.04','<div class="nodetag">629.04</div></span>&nbsp;&nbsp;অন্তরাঙ্গন পরিকল্পনা : যাত্রী ও মালের উপযোজন, স্থাপন, উপকরণ','629.04','অন্তরাঙ্গন পরিকল্পনা : যাত্রী ও মালের উপযোজন, স্থাপন, উপকরণ','','','',false,true);
+d.add(200,195,'629.05','<div class="nodetag">629.05</div></span>&nbsp;&nbsp;পথ নির্দেশন, নিয়ন্ত্রণ ও পথ চালনা ব্যবস্থা ও যন্ত্রাদি (যান-স্থিত)','629.05','পথ নির্দেশন, নিয়ন্ত্রণ ও পথ চালনা ব্যবস্থা ও যন্ত্রাদি (যান-স্থিত)','','','',false,true);
+d.add(201,195,'629.06','<div class="nodetag">629.06</div></span>&nbsp;&nbsp;যানের সহায়ক ব্যবস্থা ও সাধনী','629.06','যানের সহায়ক ব্যবস্থা ও সাধনী','','','',false,true);
+d.add(202,195,'629.07','<div class="nodetag">629.07</div></span>&nbsp;&nbsp;যানসংক্রান্ত ক্রিয়ার কারিগরি দিকসমূহ (পরিচালন কলাকৌশল)','629.07','যানসংক্রান্ত ক্রিয়ার কারিগরি দিকসমূহ (পরিচালন কলাকৌশল)','','','',false,true);
+d.add(203,195,'629.08','<div class="nodetag">629.08</div></span>&nbsp;&nbsp;ঘাঁটির সরঞ্জাম, স্থাপিত যন্ত্র ও অনুরূপ কারিগরি পদ্ধতি','629.08','ঘাঁটির সরঞ্জাম, স্থাপিত যন্ত্র ও অনুরূপ কারিগরি পদ্ধতি','','','',false,true);
+d.add(204,194,'629.3','<div class="nodetag">629.3</div></span>&nbsp;&nbsp;স্থল যান প্রকৌশলবিদ্যা (রেল প্রকৌশলবিদ্যা ব্যতীত)','629.3','স্থল যান প্রকৌশলবিদ্যা (রেল প্রকৌশলবিদ্যা ব্যতীত)','','','',false,true);
+d.add(205,194,'629.4','<div class="nodetag">629.4</div></span>&nbsp;&nbsp;রেল যান প্রকৌশল্বিদ্যা। লোকোমোটিভ/রেল ইঞ্জিন। রেল ইঞ্জিন বা যান-সম্ভার। রেলযান রখিবার স্থান। রেল যান-সম্ভার সম্পর্কিত স্থাপন ও পরিসেবা কার্য','629.4','রেল যান প্রকৌশল্বিদ্যা। লোকোমোটিভ/রেল ইঞ্জিন। রেল ইঞ্জিন বা যান-সম্ভার। রেলযান রখিবার স্থান। রেল যান-সম্ভার সম্পর্কিত স্থাপন ও পরিসেবা কার্য','','','',false,true);
+d.add(206,194,'629.5','<div class="nodetag">629.5</div></span>&nbsp;&nbsp;জলযান প্রকৌশলবিদ্যা। সামুদ্রিক প্রকৌশলবিদ্যা। নৌকা। জাহাজ। নৌকা-নির্মাণ ও জাহাজ-নির্মাণ','629.5','জলযান প্রকৌশলবিদ্যা। সামুদ্রিক প্রকৌশলবিদ্যা। নৌকা। জাহাজ। নৌকা-নির্মাণ ও জাহাজ-নির্মাণ','','','',false,true);
+d.add(207,194,'629.7','<div class="nodetag">629.7</div></span>&nbsp;&nbsp;বিমান ও মহাকাশ পরিবহন প্রকৌশলবিদ্যা। বিমানবিদ্যা ও বিমান। রকেট ও ক্ষেপণাস্ত্র/মিসাইল । নভশ্চরণবিদ্যা ও মহাকাশযান','629.7','বিমান ও মহাকাশ পরিবহন প্রকৌশলবিদ্যা। বিমানবিদ্যা ও বিমান। রকেট ও ক্ষেপণাস্ত্র/মিসাইল । নভশ্চরণবিদ্যা ও মহাকাশযান','','','',false,true);
+d.add(208,0,'63','<div class="nodetag">63</div></span>&nbsp;&nbsp;কৃষি এবং আনুষঙ্গিক বিজ্ঞান ও পদ্ধতি সমূহ। বনপালনবিদ্যা। পশুপালনবিদ্যা। বন্যজীবনের সদ্ব্যবহার','63','কৃষি এবং আনুষঙ্গিক বিজ্ঞান ও পদ্ধতি সমূহ। বনপালনবিদ্যা। পশুপালনবিদ্যা। বন্যজীবনের সদ্ব্যবহার','','','',false,true);
+d.add(209,208,'630','<div class="nodetag">630</div></span>&nbsp;&nbsp;বনপালনবিদ্যা','630','বনপালনবিদ্যা','','','',false,true);
+d.add(210,209,'630*0','<div class="nodetag">630*0</div></span>&nbsp;&nbsp;বন, বনপালনবিদ্যা ও বনজ সামগ্রীর সদ্ব্যবহার','630*0','বন, বনপালনবিদ্যা ও বনজ সামগ্রীর সদ্ব্যবহার','','','',false,true);
+d.add(211,209,'630*1','<div class="nodetag">630*1</div></span>&nbsp;&nbsp;পরিবেশের উপাদান। বনজীববিদ্যা','630*1','পরিবেশের উপাদান। বনজীববিদ্যা','','','',false,true);
+d.add(212,209,'630*2','<div class="nodetag">630*2</div></span>&nbsp;&nbsp;বনবিদ্যা','630*2','বনবিদ্যা','','','',false,true);
+d.add(213,209,'630*3','<div class="nodetag">630*3</div></span>&nbsp;&nbsp;বনপালনবিদ্যা কর্মবিজ্ঞান (কর্ম অধ্যয়ন)। কাষ্ঠ আহরণ : গাছের গুঁড়ি প্রস্তুতকরণ ও পরিবহন। বন প্রকৌশলবিদ্যা','630*3','বনপালনবিদ্যা কর্মবিজ্ঞান (কর্ম অধ্যয়ন)। কাষ্ঠ আহরণ : গাছের গুঁড়ি প্রস্তুতকরণ ও পরিবহন। বন প্রকৌশলবিদ্যা','','','',false,true);
+d.add(214,209,'630*4','<div class="nodetag">630*4</div></span>&nbsp;&nbsp;অরণ্যের আঘাত/ক্ষতি ও সংরক্ষণ','630*4','অরণ্যের আঘাত/ক্ষতি ও সংরক্ষণ','','','',false,true);
+d.add(215,209,'630*5','<div class="nodetag">630*5</div></span>&nbsp;&nbsp;বনের আয়তন নির্ণয়। গাছের বৃদ্ধি, বাড়, বিকাশ ও গঠন। জরিপ ও মানচিত্রাঙ্কন','630*5','বনের আয়তন নির্ণয়। গাছের বৃদ্ধি, বাড়, বিকাশ ও গঠন। জরিপ ও মানচিত্রাঙ্কন','','','',false,true);
+d.add(216,209,'630*6','<div class="nodetag">630*6</div></span>&nbsp;&nbsp;বন পরিচালনা ও ব্যবস্থাপনা। বনপালনবিদ্যার বাণিজ্যিক অর্থনীতি। বন উদ্যোগ সম্বন্ধীয় প্রশাসন ও সংগঠন','630*6','বন পরিচালনা ও ব্যবস্থাপনা। বনপালনবিদ্যার বাণিজ্যিক অর্থনীতি। বন উদ্যোগ সম্বন্ধীয় প্রশাসন ও সংগঠন','','','',false,true);
+d.add(217,209,'630*7','<div class="nodetag">630*7</div></span>&nbsp;&nbsp;বনজ সামগ্রীর বিপণন। বন পরিবহণ অর্থনীতি এবং কাষ্ঠ শিল্প','630*7','বনজ সামগ্রীর বিপণন। বন পরিবহণ অর্থনীতি এবং কাষ্ঠ শিল্প','','','',false,true);
+d.add(218,209,'630*8','<div class="nodetag">630*8</div></span>&nbsp;&nbsp;বনজ সামগ্রী ও তার সদ্ব্যবহার','630*8','বনজ সামগ্রী ও তার সদ্ব্যবহার','','','',false,true);
+d.add(219,209,'630*9','<div class="nodetag">630*9</div></span>&nbsp;&nbsp;রাষ্ট্রীয় দৃষ্টিকোণ থেকে বন ও বনপালনবিদ্যা। বনপালনবিদ্যার সামাজিক অর্থনীতি','630*9','রাষ্ট্রীয় দৃষ্টিকোণ থেকে বন ও বনপালনবিদ্যা। বনপালনবিদ্যার সামাজিক অর্থনীতি','','','',false,true);
+d.add(220,208,'631/635','<div class="nodetag">631/635</div></span>&nbsp;&nbsp;খামার ব্যবস্থাপনা। বিজ্ঞানভিত্তিক কৃষিকার্য/এ্যাগ্রোনমি। উদ্যানবিদ্যা','631/635','খামার ব্যবস্থাপনা। বিজ্ঞানভিত্তিক কৃষিকার্য/এ্যাগ্রোনমি। উদ্যানবিদ্যা','','','',false,true);
+d.add(221,220,'631','<div class="nodetag">631</div></span>&nbsp;&nbsp;কৃষিবিদ্যা (ব্যাপকার্থে)','631','কৃষিবিদ্যা (ব্যাপকার্থে)','','','',false,true);
+d.add(222,221,'631.1','<div class="nodetag">631.1</div></span>&nbsp;&nbsp;খামার ব্যবস্থাপনা ও সংগঠন','631.1','খামার ব্যবস্থাপনা ও সংগঠন','','','',false,true);
+d.add(223,221,'631.2','<div class="nodetag">631.2</div></span>&nbsp;&nbsp;খামার গৃহ, কাঠামো ও স্থাপন। পশুসম্পদ, উৎপাদিত সামগ্রী, যন্ত্রপাতি ও সরঞ্জামের জন্য ইমারত','631.2','খামার গৃহ, কাঠামো ও স্থাপন। পশুসম্পদ, উৎপাদিত সামগ্রী, যন্ত্রপাতি ও সরঞ্জামের জন্য ইমারত','','','',false,true);
+d.add(224,221,'631.3','<div class="nodetag">631.3</div></span>&nbsp;&nbsp;কৃষি যন্ত্রপাতি ও সরঞ্জাম','631.3','কৃষি যন্ত্রপাতি ও সরঞ্জাম','','','',false,true);
+d.add(225,221,'631.4','<div class="nodetag">631.4</div></span>&nbsp;&nbsp;মৃত্তিকা বিজ্ঞান। মৃত্তিকা গবেষণা','631.4','মৃত্তিকা বিজ্ঞান। মৃত্তিকা গবেষণা','','','',false,true);
+d.add(226,221,'631.5','<div class="nodetag">631.5</div></span>&nbsp;&nbsp;কৃষিকার্য','631.5','কৃষিকার্য','','','',false,true);
+d.add(227,221,'631.6','<div class="nodetag">631.6</div></span>&nbsp;&nbsp;গ্রামীণ প্রকৌশলবিদ্যা','631.6','গ্রামীণ প্রকৌশলবিদ্যা','','','',false,true);
+d.add(228,221,'631.8','<div class="nodetag">631.8</div></span>&nbsp;&nbsp;অজৈব ও জৈব সার ও মৃত্তিকার উর্বরতা বৃদ্ধি। বৃদ্ধির উন্নয়ন। উদ্ভিদ উদ্দীপক','631.8','অজৈব ও জৈব সার ও মৃত্তিকার উর্বরতা বৃদ্ধি। বৃদ্ধির উন্নয়ন। উদ্ভিদ উদ্দীপক','','','',false,true);
+d.add(229,220,'632','<div class="nodetag">632</div></span>&nbsp;&nbsp;উদ্ভিদের ক্ষতি, আঘাত। উদ্ভিদের রোগ। উদ্ভিদের ক্ষতিকর কীটপতঙ্গ, জীব। উদ্ভিদের সংরক্ষণ','632','উদ্ভিদের ক্ষতি, আঘাত। উদ্ভিদের রোগ। উদ্ভিদের ক্ষতিকর কীটপতঙ্গ, জীব। উদ্ভিদের সংরক্ষণ','','','',false,true);
+d.add(230,220,'633/635','<div class="nodetag">633/635</div></span>&nbsp;&nbsp;উদ্যানবিদ্যা (ব্যাপকার্থে)। নির্দিষ্ট শস্য','633/635','উদ্যানবিদ্যা (ব্যাপকার্থে)। নির্দিষ্ট শস্য','','','',false,true);
+d.add(231,230,'633','<div class="nodetag">633</div></span>&nbsp;&nbsp;কৃষিজাত শস্য ও তার উৎপাদন','633','কৃষিজাত শস্য ও তার উৎপাদন','','','',false,true);
+d.add(232,231,'633.1','<div class="nodetag">633.1</div></span>&nbsp;&nbsp;খাদ্যশস্য। দানা শস্য','633.1','খাদ্যশস্য। দানা শস্য','','','',false,true);
+d.add(233,231,'633.2','<div class="nodetag">633.2</div></span>&nbsp;&nbsp;পশুআহার্য তৃ্ণ। তৃণভূমি ও চারণভূমির তৃণ','633.2','পশুআহার্য তৃ্ণ। তৃণভূমি ও চারণভূমির তৃণ','','','',false,true);
+d.add(234,231,'633.3','<div class="nodetag">633.3</div></span>&nbsp;&nbsp;তৃণ ব্যতীত পশুআহার্য উদ্ভিদ','633.3','তৃণ ব্যতীত পশুআহার্য উদ্ভিদ','','','',false,true);
+d.add(235,231,'633.4','<div class="nodetag">633.4</div></span>&nbsp;&nbsp;ভক্ষ্য মূল ও কন্দ। মূলজাতীয় শস্য','633.4','ভক্ষ্য মূল ও কন্দ। মূলজাতীয় শস্য','','','',false,true);
+d.add(236,231,'633.5','<div class="nodetag">633.5</div></span>&nbsp;&nbsp;বস্ত্র ও তন্তু উৎপাদী শস্য','633.5','বস্ত্র ও তন্তু উৎপাদী শস্য','','','',false,true);
+d.add(237,231,'633.6','<div class="nodetag">633.6</div></span>&nbsp;&nbsp;শর্করা ও শ্বেতসার উৎপাদী শস্য','633.6','শর্করা ও শ্বেতসার উৎপাদী শস্য','','','',false,true);
+d.add(238,231,'633.7','<div class="nodetag">633.7</div></span>&nbsp;&nbsp;উদ্দীপক উৎপাদক শস্য। পানীয় উৎপাদক উদ্ভিদ','633.7','উদ্দীপক উৎপাদক শস্য। পানীয় উৎপাদক উদ্ভিদ','','','',false,true);
+d.add(239,231,'633.8','<div class="nodetag">633.8</div></span>&nbsp;&nbsp;সুগন্ধি উৎপাদক উদ্ভিদ। গুঁড়া মশলা, আচার, চাটনি, কাসুন্দি উৎপাদক উদ্ভিদ। তৈলোৎপাদী উদ্ভিদ। রঙ উৎপাদক উদ্ভিদ। ট্যানিন্‌ উৎপাদক উদ্ভিদ। ঔষধি উৎপাদক উদ্ভিদ','633.8','সুগন্ধি উৎপাদক উদ্ভিদ। গুঁড়া মশলা, আচার, চাটনি, কাসুন্দি উৎপাদক উদ্ভিদ। তৈলোৎপাদী উদ্ভিদ। রঙ উৎপাদক উদ্ভিদ। ট্যানিন্‌ উৎপাদক উদ্ভিদ। ঔষধি উৎপাদক উদ্ভিদ','','','',false,true);
+d.add(240,231,'633.9','<div class="nodetag">633.9</div></span>&nbsp;&nbsp;শিল্পে ব্যবহার্য অন্যান্য উদ্ভিদ','633.9','শিল্পে ব্যবহার্য অন্যান্য উদ্ভিদ','','','',false,true);
+d.add(241,230,'634','<div class="nodetag">634</div></span>&nbsp;&nbsp;ফল উৎপাদন','634','ফল উৎপাদন','','','',false,true);
+d.add(242,241,'634.2','<div class="nodetag">634.2</div></span>&nbsp;&nbsp;আঁটিযুক্ত ফলা। আটিঁযুক্ত শাঁসালো ফল (ব্যাপকার্থে)','634.2','আঁটিযুক্ত ফলা। আটিঁযুক্ত শাঁসালো ফল (ব্যাপকার্থে)','','','',false,true);
+d.add(243,241,'634.3','<div class="nodetag">634.3</div></span>&nbsp;&nbsp;রুটাসিয়াস ও মোরাসিয়াস ফলাদি। লেবু জাতীয় ফল (ব্যাপকার্থে)','634.3','রুটাসিয়াস ও মোরাসিয়াস ফলাদি। লেবু জাতীয় ফল (ব্যাপকার্থে)','','','',false,true);
+d.add(244,241,'634.4','<div class="nodetag">634.4</div></span>&nbsp;&nbsp;অন্যান্য শাঁসযুক্ত ফল','634.4','অন্যান্য শাঁসযুক্ত ফল','','','',false,true);
+d.add(245,241,'634.5','<div class="nodetag">634.5</div></span>&nbsp;&nbsp;বাদামজাতীয় ফল','634.5','বাদামজাতীয় ফল','','','',false,true);
+d.add(246,241,'634.6','<div class="nodetag">634.6</div></span>&nbsp;&nbsp;বিবিধ ক্রান্তীয় এবং উপক্রান্তীয় ফল','634.6','বিবিধ ক্রান্তীয় এবং উপক্রান্তীয় ফল','','','',false,true);
+d.add(247,241,'634.7','<div class="nodetag">634.7</div></span>&nbsp;&nbsp;গুল্ম ও ঔষধি উদ্ভিদ হইতে প্রাপ্ত ক্ষুদ্রাকার ফল। ক্ষুদ্র বীজহীন রসাল ফল','634.7','গুল্ম ও ঔষধি উদ্ভিদ হইতে প্রাপ্ত ক্ষুদ্রাকার ফল। ক্ষুদ্র বীজহীন রসাল ফল','','','',false,true);
+d.add(248,241,'634.8','<div class="nodetag">634.8</div></span>&nbsp;&nbsp;দ্রাক্ষার চাষ। দ্রাক্ষালতা/আঙ্গুরগাছ। দ্রাক্ষাক্ষেত্র','634.8','দ্রাক্ষার চাষ। দ্রাক্ষালতা/আঙ্গুরগাছ। দ্রাক্ষাক্ষেত্র','','','',false,true);
+d.add(249,230,'635','<div class="nodetag">635</div></span>&nbsp;&nbsp;উদ্যানজাত উদ্ভিদ। উদ্যানবিদ্যা','635','উদ্যানজাত উদ্ভিদ। উদ্যানবিদ্যা','','','',false,true);
+d.add(250,249,'635.1/.8','<div class="nodetag">635.1/.8</div></span>&nbsp;&nbsp;শাক-সবজি। বাসগৃহসংলগ্ন উদ্যানবিদ্যা','635.1/.8','শাক-সবজি। বাসগৃহসংলগ্ন উদ্যানবিদ্যা','','','',false,true);
+d.add(251,250,'635.1','<div class="nodetag">635.1</div></span>&nbsp;&nbsp;ভক্ষ্য মূল। মূলজাতীয় শাক-সবজি','635.1','ভক্ষ্য মূল। মূলজাতীয় শাক-সবজি','','','',false,true);
+d.add(252,250,'635.2','<div class="nodetag">635.2</div></span>&nbsp;&nbsp;ভক্ষ্য স্ফীতকন্দ ও কন্দ','635.2','ভক্ষ্য স্ফীতকন্দ ও কন্দ','','','',false,true);
+d.add(253,250,'635.3','<div class="nodetag">635.3</div></span>&nbsp;&nbsp;ভক্ষ্য বৃন্ত, পাতা অথবা ফুল জাতীয় উদ্ভিদ','635.3','ভক্ষ্য বৃন্ত, পাতা অথবা ফুল জাতীয় উদ্ভিদ','','','',false,true);
+d.add(254,250,'635.4','<div class="nodetag">635.4</div></span>&nbsp;&nbsp;অন্যান্য সবুজ সবজি। পাতাযুক্ত সবজি','635.4','অন্যান্য সবুজ সবজি। পাতাযুক্ত সবজি','','','',false,true);
+d.add(255,250,'635.6','<div class="nodetag">635.6</div></span>&nbsp;&nbsp;ভক্ষ্য ফল ও বীজ। ডাল','635.6','ভক্ষ্য ফল ও বীজ। ডাল','','','',false,true);
+d.add(256,250,'635.7','<div class="nodetag">635.7</div></span>&nbsp;&nbsp;সুগন্ধি লতাপাতা। সুস্বাদুকরণের নিমিত্ত উদ্ভিদ','635.7','সুগন্ধি লতাপাতা। সুস্বাদুকরণের নিমিত্ত উদ্ভিদ','','','',false,true);
+d.add(257,250,'635.8','<div class="nodetag">635.8</div></span>&nbsp;&nbsp;ভক্ষ্য ছত্রাক','635.8','ভক্ষ্য ছত্রাক','','','',false,true);
+d.add(258,249,'635.9','<div class="nodetag">635.9</div></span>&nbsp;&nbsp;সৌন্দর্যবর্ধক। বাহারি উদ্ভিদ। সৌন্দর্যবর্ধক উদ্যানবিদ্যা','635.9','সৌন্দর্যবর্ধক। বাহারি উদ্ভিদ। সৌন্দর্যবর্ধক উদ্যানবিদ্যা','','','',false,true);
+d.add(259,208,'636','<div class="nodetag">636</div></span>&nbsp;&nbsp;পশুপালনবিদ্যা ও প্রজনন/বংশবৃদ্ধি। পশুসম্পদের লালন-পালন। গৃহপালিত পশুর প্রজনন','636','পশুপালনবিদ্যা ও প্রজনন/বংশবৃদ্ধি। পশুসম্পদের লালন-পালন। গৃহপালিত পশুর প্রজনন','','','',false,true);
+d.add(260,259,'636.01/.09','<div class="nodetag">636.01/.09</div></span>&nbsp;&nbsp;পশুপালনবিদ্যা সংক্রান্ত বিশেষ সহায়িকা সংখ্যাসমূহ','636.01/.09','পশুপালনবিদ্যা সংক্রান্ত বিশেষ সহায়িকা সংখ্যাসমূহ','','','',false,true);
+d.add(261,260,'636.01','<div class="nodetag">636.01</div></span>&nbsp;&nbsp;মনুষ্য পালিত পশুর উৎপত্তি, ক্রমবিকাশ ও গৃহপালন। পশুকে পোষ মানানো । লালন-পালন ও প্রশিক্ষণের জৈব ভিত্তি','636.01','মনুষ্য পালিত পশুর উৎপত্তি, ক্রমবিকাশ ও গৃহপালন। পশুকে পোষ মানানো । লালন-পালন ও প্রশিক্ষণের জৈব ভিত্তি','','','',false,true);
+d.add(262,260,'636.02','<div class="nodetag">636.02</div></span>&nbsp;&nbsp;প্রজনন, প্রদর্শন ও বৈজ্ঞানিক প্রয়োগের নিমিত্ত রক্ষিত পশু','636.02','প্রজনন, প্রদর্শন ও বৈজ্ঞানিক প্রয়োগের নিমিত্ত রক্ষিত পশু','','','',false,true);
+d.add(263,260,'636.03','<div class="nodetag">636.03</div></span>&nbsp;&nbsp;খাদ্য ও অন্যান্য সামগ্রীর উৎপাদন হেতু পশু প্রজনন ও পালন । খামার ও র‌্যাঞ্চের পশু (ব্যাপকার্থে)','636.03','খাদ্য ও অন্যান্য সামগ্রীর উৎপাদন হেতু পশু প্রজনন ও পালন । খামার ও র‌্যাঞ্চের পশু (ব্যাপকার্থে)','','','',false,true);
+d.add(264,260,'636.04','<div class="nodetag">636.04</div></span>&nbsp;&nbsp;মানুষের কাজ ও পরিসেবা অথবা আনন্দ হেতু পশু প্রজনন ও পালন','636.04','মানুষের কাজ ও পরিসেবা অথবা আনন্দ হেতু পশু প্রজনন ও পালন','','','',false,true);
+d.add(265,260,'636.05','<div class="nodetag">636.05</div></span>&nbsp;&nbsp;প্রজনন অনুসার পশু','636.05','প্রজনন অনুসার পশু','','','',false,true);
+d.add(266,260,'636.06','<div class="nodetag">636.06</div></span>&nbsp;&nbsp;গৃহপালিত পশুর বৈশিষ্ট্য, গঠন এবং বিশেষ জৈবিক বিশেষত্ব','636.06','গৃহপালিত পশুর বৈশিষ্ট্য, গঠন এবং বিশেষ জৈবিক বিশেষত্ব','','','',false,true);
+d.add(267,260,'636.08','<div class="nodetag">636.08</div></span>&nbsp;&nbsp;পশু প্রজনন ও পালন সংক্রান্ত সাধারণ প্রশ্নসমূহ','636.08','পশু প্রজনন ও পালন সংক্রান্ত সাধারণ প্রশ্নসমূহ','','','',false,true);
+d.add(268,260,'636.09','<div class="nodetag">636.09</div></span>&nbsp;&nbsp;পশু রোগবিদ্যা','636.09','পশু রোগবিদ্যা','','','',false,true);
+d.add(269,259,'636.1','<div class="nodetag">636.1</div></span>&nbsp;&nbsp;গৃহপালিত ঘোড়া। ঘোটক/ঘোড়া','636.1','গৃহপালিত ঘোড়া। ঘোটক/ঘোড়া','','','',false,true);
+d.add(270,259,'636.2','<div class="nodetag">636.2</div></span>&nbsp;&nbsp;বৃহৎ রোমন্থক। গবাদি পশু, বলদ','636.2','বৃহৎ রোমন্থক। গবাদি পশু, বলদ','','','',false,true);
+d.add(271,259,'636.3','<div class="nodetag">636.3</div></span>&nbsp;&nbsp;ক্ষুদ্র রোমন্থক','636.3','ক্ষুদ্র রোমন্থক','','','',false,true);
+d.add(272,259,'636.4','<div class="nodetag">636.4</div></span>&nbsp;&nbsp;শূকরছানা। শূকর','636.4','শূকরছানা। শূকর','','','',false,true);
+d.add(273,259,'636.5','<div class="nodetag">636.5</div></span>&nbsp;&nbsp;গৃহপালিত কুক্কুটাদি/পোলট্রি','636.5','গৃহপালিত কুক্কুটাদি/পোলট্রি','','','',false,true);
+d.add(274,259,'636.6','<div class="nodetag">636.6</div></span>&nbsp;&nbsp;মনুষ্য দ্বারা পালন ও প্রজনন হেতু পাখি (পোলট্রি ওশিকারের উদ্দেশ্য ব্যতীত)','636.6','মনুষ্য দ্বারা পালন ও প্রজনন হেতু পাখি (পোলট্রি ওশিকারের উদ্দেশ্য ব্যতীত)','','','',false,true);
+d.add(275,259,'636.7','<div class="nodetag">636.7</div></span>&nbsp;&nbsp;কুকুর/সারমেয়','636.7','কুকুর/সারমেয়','','','',false,true);
+d.add(276,259,'636.8','<div class="nodetag">636.8</div></span>&nbsp;&nbsp;বিড়াল','636.8','বিড়াল','','','',false,true);
+d.add(277,259,'636.9','<div class="nodetag">636.9</div></span>&nbsp;&nbsp;মনুষ্য পালিত অন্যান্য পশু','636.9','মনুষ্য পালিত অন্যান্য পশু','','','',false,true);
+d.add(278,208,'637','<div class="nodetag">637</div></span>&nbsp;&nbsp;গৃহপালিত (খামারবাড়ি) পশু এবং শিকারের নিমিত্ত পশু হতে উৎপন্ন সামগ্রী','637','গৃহপালিত (খামারবাড়ি) পশু এবং শিকারের নিমিত্ত পশু হতে উৎপন্ন সামগ্রী','','','',false,true);
+d.add(279,208,'638','<div class="nodetag">638</div></span>&nbsp;&nbsp;কীটপতঙ্গ ও অন্যান্য সন্ধিপদীর পালন, প্রজনন ও ব্যবস্থাপনা','638','কীটপতঙ্গ ও অন্যান্য সন্ধিপদীর পালন, প্রজনন ও ব্যবস্থাপনা','','','',false,true);
+d.add(280,208,'639','<div class="nodetag">639</div></span>&nbsp;&nbsp;শিকার। মৎস্য শিকার। মৎস্য প্রজনন','639','শিকার। মৎস্য শিকার। মৎস্য প্রজনন','','','',false,true);
+d.add(281,280,'639.1','<div class="nodetag">639.1</div></span>&nbsp;&nbsp;শিকার','639.1','শিকার','','','',false,true);
+d.add(282,280,'639.2','<div class="nodetag">639.2</div></span>&nbsp;&nbsp;মৎস্য শিকার। মেছো ঘেরি','639.2','মৎস্য শিকার। মেছো ঘেরি','','','',false,true);
+d.add(283,280,'639.3','<div class="nodetag">639.3</div></span>&nbsp;&nbsp;মৎস্য প্রজনন। মৎস্যপালন','639.3','মৎস্য প্রজনন। মৎস্যপালন','','','',false,true);
+d.add(284,280,'639.4','<div class="nodetag">639.4</div></span>&nbsp;&nbsp;জলজ কম্বোজ/শম্বুকজাতীয় প্রাণীর (শেলফিস্‌) প্রজনন','639.4','জলজ কম্বোজ/শম্বুকজাতীয় প্রাণীর (শেলফিস্‌) প্রজনন','','','',false,true);
+d.add(285,280,'639.5','<div class="nodetag">639.5</div></span>&nbsp;&nbsp;জলজ কঠিন খোলাযুক্ত প্রাণীর প্রজনন','639.5','জলজ কঠিন খোলাযুক্ত প্রাণীর প্রজনন','','','',false,true);
+d.add(286,280,'639.6','<div class="nodetag">639.6</div></span>&nbsp;&nbsp;অন্যান্য সামুদ্রিক উৎপাদ','639.6','অন্যান্য সামুদ্রিক উৎপাদ','','','',false,true);
+d.add(287,0,'64','<div class="nodetag">64</div></span>&nbsp;&nbsp;গার্হস্থ্য অর্থনীতি। গার্হস্থ্য বিজ্ঞান। গৃহস্থালি','64','গার্হস্থ্য অর্থনীতি। গার্হস্থ্য বিজ্ঞান। গৃহস্থালি','','','',false,true);
+d.add(288,287,'64.01/.08','<div class="nodetag">64.01/.08</div></span>&nbsp;&nbsp;গার্হস্থ্য বিজ্ঞানের বিশেষ সহায়িকাসমূহ','64.01/.08','গার্হস্থ্য বিজ্ঞানের বিশেষ সহায়িকাসমূহ','','','',false,true);
+d.add(289,288,'64.01','<div class="nodetag">64.01</div></span>&nbsp;&nbsp;পরিবার। পরিবার ব্যবস্থাপনা','64.01','পরিবার। পরিবার ব্যবস্থাপনা','','','',false,true);
+d.add(290,288,'64.048','<div class="nodetag">64.048</div></span>&nbsp;&nbsp;পরিবার সংক্রান্ত কর্ম ও কর্ম পদ্ধতির অধ্যয়ন','64.048','পরিবার সংক্রান্ত কর্ম ও কর্ম পদ্ধতির অধ্যয়ন','','','',false,true);
+d.add(291,288,'64.05','<div class="nodetag">64.05</div></span>&nbsp;&nbsp;গার্হস্থ্য অর্থনীতি। নির্দিষ্ট শ্রেণির ব্যক্তির জন্য গৃহস্থালি, গৃহসজ্জা ও প্রয়োজনীয় সাজসজ্জা করা','64.05','গার্হস্থ্য অর্থনীতি। নির্দিষ্ট শ্রেণির ব্যক্তির জন্য গৃহস্থালি, গৃহসজ্জা ও প্রয়োজনীয় সাজসজ্জা করা','','','',false,true);
+d.add(292,288,'64.06','<div class="nodetag">64.06</div></span>&nbsp;&nbsp;গৃহস্থালি সংক্রান্ত যন্ত্রপাতি ও যন্ত্রাদি। গৃহস্থিত শ্রম-সাশ্রয় যন্ত্রাদি','64.06','গৃহস্থালি সংক্রান্ত যন্ত্রপাতি ও যন্ত্রাদি। গৃহস্থিত শ্রম-সাশ্রয় যন্ত্রাদি','','','',false,true);
+d.add(293,288,'64.08','<div class="nodetag">64.08</div></span>&nbsp;&nbsp;গৃহ পরিবর্তন। স্থানান্তরণ','64.08','গৃহ পরিবর্তন। স্থানান্তরণ','','','',false,true);
+d.add(294,287,'640','<div class="nodetag">640</div></span>&nbsp;&nbsp;পরিবারের প্রকার','640','পরিবারের প্রকার','','','',false,true);
+d.add(295,287,'641/642','<div class="nodetag">641/642</div></span>&nbsp;&nbsp;ভোজ্য/খাদ্য। রন্ধন। খাদ্যের পদ। আহার্য','641/642','ভোজ্য/খাদ্য। রন্ধন। খাদ্যের পদ। আহার্য','','','',false,true);
+d.add(296,295,'641','<div class="nodetag">641</div></span>&nbsp;&nbsp;ভোজ্য/খাদ্য। রন্ধন। খাদ্যের পদ','641','ভোজ্য/খাদ্য। রন্ধন। খাদ্যের পদ','','','',false,true);
+d.add(297,295,'642','<div class="nodetag">642</div></span>&nbsp;&nbsp;আহার্য ও ভোজনকাল। ভোজন পরিবেশন সামগ্রী','642','আহার্য ও ভোজনকাল। ভোজন পরিবেশন সামগ্রী','','','',false,true);
+d.add(298,287,'643/645','<div class="nodetag">643/645</div></span>&nbsp;&nbsp;গৃহ। গৃহের সাজসরঞ্জাম ও গৃহসজ্জা','643/645','গৃহ। গৃহের সাজসরঞ্জাম ও গৃহসজ্জা','','','',false,true);
+d.add(299,298,'643','<div class="nodetag">643</div></span>&nbsp;&nbsp;গৃহ। আবাস','643','গৃহ। আবাস','','','',false,true);
+d.add(300,298,'644','<div class="nodetag">644</div></span>&nbsp;&nbsp;আবাসে স্বাস্থ্য ও স্বাচ্ছন্দ্য সম্বন্ধীয় বিষয়াদি স্থাপন','644','আবাসে স্বাস্থ্য ও স্বাচ্ছন্দ্য সম্বন্ধীয় বিষয়াদি স্থাপন','','','',false,true);
+d.add(301,300,'644.1','<div class="nodetag">644.1</div></span>&nbsp;&nbsp;গৃহমধ্যস্থ পরিবেশের নিয়ন্ত্রণ। তাপন। বায়ু চলাচল। শীতাতপ নিয়ন্ত্রণ','644.1','গৃহমধ্যস্থ পরিবেশের নিয়ন্ত্রণ। তাপন। বায়ু চলাচল। শীতাতপ নিয়ন্ত্রণ','','','',false,true);
+d.add(302,300,'644.3','<div class="nodetag">644.3</div></span>&nbsp;&nbsp;গৃহের আলোকসজ্জা','644.3','গৃহের আলোকসজ্জা','','','',false,true);
+d.add(303,300,'644.6','<div class="nodetag">644.6</div></span>&nbsp;&nbsp;গৃহের জল সরবরাহ এবং ময়লা জল, আবর্জনা নিষ্কাশন ব্যবস্থা','644.6','গৃহের জল সরবরাহ এবং ময়লা জল, আবর্জনা নিষ্কাশন ব্যবস্থা','','','',false,true);
+d.add(304,298,'645','<div class="nodetag">645</div></span>&nbsp;&nbsp;আসবাবপত্র ও গৃহের সাজসরঞ্জাম','645','আসবাবপত্র ও গৃহের সাজসরঞ্জাম','','','',false,true);
+d.add(305,287,'646/649','<div class="nodetag">646/649</div></span>&nbsp;&nbsp;ব্যক্তিগত আবশ্যকতা। গৃহস্থালি ব্যবস্থাপনা','646/649','ব্যক্তিগত আবশ্যকতা। গৃহস্থালি ব্যবস্থাপনা','','','',false,true);
+d.add(306,305,'646','<div class="nodetag">646</div></span>&nbsp;&nbsp;পোশাক। দেহের যত্ন','646','পোশাক। দেহের যত্ন','','','',false,true);
+d.add(307,306,'646.2','<div class="nodetag">646.2</div></span>&nbsp;&nbsp;গৃহে পোশাক তৈরি ও মেরামত করা। গার্হস্থ্য পোশাক প্রস্তুতকরণ','646.2','গৃহে পোশাক তৈরি ও মেরামত করা। গার্হস্থ্য পোশাক প্রস্তুতকরণ','','','',false,true);
+d.add(308,306,'646.4','<div class="nodetag">646.4</div></span>&nbsp;&nbsp;পোশাক। বস্ত্রাদি','646.4','পোশাক। বস্ত্রাদি','','','',false,true);
+d.add(309,306,'646.7','<div class="nodetag">646.7</div></span>&nbsp;&nbsp;দেহের যত্ন। রূপচর্চা। পরিধান ও বেশপরিবর্তনের সহায়ক সামগ্রী','646.7','দেহের যত্ন। রূপচর্চা। পরিধান ও বেশপরিবর্তনের সহায়ক সামগ্রী','','','',false,true);
+d.add(310,305,'648','<div class="nodetag">648</div></span>&nbsp;&nbsp;জামা-কাপড় কাচা। ধোয়া ও ইস্ত্রি করা। পরিষ্কার করা','648','জামা-কাপড় কাচা। ধোয়া ও ইস্ত্রি করা। পরিষ্কার করা','','','',false,true);
+d.add(311,305,'649','<div class="nodetag">649</div></span>&nbsp;&nbsp;শিশু, পঙ্গু ব্যক্তি, অতিথির গার্হস্থ্য সেবা-যত্ন','649','শিশু, পঙ্গু ব্যক্তি, অতিথির গার্হস্থ্য সেবা-যত্ন','','','',false,true);
+d.add(312,0,'65','<div class="nodetag">65</div></span>&nbsp;&nbsp;যোগাযোগ এবং পরিবহন শিল্পসমূহ। হিসাবশাস্ত্র। ব্যবসায় পরিচালনা। জনসংযোগ','65','যোগাযোগ এবং পরিবহন শিল্পসমূহ। হিসাবশাস্ত্র। ব্যবসায় পরিচালনা। জনসংযোগ','','','',false,true);
+d.add(313,312,'654','<div class="nodetag">654</div></span>&nbsp;&nbsp;দূরসঞ্চার ও দূরনিয়ন্ত্রণ (সংগঠন ও পরিসেবা)','654','দূরসঞ্চার ও দূরনিয়ন্ত্রণ (সংগঠন ও পরিসেবা)','','','',false,true);
+d.add(314,313,'654.1','<div class="nodetag">654.1</div></span>&nbsp;&nbsp;তারবার্তা। দূরভাষ। বেতার। দূরদর্শন','654.1','তারবার্তা। দূরভাষ। বেতার। দূরদর্শন','','','',false,true);
+d.add(315,313,'654.9','<div class="nodetag">654.9</div></span>&nbsp;&nbsp;সংকেত-জ্ঞাপন। বিবিধ দূরসঞ্চার পরিসেবা। দূরনিয়ন্ত্রণ','654.9','সংকেত-জ্ঞাপন। বিবিধ দূরসঞ্চার পরিসেবা। দূরনিয়ন্ত্রণ','','','',false,true);
+d.add(316,312,'655','<div class="nodetag">655</div></span>&nbsp;&nbsp;রৈখিক/গ্রাফিক শিল্পসমূহ। মুদ্রণ। প্রকাশনা। গ্রন্থ ব্যবসায়','655','রৈখিক/গ্রাফিক শিল্পসমূহ। মুদ্রণ। প্রকাশনা। গ্রন্থ ব্যবসায়','','','',false,true);
+d.add(317,316,'655.1','<div class="nodetag">655.1</div></span>&nbsp;&nbsp;মুদ্রণ শিল্প (ব্যাপকার্থে)','655.1','মুদ্রণ শিল্প (ব্যাপকার্থে)','','','',false,true);
+d.add(318,316,'655.4','<div class="nodetag">655.4</div></span>&nbsp;&nbsp;প্রকাশনা ও গ্রন্থ বিক্রয় (ব্যাপকার্থে)','655.4','প্রকাশনা ও গ্রন্থ বিক্রয় (ব্যাপকার্থে)','','','',false,true);
+d.add(319,312,'656','<div class="nodetag">656</div></span>&nbsp;&nbsp;পরিবহন ও ডাক পরিসেবা। যানচলাচল ও নিয়ন্ত্রণ','656','পরিবহন ও ডাক পরিসেবা। যানচলাচল ও নিয়ন্ত্রণ','','','',false,true);
+d.add(320,319,'656.1/.5','<div class="nodetag">656.1/.5</div></span>&nbsp;&nbsp;স্থল পরিবহণ','656.1/.5','স্থল পরিবহণ','','','',false,true);
+d.add(321,320,'656.1','<div class="nodetag">656.1</div></span>&nbsp;&nbsp;সড়ক পরিবহণ','656.1','সড়ক পরিবহণ','','','',false,true);
+d.add(322,320,'656.2','<div class="nodetag">656.2</div></span>&nbsp;&nbsp;রেল পরিবহণ। রেল চলাচল','656.2','রেল পরিবহণ। রেল চলাচল','','','',false,true);
+d.add(323,320,'656.4','<div class="nodetag">656.4</div></span>&nbsp;&nbsp;স্বল্প মাল বহন যোগ্য রেল পরিবহণ','656.4','স্বল্প মাল বহন যোগ্য রেল পরিবহণ','','','',false,true);
+d.add(324,320,'656.5','<div class="nodetag">656.5</div></span>&nbsp;&nbsp;চলমান যান্ত্রিক ও নলাকার ব্যবস্থার মাধ্যমে স্থল পরিবহন','656.5','চলমান যান্ত্রিক ও নলাকার ব্যবস্থার মাধ্যমে স্থল পরিবহন','','','',false,true);
+d.add(325,319,'656.6','<div class="nodetag">656.6</div></span>&nbsp;&nbsp;জলপথ পরিবহণ','656.6','জলপথ পরিবহণ','','','',false,true);
+d.add(326,319,'656.7','<div class="nodetag">656.7</div></span>&nbsp;&nbsp;আকাশপথ পরিবহণ। আকাশযান চলাচল','656.7','আকাশপথ পরিবহণ। আকাশযান চলাচল','','','',false,true);
+d.add(327,319,'656.8','<div class="nodetag">656.8</div></span>&nbsp;&nbsp;ডাক পরিসেবা ও প্রশাসন','656.8','ডাক পরিসেবা ও প্রশাসন','','','',false,true);
+d.add(328,312,'657','<div class="nodetag">657</div></span>&nbsp;&nbsp;হিসাবশাস্ত্র','657','হিসাবশাস্ত্র','','','',false,true);
+d.add(329,312,'658','<div class="nodetag">658</div></span>&nbsp;&nbsp;ব্যবসায় ব্যবস্থাপনা, প্রশাসন। বাণিজ্যিক প্রতিষ্ঠান','658','ব্যবসায় ব্যবস্থাপনা, প্রশাসন। বাণিজ্যিক প্রতিষ্ঠান','','','',false,true);
+d.add(330,329,'658.1','<div class="nodetag">658.1</div></span>&nbsp;&nbsp;উদ্যোগের রূপভেদ। অর্থ','658.1','উদ্যোগের রূপভেদ। অর্থ','','','',false,true);
+d.add(331,329,'658.2','<div class="nodetag">658.2</div></span>&nbsp;&nbsp;স্থাপনা ও উৎপাদন কেন্দ্র। পরিসর। ভবন, কর্মশালা, কারখানা। সামগ্রী','658.2','স্থাপনা ও উৎপাদন কেন্দ্র। পরিসর। ভবন, কর্মশালা, কারখানা। সামগ্রী','','','',false,true);
+d.add(332,329,'658.3','<div class="nodetag">658.3</div></span>&nbsp;&nbsp;উদ্যোগে জন-সম্পর্ক। কর্মী ব্যবস্থাপনা','658.3','উদ্যোগে জন-সম্পর্ক। কর্মী ব্যবস্থাপনা','','','',false,true);
+d.add(333,329,'658.5','<div class="nodetag">658.5</div></span>&nbsp;&nbsp;উৎপাদন প্রকৌশলবিদ্যা ও পরিকল্পনা। নকশা। উৎপাদন ব্যবস্থাপনা ও নিয়ন্ত্রণ','658.5','উৎপাদন প্রকৌশলবিদ্যা ও পরিকল্পনা। নকশা। উৎপাদন ব্যবস্থাপনা ও নিয়ন্ত্রণ','','','',false,true);
+d.add(334,329,'658.6','<div class="nodetag">658.6</div></span>&nbsp;&nbsp;বাণিজ্যিক প্রতিষ্ঠান ও ক্রিয়াকলাপ। পণ্য। পরিসেবা','658.6','বাণিজ্যিক প্রতিষ্ঠান ও ক্রিয়াকলাপ। পণ্য। পরিসেবা','','','',false,true);
+d.add(335,329,'658.7','<div class="nodetag">658.7</div></span>&nbsp;&nbsp;ক্রয়। কেনাকাটা। কাঁচামাল সংগ্রহ। সংভার ব্যবস্থাপনা','658.7','ক্রয়। কেনাকাটা। কাঁচামাল সংগ্রহ। সংভার ব্যবস্থাপনা','','','',false,true);
+d.add(336,329,'658.8','<div class="nodetag">658.8</div></span>&nbsp;&nbsp;বিপণন। বিক্রয়। বিক্রয়কার্য। বণ্টন','658.8','বিপণন। বিক্রয়। বিক্রয়কার্য। বণ্টন','','','',false,true);
+d.add(337,329,'658.9','<div class="nodetag">658.9</div></span>&nbsp;&nbsp;অন্যান্য বাণিজ্যিক ক্রিয়াকলাপ','658.9','অন্যান্য বাণিজ্যিক ক্রিয়াকলাপ','','','',false,true);
+d.add(338,312,'659','<div class="nodetag">659</div></span>&nbsp;&nbsp;প্রচার। জন-সংযোগ','659','প্রচার। জন-সংযোগ','','','',false,true);
+d.add(339,338,'659.1','<div class="nodetag">659.1</div></span>&nbsp;&nbsp;প্রচার। বিজ্ঞাপন','659.1','প্রচার। বিজ্ঞাপন','','','',false,true);
+d.add(340,338,'659.2','<div class="nodetag">659.2</div></span>&nbsp;&nbsp;তথ্য কার্য। উপদেষ্টা ও পরামর্শ পরিসেবা','659.2','তথ্য কার্য। উপদেষ্টা ও পরামর্শ পরিসেবা','','','',false,true);
+d.add(341,338,'659.3','<div class="nodetag">659.3</div></span>&nbsp;&nbsp;গণ-সঞ্চার। জনসাধারণকে তথ্য জ্ঞাপন করা, আলোকিত করা','659.3','গণ-সঞ্চার। জনসাধারণকে তথ্য জ্ঞাপন করা, আলোকিত করা','','','',false,true);
+d.add(342,338,'659.4','<div class="nodetag">659.4</div></span>&nbsp;&nbsp;জন-সংযোগ (PR)','659.4','জন-সংযোগ (PR)','','','',false,true);
+d.add(343,0,'66','<div class="nodetag">66</div></span>&nbsp;&nbsp;রাসায়নিক প্রযুক্তি। রাসায়নিক ও আনুষঙ্গিক শিল্পসমূহ','66','রাসায়নিক প্রযুক্তি। রাসায়নিক ও আনুষঙ্গিক শিল্পসমূহ','','','',false,true);
+d.add(344,343,'66.01/.09','<div class="nodetag">66.01/.09</div></span>&nbsp;&nbsp;রাসায়নিক প্রযুক্তি সংক্রান্ত বিশেষ সহায়িকা সংখ্যাসমূহ','66.01/.09','রাসায়নিক প্রযুক্তি সংক্রান্ত বিশেষ সহায়িকা সংখ্যাসমূহ','','','',false,true);
+d.add(345,344,'66.01','<div class="nodetag">66.01</div></span>&nbsp;&nbsp;রাসায়নিক প্রকৌশলবিদ্যার প্রাথমিক বিষয়সমূহ','66.01','রাসায়নিক প্রকৌশলবিদ্যার প্রাথমিক বিষয়সমূহ','','','',false,true);
+d.add(346,344,'66.02','<div class="nodetag">66.02</div></span>&nbsp;&nbsp;রাসায়নিক প্রক্রিয়াকরণ ও ব্যবহৃত যন্ত্রাদি (ব্যাপকার্থে)','66.02','রাসায়নিক প্রক্রিয়াকরণ ও ব্যবহৃত যন্ত্রাদি (ব্যাপকার্থে)','','','',false,true);
+d.add(347,344,'66.03','<div class="nodetag">66.03</div></span>&nbsp;&nbsp;পদার্থ, বৈশিষ্ট্য, প্রক্রিয়া ও সরঞ্জাম','66.03','পদার্থ, বৈশিষ্ট্য, প্রক্রিয়া ও সরঞ্জাম','','','',false,true);
+d.add(348,344,'66.04','<div class="nodetag">66.04</div></span>&nbsp;&nbsp;তাপ প্রদান ক্রিয়া ও সরঞ্জাম','66.04','তাপ প্রদান ক্রিয়া ও সরঞ্জাম','','','',false,true);
+d.add(349,344,'66.06','<div class="nodetag">66.06</div></span>&nbsp;&nbsp;তরল পদার্থের রাসায়নিক প্রযুক্তি। তরল পদার্থের বা পদার্থসহ সংঘটিত প্রক্রিয়া ও সরঞ্জাম','66.06','তরল পদার্থের রাসায়নিক প্রযুক্তি। তরল পদার্থের বা পদার্থসহ সংঘটিত প্রক্রিয়া ও সরঞ্জাম','','','',false,true);
+d.add(350,344,'66.07','<div class="nodetag">66.07</div></span>&nbsp;&nbsp;গ্যাসীয় পদার্থের রাসায়নিক প্রযুক্তি','66.07','গ্যাসীয় পদার্থের রাসায়নিক প্রযুক্তি','','','',false,true);
+d.add(351,344,'66.08','<div class="nodetag">66.08</div></span>&nbsp;&nbsp;ভৌত ও ভৌতরাসায়নিক ক্রিয়াকলাপ ও সরঞ্জাম। রাসায়নিক প্রক্রিয়ার উপর ভৌত ও ভৌতরাসায়নিক প্রভাব','66.08','ভৌত ও ভৌতরাসায়নিক ক্রিয়াকলাপ ও সরঞ্জাম। রাসায়নিক প্রক্রিয়ার উপর ভৌত ও ভৌতরাসায়নিক প্রভাব','','','',false,true);
+d.add(352,343,'661','<div class="nodetag">661</div></span>&nbsp;&nbsp;রাসায়নিক পদার্থ','661','রাসায়নিক পদার্থ','','','',false,true);
+d.add(353,352,'661.1','<div class="nodetag">661.1</div></span>&nbsp;&nbsp;বিশেষ রাসায়নিক শিল্পসমূহ','661.1','বিশেষ রাসায়নিক শিল্পসমূহ','','','',false,true);
+d.add(354,352,'661.2','<div class="nodetag">661.2</div></span>&nbsp;&nbsp;গন্ধক ও গন্ধকজাত দ্রব্যের উৎপাদন','661.2','গন্ধক ও গন্ধকজাত দ্রব্যের উৎপাদন','','','',false,true);
+d.add(355,352,'661.3','<div class="nodetag">661.3</div></span>&nbsp;&nbsp;সোডা, পটাশ ও ক্ষার দ্রব্যের উৎপাদন','661.3','সোডা, পটাশ ও ক্ষার দ্রব্যের উৎপাদন','','','',false,true);
+d.add(356,352,'661.4','<div class="nodetag">661.4</div></span>&nbsp;&nbsp;হ্যালোজেন ও হ্যালোজেন যৌগ, অজৈব প্যারক্‌সো-যৌগের উৎপাদন','661.4','হ্যালোজেন ও হ্যালোজেন যৌগ, অজৈব প্যারক্‌সো-যৌগের উৎপাদন','','','',false,true);
+d.add(357,352,'661.5','<div class="nodetag">661.5</div></span>&nbsp;&nbsp;যবক্ষারজান/নাইট্রোজেন যৌগের উৎপাদন। নাইট্রোজেন ঘনীভবন। নাইট্রোজেন শিল্প (ব্যাপকার্থে)','661.5','যবক্ষারজান/নাইট্রোজেন যৌগের উৎপাদন। নাইট্রোজেন ঘনীভবন। নাইট্রোজেন শিল্প (ব্যাপকার্থে)','','','',false,true);
+d.add(358,352,'661.6','<div class="nodetag">661.6</div></span>&nbsp;&nbsp;বিভিন্ন অধাতু, আধাধাতু ও তাদের যৌগের উৎপাদন','661.6','বিভিন্ন অধাতু, আধাধাতু ও তাদের যৌগের উৎপাদন','','','',false,true);
+d.add(359,352,'661.7','<div class="nodetag">661.7</div></span>&nbsp;&nbsp;জৈব বস্তুর উৎপাদন। জৈব রাসায়নিক','661.7','জৈব বস্তুর উৎপাদন। জৈব রাসায়নিক','','','',false,true);
+d.add(360,352,'661.8','<div class="nodetag">661.8</div></span>&nbsp;&nbsp;ধাতব যৌগ (ব্যাপকার্থে)। লবণ। খনিজ যৌগ','661.8','ধাতব যৌগ (ব্যাপকার্থে)। লবণ। খনিজ যৌগ','','','',false,true);
+d.add(361,352,'661.9','<div class="nodetag">661.9</div></span>&nbsp;&nbsp;গ্যাসের উৎপাদন','661.9','গ্যাসের উৎপাদন','','','',false,true);
+d.add(362,343,'662','<div class="nodetag">662</div></span>&nbsp;&nbsp;বিস্ফোরক। জ্বালানি','662','বিস্ফোরক। জ্বালানি','','','',false,true);
+d.add(363,362,'662.1/.4','<div class="nodetag">662.1/.4</div></span>&nbsp;&nbsp;বিস্ফোরক','662.1/.4','বিস্ফোরক','','','',false,true);
+d.add(364,363,'662.1','<div class="nodetag">662.1</div></span>&nbsp;&nbsp;আতশবাজি। আতশবাজি তৈরির কৌশল ও সরঞ্জাম','662.1','আতশবাজি। আতশবাজি তৈরির কৌশল ও সরঞ্জাম','','','',false,true);
+d.add(365,363,'662.2','<div class="nodetag">662.2</div></span>&nbsp;&nbsp;উচ্চশ্রেণির বিস্ফোরক','662.2','উচ্চশ্রেণির বিস্ফোরক','','','',false,true);
+d.add(366,363,'662.3','<div class="nodetag">662.3</div></span>&nbsp;&nbsp;প্রপেলান্ট চূর্ণ। বারূদ','662.3','প্রপেলান্ট চূর্ণ। বারূদ','','','',false,true);
+d.add(367,363,'662.4','<div class="nodetag">662.4</div></span>&nbsp;&nbsp;বিস্ফোরকের ইনিশিয়েটর, প্রাইমার। ডিটোনেটর/বিস্ফোরক পদার্থ','662.4','বিস্ফোরকের ইনিশিয়েটর, প্রাইমার। ডিটোনেটর/বিস্ফোরক পদার্থ','','','',false,true);
+d.add(368,362,'662.5','<div class="nodetag">662.5</div></span>&nbsp;&nbsp;প্রজ্জালক। অগ্নিসংযোগকারক। দেশলাই। লাইটার','662.5','প্রজ্জালক। অগ্নিসংযোগকারক। দেশলাই। লাইটার','','','',false,true);
+d.add(369,362,'662.6/.9','<div class="nodetag">662.6/.9</div></span>&nbsp;&nbsp;তাপ মিতব্যয়িতা। জ্বালানি মিতব্যয়িতা। জ্বালানি/ইন্ধন। তাপন','662.6/.9','তাপ মিতব্যয়িতা। জ্বালানি মিতব্যয়িতা। জ্বালানি/ইন্ধন। তাপন','','','',false,true);
+d.add(370,369,'662.6','<div class="nodetag">662.6</div></span>&nbsp;&nbsp;তাপ অথবা জ্বালানি মিতব্যয়িতা (ব্যাপকার্থে)। দহন। প্রাকৃতিক জ্বালানি','662.6','তাপ অথবা জ্বালানি মিতব্যয়িতা (ব্যাপকার্থে)। দহন। প্রাকৃতিক জ্বালানি','','','',false,true);
+d.add(371,369,'662.7','<div class="nodetag">662.7</div></span>&nbsp;&nbsp;ইন্ধন প্রযুক্তি। প্রক্রিয়াজাত জ্বালানি','662.7','ইন্ধন প্রযুক্তি। প্রক্রিয়াজাত জ্বালানি','','','',false,true);
+d.add(372,369,'662.8','<div class="nodetag">662.8</div></span>&nbsp;&nbsp;যান্ত্রিক পদ্ধতিতে জ্বালানি কঠিনকরণ। কয়লার গুল তৈরি','662.8','যান্ত্রিক পদ্ধতিতে জ্বালানি কঠিনকরণ। কয়লার গুল তৈরি','','','',false,true);
+d.add(373,369,'662.9','<div class="nodetag">662.9</div></span>&nbsp;&nbsp;চুল্লি ও দহন প্রকৌশলবিদ্যা','662.9','চুল্লি ও দহন প্রকৌশলবিদ্যা','','','',false,true);
+d.add(374,343,'663','<div class="nodetag">663</div></span>&nbsp;&nbsp;শিল্প জীবাণুবিদ্যা/অনুজীববিদ্যা। শিল্প ছত্রাকবিদ্যা। উৎসেচনবিদ্যা, উৎসেচন শিল্প। পানীয় শিল্প। উদ্দীপক শিল্প','663','শিল্প জীবাণুবিদ্যা/অনুজীববিদ্যা। শিল্প ছত্রাকবিদ্যা। উৎসেচনবিদ্যা, উৎসেচন শিল্প। পানীয় শিল্প। উদ্দীপক শিল্প','','','',false,true);
+d.add(375,374,'663.1','<div class="nodetag">663.1</div></span>&nbsp;&nbsp;জীবাণুবিদ্যা সম্বন্ধীয় শিল্প। ফলিত জীবাণুবিদ্যার বিজ্ঞান ও কলাকোউশল। ফলিত ছত্রাকবিদ্যা','663.1','জীবাণুবিদ্যা সম্বন্ধীয় শিল্প। ফলিত জীবাণুবিদ্যার বিজ্ঞান ও কলাকোউশল। ফলিত ছত্রাকবিদ্যা','','','',false,true);
+d.add(376,374,'663.2','<div class="nodetag">663.2</div></span>&nbsp;&nbsp;সুরা/মদ। সুরা প্রস্তুতকরণ। সুরাবিজ্ঞান','663.2','সুরা/মদ। সুরা প্রস্তুতকরণ। সুরাবিজ্ঞান','','','',false,true);
+d.add(377,374,'663.3','<div class="nodetag">663.3</div></span>&nbsp;&nbsp;আপেলজাত সুরা/সাইডার। নাশপাতিজাত সুরা/পেরি। অন্যান্য ফলজাত সুরা, রসজাত সুরা','663.3','আপেলজাত সুরা/সাইডার। নাশপাতিজাত সুরা/পেরি। অন্যান্য ফলজাত সুরা, রসজাত সুরা','','','',false,true);
+d.add(378,374,'663.4','<div class="nodetag">663.4</div></span>&nbsp;&nbsp;বিয়ার। চোলাই প্রস্তুতকরণ। সীরা প্রস্তুতকরণ','663.4','বিয়ার। চোলাই প্রস্তুতকরণ। সীরা প্রস্তুতকরণ','','','',false,true);
+d.add(379,374,'663.5','<div class="nodetag">663.5</div></span>&nbsp;&nbsp;পানযোগ্য সুরাসার। স্পিরিট জাতীয় সুরা (অ্যারডেণ্ট স্পিরিট)। সুরাসার পাতন, শোধন','663.5','পানযোগ্য সুরাসার। স্পিরিট জাতীয় সুরা (অ্যারডেণ্ট স্পিরিট)। সুরাসার পাতন, শোধন','','','',false,true);
+d.add(380,374,'663.6','<div class="nodetag">663.6</div></span>&nbsp;&nbsp;পানীয় ও অন্যান্য শিল্পে ব্যবহার্য জল। খনিজ জল। ঔষধি জল। ভোজ্য বরফ','663.6','পানীয় ও অন্যান্য শিল্পে ব্যবহার্য জল। খনিজ জল। ঔষধি জল। ভোজ্য বরফ','','','',false,true);
+d.add(381,374,'663.8','<div class="nodetag">663.8</div></span>&nbsp;&nbsp;পানীয় মিশ্রণের মূল উপাদান। ফল ও শাকসবজির রস। সিরাপ। মিষ্ট ও গন্ধযুক্ত সুরা। নরম পানীয়','663.8','পানীয় মিশ্রণের মূল উপাদান। ফল ও শাকসবজির রস। সিরাপ। মিষ্ট ও গন্ধযুক্ত সুরা। নরম পানীয়','','','',false,true);
+d.add(382,374,'663.9','<div class="nodetag">663.9</div></span>&nbsp;&nbsp;চকোলেট। কোকো। কফি। চা। তামাক','663.9','চকোলেট। কোকো। কফি। চা। তামাক','','','',false,true);
+d.add(383,343,'664','<div class="nodetag">664</div></span>&nbsp;&nbsp;কঠিন খাদ্য পদার্থের উৎপাদন ও সংরক্ষণ','664','কঠিন খাদ্য পদার্থের উৎপাদন ও সংরক্ষণ','','','',false,true);
+d.add(384,383,'664.1','<div class="nodetag">664.1</div></span>&nbsp;&nbsp;শর্করা। গুড়। গ্লুকোজ ইত্যাদি','664.1','শর্করা। গুড়। গ্লুকোজ ইত্যাদি','','','',false,true);
+d.add(385,383,'664.2','<div class="nodetag">664.2</div></span>&nbsp;&nbsp;শ্বেতসার। শ্বেতসারজাতীয় পদার্থ','664.2','শ্বেতসার। শ্বেতসারজাতীয় পদার্থ','','','',false,true);
+d.add(386,383,'664.3','<div class="nodetag">664.3</div></span>&nbsp;&nbsp;ভোজ্য তৈল ও চর্বি। মার্গারিন/মার্জারিন। প্রোটিন খাদ্যসামগ্রী','664.3','ভোজ্য তৈল ও চর্বি। মার্গারিন/মার্জারিন। প্রোটিন খাদ্যসামগ্রী','','','',false,true);
+d.add(387,383,'664.4','<div class="nodetag">664.4</div></span>&nbsp;&nbsp;ভোজ্য খনিজ','664.4','ভোজ্য খনিজ','','','',false,true);
+d.add(388,383,'664.5','<div class="nodetag">664.5</div></span>&nbsp;&nbsp;মশলা। গুঁড়া মশলা, আচার, চাটনি, কাসুন্দি ইত্যাদি','664.5','মশলা। গুঁড়া মশলা, আচার, চাটনি, কাসুন্দি ইত্যাদি','','','',false,true);
+d.add(389,383,'664.6/.7','<div class="nodetag">664.6/.7</div></span>&nbsp;&nbsp;খাদ্যশস্যের প্রযুক্তি ও প্রক্রিয়াকরণ','664.6/.7','খাদ্যশস্যের প্রযুক্তি ও প্রক্রিয়াকরণ','','','',false,true);
+d.add(390,389,'664.6','<div class="nodetag">664.6</div></span>&nbsp;&nbsp;বেকিং। রুটি, পাউরুটি। ময়দার মিঠাইসমূহ','664.6','বেকিং। রুটি, পাউরুটি। ময়দার মিঠাইসমূহ','','','',false,true);
+d.add(391,389,'664.7','<div class="nodetag">664.7</div></span>&nbsp;&nbsp;খাদ্য শস্য প্রযুক্তি। ময়দা ও ভুট্টার চূর্ণকরণ। দানাশস্য প্রক্রিয়াকরণ','664.7','খাদ্য শস্য প্রযুক্তি। ময়দা ও ভুট্টার চূর্ণকরণ। দানাশস্য প্রক্রিয়াকরণ','','','',false,true);
+d.add(392,383,'664.8/.9','<div class="nodetag">664.8/.9</div></span>&nbsp;&nbsp;খাদ্য সংরক্ষণ পদ্ধতি','664.8/.9','খাদ্য সংরক্ষণ পদ্ধতি','','','',false,true);
+d.add(393,343,'665','<div class="nodetag">665</div></span>&nbsp;&nbsp;তৈল। চর্বি/স্নেহ-পদার্থ। মোম। আঠালো পদার্থ। গঁদ। রজন/জতু','665','তৈল। চর্বি/স্নেহ-পদার্থ। মোম। আঠালো পদার্থ। গঁদ। রজন/জতু','','','',false,true);
+d.add(394,393,'665.1','<div class="nodetag">665.1</div></span>&nbsp;&nbsp;তৈল, চর্বি, মোম ও এগুলি থেকে উৎপন্ন বস্তুর সাধারণ বিষয়','665.1','তৈল, চর্বি, মোম ও এগুলি থেকে উৎপন্ন বস্তুর সাধারণ বিষয়','','','',false,true);
+d.add(395,393,'665.2','<div class="nodetag">665.2</div></span>&nbsp;&nbsp;পশুজাত তৈল, চর্বি ও মোম','665.2','পশুজাত তৈল, চর্বি ও মোম','','','',false,true);
+d.add(396,393,'665.3','<div class="nodetag">665.3</div></span>&nbsp;&nbsp;উদ্ভিজ্জ তৈল, চর্বি, মোম, ফসফাটাইড','665.3','উদ্ভিজ্জ তৈল, চর্বি, মোম, ফসফাটাইড','','','',false,true);
+d.add(397,393,'665.5','<div class="nodetag">665.5</div></span>&nbsp;&nbsp;উদ্বায়ী তৈল। সুগন্ধি দ্রব্যসমূহ। সৌন্দর্যবর্ধক/প্রসাধনী','665.5','উদ্বায়ী তৈল। সুগন্ধি দ্রব্যসমূহ। সৌন্দর্যবর্ধক/প্রসাধনী','','','',false,true);
+d.add(398,393,'665.6/.7','<div class="nodetag">665.6/.7</div></span>&nbsp;&nbsp;পেট্রোলিয়াম ও সম্বন্ধিত শিল্পের প্রক্রিয়া ও উৎপাদিত সামগ্রী','665.6/.7','পেট্রোলিয়াম ও সম্বন্ধিত শিল্পের প্রক্রিয়া ও উৎপাদিত সামগ্রী','','','',false,true);
+d.add(399,398,'665.6','<div class="nodetag">665.6</div></span>&nbsp;&nbsp;খনিজ তৈল প্রযুক্তি। পেট্রোলিয়াম ও সম্বন্ধিত সামগ্রীর প্রযুক্তি','665.6','খনিজ তৈল প্রযুক্তি। পেট্রোলিয়াম ও সম্বন্ধিত সামগ্রীর প্রযুক্তি','','','',false,true);
+d.add(400,398,'665.7','<div class="nodetag">665.7</div></span>&nbsp;&nbsp;খনিজ তৈল শিল্পের উৎপাদিত সামগ্রী। খনিজ তৈল ও অনুরূপ সামগ্রী','665.7','খনিজ তৈল শিল্পের উৎপাদিত সামগ্রী। খনিজ তৈল ও অনুরূপ সামগ্রী','','','',false,true);
+d.add(401,393,'665.9','<div class="nodetag">665.9</div></span>&nbsp;&nbsp;বিবিধ জৈব রাসায়নিক শিল্প','665.9','বিবিধ জৈব রাসায়নিক শিল্প','','','',false,true);
+d.add(402,343,'666','<div class="nodetag">666</div></span>&nbsp;&nbsp;কাচ শিল্প। মৃৎশিল্প। সিমেন্ট ও কংক্রিট','666','কাচ শিল্প। মৃৎশিল্প। সিমেন্ট ও কংক্রিট','','','',false,true);
+d.add(403,402,'666.1','<div class="nodetag">666.1</div></span>&nbsp;&nbsp;কাচ শিল্প। কাচ প্রযুক্তি। কাচ তৈরি (ব্যাপকার্থে)। কাচ (সামগ্রিকরূপে)','666.1','কাচ শিল্প। কাচ প্রযুক্তি। কাচ তৈরি (ব্যাপকার্থে)। কাচ (সামগ্রিকরূপে)','','','',false,true);
+d.add(404,402,'666.3/.7','<div class="nodetag">666.3/.7</div></span>&nbsp;&nbsp;মৃৎশিল্প/সেরামিক্‌স্‌','666.3/.7','মৃৎশিল্প/সেরামিক্‌স্‌','','','',false,true);
+d.add(405,404,'666.3','<div class="nodetag">666.3</div></span>&nbsp;&nbsp;মৃৎশিল্প (ব্যাপকার্থে)। মৃৎশিল্পের কাঁচা মাল','666.3','মৃৎশিল্প (ব্যাপকার্থে)। মৃৎশিল্পের কাঁচা মাল','','','',false,true);
+d.add(406,404,'666.5','<div class="nodetag">666.5</div></span>&nbsp;&nbsp;পোর্সেলিন। চিনামাটি','666.5','পোর্সেলিন। চিনামাটি','','','',false,true);
+d.add(407,404,'666.6','<div class="nodetag">666.6</div></span>&nbsp;&nbsp;পাথরের বাসন। মৃৎপাত্র (সূক্ষ্ম ছিদ্রযুক্ত মাটির বাসন)','666.6','পাথরের বাসন। মৃৎপাত্র (সূক্ষ্ম ছিদ্রযুক্ত মাটির বাসন)','','','',false,true);
+d.add(408,404,'666.7','<div class="nodetag">666.7</div></span>&nbsp;&nbsp;নিম্নতর মৃৎশিল্প। ভারী মৃৎসামগ্রী। তাপ, ক্ষয় রোধক মৃৎসামগ্রী। কঠিন মৃৎসামগ্রী। মাটি ও অন্যান্য সামগ্রীর মিশ্রণ','666.7','নিম্নতর মৃৎশিল্প। ভারী মৃৎসামগ্রী। তাপ, ক্ষয় রোধক মৃৎসামগ্রী। কঠিন মৃৎসামগ্রী। মাটি ও অন্যান্য সামগ্রীর মিশ্রণ','','','',false,true);
+d.add(409,402,'666.9','<div class="nodetag">666.9</div></span>&nbsp;&nbsp;জিপ্‌সাম, চুন ও সিমেন্ট শিল্প। শক্ত-জমাট বাঁধা সামগ্রী। প্লাসটার ও মিশ্রণ। চুনসুরকি ও কংক্রিট','666.9','জিপ্‌সাম, চুন ও সিমেন্ট শিল্প। শক্ত-জমাট বাঁধা সামগ্রী। প্লাসটার ও মিশ্রণ। চুনসুরকি ও কংক্রিট','','','',false,true);
+d.add(410,343,'667','<div class="nodetag">667</div></span>&nbsp;&nbsp;রঞ্জন শিল্প','667','রঞ্জন শিল্প','','','',false,true);
+d.add(411,410,'667.2','<div class="nodetag">667.2</div></span>&nbsp;&nbsp;রঞ্জন-উপাদান শিল্প। রঞ্জন-উপাদানের তৈরি ও ব্যবহার','667.2','রঞ্জন-উপাদান শিল্প। রঞ্জন-উপাদানের তৈরি ও ব্যবহার','','','',false,true);
+d.add(412,410,'667.4','<div class="nodetag">667.4</div></span>&nbsp;&nbsp;লেখার কালি','667.4','লেখার কালি','','','',false,true);
+d.add(413,410,'667.5','<div class="nodetag">667.5</div></span>&nbsp;&nbsp;মুদ্রণের কালি (কালো ও রঙিন)। লিথোগ্রাফিক কালি। লেখার ও আঁকার পেনসিল। রঙিন আঁকার পেনসিল','667.5','মুদ্রণের কালি (কালো ও রঙিন)। লিথোগ্রাফিক কালি। লেখার ও আঁকার পেনসিল। রঙিন আঁকার পেনসিল','','','',false,true);
+d.add(414,410,'667.6','<div class="nodetag">667.6</div></span>&nbsp;&nbsp;আস্তরণ ও প্রলেপদান পদ্ধতি। রং। বার্নিশ। রঙিন বার্নিশ','667.6','আস্তরণ ও প্রলেপদান পদ্ধতি। রং। বার্নিশ। রঙিন বার্নিশ','','','',false,true);
+d.add(415,410,'667.7','<div class="nodetag">667.7</div></span>&nbsp;&nbsp;বিভিন্ন পদার্থের রং করা (মুদ্রণ ও রঞ্জন ব্যাতীত)','667.7','বিভিন্ন পদার্থের রং করা (মুদ্রণ ও রঞ্জন ব্যাতীত)','','','',false,true);
+d.add(416,343,'669','<div class="nodetag">669</div></span>&nbsp;&nbsp;ধাতুবিদ্যা','669','ধাতুবিদ্যা','','','',false,true);
+d.add(417,416,'669.1','<div class="nodetag">669.1</div></span>&nbsp;&nbsp;লৌহঘটিত ধাতুবিদ্যা। লোহা ও ইস্পাত','669.1','লৌহঘটিত ধাতুবিদ্যা। লোহা ও ইস্পাত','','','',false,true);
+d.add(418,416,'669.2','<div class="nodetag">669.2</div></span>&nbsp;&nbsp;অলৌহঘটিত ধাতুবিদ্যা (ব্যাপকার্থে)','669.2','অলৌহঘটিত ধাতুবিদ্যা (ব্যাপকার্থে)','','','',false,true);
+d.add(419,0,'67','<div class="nodetag">67</div></span>&nbsp;&nbsp;বিবিধ শিল্প, বৃত্তি এবং কারিগরিবিদ্যা','67','বিবিধ শিল্প, বৃত্তি এবং কারিগরিবিদ্যা','','','',false,true);
+d.add(420,419,'671','<div class="nodetag">671</div></span>&nbsp;&nbsp;মূল্যবান ধাতু, রত্ন, মূল্যবান প্রস্তর সামগ্রী','671','মূল্যবান ধাতু, রত্ন, মূল্যবান প্রস্তর সামগ্রী','','','',false,true);
+d.add(421,420,'671.1','<div class="nodetag">671.1</div></span>&nbsp;&nbsp;স্বর্ণ ও রৌপ্য নির্মিত সামগ্রী। অন্যান্য মূল্যবান ধাতু নির্মিত বস্তু। অলংকার, জহরত','671.1','স্বর্ণ ও রৌপ্য নির্মিত সামগ্রী। অন্যান্য মূল্যবান ধাতু নির্মিত বস্তু। অলংকার, জহরত','','','',false,true);
+d.add(422,420,'671.4','<div class="nodetag">671.4</div></span>&nbsp;&nbsp;মুদ্রা ও পদক তৈরি। মুদ্রা তৈরি','671.4','মুদ্রা ও পদক তৈরি। মুদ্রা তৈরি','','','',false,true);
+d.add(423,419,'672','<div class="nodetag">672</div></span>&nbsp;&nbsp;লোহা ও ইস্পাত সামগ্রী (ব্যাপকার্থে)','672','লোহা ও ইস্পাত সামগ্রী (ব্যাপকার্থে)','','','',false,true);
+d.add(424,419,'673','<div class="nodetag">673</div></span>&nbsp;&nbsp;অলৌহঘটিত ধাতুসামগ্রী (মুল্যবান ধাতু ব্যতীত)','673','অলৌহঘটিত ধাতুসামগ্রী (মুল্যবান ধাতু ব্যতীত)','','','',false,true);
+d.add(425,419,'674','<div class="nodetag">674</div></span>&nbsp;&nbsp;কাষ্ঠ ও কাষ্ঠকার্য শিল্প','674','কাষ্ঠ ও কাষ্ঠকার্য শিল্প','','','',false,true);
+d.add(426,419,'675','<div class="nodetag">675</div></span>&nbsp;&nbsp;চর্ম শিল্প (লোমশ ও কৃত্রিম চর্মসহ)','675','চর্ম শিল্প (লোমশ ও কৃত্রিম চর্মসহ)','','','',false,true);
+d.add(427,419,'676','<div class="nodetag">676</div></span>&nbsp;&nbsp;মণ্ড, কাগজ ও কাগজি বোর্ড শিল্প','676','মণ্ড, কাগজ ও কাগজি বোর্ড শিল্প','','','',false,true);
+d.add(428,419,'677','<div class="nodetag">677</div></span>&nbsp;&nbsp;বয়নশিল্প/বস্ত্র শিল্প','677','বয়নশিল্প/বস্ত্র শিল্প','','','',false,true);
+d.add(429,428,'677.1/.5','<div class="nodetag">677.1/.5</div></span>&nbsp;&nbsp;বস্ত্র তন্তু','677.1/.5','বস্ত্র তন্তু','','','',false,true);
+d.add(430,429,'677.1/.3','<div class="nodetag">677.1/.3</div></span>&nbsp;&nbsp;প্রাকৃতিক তন্তু','677.1/.3','প্রাকৃতিক তন্তু','','','',false,true);
+d.add(431,430,'677.1/.2','<div class="nodetag">677.1/.2</div></span>&nbsp;&nbsp;উদ্ভিজ্জ তন্তু','677.1/.2','উদ্ভিজ্জ তন্তু','','','',false,true);
+d.add(432,431,'677.1','<div class="nodetag">677.1</div></span>&nbsp;&nbsp;তন্তুজ (দ্বিবীজপত্রী উদ্ভিদের কাণ্ডজাত তন্তু)। শক্ত তন্তু (একবীজপত্রী উদ্ভিদের পাতা ও ফল জাত তন্তু)','677.1','তন্তুজ (দ্বিবীজপত্রী উদ্ভিদের কাণ্ডজাত তন্তু)। শক্ত তন্তু (একবীজপত্রী উদ্ভিদের পাতা ও ফল জাত তন্তু)','','','',false,true);
+d.add(433,431,'677.2','<div class="nodetag">677.2</div></span>&nbsp;&nbsp;শাকসবজির আঁশ','677.2','শাকসবজির আঁশ','','','',false,true);
+d.add(434,430,'677.3','<div class="nodetag">677.3</div></span>&nbsp;&nbsp;প্রাণীজ তন্তু','677.3','প্রাণীজ তন্তু','','','',false,true);
+d.add(435,429,'677.4','<div class="nodetag">677.4</div></span>&nbsp;&nbsp;মনুষ্য-সৃষ্ট/কৃত্রিম তন্তু','677.4','মনুষ্য-সৃষ্ট/কৃত্রিম তন্তু','','','',false,true);
+d.add(436,429,'677.5','<div class="nodetag">677.5</div></span>&nbsp;&nbsp;খনিজ ও ধাতব তন্তু। বয়ন সামগ্রী। রবারের সুতো। কাগজি সুতো','677.5','খনিজ ও ধাতব তন্তু। বয়ন সামগ্রী। রবারের সুতো। কাগজি সুতো','','','',false,true);
+d.add(437,419,'678','<div class="nodetag">678</div></span>&nbsp;&nbsp;বৃহৎ-আণবিক পদার্থ নির্ভর শিল্প। রবার শিল্প। প্লাস্টিক শিল্প','678','বৃহৎ-আণবিক পদার্থ নির্ভর শিল্প। রবার শিল্প। প্লাস্টিক শিল্প','','','',false,true);
+d.add(438,437,'678.4','<div class="nodetag">678.4</div></span>&nbsp;&nbsp;প্রাকৃতিক রবার। অঙ্গার (কার্বন) ও উদ্‌জান (হাইড্রোজেন) সমন্বিত অন্যান্য প্রাকৃতিক বৃহৎ-আণবিক পদার্থ','678.4','প্রাকৃতিক রবার। অঙ্গার (কার্বন) ও উদ্‌জান (হাইড্রোজেন) সমন্বিত অন্যান্য প্রাকৃতিক বৃহৎ-আণবিক পদার্থ','','','',false,true);
+d.add(439,437,'678.5','<div class="nodetag">678.5</div></span>&nbsp;&nbsp;প্লাস্টিক ভিত্তিক শিল্প','678.5','প্লাস্টিক ভিত্তিক শিল্প','','','',false,true);
+d.add(440,437,'678.6','<div class="nodetag">678.6</div></span>&nbsp;&nbsp;কৃত্রিম পলিকনডেন্সেশান পদার্থ। পলিকনডেন্সেট্‌। কৃত্রিম রেসিন। কৃত্রিম তন্তু প্রভৃতি','678.6','কৃত্রিম পলিকনডেন্সেশান পদার্থ। পলিকনডেন্সেট্‌। কৃত্রিম রেসিন। কৃত্রিম তন্তু প্রভৃতি','','','',false,true);
+d.add(441,437,'678.7','<div class="nodetag">678.7</div></span>&nbsp;&nbsp;কৃত্রিম পলিমার সামগ্রী। পলিমারাইজেটস্‌। কৃত্রিম রবার','678.7','কৃত্রিম পলিমার সামগ্রী। পলিমারাইজেটস্‌। কৃত্রিম রবার','','','',false,true);
+d.add(442,419,'679','<div class="nodetag">679</div></span>&nbsp;&nbsp;বিভিন্ন প্রক্রিয়াকরণযোগ্য সামগ্রী নির্ভর শিল্প','679','বিভিন্ন প্রক্রিয়াকরণযোগ্য সামগ্রী নির্ভর শিল্প','','','',false,true);
+d.add(443,442,'679.7','<div class="nodetag">679.7</div></span>&nbsp;&nbsp;রজ্জু ও দড়িদড়া শিল্প','679.7','রজ্জু ও দড়িদড়া শিল্প','','','',false,true);
+d.add(444,442,'679.8','<div class="nodetag">679.8</div></span>&nbsp;&nbsp;প্রস্তর প্রযুক্তি। পাথর শিল্প','679.8','প্রস্তর প্রযুক্তি। পাথর শিল্প','','','',false,true);
+d.add(445,442,'679.9','<div class="nodetag">679.9</div></span>&nbsp;&nbsp;অন্যান্য প্রাকৃতিক প্রক্রিয়াকরণযোগ্য সামগ্রীর প্রযুক্তি','679.9','অন্যান্য প্রাকৃতিক প্রক্রিয়াকরণযোগ্য সামগ্রীর প্রযুক্তি','','','',false,true);
+d.add(446,0,'68','<div class="nodetag">68</div></span>&nbsp;&nbsp;প্রস্তুত বা সংযোজিত সামগ্রীর নিমিত্ত শিল্প, কারিগরিবিদ্যা এবং বৃত্তি সমূহ','68','প্রস্তুত বা সংযোজিত সামগ্রীর নিমিত্ত শিল্প, কারিগরিবিদ্যা এবং বৃত্তি সমূহ','','','',false,true);
+d.add(447,446,'681','<div class="nodetag">681</div></span>&nbsp;&nbsp;সূক্ষ্ম যন্ত্রনির্মাণ ও যন্ত্রাদি','681','সূক্ষ্ম যন্ত্রনির্মাণ ও যন্ত্রাদি','','','',false,true);
+d.add(448,447,'681.1','<div class="nodetag">681.1</div></span>&nbsp;&nbsp;চাকা ও মোটর প্রকৌশলবিশিষ্ট যন্ত্রাদি','681.1','চাকা ও মোটর প্রকৌশলবিশিষ্ট যন্ত্রাদি','','','',false,true);
+d.add(449,447,'681.2','<div class="nodetag">681.2</div></span>&nbsp;&nbsp;যন্ত্র-নির্মাণ (ব্যাপকার্থে)। যন্ত্রায়ণ। মাপক যন্ত্র ও তার নির্মাণ। তুলাদণ্ড। তৌল যন্ত্রাদি','681.2','যন্ত্র-নির্মাণ (ব্যাপকার্থে)। যন্ত্রায়ণ। মাপক যন্ত্র ও তার নির্মাণ। তুলাদণ্ড। তৌল যন্ত্রাদি','','','',false,true);
+d.add(450,447,'681.5','<div class="nodetag">681.5</div></span>&nbsp;&nbsp;স্বয়ংক্রিয় নিয়ন্ত্রণ প্রযুক্তি। স্মার্ট প্রযুক্তি','681.5','স্বয়ংক্রিয় নিয়ন্ত্রণ প্রযুক্তি। স্মার্ট প্রযুক্তি','','','',false,true);
+d.add(451,447,'681.6','<div class="nodetag">681.6</div></span>&nbsp;&nbsp;চিত্র পুনরুৎপাদন যন্ত্র ও সরঞ্জাম','681.6','চিত্র পুনরুৎপাদন যন্ত্র ও সরঞ্জাম','','','',false,true);
+d.add(452,447,'681.7','<div class="nodetag">681.7</div></span>&nbsp;&nbsp;দৃষ্টি সহায়ক উপকরণ ও যন্ত্রপাতি','681.7','দৃষ্টি সহায়ক উপকরণ ও যন্ত্রপাতি','','','',false,true);
+d.add(453,447,'681.8','<div class="nodetag">681.8</div></span>&nbsp;&nbsp;কারিগরি শব্দবিজ্ঞান','681.8','কারিগরি শব্দবিজ্ঞান','','','',false,true);
+d.add(454,446,'682','<div class="nodetag">682</div></span>&nbsp;&nbsp;ধাতুশিল্পীগিরি। কর্মকারগিরি। ফেরারি/অশ্বখুরে নাল পরানোর বৃত্তি। হাত-পেটানো লৌহকর্ম','682','ধাতুশিল্পীগিরি। কর্মকারগিরি। ফেরারি/অশ্বখুরে নাল পরানোর বৃত্তি। হাত-পেটানো লৌহকর্ম','','','',false,true);
+d.add(455,454,'682.1','<div class="nodetag">682.1</div></span>&nbsp;&nbsp;ফেরারি/অশ্বখুরে নাল পরানোর বৃত্তি। জুতা বা নাল পরানোর কাজ','682.1','ফেরারি/অশ্বখুরে নাল পরানোর বৃত্তি। জুতা বা নাল পরানোর কাজ','','','',false,true);
+d.add(456,454,'682.3','<div class="nodetag">682.3</div></span>&nbsp;&nbsp;যন্ত্রপাতি নির্মাণকার্য। বাটালি, ছেনি নির্মাণ','682.3','যন্ত্রপাতি নির্মাণকার্য। বাটালি, ছেনি নির্মাণ','','','',false,true);
+d.add(457,454,'682.5','<div class="nodetag">682.5</div></span>&nbsp;&nbsp;সাজসজ্জা সম্বন্ধীয় লৌহকার্য','682.5','সাজসজ্জা সম্বন্ধীয় লৌহকার্য','','','',false,true);
+d.add(458,454,'682.6','<div class="nodetag">682.6</div></span>&nbsp;&nbsp;ইমারতি লৌহকার্য','682.6','ইমারতি লৌহকার্য','','','',false,true);
+d.add(459,446,'683','<div class="nodetag">683</div></span>&nbsp;&nbsp;কালোয়ারের পণ্য। হার্ডওয়ার। তালাচাবির কাজ। বোতলে পোরা/বটলিং। দীপ। উত্তাপন উপকরণ','683','কালোয়ারের পণ্য। হার্ডওয়ার। তালাচাবির কাজ। বোতলে পোরা/বটলিং। দীপ। উত্তাপন উপকরণ','','','',false,true);
+d.add(460,446,'684','<div class="nodetag">684</div></span>&nbsp;&nbsp;আসবাবপত্র ও অনুরূপ শিল্প। আসবাবপত্র তৈরি। গৃহসজ্জা সামগ্রী তৈরি','684','আসবাবপত্র ও অনুরূপ শিল্প। আসবাবপত্র তৈরি। গৃহসজ্জা সামগ্রী তৈরি','','','',false,true);
+d.add(461,460,'684.4','<div class="nodetag">684.4</div></span>&nbsp;&nbsp;আসবাবপত্র। আসবাবপত্রের নকশা ও উৎপাদন','684.4','আসবাবপত্র। আসবাবপত্রের নকশা ও উৎপাদন','','','',false,true);
+d.add(462,460,'684.6','<div class="nodetag">684.6</div></span>&nbsp;&nbsp;ভিনিয়ারিং/পাতলা তক্তা দ্বারা আবৃত করার কাজ। মারকোয়েট্রি/কাষ্ঠ খচিত শিল্পকর্ম। (মনিরত্নাদি) খচিত কর্ম','684.6','ভিনিয়ারিং/পাতলা তক্তা দ্বারা আবৃত করার কাজ। মারকোয়েট্রি/কাষ্ঠ খচিত শিল্পকর্ম। (মনিরত্নাদি) খচিত কর্ম','','','',false,true);
+d.add(463,460,'684.7','<div class="nodetag">684.7</div></span>&nbsp;&nbsp;গৃহসজ্জা নির্মাণকর্ম। বিছানা। আচ্ছাদন সামগ্রী। ঝোলানো গৃহসামগ্রী','684.7','গৃহসজ্জা নির্মাণকর্ম। বিছানা। আচ্ছাদন সামগ্রী। ঝোলানো গৃহসামগ্রী','','','',false,true);
+d.add(464,446,'685','<div class="nodetag">685</div></span>&nbsp;&nbsp;স্যাডল/জিন তৈরি। জুতা/পাদুকা। দস্তানা তৈরি। ভ্রমণ, ক্রীড়া, খেলাধুলা ও অন্যান্য সামগ্রী নির্মাণ','685','স্যাডল/জিন তৈরি। জুতা/পাদুকা। দস্তানা তৈরি। ভ্রমণ, ক্রীড়া, খেলাধুলা ও অন্যান্য সামগ্রী নির্মাণ','','','',false,true);
+d.add(465,464,'685.1','<div class="nodetag">685.1</div></span>&nbsp;&nbsp;স্যাডল/জিন তৈরি। পশুসজ্জা নির্মাণ','685.1','স্যাডল/জিন তৈরি। পশুসজ্জা নির্মাণ','','','',false,true);
+d.add(466,464,'685.2','<div class="nodetag">685.2</div></span>&nbsp;&nbsp;রণসজ্জার উপকরণ। কটিবন্ধ/বেল্ট তৈরি। চামড়ার সরঞ্জাম ও অনুরূপ সামগ্রী','685.2','রণসজ্জার উপকরণ। কটিবন্ধ/বেল্ট তৈরি। চামড়ার সরঞ্জাম ও অনুরূপ সামগ্রী','','','',false,true);
+d.add(467,464,'685.3','<div class="nodetag">685.3</div></span>&nbsp;&nbsp;জুতা। চলন সহায়ক অন্যান্য সামগ্রী','685.3','জুতা। চলন সহায়ক অন্যান্য সামগ্রী','','','',false,true);
+d.add(468,464,'685.4','<div class="nodetag">685.4</div></span>&nbsp;&nbsp;দস্তানা ও দস্তানা তৈরি','685.4','দস্তানা ও দস্তানা তৈরি','','','',false,true);
+d.add(469,464,'685.5','<div class="nodetag">685.5</div></span>&nbsp;&nbsp;ভ্রমণ সামগ্রী। শিবির নির্মাণ সামগ্রী (ক্যাম্পিং সরঞ্জাম)','685.5','ভ্রমণ সামগ্রী। শিবির নির্মাণ সামগ্রী (ক্যাম্পিং সরঞ্জাম)','','','',false,true);
+d.add(470,464,'685.6','<div class="nodetag">685.6</div></span>&nbsp;&nbsp;ক্রীড়া ও খেলাধুলার সরঞ্জাম। অ্যাথলেটিক্‌স্‌, ব্যায়াম, শারীরিক প্রশিক্ষণের সরঞ্জাম ও তার স্থাপন','685.6','ক্রীড়া ও খেলাধুলার সরঞ্জাম। অ্যাথলেটিক্‌স্‌, ব্যায়াম, শারীরিক প্রশিক্ষণের সরঞ্জাম ও তার স্থাপন','','','',false,true);
+d.add(471,464,'685.7','<div class="nodetag">685.7</div></span>&nbsp;&nbsp;পর্বতারোহণ, আরোহণের সরঞ্জাম। সাঁতারের সরঞ্জাম','685.7','পর্বতারোহণ, আরোহণের সরঞ্জাম। সাঁতারের সরঞ্জাম','','','',false,true);
+d.add(472,464,'685.8','<div class="nodetag">685.8</div></span>&nbsp;&nbsp;বোর্ড ও টেবিল ক্রীড়ার সরঞ্জাম','685.8','বোর্ড ও টেবিল ক্রীড়ার সরঞ্জাম','','','',false,true);
+d.add(473,446,'686','<div class="nodetag">686</div></span>&nbsp;&nbsp;বই বাঁধাই কার্য। ধাতব আচ্ছাদন তৈরি। আয়না তৈরি। লেখ-সামগ্রী','686','বই বাঁধাই কার্য। ধাতব আচ্ছাদন তৈরি। আয়না তৈরি। লেখ-সামগ্রী','','','',false,true);
+d.add(474,446,'687','<div class="nodetag">687</div></span>&nbsp;&nbsp;পোশাক-পরিচ্ছদ শিল্প। পরিচ্ছদ তৈরি। রূপ চর্চা','687','পোশাক-পরিচ্ছদ শিল্প। পরিচ্ছদ তৈরি। রূপ চর্চা','','','',false,true);
+d.add(475,474,'687.1','<div class="nodetag">687.1</div></span>&nbsp;&nbsp;বাহ্য পরিচ্ছদ। দরজিগিরি','687.1','বাহ্য পরিচ্ছদ। দরজিগিরি','','','',false,true);
+d.add(476,474,'687.2','<div class="nodetag">687.2</div></span>&nbsp;&nbsp;ক্ষৌম বস্ত্র। স্ত্রীলোকের অন্তর্বাস','687.2','ক্ষৌম বস্ত্র। স্ত্রীলোকের অন্তর্বাস','','','',false,true);
+d.add(477,474,'687.3','<div class="nodetag">687.3</div></span>&nbsp;&nbsp;বোনা পোশাকাদি। টাই। পোশাক পরিচ্ছদ বাঁধার ও সুরক্ষার সামগ্রী','687.3','বোনা পোশাকাদি। টাই। পোশাক পরিচ্ছদ বাঁধার ও সুরক্ষার সামগ্রী','','','',false,true);
+d.add(478,474,'687.4','<div class="nodetag">687.4</div></span>&nbsp;&nbsp;শিরস্ত্রাণ, টুপি, পাগড়ি। টুপি তৈরি। স্ত্রীলোকের টুপি, ফিতা প্রভৃতি','687.4','শিরস্ত্রাণ, টুপি, পাগড়ি। টুপি তৈরি। স্ত্রীলোকের টুপি, ফিতা প্রভৃতি','','','',false,true);
+d.add(479,474,'687.5','<div class="nodetag">687.5</div></span>&nbsp;&nbsp;রূপচর্চা শিল্প','687.5','রূপচর্চা শিল্প','','','',false,true);
+d.add(480,474,'687.8','<div class="nodetag">687.8</div></span>&nbsp;&nbsp;কৃত্রিম পশমি পোশাক তৈরি','687.8','কৃত্রিম পশমি পোশাক তৈরি','','','',false,true);
+d.add(481,474,'687.9','<div class="nodetag">687.9</div></span>&nbsp;&nbsp;ঝাড়ু, বুরুশ শিল্প। হাত ঝাড়ু ইত্যাদি','687.9','ঝাড়ু, বুরুশ শিল্প। হাত ঝাড়ু ইত্যাদি','','','',false,true);
+d.add(482,446,'688','<div class="nodetag">688</div></span>&nbsp;&nbsp;শৌখিন সামগ্রী। খেলনা। সাজসজ্জা সামগ্রী','688','শৌখিন সামগ্রী। খেলনা। সাজসজ্জা সামগ্রী','','','',false,true);
+d.add(483,482,'688.7','<div class="nodetag">688.7</div></span>&nbsp;&nbsp;খেলনা। আমোদ-প্রমোদ, কৌশলের সামগ্রী','688.7','খেলনা। আমোদ-প্রমোদ, কৌশলের সামগ্রী','','','',false,true);
+d.add(484,446,'689','<div class="nodetag">689</div></span>&nbsp;&nbsp;অপেশাদার হস্তশিল্প। কারিগরি শখ','689','অপেশাদার হস্তশিল্প। কারিগরি শখ','','','',false,true);
+d.add(485,0,'69','<div class="nodetag">69</div></span>&nbsp;&nbsp;বাস্তু (নির্মাণ) বৃত্তি। বাস্তু সামগ্রী। বাস্তু কর্ম ও প্রণালী','69','বাস্তু (নির্মাণ) বৃত্তি। বাস্তু সামগ্রী। বাস্তু কর্ম ও প্রণালী','','','',false,true);
+d.add(486,485,'691','<div class="nodetag">691</div></span>&nbsp;&nbsp;বাস্তুনির্মাণ সামগ্রী। বাস্তুনির্মাণের উপাদান','691','বাস্তুনির্মাণ সামগ্রী। বাস্তুনির্মাণের উপাদান','','','',false,true);
+d.add(487,485,'692','<div class="nodetag">692</div></span>&nbsp;&nbsp;ইমারতের গাঠনিক অংশ ও উপাদান','692','ইমারতের গাঠনিক অংশ ও উপাদান','','','',false,true);
+d.add(488,485,'693','<div class="nodetag">693</div></span>&nbsp;&nbsp;রাজমিস্ত্রিকর্ম এবং আনুষঙ্গিক বাস্তুনির্মাণ শিল্প-কৌশল','693','রাজমিস্ত্রিকর্ম এবং আনুষঙ্গিক বাস্তুনির্মাণ শিল্প-কৌশল','','','',false,true);
+d.add(489,485,'694','<div class="nodetag">694</div></span>&nbsp;&nbsp;কাষ্ঠ দ্বারা নির্মাণ। সূত্রধরগিরি। ছুতোরের কাজ','694','কাষ্ঠ দ্বারা নির্মাণ। সূত্রধরগিরি। ছুতোরের কাজ','','','',false,true);
+d.add(490,485,'696','<div class="nodetag">696</div></span>&nbsp;&nbsp;ইমারতের প্রয়োজনীয় সরঞ্জাম, পরিসেবা, উপকরণ স্থাপন (সাফাই, গ্যাসীয়, বাষ্পীয়, বৈদ্যুতিক)। নল মিস্ত্রি। প্লাম্বার। ধাতুকার্যের মিস্ত্রি। নর্দমাস্থাপক। বিজলী মিস্ত্রি। অনান্য বৃত্তি','696','ইমারতের প্রয়োজনীয় সরঞ্জাম, পরিসেবা, উপকরণ স্থাপন (সাফাই, গ্যাসীয়, বাষ্পীয়, বৈদ্যুতিক)। নল মিস্ত্রি। প্লাম্বার। ধাতুকার্যের মিস্ত্রি। নর্দমাস্থাপক। বিজলী মিস্ত্রি। অনান্য বৃত্তি','','','',false,true);
+d.add(491,485,'697','<div class="nodetag">697</div></span>&nbsp;&nbsp;ইমারতের উত্তাপন/তাপন, বায়ুচলাচল ও শীতাতপ নিয়ন্ত্রণ','697','ইমারতের উত্তাপন/তাপন, বায়ুচলাচল ও শীতাতপ নিয়ন্ত্রণ','','','',false,true);
+d.add(492,485,'698','<div class="nodetag">698</div></span>&nbsp;&nbsp;সমাপন ও সৌন্দর্যবর্ধন বৃত্তি','698','সমাপন ও সৌন্দর্যবর্ধন বৃত্তি','','','',false,true);
+d.config.useSelection = false;
+d.config.inOrder = true;
+d.config.useIcons = false;
+document.write(d);
+//-->
+</script>
+</div>
+</div><div id="expandbox" onclick="expandbox(); return false;">&nbsp;</div>
+<div id="recordbox" class="debugbkg">
+<div class="fronthint">নথিসমূহ প্রদর্শন করতে বামপার্শ্বের একটি বর্গের উপর ক্লিক করুন</div>
+</div>
+
+        <div id="footer">
+            <div class="footersectionleft">
+                The UDC Summary (UDCS) provides a selection of around 2,600 classes from the whole scheme which comprises more than 70,000 entries.
+                Please send questions and suggestions to <a href="mailto:udcs@udcc.org?subject=UDC Summary Enquiry">udcs@udcc.org</a><br><br>
+	            <p>
+		            The data provided in this Summary is released under the <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative Commons Attribution Share Alike 3.0 license</a> <a href="../about.htm">[more]</a>
+	            </p>
+            </div>
+            <div class="footermiddle">
+                <a href="http://www.udcc.org"><img src="../images/udclogowhite.png" border="0"></a>
+            </div>
+			<div class="footerright">
+                For complete UDC schedules see <a href="http://www.udc-hub.com/">UDC Online Hub</a><br/><a href="http://www.udc-hub.com/"><img width="60" height="35" src="../images/udclogo.png"/></a>
+
+			</div>
+        </div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-13138465-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>

@@ -1,0 +1,654 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>UDC Summary</title>
+    <link rel="stylesheet" href="../reset.css" type="text/css" />
+    <link rel="stylesheet" href="../udc2000.css" type="text/css" />
+	    <link rel="StyleSheet" href="dtree2.css" type="text/css" />
+	    <script type="text/javascript" src="dtree.js"></script>
+	    <script type="text/javascript" src="udcdisplay_9.js"></script>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+</head>
+
+<body >
+<div id="centercontainer" class="debugbkg">
+    <div id="titlebox" class="debugbkg">
+		<div id="rightbox">
+        	<div id="languagecount">57 languages</div>
+            <div id="languagebox">
+            <select id="selectedlang" style="vertical-align: middle;" onchange="location = this.options[this.selectedIndex].value;">
+			<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=af&pr=Y">Afrikaans (Afrikaans) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sq&pr=Y">Albanian (Shqip) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=anp&pr=Y">Angika (अंगिका) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ar&pr=Y">Arabic (العربية) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hy&pr=Y">Armenian (հայերեն) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=eu&pr=Y">Basque (Euskara) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=be&pr=Y">Belarusian (Беларуская) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bn&pr=Y">Bengali (বাংলা) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bho&pr=Y">Bhojpuri (भोजपुरी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bg&pr=Y">Bulgarian (Български) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ca&pr=Y">Catalan (Català) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=chi&pr=Y">Chinese (中文) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hr&pr=Y">Croatian (Hrvatski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=cs&pr=Y">Czech (Čeština) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=da&pr=Y">Danish (Dansk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=nl&pr=Y" selected>Dutch (Nederlands) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=en&pr=Y">English (English) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=eo&pr=Y">Esperanto (Esperanto) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=et&pr=Y">Estonian (Eesti) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=fi&pr=Y">Finnish (Suomi) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=fr&pr=Y">French (Français) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=gl&pr=Y">Galician (Galego) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ka&pr=Y">Georgian (ქართული) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=de&pr=Y">German (Deutsch) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=el&pr=Y">Greek (Ελληνικά) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hi&pr=Y">Hindi (हिन्दी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hu&pr=Y">Hungarian (Magyar) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=id&pr=Y">Indonesian (Bahasa Ind) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ga&pr=Y">Irish (Gaeilge) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=it&pr=Y">Italian (Italiano) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ja&pr=Y">Japanese (日本語) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=kn&pr=Y">Kannada (ಕನ್ನಡ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=kk&pr=Y">Kazakh (Қазақ тілі) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=lv&pr=Y">Latvian (Latviešu) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=lt&pr=Y">Lithuanian (lietuvių) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=mk&pr=Y">Macedonian (македонски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ml&pr=Y">Malayalam (മലയാളം) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=mr&pr=Y">Marathi (मराठी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=no&pr=Y">Norwegian (Norsk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pl&pr=Y">Polish (Polski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pt&pr=Y">Portuguese (Português) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pa&pr=Y">Punjabi (ਪੰਜਾਬੀ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ro&pr=Y">Romanian (Româna) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ru&pr=Y">Russian (Pусский) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sa&pr=Y">Sanskrit (Saṃskṛtam) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sr&pr=Y">Serbian (Српски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=si&pr=Y">Sinhala (සිංහල) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sk&pr=Y">Slovak (Slovenský) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sl&pr=Y">Slovenian (Slovenski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=es&pr=Y">Spanish (Español) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sv&pr=Y">Swedish (Svenska) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ta&pr=Y">Tamil (தமிழ்) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=te&pr=Y">Telugu (తెలుగు) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=tr&pr=Y">Turkish (Türkçe) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=uk&pr=Y">Ukrainian (Yкраї́нська) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=uz&pr=Y">Uzbek (oʻzbek) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=vi&pr=Y">Vietnamese (tiếng Việt) </option>
+            </select>
+            </div>
+            </div>
+        </div>
+		<div id="menubox" class="debugbkg">
+            <ul class="menu boldmenu">
+<li><a href="index.php@lang=nl">TOPKLASSEN</a></li>
+<li><a href="index.php@tag=--&amp;lang=nl">TEKENS</a></li>
+<li><a href="index.php@tag=---&amp;lang=nl">HULPGETALLEN</a></li>
+<li><a href="index.php@tag=0&amp;lang=nl">0</a></li>
+<li><a href="index.php@tag=1&amp;lang=nl">1</a></li>
+<li><a href="index.php@tag=2&amp;lang=nl">2</a></li>
+<li><a href="index.php@tag=3&amp;lang=nl">3</a></li>
+<li><a  class="vacant" href="index.php@tag=6&amp;lang=nl#">4</a></li>
+<li><a href="index.php@tag=5&amp;lang=nl">5</a></li>
+<li><a href="index.php@tag=6&amp;lang=nl">6</a></li>
+<li><a href="index.php@tag=7&amp;lang=nl">7</a></li>
+<li><a href="index.php@tag=8&amp;lang=nl">8</a></li>
+<li><a href="index.php@tag=9&amp;lang=nl">9</a></li>
+</ul>
+<input type="hidden" id="if_loading" name="if_loading" value="Laden"/>
+<input type="hidden" id="if_lang" name="if_lang" value="2"/>
+<ul class="rightmenu boldmenu">
+<li><a href="../translation.htm">VERTALING</a></li>
+<li><a href="index.php@tag=6&amp;lang=nl#" title="Under Development">MAPPINGS</a></li>
+<li><a href="../exports.htm" title="Data Exports">EXPORTEER</a></li>
+<li><a href="index.php@tag=6&amp;lang=nl#" title="Under Development">ALFABETISCH REGISTER</a></li>
+<li><a href="index.php@tag=6&amp;lang=nl#" title="Under Development">HANDLEIDING</a></li>
+<li><a href="../about.htm" title="About the UDC Summary">OVER</a></li>
+</ul>
+
+        </div>
+		<input type="hidden" id="leftWidth" value="420"/><input type="hidden" id="rightWidth" value="522"/>
+		<div id="classmarkbox" class="debugbkg">
+
+<div id="openclosemenu"><a href="javascript: d.openAll();">&nbsp;vouw alle uit</a> | <a href="javascript: d.closeAll();">vouw alle op</a></div>
+<div id="classtree">
+<script type="text/javascript">
+<!--
+d = new dTree('d');
+d.config.hrefIsClick = true;
+d.add(0,-1,'6','<span class="nodetag">6</span>&nbsp;&nbsp;TOEGEPASTE WETENSCHAPPEN. MEDICIJNEN. TECHNOLOGIE','6','','','','',false,true);
+d.add(1,0,'60','<div class="nodetag">60</div></span>&nbsp;&nbsp;Biotechnologie','60','Biotechnologie','','','',false,true);
+d.add(2,1,'601','<div class="nodetag">601</div></span>&nbsp;&nbsp;Fundamentele concepten','601','Fundamentele concepten','','','',false,true);
+d.add(3,1,'602','<div class="nodetag">602</div></span>&nbsp;&nbsp;Processen en technieken in de biotechnologie','602','Processen en technieken in de biotechnologie','','','',false,true);
+d.add(4,1,'604','<div class="nodetag">604</div></span>&nbsp;&nbsp;Producten','604','Producten','','','',false,true);
+d.add(5,1,'606','<div class="nodetag">606</div></span>&nbsp;&nbsp;Toepassingen van biotechnologie','606','Toepassingen van biotechnologie','','','',false,true);
+d.add(6,1,'608','<div class="nodetag">608</div></span>&nbsp;&nbsp;Vraagstukken','608','Vraagstukken','','','',false,true);
+d.add(7,0,'61','<div class="nodetag">61</div></span>&nbsp;&nbsp;Medische wetenschappen','61','Medische wetenschappen','','','',false,true);
+d.add(8,7,'611/612','<div class="nodetag">611/612</div></span>&nbsp;&nbsp;Humane biologie','611/612','Humane biologie','','','',false,true);
+d.add(9,8,'611','<div class="nodetag">611</div></span>&nbsp;&nbsp;Anatomie. Menselijke en vergelijkende anatomie','611','Anatomie. Menselijke en vergelijkende anatomie','','','',false,true);
+d.add(10,8,'612','<div class="nodetag">612</div></span>&nbsp;&nbsp;Fysiologie. Menselijke en vergelijkende fysiologie','612','Fysiologie. Menselijke en vergelijkende fysiologie','','','',false,true);
+d.add(11,10,'612.1/.8','<div class="nodetag">612.1/.8</div></span>&nbsp;&nbsp;Systematische fysiologie','612.1/.8','Systematische fysiologie','','','',false,true);
+d.add(12,11,'612.1','<div class="nodetag">612.1</div></span>&nbsp;&nbsp;Bloed. Cardiovasculaire stelsel, bloedcirculatiestelsel','612.1','Bloed. Cardiovasculaire stelsel, bloedcirculatiestelsel','','','',false,true);
+d.add(13,11,'612.2','<div class="nodetag">612.2</div></span>&nbsp;&nbsp;Ademhaling. Ademhalen. Ademhalingsstelsel','612.2','Ademhaling. Ademhalen. Ademhalingsstelsel','','','',false,true);
+d.add(14,11,'612.3','<div class="nodetag">612.3</div></span>&nbsp;&nbsp;Voeding. Het eten. Spijsvertering. Voedingsleer','612.3','Voeding. Het eten. Spijsvertering. Voedingsleer','','','',false,true);
+d.add(15,11,'612.4','<div class="nodetag">612.4</div></span>&nbsp;&nbsp;Klierstelsel. Secretie. Excretie','612.4','Klierstelsel. Secretie. Excretie','','','',false,true);
+d.add(16,11,'612.5','<div class="nodetag">612.5</div></span>&nbsp;&nbsp;Lichaamswarmte. Thermische processen','612.5','Lichaamswarmte. Thermische processen','','','',false,true);
+d.add(17,11,'612.6','<div class="nodetag">612.6</div></span>&nbsp;&nbsp;Voortplanting. Groei. Ontwikkeling','612.6','Voortplanting. Groei. Ontwikkeling','','','',false,true);
+d.add(18,11,'612.7','<div class="nodetag">612.7</div></span>&nbsp;&nbsp;Motorische functies. Bewegingsapparaat. Stem. Integument. Bekleedsel (huid, haar, nagels, schubben, veren)','612.7','Motorische functies. Bewegingsapparaat. Stem. Integument. Bekleedsel (huid, haar, nagels, schubben, veren)','','','',false,true);
+d.add(19,11,'612.8','<div class="nodetag">612.8</div></span>&nbsp;&nbsp;Zenuwstelsel. Zintuigen','612.8','Zenuwstelsel. Zintuigen','','','',false,true);
+d.add(20,7,'613','<div class="nodetag">613</div></span>&nbsp;&nbsp;Gezondheidsleer in het algemeen. Persoonlijke gezondheid en hygiëne','613','Gezondheidsleer in het algemeen. Persoonlijke gezondheid en hygiëne','','','',false,true);
+d.add(21,20,'613.2','<div class="nodetag">613.2</div></span>&nbsp;&nbsp;Diëtetiek. Voedingsleer. Grondbeginselen van de voedingsleer toegepast op het zich voeden en op voedingsmiddelen','613.2','Diëtetiek. Voedingsleer. Grondbeginselen van de voedingsleer toegepast op het zich voeden en op voedingsmiddelen','','','',false,true);
+d.add(22,20,'613.3','<div class="nodetag">613.3</div></span>&nbsp;&nbsp;Dranken, Geneeskrachtige dranken. Geneeskrachtig water. Vloeibaar dieet','613.3','Dranken, Geneeskrachtige dranken. Geneeskrachtig water. Vloeibaar dieet','','','',false,true);
+d.add(23,20,'613.4','<div class="nodetag">613.4</div></span>&nbsp;&nbsp;Persoonlijke hygiëne. Kleding','613.4','Persoonlijke hygiëne. Kleding','','','',false,true);
+d.add(24,20,'613.5','<div class="nodetag">613.5</div></span>&nbsp;&nbsp;Woninghygiëne. Properheid van woningen','613.5','Woninghygiëne. Properheid van woningen','','','',false,true);
+d.add(25,20,'613.6','<div class="nodetag">613.6</div></span>&nbsp;&nbsp;Gezondheidsrisico\'s met betrekking tot een beroep. Gezondheid en hygiëne met betrekking tot een beroep','613.6','Gezondheidsrisico\'s met betrekking tot een beroep. Gezondheid en hygiëne met betrekking tot een beroep','','','',false,true);
+d.add(26,20,'613.7','<div class="nodetag">613.7</div></span>&nbsp;&nbsp;Gezondheid en hygiëne van vrije tijd, recreatie en slaap','613.7','Gezondheid en hygiëne van vrije tijd, recreatie en slaap','','','',false,true);
+d.add(27,20,'613.8','<div class="nodetag">613.8</div></span>&nbsp;&nbsp;Gezondheid en hygiëne van het zenuwstelsel. Gezondheid en ethiek','613.8','Gezondheid en hygiëne van het zenuwstelsel. Gezondheid en ethiek','','','',false,true);
+d.add(28,20,'613.9','<div class="nodetag">613.9</div></span>&nbsp;&nbsp;Gezondheid en hygiëne in relatie met ras, leeftijd en geslacht','613.9','Gezondheid en hygiëne in relatie met ras, leeftijd en geslacht','','','',false,true);
+d.add(29,7,'614','<div class="nodetag">614</div></span>&nbsp;&nbsp;Volksgezondheid en hygiëne. Ongevallenpreventie','614','Volksgezondheid en hygiëne. Ongevallenpreventie','','','',false,true);
+d.add(30,29,'614.1','<div class="nodetag">614.1</div></span>&nbsp;&nbsp;Bevolking. Ontvolking','614.1','Bevolking. Ontvolking','','','',false,true);
+d.add(31,29,'614.2','<div class="nodetag">614.2</div></span>&nbsp;&nbsp;Algemene en beroepsorganisatie van de gezondheidszorg','614.2','Algemene en beroepsorganisatie van de gezondheidszorg','','','',false,true);
+d.add(32,29,'614.3','<div class="nodetag">614.3</div></span>&nbsp;&nbsp;Hygiënische inspectie en controle','614.3','Hygiënische inspectie en controle','','','',false,true);
+d.add(33,32,'614.39','<div class="nodetag">614.39</div></span>&nbsp;&nbsp;Nationale gezondheidsdienst','614.39','Nationale gezondheidsdienst','','','',false,true);
+d.add(34,29,'614.4','<div class="nodetag">614.4</div></span>&nbsp;&nbsp;Preventie en beheersing van besmettelijke (infectueuze) ziekten. Preventie van epidemieën','614.4','Preventie en beheersing van besmettelijke (infectueuze) ziekten. Preventie van epidemieën','','','',false,true);
+d.add(35,29,'614.6','<div class="nodetag">614.6</div></span>&nbsp;&nbsp;Hygiëne van de begraafplaats. Afdoening van de dode','614.6','Hygiëne van de begraafplaats. Afdoening van de dode','','','',false,true);
+d.add(36,29,'614.7','<div class="nodetag">614.7</div></span>&nbsp;&nbsp;Hygiëne van lucht, water en bodem. Vervuiling en de beheersing daarvan','614.7','Hygiëne van lucht, water en bodem. Vervuiling en de beheersing daarvan','','','',false,true);
+d.add(37,29,'614.8','<div class="nodetag">614.8</div></span>&nbsp;&nbsp;Ongelukken. Risicofactoren. Gevaren. Ongevallenpreventie. Persoonlijke bescherming. Veiligheid','614.8','Ongelukken. Risicofactoren. Gevaren. Ongevallenpreventie. Persoonlijke bescherming. Veiligheid','','','',false,true);
+d.add(38,29,'614.9','<div class="nodetag">614.9</div></span>&nbsp;&nbsp;Gezondheid van het dier. Veterinaire hygiëne','614.9','Gezondheid van het dier. Veterinaire hygiëne','','','',false,true);
+d.add(39,7,'615','<div class="nodetag">615</div></span>&nbsp;&nbsp;Farmacologie. Therapie. Toxicologie','615','Farmacologie. Therapie. Toxicologie','','','',false,true);
+d.add(40,39,'615.1','<div class="nodetag">615.1</div></span>&nbsp;&nbsp;Algemene en beroepsmatige farmacie','615.1','Algemene en beroepsmatige farmacie','','','',false,true);
+d.add(41,39,'615.2','<div class="nodetag">615.2</div></span>&nbsp;&nbsp;Geneesmiddelen naar hun voornaamste werking','615.2','Geneesmiddelen naar hun voornaamste werking','','','',false,true);
+d.add(42,39,'615.3','<div class="nodetag">615.3</div></span>&nbsp;&nbsp;Geneesmiddelen naar hun oorsprong','615.3','Geneesmiddelen naar hun oorsprong','','','',false,true);
+d.add(43,39,'615.4','<div class="nodetag">615.4</div></span>&nbsp;&nbsp;Farmaceutische preparaten. Medisch materiaal. Uitrusting','615.4','Farmaceutische preparaten. Medisch materiaal. Uitrusting','','','',false,true);
+d.add(44,39,'615.8','<div class="nodetag">615.8</div></span>&nbsp;&nbsp;Fysiotherapie. Fysische therapie. Radiotherapie. Overige niet-medicinale therapeutische behandeling','615.8','Fysiotherapie. Fysische therapie. Radiotherapie. Overige niet-medicinale therapeutische behandeling','','','',false,true);
+d.add(45,39,'615.9','<div class="nodetag">615.9</div></span>&nbsp;&nbsp;Algemene toxicologie (vergiftkunde). Algemene studies van vergiften en vergiftigen (intoxicatie)','615.9','Algemene toxicologie (vergiftkunde). Algemene studies van vergiften en vergiftigen (intoxicatie)','','','',false,true);
+d.add(46,7,'616','<div class="nodetag">616</div></span>&nbsp;&nbsp;Pathologie. Klinische geneeskunde','616','Pathologie. Klinische geneeskunde','','','',false,true);
+d.add(47,46,'616-001/-009','<div class="nodetag">616-001/-009</div></span>&nbsp;&nbsp;Bijzondere hulpgetallen voor ziekteprocessen','616-001/-009','Bijzondere hulpgetallen voor ziekteprocessen','','','',false,true);
+d.add(48,47,'616-001','<div class="nodetag">616-001</div></span>&nbsp;&nbsp;Traumata. Letsels. Verwondingen','616-001','Traumata. Letsels. Verwondingen','','','',false,true);
+d.add(49,47,'616-002','<div class="nodetag">616-002</div></span>&nbsp;&nbsp;Inflammatie. Ontsteking. Irritatie. Congestie (hyperemie). Slijmcongestie','616-002','Inflammatie. Ontsteking. Irritatie. Congestie (hyperemie). Slijmcongestie','','','',false,true);
+d.add(50,47,'616-003','<div class="nodetag">616-003</div></span>&nbsp;&nbsp;Regressieve en herstellende processen','616-003','Regressieve en herstellende processen','','','',false,true);
+d.add(51,47,'616-004','<div class="nodetag">616-004</div></span>&nbsp;&nbsp;Sclerose. Verharding. Cirrose','616-004','Sclerose. Verharding. Cirrose','','','',false,true);
+d.add(52,47,'616-005','<div class="nodetag">616-005</div></span>&nbsp;&nbsp;Plaatselijke stoornissen van de bloedsomloop','616-005','Plaatselijke stoornissen van de bloedsomloop','','','',false,true);
+d.add(53,47,'616-006','<div class="nodetag">616-006</div></span>&nbsp;&nbsp;Tumoren. Neoplasma\'s. Blastomen. Choristoblastomen. Hamartoma\'s. Oncologie','616-006','Tumoren. Neoplasma\'s. Blastomen. Choristoblastomen. Hamartoma\'s. Oncologie','','','',false,true);
+d.add(54,47,'616-007','<div class="nodetag">616-007</div></span>&nbsp;&nbsp;Defectieve structurele ontwikkeling. Fysiologische deformiteiten. Misvormingen. Bovenmaatse, ondermaatse organen. Teratologie. Studie van de aangeboren misvormingen. Monstra. Misgeboorten. Abnormaliteiten','616-007','Defectieve structurele ontwikkeling. Fysiologische deformiteiten. Misvormingen. Bovenmaatse, ondermaatse organen. Teratologie. Studie van de aangeboren misvormingen. Monstra. Misgeboorten. Abnormaliteiten','','','',false,true);
+d.add(55,47,'616-008','<div class="nodetag">616-008</div></span>&nbsp;&nbsp;Functionele en metabolische stoornissen','616-008','Functionele en metabolische stoornissen','','','',false,true);
+d.add(56,47,'616-009','<div class="nodetag">616-009</div></span>&nbsp;&nbsp;Neurale (nerveuze) stoornissen','616-009','Neurale (nerveuze) stoornissen','','','',false,true);
+d.add(57,46,'616-01/-099','<div class="nodetag">616-01/-099</div></span>&nbsp;&nbsp;Bijzondere hulpgetallen voor algemene aspecten van pathologie','616-01/-099','Bijzondere hulpgetallen voor algemene aspecten van pathologie','','','',false,true);
+d.add(58,57,'616-01','<div class="nodetag">616-01</div></span>&nbsp;&nbsp;Verschillende aspecten van ziekte, patiënten en medische ingrepen','616-01','Verschillende aspecten van ziekte, patiënten en medische ingrepen','','','',false,true);
+d.add(59,57,'616-02','<div class="nodetag">616-02</div></span>&nbsp;&nbsp;Etiologie. Leer van de ziekteoorzaken','616-02','Etiologie. Leer van de ziekteoorzaken','','','',false,true);
+d.add(60,57,'616-03','<div class="nodetag">616-03</div></span>&nbsp;&nbsp;Verschillende ziektevormen, behandelingsvormen en toedieningsvormen van medicamenten','616-03','Verschillende ziektevormen, behandelingsvormen en toedieningsvormen van medicamenten','','','',false,true);
+d.add(61,57,'616-05','<div class="nodetag">616-05</div></span>&nbsp;&nbsp;Personen en persoonlijke kenmerken in de pathologie (ziekteleer). Kenmerken van de patiënt','616-05','Personen en persoonlijke kenmerken in de pathologie (ziekteleer). Kenmerken van de patiënt','','','',false,true);
+d.add(62,57,'616-06','<div class="nodetag">616-06</div></span>&nbsp;&nbsp;Complicaties. Consequenties. Repercussies. Samenvallende, gelijktijdige status. Correlatie. Voorafgaande status van de gezondheid. Antagonisme van twee ziekten','616-06','Complicaties. Consequenties. Repercussies. Samenvallende, gelijktijdige status. Correlatie. Voorafgaande status van de gezondheid. Antagonisme van twee ziekten','','','',false,true);
+d.add(63,57,'616-07','<div class="nodetag">616-07</div></span>&nbsp;&nbsp;Semiologie. Leer van de ziektetekenen. Symptomatologie. Tekenen en symptomen. Onderzoek. Diagnose. Propedeuse','616-07','Semiologie. Leer van de ziektetekenen. Symptomatologie. Tekenen en symptomen. Onderzoek. Diagnose. Propedeuse','','','',false,true);
+d.add(64,57,'616-08','<div class="nodetag">616-08</div></span>&nbsp;&nbsp;Behandeling','616-08','Behandeling','','','',false,true);
+d.add(65,57,'616-091','<div class="nodetag">616-091</div></span>&nbsp;&nbsp;Ziektenkundige ontleedkunde. Pathologische anatomie','616-091','Ziektenkundige ontleedkunde. Pathologische anatomie','','','',false,true);
+d.add(66,57,'616-092','<div class="nodetag">616-092</div></span>&nbsp;&nbsp;Pathologische fysiologie. Leer van de verrichtingen van het zieke organisme. Pathogenese. Leer van de ziekteoorzaken','616-092','Pathologische fysiologie. Leer van de verrichtingen van het zieke organisme. Pathogenese. Leer van de ziekteoorzaken','','','',false,true);
+d.add(67,57,'616-093','<div class="nodetag">616-093</div></span>&nbsp;&nbsp;Microbiële, bacteriologische technieken','616-093','Microbiële, bacteriologische technieken','','','',false,true);
+d.add(68,57,'616-094','<div class="nodetag">616-094</div></span>&nbsp;&nbsp;Microbiële, bacteriologische morfologie','616-094','Microbiële, bacteriologische morfologie','','','',false,true);
+d.add(69,57,'616-095','<div class="nodetag">616-095</div></span>&nbsp;&nbsp;Microbiële, bacteriologische fysiologie','616-095','Microbiële, bacteriologische fysiologie','','','',false,true);
+d.add(70,57,'616-097','<div class="nodetag">616-097</div></span>&nbsp;&nbsp;Antigenen. Antilichamen','616-097','Antigenen. Antilichamen','','','',false,true);
+d.add(71,57,'616-098','<div class="nodetag">616-098</div></span>&nbsp;&nbsp;Microbiële, bacteriologische fysica en chemie, microbieel, bacteriologisch metabolisme en katabolisme','616-098','Microbiële, bacteriologische fysica en chemie, microbieel, bacteriologisch metabolisme en katabolisme','','','',false,true);
+d.add(72,57,'616-099','<div class="nodetag">616-099</div></span>&nbsp;&nbsp;Vergiftigen. Intoxicatie','616-099','Vergiftigen. Intoxicatie','','','',false,true);
+d.add(73,46,'616-71/-78','<div class="nodetag">616-71/-78</div></span>&nbsp;&nbsp;Bijzondere hulpgetallen voor medische en chirurgische instrumenten en uitrusting','616-71/-78','Bijzondere hulpgetallen voor medische en chirurgische instrumenten en uitrusting','','','',false,true);
+d.add(74,73,'616-71','<div class="nodetag">616-71</div></span>&nbsp;&nbsp;Medische instrumenten en uitrusting in het algemeen','616-71','Medische instrumenten en uitrusting in het algemeen','','','',false,true);
+d.add(75,73,'616-72','<div class="nodetag">616-72</div></span>&nbsp;&nbsp;Chirurgische en therapeutische instrumenten','616-72','Chirurgische en therapeutische instrumenten','','','',false,true);
+d.add(76,73,'616-74','<div class="nodetag">616-74</div></span>&nbsp;&nbsp;Versterkende en herstellingsmaterialen en uitrusting','616-74','Versterkende en herstellingsmaterialen en uitrusting','','','',false,true);
+d.add(77,73,'616-76','<div class="nodetag">616-76</div></span>&nbsp;&nbsp;Correctieve en beschermende (hulp)middelen enz.','616-76','Correctieve en beschermende (hulp)middelen enz.','','','',false,true);
+d.add(78,73,'616-77','<div class="nodetag">616-77</div></span>&nbsp;&nbsp;Prothetische materialen en delen. Kunstorganen enz.','616-77','Prothetische materialen en delen. Kunstorganen enz.','','','',false,true);
+d.add(79,73,'616-78','<div class="nodetag">616-78</div></span>&nbsp;&nbsp;Machines en mechanische apparatuur','616-78','Machines en mechanische apparatuur','','','',false,true);
+d.add(80,46,'616.1/.9','<div class="nodetag">616.1/.9</div></span>&nbsp;&nbsp;Gespecialiseerde pathologie','616.1/.9','Gespecialiseerde pathologie','','','',false,true);
+d.add(81,80,'616.1','<div class="nodetag">616.1</div></span>&nbsp;&nbsp;Pathologie van het bloedvatenstelsel en de bloedvaten. Cardiovasculaire aandoeningen','616.1','Pathologie van het bloedvatenstelsel en de bloedvaten. Cardiovasculaire aandoeningen','','','',false,true);
+d.add(82,80,'616.2','<div class="nodetag">616.2</div></span>&nbsp;&nbsp;Pathologie van het ademhalingsstelsel. Aandoeningen van de ademhalingsorganen','616.2','Pathologie van het ademhalingsstelsel. Aandoeningen van de ademhalingsorganen','','','',false,true);
+d.add(83,80,'616.3','<div class="nodetag">616.3</div></span>&nbsp;&nbsp;Pathologie van het spijsverteringsstelsel. Aandoeningen van het spijsverteringskanaal','616.3','Pathologie van het spijsverteringsstelsel. Aandoeningen van het spijsverteringskanaal','','','',false,true);
+d.add(84,83,'616.31','<div class="nodetag">616.31</div></span>&nbsp;&nbsp;Stomatologie. Mondholte. Mond. Ziekten van de mond en tanden.','616.31','Stomatologie. Mondholte. Mond. Ziekten van de mond en tanden.','','','',false,true);
+d.add(85,80,'616.4','<div class="nodetag">616.4</div></span>&nbsp;&nbsp;Pathologie van het lymfvatenstelsel, de bloedvormende organen, het bloedvatenstelsel en de endocriene klieren','616.4','Pathologie van het lymfvatenstelsel, de bloedvormende organen, het bloedvatenstelsel en de endocriene klieren','','','',false,true);
+d.add(86,80,'616.5','<div class="nodetag">616.5</div></span>&nbsp;&nbsp;Huid. Integument. Klinische dermatologie. Huidaandoeningen','616.5','Huid. Integument. Klinische dermatologie. Huidaandoeningen','','','',false,true);
+d.add(87,80,'616.6','<div class="nodetag">616.6</div></span>&nbsp;&nbsp;Pathologie van het urogenitale stelsel. Urine- en seksuele (genitale) aandoeningen. Urologie','616.6','Pathologie van het urogenitale stelsel. Urine- en seksuele (genitale) aandoeningen. Urologie','','','',false,true);
+d.add(88,80,'616.7','<div class="nodetag">616.7</div></span>&nbsp;&nbsp;Pathologie van de bewegingsorganen. Beenderstelsel en spierstelsel','616.7','Pathologie van de bewegingsorganen. Beenderstelsel en spierstelsel','','','',false,true);
+d.add(89,80,'616.8','<div class="nodetag">616.8</div></span>&nbsp;&nbsp;Neurologie. Neuropathologie. Zenuwstelsel','616.8','Neurologie. Neuropathologie. Zenuwstelsel','','','',false,true);
+d.add(90,89,'616.89','<div class="nodetag">616.89</div></span>&nbsp;&nbsp;Psychiatrie. Pathologische psychiatrie. Psychopathologie. Frenopathie. Psychose. Mentale abnormaliteit. Gedragsafwijkingen en emotionele afwijkingen','616.89','Psychiatrie. Pathologische psychiatrie. Psychopathologie. Frenopathie. Psychose. Mentale abnormaliteit. Gedragsafwijkingen en emotionele afwijkingen','','','',false,true);
+d.add(91,80,'616.9','<div class="nodetag">616.9</div></span>&nbsp;&nbsp;Overdraagbare ziekten. Besmettelijke en infectueuze ziekten en koortsen','616.9','Overdraagbare ziekten. Besmettelijke en infectueuze ziekten en koortsen','','','',false,true);
+d.add(92,7,'617','<div class="nodetag">617</div></span>&nbsp;&nbsp;Chirurgie. Orthopedie. Oftalmologie, oogheelkunde','617','Chirurgie. Orthopedie. Oftalmologie, oogheelkunde','','','',false,true);
+d.add(93,92,'617.3','<div class="nodetag">617.3</div></span>&nbsp;&nbsp;Orthopedie in het algemeen','617.3','Orthopedie in het algemeen','','','',false,true);
+d.add(94,92,'617.7','<div class="nodetag">617.7</div></span>&nbsp;&nbsp;Oftalmologie. Oogkwalen en de behandeling daarvan','617.7','Oftalmologie. Oogkwalen en de behandeling daarvan','','','',false,true);
+d.add(95,7,'618','<div class="nodetag">618</div></span>&nbsp;&nbsp;Gynaecologie. Obstetrie','618','Gynaecologie. Obstetrie','','','',false,true);
+d.add(96,0,'62','<div class="nodetag">62</div></span>&nbsp;&nbsp;Ingenieurswezen. Technologie in het algemeen','62','Ingenieurswezen. Technologie in het algemeen','','','',false,true);
+d.add(97,96,'62-1/-9','<div class="nodetag">62-1/-9</div></span>&nbsp;&nbsp;Bijzondere hulpgetallen voor technologie in het algemeen','62-1/-9','Bijzondere hulpgetallen voor technologie in het algemeen','','','',false,true);
+d.add(98,97,'62-1','<div class="nodetag">62-1</div></span>&nbsp;&nbsp;Algemene kenmerken van machinies enz.','62-1','Algemene kenmerken van machinies enz.','','','',false,true);
+d.add(99,97,'62-2','<div class="nodetag">62-2</div></span>&nbsp;&nbsp;Vaste en verplaatsbare delen van machines','62-2','Vaste en verplaatsbare delen van machines','','','',false,true);
+d.add(100,97,'62-3','<div class="nodetag">62-3</div></span>&nbsp;&nbsp;Onderdelen voor vloeistofregeling en aandrijvingen. Kleppen, afsluitingen, enz.','62-3','Onderdelen voor vloeistofregeling en aandrijvingen. Kleppen, afsluitingen, enz.','','','',false,true);
+d.add(101,97,'62-4','<div class="nodetag">62-4</div></span>&nbsp;&nbsp;Toestand, conditie, vorm van materialen, oppervlakken, objecten en producten','62-4','Toestand, conditie, vorm van materialen, oppervlakken, objecten en producten','','','',false,true);
+d.add(102,97,'62-5','<div class="nodetag">62-5</div></span>&nbsp;&nbsp;Bediening en regeling van machines en processen','62-5','Bediening en regeling van machines en processen','','','',false,true);
+d.add(103,97,'62-6','<div class="nodetag">62-6</div></span>&nbsp;&nbsp;Kenmerken van brandstof en andere verwarmingsbronnen betreffende machinerie en installaties','62-6','Kenmerken van brandstof en andere verwarmingsbronnen betreffende machinerie en installaties','','','',false,true);
+d.add(104,97,'62-7','<div class="nodetag">62-7</div></span>&nbsp;&nbsp;Controlebeurt, onderhoud, bescherming van machines','62-7','Controlebeurt, onderhoud, bescherming van machines','','','',false,true);
+d.add(105,97,'62-8','<div class="nodetag">62-8</div></span>&nbsp;&nbsp;Machines naar aandrijfkracht, stuwkracht. Energiebron van de machine','62-8','Machines naar aandrijfkracht, stuwkracht. Energiebron van de machine','','','',false,true);
+d.add(106,97,'62-9','<div class="nodetag">62-9</div></span>&nbsp;&nbsp;Variabelen, condities en kenmerken van productieprocessen, machinerie en uitrusting','62-9','Variabelen, condities en kenmerken van productieprocessen, machinerie en uitrusting','','','',false,true);
+d.add(107,106,'62-91','<div class="nodetag">62-91</div></span>&nbsp;&nbsp;Tiestand van het materiaal: kenmerken en variabelen','62-91','Tiestand van het materiaal: kenmerken en variabelen','','','',false,true);
+d.add(108,106,'62-92','<div class="nodetag">62-92</div></span>&nbsp;&nbsp;Reacties in termen van de reagensen. Reagentia','62-92','Reacties in termen van de reagensen. Reagentia','','','',false,true);
+d.add(109,106,'62-93','<div class="nodetag">62-93</div></span>&nbsp;&nbsp;Processen, machines and uitrusting naar de wijze van werking, continuïteit, verbanden, media, directheid, machanisatie','62-93','Processen, machines and uitrusting naar de wijze van werking, continuïteit, verbanden, media, directheid, machanisatie','','','',false,true);
+d.add(110,106,'62-94','<div class="nodetag">62-94</div></span>&nbsp;&nbsp;Richting, snelheid, duur enz. van processen','62-94','Richting, snelheid, duur enz. van processen','','','',false,true);
+d.add(111,106,'62-95','<div class="nodetag">62-95</div></span>&nbsp;&nbsp;Enkelvoudige en meervoudige processen. Eéntraps- en meertrapsprocessen','62-95','Enkelvoudige en meervoudige processen. Eéntraps- en meertrapsprocessen','','','',false,true);
+d.add(112,106,'62-96','<div class="nodetag">62-96</div></span>&nbsp;&nbsp;Processen met betrekking tot het veranderen van de eigenschappen van producten. Modificatie in het algemeen','62-96','Processen met betrekking tot het veranderen van de eigenschappen van producten. Modificatie in het algemeen','','','',false,true);
+d.add(113,106,'62-97','<div class="nodetag">62-97</div></span>&nbsp;&nbsp;Thermische kenmerken. Temperatuur. Temperatuurbereik','62-97','Thermische kenmerken. Temperatuur. Temperatuurbereik','','','',false,true);
+d.add(114,106,'62-98','<div class="nodetag">62-98</div></span>&nbsp;&nbsp;Druk. Drukbereik','62-98','Druk. Drukbereik','','','',false,true);
+d.add(115,96,'620','<div class="nodetag">620</div></span>&nbsp;&nbsp;Materiaalonderzoek. Handelsgoederen. Krachtstations. Energie-economie','620','Materiaalonderzoek. Handelsgoederen. Krachtstations. Energie-economie','','','',false,true);
+d.add(116,115,'620.3','<div class="nodetag">620.3</div></span>&nbsp;&nbsp;Nanotechnologie','620.3','Nanotechnologie','','','',false,true);
+d.add(117,115,'620.9','<div class="nodetag">620.9</div></span>&nbsp;&nbsp;Energie-economie in het algemeen','620.9','Energie-economie in het algemeen','','','',false,true);
+d.add(118,96,'621','<div class="nodetag">621</div></span>&nbsp;&nbsp;Werktuigbouwkunde in het algemeen. Nucleaire techniek. Elektrotechniek. Machinerie','621','Werktuigbouwkunde in het algemeen. Nucleaire techniek. Elektrotechniek. Machinerie','','','',false,true);
+d.add(119,118,'621.1','<div class="nodetag">621.1</div></span>&nbsp;&nbsp;Warmtewerktuigen in het algemeen. Opwekking, distributie en gebruik van stoom. Stoomkrachtvoertuigen. Stoomketels','621.1','Warmtewerktuigen in het algemeen. Opwekking, distributie en gebruik van stoom. Stoomkrachtvoertuigen. Stoomketels','','','',false,true);
+d.add(120,118,'621.22','<div class="nodetag">621.22</div></span>&nbsp;&nbsp;Hydraulische energie. Waterkracht. Waterkrachtmachinerie','621.22','Hydraulische energie. Waterkracht. Waterkrachtmachinerie','','','',false,true);
+d.add(121,118,'621.3','<div class="nodetag">621.3</div></span>&nbsp;&nbsp;Elektrotechniek','621.3','Elektrotechniek','','','',false,true);
+d.add(122,118,'621.4','<div class="nodetag">621.4</div></span>&nbsp;&nbsp;Warmtewerktuigen (uitgezonderd stoomkrachtwerktuigen)','621.4','Warmtewerktuigen (uitgezonderd stoomkrachtwerktuigen)','','','',false,true);
+d.add(123,118,'621.5','<div class="nodetag">621.5</div></span>&nbsp;&nbsp;Pneumatische energie, machinerie en gereedschappen. Koeling','621.5','Pneumatische energie, machinerie en gereedschappen. Koeling','','','',false,true);
+d.add(124,118,'621.6','<div class="nodetag">621.6</div></span>&nbsp;&nbsp;Uitrusting en technieken voor de verwerking, opslag en distributie van vloeistoffen','621.6','Uitrusting en technieken voor de verwerking, opslag en distributie van vloeistoffen','','','',false,true);
+d.add(125,118,'621.7','<div class="nodetag">621.7</div></span>&nbsp;&nbsp;Mechanische technologie in het algemeen: werkwijzen, gereedschappen, machines, uitrusting','621.7','Mechanische technologie in het algemeen: werkwijzen, gereedschappen, machines, uitrusting','','','',false,true);
+d.add(126,118,'621.8','<div class="nodetag">621.8</div></span>&nbsp;&nbsp;Machineonderdelen. Aandrijfkrachttechniek. Behandeling van materialen. Bevestigingsmiddelen. Smering','621.8','Machineonderdelen. Aandrijfkrachttechniek. Behandeling van materialen. Bevestigingsmiddelen. Smering','','','',false,true);
+d.add(127,118,'621.9','<div class="nodetag">621.9</div></span>&nbsp;&nbsp;(Machinale) bewerking met spaanvorming. Schurende of slijpende bewerking. Hamers en persen','621.9','(Machinale) bewerking met spaanvorming. Schurende of slijpende bewerking. Hamers en persen','','','',false,true);
+d.add(128,96,'622','<div class="nodetag">622</div></span>&nbsp;&nbsp;Mijnbouw','622','Mijnbouw','','','',false,true);
+d.add(129,128,'622.1','<div class="nodetag">622.1</div></span>&nbsp;&nbsp;Voorbereidend onderzoek. Plannen, ontwerpen van mijnen. Exploratie van delfstoffen (aan de oppervlakte en ondergronds)','622.1','Voorbereidend onderzoek. Plannen, ontwerpen van mijnen. Exploratie van delfstoffen (aan de oppervlakte en ondergronds)','','','',false,true);
+d.add(130,128,'622.2','<div class="nodetag">622.2</div></span>&nbsp;&nbsp;Mijnbouwwerkzaamheden. Exploratie, ontsluiting, ontwikkeling, exploitatie van delfstoffen','622.2','Mijnbouwwerkzaamheden. Exploratie, ontsluiting, ontwikkeling, exploitatie van delfstoffen','','','',false,true);
+d.add(131,128,'622.3','<div class="nodetag">622.3</div></span>&nbsp;&nbsp;Mijnbouw van specifieke mineralen, ertsen en gesteenten','622.3','Mijnbouw van specifieke mineralen, ertsen en gesteenten','','','',false,true);
+d.add(132,128,'622.4','<div class="nodetag">622.4</div></span>&nbsp;&nbsp;Ventilatie, luchtbehandeling, verwarming en verlichting van mijnen','622.4','Ventilatie, luchtbehandeling, verwarming en verlichting van mijnen','','','',false,true);
+d.add(133,128,'622.5','<div class="nodetag">622.5</div></span>&nbsp;&nbsp;Droogmaking van de mijn. Uitmaling (ontwatering)','622.5','Droogmaking van de mijn. Uitmaling (ontwatering)','','','',false,true);
+d.add(134,128,'622.6','<div class="nodetag">622.6</div></span>&nbsp;&nbsp;Voorttrekken en transport. Hijsen. Spoelen. Oppervlakteverkeer','622.6','Voorttrekken en transport. Hijsen. Spoelen. Oppervlakteverkeer','','','',false,true);
+d.add(135,128,'622.7','<div class="nodetag">622.7</div></span>&nbsp;&nbsp;Behandeling, bewerking van mineralen. Bereiding van mineraal. Ertsbereiding','622.7','Behandeling, bewerking van mineralen. Bereiding van mineraal. Ertsbereiding','','','',false,true);
+d.add(136,128,'622.8','<div class="nodetag">622.8</div></span>&nbsp;&nbsp;Mijncalamiteiten, ongevallen en schade. Bescherming van de gezondheid en veiligheid in de mijnen','622.8','Mijncalamiteiten, ongevallen en schade. Bescherming van de gezondheid en veiligheid in de mijnen','','','',false,true);
+d.add(137,96,'623','<div class="nodetag">623</div></span>&nbsp;&nbsp;Militaire techniek','623','Militaire techniek','','','',false,true);
+d.add(138,137,'623.1/.7','<div class="nodetag">623.1/.7</div></span>&nbsp;&nbsp;Op het land geplaatste militaire techniek. Artillerie','623.1/.7','Op het land geplaatste militaire techniek. Artillerie','','','',false,true);
+d.add(139,138,'623.1/.3','<div class="nodetag">623.1/.3</div></span>&nbsp;&nbsp;Veldtechniek. Fortificaties. Verdedigingswerken','623.1/.3','Veldtechniek. Fortificaties. Verdedigingswerken','','','',false,true);
+d.add(140,139,'623.1','<div class="nodetag">623.1</div></span>&nbsp;&nbsp;Versterkingen. Permanente fortificaties. Verdedigingslinies. Verdedigingsgebieden','623.1','Versterkingen. Permanente fortificaties. Verdedigingslinies. Verdedigingsgebieden','','','',false,true);
+d.add(141,139,'623.2','<div class="nodetag">623.2</div></span>&nbsp;&nbsp;Aanvals- en verdedigingswerken. Belegeringswerken. Veldversterkingen. Loopgravenwerken','623.2','Aanvals- en verdedigingswerken. Belegeringswerken. Veldversterkingen. Loopgravenwerken','','','',false,true);
+d.add(142,139,'623.3','<div class="nodetag">623.3</div></span>&nbsp;&nbsp;Landmijnenvelden. Hindernissen in het veld. Inundatie','623.3','Landmijnenvelden. Hindernissen in het veld. Inundatie','','','',false,true);
+d.add(143,138,'623.4','<div class="nodetag">623.4</div></span>&nbsp;&nbsp;Wapentuig. Zwaar geschut. Wapenen. Wapens. Geweren. Artillerie. Handvuurwapens. Gepantserde en overige dienstvoertuigen. Ammunitie en strijdgassen. Geleide raketten en raketwapens','623.4','Wapentuig. Zwaar geschut. Wapenen. Wapens. Geweren. Artillerie. Handvuurwapens. Gepantserde en overige dienstvoertuigen. Ammunitie en strijdgassen. Geleide raketten en raketwapens','','','',false,true);
+d.add(144,138,'623.5','<div class="nodetag">623.5</div></span>&nbsp;&nbsp;Ballistische kenmerken. Het gebruik van artillerie. Theoretische en experimentele problemen','623.5','Ballistische kenmerken. Het gebruik van artillerie. Theoretische en experimentele problemen','','','',false,true);
+d.add(145,138,'623.6','<div class="nodetag">623.6</div></span>&nbsp;&nbsp;Uitrusting en activiteiten van de genie. Communicatielijnen. Maatregelen tegen radar. Militaire topografie','623.6','Uitrusting en activiteiten van de genie. Communicatielijnen. Maatregelen tegen radar. Militaire topografie','','','',false,true);
+d.add(146,138,'623.7','<div class="nodetag">623.7</div></span>&nbsp;&nbsp;Militaire en marineluchtvaart. Luchtverdediging','623.7','Militaire en marineluchtvaart. Luchtverdediging','','','',false,true);
+d.add(147,137,'623.8/.9','<div class="nodetag">623.8/.9</div></span>&nbsp;&nbsp;Scheepsbouwkunde','623.8/.9','Scheepsbouwkunde','','','',false,true);
+d.add(148,147,'623.8','<div class="nodetag">623.8</div></span>&nbsp;&nbsp;Marinetechniek. Marinebases. Oorlogs- en andere vaartuigen','623.8','Marinetechniek. Marinebases. Oorlogs- en andere vaartuigen','','','',false,true);
+d.add(149,147,'623.9','<div class="nodetag">623.9</div></span>&nbsp;&nbsp;Materiaal en uitrusting van de zeemacht. Bescherming en bewapening van de vaartuigen. Verdediging onder water','623.9','Materiaal en uitrusting van de zeemacht. Bescherming en bewapening van de vaartuigen. Verdediging onder water','','','',false,true);
+d.add(150,96,'624','<div class="nodetag">624</div></span>&nbsp;&nbsp;Civiele en bouwkundige techniek in het algemeen.','624','Civiele en bouwkundige techniek in het algemeen.','','','',false,true);
+d.add(151,150,'624.01/.07','<div class="nodetag">624.01/.07</div></span>&nbsp;&nbsp;Speciale hulpgetallen voor klasse 624 Civiele en bouwkundige techniek','624.01/.07','Speciale hulpgetallen voor klasse 624 Civiele en bouwkundige techniek','','','',false,true);
+d.add(152,151,'624.01','<div class="nodetag">624.01</div></span>&nbsp;&nbsp;Bouwwijzen en constructiedelen naar materiaal en constructiemethode','624.01','Bouwwijzen en constructiedelen naar materiaal en constructiemethode','','','',false,true);
+d.add(153,151,'624.03','<div class="nodetag">624.03</div></span>&nbsp;&nbsp;Afmeting, duurzaamheid, ligging en vorm van bouwconstructies','624.03','Afmeting, duurzaamheid, ligging en vorm van bouwconstructies','','','',false,true);
+d.add(154,151,'624.04','<div class="nodetag">624.04</div></span>&nbsp;&nbsp;Bouwkundig ontwerp. Grafische en analytische statica voor onderzoek en berekening van bouwconstructies','624.04','Bouwkundig ontwerp. Grafische en analytische statica voor onderzoek en berekening van bouwconstructies','','','',false,true);
+d.add(155,151,'624.05','<div class="nodetag">624.05</div></span>&nbsp;&nbsp;Bouwplaats, organisatie en machinerie. Constructiemethoden','624.05','Bouwplaats, organisatie en machinerie. Constructiemethoden','','','',false,true);
+d.add(156,151,'624.07','<div class="nodetag">624.07</div></span>&nbsp;&nbsp;Constructie-elementen. Dragende elementen','624.07','Constructie-elementen. Dragende elementen','','','',false,true);
+d.add(157,150,'624.1','<div class="nodetag">624.1</div></span>&nbsp;&nbsp;Onderbouw. Grondwerk. Funderingen. Tunnelbouw','624.1','Onderbouw. Grondwerk. Funderingen. Tunnelbouw','','','',false,true);
+d.add(158,150,'624.21/.8','<div class="nodetag">624.21/.8</div></span>&nbsp;&nbsp;Brugconstructie','624.21/.8','Brugconstructie','','','',false,true);
+d.add(159,158,'624.3','<div class="nodetag">624.3</div></span>&nbsp;&nbsp;Vakwerkbruggen. Balkbruggen (traliebruggen, lattenbruggen)','624.3','Vakwerkbruggen. Balkbruggen (traliebruggen, lattenbruggen)','','','',false,true);
+d.add(160,158,'624.5','<div class="nodetag">624.5</div></span>&nbsp;&nbsp;Kabelbruggen. Hangbruggen. Kettingbruggen','624.5','Kabelbruggen. Hangbruggen. Kettingbruggen','','','',false,true);
+d.add(161,158,'624.6','<div class="nodetag">624.6</div></span>&nbsp;&nbsp;Boogbruggen','624.6','Boogbruggen','','','',false,true);
+d.add(162,158,'624.8','<div class="nodetag">624.8</div></span>&nbsp;&nbsp;Beweegbare bruggen','624.8','Beweegbare bruggen','','','',false,true);
+d.add(163,150,'624.9','<div class="nodetag">624.9</div></span>&nbsp;&nbsp;Bovenbouw (uitgezonderd bruggen). Bovenbouw als geheel','624.9','Bovenbouw (uitgezonderd bruggen). Bovenbouw als geheel','','','',false,true);
+d.add(164,96,'625','<div class="nodetag">625</div></span>&nbsp;&nbsp;Civiele techniek van transport over land. Spoorwegtechniek. Wegenbouw','625','Civiele techniek van transport over land. Spoorwegtechniek. Wegenbouw','','','',false,true);
+d.add(165,164,'625.1/.5','<div class="nodetag">625.1/.5</div></span>&nbsp;&nbsp;Spoorwegen. Tramwegen. Kabelbanen','625.1/.5','Spoorwegen. Tramwegen. Kabelbanen','','','',false,true);
+d.add(166,165,'625.1','<div class="nodetag">625.1</div></span>&nbsp;&nbsp;Spoorwegen in het algemeen. Baanbed. Baanbouw','625.1','Spoorwegen in het algemeen. Baanbed. Baanbouw','','','',false,true);
+d.add(167,165,'625.5','<div class="nodetag">625.5</div></span>&nbsp;&nbsp;Funiculaires, kabelspoorwegen. Luchtspoor. Hangspoor, zweefbaan. Luchtkabelbanen en bovengrondse kabelbanen','625.5','Funiculaires, kabelspoorwegen. Luchtspoor. Hangspoor, zweefbaan. Luchtkabelbanen en bovengrondse kabelbanen','','','',false,true);
+d.add(168,164,'625.7/.8','<div class="nodetag">625.7/.8</div></span>&nbsp;&nbsp;Wegtechniek','625.7/.8','Wegtechniek','','','',false,true);
+d.add(169,168,'625.7','<div class="nodetag">625.7</div></span>&nbsp;&nbsp;Straatwegen in het algemeen. Wegen. Rijwegen. Straten. Landelijke en stedelijk wegennet','625.7','Straatwegen in het algemeen. Wegen. Rijwegen. Straten. Landelijke en stedelijk wegennet','','','',false,true);
+d.add(170,168,'625.8','<div class="nodetag">625.8</div></span>&nbsp;&nbsp;Slijtvaste verharding van hoofdverkeerswegen, verhardingslaag of dragende laag. Voorbereiding en gebruik van de materialen','625.8','Slijtvaste verharding van hoofdverkeerswegen, verhardingslaag of dragende laag. Voorbereiding en gebruik van de materialen','','','',false,true);
+d.add(171,96,'626/627','<div class="nodetag">626/627</div></span>&nbsp;&nbsp;Waterbouwkunde en constructie. Water- (aquatische) bouwwerken','626/627','Waterbouwkunde en constructie. Water- (aquatische) bouwwerken','','','',false,true);
+d.add(172,171,'626','<div class="nodetag">626</div></span>&nbsp;&nbsp;Natte waterbouw in het algemeen','626','Natte waterbouw in het algemeen','','','',false,true);
+d.add(173,172,'626.1','<div class="nodetag">626.1</div></span>&nbsp;&nbsp;Bevaarbare binnenwateren. Kanalen. Gekanaliseerde rivieren','626.1','Bevaarbare binnenwateren. Kanalen. Gekanaliseerde rivieren','','','',false,true);
+d.add(174,172,'626.4','<div class="nodetag">626.4</div></span>&nbsp;&nbsp;Sluizen.','626.4','Sluizen.','','','',false,true);
+d.add(175,172,'626.5','<div class="nodetag">626.5</div></span>&nbsp;&nbsp;Heftoestellen en hellende vlakken voor schepen','626.5','Heftoestellen en hellende vlakken voor schepen','','','',false,true);
+d.add(176,172,'626.8','<div class="nodetag">626.8</div></span>&nbsp;&nbsp;Landbouwhydraulica. Irrigatie, drainage- en ontginningstechnieken','626.8','Landbouwhydraulica. Irrigatie, drainage- en ontginningstechnieken','','','',false,true);
+d.add(177,172,'626.9','<div class="nodetag">626.9</div></span>&nbsp;&nbsp;Zeevaartkanalen. Scheepvaartkanalen, in het bijzonder voor zeeschepen en kustvaarders','626.9','Zeevaartkanalen. Scheepvaartkanalen, in het bijzonder voor zeeschepen en kustvaarders','','','',false,true);
+d.add(178,171,'627','<div class="nodetag">627</div></span>&nbsp;&nbsp;Technologie van natuurlijke waterwegen, havens, zeehavens en kusten. Faciliteiten betreffende navigatie, baggeren, berging en redding. Waterkeringen en waterkrachtinstallaties','627','Technologie van natuurlijke waterwegen, havens, zeehavens en kusten. Faciliteiten betreffende navigatie, baggeren, berging en redding. Waterkeringen en waterkrachtinstallaties','','','',false,true);
+d.add(179,178,'627.2','<div class="nodetag">627.2</div></span>&nbsp;&nbsp;Havens, zeehavens en ankerplaatsen: ingenieurs- en constructiewerken in het algemeen','627.2','Havens, zeehavens en ankerplaatsen: ingenieurs- en constructiewerken in het algemeen','','','',false,true);
+d.add(180,178,'627.3','<div class="nodetag">627.3</div></span>&nbsp;&nbsp;Havenfaciliteiten. Dokken. Werven. Kaden. Installaties en uitrusting','627.3','Havenfaciliteiten. Dokken. Werven. Kaden. Installaties en uitrusting','','','',false,true);
+d.add(181,178,'627.4','<div class="nodetag">627.4</div></span>&nbsp;&nbsp;Oeverbescherming van de rivier. Het rechttrekken van rivieren en stromen. Overige werken voor de verbetering van de rivier','627.4','Oeverbescherming van de rivier. Het rechttrekken van rivieren en stromen. Overige werken voor de verbetering van de rivier','','','',false,true);
+d.add(182,178,'627.5','<div class="nodetag">627.5</div></span>&nbsp;&nbsp;Andere werken voor de bescherming en verbetering van waterwegen. Dijken. Drooglegging en terugwinning van land','627.5','Andere werken voor de bescherming en verbetering van waterwegen. Dijken. Drooglegging en terugwinning van land','','','',false,true);
+d.add(183,178,'627.7','<div class="nodetag">627.7</div></span>&nbsp;&nbsp;Navigatievoorzieningen. Onderhoud van de vaargeul. Bergings- en reddingsvoorzieningen ten behoeve van de zeevaart','627.7','Navigatievoorzieningen. Onderhoud van de vaargeul. Bergings- en reddingsvoorzieningen ten behoeve van de zeevaart','','','',false,true);
+d.add(184,178,'627.8','<div class="nodetag">627.8</div></span>&nbsp;&nbsp;Waterkeringen. Waterkrachtwerken','627.8','Waterkeringen. Waterkrachtwerken','','','',false,true);
+d.add(185,96,'628','<div class="nodetag">628</div></span>&nbsp;&nbsp;Volksgezondheidstechniek. Water. Bevordering van de volksgezondheid. Verlichtingstechniek','628','Volksgezondheidstechniek. Water. Bevordering van de volksgezondheid. Verlichtingstechniek','','','',false,true);
+d.add(186,185,'628.1','<div class="nodetag">628.1</div></span>&nbsp;&nbsp;Watervoorziening. Waterzuivering. Waterverbruik','628.1','Watervoorziening. Waterzuivering. Waterverbruik','','','',false,true);
+d.add(187,185,'628.2','<div class="nodetag">628.2</div></span>&nbsp;&nbsp;Stedelijke waterverwijdering. Afwatering in steden. Riolering','628.2','Stedelijke waterverwijdering. Afwatering in steden. Riolering','','','',false,true);
+d.add(188,185,'628.3','<div class="nodetag">628.3</div></span>&nbsp;&nbsp;Afvalwater. Behandeling, verwijdering en gebruik van afvalwater','628.3','Afvalwater. Behandeling, verwijdering en gebruik van afvalwater','','','',false,true);
+d.add(189,185,'628.4','<div class="nodetag">628.4</div></span>&nbsp;&nbsp;Stadshygiëne. Afvalproducten. Vuilnis. Afval. Huisvuil. Verzamelen en afvoeren van stadsafvalproducten','628.4','Stadshygiëne. Afvalproducten. Vuilnis. Afval. Huisvuil. Verzamelen en afvoeren van stadsafvalproducten','','','',false,true);
+d.add(190,185,'628.5','<div class="nodetag">628.5</div></span>&nbsp;&nbsp;Maatregelen tegen industriële en andere vormen van hinder en overlast','628.5','Maatregelen tegen industriële en andere vormen van hinder en overlast','','','',false,true);
+d.add(191,185,'628.6','<div class="nodetag">628.6</div></span>&nbsp;&nbsp;Installaties voor de waterafvoer en sanitaire installaties van gebouwen (in het bijzonder volksgezondheidseisen)','628.6','Installaties voor de waterafvoer en sanitaire installaties van gebouwen (in het bijzonder volksgezondheidseisen)','','','',false,true);
+d.add(192,185,'628.8','<div class="nodetag">628.8</div></span>&nbsp;&nbsp;Binnenklimaat. Klimaatregeling. Verwarming. Ventilatie','628.8','Binnenklimaat. Klimaatregeling. Verwarming. Ventilatie','','','',false,true);
+d.add(193,185,'628.9','<div class="nodetag">628.9</div></span>&nbsp;&nbsp;Verlichting. Verlichtingstechniek','628.9','Verlichting. Verlichtingstechniek','','','',false,true);
+d.add(194,96,'629','<div class="nodetag">629</div></span>&nbsp;&nbsp;Techniek van transportmiddelen','629','Techniek van transportmiddelen','','','',false,true);
+d.add(195,194,'629.01/.08','<div class="nodetag">629.01/.08</div></span>&nbsp;&nbsp;Bijzondere hulpgetallen voor transportmiddelentechnologie','629.01/.08','Bijzondere hulpgetallen voor transportmiddelentechnologie','','','',false,true);
+d.add(196,195,'629.01','<div class="nodetag">629.01</div></span>&nbsp;&nbsp;Uitgangspunten van het ontwerp van het transportmiddel: kenmerken, capaciteiten en testmethoden','629.01','Uitgangspunten van het ontwerp van het transportmiddel: kenmerken, capaciteiten en testmethoden','','','',false,true);
+d.add(197,195,'629.02','<div class="nodetag">629.02</div></span>&nbsp;&nbsp;Wijze van constructie van het transportmiddel, uitgangspunten van de constructie, algemeen ontwerp en onderdelen','629.02','Wijze van constructie van het transportmiddel, uitgangspunten van de constructie, algemeen ontwerp en onderdelen','','','',false,true);
+d.add(198,195,'629.03','<div class="nodetag">629.03</div></span>&nbsp;&nbsp;Voortstuwingssystemen','629.03','Voortstuwingssystemen','','','',false,true);
+d.add(199,195,'629.04','<div class="nodetag">629.04</div></span>&nbsp;&nbsp;Inwendige vormgeving: onderbrenging, montage, uitrusting voor personen en vracht','629.04','Inwendige vormgeving: onderbrenging, montage, uitrusting voor personen en vracht','','','',false,true);
+d.add(200,195,'629.05','<div class="nodetag">629.05</div></span>&nbsp;&nbsp;Geleidingssystemen en geleidingsinstrumenten. Systemen en instrumenten voor het inwerkingstellen van de besturing en de navigatie (deel van het transportmiddel)','629.05','Geleidingssystemen en geleidingsinstrumenten. Systemen en instrumenten voor het inwerkingstellen van de besturing en de navigatie (deel van het transportmiddel)','','','',false,true);
+d.add(201,195,'629.06','<div class="nodetag">629.06</div></span>&nbsp;&nbsp;Hulpsystemen en -inrichtingen van het transportmiddel','629.06','Hulpsystemen en -inrichtingen van het transportmiddel','','','',false,true);
+d.add(202,195,'629.07','<div class="nodetag">629.07</div></span>&nbsp;&nbsp;Technische aspecten van voertuighandelingen. Operationele technieken','629.07','Technische aspecten van voertuighandelingen. Operationele technieken','','','',false,true);
+d.add(203,195,'629.08','<div class="nodetag">629.08</div></span>&nbsp;&nbsp;Basisuitrusting, installaties en overeenkomstige technische procedures','629.08','Basisuitrusting, installaties en overeenkomstige technische procedures','','','',false,true);
+d.add(204,194,'629.3','<div class="nodetag">629.3</div></span>&nbsp;&nbsp;Techniek van het transportmiddel op het land (met uitzondering van railvoertuigen)','629.3','Techniek van het transportmiddel op het land (met uitzondering van railvoertuigen)','','','',false,true);
+d.add(205,194,'629.4','<div class="nodetag">629.4</div></span>&nbsp;&nbsp;Spoorwegvoertuigtechniek. Locomotieven. Rollend materieel. Spoorwegemplacementen. Installaties en diensten ten behoeve van het rollend materieel','629.4','Spoorwegvoertuigtechniek. Locomotieven. Rollend materieel. Spoorwegemplacementen. Installaties en diensten ten behoeve van het rollend materieel','','','',false,true);
+d.add(206,194,'629.5','<div class="nodetag">629.5</div></span>&nbsp;&nbsp;Watervaartuigtechniek. Scheepsbouwkunde. Boten. Schepen. Botenbouw en scheepsbouw','629.5','Watervaartuigtechniek. Scheepsbouwkunde. Boten. Schepen. Botenbouw en scheepsbouw','','','',false,true);
+d.add(207,194,'629.7','<div class="nodetag">629.7</div></span>&nbsp;&nbsp;Lucht- en ruimtetransporttechniek. Aëronautica en luchtvaart. Raketten en projectielen. Astronautica en ruimtevaart','629.7','Lucht- en ruimtetransporttechniek. Aëronautica en luchtvaart. Raketten en projectielen. Astronautica en ruimtevaart','','','',false,true);
+d.add(208,0,'63','<div class="nodetag">63</div></span>&nbsp;&nbsp;Landbouw, veeteelt en verwante wetenschappen en technieken. Bosbouw. Landbouw. Exploitatie van dieren in het wild.','63','Landbouw, veeteelt en verwante wetenschappen en technieken. Bosbouw. Landbouw. Exploitatie van dieren in het wild.','','','',false,true);
+d.add(209,208,'630','<div class="nodetag">630</div></span>&nbsp;&nbsp;Bosbouw. Bosbouwkunde','630','Bosbouw. Bosbouwkunde','','','',false,true);
+d.add(210,209,'630*0','<div class="nodetag">630*0</div></span>&nbsp;&nbsp;Bossen, bosbouw en het gebruik van bosproducten','630*0','Bossen, bosbouw en het gebruik van bosproducten','','','',false,true);
+d.add(211,209,'630*1','<div class="nodetag">630*1</div></span>&nbsp;&nbsp;Omgevingsfactoren in de bosbouw. Biologie van het bos','630*1','Omgevingsfactoren in de bosbouw. Biologie van het bos','','','',false,true);
+d.add(212,209,'630*2','<div class="nodetag">630*2</div></span>&nbsp;&nbsp;Bosbouw','630*2','Bosbouw','','','',false,true);
+d.add(213,209,'630*3','<div class="nodetag">630*3</div></span>&nbsp;&nbsp;Arbeidsonderzoek in de bosbouw. Oogsten van hout: kappen en transport. Bosbouwingeneurschap','630*3','Arbeidsonderzoek in de bosbouw. Oogsten van hout: kappen en transport. Bosbouwingeneurschap','','','',false,true);
+d.add(214,209,'630*4','<div class="nodetag">630*4</div></span>&nbsp;&nbsp;Beschadigingen aan bossen, bescherming van bossen','630*4','Beschadigingen aan bossen, bescherming van bossen','','','',false,true);
+d.add(215,209,'630*5','<div class="nodetag">630*5</div></span>&nbsp;&nbsp;Opmeten en karteren van bossen. Groei, toename, ontwikkeling en structuur van opstanden','630*5','Opmeten en karteren van bossen. Groei, toename, ontwikkeling en structuur van opstanden','','','',false,true);
+d.add(216,209,'630*6','<div class="nodetag">630*6</div></span>&nbsp;&nbsp;Bosmanagement. Bedrijfseconomische aspecten van bosbouw. Beheer en organisatie van bosbouwondernemingen. Bedrijfskunde en bosbouw. Bosbeheer','630*6','Bosmanagement. Bedrijfseconomische aspecten van bosbouw. Beheer en organisatie van bosbouwondernemingen. Bedrijfskunde en bosbouw. Bosbeheer','','','',false,true);
+d.add(217,209,'630*7','<div class="nodetag">630*7</div></span>&nbsp;&nbsp;Marketing van bosproducten. Economie van houttransport en houtindustrie','630*7','Marketing van bosproducten. Economie van houttransport en houtindustrie','','','',false,true);
+d.add(218,209,'630*8','<div class="nodetag">630*8</div></span>&nbsp;&nbsp;Bosbouwproducten en het gebruik ervan','630*8','Bosbouwproducten en het gebruik ervan','','','',false,true);
+d.add(219,209,'630*9','<div class="nodetag">630*9</div></span>&nbsp;&nbsp;Bossen en bosbouw vanuit nationaal gezichtspunt. Sociaal-economische aspecten van bosbouw','630*9','Bossen en bosbouw vanuit nationaal gezichtspunt. Sociaal-economische aspecten van bosbouw','','','',false,true);
+d.add(220,208,'631/635','<div class="nodetag">631/635</div></span>&nbsp;&nbsp;Beheer van landbouwbedrijven. Agronomie. Tuinbouw','631/635','Beheer van landbouwbedrijven. Agronomie. Tuinbouw','','','',false,true);
+d.add(221,220,'631','<div class="nodetag">631</div></span>&nbsp;&nbsp;Landbouw in het algemeen','631','Landbouw in het algemeen','','','',false,true);
+d.add(222,221,'631.1','<div class="nodetag">631.1</div></span>&nbsp;&nbsp;Management en organisatie van landbouwbedrijven','631.1','Management en organisatie van landbouwbedrijven','','','',false,true);
+d.add(223,221,'631.2','<div class="nodetag">631.2</div></span>&nbsp;&nbsp;Agrarische gebouwen, constructies en installaties. Gebouwen voor het vee, oogsten, machines en uitrusting','631.2','Agrarische gebouwen, constructies en installaties. Gebouwen voor het vee, oogsten, machines en uitrusting','','','',false,true);
+d.add(224,221,'631.3','<div class="nodetag">631.3</div></span>&nbsp;&nbsp;Landbouwmachines, werktuigen en gereedschappen','631.3','Landbouwmachines, werktuigen en gereedschappen','','','',false,true);
+d.add(225,221,'631.4','<div class="nodetag">631.4</div></span>&nbsp;&nbsp;Bodemkunde. Aardkunde. Bodemonderzoek','631.4','Bodemkunde. Aardkunde. Bodemonderzoek','','','',false,true);
+d.add(226,221,'631.5','<div class="nodetag">631.5</div></span>&nbsp;&nbsp;Werkzaamheden in de landbouw','631.5','Werkzaamheden in de landbouw','','','',false,true);
+d.add(227,221,'631.6','<div class="nodetag">631.6</div></span>&nbsp;&nbsp;Cultuurtechniek','631.6','Cultuurtechniek','','','',false,true);
+d.add(228,221,'631.8','<div class="nodetag">631.8</div></span>&nbsp;&nbsp;Kunstmest, natuurlijke meststoffen en bodemverrijking. Bevordering van de groei. Groeistoffen','631.8','Kunstmest, natuurlijke meststoffen en bodemverrijking. Bevordering van de groei. Groeistoffen','','','',false,true);
+d.add(229,220,'632','<div class="nodetag">632</div></span>&nbsp;&nbsp;Beschadigingen van planten. Plantenziekten. Plagen en organismen schadelijk voor planten. Bescherming van planten tegen ziekten en plagen','632','Beschadigingen van planten. Plantenziekten. Plagen en organismen schadelijk voor planten. Bescherming van planten tegen ziekten en plagen','','','',false,true);
+d.add(230,220,'633/635','<div class="nodetag">633/635</div></span>&nbsp;&nbsp;Horticultuur, tuinbouw in het algemeen','633/635','Horticultuur, tuinbouw in het algemeen','','','',false,true);
+d.add(231,230,'633','<div class="nodetag">633</div></span>&nbsp;&nbsp;Veldgewassen en de productie ervan','633','Veldgewassen en de productie ervan','','','',false,true);
+d.add(232,231,'633.1','<div class="nodetag">633.1</div></span>&nbsp;&nbsp;Granen. Graanoogsten','633.1','Granen. Graanoogsten','','','',false,true);
+d.add(233,231,'633.2','<div class="nodetag">633.2</div></span>&nbsp;&nbsp;Voedergrassen. Weidegrassen','633.2','Voedergrassen. Weidegrassen','','','',false,true);
+d.add(234,231,'633.3','<div class="nodetag">633.3</div></span>&nbsp;&nbsp;Voedergewassen (andere dan grassen)','633.3','Voedergewassen (andere dan grassen)','','','',false,true);
+d.add(235,231,'633.4','<div class="nodetag">633.4</div></span>&nbsp;&nbsp;Eetbare wortels en knollen. Wortelgewassen (als veldgewassen)','633.4','Eetbare wortels en knollen. Wortelgewassen (als veldgewassen)','','','',false,true);
+d.add(236,231,'633.5','<div class="nodetag">633.5</div></span>&nbsp;&nbsp;Textiel- en vezelgewassen (als veldgewassen)','633.5','Textiel- en vezelgewassen (als veldgewassen)','','','',false,true);
+d.add(237,231,'633.6','<div class="nodetag">633.6</div></span>&nbsp;&nbsp;Suiker- en zetmeelgewassen (als veldgewassen)','633.6','Suiker- en zetmeelgewassen (als veldgewassen)','','','',false,true);
+d.add(238,231,'633.7','<div class="nodetag">633.7</div></span>&nbsp;&nbsp;Planten die opwekkende middelen of ingrediënten voor dranken voortbrengen','633.7','Planten die opwekkende middelen of ingrediënten voor dranken voortbrengen','','','',false,true);
+d.add(239,231,'633.8','<div class="nodetag">633.8</div></span>&nbsp;&nbsp;Aromatische planten. Kruidenplanten. Olieproducerende planten. Pigmentleverende planten. Looistoffen leverende planten. Medicinale planten','633.8','Aromatische planten. Kruidenplanten. Olieproducerende planten. Pigmentleverende planten. Looistoffen leverende planten. Medicinale planten','','','',false,true);
+d.add(240,231,'633.9','<div class="nodetag">633.9</div></span>&nbsp;&nbsp;Overige planten met industriële toepassingen','633.9','Overige planten met industriële toepassingen','','','',false,true);
+d.add(241,230,'634','<div class="nodetag">634</div></span>&nbsp;&nbsp;Fruitteelt','634','Fruitteelt','','','',false,true);
+d.add(242,241,'634.2','<div class="nodetag">634.2</div></span>&nbsp;&nbsp;Steenvruchten in het algemeen','634.2','Steenvruchten in het algemeen','','','',false,true);
+d.add(243,241,'634.3','<div class="nodetag">634.3</div></span>&nbsp;&nbsp;Vruchten van Rutaceae en Moraceae. Citrusvruchten in het algemeen','634.3','Vruchten van Rutaceae en Moraceae. Citrusvruchten in het algemeen','','','',false,true);
+d.add(244,241,'634.4','<div class="nodetag">634.4</div></span>&nbsp;&nbsp;Overige vlezige vruchten','634.4','Overige vlezige vruchten','','','',false,true);
+d.add(245,241,'634.5','<div class="nodetag">634.5</div></span>&nbsp;&nbsp;Noten','634.5','Noten','','','',false,true);
+d.add(246,241,'634.6','<div class="nodetag">634.6</div></span>&nbsp;&nbsp;Verschillende tropische en subtropische vruchten','634.6','Verschillende tropische en subtropische vruchten','','','',false,true);
+d.add(247,241,'634.7','<div class="nodetag">634.7</div></span>&nbsp;&nbsp;Kleinfruit van struiken en kruidachtige planten. Bessen','634.7','Kleinfruit van struiken en kruidachtige planten. Bessen','','','',false,true);
+d.add(248,241,'634.8','<div class="nodetag">634.8</div></span>&nbsp;&nbsp;Wijnbouw. Wijndruiven. Wijngaarden','634.8','Wijnbouw. Wijndruiven. Wijngaarden','','','',false,true);
+d.add(249,230,'635','<div class="nodetag">635</div></span>&nbsp;&nbsp;Tuinplanten. Tuinieren','635','Tuinplanten. Tuinieren','','','',false,true);
+d.add(250,249,'635.1/.8','<div class="nodetag">635.1/.8</div></span>&nbsp;&nbsp;Groenten. Moestuinen','635.1/.8','Groenten. Moestuinen','','','',false,true);
+d.add(251,250,'635.1','<div class="nodetag">635.1</div></span>&nbsp;&nbsp;Eetbare wortels. Eetbare wortels (als tuinbouwproduct)','635.1','Eetbare wortels. Eetbare wortels (als tuinbouwproduct)','','','',false,true);
+d.add(252,250,'635.2','<div class="nodetag">635.2</div></span>&nbsp;&nbsp;Eetbare knollen en bollen (als tuinbouwproduct)','635.2','Eetbare knollen en bollen (als tuinbouwproduct)','','','',false,true);
+d.add(253,250,'635.3','<div class="nodetag">635.3</div></span>&nbsp;&nbsp;Planten met eetbare stengels, bladeren of bloemen (als tuinbouwproduct)','635.3','Planten met eetbare stengels, bladeren of bloemen (als tuinbouwproduct)','','','',false,true);
+d.add(254,250,'635.4','<div class="nodetag">635.4</div></span>&nbsp;&nbsp;Andere groene groenten. Bladgroenten (als tuinbouwproduct)','635.4','Andere groene groenten. Bladgroenten (als tuinbouwproduct)','','','',false,true);
+d.add(255,250,'635.6','<div class="nodetag">635.6</div></span>&nbsp;&nbsp;Eetbare vruchten en zaden. Peulvruchten (als tuinbouwproduct)','635.6','Eetbare vruchten en zaden. Peulvruchten (als tuinbouwproduct)','','','',false,true);
+d.add(256,250,'635.7','<div class="nodetag">635.7</div></span>&nbsp;&nbsp;Aromatische kruiden. Specerijplanten (als tuinbouwproduct)','635.7','Aromatische kruiden. Specerijplanten (als tuinbouwproduct)','','','',false,true);
+d.add(257,250,'635.8','<div class="nodetag">635.8</div></span>&nbsp;&nbsp;Eetbare paddestoelen (als tuinbouwproduct)','635.8','Eetbare paddestoelen (als tuinbouwproduct)','','','',false,true);
+d.add(258,249,'635.9','<div class="nodetag">635.9</div></span>&nbsp;&nbsp;Sierplanten. Tuinsierkunst','635.9','Sierplanten. Tuinsierkunst','','','',false,true);
+d.add(259,208,'636','<div class="nodetag">636</div></span>&nbsp;&nbsp;Veeteelt in het algemeen. Veefokkerij. Fokken van huisdieren','636','Veeteelt in het algemeen. Veefokkerij. Fokken van huisdieren','','','',false,true);
+d.add(260,259,'636.01/.09','<div class="nodetag">636.01/.09</div></span>&nbsp;&nbsp;Bijzondere hulpgetallen voor veeteelt','636.01/.09','Bijzondere hulpgetallen voor veeteelt','','','',false,true);
+d.add(261,260,'636.01','<div class="nodetag">636.01</div></span>&nbsp;&nbsp;Herkomst, ontwikkeling en domesticering van door mensen gehouden dieren. Biologische grondslagen voor fokken en trainen','636.01','Herkomst, ontwikkeling en domesticering van door mensen gehouden dieren. Biologische grondslagen voor fokken en trainen','','','',false,true);
+d.add(262,260,'636.02','<div class="nodetag">636.02</div></span>&nbsp;&nbsp;Dieren gehouden voor fokken, tentoonstellen en wetenschap','636.02','Dieren gehouden voor fokken, tentoonstellen en wetenschap','','','',false,true);
+d.add(263,260,'636.03','<div class="nodetag">636.03</div></span>&nbsp;&nbsp;Dieren gefokt of gehouden voor voedsel of andere producten (productiviteit, opbrengst). Boerderijdieren in het algemeen','636.03','Dieren gefokt of gehouden voor voedsel of andere producten (productiviteit, opbrengst). Boerderijdieren in het algemeen','','','',false,true);
+d.add(264,260,'636.04','<div class="nodetag">636.04</div></span>&nbsp;&nbsp;Dieren gefokt of gehouden voor diensten aan of het plezier van mensen','636.04','Dieren gefokt of gehouden voor diensten aan of het plezier van mensen','','','',false,true);
+d.add(265,260,'636.05','<div class="nodetag">636.05</div></span>&nbsp;&nbsp;Dieren naar de wijze van fokken','636.05','Dieren naar de wijze van fokken','','','',false,true);
+d.add(266,260,'636.06','<div class="nodetag">636.06</div></span>&nbsp;&nbsp;Kenmerken, constitutie en bijzondere biologische kenmerken van huisdieren','636.06','Kenmerken, constitutie en bijzondere biologische kenmerken van huisdieren','','','',false,true);
+d.add(267,260,'636.08','<div class="nodetag">636.08</div></span>&nbsp;&nbsp;Fokken en grootbrengen (opfokken)','636.08','Fokken en grootbrengen (opfokken)','','','',false,true);
+d.add(268,260,'636.09','<div class="nodetag">636.09</div></span>&nbsp;&nbsp;Diergeneeskunde','636.09','Diergeneeskunde','','','',false,true);
+d.add(269,259,'636.1','<div class="nodetag">636.1</div></span>&nbsp;&nbsp;Eenhoevige huisdieren. Paarden','636.1','Eenhoevige huisdieren. Paarden','','','',false,true);
+d.add(270,259,'636.2','<div class="nodetag">636.2</div></span>&nbsp;&nbsp;Grote herkauwers. Rundvee, ossen','636.2','Grote herkauwers. Rundvee, ossen','','','',false,true);
+d.add(271,259,'636.3','<div class="nodetag">636.3</div></span>&nbsp;&nbsp;Kleine herkauwers','636.3','Kleine herkauwers','','','',false,true);
+d.add(272,259,'636.4','<div class="nodetag">636.4</div></span>&nbsp;&nbsp;Varkens. Zwijnen','636.4','Varkens. Zwijnen','','','',false,true);
+d.add(273,259,'636.5','<div class="nodetag">636.5</div></span>&nbsp;&nbsp;Pluimvee','636.5','Pluimvee','','','',false,true);
+d.add(274,259,'636.6','<div class="nodetag">636.6</div></span>&nbsp;&nbsp;Vogels (behalve pluimvee en jachtvogels) gefokt of gehouden door mensen','636.6','Vogels (behalve pluimvee en jachtvogels) gefokt of gehouden door mensen','','','',false,true);
+d.add(275,259,'636.7','<div class="nodetag">636.7</div></span>&nbsp;&nbsp;Honden','636.7','Honden','','','',false,true);
+d.add(276,259,'636.8','<div class="nodetag">636.8</div></span>&nbsp;&nbsp;Katten','636.8','Katten','','','',false,true);
+d.add(277,259,'636.9','<div class="nodetag">636.9</div></span>&nbsp;&nbsp;Andere dieren gehouden door mensen','636.9','Andere dieren gehouden door mensen','','','',false,true);
+d.add(278,208,'637','<div class="nodetag">637</div></span>&nbsp;&nbsp;Producten van huisdieren (boerderijdieren) en dieren voorop gejaagd wordt','637','Producten van huisdieren (boerderijdieren) en dieren voorop gejaagd wordt','','','',false,true);
+d.add(279,208,'638','<div class="nodetag">638</div></span>&nbsp;&nbsp;Het houden, telen en verzorgen van instecten en andere geleedpotigen','638','Het houden, telen en verzorgen van instecten en andere geleedpotigen','','','',false,true);
+d.add(280,208,'639','<div class="nodetag">639</div></span>&nbsp;&nbsp;Jacht. Visserij. Visteelt','639','Jacht. Visserij. Visteelt','','','',false,true);
+d.add(281,280,'639.1','<div class="nodetag">639.1</div></span>&nbsp;&nbsp;Jacht','639.1','Jacht','','','',false,true);
+d.add(282,280,'639.2','<div class="nodetag">639.2</div></span>&nbsp;&nbsp;Visserij','639.2','Visserij','','','',false,true);
+d.add(283,280,'639.3','<div class="nodetag">639.3</div></span>&nbsp;&nbsp;Visteelt. Piscicultuur','639.3','Visteelt. Piscicultuur','','','',false,true);
+d.add(284,280,'639.4','<div class="nodetag">639.4</div></span>&nbsp;&nbsp;Teelt van weekdieren (schelpdieren)','639.4','Teelt van weekdieren (schelpdieren)','','','',false,true);
+d.add(285,280,'639.5','<div class="nodetag">639.5</div></span>&nbsp;&nbsp;Teelt van kreeftachtigen, zee-egels, bloedzuigers enz.','639.5','Teelt van kreeftachtigen, zee-egels, bloedzuigers enz.','','','',false,true);
+d.add(286,280,'639.6','<div class="nodetag">639.6</div></span>&nbsp;&nbsp;Overige zeeproducten','639.6','Overige zeeproducten','','','',false,true);
+d.add(287,0,'64','<div class="nodetag">64</div></span>&nbsp;&nbsp;Huishoudkunde. Huishouden','64','Huishoudkunde. Huishouden','','','',false,true);
+d.add(288,287,'64.01/.08','<div class="nodetag">64.01/.08</div></span>&nbsp;&nbsp;Bijzondere hulpgetallen voor huishoudwetenschap','64.01/.08','Bijzondere hulpgetallen voor huishoudwetenschap','','','',false,true);
+d.add(289,288,'64.01','<div class="nodetag">64.01</div></span>&nbsp;&nbsp;Het huishouden. Huishoudmanagement','64.01','Het huishouden. Huishoudmanagement','','','',false,true);
+d.add(290,288,'64.048','<div class="nodetag">64.048</div></span>&nbsp;&nbsp;Onderzoek van werk en werkmethoden in de huishouding','64.048','Onderzoek van werk en werkmethoden in de huishouding','','','',false,true);
+d.add(291,288,'64.05','<div class="nodetag">64.05</div></span>&nbsp;&nbsp;Huishoudkunde. Huishouden, meubilering en uitrusting van een woning enz. voor bepaalde typen personen','64.05','Huishoudkunde. Huishouden, meubilering en uitrusting van een woning enz. voor bepaalde typen personen','','','',false,true);
+d.add(292,288,'64.06','<div class="nodetag">64.06</div></span>&nbsp;&nbsp;Huishoudelijke apparaten en machines. Werkbesparende hulpmiddelen in de huishouding','64.06','Huishoudelijke apparaten en machines. Werkbesparende hulpmiddelen in de huishouding','','','',false,true);
+d.add(293,288,'64.08','<div class="nodetag">64.08</div></span>&nbsp;&nbsp;Verhuizen. Verhuizingen','64.08','Verhuizen. Verhuizingen','','','',false,true);
+d.add(294,287,'640','<div class="nodetag">640</div></span>&nbsp;&nbsp;Typen huishoudingen','640','Typen huishoudingen','','','',false,true);
+d.add(295,287,'641/642','<div class="nodetag">641/642</div></span>&nbsp;&nbsp;Voedsel. Koken. Gerechten. Maaltijden','641/642','Voedsel. Koken. Gerechten. Maaltijden','','','',false,true);
+d.add(296,295,'641','<div class="nodetag">641</div></span>&nbsp;&nbsp;Voedsel. Koken. Gerechten','641','Voedsel. Koken. Gerechten','','','',false,true);
+d.add(297,295,'642','<div class="nodetag">642</div></span>&nbsp;&nbsp;Maaltijden en etenstijden. Tafelgerei','642','Maaltijden en etenstijden. Tafelgerei','','','',false,true);
+d.add(298,287,'643/645','<div class="nodetag">643/645</div></span>&nbsp;&nbsp;Het huis, de woning. Inrichting en meubilering','643/645','Het huis, de woning. Inrichting en meubilering','','','',false,true);
+d.add(299,298,'643','<div class="nodetag">643</div></span>&nbsp;&nbsp;Het huis. De woning','643','Het huis. De woning','','','',false,true);
+d.add(300,298,'644','<div class="nodetag">644</div></span>&nbsp;&nbsp;Installaties voor gezondheid en comfort in woningen','644','Installaties voor gezondheid en comfort in woningen','','','',false,true);
+d.add(301,300,'644.1','<div class="nodetag">644.1</div></span>&nbsp;&nbsp;Beheersing van het binnenklimaat. Verwarming. Airconditioning','644.1','Beheersing van het binnenklimaat. Verwarming. Airconditioning','','','',false,true);
+d.add(302,300,'644.3','<div class="nodetag">644.3</div></span>&nbsp;&nbsp;Verlichting in het huishoudens','644.3','Verlichting in het huishoudens','','','',false,true);
+d.add(303,300,'644.6','<div class="nodetag">644.6</div></span>&nbsp;&nbsp;Watervoorziening en sanitaire inrichtingen in huishoudens','644.6','Watervoorziening en sanitaire inrichtingen in huishoudens','','','',false,true);
+d.add(304,298,'645','<div class="nodetag">645</div></span>&nbsp;&nbsp;Meubilering en stoffering van het huis','645','Meubilering en stoffering van het huis','','','',false,true);
+d.add(305,287,'646/649','<div class="nodetag">646/649</div></span>&nbsp;&nbsp;Persoonlijke benodigheden. Huishoudmanagement. Huishoudkunde','646/649','Persoonlijke benodigheden. Huishoudmanagement. Huishoudkunde','','','',false,true);
+d.add(306,305,'646','<div class="nodetag">646</div></span>&nbsp;&nbsp;Kleding. Lichaamsverzorging','646','Kleding. Lichaamsverzorging','','','',false,true);
+d.add(307,306,'646.2','<div class="nodetag">646.2</div></span>&nbsp;&nbsp;Maken en herstellen van kleding thuis. Thuis kleding naaien','646.2','Maken en herstellen van kleding thuis. Thuis kleding naaien','','','',false,true);
+d.add(308,306,'646.4','<div class="nodetag">646.4</div></span>&nbsp;&nbsp;Kleding. Kledingstukken','646.4','Kleding. Kledingstukken','','','',false,true);
+d.add(309,306,'646.7','<div class="nodetag">646.7</div></span>&nbsp;&nbsp;Lichaamsverzorging. Schoonheidsverzorging. Hulpmiddelen bij het aan- en uitkleden','646.7','Lichaamsverzorging. Schoonheidsverzorging. Hulpmiddelen bij het aan- en uitkleden','','','',false,true);
+d.add(310,305,'648','<div class="nodetag">648</div></span>&nbsp;&nbsp;Wassen. De was. Schoonmaken','648','Wassen. De was. Schoonmaken','','','',false,true);
+d.add(311,305,'649','<div class="nodetag">649</div></span>&nbsp;&nbsp;Verzorging van kinderen, gehandicapten en gasten thuis','649','Verzorging van kinderen, gehandicapten en gasten thuis','','','',false,true);
+d.add(312,0,'65','<div class="nodetag">65</div></span>&nbsp;&nbsp;Communicatie en transport. Accountancy. Bedrijfskunde. Public relations','65','Communicatie en transport. Accountancy. Bedrijfskunde. Public relations','','','',false,true);
+d.add(313,312,'654','<div class="nodetag">654</div></span>&nbsp;&nbsp;Telecommunicatie en telecontrole (organisatie, diensten)','654','Telecommunicatie en telecontrole (organisatie, diensten)','','','',false,true);
+d.add(314,313,'654.1','<div class="nodetag">654.1</div></span>&nbsp;&nbsp;Telegrafie. Telefonie. Radio. Televisie','654.1','Telegrafie. Telefonie. Radio. Televisie','','','',false,true);
+d.add(315,313,'654.9','<div class="nodetag">654.9</div></span>&nbsp;&nbsp;Signalering. Verschillende telecommunicatiediensten. Besturing op afstand (telecontrole)','654.9','Signalering. Verschillende telecommunicatiediensten. Besturing op afstand (telecontrole)','','','',false,true);
+d.add(316,312,'655','<div class="nodetag">655</div></span>&nbsp;&nbsp;Grafische industrie. Drukkerij. Uitgeverij. Boekhandel','655','Grafische industrie. Drukkerij. Uitgeverij. Boekhandel','','','',false,true);
+d.add(317,316,'655.1','<div class="nodetag">655.1</div></span>&nbsp;&nbsp;Grafische industrie in het algemeen','655.1','Grafische industrie in het algemeen','','','',false,true);
+d.add(318,316,'655.4','<div class="nodetag">655.4</div></span>&nbsp;&nbsp;Uitgeverij en boekhandel in het algemeen','655.4','Uitgeverij en boekhandel in het algemeen','','','',false,true);
+d.add(319,312,'656','<div class="nodetag">656</div></span>&nbsp;&nbsp;Transport. Post. Verkeersorganisatie en toezicht','656','Transport. Post. Verkeersorganisatie en toezicht','','','',false,true);
+d.add(320,319,'656.1/.5','<div class="nodetag">656.1/.5</div></span>&nbsp;&nbsp;Transport over land','656.1/.5','Transport over land','','','',false,true);
+d.add(321,320,'656.1','<div class="nodetag">656.1</div></span>&nbsp;&nbsp;Wegtransport','656.1','Wegtransport','','','',false,true);
+d.add(322,320,'656.2','<div class="nodetag">656.2</div></span>&nbsp;&nbsp;Spoorwegvervoer. Railverkeer','656.2','Spoorwegvervoer. Railverkeer','','','',false,true);
+d.add(323,320,'656.4','<div class="nodetag">656.4</div></span>&nbsp;&nbsp;Transport met light rail, trams','656.4','Transport met light rail, trams','','','',false,true);
+d.add(324,320,'656.5','<div class="nodetag">656.5</div></span>&nbsp;&nbsp;Transport over land met transportbanden and pijpleidingen','656.5','Transport over land met transportbanden and pijpleidingen','','','',false,true);
+d.add(325,319,'656.6','<div class="nodetag">656.6</div></span>&nbsp;&nbsp;Vervoer, transport over water','656.6','Vervoer, transport over water','','','',false,true);
+d.add(326,319,'656.7','<div class="nodetag">656.7</div></span>&nbsp;&nbsp;Luchtverkeer','656.7','Luchtverkeer','','','',false,true);
+d.add(327,319,'656.8','<div class="nodetag">656.8</div></span>&nbsp;&nbsp;Postdiensten. Posterijen','656.8','Postdiensten. Posterijen','','','',false,true);
+d.add(328,312,'657','<div class="nodetag">657</div></span>&nbsp;&nbsp;Accountancy. Boekhouden','657','Accountancy. Boekhouden','','','',false,true);
+d.add(329,312,'658','<div class="nodetag">658</div></span>&nbsp;&nbsp;Bedrijfskunde, -administratie. Commerciële organisatie','658','Bedrijfskunde, -administratie. Commerciële organisatie','','','',false,true);
+d.add(330,329,'658.1','<div class="nodetag">658.1</div></span>&nbsp;&nbsp;Ondernemingsvormen. Financiën','658.1','Ondernemingsvormen. Financiën','','','',false,true);
+d.add(331,329,'658.2','<div class="nodetag">658.2</div></span>&nbsp;&nbsp;Installaties en fabrieken. Bedrijfsgebouwen en -terreinen. Materialen','658.2','Installaties en fabrieken. Bedrijfsgebouwen en -terreinen. Materialen','','','',false,true);
+d.add(332,329,'658.3','<div class="nodetag">658.3</div></span>&nbsp;&nbsp;Menselijke betrekkingen in de onderneming. Personeelsmanagement','658.3','Menselijke betrekkingen in de onderneming. Personeelsmanagement','','','',false,true);
+d.add(333,329,'658.5','<div class="nodetag">658.5</div></span>&nbsp;&nbsp;Productieontwerp en -planning. Ontwerp. Productiemanagement en -toezicht','658.5','Productieontwerp en -planning. Ontwerp. Productiemanagement en -toezicht','','','',false,true);
+d.add(334,329,'658.6','<div class="nodetag">658.6</div></span>&nbsp;&nbsp;Commerciële organisatie en praktijk. Goederen. Diensten','658.6','Commerciële organisatie en praktijk. Goederen. Diensten','','','',false,true);
+d.add(335,329,'658.7','<div class="nodetag">658.7</div></span>&nbsp;&nbsp;Kopen. Inkopen. Verwerving. Voorraadbeheer','658.7','Kopen. Inkopen. Verwerving. Voorraadbeheer','','','',false,true);
+d.add(336,329,'658.8','<div class="nodetag">658.8</div></span>&nbsp;&nbsp;Marketing. Verkoop, sales. Distributie','658.8','Marketing. Verkoop, sales. Distributie','','','',false,true);
+d.add(337,329,'658.9','<div class="nodetag">658.9</div></span>&nbsp;&nbsp;Overige commerciële activiteiten','658.9','Overige commerciële activiteiten','','','',false,true);
+d.add(338,312,'659','<div class="nodetag">659</div></span>&nbsp;&nbsp;Publiciteit, reclame. Voorlichting. Public relations','659','Publiciteit, reclame. Voorlichting. Public relations','','','',false,true);
+d.add(339,338,'659.1','<div class="nodetag">659.1</div></span>&nbsp;&nbsp;Publiciteit. Adverteren','659.1','Publiciteit. Adverteren','','','',false,true);
+d.add(340,338,'659.2','<div class="nodetag">659.2</div></span>&nbsp;&nbsp;Voorlichting. Adviesdiensten, consultancy','659.2','Voorlichting. Adviesdiensten, consultancy','','','',false,true);
+d.add(341,338,'659.3','<div class="nodetag">659.3</div></span>&nbsp;&nbsp;Massacommunicatie. Informeren, voorlichten van het algemene publiek','659.3','Massacommunicatie. Informeren, voorlichten van het algemene publiek','','','',false,true);
+d.add(342,338,'659.4','<div class="nodetag">659.4</div></span>&nbsp;&nbsp;Public relations (PR)','659.4','Public relations (PR)','','','',false,true);
+d.add(343,0,'66','<div class="nodetag">66</div></span>&nbsp;&nbsp;Chemische technologie. Chemische en verwante industrie','66','Chemische technologie. Chemische en verwante industrie','','','',false,true);
+d.add(344,343,'66.01/.09','<div class="nodetag">66.01/.09</div></span>&nbsp;&nbsp;Bijzondere hulpgetallen voor chemeische technologie','66.01/.09','Bijzondere hulpgetallen voor chemeische technologie','','','',false,true);
+d.add(345,344,'66.01','<div class="nodetag">66.01</div></span>&nbsp;&nbsp;Grondslagen van chemische technologie','66.01','Grondslagen van chemische technologie','','','',false,true);
+d.add(346,344,'66.02','<div class="nodetag">66.02</div></span>&nbsp;&nbsp;Chemische bewerkingshandelingen en uitrusting in het algemeen','66.02','Chemische bewerkingshandelingen en uitrusting in het algemeen','','','',false,true);
+d.add(347,344,'66.03','<div class="nodetag">66.03</div></span>&nbsp;&nbsp;Materialen, kenmerken, processen en uitrusting','66.03','Materialen, kenmerken, processen en uitrusting','','','',false,true);
+d.add(348,344,'66.04','<div class="nodetag">66.04</div></span>&nbsp;&nbsp;Warmtebehandelingen en -uitrusting','66.04','Warmtebehandelingen en -uitrusting','','','',false,true);
+d.add(349,344,'66.06','<div class="nodetag">66.06</div></span>&nbsp;&nbsp;Chemische technologie van vloeistoffen. Processen en uitrusting voor de behandeling van of met vloeistoffen','66.06','Chemische technologie van vloeistoffen. Processen en uitrusting voor de behandeling van of met vloeistoffen','','','',false,true);
+d.add(350,344,'66.07','<div class="nodetag">66.07</div></span>&nbsp;&nbsp;Chemische technologie van gassen','66.07','Chemische technologie van gassen','','','',false,true);
+d.add(351,344,'66.08','<div class="nodetag">66.08</div></span>&nbsp;&nbsp;Fysische en fysch-chemische handelingen en uitrusting. Fysische en fysisch-chemische effecten op chemische processen','66.08','Fysische en fysch-chemische handelingen en uitrusting. Fysische en fysisch-chemische effecten op chemische processen','','','',false,true);
+d.add(352,343,'661','<div class="nodetag">661</div></span>&nbsp;&nbsp;Chemicaliën','661','Chemicaliën','','','',false,true);
+d.add(353,352,'661.1','<div class="nodetag">661.1</div></span>&nbsp;&nbsp;Speciale chemische industrieën','661.1','Speciale chemische industrieën','','','',false,true);
+d.add(354,352,'661.2','<div class="nodetag">661.2</div></span>&nbsp;&nbsp;Productie van zwafel en zwafelderivaten','661.2','Productie van zwafel en zwafelderivaten','','','',false,true);
+d.add(355,352,'661.3','<div class="nodetag">661.3</div></span>&nbsp;&nbsp;Productie van soda (natriumcarbonaat), potas (kaliumcarbonaat) en alkaliën','661.3','Productie van soda (natriumcarbonaat), potas (kaliumcarbonaat) en alkaliën','','','',false,true);
+d.add(356,352,'661.4','<div class="nodetag">661.4</div></span>&nbsp;&nbsp;Oroductie van halogenen, halogeenverbindingen en anorganische peroxoverbindingen','661.4','Oroductie van halogenen, halogeenverbindingen en anorganische peroxoverbindingen','','','',false,true);
+d.add(357,352,'661.5','<div class="nodetag">661.5</div></span>&nbsp;&nbsp;Productie van stikstofverbindingen. Binding van stikstof. Stikstofindustrie in het algemeen','661.5','Productie van stikstofverbindingen. Binding van stikstof. Stikstofindustrie in het algemeen','','','',false,true);
+d.add(358,352,'661.6','<div class="nodetag">661.6</div></span>&nbsp;&nbsp;Productie van verschillende niet-metalen en halfmetalen (metalloïden) en verbindingen daarvan','661.6','Productie van verschillende niet-metalen en halfmetalen (metalloïden) en verbindingen daarvan','','','',false,true);
+d.add(359,352,'661.7','<div class="nodetag">661.7</div></span>&nbsp;&nbsp;Productie van organische stoffen. Organische chemicaliën','661.7','Productie van organische stoffen. Organische chemicaliën','','','',false,true);
+d.add(360,352,'661.8','<div class="nodetag">661.8</div></span>&nbsp;&nbsp;Metaalverbindingen in het algemeen. Zouten. Minerale verbindingen','661.8','Metaalverbindingen in het algemeen. Zouten. Minerale verbindingen','','','',false,true);
+d.add(361,352,'661.9','<div class="nodetag">661.9</div></span>&nbsp;&nbsp;Productie van gassen','661.9','Productie van gassen','','','',false,true);
+d.add(362,343,'662','<div class="nodetag">662</div></span>&nbsp;&nbsp;Explosieven. Brandstoffen','662','Explosieven. Brandstoffen','','','',false,true);
+d.add(363,362,'662.1/.4','<div class="nodetag">662.1/.4</div></span>&nbsp;&nbsp;Explosieven','662.1/.4','Explosieven','','','',false,true);
+d.add(364,363,'662.1','<div class="nodetag">662.1</div></span>&nbsp;&nbsp;Vuurwerk. Pyrotechniek en verwante middelen','662.1','Vuurwerk. Pyrotechniek en verwante middelen','','','',false,true);
+d.add(365,363,'662.2','<div class="nodetag">662.2</div></span>&nbsp;&nbsp;Zware explosieven','662.2','Zware explosieven','','','',false,true);
+d.add(366,363,'662.3','<div class="nodetag">662.3</div></span>&nbsp;&nbsp;Explosieve stoffen gebruikt voor voortstuwing. Buskruit','662.3','Explosieve stoffen gebruikt voor voortstuwing. Buskruit','','','',false,true);
+d.add(367,363,'662.4','<div class="nodetag">662.4</div></span>&nbsp;&nbsp;Reactie-inleiders, ontstekers voor explosieven. Detonatoren','662.4','Reactie-inleiders, ontstekers voor explosieven. Detonatoren','','','',false,true);
+d.add(368,362,'662.5','<div class="nodetag">662.5</div></span>&nbsp;&nbsp;Vuurmakers. Lucifers. Aanstekers','662.5','Vuurmakers. Lucifers. Aanstekers','','','',false,true);
+d.add(369,362,'662.6/.9','<div class="nodetag">662.6/.9</div></span>&nbsp;&nbsp;Warmte- en brandstofeconomie. Brandstoffen. Verwarming','662.6/.9','Warmte- en brandstofeconomie. Brandstoffen. Verwarming','','','',false,true);
+d.add(370,369,'662.6','<div class="nodetag">662.6</div></span>&nbsp;&nbsp;Warmte- en brandstofeconomie in het algemeen. Verbranding. Natuurlijk branstoffen','662.6','Warmte- en brandstofeconomie in het algemeen. Verbranding. Natuurlijk branstoffen','','','',false,true);
+d.add(371,369,'662.7','<div class="nodetag">662.7</div></span>&nbsp;&nbsp;Brandstoftechnologie. Bewerkte brandtoffen','662.7','Brandstoftechnologie. Bewerkte brandtoffen','','','',false,true);
+d.add(372,369,'662.8','<div class="nodetag">662.8</div></span>&nbsp;&nbsp;Mechanische verharden van branstoffen. Maken van briketten','662.8','Mechanische verharden van branstoffen. Maken van briketten','','','',false,true);
+d.add(373,369,'662.9','<div class="nodetag">662.9</div></span>&nbsp;&nbsp;Oven- en verbrandingstechniek','662.9','Oven- en verbrandingstechniek','','','',false,true);
+d.add(374,343,'663','<div class="nodetag">663</div></span>&nbsp;&nbsp;Industriële microbiologie. Industriele mycologie. Zymurgie, fermentatie-industrie. Drankindustrie. Genotmiddelenindustrie','663','Industriële microbiologie. Industriele mycologie. Zymurgie, fermentatie-industrie. Drankindustrie. Genotmiddelenindustrie','','','',false,true);
+d.add(375,374,'663.1','<div class="nodetag">663.1</div></span>&nbsp;&nbsp;Microbiologische industrieën. Wetenschap en technologie van toegepaste microbiologie. Toegepaste mycologie','663.1','Microbiologische industrieën. Wetenschap en technologie van toegepaste microbiologie. Toegepaste mycologie','','','',false,true);
+d.add(376,374,'663.2','<div class="nodetag">663.2</div></span>&nbsp;&nbsp;Wijn. Het maken van wijn. Oenologie','663.2','Wijn. Het maken van wijn. Oenologie','','','',false,true);
+d.add(377,374,'663.3','<div class="nodetag">663.3</div></span>&nbsp;&nbsp;Cider. Perencider. Overige vruchtenwijnen','663.3','Cider. Perencider. Overige vruchtenwijnen','','','',false,true);
+d.add(378,374,'663.4','<div class="nodetag">663.4</div></span>&nbsp;&nbsp;Bieren. Brouwerij. Mouterij','663.4','Bieren. Brouwerij. Mouterij','','','',false,true);
+d.add(379,374,'663.5','<div class="nodetag">663.5</div></span>&nbsp;&nbsp;Drinkbare alcohol.Alcoholische dranken (geestrijke dranken). Alcoholdestilatie, -zuivering','663.5','Drinkbare alcohol.Alcoholische dranken (geestrijke dranken). Alcoholdestilatie, -zuivering','','','',false,true);
+d.add(380,374,'663.6','<div class="nodetag">663.6</div></span>&nbsp;&nbsp;Water voor frisdranken en ander industrieel gebruik','663.6','Water voor frisdranken en ander industrieel gebruik','','','',false,true);
+d.add(381,374,'663.8','<div class="nodetag">663.8</div></span>&nbsp;&nbsp;Voornaamste ingrediënten voor het mengen van dranken. Vruchtensappen. Groentesappen. Siropen. Likeuren. Frisdranken','663.8','Voornaamste ingrediënten voor het mengen van dranken. Vruchtensappen. Groentesappen. Siropen. Likeuren. Frisdranken','','','',false,true);
+d.add(382,374,'663.9','<div class="nodetag">663.9</div></span>&nbsp;&nbsp;Chocolade. Cacao. Koffie. Thee. Tabak','663.9','Chocolade. Cacao. Koffie. Thee. Tabak','','','',false,true);
+d.add(383,343,'664','<div class="nodetag">664</div></span>&nbsp;&nbsp;Productie en verduurzaaming van vaste voedingsmiddelen','664','Productie en verduurzaaming van vaste voedingsmiddelen','','','',false,true);
+d.add(384,383,'664.1','<div class="nodetag">664.1</div></span>&nbsp;&nbsp;Suiker. Melasse. Glucose enz.','664.1','Suiker. Melasse. Glucose enz.','','','',false,true);
+d.add(385,383,'664.2','<div class="nodetag">664.2</div></span>&nbsp;&nbsp;Zetmeel. Zetmeelhoudende stoffen','664.2','Zetmeel. Zetmeelhoudende stoffen','','','',false,true);
+d.add(386,383,'664.3','<div class="nodetag">664.3</div></span>&nbsp;&nbsp;Eetbare olie en vetten. Spijsoliën en -vetten. Eiwitten','664.3','Eetbare olie en vetten. Spijsoliën en -vetten. Eiwitten','','','',false,true);
+d.add(387,383,'664.4','<div class="nodetag">664.4</div></span>&nbsp;&nbsp;Eetbare mineralen','664.4','Eetbare mineralen','','','',false,true);
+d.add(388,383,'664.5','<div class="nodetag">664.5</div></span>&nbsp;&nbsp;Kruiden. Kruiderijen','664.5','Kruiden. Kruiderijen','','','',false,true);
+d.add(389,383,'664.6/.7','<div class="nodetag">664.6/.7</div></span>&nbsp;&nbsp;Technologie en bewerking van graan','664.6/.7','Technologie en bewerking van graan','','','',false,true);
+d.add(390,389,'664.6','<div class="nodetag">664.6</div></span>&nbsp;&nbsp;Bakken. Brood. Meelbereiding','664.6','Bakken. Brood. Meelbereiding','','','',false,true);
+d.add(391,389,'664.7','<div class="nodetag">664.7</div></span>&nbsp;&nbsp;Graantechnologie. Malen van graan. Bewerken van graan','664.7','Graantechnologie. Malen van graan. Bewerken van graan','','','',false,true);
+d.add(392,383,'664.8/.9','<div class="nodetag">664.8/.9</div></span>&nbsp;&nbsp;Technieken voor het verduurzamen van voedsel','664.8/.9','Technieken voor het verduurzamen van voedsel','','','',false,true);
+d.add(393,343,'665','<div class="nodetag">665</div></span>&nbsp;&nbsp;Oliën. Vetten. Wassen (waxen). Lijmen. Gommen. Harsen','665','Oliën. Vetten. Wassen (waxen). Lijmen. Gommen. Harsen','','','',false,true);
+d.add(394,393,'665.1','<div class="nodetag">665.1</div></span>&nbsp;&nbsp;Algemeenheden over oliën, wassen en afgeleide producten daarvan','665.1','Algemeenheden over oliën, wassen en afgeleide producten daarvan','','','',false,true);
+d.add(395,393,'665.2','<div class="nodetag">665.2</div></span>&nbsp;&nbsp;Oliën, vetten en wassen van dierlijke oorsprong','665.2','Oliën, vetten en wassen van dierlijke oorsprong','','','',false,true);
+d.add(396,393,'665.3','<div class="nodetag">665.3</div></span>&nbsp;&nbsp;Plantaardige oliën, vetten, wassen en fosfaten','665.3','Plantaardige oliën, vetten, wassen en fosfaten','','','',false,true);
+d.add(397,393,'665.5','<div class="nodetag">665.5</div></span>&nbsp;&nbsp;Etherische oliën. Parfumwaren, reukwerk. Cosmetica-industrie','665.5','Etherische oliën. Parfumwaren, reukwerk. Cosmetica-industrie','','','',false,true);
+d.add(398,393,'665.6/.7','<div class="nodetag">665.6/.7</div></span>&nbsp;&nbsp;Processen en producten van de aardolie-industrie en verwante industriën','665.6/.7','Processen en producten van de aardolie-industrie en verwante industriën','','','',false,true);
+d.add(399,398,'665.6','<div class="nodetag">665.6</div></span>&nbsp;&nbsp;Aardolietechnologie. Technologie van aardolie en verwante producten','665.6','Aardolietechnologie. Technologie van aardolie en verwante producten','','','',false,true);
+d.add(400,398,'665.7','<div class="nodetag">665.7</div></span>&nbsp;&nbsp;Producten van de aardolie-industrie. Aardolie en overeenkomstige producten','665.7','Producten van de aardolie-industrie. Aardolie en overeenkomstige producten','','','',false,true);
+d.add(401,393,'665.9','<div class="nodetag">665.9</div></span>&nbsp;&nbsp;Diverse organisch-chemische industrieën','665.9','Diverse organisch-chemische industrieën','','','',false,true);
+d.add(402,343,'666','<div class="nodetag">666</div></span>&nbsp;&nbsp;Glasindustrie. Keramiek. Cement en beton','666','Glasindustrie. Keramiek. Cement en beton','','','',false,true);
+d.add(403,402,'666.1','<div class="nodetag">666.1</div></span>&nbsp;&nbsp;Glasindustrie. Glastechnologie. Glasfabricatie','666.1','Glasindustrie. Glastechnologie. Glasfabricatie','','','',false,true);
+d.add(404,402,'666.3/.7','<div class="nodetag">666.3/.7</div></span>&nbsp;&nbsp;Keramiek','666.3/.7','Keramiek','','','',false,true);
+d.add(405,404,'666.3','<div class="nodetag">666.3</div></span>&nbsp;&nbsp;Keramiek in het algemeen. Keramische grondstoffen','666.3','Keramiek in het algemeen. Keramische grondstoffen','','','',false,true);
+d.add(406,404,'666.5','<div class="nodetag">666.5</div></span>&nbsp;&nbsp;Porcelein','666.5','Porcelein','','','',false,true);
+d.add(407,404,'666.6','<div class="nodetag">666.6</div></span>&nbsp;&nbsp;Steengoed. Aardewerk (poreus aardewerk)','666.6','Steengoed. Aardewerk (poreus aardewerk)','','','',false,true);
+d.add(408,404,'666.7','<div class="nodetag">666.7</div></span>&nbsp;&nbsp;Grofkeramiek. Harde keramische producten. Vuurvaste keramische producten. Mengels van keramische en andere materialen','666.7','Grofkeramiek. Harde keramische producten. Vuurvaste keramische producten. Mengels van keramische en andere materialen','','','',false,true);
+d.add(409,402,'666.9','<div class="nodetag">666.9</div></span>&nbsp;&nbsp;Gips-, kalk- en cementindustrie. Hardende materialen. Pleisters en composities. Mortel, specie. Beton','666.9','Gips-, kalk- en cementindustrie. Hardende materialen. Pleisters en composities. Mortel, specie. Beton','','','',false,true);
+d.add(410,343,'667','<div class="nodetag">667</div></span>&nbsp;&nbsp;Kleurstoffenindustrie','667','Kleurstoffenindustrie','','','',false,true);
+d.add(411,410,'667.2','<div class="nodetag">667.2</div></span>&nbsp;&nbsp;Verstoffenindustrie. Fabricage en gebruik van verfstoffen','667.2','Verstoffenindustrie. Fabricage en gebruik van verfstoffen','','','',false,true);
+d.add(412,410,'667.4','<div class="nodetag">667.4</div></span>&nbsp;&nbsp;Schrijfinkten','667.4','Schrijfinkten','','','',false,true);
+d.add(413,410,'667.5','<div class="nodetag">667.5</div></span>&nbsp;&nbsp;Drukinkten (zwart en gekleurd). Lithografische inkten. Schrijf- en tekenstiften. Kleurpotloden','667.5','Drukinkten (zwart en gekleurd). Lithografische inkten. Schrijf- en tekenstiften. Kleurpotloden','','','',false,true);
+d.add(414,410,'667.6','<div class="nodetag">667.6</div></span>&nbsp;&nbsp;Verflagen en verftechnieken. Verven. Vernissen. Lakken','667.6','Verflagen en verftechnieken. Verven. Vernissen. Lakken','','','',false,true);
+d.add(415,410,'667.7','<div class="nodetag">667.7</div></span>&nbsp;&nbsp;Kleuren, beitsen enz. van verschillende materialen (niet door bedrukken of schilderen)','667.7','Kleuren, beitsen enz. van verschillende materialen (niet door bedrukken of schilderen)','','','',false,true);
+d.add(416,343,'669','<div class="nodetag">669</div></span>&nbsp;&nbsp;Metallurgie','669','Metallurgie','','','',false,true);
+d.add(417,416,'669.1','<div class="nodetag">669.1</div></span>&nbsp;&nbsp;Ferrometallurgie. IJzer en staal','669.1','Ferrometallurgie. IJzer en staal','','','',false,true);
+d.add(418,416,'669.2','<div class="nodetag">669.2</div></span>&nbsp;&nbsp;Non-ferrometealen in het algemeen','669.2','Non-ferrometealen in het algemeen','','','',false,true);
+d.add(419,0,'67','<div class="nodetag">67</div></span>&nbsp;&nbsp;Verschillende industrieën, handel en ambachten','67','Verschillende industrieën, handel en ambachten','','','',false,true);
+d.add(420,419,'671','<div class="nodetag">671</div></span>&nbsp;&nbsp;Artikelen uit edelmetalen en edelstenen','671','Artikelen uit edelmetalen en edelstenen','','','',false,true);
+d.add(421,420,'671.1','<div class="nodetag">671.1</div></span>&nbsp;&nbsp;Gouden en zilveren voorwerpen. Voorwerpen gemaakt van andere edelmetalen. Juwelen, sieraden','671.1','Gouden en zilveren voorwerpen. Voorwerpen gemaakt van andere edelmetalen. Juwelen, sieraden','','','',false,true);
+d.add(422,420,'671.4','<div class="nodetag">671.4</div></span>&nbsp;&nbsp;Fabricage van munten, penningen en medailles. Het munten','671.4','Fabricage van munten, penningen en medailles. Het munten','','','',false,true);
+d.add(423,419,'672','<div class="nodetag">672</div></span>&nbsp;&nbsp;Artikelen uit ijzer en staal in het algemeen','672','Artikelen uit ijzer en staal in het algemeen','','','',false,true);
+d.add(424,419,'673','<div class="nodetag">673</div></span>&nbsp;&nbsp;Voorwerpen van niet-ijzerhoudende metalen (met uitzondering van edele metalen)','673','Voorwerpen van niet-ijzerhoudende metalen (met uitzondering van edele metalen)','','','',false,true);
+d.add(425,419,'674','<div class="nodetag">674</div></span>&nbsp;&nbsp;Hout en houtverwerkende industrie','674','Hout en houtverwerkende industrie','','','',false,true);
+d.add(426,419,'675','<div class="nodetag">675</div></span>&nbsp;&nbsp;Leerindustrie (inclusief bont en kunstleer)','675','Leerindustrie (inclusief bont en kunstleer)','','','',false,true);
+d.add(427,419,'676','<div class="nodetag">676</div></span>&nbsp;&nbsp;Pulp-, papier- en kartonindustrie','676','Pulp-, papier- en kartonindustrie','','','',false,true);
+d.add(428,419,'677','<div class="nodetag">677</div></span>&nbsp;&nbsp;Textielindustrie','677','Textielindustrie','','','',false,true);
+d.add(429,428,'677.1/.5','<div class="nodetag">677.1/.5</div></span>&nbsp;&nbsp;Textielvezels','677.1/.5','Textielvezels','','','',false,true);
+d.add(430,429,'677.1/.3','<div class="nodetag">677.1/.3</div></span>&nbsp;&nbsp;Natuurlijke vezels','677.1/.3','Natuurlijke vezels','','','',false,true);
+d.add(431,430,'677.1/.2','<div class="nodetag">677.1/.2</div></span>&nbsp;&nbsp;Plantaardige vezels','677.1/.2','Plantaardige vezels','','','',false,true);
+d.add(432,431,'677.1','<div class="nodetag">677.1</div></span>&nbsp;&nbsp;Bastvezels (vezels uit stengels van tweezaadlobbige planten). Harde vezels (vezels uit bladeren en vruchten van eenzaadlobbige planten)','677.1','Bastvezels (vezels uit stengels van tweezaadlobbige planten). Harde vezels (vezels uit bladeren en vruchten van eenzaadlobbige planten)','','','',false,true);
+d.add(433,431,'677.2','<div class="nodetag">677.2</div></span>&nbsp;&nbsp;Plantenharen','677.2','Plantenharen','','','',false,true);
+d.add(434,430,'677.3','<div class="nodetag">677.3</div></span>&nbsp;&nbsp;Dierlijke vezels','677.3','Dierlijke vezels','','','',false,true);
+d.add(435,429,'677.4','<div class="nodetag">677.4</div></span>&nbsp;&nbsp;Kunstvezels','677.4','Kunstvezels','','','',false,true);
+d.add(436,429,'677.5','<div class="nodetag">677.5</div></span>&nbsp;&nbsp;Minerale en metalen vezels. Vlechtmaterialen. Rubberdraden. Papiergarens','677.5','Minerale en metalen vezels. Vlechtmaterialen. Rubberdraden. Papiergarens','','','',false,true);
+d.add(437,419,'678','<div class="nodetag">678</div></span>&nbsp;&nbsp;Industrieën gebaseerd op macromoleculaire stoffen Rubberindustrie. Plasticindustrie, kunstoffenindustrie','678','Industrieën gebaseerd op macromoleculaire stoffen Rubberindustrie. Plasticindustrie, kunstoffenindustrie','','','',false,true);
+d.add(438,437,'678.4','<div class="nodetag">678.4</div></span>&nbsp;&nbsp;Natuurrubber. Overige natuurlijke macromoculaire stoffen welke alleen koolstof en waterstof bevatten','678.4','Natuurrubber. Overige natuurlijke macromoculaire stoffen welke alleen koolstof en waterstof bevatten','','','',false,true);
+d.add(439,437,'678.5','<div class="nodetag">678.5</div></span>&nbsp;&nbsp;Plastics, kunststoffen (met name halfsynthetische plastics, gebaseerd op cellulose enz.)','678.5','Plastics, kunststoffen (met name halfsynthetische plastics, gebaseerd op cellulose enz.)','','','',false,true);
+d.add(440,437,'678.6','<div class="nodetag">678.6</div></span>&nbsp;&nbsp;Synthetische polycondensatieproducten. Polycondensaten','678.6','Synthetische polycondensatieproducten. Polycondensaten','','','',false,true);
+d.add(441,437,'678.7','<div class="nodetag">678.7</div></span>&nbsp;&nbsp;Synthetische polymerisatieproducten. Polymerisaten','678.7','Synthetische polymerisatieproducten. Polymerisaten','','','',false,true);
+d.add(442,419,'679','<div class="nodetag">679</div></span>&nbsp;&nbsp;Industrieën gebaseerd op verschillende bewerkbare stoffen','679','Industrieën gebaseerd op verschillende bewerkbare stoffen','','','',false,true);
+d.add(443,442,'679.7','<div class="nodetag">679.7</div></span>&nbsp;&nbsp;Kabel- en touwwerkindustrie','679.7','Kabel- en touwwerkindustrie','','','',false,true);
+d.add(444,442,'679.8','<div class="nodetag">679.8</div></span>&nbsp;&nbsp;Natuursteentechnologie. Natuursteenindustrie. Kunststeenindustrie','679.8','Natuursteentechnologie. Natuursteenindustrie. Kunststeenindustrie','','','',false,true);
+d.add(445,442,'679.9','<div class="nodetag">679.9</div></span>&nbsp;&nbsp;Technologie van overige bewerkbare natuurlijke stoffen','679.9','Technologie van overige bewerkbare natuurlijke stoffen','','','',false,true);
+d.add(446,0,'68','<div class="nodetag">68</div></span>&nbsp;&nbsp;Industrieën, ambachten en handel voor eindproducten of geassembleerde artikelen','68','Industrieën, ambachten en handel voor eindproducten of geassembleerde artikelen','','','',false,true);
+d.add(447,446,'681','<div class="nodetag">681</div></span>&nbsp;&nbsp;Fijnmechnica en precisie-instrumenten','681','Fijnmechnica en precisie-instrumenten','','','',false,true);
+d.add(448,447,'681.1','<div class="nodetag">681.1</div></span>&nbsp;&nbsp;Apparatuur met rader- of motorloopwerken','681.1','Apparatuur met rader- of motorloopwerken','','','',false,true);
+d.add(449,447,'681.2','<div class="nodetag">681.2</div></span>&nbsp;&nbsp;Instrumentmaken in het algemeen. Meet- en weeginstrumenten en hun vervaardiging','681.2','Instrumentmaken in het algemeen. Meet- en weeginstrumenten en hun vervaardiging','','','',false,true);
+d.add(450,447,'681.5','<div class="nodetag">681.5</div></span>&nbsp;&nbsp;Automatische regeltechniek. Intelligente technologie','681.5','Automatische regeltechniek. Intelligente technologie','','','',false,true);
+d.add(451,447,'681.6','<div class="nodetag">681.6</div></span>&nbsp;&nbsp;Grafische reproductiemachines en uitrusting','681.6','Grafische reproductiemachines en uitrusting','','','',false,true);
+d.add(452,447,'681.7','<div class="nodetag">681.7</div></span>&nbsp;&nbsp;Optische instrumenten en apparatuur','681.7','Optische instrumenten en apparatuur','','','',false,true);
+d.add(453,447,'681.8','<div class="nodetag">681.8</div></span>&nbsp;&nbsp;Technische akoestiek, geluidstechniek','681.8','Technische akoestiek, geluidstechniek','','','',false,true);
+d.add(454,446,'682','<div class="nodetag">682</div></span>&nbsp;&nbsp;Smederij. Grofsmederij. Hoefsmederij. Handsmeedwerk','682','Smederij. Grofsmederij. Hoefsmederij. Handsmeedwerk','','','',false,true);
+d.add(455,454,'682.1','<div class="nodetag">682.1</div></span>&nbsp;&nbsp;Hoefsmederij','682.1','Hoefsmederij','','','',false,true);
+d.add(456,454,'682.3','<div class="nodetag">682.3</div></span>&nbsp;&nbsp;Gereedschappensmederij. Smeden van snijgereedschappen','682.3','Gereedschappensmederij. Smeden van snijgereedschappen','','','',false,true);
+d.add(457,454,'682.5','<div class="nodetag">682.5</div></span>&nbsp;&nbsp;Meubelbeslag','682.5','Meubelbeslag','','','',false,true);
+d.add(458,454,'682.6','<div class="nodetag">682.6</div></span>&nbsp;&nbsp;Bouwbeslag','682.6','Bouwbeslag','','','',false,true);
+d.add(459,446,'683','<div class="nodetag">683</div></span>&nbsp;&nbsp;IJzerwaren. Hang- en sluitwerk. Slotenmakerij. Bottelen. Lampen. Verwarmingstoestellen','683','IJzerwaren. Hang- en sluitwerk. Slotenmakerij. Bottelen. Lampen. Verwarmingstoestellen','','','',false,true);
+d.add(460,446,'684','<div class="nodetag">684</div></span>&nbsp;&nbsp;Meubelmakerij en verwante industrieën. Stoffeerderij','684','Meubelmakerij en verwante industrieën. Stoffeerderij','','','',false,true);
+d.add(461,460,'684.4','<div class="nodetag">684.4</div></span>&nbsp;&nbsp;Meubilair. Ontwerp en fabricage van meubilair','684.4','Meubilair. Ontwerp en fabricage van meubilair','','','',false,true);
+d.add(462,460,'684.6','<div class="nodetag">684.6</div></span>&nbsp;&nbsp;Fineer. Ingelegd houtwerk. Inlegwerk, enz.','684.6','Fineer. Ingelegd houtwerk. Inlegwerk, enz.','','','',false,true);
+d.add(463,460,'684.7','<div class="nodetag">684.7</div></span>&nbsp;&nbsp;Stoffering. Beddengoed.Bedekking. Behangsels','684.7','Stoffering. Beddengoed.Bedekking. Behangsels','','','',false,true);
+d.add(464,446,'685','<div class="nodetag">685</div></span>&nbsp;&nbsp;Zadeltuig. Voetbekleding. Handschoenen. Reis-, sport-, spel- en andere uitrusting','685','Zadeltuig. Voetbekleding. Handschoenen. Reis-, sport-, spel- en andere uitrusting','','','',false,true);
+d.add(465,464,'685.1','<div class="nodetag">685.1</div></span>&nbsp;&nbsp;Zadelmakerij. Tuigmakerij','685.1','Zadelmakerij. Tuigmakerij','','','',false,true);
+d.add(466,464,'685.2','<div class="nodetag">685.2</div></span>&nbsp;&nbsp;Bijkomende uitrusting. Riemen. Lederen en andere uitrustingsstukken','685.2','Bijkomende uitrusting. Riemen. Lederen en andere uitrustingsstukken','','','',false,true);
+d.add(467,464,'685.3','<div class="nodetag">685.3</div></span>&nbsp;&nbsp;Schoenen, schoeisel. Andere hulpmiddelen bij voortbeweging','685.3','Schoenen, schoeisel. Andere hulpmiddelen bij voortbeweging','','','',false,true);
+d.add(468,464,'685.4','<div class="nodetag">685.4</div></span>&nbsp;&nbsp;Handschoenen. Handschoenenfabricage','685.4','Handschoenen. Handschoenenfabricage','','','',false,true);
+d.add(469,464,'685.5','<div class="nodetag">685.5</div></span>&nbsp;&nbsp;Reisartikelen. Kampeeruitrusting','685.5','Reisartikelen. Kampeeruitrusting','','','',false,true);
+d.add(470,464,'685.6','<div class="nodetag">685.6</div></span>&nbsp;&nbsp;Sport- en speluitrusting. Installaties en uitrustingvooratletiek, gymnastiek en lichamelijke training','685.6','Sport- en speluitrusting. Installaties en uitrustingvooratletiek, gymnastiek en lichamelijke training','','','',false,true);
+d.add(471,464,'685.7','<div class="nodetag">685.7</div></span>&nbsp;&nbsp;Uitrusting voor bergsport en klimmen. Zwemuitrusting','685.7','Uitrusting voor bergsport en klimmen. Zwemuitrusting','','','',false,true);
+d.add(472,464,'685.8','<div class="nodetag">685.8</div></span>&nbsp;&nbsp;Uitrusting voor bord- en tafelspelen','685.8','Uitrusting voor bord- en tafelspelen','','','',false,true);
+d.add(473,446,'686','<div class="nodetag">686</div></span>&nbsp;&nbsp;Boekbinden. Metalliseren. Spiegelfabricage. Kantoorbehoeften','686','Boekbinden. Metalliseren. Spiegelfabricage. Kantoorbehoeften','','','',false,true);
+d.add(474,446,'687','<div class="nodetag">687</div></span>&nbsp;&nbsp;Kledingindustrie. Schoonheidscultuur','687','Kledingindustrie. Schoonheidscultuur','','','',false,true);
+d.add(475,474,'687.1','<div class="nodetag">687.1</div></span>&nbsp;&nbsp;Bovenkleding. Kleermakerswerk','687.1','Bovenkleding. Kleermakerswerk','','','',false,true);
+d.add(476,474,'687.2','<div class="nodetag">687.2</div></span>&nbsp;&nbsp;Linnengoed. Lingerie','687.2','Linnengoed. Lingerie','','','',false,true);
+d.add(477,474,'687.3','<div class="nodetag">687.3</div></span>&nbsp;&nbsp;Gebreide kleding. Stropdassen. Middelen voor het vastmaken en beschermen van kleding','687.3','Gebreide kleding. Stropdassen. Middelen voor het vastmaken en beschermen van kleding','','','',false,true);
+d.add(478,474,'687.4','<div class="nodetag">687.4</div></span>&nbsp;&nbsp;Hoofdeksels. Vervaardiging van hoeden. Hoedenhandel','687.4','Hoofdeksels. Vervaardiging van hoeden. Hoedenhandel','','','',false,true);
+d.add(479,474,'687.5','<div class="nodetag">687.5</div></span>&nbsp;&nbsp;Schoonheidscultuurindustrie','687.5','Schoonheidscultuurindustrie','','','',false,true);
+d.add(480,474,'687.8','<div class="nodetag">687.8</div></span>&nbsp;&nbsp;Kunstbont','687.8','Kunstbont','','','',false,true);
+d.add(481,474,'687.9','<div class="nodetag">687.9</div></span>&nbsp;&nbsp;Borstelindustrie. Bezems enz.','687.9','Borstelindustrie. Bezems enz.','','','',false,true);
+d.add(482,446,'688','<div class="nodetag">688</div></span>&nbsp;&nbsp;Galanteriewaren.Speelgoed. Decoratieve artikelen','688','Galanteriewaren.Speelgoed. Decoratieve artikelen','','','',false,true);
+d.add(483,482,'688.7','<div class="nodetag">688.7</div></span>&nbsp;&nbsp;Speelgoed. Artikelen voor amusement, schertsartikelen','688.7','Speelgoed. Artikelen voor amusement, schertsartikelen','','','',false,true);
+d.add(484,446,'689','<div class="nodetag">689</div></span>&nbsp;&nbsp;Doe-het-zelf. Technische hobbies','689','Doe-het-zelf. Technische hobbies','','','',false,true);
+d.add(485,0,'69','<div class="nodetag">69</div></span>&nbsp;&nbsp;Bouwbedrijf. Bouwmaterialen. Praktijk en procedures in de bouwnijverheid','69','Bouwbedrijf. Bouwmaterialen. Praktijk en procedures in de bouwnijverheid','','','',false,true);
+d.add(486,485,'691','<div class="nodetag">691</div></span>&nbsp;&nbsp;Bouwmaterialen. Bouwelementen','691','Bouwmaterialen. Bouwelementen','','','',false,true);
+d.add(487,485,'692','<div class="nodetag">692</div></span>&nbsp;&nbsp;Structurele delen en elementen van gebouwen','692','Structurele delen en elementen van gebouwen','','','',false,true);
+d.add(488,485,'693','<div class="nodetag">693</div></span>&nbsp;&nbsp;Metselen en verwante bouwambachten','693','Metselen en verwante bouwambachten','','','',false,true);
+d.add(489,485,'694','<div class="nodetag">694</div></span>&nbsp;&nbsp;Houtconstructie. Timmermanswerk. Schrijnwerk','694','Houtconstructie. Timmermanswerk. Schrijnwerk','','','',false,true);
+d.add(490,485,'696','<div class="nodetag">696</div></span>&nbsp;&nbsp;Installaties in gebouwen (sanitair, gas, stoom, elektriciteit0. Fitter. Loodgieter. Metaalwerker. Elektricien. Overige ambachten','696','Installaties in gebouwen (sanitair, gas, stoom, elektriciteit0. Fitter. Loodgieter. Metaalwerker. Elektricien. Overige ambachten','','','',false,true);
+d.add(491,485,'697','<div class="nodetag">697</div></span>&nbsp;&nbsp;Verwarming, ventilatie en air conditioning van gebouwen','697','Verwarming, ventilatie en air conditioning van gebouwen','','','',false,true);
+d.add(492,485,'698','<div class="nodetag">698</div></span>&nbsp;&nbsp;Ambachten betreffende de afwerking van gebouwen','698','Ambachten betreffende de afwerking van gebouwen','','','',false,true);
+d.config.useSelection = false;
+d.config.inOrder = true;
+d.config.useIcons = false;
+document.write(d);
+//-->
+</script>
+</div>
+</div><div id="expandbox" onclick="expandbox(); return false;">&nbsp;</div>
+<div id="recordbox" class="debugbkg">
+<div class="fronthint">klik op een klasse links om de records te tonen</div>
+</div>
+
+        <div id="footer">
+            <div class="footersectionleft">
+                The UDC Summary (UDCS) provides a selection of around 2,600 classes from the whole scheme which comprises more than 70,000 entries.
+                Please send questions and suggestions to <a href="mailto:udcs@udcc.org?subject=UDC Summary Enquiry">udcs@udcc.org</a><br><br>
+	            <p>
+		            The data provided in this Summary is released under the <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative Commons Attribution Share Alike 3.0 license</a> <a href="../about.htm">[more]</a>
+	            </p>
+            </div>
+            <div class="footermiddle">
+                <a href="http://www.udcc.org"><img src="../images/udclogowhite.png" border="0"></a>
+            </div>
+			<div class="footerright">
+                For complete UDC schedules see <a href="http://www.udc-hub.com/">UDC Online Hub</a><br/><a href="http://www.udc-hub.com/"><img width="60" height="35" src="../images/udclogo.png"/></a>
+
+			</div>
+        </div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-13138465-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>

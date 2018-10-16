@@ -1,0 +1,654 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>UDC Summary</title>
+    <link rel="stylesheet" href="../reset.css" type="text/css" />
+    <link rel="stylesheet" href="../udc2000.css" type="text/css" />
+	    <link rel="StyleSheet" href="dtree2.css" type="text/css" />
+	    <script type="text/javascript" src="dtree.js"></script>
+	    <script type="text/javascript" src="udcdisplay_9.js"></script>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+</head>
+
+<body >
+<div id="centercontainer" class="debugbkg">
+    <div id="titlebox" class="debugbkg">
+		<div id="rightbox">
+        	<div id="languagecount">57 languages</div>
+            <div id="languagebox">
+            <select id="selectedlang" style="vertical-align: middle;" onchange="location = this.options[this.selectedIndex].value;">
+			<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=af&pr=Y">Afrikaans (Afrikaans) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sq&pr=Y">Albanian (Shqip) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=anp&pr=Y">Angika (अंगिका) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ar&pr=Y">Arabic (العربية) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hy&pr=Y">Armenian (հայերեն) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=eu&pr=Y">Basque (Euskara) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=be&pr=Y">Belarusian (Беларуская) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bn&pr=Y">Bengali (বাংলা) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bho&pr=Y">Bhojpuri (भोजपुरी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bg&pr=Y">Bulgarian (Български) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ca&pr=Y">Catalan (Català) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=chi&pr=Y">Chinese (中文) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hr&pr=Y">Croatian (Hrvatski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=cs&pr=Y">Czech (Čeština) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=da&pr=Y">Danish (Dansk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=nl&pr=Y">Dutch (Nederlands) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=en&pr=Y">English (English) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=eo&pr=Y">Esperanto (Esperanto) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=et&pr=Y">Estonian (Eesti) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=fi&pr=Y">Finnish (Suomi) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=fr&pr=Y">French (Français) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=gl&pr=Y">Galician (Galego) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ka&pr=Y">Georgian (ქართული) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=de&pr=Y">German (Deutsch) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=el&pr=Y">Greek (Ελληνικά) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hi&pr=Y">Hindi (हिन्दी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hu&pr=Y">Hungarian (Magyar) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=id&pr=Y">Indonesian (Bahasa Ind) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ga&pr=Y">Irish (Gaeilge) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=it&pr=Y">Italian (Italiano) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ja&pr=Y">Japanese (日本語) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=kn&pr=Y">Kannada (ಕನ್ನಡ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=kk&pr=Y">Kazakh (Қазақ тілі) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=lv&pr=Y">Latvian (Latviešu) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=lt&pr=Y">Lithuanian (lietuvių) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=mk&pr=Y">Macedonian (македонски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ml&pr=Y">Malayalam (മലയാളം) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=mr&pr=Y">Marathi (मराठी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=no&pr=Y">Norwegian (Norsk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pl&pr=Y">Polish (Polski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pt&pr=Y">Portuguese (Português) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pa&pr=Y">Punjabi (ਪੰਜਾਬੀ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ro&pr=Y">Romanian (Româna) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ru&pr=Y">Russian (Pусский) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sa&pr=Y">Sanskrit (Saṃskṛtam) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sr&pr=Y">Serbian (Српски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=si&pr=Y">Sinhala (සිංහල) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sk&pr=Y">Slovak (Slovenský) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sl&pr=Y">Slovenian (Slovenski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=es&pr=Y">Spanish (Español) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sv&pr=Y">Swedish (Svenska) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ta&pr=Y" selected>Tamil (தமிழ்) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=te&pr=Y">Telugu (తెలుగు) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=tr&pr=Y">Turkish (Türkçe) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=uk&pr=Y">Ukrainian (Yкраї́нська) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=uz&pr=Y">Uzbek (oʻzbek) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=vi&pr=Y">Vietnamese (tiếng Việt) </option>
+            </select>
+            </div>
+            </div>
+        </div>
+		<div id="menubox" class="debugbkg">
+            <ul class="menu boldmenu">
+<li><a href="index.php@lang=ta">தலைப்பு</a></li>
+<li><a href="index.php@tag=--&amp;lang=ta">குறியீடுகள்</a></li>
+<li><a href="index.php@tag=---&amp;lang=ta">துணைகள்</a></li>
+<li><a href="index.php@tag=0&amp;lang=ta">0</a></li>
+<li><a href="index.php@tag=1&amp;lang=ta">1</a></li>
+<li><a href="index.php@tag=2&amp;lang=ta">2</a></li>
+<li><a href="index.php@tag=3&amp;lang=ta">3</a></li>
+<li><a  class="vacant" href="index.php@tag=6&amp;lang=ta#">4</a></li>
+<li><a href="index.php@tag=5&amp;lang=ta">5</a></li>
+<li><a href="index.php@tag=6&amp;lang=ta">6</a></li>
+<li><a href="index.php@tag=7&amp;lang=ta">7</a></li>
+<li><a href="index.php@tag=8&amp;lang=ta">8</a></li>
+<li><a href="index.php@tag=9&amp;lang=ta">9</a></li>
+</ul>
+<input type="hidden" id="if_loading" name="if_loading" value="ஏற்றம்"/>
+<input type="hidden" id="if_lang" name="if_lang" value="33"/>
+<ul class="rightmenu boldmenu">
+<li><a href="../translation.htm">மொழிபெயர்ப்புகள்</a></li>
+<li><a href="index.php@tag=6&amp;lang=ta#" title="Under Development">முகப்புகள்</a></li>
+<li><a href="../exports.htm" title="Data Exports">ஏற்றுமதி</a></li>
+<li><a href="index.php@tag=6&amp;lang=ta#" title="Under Development">அகரவரிசை அட்டவணை</a></li>
+<li><a href="index.php@tag=6&amp;lang=ta#" title="Under Development">வழிகாட்டி</a></li>
+<li><a href="../about.htm" title="About the UDC Summary">பற்றி</a></li>
+</ul>
+
+        </div>
+		<input type="hidden" id="leftWidth" value="420"/><input type="hidden" id="rightWidth" value="522"/>
+		<div id="classmarkbox" class="debugbkg">
+
+<div id="openclosemenu"><a href="javascript: d.openAll();">&nbsp;விரிவாக்கு</a> | <a href="javascript: d.closeAll();">சுருக்கு </a></div>
+<div id="classtree">
+<script type="text/javascript">
+<!--
+d = new dTree('d');
+d.config.hrefIsClick = true;
+d.add(0,-1,'6','<span class="nodetag">6</span>&nbsp;&nbsp;செயல்முறை அறிவியல். மருத்துவம். தொழில் நுட்பவியல்','6','','','','',false,true);
+d.add(1,0,'60','<div class="nodetag">60</div></span>&nbsp;&nbsp;உயிரித் தொழில்நுட்பவியல்','60','உயிரித் தொழில்நுட்பவியல்','','','',false,true);
+d.add(2,1,'601','<div class="nodetag">601</div></span>&nbsp;&nbsp;அடிப்படை கோட்பாடுகள்','601','அடிப்படை கோட்பாடுகள்','','','',false,true);
+d.add(3,1,'602','<div class="nodetag">602</div></span>&nbsp;&nbsp;உயிரி தொழில்நுட்பவியலில் செயல்கள் மற்றும் தொழில்நுட்பங்கள் ','602','உயிரி தொழில்நுட்பவியலில் செயல்கள் மற்றும் தொழில்நுட்பங்கள் ','','','',false,true);
+d.add(4,1,'604','<div class="nodetag">604</div></span>&nbsp;&nbsp;உயிரி தொழிற்நுட்பத்தின் பொருட்கள்','604','உயிரி தொழிற்நுட்பத்தின் பொருட்கள்','','','',false,true);
+d.add(5,1,'606','<div class="nodetag">606</div></span>&nbsp;&nbsp;உயிரி தொழில்நுட்ப பயன்பாடுகள்','606','உயிரி தொழில்நுட்ப பயன்பாடுகள்','','','',false,true);
+d.add(6,1,'608','<div class="nodetag">608</div></span>&nbsp;&nbsp;உயிரிதொழில்நுட்பவியலில் பிரச்சனைகள்','608','உயிரிதொழில்நுட்பவியலில் பிரச்சனைகள்','','','',false,true);
+d.add(7,0,'61','<div class="nodetag">61</div></span>&nbsp;&nbsp;மருத்துவ அறிவியல்','61','மருத்துவ அறிவியல்','','','',false,true);
+d.add(8,7,'611/612','<div class="nodetag">611/612</div></span>&nbsp;&nbsp;மனித உயிரியல்','611/612','மனித உயிரியல்','','','',false,true);
+d.add(9,8,'611','<div class="nodetag">611</div></span>&nbsp;&nbsp;உடற்கூறியல். மனித மற்றும் ஒப்பீட்டு உடற்கூறியல்','611','உடற்கூறியல். மனித மற்றும் ஒப்பீட்டு உடற்கூறியல்','','','',false,true);
+d.add(10,8,'612','<div class="nodetag">612</div></span>&nbsp;&nbsp;உடலியல். மனித மற்றும் ஒப்பீட்டு உடலியல்','612','உடலியல். மனித மற்றும் ஒப்பீட்டு உடலியல்','','','',false,true);
+d.add(11,10,'612.1/.8','<div class="nodetag">612.1/.8</div></span>&nbsp;&nbsp;முறையான உடலியல்','612.1/.8','முறையான உடலியல்','','','',false,true);
+d.add(12,11,'612.1','<div class="nodetag">612.1</div></span>&nbsp;&nbsp;இரத்தம். இதயக்குழலிய, சுற்றோட்டவுறுப்புகள்','612.1','இரத்தம். இதயக்குழலிய, சுற்றோட்டவுறுப்புகள்','','','',false,true);
+d.add(13,11,'612.2','<div class="nodetag">612.2</div></span>&nbsp;&nbsp;சுவாசம். மூச்சு. சுவாச மண்டலம்','612.2','சுவாசம். மூச்சு. சுவாச மண்டலம்','','','',false,true);
+d.add(14,11,'612.3','<div class="nodetag">612.3</div></span>&nbsp;&nbsp;ஊட்டம். உணவு. செரிமானம். போஷாக்கு','612.3','ஊட்டம். உணவு. செரிமானம். போஷாக்கு','','','',false,true);
+d.add(15,11,'612.4','<div class="nodetag">612.4</div></span>&nbsp;&nbsp;சுரப்பி அமைப்பு. சுரப்பு. கழிவு','612.4','சுரப்பி அமைப்பு. சுரப்பு. கழிவு','','','',false,true);
+d.add(16,11,'612.5','<div class="nodetag">612.5</div></span>&nbsp;&nbsp;விலங்கு வெப்பம். வெப்பஞ்சார்ந்த செயல்பாடுகள்','612.5','விலங்கு வெப்பம். வெப்பஞ்சார்ந்த செயல்பாடுகள்','','','',false,true);
+d.add(17,11,'612.6','<div class="nodetag">612.6</div></span>&nbsp;&nbsp;இனப்பெருக்கம். வளர்ச்சி. அபிவிருத்தி','612.6','இனப்பெருக்கம். வளர்ச்சி. அபிவிருத்தி','','','',false,true);
+d.add(18,11,'612.7','<div class="nodetag">612.7</div></span>&nbsp;&nbsp;இயக்கும் செயல்பாடுகள். இடப்பெயர்ச்சியின் உறுப்புக்கள். குரல். புறப்போர்வை','612.7','இயக்கும் செயல்பாடுகள். இடப்பெயர்ச்சியின் உறுப்புக்கள். குரல். புறப்போர்வை','','','',false,true);
+d.add(19,11,'612.8','<div class="nodetag">612.8</div></span>&nbsp;&nbsp;நரம்பு மண்டலம். புலனுணர்வு உறுப்புகள்','612.8','நரம்பு மண்டலம். புலனுணர்வு உறுப்புகள்','','','',false,true);
+d.add(20,7,'613','<div class="nodetag">613</div></span>&nbsp;&nbsp;பொதுவாக சுகாதாரம். தனிப்பட்ட உடல்நலம் மற்றும் சுகாதாரம்','613','பொதுவாக சுகாதாரம். தனிப்பட்ட உடல்நலம் மற்றும் சுகாதாரம்','','','',false,true);
+d.add(21,20,'613.2','<div class="nodetag">613.2</div></span>&nbsp;&nbsp;உணவூட்டல் இயல். ஊட்டச்சத்து கோட்பாடுகளை உணவளித்தல் மற்றும் உணவுகளில் பயன்படுத்துதல்','613.2','உணவூட்டல் இயல். ஊட்டச்சத்து கோட்பாடுகளை உணவளித்தல் மற்றும் உணவுகளில் பயன்படுத்துதல்','','','',false,true);
+d.add(22,20,'613.3','<div class="nodetag">613.3</div></span>&nbsp;&nbsp;பானங்கள். நோய் நீக்கும் பானங்கள். பிணிப்போக்கும் தண்ணீர். திரவ உணவு','613.3','பானங்கள். நோய் நீக்கும் பானங்கள். பிணிப்போக்கும் தண்ணீர். திரவ உணவு','','','',false,true);
+d.add(23,20,'613.4','<div class="nodetag">613.4</div></span>&nbsp;&nbsp;தனிப்பட்ட சுகாதாரம். உடைகள்','613.4','தனிப்பட்ட சுகாதாரம். உடைகள்','','','',false,true);
+d.add(24,20,'613.5','<div class="nodetag">613.5</div></span>&nbsp;&nbsp;வீடுகளின் சுகாதாரம்','613.5','வீடுகளின் சுகாதாரம்','','','',false,true);
+d.add(25,20,'613.6','<div class="nodetag">613.6</div></span>&nbsp;&nbsp;தொழில் சார்ந்த உடல்நல இடையூறுகள். தொழில்சார்ந்த உடல்நலம் மற்றும் சுகாதாரம்','613.6','தொழில் சார்ந்த உடல்நல இடையூறுகள். தொழில்சார்ந்த உடல்நலம் மற்றும் சுகாதாரம்','','','',false,true);
+d.add(26,20,'613.7','<div class="nodetag">613.7</div></span>&nbsp;&nbsp; ஓய்வு நேர உடல் நல மற்றும் சுகாதாரம், பொழுதுபோக்கு, தூக்கம்','613.7',' ஓய்வு நேர உடல் நல மற்றும் சுகாதாரம், பொழுதுபோக்கு, தூக்கம்','','','',false,true);
+d.add(27,20,'613.8','<div class="nodetag">613.8</div></span>&nbsp;&nbsp;நரம்பு மண்டலத்தின் உடல்நலம் மற்றும் சுகாதாரம். உடல்நலம் மற்றும் நெறிமுறைகள்','613.8','நரம்பு மண்டலத்தின் உடல்நலம் மற்றும் சுகாதாரம். உடல்நலம் மற்றும் நெறிமுறைகள்','','','',false,true);
+d.add(28,20,'613.9','<div class="nodetag">613.9</div></span>&nbsp;&nbsp;வயது தொடர்பான உடல்நலம் மற்றும் சுகாதாரம், பாலினம், இனம்','613.9','வயது தொடர்பான உடல்நலம் மற்றும் சுகாதாரம், பாலினம், இனம்','','','',false,true);
+d.add(29,7,'614','<div class="nodetag">614</div></span>&nbsp;&nbsp;பொது உடல்நலம் மற்றும் சுகாதாரம். விபத்தை தடுப்பு','614','பொது உடல்நலம் மற்றும் சுகாதாரம். விபத்தை தடுப்பு','','','',false,true);
+d.add(30,29,'614.1','<div class="nodetag">614.1</div></span>&nbsp;&nbsp;மக்கள் தொகை. மக்கள் தொகை குறைப்பு','614.1','மக்கள் தொகை. மக்கள் தொகை குறைப்பு','','','',false,true);
+d.add(31,29,'614.2','<div class="nodetag">614.2</div></span>&nbsp;&nbsp; பொது மற்றும் தொழில்முறை அமைப்பின் சுகாதாரம்','614.2',' பொது மற்றும் தொழில்முறை அமைப்பின் சுகாதாரம்','','','',false,true);
+d.add(32,29,'614.3','<div class="nodetag">614.3</div></span>&nbsp;&nbsp;சுகாதார ஆய்வு மற்றும் கட்டுப்பாடு','614.3','சுகாதார ஆய்வு மற்றும் கட்டுப்பாடு','','','',false,true);
+d.add(33,32,'614.39','<div class="nodetag">614.39</div></span>&nbsp;&nbsp;தேசிய சுகாதார சேவைகள்','614.39','தேசிய சுகாதார சேவைகள்','','','',false,true);
+d.add(34,29,'614.4','<div class="nodetag">614.4</div></span>&nbsp;&nbsp;தடுப்பு மற்றும் தொடர்பு (தொற்றுகிற, ஒட்டும்) நோய்கள் கட்டுப்பாடு. கொள்ளை நோய் தடுப்பு','614.4','தடுப்பு மற்றும் தொடர்பு (தொற்றுகிற, ஒட்டும்) நோய்கள் கட்டுப்பாடு. கொள்ளை நோய் தடுப்பு','','','',false,true);
+d.add(35,29,'614.6','<div class="nodetag">614.6</div></span>&nbsp;&nbsp;மயான சுகாதாரம். இறந்தவர்களை அகற்றுதல்','614.6','மயான சுகாதாரம். இறந்தவர்களை அகற்றுதல்','','','',false,true);
+d.add(36,29,'614.7','<div class="nodetag">614.7</div></span>&nbsp;&nbsp;காற்று, நீர், மண்ணின் சுகாதாரம். மாசு மற்றும் அதன் கட்டுப்பாடு','614.7','காற்று, நீர், மண்ணின் சுகாதாரம். மாசு மற்றும் அதன் கட்டுப்பாடு','','','',false,true);
+d.add(37,29,'614.8','<div class="nodetag">614.8</div></span>&nbsp;&nbsp;விபத்துக்கள். அபாயங்கள். இடையூறுகள். விபத்து தடுப்பு. தனிப்பட்ட பாதுகாப்பு. ஆபத்தின்மை','614.8','விபத்துக்கள். அபாயங்கள். இடையூறுகள். விபத்து தடுப்பு. தனிப்பட்ட பாதுகாப்பு. ஆபத்தின்மை','','','',false,true);
+d.add(38,29,'614.9','<div class="nodetag">614.9</div></span>&nbsp;&nbsp;விலங்குகளின் உடல்நலம். கால்நடைச்சுகாதாரம்','614.9','விலங்குகளின் உடல்நலம். கால்நடைச்சுகாதாரம்','','','',false,true);
+d.add(39,7,'615','<div class="nodetag">615</div></span>&nbsp;&nbsp;மருந்தியல். நோய்த் தீர்வியல். நஞ்சியல்','615','மருந்தியல். நோய்த் தீர்வியல். நஞ்சியல்','','','',false,true);
+d.add(40,39,'615.1','<div class="nodetag">615.1</div></span>&nbsp;&nbsp;பொது மற்றும் தொழில்முறை மருந்தகம்','615.1','பொது மற்றும் தொழில்முறை மருந்தகம்','','','',false,true);
+d.add(41,39,'615.2','<div class="nodetag">615.2</div></span>&nbsp;&nbsp;முக்கிய செயல்களின் படி மருந்துப்பொருள்கள்','615.2','முக்கிய செயல்களின் படி மருந்துப்பொருள்கள்','','','',false,true);
+d.add(42,39,'615.3','<div class="nodetag">615.3</div></span>&nbsp;&nbsp;தோற்றத்தின் படியிலான மருந்துப்பொருள்கள்','615.3','தோற்றத்தின் படியிலான மருந்துப்பொருள்கள்','','','',false,true);
+d.add(43,39,'615.4','<div class="nodetag">615.4</div></span>&nbsp;&nbsp;மருந்து தயாரிப்புகள். மருத்துவபொருள். உபகரணம்','615.4','மருந்து தயாரிப்புகள். மருத்துவபொருள். உபகரணம்','','','',false,true);
+d.add(44,39,'615.8','<div class="nodetag">615.8</div></span>&nbsp;&nbsp;உடற்பயிற்சி சிகிச்சை. உடல்ரீதியான சிகிச்சை.கதிரியக்க சிகிச்சை.  மற்ற மருத்துவம் சாரா நோய் தீர்க்கும் சிகிச்சை','615.8','உடற்பயிற்சி சிகிச்சை. உடல்ரீதியான சிகிச்சை.கதிரியக்க சிகிச்சை.  மற்ற மருத்துவம் சாரா நோய் தீர்க்கும் சிகிச்சை','','','',false,true);
+d.add(45,39,'615.9','<div class="nodetag">615.9</div></span>&nbsp;&nbsp;பொது நச்சுயியல். நஞ்சுகள் மற்றும் நச்சுத்தன்மை பற்றி பொதுவான ஆய்வுகள் (நச்சாதல்)','615.9','பொது நச்சுயியல். நஞ்சுகள் மற்றும் நச்சுத்தன்மை பற்றி பொதுவான ஆய்வுகள் (நச்சாதல்)','','','',false,true);
+d.add(46,7,'616','<div class="nodetag">616</div></span>&nbsp;&nbsp;நோயியல். மருந்தக மருத்துவம்','616','நோயியல். மருந்தக மருத்துவம்','','','',false,true);
+d.add(47,46,'616-001/-009','<div class="nodetag">616-001/-009</div></span>&nbsp;&nbsp;ஆரோக்கியமற்ற செயல்பாடுளுக்கான சிறப்பு துணை உட் பிரிவுகள்','616-001/-009','ஆரோக்கியமற்ற செயல்பாடுளுக்கான சிறப்பு துணை உட் பிரிவுகள்','','','',false,true);
+d.add(48,47,'616-001','<div class="nodetag">616-001</div></span>&nbsp;&nbsp;மன ஆதிர்ச்சி. காயங்கள். புண்கள்','616-001','மன ஆதிர்ச்சி. காயங்கள். புண்கள்','','','',false,true);
+d.add(49,47,'616-002','<div class="nodetag">616-002</div></span>&nbsp;&nbsp;வீக்கம். எரிச்சல். இரத்தக்கட்டு நெரிசல் (உடலின் ஒரு பகுதியில் அளவிற்கு அதிகமாக குருதி இருத்தல்). சளி அடைந்திருத்தல்','616-002','வீக்கம். எரிச்சல். இரத்தக்கட்டு நெரிசல் (உடலின் ஒரு பகுதியில் அளவிற்கு அதிகமாக குருதி இருத்தல்). சளி அடைந்திருத்தல்','','','',false,true);
+d.add(50,47,'616-003','<div class="nodetag">616-003</div></span>&nbsp;&nbsp;பிற்போக்கு மற்றும் இழப்பிற்கு ஈடு செய்கிற வழிமுறைகள்','616-003','பிற்போக்கு மற்றும் இழப்பிற்கு ஈடு செய்கிற வழிமுறைகள்','','','',false,true);
+d.add(51,47,'616-004','<div class="nodetag">616-004</div></span>&nbsp;&nbsp;உறுப்பின் காழ்ப்பு. கடினப்படுத்துதல் (கடினமான). ஈரலரிப்பு','616-004','உறுப்பின் காழ்ப்பு. கடினப்படுத்துதல் (கடினமான). ஈரலரிப்பு','','','',false,true);
+d.add(52,47,'616-005','<div class="nodetag">616-005</div></span>&nbsp;&nbsp;உள் சுற்றோட்ட ஒழுங்கின்மைகள்','616-005','உள் சுற்றோட்ட ஒழுங்கின்மைகள்','','','',false,true);
+d.add(53,47,'616-006','<div class="nodetag">616-006</div></span>&nbsp;&nbsp;வீக்கம். புற்றுக்கட்டிகள். பிலாஸ்டாமேடா. கோரிஸ்டமேடா. ஹமார்டோமேடா. நோய் கட்டிகள் பற்றிய ஆய்வு','616-006','வீக்கம். புற்றுக்கட்டிகள். பிலாஸ்டாமேடா. கோரிஸ்டமேடா. ஹமார்டோமேடா. நோய் கட்டிகள் பற்றிய ஆய்வு','','','',false,true);
+d.add(54,47,'616-007','<div class="nodetag">616-007</div></span>&nbsp;&nbsp;குறையுள்ள கட்டமைப்பு வளர்ச்சி. உடலியல் குறைபாடுகள். உடல் உறுப்புக் கோளாறுகள். ஹெமிடெரட்டா. பெரிதாக்கப்பட்ட, உருவை விட சிறியதாய் இருக்கிற உறுப்புகள். தெரடோலோஜி. கோர உருக்கள். அசாதாரண அமைப்புகள்','616-007','குறையுள்ள கட்டமைப்பு வளர்ச்சி. உடலியல் குறைபாடுகள். உடல் உறுப்புக் கோளாறுகள். ஹெமிடெரட்டா. பெரிதாக்கப்பட்ட, உருவை விட சிறியதாய் இருக்கிற உறுப்புகள். தெரடோலோஜி. கோர உருக்கள். அசாதாரண அமைப்புகள்','','','',false,true);
+d.add(55,47,'616-008','<div class="nodetag">616-008</div></span>&nbsp;&nbsp;செயல்பாட்டு மற்றும் வளர்சிதை மாற்ற கோளாறுகள்','616-008','செயல்பாட்டு மற்றும் வளர்சிதை மாற்ற கோளாறுகள்','','','',false,true);
+d.add(56,47,'616-009','<div class="nodetag">616-009</div></span>&nbsp;&nbsp;நரம்பியல் (நரம்பு) கோளாறுகள்','616-009','நரம்பியல் (நரம்பு) கோளாறுகள்','','','',false,true);
+d.add(57,46,'616-01/-099','<div class="nodetag">616-01/-099</div></span>&nbsp;&nbsp;நோய்க்குறியியலின் பொது அம்சங்களுக்கான சிறப்புதுணை எண்கள்','616-01/-099','நோய்க்குறியியலின் பொது அம்சங்களுக்கான சிறப்புதுணை எண்கள்','','','',false,true);
+d.add(58,57,'616-01','<div class="nodetag">616-01</div></span>&nbsp;&nbsp;நோயின் பல்வேறு அம்சங்கள். நோயாளிகள் மற்றும் மருத்துவ கவனிப்பு குறுக்கீடுகள்','616-01','நோயின் பல்வேறு அம்சங்கள். நோயாளிகள் மற்றும் மருத்துவ கவனிப்பு குறுக்கீடுகள்','','','',false,true);
+d.add(59,57,'616-02','<div class="nodetag">616-02</div></span>&nbsp;&nbsp;நோய்க்காரணி. நோயின் காரணிகளின் அறிவியல்','616-02','நோய்க்காரணி. நோயின் காரணிகளின் அறிவியல்','','','',false,true);
+d.add(60,57,'616-03','<div class="nodetag">616-03</div></span>&nbsp;&nbsp;நோயின் பலவகை வடிவங்கள், சிகிச்சை, மருந்துப்பொருள்களின் நிர்வாகம்','616-03','நோயின் பலவகை வடிவங்கள், சிகிச்சை, மருந்துப்பொருள்களின் நிர்வாகம்','','','',false,true);
+d.add(61,57,'616-05','<div class="nodetag">616-05</div></span>&nbsp;&nbsp;மனிதர்கள் மற்றும் நோயியலில் மனிதனின் தனிப்பட்ட பண்புகள். நோயாளிகளின் குணாதிசயங்கள்','616-05','மனிதர்கள் மற்றும் நோயியலில் மனிதனின் தனிப்பட்ட பண்புகள். நோயாளிகளின் குணாதிசயங்கள்','','','',false,true);
+d.add(62,57,'616-06','<div class="nodetag">616-06</div></span>&nbsp;&nbsp;சிக்கல்கள். விளைவுகள். பின்விளைவுகள். ஒத்திருத்தல், ஒரே நிலை. தொடர்பு.முந்தைய நோய்கள். பழைய சுகாதார நிலை.இரு நோய்களின் முரண்பாடுகள்','616-06','சிக்கல்கள். விளைவுகள். பின்விளைவுகள். ஒத்திருத்தல், ஒரே நிலை. தொடர்பு.முந்தைய நோய்கள். பழைய சுகாதார நிலை.இரு நோய்களின் முரண்பாடுகள்','','','',false,true);
+d.add(63,57,'616-07','<div class="nodetag">616-07</div></span>&nbsp;&nbsp;சிமியோலஜி. நோய் அறிகுறிகள். அடையாளங்கள் மற்றும்அறிகுறிகள். சோதனை. நோய் கண்டறிதல். பிரோபிடியூடிக்ஸ்','616-07','சிமியோலஜி. நோய் அறிகுறிகள். அடையாளங்கள் மற்றும்அறிகுறிகள். சோதனை. நோய் கண்டறிதல். பிரோபிடியூடிக்ஸ்','','','',false,true);
+d.add(64,57,'616-08','<div class="nodetag">616-08</div></span>&nbsp;&nbsp;சிகிச்சை','616-08','சிகிச்சை','','','',false,true);
+d.add(65,57,'616-091','<div class="nodetag">616-091</div></span>&nbsp;&nbsp;நோயியலுக்குரிய உடற்கூறியல்.ஆரோக்கியமற்ற உடற்கூறியியல்','616-091','நோயியலுக்குரிய உடற்கூறியல்.ஆரோக்கியமற்ற உடற்கூறியியல்','','','',false,true);
+d.add(66,57,'616-092','<div class="nodetag">616-092</div></span>&nbsp;&nbsp;நோயியலுக்குரிய உடலியல். செயல்கள்,நோய்களின் நடவடிக்கை முறை.நோய் தோன்றும் முறை. நோய்களின் தோற்றத்தை பற்றிய ஆய்வு','616-092','நோயியலுக்குரிய உடலியல். செயல்கள்,நோய்களின் நடவடிக்கை முறை.நோய் தோன்றும் முறை. நோய்களின் தோற்றத்தை பற்றிய ஆய்வு','','','',false,true);
+d.add(67,57,'616-093','<div class="nodetag">616-093</div></span>&nbsp;&nbsp;நுண்ணுயிரிகளின் நுட்பங்கள்','616-093','நுண்ணுயிரிகளின் நுட்பங்கள்','','','',false,true);
+d.add(68,57,'616-094','<div class="nodetag">616-094</div></span>&nbsp;&nbsp;நுண்ணுயிரிகளின் உருவியல்','616-094','நுண்ணுயிரிகளின் உருவியல்','','','',false,true);
+d.add(69,57,'616-095','<div class="nodetag">616-095</div></span>&nbsp;&nbsp;நுண்ணுயிரிகளின் உடலியல்','616-095','நுண்ணுயிரிகளின் உடலியல்','','','',false,true);
+d.add(70,57,'616-097','<div class="nodetag">616-097</div></span>&nbsp;&nbsp;தடுப்பாற்று செனித்திறன்','616-097','தடுப்பாற்று செனித்திறன்','','','',false,true);
+d.add(71,57,'616-098','<div class="nodetag">616-098</div></span>&nbsp;&nbsp;நுண்ணுயிர் இயற்பியல், வேதியியல், வளர்சிதை மாற்றம், சிதைமாற்றம்','616-098','நுண்ணுயிர் இயற்பியல், வேதியியல், வளர்சிதை மாற்றம், சிதைமாற்றம்','','','',false,true);
+d.add(72,57,'616-099','<div class="nodetag">616-099</div></span>&nbsp;&nbsp;நச்சு. நச்சாதல்','616-099','நச்சு. நச்சாதல்','','','',false,true);
+d.add(73,46,'616-71/-78','<div class="nodetag">616-71/-78</div></span>&nbsp;&nbsp;சிகிச்சை கருவியுட்டு மற்றும் சாதனங்களுக்கான சிறப்பு துணை உட்பிரிவு ','616-71/-78','சிகிச்சை கருவியுட்டு மற்றும் சாதனங்களுக்கான சிறப்பு துணை உட்பிரிவு ','','','',false,true);
+d.add(74,73,'616-71','<div class="nodetag">616-71</div></span>&nbsp;&nbsp;மருத்துவ கருவிகள் மற்றும் உபகரணங்கள் (பொதுவாக)','616-71','மருத்துவ கருவிகள் மற்றும் உபகரணங்கள் (பொதுவாக)','','','',false,true);
+d.add(75,73,'616-72','<div class="nodetag">616-72</div></span>&nbsp;&nbsp;அறுவை சிகிச்சை மற்றும் நோய் தீர்க்கும் கருவிகள்','616-72','அறுவை சிகிச்சை மற்றும் நோய் தீர்க்கும் கருவிகள்','','','',false,true);
+d.add(76,73,'616-74','<div class="nodetag">616-74</div></span>&nbsp;&nbsp;வலிமையூட்டும் மற்றும் திருத்த உதவும் பொருட்கள் மற்றும் உபகரணங்கள் ','616-74','வலிமையூட்டும் மற்றும் திருத்த உதவும் பொருட்கள் மற்றும் உபகரணங்கள் ','','','',false,true);
+d.add(77,73,'616-76','<div class="nodetag">616-76</div></span>&nbsp;&nbsp;திருத்த மற்றும் தடுக்க துணை புரியும் கருவிகள் முதலியன','616-76','திருத்த மற்றும் தடுக்க துணை புரியும் கருவிகள் முதலியன','','','',false,true);
+d.add(78,73,'616-77','<div class="nodetag">616-77</div></span>&nbsp;&nbsp;செயற்கை பொருட்கள் மற்றும் பாகங்கள். செயற்கை உறுப்புகள் முதலியன ','616-77','செயற்கை பொருட்கள் மற்றும் பாகங்கள். செயற்கை உறுப்புகள் முதலியன ','','','',false,true);
+d.add(79,73,'616-78','<div class="nodetag">616-78</div></span>&nbsp;&nbsp;இயந்திரங்கள் மற்றும் இயங்குமுறை உபகரணங்கள்','616-78','இயந்திரங்கள் மற்றும் இயங்குமுறை உபகரணங்கள்','','','',false,true);
+d.add(80,46,'616.1/.9','<div class="nodetag">616.1/.9</div></span>&nbsp;&nbsp;சிறப்பு நோயியல்','616.1/.9','சிறப்பு நோயியல்','','','',false,true);
+d.add(81,80,'616.1','<div class="nodetag">616.1</div></span>&nbsp;&nbsp;சுற்றோட்ட அமைப்பின் நோயியல், இரத்த நாளங்கள். இருதய முறைப்பாடுகள்','616.1','சுற்றோட்ட அமைப்பின் நோயியல், இரத்த நாளங்கள். இருதய முறைப்பாடுகள்','','','',false,true);
+d.add(82,80,'616.2','<div class="nodetag">616.2</div></span>&nbsp;&nbsp;சுவாச அமைப்பு நோய்குறியாய்வு. சுவாச உறுப்புகளின் குறையீடுகள்','616.2','சுவாச அமைப்பு நோய்குறியாய்வு. சுவாச உறுப்புகளின் குறையீடுகள்','','','',false,true);
+d.add(83,80,'616.3','<div class="nodetag">616.3</div></span>&nbsp;&nbsp;செரிமான அமைப்புக்குரிய நோய்குறியாய்வு. உணவு குழாய் குறையீடுகள்','616.3','செரிமான அமைப்புக்குரிய நோய்குறியாய்வு. உணவு குழாய் குறையீடுகள்','','','',false,true);
+d.add(84,83,'616.31','<div class="nodetag">616.31</div></span>&nbsp;&nbsp;வாய் நோயியல். வாய். வாய். வாய் மற்றும் பற்களின் குறையீடுகள்','616.31','வாய் நோயியல். வாய். வாய். வாய் மற்றும் பற்களின் குறையீடுகள்','','','',false,true);
+d.add(85,80,'616.4','<div class="nodetag">616.4</div></span>&nbsp;&nbsp;நிணநீர்த்தொகுதியின் நோய்குறியாய்வு, ஹேமடோபோயேடிக் (ஹேமடோபோயேடிக்) உறுப்புகள், நாளமில்லா உட்சுரப்புகள்','616.4','நிணநீர்த்தொகுதியின் நோய்குறியாய்வு, ஹேமடோபோயேடிக் (ஹேமடோபோயேடிக்) உறுப்புகள், நாளமில்லா உட்சுரப்புகள்','','','',false,true);
+d.add(86,80,'616.5','<div class="nodetag">616.5</div></span>&nbsp;&nbsp;தோல். பொதுவான வெளிப்போர்வை.  தோலியல் மருத்துவம். தோல்தசை புகார்கள்','616.5','தோல். பொதுவான வெளிப்போர்வை.  தோலியல் மருத்துவம். தோல்தசை புகார்கள்','','','',false,true);
+d.add(87,80,'616.6','<div class="nodetag">616.6</div></span>&nbsp;&nbsp;சிறுநீர்பிறப்புறுப்பு அமைப்பு நோய்குறியாய்வு.சிறுநீர் மற்றும் பாலியல் (பிறப்புறுப்பு) குறையீடுகள்','616.6','சிறுநீர்பிறப்புறுப்பு அமைப்பு நோய்குறியாய்வு.சிறுநீர் மற்றும் பாலியல் (பிறப்புறுப்பு) குறையீடுகள்','','','',false,true);
+d.add(88,80,'616.7','<div class="nodetag">616.7</div></span>&nbsp;&nbsp;இடப்பெயர்ச்சி உறுப்புகளின் நோயியல். எலும்பு மற்றும்  இடப்பெயர்ச்சி அமைப்புகள்.','616.7','இடப்பெயர்ச்சி உறுப்புகளின் நோயியல். எலும்பு மற்றும்  இடப்பெயர்ச்சி அமைப்புகள்.','','','',false,true);
+d.add(89,80,'616.8','<div class="nodetag">616.8</div></span>&nbsp;&nbsp;நரம்பியல். நரம்பின் நோயியல். நரம்பு மண்டலம்','616.8','நரம்பியல். நரம்பின் நோயியல். நரம்பு மண்டலம்','','','',false,true);
+d.add(90,89,'616.89','<div class="nodetag">616.89</div></span>&nbsp;&nbsp;உளவியல். நோயியலின் உளவியல். மனோ.பிரேநோபதிஸ். உளப்பிணி. மன அசாதாரணம். நோயுற்ற மனநிலை. நடத்தை மற்றும் உணர்வுபூர்வமான தொந்தரவுகள்','616.89','உளவியல். நோயியலின் உளவியல். மனோ.பிரேநோபதிஸ். உளப்பிணி. மன அசாதாரணம். நோயுற்ற மனநிலை. நடத்தை மற்றும் உணர்வுபூர்வமான தொந்தரவுகள்','','','',false,true);
+d.add(91,80,'616.9','<div class="nodetag">616.9</div></span>&nbsp;&nbsp;தொடர்பு நோய்கள். தொற்றுப்பண்புடைய மற்றும் தொற்று நோய்கள், காய்ச்சல்கள்','616.9','தொடர்பு நோய்கள். தொற்றுப்பண்புடைய மற்றும் தொற்று நோய்கள், காய்ச்சல்கள்','','','',false,true);
+d.add(92,7,'617','<div class="nodetag">617</div></span>&nbsp;&nbsp;அறுவை சிகிச்சை. தசைநார் எலும்புக்கூட்டுக்குரிய அமைப்பு. கண் மருத்துவம்','617','அறுவை சிகிச்சை. தசைநார் எலும்புக்கூட்டுக்குரிய அமைப்பு. கண் மருத்துவம்','','','',false,true);
+d.add(93,92,'617.3','<div class="nodetag">617.3</div></span>&nbsp;&nbsp;பொதுவாக எலும்புக்கூட்டியியல்','617.3','பொதுவாக எலும்புக்கூட்டியியல்','','','',false,true);
+d.add(94,92,'617.7','<div class="nodetag">617.7</div></span>&nbsp;&nbsp;கண். கண் கோளாறுகள் மற்றும் சிகிச்சை','617.7','கண். கண் கோளாறுகள் மற்றும் சிகிச்சை','','','',false,true);
+d.add(95,7,'618','<div class="nodetag">618</div></span>&nbsp;&nbsp;மகப்பேறு மருத்துவம். பெண்களுக்கு மருத்துவம் செய்தல் பற்றிய அறிவியல் ஆய்வு','618','மகப்பேறு மருத்துவம். பெண்களுக்கு மருத்துவம் செய்தல் பற்றிய அறிவியல் ஆய்வு','','','',false,true);
+d.add(96,0,'62','<div class="nodetag">62</div></span>&nbsp;&nbsp;பொறியியல். பொது நுட்பவியல்','62','பொறியியல். பொது நுட்பவியல்','','','',false,true);
+d.add(97,96,'62-1/-9','<div class="nodetag">62-1/-9</div></span>&nbsp;&nbsp;இயந்திரங்களின் பண்புகள் மற்றும்  கருவிகள், இயந்திரங்கள் தொழிற்சாலை, செயல்முறைகள்  மற்றும் பொருட்களின் விவரங்களுக்கான சிறப்பு துணை எண்கள்','62-1/-9','இயந்திரங்களின் பண்புகள் மற்றும்  கருவிகள், இயந்திரங்கள் தொழிற்சாலை, செயல்முறைகள்  மற்றும் பொருட்களின் விவரங்களுக்கான சிறப்பு துணை எண்கள்','','','',false,true);
+d.add(98,97,'62-1','<div class="nodetag">62-1</div></span>&nbsp;&nbsp;இயந்திரங்களின் பொது பண்புகள் முதலியன','62-1','இயந்திரங்களின் பொது பண்புகள் முதலியன','','','',false,true);
+d.add(99,97,'62-2','<div class="nodetag">62-2</div></span>&nbsp;&nbsp;நிலையான மற்றும் நகரும் பாகங்கள், இயந்திரங்களின்கூறுகள்','62-2','நிலையான மற்றும் நகரும் பாகங்கள், இயந்திரங்களின்கூறுகள்','','','',false,true);
+d.add(100,97,'62-3','<div class="nodetag">62-3</div></span>&nbsp;&nbsp;திரவ கட்டுப்பாடு பகுதிகள் மற்றும் இயக்கிகள்.வால்வுகள், மூடல்கள் முதலியன','62-3','திரவ கட்டுப்பாடு பகுதிகள் மற்றும் இயக்கிகள்.வால்வுகள், மூடல்கள் முதலியன','','','',false,true);
+d.add(101,97,'62-4','<div class="nodetag">62-4</div></span>&nbsp;&nbsp;நிலை, நிலைமை, பொருட்களின் படிவம், பரப்புகள், பொருட்கள், தயாரிப்புகள்.','62-4','நிலை, நிலைமை, பொருட்களின் படிவம், பரப்புகள், பொருட்கள், தயாரிப்புகள்.','','','',false,true);
+d.add(102,97,'62-5','<div class="nodetag">62-5</div></span>&nbsp;&nbsp;செயல்பாடு மற்றும் இயந்திரங்களின் கட்டுப்பாடு மற்றும் செயல்முறைகள்','62-5','செயல்பாடு மற்றும் இயந்திரங்களின் கட்டுப்பாடு மற்றும் செயல்முறைகள்','','','',false,true);
+d.add(103,97,'62-6','<div class="nodetag">62-6</div></span>&nbsp;&nbsp;இயந்திரங்கள் மற்றும் நிறுவல்களின் எரிபொருள் மற்றும் மற்ற வெப்ப-மூல பண்புகள்','62-6','இயந்திரங்கள் மற்றும் நிறுவல்களின் எரிபொருள் மற்றும் மற்ற வெப்ப-மூல பண்புகள்','','','',false,true);
+d.add(104,97,'62-7','<div class="nodetag">62-7</div></span>&nbsp;&nbsp;இயந்திரங்களில் பணி, பராமரிப்பு மற்றும் பாதுகாப்பு சாதனங்கள்','62-7','இயந்திரங்களில் பணி, பராமரிப்பு மற்றும் பாதுகாப்பு சாதனங்கள்','','','',false,true);
+d.add(105,97,'62-8','<div class="nodetag">62-8</div></span>&nbsp;&nbsp;இயக்கஞ் சார்ந்த, உந்து சக்தியிலான இயந்திரங்கள்.  இயந்திர ஆற்றல் மூலம்','62-8','இயக்கஞ் சார்ந்த, உந்து சக்தியிலான இயந்திரங்கள்.  இயந்திர ஆற்றல் மூலம்','','','',false,true);
+d.add(106,97,'62-9','<div class="nodetag">62-9</div></span>&nbsp;&nbsp;மாறிகள், நிலைமைகள் மற்றும் உற்பத்தி முறைகள் பண்புகள் ,தொழிற்சாலை மற்றும் சாதனங்களின் பண்புகள்','62-9','மாறிகள், நிலைமைகள் மற்றும் உற்பத்தி முறைகள் பண்புகள் ,தொழிற்சாலை மற்றும் சாதனங்களின் பண்புகள்','','','',false,true);
+d.add(107,106,'62-91','<div class="nodetag">62-91</div></span>&nbsp;&nbsp;பொருள் நிலை: பண்புகள் மற்றும் மாறிலிகள்','62-91','பொருள் நிலை: பண்புகள் மற்றும் மாறிலிகள்','','','',false,true);
+d.add(108,106,'62-92','<div class="nodetag">62-92</div></span>&nbsp;&nbsp;ஊடகத்தின் மூலமாக வினைகள், வேதிஊடகங்கள் ','62-92','ஊடகத்தின் மூலமாக வினைகள், வேதிஊடகங்கள் ','','','',false,true);
+d.add(109,106,'62-93','<div class="nodetag">62-93</div></span>&nbsp;&nbsp;செயல்கள், இயந்திரங்கள் மற்றும் உபகரணங்கள் வேலை செய்யும் முறையின்படி, தொடர்ச்சி, அமைப்புகள், ஊடகம்','62-93','செயல்கள், இயந்திரங்கள் மற்றும் உபகரணங்கள் வேலை செய்யும் முறையின்படி, தொடர்ச்சி, அமைப்புகள், ஊடகம்','','','',false,true);
+d.add(110,106,'62-94','<div class="nodetag">62-94</div></span>&nbsp;&nbsp; திசை, திசைவேகம், விகிதம், செயல்முறை நீடிக்கும் காலம் முதலியன.','62-94',' திசை, திசைவேகம், விகிதம், செயல்முறை நீடிக்கும் காலம் முதலியன.','','','',false,true);
+d.add(111,106,'62-95','<div class="nodetag">62-95</div></span>&nbsp;&nbsp;எளிய மற்றும் பன்மடங்கு வழிமுறைகள். ஒற்றை நிலை மற்றும் பலகட்ட செயல்முறைகள்','62-95','எளிய மற்றும் பன்மடங்கு வழிமுறைகள். ஒற்றை நிலை மற்றும் பலகட்ட செயல்முறைகள்','','','',false,true);
+d.add(112,106,'62-96','<div class="nodetag">62-96</div></span>&nbsp;&nbsp;தயாரிப்பு பண்புகள் மாற்றுவதன் அடிப்படையில் செயல்கள். பொதுவான மாற்றம்','62-96','தயாரிப்பு பண்புகள் மாற்றுவதன் அடிப்படையில் செயல்கள். பொதுவான மாற்றம்','','','',false,true);
+d.add(113,106,'62-97','<div class="nodetag">62-97</div></span>&nbsp;&nbsp;வெப்ப பண்புகள், வெப்பநிலை, வெப்பநிலை வரம்பு.','62-97','வெப்ப பண்புகள், வெப்பநிலை, வெப்பநிலை வரம்பு.','','','',false,true);
+d.add(114,106,'62-98','<div class="nodetag">62-98</div></span>&nbsp;&nbsp;அழுத்தம், அழுத்தத்தின் வரம்பு. ','62-98','அழுத்தம், அழுத்தத்தின் வரம்பு. ','','','',false,true);
+d.add(115,96,'620','<div class="nodetag">620</div></span>&nbsp;&nbsp;பொருட்களின் பரிசோதனை. வணிக பொருட்கள். மின் நிலையங்கள். ஆற்றல் பொருளாதாரம்','620','பொருட்களின் பரிசோதனை. வணிக பொருட்கள். மின் நிலையங்கள். ஆற்றல் பொருளாதாரம்','','','',false,true);
+d.add(116,115,'620.3','<div class="nodetag">620.3</div></span>&nbsp;&nbsp;மீ நுண் தொழில்நுட்பம்','620.3','மீ நுண் தொழில்நுட்பம்','','','',false,true);
+d.add(117,115,'620.9','<div class="nodetag">620.9</div></span>&nbsp;&nbsp;பொதுவான ஆற்றல் பொருளாதாரம்','620.9','பொதுவான ஆற்றல் பொருளாதாரம்','','','',false,true);
+d.add(118,96,'621','<div class="nodetag">621</div></span>&nbsp;&nbsp;பொதுவான இயந்திர பொறியியல். அணுசக்தி தொழில்நுட்பம். மின் பொறியியல். இயந்திர சாதனங்கள்','621','பொதுவான இயந்திர பொறியியல். அணுசக்தி தொழில்நுட்பம். மின் பொறியியல். இயந்திர சாதனங்கள்','','','',false,true);
+d.add(119,118,'621.1','<div class="nodetag">621.1</div></span>&nbsp;&nbsp;பொதுவான வெப்ப இயந்திரங்கள்.  நீராவி உற்பத்தி,விநியோகம் மற்றும்  பயன்பாடு. நீராவி என்ஜின்கள். கொதிகலன்கள்','621.1','பொதுவான வெப்ப இயந்திரங்கள்.  நீராவி உற்பத்தி,விநியோகம் மற்றும்  பயன்பாடு. நீராவி என்ஜின்கள். கொதிகலன்கள்','','','',false,true);
+d.add(120,118,'621.22','<div class="nodetag">621.22</div></span>&nbsp;&nbsp;நீரியல் ஆற்றல். நீர் சக்தி. நீரியல் இயந்திரங்கள்','621.22','நீரியல் ஆற்றல். நீர் சக்தி. நீரியல் இயந்திரங்கள்','','','',false,true);
+d.add(121,118,'621.3','<div class="nodetag">621.3</div></span>&nbsp;&nbsp;மின் பொறியியல்','621.3','மின் பொறியியல்','','','',false,true);
+d.add(122,118,'621.4','<div class="nodetag">621.4</div></span>&nbsp;&nbsp;வெப்ப இயந்திரங்கள் (நீராவி இயந்திரங்கள் தவிர)','621.4','வெப்ப இயந்திரங்கள் (நீராவி இயந்திரங்கள் தவிர)','','','',false,true);
+d.add(123,118,'621.5','<div class="nodetag">621.5</div></span>&nbsp;&nbsp;காற்றியக்கு ஆற்றல், இயந்திரத் தொகுதி மற்றும்  கருவிகள். குளிர்ப்பதனம்','621.5','காற்றியக்கு ஆற்றல், இயந்திரத் தொகுதி மற்றும்  கருவிகள். குளிர்ப்பதனம்','','','',false,true);
+d.add(124,118,'621.6','<div class="nodetag">621.6</div></span>&nbsp;&nbsp;திரவங்களை கையாளுதல், சேமிப்பு மற்றும் பகிர்ந்தளிப்பு ஆலை மற்றும் உத்திகள்','621.6','திரவங்களை கையாளுதல், சேமிப்பு மற்றும் பகிர்ந்தளிப்பு ஆலை மற்றும் உத்திகள்','','','',false,true);
+d.add(125,118,'621.7','<div class="nodetag">621.7</div></span>&nbsp;&nbsp;பொதுவாக இயந்திர தொழில்நுட்பம்: செயல்முறைகள், கருவிகள், இயந்திரங்கள், உபகரணங்கள்','621.7','பொதுவாக இயந்திர தொழில்நுட்பம்: செயல்முறைகள், கருவிகள், இயந்திரங்கள், உபகரணங்கள்','','','',false,true);
+d.add(126,118,'621.8','<div class="nodetag">621.8</div></span>&nbsp;&nbsp;இயந்திர கூறுகள். உந்து சக்தி பொறியியல்.பொருட்களை கையாளுதல்.செயற்களக்கருவிகள். உயவிடல்','621.8','இயந்திர கூறுகள். உந்து சக்தி பொறியியல்.பொருட்களை கையாளுதல்.செயற்களக்கருவிகள். உயவிடல்','','','',false,true);
+d.add(127,118,'621.9','<div class="nodetag">621.9</div></span>&nbsp;&nbsp;வேலை அல்லது சில்லு உருவாக்கம் கொண்டஇயந்திரங்கள். சிராய்ப்பு வேலை. சுத்திகள் மற்றும் அழுத்திகள்.','621.9','வேலை அல்லது சில்லு உருவாக்கம் கொண்டஇயந்திரங்கள். சிராய்ப்பு வேலை. சுத்திகள் மற்றும் அழுத்திகள்.','','','',false,true);
+d.add(128,96,'622','<div class="nodetag">622</div></span>&nbsp;&nbsp;சுரங்க தொழில்','622','சுரங்க தொழில்','','','',false,true);
+d.add(129,128,'622.1','<div class="nodetag">622.1</div></span>&nbsp;&nbsp;முதல்கட்ட விசாரணை. சுரங்க நில அளவியல் மற்றும் வரைபடம்.  கனிம வைப்பு ஆய்வு (மேற்பரப்பு மற்றும் நிலத்தடி)','622.1','முதல்கட்ட விசாரணை. சுரங்க நில அளவியல் மற்றும் வரைபடம்.  கனிம வைப்பு ஆய்வு (மேற்பரப்பு மற்றும் நிலத்தடி)','','','',false,true);
+d.add(130,128,'622.2','<div class="nodetag">622.2</div></span>&nbsp;&nbsp;சுரங்க செயல்கள். ஆய்வு, தொடக்க நிலை, வளர்ச்சி, தாது படிவுகளின் பணி','622.2','சுரங்க செயல்கள். ஆய்வு, தொடக்க நிலை, வளர்ச்சி, தாது படிவுகளின் பணி','','','',false,true);
+d.add(131,128,'622.3','<div class="nodetag">622.3</div></span>&nbsp;&nbsp;குறிப்பிட்ட கனிமங்கள், தாதுக்கள்,பாறைகளில் சுரங்க தொழில்','622.3','குறிப்பிட்ட கனிமங்கள், தாதுக்கள்,பாறைகளில் சுரங்க தொழில்','','','',false,true);
+d.add(132,128,'622.4','<div class="nodetag">622.4</div></span>&nbsp;&nbsp;காற்றோட்டம், காற்று சீரமைத்தல், வெப்பமாக்கல் மற்றும் சுரங்க ஒளியூட்டல்','622.4','காற்றோட்டம், காற்று சீரமைத்தல், வெப்பமாக்கல் மற்றும் சுரங்க ஒளியூட்டல்','','','',false,true);
+d.add(133,128,'622.5','<div class="nodetag">622.5</div></span>&nbsp;&nbsp;சுரங்க நீர் வெளியேற்றம். நீர்நீக்கம் (நீர்நீக்கம்)','622.5','சுரங்க நீர் வெளியேற்றம். நீர்நீக்கம் (நீர்நீக்கம்)','','','',false,true);
+d.add(134,128,'622.6','<div class="nodetag">622.6</div></span>&nbsp;&nbsp;வலிந்து இழுப்பதற்கு செலவாகும் ஆற்றல் மற்றும் கையாளுதல். பறக்க விடுவது. திருகுதல். மேற்பரப்பு போக்குவரத்து','622.6','வலிந்து இழுப்பதற்கு செலவாகும் ஆற்றல் மற்றும் கையாளுதல். பறக்க விடுவது. திருகுதல். மேற்பரப்பு போக்குவரத்து','','','',false,true);
+d.add(135,128,'622.7','<div class="nodetag">622.7</div></span>&nbsp;&nbsp; சிகிச்சை, கனிமங்களின் செயலாக்கம். கனிம தீட்டல். தாது தயாரிப்பு','622.7',' சிகிச்சை, கனிமங்களின் செயலாக்கம். கனிம தீட்டல். தாது தயாரிப்பு','','','',false,true);
+d.add(136,128,'622.8','<div class="nodetag">622.8</div></span>&nbsp;&nbsp;சுரங்க இடையூறுகள், விபத்துக்கள் மற்றும் சேதம்.சுரங்கங்களில் சுகாதாரம் மற்றும் பாதுகாப்பு','622.8','சுரங்க இடையூறுகள், விபத்துக்கள் மற்றும் சேதம்.சுரங்கங்களில் சுகாதாரம் மற்றும் பாதுகாப்பு','','','',false,true);
+d.add(137,96,'623','<div class="nodetag">623</div></span>&nbsp;&nbsp;இராணுவ பொறியியல்','623','இராணுவ பொறியியல்','','','',false,true);
+d.add(138,137,'623.1/.7','<div class="nodetag">623.1/.7</div></span>&nbsp;&nbsp;நிலத்தை அடிப்படையாக கொண்ட இராணுவபொறியியல். பீரங்கி படை','623.1/.7','நிலத்தை அடிப்படையாக கொண்ட இராணுவபொறியியல். பீரங்கி படை','','','',false,true);
+d.add(139,138,'623.1/.3','<div class="nodetag">623.1/.3</div></span>&nbsp;&nbsp;துறை பொறியியல். காப்பரண் கட்டுமானங்கள். பாதுகாப்பு வேலை','623.1/.3','துறை பொறியியல். காப்பரண் கட்டுமானங்கள். பாதுகாப்பு வேலை','','','',false,true);
+d.add(140,139,'623.1','<div class="nodetag">623.1</div></span>&nbsp;&nbsp;கோட்டைகள். நிரந்தர காப்பரண் கட்டுமானங்கள். வலுவூட்டப்பட்ட வரிசைகள் மற்றும் பகுதிகள்','623.1','கோட்டைகள். நிரந்தர காப்பரண் கட்டுமானங்கள். வலுவூட்டப்பட்ட வரிசைகள் மற்றும் பகுதிகள்','','','',false,true);
+d.add(141,139,'623.2','<div class="nodetag">623.2</div></span>&nbsp;&nbsp;தாக்குதல் மற்றும் பாதுகாப்பு பணிகள். முற்றுகை வேலை. துறை கட்டுமானங்கள். அகழிகள் வேலை','623.2','தாக்குதல் மற்றும் பாதுகாப்பு பணிகள். முற்றுகை வேலை. துறை கட்டுமானங்கள். அகழிகள் வேலை','','','',false,true);
+d.add(142,139,'623.3','<div class="nodetag">623.3</div></span>&nbsp;&nbsp;மனை சுரங்கதுறை . துறை தடைகள். வெள்ளம்','623.3','மனை சுரங்கதுறை . துறை தடைகள். வெள்ளம்','','','',false,true);
+d.add(143,138,'623.4','<div class="nodetag">623.4</div></span>&nbsp;&nbsp;தளவாடங்கள். போர்த் தளவாடங்கள்.  படைக்கலம். ஆயுதங்கள். துப்பாக்கிகள். பீரங்கி படை. சிறிய ஆயுதங்கள். பக்க ஆயுதங்கள். கவசப் பாதுகாப்புடைய மற்றும்  பிற  சேவை  வாகனங்கள்.வெடிமருந்துகள் மற்றும் போர் வாயுக்கள். வழிப்படுத்தப்பட்ட ஏவுகணைகள் மற்றும் ராக்கெட்டுகள்','623.4','தளவாடங்கள். போர்த் தளவாடங்கள்.  படைக்கலம். ஆயுதங்கள். துப்பாக்கிகள். பீரங்கி படை. சிறிய ஆயுதங்கள். பக்க ஆயுதங்கள். கவசப் பாதுகாப்புடைய மற்றும்  பிற  சேவை  வாகனங்கள்.வெடிமருந்துகள் மற்றும் போர் வாயுக்கள். வழிப்படுத்தப்பட்ட ஏவுகணைகள் மற்றும் ராக்கெட்டுகள்','','','',false,true);
+d.add(144,138,'623.5','<div class="nodetag">623.5</div></span>&nbsp;&nbsp;உந்துகணையியல். பீரங்கி இயக்கும் கலை. தத்துவார்த்த மற்றும் சோதனை பிரச்சினைகள்','623.5','உந்துகணையியல். பீரங்கி இயக்கும் கலை. தத்துவார்த்த மற்றும் சோதனை பிரச்சினைகள்','','','',false,true);
+d.add(145,138,'623.6','<div class="nodetag">623.6</div></span>&nbsp;&nbsp;துறை பொறியியலின் உபகரணங்கள் மற்றும் செயல்பாடுகள். தொடர்பு கோடுகள். ரேடார் எதிர் நடவடிக்கைகள். தொடர்பு கோடுகள். ரேடார் எதிர் நடவடிக்கைகள். இராணுவ இடவமைப்பு','623.6','துறை பொறியியலின் உபகரணங்கள் மற்றும் செயல்பாடுகள். தொடர்பு கோடுகள். ரேடார் எதிர் நடவடிக்கைகள். தொடர்பு கோடுகள். ரேடார் எதிர் நடவடிக்கைகள். இராணுவ இடவமைப்பு','','','',false,true);
+d.add(146,138,'623.7','<div class="nodetag">623.7</div></span>&nbsp;&nbsp;இராணுவ மற்றும் கடற்படை பறப்பியல். விமான பாதுகாப்பு','623.7','இராணுவ மற்றும் கடற்படை பறப்பியல். விமான பாதுகாப்பு','','','',false,true);
+d.add(147,137,'623.8/.9','<div class="nodetag">623.8/.9</div></span>&nbsp;&nbsp;கடற்படை பொறியியல்','623.8/.9','கடற்படை பொறியியல்','','','',false,true);
+d.add(148,147,'623.8','<div class="nodetag">623.8</div></span>&nbsp;&nbsp;கடற்படை கட்டுமானம். கடற்படை தளங்கள். போர் கப்பல்கள் மற்றும் ஏனைய கப்பல்கள்','623.8','கடற்படை கட்டுமானம். கடற்படை தளங்கள். போர் கப்பல்கள் மற்றும் ஏனைய கப்பல்கள்','','','',false,true);
+d.add(149,147,'623.9','<div class="nodetag">623.9</div></span>&nbsp;&nbsp;கப்பற்படையின் பொருள் மற்றும் உபகரணங்கள். கப்பல்கள் பாதுகாப்பு மற்றும் போர் தளவாடங்கள். நீர்மூழ்கி பாதுகாப்புகள்','623.9','கப்பற்படையின் பொருள் மற்றும் உபகரணங்கள். கப்பல்கள் பாதுகாப்பு மற்றும் போர் தளவாடங்கள். நீர்மூழ்கி பாதுகாப்புகள்','','','',false,true);
+d.add(150,96,'624','<div class="nodetag">624</div></span>&nbsp;&nbsp;பொது கட்டிட மற்றும் கட்டமைப்புபொறியியல்','624','பொது கட்டிட மற்றும் கட்டமைப்புபொறியியல்','','','',false,true);
+d.add(151,150,'624.01/.07','<div class="nodetag">624.01/.07</div></span>&nbsp;&nbsp;கட்டிட மற்றும் கட்டமைப்பு பொறியியலுக்கான சிறப்புதுணை உட்பிரிவு','624.01/.07','கட்டிட மற்றும் கட்டமைப்பு பொறியியலுக்கான சிறப்புதுணை உட்பிரிவு','','','',false,true);
+d.add(152,151,'624.01','<div class="nodetag">624.01</div></span>&nbsp;&nbsp;கட்டுமான முறை படி கட்டமைப்புகள் மற்றும் கட்டமைப்பு பாக பொருட்கள் மற்றும் கட்டுமான முறைகள்','624.01','கட்டுமான முறை படி கட்டமைப்புகள் மற்றும் கட்டமைப்பு பாக பொருட்கள் மற்றும் கட்டுமான முறைகள்','','','',false,true);
+d.add(153,151,'624.03','<div class="nodetag">624.03</div></span>&nbsp;&nbsp;அளவு, நிரந்தர தன்மை, இடம் மற்றும் கட்டமைப்புகள் வடிவம்','624.03','அளவு, நிரந்தர தன்மை, இடம் மற்றும் கட்டமைப்புகள் வடிவம்','','','',false,true);
+d.add(154,151,'624.04','<div class="nodetag">624.04</div></span>&nbsp;&nbsp;கட்டமைப்பு வடிவமைப்பு. விசாரணை மற்றும் கட்டமைப்புகளை கணிப்பதற்கு வரைகலை மற்றும் பகுப்பாய்வு நிலையியல்','624.04','கட்டமைப்பு வடிவமைப்பு. விசாரணை மற்றும் கட்டமைப்புகளை கணிப்பதற்கு வரைகலை மற்றும் பகுப்பாய்வு நிலையியல்','','','',false,true);
+d.add(155,151,'624.05','<div class="nodetag">624.05</div></span>&nbsp;&nbsp;தளம், அமைப்பு மற்றும் ஆலை. கட்டுமான முறைகள்','624.05','தளம், அமைப்பு மற்றும் ஆலை. கட்டுமான முறைகள்','','','',false,true);
+d.add(156,151,'624.07','<div class="nodetag">624.07</div></span>&nbsp;&nbsp;கட்டமைப்பு கூறுகள். சுமை-தாங்கி உறுப்பினர்கள்','624.07','கட்டமைப்பு கூறுகள். சுமை-தாங்கி உறுப்பினர்கள்','','','',false,true);
+d.add(157,150,'624.1','<div class="nodetag">624.1</div></span>&nbsp;&nbsp;அஸ்திவாரம். மண்வேலைகள். அடித்தளங்கள். குடைவு','624.1','அஸ்திவாரம். மண்வேலைகள். அடித்தளங்கள். குடைவு','','','',false,true);
+d.add(158,150,'624.21/.8','<div class="nodetag">624.21/.8</div></span>&nbsp;&nbsp;பாலக் கட்டுமானம் ','624.21/.8','பாலக் கட்டுமானம் ','','','',false,true);
+d.add(159,158,'624.3','<div class="nodetag">624.3</div></span>&nbsp;&nbsp;வளை பாலங்கள் (திறந்த வலை, சட்டக பின்னல் தூல பாலங்கள்)','624.3','வளை பாலங்கள் (திறந்த வலை, சட்டக பின்னல் தூல பாலங்கள்)','','','',false,true);
+d.add(160,158,'624.5','<div class="nodetag">624.5</div></span>&nbsp;&nbsp;கேபிள் பாலங்கள். இடைநீக்க பாலங்கள்','624.5','கேபிள் பாலங்கள். இடைநீக்க பாலங்கள்','','','',false,true);
+d.add(161,158,'624.6','<div class="nodetag">624.6</div></span>&nbsp;&nbsp;வளைவு பாலங்கள்','624.6','வளைவு பாலங்கள்','','','',false,true);
+d.add(162,158,'624.8','<div class="nodetag">624.8</div></span>&nbsp;&nbsp;அசையும் பாலங்கள்','624.8','அசையும் பாலங்கள்','','','',false,true);
+d.add(163,150,'624.9','<div class="nodetag">624.9</div></span>&nbsp;&nbsp;சிறந்த கட்டமைப்புகள் (பாலங்கள் தவிர). சிறந்த கட்டமைப்பில் தாங்களே முழுமையானவை','624.9','சிறந்த கட்டமைப்புகள் (பாலங்கள் தவிர). சிறந்த கட்டமைப்பில் தாங்களே முழுமையானவை','','','',false,true);
+d.add(164,96,'625','<div class="nodetag">625</div></span>&nbsp;&nbsp;கட்டிட பொறியியலின் நில போக்குவரத்து. ரயில்வே பொறியியல். நெடுஞ்சாலை பொறியியல்','625','கட்டிட பொறியியலின் நில போக்குவரத்து. ரயில்வே பொறியியல். நெடுஞ்சாலை பொறியியல்','','','',false,true);
+d.add(165,164,'625.1/.5','<div class="nodetag">625.1/.5</div></span>&nbsp;&nbsp;ரயில்வே. சாலை இருப்பூர்திப் போக்குவரத்து. கேபிள் வழிகள்','625.1/.5','ரயில்வே. சாலை இருப்பூர்திப் போக்குவரத்து. கேபிள் வழிகள்','','','',false,true);
+d.add(166,165,'625.1','<div class="nodetag">625.1</div></span>&nbsp;&nbsp;பொதுவாக ரயில்வே. நிரந்தர வழி. தடம் கட்டுமானம்','625.1','பொதுவாக ரயில்வே. நிரந்தர வழி. தடம் கட்டுமானம்','','','',false,true);
+d.add(167,165,'625.5','<div class="nodetag">625.5</div></span>&nbsp;&nbsp;கேபிள் ரயில்வே. கயிறு சார்ந்த ரயில்வே.இடைநீக்க  ரயில்வே. வான்வழி கயிறுகள் மற்றும் கேபிள் வழிகள். சரக்கு ஊர்தி வகையில் மின்னாற்றலால் இயங்குபவை','625.5','கேபிள் ரயில்வே. கயிறு சார்ந்த ரயில்வே.இடைநீக்க  ரயில்வே. வான்வழி கயிறுகள் மற்றும் கேபிள் வழிகள். சரக்கு ஊர்தி வகையில் மின்னாற்றலால் இயங்குபவை','','','',false,true);
+d.add(168,164,'625.7/.8','<div class="nodetag">625.7/.8</div></span>&nbsp;&nbsp;நெடுஞ்சாலை பொறியியல்','625.7/.8','நெடுஞ்சாலை பொறியியல்','','','',false,true);
+d.add(169,168,'625.7','<div class="nodetag">625.7</div></span>&nbsp;&nbsp;பொதுவாக நெடுஞ்சாலைகள். சாலைகள்.வண்டிப்பாதைகள். தெருக்கள். கிராமப்புற மற்றும் நகர்ப்புற சாலை அமைப்புகள்','625.7','பொதுவாக நெடுஞ்சாலைகள். சாலைகள்.வண்டிப்பாதைகள். தெருக்கள். கிராமப்புற மற்றும் நகர்ப்புற சாலை அமைப்புகள்','','','',false,true);
+d.add(170,168,'625.8','<div class="nodetag">625.8</div></span>&nbsp;&nbsp;நெடுஞ்சாலைகளை கடின தள மெருகீடுதல். நடைப்பாதை, கட்டட உட்பரப்பு அல்லது அணிந்திருக்கும் செல்வழி . பொருட்கள் தயாரிப்பு மற்றும் பயன்பாடு','625.8','நெடுஞ்சாலைகளை கடின தள மெருகீடுதல். நடைப்பாதை, கட்டட உட்பரப்பு அல்லது அணிந்திருக்கும் செல்வழி . பொருட்கள் தயாரிப்பு மற்றும் பயன்பாடு','','','',false,true);
+d.add(171,96,'626/627','<div class="nodetag">626/627</div></span>&nbsp;&nbsp;நீரியல் பொறியியல் மற்றும் கட்டுமான. நீர் (நீர்நிலை) கட்டமைப்புகள்','626/627','நீரியல் பொறியியல் மற்றும் கட்டுமான. நீர் (நீர்நிலை) கட்டமைப்புகள்','','','',false,true);
+d.add(172,171,'626','<div class="nodetag">626</div></span>&nbsp;&nbsp;பொதுவாக நீரியல் பொறியியல்','626','பொதுவாக நீரியல் பொறியியல்','','','',false,true);
+d.add(173,172,'626.1','<div class="nodetag">626.1</div></span>&nbsp;&nbsp;உள்நாட்டு பயணம் மேற்கொள்ளும் நீர்வழிகள். கால்வாய்கள். கால்வாயாக்கப்பட்ட ஆறுகள்','626.1','உள்நாட்டு பயணம் மேற்கொள்ளும் நீர்வழிகள். கால்வாய்கள். கால்வாயாக்கப்பட்ட ஆறுகள்','','','',false,true);
+d.add(174,172,'626.4','<div class="nodetag">626.4</div></span>&nbsp;&nbsp;பூட்டுகள்','626.4','பூட்டுகள்','','','',false,true);
+d.add(175,172,'626.5','<div class="nodetag">626.5</div></span>&nbsp;&nbsp;தூக்கும் இறங்கமைப்பு  மற்றும் கப்பல்களுக்கான சாய்தளங்கள்','626.5','தூக்கும் இறங்கமைப்பு  மற்றும் கப்பல்களுக்கான சாய்தளங்கள்','','','',false,true);
+d.add(176,172,'626.8','<div class="nodetag">626.8</div></span>&nbsp;&nbsp;விவசாய நீரியல். நீர்ப்பாசனம், வடிகால் மற்றும் இயல்நிலை மீட்டல் பொறியியல்','626.8','விவசாய நீரியல். நீர்ப்பாசனம், வடிகால் மற்றும் இயல்நிலை மீட்டல் பொறியியல்','','','',false,true);
+d.add(177,172,'626.9','<div class="nodetag">626.9</div></span>&nbsp;&nbsp;கடல் சார்ந்த கால்வாய்கள். கப்பல் கால்வாய்கள்','626.9','கடல் சார்ந்த கால்வாய்கள். கப்பல் கால்வாய்கள்','','','',false,true);
+d.add(178,171,'627','<div class="nodetag">627</div></span>&nbsp;&nbsp;இயற்கை நீர்வழி, துறைமுகம், கப்பல்துறை மற்றும் கடற்கரை பொறியியல். கடற் பயணம், ஆழப்படுத்துதல், காப்பு மற்றும் மீட்பு வசதிகள். அணைகள் மற்றும் நீரியல் மின் நிலையம்','627','இயற்கை நீர்வழி, துறைமுகம், கப்பல்துறை மற்றும் கடற்கரை பொறியியல். கடற் பயணம், ஆழப்படுத்துதல், காப்பு மற்றும் மீட்பு வசதிகள். அணைகள் மற்றும் நீரியல் மின் நிலையம்','','','',false,true);
+d.add(179,178,'627.2','<div class="nodetag">627.2</div></span>&nbsp;&nbsp;துறைமுகங்கள் மற்றும் கலன் நிறுத்துமிடங்கள்: பொதுவாக  பொறியியல் மற்றும் கட்டுமான பணிகள்','627.2','துறைமுகங்கள் மற்றும் கலன் நிறுத்துமிடங்கள்: பொதுவாக  பொறியியல் மற்றும் கட்டுமான பணிகள்','','','',false,true);
+d.add(180,178,'627.3','<div class="nodetag">627.3</div></span>&nbsp;&nbsp;துறைமுக வசதிகள். கப்பற்தளங்கள். கலத்துறை மேடை. கப்பல் துறை. நிறுவல்கள் மற்றும் உபகரணங்கள்','627.3','துறைமுக வசதிகள். கப்பற்தளங்கள். கலத்துறை மேடை. கப்பல் துறை. நிறுவல்கள் மற்றும் உபகரணங்கள்','','','',false,true);
+d.add(181,178,'627.4','<div class="nodetag">627.4</div></span>&nbsp;&nbsp;ஆற்றங்கரை பாதுகாப்பு. ஆறுகள் மற்றும் நீரோடைகளின் நேராக்கம். மற்ற ஆற்று மேம்பாடு பணிகள்','627.4','ஆற்றங்கரை பாதுகாப்பு. ஆறுகள் மற்றும் நீரோடைகளின் நேராக்கம். மற்ற ஆற்று மேம்பாடு பணிகள்','','','',false,true);
+d.add(182,178,'627.5','<div class="nodetag">627.5</div></span>&nbsp;&nbsp;மற்ற நீர்வழி பாதுகாப்பு மற்றும் மேம்பாட்டு பணிகள். கடல் அணை. கடலோர பாதுகாப்பு.  நிலவடிகால் மற்றும்  பண்படுத்தல்','627.5','மற்ற நீர்வழி பாதுகாப்பு மற்றும் மேம்பாட்டு பணிகள். கடல் அணை. கடலோர பாதுகாப்பு.  நிலவடிகால் மற்றும்  பண்படுத்தல்','','','',false,true);
+d.add(183,178,'627.7','<div class="nodetag">627.7</div></span>&nbsp;&nbsp;கடற்பயண வசதிகள். தட பராமரிப்பு. கடல் காப்பு மற்றும் மீட்பு வசதிகள்','627.7','கடற்பயண வசதிகள். தட பராமரிப்பு. கடல் காப்பு மற்றும் மீட்பு வசதிகள்','','','',false,true);
+d.add(184,178,'627.8','<div class="nodetag">627.8</div></span>&nbsp;&nbsp;அணைகள். நீரியல் மின் நிலைய பணிகள்','627.8','அணைகள். நீரியல் மின் நிலைய பணிகள்','','','',false,true);
+d.add(185,96,'628','<div class="nodetag">628</div></span>&nbsp;&nbsp;பொது சுகாதார பொறியியல். தண்ணீர். சுகாதாரம். ஒளியூட்டும் பொறியியல்','628','பொது சுகாதார பொறியியல். தண்ணீர். சுகாதாரம். ஒளியூட்டும் பொறியியல்','','','',false,true);
+d.add(186,185,'628.1','<div class="nodetag">628.1</div></span>&nbsp;&nbsp;நீர் விநியோகம். நீர் சிகிச்சை. தண்ணீர் பயன்பாடு','628.1','நீர் விநியோகம். நீர் சிகிச்சை. தண்ணீர் பயன்பாடு','','','',false,true);
+d.add(187,185,'628.2','<div class="nodetag">628.2</div></span>&nbsp;&nbsp;நகர நீர் அகற்றுதல். நகர வடிகால். கழிவுநீர்','628.2','நகர நீர் அகற்றுதல். நகர வடிகால். கழிவுநீர்','','','',false,true);
+d.add(188,185,'628.3','<div class="nodetag">628.3</div></span>&nbsp;&nbsp;கழிவுநீர். கழிவு நீர் சிகிச்சை, அகற்றல், பயன்பாடு','628.3','கழிவுநீர். கழிவு நீர் சிகிச்சை, அகற்றல், பயன்பாடு','','','',false,true);
+d.add(189,185,'628.4','<div class="nodetag">628.4</div></span>&nbsp;&nbsp;நகர்ப்புற சுகாதாரம். கழிவுகள். பயனற்ற பொருள், குப்பை. நகர கழிவுகள் சேகரிப்பு மற்றும் அகற்றுதல்','628.4','நகர்ப்புற சுகாதாரம். கழிவுகள். பயனற்ற பொருள், குப்பை. நகர கழிவுகள் சேகரிப்பு மற்றும் அகற்றுதல்','','','',false,true);
+d.add(190,185,'628.5','<div class="nodetag">628.5</div></span>&nbsp;&nbsp;தொழிலக மற்றும் பிற தொல்லைகளுக்கு எதிரான நடவடிக்கைகள்','628.5','தொழிலக மற்றும் பிற தொல்லைகளுக்கு எதிரான நடவடிக்கைகள்','','','',false,true);
+d.add(191,185,'628.6','<div class="nodetag">628.6</div></span>&nbsp;&nbsp;வடிகால் மற்றும் கட்டிடங்களின் சுகாதார நிறுவல்கள் (குறிப்பாக பொது சுகாதார தேவைகள்)','628.6','வடிகால் மற்றும் கட்டிடங்களின் சுகாதார நிறுவல்கள் (குறிப்பாக பொது சுகாதார தேவைகள்)','','','',false,true);
+d.add(192,185,'628.8','<div class="nodetag">628.8</div></span>&nbsp;&nbsp;உட்புற காலநிலை. காற்று மிதப்படுத்தல். வெப்பமூட்டுதல். காற்றோட்டம்','628.8','உட்புற காலநிலை. காற்று மிதப்படுத்தல். வெப்பமூட்டுதல். காற்றோட்டம்','','','',false,true);
+d.add(193,185,'628.9','<div class="nodetag">628.9</div></span>&nbsp;&nbsp;ஒளியிடல். ஒளிவெள்ளம் பொறியியல்','628.9','ஒளியிடல். ஒளிவெள்ளம் பொறியியல்','','','',false,true);
+d.add(194,96,'629','<div class="nodetag">629</div></span>&nbsp;&nbsp;போக்குவரத்து வாகன பொறியியல்','629','போக்குவரத்து வாகன பொறியியல்','','','',false,true);
+d.add(195,194,'629.01/.08','<div class="nodetag">629.01/.08</div></span>&nbsp;&nbsp;போக்குவரத்து வாகனபொறியியலுக்கான சிறப்பு துணை எண்கள்','629.01/.08','போக்குவரத்து வாகனபொறியியலுக்கான சிறப்பு துணை எண்கள்','','','',false,true);
+d.add(196,195,'629.01','<div class="nodetag">629.01</div></span>&nbsp;&nbsp;வாகன வடிவமைப்பு கொள்கைகள்: பண்புகள்,திறன்கள், சோதனைகள்','629.01','வாகன வடிவமைப்பு கொள்கைகள்: பண்புகள்,திறன்கள், சோதனைகள்','','','',false,true);
+d.add(197,195,'629.02','<div class="nodetag">629.02</div></span>&nbsp;&nbsp;வாகன வடிவமைப்பு, கட்டுமான கொள்கைகள்,பொது அமைப்பு மற்றும்  பாகங்கள்','629.02','வாகன வடிவமைப்பு, கட்டுமான கொள்கைகள்,பொது அமைப்பு மற்றும்  பாகங்கள்','','','',false,true);
+d.add(198,195,'629.03','<div class="nodetag">629.03</div></span>&nbsp;&nbsp;உந்துவிசை முறைமைகள்','629.03','உந்துவிசை முறைமைகள்','','','',false,true);
+d.add(199,195,'629.04','<div class="nodetag">629.04</div></span>&nbsp;&nbsp;உள்துறை தளவமைப்பு: தங்குமிடம், நிறுவல், நபர்கள் மற்றும் சரக்குகளுக்கான உபகரணங்கள்','629.04','உள்துறை தளவமைப்பு: தங்குமிடம், நிறுவல், நபர்கள் மற்றும் சரக்குகளுக்கான உபகரணங்கள்','','','',false,true);
+d.add(200,195,'629.05','<div class="nodetag">629.05</div></span>&nbsp;&nbsp;வழிகாட்டல், கட்டுப்பாடு-துவக்கத்தின் மற்றும் திசையமைப்பு மற்றும் கருவிகள் (வாகனம்-மூலமாக வரும்)','629.05','வழிகாட்டல், கட்டுப்பாடு-துவக்கத்தின் மற்றும் திசையமைப்பு மற்றும் கருவிகள் (வாகனம்-மூலமாக வரும்)','','','',false,true);
+d.add(201,195,'629.06','<div class="nodetag">629.06</div></span>&nbsp;&nbsp;வாகனத்தின் துணை அமைப்புகள் மற்றும் சாதனங்கள்','629.06','வாகனத்தின் துணை அமைப்புகள் மற்றும் சாதனங்கள்','','','',false,true);
+d.add(202,195,'629.07','<div class="nodetag">629.07</div></span>&nbsp;&nbsp;வாகன செயல்பாடுகளின் தொழில்நுட்ப அம்சங்கள் (செயல்பாட்டு நுட்பங்கள்)','629.07','வாகன செயல்பாடுகளின் தொழில்நுட்ப அம்சங்கள் (செயல்பாட்டு நுட்பங்கள்)','','','',false,true);
+d.add(203,195,'629.08','<div class="nodetag">629.08</div></span>&nbsp;&nbsp;அடிப்படை உபகரணம், நிறுவல்கள் மற்றும் தொடர்புடைய தொழில் நுட்ப நடைமுறைகள்','629.08','அடிப்படை உபகரணம், நிறுவல்கள் மற்றும் தொடர்புடைய தொழில் நுட்ப நடைமுறைகள்','','','',false,true);
+d.add(204,194,'629.3','<div class="nodetag">629.3</div></span>&nbsp;&nbsp;நில வாகன பொறியியல் (இரயில் வாகனங்கள் தவிர்த்து)','629.3','நில வாகன பொறியியல் (இரயில் வாகனங்கள் தவிர்த்து)','','','',false,true);
+d.add(205,194,'629.4','<div class="nodetag">629.4</div></span>&nbsp;&nbsp;ரயில் வாகன பொறியியல். தொடர் வண்டிகள். உருட்டல் இரும்பு. ரயில்வே கட்டுமானம்.  உருட்டல் இரும்பில் நிறுவல்கள் மற்றும் சேவைகள்','629.4','ரயில் வாகன பொறியியல். தொடர் வண்டிகள். உருட்டல் இரும்பு. ரயில்வே கட்டுமானம்.  உருட்டல் இரும்பில் நிறுவல்கள் மற்றும் சேவைகள்','','','',false,true);
+d.add(206,194,'629.5','<div class="nodetag">629.5</div></span>&nbsp;&nbsp;தோணி பொறியியல். கடல் பொறியியல். படகுகள். கப்பல்கள். படகுகள் கட்டுமானம் மற்றும் கப்பல் கட்டுமானம்','629.5','தோணி பொறியியல். கடல் பொறியியல். படகுகள். கப்பல்கள். படகுகள் கட்டுமானம் மற்றும் கப்பல் கட்டுமானம்','','','',false,true);
+d.add(207,194,'629.7','<div class="nodetag">629.7</div></span>&nbsp;&nbsp;விமான மற்றும் விண்வெளி போக்குவரத்து பொறியியல். விமானவியல் மற்றும் வானூர்தி. ராக்கெட்டுகள் மற்றும் ஏவுகணைகள். வானவியல் மற்றும் விண்கலம்','629.7','விமான மற்றும் விண்வெளி போக்குவரத்து பொறியியல். விமானவியல் மற்றும் வானூர்தி. ராக்கெட்டுகள் மற்றும் ஏவுகணைகள். வானவியல் மற்றும் விண்கலம்','','','',false,true);
+d.add(208,0,'63','<div class="nodetag">63</div></span>&nbsp;&nbsp;வேளாண்மை, சாகுபடி மற்றும் விவசாயம் சம்பந்தப்பட்ட நுணுக்குகள். பண்ணைக் காடுகள். பயிரிடுதல். இயற்கை வளங்களைப் பயன்படுத்துதல்','63','வேளாண்மை, சாகுபடி மற்றும் விவசாயம் சம்பந்தப்பட்ட நுணுக்குகள். பண்ணைக் காடுகள். பயிரிடுதல். இயற்கை வளங்களைப் பயன்படுத்துதல்','','','',false,true);
+d.add(209,208,'630','<div class="nodetag">630</div></span>&nbsp;&nbsp;வனவியல்','630','வனவியல்','','','',false,true);
+d.add(210,209,'630*0','<div class="nodetag">630*0</div></span>&nbsp;&nbsp;காடுகள், வனம் மற்றும் வனபொருட்கள் பயன்பாடு','630*0','காடுகள், வனம் மற்றும் வனபொருட்கள் பயன்பாடு','','','',false,true);
+d.add(211,209,'630*1','<div class="nodetag">630*1</div></span>&nbsp;&nbsp;சூழல் காரணிகள். வன உயிரியல்','630*1','சூழல் காரணிகள். வன உயிரியல்','','','',false,true);
+d.add(212,209,'630*2','<div class="nodetag">630*2</div></span>&nbsp;&nbsp;காடு வளர்ப்பு','630*2','காடு வளர்ப்பு','','','',false,true);
+d.add(213,209,'630*3','<div class="nodetag">630*3</div></span>&nbsp;&nbsp;காடுகளின் வேலை அறிவியல்  (வேலை ஆய்வுகள்). மர சேகரிப்பு: பதிவு மற்றும் போக்குவரத்து. வன பொறியியல்','630*3','காடுகளின் வேலை அறிவியல்  (வேலை ஆய்வுகள்). மர சேகரிப்பு: பதிவு மற்றும் போக்குவரத்து. வன பொறியியல்','','','',false,true);
+d.add(214,209,'630*4','<div class="nodetag">630*4</div></span>&nbsp;&nbsp;வன காயங்கள் மற்றும் பாதுகாப்பு','630*4','வன காயங்கள் மற்றும் பாதுகாப்பு','','','',false,true);
+d.add(215,209,'630*5','<div class="nodetag">630*5</div></span>&nbsp;&nbsp;வன அளவை நூல். நிலையங்களில் மூன்று வளர்ச்சி, உயர்வு, வளர்ச்சி மற்றும் கட்டமைப்பு. நில அளவியல் மற்றும் படமிடல்','630*5','வன அளவை நூல். நிலையங்களில் மூன்று வளர்ச்சி, உயர்வு, வளர்ச்சி மற்றும் கட்டமைப்பு. நில அளவியல் மற்றும் படமிடல்','','','',false,true);
+d.add(216,209,'630*6','<div class="nodetag">630*6</div></span>&nbsp;&nbsp;வன மேலாண்மை. காடுகளின் வணிக பொருளாதாரம். நிர்வாகம் மற்றும் வன நிறுவனங்களின் அமைப்பு','630*6','வன மேலாண்மை. காடுகளின் வணிக பொருளாதாரம். நிர்வாகம் மற்றும் வன நிறுவனங்களின் அமைப்பு','','','',false,true);
+d.add(217,209,'630*7','<div class="nodetag">630*7</div></span>&nbsp;&nbsp;காட்டு பொருட்களை சந்தைப்படுத்துதல். வன போக்குவரத்து பொருளாதாரம் மற்றும் மர தொழில்கள்','630*7','காட்டு பொருட்களை சந்தைப்படுத்துதல். வன போக்குவரத்து பொருளாதாரம் மற்றும் மர தொழில்கள்','','','',false,true);
+d.add(218,209,'630*8','<div class="nodetag">630*8</div></span>&nbsp;&nbsp;வன பொருட்கள் மற்றும் அவற்றின் பயன்பாடு','630*8','வன பொருட்கள் மற்றும் அவற்றின் பயன்பாடு','','','',false,true);
+d.add(219,209,'630*9','<div class="nodetag">630*9</div></span>&nbsp;&nbsp;பார்வையில் தேசிய பார்வையில் காடுகள் மற்றும் வனவியல். காடுகளின் சமூக பொருளாதாரம்','630*9','பார்வையில் தேசிய பார்வையில் காடுகள் மற்றும் வனவியல். காடுகளின் சமூக பொருளாதாரம்','','','',false,true);
+d.add(220,208,'631/635','<div class="nodetag">631/635</div></span>&nbsp;&nbsp;பண்ணை மேலாண்மை. உழவு வாழ்க்கை. தோட்டக்கலை (தொழில்)','631/635','பண்ணை மேலாண்மை. உழவு வாழ்க்கை. தோட்டக்கலை (தொழில்)','','','',false,true);
+d.add(221,220,'631','<div class="nodetag">631</div></span>&nbsp;&nbsp;பொதுவாக விவசாயம்','631','பொதுவாக விவசாயம்','','','',false,true);
+d.add(222,221,'631.1','<div class="nodetag">631.1</div></span>&nbsp;&nbsp;பண்ணை மேலாண்மை மற்றும் அமைப்பு','631.1','பண்ணை மேலாண்மை மற்றும் அமைப்பு','','','',false,true);
+d.add(223,221,'631.2','<div class="nodetag">631.2</div></span>&nbsp;&nbsp;பண்ணை கட்டிடங்கள், கட்டமைப்புகள் மற்றும் நிறுவல்கள். கால்நடை, உற்பத்தி, இயந்திரங்கள் மற்றும் உபகரணங்களுக்கான கட்டிடங்கள்','631.2','பண்ணை கட்டிடங்கள், கட்டமைப்புகள் மற்றும் நிறுவல்கள். கால்நடை, உற்பத்தி, இயந்திரங்கள் மற்றும் உபகரணங்களுக்கான கட்டிடங்கள்','','','',false,true);
+d.add(224,221,'631.3','<div class="nodetag">631.3</div></span>&nbsp;&nbsp;வேளாண் இயந்திரங்கள், கருவிகள் மற்றும் உபகரணங்கள்','631.3','வேளாண் இயந்திரங்கள், கருவிகள் மற்றும் உபகரணங்கள்','','','',false,true);
+d.add(225,221,'631.4','<div class="nodetag">631.4</div></span>&nbsp;&nbsp;மண் அறிவியல். மண் வகை ஆய்வு. மண் ஆராய்ச்சி','631.4','மண் அறிவியல். மண் வகை ஆய்வு. மண் ஆராய்ச்சி','','','',false,true);
+d.add(226,221,'631.5','<div class="nodetag">631.5</div></span>&nbsp;&nbsp;விவசாய நடவடிக்கைகள்','631.5','விவசாய நடவடிக்கைகள்','','','',false,true);
+d.add(227,221,'631.6','<div class="nodetag">631.6</div></span>&nbsp;&nbsp;கிராம பொறியியல்','631.6','கிராம பொறியியல்','','','',false,true);
+d.add(228,221,'631.8','<div class="nodetag">631.8</div></span>&nbsp;&nbsp;உரம், உரங்கள் மற்றும் மண்ணின் செறிவூட்டல். வளர்ச்சி ஊக்குவிப்பு. தாவர தூண்டிகள்','631.8','உரம், உரங்கள் மற்றும் மண்ணின் செறிவூட்டல். வளர்ச்சி ஊக்குவிப்பு. தாவர தூண்டிகள்','','','',false,true);
+d.add(229,220,'632','<div class="nodetag">632</div></span>&nbsp;&nbsp;தாவர சேதம், காயங்கள். தாவர நோய்கள். பூச்சிகள், தாவரங்கள் கெடுதியான உயிரினங்கள். தாவர பாதுகாப்பு','632','தாவர சேதம், காயங்கள். தாவர நோய்கள். பூச்சிகள், தாவரங்கள் கெடுதியான உயிரினங்கள். தாவர பாதுகாப்பு','','','',false,true);
+d.add(230,220,'633/635','<div class="nodetag">633/635</div></span>&nbsp;&nbsp;பொதுவாக தோட்டக்கலை. குறிப்பிட்ட பயிர்கள்','633/635','பொதுவாக தோட்டக்கலை. குறிப்பிட்ட பயிர்கள்','','','',false,true);
+d.add(231,230,'633','<div class="nodetag">633</div></span>&nbsp;&nbsp;புலத்தில் பயிர்கள் மற்றும் அவற்றின் உற்பத்தி','633','புலத்தில் பயிர்கள் மற்றும் அவற்றின் உற்பத்தி','','','',false,true);
+d.add(232,231,'633.1','<div class="nodetag">633.1</div></span>&nbsp;&nbsp;தானியங்கள். தானிய பயிர்கள்','633.1','தானியங்கள். தானிய பயிர்கள்','','','',false,true);
+d.add(233,231,'633.2','<div class="nodetag">633.2</div></span>&nbsp;&nbsp;தீவன புற்கள். பசும்புல் மற்றும் மேய்ச்சல் புற்கள்','633.2','தீவன புற்கள். பசும்புல் மற்றும் மேய்ச்சல் புற்கள்','','','',false,true);
+d.add(234,231,'633.3','<div class="nodetag">633.3</div></span>&nbsp;&nbsp;புற்கள் தவிர தீவன தாவரங்கள்','633.3','புற்கள் தவிர தீவன தாவரங்கள்','','','',false,true);
+d.add(235,231,'633.4','<div class="nodetag">633.4</div></span>&nbsp;&nbsp;சாப்பிடக்கூடிய வேர்களும் கிழங்குகளும். வேர் பயிர்கள்','633.4','சாப்பிடக்கூடிய வேர்களும் கிழங்குகளும். வேர் பயிர்கள்','','','',false,true);
+d.add(236,231,'633.5','<div class="nodetag">633.5</div></span>&nbsp;&nbsp;நெசவு ​​மற்றும் இழை தாவரங்கள்','633.5','நெசவு ​​மற்றும் இழை தாவரங்கள்','','','',false,true);
+d.add(237,231,'633.6','<div class="nodetag">633.6</div></span>&nbsp;&nbsp;சர்க்கரை மற்றும் பச்சைய தாவரங்கள்','633.6','சர்க்கரை மற்றும் பச்சைய தாவரங்கள்','','','',false,true);
+d.add(238,231,'633.7','<div class="nodetag">633.7</div></span>&nbsp;&nbsp;தூண்டிகள் தரக்கூடிய தாவரங்கள்.பான தாவரங்கள்','633.7','தூண்டிகள் தரக்கூடிய தாவரங்கள்.பான தாவரங்கள்','','','',false,true);
+d.add(239,231,'633.8','<div class="nodetag">633.8</div></span>&nbsp;&nbsp;வாசனை தாவரங்கள். ஆகாரத்தை ருசிக்க செய்யும் தாவரங்கள். எண்ணெய்ப் பசையுள்ள தாவரங்கள். சாய  தாவரங்கள். தாவரங்களை பதனிடுதல். மூலிகை தாவரங்கள்','633.8','வாசனை தாவரங்கள். ஆகாரத்தை ருசிக்க செய்யும் தாவரங்கள். எண்ணெய்ப் பசையுள்ள தாவரங்கள். சாய  தாவரங்கள். தாவரங்களை பதனிடுதல். மூலிகை தாவரங்கள்','','','',false,true);
+d.add(240,231,'633.9','<div class="nodetag">633.9</div></span>&nbsp;&nbsp;தொழில்துறையில் பயன்படுத்துகிற மற்ற தாவரங்கள்','633.9','தொழில்துறையில் பயன்படுத்துகிற மற்ற தாவரங்கள்','','','',false,true);
+d.add(241,230,'634','<div class="nodetag">634</div></span>&nbsp;&nbsp;பழம் தருபவை','634','பழம் தருபவை','','','',false,true);
+d.add(242,241,'634.2','<div class="nodetag">634.2</div></span>&nbsp;&nbsp;கல் பழங்கள்.  உள்ளோட்டுச் சதைக்கனிகள் பொதுவாக','634.2','கல் பழங்கள்.  உள்ளோட்டுச் சதைக்கனிகள் பொதுவாக','','','',false,true);
+d.add(243,241,'634.3','<div class="nodetag">634.3</div></span>&nbsp;&nbsp;ருடேஷியஸ் மற்றும் மோரேஷியஸ் பழங்கள். பொதுவாக புளிப்பு சுவையுடைய பழங்கள்','634.3','ருடேஷியஸ் மற்றும் மோரேஷியஸ் பழங்கள். பொதுவாக புளிப்பு சுவையுடைய பழங்கள்','','','',false,true);
+d.add(244,241,'634.4','<div class="nodetag">634.4</div></span>&nbsp;&nbsp;மற்ற கூழ் பழங்கள்','634.4','மற்ற கூழ் பழங்கள்','','','',false,true);
+d.add(245,241,'634.5','<div class="nodetag">634.5</div></span>&nbsp;&nbsp;கொட்டைப் பருப்புகள்','634.5','கொட்டைப் பருப்புகள்','','','',false,true);
+d.add(246,241,'634.6','<div class="nodetag">634.6</div></span>&nbsp;&nbsp;பல்வேறு வெப்ப மண்டல மற்றும் மிதவெப்ப மண்டல பழங்கள்','634.6','பல்வேறு வெப்ப மண்டல மற்றும் மிதவெப்ப மண்டல பழங்கள்','','','',false,true);
+d.add(247,241,'634.7','<div class="nodetag">634.7</div></span>&nbsp;&nbsp;புதர்கள் மற்றும் மூலிகை இயல்புள்ள  தாவரங்களின் சிறிய பழங்கள். சதைக்கனி','634.7','புதர்கள் மற்றும் மூலிகை இயல்புள்ள  தாவரங்களின் சிறிய பழங்கள். சதைக்கனி','','','',false,true);
+d.add(248,241,'634.8','<div class="nodetag">634.8</div></span>&nbsp;&nbsp;முந்திரிகை வேளாண்மை. திராட்சை கொடிகள். திராட்சை தோட்டங்கள்','634.8','முந்திரிகை வேளாண்மை. திராட்சை கொடிகள். திராட்சை தோட்டங்கள்','','','',false,true);
+d.add(249,230,'635','<div class="nodetag">635</div></span>&nbsp;&nbsp;தோட்ட தாவரங்கள். தோட்டப்பயிர் செய்தல்','635','தோட்ட தாவரங்கள். தோட்டப்பயிர் செய்தல்','','','',false,true);
+d.add(250,249,'635.1/.8','<div class="nodetag">635.1/.8</div></span>&nbsp;&nbsp;காய்கறிகள். வீட்டு தோட்டப்பயிர் செய்தல்','635.1/.8','காய்கறிகள். வீட்டு தோட்டப்பயிர் செய்தல்','','','',false,true);
+d.add(251,250,'635.1','<div class="nodetag">635.1</div></span>&nbsp;&nbsp;சாப்பிடக்கூடிய வேர்கள். வேர்காய்கறிகள்','635.1','சாப்பிடக்கூடிய வேர்கள். வேர்காய்கறிகள்','','','',false,true);
+d.add(252,250,'635.2','<div class="nodetag">635.2</div></span>&nbsp;&nbsp;சாப்பிடக்கூடிய கிழங்குகள் மற்றும் அடிநிலத்தண்டுகள்','635.2','சாப்பிடக்கூடிய கிழங்குகள் மற்றும் அடிநிலத்தண்டுகள்','','','',false,true);
+d.add(253,250,'635.3','<div class="nodetag">635.3</div></span>&nbsp;&nbsp;தாவரங்களின் சாப்பிடக்கூடிய தண்டுகள், இலைகள் அல்லது பூக்கள் ','635.3','தாவரங்களின் சாப்பிடக்கூடிய தண்டுகள், இலைகள் அல்லது பூக்கள் ','','','',false,true);
+d.add(254,250,'635.4','<div class="nodetag">635.4</div></span>&nbsp;&nbsp;மற்ற பச்சை காய்கறிகள். இலைகாய்கறிகள்','635.4','மற்ற பச்சை காய்கறிகள். இலைகாய்கறிகள்','','','',false,true);
+d.add(255,250,'635.6','<div class="nodetag">635.6</div></span>&nbsp;&nbsp;சாப்பிடக்கூடிய பழங்கள் மற்றும் விதைகள். பருப்புகள்','635.6','சாப்பிடக்கூடிய பழங்கள் மற்றும் விதைகள். பருப்புகள்','','','',false,true);
+d.add(256,250,'635.7','<div class="nodetag">635.7</div></span>&nbsp;&nbsp;வாசனை மூலிகைகள்.பதப்படுத்தும் தாவரங்கள்','635.7','வாசனை மூலிகைகள்.பதப்படுத்தும் தாவரங்கள்','','','',false,true);
+d.add(257,250,'635.8','<div class="nodetag">635.8</div></span>&nbsp;&nbsp;சாப்பிடக்கூடிய பூஞ்சைகள்','635.8','சாப்பிடக்கூடிய பூஞ்சைகள்','','','',false,true);
+d.add(258,249,'635.9','<div class="nodetag">635.9</div></span>&nbsp;&nbsp;அலங்காரப்பொருட்கள் .அலங்கரிக்கப்பட்ட செடிகள். அலங்கார தோட்டமிடுதல்','635.9','அலங்காரப்பொருட்கள் .அலங்கரிக்கப்பட்ட செடிகள். அலங்கார தோட்டமிடுதல்','','','',false,true);
+d.add(259,208,'636','<div class="nodetag">636</div></span>&nbsp;&nbsp;பொதுவாக விலங்கு வளர்ப்பு மற்றும் இனப்பெருக்கதல்.கால்நடை வளர்ப்பு. உள்நாட்டு விலங்குகளின் இனப்பெருக்கதல்','636','பொதுவாக விலங்கு வளர்ப்பு மற்றும் இனப்பெருக்கதல்.கால்நடை வளர்ப்பு. உள்நாட்டு விலங்குகளின் இனப்பெருக்கதல்','','','',false,true);
+d.add(260,259,'636.01/.09','<div class="nodetag">636.01/.09</div></span>&nbsp;&nbsp;கால்நடை பராமரிப்பிற்கான சிறப்பு துணை எண்கள்','636.01/.09','கால்நடை பராமரிப்பிற்கான சிறப்பு துணை எண்கள்','','','',false,true);
+d.add(261,260,'636.01','<div class="nodetag">636.01</div></span>&nbsp;&nbsp;மனிதர்களால் வைத்து விலங்குகள் தோற்றம்,வளர்ச்சி மற்றும் வீட்டு வளர்ப்பு. நன்கு பழக்கப்படுத்தப்பட்ட விலங்குகள். வளர்ப்பு மற்றும் பயிற்சிக்கான உயிரியல் தளங்கள்','636.01','மனிதர்களால் வைத்து விலங்குகள் தோற்றம்,வளர்ச்சி மற்றும் வீட்டு வளர்ப்பு. நன்கு பழக்கப்படுத்தப்பட்ட விலங்குகள். வளர்ப்பு மற்றும் பயிற்சிக்கான உயிரியல் தளங்கள்','','','',false,true);
+d.add(262,260,'636.02','<div class="nodetag">636.02</div></span>&nbsp;&nbsp;விலங்குகளை இனப்பெருக்கம், காட்சி மற்றும் அறிவியல் பயன்பாடுகளுக்காக உபயோகித்தல்','636.02','விலங்குகளை இனப்பெருக்கம், காட்சி மற்றும் அறிவியல் பயன்பாடுகளுக்காக உபயோகித்தல்','','','',false,true);
+d.add(263,260,'636.03','<div class="nodetag">636.03</div></span>&nbsp;&nbsp;இனப்பெருக்க விலங்குகள் அல்லது உணவிற்காக வளர்கப்பட்டவை அல்லது மற்ற விளைபொருட்கள் (உற்பத்தி, வருவாய்). .பொதுவாக  பண்ணை மற்றும் பண்ணை விலங்குகள்','636.03','இனப்பெருக்க விலங்குகள் அல்லது உணவிற்காக வளர்கப்பட்டவை அல்லது மற்ற விளைபொருட்கள் (உற்பத்தி, வருவாய்). .பொதுவாக  பண்ணை மற்றும் பண்ணை விலங்குகள்','','','',false,true);
+d.add(264,260,'636.04','<div class="nodetag">636.04</div></span>&nbsp;&nbsp;இனப்பெருக்கப்பட்ட விலங்குகள் அல்லது மனிதனின் வேலை மற்றும் சேவைக்கு பழக்கப்பட்டவை மற்றும் மகிழ்ச்சிக்காக பராமரிக்கப்படுபவை','636.04','இனப்பெருக்கப்பட்ட விலங்குகள் அல்லது மனிதனின் வேலை மற்றும் சேவைக்கு பழக்கப்பட்டவை மற்றும் மகிழ்ச்சிக்காக பராமரிக்கப்படுபவை','','','',false,true);
+d.add(265,260,'636.05','<div class="nodetag">636.05</div></span>&nbsp;&nbsp;இனப்பெருக்கத்தின் படி விலங்குகள்','636.05','இனப்பெருக்கத்தின் படி விலங்குகள்','','','',false,true);
+d.add(266,260,'636.06','<div class="nodetag">636.06</div></span>&nbsp;&nbsp;பண்புகள், உடல் கட்டமைவு மற்றும் உள்நாட்டு விலங்குகளின் சிறப்பு உயிரியல் அம்சங்கள்','636.06','பண்புகள், உடல் கட்டமைவு மற்றும் உள்நாட்டு விலங்குகளின் சிறப்பு உயிரியல் அம்சங்கள்','','','',false,true);
+d.add(267,260,'636.08','<div class="nodetag">636.08</div></span>&nbsp;&nbsp;இனப்பெருக்க மற்றும் வளர்ப்புக்கான பொது கேள்விகள்','636.08','இனப்பெருக்க மற்றும் வளர்ப்புக்கான பொது கேள்விகள்','','','',false,true);
+d.add(268,260,'636.09','<div class="nodetag">636.09</div></span>&nbsp;&nbsp;கால்நடை அறிவியல்','636.09','கால்நடை அறிவியல்','','','',false,true);
+d.add(269,259,'636.1','<div class="nodetag">636.1</div></span>&nbsp;&nbsp;வீட்டு குதிரைகள். குதிரைகள்','636.1','வீட்டு குதிரைகள். குதிரைகள்','','','',false,true);
+d.add(270,259,'636.2','<div class="nodetag">636.2</div></span>&nbsp;&nbsp;அசை போடும் பெரிய விலங்குகள். கால்நடை,காளைகள்','636.2','அசை போடும் பெரிய விலங்குகள். கால்நடை,காளைகள்','','','',false,true);
+d.add(271,259,'636.3','<div class="nodetag">636.3</div></span>&nbsp;&nbsp; அசை போடும் சிறிய விலங்குகள்','636.3',' அசை போடும் சிறிய விலங்குகள்','','','',false,true);
+d.add(272,259,'636.4','<div class="nodetag">636.4</div></span>&nbsp;&nbsp;பன்றிகள். பன்றி','636.4','பன்றிகள். பன்றி','','','',false,true);
+d.add(273,259,'636.5','<div class="nodetag">636.5</div></span>&nbsp;&nbsp;கோழி பண்ணை','636.5','கோழி பண்ணை','','','',false,true);
+d.add(274,259,'636.6','<div class="nodetag">636.6</div></span>&nbsp;&nbsp;பறவைகள் (கோழி  பண்ணை மற்றும் விளையாட்டு தவிர)  இனப்பெருக்கபட்டவை அல்லது மனிதர்களால் பராமரிக்கபட்டவை','636.6','பறவைகள் (கோழி  பண்ணை மற்றும் விளையாட்டு தவிர)  இனப்பெருக்கபட்டவை அல்லது மனிதர்களால் பராமரிக்கபட்டவை','','','',false,true);
+d.add(275,259,'636.7','<div class="nodetag">636.7</div></span>&nbsp;&nbsp;நாய்கள்','636.7','நாய்கள்','','','',false,true);
+d.add(276,259,'636.8','<div class="nodetag">636.8</div></span>&nbsp;&nbsp;பூனைகள்','636.8','பூனைகள்','','','',false,true);
+d.add(277,259,'636.9','<div class="nodetag">636.9</div></span>&nbsp;&nbsp;மனிதர்களால் பராமரிக்கபடும் மற்ற விலங்குகள்','636.9','மனிதர்களால் பராமரிக்கபடும் மற்ற விலங்குகள்','','','',false,true);
+d.add(278,208,'637','<div class="nodetag">637</div></span>&nbsp;&nbsp;விளையாட்டிற்காக உபயோகிக்கப்படும் உள்நாட்டு விலங்குகள் (பண்ணைவெளி) ','637','விளையாட்டிற்காக உபயோகிக்கப்படும் உள்நாட்டு விலங்குகள் (பண்ணைவெளி) ','','','',false,true);
+d.add(279,208,'638','<div class="nodetag">638</div></span>&nbsp;&nbsp;பூச்சிகள் மற்றும் பிற கணுக்காலிகள் பராமரித்தல்,இனப்பெருக்கம் மற்றும் மேலாண்மை','638','பூச்சிகள் மற்றும் பிற கணுக்காலிகள் பராமரித்தல்,இனப்பெருக்கம் மற்றும் மேலாண்மை','','','',false,true);
+d.add(280,208,'639','<div class="nodetag">639</div></span>&nbsp;&nbsp;வேட்டை. மீன்பிடித்தல். மீன்வளர்ப்பு','639','வேட்டை. மீன்பிடித்தல். மீன்வளர்ப்பு','','','',false,true);
+d.add(281,280,'639.1','<div class="nodetag">639.1</div></span>&nbsp;&nbsp;வேட்டையாடுதல்','639.1','வேட்டையாடுதல்','','','',false,true);
+d.add(282,280,'639.2','<div class="nodetag">639.2</div></span>&nbsp;&nbsp;மீன்பிடித்தல்.மீனளம்','639.2','மீன்பிடித்தல்.மீனளம்','','','',false,true);
+d.add(283,280,'639.3','<div class="nodetag">639.3</div></span>&nbsp;&nbsp;மீன் வளர்ப்பு. செயற்கை மீன் வளர்ப்பு','639.3','மீன் வளர்ப்பு. செயற்கை மீன் வளர்ப்பு','','','',false,true);
+d.add(284,280,'639.4','<div class="nodetag">639.4</div></span>&nbsp;&nbsp;நீர்வாழ் மெல்லுடலிகள் இனப்பெருக்கம் (சிப்பிகள்)','639.4','நீர்வாழ் மெல்லுடலிகள் இனப்பெருக்கம் (சிப்பிகள்)','','','',false,true);
+d.add(285,280,'639.5','<div class="nodetag">639.5</div></span>&nbsp;&nbsp;நீர்வாழ் வெளி ஓடுடைய இனங்களின் இனப்பெருக்கம்','639.5','நீர்வாழ் வெளி ஓடுடைய இனங்களின் இனப்பெருக்கம்','','','',false,true);
+d.add(286,280,'639.6','<div class="nodetag">639.6</div></span>&nbsp;&nbsp;மற்ற கடல் பொருட்கள்','639.6','மற்ற கடல் பொருட்கள்','','','',false,true);
+d.add(287,0,'64','<div class="nodetag">64</div></span>&nbsp;&nbsp;மனையியல். மனைப் பொருளியல். குடிவாழ்க்கை','64','மனையியல். மனைப் பொருளியல். குடிவாழ்க்கை','','','',false,true);
+d.add(288,287,'64.01/.08','<div class="nodetag">64.01/.08</div></span>&nbsp;&nbsp;வீட்டு அறிவியலுக்கான சிறப்பு துணைகள் ','64.01/.08','வீட்டு அறிவியலுக்கான சிறப்பு துணைகள் ','','','',false,true);
+d.add(289,288,'64.01','<div class="nodetag">64.01</div></span>&nbsp;&nbsp;குடும்பம். வீட்டு நிர்வாகம்','64.01','குடும்பம். வீட்டு நிர்வாகம்','','','',false,true);
+d.add(290,288,'64.048','<div class="nodetag">64.048</div></span>&nbsp;&nbsp;வேலையின் ஆய்வு மற்றும் வீட்டு வேலை முறைகள்','64.048','வேலையின் ஆய்வு மற்றும் வீட்டு வேலை முறைகள்','','','',false,true);
+d.add(291,288,'64.05','<div class="nodetag">64.05</div></span>&nbsp;&nbsp;குடும்பப் பொருளியல். குறிப்பிட்ட நபர்களுக்கான வீட்டு பராமரிப்பு, பயன்தரு அறை அமைவுகள் மற்றும் நிறுவுதல்','64.05','குடும்பப் பொருளியல். குறிப்பிட்ட நபர்களுக்கான வீட்டு பராமரிப்பு, பயன்தரு அறை அமைவுகள் மற்றும் நிறுவுதல்','','','',false,true);
+d.add(292,288,'64.06','<div class="nodetag">64.06</div></span>&nbsp;&nbsp;வீட்டு உபகரணங்கள் மற்றும் இயந்திரங்கள். வீட்டில் உழைப்பை-சேமிக்கும் சாதனங்கள் ','64.06','வீட்டு உபகரணங்கள் மற்றும் இயந்திரங்கள். வீட்டில் உழைப்பை-சேமிக்கும் சாதனங்கள் ','','','',false,true);
+d.add(293,288,'64.08','<div class="nodetag">64.08</div></span>&nbsp;&nbsp;நகரும் வீடுகள். நீக்குதல்','64.08','நகரும் வீடுகள். நீக்குதல்','','','',false,true);
+d.add(294,287,'640','<div class="nodetag">640</div></span>&nbsp;&nbsp;வீட்டு உபயோக வகைகள்','640','வீட்டு உபயோக வகைகள்','','','',false,true);
+d.add(295,287,'641/642','<div class="nodetag">641/642</div></span>&nbsp;&nbsp;உணவு. சமையல்.உணவுகள். சாப்பாடு','641/642','உணவு. சமையல்.உணவுகள். சாப்பாடு','','','',false,true);
+d.add(296,295,'641','<div class="nodetag">641</div></span>&nbsp;&nbsp;உணவு. சமையல். உணவுகள்','641','உணவு. சமையல். உணவுகள்','','','',false,true);
+d.add(297,295,'642','<div class="nodetag">642</div></span>&nbsp;&nbsp;உணவு மற்றும் சாப்பிடும் நேரங்கள். மேஜை பொருட்கள்','642','உணவு மற்றும் சாப்பிடும் நேரங்கள். மேஜை பொருட்கள்','','','',false,true);
+d.add(298,287,'643/645','<div class="nodetag">643/645</div></span>&nbsp;&nbsp;வீடு. வீட்டு உபயோக பொருத்துதல்கள் மற்றும் அலங்கார அமைவுகள்','643/645','வீடு. வீட்டு உபயோக பொருத்துதல்கள் மற்றும் அலங்கார அமைவுகள்','','','',false,true);
+d.add(299,298,'643','<div class="nodetag">643</div></span>&nbsp;&nbsp;வீடு. வாசஸ்தலம்','643','வீடு. வாசஸ்தலம்','','','',false,true);
+d.add(300,298,'644','<div class="nodetag">644</div></span>&nbsp;&nbsp;வீடுகளில் சுகாதார மற்றும் வசதிக்காக நிறுவல்கள்','644','வீடுகளில் சுகாதார மற்றும் வசதிக்காக நிறுவல்கள்','','','',false,true);
+d.add(301,300,'644.1','<div class="nodetag">644.1</div></span>&nbsp;&nbsp;உட்புற காலநிலை கட்டுப்பாடு. வெப்பமாக்கல்.காற்றோட்டம். காற்று பதனாக்கம்','644.1','உட்புற காலநிலை கட்டுப்பாடு. வெப்பமாக்கல்.காற்றோட்டம். காற்று பதனாக்கம்','','','',false,true);
+d.add(302,300,'644.3','<div class="nodetag">644.3</div></span>&nbsp;&nbsp;வீட்டு  ஒளி அமைப்பு','644.3','வீட்டு  ஒளி அமைப்பு','','','',false,true);
+d.add(303,300,'644.6','<div class="nodetag">644.6</div></span>&nbsp;&nbsp;வீட்டு நீர் விநியோகம் மற்றும் சுகாதார நிறுவல்கள்','644.6','வீட்டு நீர் விநியோகம் மற்றும் சுகாதார நிறுவல்கள்','','','',false,true);
+d.add(304,298,'645','<div class="nodetag">645</div></span>&nbsp;&nbsp;மரச்சாமான்கள் மற்றும் வீட்டு உபயோக பொருத்துதல்கள்','645','மரச்சாமான்கள் மற்றும் வீட்டு உபயோக பொருத்துதல்கள்','','','',false,true);
+d.add(305,287,'646/649','<div class="nodetag">646/649</div></span>&nbsp;&nbsp;தனிப்பட்ட தேவைகள். வீட்டு நிர்வாகம்','646/649','தனிப்பட்ட தேவைகள். வீட்டு நிர்வாகம்','','','',false,true);
+d.add(306,305,'646','<div class="nodetag">646</div></span>&nbsp;&nbsp;ஆடை. உடல் பராமரிப்பு','646','ஆடை. உடல் பராமரிப்பு','','','',false,true);
+d.add(307,306,'646.2','<div class="nodetag">646.2</div></span>&nbsp;&nbsp;தயாரித்தல் மற்றும் வீட்டில் துணிகளை பொருந்தச் செய்தல். வீட்டு ஆடை தயாரித்தல்','646.2','தயாரித்தல் மற்றும் வீட்டில் துணிகளை பொருந்தச் செய்தல். வீட்டு ஆடை தயாரித்தல்','','','',false,true);
+d.add(308,306,'646.4','<div class="nodetag">646.4</div></span>&nbsp;&nbsp;ஆடை. உடை வகைகள்','646.4','ஆடை. உடை வகைகள்','','','',false,true);
+d.add(309,306,'646.7','<div class="nodetag">646.7</div></span>&nbsp;&nbsp;உடல் பராமரிப்பு. அழகு பராமரிப்பு.  உடை மாற்றும் மற்றும் உடைநீக்கலுக்கான துணைக்கருவிகள்','646.7','உடல் பராமரிப்பு. அழகு பராமரிப்பு.  உடை மாற்றும் மற்றும் உடைநீக்கலுக்கான துணைக்கருவிகள்','','','',false,true);
+d.add(310,305,'648','<div class="nodetag">648</div></span>&nbsp;&nbsp;கழுவுதல். சலவை. தூய்மை செய்தல்','648','கழுவுதல். சலவை. தூய்மை செய்தல்','','','',false,true);
+d.add(311,305,'649','<div class="nodetag">649</div></span>&nbsp;&nbsp;குழந்தைகள், இயலாதவர், விருந்தினர்களின்  உள்நாட்டு பராமரிப்பு','649','குழந்தைகள், இயலாதவர், விருந்தினர்களின்  உள்நாட்டு பராமரிப்பு','','','',false,true);
+d.add(312,0,'65','<div class="nodetag">65</div></span>&nbsp;&nbsp;தகவல் மற்றும் போக்குவரத்து  தொழில்கள்.  கணக்கியல். வர்த்தக நிர்வாகம். பொதுமக்கள் தொடர்புகள்','65','தகவல் மற்றும் போக்குவரத்து  தொழில்கள்.  கணக்கியல். வர்த்தக நிர்வாகம். பொதுமக்கள் தொடர்புகள்','','','',false,true);
+d.add(313,312,'654','<div class="nodetag">654</div></span>&nbsp;&nbsp;தொலைத்தொடர்பு மற்றும் தொலைச்செய்தி ஆட்சி (அமைப்பு, சேவைகள்)','654','தொலைத்தொடர்பு மற்றும் தொலைச்செய்தி ஆட்சி (அமைப்பு, சேவைகள்)','','','',false,true);
+d.add(314,313,'654.1','<div class="nodetag">654.1</div></span>&nbsp;&nbsp;தந்தி. தொலைபேசி. வானொலி. தொலைக்காட்சி','654.1','தந்தி. தொலைபேசி. வானொலி. தொலைக்காட்சி','','','',false,true);
+d.add(315,313,'654.9','<div class="nodetag">654.9</div></span>&nbsp;&nbsp;சிக்னலாக்கல். பல்வேறு தொலைத்தொடர்பு சேவைகள். தொலைநிலை கட்டுப்பாட்டு (தொலைச்செய்தி ஆட்சி)','654.9','சிக்னலாக்கல். பல்வேறு தொலைத்தொடர்பு சேவைகள். தொலைநிலை கட்டுப்பாட்டு (தொலைச்செய்தி ஆட்சி)','','','',false,true);
+d.add(316,312,'655','<div class="nodetag">655</div></span>&nbsp;&nbsp;வரைபட தொழில்கள். அச்சடித்தல். பப்ளிஷிங். புத்தக தொழில்','655','வரைபட தொழில்கள். அச்சடித்தல். பப்ளிஷிங். புத்தக தொழில்','','','',false,true);
+d.add(317,316,'655.1','<div class="nodetag">655.1</div></span>&nbsp;&nbsp;பொது அச்சு தொழில்','655.1','பொது அச்சு தொழில்','','','',false,true);
+d.add(318,316,'655.4','<div class="nodetag">655.4</div></span>&nbsp;&nbsp;பொதுவாக வெளியீடு மற்றும் புத்தக விற்பனை','655.4','பொதுவாக வெளியீடு மற்றும் புத்தக விற்பனை','','','',false,true);
+d.add(319,312,'656','<div class="nodetag">656</div></span>&nbsp;&nbsp;போக்குவரத்து மற்றும் அஞ்சல் சேவைகள்.போக்குவரத்து நிர்வாகம் மற்றும் கட்டுப்பாடு','656','போக்குவரத்து மற்றும் அஞ்சல் சேவைகள்.போக்குவரத்து நிர்வாகம் மற்றும் கட்டுப்பாடு','','','',false,true);
+d.add(320,319,'656.1/.5','<div class="nodetag">656.1/.5</div></span>&nbsp;&nbsp;நில போக்குவரத்து','656.1/.5','நில போக்குவரத்து','','','',false,true);
+d.add(321,320,'656.1','<div class="nodetag">656.1</div></span>&nbsp;&nbsp;சாலை போக்குவரத்து','656.1','சாலை போக்குவரத்து','','','',false,true);
+d.add(322,320,'656.2','<div class="nodetag">656.2</div></span>&nbsp;&nbsp;ரயில் போக்குவரத்து. இரயில் போக்குவரத்து','656.2','ரயில் போக்குவரத்து. இரயில் போக்குவரத்து','','','',false,true);
+d.add(323,320,'656.4','<div class="nodetag">656.4</div></span>&nbsp;&nbsp;ஒளி இரயில் போக்குவரத்து','656.4','ஒளி இரயில் போக்குவரத்து','','','',false,true);
+d.add(324,320,'656.5','<div class="nodetag">656.5</div></span>&nbsp;&nbsp;கொணரி அமைப்புகள் மற்றும் குழாய்கள் மூலம் நிலபோக்குவரத்து','656.5','கொணரி அமைப்புகள் மற்றும் குழாய்கள் மூலம் நிலபோக்குவரத்து','','','',false,true);
+d.add(325,319,'656.6','<div class="nodetag">656.6</div></span>&nbsp;&nbsp;நீர் போக்குவரத்து','656.6','நீர் போக்குவரத்து','','','',false,true);
+d.add(326,319,'656.7','<div class="nodetag">656.7</div></span>&nbsp;&nbsp;காற்று மூலம் போக்குவரத்து. வான்வழி போக்குவரத்து','656.7','காற்று மூலம் போக்குவரத்து. வான்வழி போக்குவரத்து','','','',false,true);
+d.add(327,319,'656.8','<div class="nodetag">656.8</div></span>&nbsp;&nbsp;அஞ்சல் சேவைகள் மற்றும் நிர்வாகம்','656.8','அஞ்சல் சேவைகள் மற்றும் நிர்வாகம்','','','',false,true);
+d.add(328,312,'657','<div class="nodetag">657</div></span>&nbsp;&nbsp;கணக்கியல்','657','கணக்கியல்','','','',false,true);
+d.add(329,312,'658','<div class="nodetag">658</div></span>&nbsp;&nbsp;வணிக மேலாண்மை, நிர்வாகம்.வணிக அமைப்பு','658','வணிக மேலாண்மை, நிர்வாகம்.வணிக அமைப்பு','','','',false,true);
+d.add(330,329,'658.1','<div class="nodetag">658.1</div></span>&nbsp;&nbsp;நிறுவனத்தின் வடிவங்கள். நிதிகள்','658.1','நிறுவனத்தின் வடிவங்கள். நிதிகள்','','','',false,true);
+d.add(331,329,'658.2','<div class="nodetag">658.2</div></span>&nbsp;&nbsp;ஆலை நிறுவல்கள்.  வளாகங்கள். கட்டிடங்கள், பணிகள், தொழிற்சாலைகள். பொருட்கள்','658.2','ஆலை நிறுவல்கள்.  வளாகங்கள். கட்டிடங்கள், பணிகள், தொழிற்சாலைகள். பொருட்கள்','','','',false,true);
+d.add(332,329,'658.3','<div class="nodetag">658.3</div></span>&nbsp;&nbsp;நிறுவனத்தில் மனித உறவுகள்.பணியாளர் மேலாண்மை','658.3','நிறுவனத்தில் மனித உறவுகள்.பணியாளர் மேலாண்மை','','','',false,true);
+d.add(333,329,'658.5','<div class="nodetag">658.5</div></span>&nbsp;&nbsp;உற்பத்தி பொறியியல் மற்றும் திட்டமிடல்.வடிவமைப்பு. உற்பத்தி மேலாண்மை மற்றும் கட்டுப்பாடு','658.5','உற்பத்தி பொறியியல் மற்றும் திட்டமிடல்.வடிவமைப்பு. உற்பத்தி மேலாண்மை மற்றும் கட்டுப்பாடு','','','',false,true);
+d.add(334,329,'658.6','<div class="nodetag">658.6</div></span>&nbsp;&nbsp;வர்த்தக அமைப்பு மற்றும் நடைமுறை. பொருட்கள்.சேவைகள்','658.6','வர்த்தக அமைப்பு மற்றும் நடைமுறை. பொருட்கள்.சேவைகள்','','','',false,true);
+d.add(335,329,'658.7','<div class="nodetag">658.7</div></span>&nbsp;&nbsp;வாங்குதல். கொள்முதல். பங்கு மேலாண்மை','658.7','வாங்குதல். கொள்முதல். பங்கு மேலாண்மை','','','',false,true);
+d.add(336,329,'658.8','<div class="nodetag">658.8</div></span>&nbsp;&nbsp;சந்தைப்படுத்தல். விற்பனை. விநியோகம்','658.8','சந்தைப்படுத்தல். விற்பனை. விநியோகம்','','','',false,true);
+d.add(337,329,'658.9','<div class="nodetag">658.9</div></span>&nbsp;&nbsp;பிற வணிக நடவடிக்கைகள்','658.9','பிற வணிக நடவடிக்கைகள்','','','',false,true);
+d.add(338,312,'659','<div class="nodetag">659</div></span>&nbsp;&nbsp;விளம்பரம். பொது உறவுகள்','659','விளம்பரம். பொது உறவுகள்','','','',false,true);
+d.add(339,338,'659.1','<div class="nodetag">659.1</div></span>&nbsp;&nbsp;விளம்பரம். விளம்பரம் செய்தல்','659.1','விளம்பரம். விளம்பரம் செய்தல்','','','',false,true);
+d.add(340,338,'659.2','<div class="nodetag">659.2</div></span>&nbsp;&nbsp;தகவல் வேலை. ஆலோசனை மற்றும் அறிவுரை சேவைகள்','659.2','தகவல் வேலை. ஆலோசனை மற்றும் அறிவுரை சேவைகள்','','','',false,true);
+d.add(341,338,'659.3','<div class="nodetag">659.3</div></span>&nbsp;&nbsp;மக்கள்செய்தி தொடர்பியல்.தெரிவிப்பது, பொதுமக்களை தெளிவாக்குதல்','659.3','மக்கள்செய்தி தொடர்பியல்.தெரிவிப்பது, பொதுமக்களை தெளிவாக்குதல்','','','',false,true);
+d.add(342,338,'659.4','<div class="nodetag">659.4</div></span>&nbsp;&nbsp;பொது உறவுகள் (PR)','659.4','பொது உறவுகள் (PR)','','','',false,true);
+d.add(343,0,'66','<div class="nodetag">66</div></span>&nbsp;&nbsp;வேதிதொழில் நுட்பவியல். ரசாயனம் மற்றும் தொடர்பான தொழில்கள்','66','வேதிதொழில் நுட்பவியல். ரசாயனம் மற்றும் தொடர்பான தொழில்கள்','','','',false,true);
+d.add(344,343,'66.01/.09','<div class="nodetag">66.01/.09</div></span>&nbsp;&nbsp;வேதி பொறியியலுக்கான சிறப்பு துணை எண்கள்','66.01/.09','வேதி பொறியியலுக்கான சிறப்பு துணை எண்கள்','','','',false,true);
+d.add(345,344,'66.01','<div class="nodetag">66.01</div></span>&nbsp;&nbsp;வேதி பொறியியலின் அடிப்படைகள்','66.01','வேதி பொறியியலின் அடிப்படைகள்','','','',false,true);
+d.add(346,344,'66.02','<div class="nodetag">66.02</div></span>&nbsp;&nbsp;பொதுவாக இரசாயன செயலாக்க செயல்பாடுகள் மற்றும் உபகரணங்கள்','66.02','பொதுவாக இரசாயன செயலாக்க செயல்பாடுகள் மற்றும் உபகரணங்கள்','','','',false,true);
+d.add(347,344,'66.03','<div class="nodetag">66.03</div></span>&nbsp;&nbsp;பொருட்கள், பண்புகள், செயல்முறைகள் மற்றும் உபகரணங்கள்','66.03','பொருட்கள், பண்புகள், செயல்முறைகள் மற்றும் உபகரணங்கள்','','','',false,true);
+d.add(348,344,'66.04','<div class="nodetag">66.04</div></span>&nbsp;&nbsp;வெப்ப சிகிச்சை நடவடிக்கைகள் மற்றும் உபகரணங்கள்','66.04','வெப்ப சிகிச்சை நடவடிக்கைகள் மற்றும் உபகரணங்கள்','','','',false,true);
+d.add(349,344,'66.06','<div class="nodetag">66.06</div></span>&nbsp;&nbsp;திரவங்களின் இரசாயன தொழில்நுட்பம். சிகிச்சை அல்லது திரவங்கள் கொண்ட செயல்கள் மற்றும் உபகரணங்கள்','66.06','திரவங்களின் இரசாயன தொழில்நுட்பம். சிகிச்சை அல்லது திரவங்கள் கொண்ட செயல்கள் மற்றும் உபகரணங்கள்','','','',false,true);
+d.add(350,344,'66.07','<div class="nodetag">66.07</div></span>&nbsp;&nbsp;வாயுக்களின் இரசாயன தொழில்நுட்பம்','66.07','வாயுக்களின் இரசாயன தொழில்நுட்பம்','','','',false,true);
+d.add(351,344,'66.08','<div class="nodetag">66.08</div></span>&nbsp;&nbsp;பருநிலை மற்றும் இயற்பிய இரசாயன நடவடிக்கைகள் மற்றும் உபகரணங்கள்.  இயற்பிய மற்றும் இயற்பிய இரசாயன விளைவுகளால் ரசாயன நிகழ்முறைகள்','66.08','பருநிலை மற்றும் இயற்பிய இரசாயன நடவடிக்கைகள் மற்றும் உபகரணங்கள்.  இயற்பிய மற்றும் இயற்பிய இரசாயன விளைவுகளால் ரசாயன நிகழ்முறைகள்','','','',false,true);
+d.add(352,343,'661','<div class="nodetag">661</div></span>&nbsp;&nbsp;வேதிபொருள்கள்','661','வேதிபொருள்கள்','','','',false,true);
+d.add(353,352,'661.1','<div class="nodetag">661.1</div></span>&nbsp;&nbsp;சிறப்பு இரசாயன தொழிற்சாலைகள்','661.1','சிறப்பு இரசாயன தொழிற்சாலைகள்','','','',false,true);
+d.add(354,352,'661.2','<div class="nodetag">661.2</div></span>&nbsp;&nbsp;கந்தக மற்றும் அதன் வழிப்பொருட்களின் உற்பத்தி','661.2','கந்தக மற்றும் அதன் வழிப்பொருட்களின் உற்பத்தி','','','',false,true);
+d.add(355,352,'661.3','<div class="nodetag">661.3</div></span>&nbsp;&nbsp;சோடா மற்றும் பொட்டாஷ், காரங்கள் உற்பத்தி','661.3','சோடா மற்றும் பொட்டாஷ், காரங்கள் உற்பத்தி','','','',false,true);
+d.add(356,352,'661.4','<div class="nodetag">661.4</div></span>&nbsp;&nbsp;உப்பீனிகள் மற்றும் உப்பீனி கலவைகள், கனிம பெரோசோ-சேர்மங்களின் உற்பத்தி','661.4','உப்பீனிகள் மற்றும் உப்பீனி கலவைகள், கனிம பெரோசோ-சேர்மங்களின் உற்பத்தி','','','',false,true);
+d.add(357,352,'661.5','<div class="nodetag">661.5</div></span>&nbsp;&nbsp;நைட்ரஜன் சேர்மங்களின் உற்பத்தி. நைட்ரஜன் பொருத்துதல். பொதுவான நைட்ரஜன் தொழில்துறை','661.5','நைட்ரஜன் சேர்மங்களின் உற்பத்தி. நைட்ரஜன் பொருத்துதல். பொதுவான நைட்ரஜன் தொழில்துறை','','','',false,true);
+d.add(358,352,'661.6','<div class="nodetag">661.6</div></span>&nbsp;&nbsp;பல்வேறு உலோகமல்லாத மற்றும் பாதி உலோகங்கள் (உலோகப்போலிகள்),  மற்றும் அவைகளின் சேர்மங்கள் உற்பத்தி','661.6','பல்வேறு உலோகமல்லாத மற்றும் பாதி உலோகங்கள் (உலோகப்போலிகள்),  மற்றும் அவைகளின் சேர்மங்கள் உற்பத்தி','','','',false,true);
+d.add(359,352,'661.7','<div class="nodetag">661.7</div></span>&nbsp;&nbsp;கரிம பொருட்கள் உற்பத்தி. கரிம வேதிப்பொருள்கள்','661.7','கரிம பொருட்கள் உற்பத்தி. கரிம வேதிப்பொருள்கள்','','','',false,true);
+d.add(360,352,'661.8','<div class="nodetag">661.8</div></span>&nbsp;&nbsp;பொதுவாக உலோக கலவைகள். உப்புகள். தாது சேர்மங்கள்','661.8','பொதுவாக உலோக கலவைகள். உப்புகள். தாது சேர்மங்கள்','','','',false,true);
+d.add(361,352,'661.9','<div class="nodetag">661.9</div></span>&nbsp;&nbsp;வாயுக்களின் உற்பத்தி','661.9','வாயுக்களின் உற்பத்தி','','','',false,true);
+d.add(362,343,'662','<div class="nodetag">662</div></span>&nbsp;&nbsp;வெடிபொருட்கள். எரிபொருள்','662','வெடிபொருட்கள். எரிபொருள்','','','',false,true);
+d.add(363,362,'662.1/.4','<div class="nodetag">662.1/.4</div></span>&nbsp;&nbsp;வெடிபொருள்கள்','662.1/.4','வெடிபொருள்கள்','','','',false,true);
+d.add(364,363,'662.1','<div class="nodetag">662.1</div></span>&nbsp;&nbsp;வானவேடிக்கை. வாண வேடிக்கைக்கலை மற்றும் தொடர்பான சாதனங்கள்','662.1','வானவேடிக்கை. வாண வேடிக்கைக்கலை மற்றும் தொடர்பான சாதனங்கள்','','','',false,true);
+d.add(365,363,'662.2','<div class="nodetag">662.2</div></span>&nbsp;&nbsp;உயர் வெடிபொருட்கள்','662.2','உயர் வெடிபொருட்கள்','','','',false,true);
+d.add(366,363,'662.3','<div class="nodetag">662.3</div></span>&nbsp;&nbsp;உந்துவிசைத் துகள்கள். வெடி மருந்துகள்','662.3','உந்துவிசைத் துகள்கள். வெடி மருந்துகள்','','','',false,true);
+d.add(367,363,'662.4','<div class="nodetag">662.4</div></span>&nbsp;&nbsp;தொடக்கிகள், வெடிபொருட்களுக்கான முதலிகள். வெடித்தூண்டிகள்','662.4','தொடக்கிகள், வெடிபொருட்களுக்கான முதலிகள். வெடித்தூண்டிகள்','','','',false,true);
+d.add(368,362,'662.5','<div class="nodetag">662.5</div></span>&nbsp;&nbsp;கொளுத்து அமைப்புகள். தீ தூண்டிகள். தீக்குச்சிகள். தீமூட்டிகள்','662.5','கொளுத்து அமைப்புகள். தீ தூண்டிகள். தீக்குச்சிகள். தீமூட்டிகள்','','','',false,true);
+d.add(369,362,'662.6/.9','<div class="nodetag">662.6/.9</div></span>&nbsp;&nbsp;வெப்ப பொருளாதாரம். எரிபொருள் சிக்கனம்.எரிபொருட்கள். வெப்பமாக்கல்','662.6/.9','வெப்ப பொருளாதாரம். எரிபொருள் சிக்கனம்.எரிபொருட்கள். வெப்பமாக்கல்','','','',false,true);
+d.add(370,369,'662.6','<div class="nodetag">662.6</div></span>&nbsp;&nbsp;பொது வெப்பம் அல்லது எரிபொருள் சிக்கனம். எரிதல். இயற்கை எரிபொருள்கள்','662.6','பொது வெப்பம் அல்லது எரிபொருள் சிக்கனம். எரிதல். இயற்கை எரிபொருள்கள்','','','',false,true);
+d.add(371,369,'662.7','<div class="nodetag">662.7</div></span>&nbsp;&nbsp;எரிபொருள் தொழில்நுட்பம். பதப்படுத்தப்பட்ட எரிபொருள்கள்','662.7','எரிபொருள் தொழில்நுட்பம். பதப்படுத்தப்பட்ட எரிபொருள்கள்','','','',false,true);
+d.add(372,369,'662.8','<div class="nodetag">662.8</div></span>&nbsp;&nbsp;இயந்திர சிகிச்சையால் எரிபொருள்கள் திண்மமாதல். கட்டிகளாக்குதல்','662.8','இயந்திர சிகிச்சையால் எரிபொருள்கள் திண்மமாதல். கட்டிகளாக்குதல்','','','',false,true);
+d.add(373,369,'662.9','<div class="nodetag">662.9</div></span>&nbsp;&nbsp;உலை மற்றும் எரிப்பு பொறியியல்','662.9','உலை மற்றும் எரிப்பு பொறியியல்','','','',false,true);
+d.add(374,343,'663','<div class="nodetag">663</div></span>&nbsp;&nbsp;தொழிலக நுண்ணுயிரியல். தொழில்துறை பூஞ்சையியல். புளித்து பொங்க வைத்தல் பற்றிய அறிவியல், நொதித்தல் தொழில். பான தொழில். கிளர்ச்சியூட்டி தொழில்','663','தொழிலக நுண்ணுயிரியல். தொழில்துறை பூஞ்சையியல். புளித்து பொங்க வைத்தல் பற்றிய அறிவியல், நொதித்தல் தொழில். பான தொழில். கிளர்ச்சியூட்டி தொழில்','','','',false,true);
+d.add(375,374,'663.1','<div class="nodetag">663.1</div></span>&nbsp;&nbsp;நுண்ணுயிர் தொழில்கள். பயன்பாட்டு நுண்ணுயிரியலின் அறிவியல் மற்றும் தொழில் நுட்பம். பயன்பாட்டு காளான்களை பற்றிய ஆய்வு','663.1','நுண்ணுயிர் தொழில்கள். பயன்பாட்டு நுண்ணுயிரியலின் அறிவியல் மற்றும் தொழில் நுட்பம். பயன்பாட்டு காளான்களை பற்றிய ஆய்வு','','','',false,true);
+d.add(376,374,'663.2','<div class="nodetag">663.2</div></span>&nbsp;&nbsp;மது. மது தயாரித்தல். மது உற்பத்தி மேலாண்மை','663.2','மது. மது தயாரித்தல். மது உற்பத்தி மேலாண்மை','','','',false,true);
+d.add(377,374,'663.3','<div class="nodetag">663.3</div></span>&nbsp;&nbsp;ஒருவகை ஆப்பிள் பழரசம். பெர்ரி. மற்ற பழ மதுக்கள், தாவர சாற்றின் மதுக்கள்','663.3','ஒருவகை ஆப்பிள் பழரசம். பெர்ரி. மற்ற பழ மதுக்கள், தாவர சாற்றின் மதுக்கள்','','','',false,true);
+d.add(378,374,'663.4','<div class="nodetag">663.4</div></span>&nbsp;&nbsp;பீர்கள். நொதியாதல். மாவாக்கம்','663.4','பீர்கள். நொதியாதல். மாவாக்கம்','','','',false,true);
+d.add(379,374,'663.5','<div class="nodetag">663.5</div></span>&nbsp;&nbsp;அருந்தத்தக்க மது. சாராயம் கலந்த மது (ஊக்கமுள்ள மதுசாரம்). மது வடித்தல், சுத்திகரிப்பு','663.5','அருந்தத்தக்க மது. சாராயம் கலந்த மது (ஊக்கமுள்ள மதுசாரம்). மது வடித்தல், சுத்திகரிப்பு','','','',false,true);
+d.add(380,374,'663.6','<div class="nodetag">663.6</div></span>&nbsp;&nbsp;பானங்கள் மற்றும் பிற தொழிற்சாலை பயன்பாட்டிற்கும் நீர். கனிம நீர். மூலிகை தண்ணீர்.சாப்பிடக்கூடிய பனி','663.6','பானங்கள் மற்றும் பிற தொழிற்சாலை பயன்பாட்டிற்கும் நீர். கனிம நீர். மூலிகை தண்ணீர்.சாப்பிடக்கூடிய பனி','','','',false,true);
+d.add(381,374,'663.8','<div class="nodetag">663.8</div></span>&nbsp;&nbsp;பான கலவைகளின் முக்கிய பொருட்கள். பழங்கள் மற்றும் காய்கறி சாறுகள். இனிப்புக்கூழ்கள். பொதுவாக சாப்பிட்ட பிறகு உபயோகிக்கப்படும் சுவை இனிப்பு மதுக்கள். குளிர்பானங்கள்','663.8','பான கலவைகளின் முக்கிய பொருட்கள். பழங்கள் மற்றும் காய்கறி சாறுகள். இனிப்புக்கூழ்கள். பொதுவாக சாப்பிட்ட பிறகு உபயோகிக்கப்படும் சுவை இனிப்பு மதுக்கள். குளிர்பானங்கள்','','','',false,true);
+d.add(382,374,'663.9','<div class="nodetag">663.9</div></span>&nbsp;&nbsp;சாக்லேட். கொக்கோ. காபி. டீ.புகையிலை','663.9','சாக்லேட். கொக்கோ. காபி. டீ.புகையிலை','','','',false,true);
+d.add(383,343,'664','<div class="nodetag">664</div></span>&nbsp;&nbsp;திட உணவுப் பொருட்கள் உற்பத்தி மற்றும் பதனம்','664','திட உணவுப் பொருட்கள் உற்பத்தி மற்றும் பதனம்','','','',false,true);
+d.add(384,383,'664.1','<div class="nodetag">664.1</div></span>&nbsp;&nbsp;சர்க்கரை. வெல்லப்பாகு. குளுக்கோஸ் முதலியன.','664.1','சர்க்கரை. வெல்லப்பாகு. குளுக்கோஸ் முதலியன.','','','',false,true);
+d.add(385,383,'664.2','<div class="nodetag">664.2</div></span>&nbsp;&nbsp;ஸ்டார்ச். மாப்பசையுள்ள பொருட்கள்','664.2','ஸ்டார்ச். மாப்பசையுள்ள பொருட்கள்','','','',false,true);
+d.add(386,383,'664.3','<div class="nodetag">664.3</div></span>&nbsp;&nbsp;சமையல் எண்ணெய்கள் மற்றும் கொழுப்புகள்.செயற்கை வெண்ணெய். புரத உணவுப் பொருட்கள்','664.3','சமையல் எண்ணெய்கள் மற்றும் கொழுப்புகள்.செயற்கை வெண்ணெய். புரத உணவுப் பொருட்கள்','','','',false,true);
+d.add(387,383,'664.4','<div class="nodetag">664.4</div></span>&nbsp;&nbsp;சாப்பிடக்கூடிய கனிமங்கள்','664.4','சாப்பிடக்கூடிய கனிமங்கள்','','','',false,true);
+d.add(388,383,'664.5','<div class="nodetag">664.5</div></span>&nbsp;&nbsp;மசாலா பொருள்கள். சுவையூட்டும் பொருள்கள்','664.5','மசாலா பொருள்கள். சுவையூட்டும் பொருள்கள்','','','',false,true);
+d.add(389,383,'664.6/.7','<div class="nodetag">664.6/.7</div></span>&nbsp;&nbsp;தொழில்நுட்ப மற்றும் உணவு தானிய பதப்படுத்துதல்','664.6/.7','தொழில்நுட்ப மற்றும் உணவு தானிய பதப்படுத்துதல்','','','',false,true);
+d.add(390,389,'664.6','<div class="nodetag">664.6</div></span>&nbsp;&nbsp;அடுதல், ரொட்டி. பண்டத்தொழில் மாவு','664.6','அடுதல், ரொட்டி. பண்டத்தொழில் மாவு','','','',false,true);
+d.add(391,389,'664.7','<div class="nodetag">664.7</div></span>&nbsp;&nbsp;தானியம் தொழில்நுட்பம். மாவு மற்றும் சோள துருவல்.தானிய பதப்படுத்துதல்','664.7','தானியம் தொழில்நுட்பம். மாவு மற்றும் சோள துருவல்.தானிய பதப்படுத்துதல்','','','',false,true);
+d.add(392,383,'664.8/.9','<div class="nodetag">664.8/.9</div></span>&nbsp;&nbsp;உணவு பாதுகாப்பு தொழில்நுட்பம்','664.8/.9','உணவு பாதுகாப்பு தொழில்நுட்பம்','','','',false,true);
+d.add(393,343,'665','<div class="nodetag">665</div></span>&nbsp;&nbsp;எண்ணெய்கள். கொழுப்புகள். மெழுகுகள். ஒட்டிகள். பசை. பிசின்கள்','665','எண்ணெய்கள். கொழுப்புகள். மெழுகுகள். ஒட்டிகள். பசை. பிசின்கள்','','','',false,true);
+d.add(394,393,'665.1','<div class="nodetag">665.1</div></span>&nbsp;&nbsp;பொதுமையாக எண்ணெய்கள், கொழுப்புகள் மற்றும் மெழுகுகளிடமிருந்து பெறப்பட்ட பொருட்கள்','665.1','பொதுமையாக எண்ணெய்கள், கொழுப்புகள் மற்றும் மெழுகுகளிடமிருந்து பெறப்பட்ட பொருட்கள்','','','',false,true);
+d.add(395,393,'665.2','<div class="nodetag">665.2</div></span>&nbsp;&nbsp;விலங்குகளிடமிருந்து பெறப்பட்ட எண்ணெய்கள், கொழுப்பு மற்றும் மெழுகுகள்','665.2','விலங்குகளிடமிருந்து பெறப்பட்ட எண்ணெய்கள், கொழுப்பு மற்றும் மெழுகுகள்','','','',false,true);
+d.add(396,393,'665.3','<div class="nodetag">665.3</div></span>&nbsp;&nbsp;தாவர எண்ணெய்கள், கொழுப்புக்கள், மெழுகுகள், பொசுபைட்டுகள்','665.3','தாவர எண்ணெய்கள், கொழுப்புக்கள், மெழுகுகள், பொசுபைட்டுகள்','','','',false,true);
+d.add(397,393,'665.5','<div class="nodetag">665.5</div></span>&nbsp;&nbsp;அத்தியாவசிய எண்ணெய்கள். நறுமண பொருள்கள்.ஒப்பனைப்பொருள்கள்','665.5','அத்தியாவசிய எண்ணெய்கள். நறுமண பொருள்கள்.ஒப்பனைப்பொருள்கள்','','','',false,true);
+d.add(398,393,'665.6/.7','<div class="nodetag">665.6/.7</div></span>&nbsp;&nbsp;பெட்ரோலியம் மற்றும் அதை சார்ந்த தொழில்களின் செயல்கள் மற்றும் பொருட்கள்','665.6/.7','பெட்ரோலியம் மற்றும் அதை சார்ந்த தொழில்களின் செயல்கள் மற்றும் பொருட்கள்','','','',false,true);
+d.add(399,398,'665.6','<div class="nodetag">665.6</div></span>&nbsp;&nbsp;கனிம எண்ணெய் தொழில்நுட்பம். பெட்ரோலியம் மற்றும் அதை சார்ந்த பொருட்களின் தொழில்நுட்பம்','665.6','கனிம எண்ணெய் தொழில்நுட்பம். பெட்ரோலியம் மற்றும் அதை சார்ந்த பொருட்களின் தொழில்நுட்பம்','','','',false,true);
+d.add(400,398,'665.7','<div class="nodetag">665.7</div></span>&nbsp;&nbsp;கனிம எண்ணெய் தொழில்துறை பொருட்கள். கனிம எண்ணெய்கள் மற்றும் ஒத்த பொருட்கள்','665.7','கனிம எண்ணெய் தொழில்துறை பொருட்கள். கனிம எண்ணெய்கள் மற்றும் ஒத்த பொருட்கள்','','','',false,true);
+d.add(401,393,'665.9','<div class="nodetag">665.9</div></span>&nbsp;&nbsp;இதர கரிம இரசாயன தொழிற்சாலைகள்','665.9','இதர கரிம இரசாயன தொழிற்சாலைகள்','','','',false,true);
+d.add(402,343,'666','<div class="nodetag">666</div></span>&nbsp;&nbsp;கண்ணாடி தொழிற்சாலை. மட்பாண்டப்பொருள்கள். சிமெண்ட் மற்றும் கான்கிரீட்','666','கண்ணாடி தொழிற்சாலை. மட்பாண்டப்பொருள்கள். சிமெண்ட் மற்றும் கான்கிரீட்','','','',false,true);
+d.add(403,402,'666.1','<div class="nodetag">666.1</div></span>&nbsp;&nbsp;கண்ணாடி தொழிற்சாலை. கண்ணாடி தொழில்நுட்பம். பொதுவாக கண்ணாடி உற்பத்தி. விரிவான அர்த்தத்தில் கண்ணாடி','666.1','கண்ணாடி தொழிற்சாலை. கண்ணாடி தொழில்நுட்பம். பொதுவாக கண்ணாடி உற்பத்தி. விரிவான அர்த்தத்தில் கண்ணாடி','','','',false,true);
+d.add(404,402,'666.3/.7','<div class="nodetag">666.3/.7</div></span>&nbsp;&nbsp;மட்பாண்டப்பொருள்கள்','666.3/.7','மட்பாண்டப்பொருள்கள்','','','',false,true);
+d.add(405,404,'666.3','<div class="nodetag">666.3</div></span>&nbsp;&nbsp;பொதுவாக மட்பாண்டப்பொருள்கள். பீங்கான் மூலப்பொருட்கள்','666.3','பொதுவாக மட்பாண்டப்பொருள்கள். பீங்கான் மூலப்பொருட்கள்','','','',false,true);
+d.add(406,404,'666.5','<div class="nodetag">666.5</div></span>&nbsp;&nbsp;பீங்கான். சீனா','666.5','பீங்கான். சீனா','','','',false,true);
+d.add(407,404,'666.6','<div class="nodetag">666.6</div></span>&nbsp;&nbsp;களிமட்பாண்டம். மண் பாண்டம் (நுண்துகள்களுடைய பீங்கான் உற்பத்தி பொருள்கள்)','666.6','களிமட்பாண்டம். மண் பாண்டம் (நுண்துகள்களுடைய பீங்கான் உற்பத்தி பொருள்கள்)','','','',false,true);
+d.add(408,404,'666.7','<div class="nodetag">666.7</div></span>&nbsp;&nbsp;சொரசொரப்பான மட்பாண்டப்பொருள்கள். கன மட்பாண்டப்பொருள்கள். அனல் எதிர்ப்புப்பொருட்கள். கடின பீங்கான் பொருட்கள். மட்பாண்டப்பொருள்கள்  மற்றும் பிற பொருட்களின் கலவை','666.7','சொரசொரப்பான மட்பாண்டப்பொருள்கள். கன மட்பாண்டப்பொருள்கள். அனல் எதிர்ப்புப்பொருட்கள். கடின பீங்கான் பொருட்கள். மட்பாண்டப்பொருள்கள்  மற்றும் பிற பொருட்களின் கலவை','','','',false,true);
+d.add(409,402,'666.9','<div class="nodetag">666.9</div></span>&nbsp;&nbsp;ஜிப்சம், சுண்ணாம்பு மற்றும் சிமெண்ட்தொழிற்சாலைகள். கடினமாக்கும் பொருட்கள். பூச்சுகள் மற்றும் பொதிவுகள். சாந்து மற்றும் கான்கிரீட்','666.9','ஜிப்சம், சுண்ணாம்பு மற்றும் சிமெண்ட்தொழிற்சாலைகள். கடினமாக்கும் பொருட்கள். பூச்சுகள் மற்றும் பொதிவுகள். சாந்து மற்றும் கான்கிரீட்','','','',false,true);
+d.add(410,343,'667','<div class="nodetag">667</div></span>&nbsp;&nbsp;வர்ண தொழில்கள்','667','வர்ண தொழில்கள்','','','',false,true);
+d.add(411,410,'667.2','<div class="nodetag">667.2</div></span>&nbsp;&nbsp;சாயப்பொருள் தொழில். உற்பத்தி மற்றும் சாயப் பொருள்களின் பயன்பாடு','667.2','சாயப்பொருள் தொழில். உற்பத்தி மற்றும் சாயப் பொருள்களின் பயன்பாடு','','','',false,true);
+d.add(412,410,'667.4','<div class="nodetag">667.4</div></span>&nbsp;&nbsp;எழுத்து மை','667.4','எழுத்து மை','','','',false,true);
+d.add(413,410,'667.5','<div class="nodetag">667.5</div></span>&nbsp;&nbsp;அச்சிடும் மை (கருப்பு அல்லது வண்ணம்). கற்பாள மை. எழுதும் மற்றும் வரையும் எழுதுகோல்கள். வண்ணமயமான வண்ணக்கட்டிகள்','667.5','அச்சிடும் மை (கருப்பு அல்லது வண்ணம்). கற்பாள மை. எழுதும் மற்றும் வரையும் எழுதுகோல்கள். வண்ணமயமான வண்ணக்கட்டிகள்','','','',false,true);
+d.add(414,410,'667.6','<div class="nodetag">667.6</div></span>&nbsp;&nbsp;பூச்சுகள் மற்றும் பூச்சு உத்திகள். வண்ணப்பூச்சுகள். நெய்வனங்கள். அரக்குப்பூச்சுகள்','667.6','பூச்சுகள் மற்றும் பூச்சு உத்திகள். வண்ணப்பூச்சுகள். நெய்வனங்கள். அரக்குப்பூச்சுகள்','','','',false,true);
+d.add(415,410,'667.7','<div class="nodetag">667.7</div></span>&nbsp;&nbsp;பல்வேறு பொருட்களை சாயம்பூசுதல், நிறமிடுதல் முதலியன., (அச்சிடுதல் மற்றும் ஓவியம் தவிர)','667.7','பல்வேறு பொருட்களை சாயம்பூசுதல், நிறமிடுதல் முதலியன., (அச்சிடுதல் மற்றும் ஓவியம் தவிர)','','','',false,true);
+d.add(416,343,'669','<div class="nodetag">669</div></span>&nbsp;&nbsp;உலோக தொழிற்கலை','669','உலோக தொழிற்கலை','','','',false,true);
+d.add(417,416,'669.1','<div class="nodetag">669.1</div></span>&nbsp;&nbsp;இரும்பு உலோகம். இரும்பு மற்றும் எஃகு','669.1','இரும்பு உலோகம். இரும்பு மற்றும் எஃகு','','','',false,true);
+d.add(418,416,'669.2','<div class="nodetag">669.2</div></span>&nbsp;&nbsp;பொதுவாக இரும்பு அல்லாத  உலோகங்கள்','669.2','பொதுவாக இரும்பு அல்லாத  உலோகங்கள்','','','',false,true);
+d.add(419,0,'67','<div class="nodetag">67</div></span>&nbsp;&nbsp;பலதரப்பட்ட தொழில்முனைவோர், வணிகம் மற்றும் நுண் தொழில்கள்','67','பலதரப்பட்ட தொழில்முனைவோர், வணிகம் மற்றும் நுண் தொழில்கள்','','','',false,true);
+d.add(420,419,'671','<div class="nodetag">671</div></span>&nbsp;&nbsp;விலைமதிப்பற்ற உலோகங்கள், கற்கள், விலையுயர்ந்த கற்கள்','671','விலைமதிப்பற்ற உலோகங்கள், கற்கள், விலையுயர்ந்த கற்கள்','','','',false,true);
+d.add(421,420,'671.1','<div class="nodetag">671.1</div></span>&nbsp;&nbsp;தங்கம் மற்றும் வெள்ளி பொருட்கள். மற்ற விலைமதிப்பற்ற உலோகங்கள். ஜூவல்லரி','671.1','தங்கம் மற்றும் வெள்ளி பொருட்கள். மற்ற விலைமதிப்பற்ற உலோகங்கள். ஜூவல்லரி','','','',false,true);
+d.add(422,420,'671.4','<div class="nodetag">671.4</div></span>&nbsp;&nbsp;நாணயங்கள் மற்றும் பதக்கங்களை உற்பத்தி செய்தல். நாணயமடிப்பு','671.4','நாணயங்கள் மற்றும் பதக்கங்களை உற்பத்தி செய்தல். நாணயமடிப்பு','','','',false,true);
+d.add(423,419,'672','<div class="nodetag">672</div></span>&nbsp;&nbsp;பொது இரும்பு மற்றும் எஃகு பொருட்கள்','672','பொது இரும்பு மற்றும் எஃகு பொருட்கள்','','','',false,true);
+d.add(424,419,'673','<div class="nodetag">673</div></span>&nbsp;&nbsp;இரும்பு அல்லாத   உலோக பொருட்கள் (விலைமதிப்பற்ற உலோகங்கள் தவிர)','673','இரும்பு அல்லாத   உலோக பொருட்கள் (விலைமதிப்பற்ற உலோகங்கள் தவிர)','','','',false,true);
+d.add(425,419,'674','<div class="nodetag">674</div></span>&nbsp;&nbsp;மரம் மற்றும் மர வேலை தொழில்','674','மரம் மற்றும் மர வேலை தொழில்','','','',false,true);
+d.add(426,419,'675','<div class="nodetag">675</div></span>&nbsp;&nbsp;தோல் துறை (மென்மயிர் மற்றும் போலியாக்க தோல் உட்பட)','675','தோல் துறை (மென்மயிர் மற்றும் போலியாக்க தோல் உட்பட)','','','',false,true);
+d.add(427,419,'676','<div class="nodetag">676</div></span>&nbsp;&nbsp;மரக்கூழ், காகிதம் மற்றும் பலகை தொழில்','676','மரக்கூழ், காகிதம் மற்றும் பலகை தொழில்','','','',false,true);
+d.add(428,419,'677','<div class="nodetag">677</div></span>&nbsp;&nbsp;நெசவு தொழிற்துறை','677','நெசவு தொழிற்துறை','','','',false,true);
+d.add(429,428,'677.1/.5','<div class="nodetag">677.1/.5</div></span>&nbsp;&nbsp;ஜவுளி இழைகள்','677.1/.5','ஜவுளி இழைகள்','','','',false,true);
+d.add(430,429,'677.1/.3','<div class="nodetag">677.1/.3</div></span>&nbsp;&nbsp;இயற்கை இழைகள்','677.1/.3','இயற்கை இழைகள்','','','',false,true);
+d.add(431,430,'677.1/.2','<div class="nodetag">677.1/.2</div></span>&nbsp;&nbsp;காய்கறி இழைகள்','677.1/.2','காய்கறி இழைகள்','','','',false,true);
+d.add(432,431,'677.1','<div class="nodetag">677.1</div></span>&nbsp;&nbsp;தண்டு நார்கள் (இருவித்திலை தண்டுககளிலிருந்து இழைகள் ). கடின இழைகள் (ஒருவித்திலை தாவர இலைகள் மற்றும் பழங்களிலிருந்து இழைகள்)','677.1','தண்டு நார்கள் (இருவித்திலை தண்டுககளிலிருந்து இழைகள் ). கடின இழைகள் (ஒருவித்திலை தாவர இலைகள் மற்றும் பழங்களிலிருந்து இழைகள்)','','','',false,true);
+d.add(433,431,'677.2','<div class="nodetag">677.2</div></span>&nbsp;&nbsp;காய்கறி முடிகள்','677.2','காய்கறி முடிகள்','','','',false,true);
+d.add(434,430,'677.3','<div class="nodetag">677.3</div></span>&nbsp;&nbsp;விலங்கு இழைகள்','677.3','விலங்கு இழைகள்','','','',false,true);
+d.add(435,429,'677.4','<div class="nodetag">677.4</div></span>&nbsp;&nbsp;மனிதன் தயாரித்த இழைகள்','677.4','மனிதன் தயாரித்த இழைகள்','','','',false,true);
+d.add(436,429,'677.5','<div class="nodetag">677.5</div></span>&nbsp;&nbsp;கனிம மற்றும் உலோக இழைகள். வலை பின்னும் பொருட்கள். ரப்பர்கள். காகித இழைகள்','677.5','கனிம மற்றும் உலோக இழைகள். வலை பின்னும் பொருட்கள். ரப்பர்கள். காகித இழைகள்','','','',false,true);
+d.add(437,419,'678','<div class="nodetag">678</div></span>&nbsp;&nbsp;பெரிய மூலக்கூறு பொருட்களை அடிப்படையாக கொண்ட தொழிற்சாலைகள் . ரப்பர் தொழில். ப்ளாஸ்டிக் தொழில்துறை','678','பெரிய மூலக்கூறு பொருட்களை அடிப்படையாக கொண்ட தொழிற்சாலைகள் . ரப்பர் தொழில். ப்ளாஸ்டிக் தொழில்துறை','','','',false,true);
+d.add(438,437,'678.4','<div class="nodetag">678.4</div></span>&nbsp;&nbsp;இயற்கை ரப்பர். கார்பன் மற்றும் ஹைட்ரஜன் மட்டுமே கொண்ட மற்ற இயற்கை பெரிய மூலக்கூறுகள்','678.4','இயற்கை ரப்பர். கார்பன் மற்றும் ஹைட்ரஜன் மட்டுமே கொண்ட மற்ற இயற்கை பெரிய மூலக்கூறுகள்','','','',false,true);
+d.add(439,437,'678.5','<div class="nodetag">678.5</div></span>&nbsp;&nbsp;பிளாஸ்டிக்குகள்','678.5','பிளாஸ்டிக்குகள்','','','',false,true);
+d.add(440,437,'678.6','<div class="nodetag">678.6</div></span>&nbsp;&nbsp;செயற்கை குறுக்கப் பல்லுறுப்பாக்க தயாரிப்புகள். குறுக்கப் பல்லுறுப்பாக்கள். செயற்கை ரெசின்கள். செயற்கை இழைகள் முதலியன','678.6','செயற்கை குறுக்கப் பல்லுறுப்பாக்க தயாரிப்புகள். குறுக்கப் பல்லுறுப்பாக்கள். செயற்கை ரெசின்கள். செயற்கை இழைகள் முதலியன','','','',false,true);
+d.add(441,437,'678.7','<div class="nodetag">678.7</div></span>&nbsp;&nbsp;செயற்கை குறுக்கப் பல்லுறுப்பாக்க தயாரிப்புகள். குறுக்கப் பல்லுறுப்புக்கள். செயற்கை ரெசின்கள். செயற்கை இழைகள் முதலியன','678.7','செயற்கை குறுக்கப் பல்லுறுப்பாக்க தயாரிப்புகள். குறுக்கப் பல்லுறுப்புக்கள். செயற்கை ரெசின்கள். செயற்கை இழைகள் முதலியன','','','',false,true);
+d.add(442,419,'679','<div class="nodetag">679</div></span>&nbsp;&nbsp;பல்வேறு பதப்படுத்தக்கூடிய பொருட்கள் சார்ந்த தொழில்கள்','679','பல்வேறு பதப்படுத்தக்கூடிய பொருட்கள் சார்ந்த தொழில்கள்','','','',false,true);
+d.add(443,442,'679.7','<div class="nodetag">679.7</div></span>&nbsp;&nbsp;கம்பி மற்றும் கொடி பரப்படர்த்தி தொழில்கள்','679.7','கம்பி மற்றும் கொடி பரப்படர்த்தி தொழில்கள்','','','',false,true);
+d.add(444,442,'679.8','<div class="nodetag">679.8</div></span>&nbsp;&nbsp;கல் தொழில்நுட்பம். கல் தொழில்','679.8','கல் தொழில்நுட்பம். கல் தொழில்','','','',false,true);
+d.add(445,442,'679.9','<div class="nodetag">679.9</div></span>&nbsp;&nbsp;மற்ற இயற்கை செயலாக்க பொருட்களின் தொழில்நுட்பம்','679.9','மற்ற இயற்கை செயலாக்க பொருட்களின் தொழில்நுட்பம்','','','',false,true);
+d.add(446,0,'68','<div class="nodetag">68</div></span>&nbsp;&nbsp;முடிவாக்கம், பாகங்களை ஒன்றாக இணைக்கும் தொழில்கள், கைவினை மற்றும் வர்த்தகம்','68','முடிவாக்கம், பாகங்களை ஒன்றாக இணைக்கும் தொழில்கள், கைவினை மற்றும் வர்த்தகம்','','','',false,true);
+d.add(447,446,'681','<div class="nodetag">681</div></span>&nbsp;&nbsp;துல்லிய இயங்குமுறைகள் மற்றும் கருவிகள்','681','துல்லிய இயங்குமுறைகள் மற்றும் கருவிகள்','','','',false,true);
+d.add(448,447,'681.1','<div class="nodetag">681.1</div></span>&nbsp;&nbsp;சக்கர இயந்திரம் அல்லது மோட்டார் இயங்குமுறைகள்','681.1','சக்கர இயந்திரம் அல்லது மோட்டார் இயங்குமுறைகள்','','','',false,true);
+d.add(449,447,'681.2','<div class="nodetag">681.2</div></span>&nbsp;&nbsp;பொதுவாக கருவிகள் தயாரித்தல். கருவியியல்.அளவிடும் கருவிகள் மற்றும் அவற்றின் உற்பத்தி. சமநிலைமைகள். எடையுள்ள சாதனங்கள்','681.2','பொதுவாக கருவிகள் தயாரித்தல். கருவியியல்.அளவிடும் கருவிகள் மற்றும் அவற்றின் உற்பத்தி. சமநிலைமைகள். எடையுள்ள சாதனங்கள்','','','',false,true);
+d.add(450,447,'681.5','<div class="nodetag">681.5</div></span>&nbsp;&nbsp;தன்னியக்க கட்டுப்பாட்டு தொழில்நுட்பம். புத்திசாலி தொழில்நுட்பம்','681.5','தன்னியக்க கட்டுப்பாட்டு தொழில்நுட்பம். புத்திசாலி தொழில்நுட்பம்','','','',false,true);
+d.add(451,447,'681.6','<div class="nodetag">681.6</div></span>&nbsp;&nbsp;வரைபட இனப்பெருக்க இயந்திரங்கள் மற்றும் உபகரணங்கள்','681.6','வரைபட இனப்பெருக்க இயந்திரங்கள் மற்றும் உபகரணங்கள்','','','',false,true);
+d.add(452,447,'681.7','<div class="nodetag">681.7</div></span>&nbsp;&nbsp;ஒளியியல் இயந்திரம் மற்றும் கருவிகள்','681.7','ஒளியியல் இயந்திரம் மற்றும் கருவிகள்','','','',false,true);
+d.add(453,447,'681.8','<div class="nodetag">681.8</div></span>&nbsp;&nbsp;தொழில்நுட்ப ஒலியியல்','681.8','தொழில்நுட்ப ஒலியியல்','','','',false,true);
+d.add(454,446,'682','<div class="nodetag">682</div></span>&nbsp;&nbsp;கொல்லர் பட்டறை. கருமார். குதிரை இலாடம் அடித்தல். கம்மாலை.','682','கொல்லர் பட்டறை. கருமார். குதிரை இலாடம் அடித்தல். கம்மாலை.','','','',false,true);
+d.add(455,454,'682.1','<div class="nodetag">682.1</div></span>&nbsp;&nbsp;இலாடம் அடித்தல். கொல்லன் முறையில் அடித்தல்','682.1','இலாடம் அடித்தல். கொல்லன் முறையில் அடித்தல்','','','',false,true);
+d.add(456,454,'682.3','<div class="nodetag">682.3</div></span>&nbsp;&nbsp;கருவி வடித்தல். விளிம்பு-கருவி வடித்தல்','682.3','கருவி வடித்தல். விளிம்பு-கருவி வடித்தல்','','','',false,true);
+d.add(457,454,'682.5','<div class="nodetag">682.5</div></span>&nbsp;&nbsp;இரும்பு வேலை நிறுவுதல் ','682.5','இரும்பு வேலை நிறுவுதல் ','','','',false,true);
+d.add(458,454,'682.6','<div class="nodetag">682.6</div></span>&nbsp;&nbsp;இரும்பு வேலை கட்டிடம்','682.6','இரும்பு வேலை கட்டிடம்','','','',false,true);
+d.add(459,446,'683','<div class="nodetag">683</div></span>&nbsp;&nbsp;இரும்பு விற்பனை. வன்பொருள். பூட்டு வடித்தல். புட்டியிடுதல். விளக்குகள். வெப்பமூட்டும் உபகரணங்கள்','683','இரும்பு விற்பனை. வன்பொருள். பூட்டு வடித்தல். புட்டியிடுதல். விளக்குகள். வெப்பமூட்டும் உபகரணங்கள்','','','',false,true);
+d.add(460,446,'684','<div class="nodetag">684</div></span>&nbsp;&nbsp;மரச்சாமான்கள் மற்றும் அதை சார்ந்த தொழில்கள். மரச்சாமான்கள் உற்பத்தி. மெத்தை திண்டு வேலை','684','மரச்சாமான்கள் மற்றும் அதை சார்ந்த தொழில்கள். மரச்சாமான்கள் உற்பத்தி. மெத்தை திண்டு வேலை','','','',false,true);
+d.add(461,460,'684.4','<div class="nodetag">684.4</div></span>&nbsp;&nbsp;மரச்சாமான்கள். மரச்சாமான்கள் வடிவமைப்பு மற்றும் உற்பத்தி','684.4','மரச்சாமான்கள். மரச்சாமான்கள் வடிவமைப்பு மற்றும் உற்பத்தி','','','',false,true);
+d.add(462,460,'684.6','<div class="nodetag">684.6</div></span>&nbsp;&nbsp;முகத்திரையிடுதல். பலவருணமரவேலை. செருகுதல் முதலியன','684.6','முகத்திரையிடுதல். பலவருணமரவேலை. செருகுதல் முதலியன','','','',false,true);
+d.add(463,460,'684.7','<div class="nodetag">684.7</div></span>&nbsp;&nbsp;மெத்தை திண்டு வேலை. படுக்கை அமைப்பு. மேலுறைகள். தொங்கல்கள்','684.7','மெத்தை திண்டு வேலை. படுக்கை அமைப்பு. மேலுறைகள். தொங்கல்கள்','','','',false,true);
+d.add(464,446,'685','<div class="nodetag">685</div></span>&nbsp;&nbsp;இருக்கை.காலணி. கையுறை. சுற்றுலா, போட்டி விளையாட்டு, விளையாட்டு மற்றும் பிற உபகரணங்கள்','685','இருக்கை.காலணி. கையுறை. சுற்றுலா, போட்டி விளையாட்டு, விளையாட்டு மற்றும் பிற உபகரணங்கள்','','','',false,true);
+d.add(465,464,'685.1','<div class="nodetag">685.1</div></span>&nbsp;&nbsp;பரியாசனம். சேணம் அமைத்தல்','685.1','பரியாசனம். சேணம் அமைத்தல்','','','',false,true);
+d.add(466,464,'685.2','<div class="nodetag">685.2</div></span>&nbsp;&nbsp;போரணிகள். இடைவார் செய்தல் . தோல் உபகரணங்கள் மற்றும் தொடர்புடைய தயாரிப்புகள்','685.2','போரணிகள். இடைவார் செய்தல் . தோல் உபகரணங்கள் மற்றும் தொடர்புடைய தயாரிப்புகள்','','','',false,true);
+d.add(467,464,'685.3','<div class="nodetag">685.3</div></span>&nbsp;&nbsp;காலணி. இடப்பெயர்ச்சியின் மற்ற உதவிகள்','685.3','காலணி. இடப்பெயர்ச்சியின் மற்ற உதவிகள்','','','',false,true);
+d.add(468,464,'685.4','<div class="nodetag">685.4</div></span>&nbsp;&nbsp;கையுறை. கையுறை தயாரித்தல்','685.4','கையுறை. கையுறை தயாரித்தல்','','','',false,true);
+d.add(469,464,'685.5','<div class="nodetag">685.5</div></span>&nbsp;&nbsp;சுற்றுலா பொருட்கள். முகாமிற்கான உபகரணம்','685.5','சுற்றுலா பொருட்கள். முகாமிற்கான உபகரணம்','','','',false,true);
+d.add(470,464,'685.6','<div class="nodetag">685.6</div></span>&nbsp;&nbsp;போட்டி விளையாட்டு மற்றும் விளையாட்டு உபகரணங்கள். தடகள, சீருடற்பயிற்சி, உடல் பயிற்சிக்கான  உபகரணங்கள் மற்றும் நிறுவல்கள்','685.6','போட்டி விளையாட்டு மற்றும் விளையாட்டு உபகரணங்கள். தடகள, சீருடற்பயிற்சி, உடல் பயிற்சிக்கான  உபகரணங்கள் மற்றும் நிறுவல்கள்','','','',false,true);
+d.add(471,464,'685.7','<div class="nodetag">685.7</div></span>&nbsp;&nbsp;மலையேறுதல், ஏறும் உபகரணங்கள். நீச்சல் உபகரணங்கள்','685.7','மலையேறுதல், ஏறும் உபகரணங்கள். நீச்சல் உபகரணங்கள்','','','',false,true);
+d.add(472,464,'685.8','<div class="nodetag">685.8</div></span>&nbsp;&nbsp;பலகை மற்றும் மேசை விளையாட்டு உபகரணங்கள்','685.8','பலகை மற்றும் மேசை விளையாட்டு உபகரணங்கள்','','','',false,true);
+d.add(473,446,'686','<div class="nodetag">686</div></span>&nbsp;&nbsp;புத்தகபிணைப்பியல். உலோகமாக்குதல். கண்ணாடி தயாரித்தல். எழுதுபொருட்கள்','686','புத்தகபிணைப்பியல். உலோகமாக்குதல். கண்ணாடி தயாரித்தல். எழுதுபொருட்கள்','','','',false,true);
+d.add(474,446,'687','<div class="nodetag">687</div></span>&nbsp;&nbsp;ஆடை தொழிற்துறை. ஆடை உற்பத்தி. அழகு கலாச்சாரம்','687','ஆடை தொழிற்துறை. ஆடை உற்பத்தி. அழகு கலாச்சாரம்','','','',false,true);
+d.add(475,474,'687.1','<div class="nodetag">687.1</div></span>&nbsp;&nbsp;வெளி ஆடை. தையல்','687.1','வெளி ஆடை. தையல்','','','',false,true);
+d.add(476,474,'687.2','<div class="nodetag">687.2</div></span>&nbsp;&nbsp;நார்த்துணி உடைகள். உள்ளாடைகள்','687.2','நார்த்துணி உடைகள். உள்ளாடைகள்','','','',false,true);
+d.add(477,474,'687.3','<div class="nodetag">687.3</div></span>&nbsp;&nbsp;பின்னலாடை. இணைப்புகள். ஆடை பாதுகாத்தல் மற்றும் பாதுகாப்பு சாதனங்கள்','687.3','பின்னலாடை. இணைப்புகள். ஆடை பாதுகாத்தல் மற்றும் பாதுகாப்பு சாதனங்கள்','','','',false,true);
+d.add(478,474,'687.4','<div class="nodetag">687.4</div></span>&nbsp;&nbsp;தலைக்கவசம். தொப்பி தயாரித்தல்.தொப்பியியல்','687.4','தலைக்கவசம். தொப்பி தயாரித்தல்.தொப்பியியல்','','','',false,true);
+d.add(479,474,'687.5','<div class="nodetag">687.5</div></span>&nbsp;&nbsp;அழகு கலாச்சார தொழில்கள்','687.5','அழகு கலாச்சார தொழில்கள்','','','',false,true);
+d.add(480,474,'687.8','<div class="nodetag">687.8</div></span>&nbsp;&nbsp;செயற்கை தோல்','687.8','செயற்கை தோல்','','','',false,true);
+d.add(481,474,'687.9','<div class="nodetag">687.9</div></span>&nbsp;&nbsp;தூரிகை தொழில். விளக்குமாறுகள் முதலியன','687.9','தூரிகை தொழில். விளக்குமாறுகள் முதலியன','','','',false,true);
+d.add(482,446,'688','<div class="nodetag">688</div></span>&nbsp;&nbsp;ஆடம்பரமான பொருட்கள். பொம்மைகள். அலங்கார பொருட்கள்','688','ஆடம்பரமான பொருட்கள். பொம்மைகள். அலங்கார பொருட்கள்','','','',false,true);
+d.add(483,482,'688.7','<div class="nodetag">688.7</div></span>&nbsp;&nbsp;பொம்மைகள். கேளிக்கை பொருட்கள், தந்திரங்கள்','688.7','பொம்மைகள். கேளிக்கை பொருட்கள், தந்திரங்கள்','','','',false,true);
+d.add(484,446,'689','<div class="nodetag">689</div></span>&nbsp;&nbsp;கலைப்பிரியர் கைவினைகள். தொழில்நுட்ப பொழுதுபோக்குகள்','689','கலைப்பிரியர் கைவினைகள். தொழில்நுட்ப பொழுதுபோக்குகள்','','','',false,true);
+d.add(485,0,'69','<div class="nodetag">69</div></span>&nbsp;&nbsp;கட்டுமான துறை. கட்டுமான பொருட்கள். கட்டிட விதிமுறைகள் மற்றும் பழக்கங்கள்','69','கட்டுமான துறை. கட்டுமான பொருட்கள். கட்டிட விதிமுறைகள் மற்றும் பழக்கங்கள்','','','',false,true);
+d.add(486,485,'691','<div class="nodetag">691</div></span>&nbsp;&nbsp;கட்டடப் பொருட்கள். கட்டடக் பாகங்கள்.','691','கட்டடப் பொருட்கள். கட்டடக் பாகங்கள்.','','','',false,true);
+d.add(487,485,'692','<div class="nodetag">692</div></span>&nbsp;&nbsp;கட்டமைப்பு பாகங்கள் மற்றும் கட்டிடங்களின் கூறுகள்','692','கட்டமைப்பு பாகங்கள் மற்றும் கட்டிடங்களின் கூறுகள்','','','',false,true);
+d.add(488,485,'693','<div class="nodetag">693</div></span>&nbsp;&nbsp;கட்டுமானம் மற்றும் தொடர்புடைய கட்டிட கைத்தொழில்கள்','693','கட்டுமானம் மற்றும் தொடர்புடைய கட்டிட கைத்தொழில்கள்','','','',false,true);
+d.add(489,485,'694','<div class="nodetag">694</div></span>&nbsp;&nbsp;மர கட்டுமானம். தச்சு வேலை. ஒட்டு வேலைப்பாடுகள்','694','மர கட்டுமானம். தச்சு வேலை. ஒட்டு வேலைப்பாடுகள்','','','',false,true);
+d.add(490,485,'696','<div class="nodetag">696</div></span>&nbsp;&nbsp;கருவிகள், சேவைகள், கட்டிடங்களில் நிறுவல்கள் (சுகாதார, வாயு, நீராவி,மின்சாரம்). குழாய் பொருத்துபவர். குழாய்கள் பழுது பார்ப்பவர். உலோக தொழிலாளி. வாய்க்கால் அமைப்பவர். மின்தொழிலாளி. இதர வர்த்தகம்','696','கருவிகள், சேவைகள், கட்டிடங்களில் நிறுவல்கள் (சுகாதார, வாயு, நீராவி,மின்சாரம்). குழாய் பொருத்துபவர். குழாய்கள் பழுது பார்ப்பவர். உலோக தொழிலாளி. வாய்க்கால் அமைப்பவர். மின்தொழிலாளி. இதர வர்த்தகம்','','','',false,true);
+d.add(491,485,'697','<div class="nodetag">697</div></span>&nbsp;&nbsp;வெப்பமூட்டுதல், காற்றோட்டம் மற்றும் கட்டிடங்களின் காற்றுச்சீரமைப்பு','697','வெப்பமூட்டுதல், காற்றோட்டம் மற்றும் கட்டிடங்களின் காற்றுச்சீரமைப்பு','','','',false,true);
+d.add(492,485,'698','<div class="nodetag">698</div></span>&nbsp;&nbsp;நிறைவு செய்யும் மற்றும் அலங்கரிப்பு வர்த்தகங்கள்','698','நிறைவு செய்யும் மற்றும் அலங்கரிப்பு வர்த்தகங்கள்','','','',false,true);
+d.config.useSelection = false;
+d.config.inOrder = true;
+d.config.useIcons = false;
+document.write(d);
+//-->
+</script>
+</div>
+</div><div id="expandbox" onclick="expandbox(); return false;">&nbsp;</div>
+<div id="recordbox" class="debugbkg">
+<div class="fronthint">பதிவுகளை காண இடதுப் புற வகுப்புகள் மீது சுட்டுக</div>
+</div>
+
+        <div id="footer">
+            <div class="footersectionleft">
+                The UDC Summary (UDCS) provides a selection of around 2,600 classes from the whole scheme which comprises more than 70,000 entries.
+                Please send questions and suggestions to <a href="mailto:udcs@udcc.org?subject=UDC Summary Enquiry">udcs@udcc.org</a><br><br>
+	            <p>
+		            The data provided in this Summary is released under the <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative Commons Attribution Share Alike 3.0 license</a> <a href="../about.htm">[more]</a>
+	            </p>
+            </div>
+            <div class="footermiddle">
+                <a href="http://www.udcc.org"><img src="../images/udclogowhite.png" border="0"></a>
+            </div>
+			<div class="footerright">
+                For complete UDC schedules see <a href="http://www.udc-hub.com/">UDC Online Hub</a><br/><a href="http://www.udc-hub.com/"><img width="60" height="35" src="../images/udclogo.png"/></a>
+
+			</div>
+        </div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-13138465-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>

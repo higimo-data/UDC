@@ -1,0 +1,901 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>UDC Summary</title>
+    <link rel="stylesheet" href="../reset.css" type="text/css" />
+    <link rel="stylesheet" href="../udc2000.css" type="text/css" />
+	    <link rel="StyleSheet" href="dtree2.css" type="text/css" />
+	    <script type="text/javascript" src="dtree.js"></script>
+	    <script type="text/javascript" src="udcdisplay_9.js"></script>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+</head>
+
+<body >
+<div id="centercontainer" class="debugbkg">
+    <div id="titlebox" class="debugbkg">
+		<div id="rightbox">
+        	<div id="languagecount">57 languages</div>
+            <div id="languagebox">
+            <select id="selectedlang" style="vertical-align: middle;" onchange="location = this.options[this.selectedIndex].value;">
+			<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=af&pr=Y">Afrikaans (Afrikaans) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sq&pr=Y">Albanian (Shqip) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=anp&pr=Y">Angika (अंगिका) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ar&pr=Y">Arabic (العربية) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=hy&pr=Y">Armenian (հայերեն) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=eu&pr=Y">Basque (Euskara) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=be&pr=Y">Belarusian (Беларуская) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=bn&pr=Y" selected>Bengali (বাংলা) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=bho&pr=Y">Bhojpuri (भोजपुरी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=bg&pr=Y">Bulgarian (Български) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ca&pr=Y">Catalan (Català) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=chi&pr=Y">Chinese (中文) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=hr&pr=Y">Croatian (Hrvatski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=cs&pr=Y">Czech (Čeština) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=da&pr=Y">Danish (Dansk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=nl&pr=Y">Dutch (Nederlands) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=en&pr=Y">English (English) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=eo&pr=Y">Esperanto (Esperanto) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=et&pr=Y">Estonian (Eesti) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=fi&pr=Y">Finnish (Suomi) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=fr&pr=Y">French (Français) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=gl&pr=Y">Galician (Galego) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ka&pr=Y">Georgian (ქართული) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=de&pr=Y">German (Deutsch) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=el&pr=Y">Greek (Ελληνικά) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=hi&pr=Y">Hindi (हिन्दी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=hu&pr=Y">Hungarian (Magyar) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=id&pr=Y">Indonesian (Bahasa Ind) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ga&pr=Y">Irish (Gaeilge) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=it&pr=Y">Italian (Italiano) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ja&pr=Y">Japanese (日本語) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=kn&pr=Y">Kannada (ಕನ್ನಡ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=kk&pr=Y">Kazakh (Қазақ тілі) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=lv&pr=Y">Latvian (Latviešu) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=lt&pr=Y">Lithuanian (lietuvių) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=mk&pr=Y">Macedonian (македонски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ml&pr=Y">Malayalam (മലയാളം) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=mr&pr=Y">Marathi (मराठी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=no&pr=Y">Norwegian (Norsk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=pl&pr=Y">Polish (Polski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=pt&pr=Y">Portuguese (Português) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=pa&pr=Y">Punjabi (ਪੰਜਾਬੀ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ro&pr=Y">Romanian (Româna) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ru&pr=Y">Russian (Pусский) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sa&pr=Y">Sanskrit (Saṃskṛtam) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sr&pr=Y">Serbian (Српски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=si&pr=Y">Sinhala (සිංහල) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sk&pr=Y">Slovak (Slovenský) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sl&pr=Y">Slovenian (Slovenski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=es&pr=Y">Spanish (Español) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sv&pr=Y">Swedish (Svenska) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ta&pr=Y">Tamil (தமிழ்) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=te&pr=Y">Telugu (తెలుగు) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=tr&pr=Y">Turkish (Türkçe) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=uk&pr=Y">Ukrainian (Yкраї́нська) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=uz&pr=Y">Uzbek (oʻzbek) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=vi&pr=Y">Vietnamese (tiếng Việt) </option>
+            </select>
+            </div>
+            </div>
+        </div>
+		<div id="menubox" class="debugbkg">
+            <ul class="menu boldmenu">
+<li><a href="index.php@lang=bn">শীর্ষশ্রেণি</a></li>
+<li><a href="index.php@tag=--&amp;lang=bn">চিহ্নমালা</a></li>
+<li><a href="index.php@tag=---&amp;lang=bn">সহায়িকাসমূহ</a></li>
+<li><a href="index.php@tag=0&amp;lang=bn">0</a></li>
+<li><a href="index.php@tag=1&amp;lang=bn">1</a></li>
+<li><a href="index.php@tag=2&amp;lang=bn">2</a></li>
+<li><a href="index.php@tag=3&amp;lang=bn">3</a></li>
+<li><a  class="vacant" href="index.php@tag=---&amp;lang=bn#">4</a></li>
+<li><a href="index.php@tag=5&amp;lang=bn">5</a></li>
+<li><a href="index.php@tag=6&amp;lang=bn">6</a></li>
+<li><a href="index.php@tag=7&amp;lang=bn">7</a></li>
+<li><a href="index.php@tag=8&amp;lang=bn">8</a></li>
+<li><a href="index.php@tag=9&amp;lang=bn">9</a></li>
+</ul>
+<input type="hidden" id="if_loading" name="if_loading" value="উপাত্ত স্থানান্তরিত হচ্ছে"/>
+<input type="hidden" id="if_lang" name="if_lang" value="29"/>
+<ul class="rightmenu boldmenu">
+<li><a href="../translation.htm">অনুবাদসমূহ</a></li>
+<li><a href="index.php@tag=---&amp;lang=bn#" title="Under Development">মানচিত্রায়ণসমূহ</a></li>
+<li><a href="../exports.htm" title="Data Exports">উপাত্ত নির্গমন</a></li>
+<li><a href="index.php@tag=---&amp;lang=bn#" title="Under Development">বর্ণানুক্রমিক নির্ঘণ্ট</a></li>
+<li><a href="index.php@tag=---&amp;lang=bn#" title="Under Development">নির্দেশিকা</a></li>
+<li><a href="../about.htm" title="About the UDC Summary">বিবরণ</a></li>
+</ul>
+
+        </div>
+		<input type="hidden" id="leftWidth" value="420"/><input type="hidden" id="rightWidth" value="522"/>
+		<div id="classmarkbox" class="debugbkg">
+
+<div id="openclosemenu"><a href="javascript: d.openAll();">&nbsp;সম্প্রসারিত করতে</a> | <a href="javascript: d.closeAll();">সংকুচিত করতে</a></div>
+<div id="classtree">
+<script type="text/javascript">
+<!--
+d = new dTree('d');
+d.config.hrefIsClick = true;
+d.add(0,-1,'---','<span class="nodetag"></span>অভিন্ন সহায়িকা সংখ্যাসমূহ','---','','','','',false,true);
+d.add(1,0,'=...','<div class="nodetag">=...</div></span>&nbsp;&nbsp;ভাষার অভিন্ন সহায়িকাসমূহ। সারণি 1c','=...','ভাষার অভিন্ন সহায়িকাসমূহ। সারণি 1c','','','',false,true);
+d.add(2,1,'=...`01/`08','<div class="nodetag">=...`01/`08</div></span>&nbsp;&nbsp;ভাষার উৎপত্তি, পর্যায়কাল এবং ক্রমবিকাশের পর্ব সমূহের নিমিত্ত বিশেষ সহায়িকা উপবিভাগ','=...`01/`08','ভাষার উৎপত্তি, পর্যায়কাল এবং ক্রমবিকাশের পর্ব সমূহের নিমিত্ত বিশেষ সহায়িকা উপবিভাগ','','','',false,true);
+d.add(3,2,'=...`01','<div class="nodetag">=...`01</div></span>&nbsp;&nbsp;প্রাচীন পর্যায়। অতিপ্রাচীন কাল','=...`01','প্রাচীন পর্যায়। অতিপ্রাচীন কাল','','','',false,true);
+d.add(4,2,'=...`04','<div class="nodetag">=...`04</div></span>&nbsp;&nbsp;মধ্য পর্যায়','=...`04','মধ্য পর্যায়','','','',false,true);
+d.add(5,2,'=...`06','<div class="nodetag">=...`06</div></span>&nbsp;&nbsp;আধুনিক পর্যায়','=...`06','আধুনিক পর্যায়','','','',false,true);
+d.add(6,1,'=...`276/`282','<div class="nodetag">=...`276/`282</div></span>&nbsp;&nbsp;ভাষার ব্যবহার, উপভাষা এবং বিকল্পসমূহের জন্য বিশেষ সহায়িকা উপবিভাগ','=...`276/`282','ভাষার ব্যবহার, উপভাষা এবং বিকল্পসমূহের জন্য বিশেষ সহায়িকা উপবিভাগ','','','',false,true);
+d.add(7,6,'=...`276','<div class="nodetag">=...`276</div></span>&nbsp;&nbsp;সামাজিক উপভাষা। বৃত্তিমূলক অপভাষা। বিশেষ মাতৃভাষিক আকার','=...`276','সামাজিক উপভাষা। বৃত্তিমূলক অপভাষা। বিশেষ মাতৃভাষিক আকার','','','',false,true);
+d.add(8,6,'=...`282','<div class="nodetag">=...`282</div></span>&nbsp;&nbsp;উপভাষা। স্থানীয় এবং আঞ্চলিক ভাষা। পরিবর্ত এবং মাতৃভাষা','=...`282','উপভাষা। স্থানীয় এবং আঞ্চলিক ভাষা। পরিবর্ত এবং মাতৃভাষা','','','',false,true);
+d.add(9,1,'=00','<div class="nodetag">=00</div></span>&nbsp;&nbsp;বহুভাষিক। বহুভাষী','=00','বহুভাষিক। বহুভাষী','','','',false,true);
+d.add(10,1,'=030','<div class="nodetag">=030</div></span>&nbsp;&nbsp;অনূদিত প্রলেখ। অনুবাদ','=030','অনূদিত প্রলেখ। অনুবাদ','','','',false,true);
+d.add(11,1,'=1/=9','<div class="nodetag">=1/=9</div></span>&nbsp;&nbsp;ভাষাসমূহ (প্রাকৃতিক এবং কৃত্রিম)','=1/=9','ভাষাসমূহ (প্রাকৃতিক এবং কৃত্রিম)','','','',false,true);
+d.add(12,11,'=1/=8','<div class="nodetag">=1/=8</div></span>&nbsp;&nbsp;প্রাকৃতিক ভাষাসমূহ','=1/=8','প্রাকৃতিক ভাষাসমূহ','','','',false,true);
+d.add(13,12,'=1/=2','<div class="nodetag">=1/=2</div></span>&nbsp;&nbsp;ইন্দো-ইউরোপীয় ভাষাসমূহ','=1/=2','ইন্দো-ইউরোপীয় ভাষাসমূহ','','','',false,true);
+d.add(14,13,'=1','<div class="nodetag">=1</div></span>&nbsp;&nbsp;ইউরোপস্থ ইন্দো-ইউরোপীয় ভাষাসমূহ','=1','ইউরোপস্থ ইন্দো-ইউরোপীয় ভাষাসমূহ','','','',false,true);
+d.add(15,14,'=11','<div class="nodetag">=11</div></span>&nbsp;&nbsp;জার্মানিক ভাষাসমূহ','=11','জার্মানিক ভাষাসমূহ','','','',false,true);
+d.add(16,15,'=111','<div class="nodetag">=111</div></span>&nbsp;&nbsp;ইংরেজি','=111','ইংরেজি','','','',false,true);
+d.add(17,15,'=112','<div class="nodetag">=112</div></span>&nbsp;&nbsp;পশ্চিম জার্মানিক ভাষাসমূহ','=112','পশ্চিম জার্মানিক ভাষাসমূহ','','','',false,true);
+d.add(18,17,'=112.2','<div class="nodetag">=112.2</div></span>&nbsp;&nbsp;জার্মান','=112.2','জার্মান','','','',false,true);
+d.add(19,17,'=112.5','<div class="nodetag">=112.5</div></span>&nbsp;&nbsp;ডাচ','=112.5','ডাচ','','','',false,true);
+d.add(20,17,'=112.6','<div class="nodetag">=112.6</div></span>&nbsp;&nbsp;আফ্রিকানস','=112.6','আফ্রিকানস','','','',false,true);
+d.add(21,15,'=113','<div class="nodetag">=113</div></span>&nbsp;&nbsp;উত্তর জার্মানিক (নর্ডিক) ভাষাসমূহ','=113','উত্তর জার্মানিক (নর্ডিক) ভাষাসমূহ','','','',false,true);
+d.add(22,21,'=113.3','<div class="nodetag">=113.3</div></span>&nbsp;&nbsp;আইসল্যান্ডীয়','=113.3','আইসল্যান্ডীয়','','','',false,true);
+d.add(23,21,'=113.4','<div class="nodetag">=113.4</div></span>&nbsp;&nbsp;ড্যানিশ','=113.4','ড্যানিশ','','','',false,true);
+d.add(24,21,'=113.5','<div class="nodetag">=113.5</div></span>&nbsp;&nbsp;নরওয়েজিয়','=113.5','নরওয়েজিয়','','','',false,true);
+d.add(25,21,'=113.6','<div class="nodetag">=113.6</div></span>&nbsp;&nbsp;সুইডিশ','=113.6','সুইডিশ','','','',false,true);
+d.add(26,15,'=114','<div class="nodetag">=114</div></span>&nbsp;&nbsp;পূর্ব জার্মানিক ভাষাসমূহ','=114','পূর্ব জার্মানিক ভাষাসমূহ','','','',false,true);
+d.add(27,14,'=12','<div class="nodetag">=12</div></span>&nbsp;&nbsp;ইতালিক ভাষাসমূহ','=12','ইতালিক ভাষাসমূহ','','','',false,true);
+d.add(28,27,'=122','<div class="nodetag">=122</div></span>&nbsp;&nbsp;আম্ব্রো-সাবেলিয় (অস্কো-আম্ব্রিয়) ভাষা','=122','আম্ব্রো-সাবেলিয় (অস্কো-আম্ব্রিয়) ভাষা','','','',false,true);
+d.add(29,27,'=124','<div class="nodetag">=124</div></span>&nbsp;&nbsp;লাতিন','=124','লাতিন','','','',false,true);
+d.add(30,14,'=13','<div class="nodetag">=13</div></span>&nbsp;&nbsp;রোমানশ্ ভাষাসমূহ','=13','রোমানশ্ ভাষাসমূহ','','','',false,true);
+d.add(31,30,'=131','<div class="nodetag">=131</div></span>&nbsp;&nbsp;ইতালিয়-রোমানশ্ ভাষাসমূহ','=131','ইতালিয়-রোমানশ্ ভাষাসমূহ','','','',false,true);
+d.add(32,31,'=131.1','<div class="nodetag">=131.1</div></span>&nbsp;&nbsp;ইতালিয়','=131.1','ইতালিয়','','','',false,true);
+d.add(33,30,'=132','<div class="nodetag">=132</div></span>&nbsp;&nbsp;রেটো-রোমানশ্ ভাষাসমূহ','=132','রেটো-রোমানশ্ ভাষাসমূহ','','','',false,true);
+d.add(34,30,'=133','<div class="nodetag">=133</div></span>&nbsp;&nbsp;ফরাসি-রোমানশ্ ভাষাসমূহ','=133','ফরাসি-রোমানশ্ ভাষাসমূহ','','','',false,true);
+d.add(35,34,'=133.1','<div class="nodetag">=133.1</div></span>&nbsp;&nbsp;ফরাসি','=133.1','ফরাসি','','','',false,true);
+d.add(36,30,'=134','<div class="nodetag">=134</div></span>&nbsp;&nbsp;আইবিরিয়-রোমানশ্ ভাষাসমূহ','=134','আইবিরিয়-রোমানশ্ ভাষাসমূহ','','','',false,true);
+d.add(37,36,'=134.1','<div class="nodetag">=134.1</div></span>&nbsp;&nbsp;কাতালান','=134.1','কাতালান','','','',false,true);
+d.add(38,36,'=134.2','<div class="nodetag">=134.2</div></span>&nbsp;&nbsp;স্পেনীয়','=134.2','স্পেনীয়','','','',false,true);
+d.add(39,36,'=134.3','<div class="nodetag">=134.3</div></span>&nbsp;&nbsp;পর্তুগিজ','=134.3','পর্তুগিজ','','','',false,true);
+d.add(40,36,'=134.4','<div class="nodetag">=134.4</div></span>&nbsp;&nbsp;গ্যালিগান / গ্যালিসিয়ান','=134.4','গ্যালিগান / গ্যালিসিয়ান','','','',false,true);
+d.add(41,30,'=135','<div class="nodetag">=135</div></span>&nbsp;&nbsp;বল্কান রোমানশ্ ভাষাসমূহ','=135','বল্কান রোমানশ্ ভাষাসমূহ','','','',false,true);
+d.add(42,41,'=135.1','<div class="nodetag">=135.1</div></span>&nbsp;&nbsp;রুমানিয়','=135.1','রুমানিয়','','','',false,true);
+d.add(43,14,'=14','<div class="nodetag">=14</div></span>&nbsp;&nbsp;গ্রিক (হেলেনিক)','=14','গ্রিক (হেলেনিক)','','','',false,true);
+d.add(44,14,'=15','<div class="nodetag">=15</div></span>&nbsp;&nbsp;কেলতিক ভাষাসমূহ','=15','কেলতিক ভাষাসমূহ','','','',false,true);
+d.add(45,44,'=152','<div class="nodetag">=152</div></span>&nbsp;&nbsp;গোইদেলিক শ্রেণি','=152','গোইদেলিক শ্রেণি','','','',false,true);
+d.add(46,45,'=152.1','<div class="nodetag">=152.1</div></span>&nbsp;&nbsp;আইরিশ','=152.1','আইরিশ','','','',false,true);
+d.add(47,45,'=152.2','<div class="nodetag">=152.2</div></span>&nbsp;&nbsp;স্কট গ্যালিক','=152.2','স্কট গ্যালিক','','','',false,true);
+d.add(48,44,'=153','<div class="nodetag">=153</div></span>&nbsp;&nbsp;ব্রাইথোনিক শ্রেণি','=153','ব্রাইথোনিক শ্রেণি','','','',false,true);
+d.add(49,14,'=16','<div class="nodetag">=16</div></span>&nbsp;&nbsp;স্লাভিক ভাষাসমূহ','=16','স্লাভিক ভাষাসমূহ','','','',false,true);
+d.add(50,49,'=161','<div class="nodetag">=161</div></span>&nbsp;&nbsp;পূর্ব স্লাভিক ভাষাসমূহ','=161','পূর্ব স্লাভিক ভাষাসমূহ','','','',false,true);
+d.add(51,50,'=161.1','<div class="nodetag">=161.1</div></span>&nbsp;&nbsp;রাশিয়ান','=161.1','রাশিয়ান','','','',false,true);
+d.add(52,50,'=161.2','<div class="nodetag">=161.2</div></span>&nbsp;&nbsp;ইউক্রেনিয়','=161.2','ইউক্রেনিয়','','','',false,true);
+d.add(53,50,'=161.3','<div class="nodetag">=161.3</div></span>&nbsp;&nbsp;বেলারুশ (বাইলোরুশিয় / শ্বেত রাশিয়ান)','=161.3','বেলারুশ (বাইলোরুশিয় / শ্বেত রাশিয়ান)','','','',false,true);
+d.add(54,49,'=162','<div class="nodetag">=162</div></span>&nbsp;&nbsp;পশ্চিম স্লাভিক ভাষাসমূহ','=162','পশ্চিম স্লাভিক ভাষাসমূহ','','','',false,true);
+d.add(55,54,'=162.1','<div class="nodetag">=162.1</div></span>&nbsp;&nbsp;পোলিশ','=162.1','পোলিশ','','','',false,true);
+d.add(56,54,'=162.3','<div class="nodetag">=162.3</div></span>&nbsp;&nbsp;চেক','=162.3','চেক','','','',false,true);
+d.add(57,54,'=162.4','<div class="nodetag">=162.4</div></span>&nbsp;&nbsp;স্লোভাক','=162.4','স্লোভাক','','','',false,true);
+d.add(58,49,'=163','<div class="nodetag">=163</div></span>&nbsp;&nbsp;দক্ষিণ স্লাভিক ভাষাসমূহ','=163','দক্ষিণ স্লাভিক ভাষাসমূহ','','','',false,true);
+d.add(59,58,'=163.2','<div class="nodetag">=163.2</div></span>&nbsp;&nbsp;বুলগেরিয়','=163.2','বুলগেরিয়','','','',false,true);
+d.add(60,58,'=163.3','<div class="nodetag">=163.3</div></span>&nbsp;&nbsp;ম্যাসিডোনিয়','=163.3','ম্যাসিডোনিয়','','','',false,true);
+d.add(61,58,'=163.4','<div class="nodetag">=163.4</div></span>&nbsp;&nbsp;সার্বিয় এবং ক্রোয়েশিয়','=163.4','সার্বিয় এবং ক্রোয়েশিয়','','','',false,true);
+d.add(62,61,'=163.41','<div class="nodetag">=163.41</div></span>&nbsp;&nbsp;সার্বিয়','=163.41','সার্বিয়','','','',false,true);
+d.add(63,61,'=163.42','<div class="nodetag">=163.42</div></span>&nbsp;&nbsp;ক্রোয়েশিয়','=163.42','ক্রোয়েশিয়','','','',false,true);
+d.add(64,58,'=163.6','<div class="nodetag">=163.6</div></span>&nbsp;&nbsp;স্লোভেনিয়','=163.6','স্লোভেনিয়','','','',false,true);
+d.add(65,14,'=17','<div class="nodetag">=17</div></span>&nbsp;&nbsp;বাল্টিক ভাষাসমূহ','=17','বাল্টিক ভাষাসমূহ','','','',false,true);
+d.add(66,65,'=172','<div class="nodetag">=172</div></span>&nbsp;&nbsp;লিথুয়ানিয়','=172','লিথুয়ানিয়','','','',false,true);
+d.add(67,65,'=174','<div class="nodetag">=174</div></span>&nbsp;&nbsp;লাতভিয়','=174','লাতভিয়','','','',false,true);
+d.add(68,14,'=18','<div class="nodetag">=18</div></span>&nbsp;&nbsp;আলবেনিয়','=18','আলবেনিয়','','','',false,true);
+d.add(69,14,'=19','<div class="nodetag">=19</div></span>&nbsp;&nbsp;আর্মেনিয়','=19','আর্মেনিয়','','','',false,true);
+d.add(70,13,'=2','<div class="nodetag">=2</div></span>&nbsp;&nbsp;ইন্দো-ইরানিয়, নুরিস্তানি (কাফিরি) এবং বিলুপ্ত ইন্দো-ইউরোপীয় ভাষাসমূহ','=2','ইন্দো-ইরানিয়, নুরিস্তানি (কাফিরি) এবং বিলুপ্ত ইন্দো-ইউরোপীয় ভাষাসমূহ','','','',false,true);
+d.add(71,70,'=21/=22','<div class="nodetag">=21/=22</div></span>&nbsp;&nbsp;ইন্দো-ইরানিয় ভাষাসমূহ','=21/=22','ইন্দো-ইরানিয় ভাষাসমূহ','','','',false,true);
+d.add(72,71,'=21','<div class="nodetag">=21</div></span>&nbsp;&nbsp;ভারতীয় ভাষাসমূহ','=21','ভারতীয় ভাষাসমূহ','','','',false,true);
+d.add(73,72,'=211','<div class="nodetag">=211</div></span>&nbsp;&nbsp;সংস্কৃত','=211','সংস্কৃত','','','',false,true);
+d.add(74,72,'=212','<div class="nodetag">=212</div></span>&nbsp;&nbsp;পালি','=212','পালি','','','',false,true);
+d.add(75,72,'=213','<div class="nodetag">=213</div></span>&nbsp;&nbsp;প্রাকৃত','=213','প্রাকৃত','','','',false,true);
+d.add(76,72,'=214','<div class="nodetag">=214</div></span>&nbsp;&nbsp;আধুনিক ভারতীয় ভাষাসমূহ','=214','আধুনিক ভারতীয় ভাষাসমূহ','','','',false,true);
+d.add(77,76,'=214.1','<div class="nodetag">=214.1</div></span>&nbsp;&nbsp;দার্দিক শ্রেণি','=214.1','দার্দিক শ্রেণি','','','',false,true);
+d.add(78,76,'=214.2','<div class="nodetag">=214.2</div></span>&nbsp;&nbsp;মধ্যস্থ শ্রেণি','=214.2','মধ্যস্থ শ্রেণি','','','',false,true);
+d.add(79,78,'=214.21','<div class="nodetag">=214.21</div></span>&nbsp;&nbsp;হিন্দি','=214.21','হিন্দি','','','',false,true);
+d.add(80,78,'=214.22','<div class="nodetag">=214.22</div></span>&nbsp;&nbsp;উর্দু','=214.22','উর্দু','','','',false,true);
+d.add(81,78,'=214.25','<div class="nodetag">=214.25</div></span>&nbsp;&nbsp;গুজরাতি','=214.25','গুজরাতি','','','',false,true);
+d.add(82,78,'=214.27','<div class="nodetag">=214.27</div></span>&nbsp;&nbsp;পাঞ্জাবী','=214.27','পাঞ্জাবী','','','',false,true);
+d.add(83,78,'=214.28','<div class="nodetag">=214.28</div></span>&nbsp;&nbsp;রাজস্থানি','=214.28','রাজস্থানি','','','',false,true);
+d.add(84,76,'=214.3','<div class="nodetag">=214.3</div></span>&nbsp;&nbsp;পূর্বস্থ শ্রেণি','=214.3','পূর্বস্থ শ্রেণি','','','',false,true);
+d.add(85,84,'=214.32','<div class="nodetag">=214.32</div></span>&nbsp;&nbsp;বাংলা','=214.32','বাংলা','','','',false,true);
+d.add(86,84,'=214.35','<div class="nodetag">=214.35</div></span>&nbsp;&nbsp;মারাঠি','=214.35','মারাঠি','','','',false,true);
+d.add(87,76,'=214.4','<div class="nodetag">=214.4</div></span>&nbsp;&nbsp;উত্তরস্থ শ্রেণি','=214.4','উত্তরস্থ শ্রেণি','','','',false,true);
+d.add(88,87,'=214.43','<div class="nodetag">=214.43</div></span>&nbsp;&nbsp;নেপালি','=214.43','নেপালি','','','',false,true);
+d.add(89,76,'=214.5','<div class="nodetag">=214.5</div></span>&nbsp;&nbsp;উত্তর-পশ্চিমস্থ শ্রেণি','=214.5','উত্তর-পশ্চিমস্থ শ্রেণি','','','',false,true);
+d.add(90,89,'=214.52','<div class="nodetag">=214.52</div></span>&nbsp;&nbsp;সিন্ধি','=214.52','সিন্ধি','','','',false,true);
+d.add(91,89,'=214.58','<div class="nodetag">=214.58</div></span>&nbsp;&nbsp;রোমানি / জিপসি','=214.58','রোমানি / জিপসি','','','',false,true);
+d.add(92,76,'=214.6','<div class="nodetag">=214.6</div></span>&nbsp;&nbsp;সিংহলি-মলদ্বীপ শ্রেণি','=214.6','সিংহলি-মলদ্বীপ শ্রেণি','','','',false,true);
+d.add(93,71,'=22','<div class="nodetag">=22</div></span>&nbsp;&nbsp;ইরানিয় ভাষাসমূহ','=22','ইরানিয় ভাষাসমূহ','','','',false,true);
+d.add(94,93,'=221','<div class="nodetag">=221</div></span>&nbsp;&nbsp;পূর্ব ইরানিয় ভাষাসমূহ','=221','পূর্ব ইরানিয় ভাষাসমূহ','','','',false,true);
+d.add(95,94,'=221.31','<div class="nodetag">=221.31</div></span>&nbsp;&nbsp;পাস্তো (পুস্তো)','=221.31','পাস্তো (পুস্তো)','','','',false,true);
+d.add(96,93,'=222/=223','<div class="nodetag">=222/=223</div></span>&nbsp;&nbsp;পশ্চিম ইরানিয় ভাষাসমূহ','=222/=223','পশ্চিম ইরানিয় ভাষাসমূহ','','','',false,true);
+d.add(97,96,'=222.1','<div class="nodetag">=222.1</div></span>&nbsp;&nbsp;পারসি','=222.1','পারসি','','','',false,true);
+d.add(98,96,'=222.5','<div class="nodetag">=222.5</div></span>&nbsp;&nbsp;কুর্দিশ','=222.5','কুর্দিশ','','','',false,true);
+d.add(99,70,'=29','<div class="nodetag">=29</div></span>&nbsp;&nbsp;বিলুপ্ত ইন্দো-ইওরোপীয় ভাষাসমূহ (অন্য কোথাও তালিকাভুক্ত হয়নি)','=29','বিলুপ্ত ইন্দো-ইওরোপীয় ভাষাসমূহ (অন্য কোথাও তালিকাভুক্ত হয়নি)','','','',false,true);
+d.add(100,12,'=3','<div class="nodetag">=3</div></span>&nbsp;&nbsp;অজ্ঞাত সম্পর্কযুক্ত বিলুপ্ত ভাষাসমূহ। ককেশিয় ভাষাসমূহ','=3','অজ্ঞাত সম্পর্কযুক্ত বিলুপ্ত ভাষাসমূহ। ককেশিয় ভাষাসমূহ','','','',false,true);
+d.add(101,100,'=34','<div class="nodetag">=34</div></span>&nbsp;&nbsp;ভূমধ্যসাগরীয় এবং নিকট প্রাচ্যের অজ্ঞাত সম্পর্কযুক্ত বিলুপ্ত ভাষাসমূহ (সেমিটিক ব্যতীত)','=34','ভূমধ্যসাগরীয় এবং নিকট প্রাচ্যের অজ্ঞাত সম্পর্কযুক্ত বিলুপ্ত ভাষাসমূহ (সেমিটিক ব্যতীত)','','','',false,true);
+d.add(102,100,'=35','<div class="nodetag">=35</div></span>&nbsp;&nbsp;ককেশিয় ভাষাসমূহ','=35','ককেশিয় ভাষাসমূহ','','','',false,true);
+d.add(103,102,'=351','<div class="nodetag">=351</div></span>&nbsp;&nbsp;উত্তর-পূর্বস্থ শ্রেণি','=351','উত্তর-পূর্বস্থ শ্রেণি','','','',false,true);
+d.add(104,102,'=352','<div class="nodetag">=352</div></span>&nbsp;&nbsp;উত্তর-পশ্চিমস্থ শ্রেণি','=352','উত্তর-পশ্চিমস্থ শ্রেণি','','','',false,true);
+d.add(105,102,'=353','<div class="nodetag">=353</div></span>&nbsp;&nbsp;দক্ষিণস্থ (কার্তভেলিয়ান) শ্রেণি','=353','দক্ষিণস্থ (কার্তভেলিয়ান) শ্রেণি','','','',false,true);
+d.add(106,105,'=353.1','<div class="nodetag">=353.1</div></span>&nbsp;&nbsp;জর্জিয়','=353.1','জর্জিয়','','','',false,true);
+d.add(107,100,'=361','<div class="nodetag">=361</div></span>&nbsp;&nbsp;বাস্ক /ইউস্কেরা / ইউস্কারা','=361','বাস্ক /ইউস্কেরা / ইউস্কারা','','','',false,true);
+d.add(108,12,'=4','<div class="nodetag">=4</div></span>&nbsp;&nbsp;আফ্রো-এশিয়, নাইলো-সাহারান, কঙ্গো-কর্ডোফানিয়, খোইসান ভাষাসমূহ','=4','আফ্রো-এশিয়, নাইলো-সাহারান, কঙ্গো-কর্ডোফানিয়, খোইসান ভাষাসমূহ','','','',false,true);
+d.add(109,108,'=41','<div class="nodetag">=41</div></span>&nbsp;&nbsp;আফ্রো-এশিয় (হ্যামিটো-সেমিটিক) ভাষাসমূহ','=41','আফ্রো-এশিয় (হ্যামিটো-সেমিটিক) ভাষাসমূহ','','','',false,true);
+d.add(110,109,'=411','<div class="nodetag">=411</div></span>&nbsp;&nbsp;সেমিটিক ভাষাসমূহ','=411','সেমিটিক ভাষাসমূহ','','','',false,true);
+d.add(111,110,'=411.1','<div class="nodetag">=411.1</div></span>&nbsp;&nbsp;উত্তর সেমিটিক ভাষাসমূহ','=411.1','উত্তর সেমিটিক ভাষাসমূহ','','','',false,true);
+d.add(112,111,'=411.16','<div class="nodetag">=411.16</div></span>&nbsp;&nbsp;হিব্রু','=411.16','হিব্রু','','','',false,true);
+d.add(113,110,'=411.2','<div class="nodetag">=411.2</div></span>&nbsp;&nbsp;দক্ষিণ-পশ্চিম সেমিটিক ভাষাসমূহ','=411.2','দক্ষিণ-পশ্চিম সেমিটিক ভাষাসমূহ','','','',false,true);
+d.add(114,113,'=411.21','<div class="nodetag">=411.21</div></span>&nbsp;&nbsp;আরবি','=411.21','আরবি','','','',false,true);
+d.add(115,110,'=411.3','<div class="nodetag">=411.3</div></span>&nbsp;&nbsp;দক্ষিণ-পূর্ব সেমিটিক ভাষাসমূহ','=411.3','দক্ষিণ-পূর্ব সেমিটিক ভাষাসমূহ','','','',false,true);
+d.add(116,110,'=411.4','<div class="nodetag">=411.4</div></span>&nbsp;&nbsp;ইথিও-সেমিটিক ভাষাসমূহ','=411.4','ইথিও-সেমিটিক ভাষাসমূহ','','','',false,true);
+d.add(117,109,'=412','<div class="nodetag">=412</div></span>&nbsp;&nbsp;মিশরিয়-কপ্টিক','=412','মিশরিয়-কপ্টিক','','','',false,true);
+d.add(118,109,'=413','<div class="nodetag">=413</div></span>&nbsp;&nbsp;বর্বর-জাতির ভাষাসমূহ','=413','বর্বর-জাতির ভাষাসমূহ','','','',false,true);
+d.add(119,109,'=414','<div class="nodetag">=414</div></span>&nbsp;&nbsp;চাদিয় ভাষাসমূহ','=414','চাদিয় ভাষাসমূহ','','','',false,true);
+d.add(120,119,'=414.231','<div class="nodetag">=414.231</div></span>&nbsp;&nbsp;হাউসা','=414.231','হাউসা','','','',false,true);
+d.add(121,109,'=415','<div class="nodetag">=415</div></span>&nbsp;&nbsp;কুশিতিক ভাষাসমূহ','=415','কুশিতিক ভাষাসমূহ','','','',false,true);
+d.add(122,109,'=416','<div class="nodetag">=416</div></span>&nbsp;&nbsp;ওমোতিক ভাষাসমূহ','=416','ওমোতিক ভাষাসমূহ','','','',false,true);
+d.add(123,108,'=42','<div class="nodetag">=42</div></span>&nbsp;&nbsp;নাইলো-সাহারা ভাষাসমূহ','=42','নাইলো-সাহারা ভাষাসমূহ','','','',false,true);
+d.add(124,123,'=422','<div class="nodetag">=422</div></span>&nbsp;&nbsp;সাহারা ভাষাসমূহ','=422','সাহারা ভাষাসমূহ','','','',false,true);
+d.add(125,123,'=425','<div class="nodetag">=425</div></span>&nbsp;&nbsp;কোমিয় ভাষাসমূহ','=425','কোমিয় ভাষাসমূহ','','','',false,true);
+d.add(126,123,'=426','<div class="nodetag">=426</div></span>&nbsp;&nbsp;চারি-নীল শাখা','=426','চারি-নীল শাখা','','','',false,true);
+d.add(127,108,'=43','<div class="nodetag">=43</div></span>&nbsp;&nbsp;কঙ্গো-কর্দোফানিয় (নাইজার-কর্দোফানিয়) ভাষাসমূহ','=43','কঙ্গো-কর্দোফানিয় (নাইজার-কর্দোফানিয়) ভাষাসমূহ','','','',false,true);
+d.add(128,127,'=431','<div class="nodetag">=431</div></span>&nbsp;&nbsp;কর্দোফানিয় ভাষাসমূহ','=431','কর্দোফানিয় ভাষাসমূহ','','','',false,true);
+d.add(129,127,'=432','<div class="nodetag">=432</div></span>&nbsp;&nbsp;নাইজার-কঙ্গো ভাষাসমূহ','=432','নাইজার-কঙ্গো ভাষাসমূহ','','','',false,true);
+d.add(130,108,'=45','<div class="nodetag">=45</div></span>&nbsp;&nbsp;খোইসান ভাষাসমূহ','=45','খোইসান ভাষাসমূহ','','','',false,true);
+d.add(131,12,'=5','<div class="nodetag">=5</div></span>&nbsp;&nbsp;উরাল-আলতাই, জাপানি, কোরিয়, আইনু, প্রাচীন-সাইবেরিয়, এস্কিমো-অ্যাল্যুত, দ্রাবিড় ভাষাসমূহ, চিনা-তিব্বতি ভাষাসমূহ','=5','উরাল-আলতাই, জাপানি, কোরিয়, আইনু, প্রাচীন-সাইবেরিয়, এস্কিমো-অ্যাল্যুত, দ্রাবিড় ভাষাসমূহ, চিনা-তিব্বতি ভাষাসমূহ','','','',false,true);
+d.add(132,131,'=51','<div class="nodetag">=51</div></span>&nbsp;&nbsp;উরাল-আলতাই ভাষাসমূহ','=51','উরাল-আলতাই ভাষাসমূহ','','','',false,true);
+d.add(133,132,'=511','<div class="nodetag">=511</div></span>&nbsp;&nbsp;উরালিয় ভাষাসমূহ','=511','উরালিয় ভাষাসমূহ','','','',false,true);
+d.add(134,133,'=511.1','<div class="nodetag">=511.1</div></span>&nbsp;&nbsp;ফিন্নো-ইউগ্রিক ভাষাসমূহ','=511.1','ফিন্নো-ইউগ্রিক ভাষাসমূহ','','','',false,true);
+d.add(135,134,'=511.11','<div class="nodetag">=511.11</div></span>&nbsp;&nbsp;ফিনিক ভাষাসমূহ','=511.11','ফিনিক ভাষাসমূহ','','','',false,true);
+d.add(136,135,'=511.111','<div class="nodetag">=511.111</div></span>&nbsp;&nbsp;ফিনিশ','=511.111','ফিনিশ','','','',false,true);
+d.add(137,135,'=511.113','<div class="nodetag">=511.113</div></span>&nbsp;&nbsp;এস্তোনিয়','=511.113','এস্তোনিয়','','','',false,true);
+d.add(138,134,'=511.12','<div class="nodetag">=511.12</div></span>&nbsp;&nbsp;সামি / ল্যাপিক ভাষাসমূহ','=511.12','সামি / ল্যাপিক ভাষাসমূহ','','','',false,true);
+d.add(139,134,'=511.14','<div class="nodetag">=511.14</div></span>&nbsp;&nbsp;ইউগ্রিক ভাষাসমূহ','=511.14','ইউগ্রিক ভাষাসমূহ','','','',false,true);
+d.add(140,139,'=511.141','<div class="nodetag">=511.141</div></span>&nbsp;&nbsp;হাঙ্গেরিয়','=511.141','হাঙ্গেরিয়','','','',false,true);
+d.add(141,133,'=511.2','<div class="nodetag">=511.2</div></span>&nbsp;&nbsp;সামোয়েদিক ভাষাসমূহ','=511.2','সামোয়েদিক ভাষাসমূহ','','','',false,true);
+d.add(142,132,'=512','<div class="nodetag">=512</div></span>&nbsp;&nbsp;আলতাই ভাষাসমূহ','=512','আলতাই ভাষাসমূহ','','','',false,true);
+d.add(143,142,'=512.1','<div class="nodetag">=512.1</div></span>&nbsp;&nbsp;তুর্কি ভাষাসমূহ','=512.1','তুর্কি ভাষাসমূহ','','','',false,true);
+d.add(144,143,'=512.12','<div class="nodetag">=512.12</div></span>&nbsp;&nbsp;কেন্দ্রীয় শ্রেণির তুর্কি ভাষাসমূহ','=512.12','কেন্দ্রীয় শ্রেণির তুর্কি ভাষাসমূহ','','','',false,true);
+d.add(145,144,'=512.122','<div class="nodetag">=512.122</div></span>&nbsp;&nbsp;কাজাখ','=512.122','কাজাখ','','','',false,true);
+d.add(146,143,'=512.13','<div class="nodetag">=512.13</div></span>&nbsp;&nbsp;পূর্বস্থ শ্রেণির তুর্কি ভাষাসমূহ','=512.13','পূর্বস্থ শ্রেণির তুর্কি ভাষাসমূহ','','','',false,true);
+d.add(147,146,'=512.133','<div class="nodetag">=512.133</div></span>&nbsp;&nbsp;উজবেক','=512.133','উজবেক','','','',false,true);
+d.add(148,143,'=512.14','<div class="nodetag">=512.14</div></span>&nbsp;&nbsp;পশ্চিমস্থ শ্রেণির তুর্কি ভাষাসমূহ','=512.14','পশ্চিমস্থ শ্রেণির তুর্কি ভাষাসমূহ','','','',false,true);
+d.add(149,143,'=512.15','<div class="nodetag">=512.15</div></span>&nbsp;&nbsp;উত্তরস্থ শ্রেণির তুর্কি ভাষাসমূহ','=512.15','উত্তরস্থ শ্রেণির তুর্কি ভাষাসমূহ','','','',false,true);
+d.add(150,149,'=512.154','<div class="nodetag">=512.154</div></span>&nbsp;&nbsp;কিরঘিজ','=512.154','কিরঘিজ','','','',false,true);
+d.add(151,143,'=512.16','<div class="nodetag">=512.16</div></span>&nbsp;&nbsp;দক্ষিণস্থ শ্রেণির তুর্কি ভাষাসমূহ','=512.16','দক্ষিণস্থ শ্রেণির তুর্কি ভাষাসমূহ','','','',false,true);
+d.add(152,151,'=512.161','<div class="nodetag">=512.161</div></span>&nbsp;&nbsp;তুর্কি (ওসমানি)','=512.161','তুর্কি (ওসমানি)','','','',false,true);
+d.add(153,151,'=512.162','<div class="nodetag">=512.162</div></span>&nbsp;&nbsp;আজেরবাইজানি','=512.162','আজেরবাইজানি','','','',false,true);
+d.add(154,151,'=512.164','<div class="nodetag">=512.164</div></span>&nbsp;&nbsp;তুর্কমেন','=512.164','তুর্কমেন','','','',false,true);
+d.add(155,142,'=512.2','<div class="nodetag">=512.2</div></span>&nbsp;&nbsp;তুংগুজ ভাষাসমূহ','=512.2','তুংগুজ ভাষাসমূহ','','','',false,true);
+d.add(156,142,'=512.3','<div class="nodetag">=512.3</div></span>&nbsp;&nbsp;মঙ্গোলিয় ভাষাসমূহ','=512.3','মঙ্গোলিয় ভাষাসমূহ','','','',false,true);
+d.add(157,131,'=521','<div class="nodetag">=521</div></span>&nbsp;&nbsp;জাপানি','=521','জাপানি','','','',false,true);
+d.add(158,131,'=531','<div class="nodetag">=531</div></span>&nbsp;&nbsp;কোরিয়','=531','কোরিয়','','','',false,true);
+d.add(159,131,'=541','<div class="nodetag">=541</div></span>&nbsp;&nbsp;আইনু','=541','আইনু','','','',false,true);
+d.add(160,131,'=55','<div class="nodetag">=55</div></span>&nbsp;&nbsp;প্রাচীন-সাইবেরিয় ভাষাসমূহ','=55','প্রাচীন-সাইবেরিয় ভাষাসমূহ','','','',false,true);
+d.add(161,131,'=56','<div class="nodetag">=56</div></span>&nbsp;&nbsp;এস্কিমো-অ্যাল্যুত ভাষাসমূহ','=56','এস্কিমো-অ্যাল্যুত ভাষাসমূহ','','','',false,true);
+d.add(162,131,'=58','<div class="nodetag">=58</div></span>&nbsp;&nbsp;চিনা-তিব্বতি ভাষাসমূহ','=58','চিনা-তিব্বতি ভাষাসমূহ','','','',false,true);
+d.add(163,162,'=581','<div class="nodetag">=581</div></span>&nbsp;&nbsp;চিনা ভাষাসমূহ','=581','চিনা ভাষাসমূহ','','','',false,true);
+d.add(164,162,'=582','<div class="nodetag">=582</div></span>&nbsp;&nbsp;কাম-তাই ভাষাসমূহ','=582','কাম-তাই ভাষাসমূহ','','','',false,true);
+d.add(165,162,'=583','<div class="nodetag">=583</div></span>&nbsp;&nbsp;মিয়াও-ইয়াও ভাষাসমূহ','=583','মিয়াও-ইয়াও ভাষাসমূহ','','','',false,true);
+d.add(166,162,'=584','<div class="nodetag">=584</div></span>&nbsp;&nbsp;তিব্বতি-বার্মিজ ভাষাসমূহ','=584','তিব্বতি-বার্মিজ ভাষাসমূহ','','','',false,true);
+d.add(167,12,'=6','<div class="nodetag">=6</div></span>&nbsp;&nbsp;অস্ট্রো-এশিয় ভাষাসমূহ। অস্ট্রোনেশিয় ভাষাসমূহ','=6','অস্ট্রো-এশিয় ভাষাসমূহ। অস্ট্রোনেশিয় ভাষাসমূহ','','','',false,true);
+d.add(168,167,'=61','<div class="nodetag">=61</div></span>&nbsp;&nbsp;অস্ট্রো-এশিয় ভাষাসমূহ','=61','অস্ট্রো-এশিয় ভাষাসমূহ','','','',false,true);
+d.add(169,168,'=611','<div class="nodetag">=611</div></span>&nbsp;&nbsp;মালাক্কা (এসলিয়ান) শ্রেণি','=611','মালাক্কা (এসলিয়ান) শ্রেণি','','','',false,true);
+d.add(170,168,'=612','<div class="nodetag">=612</div></span>&nbsp;&nbsp;মন-খেমের ভাষাসমূহ','=612','মন-খেমের ভাষাসমূহ','','','',false,true);
+d.add(171,170,'=612.4','<div class="nodetag">=612.4</div></span>&nbsp;&nbsp;কাম্বোডিয় / খেমের','=612.4','কাম্বোডিয় / খেমের','','','',false,true);
+d.add(172,170,'=612.91','<div class="nodetag">=612.91</div></span>&nbsp;&nbsp;ভিয়েতনামি','=612.91','ভিয়েতনামি','','','',false,true);
+d.add(173,168,'=613','<div class="nodetag">=613</div></span>&nbsp;&nbsp;মুন্ডা ভাষাসমূহ','=613','মুন্ডা ভাষাসমূহ','','','',false,true);
+d.add(174,168,'=614','<div class="nodetag">=614</div></span>&nbsp;&nbsp;নিকোবরি শ্রেণি','=614','নিকোবরি শ্রেণি','','','',false,true);
+d.add(175,167,'=62','<div class="nodetag">=62</div></span>&nbsp;&nbsp;অস্ট্রোনেশিয় ভাষাসমূহ','=62','অস্ট্রোনেশিয় ভাষাসমূহ','','','',false,true);
+d.add(176,175,'=621','<div class="nodetag">=621</div></span>&nbsp;&nbsp;মালয়-পলিনেশিয় ভাষাসমূহ','=621','মালয়-পলিনেশিয় ভাষাসমূহ','','','',false,true);
+d.add(177,176,'=621.251','<div class="nodetag">=621.251</div></span>&nbsp;&nbsp;মালয় / বাহাসা ইন্দোনেশিয় / বাহাসা মালয়েশিয়','=621.251','মালয় / বাহাসা ইন্দোনেশিয় / বাহাসা মালয়েশিয়','','','',false,true);
+d.add(178,175,'=622','<div class="nodetag">=622</div></span>&nbsp;&nbsp;মহাসাগরীয় ভাষাসমূহ','=622','মহাসাগরীয় ভাষাসমূহ','','','',false,true);
+d.add(179,12,'=7','<div class="nodetag">=7</div></span>&nbsp;&nbsp;ইন্দো-প্রশান্ত (অস্ট্রোনেশিয় ব্যতীত) মহাসাগরীয় ভাষাসমূহ। অস্ট্রেলিয় ভাষাসমূহ','=7','ইন্দো-প্রশান্ত (অস্ট্রোনেশিয় ব্যতীত) মহাসাগরীয় ভাষাসমূহ। অস্ট্রেলিয় ভাষাসমূহ','','','',false,true);
+d.add(180,179,'=71','<div class="nodetag">=71</div></span>&nbsp;&nbsp;ইন্দো-প্রশান্ত (অস্ট্রোনেশিয় ব্যতীত) মহাসাগরীয় ভাষাসমূহ','=71','ইন্দো-প্রশান্ত (অস্ট্রোনেশিয় ব্যতীত) মহাসাগরীয় ভাষাসমূহ','','','',false,true);
+d.add(181,180,'=713','<div class="nodetag">=713</div></span>&nbsp;&nbsp;নিউ গিনিয় (পাপুয়ান) ভাষাসমূহ','=713','নিউ গিনিয় (পাপুয়ান) ভাষাসমূহ','','','',false,true);
+d.add(182,180,'=714','<div class="nodetag">=714</div></span>&nbsp;&nbsp;উত্তর-পুর্বস্থ নিউ গিনিয় (মাদাং)','=714','উত্তর-পুর্বস্থ নিউ গিনিয় (মাদাং)','','','',false,true);
+d.add(183,180,'=715','<div class="nodetag">=715</div></span>&nbsp;&nbsp;পশ্চিমস্থ নিউ গিনিয় ভাষাসমূহ','=715','পশ্চিমস্থ নিউ গিনিয় ভাষাসমূহ','','','',false,true);
+d.add(184,180,'=716','<div class="nodetag">=716</div></span>&nbsp;&nbsp;বোগেনভিলিয় ভাষাসমূহ','=716','বোগেনভিলিয় ভাষাসমূহ','','','',false,true);
+d.add(185,180,'=718','<div class="nodetag">=718</div></span>&nbsp;&nbsp;তাসমানিয়','=718','তাসমানিয়','','','',false,true);
+d.add(186,180,'=719','<div class="nodetag">=719</div></span>&nbsp;&nbsp;অন্যান্য ইন্দো-প্রশান্ত মহাসাগরীয় ভাষাসমূহ','=719','অন্যান্য ইন্দো-প্রশান্ত মহাসাগরীয় ভাষাসমূহ','','','',false,true);
+d.add(187,179,'=72','<div class="nodetag">=72</div></span>&nbsp;&nbsp;অস্ট্রেলিয় ভাষাসমূহ','=72','অস্ট্রেলিয় ভাষাসমূহ','','','',false,true);
+d.add(188,187,'=721','<div class="nodetag">=721</div></span>&nbsp;&nbsp;পামা-মারিক শ্রেণি','=721','পামা-মারিক শ্রেণি','','','',false,true);
+d.add(189,187,'=722','<div class="nodetag">=722</div></span>&nbsp;&nbsp;পামা-ন্যুঙ্গান শ্রেণি','=722','পামা-ন্যুঙ্গান শ্রেণি','','','',false,true);
+d.add(190,187,'=729','<div class="nodetag">=729</div></span>&nbsp;&nbsp;অন্যান্য অস্ট্রেলিয় ভাষাসমূহ','=729','অন্যান্য অস্ট্রেলিয় ভাষাসমূহ','','','',false,true);
+d.add(191,12,'=8','<div class="nodetag">=8</div></span>&nbsp;&nbsp;আমেরিকাস্থ দেশীয় ভাষাসমূহ','=8','আমেরিকাস্থ দেশীয় ভাষাসমূহ','','','',false,true);
+d.add(192,191,'=81','<div class="nodetag">=81</div></span>&nbsp;&nbsp;কানাডা, সংযুক্ত মার্কিন যুক্তরাষ্ট্র এবং উত্তর-মধ্য মেক্সিকোর দেশীয় ভাষাসমূহ','=81','কানাডা, সংযুক্ত মার্কিন যুক্তরাষ্ট্র এবং উত্তর-মধ্য মেক্সিকোর দেশীয় ভাষাসমূহ','','','',false,true);
+d.add(193,191,'=82','<div class="nodetag">=82</div></span>&nbsp;&nbsp;পশ্চিমস্থ উত্তর আমেরিকা উপকূল, মেক্সিকো এবং ইউকাতানের দেশীয় ভাষাসমূহ','=82','পশ্চিমস্থ উত্তর আমেরিকা উপকূল, মেক্সিকো এবং ইউকাতানের দেশীয় ভাষাসমূহ','','','',false,true);
+d.add(194,193,'=821.24','<div class="nodetag">=821.24</div></span>&nbsp;&nbsp;মিক্সে-জোক ভাষাসমূহ','=821.24','মিক্সে-জোক ভাষাসমূহ','','','',false,true);
+d.add(195,193,'=822.21','<div class="nodetag">=822.21</div></span>&nbsp;&nbsp;নওহাতি','=822.21','নওহাতি','','','',false,true);
+d.add(196,193,'=823.7','<div class="nodetag">=823.7</div></span>&nbsp;&nbsp;জাপোটেকান ভাষাসমূহ','=823.7','জাপোটেকান ভাষাসমূহ','','','',false,true);
+d.add(197,191,'=84/=88','<div class="nodetag">=84/=88</div></span>&nbsp;&nbsp;মধ্য এবং দক্ষিণ আমেরিকাস্থ দেশীয় ভাষাসমূহ','=84/=88','মধ্য এবং দক্ষিণ আমেরিকাস্থ দেশীয় ভাষাসমূহ','','','',false,true);
+d.add(198,197,'=84','<div class="nodetag">=84</div></span>&nbsp;&nbsp;গে-পানো কারিব ভাষাসমূহ। ম্যাক্রো-চিবচান ভাষাসমূহ','=84','গে-পানো কারিব ভাষাসমূহ। ম্যাক্রো-চিবচান ভাষাসমূহ','','','',false,true);
+d.add(199,198,'=842','<div class="nodetag">=842</div></span>&nbsp;&nbsp;গে-পানো কারিব ভাষাসমূহ','=842','গে-পানো কারিব ভাষাসমূহ','','','',false,true);
+d.add(200,198,'=845','<div class="nodetag">=845</div></span>&nbsp;&nbsp;ম্যাক্রো-চিবচান ভাষাসমূহ','=845','ম্যাক্রো-চিবচান ভাষাসমূহ','','','',false,true);
+d.add(201,197,'=85','<div class="nodetag">=85</div></span>&nbsp;&nbsp;আন্দিয় ভাষাসমূহ। বিষুবরেখিয় ভাষাসমূহ','=85','আন্দিয় ভাষাসমূহ। বিষুবরেখিয় ভাষাসমূহ','','','',false,true);
+d.add(202,201,'=852','<div class="nodetag">=852</div></span>&nbsp;&nbsp;আন্দিয় ভাষাসমূহ','=852','আন্দিয় ভাষাসমূহ','','','',false,true);
+d.add(203,202,'=852.11','<div class="nodetag">=852.11</div></span>&nbsp;&nbsp;আইমারা','=852.11','আইমারা','','','',false,true);
+d.add(204,202,'=852.2','<div class="nodetag">=852.2</div></span>&nbsp;&nbsp;কোয়েচুয়ান ভাষাসমূহ','=852.2','কোয়েচুয়ান ভাষাসমূহ','','','',false,true);
+d.add(205,202,'=852.5','<div class="nodetag">=852.5</div></span>&nbsp;&nbsp;আরাওকানিয়ান ভাষাসমূহ','=852.5','আরাওকানিয়ান ভাষাসমূহ','','','',false,true);
+d.add(206,205,'=852.51','<div class="nodetag">=852.51</div></span>&nbsp;&nbsp;মাপুচে / মাপুদুংগুন','=852.51','মাপুচে / মাপুদুংগুন','','','',false,true);
+d.add(207,201,'=855','<div class="nodetag">=855</div></span>&nbsp;&nbsp;বিষুবরেখিয় ভাষাসমূহ','=855','বিষুবরেখিয় ভাষাসমূহ','','','',false,true);
+d.add(208,207,'=855.21','<div class="nodetag">=855.21</div></span>&nbsp;&nbsp;গুয়ারানি ভাষাসমূহ','=855.21','গুয়ারানি ভাষাসমূহ','','','',false,true);
+d.add(209,197,'=86','<div class="nodetag">=86</div></span>&nbsp;&nbsp;চাকো ভাষাসমূহ। পাটাগোনিয় এবং ফুয়েজিয় ভাষাসমূহ','=86','চাকো ভাষাসমূহ। পাটাগোনিয় এবং ফুয়েজিয় ভাষাসমূহ','','','',false,true);
+d.add(210,209,'=862','<div class="nodetag">=862</div></span>&nbsp;&nbsp;চাকো ভাষাসমূহ','=862','চাকো ভাষাসমূহ','','','',false,true);
+d.add(211,209,'=865','<div class="nodetag">=865</div></span>&nbsp;&nbsp;পাটাগোনিয় এবং ফুয়েজিয় ভাষাসমূহ','=865','পাটাগোনিয় এবং ফুয়েজিয় ভাষাসমূহ','','','',false,true);
+d.add(212,197,'=88','<div class="nodetag">=88</div></span>&nbsp;&nbsp;বিচ্ছিন্ন, অবর্গীভূত মধ্য এবং দক্ষিণ আমেরিকাস্থ দেশীয় ভাষাসমূহ','=88','বিচ্ছিন্ন, অবর্গীভূত মধ্য এবং দক্ষিণ আমেরিকাস্থ দেশীয় ভাষাসমূহ','','','',false,true);
+d.add(213,11,'=9','<div class="nodetag">=9</div></span>&nbsp;&nbsp;কৃত্রিম ভাষাসমূহ','=9','কৃত্রিম ভাষাসমূহ','','','',false,true);
+d.add(214,213,'=92','<div class="nodetag">=92</div></span>&nbsp;&nbsp;মানুষের ব্যবহার্য কৃত্রিম ভাষা। আন্তর্জাতিক সহায়ক ভাষাসমূহ (অন্তর্ভাষাসমূহ)','=92','মানুষের ব্যবহার্য কৃত্রিম ভাষা। আন্তর্জাতিক সহায়ক ভাষাসমূহ (অন্তর্ভাষাসমূহ)','','','',false,true);
+d.add(215,214,'=922','<div class="nodetag">=922</div></span>&nbsp;&nbsp;এসপেরান্তো (জামেনহফ সৃষ্ট)','=922','এসপেরান্তো (জামেনহফ সৃষ্ট)','','','',false,true);
+d.add(216,213,'=93','<div class="nodetag">=93</div></span>&nbsp;&nbsp;যন্ত্রকে নির্দেশার্থে ব্যবহার্য কৃত্রিম ভাষা। প্রোগ্রামিং-এর ভাষা। সংগণকের (কম্পিউটারের) ভাষা','=93','যন্ত্রকে নির্দেশার্থে ব্যবহার্য কৃত্রিম ভাষা। প্রোগ্রামিং-এর ভাষা। সংগণকের (কম্পিউটারের) ভাষা','','','',false,true);
+d.add(217,0,'(0...)','<div class="nodetag">(0...)</div></span>&nbsp;&nbsp;রূপগত অভিন্ন সহায়িকাসমূহ। সারণি 1d','(0...)','রূপগত অভিন্ন সহায়িকাসমূহ। সারণি 1d','','','',false,true);
+d.add(218,217,'(0.02/.08)','<div class="nodetag">(0.02/.08)</div></span>&nbsp;&nbsp;প্রলেখের বহিরাকৃতি, উত্পাদন, ব্যাবহারিক বৈশিষ্ট্য এবং পরিপূরক বস্তুর বিশেষ সহায়িকা সংখ্যাসমূহ','(0.02/.08)','প্রলেখের বহিরাকৃতি, উত্পাদন, ব্যাবহারিক বৈশিষ্ট্য এবং পরিপূরক বস্তুর বিশেষ সহায়িকা সংখ্যাসমূহ','','','',false,true);
+d.add(219,218,'(0.02)','<div class="nodetag">(0.02)</div></span>&nbsp;&nbsp;ভৌত, বাহ্যিক আকার অনুযায়ী প্রলেখ','(0.02)','ভৌত, বাহ্যিক আকার অনুযায়ী প্রলেখ','','','',false,true);
+d.add(220,218,'(0.03)','<div class="nodetag">(0.03)</div></span>&nbsp;&nbsp;উৎপাদন পদ্ধতি অনুযায়ী প্রলেখ','(0.03)','উৎপাদন পদ্ধতি অনুযায়ী প্রলেখ','','','',false,true);
+d.add(221,220,'(0.032)','<div class="nodetag">(0.032)</div></span>&nbsp;&nbsp;হস্তলিখিত নথি (স্বহস্তাক্ষর, হলোগ্রাফ প্রতিলিপি)। পুথি। চিত্রশোভিত নথি (অঙ্কন, চিত্র)','(0.032)','হস্তলিখিত নথি (স্বহস্তাক্ষর, হলোগ্রাফ প্রতিলিপি)। পুথি। চিত্রশোভিত নথি (অঙ্কন, চিত্র)','','','',false,true);
+d.add(222,220,'(0.034)','<div class="nodetag">(0.034)</div></span>&nbsp;&nbsp;যন্ত্র-পাঠ্য প্রলেখ','(0.034)','যন্ত্র-পাঠ্য প্রলেখ','','','',false,true);
+d.add(223,218,'(0.04)','<div class="nodetag">(0.04)</div></span>&nbsp;&nbsp;উৎপাদনের পর্যায় অনুযায়ী প্রলেখ','(0.04)','উৎপাদনের পর্যায় অনুযায়ী প্রলেখ','','','',false,true);
+d.add(224,218,'(0.05)','<div class="nodetag">(0.05)</div></span>&nbsp;&nbsp;বিশেষ প্রকারের ব্যবহারকারীর নিমিত্ত প্রলেখ','(0.05)','বিশেষ প্রকারের ব্যবহারকারীর নিমিত্ত প্রলেখ','','','',false,true);
+d.add(225,218,'(0.06)','<div class="nodetag">(0.06)</div></span>&nbsp;&nbsp;উপস্থাপনার স্তর এবং প্রাপ্যতা অনুযায়ী প্রলেখ','(0.06)','উপস্থাপনার স্তর এবং প্রাপ্যতা অনুযায়ী প্রলেখ','','','',false,true);
+d.add(226,218,'(0.07)','<div class="nodetag">(0.07)</div></span>&nbsp;&nbsp;প্রলেখের সহিত প্রকাশিত অনুপূরক বস্তু','(0.07)','প্রলেখের সহিত প্রকাশিত অনুপূরক বস্তু','','','',false,true);
+d.add(227,218,'(0.08)','<div class="nodetag">(0.08)</div></span>&nbsp;&nbsp;স্বতন্ত্ররূপে প্রকাশিত অনুপূরক বা প্রলেখের অংশ','(0.08)','স্বতন্ত্ররূপে প্রকাশিত অনুপূরক বা প্রলেখের অংশ','','','',false,true);
+d.add(228,217,'(01)','<div class="nodetag">(01)</div></span>&nbsp;&nbsp;গ্রন্থপঞ্জি','(01)','গ্রন্থপঞ্জি','','','',false,true);
+d.add(229,217,'(02)','<div class="nodetag">(02)</div></span>&nbsp;&nbsp;বিষয় নিরপেক্ষ গ্রন্থ','(02)','বিষয় নিরপেক্ষ গ্রন্থ','','','',false,true);
+d.add(230,217,'(03)','<div class="nodetag">(03)</div></span>&nbsp;&nbsp;আকর গ্রন্থাবলি','(03)','আকর গ্রন্থাবলি','','','',false,true);
+d.add(231,230,'(031)','<div class="nodetag">(031)</div></span>&nbsp;&nbsp;বিশ্বকোশ','(031)','বিশ্বকোশ','','','',false,true);
+d.add(232,230,'(035)','<div class="nodetag">(035)</div></span>&nbsp;&nbsp;সারগ্রন্থ। নির্দেশ-গ্রন্থ','(035)','সারগ্রন্থ। নির্দেশ-গ্রন্থ','','','',false,true);
+d.add(233,230,'(036)','<div class="nodetag">(036)</div></span>&nbsp;&nbsp;প্রদর্শিকা (ব্যাবহারিক এবং বর্ণনামূলক তথ্যসহ)','(036)','প্রদর্শিকা (ব্যাবহারিক এবং বর্ণনামূলক তথ্যসহ)','','','',false,true);
+d.add(234,230,'(038)','<div class="nodetag">(038)</div></span>&nbsp;&nbsp;অভিধান','(038)','অভিধান','','','',false,true);
+d.add(235,217,'(04)','<div class="nodetag">(04)</div></span>&nbsp;&nbsp;অক্রমিক স্বতন্ত্র প্রকাশনা। স্বতন্ত্র প্রকাশনা','(04)','অক্রমিক স্বতন্ত্র প্রকাশনা। স্বতন্ত্র প্রকাশনা','','','',false,true);
+d.add(236,235,'(041)','<div class="nodetag">(041)</div></span>&nbsp;&nbsp;পুস্তিকা। স্মরণিকা','(041)','পুস্তিকা। স্মরণিকা','','','',false,true);
+d.add(237,235,'(042)','<div class="nodetag">(042)</div></span>&nbsp;&nbsp;অভিভাষণ। ভাষণ। বক্তৃতা।','(042)','অভিভাষণ। ভাষণ। বক্তৃতা।','','','',false,true);
+d.add(238,235,'(043)','<div class="nodetag">(043)</div></span>&nbsp;&nbsp;গবেষণা নিবন্ধ। গবেষণা সন্দর্ভ','(043)','গবেষণা নিবন্ধ। গবেষণা সন্দর্ভ','','','',false,true);
+d.add(239,235,'(044)','<div class="nodetag">(044)</div></span>&nbsp;&nbsp;ব্যক্তিগত নথি। পত্রাচার। পত্রাবলি। পরিপত্র','(044)','ব্যক্তিগত নথি। পত্রাচার। পত্রাবলি। পরিপত্র','','','',false,true);
+d.add(240,235,'(045)','<div class="nodetag">(045)</div></span>&nbsp;&nbsp;ধারাপ্রকাশনা, সংগ্রহ, ইত্যাদিতে প্রকাশিত নিবন্ধ','(045)','ধারাপ্রকাশনা, সংগ্রহ, ইত্যাদিতে প্রকাশিত নিবন্ধ','','','',false,true);
+d.add(241,235,'(046)','<div class="nodetag">(046)</div></span>&nbsp;&nbsp;সংবাদপত্র নিবন্ধ','(046)','সংবাদপত্র নিবন্ধ','','','',false,true);
+d.add(242,235,'(047)','<div class="nodetag">(047)</div></span>&nbsp;&nbsp;প্রতিবেদন। বিজ্ঞপ্তি। ইস্তাহার','(047)','প্রতিবেদন। বিজ্ঞপ্তি। ইস্তাহার','','','',false,true);
+d.add(243,235,'(048)','<div class="nodetag">(048)</div></span>&nbsp;&nbsp;পঞ্জিয় বিবরণ। সার। সংক্ষিপ্তসার। সমীক্ষা','(048)','পঞ্জিয় বিবরণ। সার। সংক্ষিপ্তসার। সমীক্ষা','','','',false,true);
+d.add(244,235,'(049)','<div class="nodetag">(049)</div></span>&nbsp;&nbsp;অন্যান্য অক্রমিক স্বতন্ত্র প্রকাশনা','(049)','অন্যান্য অক্রমিক স্বতন্ত্র প্রকাশনা','','','',false,true);
+d.add(245,217,'(05)','<div class="nodetag">(05)</div></span>&nbsp;&nbsp;ক্রমিক প্রকাশনা। সাময়িক পত্র-পত্রিকা','(05)','ক্রমিক প্রকাশনা। সাময়িক পত্র-পত্রিকা','','','',false,true);
+d.add(246,245,'(051)','<div class="nodetag">(051)</div></span>&nbsp;&nbsp;সাময়িকী (যথার্থরূপে)','(051)','সাময়িকী (যথার্থরূপে)','','','',false,true);
+d.add(247,245,'(054)','<div class="nodetag">(054)</div></span>&nbsp;&nbsp;সংবাদপত্র','(054)','সংবাদপত্র','','','',false,true);
+d.add(248,245,'(055)','<div class="nodetag">(055)</div></span>&nbsp;&nbsp;সংবাদ ইস্তাহার। সংবাদলিপিকা। তথ্য ইস্তাহার','(055)','সংবাদ ইস্তাহার। সংবাদলিপিকা। তথ্য ইস্তাহার','','','',false,true);
+d.add(249,245,'(058)','<div class="nodetag">(058)</div></span>&nbsp;&nbsp;বর্ষপঞ্জি। নির্দেশক গ্রন্থ','(058)','বর্ষপঞ্জি। নির্দেশক গ্রন্থ','','','',false,true);
+d.add(250,245,'(059)','<div class="nodetag">(059)</div></span>&nbsp;&nbsp;পঞ্জিকা। দিনপঞ্জি (সর্বপ্রকারের)','(059)','পঞ্জিকা। দিনপঞ্জি (সর্বপ্রকারের)','','','',false,true);
+d.add(251,217,'(06)','<div class="nodetag">(06)</div></span>&nbsp;&nbsp;সমিতি, পরিষদ, সংগঠন সম্বন্ধিত প্রলেখ','(06)','সমিতি, পরিষদ, সংগঠন সম্বন্ধিত প্রলেখ','','','',false,true);
+d.add(252,217,'(07)','<div class="nodetag">(07)</div></span>&nbsp;&nbsp;শিক্ষণ, শিক্ষাদান, পঠণ, প্রশিক্ষণের নিমিত্ত প্রলেখ','(07)','শিক্ষণ, শিক্ষাদান, পঠণ, প্রশিক্ষণের নিমিত্ত প্রলেখ','','','',false,true);
+d.add(253,252,'(072)','<div class="nodetag">(072)</div></span>&nbsp;&nbsp;শিক্ষাদানের নিমিত্ত প্রলেখ সামগ্রী। শিক্ষাদানের সহায়ক','(072)','শিক্ষাদানের নিমিত্ত প্রলেখ সামগ্রী। শিক্ষাদানের সহায়ক','','','',false,true);
+d.add(254,252,'(073)','<div class="nodetag">(073)</div></span>&nbsp;&nbsp;পাঠ্যক্রম। পাঠ্যসূচি','(073)','পাঠ্যক্রম। পাঠ্যসূচি','','','',false,true);
+d.add(255,252,'(075)','<div class="nodetag">(075)</div></span>&nbsp;&nbsp;শিক্ষামূলক গ্রন্থ। বিদ্যালয়ের পাঠ্যপুস্তক। ছাত্রদের পাঠ্যপুস্তক','(075)','শিক্ষামূলক গ্রন্থ। বিদ্যালয়ের পাঠ্যপুস্তক। ছাত্রদের পাঠ্যপুস্তক','','','',false,true);
+d.add(256,252,'(076)','<div class="nodetag">(076)</div></span>&nbsp;&nbsp;ব্যবহারিক শিক্ষণ, প্রশিক্ষণের নিমিত্ত প্রলেখ','(076)','ব্যবহারিক শিক্ষণ, প্রশিক্ষণের নিমিত্ত প্রলেখ','','','',false,true);
+d.add(257,252,'(078)','<div class="nodetag">(078)</div></span>&nbsp;&nbsp;অন্য কোথাও তালিকাভুক্ত হয়নি এরূপ শিক্ষামূলক প্রলেখ এবং সামগ্রী','(078)','অন্য কোথাও তালিকাভুক্ত হয়নি এরূপ শিক্ষামূলক প্রলেখ এবং সামগ্রী','','','',false,true);
+d.add(258,252,'(079)','<div class="nodetag">(079)</div></span>&nbsp;&nbsp;প্রতিযোগিতা, অভীক্ষা, পরীক্ষা ইত্যাদির সহিত সংযুক্ত প্রলেখ','(079)','প্রতিযোগিতা, অভীক্ষা, পরীক্ষা ইত্যাদির সহিত সংযুক্ত প্রলেখ','','','',false,true);
+d.add(259,217,'(08)','<div class="nodetag">(08)</div></span>&nbsp;&nbsp;সংগৃহীত এবং বহুমাত্রিক রচনাবলি। আকৃতি। তালিকা। চিত্র। ব্যাবসায়িক প্রকাশনা।','(08)','সংগৃহীত এবং বহুমাত্রিক রচনাবলি। আকৃতি। তালিকা। চিত্র। ব্যাবসায়িক প্রকাশনা।','','','',false,true);
+d.add(260,259,'(081)','<div class="nodetag">(081)</div></span>&nbsp;&nbsp;ব্যক্তিগত বহুমাত্রিক রচনাবলি। একক লেখকের সংগৃহীত রচনাবলি','(081)','ব্যক্তিগত বহুমাত্রিক রচনাবলি। একক লেখকের সংগৃহীত রচনাবলি','','','',false,true);
+d.add(261,259,'(082)','<div class="nodetag">(082)</div></span>&nbsp;&nbsp;সংগৃহীত বহুমাত্রিক রচনাবলি। বিভিন্ন লেখকের সংগৃহীত রচনাবলি','(082)','সংগৃহীত বহুমাত্রিক রচনাবলি। বিভিন্ন লেখকের সংগৃহীত রচনাবলি','','','',false,true);
+d.add(262,259,'(083)','<div class="nodetag">(083)</div></span>&nbsp;&nbsp;কারিগরি ও আদর্শ প্রলেখ। সারণি। তালিকা ইত্যাদি','(083)','কারিগরি ও আদর্শ প্রলেখ। সারণি। তালিকা ইত্যাদি','','','',false,true);
+d.add(263,259,'(084)','<div class="nodetag">(084)</div></span>&nbsp;&nbsp;প্রতিবিম্ব। সচিত্র প্রলেখ। রৈখিক প্রলেখ','(084)','প্রতিবিম্ব। সচিত্র প্রলেখ। রৈখিক প্রলেখ','','','',false,true);
+d.add(264,259,'(085)','<div class="nodetag">(085)</div></span>&nbsp;&nbsp;ব্যাবসায়িক সংস্থার (শিল্পসংক্রান্ত, বাণিজ্যিক) প্রকাশনা। বাণিজ্যিক প্রচার, তথ্য, বিজ্ঞাপনের সামগ্রী','(085)','ব্যাবসায়িক সংস্থার (শিল্পসংক্রান্ত, বাণিজ্যিক) প্রকাশনা। বাণিজ্যিক প্রচার, তথ্য, বিজ্ঞাপনের সামগ্রী','','','',false,true);
+d.add(265,259,'(086)','<div class="nodetag">(086)</div></span>&nbsp;&nbsp;ত্রি-মাত্রিক (নিরেট) প্রলেখ। শ্রব্য এবং শ্রবণ-বীক্ষণ প্রলেখ','(086)','ত্রি-মাত্রিক (নিরেট) প্রলেখ। শ্রব্য এবং শ্রবণ-বীক্ষণ প্রলেখ','','','',false,true);
+d.add(266,265,'(086.3)','<div class="nodetag">(086.3)</div></span>&nbsp;&nbsp;প্রলেখরূপে নমুনা, বস্তু','(086.3)','প্রলেখরূপে নমুনা, বস্তু','','','',false,true);
+d.add(267,265,'(086.7)','<div class="nodetag">(086.7)</div></span>&nbsp;&nbsp;শ্রব্য প্রলেখ। ধ্বনিবদ্ধ নথি','(086.7)','শ্রব্য প্রলেখ। ধ্বনিবদ্ধ নথি','','','',false,true);
+d.add(268,265,'(086.8)','<div class="nodetag">(086.8)</div></span>&nbsp;&nbsp;দৃশ্যশ্রব্য নথি','(086.8)','দৃশ্যশ্রব্য নথি','','','',false,true);
+d.add(269,259,'(088)','<div class="nodetag">(088)</div></span>&nbsp;&nbsp;প্রত্যায়ন। বিশেষ-উদ্দেশ্যযুক্ত প্রলেখ','(088)','প্রত্যায়ন। বিশেষ-উদ্দেশ্যযুক্ত প্রলেখ','','','',false,true);
+d.add(270,217,'(09)','<div class="nodetag">(09)</div></span>&nbsp;&nbsp;ঐতিহাসিক উপস্থাপনা। আইনি এবং ঐতিহাসিক উৎস','(09)','ঐতিহাসিক উপস্থাপনা। আইনি এবং ঐতিহাসিক উৎস','','','',false,true);
+d.add(271,270,'(091)','<div class="nodetag">(091)</div></span>&nbsp;&nbsp;কালানুক্রমিক, ঐতিহাসিক উপস্থাপনা। ঐতিহাসিক উপস্থাপনা (যথার্থরূপে)','(091)','কালানুক্রমিক, ঐতিহাসিক উপস্থাপনা। ঐতিহাসিক উপস্থাপনা (যথার্থরূপে)','','','',false,true);
+d.add(272,270,'(092)','<div class="nodetag">(092)</div></span>&nbsp;&nbsp;জীবনীসংক্রান্ত উপস্থাপনা','(092)','জীবনীসংক্রান্ত উপস্থাপনা','','','',false,true);
+d.add(273,270,'(093)','<div class="nodetag">(093)</div></span>&nbsp;&nbsp;ঐতিহাসিক উৎস','(093)','ঐতিহাসিক উৎস','','','',false,true);
+d.add(274,270,'(094)','<div class="nodetag">(094)</div></span>&nbsp;&nbsp;আইনি উৎস। আইনি প্রলেখ','(094)','আইনি উৎস। আইনি প্রলেখ','','','',false,true);
+d.add(275,0,'(1/9)','<div class="nodetag">(1/9)</div></span>&nbsp;&nbsp;স্থানের অভিন্ন সহায়িকাসমূহ। সারণি 1e','(1/9)','স্থানের অভিন্ন সহায়িকাসমূহ। সারণি 1e','','','',false,true);
+d.add(276,275,'(1)','<div class="nodetag">(1)</div></span>&nbsp;&nbsp;স্থান এবং এলাকা (ব্যাপকার্থে)। স্থানীয়তা। দিগ্‌বিন্যাস','(1)','স্থান এবং এলাকা (ব্যাপকার্থে)। স্থানীয়তা। দিগ্‌বিন্যাস','','','',false,true);
+d.add(277,276,'(100)','<div class="nodetag">(100)</div></span>&nbsp;&nbsp;স্থানের বিশ্বজনীনতা। আন্তর্জাতিকতা। দেশসমূহ (ব্যাপকার্থে)','(100)','স্থানের বিশ্বজনীনতা। আন্তর্জাতিকতা। দেশসমূহ (ব্যাপকার্থে)','','','',false,true);
+d.add(278,275,'(1-0/-9)','<div class="nodetag">(1-0/-9)</div></span>&nbsp;&nbsp;বিভিন্ন প্রকারের সীমানা এবং স্থানিক রূপের জন্য বিশেষ সহায়িকা উপবিভাগ','(1-0/-9)','বিভিন্ন প্রকারের সীমানা এবং স্থানিক রূপের জন্য বিশেষ সহায়িকা উপবিভাগ','','','',false,true);
+d.add(279,278,'(1-0)','<div class="nodetag">(1-0)</div></span>&nbsp;&nbsp;অঞ্চলসমূহ','(1-0)','অঞ্চলসমূহ','','','',false,true);
+d.add(280,278,'(1-1)','<div class="nodetag">(1-1)</div></span>&nbsp;&nbsp;দিগ্‌বিন্যাস। দিক্‌নির্ণয়-যন্ত্র বিন্দু। আপেক্ষিক অবস্থান','(1-1)','দিগ্‌বিন্যাস। দিক্‌নির্ণয়-যন্ত্র বিন্দু। আপেক্ষিক অবস্থান','','','',false,true);
+d.add(281,280,'(1-11)','<div class="nodetag">(1-11)</div></span>&nbsp;&nbsp;পূর্ব। পূর্বস্থ','(1-11)','পূর্ব। পূর্বস্থ','','','',false,true);
+d.add(282,280,'(1-12)','<div class="nodetag">(1-12)</div></span>&nbsp;&nbsp;দক্ষিণ-পূর্ব। দক্ষিণ-পূর্বস্থ','(1-12)','দক্ষিণ-পূর্ব। দক্ষিণ-পূর্বস্থ','','','',false,true);
+d.add(283,280,'(1-13)','<div class="nodetag">(1-13)</div></span>&nbsp;&nbsp;দক্ষিণ। দক্ষিণস্থ','(1-13)','দক্ষিণ। দক্ষিণস্থ','','','',false,true);
+d.add(284,280,'(1-14)','<div class="nodetag">(1-14)</div></span>&nbsp;&nbsp;দক্ষিণ-পশ্চিম। দক্ষিণ-পশ্চিমস্থ','(1-14)','দক্ষিণ-পশ্চিম। দক্ষিণ-পশ্চিমস্থ','','','',false,true);
+d.add(285,280,'(1-15)','<div class="nodetag">(1-15)</div></span>&nbsp;&nbsp;পশ্চিম। পশ্চিমস্থ','(1-15)','পশ্চিম। পশ্চিমস্থ','','','',false,true);
+d.add(286,280,'(1-16)','<div class="nodetag">(1-16)</div></span>&nbsp;&nbsp;উত্তর-পশ্চিম। উত্তর-পশ্চিমস্থ','(1-16)','উত্তর-পশ্চিম। উত্তর-পশ্চিমস্থ','','','',false,true);
+d.add(287,280,'(1-17)','<div class="nodetag">(1-17)</div></span>&nbsp;&nbsp;উত্তর। উত্তরস্থ','(1-17)','উত্তর। উত্তরস্থ','','','',false,true);
+d.add(288,280,'(1-18)','<div class="nodetag">(1-18)</div></span>&nbsp;&nbsp;উত্তর-পূর্ব। উত্তর-পূর্বস্থ','(1-18)','উত্তর-পূর্ব। উত্তর-পূর্বস্থ','','','',false,true);
+d.add(289,280,'(1-19)','<div class="nodetag">(1-19)</div></span>&nbsp;&nbsp;আপেক্ষিক অবস্থান, দিশা এবং দিগ্‌বিন্যাস','(1-19)','আপেক্ষিক অবস্থান, দিশা এবং দিগ্‌বিন্যাস','','','',false,true);
+d.add(290,278,'(1-2/-4)','<div class="nodetag">(1-2/-4)</div></span>&nbsp;&nbsp;রাজনৈতিক একক্সমূহ। প্রশাসনিক এককসমূহ','(1-2/-4)','রাজনৈতিক একক্সমূহ। প্রশাসনিক এককসমূহ','','','',false,true);
+d.add(291,290,'(1-2)','<div class="nodetag">(1-2)</div></span>&nbsp;&nbsp;সর্বনিম্ন প্রশাসনিক একক। স্থান','(1-2)','সর্বনিম্ন প্রশাসনিক একক। স্থান','','','',false,true);
+d.add(292,291,'(1-24)','<div class="nodetag">(1-24)</div></span>&nbsp;&nbsp;সংযুক্ত স্থানিয় প্রশাসনিক এককসমূহ','(1-24)','সংযুক্ত স্থানিয় প্রশাসনিক এককসমূহ','','','',false,true);
+d.add(293,291,'(1-25)','<div class="nodetag">(1-25)</div></span>&nbsp;&nbsp;রাজধানী শহর। মহানগরী','(1-25)','রাজধানী শহর। মহানগরী','','','',false,true);
+d.add(294,290,'(1-3)','<div class="nodetag">(1-3)</div></span>&nbsp;&nbsp;রাষ্টের অভ্যন্তরস্থিত বৃহত্তর এককসমূহ','(1-3)','রাষ্টের অভ্যন্তরস্থিত বৃহত্তর এককসমূহ','','','',false,true);
+d.add(295,294,'(1-32)','<div class="nodetag">(1-32)</div></span>&nbsp;&nbsp;বৃহত্তর স্তরের প্রশাসনিক একক। প্রদেশ','(1-32)','বৃহত্তর স্তরের প্রশাসনিক একক। প্রদেশ','','','',false,true);
+d.add(296,294,'(1-35)','<div class="nodetag">(1-35)</div></span>&nbsp;&nbsp;মধ্যবর্তী স্তরের প্রশাসনিক একক','(1-35)','মধ্যবর্তী স্তরের প্রশাসনিক একক','','','',false,true);
+d.add(297,294,'(1-37)','<div class="nodetag">(1-37)</div></span>&nbsp;&nbsp;নিম্ন স্তরের প্রশাসনিক একক','(1-37)','নিম্ন স্তরের প্রশাসনিক একক','','','',false,true);
+d.add(298,290,'(1-4)','<div class="nodetag">(1-4)</div></span>&nbsp;&nbsp;উচ্চতম (রাষ্ট্র) স্তর। জাতি। রাষ্ট্র। রাষ্ট্রসংঘ','(1-4)','উচ্চতম (রাষ্ট্র) স্তর। জাতি। রাষ্ট্র। রাষ্ট্রসংঘ','','','',false,true);
+d.add(299,298,'(1-43)','<div class="nodetag">(1-43)</div></span>&nbsp;&nbsp;রাষ্ট্রসংঘের অধীনস্থ অঙ্গরাজ্যসমূহ। যুক্তরাষ্ট্রীয় রাজ্যসমূহ। স্বশাসিত প্রজাতন্ত্র','(1-43)','রাষ্ট্রসংঘের অধীনস্থ অঙ্গরাজ্যসমূহ। যুক্তরাষ্ট্রীয় রাজ্যসমূহ। স্বশাসিত প্রজাতন্ত্র','','','',false,true);
+d.add(300,298,'(1-44)','<div class="nodetag">(1-44)</div></span>&nbsp;&nbsp;সাম্রাজ্য। মাতৃভূমি, অধিরাজ্য এবং উপনিবেশসমূহের সমাহার','(1-44)','সাম্রাজ্য। মাতৃভূমি, অধিরাজ্য এবং উপনিবেশসমূহের সমাহার','','','',false,true);
+d.add(301,278,'(1-5)','<div class="nodetag">(1-5)</div></span>&nbsp;&nbsp;অধীনস্থ বা অর্ধ-অধীনস্থ ভূভাগ','(1-5)','অধীনস্থ বা অর্ধ-অধীনস্থ ভূভাগ','','','',false,true);
+d.add(302,278,'(1-6)','<div class="nodetag">(1-6)</div></span>&nbsp;&nbsp;বিবিধ দৃষ্টিকোণ থেকে রাষ্ট্র বা রাষ্ট্রশ্রেণি','(1-6)','বিবিধ দৃষ্টিকোণ থেকে রাষ্ট্র বা রাষ্ট্রশ্রেণি','','','',false,true);
+d.add(303,278,'(1-7)','<div class="nodetag">(1-7)</div></span>&nbsp;&nbsp;ব্যক্তিগততা, সার্বজনিকতা এবং অন্যান্য বৈশিষ্ট্য অনুযায়ী স্থান এবং অঞ্চল','(1-7)','ব্যক্তিগততা, সার্বজনিকতা এবং অন্যান্য বৈশিষ্ট্য অনুযায়ী স্থান এবং অঞ্চল','','','',false,true);
+d.add(304,278,'(1-8)','<div class="nodetag">(1-8)</div></span>&nbsp;&nbsp;অবস্থান। উৎস। মধ্যগমন। গন্তব্যস্থান','(1-8)','অবস্থান। উৎস। মধ্যগমন। গন্তব্যস্থান','','','',false,true);
+d.add(305,278,'(1-9)','<div class="nodetag">(1-9)</div></span>&nbsp;&nbsp;বিশিষ্ট দৃষ্টিভঙ্গী অনুযায়ী আঞ্চলিকীকরণ','(1-9)','বিশিষ্ট দৃষ্টিভঙ্গী অনুযায়ী আঞ্চলিকীকরণ','','','',false,true);
+d.add(306,275,'(2)','<div class="nodetag">(2)</div></span>&nbsp;&nbsp;প্রাকৃতিক নামকরণ','(2)','প্রাকৃতিক নামকরণ','','','',false,true);
+d.add(307,306,'(20)','<div class="nodetag">(20)</div></span>&nbsp;&nbsp;বাস্তব্য পরিমন্ডল','(20)','বাস্তব্য পরিমন্ডল','','','',false,true);
+d.add(308,306,'(21)','<div class="nodetag">(21)</div></span>&nbsp;&nbsp;ভূপৃষ্ঠ (ব্যাপকার্থে)। স্থলভাগ (বিশেষরূপে)। প্রাকৃতিক ক্ষেত্র এবং অঞ্চল','(21)','ভূপৃষ্ঠ (ব্যাপকার্থে)। স্থলভাগ (বিশেষরূপে)। প্রাকৃতিক ক্ষেত্র এবং অঞ্চল','','','',false,true);
+d.add(309,306,'(23)','<div class="nodetag">(23)</div></span>&nbsp;&nbsp;সমুদ্রপৃষ্ঠের উর্দ্ধে। ধরাপৃষ্ঠের বন্ধুরতা। সাধারণভাবে ভূমির উর্দ্ধে। পর্বতমালা','(23)','সমুদ্রপৃষ্ঠের উর্দ্ধে। ধরাপৃষ্ঠের বন্ধুরতা। সাধারণভাবে ভূমির উর্দ্ধে। পর্বতমালা','','','',false,true);
+d.add(310,306,'(24)','<div class="nodetag">(24)</div></span>&nbsp;&nbsp;সমুদ্রপৃষ্ঠের নিম্নে। ভূগর্ভ। ভূগর্ভস্থ','(24)','সমুদ্রপৃষ্ঠের নিম্নে। ভূগর্ভ। ভূগর্ভস্থ','','','',false,true);
+d.add(311,306,'(25)','<div class="nodetag">(25)</div></span>&nbsp;&nbsp;প্রাকৃতিক সমতল ভূমি (সমুদ্রপৃষ্ঠ বরাবর, উর্দ্ধে অথবা নিম্নে)। প্রাকৃতিক, কর্ষিত বা বসতযোগ্য অবস্থায় ভূমি','(25)','প্রাকৃতিক সমতল ভূমি (সমুদ্রপৃষ্ঠ বরাবর, উর্দ্ধে অথবা নিম্নে)। প্রাকৃতিক, কর্ষিত বা বসতযোগ্য অবস্থায় ভূমি','','','',false,true);
+d.add(312,306,'(26)','<div class="nodetag">(26)</div></span>&nbsp;&nbsp;মহাসাগর, সাগর এবং অন্তর্সংযোগ','(26)','মহাসাগর, সাগর এবং অন্তর্সংযোগ','','','',false,true);
+d.add(313,306,'(28)','<div class="nodetag">(28)</div></span>&nbsp;&nbsp;অন্তর্দেশীয় জলপথ','(28)','অন্তর্দেশীয় জলপথ','','','',false,true);
+d.add(314,275,'(3/9)','<div class="nodetag">(3/9)</div></span>&nbsp;&nbsp;প্রাচীন এবং আধুনিক বিশ্বের স্থানসমূহ','(3/9)','প্রাচীন এবং আধুনিক বিশ্বের স্থানসমূহ','','','',false,true);
+d.add(315,314,'(3)','<div class="nodetag">(3)</div></span>&nbsp;&nbsp;প্রাচীন এবং মধ্যযুগীয় বিশ্বের স্থানসমূহ','(3)','প্রাচীন এবং মধ্যযুগীয় বিশ্বের স্থানসমূহ','','','',false,true);
+d.add(316,315,'(31)','<div class="nodetag">(31)</div></span>&nbsp;&nbsp;প্রাচীন চিন ও জাপান','(31)','প্রাচীন চিন ও জাপান','','','',false,true);
+d.add(317,315,'(32)','<div class="nodetag">(32)</div></span>&nbsp;&nbsp;প্রাচীন মিশর','(32)','প্রাচীন মিশর','','','',false,true);
+d.add(318,315,'(33)','<div class="nodetag">(33)</div></span>&nbsp;&nbsp;জুডিয়া। পবিত্র ভূমি। ইজ্রাইলীদের অঞ্চল','(33)','জুডিয়া। পবিত্র ভূমি। ইজ্রাইলীদের অঞ্চল','','','',false,true);
+d.add(319,315,'(34)','<div class="nodetag">(34)</div></span>&nbsp;&nbsp;প্রাচীন ভারত','(34)','প্রাচীন ভারত','','','',false,true);
+d.add(320,315,'(35)','<div class="nodetag">(35)</div></span>&nbsp;&nbsp;মেদো-পারস্য (৫৫০-৩৩০ খ্রিস্টপূর্বাব্দ)','(35)','মেদো-পারস্য (৫৫০-৩৩০ খ্রিস্টপূর্বাব্দ)','','','',false,true);
+d.add(321,315,'(36)','<div class="nodetag">(36)</div></span>&nbsp;&nbsp;তথাকথিত বর্বরদের এলাকাসমূহ','(36)','তথাকথিত বর্বরদের এলাকাসমূহ','','','',false,true);
+d.add(322,315,'(37)','<div class="nodetag">(37)</div></span>&nbsp;&nbsp;প্রাচীন রোম ও ইতালি','(37)','প্রাচীন রোম ও ইতালি','','','',false,true);
+d.add(323,315,'(38)','<div class="nodetag">(38)</div></span>&nbsp;&nbsp;প্রাচীন গ্রিস','(38)','প্রাচীন গ্রিস','','','',false,true);
+d.add(324,315,'(399)','<div class="nodetag">(399)</div></span>&nbsp;&nbsp;অন্যান্য অঞ্চল। ধ্রুপদী প্রাচীনত্ব বহির্ভূত প্রাচীন ভৌগলিক বিভাগসমূহ','(399)','অন্যান্য অঞ্চল। ধ্রুপদী প্রাচীনত্ব বহির্ভূত প্রাচীন ভৌগলিক বিভাগসমূহ','','','',false,true);
+d.add(325,324,'(399.7)','<div class="nodetag">(399.7)</div></span>&nbsp;&nbsp;প্রাচীন আমেরিকান সংস্কৃতি বিশিষ্ট অঞ্চলসমূহ। কলম্বাসপূর্ব আমেরিকা','(399.7)','প্রাচীন আমেরিকান সংস্কৃতি বিশিষ্ট অঞ্চলসমূহ। কলম্বাসপূর্ব আমেরিকা','','','',false,true);
+d.add(326,314,'(4/9)','<div class="nodetag">(4/9)</div></span>&nbsp;&nbsp;আধুনিক বিশ্বের দেশ ও স্থান সমূহ','(4/9)','আধুনিক বিশ্বের দেশ ও স্থান সমূহ','','','',false,true);
+d.add(327,326,'(4)','<div class="nodetag">(4)</div></span>&nbsp;&nbsp;ইউরোপ','(4)','ইউরোপ','','','',false,true);
+d.add(328,327,'(41)','<div class="nodetag">(41)</div></span>&nbsp;&nbsp;ব্রিটিশ দ্বীপপুঞ্জের দেশসমূহ','(41)','ব্রিটিশ দ্বীপপুঞ্জের দেশসমূহ','','','',false,true);
+d.add(329,328,'(410)','<div class="nodetag">(410)</div></span>&nbsp;&nbsp;গ্রেট ব্রিটেন এবং উত্তর আয়ার্ল্যান্ডের যুক্তরাজ্য','(410)','গ্রেট ব্রিটেন এবং উত্তর আয়ার্ল্যান্ডের যুক্তরাজ্য','','','',false,true);
+d.add(330,328,'(417)','<div class="nodetag">(417)</div></span>&nbsp;&nbsp;আয়ার্ল্যান্ড। আয়ার্ল্যান্ড প্রজাতন্ত্র','(417)','আয়ার্ল্যান্ড। আয়ার্ল্যান্ড প্রজাতন্ত্র','','','',false,true);
+d.add(331,327,'(430)','<div class="nodetag">(430)</div></span>&nbsp;&nbsp;জার্মানি। জার্মানি সংযুক্ত প্রজাতন্ত্র','(430)','জার্মানি। জার্মানি সংযুক্ত প্রজাতন্ত্র','','','',false,true);
+d.add(332,327,'(435.9)','<div class="nodetag">(435.9)</div></span>&nbsp;&nbsp;লুক্সেমবুর্গ। লুক্সেমবুর্গের মহাজমিদারি','(435.9)','লুক্সেমবুর্গ। লুক্সেমবুর্গের মহাজমিদারি','','','',false,true);
+d.add(333,327,'(436)','<div class="nodetag">(436)</div></span>&nbsp;&nbsp;অস্ট্রিয়া। অস্ট্রিয়া প্রজাতন্ত্র','(436)','অস্ট্রিয়া। অস্ট্রিয়া প্রজাতন্ত্র','','','',false,true);
+d.add(334,327,'(437.3)','<div class="nodetag">(437.3)</div></span>&nbsp;&nbsp;চেকিয়া। চেক প্রজাতন্ত্র','(437.3)','চেকিয়া। চেক প্রজাতন্ত্র','','','',false,true);
+d.add(335,327,'(437.6)','<div class="nodetag">(437.6)</div></span>&nbsp;&nbsp;স্লোভাকিয়া। স্লোভাক প্রজাতন্ত্র','(437.6)','স্লোভাকিয়া। স্লোভাক প্রজাতন্ত্র','','','',false,true);
+d.add(336,327,'(438)','<div class="nodetag">(438)</div></span>&nbsp;&nbsp;পোল্যান্ড। পোলিশ প্রজাতন্ত্র','(438)','পোল্যান্ড। পোলিশ প্রজাতন্ত্র','','','',false,true);
+d.add(337,327,'(439)','<div class="nodetag">(439)</div></span>&nbsp;&nbsp;হাঙ্গেরি। হাঙ্গেরি প্রজাতন্ত্র','(439)','হাঙ্গেরি। হাঙ্গেরি প্রজাতন্ত্র','','','',false,true);
+d.add(338,327,'(44)','<div class="nodetag">(44)</div></span>&nbsp;&nbsp;ফ্রান্স। ফরাসি প্রজাতন্ত্র','(44)','ফ্রান্স। ফরাসি প্রজাতন্ত্র','','','',false,true);
+d.add(339,327,'(450)','<div class="nodetag">(450)</div></span>&nbsp;&nbsp;ইতালি। ইতালি প্রজাতন্ত্র','(450)','ইতালি। ইতালি প্রজাতন্ত্র','','','',false,true);
+d.add(340,327,'(454.4)','<div class="nodetag">(454.4)</div></span>&nbsp;&nbsp;সান মারিনো। সর্বাধিক দৃষ্টিনন্দন সান মারিনো প্রজাতন্ত্র','(454.4)','সান মারিনো। সর্বাধিক দৃষ্টিনন্দন সান মারিনো প্রজাতন্ত্র','','','',false,true);
+d.add(341,327,'(456.31)','<div class="nodetag">(456.31)</div></span>&nbsp;&nbsp;ভ্যাটিকান। ভ্যাটিকান নগর রাষ্ট্র (পবিত্র ভূমি)','(456.31)','ভ্যাটিকান। ভ্যাটিকান নগর রাষ্ট্র (পবিত্র ভূমি)','','','',false,true);
+d.add(342,327,'(458.2)','<div class="nodetag">(458.2)</div></span>&nbsp;&nbsp;মাল্টা। মাল্টা প্রজাতন্ত্র','(458.2)','মাল্টা। মাল্টা প্রজাতন্ত্র','','','',false,true);
+d.add(343,327,'(46)','<div class="nodetag">(46)</div></span>&nbsp;&nbsp;আইবেরিয় উপদ্বীপের দেশসমূহ','(46)','আইবেরিয় উপদ্বীপের দেশসমূহ','','','',false,true);
+d.add(344,343,'(460)','<div class="nodetag">(460)</div></span>&nbsp;&nbsp;স্পেন। স্পেন রাজ্য','(460)','স্পেন। স্পেন রাজ্য','','','',false,true);
+d.add(345,343,'(467)','<div class="nodetag">(467)</div></span>&nbsp;&nbsp;অ্যান্ডোরা। অ্যান্ডোরা ক্ষুদ্ররাজ্য','(467)','অ্যান্ডোরা। অ্যান্ডোরা ক্ষুদ্ররাজ্য','','','',false,true);
+d.add(346,343,'(469)','<div class="nodetag">(469)</div></span>&nbsp;&nbsp;পর্তুগাল। পর্তুগিজ প্রজাতন্ত্র','(469)','পর্তুগাল। পর্তুগিজ প্রজাতন্ত্র','','','',false,true);
+d.add(347,327,'(470+571)','<div class="nodetag">(470+571)</div></span>&nbsp;&nbsp;রাশিয়া। রাশিয়ান যুক্তরাষ্ট্র','(470+571)','রাশিয়া। রাশিয়ান যুক্তরাষ্ট্র','','','',false,true);
+d.add(348,327,'(474)','<div class="nodetag">(474)</div></span>&nbsp;&nbsp;বাল্টিক রাষ্ট্রসমূহ','(474)','বাল্টিক রাষ্ট্রসমূহ','','','',false,true);
+d.add(349,348,'(474.2)','<div class="nodetag">(474.2)</div></span>&nbsp;&nbsp;এস্তোনিয়া। এস্তোনিয়া প্রজাতন্ত্র','(474.2)','এস্তোনিয়া। এস্তোনিয়া প্রজাতন্ত্র','','','',false,true);
+d.add(350,348,'(474.3)','<div class="nodetag">(474.3)</div></span>&nbsp;&nbsp;লাতভিয়া। লাতভিয়া প্রজাতন্ত্র','(474.3)','লাতভিয়া। লাতভিয়া প্রজাতন্ত্র','','','',false,true);
+d.add(351,348,'(474.5)','<div class="nodetag">(474.5)</div></span>&nbsp;&nbsp;লিথুয়ানিয়া। লিথুয়ানিয়া প্রজাতন্ত্র','(474.5)','লিথুয়ানিয়া। লিথুয়ানিয়া প্রজাতন্ত্র','','','',false,true);
+d.add(352,327,'(476)','<div class="nodetag">(476)</div></span>&nbsp;&nbsp;বেলারুশ। বেলারুশ প্রজাতন্ত্র','(476)','বেলারুশ। বেলারুশ প্রজাতন্ত্র','','','',false,true);
+d.add(353,327,'(477)','<div class="nodetag">(477)</div></span>&nbsp;&nbsp;ইউক্রেন','(477)','ইউক্রেন','','','',false,true);
+d.add(354,327,'(478)','<div class="nodetag">(478)</div></span>&nbsp;&nbsp;মল্ডোভা। মল্ডোভা প্রজাতন্ত্র','(478)','মল্ডোভা। মল্ডোভা প্রজাতন্ত্র','','','',false,true);
+d.add(355,327,'(479)','<div class="nodetag">(479)</div></span>&nbsp;&nbsp;ককেশিয় অঞ্চলের দেশসমূহ','(479)','ককেশিয় অঞ্চলের দেশসমূহ','','','',false,true);
+d.add(356,355,'(479.22)','<div class="nodetag">(479.22)</div></span>&nbsp;&nbsp;জর্জিয়া। জর্জিয়া প্রজাতন্ত্র','(479.22)','জর্জিয়া। জর্জিয়া প্রজাতন্ত্র','','','',false,true);
+d.add(357,355,'(479.24)','<div class="nodetag">(479.24)</div></span>&nbsp;&nbsp;আজেরবাইজান। আজেরবাইজানি প্রজাতন্ত্র','(479.24)','আজেরবাইজান। আজেরবাইজানি প্রজাতন্ত্র','','','',false,true);
+d.add(358,355,'(479.25)','<div class="nodetag">(479.25)</div></span>&nbsp;&nbsp;আর্মেনিয়া। আর্মেনিয়া প্রজাতন্ত্র','(479.25)','আর্মেনিয়া। আর্মেনিয়া প্রজাতন্ত্র','','','',false,true);
+d.add(359,327,'(48)','<div class="nodetag">(48)</div></span>&nbsp;&nbsp;স্কান্ডিনেভিয় রাষ্ট্রসমূহ','(48)','স্কান্ডিনেভিয় রাষ্ট্রসমূহ','','','',false,true);
+d.add(360,359,'(480)','<div class="nodetag">(480)</div></span>&nbsp;&nbsp;ফিনল্যান্ড। ফিনল্যান্ড প্রজাতন্ত্র','(480)','ফিনল্যান্ড। ফিনল্যান্ড প্রজাতন্ত্র','','','',false,true);
+d.add(361,359,'(481)','<div class="nodetag">(481)</div></span>&nbsp;&nbsp;নরওয়ে। নরওয়ে রাজ্য','(481)','নরওয়ে। নরওয়ে রাজ্য','','','',false,true);
+d.add(362,359,'(485)','<div class="nodetag">(485)</div></span>&nbsp;&nbsp;সুইডেন। সুইডেন রাজ্য','(485)','সুইডেন। সুইডেন রাজ্য','','','',false,true);
+d.add(363,359,'(489)','<div class="nodetag">(489)</div></span>&nbsp;&nbsp;ডেনমার্ক। ডেনমার্ক রাজ্য','(489)','ডেনমার্ক। ডেনমার্ক রাজ্য','','','',false,true);
+d.add(364,327,'(491.1)','<div class="nodetag">(491.1)</div></span>&nbsp;&nbsp;আইসল্যান্ড। আইসল্যান্ড প্রজাতন্ত্র','(491.1)','আইসল্যান্ড। আইসল্যান্ড প্রজাতন্ত্র','','','',false,true);
+d.add(365,327,'(492)','<div class="nodetag">(492)</div></span>&nbsp;&nbsp;নেদারল্যান্ড। নেদারল্যান্ড রাজ্য','(492)','নেদারল্যান্ড। নেদারল্যান্ড রাজ্য','','','',false,true);
+d.add(366,327,'(493)','<div class="nodetag">(493)</div></span>&nbsp;&nbsp;বেলজিয়াম। বেলজিয়াম রাজ্য','(493)','বেলজিয়াম। বেলজিয়াম রাজ্য','','','',false,true);
+d.add(367,327,'(494)','<div class="nodetag">(494)</div></span>&nbsp;&nbsp;সুইজারল্যান্ড। সুইস যুক্তরাষ্ট্র','(494)','সুইজারল্যান্ড। সুইস যুক্তরাষ্ট্র','','','',false,true);
+d.add(368,367,'(494.9)','<div class="nodetag">(494.9)</div></span>&nbsp;&nbsp;লিচেনস্টাইন। লিচেনস্টাইন ক্ষুদ্ররাজ্য','(494.9)','লিচেনস্টাইন। লিচেনস্টাইন ক্ষুদ্ররাজ্য','','','',false,true);
+d.add(369,327,'(495)','<div class="nodetag">(495)</div></span>&nbsp;&nbsp;গ্রিস। হেলেনিক প্রজাতন্ত্র','(495)','গ্রিস। হেলেনিক প্রজাতন্ত্র','','','',false,true);
+d.add(370,327,'(496.5)','<div class="nodetag">(496.5)</div></span>&nbsp;&nbsp;আলবানিয়া। আলবানিয়া প্রজাতন্ত্র','(496.5)','আলবানিয়া। আলবানিয়া প্রজাতন্ত্র','','','',false,true);
+d.add(371,327,'(497)','<div class="nodetag">(497)</div></span>&nbsp;&nbsp;বল্কান রাষ্ট্রসমূহ','(497)','বল্কান রাষ্ট্রসমূহ','','','',false,true);
+d.add(372,371,'(497.11)','<div class="nodetag">(497.11)</div></span>&nbsp;&nbsp;সার্বিয়া। সার্বিয়া প্রজাতন্ত্র','(497.11)','সার্বিয়া। সার্বিয়া প্রজাতন্ত্র','','','',false,true);
+d.add(373,371,'(497.16)','<div class="nodetag">(497.16)</div></span>&nbsp;&nbsp;মন্টেনিগ্রো','(497.16)','মন্টেনিগ্রো','','','',false,true);
+d.add(374,371,'(497.2)','<div class="nodetag">(497.2)</div></span>&nbsp;&nbsp;বুলগারিয়া। বুলগারিয়া প্রজাতন্ত্র','(497.2)','বুলগারিয়া। বুলগারিয়া প্রজাতন্ত্র','','','',false,true);
+d.add(375,371,'(497.4)','<div class="nodetag">(497.4)</div></span>&nbsp;&nbsp;স্লোভেনিয়া। স্লোভেনিয়া প্রজাতন্ত্র','(497.4)','স্লোভেনিয়া। স্লোভেনিয়া প্রজাতন্ত্র','','','',false,true);
+d.add(376,371,'(497.5)','<div class="nodetag">(497.5)</div></span>&nbsp;&nbsp;ক্রোয়েশিয়া। ক্রোয়েশিয়া প্রজাতন্ত্র','(497.5)','ক্রোয়েশিয়া। ক্রোয়েশিয়া প্রজাতন্ত্র','','','',false,true);
+d.add(377,371,'(497.6)','<div class="nodetag">(497.6)</div></span>&nbsp;&nbsp;বসনিয়া-হেরজেগোভিনা। বসনিয়া-হেরজেগোভিনা প্রজাতন্ত্র','(497.6)','বসনিয়া-হেরজেগোভিনা। বসনিয়া-হেরজেগোভিনা প্রজাতন্ত্র','','','',false,true);
+d.add(378,371,'(497.7)','<div class="nodetag">(497.7)</div></span>&nbsp;&nbsp;ম্যাসিদোনিয়া। পূর্বতন যুগোস্লাভ ম্যাসিদোনিয়া প্রজাতন্ত্র','(497.7)','ম্যাসিদোনিয়া। পূর্বতন যুগোস্লাভ ম্যাসিদোনিয়া প্রজাতন্ত্র','','','',false,true);
+d.add(379,327,'(498)','<div class="nodetag">(498)</div></span>&nbsp;&nbsp;রোমানিয়া। রোমানিয়া প্রজাতন্ত্র','(498)','রোমানিয়া। রোমানিয়া প্রজাতন্ত্র','','','',false,true);
+d.add(380,326,'(5)','<div class="nodetag">(5)</div></span>&nbsp;&nbsp;এশিয়া','(5)','এশিয়া','','','',false,true);
+d.add(381,380,'(510)','<div class="nodetag">(510)</div></span>&nbsp;&nbsp;চিন। চিন গণপ্রজাতন্ত্র','(510)','চিন। চিন গণপ্রজাতন্ত্র','','','',false,true);
+d.add(382,380,'(512.317)','<div class="nodetag">(512.317)</div></span>&nbsp;&nbsp;হংকং','(512.317)','হংকং','','','',false,true);
+d.add(383,380,'(512.318)','<div class="nodetag">(512.318)</div></span>&nbsp;&nbsp;মাকাও (মাকাউ)। আওমেন (আও-মেন)','(512.318)','মাকাও (মাকাউ)। আওমেন (আও-মেন)','','','',false,true);
+d.add(384,380,'(515)','<div class="nodetag">(515)</div></span>&nbsp;&nbsp;তিব্বত। তিব্বত স্বশাসিত অঞ্চল','(515)','তিব্বত। তিব্বত স্বশাসিত অঞ্চল','','','',false,true);
+d.add(385,380,'(517.9)','<div class="nodetag">(517.9)</div></span>&nbsp;&nbsp;মঙ্গোলিয়া। মঙ্গোলিয়া রাষ্ট্র','(517.9)','মঙ্গোলিয়া। মঙ্গোলিয়া রাষ্ট্র','','','',false,true);
+d.add(386,380,'(519)','<div class="nodetag">(519)</div></span>&nbsp;&nbsp;কোরিয়া','(519)','কোরিয়া','','','',false,true);
+d.add(387,386,'(519.3)','<div class="nodetag">(519.3)</div></span>&nbsp;&nbsp;উত্তর কোরিয়া। কোরিয়া গণতান্ত্রিক গণপ্রজাতন্ত্র','(519.3)','উত্তর কোরিয়া। কোরিয়া গণতান্ত্রিক গণপ্রজাতন্ত্র','','','',false,true);
+d.add(388,386,'(519.5)','<div class="nodetag">(519.5)</div></span>&nbsp;&nbsp;দক্ষিণ কোরিয়া। কোরিয়া প্রজাতন্ত্র','(519.5)','দক্ষিণ কোরিয়া। কোরিয়া প্রজাতন্ত্র','','','',false,true);
+d.add(389,380,'(52)','<div class="nodetag">(52)</div></span>&nbsp;&nbsp;জাপান এবং সন্নিহিত দ্বীপসমূহ','(52)','জাপান এবং সন্নিহিত দ্বীপসমূহ','','','',false,true);
+d.add(390,389,'(520)','<div class="nodetag">(520)</div></span>&nbsp;&nbsp;জাপান। নিপ্পন','(520)','জাপান। নিপ্পন','','','',false,true);
+d.add(391,389,'(529)','<div class="nodetag">(529)</div></span>&nbsp;&nbsp;তাইওয়ান। চিন প্রজাতন্ত্র','(529)','তাইওয়ান। চিন প্রজাতন্ত্র','','','',false,true);
+d.add(392,380,'(53)','<div class="nodetag">(53)</div></span>&nbsp;&nbsp;আরব রাষ্ট্র ও এলাকা সমূহ','(53)','আরব রাষ্ট্র ও এলাকা সমূহ','','','',false,true);
+d.add(393,392,'(532)','<div class="nodetag">(532)</div></span>&nbsp;&nbsp;সৌদি আরব। সৌদি আরব রাজ্য','(532)','সৌদি আরব। সৌদি আরব রাজ্য','','','',false,true);
+d.add(394,392,'(533)','<div class="nodetag">(533)</div></span>&nbsp;&nbsp;ইয়েমেন। ইয়েমেন প্রজাতন্ত্র','(533)','ইয়েমেন। ইয়েমেন প্রজাতন্ত্র','','','',false,true);
+d.add(395,392,'(535)','<div class="nodetag">(535)</div></span>&nbsp;&nbsp;ওমান। ওমান সুলতানী','(535)','ওমান। ওমান সুলতানী','','','',false,true);
+d.add(396,392,'(536)','<div class="nodetag">(536)</div></span>&nbsp;&nbsp;পূর্ব আরব রাষ্ট্রসমূহ (উপসাগরীয় রাষ্ট্রসমূহ)','(536)','পূর্ব আরব রাষ্ট্রসমূহ (উপসাগরীয় রাষ্ট্রসমূহ)','','','',false,true);
+d.add(397,396,'(536.2)','<div class="nodetag">(536.2)</div></span>&nbsp;&nbsp;সংযুক্ত আরব আমিরশাহী','(536.2)','সংযুক্ত আরব আমিরশাহী','','','',false,true);
+d.add(398,396,'(536.4)','<div class="nodetag">(536.4)</div></span>&nbsp;&nbsp;কাতার। কাতার রাষ্ট্র','(536.4)','কাতার। কাতার রাষ্ট্র','','','',false,true);
+d.add(399,396,'(536.5)','<div class="nodetag">(536.5)</div></span>&nbsp;&nbsp;বাহরিন। বাহরিন রাজ্য','(536.5)','বাহরিন। বাহরিন রাজ্য','','','',false,true);
+d.add(400,396,'(536.8)','<div class="nodetag">(536.8)</div></span>&nbsp;&nbsp;কুয়েত। কুয়েত রাষ্ট্র','(536.8)','কুয়েত। কুয়েত রাষ্ট্র','','','',false,true);
+d.add(401,380,'(54)','<div class="nodetag">(54)</div></span>&nbsp;&nbsp;ভারতীয় উপমহাদেশের রাষ্ট্রসমূহ','(54)','ভারতীয় উপমহাদেশের রাষ্ট্রসমূহ','','','',false,true);
+d.add(402,401,'(540)','<div class="nodetag">(540)</div></span>&nbsp;&nbsp;ভারত। ভারত প্রজাতন্ত্র। ভারত গণরাজ্য','(540)','ভারত। ভারত প্রজাতন্ত্র। ভারত গণরাজ্য','','','',false,true);
+d.add(403,401,'(541.31)','<div class="nodetag">(541.31)</div></span>&nbsp;&nbsp;ভূটান। ভূটান রাজ্য','(541.31)','ভূটান। ভূটান রাজ্য','','','',false,true);
+d.add(404,401,'(541.35)','<div class="nodetag">(541.35)</div></span>&nbsp;&nbsp;নেপাল। নেপাল সংঘীয় গণতান্ত্রিক প্রজাতন্ত্র','(541.35)','নেপাল। নেপাল সংঘীয় গণতান্ত্রিক প্রজাতন্ত্র','','','',false,true);
+d.add(405,401,'(548.7)','<div class="nodetag">(548.7)</div></span>&nbsp;&nbsp;শ্রীলঙ্কা। শ্রীলঙ্কা সমাজতন্ত্রী গণতান্ত্রিক প্রজাতন্ত্র','(548.7)','শ্রীলঙ্কা। শ্রীলঙ্কা সমাজতন্ত্রী গণতান্ত্রিক প্রজাতন্ত্র','','','',false,true);
+d.add(406,401,'(548.82)','<div class="nodetag">(548.82)</div></span>&nbsp;&nbsp;মলদ্বীপ। মলদ্বীপ প্রজাতন্ত্র','(548.82)','মলদ্বীপ। মলদ্বীপ প্রজাতন্ত্র','','','',false,true);
+d.add(407,401,'(549.1)','<div class="nodetag">(549.1)</div></span>&nbsp;&nbsp;পাকিস্তান। পাকিস্তান ইসলামীয় প্রজাতন্ত্র','(549.1)','পাকিস্তান। পাকিস্তান ইসলামীয় প্রজাতন্ত্র','','','',false,true);
+d.add(408,401,'(549.3)','<div class="nodetag">(549.3)</div></span>&nbsp;&nbsp;বাংলাদেশ। বাংলাদেশ গণপ্রজাতন্ত্র','(549.3)','বাংলাদেশ। বাংলাদেশ গণপ্রজাতন্ত্র','','','',false,true);
+d.add(409,380,'(55)','<div class="nodetag">(55)</div></span>&nbsp;&nbsp;ইরান। ইরান ইসলামীয় প্রজাতন্ত্র','(55)','ইরান। ইরান ইসলামীয় প্রজাতন্ত্র','','','',false,true);
+d.add(410,380,'(56)','<div class="nodetag">(56)</div></span>&nbsp;&nbsp;লেভান্ত। এশিয়া মাইনর','(56)','লেভান্ত। এশিয়া মাইনর','','','',false,true);
+d.add(411,410,'(560)','<div class="nodetag">(560)</div></span>&nbsp;&nbsp;তুরস্ক। তুরস্ক প্রজাতন্ত্র','(560)','তুরস্ক। তুরস্ক প্রজাতন্ত্র','','','',false,true);
+d.add(412,410,'(564.3)','<div class="nodetag">(564.3)</div></span>&nbsp;&nbsp;সাইপ্রাস। সাইপ্রাস প্রজাতন্ত্র','(564.3)','সাইপ্রাস। সাইপ্রাস প্রজাতন্ত্র','','','',false,true);
+d.add(413,410,'(567)','<div class="nodetag">(567)</div></span>&nbsp;&nbsp;ইরাক। ইরাক প্রজাতন্ত্র','(567)','ইরাক। ইরাক প্রজাতন্ত্র','','','',false,true);
+d.add(414,410,'(569.1)','<div class="nodetag">(569.1)</div></span>&nbsp;&nbsp;সিরিয়া। সিরিয়া আরব প্রজাতন্ত্র','(569.1)','সিরিয়া। সিরিয়া আরব প্রজাতন্ত্র','','','',false,true);
+d.add(415,410,'(569.3)','<div class="nodetag">(569.3)</div></span>&nbsp;&nbsp;লেবানন। লেবানন প্রজাতন্ত্র','(569.3)','লেবানন। লেবানন প্রজাতন্ত্র','','','',false,true);
+d.add(416,410,'(569.4)','<div class="nodetag">(569.4)</div></span>&nbsp;&nbsp;ইজরায়েল। ইজরায়েল রাষ্ট্র','(569.4)','ইজরায়েল। ইজরায়েল রাষ্ট্র','','','',false,true);
+d.add(417,410,'(569.5)','<div class="nodetag">(569.5)</div></span>&nbsp;&nbsp;জর্ডন। হাসেমাইট রাজ্য জর্ডন','(569.5)','জর্ডন। হাসেমাইট রাজ্য জর্ডন','','','',false,true);
+d.add(418,380,'(57)','<div class="nodetag">(57)</div></span>&nbsp;&nbsp;পূর্বতন এশিয় সংযুক্ত সোভিয়েত সমাজতান্ত্রিক প্রজাতন্ত্র','(57)','পূর্বতন এশিয় সংযুক্ত সোভিয়েত সমাজতান্ত্রিক প্রজাতন্ত্র','','','',false,true);
+d.add(419,418,'(571)','<div class="nodetag">(571)</div></span>&nbsp;&nbsp;এশিয়াস্থ রাশিয়া যুক্তরাষ্ট্র','(571)','এশিয়াস্থ রাশিয়া যুক্তরাষ্ট্র','','','',false,true);
+d.add(420,418,'(574)','<div class="nodetag">(574)</div></span>&nbsp;&nbsp;কাজাখস্তান। প্রজাতান্ত্রিক কাজাখস্তান','(574)','কাজাখস্তান। প্রজাতান্ত্রিক কাজাখস্তান','','','',false,true);
+d.add(421,418,'(575.1)','<div class="nodetag">(575.1)</div></span>&nbsp;&nbsp;উজবেকিস্তান। উজবেকিস্তান প্রজাতন্ত্র','(575.1)','উজবেকিস্তান। উজবেকিস্তান প্রজাতন্ত্র','','','',false,true);
+d.add(422,418,'(575.2)','<div class="nodetag">(575.2)</div></span>&nbsp;&nbsp;কিরগিজস্তান। কিরগিজস্তান প্রজাতন্ত্র','(575.2)','কিরগিজস্তান। কিরগিজস্তান প্রজাতন্ত্র','','','',false,true);
+d.add(423,418,'(575.3)','<div class="nodetag">(575.3)</div></span>&nbsp;&nbsp;তাজিকিস্তান। তাজিকিস্তান প্রজাতন্ত্র','(575.3)','তাজিকিস্তান। তাজিকিস্তান প্রজাতন্ত্র','','','',false,true);
+d.add(424,418,'(575.4)','<div class="nodetag">(575.4)</div></span>&nbsp;&nbsp;তুর্কমেনিস্তান। তুর্কমেনিস্তান প্রজাতন্ত্র','(575.4)','তুর্কমেনিস্তান। তুর্কমেনিস্তান প্রজাতন্ত্র','','','',false,true);
+d.add(425,380,'(581)','<div class="nodetag">(581)</div></span>&nbsp;&nbsp;আফগানিস্তান। আফগানিস্তান ইসলামীয় প্রজাতন্ত্র','(581)','আফগানিস্তান। আফগানিস্তান ইসলামীয় প্রজাতন্ত্র','','','',false,true);
+d.add(426,380,'(59)','<div class="nodetag">(59)</div></span>&nbsp;&nbsp;দক্ষিণ-পূর্ব এশিয়ার দেশসমূহ','(59)','দক্ষিণ-পূর্ব এশিয়ার দেশসমূহ','','','',false,true);
+d.add(427,426,'(591)','<div class="nodetag">(591)</div></span>&nbsp;&nbsp;মায়ানমার (বার্মা)। সংঘীয় মায়ানমার','(591)','মায়ানমার (বার্মা)। সংঘীয় মায়ানমার','','','',false,true);
+d.add(428,426,'(592.3)','<div class="nodetag">(592.3)</div></span>&nbsp;&nbsp;সিঙ্গাপুর। সিঙ্গাপুর প্রজাতন্ত্র','(592.3)','সিঙ্গাপুর। সিঙ্গাপুর প্রজাতন্ত্র','','','',false,true);
+d.add(429,426,'(592.6)','<div class="nodetag">(592.6)</div></span>&nbsp;&nbsp;ব্রুনেই। ব্রুনেই দারুসসালাম রাষ্ট্র','(592.6)','ব্রুনেই। ব্রুনেই দারুসসালাম রাষ্ট্র','','','',false,true);
+d.add(430,426,'(593)','<div class="nodetag">(593)</div></span>&nbsp;&nbsp;থাইল্যান্ড। থাইল্যান্ড রাজ্য','(593)','থাইল্যান্ড। থাইল্যান্ড রাজ্য','','','',false,true);
+d.add(431,426,'(594)','<div class="nodetag">(594)</div></span>&nbsp;&nbsp;ইন্দোনেশিয়া। ইন্দোনেশিয়া প্রজাতন্ত্র','(594)','ইন্দোনেশিয়া। ইন্দোনেশিয়া প্রজাতন্ত্র','','','',false,true);
+d.add(432,426,'(595)','<div class="nodetag">(595)</div></span>&nbsp;&nbsp;মালয়েশিয়া। মালয়েশিয়া যুক্তরাষ্ট্র','(595)','মালয়েশিয়া। মালয়েশিয়া যুক্তরাষ্ট্র','','','',false,true);
+d.add(433,426,'(596/598)','<div class="nodetag">(596/598)</div></span>&nbsp;&nbsp;ইন্দোচিন','(596/598)','ইন্দোচিন','','','',false,true);
+d.add(434,433,'(596)','<div class="nodetag">(596)</div></span>&nbsp;&nbsp;কাম্বোডিয়া। কাম্বোডিয়া রাজ্য','(596)','কাম্বোডিয়া। কাম্বোডিয়া রাজ্য','','','',false,true);
+d.add(435,433,'(597)','<div class="nodetag">(597)</div></span>&nbsp;&nbsp;ভিয়েতনাম। ভিয়েতনাম সমাজতান্ত্রিক প্রজাতন্ত্র','(597)','ভিয়েতনাম। ভিয়েতনাম সমাজতান্ত্রিক প্রজাতন্ত্র','','','',false,true);
+d.add(436,433,'(598)','<div class="nodetag">(598)</div></span>&nbsp;&nbsp;লাওস। লাও জনগণতান্ত্রিক প্রজাতন্ত্র','(598)','লাওস। লাও জনগণতান্ত্রিক প্রজাতন্ত্র','','','',false,true);
+d.add(437,426,'(599)','<div class="nodetag">(599)</div></span>&nbsp;&nbsp;ফিলিপিনস। ফিলিপিনস প্রজাতন্ত্র','(599)','ফিলিপিনস। ফিলিপিনস প্রজাতন্ত্র','','','',false,true);
+d.add(438,326,'(6)','<div class="nodetag">(6)</div></span>&nbsp;&nbsp;আফ্রিকা','(6)','আফ্রিকা','','','',false,true);
+d.add(439,438,'(61)','<div class="nodetag">(61)</div></span>&nbsp;&nbsp;উত্তর আফ্রিকিয় রাষ্ট্রসমূহ','(61)','উত্তর আফ্রিকিয় রাষ্ট্রসমূহ','','','',false,true);
+d.add(440,439,'(611)','<div class="nodetag">(611)</div></span>&nbsp;&nbsp;তিউনিসিয়া। তিউনিসিয়া প্রজাতন্ত্র','(611)','তিউনিসিয়া। তিউনিসিয়া প্রজাতন্ত্র','','','',false,true);
+d.add(441,439,'(612)','<div class="nodetag">(612)</div></span>&nbsp;&nbsp;লিবিয়া। লিবিয়া মহান সমাজতন্ত্রী গণ আরব প্রজাতন্ত্র','(612)','লিবিয়া। লিবিয়া মহান সমাজতন্ত্রী গণ আরব প্রজাতন্ত্র','','','',false,true);
+d.add(442,438,'(620)','<div class="nodetag">(620)</div></span>&nbsp;&nbsp;মিশর। মিশরিয় আরব প্রজাতন্ত্র','(620)','মিশর। মিশরিয় আরব প্রজাতন্ত্র','','','',false,true);
+d.add(443,438,'(624)','<div class="nodetag">(624)</div></span>&nbsp;&nbsp;সুদান। সুদান প্রজাতন্ত্র','(624)','সুদান। সুদান প্রজাতন্ত্র','','','',false,true);
+d.add(444,443,'(624.1)','<div class="nodetag">(624.1)</div></span>&nbsp;&nbsp;সুদান, আল-সুদান। সুদান প্রজাতন্ত্র। জমহুরিয়ত আস-সুদান','(624.1)','সুদান, আল-সুদান। সুদান প্রজাতন্ত্র। জমহুরিয়ত আস-সুদান','','','',false,true);
+d.add(445,443,'(624.4)','<div class="nodetag">(624.4)</div></span>&nbsp;&nbsp;দক্ষিণ সুদান প্রজাতন্ত্র','(624.4)','দক্ষিণ সুদান প্রজাতন্ত্র','','','',false,true);
+d.add(446,438,'(630)','<div class="nodetag">(630)</div></span>&nbsp;&nbsp;ইথিওপিয়া। ইথিওপিয়া যুক্তরাষ্ট্রীয় গণতান্ত্রিক প্রজাতন্ত্র','(630)','ইথিওপিয়া। ইথিওপিয়া যুক্তরাষ্ট্রীয় গণতান্ত্রিক প্রজাতন্ত্র','','','',false,true);
+d.add(447,438,'(635)','<div class="nodetag">(635)</div></span>&nbsp;&nbsp;ইরিত্রিয়া। ইরিত্রিয়া রাষ্ট্র','(635)','ইরিত্রিয়া। ইরিত্রিয়া রাষ্ট্র','','','',false,true);
+d.add(448,438,'(64)','<div class="nodetag">(64)</div></span>&nbsp;&nbsp;মরক্কো। মরক্কো রাজ্য','(64)','মরক্কো। মরক্কো রাজ্য','','','',false,true);
+d.add(449,438,'(65)','<div class="nodetag">(65)</div></span>&nbsp;&nbsp;আলজেরিয়া। আলজেরিয়া জনগণতান্ত্রিক প্রজাতন্ত্র','(65)','আলজেরিয়া। আলজেরিয়া জনগণতান্ত্রিক প্রজাতন্ত্র','','','',false,true);
+d.add(450,438,'(66)','<div class="nodetag">(66)</div></span>&nbsp;&nbsp;পশ্চিম আফ্রিকিয় রাষ্ট্র এবং এলাকা সমূহ','(66)','পশ্চিম আফ্রিকিয় রাষ্ট্র এবং এলাকা সমূহ','','','',false,true);
+d.add(451,450,'(661.2)','<div class="nodetag">(661.2)</div></span>&nbsp;&nbsp;মরিতানিয়া। মরিতানিয়া ইসলামীয় প্রজাতন্ত্র','(661.2)','মরিতানিয়া। মরিতানিয়া ইসলামীয় প্রজাতন্ত্র','','','',false,true);
+d.add(452,450,'(662.1)','<div class="nodetag">(662.1)</div></span>&nbsp;&nbsp;মালি। মালি প্রজাতন্ত্র','(662.1)','মালি। মালি প্রজাতন্ত্র','','','',false,true);
+d.add(453,450,'(662.5)','<div class="nodetag">(662.5)</div></span>&nbsp;&nbsp;বুরকিনা ফাসো। বুরকিনা ফাসো জনগণতান্ত্রিক প্রজাতন্ত্র','(662.5)','বুরকিনা ফাসো। বুরকিনা ফাসো জনগণতান্ত্রিক প্রজাতন্ত্র','','','',false,true);
+d.add(454,450,'(662.6)','<div class="nodetag">(662.6)</div></span>&nbsp;&nbsp;নাইজার। নাইজার প্রজাতন্ত্র','(662.6)','নাইজার। নাইজার প্রজাতন্ত্র','','','',false,true);
+d.add(455,450,'(663)','<div class="nodetag">(663)</div></span>&nbsp;&nbsp;সেনেগাল। সেনেগাল প্রজাতন্ত্র','(663)','সেনেগাল। সেনেগাল প্রজাতন্ত্র','','','',false,true);
+d.add(456,450,'(664)','<div class="nodetag">(664)</div></span>&nbsp;&nbsp;সিয়েরা লিওন। সিয়েরা লিওন প্রজাতন্ত্র','(664)','সিয়েরা লিওন। সিয়েরা লিওন প্রজাতন্ত্র','','','',false,true);
+d.add(457,450,'(665)','<div class="nodetag">(665)</div></span>&nbsp;&nbsp;গাম্বিয়া এবং গিনি','(665)','গাম্বিয়া এবং গিনি','','','',false,true);
+d.add(458,457,'(665.1)','<div class="nodetag">(665.1)</div></span>&nbsp;&nbsp;গাম্বিয়া। গাম্বিয়া প্রজাতন্ত্র','(665.1)','গাম্বিয়া। গাম্বিয়া প্রজাতন্ত্র','','','',false,true);
+d.add(459,457,'(665.2)','<div class="nodetag">(665.2)</div></span>&nbsp;&nbsp;গিনি। গিনি প্রজাতন্ত্র','(665.2)','গিনি। গিনি প্রজাতন্ত্র','','','',false,true);
+d.add(460,457,'(665.7)','<div class="nodetag">(665.7)</div></span>&nbsp;&nbsp;গিনি-বিসাউ। গিনি-বিসাউ প্রজাতন্ত্র','(665.7)','গিনি-বিসাউ। গিনি-বিসাউ প্রজাতন্ত্র','','','',false,true);
+d.add(461,457,'(665.8)','<div class="nodetag">(665.8)</div></span>&nbsp;&nbsp;কেপ ভার্দে। কেপ ভার্দে প্রজাতন্ত্র','(665.8)','কেপ ভার্দে। কেপ ভার্দে প্রজাতন্ত্র','','','',false,true);
+d.add(462,450,'(666.2)','<div class="nodetag">(666.2)</div></span>&nbsp;&nbsp;লাইবেরিয়া। লাইবেরিয়া প্রজাতন্ত্র','(666.2)','লাইবেরিয়া। লাইবেরিয়া প্রজাতন্ত্র','','','',false,true);
+d.add(463,450,'(666.8)','<div class="nodetag">(666.8)</div></span>&nbsp;&nbsp;আইভরি কোস্ট। আইভরি কোস্ট প্রজাতন্ত্র','(666.8)','আইভরি কোস্ট। আইভরি কোস্ট প্রজাতন্ত্র','','','',false,true);
+d.add(464,450,'(667)','<div class="nodetag">(667)</div></span>&nbsp;&nbsp;ঘানা। ঘানা প্রজাতন্ত্র','(667)','ঘানা। ঘানা প্রজাতন্ত্র','','','',false,true);
+d.add(465,450,'(668.1)','<div class="nodetag">(668.1)</div></span>&nbsp;&nbsp;টোগো। টোগো প্রজাতন্ত্র','(668.1)','টোগো। টোগো প্রজাতন্ত্র','','','',false,true);
+d.add(466,450,'(668.2)','<div class="nodetag">(668.2)</div></span>&nbsp;&nbsp;বেনিন। বেনিন প্রজাতন্ত্র','(668.2)','বেনিন। বেনিন প্রজাতন্ত্র','','','',false,true);
+d.add(467,450,'(669.1)','<div class="nodetag">(669.1)</div></span>&nbsp;&nbsp;নাইজিরিয়া। নাইজিরিয়া যুক্তরাষ্ট্রীয় প্রজাতন্ত্র','(669.1)','নাইজিরিয়া। নাইজিরিয়া যুক্তরাষ্ট্রীয় প্রজাতন্ত্র','','','',false,true);
+d.add(468,450,'(669.95)','<div class="nodetag">(669.95)</div></span>&nbsp;&nbsp;সাও তোমে ও প্রিন্সিপে। সাও তোমে ও প্রিন্সিপে গণতান্ত্রিক প্রজাতন্ত্র','(669.95)','সাও তোমে ও প্রিন্সিপে। সাও তোমে ও প্রিন্সিপে গণতান্ত্রিক প্রজাতন্ত্র','','','',false,true);
+d.add(469,438,'(67)','<div class="nodetag">(67)</div></span>&nbsp;&nbsp;বিষুবরেখিয়, কেন্দ্রীয় এবং পূর্ব আফ্রিকিয় রাষ্ট্র ও এলাকা সমূহ','(67)','বিষুবরেখিয়, কেন্দ্রীয় এবং পূর্ব আফ্রিকিয় রাষ্ট্র ও এলাকা সমূহ','','','',false,true);
+d.add(470,469,'(671.1)','<div class="nodetag">(671.1)</div></span>&nbsp;&nbsp;ক্যামেরুন। ক্যামেরুন সংযুক্ত প্রজাতন্ত্র','(671.1)','ক্যামেরুন। ক্যামেরুন সংযুক্ত প্রজাতন্ত্র','','','',false,true);
+d.add(471,469,'(671.8)','<div class="nodetag">(671.8)</div></span>&nbsp;&nbsp;বিষুবরেখিয় গিনি। বিষুবরেখিয় গিনি প্রজাতন্ত্র','(671.8)','বিষুবরেখিয় গিনি। বিষুবরেখিয় গিনি প্রজাতন্ত্র','','','',false,true);
+d.add(472,469,'(672.1)','<div class="nodetag">(672.1)</div></span>&nbsp;&nbsp;গ্যাবন। গ্যাবন প্রজাতন্ত্র','(672.1)','গ্যাবন। গ্যাবন প্রজাতন্ত্র','','','',false,true);
+d.add(473,469,'(672.4)','<div class="nodetag">(672.4)</div></span>&nbsp;&nbsp;কঙ্গো। কঙ্গো প্রজাতন্ত্র','(672.4)','কঙ্গো। কঙ্গো প্রজাতন্ত্র','','','',false,true);
+d.add(474,469,'(673)','<div class="nodetag">(673)</div></span>&nbsp;&nbsp;অ্যাঙ্গোলা। অ্যাঙ্গোলা প্রজাতন্ত্র','(673)','অ্যাঙ্গোলা। অ্যাঙ্গোলা প্রজাতন্ত্র','','','',false,true);
+d.add(475,469,'(674.1)','<div class="nodetag">(674.1)</div></span>&nbsp;&nbsp;প্রজাতান্ত্রিক কেন্দ্রীয় আফ্রিকা','(674.1)','প্রজাতান্ত্রিক কেন্দ্রীয় আফ্রিকা','','','',false,true);
+d.add(476,469,'(674.3)','<div class="nodetag">(674.3)</div></span>&nbsp;&nbsp;চাদ। চাদ প্রজাতন্ত্র','(674.3)','চাদ। চাদ প্রজাতন্ত্র','','','',false,true);
+d.add(477,469,'(675)','<div class="nodetag">(675)</div></span>&nbsp;&nbsp;কঙ্গো গণতান্ত্রিক প্রজাতন্ত্র','(675)','কঙ্গো গণতান্ত্রিক প্রজাতন্ত্র','','','',false,true);
+d.add(478,477,'(675.97)','<div class="nodetag">(675.97)</div></span>&nbsp;&nbsp;বুরুন্ডি। বুরুন্ডি প্রজাতন্ত্র','(675.97)','বুরুন্ডি। বুরুন্ডি প্রজাতন্ত্র','','','',false,true);
+d.add(479,477,'(675.98)','<div class="nodetag">(675.98)</div></span>&nbsp;&nbsp;রোয়ান্ডা। রোয়ান্ডা প্রজাতন্ত্র','(675.98)','রোয়ান্ডা। রোয়ান্ডা প্রজাতন্ত্র','','','',false,true);
+d.add(480,469,'(676.1)','<div class="nodetag">(676.1)</div></span>&nbsp;&nbsp;উগান্ডা। উগান্ডা প্রজাতন্ত্র','(676.1)','উগান্ডা। উগান্ডা প্রজাতন্ত্র','','','',false,true);
+d.add(481,469,'(676.2)','<div class="nodetag">(676.2)</div></span>&nbsp;&nbsp;কেনিয়া। কেনিয়া প্রজাতন্ত্র','(676.2)','কেনিয়া। কেনিয়া প্রজাতন্ত্র','','','',false,true);
+d.add(482,469,'(677.8)','<div class="nodetag">(677.8)</div></span>&nbsp;&nbsp;সোমালিয়া। সোমালি পণতান্ত্রিক প্রজাতন্ত্র','(677.8)','সোমালিয়া। সোমালি পণতান্ত্রিক প্রজাতন্ত্র','','','',false,true);
+d.add(483,469,'(677.9)','<div class="nodetag">(677.9)</div></span>&nbsp;&nbsp;জিবুতি, জিবুতি প্রজাতন্ত্র। জামহুরিয়া জিবুতি','(677.9)','জিবুতি, জিবুতি প্রজাতন্ত্র। জামহুরিয়া জিবুতি','','','',false,true);
+d.add(484,469,'(678)','<div class="nodetag">(678)</div></span>&nbsp;&nbsp;তানজানিয়া। তানজানিয়া সংযুক্ত প্রজাতন্ত্র','(678)','তানজানিয়া। তানজানিয়া সংযুক্ত প্রজাতন্ত্র','','','',false,true);
+d.add(485,469,'(679)','<div class="nodetag">(679)</div></span>&nbsp;&nbsp;মোজাম্বিক। মোজাম্বিক প্রজাতন্ত্র','(679)','মোজাম্বিক। মোজাম্বিক প্রজাতন্ত্র','','','',false,true);
+d.add(486,438,'(68)','<div class="nodetag">(68)</div></span>&nbsp;&nbsp;দক্ষিণ আফ্রিকিয় রাষ্ট্র ও এলাকা সমূহ','(68)','দক্ষিণ আফ্রিকিয় রাষ্ট্র ও এলাকা সমূহ','','','',false,true);
+d.add(487,486,'(680)','<div class="nodetag">(680)</div></span>&nbsp;&nbsp;দক্ষিণ আফ্রিকা। দক্ষিণ আফ্রিকা প্রজাতন্ত্র','(680)','দক্ষিণ আফ্রিকা। দক্ষিণ আফ্রিকা প্রজাতন্ত্র','','','',false,true);
+d.add(488,486,'(688.1)','<div class="nodetag">(688.1)</div></span>&nbsp;&nbsp;নামিবিয়া। নামিবিয়া প্রজাতন্ত্র','(688.1)','নামিবিয়া। নামিবিয়া প্রজাতন্ত্র','','','',false,true);
+d.add(489,486,'(688.3)','<div class="nodetag">(688.3)</div></span>&nbsp;&nbsp;বোৎসোয়ানা। বোৎসোয়ানা প্রজাতন্ত্র','(688.3)','বোৎসোয়ানা। বোৎসোয়ানা প্রজাতন্ত্র','','','',false,true);
+d.add(490,486,'(688.5)','<div class="nodetag">(688.5)</div></span>&nbsp;&nbsp;লেসোথো। লেসোথো রাজ্য','(688.5)','লেসোথো। লেসোথো রাজ্য','','','',false,true);
+d.add(491,486,'(688.7)','<div class="nodetag">(688.7)</div></span>&nbsp;&nbsp;সোয়াজিল্যান্ড। সোয়াজিল্যান্ড রাজ্য','(688.7)','সোয়াজিল্যান্ড। সোয়াজিল্যান্ড রাজ্য','','','',false,true);
+d.add(492,486,'(689.1)','<div class="nodetag">(689.1)</div></span>&nbsp;&nbsp;জিম্বাওয়ে। জিম্বাওয়ে প্রজাতন্ত্র','(689.1)','জিম্বাওয়ে। জিম্বাওয়ে প্রজাতন্ত্র','','','',false,true);
+d.add(493,486,'(689.4)','<div class="nodetag">(689.4)</div></span>&nbsp;&nbsp;জাম্বিয়া। জাম্বিয়া প্রজাতন্ত্র','(689.4)','জাম্বিয়া। জাম্বিয়া প্রজাতন্ত্র','','','',false,true);
+d.add(494,486,'(689.7)','<div class="nodetag">(689.7)</div></span>&nbsp;&nbsp;মালাওয়ি। মালাওয়ি প্রজাতন্ত্র','(689.7)','মালাওয়ি। মালাওয়ি প্রজাতন্ত্র','','','',false,true);
+d.add(495,438,'(69)','<div class="nodetag">(69)</div></span>&nbsp;&nbsp;ভারত এবং দক্ষিণ অতলান্তিক মহাসাগরস্থ আফ্রিকান দ্বীপসমূহ','(69)','ভারত এবং দক্ষিণ অতলান্তিক মহাসাগরস্থ আফ্রিকান দ্বীপসমূহ','','','',false,true);
+d.add(496,495,'(691)','<div class="nodetag">(691)</div></span>&nbsp;&nbsp;মাদাগাস্কার। মাদাগাস্কার গণতান্ত্রিক প্রজাতন্ত্র','(691)','মাদাগাস্কার। মাদাগাস্কার গণতান্ত্রিক প্রজাতন্ত্র','','','',false,true);
+d.add(497,495,'(694)','<div class="nodetag">(694)</div></span>&nbsp;&nbsp;মাদাগাস্কারের উত্তরস্থ দ্বীপসমূহ','(694)','মাদাগাস্কারের উত্তরস্থ দ্বীপসমূহ','','','',false,true);
+d.add(498,495,'(696)','<div class="nodetag">(696)</div></span>&nbsp;&nbsp;সেশেলস। সেশেলস প্রজাতন্ত্র','(696)','সেশেলস। সেশেলস প্রজাতন্ত্র','','','',false,true);
+d.add(499,495,'(697)','<div class="nodetag">(697)</div></span>&nbsp;&nbsp;ভারত মহাসাগরীয় ব্রিটিশ এলাকা (ব্রিটিশ যুক্তরাজ্য)','(697)','ভারত মহাসাগরীয় ব্রিটিশ এলাকা (ব্রিটিশ যুক্তরাজ্য)','','','',false,true);
+d.add(500,495,'(698)','<div class="nodetag">(698)</div></span>&nbsp;&nbsp;মাস্কারেন দ্বীপপুঞ্জ','(698)','মাস্কারেন দ্বীপপুঞ্জ','','','',false,true);
+d.add(501,500,'(698.1)','<div class="nodetag">(698.1)</div></span>&nbsp;&nbsp;রিইউনিয়ন (ফ্রান্স)','(698.1)','রিইউনিয়ন (ফ্রান্স)','','','',false,true);
+d.add(502,500,'(698.2)','<div class="nodetag">(698.2)</div></span>&nbsp;&nbsp;মরিশাস। মরিশাস প্রজাতন্ত্র','(698.2)','মরিশাস। মরিশাস প্রজাতন্ত্র','','','',false,true);
+d.add(503,495,'(699)','<div class="nodetag">(699)</div></span>&nbsp;&nbsp;দক্ষিণ ভারত মহাসাগর এবং দক্ষিণ অতলান্তিক মহাসাগরস্থ প্রত্যন্ত দ্বীপসমূহ','(699)','দক্ষিণ ভারত মহাসাগর এবং দক্ষিণ অতলান্তিক মহাসাগরস্থ প্রত্যন্ত দ্বীপসমূহ','','','',false,true);
+d.add(504,326,'(7/8)','<div class="nodetag">(7/8)</div></span>&nbsp;&nbsp;আমেরিকা, উত্তর ও দক্ষিণ।','(7/8)','আমেরিকা, উত্তর ও দক্ষিণ।','','','',false,true);
+d.add(505,504,'(7)','<div class="nodetag">(7)</div></span>&nbsp;&nbsp;উত্তর এবং মধ্য আমেরিকা','(7)','উত্তর এবং মধ্য আমেরিকা','','','',false,true);
+d.add(506,505,'(71)','<div class="nodetag">(71)</div></span>&nbsp;&nbsp;কানাডা','(71)','কানাডা','','','',false,true);
+d.add(507,505,'(72)','<div class="nodetag">(72)</div></span>&nbsp;&nbsp;মেক্সিকো। মধ্য আমেরিকাস্থ রাষ্ট্রসমূহ','(72)','মেক্সিকো। মধ্য আমেরিকাস্থ রাষ্ট্রসমূহ','','','',false,true);
+d.add(508,507,'(721/727)','<div class="nodetag">(721/727)</div></span>&nbsp;&nbsp;মেক্সিকো। সংযুক্ত মেক্সিকান রাষ্ট্রসমূহ','(721/727)','মেক্সিকো। সংযুক্ত মেক্সিকান রাষ্ট্রসমূহ','','','',false,true);
+d.add(509,507,'(728)','<div class="nodetag">(728)</div></span>&nbsp;&nbsp;মধ্য আমেরিকাস্থ রাষ্ট্রসমূহ','(728)','মধ্য আমেরিকাস্থ রাষ্ট্রসমূহ','','','',false,true);
+d.add(510,509,'(728.1)','<div class="nodetag">(728.1)</div></span>&nbsp;&nbsp;গুয়াতেমালা। গুয়াতেমালা প্রজাতন্ত্র','(728.1)','গুয়াতেমালা। গুয়াতেমালা প্রজাতন্ত্র','','','',false,true);
+d.add(511,509,'(728.2)','<div class="nodetag">(728.2)</div></span>&nbsp;&nbsp;বেলিজ','(728.2)','বেলিজ','','','',false,true);
+d.add(512,509,'(728.3)','<div class="nodetag">(728.3)</div></span>&nbsp;&nbsp;হন্দুরাস। হন্দুরাস প্রজাতন্ত্র','(728.3)','হন্দুরাস। হন্দুরাস প্রজাতন্ত্র','','','',false,true);
+d.add(513,509,'(728.4)','<div class="nodetag">(728.4)</div></span>&nbsp;&nbsp;এল সালভাদর। এল সালভাদর প্রজাতন্ত্র','(728.4)','এল সালভাদর। এল সালভাদর প্রজাতন্ত্র','','','',false,true);
+d.add(514,509,'(728.5)','<div class="nodetag">(728.5)</div></span>&nbsp;&nbsp;নিকারাগুয়া। নিকারাগুয়া প্রজাতন্ত্র','(728.5)','নিকারাগুয়া। নিকারাগুয়া প্রজাতন্ত্র','','','',false,true);
+d.add(515,509,'(728.6)','<div class="nodetag">(728.6)</div></span>&nbsp;&nbsp;কোস্তারিকা। কোস্তারিকা প্রজাতন্ত্র','(728.6)','কোস্তারিকা। কোস্তারিকা প্রজাতন্ত্র','','','',false,true);
+d.add(516,509,'(728.7)','<div class="nodetag">(728.7)</div></span>&nbsp;&nbsp;পানামা। পানামা প্রজাতন্ত্র','(728.7)','পানামা। পানামা প্রজাতন্ত্র','','','',false,true);
+d.add(517,507,'(729)','<div class="nodetag">(729)</div></span>&nbsp;&nbsp;ক্যারিবিয় এলাকাসমূহ। ওয়েস্ট ইন্দিজ (অ্যান্টিলিজ)','(729)','ক্যারিবিয় এলাকাসমূহ। ওয়েস্ট ইন্দিজ (অ্যান্টিলিজ)','','','',false,true);
+d.add(518,517,'(729.1/.5)','<div class="nodetag">(729.1/.5)</div></span>&nbsp;&nbsp;বৃহত্তর অ্যান্টিলেস','(729.1/.5)','বৃহত্তর অ্যান্টিলেস','','','',false,true);
+d.add(519,518,'(729.1)','<div class="nodetag">(729.1)</div></span>&nbsp;&nbsp;কিউবা। কিউবা প্রজাতন্ত্র','(729.1)','কিউবা। কিউবা প্রজাতন্ত্র','','','',false,true);
+d.add(520,518,'(729.2)','<div class="nodetag">(729.2)</div></span>&nbsp;&nbsp;জামাইকা','(729.2)','জামাইকা','','','',false,true);
+d.add(521,518,'(729.29)','<div class="nodetag">(729.29)</div></span>&nbsp;&nbsp;কেইমান দ্বীপপুঞ্জ (ব্রি. যু.)','(729.29)','কেইমান দ্বীপপুঞ্জ (ব্রি. যু.)','','','',false,true);
+d.add(522,518,'(729.3/.4)','<div class="nodetag">(729.3/.4)</div></span>&nbsp;&nbsp;হিস্পানিওলা','(729.3/.4)','হিস্পানিওলা','','','',false,true);
+d.add(523,522,'(729.3)','<div class="nodetag">(729.3)</div></span>&nbsp;&nbsp;ডোমিনিকান প্রজাতন্ত্র','(729.3)','ডোমিনিকান প্রজাতন্ত্র','','','',false,true);
+d.add(524,522,'(729.4)','<div class="nodetag">(729.4)</div></span>&nbsp;&nbsp;হাইতি। হাইতি প্রজাতন্ত্র','(729.4)','হাইতি। হাইতি প্রজাতন্ত্র','','','',false,true);
+d.add(525,518,'(729.5)','<div class="nodetag">(729.5)</div></span>&nbsp;&nbsp;পুয়ের্তো রিকো। পুয়ের্তো রিকোর কমনওয়েলথ (মা. যু.)','(729.5)','পুয়ের্তো রিকো। পুয়ের্তো রিকোর কমনওয়েলথ (মা. যু.)','','','',false,true);
+d.add(526,517,'(729.68)','<div class="nodetag">(729.68)</div></span>&nbsp;&nbsp;তুর্কস এবং কাইকোস দ্বীপপুঞ্জ (ব্রি. যু.)','(729.68)','তুর্কস এবং কাইকোস দ্বীপপুঞ্জ (ব্রি. যু.)','','','',false,true);
+d.add(527,517,'(729.7/.8)','<div class="nodetag">(729.7/.8)</div></span>&nbsp;&nbsp;ছোট অ্যান্টিলেস (পূর্ব ক্যারিবিয়ান)','(729.7/.8)','ছোট অ্যান্টিলেস (পূর্ব ক্যারিবিয়ান)','','','',false,true);
+d.add(528,527,'(729.7)','<div class="nodetag">(729.7)</div></span>&nbsp;&nbsp;লিওয়ার্ড দ্বীপপুঞ্জ','(729.7)','লিওয়ার্ড দ্বীপপুঞ্জ','','','',false,true);
+d.add(529,528,'(729.71)','<div class="nodetag">(729.71)</div></span>&nbsp;&nbsp;মার্কিন যুক্তরাষ্ট্রিয় ভার্জিন দ্বীপপুঞ্জ (আমেরিকান ভার্জিন দ্বীপপুঞ্জ) (মা. যু.)','(729.71)','মার্কিন যুক্তরাষ্ট্রিয় ভার্জিন দ্বীপপুঞ্জ (আমেরিকান ভার্জিন দ্বীপপুঞ্জ) (মা. যু.)','','','',false,true);
+d.add(530,528,'(729.724)','<div class="nodetag">(729.724)</div></span>&nbsp;&nbsp;সেণ্ট কিটস-নেভিস। সেণ্ট কিটস-নেভিসের সংঘ','(729.724)','সেণ্ট কিটস-নেভিস। সেণ্ট কিটস-নেভিসের সংঘ','','','',false,true);
+d.add(531,528,'(729.726)','<div class="nodetag">(729.726)</div></span>&nbsp;&nbsp;অ্যান্টিগা এবং বার্বুডা','(729.726)','অ্যান্টিগা এবং বার্বুডা','','','',false,true);
+d.add(532,528,'(729.727)','<div class="nodetag">(729.727)</div></span>&nbsp;&nbsp;মন্তসেরাত (ব্রি.যু.)','(729.727)','মন্তসেরাত (ব্রি.যু.)','','','',false,true);
+d.add(533,528,'(729.74)','<div class="nodetag">(729.74)</div></span>&nbsp;&nbsp;ক্ষুদ্রতর অ্যান্টিলেসে ফরাসী অধিকার-ক্ষেত্র','(729.74)','ক্ষুদ্রতর অ্যান্টিলেসে ফরাসী অধিকার-ক্ষেত্র','','','',false,true);
+d.add(534,533,'(729.741)','<div class="nodetag">(729.741)</div></span>&nbsp;&nbsp;গুয়াদেলোপ (অঞ্চল এবং বিভাগ)','(729.741)','গুয়াদেলোপ (অঞ্চল এবং বিভাগ)','','','',false,true);
+d.add(535,533,'(729.745)','<div class="nodetag">(729.745)</div></span>&nbsp;&nbsp;মার্টিনিক (অঞ্চল এবং বিভাগ) (ফ্রান্স)','(729.745)','মার্টিনিক (অঞ্চল এবং বিভাগ) (ফ্রান্স)','','','',false,true);
+d.add(536,527,'(729.8)','<div class="nodetag">(729.8)</div></span>&nbsp;&nbsp;উইন্ডওয়ার্ড দ্বীপপুঞ্জ','(729.8)','উইন্ডওয়ার্ড দ্বীপপুঞ্জ','','','',false,true);
+d.add(537,536,'(729.821)','<div class="nodetag">(729.821)</div></span>&nbsp;&nbsp;ডমিনিকা। ডমিনিকার রাষ্ট্রমণ্ডল','(729.821)','ডমিনিকা। ডমিনিকার রাষ্ট্রমণ্ডল','','','',false,true);
+d.add(538,536,'(729.822)','<div class="nodetag">(729.822)</div></span>&nbsp;&nbsp;সেণ্ট লুসিয়া। সেণ্ট লুসিয়া রাষ্ট্র','(729.822)','সেণ্ট লুসিয়া। সেণ্ট লুসিয়া রাষ্ট্র','','','',false,true);
+d.add(539,536,'(729.824)','<div class="nodetag">(729.824)</div></span>&nbsp;&nbsp;সেণ্ট ভিনসেণ্ট। সেণ্ট ভিনসেণ্ট এবং গ্রেনাডিনস','(729.824)','সেণ্ট ভিনসেণ্ট। সেণ্ট ভিনসেণ্ট এবং গ্রেনাডিনস','','','',false,true);
+d.add(540,536,'(729.828)','<div class="nodetag">(729.828)</div></span>&nbsp;&nbsp;গ্রেনাডা','(729.828)','গ্রেনাডা','','','',false,true);
+d.add(541,536,'(729.86)','<div class="nodetag">(729.86)</div></span>&nbsp;&nbsp;বার্বাডোজ','(729.86)','বার্বাডোজ','','','',false,true);
+d.add(542,536,'(729.87)','<div class="nodetag">(729.87)</div></span>&nbsp;&nbsp;ত্রিনিদাদ ও টোবাগো। ত্রিনিদাদ ও টোবাগো প্রজাতন্ত্র','(729.87)','ত্রিনিদাদ ও টোবাগো। ত্রিনিদাদ ও টোবাগো প্রজাতন্ত্র','','','',false,true);
+d.add(543,536,'(729.88)','<div class="nodetag">(729.88)</div></span>&nbsp;&nbsp;ক্ষুদ্রতর অ্যান্টিলেসে নেদারল্যান্ডসের অধিকার-ক্ষেত্র (ক্যারিবিস)। নেদারল্যান্ডিসে অ্যান্টিলেন। অ্যান্টিয়া হুলান্ডেস','(729.88)','ক্ষুদ্রতর অ্যান্টিলেসে নেদারল্যান্ডসের অধিকার-ক্ষেত্র (ক্যারিবিস)। নেদারল্যান্ডিসে অ্যান্টিলেন। অ্যান্টিয়া হুলান্ডেস','','','',false,true);
+d.add(544,543,'(729.885)','<div class="nodetag">(729.885)</div></span>&nbsp;&nbsp;আরুবা (ডেনমার্ক রাজ্য)','(729.885)','আরুবা (ডেনমার্ক রাজ্য)','','','',false,true);
+d.add(545,517,'(729.9)','<div class="nodetag">(729.9)</div></span>&nbsp;&nbsp;বার্মুডা (সোমার্স দ্বীপপুঞ্জ) (যুক্তরাজ্য)','(729.9)','বার্মুডা (সোমার্স দ্বীপপুঞ্জ) (যুক্তরাজ্য)','','','',false,true);
+d.add(546,505,'(73)','<div class="nodetag">(73)</div></span>&nbsp;&nbsp;সংযুক্ত মার্কিন যুক্তরাষ্ট্র (USA)','(73)','সংযুক্ত মার্কিন যুক্তরাষ্ট্র (USA)','','','',false,true);
+d.add(547,504,'(8)','<div class="nodetag">(8)</div></span>&nbsp;&nbsp;দক্ষিণ আমেরিকা। দক্ষিণ আমেরিকাস্থ রাষ্ট্র ও অঞ্চল সমূহ। লাতিন আমেরিকা','(8)','দক্ষিণ আমেরিকা। দক্ষিণ আমেরিকাস্থ রাষ্ট্র ও অঞ্চল সমূহ। লাতিন আমেরিকা','','','',false,true);
+d.add(548,547,'(81)','<div class="nodetag">(81)</div></span>&nbsp;&nbsp;ব্রাজিল। ব্রাজিল যুক্তরাষ্ট্রীয় প্রজাতন্ত্র','(81)','ব্রাজিল। ব্রাজিল যুক্তরাষ্ট্রীয় প্রজাতন্ত্র','','','',false,true);
+d.add(549,547,'(82)','<div class="nodetag">(82)</div></span>&nbsp;&nbsp;আর্জেন্তিনা। আর্জেন্তিনিয় প্রজাতন্ত্র','(82)','আর্জেন্তিনা। আর্জেন্তিনিয় প্রজাতন্ত্র','','','',false,true);
+d.add(550,547,'(83)','<div class="nodetag">(83)</div></span>&nbsp;&nbsp;চিলি। চিলি প্রজাতন্ত্র','(83)','চিলি। চিলি প্রজাতন্ত্র','','','',false,true);
+d.add(551,547,'(84)','<div class="nodetag">(84)</div></span>&nbsp;&nbsp;বলিভিয়া। বলিভিয়া বহুজাতিক রাষ্ট্র','(84)','বলিভিয়া। বলিভিয়া বহুজাতিক রাষ্ট্র','','','',false,true);
+d.add(552,547,'(85)','<div class="nodetag">(85)</div></span>&nbsp;&nbsp;পেরু। পেরু প্রজাতন্ত্র','(85)','পেরু। পেরু প্রজাতন্ত্র','','','',false,true);
+d.add(553,547,'(862)','<div class="nodetag">(862)</div></span>&nbsp;&nbsp;কলম্বিয়া। কলম্বিয়া প্রজাতন্ত্র','(862)','কলম্বিয়া। কলম্বিয়া প্রজাতন্ত্র','','','',false,true);
+d.add(554,547,'(866)','<div class="nodetag">(866)</div></span>&nbsp;&nbsp;ইকুয়েদর। ইকুয়েদর প্রজাতন্ত্র','(866)','ইকুয়েদর। ইকুয়েদর প্রজাতন্ত্র','','','',false,true);
+d.add(555,547,'(87)','<div class="nodetag">(87)</div></span>&nbsp;&nbsp;ভেনেজুয়েলা। ভেনেজুয়ালা বলিভিয় প্রজাতন্ত্র','(87)','ভেনেজুয়েলা। ভেনেজুয়ালা বলিভিয় প্রজাতন্ত্র','','','',false,true);
+d.add(556,547,'(88)','<div class="nodetag">(88)</div></span>&nbsp;&nbsp;গায়ানাসমূহ','(88)','গায়ানাসমূহ','','','',false,true);
+d.add(557,556,'(881)','<div class="nodetag">(881)</div></span>&nbsp;&nbsp;গায়ানা। গায়ানা সমবায়িক প্রজাতন্ত্র','(881)','গায়ানা। গায়ানা সমবায়িক প্রজাতন্ত্র','','','',false,true);
+d.add(558,556,'(882)','<div class="nodetag">(882)</div></span>&nbsp;&nbsp;ফরাসি গায়ানা। গায়ানা বিভাগ','(882)','ফরাসি গায়ানা। গায়ানা বিভাগ','','','',false,true);
+d.add(559,556,'(883)','<div class="nodetag">(883)</div></span>&nbsp;&nbsp;সুরিনাম। সুরিনাম প্রজাতন্ত্র','(883)','সুরিনাম। সুরিনাম প্রজাতন্ত্র','','','',false,true);
+d.add(560,547,'(893)','<div class="nodetag">(893)</div></span>&nbsp;&nbsp;প্যারাগুয়ে। প্যারাগুয়ে প্রজাতন্ত্র','(893)','প্যারাগুয়ে। প্যারাগুয়ে প্রজাতন্ত্র','','','',false,true);
+d.add(561,547,'(899)','<div class="nodetag">(899)</div></span>&nbsp;&nbsp;উরুগুয়ে। উরুগুয়ে পূর্বস্থ প্রজাতন্ত্র','(899)','উরুগুয়ে। উরুগুয়ে পূর্বস্থ প্রজাতন্ত্র','','','',false,true);
+d.add(562,326,'(9)','<div class="nodetag">(9)</div></span>&nbsp;&nbsp;দক্ষিণ প্রশান্ত মহাসগরীয় এবং অস্ট্রেলিয় রাষ্ট্র ও অঞ্চল সমূহ। আর্কটিক। আন্টার্কটিক','(9)','দক্ষিণ প্রশান্ত মহাসগরীয় এবং অস্ট্রেলিয় রাষ্ট্র ও অঞ্চল সমূহ। আর্কটিক। আন্টার্কটিক','','','',false,true);
+d.add(563,562,'(931)','<div class="nodetag">(931)</div></span>&nbsp;&nbsp;নিউজিল্যান্ড','(931)','নিউজিল্যান্ড','','','',false,true);
+d.add(564,562,'(932/935)','<div class="nodetag">(932/935)</div></span>&nbsp;&nbsp;মেলানেশিয়া। মেলানেশিয় রাষ্ট্র এবং অঞ্চল সমূহ','(932/935)','মেলানেশিয়া। মেলানেশিয় রাষ্ট্র এবং অঞ্চল সমূহ','','','',false,true);
+d.add(565,562,'(94)','<div class="nodetag">(94)</div></span>&nbsp;&nbsp;অস্ট্রেলিয়া। অস্ট্রেলিয় রাষ্ট্রমন্ডল','(94)','অস্ট্রেলিয়া। অস্ট্রেলিয় রাষ্ট্রমন্ডল','','','',false,true);
+d.add(566,562,'(954)','<div class="nodetag">(954)</div></span>&nbsp;&nbsp;পাপুয়া নিউ গিনি। পাপুয়া নিউ গিনি স্বাধীন রাষ্ট্র','(954)','পাপুয়া নিউ গিনি। পাপুয়া নিউ গিনি স্বাধীন রাষ্ট্র','','','',false,true);
+d.add(567,562,'(961/964)','<div class="nodetag">(961/964)</div></span>&nbsp;&nbsp;পলিনেশিয়া। পলিনেশিয় রাষ্ট্র এবং অঞ্চলসমূহ','(961/964)','পলিনেশিয়া। পলিনেশিয় রাষ্ট্র এবং অঞ্চলসমূহ','','','',false,true);
+d.add(568,562,'(966/968)','<div class="nodetag">(966/968)</div></span>&nbsp;&nbsp;মাইক্রোনেশিয়া। মাইক্রোনেশিয় রাষ্ট্র এবং অঞ্চলসমূহ','(966/968)','মাইক্রোনেশিয়া। মাইক্রোনেশিয় রাষ্ট্র এবং অঞ্চলসমূহ','','','',false,true);
+d.add(569,562,'(97)','<div class="nodetag">(97)</div></span>&nbsp;&nbsp;প্রশান্ত মহাসাগরীয় বিচ্ছিন্ন দ্বীপসমূহ','(97)','প্রশান্ত মহাসাগরীয় বিচ্ছিন্ন দ্বীপসমূহ','','','',false,true);
+d.add(570,562,'(98)','<div class="nodetag">(98)</div></span>&nbsp;&nbsp;আর্কটিক (উত্তর মেরুস্থ) এলাকাসমূহ','(98)','আর্কটিক (উত্তর মেরুস্থ) এলাকাসমূহ','','','',false,true);
+d.add(571,570,'(988)','<div class="nodetag">(988)</div></span>&nbsp;&nbsp;গ্রিণল্যান্ড (ড্বেনমার্ক)','(988)','গ্রিণল্যান্ড (ড্বেনমার্ক)','','','',false,true);
+d.add(572,562,'(99)','<div class="nodetag">(99)</div></span>&nbsp;&nbsp;আন্টার্কটিক এলাকাসমূহ। দক্ষিণ মেরুস্থ অঞ্চলসমূহ','(99)','আন্টার্কটিক এলাকাসমূহ। দক্ষিণ মেরুস্থ অঞ্চলসমূহ','','','',false,true);
+d.add(573,0,'(=...)','<div class="nodetag">(=...)</div></span>&nbsp;&nbsp;মানব প্রজাতি, জাতিগত বিভাজন এবং জাতীয়তার অভিন্ন সহায়িকাসমূহ। সারণি 1f','(=...)','মানব প্রজাতি, জাতিগত বিভাজন এবং জাতীয়তার অভিন্ন সহায়িকাসমূহ। সারণি 1f','','','',false,true);
+d.add(574,573,'(=01)','<div class="nodetag">(=01)</div></span>&nbsp;&nbsp;মানব প্রজাতির গোষ্ঠীসমূহ','(=01)','মানব প্রজাতির গোষ্ঠীসমূহ','','','',false,true);
+d.add(575,574,'(=011)','<div class="nodetag">(=011)</div></span>&nbsp;&nbsp;ইউরোপস্থ মহাদেশীয় প্রজাতি গোষ্ঠী','(=011)','ইউরোপস্থ মহাদেশীয় প্রজাতি গোষ্ঠী','','','',false,true);
+d.add(576,574,'(=012)','<div class="nodetag">(=012)</div></span>&nbsp;&nbsp;এশিয়াস্থ মহাদেশীয় প্রজাতি গোষ্ঠী','(=012)','এশিয়াস্থ মহাদেশীয় প্রজাতি গোষ্ঠী','','','',false,true);
+d.add(577,574,'(=013)','<div class="nodetag">(=013)</div></span>&nbsp;&nbsp;আফ্রিকাস্থ মহাদেশীয় প্রজাতি গোষ্ঠী','(=013)','আফ্রিকাস্থ মহাদেশীয় প্রজাতি গোষ্ঠী','','','',false,true);
+d.add(578,574,'(=014)','<div class="nodetag">(=014)</div></span>&nbsp;&nbsp;মহাসাগরীয় প্রজাতি গোষ্ঠী','(=014)','মহাসাগরীয় প্রজাতি গোষ্ঠী','','','',false,true);
+d.add(579,574,'(=017)','<div class="nodetag">(=017)</div></span>&nbsp;&nbsp;আমেরিকাস্থ দেশজ মহাদেশীয় প্রজাতি গোষ্ঠী','(=017)','আমেরিকাস্থ দেশজ মহাদেশীয় প্রজাতি গোষ্ঠী','','','',false,true);
+d.add(580,573,'(=1/=8)','<div class="nodetag">(=1/=8)</div></span>&nbsp;&nbsp;ভাষাভিত্তিক-সাংস্কৃতিক গোষ্ঠীসমূহ, জাতিগত গোষ্ঠীসমূহ, জনসমূহ','(=1/=8)','ভাষাভিত্তিক-সাংস্কৃতিক গোষ্ঠীসমূহ, জাতিগত গোষ্ঠীসমূহ, জনসমূহ','','','',false,true);
+d.add(581,580,'(=1/=2)','<div class="nodetag">(=1/=2)</div></span>&nbsp;&nbsp;ইন্দো-ইউরোপীয় জনসমূহ','(=1/=2)','ইন্দো-ইউরোপীয় জনসমূহ','','','',false,true);
+d.add(582,581,'(=13)','<div class="nodetag">(=13)</div></span>&nbsp;&nbsp;রোমানি, \'লাতিন\' জনসমূহ','(=13)','রোমানি, \'লাতিন\' জনসমূহ','','','',false,true);
+d.add(583,573,'(=1:1/9)','<div class="nodetag">(=1:1/9)</div></span>&nbsp;&nbsp;নির্দিষ্ট স্থানের সহিত সম্পর্কিত ব্যক্তিবর্গ','(=1:1/9)','নির্দিষ্ট স্থানের সহিত সম্পর্কিত ব্যক্তিবর্গ','','','',false,true);
+d.add(584,0,'"..."','<div class="nodetag">"..."</div></span>&nbsp;&nbsp;সময়ের অভিন্ন সহায়িকাসমূহ। সারণি 1g','"..."','সময়ের অভিন্ন সহায়িকাসমূহ। সারণি 1g','','','',false,true);
+d.add(585,584,'"0/2"','<div class="nodetag">"0/2"</div></span>&nbsp;&nbsp;প্রচলিত খ্রিস্টীয় (গ্রেগরিয়) গণনানুযায়ী তারিখ এবং সময়কাল (CE or AD)','"0/2"','প্রচলিত খ্রিস্টীয় (গ্রেগরিয়) গণনানুযায়ী তারিখ এবং সময়কাল (CE or AD)','','','',false,true);
+d.add(586,585,'"0"','<div class="nodetag">"0"</div></span>&nbsp;&nbsp;প্রথম সহস্রাব্দ CE','"0"','প্রথম সহস্রাব্দ CE','','','',false,true);
+d.add(587,585,'"1"','<div class="nodetag">"1"</div></span>&nbsp;&nbsp;দ্বিতীয় সহস্রাব্দ CE','"1"','দ্বিতীয় সহস্রাব্দ CE','','','',false,true);
+d.add(588,585,'"2"','<div class="nodetag">"2"</div></span>&nbsp;&nbsp;তৃতীয় সহস্রাব্দ CE','"2"','তৃতীয় সহস্রাব্দ CE','','','',false,true);
+d.add(589,584,'"3/7"','<div class="nodetag">"3/7"</div></span>&nbsp;&nbsp;খ্রিস্টীয় (গ্রেগরিয়) গণনানুযায়ী তারিখ বহির্ভূত সময় বিভাগ','"3/7"','খ্রিস্টীয় (গ্রেগরিয়) গণনানুযায়ী তারিখ বহির্ভূত সময় বিভাগ','','','',false,true);
+d.add(590,589,'"3"','<div class="nodetag">"3"</div></span>&nbsp;&nbsp;প্রচলিত সময় বিভাগ ও উপবিভাগ সমূহ : সংখ্যায়িত, নামাঙ্কিত, ইত্যাদি','"3"','প্রচলিত সময় বিভাগ ও উপবিভাগ সমূহ : সংখ্যায়িত, নামাঙ্কিত, ইত্যাদি','','','',false,true);
+d.add(591,590,'"32"','<div class="nodetag">"32"</div></span>&nbsp;&nbsp;বর্ষ। বর্ষের ঋতু ও অন্যান্য বিভাগসমূহ','"32"','বর্ষ। বর্ষের ঋতু ও অন্যান্য বিভাগসমূহ','','','',false,true);
+d.add(592,591,'"321/324"','<div class="nodetag">"321/324"</div></span>&nbsp;&nbsp;ঋতুসমুহ','"321/324"','ঋতুসমুহ','','','',false,true);
+d.add(593,592,'"321"','<div class="nodetag">"321"</div></span>&nbsp;&nbsp;বসন্ত','"321"','বসন্ত','','','',false,true);
+d.add(594,592,'"322"','<div class="nodetag">"322"</div></span>&nbsp;&nbsp;গ্রীষ্ম','"322"','গ্রীষ্ম','','','',false,true);
+d.add(595,592,'"323"','<div class="nodetag">"323"</div></span>&nbsp;&nbsp;শরৎ','"323"','শরৎ','','','',false,true);
+d.add(596,592,'"324"','<div class="nodetag">"324"</div></span>&nbsp;&nbsp;শীত','"324"','শীত','','','',false,true);
+d.add(597,591,'"325"','<div class="nodetag">"325"</div></span>&nbsp;&nbsp;সিকি (সিকি বৎসর, তিনমাস কাল)','"325"','সিকি (সিকি বৎসর, তিনমাস কাল)','','','',false,true);
+d.add(598,591,'"327"','<div class="nodetag">"327"</div></span>&nbsp;&nbsp;মাস','"327"','মাস','','','',false,true);
+d.add(599,591,'"328"','<div class="nodetag">"328"</div></span>&nbsp;&nbsp;সপ্তাহ','"328"','সপ্তাহ','','','',false,true);
+d.add(600,591,'"329"','<div class="nodetag">"329"</div></span>&nbsp;&nbsp;দিন','"329"','দিন','','','',false,true);
+d.add(601,590,'"34"','<div class="nodetag">"34"</div></span>&nbsp;&nbsp;দিন এবং রাত্রির ধারণা। দিনের ঘটিকা বা সময়','"34"','দিন এবং রাত্রির ধারণা। দিনের ঘটিকা বা সময়','','','',false,true);
+d.add(602,601,'"344"','<div class="nodetag">"344"</div></span>&nbsp;&nbsp;দিবাকাল। দিবসালোক','"344"','দিবাকাল। দিবসালোক','','','',false,true);
+d.add(603,601,'"345"','<div class="nodetag">"345"</div></span>&nbsp;&nbsp;নিশাকাল। অন্ধকার বা আধোঅন্ধকার','"345"','নিশাকাল। অন্ধকার বা আধোঅন্ধকার','','','',false,true);
+d.add(604,590,'"36"','<div class="nodetag">"36"</div></span>&nbsp;&nbsp;শান্তি, যুদ্ধ, বিপদ, আপৎকাল, দুর্বিপাকের সময়','"36"','শান্তি, যুদ্ধ, বিপদ, আপৎকাল, দুর্বিপাকের সময়','','','',false,true);
+d.add(605,604,'"362"','<div class="nodetag">"362"</div></span>&nbsp;&nbsp;শান্তির সময়। বিপদবিহীন সময়','"362"','শান্তির সময়। বিপদবিহীন সময়','','','',false,true);
+d.add(606,604,'"363"','<div class="nodetag">"363"</div></span>&nbsp;&nbsp;বিপদ, ভয়ের সময়','"363"','বিপদ, ভয়ের সময়','','','',false,true);
+d.add(607,604,'"364"','<div class="nodetag">"364"</div></span>&nbsp;&nbsp;যুদ্ধকাল','"364"','যুদ্ধকাল','','','',false,true);
+d.add(608,604,'"367"','<div class="nodetag">"367"</div></span>&nbsp;&nbsp;ব্যবহার, ভার, চাহিদার পরিমাণ অনুযায়ী সময়','"367"','ব্যবহার, ভার, চাহিদার পরিমাণ অনুযায়ী সময়','','','',false,true);
+d.add(609,590,'"37"','<div class="nodetag">"37"</div></span>&nbsp;&nbsp;কর্মকাণ্ড, জীবিকা, উৎপাদন, প্রাত্যহিক নিয়ম অনুযায়ী সময়','"37"','কর্মকাণ্ড, জীবিকা, উৎপাদন, প্রাত্যহিক নিয়ম অনুযায়ী সময়','','','',false,true);
+d.add(610,609,'"372"','<div class="nodetag">"372"</div></span>&nbsp;&nbsp;কাজের সময়। পরিসেবার সময়। ব্যস্ততার সময়','"372"','কাজের সময়। পরিসেবার সময়। ব্যস্ততার সময়','','','',false,true);
+d.add(611,609,'"377"','<div class="nodetag">"377"</div></span>&nbsp;&nbsp;বিশ্রাম এবং বিনোদনের সময়। অতিরিক্ত সময়। মুক্ত সময়। কর্ম বহির্ভুত সময়','"377"','বিশ্রাম এবং বিনোদনের সময়। অতিরিক্ত সময়। মুক্ত সময়। কর্ম বহির্ভুত সময়','','','',false,true);
+d.add(612,590,'"38"','<div class="nodetag">"38"</div></span>&nbsp;&nbsp;ছুটির দিন। উৎসব এবং স্মারক উপলক্ষসমূহ','"38"','ছুটির দিন। উৎসব এবং স্মারক উপলক্ষসমূহ','','','',false,true);
+d.add(613,612,'"382"','<div class="nodetag">"382"</div></span>&nbsp;&nbsp;ধর্মীয় ছুটির দিন, উৎসব এবং স্মরণীয় উপলক্ষসমূহ','"382"','ধর্মীয় ছুটির দিন, উৎসব এবং স্মরণীয় উপলক্ষসমূহ','','','',false,true);
+d.add(614,612,'"383"','<div class="nodetag">"383"</div></span>&nbsp;&nbsp;সরকারি, জাতীয় বা আঞ্চলিক ছুটির দিন (ধর্মীয় ব্যতীত)','"383"','সরকারি, জাতীয় বা আঞ্চলিক ছুটির দিন (ধর্মীয় ব্যতীত)','','','',false,true);
+d.add(615,612,'"385"','<div class="nodetag">"385"</div></span>&nbsp;&nbsp;ব্যক্তিগত ছুটির দিন, অবকাশ বা ছুটির সময়','"385"','ব্যক্তিগত ছুটির দিন, অবকাশ বা ছুটির সময়','','','',false,true);
+d.add(616,589,'"4"','<div class="nodetag">"4"</div></span>&nbsp;&nbsp;ব্যাপ্তি। সময়ের বিস্তার। পর্যায়কাল। মেয়াদ। যুগ ও যুগশ্রেণি সমূহ','"4"','ব্যাপ্তি। সময়ের বিস্তার। পর্যায়কাল। মেয়াদ। যুগ ও যুগশ্রেণি সমূহ','','','',false,true);
+d.add(617,616,'"40"','<div class="nodetag">"40"</div></span>&nbsp;&nbsp;আপেক্ষিক ব্যাপ্তি, কাল, মেয়াদ','"40"','আপেক্ষিক ব্যাপ্তি, কাল, মেয়াদ','','','',false,true);
+d.add(618,617,'"401"','<div class="nodetag">"401"</div></span>&nbsp;&nbsp;নির্দিষ্ট মেয়াদ বা সময়সীমাসহ জীবন বা জীবনকাল। স্থায়িত্বকাল','"401"','নির্দিষ্ট মেয়াদ বা সময়সীমাসহ জীবন বা জীবনকাল। স্থায়িত্বকাল','','','',false,true);
+d.add(619,617,'"403"','<div class="nodetag">"403"</div></span>&nbsp;&nbsp;নাতিদীর্ঘ কাল। স্বল্পকাল','"403"','নাতিদীর্ঘ কাল। স্বল্পকাল','','','',false,true);
+d.add(620,617,'"404"','<div class="nodetag">"404"</div></span>&nbsp;&nbsp;মাঝারি মেয়াদ। মাঝারিকাল','"404"','মাঝারি মেয়াদ। মাঝারিকাল','','','',false,true);
+d.add(621,617,'"405"','<div class="nodetag">"405"</div></span>&nbsp;&nbsp;দীর্ঘ মেয়াদ। দীর্ঘমেয়াদি','"405"','দীর্ঘ মেয়াদ। দীর্ঘমেয়াদি','','','',false,true);
+d.add(622,617,'"408"','<div class="nodetag">"408"</div></span>&nbsp;&nbsp;অনির্দিষ্ট, অসীমিত মেয়াদ। নির্দিষ্টকাল বা সময়সীমা ব্যতীত','"408"','অনির্দিষ্ট, অসীমিত মেয়াদ। নির্দিষ্টকাল বা সময়সীমা ব্যতীত','','','',false,true);
+d.add(623,616,'"41"','<div class="nodetag">"41"</div></span>&nbsp;&nbsp;এক দিন মেয়াদি','"41"','এক দিন মেয়াদি','','','',false,true);
+d.add(624,616,'"42"','<div class="nodetag">"42"</div></span>&nbsp;&nbsp;দিনের মাধ্যমে ব্যক্ত মেয়াদ','"42"','দিনের মাধ্যমে ব্যক্ত মেয়াদ','','','',false,true);
+d.add(625,616,'"43"','<div class="nodetag">"43"</div></span>&nbsp;&nbsp;সপ্তাহের মাধ্যমে ব্যক্ত মেয়াদ','"43"','সপ্তাহের মাধ্যমে ব্যক্ত মেয়াদ','','','',false,true);
+d.add(626,616,'"44"','<div class="nodetag">"44"</div></span>&nbsp;&nbsp;মাসের মাধ্যমে ব্যক্ত মেয়াদ','"44"','মাসের মাধ্যমে ব্যক্ত মেয়াদ','','','',false,true);
+d.add(627,616,'"45"','<div class="nodetag">"45"</div></span>&nbsp;&nbsp;বছর, শতাব্দী, সহস্রাব্দ, ইত্যাদির মাধ্যমে ব্যক্ত মেয়াদ','"45"','বছর, শতাব্দী, সহস্রাব্দ, ইত্যাদির মাধ্যমে ব্যক্ত মেয়াদ','','','',false,true);
+d.add(628,616,'"46"','<div class="nodetag">"46"</div></span>&nbsp;&nbsp;ব্যক্তি, জীবন্ত এবং প্রাণহীন বস্তুর বয়স ও বয়সের শ্রেণি','"46"','ব্যক্তি, জীবন্ত এবং প্রাণহীন বস্তুর বয়স ও বয়সের শ্রেণি','','','',false,true);
+d.add(629,628,'"462"','<div class="nodetag">"462"</div></span>&nbsp;&nbsp;দিন হিসাবে বয়স','"462"','দিন হিসাবে বয়স','','','',false,true);
+d.add(630,628,'"463"','<div class="nodetag">"463"</div></span>&nbsp;&nbsp;সপ্তাহ হিসাবে বয়স','"463"','সপ্তাহ হিসাবে বয়স','','','',false,true);
+d.add(631,628,'"464"','<div class="nodetag">"464"</div></span>&nbsp;&nbsp;মাস হিসবে বয়স','"464"','মাস হিসবে বয়স','','','',false,true);
+d.add(632,628,'"465"','<div class="nodetag">"465"</div></span>&nbsp;&nbsp;বৎসর এবং দশকে ব্যক্ত বয়স','"465"','বৎসর এবং দশকে ব্যক্ত বয়স','','','',false,true);
+d.add(633,589,'"5"','<div class="nodetag">"5"</div></span>&nbsp;&nbsp;কাল-ব্যবধান। পৌনঃপুনিকতা। নির্দিষ্ট ব্যবধানে পুনরাবৃত্তি','"5"','কাল-ব্যবধান। পৌনঃপুনিকতা। নির্দিষ্ট ব্যবধানে পুনরাবৃত্তি','','','',false,true);
+d.add(634,633,'"51"','<div class="nodetag">"51"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Recurring at intervals of less than a day. More frequent than daily</span>','"51"','Recurring at intervals of less than a day. More frequent than daily','','','',false,true);
+d.add(635,633,'"52"','<div class="nodetag">"52"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Recurring at intervals of 1 day or more (expressed in days)</span>','"52"','Recurring at intervals of 1 day or more (expressed in days)','','','',false,true);
+d.add(636,633,'"53"','<div class="nodetag">"53"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Recurring at intervals of 1 week or more (expressed in weeks)</span>','"53"','Recurring at intervals of 1 week or more (expressed in weeks)','','','',false,true);
+d.add(637,633,'"54"','<div class="nodetag">"54"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Recurring at intervals of 1 month or more (expressed in months)</span>','"54"','Recurring at intervals of 1 month or more (expressed in months)','','','',false,true);
+d.add(638,633,'"55"','<div class="nodetag">"55"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Recurring at intervals of 1 year or more (expressed in years, centuries, millenniums)</span>','"55"','Recurring at intervals of 1 year or more (expressed in years, centuries, millenniums)','','','',false,true);
+d.add(639,633,'"56"','<div class="nodetag">"56"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Recurring every generation, lifetime, etc. Life-cycle</span>','"56"','Recurring every generation, lifetime, etc. Life-cycle','','','',false,true);
+d.add(640,589,'"6"','<div class="nodetag">"6"</div></span>&nbsp;&nbsp;ভূতাত্ত্বিক, প্রত্নতাত্ত্বিক এবং সাংস্কৃতিক সময় বিভাজনসমূহ','"6"','ভূতাত্ত্বিক, প্রত্নতাত্ত্বিক এবং সাংস্কৃতিক সময় বিভাজনসমূহ','','','',false,true);
+d.add(641,640,'"61/62"','<div class="nodetag">"61/62"</div></span>&nbsp;&nbsp;ভূতাত্ত্বিক (শিলালক্ষণ / জৈবিক / প্রত্ন-বাস্তব্যবিদ্যা সম্বন্ধীয়) সময় বিভাজনসমূহ','"61/62"','ভূতাত্ত্বিক (শিলালক্ষণ / জৈবিক / প্রত্ন-বাস্তব্যবিদ্যা সম্বন্ধীয়) সময় বিভাজনসমূহ','','','',false,true);
+d.add(642,641,'"61"','<div class="nodetag">"61"</div></span>&nbsp;&nbsp;প্রিক্যামব্রিয় থেকে মেসোজোইক (বর্তমানকালের ৬০ কোটির বেশি থেকে ৭ কোটি বছর পূর্ব পর্যন্ত)','"61"','প্রিক্যামব্রিয় থেকে মেসোজোইক (বর্তমানকালের ৬০ কোটির বেশি থেকে ৭ কোটি বছর পূর্ব পর্যন্ত)','','','',false,true);
+d.add(643,641,'"62"','<div class="nodetag">"62"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Phanerozoic (542 MYBP to present) (eon)</span>','"62"','Phanerozoic (542 MYBP to present) (eon)','','','',false,true);
+d.add(644,643,'"621"','<div class="nodetag">"621"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Palaeozoic / Paleozoic (542-251 MYBP) (era)</span>','"621"','Palaeozoic / Paleozoic (542-251 MYBP) (era)','','','',false,true);
+d.add(645,643,'"622"','<div class="nodetag">"622"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Mesozoic (251-65.5 MYBP) (era)</span>','"622"','Mesozoic (251-65.5 MYBP) (era)','','','',false,true);
+d.add(646,643,'"628"','<div class="nodetag">"628"</div></span>&nbsp;&nbsp;সেনোজোইক (কাইনোজোইক)। নিওজোইক (বর্তমানকালের ৭ কোটি বছর পূর্ব থেকে বর্তমান পর্যন্ত)','"628"','সেনোজোইক (কাইনোজোইক)। নিওজোইক (বর্তমানকালের ৭ কোটি বছর পূর্ব থেকে বর্তমান পর্যন্ত)','','','',false,true);
+d.add(647,641,'"63"','<div class="nodetag">"63"</div></span>&nbsp;&nbsp;প্রত্নতাত্ত্বিক, প্রাগৈতিহাসিক, আদি-ঐতিহাসিক পর্যায়-কাল ও যুগ সমূহ','"63"','প্রত্নতাত্ত্বিক, প্রাগৈতিহাসিক, আদি-ঐতিহাসিক পর্যায়-কাল ও যুগ সমূহ','','','',false,true);
+d.add(648,640,'"67/69"','<div class="nodetag">"67/69"</div></span>&nbsp;&nbsp;সময় গণনা : বিশ্বজনীন, ধর্মনিরপেক্ষ, অখ্রিস্ট ধর্মীয়','"67/69"','সময় গণনা : বিশ্বজনীন, ধর্মনিরপেক্ষ, অখ্রিস্ট ধর্মীয়','','','',false,true);
+d.add(649,648,'"67"','<div class="nodetag">"67"</div></span>&nbsp;&nbsp;বিশ্বজনীন সময় গণনা। বর্তমানকালপূর্ব','"67"','বিশ্বজনীন সময় গণনা। বর্তমানকালপূর্ব','','','',false,true);
+d.add(650,648,'"68"','<div class="nodetag">"68"</div></span>&nbsp;&nbsp;বিশ্বজনীন এবং খ্রিস্টীয় (গ্রেগরিয়) পঞ্জিকা-বহির্ভূত ধর্মনিরপেক্ষ সময় গণনা','"68"','বিশ্বজনীন এবং খ্রিস্টীয় (গ্রেগরিয়) পঞ্জিকা-বহির্ভূত ধর্মনিরপেক্ষ সময় গণনা','','','',false,true);
+d.add(651,648,'"69"','<div class="nodetag">"69"</div></span>&nbsp;&nbsp;অখ্রিস্টীয় (অগ্রেগরিয়) ধার্মিক সময় গণনানুযায়ী তারিখ ও সময়ের এককসমূহ','"69"','অখ্রিস্টীয় (অগ্রেগরিয়) ধার্মিক সময় গণনানুযায়ী তারিখ ও সময়ের এককসমূহ','','','',false,true);
+d.add(652,589,'"7"','<div class="nodetag">"7"</div></span>&nbsp;&nbsp;সময়ানুসার সত্তা। সময়ের প্রতীতিবাদ','"7"','সময়ানুসার সত্তা। সময়ের প্রতীতিবাদ','','','',false,true);
+d.add(653,0,'-0...','<div class="nodetag">-0...</div></span>&nbsp;&nbsp;সাধারণ বৈশিষ্ট্যসমূহের অভিন্ন সহায়িকাসমূহ : গুণ, সামগ্রী, সম্পর্ক/প্রক্রিয়া এবং ব্যক্তি। সারণি 1k','-0...','সাধারণ বৈশিষ্ট্যসমূহের অভিন্ন সহায়িকাসমূহ : গুণ, সামগ্রী, সম্পর্ক/প্রক্রিয়া এবং ব্যক্তি। সারণি 1k','','','',false,true);
+d.add(654,653,'-02','<div class="nodetag">-02</div></span>&nbsp;&nbsp;গুণের অভিন্ন সহায়িকাসমূহ। সারণি 1k','-02','গুণের অভিন্ন সহায়িকাসমূহ। সারণি 1k','','','',false,true);
+d.add(655,654,'-021','<div class="nodetag">-021</div></span>&nbsp;&nbsp;অস্তিত্বের গুণ/ধর্ম','-021','অস্তিত্বের গুণ/ধর্ম','','','',false,true);
+d.add(656,654,'-022','<div class="nodetag">-022</div></span>&nbsp;&nbsp;বিশালত্ব, মাত্রা, পরিমাণ, সংখ্যা, কালানুসার মূল্য, আকৃতি, পরিমাপের ধর্ম','-022','বিশালত্ব, মাত্রা, পরিমাণ, সংখ্যা, কালানুসার মূল্য, আকৃতি, পরিমাপের ধর্ম','','','',false,true);
+d.add(657,654,'-023','<div class="nodetag">-023</div></span>&nbsp;&nbsp;গঠনের ধর্ম','-023','গঠনের ধর্ম','','','',false,true);
+d.add(658,654,'-024','<div class="nodetag">-024</div></span>&nbsp;&nbsp;কাঠামোর ধর্ম। অবস্থার ধর্ম','-024','কাঠামোর ধর্ম। অবস্থার ধর্ম','','','',false,true);
+d.add(659,654,'-025','<div class="nodetag">-025</div></span>&nbsp;&nbsp;বিন্যাসের ধর্ম','-025','বিন্যাসের ধর্ম','','','',false,true);
+d.add(660,654,'-026','<div class="nodetag">-026</div></span>&nbsp;&nbsp;ক্রিয়া এবং চলনের ধর্ম','-026','ক্রিয়া এবং চলনের ধর্ম','','','',false,true);
+d.add(661,654,'-027','<div class="nodetag">-027</div></span>&nbsp;&nbsp;প্রক্রিয়ার ধর্ম','-027','প্রক্রিয়ার ধর্ম','','','',false,true);
+d.add(662,654,'-028','<div class="nodetag">-028</div></span>&nbsp;&nbsp;শৈলী এবং উপস্থাপনার ধর্ম','-028','শৈলী এবং উপস্থাপনার ধর্ম','','','',false,true);
+d.add(663,662,'-028.41','<div class="nodetag">-028.41</div></span>&nbsp;&nbsp;জনপ্রিয়','-028.41','জনপ্রিয়','','','',false,true);
+d.add(664,662,'-028.42','<div class="nodetag">-028.42</div></span>&nbsp;&nbsp;বিদগ্ধ। পাণ্ডিত্যপূর্ণ। শৈক্ষিক','-028.42','বিদগ্ধ। পাণ্ডিত্যপূর্ণ। শৈক্ষিক','','','',false,true);
+d.add(665,662,'-028.43','<div class="nodetag">-028.43</div></span>&nbsp;&nbsp;বৈচারিক। অবৈচারিক। বৈচারিকতাবিহীন','-028.43','বৈচারিক। অবৈচারিক। বৈচারিকতাবিহীন','','','',false,true);
+d.add(666,662,'-028.44','<div class="nodetag">-028.44</div></span>&nbsp;&nbsp;বর্ণনাত্মক','-028.44','বর্ণনাত্মক','','','',false,true);
+d.add(667,662,'-028.45','<div class="nodetag">-028.45</div></span>&nbsp;&nbsp;বিশ্লেষণাত্মক','-028.45','বিশ্লেষণাত্মক','','','',false,true);
+d.add(668,662,'-028.46','<div class="nodetag">-028.46</div></span>&nbsp;&nbsp;অনুভবসিদ্ধ। প্রায়োগিক','-028.46','অনুভবসিদ্ধ। প্রায়োগিক','','','',false,true);
+d.add(669,662,'-028.47','<div class="nodetag">-028.47</div></span>&nbsp;&nbsp;কাহিনিনির্ভর','-028.47','কাহিনিনির্ভর','','','',false,true);
+d.add(670,662,'-028.5','<div class="nodetag">-028.5</div></span>&nbsp;&nbsp;গ্রন্থকারত্বের বৈশিষ্ট্যসমূহ','-028.5','গ্রন্থকারত্বের বৈশিষ্ট্যসমূহ','','','',false,true);
+d.add(671,662,'-028.6','<div class="nodetag">-028.6</div></span>&nbsp;&nbsp;ক্রম, বিন্যাসের ধর্ম','-028.6','ক্রম, বিন্যাসের ধর্ম','','','',false,true);
+d.add(672,654,'-029','<div class="nodetag">-029</div></span>&nbsp;&nbsp;অন্যান্য প্রধান বর্গ থেকে আহৃত ধর্ম','-029','অন্যান্য প্রধান বর্গ থেকে আহৃত ধর্ম','','','',false,true);
+d.add(673,653,'-03','<div class="nodetag">-03</div></span>&nbsp;&nbsp;সামগ্রীর অভিন্ন সহায়িকাসমূহ। সারণি 1k','-03','সামগ্রীর অভিন্ন সহায়িকাসমূহ। সারণি 1k','','','',false,true);
+d.add(674,673,'-032','<div class="nodetag">-032</div></span>&nbsp;&nbsp;প্রাকৃতিকরূপে সৃষ্ট খনিজ সামগ্রী','-032','প্রাকৃতিকরূপে সৃষ্ট খনিজ সামগ্রী','','','',false,true);
+d.add(675,673,'-033','<div class="nodetag">-033</div></span>&nbsp;&nbsp;শিল্পজাত খনিজ-ভিত্তিক সামগ্রী','-033','শিল্পজাত খনিজ-ভিত্তিক সামগ্রী','','','',false,true);
+d.add(676,673,'-034','<div class="nodetag">-034</div></span>&nbsp;&nbsp;ধাতু','-034','ধাতু','','','',false,true);
+d.add(677,673,'-035','<div class="nodetag">-035</div></span>&nbsp;&nbsp;মূলতঃ জৈব মূলের সামগ্রী','-035','মূলতঃ জৈব মূলের সামগ্রী','','','',false,true);
+d.add(678,673,'-036','<div class="nodetag">-036</div></span>&nbsp;&nbsp;বৃহৎ-আণবিক সামগ্রী। রবার এবং প্লাস্টিক','-036','বৃহৎ-আণবিক সামগ্রী। রবার এবং প্লাস্টিক','','','',false,true);
+d.add(679,673,'-037','<div class="nodetag">-037</div></span>&nbsp;&nbsp;বোনানো বস্ত্র। তন্তু। সূতা। কাপড়','-037','বোনানো বস্ত্র। তন্তু। সূতা। কাপড়','','','',false,true);
+d.add(680,653,'-04','<div class="nodetag">-04</div></span>&nbsp;&nbsp;সম্পর্ক, প্রক্রিয়া এবং পরিচালনার অভিন্ন সহায়িকাসমূহ। সারণি 1k','-04','সম্পর্ক, প্রক্রিয়া এবং পরিচালনার অভিন্ন সহায়িকাসমূহ। সারণি 1k','','','',false,true);
+d.add(681,680,'-042','<div class="nodetag">-042</div></span>&nbsp;&nbsp;দশা সম্পর্কসমূহ','-042','দশা সম্পর্কসমূহ','','','',false,true);
+d.add(682,681,'-042.1','<div class="nodetag">-042.1</div></span>&nbsp;&nbsp;ঝোঁকের দশা','-042.1','ঝোঁকের দশা','','','',false,true);
+d.add(683,681,'-042.2','<div class="nodetag">-042.2</div></span>&nbsp;&nbsp;তুলনার দশা','-042.2','তুলনার দশা','','','',false,true);
+d.add(684,681,'-042.3','<div class="nodetag">-042.3</div></span>&nbsp;&nbsp;প্রভাবের দশা','-042.3','প্রভাবের দশা','','','',false,true);
+d.add(685,681,'-042.4','<div class="nodetag">-042.4</div></span>&nbsp;&nbsp;সাধনীর দশা। ব্যাখ্যার দশা','-042.4','সাধনীর দশা। ব্যাখ্যার দশা','','','',false,true);
+d.add(686,681,'-042.5/.8','<div class="nodetag">-042.5/.8</div></span>&nbsp;&nbsp;সত্তাসমূহের মধ্যে সম্পর্ক বর্ণনাকারী অন্যান্য পরিশব্দ','-042.5/.8','সত্তাসমূহের মধ্যে সম্পর্ক বর্ণনাকারী অন্যান্য পরিশব্দ','','','',false,true);
+d.add(687,680,'-043','<div class="nodetag">-043</div></span>&nbsp;&nbsp;সাধারণ প্রক্রিয়া','-043','সাধারণ প্রক্রিয়া','','','',false,true);
+d.add(688,687,'-043.8/.9','<div class="nodetag">-043.8/.9</div></span>&nbsp;&nbsp;অস্তিত্বের প্রক্রিয়া','-043.8/.9','অস্তিত্বের প্রক্রিয়া','','','',false,true);
+d.add(689,680,'-044.3','<div class="nodetag">-044.3</div></span>&nbsp;&nbsp;মূল্যের প্রক্রিয়া','-044.3','মূল্যের প্রক্রিয়া','','','',false,true);
+d.add(690,680,'-044.4','<div class="nodetag">-044.4</div></span>&nbsp;&nbsp;ক্রম নির্ধারণের প্রক্রিয়া','-044.4','ক্রম নির্ধারণের প্রক্রিয়া','','','',false,true);
+d.add(691,680,'-044.5','<div class="nodetag">-044.5</div></span>&nbsp;&nbsp;বিশালত্বের প্রক্রিয়া','-044.5','বিশালত্বের প্রক্রিয়া','','','',false,true);
+d.add(692,680,'-044.6','<div class="nodetag">-044.6</div></span>&nbsp;&nbsp;সংখ্যা এবং মাত্রার প্রক্রিয়া','-044.6','সংখ্যা এবং মাত্রার প্রক্রিয়া','','','',false,true);
+d.add(693,680,'-044.7','<div class="nodetag">-044.7</div></span>&nbsp;&nbsp;সময় এবং কালানুক্রম সম্পর্কিত প্রক্রিয়া','-044.7','সময় এবং কালানুক্রম সম্পর্কিত প্রক্রিয়া','','','',false,true);
+d.add(694,680,'-044.8','<div class="nodetag">-044.8</div></span>&nbsp;&nbsp;আকৃতি সম্পর্কিত প্রক্রিয়া','-044.8','আকৃতি সম্পর্কিত প্রক্রিয়া','','','',false,true);
+d.add(695,680,'-044.9','<div class="nodetag">-044.9</div></span>&nbsp;&nbsp;গঠন সম্পর্কিত প্রক্রিয়া','-044.9','গঠন সম্পর্কিত প্রক্রিয়া','','','',false,true);
+d.add(696,680,'-045','<div class="nodetag">-045</div></span>&nbsp;&nbsp;পদার্থের অবস্থা, বিন্যাস, চলন, ভৌত ধর্ম, অবস্থা সম্পর্কিত প্রক্রিয়া','-045','পদার্থের অবস্থা, বিন্যাস, চলন, ভৌত ধর্ম, অবস্থা সম্পর্কিত প্রক্রিয়া','','','',false,true);
+d.add(697,680,'-047/-049','<div class="nodetag">-047/-049</div></span>&nbsp;&nbsp;সাধারণ পরিচালনা এবং ক্রিয়াকলাপ','-047/-049','সাধারণ পরিচালনা এবং ক্রিয়াকলাপ','','','',false,true);
+d.add(698,653,'-05','<div class="nodetag">-05</div></span>&nbsp;&nbsp;ব্যক্তিবর্গ এবং ব্যক্তিগত বৈশিষ্ট্যসমূহের অভিন্ন সহায়িকাসমূহ। সারণি 1k','-05','ব্যক্তিবর্গ এবং ব্যক্তিগত বৈশিষ্ট্যসমূহের অভিন্ন সহায়িকাসমূহ। সারণি 1k','','','',false,true);
+d.add(699,698,'-051','<div class="nodetag">-051</div></span>&nbsp;&nbsp;প্রতিনিধি, পেশাদার (পঠন, প্রস্তুতকরণ, পরিসেবন, ইত্যাদি) রূপে ব্যক্তি','-051','প্রতিনিধি, পেশাদার (পঠন, প্রস্তুতকরণ, পরিসেবন, ইত্যাদি) রূপে ব্যক্তি','','','',false,true);
+d.add(700,698,'-052','<div class="nodetag">-052</div></span>&nbsp;&nbsp;লক্ষ্য, মক্কেল, ব্যবহারকারী (সমীক্ষিত, পরিসেবিত, ইত্যাদি) রূপে ব্যক্তি','-052','লক্ষ্য, মক্কেল, ব্যবহারকারী (সমীক্ষিত, পরিসেবিত, ইত্যাদি) রূপে ব্যক্তি','','','',false,true);
+d.add(701,698,'-053','<div class="nodetag">-053</div></span>&nbsp;&nbsp;বয়স বা বয়োগোষ্ঠী অনুযায়ী ব্যক্তি','-053','বয়স বা বয়োগোষ্ঠী অনুযায়ী ব্যক্তি','','','',false,true);
+d.add(702,701,'-053.1','<div class="nodetag">-053.1</div></span>&nbsp;&nbsp;জাত বা অজাত, জীবিত বা মৃত মানব সত্তাসমূহ','-053.1','জাত বা অজাত, জীবিত বা মৃত মানব সত্তাসমূহ','','','',false,true);
+d.add(703,701,'-053.2','<div class="nodetag">-053.2</div></span>&nbsp;&nbsp;শিশু এবং নবজাতক (ব্যাপকার্থে)','-053.2','শিশু এবং নবজাতক (ব্যাপকার্থে)','','','',false,true);
+d.add(704,701,'-053.8','<div class="nodetag">-053.8</div></span>&nbsp;&nbsp;সাবালক। বয়ঃপ্রাপ্ত','-053.8','সাবালক। বয়ঃপ্রাপ্ত','','','',false,true);
+d.add(705,701,'-053.9','<div class="nodetag">-053.9</div></span>&nbsp;&nbsp;বয়স্ক ব্যক্তি। বৃদ্ধ বয়সে ব্যক্তি। প্রবীণ নাগরিক','-053.9','বয়স্ক ব্যক্তি। বৃদ্ধ বয়সে ব্যক্তি। প্রবীণ নাগরিক','','','',false,true);
+d.add(706,698,'-054','<div class="nodetag">-054</div></span>&nbsp;&nbsp;জাতিগত বৈশিষ্ট্য, জাতীয়তা, নাগরিকত্ব, ইত্যাদি অনুযায়ী ব্যক্তি','-054','জাতিগত বৈশিষ্ট্য, জাতীয়তা, নাগরিকত্ব, ইত্যাদি অনুযায়ী ব্যক্তি','','','',false,true);
+d.add(707,706,'-054.4','<div class="nodetag">-054.4</div></span>&nbsp;&nbsp;অধিবাসী (জাতীয় বা অজাতীয়)','-054.4','অধিবাসী (জাতীয় বা অজাতীয়)','','','',false,true);
+d.add(708,706,'-054.5','<div class="nodetag">-054.5</div></span>&nbsp;&nbsp;স্বজাতীয় ব্যক্তি। একটি দেশের নাগরিকবৃন্দ','-054.5','স্বজাতীয় ব্যক্তি। একটি দেশের নাগরিকবৃন্দ','','','',false,true);
+d.add(709,706,'-054.6','<div class="nodetag">-054.6</div></span>&nbsp;&nbsp;বিজাতীয় ব্যক্তি। বিদেশী। বহিরাগত','-054.6','বিজাতীয় ব্যক্তি। বিদেশী। বহিরাগত','','','',false,true);
+d.add(710,706,'-054.7','<div class="nodetag">-054.7</div></span>&nbsp;&nbsp;নির্বাসিত ব্যক্তি। প্রত্যাবাসিত ব্যক্তি। প্রবজনকারী। রাষ্ট্রবিহীন ব্যক্তি','-054.7','নির্বাসিত ব্যক্তি। প্রত্যাবাসিত ব্যক্তি। প্রবজনকারী। রাষ্ট্রবিহীন ব্যক্তি','','','',false,true);
+d.add(711,698,'-055','<div class="nodetag">-055</div></span>&nbsp;&nbsp;লিঙ্গ এবং আত্মীয়তা অনুযায়ী ব্যক্তি','-055','লিঙ্গ এবং আত্মীয়তা অনুযায়ী ব্যক্তি','','','',false,true);
+d.add(712,711,'-055.1','<div class="nodetag">-055.1</div></span>&nbsp;&nbsp;পুরুষ ব্যক্তি। পুরুষ','-055.1','পুরুষ ব্যক্তি। পুরুষ','','','',false,true);
+d.add(713,711,'-055.2','<div class="nodetag">-055.2</div></span>&nbsp;&nbsp;মহিলা ব্যক্তি। নারী','-055.2','মহিলা ব্যক্তি। নারী','','','',false,true);
+d.add(714,711,'-055.3','<div class="nodetag">-055.3</div></span>&nbsp;&nbsp;যৌন অবস্থান অনুযায়ী ব্যক্তি','-055.3','যৌন অবস্থান অনুযায়ী ব্যক্তি','','','',false,true);
+d.add(715,711,'-055.5','<div class="nodetag">-055.5</div></span>&nbsp;&nbsp;জনিতৃ অথবা পূর্বপুরুষ সম্পর্কস্থ ব্যক্তি। পূর্বপুরুষ','-055.5','জনিতৃ অথবা পূর্বপুরুষ সম্পর্কস্থ ব্যক্তি। পূর্বপুরুষ','','','',false,true);
+d.add(716,711,'-055.6','<div class="nodetag">-055.6</div></span>&nbsp;&nbsp;সন্তানোচিত অথবা বংশধর সম্পর্কের ব্যক্তি','-055.6','সন্তানোচিত অথবা বংশধর সম্পর্কের ব্যক্তি','','','',false,true);
+d.add(717,711,'-055.7','<div class="nodetag">-055.7</div></span>&nbsp;&nbsp;সগোত্রীয় ব্যক্তি','-055.7','সগোত্রীয় ব্যক্তি','','','',false,true);
+d.add(718,698,'-056','<div class="nodetag">-056</div></span>&nbsp;&nbsp;গঠন, স্বাস্থ্য, প্রবৃত্তি, বংশজ বা অন্যান্য বৈশিষ্ট্য অনুযায়ী ব্যক্তি','-056','গঠন, স্বাস্থ্য, প্রবৃত্তি, বংশজ বা অন্যান্য বৈশিষ্ট্য অনুযায়ী ব্যক্তি','','','',false,true);
+d.add(719,718,'-056.1','<div class="nodetag">-056.1</div></span>&nbsp;&nbsp;সাধারণ গঠন, স্বভাব, চরিত্র অনুযায়ী ব্যক্তি','-056.1','সাধারণ গঠন, স্বভাব, চরিত্র অনুযায়ী ব্যক্তি','','','',false,true);
+d.add(720,718,'-056.2','<div class="nodetag">-056.2</div></span>&nbsp;&nbsp;শারীরিক অবস্থা এবং স্বাস্থ্য অনুযায়ী ব্যক্তি','-056.2','শারীরিক অবস্থা এবং স্বাস্থ্য অনুযায়ী ব্যক্তি','','','',false,true);
+d.add(721,718,'-056.3','<div class="nodetag">-056.3</div></span>&nbsp;&nbsp;বুদ্ধি এবং মানসিক বা মনস্তাত্ত্বিক অবস্থা অনুযায়ী ব্যক্তি','-056.3','বুদ্ধি এবং মানসিক বা মনস্তাত্ত্বিক অবস্থা অনুযায়ী ব্যক্তি','','','',false,true);
+d.add(722,718,'-056.4','<div class="nodetag">-056.4</div></span>&nbsp;&nbsp;মেজাজ, প্রবৃত্তি অনুযায়ী ব্যক্তি','-056.4','মেজাজ, প্রবৃত্তি অনুযায়ী ব্যক্তি','','','',false,true);
+d.add(723,698,'-057','<div class="nodetag">-057</div></span>&nbsp;&nbsp;পেশা, কর্ম, জীবিকা, শিক্ষা অনুযায়ী ব্যক্তি','-057','পেশা, কর্ম, জীবিকা, শিক্ষা অনুযায়ী ব্যক্তি','','','',false,true);
+d.add(724,723,'-057.1','<div class="nodetag">-057.1</div></span>&nbsp;&nbsp;কর্ম, কর্মসংস্থান, প্রশাসনিক মর্যাদা অনুযায়ী ব্যক্তি','-057.1','কর্ম, কর্মসংস্থান, প্রশাসনিক মর্যাদা অনুযায়ী ব্যক্তি','','','',false,true);
+d.add(725,723,'-057.2','<div class="nodetag">-057.2</div></span>&nbsp;&nbsp;কারিগরি কর্মী। শ্রমজীবী। কায়িক শ্রমিক','-057.2','কারিগরি কর্মী। শ্রমজীবী। কায়িক শ্রমিক','','','',false,true);
+d.add(726,723,'-057.3','<div class="nodetag">-057.3</div></span>&nbsp;&nbsp;করণিক, প্রশাসনিক কর্মী। দপ্তরী কর্মী','-057.3','করণিক, প্রশাসনিক কর্মী। দপ্তরী কর্মী','','','',false,true);
+d.add(727,723,'-057.4','<div class="nodetag">-057.4</div></span>&nbsp;&nbsp;বৃত্তিমূলক অথবা শিক্ষাবিষয়ক কর্মী','-057.4','বৃত্তিমূলক অথবা শিক্ষাবিষয়ক কর্মী','','','',false,true);
+d.add(728,723,'-057.5','<div class="nodetag">-057.5</div></span>&nbsp;&nbsp;কর্মস্থল, কর্মসংস্থান স্থান সম্পর্কিত ব্যক্তি। উদ্যোগের সাথে সম্পর্কিত ব্যক্তি','-057.5','কর্মস্থল, কর্মসংস্থান স্থান সম্পর্কিত ব্যক্তি। উদ্যোগের সাথে সম্পর্কিত ব্যক্তি','','','',false,true);
+d.add(729,723,'-057.6','<div class="nodetag">-057.6</div></span>&nbsp;&nbsp;স্থায়ী নিবাস এবং তার সাথে কর্ম অথবা অন্যান্য ক্রিয়াকলাপের সম্পর্ক অনুযায়ী ব্যক্তি','-057.6','স্থায়ী নিবাস এবং তার সাথে কর্ম অথবা অন্যান্য ক্রিয়াকলাপের সম্পর্ক অনুযায়ী ব্যক্তি','','','',false,true);
+d.add(730,723,'-057.7','<div class="nodetag">-057.7</div></span>&nbsp;&nbsp;আয়ের উৎস অথবা বীমা অনুযায়ী ব্যক্তি','-057.7','আয়ের উৎস অথবা বীমা অনুযায়ী ব্যক্তি','','','',false,true);
+d.add(731,723,'-057.8','<div class="nodetag">-057.8</div></span>&nbsp;&nbsp;শিক্ষা, প্রশিক্ষণ, অভিজ্ঞতা অনুযায়ী ব্যক্তি','-057.8','শিক্ষা, প্রশিক্ষণ, অভিজ্ঞতা অনুযায়ী ব্যক্তি','','','',false,true);
+d.add(732,723,'-057.9','<div class="nodetag">-057.9</div></span>&nbsp;&nbsp;নির্বাহী কর্ম অনুযায়ী ব্যক্তি','-057.9','নির্বাহী কর্ম অনুযায়ী ব্যক্তি','','','',false,true);
+d.add(733,698,'-058','<div class="nodetag">-058</div></span>&nbsp;&nbsp;সামাজিক শ্রেণি, নাগরিক মর্যাদা অনুযায়ী ব্যক্তি','-058','সামাজিক শ্রেণি, নাগরিক মর্যাদা অনুযায়ী ব্যক্তি','','','',false,true);
+d.add(734,733,'-058.1','<div class="nodetag">-058.1</div></span>&nbsp;&nbsp;সামাজিক শ্রেণি বা মর্যাদা অনুযায়ী ব্যক্তি','-058.1','সামাজিক শ্রেণি বা মর্যাদা অনুযায়ী ব্যক্তি','','','',false,true);
+d.add(735,733,'-058.3','<div class="nodetag">-058.3</div></span>&nbsp;&nbsp;অর্থনৈতিক শ্রেণি (সঙ্গতি, নিরাপত্তা, অন্যান্য অধিকার) অনুযায়ী ব্যক্তি','-058.3','অর্থনৈতিক শ্রেণি (সঙ্গতি, নিরাপত্তা, অন্যান্য অধিকার) অনুযায়ী ব্যক্তি','','','',false,true);
+d.add(736,733,'-058.5','<div class="nodetag">-058.5</div></span>&nbsp;&nbsp;প্রান্তিক আর্থসামাজিক শ্রেণির অন্তর্ভুক্ত ব্যক্তি। প্রান্তিক গোষ্ঠী','-058.5','প্রান্তিক আর্থসামাজিক শ্রেণির অন্তর্ভুক্ত ব্যক্তি। প্রান্তিক গোষ্ঠী','','','',false,true);
+d.add(737,733,'-058.6','<div class="nodetag">-058.6</div></span>&nbsp;&nbsp;অবস্থার শিকার ব্যক্তি','-058.6','অবস্থার শিকার ব্যক্তি','','','',false,true);
+d.add(738,733,'-058.7','<div class="nodetag">-058.7</div></span>&nbsp;&nbsp;আশ্রিত ব্যক্তি','-058.7','আশ্রিত ব্যক্তি','','','',false,true);
+d.add(739,733,'-058.8','<div class="nodetag">-058.8</div></span>&nbsp;&nbsp;বিবাহ, পরিবার বা অন্যান্য নাগরিক মর্যাদা অনুযায়ী ব্যক্তি','-058.8','বিবাহ, পরিবার বা অন্যান্য নাগরিক মর্যাদা অনুযায়ী ব্যক্তি','','','',false,true);
+d.config.useSelection = false;
+d.config.inOrder = true;
+d.config.useIcons = false;
+document.write(d);
+//-->
+</script>
+</div>
+</div><div id="expandbox" onclick="expandbox(); return false;">&nbsp;</div>
+<div id="recordbox" class="debugbkg">
+<div class="fronthint">নথিসমূহ প্রদর্শন করতে বামপার্শ্বের একটি বর্গের উপর ক্লিক করুন</div>
+</div>
+
+        <div id="footer">
+            <div class="footersectionleft">
+                The UDC Summary (UDCS) provides a selection of around 2,600 classes from the whole scheme which comprises more than 70,000 entries.
+                Please send questions and suggestions to <a href="mailto:udcs@udcc.org?subject=UDC Summary Enquiry">udcs@udcc.org</a><br><br>
+	            <p>
+		            The data provided in this Summary is released under the <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative Commons Attribution Share Alike 3.0 license</a> <a href="../about.htm">[more]</a>
+	            </p>
+            </div>
+            <div class="footermiddle">
+                <a href="http://www.udcc.org"><img src="../images/udclogowhite.png" border="0"></a>
+            </div>
+			<div class="footerright">
+                For complete UDC schedules see <a href="http://www.udc-hub.com/">UDC Online Hub</a><br/><a href="http://www.udc-hub.com/"><img width="60" height="35" src="../images/udclogo.png"/></a>
+
+			</div>
+        </div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-13138465-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>

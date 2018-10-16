@@ -1,0 +1,654 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>UDC Summary</title>
+    <link rel="stylesheet" href="../reset.css" type="text/css" />
+    <link rel="stylesheet" href="../udc2000.css" type="text/css" />
+	    <link rel="StyleSheet" href="dtree2.css" type="text/css" />
+	    <script type="text/javascript" src="dtree.js"></script>
+	    <script type="text/javascript" src="udcdisplay_9.js"></script>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+</head>
+
+<body >
+<div id="centercontainer" class="debugbkg">
+    <div id="titlebox" class="debugbkg">
+		<div id="rightbox">
+        	<div id="languagecount">57 languages</div>
+            <div id="languagebox">
+            <select id="selectedlang" style="vertical-align: middle;" onchange="location = this.options[this.selectedIndex].value;">
+			<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=af&pr=Y">Afrikaans (Afrikaans) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sq&pr=Y">Albanian (Shqip) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=anp&pr=Y">Angika (अंगिका) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ar&pr=Y">Arabic (العربية) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hy&pr=Y">Armenian (հայերեն) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=eu&pr=Y">Basque (Euskara) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=be&pr=Y">Belarusian (Беларуская) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bn&pr=Y">Bengali (বাংলা) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bho&pr=Y">Bhojpuri (भोजपुरी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bg&pr=Y">Bulgarian (Български) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ca&pr=Y" selected>Catalan (Català) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=chi&pr=Y">Chinese (中文) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hr&pr=Y">Croatian (Hrvatski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=cs&pr=Y">Czech (Čeština) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=da&pr=Y">Danish (Dansk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=nl&pr=Y">Dutch (Nederlands) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=en&pr=Y">English (English) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=eo&pr=Y">Esperanto (Esperanto) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=et&pr=Y">Estonian (Eesti) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=fi&pr=Y">Finnish (Suomi) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=fr&pr=Y">French (Français) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=gl&pr=Y">Galician (Galego) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ka&pr=Y">Georgian (ქართული) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=de&pr=Y">German (Deutsch) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=el&pr=Y">Greek (Ελληνικά) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hi&pr=Y">Hindi (हिन्दी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hu&pr=Y">Hungarian (Magyar) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=id&pr=Y">Indonesian (Bahasa Ind) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ga&pr=Y">Irish (Gaeilge) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=it&pr=Y">Italian (Italiano) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ja&pr=Y">Japanese (日本語) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=kn&pr=Y">Kannada (ಕನ್ನಡ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=kk&pr=Y">Kazakh (Қазақ тілі) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=lv&pr=Y">Latvian (Latviešu) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=lt&pr=Y">Lithuanian (lietuvių) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=mk&pr=Y">Macedonian (македонски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ml&pr=Y">Malayalam (മലയാളം) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=mr&pr=Y">Marathi (मराठी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=no&pr=Y">Norwegian (Norsk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pl&pr=Y">Polish (Polski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pt&pr=Y">Portuguese (Português) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pa&pr=Y">Punjabi (ਪੰਜਾਬੀ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ro&pr=Y">Romanian (Româna) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ru&pr=Y">Russian (Pусский) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sa&pr=Y">Sanskrit (Saṃskṛtam) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sr&pr=Y">Serbian (Српски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=si&pr=Y">Sinhala (සිංහල) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sk&pr=Y">Slovak (Slovenský) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sl&pr=Y">Slovenian (Slovenski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=es&pr=Y">Spanish (Español) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sv&pr=Y">Swedish (Svenska) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ta&pr=Y">Tamil (தமிழ்) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=te&pr=Y">Telugu (తెలుగు) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=tr&pr=Y">Turkish (Türkçe) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=uk&pr=Y">Ukrainian (Yкраї́нська) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=uz&pr=Y">Uzbek (oʻzbek) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=vi&pr=Y">Vietnamese (tiếng Việt) </option>
+            </select>
+            </div>
+            </div>
+        </div>
+		<div id="menubox" class="debugbkg">
+            <ul class="menu boldmenu">
+<li><a href="index.php@lang=ca">TOP</a></li>
+<li><a href="index.php@tag=--&amp;lang=ca">SIGNES</a></li>
+<li><a href="index.php@tag=---&amp;lang=ca">AUXILIARS</a></li>
+<li><a href="index.php@tag=0&amp;lang=ca">0</a></li>
+<li><a href="index.php@tag=1&amp;lang=ca">1</a></li>
+<li><a href="index.php@tag=2&amp;lang=ca">2</a></li>
+<li><a href="index.php@tag=3&amp;lang=ca">3</a></li>
+<li><a  class="vacant" href="index.php@tag=6&amp;lang=ca#">4</a></li>
+<li><a href="index.php@tag=5&amp;lang=ca">5</a></li>
+<li><a href="index.php@tag=6&amp;lang=ca">6</a></li>
+<li><a href="index.php@tag=7&amp;lang=ca">7</a></li>
+<li><a href="index.php@tag=8&amp;lang=ca">8</a></li>
+<li><a href="index.php@tag=9&amp;lang=ca">9</a></li>
+</ul>
+<input type="hidden" id="if_loading" name="if_loading" value="Carregant"/>
+<input type="hidden" id="if_lang" name="if_lang" value="24"/>
+<ul class="rightmenu boldmenu">
+<li><a href="../translation.htm">TRADUCCIONS</a></li>
+<li><a href="index.php@tag=6&amp;lang=ca#" title="Under Development">MAPATGES</a></li>
+<li><a href="../exports.htm" title="Data Exports">EXPORTACIONS</a></li>
+<li><a href="index.php@tag=6&amp;lang=ca#" title="Under Development">ÍNDEX ALFABÈTIC</a></li>
+<li><a href="index.php@tag=6&amp;lang=ca#" title="Under Development">GUIA</a></li>
+<li><a href="../about.htm" title="About the UDC Summary">INFO</a></li>
+</ul>
+
+        </div>
+		<input type="hidden" id="leftWidth" value="420"/><input type="hidden" id="rightWidth" value="522"/>
+		<div id="classmarkbox" class="debugbkg">
+
+<div id="openclosemenu"><a href="javascript: d.openAll();">&nbsp;desplegar-ho tot</a> | <a href="javascript: d.closeAll();">contraure-ho tot</a></div>
+<div id="classtree">
+<script type="text/javascript">
+<!--
+d = new dTree('d');
+d.config.hrefIsClick = true;
+d.add(0,-1,'6','<span class="nodetag">6</span>&nbsp;&nbsp;CIÈNCIES APLICADES. MEDICINA. TECNOLOGIA','6','','','','',false,true);
+d.add(1,0,'60','<div class="nodetag">60</div></span>&nbsp;&nbsp;Biotecnologia','60','Biotecnologia','','','',false,true);
+d.add(2,1,'601','<div class="nodetag">601</div></span>&nbsp;&nbsp;Conceptes fonamentals','601','Conceptes fonamentals','','','',false,true);
+d.add(3,1,'602','<div class="nodetag">602</div></span>&nbsp;&nbsp;Processos i tècniques','602','Processos i tècniques','','','',false,true);
+d.add(4,1,'604','<div class="nodetag">604</div></span>&nbsp;&nbsp;Productes de la biotecnologia','604','Productes de la biotecnologia','','','',false,true);
+d.add(5,1,'606','<div class="nodetag">606</div></span>&nbsp;&nbsp;Aplicacions de la biotecnologia','606','Aplicacions de la biotecnologia','','','',false,true);
+d.add(6,1,'608','<div class="nodetag">608</div></span>&nbsp;&nbsp;Qüestions i aspectes relacionats amb la biotecnologia','608','Qüestions i aspectes relacionats amb la biotecnologia','','','',false,true);
+d.add(7,0,'61','<div class="nodetag">61</div></span>&nbsp;&nbsp;Ciències de la salut','61','Ciències de la salut','','','',false,true);
+d.add(8,7,'611/612','<div class="nodetag">611/612</div></span>&nbsp;&nbsp;Biologia humana','611/612','Biologia humana','','','',false,true);
+d.add(9,8,'611','<div class="nodetag">611</div></span>&nbsp;&nbsp;Anatomia. Anatomia humana i comparada','611','Anatomia. Anatomia humana i comparada','','','',false,true);
+d.add(10,8,'612','<div class="nodetag">612</div></span>&nbsp;&nbsp;Fisiologia. Fisiologia humana i comparada','612','Fisiologia. Fisiologia humana i comparada','','','',false,true);
+d.add(11,10,'612.1/.8','<div class="nodetag">612.1/.8</div></span>&nbsp;&nbsp;Fisiologia sistemàtica','612.1/.8','Fisiologia sistemàtica','','','',false,true);
+d.add(12,11,'612.1','<div class="nodetag">612.1</div></span>&nbsp;&nbsp;Sang i circulació','612.1','Sang i circulació','','','',false,true);
+d.add(13,11,'612.2','<div class="nodetag">612.2</div></span>&nbsp;&nbsp;Respiració','612.2','Respiració','','','',false,true);
+d.add(14,11,'612.3','<div class="nodetag">612.3</div></span>&nbsp;&nbsp;Alimentació. Digestió. Nutrició','612.3','Alimentació. Digestió. Nutrició','','','',false,true);
+d.add(15,11,'612.4','<div class="nodetag">612.4</div></span>&nbsp;&nbsp;Glàndules. Secreció. Excreció','612.4','Glàndules. Secreció. Excreció','','','',false,true);
+d.add(16,11,'612.5','<div class="nodetag">612.5</div></span>&nbsp;&nbsp;Calor animal. Processos tèrmics','612.5','Calor animal. Processos tèrmics','','','',false,true);
+d.add(17,11,'612.6','<div class="nodetag">612.6</div></span>&nbsp;&nbsp;Reproducció. Creixement. Desenvolupament','612.6','Reproducció. Creixement. Desenvolupament','','','',false,true);
+d.add(18,11,'612.7','<div class="nodetag">612.7</div></span>&nbsp;&nbsp;Funcions motores. Òrgans del moviment. Veu. Pell','612.7','Funcions motores. Òrgans del moviment. Veu. Pell','','','',false,true);
+d.add(19,11,'612.8','<div class="nodetag">612.8</div></span>&nbsp;&nbsp;Sistema nerviós. Òrgans sensorials','612.8','Sistema nerviós. Òrgans sensorials','','','',false,true);
+d.add(20,7,'613','<div class="nodetag">613</div></span>&nbsp;&nbsp;Higiene en general. Salut i higiene personal','613','Higiene en general. Salut i higiene personal','','','',false,true);
+d.add(21,20,'613.2','<div class="nodetag">613.2</div></span>&nbsp;&nbsp;Dietètica. Higiene de la nutrició. Principis nutritius aplicats a l\'alimentació','613.2','Dietètica. Higiene de la nutrició. Principis nutritius aplicats a l\'alimentació','','','',false,true);
+d.add(22,20,'613.3','<div class="nodetag">613.3</div></span>&nbsp;&nbsp;Begudes. Begudes terapèutiques. Aigües medicinals. Dieta líquida','613.3','Begudes. Begudes terapèutiques. Aigües medicinals. Dieta líquida','','','',false,true);
+d.add(23,20,'613.4','<div class="nodetag">613.4</div></span>&nbsp;&nbsp;Higiene personal. Netedat del cos. Indumentària','613.4','Higiene personal. Netedat del cos. Indumentària','','','',false,true);
+d.add(24,20,'613.5','<div class="nodetag">613.5</div></span>&nbsp;&nbsp;Higiene de la llar i dels locals','613.5','Higiene de la llar i dels locals','','','',false,true);
+d.add(25,20,'613.6','<div class="nodetag">613.6</div></span>&nbsp;&nbsp;Riscos sanitaris laborals. Salut i higiene laboral','613.6','Riscos sanitaris laborals. Salut i higiene laboral','','','',false,true);
+d.add(26,20,'613.7','<div class="nodetag">613.7</div></span>&nbsp;&nbsp;Higiene del lleure. Repòs i son','613.7','Higiene del lleure. Repòs i son','','','',false,true);
+d.add(27,20,'613.8','<div class="nodetag">613.8</div></span>&nbsp;&nbsp;Higiene del sistema nerviós. Salut i ètica','613.8','Higiene del sistema nerviós. Salut i ètica','','','',false,true);
+d.add(28,20,'613.9','<div class="nodetag">613.9</div></span>&nbsp;&nbsp;Higiene en relació amb l\'edat, el sexe i el grup ètnic','613.9','Higiene en relació amb l\'edat, el sexe i el grup ètnic','','','',false,true);
+d.add(29,7,'614','<div class="nodetag">614</div></span>&nbsp;&nbsp;Higiene pública. Prevenció d\'accidents','614','Higiene pública. Prevenció d\'accidents','','','',false,true);
+d.add(30,29,'614.1','<div class="nodetag">614.1</div></span>&nbsp;&nbsp;Higiene de la població. Despoblació','614.1','Higiene de la població. Despoblació','','','',false,true);
+d.add(31,29,'614.2','<div class="nodetag">614.2</div></span>&nbsp;&nbsp;Organització dels serveis sanitaris','614.2','Organització dels serveis sanitaris','','','',false,true);
+d.add(32,29,'614.3','<div class="nodetag">614.3</div></span>&nbsp;&nbsp;Inspecció i control sanitaris','614.3','Inspecció i control sanitaris','','','',false,true);
+d.add(33,32,'614.39','<div class="nodetag">614.39</div></span>&nbsp;&nbsp;Serveis nacionals de salut','614.39','Serveis nacionals de salut','','','',false,true);
+d.add(34,29,'614.4','<div class="nodetag">614.4</div></span>&nbsp;&nbsp;Prevenció i control de malalties infeccioses i contagioses. Prevenció d\'epidèmies','614.4','Prevenció i control de malalties infeccioses i contagioses. Prevenció d\'epidèmies','','','',false,true);
+d.add(35,29,'614.6','<div class="nodetag">614.6</div></span>&nbsp;&nbsp;Higiene dels cementiris. Inhumació o incineració de cadàvers','614.6','Higiene dels cementiris. Inhumació o incineració de cadàvers','','','',false,true);
+d.add(36,29,'614.7','<div class="nodetag">614.7</div></span>&nbsp;&nbsp;Higiene de l\'aire, de l\'aigua i del sòl. Contaminació i control','614.7','Higiene de l\'aire, de l\'aigua i del sòl. Contaminació i control','','','',false,true);
+d.add(37,29,'614.8','<div class="nodetag">614.8</div></span>&nbsp;&nbsp;Accidents. Riscos. Prevenció d\'accidents. Protecció personal. Seguretat','614.8','Accidents. Riscos. Prevenció d\'accidents. Protecció personal. Seguretat','','','',false,true);
+d.add(38,29,'614.9','<div class="nodetag">614.9</div></span>&nbsp;&nbsp;Sanitat animal. Higiene veterinària','614.9','Sanitat animal. Higiene veterinària','','','',false,true);
+d.add(39,7,'615','<div class="nodetag">615</div></span>&nbsp;&nbsp;Farmacologia. Terapèutica. Toxicologia','615','Farmacologia. Terapèutica. Toxicologia','','','',false,true);
+d.add(40,39,'615.1','<div class="nodetag">615.1</div></span>&nbsp;&nbsp;Farmàcia general i professional','615.1','Farmàcia general i professional','','','',false,true);
+d.add(41,39,'615.2','<div class="nodetag">615.2</div></span>&nbsp;&nbsp;Medicaments segons la seva acció principal','615.2','Medicaments segons la seva acció principal','','','',false,true);
+d.add(42,39,'615.3','<div class="nodetag">615.3</div></span>&nbsp;&nbsp;Medicaments segons el seu origen','615.3','Medicaments segons el seu origen','','','',false,true);
+d.add(43,39,'615.4','<div class="nodetag">615.4</div></span>&nbsp;&nbsp;Preparats farmacèutics. Instruments i aparells mèdics. Equipament','615.4','Preparats farmacèutics. Instruments i aparells mèdics. Equipament','','','',false,true);
+d.add(44,39,'615.8','<div class="nodetag">615.8</div></span>&nbsp;&nbsp;Fisioteràpia. Radioteràpia. Altres tractaments terapèutics no medicinals','615.8','Fisioteràpia. Radioteràpia. Altres tractaments terapèutics no medicinals','','','',false,true);
+d.add(45,39,'615.9','<div class="nodetag">615.9</div></span>&nbsp;&nbsp;Toxicologia. Estudis sobre els productes tòxics i la intoxicació (verins i enverinament)','615.9','Toxicologia. Estudis sobre els productes tòxics i la intoxicació (verins i enverinament)','','','',false,true);
+d.add(46,7,'616','<div class="nodetag">616</div></span>&nbsp;&nbsp;Patologia. Medicina clínica','616','Patologia. Medicina clínica','','','',false,true);
+d.add(47,46,'616-001/-009','<div class="nodetag">616-001/-009</div></span>&nbsp;&nbsp;Auxiliars especials per als processos mòrbids','616-001/-009','Auxiliars especials per als processos mòrbids','','','',false,true);
+d.add(48,47,'616-001','<div class="nodetag">616-001</div></span>&nbsp;&nbsp;Traumatismes. Lesions. Ferides','616-001','Traumatismes. Lesions. Ferides','','','',false,true);
+d.add(49,47,'616-002','<div class="nodetag">616-002</div></span>&nbsp;&nbsp;Inflamació. Irritació. Congestió','616-002','Inflamació. Irritació. Congestió','','','',false,true);
+d.add(50,47,'616-003','<div class="nodetag">616-003</div></span>&nbsp;&nbsp;Processos regressius i reparadors','616-003','Processos regressius i reparadors','','','',false,true);
+d.add(51,47,'616-004','<div class="nodetag">616-004</div></span>&nbsp;&nbsp;Esclerosi. Induració. Cirrosi','616-004','Esclerosi. Induració. Cirrosi','','','',false,true);
+d.add(52,47,'616-005','<div class="nodetag">616-005</div></span>&nbsp;&nbsp;Trastorns circulatoris locals','616-005','Trastorns circulatoris locals','','','',false,true);
+d.add(53,47,'616-006','<div class="nodetag">616-006</div></span>&nbsp;&nbsp;Tumors. Neoplàsies. Blastomes. Coristomes. Hamartomes. Oncologia','616-006','Tumors. Neoplàsies. Blastomes. Coristomes. Hamartomes. Oncologia','','','',false,true);
+d.add(54,47,'616-007','<div class="nodetag">616-007</div></span>&nbsp;&nbsp;Defectes estructurals del desenvolupament. Deformitats fisiològiques. Malformacions. Hemitèries. Òrgans atrofiats o hipertrofiats. Teratologia. Monstres. Anomalies','616-007','Defectes estructurals del desenvolupament. Deformitats fisiològiques. Malformacions. Hemitèries. Òrgans atrofiats o hipertrofiats. Teratologia. Monstres. Anomalies','','','',false,true);
+d.add(55,47,'616-008','<div class="nodetag">616-008</div></span>&nbsp;&nbsp;Trastorns funcionals i del metabolisme','616-008','Trastorns funcionals i del metabolisme','','','',false,true);
+d.add(56,47,'616-009','<div class="nodetag">616-009</div></span>&nbsp;&nbsp;Trastorns nerviosos','616-009','Trastorns nerviosos','','','',false,true);
+d.add(57,46,'616-01/-099','<div class="nodetag">616-01/-099</div></span>&nbsp;&nbsp;Auxiliars especials per a aspectes generals de la patologia','616-01/-099','Auxiliars especials per a aspectes generals de la patologia','','','',false,true);
+d.add(58,57,'616-01','<div class="nodetag">616-01</div></span>&nbsp;&nbsp;Aspectes diversos de la malaltia, dels pacients i de la intervenció mèdica','616-01','Aspectes diversos de la malaltia, dels pacients i de la intervenció mèdica','','','',false,true);
+d.add(59,57,'616-02','<div class="nodetag">616-02</div></span>&nbsp;&nbsp;Etiologia. Ciència de les causes de la malaltia','616-02','Etiologia. Ciència de les causes de la malaltia','','','',false,true);
+d.add(60,57,'616-03','<div class="nodetag">616-03</div></span>&nbsp;&nbsp;Formes diverses de les malalties, del tractament i de l\'administració de medicaments','616-03','Formes diverses de les malalties, del tractament i de l\'administració de medicaments','','','',false,true);
+d.add(61,57,'616-05','<div class="nodetag">616-05</div></span>&nbsp;&nbsp;Persones i característiques personals en la patologia. Característiques del pacient','616-05','Persones i característiques personals en la patologia. Característiques del pacient','','','',false,true);
+d.add(62,57,'616-06','<div class="nodetag">616-06</div></span>&nbsp;&nbsp;Complicacions. Seqüeles. Conseqüències. Repercussions. Coexistència, estats simultanis. Correlació. Malalties anteriors. Estat de salut anterior. Antagonisme entre dues malalties','616-06','Complicacions. Seqüeles. Conseqüències. Repercussions. Coexistència, estats simultanis. Correlació. Malalties anteriors. Estat de salut anterior. Antagonisme entre dues malalties','','','',false,true);
+d.add(63,57,'616-07','<div class="nodetag">616-07</div></span>&nbsp;&nbsp;Semiologia. Simptomatologia. Exploració. Diagnòstic. Propedèutica','616-07','Semiologia. Simptomatologia. Exploració. Diagnòstic. Propedèutica','','','',false,true);
+d.add(64,57,'616-08','<div class="nodetag">616-08</div></span>&nbsp;&nbsp;Tractament','616-08','Tractament','','','',false,true);
+d.add(65,57,'616-091','<div class="nodetag">616-091</div></span>&nbsp;&nbsp;Anatomia patològica. Autòpsia','616-091','Anatomia patològica. Autòpsia','','','',false,true);
+d.add(66,57,'616-092','<div class="nodetag">616-092</div></span>&nbsp;&nbsp;Fisiologia patològica. Processos, forma d\'acció de les malalties. Patogènia. Estudi de l\'origen de les malalties','616-092','Fisiologia patològica. Processos, forma d\'acció de les malalties. Patogènia. Estudi de l\'origen de les malalties','','','',false,true);
+d.add(67,57,'616-093','<div class="nodetag">616-093</div></span>&nbsp;&nbsp;Tècniques microbianes','616-093','Tècniques microbianes','','','',false,true);
+d.add(68,57,'616-094','<div class="nodetag">616-094</div></span>&nbsp;&nbsp;Morfologia microbiana','616-094','Morfologia microbiana','','','',false,true);
+d.add(69,57,'616-095','<div class="nodetag">616-095</div></span>&nbsp;&nbsp;Fisiologia microbiana','616-095','Fisiologia microbiana','','','',false,true);
+d.add(70,57,'616-097','<div class="nodetag">616-097</div></span>&nbsp;&nbsp;Immunogenicitat. Antígens','616-097','Immunogenicitat. Antígens','','','',false,true);
+d.add(71,57,'616-098','<div class="nodetag">616-098</div></span>&nbsp;&nbsp;Física microbiana. Química microbiana. Metabolisme microbià. Catabolisme microbià','616-098','Física microbiana. Química microbiana. Metabolisme microbià. Catabolisme microbià','','','',false,true);
+d.add(72,57,'616-099','<div class="nodetag">616-099</div></span>&nbsp;&nbsp;Enverinament. Intoxicació','616-099','Enverinament. Intoxicació','','','',false,true);
+d.add(73,46,'616-71/-78','<div class="nodetag">616-71/-78</div></span>&nbsp;&nbsp;Auxiliars especials per a l\'instrumental i l\'equipament mèdic i quirúrgic','616-71/-78','Auxiliars especials per a l\'instrumental i l\'equipament mèdic i quirúrgic','','','',false,true);
+d.add(74,73,'616-71','<div class="nodetag">616-71</div></span>&nbsp;&nbsp;Instrumental i equipament mèdic en general','616-71','Instrumental i equipament mèdic en general','','','',false,true);
+d.add(75,73,'616-72','<div class="nodetag">616-72</div></span>&nbsp;&nbsp;Instrumental quirúrgic i terapèutic','616-72','Instrumental quirúrgic i terapèutic','','','',false,true);
+d.add(76,73,'616-74','<div class="nodetag">616-74</div></span>&nbsp;&nbsp;Materials i equipament per al reforçament i la reparació','616-74','Materials i equipament per al reforçament i la reparació','','','',false,true);
+d.add(77,73,'616-76','<div class="nodetag">616-76</div></span>&nbsp;&nbsp;Aparells correctius i protectors, ajudes, etc.','616-76','Aparells correctius i protectors, ajudes, etc.','','','',false,true);
+d.add(78,73,'616-77','<div class="nodetag">616-77</div></span>&nbsp;&nbsp;Pròtesis i peces. Òrgans artificials, etc.','616-77','Pròtesis i peces. Òrgans artificials, etc.','','','',false,true);
+d.add(79,73,'616-78','<div class="nodetag">616-78</div></span>&nbsp;&nbsp;Màquines i aparells mecànics','616-78','Màquines i aparells mecànics','','','',false,true);
+d.add(80,46,'616.1/.9','<div class="nodetag">616.1/.9</div></span>&nbsp;&nbsp;Patologia especial','616.1/.9','Patologia especial','','','',false,true);
+d.add(81,80,'616.1','<div class="nodetag">616.1</div></span>&nbsp;&nbsp;Patologia de l\'aparell circulatori i dels vasos sanguinis. Trastorns cardiovasculars','616.1','Patologia de l\'aparell circulatori i dels vasos sanguinis. Trastorns cardiovasculars','','','',false,true);
+d.add(82,80,'616.2','<div class="nodetag">616.2</div></span>&nbsp;&nbsp;Patologia de l\'aparell respiratori. Malalties dels òrgans respiratoris','616.2','Patologia de l\'aparell respiratori. Malalties dels òrgans respiratoris','','','',false,true);
+d.add(83,80,'616.3','<div class="nodetag">616.3</div></span>&nbsp;&nbsp;Patologia de l\'aparell digestiu. Malalties del tracte digestiu','616.3','Patologia de l\'aparell digestiu. Malalties del tracte digestiu','','','',false,true);
+d.add(84,83,'616.31','<div class="nodetag">616.31</div></span>&nbsp;&nbsp;Estomatologia. Cavitat oral. Boca. Malalties de la boca i les dents','616.31','Estomatologia. Cavitat oral. Boca. Malalties de la boca i les dents','','','',false,true);
+d.add(85,80,'616.4','<div class="nodetag">616.4</div></span>&nbsp;&nbsp;Patologia del sistema limfàtic. Malalties dels òrgans del sistema endocrí, hematopoètic','616.4','Patologia del sistema limfàtic. Malalties dels òrgans del sistema endocrí, hematopoètic','','','',false,true);
+d.add(86,80,'616.5','<div class="nodetag">616.5</div></span>&nbsp;&nbsp;Pell. Integument comú. Dermatologia. Malalties cutànies','616.5','Pell. Integument comú. Dermatologia. Malalties cutànies','','','',false,true);
+d.add(87,80,'616.6','<div class="nodetag">616.6</div></span>&nbsp;&nbsp;Patologia de l\'aparell genitourinari. Malalties de l\'aparell urinari i genital','616.6','Patologia de l\'aparell genitourinari. Malalties de l\'aparell urinari i genital','','','',false,true);
+d.add(88,80,'616.7','<div class="nodetag">616.7</div></span>&nbsp;&nbsp;Patologia dels òrgans motors. Aparell locomotor i esquelètic','616.7','Patologia dels òrgans motors. Aparell locomotor i esquelètic','','','',false,true);
+d.add(89,80,'616.8','<div class="nodetag">616.8</div></span>&nbsp;&nbsp;Neurologia. Neuropatologia. Malalties del sistema nerviós','616.8','Neurologia. Neuropatologia. Malalties del sistema nerviós','','','',false,true);
+d.add(90,89,'616.89','<div class="nodetag">616.89</div></span>&nbsp;&nbsp;Psiquiatria. Patologies psiquiàtriques. Psicopatologia. Frenopatia. Psicosi. Trastorns mentals. Estats psíquics i mentals mòrbids. Trastorns emocionals i del comportament','616.89','Psiquiatria. Patologies psiquiàtriques. Psicopatologia. Frenopatia. Psicosi. Trastorns mentals. Estats psíquics i mentals mòrbids. Trastorns emocionals i del comportament','','','',false,true);
+d.add(91,80,'616.9','<div class="nodetag">616.9</div></span>&nbsp;&nbsp;Malalties transmissibles. Malalties infeccioses i contagioses','616.9','Malalties transmissibles. Malalties infeccioses i contagioses','','','',false,true);
+d.add(92,7,'617','<div class="nodetag">617</div></span>&nbsp;&nbsp;Cirurgia. Ortopèdia. Oftalmologia','617','Cirurgia. Ortopèdia. Oftalmologia','','','',false,true);
+d.add(93,92,'617.3','<div class="nodetag">617.3</div></span>&nbsp;&nbsp;Ortopèdia en general','617.3','Ortopèdia en general','','','',false,true);
+d.add(94,92,'617.7','<div class="nodetag">617.7</div></span>&nbsp;&nbsp;Oftalmologia. Malalties dels ulls i el seu tractament','617.7','Oftalmologia. Malalties dels ulls i el seu tractament','','','',false,true);
+d.add(95,7,'618','<div class="nodetag">618</div></span>&nbsp;&nbsp;Ginecologia. Obstetrícia','618','Ginecologia. Obstetrícia','','','',false,true);
+d.add(96,0,'62','<div class="nodetag">62</div></span>&nbsp;&nbsp;Enginyeria. Tecnologia en general','62','Enginyeria. Tecnologia en general','','','',false,true);
+d.add(97,96,'62-1/-9','<div class="nodetag">62-1/-9</div></span>&nbsp;&nbsp;Auxiliars especials per a les característiques i els detalls de les màquines, els aparells, les instal·lacions, els processos i els productes','62-1/-9','Auxiliars especials per a les característiques i els detalls de les màquines, els aparells, les instal·lacions, els processos i els productes','','','',false,true);
+d.add(98,97,'62-1','<div class="nodetag">62-1</div></span>&nbsp;&nbsp;Característiques generals de les màquines','62-1','Característiques generals de les màquines','','','',false,true);
+d.add(99,97,'62-2','<div class="nodetag">62-2</div></span>&nbsp;&nbsp;Parts fixes i mòbils. Peces i components de les màquines','62-2','Parts fixes i mòbils. Peces i components de les màquines','','','',false,true);
+d.add(100,97,'62-3','<div class="nodetag">62-3</div></span>&nbsp;&nbsp;Parts i elements per a la distribució i el control de fluids. Vàlvules, tancaments, etc.','62-3','Parts i elements per a la distribució i el control de fluids. Vàlvules, tancaments, etc.','','','',false,true);
+d.add(101,97,'62-4','<div class="nodetag">62-4</div></span>&nbsp;&nbsp;Estat, condició i forma dels materials, superfícies, objectes i productes','62-4','Estat, condició i forma dels materials, superfícies, objectes i productes','','','',false,true);
+d.add(102,97,'62-5','<div class="nodetag">62-5</div></span>&nbsp;&nbsp;Comandament, conducció, control i reglatge de les màquines','62-5','Comandament, conducció, control i reglatge de les màquines','','','',false,true);
+d.add(103,97,'62-6','<div class="nodetag">62-6</div></span>&nbsp;&nbsp;Combustible i altres fonts de calor','62-6','Combustible i altres fonts de calor','','','',false,true);
+d.add(104,97,'62-7','<div class="nodetag">62-7</div></span>&nbsp;&nbsp;Dispositius de manteniment i protecció de les màquines','62-7','Dispositius de manteniment i protecció de les màquines','','','',false,true);
+d.add(105,97,'62-8','<div class="nodetag">62-8</div></span>&nbsp;&nbsp;Màquines segons la força motora i la força de propulsió utilitzada. Font d\'energia de les màquines','62-8','Màquines segons la força motora i la força de propulsió utilitzada. Font d\'energia de les màquines','','','',false,true);
+d.add(106,97,'62-9','<div class="nodetag">62-9</div></span>&nbsp;&nbsp;Variables, condicions i característiques dels processos de producció, de la planta i de l\'equipament','62-9','Variables, condicions i característiques dels processos de producció, de la planta i de l\'equipament','','','',false,true);
+d.add(107,106,'62-91','<div class="nodetag">62-91</div></span>&nbsp;&nbsp;Estat dels materials: característiques i variables','62-91','Estat dels materials: característiques i variables','','','',false,true);
+d.add(108,106,'62-92','<div class="nodetag">62-92</div></span>&nbsp;&nbsp;Reactius. Reaccions als reactius','62-92','Reactius. Reaccions als reactius','','','',false,true);
+d.add(109,106,'62-93','<div class="nodetag">62-93</div></span>&nbsp;&nbsp;Processos i equipament d\'acord amb les operacions, la continuïtat, les associacions i els mitjans','62-93','Processos i equipament d\'acord amb les operacions, la continuïtat, les associacions i els mitjans','','','',false,true);
+d.add(110,106,'62-94','<div class="nodetag">62-94</div></span>&nbsp;&nbsp;Direcció, velocitat, freqüència, durada dels processos, etc.','62-94','Direcció, velocitat, freqüència, durada dels processos, etc.','','','',false,true);
+d.add(111,106,'62-95','<div class="nodetag">62-95</div></span>&nbsp;&nbsp;Processos senzills i múltiples. Processos en una sola etapa i en diverses etapes','62-95','Processos senzills i múltiples. Processos en una sola etapa i en diverses etapes','','','',false,true);
+d.add(112,106,'62-96','<div class="nodetag">62-96</div></span>&nbsp;&nbsp;Processos que alteren les propietats del producte. Modificació del producte','62-96','Processos que alteren les propietats del producte. Modificació del producte','','','',false,true);
+d.add(113,106,'62-97','<div class="nodetag">62-97</div></span>&nbsp;&nbsp;Característiques tèrmiques. Temperatura. Rang de temperatura','62-97','Característiques tèrmiques. Temperatura. Rang de temperatura','','','',false,true);
+d.add(114,106,'62-98','<div class="nodetag">62-98</div></span>&nbsp;&nbsp;Pressió. Rang de pressió','62-98','Pressió. Rang de pressió','','','',false,true);
+d.add(115,96,'620','<div class="nodetag">620</div></span>&nbsp;&nbsp;Materials i energia. Assaig de materials. Mercaderies. Centrals d\'energia. Activitats econòmiques de l\'energia','620','Materials i energia. Assaig de materials. Mercaderies. Centrals d\'energia. Activitats econòmiques de l\'energia','','','',false,true);
+d.add(116,115,'620.3','<div class="nodetag">620.3</div></span>&nbsp;&nbsp;Nanotecnologia','620.3','Nanotecnologia','','','',false,true);
+d.add(117,115,'620.9','<div class="nodetag">620.9</div></span>&nbsp;&nbsp;Activitats econòmiques i producció d\'energia en general','620.9','Activitats econòmiques i producció d\'energia en general','','','',false,true);
+d.add(118,96,'621','<div class="nodetag">621</div></span>&nbsp;&nbsp;Enginyeria mecànica en general. Tecnologia nuclear. Enginyeria elèctrica. Maquinària','621','Enginyeria mecànica en general. Tecnologia nuclear. Enginyeria elèctrica. Maquinària','','','',false,true);
+d.add(119,118,'621.1','<div class="nodetag">621.1</div></span>&nbsp;&nbsp;Màquines tèrmiques en general. Producció, distribució i utilització del vapor. Màquines de vapor. Calderes','621.1','Màquines tèrmiques en general. Producció, distribució i utilització del vapor. Màquines de vapor. Calderes','','','',false,true);
+d.add(120,118,'621.22','<div class="nodetag">621.22</div></span>&nbsp;&nbsp;Energia hidràulica. Energia hidroelèctrica. Maquinària hidràulica','621.22','Energia hidràulica. Energia hidroelèctrica. Maquinària hidràulica','','','',false,true);
+d.add(121,118,'621.3','<div class="nodetag">621.3</div></span>&nbsp;&nbsp;Enginyeria elèctrica. Electrotècnia','621.3','Enginyeria elèctrica. Electrotècnia','','','',false,true);
+d.add(122,118,'621.4','<div class="nodetag">621.4</div></span>&nbsp;&nbsp;Motors tèrmics (excepte les màquines de vapor)','621.4','Motors tèrmics (excepte les màquines de vapor)','','','',false,true);
+d.add(123,118,'621.5','<div class="nodetag">621.5</div></span>&nbsp;&nbsp;Energia pneumàtica. Maquinària i dispositius pneumàtics. Refrigeració','621.5','Energia pneumàtica. Maquinària i dispositius pneumàtics. Refrigeració','','','',false,true);
+d.add(124,118,'621.6','<div class="nodetag">621.6</div></span>&nbsp;&nbsp;Conducció, emmagatzematge i distribució de fluids','621.6','Conducció, emmagatzematge i distribució de fluids','','','',false,true);
+d.add(125,118,'621.7','<div class="nodetag">621.7</div></span>&nbsp;&nbsp;Tecnologia mecànica en general. Processos, eines, màquines i equipament','621.7','Tecnologia mecànica en general. Processos, eines, màquines i equipament','','','',false,true);
+d.add(126,118,'621.8','<div class="nodetag">621.8</div></span>&nbsp;&nbsp;Components de les màquines. Transmissió i transformació del moviment. Òrgans de fixació. Greixatge i lubrificació','621.8','Components de les màquines. Transmissió i transformació del moviment. Òrgans de fixació. Greixatge i lubrificació','','','',false,true);
+d.add(127,118,'621.9','<div class="nodetag">621.9</div></span>&nbsp;&nbsp;Màquines-eines. Treball mecanitzat amb formació d\'encenalls. Treball abrasiu. Martells i premses','621.9','Màquines-eines. Treball mecanitzat amb formació d\'encenalls. Treball abrasiu. Martells i premses','','','',false,true);
+d.add(128,96,'622','<div class="nodetag">622</div></span>&nbsp;&nbsp;Mineria','622','Mineria','','','',false,true);
+d.add(129,128,'622.1','<div class="nodetag">622.1</div></span>&nbsp;&nbsp;Estudis preliminars. Prospecció i cartografia mineres. Exploració dels jaciments miners (superficial i subterrània)','622.1','Estudis preliminars. Prospecció i cartografia mineres. Exploració dels jaciments miners (superficial i subterrània)','','','',false,true);
+d.add(130,128,'622.2','<div class="nodetag">622.2</div></span>&nbsp;&nbsp;Operacions d\'explotació minera. Treballs de preparació, sondatge, desenvolupament, extracció i explotació de jaciments miners','622.2','Operacions d\'explotació minera. Treballs de preparació, sondatge, desenvolupament, extracció i explotació de jaciments miners','','','',false,true);
+d.add(131,128,'622.3','<div class="nodetag">622.3</div></span>&nbsp;&nbsp;Extracció de minerals, menes i roques específiques','622.3','Extracció de minerals, menes i roques específiques','','','',false,true);
+d.add(132,128,'622.4','<div class="nodetag">622.4</div></span>&nbsp;&nbsp;Ventilació, climatització, calefacció i il·luminació de les mines','622.4','Ventilació, climatització, calefacció i il·luminació de les mines','','','',false,true);
+d.add(133,128,'622.5','<div class="nodetag">622.5</div></span>&nbsp;&nbsp;Drenatge de les mines. Extracció d\'aigua','622.5','Drenatge de les mines. Extracció d\'aigua','','','',false,true);
+d.add(134,128,'622.6','<div class="nodetag">622.6</div></span>&nbsp;&nbsp;Extracció i elevació dels minerals. Manipulació. Transport per superfície','622.6','Extracció i elevació dels minerals. Manipulació. Transport per superfície','','','',false,true);
+d.add(135,128,'622.7','<div class="nodetag">622.7</div></span>&nbsp;&nbsp;Tractament i preparació dels minerals. Separació dels minerals','622.7','Tractament i preparació dels minerals. Separació dels minerals','','','',false,true);
+d.add(136,128,'622.8','<div class="nodetag">622.8</div></span>&nbsp;&nbsp;Riscos, accidents i danys a les mines. Mesures de protecció i seguretat a les mines','622.8','Riscos, accidents i danys a les mines. Mesures de protecció i seguretat a les mines','','','',false,true);
+d.add(137,96,'623','<div class="nodetag">623</div></span>&nbsp;&nbsp;Enginyeria militar','623','Enginyeria militar','','','',false,true);
+d.add(138,137,'623.1/.7','<div class="nodetag">623.1/.7</div></span>&nbsp;&nbsp;Enginyeria militar terrestre. Artilleria','623.1/.7','Enginyeria militar terrestre. Artilleria','','','',false,true);
+d.add(139,138,'623.1/.3','<div class="nodetag">623.1/.3</div></span>&nbsp;&nbsp;Enginyeria de campanya. Fortificacions. Obres de defensa','623.1/.3','Enginyeria de campanya. Fortificacions. Obres de defensa','','','',false,true);
+d.add(140,139,'623.1','<div class="nodetag">623.1</div></span>&nbsp;&nbsp;Fortaleses. Fortificacions permanents. Línies i zones fortificades','623.1','Fortaleses. Fortificacions permanents. Línies i zones fortificades','','','',false,true);
+d.add(141,139,'623.2','<div class="nodetag">623.2</div></span>&nbsp;&nbsp;Operacions d\'atac i defensa. Operacions de setge. Fortificacions de campanya. Trinxeres','623.2','Operacions d\'atac i defensa. Operacions de setge. Fortificacions de campanya. Trinxeres','','','',false,true);
+d.add(142,139,'623.3','<div class="nodetag">623.3</div></span>&nbsp;&nbsp;Camps de mines. Obstacles de campanya. Inundacions','623.3','Camps de mines. Obstacles de campanya. Inundacions','','','',false,true);
+d.add(143,138,'623.4','<div class="nodetag">623.4</div></span>&nbsp;&nbsp;Armament. Artilleria. Armes de foc. Blindats i altres vehicles militars. Municions i gasos de combat. Míssils i coets','623.4','Armament. Artilleria. Armes de foc. Blindats i altres vehicles militars. Municions i gasos de combat. Míssils i coets','','','',false,true);
+d.add(144,138,'623.5','<div class="nodetag">623.5</div></span>&nbsp;&nbsp;Balística. Pràctica de tir. Qüestions teòriques i experimentals de l\'artilleria','623.5','Balística. Pràctica de tir. Qüestions teòriques i experimentals de l\'artilleria','','','',false,true);
+d.add(145,138,'623.6','<div class="nodetag">623.6</div></span>&nbsp;&nbsp;Operacions i equipament d\'enginyeria de campanya. Línies de comunicació i transmissions. Mesures antiradar. Topografia militar','623.6','Operacions i equipament d\'enginyeria de campanya. Línies de comunicació i transmissions. Mesures antiradar. Topografia militar','','','',false,true);
+d.add(146,138,'623.7','<div class="nodetag">623.7</div></span>&nbsp;&nbsp;Aviació militar. Defensa aèria','623.7','Aviació militar. Defensa aèria','','','',false,true);
+d.add(147,137,'623.8/.9','<div class="nodetag">623.8/.9</div></span>&nbsp;&nbsp;Enginyeria militar naval','623.8/.9','Enginyeria militar naval','','','',false,true);
+d.add(148,147,'623.8','<div class="nodetag">623.8</div></span>&nbsp;&nbsp;Construcció naval. Bases navals. Vaixells de guerra','623.8','Construcció naval. Bases navals. Vaixells de guerra','','','',false,true);
+d.add(149,147,'623.9','<div class="nodetag">623.9</div></span>&nbsp;&nbsp;Material i equipament de les forces navals. Protecció i armament dels vaixells. Defenses submarines','623.9','Material i equipament de les forces navals. Protecció i armament dels vaixells. Defenses submarines','','','',false,true);
+d.add(150,96,'624','<div class="nodetag">624</div></span>&nbsp;&nbsp;Enginyeria civil i de la construcció','624','Enginyeria civil i de la construcció','','','',false,true);
+d.add(151,150,'624.01/.07','<div class="nodetag">624.01/.07</div></span>&nbsp;&nbsp;Auxiliars especials per a l\'enginyeria civil i de la construcció','624.01/.07','Auxiliars especials per a l\'enginyeria civil i de la construcció','','','',false,true);
+d.add(152,151,'624.01','<div class="nodetag">624.01</div></span>&nbsp;&nbsp;Estructures i elements estructurals segons els materials emprats i els procediments de construcció','624.01','Estructures i elements estructurals segons els materials emprats i els procediments de construcció','','','',false,true);
+d.add(153,151,'624.03','<div class="nodetag">624.03</div></span>&nbsp;&nbsp;Dimensions, permanència, emplaçament i forma de les estructures','624.03','Dimensions, permanència, emplaçament i forma de les estructures','','','',false,true);
+d.add(154,151,'624.04','<div class="nodetag">624.04</div></span>&nbsp;&nbsp;Disseny estructural. Estàtica gràfica i analítica per la recerca i el càlcul d\'estructures','624.04','Disseny estructural. Estàtica gràfica i analítica per la recerca i el càlcul d\'estructures','','','',false,true);
+d.add(155,151,'624.05','<div class="nodetag">624.05</div></span>&nbsp;&nbsp;Emplaçament, organització i instal·lació. Procediments de construcció','624.05','Emplaçament, organització i instal·lació. Procediments de construcció','','','',false,true);
+d.add(156,151,'624.07','<div class="nodetag">624.07</div></span>&nbsp;&nbsp;Elements estructurals. Suports de càrregues','624.07','Elements estructurals. Suports de càrregues','','','',false,true);
+d.add(157,150,'624.1','<div class="nodetag">624.1</div></span>&nbsp;&nbsp;Construccions subterrànies. Moviment de terres. Terraplenament. Fonaments. Túnels','624.1','Construccions subterrànies. Moviment de terres. Terraplenament. Fonaments. Túnels','','','',false,true);
+d.add(158,150,'624.21/.8','<div class="nodetag">624.21/.8</div></span>&nbsp;&nbsp;Construcció de ponts','624.21/.8','Construcció de ponts','','','',false,true);
+d.add(159,158,'624.3','<div class="nodetag">624.3</div></span>&nbsp;&nbsp;Ponts entramats (ponts amb bigues entramades, amb carcassa o armadura oberta)','624.3','Ponts entramats (ponts amb bigues entramades, amb carcassa o armadura oberta)','','','',false,true);
+d.add(160,158,'624.5','<div class="nodetag">624.5</div></span>&nbsp;&nbsp;Ponts penjants. Ponts suspesos','624.5','Ponts penjants. Ponts suspesos','','','',false,true);
+d.add(161,158,'624.6','<div class="nodetag">624.6</div></span>&nbsp;&nbsp;Ponts en arc','624.6','Ponts en arc','','','',false,true);
+d.add(162,158,'624.8','<div class="nodetag">624.8</div></span>&nbsp;&nbsp;Ponts mòbils','624.8','Ponts mòbils','','','',false,true);
+d.add(163,150,'624.9','<div class="nodetag">624.9</div></span>&nbsp;&nbsp;Superestructures (excepte ponts). Construccions de gran extensió','624.9','Superestructures (excepte ponts). Construccions de gran extensió','','','',false,true);
+d.add(164,96,'625','<div class="nodetag">625</div></span>&nbsp;&nbsp;Enginyeria del transport i de les vies de comunicació terrestres. Xarxes ferroviàries i viàries','625','Enginyeria del transport i de les vies de comunicació terrestres. Xarxes ferroviàries i viàries','','','',false,true);
+d.add(165,164,'625.1/.5','<div class="nodetag">625.1/.5</div></span>&nbsp;&nbsp;Xarxa ferroviària. Ferrocarrils. Tramvies. Funiculars','625.1/.5','Xarxa ferroviària. Ferrocarrils. Tramvies. Funiculars','','','',false,true);
+d.add(166,165,'625.1','<div class="nodetag">625.1</div></span>&nbsp;&nbsp;Xarxa ferroviària en general . Construcció de vies fèrries','625.1','Xarxa ferroviària en general . Construcció de vies fèrries','','','',false,true);
+d.add(167,165,'625.5','<div class="nodetag">625.5</div></span>&nbsp;&nbsp;Ferrocarrils de tracció per mitjà de cables. Funiculars. Telefèrics','625.5','Ferrocarrils de tracció per mitjà de cables. Funiculars. Telefèrics','','','',false,true);
+d.add(168,164,'625.7/.8','<div class="nodetag">625.7/.8</div></span>&nbsp;&nbsp;Xarxa viària. Construcció de carreteres','625.7/.8','Xarxa viària. Construcció de carreteres','','','',false,true);
+d.add(169,168,'625.7','<div class="nodetag">625.7</div></span>&nbsp;&nbsp;Carreteres en general. Camins. Autovies. Autopistes. Carrers. Calçada. Xarxa viària urbana i rural','625.7','Carreteres en general. Camins. Autovies. Autopistes. Carrers. Calçada. Xarxa viària urbana i rural','','','',false,true);
+d.add(170,168,'625.8','<div class="nodetag">625.8</div></span>&nbsp;&nbsp;Pavimentació de carreteres. Treballs i materials d\'asfaltatge, empedrament i engravament de camins i carreteres','625.8','Pavimentació de carreteres. Treballs i materials d\'asfaltatge, empedrament i engravament de camins i carreteres','','','',false,true);
+d.add(171,96,'626/627','<div class="nodetag">626/627</div></span>&nbsp;&nbsp;Enginyeria hidràulica. Estructures hidràuliques','626/627','Enginyeria hidràulica. Estructures hidràuliques','','','',false,true);
+d.add(172,171,'626','<div class="nodetag">626</div></span>&nbsp;&nbsp;Enginyeria hidràulica en general','626','Enginyeria hidràulica en general','','','',false,true);
+d.add(173,172,'626.1','<div class="nodetag">626.1</div></span>&nbsp;&nbsp;Vies de navegació interior. Canals navegables. Rius canalitzats','626.1','Vies de navegació interior. Canals navegables. Rius canalitzats','','','',false,true);
+d.add(174,172,'626.4','<div class="nodetag">626.4</div></span>&nbsp;&nbsp;Rescloses','626.4','Rescloses','','','',false,true);
+d.add(175,172,'626.5','<div class="nodetag">626.5</div></span>&nbsp;&nbsp;Aparells elevadors i rampes per a les embarcacions','626.5','Aparells elevadors i rampes per a les embarcacions','','','',false,true);
+d.add(176,172,'626.8','<div class="nodetag">626.8</div></span>&nbsp;&nbsp;Hidràulica agrícola. Enginyeria de la irrigació i del drenatge','626.8','Hidràulica agrícola. Enginyeria de la irrigació i del drenatge','','','',false,true);
+d.add(177,172,'626.9','<div class="nodetag">626.9</div></span>&nbsp;&nbsp;Canals marítims','626.9','Canals marítims','','','',false,true);
+d.add(178,171,'627','<div class="nodetag">627</div></span>&nbsp;&nbsp;Construccions en els corrents naturals d\'aigua i en el mar. Enginyeria dels ports i de les costes. Instal·lacions per a la navegació, el dragatge, el salvament i el rescat marítims. Preses i centrals hidroelèctriques','627','Construccions en els corrents naturals d\'aigua i en el mar. Enginyeria dels ports i de les costes. Instal·lacions per a la navegació, el dragatge, el salvament i el rescat marítims. Preses i centrals hidroelèctriques','','','',false,true);
+d.add(179,178,'627.2','<div class="nodetag">627.2</div></span>&nbsp;&nbsp;Ports i rades','627.2','Ports i rades','','','',false,true);
+d.add(180,178,'627.3','<div class="nodetag">627.3</div></span>&nbsp;&nbsp;Instal·lacions i equipament interiors dels ports. Dàrsenes. Docs. Molls. Embarcadors','627.3','Instal·lacions i equipament interiors dels ports. Dàrsenes. Docs. Molls. Embarcadors','','','',false,true);
+d.add(181,178,'627.4','<div class="nodetag">627.4</div></span>&nbsp;&nbsp;Defenses dels rius. Rectificació del curs dels rius i les rieres. Altres treballs de protecció i millora dels corrents fluvials','627.4','Defenses dels rius. Rectificació del curs dels rius i les rieres. Altres treballs de protecció i millora dels corrents fluvials','','','',false,true);
+d.add(182,178,'627.5','<div class="nodetag">627.5</div></span>&nbsp;&nbsp;Altres treballs de defensa i millora dels corrents d\'aigua. Dics. Defensa del litoral. Dessecació i regeneració del litoral','627.5','Altres treballs de defensa i millora dels corrents d\'aigua. Dics. Defensa del litoral. Dessecació i regeneració del litoral','','','',false,true);
+d.add(183,178,'627.7','<div class="nodetag">627.7</div></span>&nbsp;&nbsp;Instal·lacions per a la navegació. Manteniment dels canals i des ports. Salvament i rescat marítims','627.7','Instal·lacions per a la navegació. Manteniment dels canals i des ports. Salvament i rescat marítims','','','',false,true);
+d.add(184,178,'627.8','<div class="nodetag">627.8</div></span>&nbsp;&nbsp;Preses. Centrals hidroelèctriques','627.8','Preses. Centrals hidroelèctriques','','','',false,true);
+d.add(185,96,'628','<div class="nodetag">628</div></span>&nbsp;&nbsp;Enginyeria sanitària i ambiental. Aigua. Sanejament. Enllumenat','628','Enginyeria sanitària i ambiental. Aigua. Sanejament. Enllumenat','','','',false,true);
+d.add(186,185,'628.1','<div class="nodetag">628.1</div></span>&nbsp;&nbsp;Abastament d\'aigua. Tractament de l\'aigua. Consum d\'aigua','628.1','Abastament d\'aigua. Tractament de l\'aigua. Consum d\'aigua','','','',false,true);
+d.add(187,185,'628.2','<div class="nodetag">628.2</div></span>&nbsp;&nbsp;Eliminació d\'aigües residuals urbanes. Clavegueram','628.2','Eliminació d\'aigües residuals urbanes. Clavegueram','','','',false,true);
+d.add(188,185,'628.3','<div class="nodetag">628.3</div></span>&nbsp;&nbsp;Aigües residuals. Tractament, eliminació i utilització','628.3','Aigües residuals. Tractament, eliminació i utilització','','','',false,true);
+d.add(189,185,'628.4','<div class="nodetag">628.4</div></span>&nbsp;&nbsp;Sanejament urbà. Residus i rebuigs. Escombraries. Recollida i tractament de residus urbans','628.4','Sanejament urbà. Residus i rebuigs. Escombraries. Recollida i tractament de residus urbans','','','',false,true);
+d.add(190,185,'628.5','<div class="nodetag">628.5</div></span>&nbsp;&nbsp;Tecnologia sanitària industrial. Mesures contra les molèsties industrials i altres','628.5','Tecnologia sanitària industrial. Mesures contra les molèsties industrials i altres','','','',false,true);
+d.add(191,185,'628.6','<div class="nodetag">628.6</div></span>&nbsp;&nbsp;Instal·lacions sanitàries i de desguàs dels edificis (particularment pel que fa als requeriments de salut pública)','628.6','Instal·lacions sanitàries i de desguàs dels edificis (particularment pel que fa als requeriments de salut pública)','','','',false,true);
+d.add(192,185,'628.8','<div class="nodetag">628.8</div></span>&nbsp;&nbsp;Climatització. Aire condicionat. Calefacció. Ventilació','628.8','Climatització. Aire condicionat. Calefacció. Ventilació','','','',false,true);
+d.add(193,185,'628.9','<div class="nodetag">628.9</div></span>&nbsp;&nbsp;Enllumenat. Tècnica de l\'enllumenat','628.9','Enllumenat. Tècnica de l\'enllumenat','','','',false,true);
+d.add(194,96,'629','<div class="nodetag">629</div></span>&nbsp;&nbsp;Enginyeria dels vehicles de transport','629','Enginyeria dels vehicles de transport','','','',false,true);
+d.add(195,194,'629.01/.08','<div class="nodetag">629.01/.08</div></span>&nbsp;&nbsp;Auxiliars especials per a l\'enginyeria dels vehicles de transport','629.01/.08','Auxiliars especials per a l\'enginyeria dels vehicles de transport','','','',false,true);
+d.add(196,195,'629.01','<div class="nodetag">629.01</div></span>&nbsp;&nbsp;Principis del disseny de vehicles: característiques, capacitat, assaigs','629.01','Principis del disseny de vehicles: característiques, capacitat, assaigs','','','',false,true);
+d.add(197,195,'629.02','<div class="nodetag">629.02</div></span>&nbsp;&nbsp;Estructura del vehicle. Concepció i principis de la construcció. Disposició general i parts dels vehicles','629.02','Estructura del vehicle. Concepció i principis de la construcció. Disposició general i parts dels vehicles','','','',false,true);
+d.add(198,195,'629.03','<div class="nodetag">629.03</div></span>&nbsp;&nbsp;Sistemes de propulsió','629.03','Sistemes de propulsió','','','',false,true);
+d.add(199,195,'629.04','<div class="nodetag">629.04</div></span>&nbsp;&nbsp;Disposició de l\'interior del vehicle: espai, instal·lacions i equipament per a les persones i les mercaderies','629.04','Disposició de l\'interior del vehicle: espai, instal·lacions i equipament per a les persones i les mercaderies','','','',false,true);
+d.add(200,195,'629.05','<div class="nodetag">629.05</div></span>&nbsp;&nbsp;Sistemes i instruments de bord per a la direcció, la conducció, la navegació i el control','629.05','Sistemes i instruments de bord per a la direcció, la conducció, la navegació i el control','','','',false,true);
+d.add(201,195,'629.06','<div class="nodetag">629.06</div></span>&nbsp;&nbsp;Sistemes i dispositius auxiliars dels vehicles','629.06','Sistemes i dispositius auxiliars dels vehicles','','','',false,true);
+d.add(202,195,'629.07','<div class="nodetag">629.07</div></span>&nbsp;&nbsp;Aspectes tècnics i operatius del funcionament dels vehicles. Maniobra i navegació','629.07','Aspectes tècnics i operatius del funcionament dels vehicles. Maniobra i navegació','','','',false,true);
+d.add(203,195,'629.08','<div class="nodetag">629.08</div></span>&nbsp;&nbsp;Equipament de base, instal·lacions i procediments tècnics de servei','629.08','Equipament de base, instal·lacions i procediments tècnics de servei','','','',false,true);
+d.add(204,194,'629.3','<div class="nodetag">629.3</div></span>&nbsp;&nbsp;Vehicles terrestres (excepte vehicles ferroviaris)','629.3','Vehicles terrestres (excepte vehicles ferroviaris)','','','',false,true);
+d.add(205,194,'629.4','<div class="nodetag">629.4</div></span>&nbsp;&nbsp;Ferrocarrils. Locomotores. Material rodant. Estacions ferroviàries. Instal·lacions i serveis del material rodant','629.4','Ferrocarrils. Locomotores. Material rodant. Estacions ferroviàries. Instal·lacions i serveis del material rodant','','','',false,true);
+d.add(206,194,'629.5','<div class="nodetag">629.5</div></span>&nbsp;&nbsp;Enginyeria naval. Embarcacions. Vaixells. Construcció naval','629.5','Enginyeria naval. Embarcacions. Vaixells. Construcció naval','','','',false,true);
+d.add(207,194,'629.7','<div class="nodetag">629.7</div></span>&nbsp;&nbsp;Enginyeria aeroespacial. Aeronàutica i aviació. Coets i míssils. Astronàutica i vehicles espacials','629.7','Enginyeria aeroespacial. Aeronàutica i aviació. Coets i míssils. Astronàutica i vehicles espacials','','','',false,true);
+d.add(208,0,'63','<div class="nodetag">63</div></span>&nbsp;&nbsp;Agricultura i ciències relacionades. Silvicultura. Zootècnia. Explotació dels recursos naturals','63','Agricultura i ciències relacionades. Silvicultura. Zootècnia. Explotació dels recursos naturals','','','',false,true);
+d.add(209,208,'630','<div class="nodetag">630</div></span>&nbsp;&nbsp;Silvicultura. Ciència forestal','630','Silvicultura. Ciència forestal','','','',false,true);
+d.add(210,209,'630*0','<div class="nodetag">630*0</div></span>&nbsp;&nbsp;Boscos, ciència forestal i utilització dels productes forestals en general','630*0','Boscos, ciència forestal i utilització dels productes forestals en general','','','',false,true);
+d.add(211,209,'630*1','<div class="nodetag">630*1</div></span>&nbsp;&nbsp;Factors ambientals dels boscos. Biologia forestal','630*1','Factors ambientals dels boscos. Biologia forestal','','','',false,true);
+d.add(212,209,'630*2','<div class="nodetag">630*2</div></span>&nbsp;&nbsp;Silvicultura pròpiament dita. Producció i explotació dels recursos forestals','630*2','Silvicultura pròpiament dita. Producció i explotació dels recursos forestals','','','',false,true);
+d.add(213,209,'630*3','<div class="nodetag">630*3</div></span>&nbsp;&nbsp;Enginyeria forestal. Estudis científics i racionalització del treball forestal. Explotació de la fusta: tala i transport','630*3','Enginyeria forestal. Estudis científics i racionalització del treball forestal. Explotació de la fusta: tala i transport','','','',false,true);
+d.add(214,209,'630*4','<div class="nodetag">630*4</div></span>&nbsp;&nbsp;Danys i protecció dels boscos','630*4','Danys i protecció dels boscos','','','',false,true);
+d.add(215,209,'630*5','<div class="nodetag">630*5</div></span>&nbsp;&nbsp;Dendrometria. Cubicació i edat dels arbres. Creixement, desenvolupament i estructura de les masses forestals. Inventaris forestals. Amidament i cartografia','630*5','Dendrometria. Cubicació i edat dels arbres. Creixement, desenvolupament i estructura de les masses forestals. Inventaris forestals. Amidament i cartografia','','','',false,true);
+d.add(216,209,'630*6','<div class="nodetag">630*6</div></span>&nbsp;&nbsp;Gestió forestal. Ordenació dels boscos. Economia de les explotacions forestals. Administració i organització de la indústria forestal','630*6','Gestió forestal. Ordenació dels boscos. Economia de les explotacions forestals. Administració i organització de la indústria forestal','','','',false,true);
+d.add(217,209,'630*7','<div class="nodetag">630*7</div></span>&nbsp;&nbsp;Comerç i màrqueting dels productes forestals. Economia del transport forestal i de la indústria de la fusta','630*7','Comerç i màrqueting dels productes forestals. Economia del transport forestal i de la indústria de la fusta','','','',false,true);
+d.add(218,209,'630*8','<div class="nodetag">630*8</div></span>&nbsp;&nbsp;Productes forestals i la seva utilització','630*8','Productes forestals i la seva utilització','','','',false,true);
+d.add(219,209,'630*9','<div class="nodetag">630*9</div></span>&nbsp;&nbsp;Política forestal. Aspectes socioeconòmics dels boscos','630*9','Política forestal. Aspectes socioeconòmics dels boscos','','','',false,true);
+d.add(220,208,'631/635','<div class="nodetag">631/635</div></span>&nbsp;&nbsp;Gestió de les explotacions agrícoles. Agronomia. Horticultura','631/635','Gestió de les explotacions agrícoles. Agronomia. Horticultura','','','',false,true);
+d.add(221,220,'631','<div class="nodetag">631</div></span>&nbsp;&nbsp;Agricultura en general','631','Agricultura en general','','','',false,true);
+d.add(222,221,'631.1','<div class="nodetag">631.1</div></span>&nbsp;&nbsp;Gestió i organització de les explotacions agrícoles','631.1','Gestió i organització de les explotacions agrícoles','','','',false,true);
+d.add(223,221,'631.2','<div class="nodetag">631.2</div></span>&nbsp;&nbsp;Edificis, estructures i instal·lacions agrícoles. Edificis per al bestiar i per als productes agrícoles, la maquinària i l\'equipament agrícoles','631.2','Edificis, estructures i instal·lacions agrícoles. Edificis per al bestiar i per als productes agrícoles, la maquinària i l\'equipament agrícoles','','','',false,true);
+d.add(224,221,'631.3','<div class="nodetag">631.3</div></span>&nbsp;&nbsp;Maquinària agrícola. Eines i equipament agrícoles','631.3','Maquinària agrícola. Eines i equipament agrícoles','','','',false,true);
+d.add(225,221,'631.4','<div class="nodetag">631.4</div></span>&nbsp;&nbsp;Ciència del sòl. Sòls per al conreu. Edafologia. Pedologia','631.4','Ciència del sòl. Sòls per al conreu. Edafologia. Pedologia','','','',false,true);
+d.add(226,221,'631.5','<div class="nodetag">631.5</div></span>&nbsp;&nbsp;Treballs agrícoles. Operacions i mètodes de conreu','631.5','Treballs agrícoles. Operacions i mètodes de conreu','','','',false,true);
+d.add(227,221,'631.6','<div class="nodetag">631.6</div></span>&nbsp;&nbsp;Enginyeria rural. Enginyeria agrònoma','631.6','Enginyeria rural. Enginyeria agrònoma','','','',false,true);
+d.add(228,221,'631.8','<div class="nodetag">631.8</div></span>&nbsp;&nbsp;Fertilitzants, adobs i enriquiment del sòl. Potenciadors del creixement de les plantes. Estimulants vegetals','631.8','Fertilitzants, adobs i enriquiment del sòl. Potenciadors del creixement de les plantes. Estimulants vegetals','','','',false,true);
+d.add(229,220,'632','<div class="nodetag">632</div></span>&nbsp;&nbsp;Malalties i protecció de les plantes. Danys i afeccions de les plantes. Fitopatologia. Plagues i organismes perjudicials per a les plantes','632','Malalties i protecció de les plantes. Danys i afeccions de les plantes. Fitopatologia. Plagues i organismes perjudicials per a les plantes','','','',false,true);
+d.add(230,220,'633/635','<div class="nodetag">633/635</div></span>&nbsp;&nbsp;Horticultura en general. Conreus específics','633/635','Horticultura en general. Conreus específics','','','',false,true);
+d.add(231,230,'633','<div class="nodetag">633</div></span>&nbsp;&nbsp;Conreus i producció de plantes de conreu','633','Conreus i producció de plantes de conreu','','','',false,true);
+d.add(232,231,'633.1','<div class="nodetag">633.1</div></span>&nbsp;&nbsp;Cereals','633.1','Cereals','','','',false,true);
+d.add(233,231,'633.2','<div class="nodetag">633.2</div></span>&nbsp;&nbsp;Plantes farratgeres herbàcies. Prats. Pasturatges','633.2','Plantes farratgeres herbàcies. Prats. Pasturatges','','','',false,true);
+d.add(234,231,'633.3','<div class="nodetag">633.3</div></span>&nbsp;&nbsp;Plantes farratgeres no herbàcies','633.3','Plantes farratgeres no herbàcies','','','',false,true);
+d.add(235,231,'633.4','<div class="nodetag">633.4</div></span>&nbsp;&nbsp;Arrels i tubercles comestibles','633.4','Arrels i tubercles comestibles','','','',false,true);
+d.add(236,231,'633.5','<div class="nodetag">633.5</div></span>&nbsp;&nbsp;Plantes tèxtils i fibroses','633.5','Plantes tèxtils i fibroses','','','',false,true);
+d.add(237,231,'633.6','<div class="nodetag">633.6</div></span>&nbsp;&nbsp;Plantes sucreres i amilàcies','633.6','Plantes sucreres i amilàcies','','','',false,true);
+d.add(238,231,'633.7','<div class="nodetag">633.7</div></span>&nbsp;&nbsp;Plantes estimulants. Plantes emprades per a la fabricació de begudes','633.7','Plantes estimulants. Plantes emprades per a la fabricació de begudes','','','',false,true);
+d.add(239,231,'633.8','<div class="nodetag">633.8</div></span>&nbsp;&nbsp;Plantes aromàtiques. Plantes condimentàries. Plantes oleaginoses. Plantes tintòries. Plantes tànniques. Plantes medicinals i remeieres','633.8','Plantes aromàtiques. Plantes condimentàries. Plantes oleaginoses. Plantes tintòries. Plantes tànniques. Plantes medicinals i remeieres','','','',false,true);
+d.add(240,231,'633.9','<div class="nodetag">633.9</div></span>&nbsp;&nbsp;Altres plantes per a usos industrials','633.9','Altres plantes per a usos industrials','','','',false,true);
+d.add(241,230,'634','<div class="nodetag">634</div></span>&nbsp;&nbsp;Fructicultura. Arbres fruiters i fruits en general','634','Fructicultura. Arbres fruiters i fruits en general','','','',false,true);
+d.add(242,241,'634.2','<div class="nodetag">634.2</div></span>&nbsp;&nbsp;Fruits amb pinyol. Drupes en general','634.2','Fruits amb pinyol. Drupes en general','','','',false,true);
+d.add(243,241,'634.3','<div class="nodetag">634.3</div></span>&nbsp;&nbsp;Fruits de les rutàcies i les moràcies. Cítrics en general','634.3','Fruits de les rutàcies i les moràcies. Cítrics en general','','','',false,true);
+d.add(244,241,'634.4','<div class="nodetag">634.4</div></span>&nbsp;&nbsp;Altres fruits amb polpa','634.4','Altres fruits amb polpa','','','',false,true);
+d.add(245,241,'634.5','<div class="nodetag">634.5</div></span>&nbsp;&nbsp;Fruits amb closca','634.5','Fruits amb closca','','','',false,true);
+d.add(246,241,'634.6','<div class="nodetag">634.6</div></span>&nbsp;&nbsp;Fruits tropicals i subtropicals','634.6','Fruits tropicals i subtropicals','','','',false,true);
+d.add(247,241,'634.7','<div class="nodetag">634.7</div></span>&nbsp;&nbsp;Fruits petits d\'arbustos i de plantes herbàcies. Baies','634.7','Fruits petits d\'arbustos i de plantes herbàcies. Baies','','','',false,true);
+d.add(248,241,'634.8','<div class="nodetag">634.8</div></span>&nbsp;&nbsp;Viticultura. Ceps. Vinyes','634.8','Viticultura. Ceps. Vinyes','','','',false,true);
+d.add(249,230,'635','<div class="nodetag">635</div></span>&nbsp;&nbsp;Horticultura. Jardineria. Hortes i jardins','635','Horticultura. Jardineria. Hortes i jardins','','','',false,true);
+d.add(250,249,'635.1/.8','<div class="nodetag">635.1/.8</div></span>&nbsp;&nbsp;Verdures i hortalisses','635.1/.8','Verdures i hortalisses','','','',false,true);
+d.add(251,250,'635.1','<div class="nodetag">635.1</div></span>&nbsp;&nbsp;Plantes d\'arrel comestible','635.1','Plantes d\'arrel comestible','','','',false,true);
+d.add(252,250,'635.2','<div class="nodetag">635.2</div></span>&nbsp;&nbsp;Tubercles i bulbs comestibles','635.2','Tubercles i bulbs comestibles','','','',false,true);
+d.add(253,250,'635.3','<div class="nodetag">635.3</div></span>&nbsp;&nbsp;Plantes de tiges, fulles o flors comestibles','635.3','Plantes de tiges, fulles o flors comestibles','','','',false,true);
+d.add(254,250,'635.4','<div class="nodetag">635.4</div></span>&nbsp;&nbsp;Altres hortalisses verdes. Hortalisses de fulla','635.4','Altres hortalisses verdes. Hortalisses de fulla','','','',false,true);
+d.add(255,250,'635.6','<div class="nodetag">635.6</div></span>&nbsp;&nbsp;Fruits i llavors comestibles. Llegums','635.6','Fruits i llavors comestibles. Llegums','','','',false,true);
+d.add(256,250,'635.7','<div class="nodetag">635.7</div></span>&nbsp;&nbsp;Herbes aromàtiques. Plantes condimentàries','635.7','Herbes aromàtiques. Plantes condimentàries','','','',false,true);
+d.add(257,250,'635.8','<div class="nodetag">635.8</div></span>&nbsp;&nbsp;Bolets i fongs comestibles','635.8','Bolets i fongs comestibles','','','',false,true);
+d.add(258,249,'635.9','<div class="nodetag">635.9</div></span>&nbsp;&nbsp;Plantes ornamentals. Flors i plantes decoratives. Floricultura. Jardineria ornamental','635.9','Plantes ornamentals. Flors i plantes decoratives. Floricultura. Jardineria ornamental','','','',false,true);
+d.add(259,208,'636','<div class="nodetag">636</div></span>&nbsp;&nbsp;Explotació i cria d\'animals en general. Ramaderia. Cria de bestiar. Zootècnia. Cria d\'animals domèstics','636','Explotació i cria d\'animals en general. Ramaderia. Cria de bestiar. Zootècnia. Cria d\'animals domèstics','','','',false,true);
+d.add(260,259,'636.01/.09','<div class="nodetag">636.01/.09</div></span>&nbsp;&nbsp;Auxiliars especials per a la cria d\'animals','636.01/.09','Auxiliars especials per a la cria d\'animals','','','',false,true);
+d.add(261,260,'636.01','<div class="nodetag">636.01</div></span>&nbsp;&nbsp;Origen, evolució i ensinistrament d\'animals. Fonaments biològics de la cria i l\'ensinistrament d\'animals','636.01','Origen, evolució i ensinistrament d\'animals. Fonaments biològics de la cria i l\'ensinistrament d\'animals','','','',false,true);
+d.add(262,260,'636.02','<div class="nodetag">636.02</div></span>&nbsp;&nbsp;Animals per a cria, exhibició i usos científics','636.02','Animals per a cria, exhibició i usos científics','','','',false,true);
+d.add(263,260,'636.03','<div class="nodetag">636.03</div></span>&nbsp;&nbsp;Animals i productes animals per a aliment. Animals de granja en general','636.03','Animals i productes animals per a aliment. Animals de granja en general','','','',false,true);
+d.add(264,260,'636.04','<div class="nodetag">636.04</div></span>&nbsp;&nbsp;Animals per al treball o el lleure','636.04','Animals per al treball o el lleure','','','',false,true);
+d.add(265,260,'636.05','<div class="nodetag">636.05</div></span>&nbsp;&nbsp;Animals segons la raça','636.05','Animals segons la raça','','','',false,true);
+d.add(266,260,'636.06','<div class="nodetag">636.06</div></span>&nbsp;&nbsp;Característiques, constitució i trets biològics especials dels animals domèstics','636.06','Característiques, constitució i trets biològics especials dels animals domèstics','','','',false,true);
+d.add(267,260,'636.08','<div class="nodetag">636.08</div></span>&nbsp;&nbsp;Qüestions generals de la cria d\'animals','636.08','Qüestions generals de la cria d\'animals','','','',false,true);
+d.add(268,260,'636.09','<div class="nodetag">636.09</div></span>&nbsp;&nbsp;Veterinària','636.09','Veterinària','','','',false,true);
+d.add(269,259,'636.1','<div class="nodetag">636.1</div></span>&nbsp;&nbsp;Èquids domèstics. Cavalls','636.1','Èquids domèstics. Cavalls','','','',false,true);
+d.add(270,259,'636.2','<div class="nodetag">636.2</div></span>&nbsp;&nbsp;Grans remugants. Bestiar boví','636.2','Grans remugants. Bestiar boví','','','',false,true);
+d.add(271,259,'636.3','<div class="nodetag">636.3</div></span>&nbsp;&nbsp;Petits remugants. Bestiar menut','636.3','Petits remugants. Bestiar menut','','','',false,true);
+d.add(272,259,'636.4','<div class="nodetag">636.4</div></span>&nbsp;&nbsp;Porcs. Bestiar porcí','636.4','Porcs. Bestiar porcí','','','',false,true);
+d.add(273,259,'636.5','<div class="nodetag">636.5</div></span>&nbsp;&nbsp;Aviram, volateria. Avicultura','636.5','Aviram, volateria. Avicultura','','','',false,true);
+d.add(274,259,'636.6','<div class="nodetag">636.6</div></span>&nbsp;&nbsp;Ocells d\'ornament, missatgers, etc. (diferents de l\'aviram i les aus de caça)','636.6','Ocells d\'ornament, missatgers, etc. (diferents de l\'aviram i les aus de caça)','','','',false,true);
+d.add(275,259,'636.7','<div class="nodetag">636.7</div></span>&nbsp;&nbsp;Gossos','636.7','Gossos','','','',false,true);
+d.add(276,259,'636.8','<div class="nodetag">636.8</div></span>&nbsp;&nbsp;Gats','636.8','Gats','','','',false,true);
+d.add(277,259,'636.9','<div class="nodetag">636.9</div></span>&nbsp;&nbsp;Altres animals criats en captivitat','636.9','Altres animals criats en captivitat','','','',false,true);
+d.add(278,208,'637','<div class="nodetag">637</div></span>&nbsp;&nbsp;Productes dels animals domèstics i de caça','637','Productes dels animals domèstics i de caça','','','',false,true);
+d.add(279,208,'638','<div class="nodetag">638</div></span>&nbsp;&nbsp;Cria d\'insectes i altres artròpodes','638','Cria d\'insectes i altres artròpodes','','','',false,true);
+d.add(280,208,'639','<div class="nodetag">639</div></span>&nbsp;&nbsp;Caça. Pesca. Aqüicultura','639','Caça. Pesca. Aqüicultura','','','',false,true);
+d.add(281,280,'639.1','<div class="nodetag">639.1</div></span>&nbsp;&nbsp;Caça','639.1','Caça','','','',false,true);
+d.add(282,280,'639.2','<div class="nodetag">639.2</div></span>&nbsp;&nbsp;Pesca','639.2','Pesca','','','',false,true);
+d.add(283,280,'639.3','<div class="nodetag">639.3</div></span>&nbsp;&nbsp;Piscicultura. Cria de peixos','639.3','Piscicultura. Cria de peixos','','','',false,true);
+d.add(284,280,'639.4','<div class="nodetag">639.4</div></span>&nbsp;&nbsp;Cria de mol·luscs. Mitilicultura. Ostreïcultura','639.4','Cria de mol·luscs. Mitilicultura. Ostreïcultura','','','',false,true);
+d.add(285,280,'639.5','<div class="nodetag">639.5</div></span>&nbsp;&nbsp;Cria de crustacis aquàtics','639.5','Cria de crustacis aquàtics','','','',false,true);
+d.add(286,280,'639.6','<div class="nodetag">639.6</div></span>&nbsp;&nbsp;Altres productes marins','639.6','Altres productes marins','','','',false,true);
+d.add(287,0,'64','<div class="nodetag">64</div></span>&nbsp;&nbsp;Economia domèstica','64','Economia domèstica','','','',false,true);
+d.add(288,287,'64.01/.08','<div class="nodetag">64.01/.08</div></span>&nbsp;&nbsp;Auxiliars especials per a l\'economia domèstica','64.01/.08','Auxiliars especials per a l\'economia domèstica','','','',false,true);
+d.add(289,288,'64.01','<div class="nodetag">64.01</div></span>&nbsp;&nbsp;Administració de la llar','64.01','Administració de la llar','','','',false,true);
+d.add(290,288,'64.048','<div class="nodetag">64.048</div></span>&nbsp;&nbsp;Estudi del treball i les tasques domèstiques','64.048','Estudi del treball i les tasques domèstiques','','','',false,true);
+d.add(291,288,'64.05','<div class="nodetag">64.05</div></span>&nbsp;&nbsp;Economia domèstica. Prestacions domèstiques (tasques, mobiliari, equipament, etc.) per a determinats tipus de persones','64.05','Economia domèstica. Prestacions domèstiques (tasques, mobiliari, equipament, etc.) per a determinats tipus de persones','','','',false,true);
+d.add(292,288,'64.06','<div class="nodetag">64.06</div></span>&nbsp;&nbsp;Aparells i estris domèstics. Electrodomèstics. Aparells que faciliten i estalvien les tasques domèstiques','64.06','Aparells i estris domèstics. Electrodomèstics. Aparells que faciliten i estalvien les tasques domèstiques','','','',false,true);
+d.add(293,288,'64.08','<div class="nodetag">64.08</div></span>&nbsp;&nbsp;Mudances','64.08','Mudances','','','',false,true);
+d.add(294,287,'640','<div class="nodetag">640</div></span>&nbsp;&nbsp;Tipus de llars','640','Tipus de llars','','','',false,true);
+d.add(295,287,'641/642','<div class="nodetag">641/642</div></span>&nbsp;&nbsp;Gastronomia. Aliments. Cuina. Àpats','641/642','Gastronomia. Aliments. Cuina. Àpats','','','',false,true);
+d.add(296,295,'641','<div class="nodetag">641</div></span>&nbsp;&nbsp;Gastronomia. Aliments. Cuina. Plats cuinats','641','Gastronomia. Aliments. Cuina. Plats cuinats','','','',false,true);
+d.add(297,295,'642','<div class="nodetag">642</div></span>&nbsp;&nbsp;Àpats. Servei i parament de taula','642','Àpats. Servei i parament de taula','','','',false,true);
+d.add(298,287,'643/645','<div class="nodetag">643/645</div></span>&nbsp;&nbsp;La llar. Equipament i mobiliari de la llar','643/645','La llar. Equipament i mobiliari de la llar','','','',false,true);
+d.add(299,298,'643','<div class="nodetag">643</div></span>&nbsp;&nbsp;La llar. Estances','643','La llar. Estances','','','',false,true);
+d.add(300,298,'644','<div class="nodetag">644</div></span>&nbsp;&nbsp;Instal·lacions per al confort i el sanejament de la llar','644','Instal·lacions per al confort i el sanejament de la llar','','','',false,true);
+d.add(301,300,'644.1','<div class="nodetag">644.1</div></span>&nbsp;&nbsp;Climatització. Calefacció. Ventilació. Aire condicionat','644.1','Climatització. Calefacció. Ventilació. Aire condicionat','','','',false,true);
+d.add(302,300,'644.3','<div class="nodetag">644.3</div></span>&nbsp;&nbsp;Enllumenat','644.3','Enllumenat','','','',false,true);
+d.add(303,300,'644.6','<div class="nodetag">644.6</div></span>&nbsp;&nbsp;Subministrament d\'aigua i instal·lacions sanitàries','644.6','Subministrament d\'aigua i instal·lacions sanitàries','','','',false,true);
+d.add(304,298,'645','<div class="nodetag">645</div></span>&nbsp;&nbsp;Mobiliari i accessoris de la llar','645','Mobiliari i accessoris de la llar','','','',false,true);
+d.add(305,287,'646/649','<div class="nodetag">646/649</div></span>&nbsp;&nbsp;Cura personal. Administració de la llar','646/649','Cura personal. Administració de la llar','','','',false,true);
+d.add(306,305,'646','<div class="nodetag">646</div></span>&nbsp;&nbsp;Indumentària. Cura del cos','646','Indumentària. Cura del cos','','','',false,true);
+d.add(307,306,'646.2','<div class="nodetag">646.2</div></span>&nbsp;&nbsp;Costura, confecció i arranjament de roba de vestir en l\'àmbit domèstic','646.2','Costura, confecció i arranjament de roba de vestir en l\'àmbit domèstic','','','',false,true);
+d.add(308,306,'646.4','<div class="nodetag">646.4</div></span>&nbsp;&nbsp;Indumentària. Roba de vestir','646.4','Indumentària. Roba de vestir','','','',false,true);
+d.add(309,306,'646.7','<div class="nodetag">646.7</div></span>&nbsp;&nbsp;Cura del cos. Tractaments de bellesa. Cosmètica. Accessoris de vestir','646.7','Cura del cos. Tractaments de bellesa. Cosmètica. Accessoris de vestir','','','',false,true);
+d.add(310,305,'648','<div class="nodetag">648</div></span>&nbsp;&nbsp;Bugada i planxat. Neteja','648','Bugada i planxat. Neteja','','','',false,true);
+d.add(311,305,'649','<div class="nodetag">649</div></span>&nbsp;&nbsp;Cura dels infants i de les persones que requereixen atenció domèstica. Atenció i cura dels convidats','649','Cura dels infants i de les persones que requereixen atenció domèstica. Atenció i cura dels convidats','','','',false,true);
+d.add(312,0,'65','<div class="nodetag">65</div></span>&nbsp;&nbsp;Indústria de les comunicacions i del transport. Comptabilitat. Organització empresarial. Relacions públiques','65','Indústria de les comunicacions i del transport. Comptabilitat. Organització empresarial. Relacions públiques','','','',false,true);
+d.add(313,312,'654','<div class="nodetag">654</div></span>&nbsp;&nbsp;Telecomunicació. Telecontrol. Organització i serveis de comunicació a distància','654','Telecomunicació. Telecontrol. Organització i serveis de comunicació a distància','','','',false,true);
+d.add(314,313,'654.1','<div class="nodetag">654.1</div></span>&nbsp;&nbsp;Telegrafia. Telefonia. Ràdio. Televisió','654.1','Telegrafia. Telefonia. Ràdio. Televisió','','','',false,true);
+d.add(315,313,'654.9','<div class="nodetag">654.9</div></span>&nbsp;&nbsp;Sistemes de senyals. Serveis diversos de telecomunicació. Control remot (telecontrol)','654.9','Sistemes de senyals. Serveis diversos de telecomunicació. Control remot (telecontrol)','','','',false,true);
+d.add(316,312,'655','<div class="nodetag">655</div></span>&nbsp;&nbsp;Indústries gràfiques. Impremta. Edició. Comerç de llibres','655','Indústries gràfiques. Impremta. Edició. Comerç de llibres','','','',false,true);
+d.add(317,316,'655.1','<div class="nodetag">655.1</div></span>&nbsp;&nbsp;Impremta i indústria gràfica','655.1','Impremta i indústria gràfica','','','',false,true);
+d.add(318,316,'655.4','<div class="nodetag">655.4</div></span>&nbsp;&nbsp;Edició i comerç del llibre','655.4','Edició i comerç del llibre','','','',false,true);
+d.add(319,312,'656','<div class="nodetag">656</div></span>&nbsp;&nbsp;Serveis de transport. Serveis postals. Organització i control del trànsit','656','Serveis de transport. Serveis postals. Organització i control del trànsit','','','',false,true);
+d.add(320,319,'656.1/.5','<div class="nodetag">656.1/.5</div></span>&nbsp;&nbsp;Transport terrestre','656.1/.5','Transport terrestre','','','',false,true);
+d.add(321,320,'656.1','<div class="nodetag">656.1</div></span>&nbsp;&nbsp;Transport per carretera','656.1','Transport per carretera','','','',false,true);
+d.add(322,320,'656.2','<div class="nodetag">656.2</div></span>&nbsp;&nbsp;Transport ferroviari','656.2','Transport ferroviari','','','',false,true);
+d.add(323,320,'656.4','<div class="nodetag">656.4</div></span>&nbsp;&nbsp;Transport ferroviari lleuger','656.4','Transport ferroviari lleuger','','','',false,true);
+d.add(324,320,'656.5','<div class="nodetag">656.5</div></span>&nbsp;&nbsp;Transport terrestre per gasoductes i oleoductes','656.5','Transport terrestre per gasoductes i oleoductes','','','',false,true);
+d.add(325,319,'656.6','<div class="nodetag">656.6</div></span>&nbsp;&nbsp;Transport per aigua','656.6','Transport per aigua','','','',false,true);
+d.add(326,319,'656.7','<div class="nodetag">656.7</div></span>&nbsp;&nbsp;Transport aeri','656.7','Transport aeri','','','',false,true);
+d.add(327,319,'656.8','<div class="nodetag">656.8</div></span>&nbsp;&nbsp;Serveis postals. Correus','656.8','Serveis postals. Correus','','','',false,true);
+d.add(328,312,'657','<div class="nodetag">657</div></span>&nbsp;&nbsp;Comptabilitat','657','Comptabilitat','','','',false,true);
+d.add(329,312,'658','<div class="nodetag">658</div></span>&nbsp;&nbsp;Organització i administració d\'empreses. Gestió comercial','658','Organització i administració d\'empreses. Gestió comercial','','','',false,true);
+d.add(330,329,'658.1','<div class="nodetag">658.1</div></span>&nbsp;&nbsp;Formes de l\'empresa. Finances','658.1','Formes de l\'empresa. Finances','','','',false,true);
+d.add(331,329,'658.2','<div class="nodetag">658.2</div></span>&nbsp;&nbsp;Edificis i instal·lacions. Locals. Fàbriques. Plantes. Materials','658.2','Edificis i instal·lacions. Locals. Fàbriques. Plantes. Materials','','','',false,true);
+d.add(332,329,'658.3','<div class="nodetag">658.3</div></span>&nbsp;&nbsp;Personal. Factor humà en el treball. Gestió dels recursos humans','658.3','Personal. Factor humà en el treball. Gestió dels recursos humans','','','',false,true);
+d.add(333,329,'658.5','<div class="nodetag">658.5</div></span>&nbsp;&nbsp;Organització i planificació de la producció. Disseny del producte. Gestió i control de la producció','658.5','Organització i planificació de la producció. Disseny del producte. Gestió i control de la producció','','','',false,true);
+d.add(334,329,'658.6','<div class="nodetag">658.6</div></span>&nbsp;&nbsp;Gestió i pràctica comercial. Mercaderies. Serveis','658.6','Gestió i pràctica comercial. Mercaderies. Serveis','','','',false,true);
+d.add(335,329,'658.7','<div class="nodetag">658.7</div></span>&nbsp;&nbsp;Compra. Proveïment. Gestió d\'existències','658.7','Compra. Proveïment. Gestió d\'existències','','','',false,true);
+d.add(336,329,'658.8','<div class="nodetag">658.8</div></span>&nbsp;&nbsp;Màrqueting. Venda. Comercialització. Distribució','658.8','Màrqueting. Venda. Comercialització. Distribució','','','',false,true);
+d.add(337,329,'658.9','<div class="nodetag">658.9</div></span>&nbsp;&nbsp;Altres activitats comercials','658.9','Altres activitats comercials','','','',false,true);
+d.add(338,312,'659','<div class="nodetag">659</div></span>&nbsp;&nbsp;Publicitat. Relacions públiques','659','Publicitat. Relacions públiques','','','',false,true);
+d.add(339,338,'659.1','<div class="nodetag">659.1</div></span>&nbsp;&nbsp;Publicitat. Anuncis publicitaris','659.1','Publicitat. Anuncis publicitaris','','','',false,true);
+d.add(340,338,'659.2','<div class="nodetag">659.2</div></span>&nbsp;&nbsp;Serveis d\'informació. Serveis d\'assessorament i consultoria','659.2','Serveis d\'informació. Serveis d\'assessorament i consultoria','','','',false,true);
+d.add(341,338,'659.3','<div class="nodetag">659.3</div></span>&nbsp;&nbsp;Comunicació de masses. Informació per al públic en general','659.3','Comunicació de masses. Informació per al públic en general','','','',false,true);
+d.add(342,338,'659.4','<div class="nodetag">659.4</div></span>&nbsp;&nbsp;Relacions públiques','659.4','Relacions públiques','','','',false,true);
+d.add(343,0,'66','<div class="nodetag">66</div></span>&nbsp;&nbsp;Química industrial. Enginyeria i tecnologia químiques. Indústries microbiològiques, alimentàries i metal·lúrgiques','66','Química industrial. Enginyeria i tecnologia químiques. Indústries microbiològiques, alimentàries i metal·lúrgiques','','','',false,true);
+d.add(344,343,'66.01/.09','<div class="nodetag">66.01/.09</div></span>&nbsp;&nbsp;Auxiliars especials per a la tecnologia química','66.01/.09','Auxiliars especials per a la tecnologia química','','','',false,true);
+d.add(345,344,'66.01','<div class="nodetag">66.01</div></span>&nbsp;&nbsp;Fonaments de la tecnologia químiques','66.01','Fonaments de la tecnologia químiques','','','',false,true);
+d.add(346,344,'66.02','<div class="nodetag">66.02</div></span>&nbsp;&nbsp;Procediments químics, aparells i equipament en general','66.02','Procediments químics, aparells i equipament en general','','','',false,true);
+d.add(347,344,'66.03','<div class="nodetag">66.03</div></span>&nbsp;&nbsp;Materials, característiques, processos i equipament','66.03','Materials, característiques, processos i equipament','','','',false,true);
+d.add(348,344,'66.04','<div class="nodetag">66.04</div></span>&nbsp;&nbsp;Tractament tèrmic i equipament','66.04','Tractament tèrmic i equipament','','','',false,true);
+d.add(349,344,'66.06','<div class="nodetag">66.06</div></span>&nbsp;&nbsp;Tecnologia química dels líquids. Tractament dels líquids i equipament','66.06','Tecnologia química dels líquids. Tractament dels líquids i equipament','','','',false,true);
+d.add(350,344,'66.07','<div class="nodetag">66.07</div></span>&nbsp;&nbsp;Tecnologia química dels gasos','66.07','Tecnologia química dels gasos','','','',false,true);
+d.add(351,344,'66.08','<div class="nodetag">66.08</div></span>&nbsp;&nbsp;Procediments físics i fisicoquímics i equipament. Efectes físics i fisicoquímics en els processos químics','66.08','Procediments físics i fisicoquímics i equipament. Efectes físics i fisicoquímics en els processos químics','','','',false,true);
+d.add(352,343,'661','<div class="nodetag">661</div></span>&nbsp;&nbsp;Productes químics','661','Productes químics','','','',false,true);
+d.add(353,352,'661.1','<div class="nodetag">661.1</div></span>&nbsp;&nbsp;Indústries químiques especials','661.1','Indústries químiques especials','','','',false,true);
+d.add(354,352,'661.2','<div class="nodetag">661.2</div></span>&nbsp;&nbsp;Producció de sofre i derivats','661.2','Producció de sofre i derivats','','','',false,true);
+d.add(355,352,'661.3','<div class="nodetag">661.3</div></span>&nbsp;&nbsp;Producció de sodi i potassi. Àlcali','661.3','Producció de sodi i potassi. Àlcali','','','',false,true);
+d.add(356,352,'661.4','<div class="nodetag">661.4</div></span>&nbsp;&nbsp;Producció d\'halògens i de compostos halogenats. Compostos inorgànics del grup peroxo','661.4','Producció d\'halògens i de compostos halogenats. Compostos inorgànics del grup peroxo','','','',false,true);
+d.add(357,352,'661.5','<div class="nodetag">661.5</div></span>&nbsp;&nbsp;Producció de compostos de nitrogen. Fixació del nitrogen. Indústria del nitrogen en general','661.5','Producció de compostos de nitrogen. Fixació del nitrogen. Indústria del nitrogen en general','','','',false,true);
+d.add(358,352,'661.6','<div class="nodetag">661.6</div></span>&nbsp;&nbsp;Producció dels no-metalls i semimetalls diversos (metal·loides) i els seus compostos','661.6','Producció dels no-metalls i semimetalls diversos (metal·loides) i els seus compostos','','','',false,true);
+d.add(359,352,'661.7','<div class="nodetag">661.7</div></span>&nbsp;&nbsp;Producció de substàncies orgàniques. Productes químics orgànics','661.7','Producció de substàncies orgàniques. Productes químics orgànics','','','',false,true);
+d.add(360,352,'661.8','<div class="nodetag">661.8</div></span>&nbsp;&nbsp;Compostos metàl·lics en general. Sals. Compostos minerals','661.8','Compostos metàl·lics en general. Sals. Compostos minerals','','','',false,true);
+d.add(361,352,'661.9','<div class="nodetag">661.9</div></span>&nbsp;&nbsp;Producció de gasos','661.9','Producció de gasos','','','',false,true);
+d.add(362,343,'662','<div class="nodetag">662</div></span>&nbsp;&nbsp;Explosius. Combustibles','662','Explosius. Combustibles','','','',false,true);
+d.add(363,362,'662.1/.4','<div class="nodetag">662.1/.4</div></span>&nbsp;&nbsp;Explosius','662.1/.4','Explosius','','','',false,true);
+d.add(364,363,'662.1','<div class="nodetag">662.1</div></span>&nbsp;&nbsp;Focs artificials. Pirotècnia i dispositius relacionats','662.1','Focs artificials. Pirotècnia i dispositius relacionats','','','',false,true);
+d.add(365,363,'662.2','<div class="nodetag">662.2</div></span>&nbsp;&nbsp;Explosius de gran potència','662.2','Explosius de gran potència','','','',false,true);
+d.add(366,363,'662.3','<div class="nodetag">662.3</div></span>&nbsp;&nbsp;Pólvora','662.3','Pólvora','','','',false,true);
+d.add(367,363,'662.4','<div class="nodetag">662.4</div></span>&nbsp;&nbsp;Fulminants. Detonadors. Espoletes','662.4','Fulminants. Detonadors. Espoletes','','','',false,true);
+d.add(368,362,'662.5','<div class="nodetag">662.5</div></span>&nbsp;&nbsp;Encenedors. Llumins','662.5','Encenedors. Llumins','','','',false,true);
+d.add(369,362,'662.6/.9','<div class="nodetag">662.6/.9</div></span>&nbsp;&nbsp;Combustibles. Calefacció. Economia de la calor i dels combustibles','662.6/.9','Combustibles. Calefacció. Economia de la calor i dels combustibles','','','',false,true);
+d.add(370,369,'662.6','<div class="nodetag">662.6</div></span>&nbsp;&nbsp;Combustibles i calefacció en general. Combustió. Combustibles naturals','662.6','Combustibles i calefacció en general. Combustió. Combustibles naturals','','','',false,true);
+d.add(371,369,'662.7','<div class="nodetag">662.7</div></span>&nbsp;&nbsp;Tecnologia dels combustibles. Combustibles processats','662.7','Tecnologia dels combustibles. Combustibles processats','','','',false,true);
+d.add(372,369,'662.8','<div class="nodetag">662.8</div></span>&nbsp;&nbsp;Tractament mecànic de la solidificació dels combustibles. Fabricació de briquetes','662.8','Tractament mecànic de la solidificació dels combustibles. Fabricació de briquetes','','','',false,true);
+d.add(373,369,'662.9','<div class="nodetag">662.9</div></span>&nbsp;&nbsp;Tecnologia de la calor i la combustió. Furnívors, cremadors i aparells de combustió','662.9','Tecnologia de la calor i la combustió. Furnívors, cremadors i aparells de combustió','','','',false,true);
+d.add(374,343,'663','<div class="nodetag">663</div></span>&nbsp;&nbsp;Microbiologia industrial. Micologia industrial. Zimologia. Indústria de la fermentació. Indústria de les begudes. Indústria dels estimulants','663','Microbiologia industrial. Micologia industrial. Zimologia. Indústria de la fermentació. Indústria de les begudes. Indústria dels estimulants','','','',false,true);
+d.add(375,374,'663.1','<div class="nodetag">663.1</div></span>&nbsp;&nbsp;Microbiologia industrial. Microbiologia aplicada. Micologia aplicada','663.1','Microbiologia industrial. Microbiologia aplicada. Micologia aplicada','','','',false,true);
+d.add(376,374,'663.2','<div class="nodetag">663.2</div></span>&nbsp;&nbsp;Vi. Vinificació. Enologia','663.2','Vi. Vinificació. Enologia','','','',false,true);
+d.add(377,374,'663.3','<div class="nodetag">663.3</div></span>&nbsp;&nbsp;Sidres. Vins de fruita','663.3','Sidres. Vins de fruita','','','',false,true);
+d.add(378,374,'663.4','<div class="nodetag">663.4</div></span>&nbsp;&nbsp;Cerveses. Maltes','663.4','Cerveses. Maltes','','','',false,true);
+d.add(379,374,'663.5','<div class="nodetag">663.5</div></span>&nbsp;&nbsp;Alcohols. Begudes espirituoses (aiguardents). Destil·lació i refinació','663.5','Alcohols. Begudes espirituoses (aiguardents). Destil·lació i refinació','','','',false,true);
+d.add(380,374,'663.6','<div class="nodetag">663.6</div></span>&nbsp;&nbsp;Aigua per a les begudes i altres usos industrials. Aigües minerals. Aigües medicinals. Glaç comestible','663.6','Aigua per a les begudes i altres usos industrials. Aigües minerals. Aigües medicinals. Glaç comestible','','','',false,true);
+d.add(381,374,'663.8','<div class="nodetag">663.8</div></span>&nbsp;&nbsp;Ingredients principals per a les begudes compostes. Sucs de fruites i vegetals. Xarops. Licors. Begudes sense alcohol','663.8','Ingredients principals per a les begudes compostes. Sucs de fruites i vegetals. Xarops. Licors. Begudes sense alcohol','','','',false,true);
+d.add(382,374,'663.9','<div class="nodetag">663.9</div></span>&nbsp;&nbsp;Xocolata. Cacau. Cafè. Te. Tabac','663.9','Xocolata. Cacau. Cafè. Te. Tabac','','','',false,true);
+d.add(383,343,'664','<div class="nodetag">664</div></span>&nbsp;&nbsp;Producció i conservació d\'aliments sòlids','664','Producció i conservació d\'aliments sòlids','','','',false,true);
+d.add(384,383,'664.1','<div class="nodetag">664.1</div></span>&nbsp;&nbsp;Sucre. Melasses. Glucosa, etc.','664.1','Sucre. Melasses. Glucosa, etc.','','','',false,true);
+d.add(385,383,'664.2','<div class="nodetag">664.2</div></span>&nbsp;&nbsp;Midó. Matèries amilàcies alimentàries','664.2','Midó. Matèries amilàcies alimentàries','','','',false,true);
+d.add(386,383,'664.3','<div class="nodetag">664.3</div></span>&nbsp;&nbsp;Olis i greixos comestibles. Margarina. Productes alimentaris proteics','664.3','Olis i greixos comestibles. Margarina. Productes alimentaris proteics','','','',false,true);
+d.add(387,383,'664.4','<div class="nodetag">664.4</div></span>&nbsp;&nbsp;Aliments minerals','664.4','Aliments minerals','','','',false,true);
+d.add(388,383,'664.5','<div class="nodetag">664.5</div></span>&nbsp;&nbsp;Espècies. Condiments','664.5','Espècies. Condiments','','','',false,true);
+d.add(389,383,'664.6/.7','<div class="nodetag">664.6/.7</div></span>&nbsp;&nbsp;Tecnologia i transformació dels cereals','664.6/.7','Tecnologia i transformació dels cereals','','','',false,true);
+d.add(390,389,'664.6','<div class="nodetag">664.6</div></span>&nbsp;&nbsp;Panificació. Pa. Farina. Rebosteria','664.6','Panificació. Pa. Farina. Rebosteria','','','',false,true);
+d.add(391,389,'664.7','<div class="nodetag">664.7</div></span>&nbsp;&nbsp;Tecnologia dels cereals. Molineria. Trituració del gra i fabricació de farines','664.7','Tecnologia dels cereals. Molineria. Trituració del gra i fabricació de farines','','','',false,true);
+d.add(392,383,'664.8/.9','<div class="nodetag">664.8/.9</div></span>&nbsp;&nbsp;Conserves. Tècniques de conservació dels aliments','664.8/.9','Conserves. Tècniques de conservació dels aliments','','','',false,true);
+d.add(393,343,'665','<div class="nodetag">665</div></span>&nbsp;&nbsp;Olis. Greixos. Ceres. Adhesius. Gomes. Resines','665','Olis. Greixos. Ceres. Adhesius. Gomes. Resines','','','',false,true);
+d.add(394,393,'665.1','<div class="nodetag">665.1</div></span>&nbsp;&nbsp;Qüestions generals sobre els olis, els greixos, les ceres i els productes derivats','665.1','Qüestions generals sobre els olis, els greixos, les ceres i els productes derivats','','','',false,true);
+d.add(395,393,'665.2','<div class="nodetag">665.2</div></span>&nbsp;&nbsp;Olis, greixos i ceres d\'origen animal','665.2','Olis, greixos i ceres d\'origen animal','','','',false,true);
+d.add(396,393,'665.3','<div class="nodetag">665.3</div></span>&nbsp;&nbsp;Olis, greixos i ceres vegetals. Fosfolípids','665.3','Olis, greixos i ceres vegetals. Fosfolípids','','','',false,true);
+d.add(397,393,'665.5','<div class="nodetag">665.5</div></span>&nbsp;&nbsp;Olis essencials. Perfumeria. Cosmètics','665.5','Olis essencials. Perfumeria. Cosmètics','','','',false,true);
+d.add(398,393,'665.6/.7','<div class="nodetag">665.6/.7</div></span>&nbsp;&nbsp;Processos i productes de la indústria del petroli i similars','665.6/.7','Processos i productes de la indústria del petroli i similars','','','',false,true);
+d.add(399,398,'665.6','<div class="nodetag">665.6</div></span>&nbsp;&nbsp;Tecnologia dels olis minerals. Tecnologia del petroli i productes similars','665.6','Tecnologia dels olis minerals. Tecnologia del petroli i productes similars','','','',false,true);
+d.add(400,398,'665.7','<div class="nodetag">665.7</div></span>&nbsp;&nbsp;Productes de la indústria de l\'oli mineral. Olis minerals i productes similars','665.7','Productes de la indústria de l\'oli mineral. Olis minerals i productes similars','','','',false,true);
+d.add(401,393,'665.9','<div class="nodetag">665.9</div></span>&nbsp;&nbsp;Indústries diverses de la química orgànica','665.9','Indústries diverses de la química orgànica','','','',false,true);
+d.add(402,343,'666','<div class="nodetag">666</div></span>&nbsp;&nbsp;Indústria del vidre. Ceràmica. Ciment i formigó','666','Indústria del vidre. Ceràmica. Ciment i formigó','','','',false,true);
+d.add(403,402,'666.1','<div class="nodetag">666.1</div></span>&nbsp;&nbsp;Indústria del vidre. Tecnologia del vidre. Vidrieria. Fabricació del vidre en sentit ampli','666.1','Indústria del vidre. Tecnologia del vidre. Vidrieria. Fabricació del vidre en sentit ampli','','','',false,true);
+d.add(404,402,'666.3/.7','<div class="nodetag">666.3/.7</div></span>&nbsp;&nbsp;Ceràmica','666.3/.7','Ceràmica','','','',false,true);
+d.add(405,404,'666.3','<div class="nodetag">666.3</div></span>&nbsp;&nbsp;Ceràmica en general. Matèries primeres ceràmiques','666.3','Ceràmica en general. Matèries primeres ceràmiques','','','',false,true);
+d.add(406,404,'666.5','<div class="nodetag">666.5</div></span>&nbsp;&nbsp;Porcellana','666.5','Porcellana','','','',false,true);
+d.add(407,404,'666.6','<div class="nodetag">666.6</div></span>&nbsp;&nbsp;Gres. Pisa. Faiança. Terrissa (ceràmica porosa)','666.6','Gres. Pisa. Faiança. Terrissa (ceràmica porosa)','','','',false,true);
+d.add(408,404,'666.7','<div class="nodetag">666.7</div></span>&nbsp;&nbsp;Rajoleria. Maons i teules. Productes refractaris. Mescles de materials ceràmics i altres','666.7','Rajoleria. Maons i teules. Productes refractaris. Mescles de materials ceràmics i altres','','','',false,true);
+d.add(409,402,'666.9','<div class="nodetag">666.9</div></span>&nbsp;&nbsp;Calç i ciments. Guix i escaiola. Morter i formigó','666.9','Calç i ciments. Guix i escaiola. Morter i formigó','','','',false,true);
+d.add(410,343,'667','<div class="nodetag">667</div></span>&nbsp;&nbsp;Tintoreria. Colorants. Pintures','667','Tintoreria. Colorants. Pintures','','','',false,true);
+d.add(411,410,'667.2','<div class="nodetag">667.2</div></span>&nbsp;&nbsp;Indústria de les matèries colorants. Fabricació i ús de colorants','667.2','Indústria de les matèries colorants. Fabricació i ús de colorants','','','',false,true);
+d.add(412,410,'667.4','<div class="nodetag">667.4</div></span>&nbsp;&nbsp;Tintes d\'escriure','667.4','Tintes d\'escriure','','','',false,true);
+d.add(413,410,'667.5','<div class="nodetag">667.5</div></span>&nbsp;&nbsp;Tintes d\'impremta (negres o de color). Tintes litogràfiques. Llapis de dibuix i escriptura. Llapis de colors','667.5','Tintes d\'impremta (negres o de color). Tintes litogràfiques. Llapis de dibuix i escriptura. Llapis de colors','','','',false,true);
+d.add(414,410,'667.6','<div class="nodetag">667.6</div></span>&nbsp;&nbsp;Recobriments. Pintures. Vernissos. Laques','667.6','Recobriments. Pintures. Vernissos. Laques','','','',false,true);
+d.add(415,410,'667.7','<div class="nodetag">667.7</div></span>&nbsp;&nbsp;Altres procediments de tintatge i coloració (diferents de la impressió i la pintura)','667.7','Altres procediments de tintatge i coloració (diferents de la impressió i la pintura)','','','',false,true);
+d.add(416,343,'669','<div class="nodetag">669</div></span>&nbsp;&nbsp;Metal·lúrgia','669','Metal·lúrgia','','','',false,true);
+d.add(417,416,'669.1','<div class="nodetag">669.1</div></span>&nbsp;&nbsp;Siderúrgia. Ferro, fosa i acer','669.1','Siderúrgia. Ferro, fosa i acer','','','',false,true);
+d.add(418,416,'669.2','<div class="nodetag">669.2</div></span>&nbsp;&nbsp;Metalls no fèrrics en general','669.2','Metalls no fèrrics en general','','','',false,true);
+d.add(419,0,'67','<div class="nodetag">67</div></span>&nbsp;&nbsp;Indústries i oficis diversos. Productes manufacturats','67','Indústries i oficis diversos. Productes manufacturats','','','',false,true);
+d.add(420,419,'671','<div class="nodetag">671</div></span>&nbsp;&nbsp;Objectes en metalls preciosos, gemmes i pedres precioses','671','Objectes en metalls preciosos, gemmes i pedres precioses','','','',false,true);
+d.add(421,420,'671.1','<div class="nodetag">671.1</div></span>&nbsp;&nbsp;Or i plata. Orfebreria. Objectes en altre metalls preciosos. Joieria','671.1','Or i plata. Orfebreria. Objectes en altre metalls preciosos. Joieria','','','',false,true);
+d.add(422,420,'671.4','<div class="nodetag">671.4</div></span>&nbsp;&nbsp;Fabricació de monedes i medalles. Encunyació. Seques','671.4','Fabricació de monedes i medalles. Encunyació. Seques','','','',false,true);
+d.add(423,419,'672','<div class="nodetag">672</div></span>&nbsp;&nbsp;Objectes de ferro i acer','672','Objectes de ferro i acer','','','',false,true);
+d.add(424,419,'673','<div class="nodetag">673</div></span>&nbsp;&nbsp;Objectes en altres metalls no fèrrics (i diferents dels metalls preciosos)','673','Objectes en altres metalls no fèrrics (i diferents dels metalls preciosos)','','','',false,true);
+d.add(425,419,'674','<div class="nodetag">674</div></span>&nbsp;&nbsp;Indústria de la fusta','674','Indústria de la fusta','','','',false,true);
+d.add(426,419,'675','<div class="nodetag">675</div></span>&nbsp;&nbsp;Indústria del cuir. Cuirs i pells. Cuirs imitats','675','Indústria del cuir. Cuirs i pells. Cuirs imitats','','','',false,true);
+d.add(427,419,'676','<div class="nodetag">676</div></span>&nbsp;&nbsp;Indústria del paper. Cel·lulosa, paper i cartó','676','Indústria del paper. Cel·lulosa, paper i cartó','','','',false,true);
+d.add(428,419,'677','<div class="nodetag">677</div></span>&nbsp;&nbsp;Indústria tèxtil','677','Indústria tèxtil','','','',false,true);
+d.add(429,428,'677.1/.5','<div class="nodetag">677.1/.5</div></span>&nbsp;&nbsp;Fibres tèxtils','677.1/.5','Fibres tèxtils','','','',false,true);
+d.add(430,429,'677.1/.3','<div class="nodetag">677.1/.3</div></span>&nbsp;&nbsp;Fibres naturals','677.1/.3','Fibres naturals','','','',false,true);
+d.add(431,430,'677.1/.2','<div class="nodetag">677.1/.2</div></span>&nbsp;&nbsp;Fibres d\'origen vegetal','677.1/.2','Fibres d\'origen vegetal','','','',false,true);
+d.add(432,431,'677.1','<div class="nodetag">677.1</div></span>&nbsp;&nbsp;Fibres de líber (procedents de les tiges de les dicotiledònies). Fibres dures (procedents de les fulles i els fruits de les monocotiledònies)','677.1','Fibres de líber (procedents de les tiges de les dicotiledònies). Fibres dures (procedents de les fulles i els fruits de les monocotiledònies)','','','',false,true);
+d.add(433,431,'677.2','<div class="nodetag">677.2</div></span>&nbsp;&nbsp;Filaments vegetals','677.2','Filaments vegetals','','','',false,true);
+d.add(434,430,'677.3','<div class="nodetag">677.3</div></span>&nbsp;&nbsp;Fibres d\'origen animal','677.3','Fibres d\'origen animal','','','',false,true);
+d.add(435,429,'677.4','<div class="nodetag">677.4</div></span>&nbsp;&nbsp;Fibres sintètiques o artificials','677.4','Fibres sintètiques o artificials','','','',false,true);
+d.add(436,429,'677.5','<div class="nodetag">677.5</div></span>&nbsp;&nbsp;Fibres minerals i metàl·liques. Materials trenats. Fils de cautxú. Filatura del paper','677.5','Fibres minerals i metàl·liques. Materials trenats. Fils de cautxú. Filatura del paper','','','',false,true);
+d.add(437,419,'678','<div class="nodetag">678</div></span>&nbsp;&nbsp;Indústries dels materials macromoleculars. Indústria del cautxú. Indústria del plàstic','678','Indústries dels materials macromoleculars. Indústria del cautxú. Indústria del plàstic','','','',false,true);
+d.add(438,437,'678.4','<div class="nodetag">678.4</div></span>&nbsp;&nbsp;Cautxú natural. Altres macromoleculars naturals que només contenen carboni i hidrogen','678.4','Cautxú natural. Altres macromoleculars naturals que només contenen carboni i hidrogen','','','',false,true);
+d.add(439,437,'678.5','<div class="nodetag">678.5</div></span>&nbsp;&nbsp;Plàstics','678.5','Plàstics','','','',false,true);
+d.add(440,437,'678.6','<div class="nodetag">678.6</div></span>&nbsp;&nbsp;Productes sintètics de policondensació. Policondensats. Resines sintètiques. Fibres sintètiques, etc.','678.6','Productes sintètics de policondensació. Policondensats. Resines sintètiques. Fibres sintètiques, etc.','','','',false,true);
+d.add(441,437,'678.7','<div class="nodetag">678.7</div></span>&nbsp;&nbsp;Productes sintètics de polimerització. Cautxú sintètic','678.7','Productes sintètics de polimerització. Cautxú sintètic','','','',false,true);
+d.add(442,419,'679','<div class="nodetag">679</div></span>&nbsp;&nbsp;Indústries de matèries diverses','679','Indústries de matèries diverses','','','',false,true);
+d.add(443,442,'679.7','<div class="nodetag">679.7</div></span>&nbsp;&nbsp;Corderia. Cables i cordes','679.7','Corderia. Cables i cordes','','','',false,true);
+d.add(444,442,'679.8','<div class="nodetag">679.8</div></span>&nbsp;&nbsp;Tecnologia de la pedra. Indústria de la pedra','679.8','Tecnologia de la pedra. Indústria de la pedra','','','',false,true);
+d.add(445,442,'679.9','<div class="nodetag">679.9</div></span>&nbsp;&nbsp;Tecnologia d\'altres materials naturals','679.9','Tecnologia d\'altres materials naturals','','','',false,true);
+d.add(446,0,'68','<div class="nodetag">68</div></span>&nbsp;&nbsp;Indústries i oficis d\'articles acabats o encadellats','68','Indústries i oficis d\'articles acabats o encadellats','','','',false,true);
+d.add(447,446,'681','<div class="nodetag">681</div></span>&nbsp;&nbsp;Mecanismes i instruments de precisió','681','Mecanismes i instruments de precisió','','','',false,true);
+d.add(448,447,'681.1','<div class="nodetag">681.1</div></span>&nbsp;&nbsp;Aparells de rellotgeria o amb mecanismes motors','681.1','Aparells de rellotgeria o amb mecanismes motors','','','',false,true);
+d.add(449,447,'681.2','<div class="nodetag">681.2</div></span>&nbsp;&nbsp;Fabricació d\'instruments en general. Instrumental. Fabricació d\'aparells de mesura. Balances. Bàscules','681.2','Fabricació d\'instruments en general. Instrumental. Fabricació d\'aparells de mesura. Balances. Bàscules','','','',false,true);
+d.add(450,447,'681.5','<div class="nodetag">681.5</div></span>&nbsp;&nbsp;Enginyeria del control automàtic. Tecnologia intel·ligent','681.5','Enginyeria del control automàtic. Tecnologia intel·ligent','','','',false,true);
+d.add(451,447,'681.6','<div class="nodetag">681.6</div></span>&nbsp;&nbsp;Màquines d\'impremta, reprografia i copisteria','681.6','Màquines d\'impremta, reprografia i copisteria','','','',false,true);
+d.add(452,447,'681.7','<div class="nodetag">681.7</div></span>&nbsp;&nbsp;Aparells i instruments òptics','681.7','Aparells i instruments òptics','','','',false,true);
+d.add(453,447,'681.8','<div class="nodetag">681.8</div></span>&nbsp;&nbsp;Acústica industrial','681.8','Acústica industrial','','','',false,true);
+d.add(454,446,'682','<div class="nodetag">682</div></span>&nbsp;&nbsp;Ferreria. Treballs de forja a mà','682','Ferreria. Treballs de forja a mà','','','',false,true);
+d.add(455,454,'682.1','<div class="nodetag">682.1</div></span>&nbsp;&nbsp;Forja de ferradures','682.1','Forja de ferradures','','','',false,true);
+d.add(456,454,'682.3','<div class="nodetag">682.3</div></span>&nbsp;&nbsp;Ferreria de tall. Forja d\'eines i tallants','682.3','Ferreria de tall. Forja d\'eines i tallants','','','',false,true);
+d.add(457,454,'682.5','<div class="nodetag">682.5</div></span>&nbsp;&nbsp;Ferreria de mobles','682.5','Ferreria de mobles','','','',false,true);
+d.add(458,454,'682.6','<div class="nodetag">682.6</div></span>&nbsp;&nbsp;Ferreria de construcció (reixes, baranes, bastiments metàl·lics, etc.)','682.6','Ferreria de construcció (reixes, baranes, bastiments metàl·lics, etc.)','','','',false,true);
+d.add(459,446,'683','<div class="nodetag">683</div></span>&nbsp;&nbsp;Ferreteria. Manyeria. Serralleria. Embotellament, ampolles i recipients. Lampisteria. Fumisteria. Escalfadors','683','Ferreteria. Manyeria. Serralleria. Embotellament, ampolles i recipients. Lampisteria. Fumisteria. Escalfadors','','','',false,true);
+d.add(460,446,'684','<div class="nodetag">684</div></span>&nbsp;&nbsp;Indústria del moble i similars. Ebenisteria. Marqueteria. Tapisseria de mobles','684','Indústria del moble i similars. Ebenisteria. Marqueteria. Tapisseria de mobles','','','',false,true);
+d.add(461,460,'684.4','<div class="nodetag">684.4</div></span>&nbsp;&nbsp;Mobiliari. Disseny i fabricació de mobles','684.4','Mobiliari. Disseny i fabricació de mobles','','','',false,true);
+d.add(462,460,'684.6','<div class="nodetag">684.6</div></span>&nbsp;&nbsp;Revestiments. Marqueteria. Encastat, etc.','684.6','Revestiments. Marqueteria. Encastat, etc.','','','',false,true);
+d.add(463,460,'684.7','<div class="nodetag">684.7</div></span>&nbsp;&nbsp;Tapisseria de mobles. Roba de llit. Draperies i domassos. Envelats','684.7','Tapisseria de mobles. Roba de llit. Draperies i domassos. Envelats','','','',false,true);
+d.add(464,446,'685','<div class="nodetag">685</div></span>&nbsp;&nbsp;Basteria. Sabateria. Guanteria. Articles de viatge, jocs i esports','685','Basteria. Sabateria. Guanteria. Articles de viatge, jocs i esports','','','',false,true);
+d.add(465,464,'685.1','<div class="nodetag">685.1</div></span>&nbsp;&nbsp;Basteria. Selleria. Guarnicioneria. Arnesos','685.1','Basteria. Selleria. Guarnicioneria. Arnesos','','','',false,true);
+d.add(466,464,'685.2','<div class="nodetag">685.2</div></span>&nbsp;&nbsp;Accessoris i complements en cuir. Cinturons, cinyells, peces de protecció i similars','685.2','Accessoris i complements en cuir. Cinturons, cinyells, peces de protecció i similars','','','',false,true);
+d.add(467,464,'685.3','<div class="nodetag">685.3</div></span>&nbsp;&nbsp;Sabateria. Calçat. Altres accessoris per a la locomoció','685.3','Sabateria. Calçat. Altres accessoris per a la locomoció','','','',false,true);
+d.add(468,464,'685.4','<div class="nodetag">685.4</div></span>&nbsp;&nbsp;Guanteria. Guants','685.4','Guanteria. Guants','','','',false,true);
+d.add(469,464,'685.5','<div class="nodetag">685.5</div></span>&nbsp;&nbsp;Articles de viatge i acampada','685.5','Articles de viatge i acampada','','','',false,true);
+d.add(470,464,'685.6','<div class="nodetag">685.6</div></span>&nbsp;&nbsp;Articles per a la pràctica dels jocs i de l\'esport. Equipament per a la pràctica de l\'atletisme, la gimnàstica i l\'entrenament físic','685.6','Articles per a la pràctica dels jocs i de l\'esport. Equipament per a la pràctica de l\'atletisme, la gimnàstica i l\'entrenament físic','','','',false,true);
+d.add(471,464,'685.7','<div class="nodetag">685.7</div></span>&nbsp;&nbsp;Equip per al muntanyisme i l\'escalada. Equip per a la natació','685.7','Equip per al muntanyisme i l\'escalada. Equip per a la natació','','','',false,true);
+d.add(472,464,'685.8','<div class="nodetag">685.8</div></span>&nbsp;&nbsp;Articles per als jocs de taula','685.8','Articles per als jocs de taula','','','',false,true);
+d.add(473,446,'686','<div class="nodetag">686</div></span>&nbsp;&nbsp;Enquadernació. Metal·lització. Marcs. Miralls. Papereria i objectes d\'escriptori','686','Enquadernació. Metal·lització. Marcs. Miralls. Papereria i objectes d\'escriptori','','','',false,true);
+d.add(474,446,'687','<div class="nodetag">687</div></span>&nbsp;&nbsp;Indústria de la confecció. Confecció de roba de vestir. Articles de tocador','687','Indústria de la confecció. Confecció de roba de vestir. Articles de tocador','','','',false,true);
+d.add(475,474,'687.1','<div class="nodetag">687.1</div></span>&nbsp;&nbsp;Confecció. Roba de vestir. Sastreria','687.1','Confecció. Roba de vestir. Sastreria','','','',false,true);
+d.add(476,474,'687.2','<div class="nodetag">687.2</div></span>&nbsp;&nbsp;Roba interior. Llenceria','687.2','Roba interior. Llenceria','','','',false,true);
+d.add(477,474,'687.3','<div class="nodetag">687.3</div></span>&nbsp;&nbsp;Gèneres de punt. Corbates. Mitjans per mantenir i protegir la roba','687.3','Gèneres de punt. Corbates. Mitjans per mantenir i protegir la roba','','','',false,true);
+d.add(478,474,'687.4','<div class="nodetag">687.4</div></span>&nbsp;&nbsp;Barreteria. Capelleria','687.4','Barreteria. Capelleria','','','',false,true);
+d.add(479,474,'687.5','<div class="nodetag">687.5</div></span>&nbsp;&nbsp;Indústria de la cura de la bellesa i de l\'estètica corporal. Articles de tocador','687.5','Indústria de la cura de la bellesa i de l\'estètica corporal. Articles de tocador','','','',false,true);
+d.add(480,474,'687.8','<div class="nodetag">687.8</div></span>&nbsp;&nbsp;Pelleteria artificial','687.8','Pelleteria artificial','','','',false,true);
+d.add(481,474,'687.9','<div class="nodetag">687.9</div></span>&nbsp;&nbsp;Raspalls, pinzells, escombres, etc.','687.9','Raspalls, pinzells, escombres, etc.','','','',false,true);
+d.add(482,446,'688','<div class="nodetag">688</div></span>&nbsp;&nbsp;Articles de fantasia. Joguines. Articles de decoració','688','Articles de fantasia. Joguines. Articles de decoració','','','',false,true);
+d.add(483,482,'688.7','<div class="nodetag">688.7</div></span>&nbsp;&nbsp;Joguines. Articles per a l\'entreteniment','688.7','Joguines. Articles per a l\'entreteniment','','','',false,true);
+d.add(484,446,'689','<div class="nodetag">689</div></span>&nbsp;&nbsp;Treballs tècnics d\'aficionats. Bricolatge','689','Treballs tècnics d\'aficionats. Bricolatge','','','',false,true);
+d.add(485,0,'69','<div class="nodetag">69</div></span>&nbsp;&nbsp;Indústria i oficis de la construcció. Materials de construcció','69','Indústria i oficis de la construcció. Materials de construcció','','','',false,true);
+d.add(486,485,'691','<div class="nodetag">691</div></span>&nbsp;&nbsp;Materials de construcció. Elements de construcció','691','Materials de construcció. Elements de construcció','','','',false,true);
+d.add(487,485,'692','<div class="nodetag">692</div></span>&nbsp;&nbsp;Parts estructurals i elements dels edificis','692','Parts estructurals i elements dels edificis','','','',false,true);
+d.add(488,485,'693','<div class="nodetag">693</div></span>&nbsp;&nbsp;Treballs d\'obra. Tècnica de la construcció. Ram de paleta','693','Treballs d\'obra. Tècnica de la construcció. Ram de paleta','','','',false,true);
+d.add(489,485,'694','<div class="nodetag">694</div></span>&nbsp;&nbsp;Construcció en fusta. Fusteria de la construcció','694','Construcció en fusta. Fusteria de la construcció','','','',false,true);
+d.add(490,485,'696','<div class="nodetag">696</div></span>&nbsp;&nbsp;Equips, serveis i instal·lacions en edificis (sanitàries, gas, vapor, electricitat). Lampista. Llauner. Electricista. Altres oficis similars','696','Equips, serveis i instal·lacions en edificis (sanitàries, gas, vapor, electricitat). Lampista. Llauner. Electricista. Altres oficis similars','','','',false,true);
+d.add(491,485,'697','<div class="nodetag">697</div></span>&nbsp;&nbsp;Climatització dels edificis. Calefacció, ventilació i aire condicionat','697','Climatització dels edificis. Calefacció, ventilació i aire condicionat','','','',false,true);
+d.add(492,485,'698','<div class="nodetag">698</div></span>&nbsp;&nbsp;Altres oficis i tècniques d\'acabat i decoració','698','Altres oficis i tècniques d\'acabat i decoració','','','',false,true);
+d.config.useSelection = false;
+d.config.inOrder = true;
+d.config.useIcons = false;
+document.write(d);
+//-->
+</script>
+</div>
+</div><div id="expandbox" onclick="expandbox(); return false;">&nbsp;</div>
+<div id="recordbox" class="debugbkg">
+<div class="fronthint">feu clic al damunt d'una classe de l'esquerra per veure els registres</div>
+</div>
+
+        <div id="footer">
+            <div class="footersectionleft">
+                The UDC Summary (UDCS) provides a selection of around 2,600 classes from the whole scheme which comprises more than 70,000 entries.
+                Please send questions and suggestions to <a href="mailto:udcs@udcc.org?subject=UDC Summary Enquiry">udcs@udcc.org</a><br><br>
+	            <p>
+		            The data provided in this Summary is released under the <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative Commons Attribution Share Alike 3.0 license</a> <a href="../about.htm">[more]</a>
+	            </p>
+            </div>
+            <div class="footermiddle">
+                <a href="http://www.udcc.org"><img src="../images/udclogowhite.png" border="0"></a>
+            </div>
+			<div class="footerright">
+                For complete UDC schedules see <a href="http://www.udc-hub.com/">UDC Online Hub</a><br/><a href="http://www.udc-hub.com/"><img width="60" height="35" src="../images/udclogo.png"/></a>
+
+			</div>
+        </div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-13138465-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>

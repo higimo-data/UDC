@@ -1,0 +1,654 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>UDC Summary</title>
+    <link rel="stylesheet" href="../reset.css" type="text/css" />
+    <link rel="stylesheet" href="../udc2000.css" type="text/css" />
+	    <link rel="StyleSheet" href="dtree2.css" type="text/css" />
+	    <script type="text/javascript" src="dtree.js"></script>
+	    <script type="text/javascript" src="udcdisplay_9.js"></script>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+</head>
+
+<body >
+<div id="centercontainer" class="debugbkg">
+    <div id="titlebox" class="debugbkg">
+		<div id="rightbox">
+        	<div id="languagecount">57 languages</div>
+            <div id="languagebox">
+            <select id="selectedlang" style="vertical-align: middle;" onchange="location = this.options[this.selectedIndex].value;">
+			<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=af&pr=Y">Afrikaans (Afrikaans) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sq&pr=Y">Albanian (Shqip) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=anp&pr=Y">Angika (अंगिका) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ar&pr=Y">Arabic (العربية) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hy&pr=Y">Armenian (հայերեն) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=eu&pr=Y">Basque (Euskara) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=be&pr=Y">Belarusian (Беларуская) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bn&pr=Y">Bengali (বাংলা) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bho&pr=Y">Bhojpuri (भोजपुरी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bg&pr=Y">Bulgarian (Български) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ca&pr=Y">Catalan (Català) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=chi&pr=Y">Chinese (中文) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hr&pr=Y">Croatian (Hrvatski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=cs&pr=Y">Czech (Čeština) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=da&pr=Y">Danish (Dansk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=nl&pr=Y">Dutch (Nederlands) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=en&pr=Y">English (English) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=eo&pr=Y">Esperanto (Esperanto) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=et&pr=Y">Estonian (Eesti) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=fi&pr=Y">Finnish (Suomi) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=fr&pr=Y">French (Français) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=gl&pr=Y">Galician (Galego) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ka&pr=Y" selected>Georgian (ქართული) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=de&pr=Y">German (Deutsch) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=el&pr=Y">Greek (Ελληνικά) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hi&pr=Y">Hindi (हिन्दी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hu&pr=Y">Hungarian (Magyar) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=id&pr=Y">Indonesian (Bahasa Ind) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ga&pr=Y">Irish (Gaeilge) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=it&pr=Y">Italian (Italiano) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ja&pr=Y">Japanese (日本語) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=kn&pr=Y">Kannada (ಕನ್ನಡ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=kk&pr=Y">Kazakh (Қазақ тілі) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=lv&pr=Y">Latvian (Latviešu) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=lt&pr=Y">Lithuanian (lietuvių) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=mk&pr=Y">Macedonian (македонски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ml&pr=Y">Malayalam (മലയാളം) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=mr&pr=Y">Marathi (मराठी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=no&pr=Y">Norwegian (Norsk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pl&pr=Y">Polish (Polski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pt&pr=Y">Portuguese (Português) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pa&pr=Y">Punjabi (ਪੰਜਾਬੀ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ro&pr=Y">Romanian (Româna) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ru&pr=Y">Russian (Pусский) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sa&pr=Y">Sanskrit (Saṃskṛtam) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sr&pr=Y">Serbian (Српски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=si&pr=Y">Sinhala (සිංහල) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sk&pr=Y">Slovak (Slovenský) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sl&pr=Y">Slovenian (Slovenski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=es&pr=Y">Spanish (Español) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sv&pr=Y">Swedish (Svenska) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ta&pr=Y">Tamil (தமிழ்) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=te&pr=Y">Telugu (తెలుగు) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=tr&pr=Y">Turkish (Türkçe) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=uk&pr=Y">Ukrainian (Yкраї́нська) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=uz&pr=Y">Uzbek (oʻzbek) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=vi&pr=Y">Vietnamese (tiếng Việt) </option>
+            </select>
+            </div>
+            </div>
+        </div>
+		<div id="menubox" class="debugbkg">
+            <ul class="menu boldmenu">
+<li><a href="index.php@lang=ka">დასაწყისი</a></li>
+<li><a href="index.php@tag=--&amp;lang=ka">ნიშნები</a></li>
+<li><a href="index.php@tag=---&amp;lang=ka">მსაზღვრელები</a></li>
+<li><a href="index.php@tag=0&amp;lang=ka">0</a></li>
+<li><a href="index.php@tag=1&amp;lang=ka">1</a></li>
+<li><a href="index.php@tag=2&amp;lang=ka">2</a></li>
+<li><a href="index.php@tag=3&amp;lang=ka">3</a></li>
+<li><a  class="vacant" href="index.php@tag=6&amp;lang=ka#">4</a></li>
+<li><a href="index.php@tag=5&amp;lang=ka">5</a></li>
+<li><a href="index.php@tag=6&amp;lang=ka">6</a></li>
+<li><a href="index.php@tag=7&amp;lang=ka">7</a></li>
+<li><a href="index.php@tag=8&amp;lang=ka">8</a></li>
+<li><a href="index.php@tag=9&amp;lang=ka">9</a></li>
+</ul>
+<input type="hidden" id="if_loading" name="if_loading" value="ჩატვირთვა"/>
+<input type="hidden" id="if_lang" name="if_lang" value="12"/>
+<ul class="rightmenu boldmenu">
+<li><a href="../translation.htm">თარგმანები</a></li>
+<li><a href="index.php@tag=6&amp;lang=ka#" title="Under Development">სხვა კლასიფიკაციები</a></li>
+<li><a href="../exports.htm" title="Data Exports">ექსპორტი</a></li>
+<li><a href="index.php@tag=6&amp;lang=ka#" title="Under Development">ანბანური საძიებელი</a></li>
+<li><a href="index.php@tag=6&amp;lang=ka#" title="Under Development">სახელმძღვანელო</a></li>
+<li><a href="../about.htm" title="About the UDC Summary">საიტის შესახებ</a></li>
+</ul>
+
+        </div>
+		<input type="hidden" id="leftWidth" value="420"/><input type="hidden" id="rightWidth" value="522"/>
+		<div id="classmarkbox" class="debugbkg">
+
+<div id="openclosemenu"><a href="javascript: d.openAll();">&nbsp;ყველას გაშლა</a> | <a href="javascript: d.closeAll();">ყველას აკეცვა</a></div>
+<div id="classtree">
+<script type="text/javascript">
+<!--
+d = new dTree('d');
+d.config.hrefIsClick = true;
+d.add(0,-1,'6','<span class="nodetag">6</span>&nbsp;&nbsp;გამოყენებითი მეცნიერებანი. მედიცინა. ტექნოლოგია','6','','','','',false,true);
+d.add(1,0,'60','<div class="nodetag">60</div></span>&nbsp;&nbsp;ბიოტექნოლოგია','60','ბიოტექნოლოგია','','','',false,true);
+d.add(2,1,'601','<div class="nodetag">601</div></span>&nbsp;&nbsp;ძირითადი ცნებები','601','ძირითადი ცნებები','','','',false,true);
+d.add(3,1,'602','<div class="nodetag">602</div></span>&nbsp;&nbsp;პროცესები და ტექნიკა','602','პროცესები და ტექნიკა','','','',false,true);
+d.add(4,1,'604','<div class="nodetag">604</div></span>&nbsp;&nbsp;პროდუქცია','604','პროდუქცია','','','',false,true);
+d.add(5,1,'606','<div class="nodetag">606</div></span>&nbsp;&nbsp;ბიოტექნოლოგიის გამოყენება','606','ბიოტექნოლოგიის გამოყენება','','','',false,true);
+d.add(6,1,'608','<div class="nodetag">608</div></span>&nbsp;&nbsp;ბიოტექნოლოგიის საკითხები','608','ბიოტექნოლოგიის საკითხები','','','',false,true);
+d.add(7,0,'61','<div class="nodetag">61</div></span>&nbsp;&nbsp;მედიცინა. ჯანმრთელობის დაცვა','61','მედიცინა. ჯანმრთელობის დაცვა','','','',false,true);
+d.add(8,7,'611/612','<div class="nodetag">611/612</div></span>&nbsp;&nbsp;ადამიანის ბიოლოგია','611/612','ადამიანის ბიოლოგია','','','',false,true);
+d.add(9,8,'611','<div class="nodetag">611</div></span>&nbsp;&nbsp;ანატომია.ადამიანის ანატომია. შედარებითი ანატომია','611','ანატომია.ადამიანის ანატომია. შედარებითი ანატომია','','','',false,true);
+d.add(10,8,'612','<div class="nodetag">612</div></span>&nbsp;&nbsp;ფიზიოლოგია. ადამიანის ფიზიოლოგია. შედარებითი ფიზიოლოგია','612','ფიზიოლოგია. ადამიანის ფიზიოლოგია. შედარებითი ფიზიოლოგია','','','',false,true);
+d.add(11,10,'612.1/.8','<div class="nodetag">612.1/.8</div></span>&nbsp;&nbsp;სისტემატური ფიზიოლოგია','612.1/.8','სისტემატური ფიზიოლოგია','','','',false,true);
+d.add(12,11,'612.1','<div class="nodetag">612.1</div></span>&nbsp;&nbsp;სისხლი. გულ–სისხლძარღვთა სისტემები','612.1','სისხლი. გულ–სისხლძარღვთა სისტემები','','','',false,true);
+d.add(13,11,'612.2','<div class="nodetag">612.2</div></span>&nbsp;&nbsp;რესპირაცია. სუნთქვა. რესპირატორული სისტემა','612.2','რესპირაცია. სუნთქვა. რესპირატორული სისტემა','','','',false,true);
+d.add(14,11,'612.3','<div class="nodetag">612.3</div></span>&nbsp;&nbsp;კვება. საჭმლის მომნელებელი სისტემები','612.3','კვება. საჭმლის მომნელებელი სისტემები','','','',false,true);
+d.add(15,11,'612.4','<div class="nodetag">612.4</div></span>&nbsp;&nbsp;ჯირკვლები. სეკრეცია. ექსკრეცია','612.4','ჯირკვლები. სეკრეცია. ექსკრეცია','','','',false,true);
+d.add(16,11,'612.5','<div class="nodetag">612.5</div></span>&nbsp;&nbsp;ცხოველური სითბო. თერმული პროცესები','612.5','ცხოველური სითბო. თერმული პროცესები','','','',false,true);
+d.add(17,11,'612.6','<div class="nodetag">612.6</div></span>&nbsp;&nbsp;რეპროდუქცია. ზრდა. განვითარება','612.6','რეპროდუქცია. ზრდა. განვითარება','','','',false,true);
+d.add(18,11,'612.7','<div class="nodetag">612.7</div></span>&nbsp;&nbsp;მოტორული ფუნქციები. მამოძრავებელი ორგანოები. ხმა. გარე საფარი','612.7','მოტორული ფუნქციები. მამოძრავებელი ორგანოები. ხმა. გარე საფარი','','','',false,true);
+d.add(19,11,'612.8','<div class="nodetag">612.8</div></span>&nbsp;&nbsp;ნერვული სისტემა. გრძნობის ორგანოები','612.8','ნერვული სისტემა. გრძნობის ორგანოები','','','',false,true);
+d.add(20,7,'613','<div class="nodetag">613</div></span>&nbsp;&nbsp;ჰიგიენა ზოგადად. პირადი ჯანმრთელობა და ჰიგიენა','613','ჰიგიენა ზოგადად. პირადი ჯანმრთელობა და ჰიგიენა','','','',false,true);
+d.add(21,20,'613.2','<div class="nodetag">613.2</div></span>&nbsp;&nbsp;დიეტოლოგია. კვების ჰიგიენა','613.2','დიეტოლოგია. კვების ჰიგიენა','','','',false,true);
+d.add(22,20,'613.3','<div class="nodetag">613.3</div></span>&nbsp;&nbsp;სასმელები. სამკურნალო წყლები. სასმელების ჰიგიენა. სმის რეჟიმი','613.3','სასმელები. სამკურნალო წყლები. სასმელების ჰიგიენა. სმის რეჟიმი','','','',false,true);
+d.add(23,20,'613.4','<div class="nodetag">613.4</div></span>&nbsp;&nbsp;სხეულისა და ტანსაცმლის ჰიგიენა','613.4','სხეულისა და ტანსაცმლის ჰიგიენა','','','',false,true);
+d.add(24,20,'613.5','<div class="nodetag">613.5</div></span>&nbsp;&nbsp;საცხოვრებელი და საზოგადოებრივი ნაგებობების ჰიგიენა','613.5','საცხოვრებელი და საზოგადოებრივი ნაგებობების ჰიგიენა','','','',false,true);
+d.add(25,20,'613.6','<div class="nodetag">613.6</div></span>&nbsp;&nbsp;პროფესიული მავნეობა. შრომის ჰიგიენა და პროფ-დაავადებების პროფილაქტიკა','613.6','პროფესიული მავნეობა. შრომის ჰიგიენა და პროფ-დაავადებების პროფილაქტიკა','','','',false,true);
+d.add(26,20,'613.7','<div class="nodetag">613.7</div></span>&nbsp;&nbsp;თავისუფალი დროის ჰიგიენა. დასვენებისა და ძილის ჰიგიენა','613.7','თავისუფალი დროის ჰიგიენა. დასვენებისა და ძილის ჰიგიენა','','','',false,true);
+d.add(27,20,'613.8','<div class="nodetag">613.8</div></span>&nbsp;&nbsp;ნერვული სისტემის ჰიგიენა. ჰიგიენა და ეთიკა','613.8','ნერვული სისტემის ჰიგიენა. ჰიგიენა და ეთიკა','','','',false,true);
+d.add(28,20,'613.9','<div class="nodetag">613.9</div></span>&nbsp;&nbsp;ასაკისა და სქესის ჰიგიენა','613.9','ასაკისა და სქესის ჰიგიენა','','','',false,true);
+d.add(29,7,'614','<div class="nodetag">614</div></span>&nbsp;&nbsp;სოციალური ჰიგიენა და ჯანდაცვის ორგანიზაცია. უბედური შემთხვევის პრევენცია','614','სოციალური ჰიგიენა და ჯანდაცვის ორგანიზაცია. უბედური შემთხვევის პრევენცია','','','',false,true);
+d.add(30,29,'614.1','<div class="nodetag">614.1</div></span>&nbsp;&nbsp;მოსახლეობა. დეპოპულაცია','614.1','მოსახლეობა. დეპოპულაცია','','','',false,true);
+d.add(31,29,'614.2','<div class="nodetag">614.2</div></span>&nbsp;&nbsp;ჯანმრთელობის საზოგადოებრივი და პროფესიული ორგანიზაციები','614.2','ჯანმრთელობის საზოგადოებრივი და პროფესიული ორგანიზაციები','','','',false,true);
+d.add(32,29,'614.3','<div class="nodetag">614.3</div></span>&nbsp;&nbsp;სანიტარული ზედამხედველობა','614.3','სანიტარული ზედამხედველობა','','','',false,true);
+d.add(33,32,'614.39','<div class="nodetag">614.39</div></span>&nbsp;&nbsp;ჯანმრთელობის დაცვის ეროვნული სერვისები','614.39','ჯანმრთელობის დაცვის ეროვნული სერვისები','','','',false,true);
+d.add(34,29,'614.4','<div class="nodetag">614.4</div></span>&nbsp;&nbsp;ეპიდემიის საწინააღმდეგო ღონისძიებები. სანიტარული ინსპექცია','614.4','ეპიდემიის საწინააღმდეგო ღონისძიებები. სანიტარული ინსპექცია','','','',false,true);
+d.add(35,29,'614.6','<div class="nodetag">614.6</div></span>&nbsp;&nbsp;დაკრძალვის ჰიგიენა','614.6','დაკრძალვის ჰიგიენა','','','',false,true);
+d.add(36,29,'614.7','<div class="nodetag">614.7</div></span>&nbsp;&nbsp;ნიადაგის, წყლისა და ჰაერის ჰიგიენა','614.7','ნიადაგის, წყლისა და ჰაერის ჰიგიენა','','','',false,true);
+d.add(37,29,'614.8','<div class="nodetag">614.8</div></span>&nbsp;&nbsp;უბედური შემთხვევები. საფრთხეები. მათ წინააღმდეგ ბრძოლა და პროფილაქტიკა','614.8','უბედური შემთხვევები. საფრთხეები. მათ წინააღმდეგ ბრძოლა და პროფილაქტიკა','','','',false,true);
+d.add(38,29,'614.9','<div class="nodetag">614.9</div></span>&nbsp;&nbsp;ზოოჰიგიენა. ვეტერინარული ჰიგიენა','614.9','ზოოჰიგიენა. ვეტერინარული ჰიგიენა','','','',false,true);
+d.add(39,7,'615','<div class="nodetag">615</div></span>&nbsp;&nbsp;ფარმაკოლოგია. ზოგადი თერაპია. ტოქსიკოლოგია','615','ფარმაკოლოგია. ზოგადი თერაპია. ტოქსიკოლოგია','','','',false,true);
+d.add(40,39,'615.1','<div class="nodetag">615.1</div></span>&nbsp;&nbsp;ფარმაცია','615.1','ფარმაცია','','','',false,true);
+d.add(41,39,'615.2','<div class="nodetag">615.2</div></span>&nbsp;&nbsp;სამკურნალო საშუალებები მათი ძირითადი მოქმედებების მიხედვით','615.2','სამკურნალო საშუალებები მათი ძირითადი მოქმედებების მიხედვით','','','',false,true);
+d.add(42,39,'615.3','<div class="nodetag">615.3</div></span>&nbsp;&nbsp;მედიკამენტები მათი წარმოშობის მიხედვით','615.3','მედიკამენტები მათი წარმოშობის მიხედვით','','','',false,true);
+d.add(43,39,'615.4','<div class="nodetag">615.4</div></span>&nbsp;&nbsp;სამკურნალო საშუალებების ფორმები. სამედიცინო მოწყობილობები და მასალები','615.4','სამკურნალო საშუალებების ფორმები. სამედიცინო მოწყობილობები და მასალები','','','',false,true);
+d.add(44,39,'615.8','<div class="nodetag">615.8</div></span>&nbsp;&nbsp;ფიზიოთერაპია. მექანიკური თერაპიული საშუალებები. რადიოთერაპია და სხვა (არასამედიცინო) თერაპიული საშუალებები','615.8','ფიზიოთერაპია. მექანიკური თერაპიული საშუალებები. რადიოთერაპია და სხვა (არასამედიცინო) თერაპიული საშუალებები','','','',false,true);
+d.add(45,39,'615.9','<div class="nodetag">615.9</div></span>&nbsp;&nbsp;ტოქსიკოლოგია. შხამიანი ნივთიერებების შესწავლა. მოწამვლა','615.9','ტოქსიკოლოგია. შხამიანი ნივთიერებების შესწავლა. მოწამვლა','','','',false,true);
+d.add(46,7,'616','<div class="nodetag">616</div></span>&nbsp;&nbsp;პათოლოგია. კლინიკური მედიცინა','616','პათოლოგია. კლინიკური მედიცინა','','','',false,true);
+d.add(47,46,'616-001/-009','<div class="nodetag">616-001/-009</div></span>&nbsp;&nbsp;სპეციალური მსაზღვრელები პათოლოგიური პროცესების აღსანიშნავად','616-001/-009','სპეციალური მსაზღვრელები პათოლოგიური პროცესების აღსანიშნავად','','','',false,true);
+d.add(48,47,'616-001','<div class="nodetag">616-001</div></span>&nbsp;&nbsp;ტრავმები. დაზიანებები. ჭრილობები','616-001','ტრავმები. დაზიანებები. ჭრილობები','','','',false,true);
+d.add(49,47,'616-002','<div class="nodetag">616-002</div></span>&nbsp;&nbsp;ანთება. გაღიზიანება. ჰიპერემია. ლორწოს დაგროვება','616-002','ანთება. გაღიზიანება. ჰიპერემია. ლორწოს დაგროვება','','','',false,true);
+d.add(50,47,'616-003','<div class="nodetag">616-003</div></span>&nbsp;&nbsp;რეგრესიული და რეპარატიული (აღდგენითი) პროცესები','616-003','რეგრესიული და რეპარატიული (აღდგენითი) პროცესები','','','',false,true);
+d.add(51,47,'616-004','<div class="nodetag">616-004</div></span>&nbsp;&nbsp;სკლეროზი. ქსოვილების გასქელება. ციროზი','616-004','სკლეროზი. ქსოვილების გასქელება. ციროზი','','','',false,true);
+d.add(52,47,'616-005','<div class="nodetag">616-005</div></span>&nbsp;&nbsp;სისხლის მიმოქცევის დარღვევები','616-005','სისხლის მიმოქცევის დარღვევები','','','',false,true);
+d.add(53,47,'616-006','<div class="nodetag">616-006</div></span>&nbsp;&nbsp;სიმსივნეები. ნეოპლაზმები. ბლასტომები. ქორისტომატები. ჰამარტომატები. ონკოლოგია','616-006','სიმსივნეები. ნეოპლაზმები. ბლასტომები. ქორისტომატები. ჰამარტომატები. ონკოლოგია','','','',false,true);
+d.add(54,47,'616-007','<div class="nodetag">616-007</div></span>&nbsp;&nbsp;ორგანიზმის განვითარების დეფექტები. ფიზიოლოგიური სიმახინჯეები. ზომაზე დიდი და მცირეზომიანი ორგანოები. ტერატოლოგია (სწავლება სიმახინჯეებზე)','616-007','ორგანიზმის განვითარების დეფექტები. ფიზიოლოგიური სიმახინჯეები. ზომაზე დიდი და მცირეზომიანი ორგანოები. ტერატოლოგია (სწავლება სიმახინჯეებზე)','','','',false,true);
+d.add(55,47,'616-008','<div class="nodetag">616-008</div></span>&nbsp;&nbsp;ფუნქციური და მეტაბოლური აშლილობანი','616-008','ფუნქციური და მეტაბოლური აშლილობანი','','','',false,true);
+d.add(56,47,'616-009','<div class="nodetag">616-009</div></span>&nbsp;&nbsp;ნერვული აშლილობანი','616-009','ნერვული აშლილობანი','','','',false,true);
+d.add(57,46,'616-01/-099','<div class="nodetag">616-01/-099</div></span>&nbsp;&nbsp;პათოლოგიის ზოგადი ასპექტების აღმნიშვნელი სპეციალური მსაზღვრელები','616-01/-099','პათოლოგიის ზოგადი ასპექტების აღმნიშვნელი სპეციალური მსაზღვრელები','','','',false,true);
+d.add(58,57,'616-01','<div class="nodetag">616-01</div></span>&nbsp;&nbsp;ავადმყოფობასთან, პაციენტებსა და საექიმო ჩარევასთან დაკავშირებული ასპექტები','616-01','ავადმყოფობასთან, პაციენტებსა და საექიმო ჩარევასთან დაკავშირებული ასპექტები','','','',false,true);
+d.add(59,57,'616-02','<div class="nodetag">616-02</div></span>&nbsp;&nbsp;ეტიოლოგია. მეცნიერება დაავადებათა გამომწვევი მიზეზების შესახებ','616-02','ეტიოლოგია. მეცნიერება დაავადებათა გამომწვევი მიზეზების შესახებ','','','',false,true);
+d.add(60,57,'616-03','<div class="nodetag">616-03</div></span>&nbsp;&nbsp;ავადმყოფობის ფორმები, მკურნალობის მეთოდები, წამლები','616-03','ავადმყოფობის ფორმები, მკურნალობის მეთოდები, წამლები','','','',false,true);
+d.add(61,57,'616-05','<div class="nodetag">616-05</div></span>&nbsp;&nbsp;პირები და პიროვნული თავისებურებები პათოლოგიების დროს. პაციენტთა თავისებურებები','616-05','პირები და პიროვნული თავისებურებები პათოლოგიების დროს. პაციენტთა თავისებურებები','','','',false,true);
+d.add(62,57,'616-06','<div class="nodetag">616-06</div></span>&nbsp;&nbsp;გართულებები. შედეგები. რამდენიმე დაავადების ერთდროულად არსებობა. მათი ურთიერთკავშირი. წინარე დაავადებები. წინა ჯანმრთელობის მდგომარეობა. ორი დაავადების ანტაგონიზმი','616-06','გართულებები. შედეგები. რამდენიმე დაავადების ერთდროულად არსებობა. მათი ურთიერთკავშირი. წინარე დაავადებები. წინა ჯანმრთელობის მდგომარეობა. ორი დაავადების ანტაგონიზმი','','','',false,true);
+d.add(63,57,'616-07','<div class="nodetag">616-07</div></span>&nbsp;&nbsp;სემიოლოგია. სიმპტომატოლოგია. ავადმყოფობის ნიშნები. კვლევა. დიაგნოსტიკა. პროპედევტიკა','616-07','სემიოლოგია. სიმპტომატოლოგია. ავადმყოფობის ნიშნები. კვლევა. დიაგნოსტიკა. პროპედევტიკა','','','',false,true);
+d.add(64,57,'616-08','<div class="nodetag">616-08</div></span>&nbsp;&nbsp;მკურნალობა','616-08','მკურნალობა','','','',false,true);
+d.add(65,57,'616-091','<div class="nodetag">616-091</div></span>&nbsp;&nbsp;პათოლოგიური ანატომია','616-091','პათოლოგიური ანატომია','','','',false,true);
+d.add(66,57,'616-092','<div class="nodetag">616-092</div></span>&nbsp;&nbsp;პათოლოგიური ფიზიოლოგია. ავადმყოფობის განვითარების ფორმები. პათოგენეზი. ავადმყოფობის წარმომავლობის კვლევა','616-092','პათოლოგიური ფიზიოლოგია. ავადმყოფობის განვითარების ფორმები. პათოგენეზი. ავადმყოფობის წარმომავლობის კვლევა','','','',false,true);
+d.add(67,57,'616-093','<div class="nodetag">616-093</div></span>&nbsp;&nbsp;მიკრობიოლოგიური კვლევების ტექნიკა','616-093','მიკრობიოლოგიური კვლევების ტექნიკა','','','',false,true);
+d.add(68,57,'616-094','<div class="nodetag">616-094</div></span>&nbsp;&nbsp;მიკრობების მორფოლოგია','616-094','მიკრობების მორფოლოგია','','','',false,true);
+d.add(69,57,'616-095','<div class="nodetag">616-095</div></span>&nbsp;&nbsp;მიკრობების ფიზიოლოგია','616-095','მიკრობების ფიზიოლოგია','','','',false,true);
+d.add(70,57,'616-097','<div class="nodetag">616-097</div></span>&nbsp;&nbsp;იმუნოგენეტიკა','616-097','იმუნოგენეტიკა','','','',false,true);
+d.add(71,57,'616-098','<div class="nodetag">616-098</div></span>&nbsp;&nbsp;მიკრობული ფიზიკა, ქიმია, მეტაბოლიზმი, კატაბოლიზმი','616-098','მიკრობული ფიზიკა, ქიმია, მეტაბოლიზმი, კატაბოლიზმი','','','',false,true);
+d.add(72,57,'616-099','<div class="nodetag">616-099</div></span>&nbsp;&nbsp;მოწამლვა. ინტოქსიკაცია','616-099','მოწამლვა. ინტოქსიკაცია','','','',false,true);
+d.add(73,46,'616-71/-78','<div class="nodetag">616-71/-78</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Special auxiliary subdivision for medical and surgical instrumentation and equipment</span>','616-71/-78','Special auxiliary subdivision for medical and surgical instrumentation and equipment','','','',false,true);
+d.add(74,73,'616-71','<div class="nodetag">616-71</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Medical instruments and equipment in general</span>','616-71','Medical instruments and equipment in general','','','',false,true);
+d.add(75,73,'616-72','<div class="nodetag">616-72</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Surgical and therapeutic instruments</span>','616-72','Surgical and therapeutic instruments','','','',false,true);
+d.add(76,73,'616-74','<div class="nodetag">616-74</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Reinforcement and reparative materials and equipment</span>','616-74','Reinforcement and reparative materials and equipment','','','',false,true);
+d.add(77,73,'616-76','<div class="nodetag">616-76</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Corrective and protective appliances, aids etc.</span>','616-76','Corrective and protective appliances, aids etc.','','','',false,true);
+d.add(78,73,'616-77','<div class="nodetag">616-77</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Prosthetic materials and parts. Artificial organs etc.</span>','616-77','Prosthetic materials and parts. Artificial organs etc.','','','',false,true);
+d.add(79,73,'616-78','<div class="nodetag">616-78</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Machines and mechanical apparatus</span>','616-78','Machines and mechanical apparatus','','','',false,true);
+d.add(80,46,'616.1/.9','<div class="nodetag">616.1/.9</div></span>&nbsp;&nbsp;განსაკუთრებული პათოლოგიები','616.1/.9','განსაკუთრებული პათოლოგიები','','','',false,true);
+d.add(81,80,'616.1','<div class="nodetag">616.1</div></span>&nbsp;&nbsp;გულ-სისხლძარღვთა სისტემისა და სისხლის დაავადებები ზოგადად','616.1','გულ-სისხლძარღვთა სისტემისა და სისხლის დაავადებები ზოგადად','','','',false,true);
+d.add(82,80,'616.2','<div class="nodetag">616.2</div></span>&nbsp;&nbsp;სასუნთქი სისტემის დაავადებები. ოთოლოგია','616.2','სასუნთქი სისტემის დაავადებები. ოთოლოგია','','','',false,true);
+d.add(83,80,'616.3','<div class="nodetag">616.3</div></span>&nbsp;&nbsp;საჭმლის მომნელებელი სისტემის დაავადებანი','616.3','საჭმლის მომნელებელი სისტემის დაავადებანი','','','',false,true);
+d.add(84,83,'616.31','<div class="nodetag">616.31</div></span>&nbsp;&nbsp;სტომატოლოგია. კბილებისა და პირის ღრუს დაავადებანი','616.31','სტომატოლოგია. კბილებისა და პირის ღრუს დაავადებანი','','','',false,true);
+d.add(85,80,'616.4','<div class="nodetag">616.4</div></span>&nbsp;&nbsp;სისხლძარღვთა სისტემისა და შიდა სეკრეციის ჯირკვლების დაავადებანი. ენდოკრინოლოგიური დაავადებანი. ლიმფური სისტემის დაავადებანი','616.4','სისხლძარღვთა სისტემისა და შიდა სეკრეციის ჯირკვლების დაავადებანი. ენდოკრინოლოგიური დაავადებანი. ლიმფური სისტემის დაავადებანი','','','',false,true);
+d.add(86,80,'616.5','<div class="nodetag">616.5</div></span>&nbsp;&nbsp;დერმატოლოგია. კანის დაავადებანი','616.5','დერმატოლოგია. კანის დაავადებანი','','','',false,true);
+d.add(87,80,'616.6','<div class="nodetag">616.6</div></span>&nbsp;&nbsp;შარდ-სასქესო სისტემის დაავადებანი','616.6','შარდ-სასქესო სისტემის დაავადებანი','','','',false,true);
+d.add(88,80,'616.7','<div class="nodetag">616.7</div></span>&nbsp;&nbsp;საყრდენ-მამოძრავებელი სისტემის დაავადებანი','616.7','საყრდენ-მამოძრავებელი სისტემის დაავადებანი','','','',false,true);
+d.add(89,80,'616.8','<div class="nodetag">616.8</div></span>&nbsp;&nbsp;ნევროპათოლოგია. ნევროლოგია','616.8','ნევროპათოლოგია. ნევროლოგია','','','',false,true);
+d.add(90,89,'616.89','<div class="nodetag">616.89</div></span>&nbsp;&nbsp;ფსიქიატრია. პათოლოგიური ფსიქოლოგია. ფსიქიკური (სულიერი) დაავადებანი','616.89','ფსიქიატრია. პათოლოგიური ფსიქოლოგია. ფსიქიკური (სულიერი) დაავადებანი','','','',false,true);
+d.add(91,80,'616.9','<div class="nodetag">616.9</div></span>&nbsp;&nbsp;ინფექციური (გადამდები) დაავადებანი','616.9','ინფექციური (გადამდები) დაავადებანი','','','',false,true);
+d.add(92,7,'617','<div class="nodetag">617</div></span>&nbsp;&nbsp;ქირურგია. ორთოპედია. ოფთალმოლოგია','617','ქირურგია. ორთოპედია. ოფთალმოლოგია','','','',false,true);
+d.add(93,92,'617.3','<div class="nodetag">617.3</div></span>&nbsp;&nbsp;ორთოპედია ზოგადად','617.3','ორთოპედია ზოგადად','','','',false,true);
+d.add(94,92,'617.7','<div class="nodetag">617.7</div></span>&nbsp;&nbsp;ოფთალმოლოგია. თვალის დაავადებანი და ტრავმები','617.7','ოფთალმოლოგია. თვალის დაავადებანი და ტრავმები','','','',false,true);
+d.add(95,7,'618','<div class="nodetag">618</div></span>&nbsp;&nbsp;გინეკოლოგია. ქალური დაავადებანი. მეანობა','618','გინეკოლოგია. ქალური დაავადებანი. მეანობა','','','',false,true);
+d.add(96,0,'62','<div class="nodetag">62</div></span>&nbsp;&nbsp;საინჟინრო საქმე. ტექნიკა ზოგადად','62','საინჟინრო საქმე. ტექნიკა ზოგადად','','','',false,true);
+d.add(97,96,'62-1/-9','<div class="nodetag">62-1/-9</div></span>&nbsp;&nbsp;მოწყობილობების, დანადგარების, აპარატურის პროცესებისა და პროდუქციის აღმნიშვნელი სპეციალური მსაზღვრელები','62-1/-9','მოწყობილობების, დანადგარების, აპარატურის პროცესებისა და პროდუქციის აღმნიშვნელი სპეციალური მსაზღვრელები','','','',false,true);
+d.add(98,97,'62-1','<div class="nodetag">62-1</div></span>&nbsp;&nbsp;მანქანა–დანადგარების ზოგადი დახასიათება','62-1','მანქანა–დანადგარების ზოგადი დახასიათება','','','',false,true);
+d.add(99,97,'62-2','<div class="nodetag">62-2</div></span>&nbsp;&nbsp;მანქანების უძრავი და მოძრავი ნაწილები','62-2','მანქანების უძრავი და მოძრავი ნაწილები','','','',false,true);
+d.add(100,97,'62-3','<div class="nodetag">62-3</div></span>&nbsp;&nbsp;სითხის მაკონტროლებელი ნაწილები და ძრავები. სარქველები, საკეტები და ა. შ.','62-3','სითხის მაკონტროლებელი ნაწილები და ძრავები. სარქველები, საკეტები და ა. შ.','','','',false,true);
+d.add(101,97,'62-4','<div class="nodetag">62-4</div></span>&nbsp;&nbsp;მასალის სტრუქტურა, მდგომარეობა, ფორმა. ზედაპირი','62-4','მასალის სტრუქტურა, მდგომარეობა, ფორმა. ზედაპირი','','','',false,true);
+d.add(102,97,'62-5','<div class="nodetag">62-5</div></span>&nbsp;&nbsp;მანქანებისა და პროცესების ოპერაციები და კონტროლი','62-5','მანქანებისა და პროცესების ოპერაციები და კონტროლი','','','',false,true);
+d.add(103,97,'62-6','<div class="nodetag">62-6</div></span>&nbsp;&nbsp;საწვავი და მანქანების მაღალი ტემპერატურის სხვა მახასიათებლები','62-6','საწვავი და მანქანების მაღალი ტემპერატურის სხვა მახასიათებლები','','','',false,true);
+d.add(104,97,'62-7','<div class="nodetag">62-7</div></span>&nbsp;&nbsp;სერვისის მექანიზმები, მანქანების შენახვა და დაცვა','62-7','სერვისის მექანიზმები, მანქანების შენახვა და დაცვა','','','',false,true);
+d.add(105,97,'62-8','<div class="nodetag">62-8</div></span>&nbsp;&nbsp;მანქანის ენერგიის წყარო. მანქანის მოძრაობაში მოყვანის საფუძველი','62-8','მანქანის ენერგიის წყარო. მანქანის მოძრაობაში მოყვანის საფუძველი','','','',false,true);
+d.add(106,97,'62-9','<div class="nodetag">62-9</div></span>&nbsp;&nbsp;წარმოების პროცესების ცვლადები, პირობები და თავისებურებები. აღჭურვილობა','62-9','წარმოების პროცესების ცვლადები, პირობები და თავისებურებები. აღჭურვილობა','','','',false,true);
+d.add(107,106,'62-91','<div class="nodetag">62-91</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">State of material: characteristics and variables</span>','62-91','State of material: characteristics and variables','','','',false,true);
+d.add(108,106,'62-92','<div class="nodetag">62-92</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Reactions in terms of reagents. Reagents</span>','62-92','Reactions in terms of reagents. Reagents','','','',false,true);
+d.add(109,106,'62-93','<div class="nodetag">62-93</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Processes, machines and equipment according to mode of working, continuity, associations, media</span>','62-93','Processes, machines and equipment according to mode of working, continuity, associations, media','','','',false,true);
+d.add(110,106,'62-94','<div class="nodetag">62-94</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Direction, velocity, rate, duration of processes etc.</span>','62-94','Direction, velocity, rate, duration of processes etc.','','','',false,true);
+d.add(111,106,'62-95','<div class="nodetag">62-95</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Simple and multiple processes. Single-stage and multistage processes</span>','62-95','Simple and multiple processes. Single-stage and multistage processes','','','',false,true);
+d.add(112,106,'62-96','<div class="nodetag">62-96</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Processes in terms of altering product properties. Modification in general</span>','62-96','Processes in terms of altering product properties. Modification in general','','','',false,true);
+d.add(113,106,'62-97','<div class="nodetag">62-97</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Thermal characteristics. Temperature. Temperature range</span>','62-97','Thermal characteristics. Temperature. Temperature range','','','',false,true);
+d.add(114,106,'62-98','<div class="nodetag">62-98</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Pressure. Pressure range</span>','62-98','Pressure. Pressure range','','','',false,true);
+d.add(115,96,'620','<div class="nodetag">620</div></span>&nbsp;&nbsp;მასალათა გამოცდა. მასალათმცოდნეობა. ენერგოსადგურები. ზოგადი ენერგეტიკა','620','მასალათა გამოცდა. მასალათმცოდნეობა. ენერგოსადგურები. ზოგადი ენერგეტიკა','','','',false,true);
+d.add(116,115,'620.3','<div class="nodetag">620.3</div></span>&nbsp;&nbsp;ნანოტექნოლოგია','620.3','ნანოტექნოლოგია','','','',false,true);
+d.add(117,115,'620.9','<div class="nodetag">620.9</div></span>&nbsp;&nbsp;ენერგიის ეკონომია ზოგადად','620.9','ენერგიის ეკონომია ზოგადად','','','',false,true);
+d.add(118,96,'621','<div class="nodetag">621</div></span>&nbsp;&nbsp;ზოგადი მანქანათმშენებლობა. ბირთვული ტექნიკა. ელექტროტექნიკა. მანქანათმშენებლობის ტექნოლოგია','621','ზოგადი მანქანათმშენებლობა. ბირთვული ტექნიკა. ელექტროტექნიკა. მანქანათმშენებლობის ტექნოლოგია','','','',false,true);
+d.add(119,118,'621.1','<div class="nodetag">621.1</div></span>&nbsp;&nbsp;სითბური ძრავები ზოგადად. ორთქლის მიღება, განაწილება და გამოყენება. ორთქლის მანქანები. ორთქლის ქვაბები','621.1','სითბური ძრავები ზოგადად. ორთქლის მიღება, განაწილება და გამოყენება. ორთქლის მანქანები. ორთქლის ქვაბები','','','',false,true);
+d.add(120,118,'621.22','<div class="nodetag">621.22</div></span>&nbsp;&nbsp;ჰიდრავლიკური ენერგია. ჰიდრავლიკური მანქანები','621.22','ჰიდრავლიკური ენერგია. ჰიდრავლიკური მანქანები','','','',false,true);
+d.add(121,118,'621.3','<div class="nodetag">621.3</div></span>&nbsp;&nbsp;ელექტროტექნიკა','621.3','ელექტროტექნიკა','','','',false,true);
+d.add(122,118,'621.4','<div class="nodetag">621.4</div></span>&nbsp;&nbsp;სითბური (თბური) ძრავები (ორთქლის ძრავების გარდა)','621.4','სითბური (თბური) ძრავები (ორთქლის ძრავების გარდა)','','','',false,true);
+d.add(123,118,'621.5','<div class="nodetag">621.5</div></span>&nbsp;&nbsp;პნევმოენერგეტიკა. სამაცივრო ტექნიკა','621.5','პნევმოენერგეტიკა. სამაცივრო ტექნიკა','','','',false,true);
+d.add(124,118,'621.6','<div class="nodetag">621.6</div></span>&nbsp;&nbsp;სითხეებისა და აირების ტრანსპორტირება, განაწილება და შენახვა','621.6','სითხეებისა და აირების ტრანსპორტირება, განაწილება და შენახვა','','','',false,true);
+d.add(125,118,'621.7','<div class="nodetag">621.7</div></span>&nbsp;&nbsp;მექანიკური ტექნიკა ზოგადად: პროცესები, ინსტრუმენტები, ხელსაწყოები და მოწყობილობები (ფორმის შესაცვლელი ოპერაციები: თერმოდამუშავება, მასალათა დაკავშირება, დაფარვა, შედუღება, გადადნობა)','621.7','მექანიკური ტექნიკა ზოგადად: პროცესები, ინსტრუმენტები, ხელსაწყოები და მოწყობილობები (ფორმის შესაცვლელი ოპერაციები: თერმოდამუშავება, მასალათა დაკავშირება, დაფარვა, შედუღება, გადადნობა)','','','',false,true);
+d.add(126,118,'621.8','<div class="nodetag">621.8</div></span>&nbsp;&nbsp;მანქანათა დეტალები. გადამცემები (მექანიკური). ამწე-სატრანსპორტო მოწყობილობები. სამაგრი საშუალებები. საპოხი მასალები','621.8','მანქანათა დეტალები. გადამცემები (მექანიკური). ამწე-სატრანსპორტო მოწყობილობები. სამაგრი საშუალებები. საპოხი მასალები','','','',false,true);
+d.add(127,118,'621.9','<div class="nodetag">621.9</div></span>&nbsp;&nbsp;დაყალიბება ბურბუშელის აცლით. გამყოფი ოპერაციები ბურბუშელის წარმოქმნის გარეშე. მსხვრევა და დაქუცმაცება. ფურცლოვანი მასალების დამუშავება. კუთხვილის დამზადება. პრესები და უროები','621.9','დაყალიბება ბურბუშელის აცლით. გამყოფი ოპერაციები ბურბუშელის წარმოქმნის გარეშე. მსხვრევა და დაქუცმაცება. ფურცლოვანი მასალების დამუშავება. კუთხვილის დამზადება. პრესები და უროები','','','',false,true);
+d.add(128,96,'622','<div class="nodetag">622</div></span>&nbsp;&nbsp;სამთო საქმე. სამთო მრეწველობა','622','სამთო საქმე. სამთო მრეწველობა','','','',false,true);
+d.add(129,128,'622.1','<div class="nodetag">622.1</div></span>&nbsp;&nbsp;სამარკშეიდერო საქმე. ძიება, კმაძიება','622.1','სამარკშეიდერო საქმე. ძიება, კმაძიება','','','',false,true);
+d.add(130,128,'622.2','<div class="nodetag">622.2</div></span>&nbsp;&nbsp;სამთო სამუშაოები სასარგებლო წიაღისეულის დამუშავებისას','622.2','სამთო სამუშაოები სასარგებლო წიაღისეულის დამუშავებისას','','','',false,true);
+d.add(131,128,'622.3','<div class="nodetag">622.3</div></span>&nbsp;&nbsp;სამთო მრეწველობის დარგები მოპოვებული მინერალების, მადნეული და არამადნეული საბადოების სახეობების მიხედვით','622.3','სამთო მრეწველობის დარგები მოპოვებული მინერალების, მადნეული და არამადნეული საბადოების სახეობების მიხედვით','','','',false,true);
+d.add(132,128,'622.4','<div class="nodetag">622.4</div></span>&nbsp;&nbsp;მაღაროების განიავება, ჰაერის კონდიცირება და განათება','622.4','მაღაროების განიავება, ჰაერის კონდიცირება და განათება','','','',false,true);
+d.add(133,128,'622.5','<div class="nodetag">622.5</div></span>&nbsp;&nbsp;მაღაროების დრენაჟი. სამთო წყლები','622.5','მაღაროების დრენაჟი. სამთო წყლები','','','',false,true);
+d.add(134,128,'622.6','<div class="nodetag">622.6</div></span>&nbsp;&nbsp;მაღაროს ტრანსპორტი. მიტანა, გადაგორება შტრეკზე, აწევა ჭაურით. მიწისზედა ტრანსპორტი','622.6','მაღაროს ტრანსპორტი. მიტანა, გადაგორება შტრეკზე, აწევა ჭაურით. მიწისზედა ტრანსპორტი','','','',false,true);
+d.add(135,128,'622.7','<div class="nodetag">622.7</div></span>&nbsp;&nbsp;მინერალური ნედლეულის გამდიდრება','622.7','მინერალური ნედლეულის გამდიდრება','','','',false,true);
+d.add(136,128,'622.8','<div class="nodetag">622.8</div></span>&nbsp;&nbsp;საშიშროება მაღაროებში. უბედური შემთხვევები და ტრავმატიზმი. შრომის დაცვა და უსაფრთხოების ტექნიკა','622.8','საშიშროება მაღაროებში. უბედური შემთხვევები და ტრავმატიზმი. შრომის დაცვა და უსაფრთხოების ტექნიკა','','','',false,true);
+d.add(137,96,'623','<div class="nodetag">623</div></span>&nbsp;&nbsp;სამხედრო ტექნიკა','623','სამხედრო ტექნიკა','','','',false,true);
+d.add(138,137,'623.1/.7','<div class="nodetag">623.1/.7</div></span>&nbsp;&nbsp;სახმელეთო-სამხედრო ტექნიკა. არტილერია','623.1/.7','სახმელეთო-სამხედრო ტექნიკა. არტილერია','','','',false,true);
+d.add(139,138,'623.1/.3','<div class="nodetag">623.1/.3</div></span>&nbsp;&nbsp;საველე ტექნიკა. ფორტიფიკაცია. თავდაცვითი სამუშაოები','623.1/.3','საველე ტექნიკა. ფორტიფიკაცია. თავდაცვითი სამუშაოები','','','',false,true);
+d.add(140,139,'623.1','<div class="nodetag">623.1</div></span>&nbsp;&nbsp;სანგრები. პერმანენტული ფორტიფიკაცია. გამაგრებული ზოლები და ადგილები','623.1','სანგრები. პერმანენტული ფორტიფიკაცია. გამაგრებული ზოლები და ადგილები','','','',false,true);
+d.add(141,139,'623.2','<div class="nodetag">623.2</div></span>&nbsp;&nbsp;საიერიშო და თავდაცვითი სამუშაოები. ალყის შემთხვევის დროს სამუშაოები. საბრძოლო ველის ფორტიფიკაცია. სასანგრე სამუშაოები','623.2','საიერიშო და თავდაცვითი სამუშაოები. ალყის შემთხვევის დროს სამუშაოები. საბრძოლო ველის ფორტიფიკაცია. სასანგრე სამუშაოები','','','',false,true);
+d.add(142,139,'623.3','<div class="nodetag">623.3</div></span>&nbsp;&nbsp;დანაღმული ველები. საველე დაბრკოლებები. დატბორვა','623.3','დანაღმული ველები. საველე დაბრკოლებები. დატბორვა','','','',false,true);
+d.add(143,138,'623.4','<div class="nodetag">623.4</div></span>&nbsp;&nbsp;შეიარაღება. არტილერია. იარაღი. თოფები. (ქვემეხები. ზარბაზნები. ტყვიამფრქვევები). ცეცხლსასროლი იარაღი. ჯავშნიანი და სხვა გადასაზიდი ტრანსპორტი. საბრძოლო აღჭურვილობა და საბრძოლო მომწამლავი აირები.მართვადი შუშხუნები და რაკეტები','623.4','შეიარაღება. არტილერია. იარაღი. თოფები. (ქვემეხები. ზარბაზნები. ტყვიამფრქვევები). ცეცხლსასროლი იარაღი. ჯავშნიანი და სხვა გადასაზიდი ტრანსპორტი. საბრძოლო აღჭურვილობა და საბრძოლო მომწამლავი აირები.მართვადი შუშხუნები და რაკეტები','','','',false,true);
+d.add(144,138,'623.5','<div class="nodetag">623.5</div></span>&nbsp;&nbsp;ბალისტიკური იარაღი. საარტილერიო საქმე. თეორიული და ექსპერიმენტული პრობლემები','623.5','ბალისტიკური იარაღი. საარტილერიო საქმე. თეორიული და ექსპერიმენტული პრობლემები','','','',false,true);
+d.add(145,138,'623.6','<div class="nodetag">623.6</div></span>&nbsp;&nbsp;საველე-საინჟინრო აღჭურვილობა და ოპერაციები. საკომუნიკაციო ხაზები. რადარსაწინააღმდეგო ზომები. სამხედრო ტოპოგრაფია','623.6','საველე-საინჟინრო აღჭურვილობა და ოპერაციები. საკომუნიკაციო ხაზები. რადარსაწინააღმდეგო ზომები. სამხედრო ტოპოგრაფია','','','',false,true);
+d.add(146,138,'623.7','<div class="nodetag">623.7</div></span>&nbsp;&nbsp;სამხედრო და საზღვაო ავიაცია','623.7','სამხედრო და საზღვაო ავიაცია','','','',false,true);
+d.add(147,137,'623.8/.9','<div class="nodetag">623.8/.9</div></span>&nbsp;&nbsp;სამხედრო–საზღვაო ტექნიკა','623.8/.9','სამხედრო–საზღვაო ტექნიკა','','','',false,true);
+d.add(148,147,'623.8','<div class="nodetag">623.8</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Naval construction. Naval bases. Warships and other vessels</span>','623.8','Naval construction. Naval bases. Warships and other vessels','','','',false,true);
+d.add(149,147,'623.9','<div class="nodetag">623.9</div></span>&nbsp;&nbsp;სამხედრო–საზღვაო ფლოტის ტექნიკური საშუალებები. სამხედრო გემების დაცვა და შეიარაღება. წყალქვეშა დაცვა','623.9','სამხედრო–საზღვაო ფლოტის ტექნიკური საშუალებები. სამხედრო გემების დაცვა და შეიარაღება. წყალქვეშა დაცვა','','','',false,true);
+d.add(150,96,'624','<div class="nodetag">624</div></span>&nbsp;&nbsp;საინჟინრო ნაგებობების მშენებლობა','624','საინჟინრო ნაგებობების მშენებლობა','','','',false,true);
+d.add(151,150,'624.01/.07','<div class="nodetag">624.01/.07</div></span>&nbsp;&nbsp;საინჟინრო ნაგებობების მშენებლობის სპეციალური მსაზღვრელები','624.01/.07','საინჟინრო ნაგებობების მშენებლობის სპეციალური მსაზღვრელები','','','',false,true);
+d.add(152,151,'624.01','<div class="nodetag">624.01</div></span>&nbsp;&nbsp;სამშენებლო კონსტრუქციები და მათი ნაწილები მასალისა და მშენებლობის მეთოდის შესაბამისად','624.01','სამშენებლო კონსტრუქციები და მათი ნაწილები მასალისა და მშენებლობის მეთოდის შესაბამისად','','','',false,true);
+d.add(153,151,'624.03','<div class="nodetag">624.03</div></span>&nbsp;&nbsp;სტრუქტურების ზომა, პერმანენტულობა, მდებარეობა და ფორმა','624.03','სტრუქტურების ზომა, პერმანენტულობა, მდებარეობა და ფორმა','','','',false,true);
+d.add(154,151,'624.04','<div class="nodetag">624.04</div></span>&nbsp;&nbsp;სტრუქტურული დიზაინი. სტრუქტურების კვლევისა და კალკულაციის გრაფიკული და ანალიტიკური სტატიკა','624.04','სტრუქტურული დიზაინი. სტრუქტურების კვლევისა და კალკულაციის გრაფიკული და ანალიტიკური სტატიკა','','','',false,true);
+d.add(155,151,'624.05','<div class="nodetag">624.05</div></span>&nbsp;&nbsp;სამშენებლო–სამონტაჟო სამუშაოების ორგანიზაცია და ტექნოლოგია. სამშენებლო მეთოდები','624.05','სამშენებლო–სამონტაჟო სამუშაოების ორგანიზაცია და ტექნოლოგია. სამშენებლო მეთოდები','','','',false,true);
+d.add(156,151,'624.07','<div class="nodetag">624.07</div></span>&nbsp;&nbsp;სტრუქტურული ელემენტები. ტვირთმზიდები','624.07','სტრუქტურული ელემენტები. ტვირთმზიდები','','','',false,true);
+d.add(157,150,'624.1','<div class="nodetag">624.1</div></span>&nbsp;&nbsp;მიწისქვეშა მშენებლობა. მიწის სამუშაოები. ფუნდამენტები და მათი გამართვა (მოწყობა). გვირაბების მშენებლობა','624.1','მიწისქვეშა მშენებლობა. მიწის სამუშაოები. ფუნდამენტები და მათი გამართვა (მოწყობა). გვირაბების მშენებლობა','','','',false,true);
+d.add(158,150,'624.21/.8','<div class="nodetag">624.21/.8</div></span>&nbsp;&nbsp;ხიდები. ხიდების მშენებლობა','624.21/.8','ხიდები. ხიდების მშენებლობა','','','',false,true);
+d.add(159,158,'624.3','<div class="nodetag">624.3</div></span>&nbsp;&nbsp;შეკრული წამწე ხიდები (ღია გისოსებიანი წამწეები)','624.3','შეკრული წამწე ხიდები (ღია გისოსებიანი წამწეები)','','','',false,true);
+d.add(160,158,'624.5','<div class="nodetag">624.5</div></span>&nbsp;&nbsp;საბაგირო ხიდები. დაკიდული ხიდები','624.5','საბაგირო ხიდები. დაკიდული ხიდები','','','',false,true);
+d.add(161,158,'624.6','<div class="nodetag">624.6</div></span>&nbsp;&nbsp;თაღიანი ხიდები','624.6','თაღიანი ხიდები','','','',false,true);
+d.add(162,158,'624.8','<div class="nodetag">624.8</div></span>&nbsp;&nbsp;მოძრავი ხიდები','624.8','მოძრავი ხიდები','','','',false,true);
+d.add(163,150,'624.9','<div class="nodetag">624.9</div></span>&nbsp;&nbsp;მიწისზედა საინჟინრო ნაგებობების მშენებლობა. მიწისზედა კომპლექსური ნაგებობები','624.9','მიწისზედა საინჟინრო ნაგებობების მშენებლობა. მიწისზედა კომპლექსური ნაგებობები','','','',false,true);
+d.add(164,96,'625','<div class="nodetag">625</div></span>&nbsp;&nbsp;გზები. რკინიგზები. რკინიგზების მშენებლობა. საავტომობილო გზები. საგზაო მშენებლობა','625','გზები. რკინიგზები. რკინიგზების მშენებლობა. საავტომობილო გზები. საგზაო მშენებლობა','','','',false,true);
+d.add(165,164,'625.1/.5','<div class="nodetag">625.1/.5</div></span>&nbsp;&nbsp;სალიანდაგო გზები. საბაგირო გზები','625.1/.5','სალიანდაგო გზები. საბაგირო გზები','','','',false,true);
+d.add(166,165,'625.1','<div class="nodetag">625.1</div></span>&nbsp;&nbsp;რკინიგზა ზოგადად. ლიანდაგების მშენებლობა','625.1','რკინიგზა ზოგადად. ლიანდაგების მშენებლობა','','','',false,true);
+d.add(167,165,'625.5','<div class="nodetag">625.5</div></span>&nbsp;&nbsp;საბაგირო გზა. ფუნიკულიორი. დაკიდებული რკინიგზა. საჰაერო საბაგიროები','625.5','საბაგირო გზა. ფუნიკულიორი. დაკიდებული რკინიგზა. საჰაერო საბაგიროები','','','',false,true);
+d.add(168,164,'625.7/.8','<div class="nodetag">625.7/.8</div></span>&nbsp;&nbsp;საავტომობილო გზები. საგზაო მშენებლობა','625.7/.8','საავტომობილო გზები. საგზაო მშენებლობა','','','',false,true);
+d.add(169,168,'625.7','<div class="nodetag">625.7</div></span>&nbsp;&nbsp;საავტომობილო გზები ზოგადად. გზები. სავალი ნაწილები. ქუჩები. სასოფლო და საქალაქო საგზაო სისტემები','625.7','საავტომობილო გზები ზოგადად. გზები. სავალი ნაწილები. ქუჩები. სასოფლო და საქალაქო საგზაო სისტემები','','','',false,true);
+d.add(170,168,'625.8','<div class="nodetag">625.8</div></span>&nbsp;&nbsp;გზის საფარი. საგზაო–სამშენებლო მასალის გამოყენება','625.8','გზის საფარი. საგზაო–სამშენებლო მასალის გამოყენება','','','',false,true);
+d.add(171,96,'626/627','<div class="nodetag">626/627</div></span>&nbsp;&nbsp;ჰიდროტექნიკური მშენებლობა. ჰიდროტექნიკა ზოგადად','626/627','ჰიდროტექნიკური მშენებლობა. ჰიდროტექნიკა ზოგადად','','','',false,true);
+d.add(172,171,'626','<div class="nodetag">626</div></span>&nbsp;&nbsp;ჰიდროტექნიკური მშენებლობა ზოგადად (არხების მშენებლობა. სამელიორაციო მშენებლობა)','626','ჰიდროტექნიკური მშენებლობა ზოგადად (არხების მშენებლობა. სამელიორაციო მშენებლობა)','','','',false,true);
+d.add(173,172,'626.1','<div class="nodetag">626.1</div></span>&nbsp;&nbsp;ქვეყნის სანაოსნო ფარვატერები. არხები','626.1','ქვეყნის სანაოსნო ფარვატერები. არხები','','','',false,true);
+d.add(174,172,'626.4','<div class="nodetag">626.4</div></span>&nbsp;&nbsp;სანაოსნო რაბი','626.4','სანაოსნო რაბი','','','',false,true);
+d.add(175,172,'626.5','<div class="nodetag">626.5</div></span>&nbsp;&nbsp;ტვირთამწევი მექანიზმები','626.5','ტვირთამწევი მექანიზმები','','','',false,true);
+d.add(176,172,'626.8','<div class="nodetag">626.8</div></span>&nbsp;&nbsp;სასოფლო–სამეურნეო ჰიდროტექნიკა. ირიგაცია, დრენაჟი','626.8','სასოფლო–სამეურნეო ჰიდროტექნიკა. ირიგაცია, დრენაჟი','','','',false,true);
+d.add(177,172,'626.9','<div class="nodetag">626.9</div></span>&nbsp;&nbsp;საზღვაო არხები','626.9','საზღვაო არხები','','','',false,true);
+d.add(178,171,'627','<div class="nodetag">627</div></span>&nbsp;&nbsp;სანაოსნო გზები, პორტები, ნავსადგურები და სანაპირო ჰიდროტექნიკური ნაგებობები. სანაოსნო დაცვითი საშუალებანი. ფსკერსაღრმავებელი და საავარიო-სამაშველო სამუშაოები. კაშხლები. ნაგებობები ჰიდროელექტროსადგურებისათვის','627','სანაოსნო გზები, პორტები, ნავსადგურები და სანაპირო ჰიდროტექნიკური ნაგებობები. სანაოსნო დაცვითი საშუალებანი. ფსკერსაღრმავებელი და საავარიო-სამაშველო სამუშაოები. კაშხლები. ნაგებობები ჰიდროელექტროსადგურებისათვის','','','',false,true);
+d.add(179,178,'627.2','<div class="nodetag">627.2</div></span>&nbsp;&nbsp;პორტები, ნავსადგურები და რეიდები: სამშენებლო სამუშაოები ზოგადად','627.2','პორტები, ნავსადგურები და რეიდები: სამშენებლო სამუშაოები ზოგადად','','','',false,true);
+d.add(180,178,'627.3','<div class="nodetag">627.3</div></span>&nbsp;&nbsp;პორტების მოწყობა. დოკები. ნავმისადგომები. გემმისადგომები','627.3','პორტების მოწყობა. დოკები. ნავმისადგომები. გემმისადგომები','','','',false,true);
+d.add(181,178,'627.4','<div class="nodetag">627.4</div></span>&nbsp;&nbsp;მდინარის ნაპირების დაცვა','627.4','მდინარის ნაპირების დაცვა','','','',false,true);
+d.add(182,178,'627.5','<div class="nodetag">627.5</div></span>&nbsp;&nbsp;ზღვის სანაპიროსა და მდინარის კალაპოტის დამცავი ნაგებობები.დრენირება. სანაპიროს დაცვა. მიწის დრენაჟი და მელიორაცია','627.5','ზღვის სანაპიროსა და მდინარის კალაპოტის დამცავი ნაგებობები.დრენირება. სანაპიროს დაცვა. მიწის დრენაჟი და მელიორაცია','','','',false,true);
+d.add(183,178,'627.7','<div class="nodetag">627.7</div></span>&nbsp;&nbsp;საწყალოსნო გზების სანავიგაციო მოწყობა. საავარიო–სამაშველო საშუალებები','627.7','საწყალოსნო გზების სანავიგაციო მოწყობა. საავარიო–სამაშველო საშუალებები','','','',false,true);
+d.add(184,178,'627.8','<div class="nodetag">627.8</div></span>&nbsp;&nbsp;კაშხლები. ელექტროსადგურების მუშაობა','627.8','კაშხლები. ელექტროსადგურების მუშაობა','','','',false,true);
+d.add(185,96,'628','<div class="nodetag">628</div></span>&nbsp;&nbsp;სანიტარული ტექნიკა. სანიტარულ-ტექნიკური ნაგებობები. წყალმომარაგება. კანალიზაცია. განათება','628','სანიტარული ტექნიკა. სანიტარულ-ტექნიკური ნაგებობები. წყალმომარაგება. კანალიზაცია. განათება','','','',false,true);
+d.add(186,185,'628.1','<div class="nodetag">628.1</div></span>&nbsp;&nbsp;წყალმომარაგება. წყლის გაწმენდა. წყლის მოხმარება','628.1','წყალმომარაგება. წყლის გაწმენდა. წყლის მოხმარება','','','',false,true);
+d.add(187,185,'628.2','<div class="nodetag">628.2</div></span>&nbsp;&nbsp;კანალიზაცია','628.2','კანალიზაცია','','','',false,true);
+d.add(188,185,'628.3','<div class="nodetag">628.3</div></span>&nbsp;&nbsp;ჩამდინარე წყლები. ჩამდინარე წყლების გამოყენება','628.3','ჩამდინარე წყლები. ჩამდინარე წყლების გამოყენება','','','',false,true);
+d.add(189,185,'628.4','<div class="nodetag">628.4</div></span>&nbsp;&nbsp;ურბანული ჰიგიენა. ნარჩენები. ნაგავი','628.4','ურბანული ჰიგიენა. ნარჩენები. ნაგავი','','','',false,true);
+d.add(190,185,'628.5','<div class="nodetag">628.5</div></span>&nbsp;&nbsp;სამრეწველო და სხვა მავნებლებისგან დაცვა','628.5','სამრეწველო და სხვა მავნებლებისგან დაცვა','','','',false,true);
+d.add(191,185,'628.6','<div class="nodetag">628.6</div></span>&nbsp;&nbsp;შენობების სანიტარულ–ტექნიკური აღჭურვილობა','628.6','შენობების სანიტარულ–ტექნიკური აღჭურვილობა','','','',false,true);
+d.add(192,185,'628.8','<div class="nodetag">628.8</div></span>&nbsp;&nbsp;შენობების მიკროკლიმატი. კონდიცირება. გათბობა. ვენტილაცია','628.8','შენობების მიკროკლიმატი. კონდიცირება. გათბობა. ვენტილაცია','','','',false,true);
+d.add(193,185,'628.9','<div class="nodetag">628.9</div></span>&nbsp;&nbsp;განათება. განათების ტექნიკა','628.9','განათება. განათების ტექნიკა','','','',false,true);
+d.add(194,96,'629','<div class="nodetag">629</div></span>&nbsp;&nbsp;სატრანსპორტო საშუალებათა ტექნიკა','629','სატრანსპორტო საშუალებათა ტექნიკა','','','',false,true);
+d.add(195,194,'629.01/.08','<div class="nodetag">629.01/.08</div></span>&nbsp;&nbsp;სპეციალური მსაზღვრელები სატრანსპორტო მრეწველობისათვის','629.01/.08','სპეციალური მსაზღვრელები სატრანსპორტო მრეწველობისათვის','','','',false,true);
+d.add(196,195,'629.01','<div class="nodetag">629.01</div></span>&nbsp;&nbsp;სატრანსპორტო საშუალებათა პროექტირების პრინციპები: შესაძლებლობები და კრიტერიუმები','629.01','სატრანსპორტო საშუალებათა პროექტირების პრინციპები: შესაძლებლობები და კრიტერიუმები','','','',false,true);
+d.add(197,195,'629.02','<div class="nodetag">629.02</div></span>&nbsp;&nbsp;სატრანსპორტო საშუალებათა სტრუქტურა, კონსტრუქციის პრინციპი და ნაწილები','629.02','სატრანსპორტო საშუალებათა სტრუქტურა, კონსტრუქციის პრინციპი და ნაწილები','','','',false,true);
+d.add(198,195,'629.03','<div class="nodetag">629.03</div></span>&nbsp;&nbsp;მოძრაობაში მომყვანი სისტემები','629.03','მოძრაობაში მომყვანი სისტემები','','','',false,true);
+d.add(199,195,'629.04','<div class="nodetag">629.04</div></span>&nbsp;&nbsp;შიგნითა მოწყობილობა, სამგზავრო და სატვირთო აღჭურვილობა','629.04','შიგნითა მოწყობილობა, სამგზავრო და სატვირთო აღჭურვილობა','','','',false,true);
+d.add(200,195,'629.05','<div class="nodetag">629.05</div></span>&nbsp;&nbsp;გადასაზიდი საშუალებები','629.05','გადასაზიდი საშუალებები','','','',false,true);
+d.add(201,195,'629.06','<div class="nodetag">629.06</div></span>&nbsp;&nbsp;სატრანსპორტო საშუალებათა დამხმარე საშუალებები და აღჭურვილობა','629.06','სატრანსპორტო საშუალებათა დამხმარე საშუალებები და აღჭურვილობა','','','',false,true);
+d.add(202,195,'629.07','<div class="nodetag">629.07</div></span>&nbsp;&nbsp;გადასაზიდი ოპერაციების ტექნიკური ასპექტები (ოპერაციული მეთოდები)','629.07','გადასაზიდი ოპერაციების ტექნიკური ასპექტები (ოპერაციული მეთოდები)','','','',false,true);
+d.add(203,195,'629.08','<div class="nodetag">629.08</div></span>&nbsp;&nbsp;მოწყობილობის, დანადგარებისა და შესაბამისი ტექნიკური პროცედურების ბაზა','629.08','მოწყობილობის, დანადგარებისა და შესაბამისი ტექნიკური პროცედურების ბაზა','','','',false,true);
+d.add(204,194,'629.3','<div class="nodetag">629.3</div></span>&nbsp;&nbsp;მიწისზედა სატრანსპორტო საშუალებანი (სალიანდაგოს გარდა)','629.3','მიწისზედა სატრანსპორტო საშუალებანი (სალიანდაგოს გარდა)','','','',false,true);
+d.add(205,194,'629.4','<div class="nodetag">629.4</div></span>&nbsp;&nbsp;მატარებლების წევა რკინიგზებზე. მოძრავი შემადგენლობა. ლოკომოტივები. ვაგონები. მოძრავი შემადგენლობის სამსახური','629.4','მატარებლების წევა რკინიგზებზე. მოძრავი შემადგენლობა. ლოკომოტივები. ვაგონები. მოძრავი შემადგენლობის სამსახური','','','',false,true);
+d.add(206,194,'629.5','<div class="nodetag">629.5</div></span>&nbsp;&nbsp;წლის სატრანსპორტო საშუალებანი. მცურავი საშუალებანი. გემთმშენებლობა','629.5','წლის სატრანსპორტო საშუალებანი. მცურავი საშუალებანი. გემთმშენებლობა','','','',false,true);
+d.add(207,194,'629.7','<div class="nodetag">629.7</div></span>&nbsp;&nbsp;კოსმონავტიკა და ავიაცია. საფრენი აპარატები. სარაკეტო ტექნიკა. კოსმოსური ტექნიკა','629.7','კოსმონავტიკა და ავიაცია. საფრენი აპარატები. სარაკეტო ტექნიკა. კოსმოსური ტექნიკა','','','',false,true);
+d.add(208,0,'63','<div class="nodetag">63</div></span>&nbsp;&nbsp;სოფლის მეურნეობა. სატყეო მეურნეობა. ველური ბუნების ექსპლუატაცია (ნადირობა. თევზჭერა და სხვ.)','63','სოფლის მეურნეობა. სატყეო მეურნეობა. ველური ბუნების ექსპლუატაცია (ნადირობა. თევზჭერა და სხვ.)','','','',false,true);
+d.add(209,208,'630','<div class="nodetag">630</div></span>&nbsp;&nbsp;სატყეო მეურნეობა. მეტყევეობა','630','სატყეო მეურნეობა. მეტყევეობა','','','',false,true);
+d.add(210,209,'630*0','<div class="nodetag">630*0</div></span>&nbsp;&nbsp;სატყეო მეურნეობა. ტყე და მისი გამოყენება','630*0','სატყეო მეურნეობა. ტყე და მისი გამოყენება','','','',false,true);
+d.add(211,209,'630*1','<div class="nodetag">630*1</div></span>&nbsp;&nbsp;გარემომცველი ფაქტორები. ტყის ბიოლოგია','630*1','გარემომცველი ფაქტორები. ტყის ბიოლოგია','','','',false,true);
+d.add(212,209,'630*2','<div class="nodetag">630*2</div></span>&nbsp;&nbsp;მეტყევეობა','630*2','მეტყევეობა','','','',false,true);
+d.add(213,209,'630*3','<div class="nodetag">630*3</div></span>&nbsp;&nbsp;სამეცნიერო მუშაობა სატყეო მეურნეობაში. ხე–ტყის დამზადება','630*3','სამეცნიერო მუშაობა სატყეო მეურნეობაში. ხე–ტყის დამზადება','','','',false,true);
+d.add(214,209,'630*4','<div class="nodetag">630*4</div></span>&nbsp;&nbsp;ტყის მავნებლები და დაცვის ღონისძიებები','630*4','ტყის მავნებლები და დაცვის ღონისძიებები','','','',false,true);
+d.add(215,209,'630*5','<div class="nodetag">630*5</div></span>&nbsp;&nbsp;ტყის ტაქსაცია. ნარგავების ნამატი, ზრდა და შემადგენლობა. გეოდეზიური კვლევა და კარტოგრაფია','630*5','ტყის ტაქსაცია. ნარგავების ნამატი, ზრდა და შემადგენლობა. გეოდეზიური კვლევა და კარტოგრაფია','','','',false,true);
+d.add(216,209,'630*6','<div class="nodetag">630*6</div></span>&nbsp;&nbsp;სატყეო მეურნეობის ორგანიზაცია. სატყეო მეურნეობის ეკონომიკა. ორგანიზაციული საკითხები','630*6','სატყეო მეურნეობის ორგანიზაცია. სატყეო მეურნეობის ეკონომიკა. ორგანიზაციული საკითხები','','','',false,true);
+d.add(217,209,'630*7','<div class="nodetag">630*7</div></span>&nbsp;&nbsp;სატყეო მასალით ვაჭრობა. სატყეო ტრანსპორტისა და სატყეო მეურნეობის ეკონომიკა','630*7','სატყეო მასალით ვაჭრობა. სატყეო ტრანსპორტისა და სატყეო მეურნეობის ეკონომიკა','','','',false,true);
+d.add(218,209,'630*8','<div class="nodetag">630*8</div></span>&nbsp;&nbsp;სატყეო მასალა და მისი გამოყენება','630*8','სატყეო მასალა და მისი გამოყენება','','','',false,true);
+d.add(219,209,'630*9','<div class="nodetag">630*9</div></span>&nbsp;&nbsp;სატყეო მეურნეობის პოლიტიკა. სატყეო მეურნეობის სოციალური ეკონომიკა','630*9','სატყეო მეურნეობის პოლიტიკა. სატყეო მეურნეობის სოციალური ეკონომიკა','','','',false,true);
+d.add(220,208,'631/635','<div class="nodetag">631/635</div></span>&nbsp;&nbsp;სასოფლო-სამეურნეო წარმოების ორგანიზაცია და მართვა. მიწათმოქმედება. მებაღეობა','631/635','სასოფლო-სამეურნეო წარმოების ორგანიზაცია და მართვა. მიწათმოქმედება. მებაღეობა','','','',false,true);
+d.add(221,220,'631','<div class="nodetag">631</div></span>&nbsp;&nbsp;სოფლის მეურნეობის ზოგადი საკითხები','631','სოფლის მეურნეობის ზოგადი საკითხები','','','',false,true);
+d.add(222,221,'631.1','<div class="nodetag">631.1</div></span>&nbsp;&nbsp;სასოფლო-სამეურნეო წარმოების ორგანიზაცია და მართვა','631.1','სასოფლო-სამეურნეო წარმოების ორგანიზაცია და მართვა','','','',false,true);
+d.add(223,221,'631.2','<div class="nodetag">631.2</div></span>&nbsp;&nbsp;ნაგებობები მეცხოველეობისათვის, სასოფლო-სამეურნეო პროდუქტებისა და მანქანა–იარაღების შენახვისათვის','631.2','ნაგებობები მეცხოველეობისათვის, სასოფლო-სამეურნეო პროდუქტებისა და მანქანა–იარაღების შენახვისათვის','','','',false,true);
+d.add(224,221,'631.3','<div class="nodetag">631.3</div></span>&nbsp;&nbsp;სასოფლო-სამეურნეო მანქანები და დანადგარები','631.3','სასოფლო-სამეურნეო მანქანები და დანადგარები','','','',false,true);
+d.add(225,221,'631.4','<div class="nodetag">631.4</div></span>&nbsp;&nbsp;ნიადაგმცოდნეობა. ნიადაგის კვლევა','631.4','ნიადაგმცოდნეობა. ნიადაგის კვლევა','','','',false,true);
+d.add(226,221,'631.5','<div class="nodetag">631.5</div></span>&nbsp;&nbsp;აგროტექნიკა','631.5','აგროტექნიკა','','','',false,true);
+d.add(227,221,'631.6','<div class="nodetag">631.6</div></span>&nbsp;&nbsp;სასოფლო-სამეურნეო ტექნიკა','631.6','სასოფლო-სამეურნეო ტექნიკა','','','',false,true);
+d.add(228,221,'631.8','<div class="nodetag">631.8</div></span>&nbsp;&nbsp;სასუქები. სასუქის შეტანა. მცენარის ზრდის სტიმულაცია','631.8','სასუქები. სასუქის შეტანა. მცენარის ზრდის სტიმულაცია','','','',false,true);
+d.add(229,220,'632','<div class="nodetag">632</div></span>&nbsp;&nbsp;მცენარეთა მავნებლები. მცენარეთა დაავადებანი. მცენარეთა დაცვა','632','მცენარეთა მავნებლები. მცენარეთა დაავადებანი. მცენარეთა დაცვა','','','',false,true);
+d.add(230,220,'633/635','<div class="nodetag">633/635</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Horticulture in general. Specific crops</span>','633/635','Horticulture in general. Specific crops','','','',false,true);
+d.add(231,230,'633','<div class="nodetag">633</div></span>&nbsp;&nbsp;მინდვრის კულტურები და მათი წარმოება','633','მინდვრის კულტურები და მათი წარმოება','','','',false,true);
+d.add(232,231,'633.1','<div class="nodetag">633.1</div></span>&nbsp;&nbsp;მარცვლოვანი კულტურები','633.1','მარცვლოვანი კულტურები','','','',false,true);
+d.add(233,231,'633.2','<div class="nodetag">633.2</div></span>&nbsp;&nbsp;საკვები მცენარეები. მდელოები და საძოვრები','633.2','საკვები მცენარეები. მდელოები და საძოვრები','','','',false,true);
+d.add(234,231,'633.3','<div class="nodetag">633.3</div></span>&nbsp;&nbsp;დანარჩენი საკვები მცენარეები (ბალახეულის გარდა)','633.3','დანარჩენი საკვები მცენარეები (ბალახეულის გარდა)','','','',false,true);
+d.add(235,231,'633.4','<div class="nodetag">633.4</div></span>&nbsp;&nbsp;ბოლქვიანი მცენარეები.','633.4','ბოლქვიანი მცენარეები.','','','',false,true);
+d.add(236,231,'633.5','<div class="nodetag">633.5</div></span>&nbsp;&nbsp;სართავი და ბოჭკოვანი მცენარეები','633.5','სართავი და ბოჭკოვანი მცენარეები','','','',false,true);
+d.add(237,231,'633.6','<div class="nodetag">633.6</div></span>&nbsp;&nbsp;შაქრიანი და სახამებლიანი მცენარეები','633.6','შაქრიანი და სახამებლიანი მცენარეები','','','',false,true);
+d.add(238,231,'633.7','<div class="nodetag">633.7</div></span>&nbsp;&nbsp;აღმგზნები და ნარკოტიკული მცენარეები','633.7','აღმგზნები და ნარკოტიკული მცენარეები','','','',false,true);
+d.add(239,231,'633.8','<div class="nodetag">633.8</div></span>&nbsp;&nbsp;ეთერზეთოვანი მცენარეები. არომატული, სანელებელი, ზეთოვანი, საღებავი და სათრიმლავი მცენარეები','633.8','ეთერზეთოვანი მცენარეები. არომატული, სანელებელი, ზეთოვანი, საღებავი და სათრიმლავი მცენარეები','','','',false,true);
+d.add(240,231,'633.9','<div class="nodetag">633.9</div></span>&nbsp;&nbsp;სამრეწველო გამოყენების სხვა მცენარეები','633.9','სამრეწველო გამოყენების სხვა მცენარეები','','','',false,true);
+d.add(241,230,'634','<div class="nodetag">634</div></span>&nbsp;&nbsp;მებაღეობა ზოგადად','634','მებაღეობა ზოგადად','','','',false,true);
+d.add(242,241,'634.2','<div class="nodetag">634.2</div></span>&nbsp;&nbsp;კურკოვანი ხილი. კურკოვნები ზოგადად','634.2','კურკოვანი ხილი. კურკოვნები ზოგადად','','','',false,true);
+d.add(243,241,'634.3','<div class="nodetag">634.3</div></span>&nbsp;&nbsp;ციტრუსები ზოგადად','634.3','ციტრუსები ზოგადად','','','',false,true);
+d.add(244,241,'634.4','<div class="nodetag">634.4</div></span>&nbsp;&nbsp;ხეხილი','634.4','ხეხილი','','','',false,true);
+d.add(245,241,'634.5','<div class="nodetag">634.5</div></span>&nbsp;&nbsp;კაკალი','634.5','კაკალი','','','',false,true);
+d.add(246,241,'634.6','<div class="nodetag">634.6</div></span>&nbsp;&nbsp;სხვადასხვა ტროპიკული და სუბტროპიკული ხილი','634.6','სხვადასხვა ტროპიკული და სუბტროპიკული ხილი','','','',false,true);
+d.add(247,241,'634.7','<div class="nodetag">634.7</div></span>&nbsp;&nbsp;კენკროვანი კულტურა','634.7','კენკროვანი კულტურა','','','',false,true);
+d.add(248,241,'634.8','<div class="nodetag">634.8</div></span>&nbsp;&nbsp;მევენახეობა','634.8','მევენახეობა','','','',false,true);
+d.add(249,230,'635','<div class="nodetag">635</div></span>&nbsp;&nbsp;მებოსტნეობა და დეკორატიული მებაღეობა','635','მებოსტნეობა და დეკორატიული მებაღეობა','','','',false,true);
+d.add(250,249,'635.1/.8','<div class="nodetag">635.1/.8</div></span>&nbsp;&nbsp;მებოსტნეობა. მებაღეობა','635.1/.8','მებოსტნეობა. მებაღეობა','','','',false,true);
+d.add(251,250,'635.1','<div class="nodetag">635.1</div></span>&nbsp;&nbsp;საკვებად ვარგისი ფესვები','635.1','საკვებად ვარგისი ფესვები','','','',false,true);
+d.add(252,250,'635.2','<div class="nodetag">635.2</div></span>&nbsp;&nbsp;საკვებად ვარგისი ბოლქვები','635.2','საკვებად ვარგისი ბოლქვები','','','',false,true);
+d.add(253,250,'635.3','<div class="nodetag">635.3</div></span>&nbsp;&nbsp;მცენარეები საკვებად ვარგისი ღეროებით, ფოთლებითა და ყვავილებით','635.3','მცენარეები საკვებად ვარგისი ღეროებით, ფოთლებითა და ყვავილებით','','','',false,true);
+d.add(254,250,'635.4','<div class="nodetag">635.4</div></span>&nbsp;&nbsp;მწვანილეული','635.4','მწვანილეული','','','',false,true);
+d.add(255,250,'635.6','<div class="nodetag">635.6</div></span>&nbsp;&nbsp;საკვებად ვარგისი ნაყოფი და მარცვლები. პარკოსნები','635.6','საკვებად ვარგისი ნაყოფი და მარცვლები. პარკოსნები','','','',false,true);
+d.add(256,250,'635.7','<div class="nodetag">635.7</div></span>&nbsp;&nbsp;სუნელ–სანელებელი მცენარეები','635.7','სუნელ–სანელებელი მცენარეები','','','',false,true);
+d.add(257,250,'635.8','<div class="nodetag">635.8</div></span>&nbsp;&nbsp;საკვებად ვარგისი სოკოები','635.8','საკვებად ვარგისი სოკოები','','','',false,true);
+d.add(258,249,'635.9','<div class="nodetag">635.9</div></span>&nbsp;&nbsp;დეკორატიული მცენარეები. დეკორატიული მებაღეობა','635.9','დეკორატიული მცენარეები. დეკორატიული მებაღეობა','','','',false,true);
+d.add(259,208,'636','<div class="nodetag">636</div></span>&nbsp;&nbsp;მეცხოველეობა ზოგადად. მესაქონლეობა. შინაური ცხოველები და მათი მოშენება','636','მეცხოველეობა ზოგადად. მესაქონლეობა. შინაური ცხოველები და მათი მოშენება','','','',false,true);
+d.add(260,259,'636.01/.09','<div class="nodetag">636.01/.09</div></span>&nbsp;&nbsp;სპეციალური ზოგადი მსაზღვრელები მეცხოველეობისათვის','636.01/.09','სპეციალური ზოგადი მსაზღვრელები მეცხოველეობისათვის','','','',false,true);
+d.add(261,260,'636.01','<div class="nodetag">636.01</div></span>&nbsp;&nbsp;ცხოველების ევოლუცია. ცხოველების მოშენება. მოშენებისა და წვრთნის ბიოლოგიური საფუძვლები','636.01','ცხოველების ევოლუცია. ცხოველების მოშენება. მოშენებისა და წვრთნის ბიოლოგიური საფუძვლები','','','',false,true);
+d.add(262,260,'636.02','<div class="nodetag">636.02</div></span>&nbsp;&nbsp;ცხოველების მოშენება სამეცნიერო გამოყენებისათვის','636.02','ცხოველების მოშენება სამეცნიერო გამოყენებისათვის','','','',false,true);
+d.add(263,260,'636.03','<div class="nodetag">636.03</div></span>&nbsp;&nbsp;სასოფლო–სამეურნეო ცხოველები ზოგადად','636.03','სასოფლო–სამეურნეო ცხოველები ზოგადად','','','',false,true);
+d.add(264,260,'636.04','<div class="nodetag">636.04</div></span>&nbsp;&nbsp;მუშა საქონელი','636.04','მუშა საქონელი','','','',false,true);
+d.add(265,260,'636.05','<div class="nodetag">636.05</div></span>&nbsp;&nbsp;შინაური ცხოველების მოშენება','636.05','შინაური ცხოველების მოშენება','','','',false,true);
+d.add(266,260,'636.06','<div class="nodetag">636.06</div></span>&nbsp;&nbsp;შინაური ცხოველების თავისებურებები','636.06','შინაური ცხოველების თავისებურებები','','','',false,true);
+d.add(267,260,'636.08','<div class="nodetag">636.08</div></span>&nbsp;&nbsp;ზოგადი კითხვები მოშენებასთან დაკავშირებით','636.08','ზოგადი კითხვები მოშენებასთან დაკავშირებით','','','',false,true);
+d.add(268,260,'636.09','<div class="nodetag">636.09</div></span>&nbsp;&nbsp;ვეტერინარია','636.09','ვეტერინარია','','','',false,true);
+d.add(269,259,'636.1','<div class="nodetag">636.1</div></span>&nbsp;&nbsp;კენტჩლიქოსანი ცხოველები. ცხენები','636.1','კენტჩლიქოსანი ცხოველები. ცხენები','','','',false,true);
+d.add(270,259,'636.2','<div class="nodetag">636.2</div></span>&nbsp;&nbsp;მსხვილფეხა მცოხნავი ცხოველები. მსხვილფეხა რქოსანი საქონელი','636.2','მსხვილფეხა მცოხნავი ცხოველები. მსხვილფეხა რქოსანი საქონელი','','','',false,true);
+d.add(271,259,'636.3','<div class="nodetag">636.3</div></span>&nbsp;&nbsp;წვრილფეხა რქოსანი საქონელი. ცხვრები. თხები','636.3','წვრილფეხა რქოსანი საქონელი. ცხვრები. თხები','','','',false,true);
+d.add(272,259,'636.4','<div class="nodetag">636.4</div></span>&nbsp;&nbsp;ღორები','636.4','ღორები','','','',false,true);
+d.add(273,259,'636.5','<div class="nodetag">636.5</div></span>&nbsp;&nbsp;შინაური ფრინველები','636.5','შინაური ფრინველები','','','',false,true);
+d.add(274,259,'636.6','<div class="nodetag">636.6</div></span>&nbsp;&nbsp;ადამიანის მიერ მოშენებული ფრინველები, რომლებიც შინაურ ფრინველებს არ მიეკუთვნებიან','636.6','ადამიანის მიერ მოშენებული ფრინველები, რომლებიც შინაურ ფრინველებს არ მიეკუთვნებიან','','','',false,true);
+d.add(275,259,'636.7','<div class="nodetag">636.7</div></span>&nbsp;&nbsp;ძაღლები','636.7','ძაღლები','','','',false,true);
+d.add(276,259,'636.8','<div class="nodetag">636.8</div></span>&nbsp;&nbsp;კატები','636.8','კატები','','','',false,true);
+d.add(277,259,'636.9','<div class="nodetag">636.9</div></span>&nbsp;&nbsp;სხვა ცხოველები, რომლებსაც ადამიანი ინახავს (ცხოველები, რომლებიც 636.1/.8 განყოფილებებში არ იგულისხმება)','636.9','სხვა ცხოველები, რომლებსაც ადამიანი ინახავს (ცხოველები, რომლებიც 636.1/.8 განყოფილებებში არ იგულისხმება)','','','',false,true);
+d.add(278,208,'637','<div class="nodetag">637</div></span>&nbsp;&nbsp;მეცხოველეობისა და ნანადირევი პროდუქტები','637','მეცხოველეობისა და ნანადირევი პროდუქტები','','','',false,true);
+d.add(279,208,'638','<div class="nodetag">638</div></span>&nbsp;&nbsp;მწერებისა და სხვა ფეხსახსრიანების მოვლა, გამრავლება და შენახვა','638','მწერებისა და სხვა ფეხსახსრიანების მოვლა, გამრავლება და შენახვა','','','',false,true);
+d.add(280,208,'639','<div class="nodetag">639</div></span>&nbsp;&nbsp;ნადირობა. თევზის მეურნეობა. თევზჭერა','639','ნადირობა. თევზის მეურნეობა. თევზჭერა','','','',false,true);
+d.add(281,280,'639.1','<div class="nodetag">639.1</div></span>&nbsp;&nbsp;ნადირობა','639.1','ნადირობა','','','',false,true);
+d.add(282,280,'639.2','<div class="nodetag">639.2</div></span>&nbsp;&nbsp;თევზჭერა. თევზის მეურნეობა','639.2','თევზჭერა. თევზის მეურნეობა','','','',false,true);
+d.add(283,280,'639.3','<div class="nodetag">639.3</div></span>&nbsp;&nbsp;თევზის მოშენება','639.3','თევზის მოშენება','','','',false,true);
+d.add(284,280,'639.4','<div class="nodetag">639.4</div></span>&nbsp;&nbsp;მოლუსკების მოშენება','639.4','მოლუსკების მოშენება','','','',false,true);
+d.add(285,280,'639.5','<div class="nodetag">639.5</div></span>&nbsp;&nbsp;კიბოს სახეობების, ზღვის ზღარბების, წურბელებისა და სხვ. მოშენება','639.5','კიბოს სახეობების, ზღვის ზღარბების, წურბელებისა და სხვ. მოშენება','','','',false,true);
+d.add(286,280,'639.6','<div class="nodetag">639.6</div></span>&nbsp;&nbsp;ზღვის სხვა პროდუქტები','639.6','ზღვის სხვა პროდუქტები','','','',false,true);
+d.add(287,0,'64','<div class="nodetag">64</div></span>&nbsp;&nbsp;მეოჯახეობა. კომუნალური მეურნეობა. საყოფაცხოვრებო მომსახურება','64','მეოჯახეობა. კომუნალური მეურნეობა. საყოფაცხოვრებო მომსახურება','','','',false,true);
+d.add(288,287,'64.01/.08','<div class="nodetag">64.01/.08</div></span>&nbsp;&nbsp;მეოჯახეობის სპეციალური მსაზღვრელები','64.01/.08','მეოჯახეობის სპეციალური მსაზღვრელები','','','',false,true);
+d.add(289,288,'64.01','<div class="nodetag">64.01</div></span>&nbsp;&nbsp;საოჯახო მეურნეობა. საოჯახო მეურნეობის მართვა','64.01','საოჯახო მეურნეობა. საოჯახო მეურნეობის მართვა','','','',false,true);
+d.add(290,288,'64.048','<div class="nodetag">64.048</div></span>&nbsp;&nbsp;მუშაობისა და სამუშაო მეთოდების შესწავლა საოჯახო მეურნეობაში','64.048','მუშაობისა და სამუშაო მეთოდების შესწავლა საოჯახო მეურნეობაში','','','',false,true);
+d.add(291,288,'64.05','<div class="nodetag">64.05</div></span>&nbsp;&nbsp;საოჯახო ეკონომიკა. საოჯახო მეურნეობა','64.05','საოჯახო ეკონომიკა. საოჯახო მეურნეობა','','','',false,true);
+d.add(292,288,'64.06','<div class="nodetag">64.06</div></span>&nbsp;&nbsp;საყოფაცხოვრებო ხელსაწყოები. ხელსაწყოები საოჯახო მეურნეობისათვის','64.06','საყოფაცხოვრებო ხელსაწყოები. ხელსაწყოები საოჯახო მეურნეობისათვის','','','',false,true);
+d.add(293,288,'64.08','<div class="nodetag">64.08</div></span>&nbsp;&nbsp;გადასახლება. გადაადგილებები','64.08','გადასახლება. გადაადგილებები','','','',false,true);
+d.add(294,287,'640','<div class="nodetag">640</div></span>&nbsp;&nbsp;საყოფაცხოვრებო მეურნეობის სახეები','640','საყოფაცხოვრებო მეურნეობის სახეები','','','',false,true);
+d.add(295,287,'641/642','<div class="nodetag">641/642</div></span>&nbsp;&nbsp;კვების პროდუქტები. საკვების მომზადება. კერძები. საკვები','641/642','კვების პროდუქტები. საკვების მომზადება. კერძები. საკვები','','','',false,true);
+d.add(296,295,'641','<div class="nodetag">641</div></span>&nbsp;&nbsp;კვების პროდუქტები. საკვების მომზადება. კერძები','641','კვების პროდუქტები. საკვების მომზადება. კერძები','','','',false,true);
+d.add(297,295,'642','<div class="nodetag">642</div></span>&nbsp;&nbsp;კვება და კვების დრო. სუფრის ჭურჭელი','642','კვება და კვების დრო. სუფრის ჭურჭელი','','','',false,true);
+d.add(298,287,'643/645','<div class="nodetag">643/645</div></span>&nbsp;&nbsp;საცხოვრებლები (ბინები). ბინების მოწყობა, მორთულობა და საგნები','643/645','საცხოვრებლები (ბინები). ბინების მოწყობა, მორთულობა და საგნები','','','',false,true);
+d.add(299,298,'643','<div class="nodetag">643</div></span>&nbsp;&nbsp;საცხოვრებლები','643','საცხოვრებლები','','','',false,true);
+d.add(300,298,'644','<div class="nodetag">644</div></span>&nbsp;&nbsp;საცხოვრებლების სანიტარულ–ტექნიკური აღჭურვილობა','644','საცხოვრებლების სანიტარულ–ტექნიკური აღჭურვილობა','','','',false,true);
+d.add(301,300,'644.1','<div class="nodetag">644.1</div></span>&nbsp;&nbsp;კლიმატ–კონტროლი სახლში. გათბობა. ვენტილაცია. ჰაერის კონდიცირება','644.1','კლიმატ–კონტროლი სახლში. გათბობა. ვენტილაცია. ჰაერის კონდიცირება','','','',false,true);
+d.add(302,300,'644.3','<div class="nodetag">644.3</div></span>&nbsp;&nbsp;საცხოვრებლის განათება','644.3','საცხოვრებლის განათება','','','',false,true);
+d.add(303,300,'644.6','<div class="nodetag">644.6</div></span>&nbsp;&nbsp;საცხოვრებლის წყლით მომარაგება და სანიტარული უზრუნველყოფა','644.6','საცხოვრებლის წყლით მომარაგება და სანიტარული უზრუნველყოფა','','','',false,true);
+d.add(304,298,'645','<div class="nodetag">645</div></span>&nbsp;&nbsp;ავეჯი და საცხოვრებლის მოსაწყობი საგნები','645','ავეჯი და საცხოვრებლის მოსაწყობი საგნები','','','',false,true);
+d.add(305,287,'646/649','<div class="nodetag">646/649</div></span>&nbsp;&nbsp;პირადი მოხმარების საგნები. საოჯახო მეურნეობის მართვა','646/649','პირადი მოხმარების საგნები. საოჯახო მეურნეობის მართვა','','','',false,true);
+d.add(306,305,'646','<div class="nodetag">646</div></span>&nbsp;&nbsp;ტანსაცმელი. პირადი ჰოგიენა','646','ტანსაცმელი. პირადი ჰოგიენა','','','',false,true);
+d.add(307,306,'646.2','<div class="nodetag">646.2</div></span>&nbsp;&nbsp;ტანსაცმლის კერვა და კემსვა სახლის პირობებში','646.2','ტანსაცმლის კერვა და კემსვა სახლის პირობებში','','','',false,true);
+d.add(308,306,'646.4','<div class="nodetag">646.4</div></span>&nbsp;&nbsp;ტანსაცმელი','646.4','ტანსაცმელი','','','',false,true);
+d.add(309,306,'646.7','<div class="nodetag">646.7</div></span>&nbsp;&nbsp;პირადი ჰიგიენა. კოსმეტიკა','646.7','პირადი ჰიგიენა. კოსმეტიკა','','','',false,true);
+d.add(310,305,'648','<div class="nodetag">648</div></span>&nbsp;&nbsp;რეცხვა. წმენდა','648','რეცხვა. წმენდა','','','',false,true);
+d.add(311,305,'649','<div class="nodetag">649</div></span>&nbsp;&nbsp;გარკვეული ჯგუფის ადამიანების (ბავშვების, ავადმყოფების) მოვლა','649','გარკვეული ჯგუფის ადამიანების (ბავშვების, ავადმყოფების) მოვლა','','','',false,true);
+d.add(312,0,'65','<div class="nodetag">65</div></span>&nbsp;&nbsp;საწარმოს მართვა. წარმოების, ვაჭრობისა და ტრანსპორტის ორგანიზაცია. საზოგადოებასთან ურთიერთობა','65','საწარმოს მართვა. წარმოების, ვაჭრობისა და ტრანსპორტის ორგანიზაცია. საზოგადოებასთან ურთიერთობა','','','',false,true);
+d.add(313,312,'654','<div class="nodetag">654</div></span>&nbsp;&nbsp;ელექტროკავშირი (ორგანიზაცია და მომსახურება)','654','ელექტროკავშირი (ორგანიზაცია და მომსახურება)','','','',false,true);
+d.add(314,313,'654.1','<div class="nodetag">654.1</div></span>&nbsp;&nbsp;სატელეგრაფო და სატელეფონო კავშირი. რადიო და ტელემაუწყებლობა','654.1','სატელეგრაფო და სატელეფონო კავშირი. რადიო და ტელემაუწყებლობა','','','',false,true);
+d.add(315,313,'654.9','<div class="nodetag">654.9</div></span>&nbsp;&nbsp;სიგნალიზაცია. სხვადასხვა სატელეკომუნიკაციო მომსახურება. დისტანციური მართვა','654.9','სიგნალიზაცია. სხვადასხვა სატელეკომუნიკაციო მომსახურება. დისტანციური მართვა','','','',false,true);
+d.add(316,312,'655','<div class="nodetag">655</div></span>&nbsp;&nbsp;პოლიგრაფიული მრეწველობა. საგამომცემლო საქმე. წიგნით ვაჭრობა','655','პოლიგრაფიული მრეწველობა. საგამომცემლო საქმე. წიგნით ვაჭრობა','','','',false,true);
+d.add(317,316,'655.1','<div class="nodetag">655.1</div></span>&nbsp;&nbsp;პოლიგრაფიული მრეწველობა ზოგადად','655.1','პოლიგრაფიული მრეწველობა ზოგადად','','','',false,true);
+d.add(318,316,'655.4','<div class="nodetag">655.4</div></span>&nbsp;&nbsp;გამომცემლობა და წიგნით ვაჭრობა ზოგადად','655.4','გამომცემლობა და წიგნით ვაჭრობა ზოგადად','','','',false,true);
+d.add(319,312,'656','<div class="nodetag">656</div></span>&nbsp;&nbsp;ტრანსპორტი. სატრანსპორტო მომსახურება. გადაზიდვის ორგანიზაცია. საფოსტო კავშირი','656','ტრანსპორტი. სატრანსპორტო მომსახურება. გადაზიდვის ორგანიზაცია. საფოსტო კავშირი','','','',false,true);
+d.add(320,319,'656.1/.5','<div class="nodetag">656.1/.5</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Land transport</span>','656.1/.5','Land transport','','','',false,true);
+d.add(321,320,'656.1','<div class="nodetag">656.1</div></span>&nbsp;&nbsp;მიწისზედა (ულიანდაგო) ტრანსპორტი','656.1','მიწისზედა (ულიანდაგო) ტრანსპორტი','','','',false,true);
+d.add(322,320,'656.2','<div class="nodetag">656.2</div></span>&nbsp;&nbsp;რკინიგზის ტრანსპორტი. სარკინიგზო გადაზიდვები','656.2','რკინიგზის ტრანსპორტი. სარკინიგზო გადაზიდვები','','','',false,true);
+d.add(323,320,'656.4','<div class="nodetag">656.4</div></span>&nbsp;&nbsp;ადგილობრივი რკინიგზისა და მისასვლელი გზების ექსპლუატაცია','656.4','ადგილობრივი რკინიგზისა და მისასვლელი გზების ექსპლუატაცია','','','',false,true);
+d.add(324,320,'656.5','<div class="nodetag">656.5</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Land transport by conveyor systems and pipelines</span>','656.5','Land transport by conveyor systems and pipelines','','','',false,true);
+d.add(325,319,'656.6','<div class="nodetag">656.6</div></span>&nbsp;&nbsp;წყლის ტრანსპორტი','656.6','წყლის ტრანსპორტი','','','',false,true);
+d.add(326,319,'656.7','<div class="nodetag">656.7</div></span>&nbsp;&nbsp;საჰაერო ტრანსპორტი. საჰაერო გადაზიდვები','656.7','საჰაერო ტრანსპორტი. საჰაერო გადაზიდვები','','','',false,true);
+d.add(327,319,'656.8','<div class="nodetag">656.8</div></span>&nbsp;&nbsp;საფოსტო კავშირი','656.8','საფოსტო კავშირი','','','',false,true);
+d.add(328,312,'657','<div class="nodetag">657</div></span>&nbsp;&nbsp;ბუხჰალტერია. ანგარიშწარმოება','657','ბუხჰალტერია. ანგარიშწარმოება','','','',false,true);
+d.add(329,312,'658','<div class="nodetag">658</div></span>&nbsp;&nbsp;წარმოების ორგანიზაცია და მართვა. მენეჯმენტი. საწარმოების ეკონომიკა','658','წარმოების ორგანიზაცია და მართვა. მენეჯმენტი. საწარმოების ეკონომიკა','','','',false,true);
+d.add(330,329,'658.1','<div class="nodetag">658.1</div></span>&nbsp;&nbsp;წარმოების სახეები. ფინანსები','658.1','წარმოების სახეები. ფინანსები','','','',false,true);
+d.add(331,329,'658.2','<div class="nodetag">658.2</div></span>&nbsp;&nbsp;მოწყობილობები და დანადგარები. შენობები. ნაგებობები. ქარხნები. ფაბრიკები. მასალები','658.2','მოწყობილობები და დანადგარები. შენობები. ნაგებობები. ქარხნები. ფაბრიკები. მასალები','','','',false,true);
+d.add(332,329,'658.3','<div class="nodetag">658.3</div></span>&nbsp;&nbsp;ადამიანების ურთიერთობა წარმოებაში. პერსონალის მართვა','658.3','ადამიანების ურთიერთობა წარმოებაში. პერსონალის მართვა','','','',false,true);
+d.add(333,329,'658.5','<div class="nodetag">658.5</div></span>&nbsp;&nbsp;წარმოების ორგანიზაცია. წარმოების დაგეგმვა. ხარისხის მართვა','658.5','წარმოების ორგანიზაცია. წარმოების დაგეგმვა. ხარისხის მართვა','','','',false,true);
+d.add(334,329,'658.6','<div class="nodetag">658.6</div></span>&nbsp;&nbsp;ვაჭრობის ორგანიზაცია. საქონელი. მომსახურება','658.6','ვაჭრობის ორგანიზაცია. საქონელი. მომსახურება','','','',false,true);
+d.add(335,329,'658.7','<div class="nodetag">658.7</div></span>&nbsp;&nbsp;მატერიალურ–ტექნიკური უზრუნველყოფა','658.7','მატერიალურ–ტექნიკური უზრუნველყოფა','','','',false,true);
+d.add(336,329,'658.8','<div class="nodetag">658.8</div></span>&nbsp;&nbsp;ვაჭრობა. ფასდაკლებები. გაყიდვები. განაწილება','658.8','ვაჭრობა. ფასდაკლებები. გაყიდვები. განაწილება','','','',false,true);
+d.add(337,329,'658.9','<div class="nodetag">658.9</div></span>&nbsp;&nbsp;კომერციული საქმიანობის სხვა სახეები','658.9','კომერციული საქმიანობის სხვა სახეები','','','',false,true);
+d.add(338,312,'659','<div class="nodetag">659</div></span>&nbsp;&nbsp;რეკლამა. საზოგადოებასთან ურთიერთობა','659','რეკლამა. საზოგადოებასთან ურთიერთობა','','','',false,true);
+d.add(339,338,'659.1','<div class="nodetag">659.1</div></span>&nbsp;&nbsp;რეკლამა. სარეკლამო ბიზნესი','659.1','რეკლამა. სარეკლამო ბიზნესი','','','',false,true);
+d.add(340,338,'659.2','<div class="nodetag">659.2</div></span>&nbsp;&nbsp;საინფორმაციო - საკონსულტაციო მომსახურება','659.2','საინფორმაციო - საკონსულტაციო მომსახურება','','','',false,true);
+d.add(341,338,'659.3','<div class="nodetag">659.3</div></span>&nbsp;&nbsp;მასობრივი კომუნიკაცია. ინფორმაცია საზოგადოების ფართო ფენებისათვის','659.3','მასობრივი კომუნიკაცია. ინფორმაცია საზოგადოების ფართო ფენებისათვის','','','',false,true);
+d.add(342,338,'659.4','<div class="nodetag">659.4</div></span>&nbsp;&nbsp;საზოგადოებასთან ურთიერთობა','659.4','საზოგადოებასთან ურთიერთობა','','','',false,true);
+d.add(343,0,'66','<div class="nodetag">66</div></span>&nbsp;&nbsp;ქიმიური ტექნოლოგიები. ქიმიური მრეწველობა და მონათესავე დარგები','66','ქიმიური ტექნოლოგიები. ქიმიური მრეწველობა და მონათესავე დარგები','','','',false,true);
+d.add(344,343,'66.01/.09','<div class="nodetag">66.01/.09</div></span>&nbsp;&nbsp;სპეციალური მსაზღვრელები ქიმიური მრეწველობისათვის','66.01/.09','სპეციალური მსაზღვრელები ქიმიური მრეწველობისათვის','','','',false,true);
+d.add(345,344,'66.01','<div class="nodetag">66.01</div></span>&nbsp;&nbsp;ქიმიური ტექნოლოგიის საფუძვლები','66.01','ქიმიური ტექნოლოგიის საფუძვლები','','','',false,true);
+d.add(346,344,'66.02','<div class="nodetag">66.02</div></span>&nbsp;&nbsp;ქიმიური და ტექნოლოგიური პროცესები ზოგადად','66.02','ქიმიური და ტექნოლოგიური პროცესები ზოგადად','','','',false,true);
+d.add(347,344,'66.03','<div class="nodetag">66.03</div></span>&nbsp;&nbsp;წარმოების პროცესები და აღჭურვილობა','66.03','წარმოების პროცესები და აღჭურვილობა','','','',false,true);
+d.add(348,344,'66.04','<div class="nodetag">66.04</div></span>&nbsp;&nbsp;მეთოდები და აღჭურვილობა თერმული დამუშავებისათვის','66.04','მეთოდები და აღჭურვილობა თერმული დამუშავებისათვის','','','',false,true);
+d.add(349,344,'66.06','<div class="nodetag">66.06</div></span>&nbsp;&nbsp;სითხეების ქიმიური წარმოება. პროცესები და აღჭურვილობა სითხეების ან სითხეებით დასამუშავებლად','66.06','სითხეების ქიმიური წარმოება. პროცესები და აღჭურვილობა სითხეების ან სითხეებით დასამუშავებლად','','','',false,true);
+d.add(350,344,'66.07','<div class="nodetag">66.07</div></span>&nbsp;&nbsp;აირების ქიმიური წარმოება','66.07','აირების ქიმიური წარმოება','','','',false,true);
+d.add(351,344,'66.08','<div class="nodetag">66.08</div></span>&nbsp;&nbsp;ფიზიკური და ფიზიკურ–ქიმიური პროცესები და აღჭურვილობა. ფიზიკური და ფიზიკურ–ქიმიური მოქმედება ქიმიურ პროცესებზე','66.08','ფიზიკური და ფიზიკურ–ქიმიური პროცესები და აღჭურვილობა. ფიზიკური და ფიზიკურ–ქიმიური მოქმედება ქიმიურ პროცესებზე','','','',false,true);
+d.add(352,343,'661','<div class="nodetag">661</div></span>&nbsp;&nbsp;ქიმიური მრეწველობის ძირითადი პროდუქტები (ქიმიკალიები, ქიმიური პრეპარატები)','661','ქიმიური მრეწველობის ძირითადი პროდუქტები (ქიმიკალიები, ქიმიური პრეპარატები)','','','',false,true);
+d.add(353,352,'661.1','<div class="nodetag">661.1</div></span>&nbsp;&nbsp;ქიმიური მრეწველობის განყოფილებები','661.1','ქიმიური მრეწველობის განყოფილებები','','','',false,true);
+d.add(354,352,'661.2','<div class="nodetag">661.2</div></span>&nbsp;&nbsp;გოგირდისა და მისი დერივატების წარმოება','661.2','გოგირდისა და მისი დერივატების წარმოება','','','',false,true);
+d.add(355,352,'661.3','<div class="nodetag">661.3</div></span>&nbsp;&nbsp;სოდისა და პოტაშის წარმოება. ტუტეები','661.3','სოდისა და პოტაშის წარმოება. ტუტეები','','','',false,true);
+d.add(356,352,'661.4','<div class="nodetag">661.4</div></span>&nbsp;&nbsp;ჰალოგენებისა და მათი ნაერთების წარმოება. არაორგანული ზეჟანგები','661.4','ჰალოგენებისა და მათი ნაერთების წარმოება. არაორგანული ზეჟანგები','','','',false,true);
+d.add(357,352,'661.5','<div class="nodetag">661.5</div></span>&nbsp;&nbsp;აზოტის ნაერთების წარმოება. აზოტის მრეწველობა ზოგადად','661.5','აზოტის ნაერთების წარმოება. აზოტის მრეწველობა ზოგადად','','','',false,true);
+d.add(358,352,'661.6','<div class="nodetag">661.6</div></span>&nbsp;&nbsp;არამეტალებისა და მათი ნაერთების წარმოება','661.6','არამეტალებისა და მათი ნაერთების წარმოება','','','',false,true);
+d.add(359,352,'661.7','<div class="nodetag">661.7</div></span>&nbsp;&nbsp;ორგანული ნივთიერებების წარმოება. ორგანული ქიმიური პრეპარატები','661.7','ორგანული ნივთიერებების წარმოება. ორგანული ქიმიური პრეპარატები','','','',false,true);
+d.add(360,352,'661.8','<div class="nodetag">661.8</div></span>&nbsp;&nbsp;ლითონის ნაერთები ზოგადად. მარილები. მინერალური ნაერთები','661.8','ლითონის ნაერთები ზოგადად. მარილები. მინერალური ნაერთები','','','',false,true);
+d.add(361,352,'661.9','<div class="nodetag">661.9</div></span>&nbsp;&nbsp;აირების წარმოება','661.9','აირების წარმოება','','','',false,true);
+d.add(362,343,'662','<div class="nodetag">662</div></span>&nbsp;&nbsp;ფეთქებადი ნივთიერებები. საწვავი','662','ფეთქებადი ნივთიერებები. საწვავი','','','',false,true);
+d.add(363,362,'662.1/.4','<div class="nodetag">662.1/.4</div></span>&nbsp;&nbsp;ფეთქებადი ნივთიერებები','662.1/.4','ფეთქებადი ნივთიერებები','','','',false,true);
+d.add(364,363,'662.1','<div class="nodetag">662.1</div></span>&nbsp;&nbsp;ფეიერვერკები. პიროტექნიკა და მისი მონათესავე ტექნიკა','662.1','ფეიერვერკები. პიროტექნიკა და მისი მონათესავე ტექნიკა','','','',false,true);
+d.add(365,363,'662.2','<div class="nodetag">662.2</div></span>&nbsp;&nbsp;ძლიერი ფეთქებადი ნივთიერებები','662.2','ძლიერი ფეთქებადი ნივთიერებები','','','',false,true);
+d.add(366,363,'662.3','<div class="nodetag">662.3</div></span>&nbsp;&nbsp;სატყორცნი ასაფეთქებელი ფხვნილები. დენთი','662.3','სატყორცნი ასაფეთქებელი ფხვნილები. დენთი','','','',false,true);
+d.add(367,363,'662.4','<div class="nodetag">662.4</div></span>&nbsp;&nbsp;ფისტონები ფეთქებადი ნივთიერებებისათვის. დეტონატორები','662.4','ფისტონები ფეთქებადი ნივთიერებებისათვის. დეტონატორები','','','',false,true);
+d.add(368,362,'662.5','<div class="nodetag">662.5</div></span>&nbsp;&nbsp;სანთებელა. ასანთი','662.5','სანთებელა. ასანთი','','','',false,true);
+d.add(369,362,'662.6/.9','<div class="nodetag">662.6/.9</div></span>&nbsp;&nbsp;თბომეურნეობა. საწვავის მეურნეობა. საწვავი. გათბობა','662.6/.9','თბომეურნეობა. საწვავის მეურნეობა. საწვავი. გათბობა','','','',false,true);
+d.add(370,369,'662.6','<div class="nodetag">662.6</div></span>&nbsp;&nbsp;თბომეურნეობა ზოგადად. ბუნებრივი საწვავი','662.6','თბომეურნეობა ზოგადად. ბუნებრივი საწვავი','','','',false,true);
+d.add(371,369,'662.7','<div class="nodetag">662.7</div></span>&nbsp;&nbsp;საწვავის ტექნოლოგია','662.7','საწვავის ტექნოლოგია','','','',false,true);
+d.add(372,369,'662.8','<div class="nodetag">662.8</div></span>&nbsp;&nbsp;მყარი საწვავის დამუშავება. ბრიკეტირება','662.8','მყარი საწვავის დამუშავება. ბრიკეტირება','','','',false,true);
+d.add(373,369,'662.9','<div class="nodetag">662.9</div></span>&nbsp;&nbsp;ღუმელები და წვის ტექნიკა','662.9','ღუმელები და წვის ტექნიკა','','','',false,true);
+d.add(374,343,'663','<div class="nodetag">663</div></span>&nbsp;&nbsp;მიკრობიოლოგიური წარმოება. სოკოსა და ფერმენტების წარმოება. სასმელების (ალკოჰოლური, უალკოჰოლო და ნახევრადალკოჰოლური) წარმოება. საგემოვნო პროდუქტების წარმოება','663','მიკრობიოლოგიური წარმოება. სოკოსა და ფერმენტების წარმოება. სასმელების (ალკოჰოლური, უალკოჰოლო და ნახევრადალკოჰოლური) წარმოება. საგემოვნო პროდუქტების წარმოება','','','',false,true);
+d.add(375,374,'663.1','<div class="nodetag">663.1</div></span>&nbsp;&nbsp;მიკრობიოლოგიური წარმოება. გამოყენებითი მიკოლოგია','663.1','მიკრობიოლოგიური წარმოება. გამოყენებითი მიკოლოგია','','','',false,true);
+d.add(376,374,'663.2','<div class="nodetag">663.2</div></span>&nbsp;&nbsp;მეღვინეობა. ენოლოგია','663.2','მეღვინეობა. ენოლოგია','','','',false,true);
+d.add(377,374,'663.3','<div class="nodetag">663.3</div></span>&nbsp;&nbsp;ხილ-კენკროვანი მეღვინეობა. ხილ-კენკროვანი ღვინოები','663.3','ხილ-კენკროვანი მეღვინეობა. ხილ-კენკროვანი ღვინოები','','','',false,true);
+d.add(378,374,'663.4','<div class="nodetag">663.4</div></span>&nbsp;&nbsp;ლუდის დადუღება','663.4','ლუდის დადუღება','','','',false,true);
+d.add(379,374,'663.5','<div class="nodetag">663.5</div></span>&nbsp;&nbsp;სპირტ-საარყე წარმოება. სპირტი. არაყი','663.5','სპირტ-საარყე წარმოება. სპირტი. არაყი','','','',false,true);
+d.add(380,374,'663.6','<div class="nodetag">663.6</div></span>&nbsp;&nbsp;სასმელი წყალი. მინერალური და სამკურნალო წყლები. საკვები ყინული. ნაყინი','663.6','სასმელი წყალი. მინერალური და სამკურნალო წყლები. საკვები ყინული. ნაყინი','','','',false,true);
+d.add(381,374,'663.8','<div class="nodetag">663.8</div></span>&nbsp;&nbsp;სასმელების ნარევების ძირითადი კომპონენტების წარმოება. ხილეულისა და ბოსტნეულის წვენები. სიროფები. ლიქიორები. უალკოჰოლო სასმელები','663.8','სასმელების ნარევების ძირითადი კომპონენტების წარმოება. ხილეულისა და ბოსტნეულის წვენები. სიროფები. ლიქიორები. უალკოჰოლო სასმელები','','','',false,true);
+d.add(382,374,'663.9','<div class="nodetag">663.9</div></span>&nbsp;&nbsp;საგემოვნო პროდუქტების წარმოება ზოგადად (შოკოლადი, კაკაო, ჩაი, ყავა, თამბაქო)','663.9','საგემოვნო პროდუქტების წარმოება ზოგადად (შოკოლადი, კაკაო, ჩაი, ყავა, თამბაქო)','','','',false,true);
+d.add(383,343,'664','<div class="nodetag">664</div></span>&nbsp;&nbsp;კვების მრეწველობა ზოგადად. საკვები პროდუქტების წარმოება და დაკონსერვება','664','კვების მრეწველობა ზოგადად. საკვები პროდუქტების წარმოება და დაკონსერვება','','','',false,true);
+d.add(384,383,'664.1','<div class="nodetag">664.1</div></span>&nbsp;&nbsp;შაქრის წარმოება. საშაქარლამო-საკონდიტრო ნაწარმი. მელასა, სახამებლიანი შაქარი, გლუკოზა და ა.შ.','664.1','შაქრის წარმოება. საშაქარლამო-საკონდიტრო ნაწარმი. მელასა, სახამებლიანი შაქარი, გლუკოზა და ა.შ.','','','',false,true);
+d.add(385,383,'664.2','<div class="nodetag">664.2</div></span>&nbsp;&nbsp;სახამებელ-ბადაგის წარმოება. სახამებელშემცველი პროდუქტები','664.2','სახამებელ-ბადაგის წარმოება. სახამებელშემცველი პროდუქტები','','','',false,true);
+d.add(386,383,'664.3','<div class="nodetag">664.3</div></span>&nbsp;&nbsp;საკვები ცხიმებისა და ზეთების წარმოება. მარგარინი, ცილოვანი ნივთიერებები და ა.შ.','664.3','საკვები ცხიმებისა და ზეთების წარმოება. მარგარინი, ცილოვანი ნივთიერებები და ა.შ.','','','',false,true);
+d.add(387,383,'664.4','<div class="nodetag">664.4</div></span>&nbsp;&nbsp;მინერალური საკვები პროდუქტები. სუფრის მარილი','664.4','მინერალური საკვები პროდუქტები. სუფრის მარილი','','','',false,true);
+d.add(388,383,'664.5','<div class="nodetag">664.5</div></span>&nbsp;&nbsp;სანელებლები. საკაზმები','664.5','სანელებლები. საკაზმები','','','',false,true);
+d.add(389,383,'664.6/.7','<div class="nodetag">664.6/.7</div></span>&nbsp;&nbsp;მარცვლეულის გადამუშავების ტექნოლოგია და ფქვილ-ბურღულეულის წარმოება','664.6/.7','მარცვლეულის გადამუშავების ტექნოლოგია და ფქვილ-ბურღულეულის წარმოება','','','',false,true);
+d.add(390,389,'664.6','<div class="nodetag">664.6</div></span>&nbsp;&nbsp;პურის საცხობები. ფქვილ–ბურღულეულის წარმოება','664.6','პურის საცხობები. ფქვილ–ბურღულეულის წარმოება','','','',false,true);
+d.add(391,389,'664.7','<div class="nodetag">664.7</div></span>&nbsp;&nbsp;მარცვლეულის გადამუშავების ტექნოლოგია. ფქვილ–ბურღულეულის წარმოება. მარცვლეული პროდუქტების წარმოება','664.7','მარცვლეულის გადამუშავების ტექნოლოგია. ფქვილ–ბურღულეულის წარმოება. მარცვლეული პროდუქტების წარმოება','','','',false,true);
+d.add(392,383,'664.8/.9','<div class="nodetag">664.8/.9</div></span>&nbsp;&nbsp;საკვები პროდუქტების კონსერვირების ტექნოლოგია','664.8/.9','საკვები პროდუქტების კონსერვირების ტექნოლოგია','','','',false,true);
+d.add(393,343,'665','<div class="nodetag">665</div></span>&nbsp;&nbsp;ცხიმების, ზეთების, ცვილის, ნავთობის ტექნოლოგია. საპრიალებელი ნივთიერებები. წებოვანი ნივთიერებები. გუმფისი და ბუნებრივი ფისები','665','ცხიმების, ზეთების, ცვილის, ნავთობის ტექნოლოგია. საპრიალებელი ნივთიერებები. წებოვანი ნივთიერებები. გუმფისი და ბუნებრივი ფისები','','','',false,true);
+d.add(394,393,'665.1','<div class="nodetag">665.1</div></span>&nbsp;&nbsp;ზოგადი მონაცემები ცხიმებზე, ზეთებზე, ცვილებზე და მათი გადამუშავების შედეგად მიღებულ პროდუქტებზე. სანთლები','665.1','ზოგადი მონაცემები ცხიმებზე, ზეთებზე, ცვილებზე და მათი გადამუშავების შედეგად მიღებულ პროდუქტებზე. სანთლები','','','',false,true);
+d.add(395,393,'665.2','<div class="nodetag">665.2</div></span>&nbsp;&nbsp;ცხოველური წარმოშობის ცხიმები, ზეთები და ცვილები','665.2','ცხოველური წარმოშობის ცხიმები, ზეთები და ცვილები','','','',false,true);
+d.add(396,393,'665.3','<div class="nodetag">665.3</div></span>&nbsp;&nbsp;მცენარეული ცხიმები, ზეთები და ცვილები. მცენარეული ფოსფატიდები','665.3','მცენარეული ცხიმები, ზეთები და ცვილები. მცენარეული ფოსფატიდები','','','',false,true);
+d.add(397,393,'665.5','<div class="nodetag">665.5</div></span>&nbsp;&nbsp;ეთერზეთები. პარფიუმერია. კოსმეტიკური საშუალებები','665.5','ეთერზეთები. პარფიუმერია. კოსმეტიკური საშუალებები','','','',false,true);
+d.add(398,393,'665.6/.7','<div class="nodetag">665.6/.7</div></span>&nbsp;&nbsp;ნავთობისა და მომიჯნავე პროდუქტების მრეწველობის პროცესები','665.6/.7','ნავთობისა და მომიჯნავე პროდუქტების მრეწველობის პროცესები','','','',false,true);
+d.add(399,398,'665.6','<div class="nodetag">665.6</div></span>&nbsp;&nbsp;ნავთობის ტექნოლოგია. ნავთობისა და მომიჯნავე პროდუქტების ტექნოლოგია','665.6','ნავთობის ტექნოლოგია. ნავთობისა და მომიჯნავე პროდუქტების ტექნოლოგია','','','',false,true);
+d.add(400,398,'665.7','<div class="nodetag">665.7</div></span>&nbsp;&nbsp;ნავთობის პროდუქტების მრეწველობა. ნავთობი და მომიჯნავე პროდუქტები','665.7','ნავთობის პროდუქტების მრეწველობა. ნავთობი და მომიჯნავე პროდუქტები','','','',false,true);
+d.add(401,393,'665.9','<div class="nodetag">665.9</div></span>&nbsp;&nbsp;ორგანული ქიმიური პროდუქტების წარმოება. საპრიალებელი ნივთიერებები. წებოვანი ნივთიერებები. ხის წებო (გუმფისი) და ბუნებრივი ქვები','665.9','ორგანული ქიმიური პროდუქტების წარმოება. საპრიალებელი ნივთიერებები. წებოვანი ნივთიერებები. ხის წებო (გუმფისი) და ბუნებრივი ქვები','','','',false,true);
+d.add(402,343,'666','<div class="nodetag">666</div></span>&nbsp;&nbsp;მინისა და კერამიკული მრეწველობა. მინის ტექნოლოგია. შემკვრელების მრეწველობა. მინანქრისა და ხელოვნური ქვების წარმოება','666','მინისა და კერამიკული მრეწველობა. მინის ტექნოლოგია. შემკვრელების მრეწველობა. მინანქრისა და ხელოვნური ქვების წარმოება','','','',false,true);
+d.add(403,402,'666.1','<div class="nodetag">666.1</div></span>&nbsp;&nbsp;მინის მრეწველობა. მინის ტექნოლოგია. მინა ზოგადად','666.1','მინის მრეწველობა. მინის ტექნოლოგია. მინა ზოგადად','','','',false,true);
+d.add(404,402,'666.3/.7','<div class="nodetag">666.3/.7</div></span>&nbsp;&nbsp;კერამიკული მრეწველობა','666.3/.7','კერამიკული მრეწველობა','','','',false,true);
+d.add(405,404,'666.3','<div class="nodetag">666.3</div></span>&nbsp;&nbsp;კერამიკული მრეწველობა ზოგადად. კერამიკული მასალის ნედლეული','666.3','კერამიკული მრეწველობა ზოგადად. კერამიკული მასალის ნედლეული','','','',false,true);
+d.add(406,404,'666.5','<div class="nodetag">666.5</div></span>&nbsp;&nbsp;ფაიფური','666.5','ფაიფური','','','',false,true);
+d.add(407,404,'666.6','<div class="nodetag">666.6</div></span>&nbsp;&nbsp;ქვა–კერამიკული ნაკეთობა. თიხის ჭურჭელი','666.6','ქვა–კერამიკული ნაკეთობა. თიხის ჭურჭელი','','','',false,true);
+d.add(408,404,'666.7','<div class="nodetag">666.7</div></span>&nbsp;&nbsp;უხეში კერამიკა. ცეცხლგამძლე ნაკეთობები. მაგარი კერამიკული მასალები. კერამიკისა და სხვა მასალის ნარევები','666.7','უხეში კერამიკა. ცეცხლგამძლე ნაკეთობები. მაგარი კერამიკული მასალები. კერამიკისა და სხვა მასალის ნარევები','','','',false,true);
+d.add(409,402,'666.9','<div class="nodetag">666.9</div></span>&nbsp;&nbsp;კირი, თაბაშირი, ცემენტი და ა.შ. სამშენებლო ხსნარები და ნარევები. ბეტონისა და რკინა-ბეტონის ნაკეთობების წარმოება','666.9','კირი, თაბაშირი, ცემენტი და ა.შ. სამშენებლო ხსნარები და ნარევები. ბეტონისა და რკინა-ბეტონის ნაკეთობების წარმოება','','','',false,true);
+d.add(410,343,'667','<div class="nodetag">667</div></span>&nbsp;&nbsp;საღებავებისა და ლაქ-საღებავი ნივთიერებების წარმოება და გამოყენება. ზედაპირის ლაქ-საღებავებით დაფარვის ტექნოლოგია','667','საღებავებისა და ლაქ-საღებავი ნივთიერებების წარმოება და გამოყენება. ზედაპირის ლაქ-საღებავებით დაფარვის ტექნოლოგია','','','',false,true);
+d.add(411,410,'667.2','<div class="nodetag">667.2</div></span>&nbsp;&nbsp;საღებავების წარმოება და გამოყენება','667.2','საღებავების წარმოება და გამოყენება','','','',false,true);
+d.add(412,410,'667.4','<div class="nodetag">667.4</div></span>&nbsp;&nbsp;მელანი','667.4','მელანი','','','',false,true);
+d.add(413,410,'667.5','<div class="nodetag">667.5</div></span>&nbsp;&nbsp;საბეჭდი საღებავები (შავი და ფერადი). ლითოგრაფიის მელანი. საწერი და სახაზავი ფანქრები. ფერადი ფანქრები','667.5','საბეჭდი საღებავები (შავი და ფერადი). ლითოგრაფიის მელანი. საწერი და სახაზავი ფანქრები. ფერადი ფანქრები','','','',false,true);
+d.add(414,410,'667.6','<div class="nodetag">667.6</div></span>&nbsp;&nbsp;დაფერვის ტექნიკა. საღებავები. ლაქები','667.6','დაფერვის ტექნიკა. საღებავები. ლაქები','','','',false,true);
+d.add(415,410,'667.7','<div class="nodetag">667.7</div></span>&nbsp;&nbsp;სხვადასხვა მასალის ღებვა, ლაქის წასმა (ბეჭდვისა და ხატვის გარდა)','667.7','სხვადასხვა მასალის ღებვა, ლაქის წასმა (ბეჭდვისა და ხატვის გარდა)','','','',false,true);
+d.add(416,343,'669','<div class="nodetag">669</div></span>&nbsp;&nbsp;მეტალურგია','669','მეტალურგია','','','',false,true);
+d.add(417,416,'669.1','<div class="nodetag">669.1</div></span>&nbsp;&nbsp;შავი ლითონების მეტალურგია. რკინა და ფოლადი','669.1','შავი ლითონების მეტალურგია. რკინა და ფოლადი','','','',false,true);
+d.add(418,416,'669.2','<div class="nodetag">669.2</div></span>&nbsp;&nbsp;ფერადი ლითონები ზოგადად','669.2','ფერადი ლითონები ზოგადად','','','',false,true);
+d.add(419,0,'67','<div class="nodetag">67</div></span>&nbsp;&nbsp;მრეწველობისა და ხელოსნობის სხვა დარგები','67','მრეწველობისა და ხელოსნობის სხვა დარგები','','','',false,true);
+d.add(420,419,'671','<div class="nodetag">671</div></span>&nbsp;&nbsp;კეთილშობილი ლითონებისა და ძვირფასი ქვების ნაკეთობათა წარმოება','671','კეთილშობილი ლითონებისა და ძვირფასი ქვების ნაკეთობათა წარმოება','','','',false,true);
+d.add(421,420,'671.1','<div class="nodetag">671.1</div></span>&nbsp;&nbsp;ოქროსა და ვერცხლის საგნები. სხვა ძვირფასი მეტალის საგნები. საიუველირო ნაკეთობები','671.1','ოქროსა და ვერცხლის საგნები. სხვა ძვირფასი მეტალის საგნები. საიუველირო ნაკეთობები','','','',false,true);
+d.add(422,420,'671.4','<div class="nodetag">671.4</div></span>&nbsp;&nbsp;მონეტებისა და მედლების წარმოება','671.4','მონეტებისა და მედლების წარმოება','','','',false,true);
+d.add(423,419,'672','<div class="nodetag">672</div></span>&nbsp;&nbsp;რკინისა და ფოლადის ნაკეთობათა წარმოება ზოგადად','672','რკინისა და ფოლადის ნაკეთობათა წარმოება ზოგადად','','','',false,true);
+d.add(424,419,'673','<div class="nodetag">673</div></span>&nbsp;&nbsp;ფერადი ლითონების ნაკეთობათა წარმოება (გარდა კეთილშობილი ლითონებისა)','673','ფერადი ლითონების ნაკეთობათა წარმოება (გარდა კეთილშობილი ლითონებისა)','','','',false,true);
+d.add(425,419,'674','<div class="nodetag">674</div></span>&nbsp;&nbsp;ხის დამამუშავებელი მრეწველობა','674','ხის დამამუშავებელი მრეწველობა','','','',false,true);
+d.add(426,419,'675','<div class="nodetag">675</div></span>&nbsp;&nbsp;ტყავის მრეწველობა ( ბეწვეულისა და ხელოვნური ტყავის ჩათვლით)','675','ტყავის მრეწველობა ( ბეწვეულისა და ხელოვნური ტყავის ჩათვლით)','','','',false,true);
+d.add(427,419,'676','<div class="nodetag">676</div></span>&nbsp;&nbsp;ცელულოზა-ქაღალდისა და მუყაოს მრეწველობა','676','ცელულოზა-ქაღალდისა და მუყაოს მრეწველობა','','','',false,true);
+d.add(428,419,'677','<div class="nodetag">677</div></span>&nbsp;&nbsp;საფეიქრო მრეწველობა','677','საფეიქრო მრეწველობა','','','',false,true);
+d.add(429,428,'677.1/.5','<div class="nodetag">677.1/.5</div></span>&nbsp;&nbsp;ბოჭკოვანი მასალები','677.1/.5','ბოჭკოვანი მასალები','','','',false,true);
+d.add(430,429,'677.1/.3','<div class="nodetag">677.1/.3</div></span>&nbsp;&nbsp;ნატურალური ბოჭკოვანი მასალები','677.1/.3','ნატურალური ბოჭკოვანი მასალები','','','',false,true);
+d.add(431,430,'677.1/.2','<div class="nodetag">677.1/.2</div></span>&nbsp;&nbsp;მცენარეული ბოჭკოვანი მასალები','677.1/.2','მცენარეული ბოჭკოვანი მასალები','','','',false,true);
+d.add(432,431,'677.1','<div class="nodetag">677.1</div></span>&nbsp;&nbsp;ლაფნის ბოჭკოები (ბოჭკოები ორლებნიანი ღეროებისგან). მაგარი ბოჭკოები (ბოჭკოები ერთლებნიანი მცენარის ფოთლებისა და ნაყოფისაგან)','677.1','ლაფნის ბოჭკოები (ბოჭკოები ორლებნიანი ღეროებისგან). მაგარი ბოჭკოები (ბოჭკოები ერთლებნიანი მცენარის ფოთლებისა და ნაყოფისაგან)','','','',false,true);
+d.add(433,431,'677.2','<div class="nodetag">677.2</div></span>&nbsp;&nbsp;მცენარეული წარმოშობის ბოჭკოები','677.2','მცენარეული წარმოშობის ბოჭკოები','','','',false,true);
+d.add(434,430,'677.3','<div class="nodetag">677.3</div></span>&nbsp;&nbsp;ცხოველური წარმოშობის ბოჭკოები','677.3','ცხოველური წარმოშობის ბოჭკოები','','','',false,true);
+d.add(435,429,'677.4','<div class="nodetag">677.4</div></span>&nbsp;&nbsp;ხელოვნური ბოჭკოები','677.4','ხელოვნური ბოჭკოები','','','',false,true);
+d.add(436,429,'677.5','<div class="nodetag">677.5</div></span>&nbsp;&nbsp;მინერალური და მეტალის ბოჭკოვანი მასალები. საწნავი მასალა. რეზინის ძაფები. ქაღალდის ნართი','677.5','მინერალური და მეტალის ბოჭკოვანი მასალები. საწნავი მასალა. რეზინის ძაფები. ქაღალდის ნართი','','','',false,true);
+d.add(437,419,'678','<div class="nodetag">678</div></span>&nbsp;&nbsp;მაღალმოლეკულური ნივთიერებების მრეწველობა. რეზინის მრეწველობა. პლასტმასის მრეწველობა','678','მაღალმოლეკულური ნივთიერებების მრეწველობა. რეზინის მრეწველობა. პლასტმასის მრეწველობა','','','',false,true);
+d.add(438,437,'678.4','<div class="nodetag">678.4</div></span>&nbsp;&nbsp;ნატურალური კაუჩუკი. სხვა ბუნებრივი მაღალმოლეკულური მასალა, რომელიც შეიცავს მხოლოდ ნახშირბადსა და წყალბადს','678.4','ნატურალური კაუჩუკი. სხვა ბუნებრივი მაღალმოლეკულური მასალა, რომელიც შეიცავს მხოლოდ ნახშირბადსა და წყალბადს','','','',false,true);
+d.add(439,437,'678.5','<div class="nodetag">678.5</div></span>&nbsp;&nbsp;პლასტმასი (პლასტიკური მასა)','678.5','პლასტმასი (პლასტიკური მასა)','','','',false,true);
+d.add(440,437,'678.6','<div class="nodetag">678.6</div></span>&nbsp;&nbsp;პოლიმერიზაციის სინთეტიკური პროდუქტები. პოლიმერები. რეზინის წარმოება. სინთეტიკური ბოჭკოები','678.6','პოლიმერიზაციის სინთეტიკური პროდუქტები. პოლიმერები. რეზინის წარმოება. სინთეტიკური ბოჭკოები','','','',false,true);
+d.add(441,437,'678.7','<div class="nodetag">678.7</div></span>&nbsp;&nbsp;პოლიმერიზაციის სინთეტიკური პროდუქტები. პოლიმერები. რეზინის წარმოება','678.7','პოლიმერიზაციის სინთეტიკური პროდუქტები. პოლიმერები. რეზინის წარმოება','','','',false,true);
+d.add(442,419,'679','<div class="nodetag">679</div></span>&nbsp;&nbsp;სხვადასხვა გადამუშავებულ მასალაზე დაფუძნებული მრეწველობა','679','სხვადასხვა გადამუშავებულ მასალაზე დაფუძნებული მრეწველობა','','','',false,true);
+d.add(443,442,'679.7','<div class="nodetag">679.7</div></span>&nbsp;&nbsp;საკაბელო და საბაგირო ნაკეთობათა მრეწველობა','679.7','საკაბელო და საბაგირო ნაკეთობათა მრეწველობა','','','',false,true);
+d.add(444,442,'679.8','<div class="nodetag">679.8</div></span>&nbsp;&nbsp;ქვის დამუშავების ტექნოლოგია','679.8','ქვის დამუშავების ტექნოლოგია','','','',false,true);
+d.add(445,442,'679.9','<div class="nodetag">679.9</div></span>&nbsp;&nbsp;სხვა ნატურალური მასალის დამუშავების ტექნოლოგია','679.9','სხვა ნატურალური მასალის დამუშავების ტექნოლოგია','','','',false,true);
+d.add(446,0,'68','<div class="nodetag">68</div></span>&nbsp;&nbsp;ძირითადი პროდუქციის მწარმოებელი ხელოსნობისა და მრეწველობის სხვადასხვა დარგი','68','ძირითადი პროდუქციის მწარმოებელი ხელოსნობისა და მრეწველობის სხვადასხვა დარგი','','','',false,true);
+d.add(447,446,'681','<div class="nodetag">681</div></span>&nbsp;&nbsp;ზუსტი მექანიკა','681','ზუსტი მექანიკა','','','',false,true);
+d.add(448,447,'681.1','<div class="nodetag">681.1</div></span>&nbsp;&nbsp;ხელსაწყოები, მოწყობილობები მოძრავი მექანიზმით. (საათები, სავაჭრო ავტომატები)','681.1','ხელსაწყოები, მოწყობილობები მოძრავი მექანიზმით. (საათები, სავაჭრო ავტომატები)','','','',false,true);
+d.add(449,447,'681.2','<div class="nodetag">681.2</div></span>&nbsp;&nbsp;ხელსაწყოთმშენებლობა ზოგადად. გამზომი ხელსაწყოები და მათი წარმოება. სასწორები','681.2','ხელსაწყოთმშენებლობა ზოგადად. გამზომი ხელსაწყოები და მათი წარმოება. სასწორები','','','',false,true);
+d.add(450,447,'681.5','<div class="nodetag">681.5</div></span>&nbsp;&nbsp;ავტომატიკა. ავტომატური მართვისა და რეგულირების სისტემის თეორია','681.5','ავტომატიკა. ავტომატური მართვისა და რეგულირების სისტემის თეორია','','','',false,true);
+d.add(451,447,'681.6','<div class="nodetag">681.6</div></span>&nbsp;&nbsp;საბეჭდი და გასამრავლებელი მანქანები','681.6','საბეჭდი და გასამრავლებელი მანქანები','','','',false,true);
+d.add(452,447,'681.7','<div class="nodetag">681.7</div></span>&nbsp;&nbsp;ოპტიკური აპარატურა და ხელსაწყოები','681.7','ოპტიკური აპარატურა და ხელსაწყოები','','','',false,true);
+d.add(453,447,'681.8','<div class="nodetag">681.8</div></span>&nbsp;&nbsp;ტექნიკური აკუსტიკა','681.8','ტექნიკური აკუსტიკა','','','',false,true);
+d.add(454,446,'682','<div class="nodetag">682</div></span>&nbsp;&nbsp;სამჭედლო საქმე. ხელის სამჭედლო ნაკეთობები','682','სამჭედლო საქმე. ხელის სამჭედლო ნაკეთობები','','','',false,true);
+d.add(455,454,'682.1','<div class="nodetag">682.1</div></span>&nbsp;&nbsp;ნალბანდობა. ნალების დაჭედვა','682.1','ნალბანდობა. ნალების დაჭედვა','','','',false,true);
+d.add(456,454,'682.3','<div class="nodetag">682.3</div></span>&nbsp;&nbsp;მჭრელი ნაკეთობების დამზადება','682.3','მჭრელი ნაკეთობების დამზადება','','','',false,true);
+d.add(457,454,'682.5','<div class="nodetag">682.5</div></span>&nbsp;&nbsp;რკინის ნაკეთობების დამზადება','682.5','რკინის ნაკეთობების დამზადება','','','',false,true);
+d.add(458,454,'682.6','<div class="nodetag">682.6</div></span>&nbsp;&nbsp;რკინის სამშენებლო ნაკეთობების დამზადება','682.6','რკინის სამშენებლო ნაკეთობების დამზადება','','','',false,true);
+d.add(459,446,'683','<div class="nodetag">683</div></span>&nbsp;&nbsp;რკინა-კავეული ნაკეთობანი. საზეინკლო საქმე. ბოთლების წარმოება. ლამფები საწვავი ნივთიერებებითა და სანათურებით. ღუმელები','683','რკინა-კავეული ნაკეთობანი. საზეინკლო საქმე. ბოთლების წარმოება. ლამფები საწვავი ნივთიერებებითა და სანათურებით. ღუმელები','','','',false,true);
+d.add(460,446,'684','<div class="nodetag">684</div></span>&nbsp;&nbsp;ავეჯის მრეწველობა','684','ავეჯის მრეწველობა','','','',false,true);
+d.add(461,460,'684.4','<div class="nodetag">684.4</div></span>&nbsp;&nbsp;ავეჯის მრეწველობა. ავეჯის დიზაინი და წარმოება','684.4','ავეჯის მრეწველობა. ავეჯის დიზაინი და წარმოება','','','',false,true);
+d.add(462,460,'684.6','<div class="nodetag">684.6</div></span>&nbsp;&nbsp;დაფანერება. ხის მოზაიკა. ინკრუსტაცია','684.6','დაფანერება. ხის მოზაიკა. ინკრუსტაცია','','','',false,true);
+d.add(463,460,'684.7','<div class="nodetag">684.7</div></span>&nbsp;&nbsp;ავეჯის გადასაკრავი მასალა. ქვეშაგები. შალითები. ფარდები','684.7','ავეჯის გადასაკრავი მასალა. ქვეშაგები. შალითები. ფარდები','','','',false,true);
+d.add(464,446,'685','<div class="nodetag">685</div></span>&nbsp;&nbsp;ფეხსაცმლის წარმოება. კაზმულობების, უნაგირებისა და სხვა ნაკეთობების წარმოება ტყავისა და მისი შემცვლელისაგან. სამგზავრო, სპორტული ნივთების, სამაგიდო სათამაშოებისა და სხვ. წარმოება','685','ფეხსაცმლის წარმოება. კაზმულობების, უნაგირებისა და სხვა ნაკეთობების წარმოება ტყავისა და მისი შემცვლელისაგან. სამგზავრო, სპორტული ნივთების, სამაგიდო სათამაშოებისა და სხვ. წარმოება','','','',false,true);
+d.add(465,464,'685.1','<div class="nodetag">685.1</div></span>&nbsp;&nbsp;სარაჯობა. აკაზმულობა','685.1','სარაჯობა. აკაზმულობა','','','',false,true);
+d.add(466,464,'685.2','<div class="nodetag">685.2</div></span>&nbsp;&nbsp;ამუნიცია (პირადი აღჭურვილობა). ტყავის აღჭურვილობა','685.2','ამუნიცია (პირადი აღჭურვილობა). ტყავის აღჭურვილობა','','','',false,true);
+d.add(467,464,'685.3','<div class="nodetag">685.3</div></span>&nbsp;&nbsp;ფეხსაცმელი. გადაადგილების სხვა საშუალებები','685.3','ფეხსაცმელი. გადაადგილების სხვა საშუალებები','','','',false,true);
+d.add(468,464,'685.4','<div class="nodetag">685.4</div></span>&nbsp;&nbsp;ხელთათმანები. ხელთათმანების წარმოება','685.4','ხელთათმანები. ხელთათმანების წარმოება','','','',false,true);
+d.add(469,464,'685.5','<div class="nodetag">685.5</div></span>&nbsp;&nbsp;სამგზავრო, ტურისტული და საკემპინგო ინვენტარის წარმოება','685.5','სამგზავრო, ტურისტული და საკემპინგო ინვენტარის წარმოება','','','',false,true);
+d.add(470,464,'685.6','<div class="nodetag">685.6</div></span>&nbsp;&nbsp;აღჭურვილობა სპორტული შეჯიბრებისა და თამაშებისათვის. აღჭურვილობა ტანვარჯიშისათვის, ფიზიკური ვარჯიშისათვის','685.6','აღჭურვილობა სპორტული შეჯიბრებისა და თამაშებისათვის. აღჭურვილობა ტანვარჯიშისათვის, ფიზიკური ვარჯიშისათვის','','','',false,true);
+d.add(471,464,'685.7','<div class="nodetag">685.7</div></span>&nbsp;&nbsp;აღჭურვილობა ალპინიზმისათვის. აღჭურვილობა ცურვისათვის','685.7','აღჭურვილობა ალპინიზმისათვის. აღჭურვილობა ცურვისათვის','','','',false,true);
+d.add(472,464,'685.8','<div class="nodetag">685.8</div></span>&nbsp;&nbsp;სამაგიდო თამაშების ინვენტარის წარმოება','685.8','სამაგიდო თამაშების ინვენტარის წარმოება','','','',false,true);
+d.add(473,446,'686','<div class="nodetag">686</div></span>&nbsp;&nbsp;საამკინძაო-სამკაზმაო წარმოება. მოოქვრა. მოვერცხვლა. სარკის წარმოება. მინის სამუშაოები. საკანცელარიო ნივთები','686','საამკინძაო-სამკაზმაო წარმოება. მოოქვრა. მოვერცხვლა. სარკის წარმოება. მინის სამუშაოები. საკანცელარიო ნივთები','','','',false,true);
+d.add(474,446,'687','<div class="nodetag">687</div></span>&nbsp;&nbsp;სამკერვალო მრეწველობა. ტანსაცმლის ინდუსტრია. მოდელირება','687','სამკერვალო მრეწველობა. ტანსაცმლის ინდუსტრია. მოდელირება','','','',false,true);
+d.add(475,474,'687.1','<div class="nodetag">687.1</div></span>&nbsp;&nbsp;ტანსაცმელი','687.1','ტანსაცმელი','','','',false,true);
+d.add(476,474,'687.2','<div class="nodetag">687.2</div></span>&nbsp;&nbsp;ტილოს ნაწარმი. ქალის თეთრეული','687.2','ტილოს ნაწარმი. ქალის თეთრეული','','','',false,true);
+d.add(477,474,'687.3','<div class="nodetag">687.3</div></span>&nbsp;&nbsp;ტრიკოტაჟი. ყელსახვევები','687.3','ტრიკოტაჟი. ყელსახვევები','','','',false,true);
+d.add(478,474,'687.4','<div class="nodetag">687.4</div></span>&nbsp;&nbsp;თავსაბურავი. ქალის ქუდები','687.4','თავსაბურავი. ქალის ქუდები','','','',false,true);
+d.add(479,474,'687.5','<div class="nodetag">687.5</div></span>&nbsp;&nbsp;კრეჭა. სადალაქო საქმე. მანიკიური. პედიკიური. კოსმეტიკა','687.5','კრეჭა. სადალაქო საქმე. მანიკიური. პედიკიური. კოსმეტიკა','','','',false,true);
+d.add(480,474,'687.8','<div class="nodetag">687.8</div></span>&nbsp;&nbsp;ხელოვნური ბეწვი','687.8','ხელოვნური ბეწვი','','','',false,true);
+d.add(481,474,'687.9','<div class="nodetag">687.9</div></span>&nbsp;&nbsp;ჯაგრისებრი ნაკეთობანი. ფუნჯები. ჯაგრისები','687.9','ჯაგრისებრი ნაკეთობანი. ფუნჯები. ჯაგრისები','','','',false,true);
+d.add(482,446,'688','<div class="nodetag">688</div></span>&nbsp;&nbsp;სათამაშოების, საგალანტერეო, დეკორატიული და სხვ. ნაკეთობის წარმოება','688','სათამაშოების, საგალანტერეო, დეკორატიული და სხვ. ნაკეთობის წარმოება','','','',false,true);
+d.add(483,482,'688.7','<div class="nodetag">688.7</div></span>&nbsp;&nbsp;სათამაშოები. გასართობი საგნები','688.7','სათამაშოები. გასართობი საგნები','','','',false,true);
+d.add(484,446,'689','<div class="nodetag">689</div></span>&nbsp;&nbsp;ხელსაქმისა და ტექნიკის მოყვარულთა ნამუშევრები. ხელსაქმეობა','689','ხელსაქმისა და ტექნიკის მოყვარულთა ნამუშევრები. ხელსაქმეობა','','','',false,true);
+d.add(485,0,'69','<div class="nodetag">69</div></span>&nbsp;&nbsp;მშენებლობა. სამშენებლო მასალები. სამშენებლო-სამონტაჟო სამუშაოები','69','მშენებლობა. სამშენებლო მასალები. სამშენებლო-სამონტაჟო სამუშაოები','','','',false,true);
+d.add(486,485,'691','<div class="nodetag">691</div></span>&nbsp;&nbsp;სამშენებლო მასალები და ნაკეთობანი','691','სამშენებლო მასალები და ნაკეთობანი','','','',false,true);
+d.add(487,485,'692','<div class="nodetag">692</div></span>&nbsp;&nbsp;შენობის ნაწილები და ნაგებობანი (არქიტექტურული კონსტრუქციები)','692','შენობის ნაწილები და ნაგებობანი (არქიტექტურული კონსტრუქციები)','','','',false,true);
+d.add(488,485,'693','<div class="nodetag">693</div></span>&nbsp;&nbsp;ქვის, ბეტონისა და მსგავსი სამშენებლო სამუშაოები','693','ქვის, ბეტონისა და მსგავსი სამშენებლო სამუშაოები','','','',false,true);
+d.add(489,485,'694','<div class="nodetag">694</div></span>&nbsp;&nbsp;ხის ნაგებობების მშენებლობა. სახუროო სამუშაოები. სადურგლო სამუშაოები','694','ხის ნაგებობების მშენებლობა. სახუროო სამუშაოები. სადურგლო სამუშაოები','','','',false,true);
+d.add(490,485,'696','<div class="nodetag">696</div></span>&nbsp;&nbsp;შენობების, ნაგებობების სანიტარულ-ტექნიკური მოწყობილობა და მისი მონტაჟი (მექანიკოსი, მრჩილავი, მელითონე, სანტექნიკოსი, ელექტროტექნიკოსი და სხვ. ხელობები)','696','შენობების, ნაგებობების სანიტარულ-ტექნიკური მოწყობილობა და მისი მონტაჟი (მექანიკოსი, მრჩილავი, მელითონე, სანტექნიკოსი, ელექტროტექნიკოსი და სხვ. ხელობები)','','','',false,true);
+d.add(491,485,'697','<div class="nodetag">697</div></span>&nbsp;&nbsp;შენობებისა და ნაგებობების გათბობა, ჰაერის ვენტილაცია და კონდიცირება','697','შენობებისა და ნაგებობების გათბობა, ჰაერის ვენტილაცია და კონდიცირება','','','',false,true);
+d.add(492,485,'698','<div class="nodetag">698</div></span>&nbsp;&nbsp;სხვა სამშენებლო - დეკორაციული სამუშაოები','698','სხვა სამშენებლო - დეკორაციული სამუშაოები','','','',false,true);
+d.config.useSelection = false;
+d.config.inOrder = true;
+d.config.useIcons = false;
+document.write(d);
+//-->
+</script>
+</div>
+</div><div id="expandbox" onclick="expandbox(); return false;">&nbsp;</div>
+<div id="recordbox" class="debugbkg">
+<div class="fronthint">ჩანაწერების გამოსაჩენად დაწკაპეთ კლასზე–განყოფილებაზე მარცხენა მხარეს</div>
+</div>
+
+        <div id="footer">
+            <div class="footersectionleft">
+                The UDC Summary (UDCS) provides a selection of around 2,600 classes from the whole scheme which comprises more than 70,000 entries.
+                Please send questions and suggestions to <a href="mailto:udcs@udcc.org?subject=UDC Summary Enquiry">udcs@udcc.org</a><br><br>
+	            <p>
+		            The data provided in this Summary is released under the <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative Commons Attribution Share Alike 3.0 license</a> <a href="../about.htm">[more]</a>
+	            </p>
+            </div>
+            <div class="footermiddle">
+                <a href="http://www.udcc.org"><img src="../images/udclogowhite.png" border="0"></a>
+            </div>
+			<div class="footerright">
+                For complete UDC schedules see <a href="http://www.udc-hub.com/">UDC Online Hub</a><br/><a href="http://www.udc-hub.com/"><img width="60" height="35" src="../images/udclogo.png"/></a>
+
+			</div>
+        </div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-13138465-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>

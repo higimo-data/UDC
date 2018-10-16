@@ -1,0 +1,654 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>UDC Summary</title>
+    <link rel="stylesheet" href="../reset.css" type="text/css" />
+    <link rel="stylesheet" href="../udc2000.css" type="text/css" />
+	    <link rel="StyleSheet" href="dtree2.css" type="text/css" />
+	    <script type="text/javascript" src="dtree.js"></script>
+	    <script type="text/javascript" src="udcdisplay_9.js"></script>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+</head>
+
+<body >
+<div id="centercontainer" class="debugbkg">
+    <div id="titlebox" class="debugbkg">
+		<div id="rightbox">
+        	<div id="languagecount">57 languages</div>
+            <div id="languagebox">
+            <select id="selectedlang" style="vertical-align: middle;" onchange="location = this.options[this.selectedIndex].value;">
+			<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=af&pr=Y">Afrikaans (Afrikaans) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sq&pr=Y">Albanian (Shqip) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=anp&pr=Y">Angika (अंगिका) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ar&pr=Y">Arabic (العربية) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hy&pr=Y">Armenian (հայերեն) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=eu&pr=Y">Basque (Euskara) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=be&pr=Y">Belarusian (Беларуская) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bn&pr=Y">Bengali (বাংলা) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bho&pr=Y">Bhojpuri (भोजपुरी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bg&pr=Y">Bulgarian (Български) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ca&pr=Y">Catalan (Català) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=chi&pr=Y">Chinese (中文) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hr&pr=Y">Croatian (Hrvatski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=cs&pr=Y" selected>Czech (Čeština) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=da&pr=Y">Danish (Dansk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=nl&pr=Y">Dutch (Nederlands) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=en&pr=Y">English (English) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=eo&pr=Y">Esperanto (Esperanto) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=et&pr=Y">Estonian (Eesti) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=fi&pr=Y">Finnish (Suomi) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=fr&pr=Y">French (Français) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=gl&pr=Y">Galician (Galego) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ka&pr=Y">Georgian (ქართული) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=de&pr=Y">German (Deutsch) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=el&pr=Y">Greek (Ελληνικά) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hi&pr=Y">Hindi (हिन्दी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hu&pr=Y">Hungarian (Magyar) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=id&pr=Y">Indonesian (Bahasa Ind) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ga&pr=Y">Irish (Gaeilge) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=it&pr=Y">Italian (Italiano) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ja&pr=Y">Japanese (日本語) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=kn&pr=Y">Kannada (ಕನ್ನಡ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=kk&pr=Y">Kazakh (Қазақ тілі) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=lv&pr=Y">Latvian (Latviešu) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=lt&pr=Y">Lithuanian (lietuvių) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=mk&pr=Y">Macedonian (македонски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ml&pr=Y">Malayalam (മലയാളം) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=mr&pr=Y">Marathi (मराठी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=no&pr=Y">Norwegian (Norsk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pl&pr=Y">Polish (Polski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pt&pr=Y">Portuguese (Português) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pa&pr=Y">Punjabi (ਪੰਜਾਬੀ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ro&pr=Y">Romanian (Româna) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ru&pr=Y">Russian (Pусский) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sa&pr=Y">Sanskrit (Saṃskṛtam) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sr&pr=Y">Serbian (Српски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=si&pr=Y">Sinhala (සිංහල) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sk&pr=Y">Slovak (Slovenský) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sl&pr=Y">Slovenian (Slovenski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=es&pr=Y">Spanish (Español) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sv&pr=Y">Swedish (Svenska) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ta&pr=Y">Tamil (தமிழ்) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=te&pr=Y">Telugu (తెలుగు) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=tr&pr=Y">Turkish (Türkçe) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=uk&pr=Y">Ukrainian (Yкраї́нська) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=uz&pr=Y">Uzbek (oʻzbek) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=vi&pr=Y">Vietnamese (tiếng Việt) </option>
+            </select>
+            </div>
+            </div>
+        </div>
+		<div id="menubox" class="debugbkg">
+            <ul class="menu boldmenu">
+<li><a href="index.php@lang=cs">ZÁKLADNÍ SCHÉMA</a></li>
+<li><a href="index.php@tag=--&amp;lang=cs">SYMBOLY</a></li>
+<li><a href="index.php@tag=---&amp;lang=cs">POMOCNÉ ZNAKY</a></li>
+<li><a href="index.php@tag=0&amp;lang=cs">0</a></li>
+<li><a href="index.php@tag=1&amp;lang=cs">1</a></li>
+<li><a href="index.php@tag=2&amp;lang=cs">2</a></li>
+<li><a href="index.php@tag=3&amp;lang=cs">3</a></li>
+<li><a  class="vacant" href="index.php@tag=6&amp;lang=cs#">4</a></li>
+<li><a href="index.php@tag=5&amp;lang=cs">5</a></li>
+<li><a href="index.php@tag=6&amp;lang=cs">6</a></li>
+<li><a href="index.php@tag=7&amp;lang=cs">7</a></li>
+<li><a href="index.php@tag=8&amp;lang=cs">8</a></li>
+<li><a href="index.php@tag=9&amp;lang=cs">9</a></li>
+</ul>
+<input type="hidden" id="if_loading" name="if_loading" value="Načítání dat"/>
+<input type="hidden" id="if_lang" name="if_lang" value="15"/>
+<ul class="rightmenu boldmenu">
+<li><a href="../translation.htm">PŘEKLAD</a></li>
+<li><a href="index.php@tag=6&amp;lang=cs#" title="Under Development">MAPOVÁNÍ</a></li>
+<li><a href="../exports.htm" title="Data Exports">EXPORT</a></li>
+<li><a href="index.php@tag=6&amp;lang=cs#" title="Under Development">ABECEDNÍ REJSTŘÍK</a></li>
+<li><a href="index.php@tag=6&amp;lang=cs#" title="Under Development">MANUÁL</a></li>
+<li><a href="../about.htm" title="About the UDC Summary">INFORMACE</a></li>
+</ul>
+
+        </div>
+		<input type="hidden" id="leftWidth" value="420"/><input type="hidden" id="rightWidth" value="522"/>
+		<div id="classmarkbox" class="debugbkg">
+
+<div id="openclosemenu"><a href="javascript: d.openAll();">&nbsp;zobrazit vše</a> | <a href="javascript: d.closeAll();">skrýt vše</a></div>
+<div id="classtree">
+<script type="text/javascript">
+<!--
+d = new dTree('d');
+d.config.hrefIsClick = true;
+d.add(0,-1,'6','<span class="nodetag">6</span>&nbsp;&nbsp;APLIKOVANÉ VĚDY. LÉKAŘSTVÍ. TECHNIKA','6','','','','',false,true);
+d.add(1,0,'60','<div class="nodetag">60</div></span>&nbsp;&nbsp;Biotechnologie','60','Biotechnologie','','','',false,true);
+d.add(2,1,'601','<div class="nodetag">601</div></span>&nbsp;&nbsp;Základní pojmy','601','Základní pojmy','','','',false,true);
+d.add(3,1,'602','<div class="nodetag">602</div></span>&nbsp;&nbsp;Biotechnologické procesy a techniky','602','Biotechnologické procesy a techniky','','','',false,true);
+d.add(4,1,'604','<div class="nodetag">604</div></span>&nbsp;&nbsp;Produkty biotechnologie','604','Produkty biotechnologie','','','',false,true);
+d.add(5,1,'606','<div class="nodetag">606</div></span>&nbsp;&nbsp;Aplikace biotechnologie','606','Aplikace biotechnologie','','','',false,true);
+d.add(6,1,'608','<div class="nodetag">608</div></span>&nbsp;&nbsp;Otázky a témata v biotechnologii','608','Otázky a témata v biotechnologii','','','',false,true);
+d.add(7,0,'61','<div class="nodetag">61</div></span>&nbsp;&nbsp;Lékařské vědy','61','Lékařské vědy','','','',false,true);
+d.add(8,7,'611/612','<div class="nodetag">611/612</div></span>&nbsp;&nbsp;Biologie člověka','611/612','Biologie člověka','','','',false,true);
+d.add(9,8,'611','<div class="nodetag">611</div></span>&nbsp;&nbsp;Anatomie. Anatomie člověka a srovnávací anatomie','611','Anatomie. Anatomie člověka a srovnávací anatomie','','','',false,true);
+d.add(10,8,'612','<div class="nodetag">612</div></span>&nbsp;&nbsp;Fyziologie. Fyziologie člověka a srovnávací fyziologie','612','Fyziologie. Fyziologie člověka a srovnávací fyziologie','','','',false,true);
+d.add(11,10,'612.1/.8','<div class="nodetag">612.1/.8</div></span>&nbsp;&nbsp;Systematická fyziologie','612.1/.8','Systematická fyziologie','','','',false,true);
+d.add(12,11,'612.1','<div class="nodetag">612.1</div></span>&nbsp;&nbsp;Krev. Kardiovaskulární systém. Oběhová soustava','612.1','Krev. Kardiovaskulární systém. Oběhová soustava','','','',false,true);
+d.add(13,11,'612.2','<div class="nodetag">612.2</div></span>&nbsp;&nbsp;Respirace. Dýchání. Dýchací soustava','612.2','Respirace. Dýchání. Dýchací soustava','','','',false,true);
+d.add(14,11,'612.3','<div class="nodetag">612.3</div></span>&nbsp;&nbsp;Potrava. Trávení. Výživa','612.3','Potrava. Trávení. Výživa','','','',false,true);
+d.add(15,11,'612.4','<div class="nodetag">612.4</div></span>&nbsp;&nbsp;Systém žláz. Sekrece. Exkrece','612.4','Systém žláz. Sekrece. Exkrece','','','',false,true);
+d.add(16,11,'612.5','<div class="nodetag">612.5</div></span>&nbsp;&nbsp;Živočišné teplo. Tepelné procesy','612.5','Živočišné teplo. Tepelné procesy','','','',false,true);
+d.add(17,11,'612.6','<div class="nodetag">612.6</div></span>&nbsp;&nbsp;Rozmnožování. Růst. Vývoj','612.6','Rozmnožování. Růst. Vývoj','','','',false,true);
+d.add(18,11,'612.7','<div class="nodetag">612.7</div></span>&nbsp;&nbsp;Motorické funkce. Pohybové orgány. Hlas. Kůže','612.7','Motorické funkce. Pohybové orgány. Hlas. Kůže','','','',false,true);
+d.add(19,11,'612.8','<div class="nodetag">612.8</div></span>&nbsp;&nbsp;Nervová soustava. Smyslové orgány','612.8','Nervová soustava. Smyslové orgány','','','',false,true);
+d.add(20,7,'613','<div class="nodetag">613</div></span>&nbsp;&nbsp;Hygiena všeobecně. Lidské zdraví a hygiena','613','Hygiena všeobecně. Lidské zdraví a hygiena','','','',false,true);
+d.add(21,20,'613.2','<div class="nodetag">613.2</div></span>&nbsp;&nbsp;Dietetika. Zásady výživy aplikované na způsob stravování a výběr potravin','613.2','Dietetika. Zásady výživy aplikované na způsob stravování a výběr potravin','','','',false,true);
+d.add(22,20,'613.3','<div class="nodetag">613.3</div></span>&nbsp;&nbsp;Nápoje. Léčebné nápoje. Léčivé vody. Tekutá výživa','613.3','Nápoje. Léčebné nápoje. Léčivé vody. Tekutá výživa','','','',false,true);
+d.add(23,20,'613.4','<div class="nodetag">613.4</div></span>&nbsp;&nbsp;Osobní hygiena. Oblékání','613.4','Osobní hygiena. Oblékání','','','',false,true);
+d.add(24,20,'613.5','<div class="nodetag">613.5</div></span>&nbsp;&nbsp;Hygiena obydlí','613.5','Hygiena obydlí','','','',false,true);
+d.add(25,20,'613.6','<div class="nodetag">613.6</div></span>&nbsp;&nbsp;Zdravotní rizika povolání. Zdraví a hygiena práce','613.6','Zdravotní rizika povolání. Zdraví a hygiena práce','','','',false,true);
+d.add(26,20,'613.7','<div class="nodetag">613.7</div></span>&nbsp;&nbsp;Zdraví a hygiena volného času, rekreace a spánku','613.7','Zdraví a hygiena volného času, rekreace a spánku','','','',false,true);
+d.add(27,20,'613.8','<div class="nodetag">613.8</div></span>&nbsp;&nbsp;Zdraví a hygiena nervové soustavy. Zdraví a etika','613.8','Zdraví a hygiena nervové soustavy. Zdraví a etika','','','',false,true);
+d.add(28,20,'613.9','<div class="nodetag">613.9</div></span>&nbsp;&nbsp;Zdraví a hygiena ve vztahu k rase, věku a pohlaví','613.9','Zdraví a hygiena ve vztahu k rase, věku a pohlaví','','','',false,true);
+d.add(29,7,'614','<div class="nodetag">614</div></span>&nbsp;&nbsp;Veřejné zdraví a hygiena. Předcházení úrazům','614','Veřejné zdraví a hygiena. Předcházení úrazům','','','',false,true);
+d.add(30,29,'614.1','<div class="nodetag">614.1</div></span>&nbsp;&nbsp;Populace. Depopulace','614.1','Populace. Depopulace','','','',false,true);
+d.add(31,29,'614.2','<div class="nodetag">614.2</div></span>&nbsp;&nbsp;Organizace zdravotnictví','614.2','Organizace zdravotnictví','','','',false,true);
+d.add(32,29,'614.3','<div class="nodetag">614.3</div></span>&nbsp;&nbsp;Zdravotní inspekce a dozor','614.3','Zdravotní inspekce a dozor','','','',false,true);
+d.add(33,32,'614.39','<div class="nodetag">614.39</div></span>&nbsp;&nbsp;Veřejné zdravotnické služby','614.39','Veřejné zdravotnické služby','','','',false,true);
+d.add(34,29,'614.4','<div class="nodetag">614.4</div></span>&nbsp;&nbsp;Prevence a boj proti nakažlivým (infekčním, přenosným) nemocem. Předcházení epidemiím','614.4','Prevence a boj proti nakažlivým (infekčním, přenosným) nemocem. Předcházení epidemiím','','','',false,true);
+d.add(35,29,'614.6','<div class="nodetag">614.6</div></span>&nbsp;&nbsp;Hygiena hřbitovů. Nakládání s mrtvými','614.6','Hygiena hřbitovů. Nakládání s mrtvými','','','',false,true);
+d.add(36,29,'614.7','<div class="nodetag">614.7</div></span>&nbsp;&nbsp;Hygiena ovzduší, vody a půdy. Znečištění a jeho regulace','614.7','Hygiena ovzduší, vody a půdy. Znečištění a jeho regulace','','','',false,true);
+d.add(37,29,'614.8','<div class="nodetag">614.8</div></span>&nbsp;&nbsp;Úrazy. Nebezpečí úrazů. Protiúrazová prevence. Osobní ochrana. Bezpečnost','614.8','Úrazy. Nebezpečí úrazů. Protiúrazová prevence. Osobní ochrana. Bezpečnost','','','',false,true);
+d.add(38,29,'614.9','<div class="nodetag">614.9</div></span>&nbsp;&nbsp;Zdraví zvířat. Veterinární hygiena','614.9','Zdraví zvířat. Veterinární hygiena','','','',false,true);
+d.add(39,7,'615','<div class="nodetag">615</div></span>&nbsp;&nbsp;Farmakologie. Terapie. Toxikologie','615','Farmakologie. Terapie. Toxikologie','','','',false,true);
+d.add(40,39,'615.1','<div class="nodetag">615.1</div></span>&nbsp;&nbsp;Obecná a profesionální farmacie','615.1','Obecná a profesionální farmacie','','','',false,true);
+d.add(41,39,'615.2','<div class="nodetag">615.2</div></span>&nbsp;&nbsp;Léky podle jejich hlavního účinku','615.2','Léky podle jejich hlavního účinku','','','',false,true);
+d.add(42,39,'615.3','<div class="nodetag">615.3</div></span>&nbsp;&nbsp;Léky podle jejich původu','615.3','Léky podle jejich původu','','','',false,true);
+d.add(43,39,'615.4','<div class="nodetag">615.4</div></span>&nbsp;&nbsp;Farmaceutické přípravky. Lékařský materiál. Vybavení','615.4','Farmaceutické přípravky. Lékařský materiál. Vybavení','','','',false,true);
+d.add(44,39,'615.8','<div class="nodetag">615.8</div></span>&nbsp;&nbsp;Fyzioterapie. Fyzikální terapie. Radioterapie. Jiné nemedicínské terapeutické prostředky','615.8','Fyzioterapie. Fyzikální terapie. Radioterapie. Jiné nemedicínské terapeutické prostředky','','','',false,true);
+d.add(45,39,'615.9','<div class="nodetag">615.9</div></span>&nbsp;&nbsp;Obecná toxikologie. Všeobecné studie o jedech a otravách (intoxikacích)','615.9','Obecná toxikologie. Všeobecné studie o jedech a otravách (intoxikacích)','','','',false,true);
+d.add(46,7,'616','<div class="nodetag">616</div></span>&nbsp;&nbsp;Patologie. Klinická medicína','616','Patologie. Klinická medicína','','','',false,true);
+d.add(47,46,'616-001/-009','<div class="nodetag">616-001/-009</div></span>&nbsp;&nbsp;Specifické pomocné znaky pro patologické procesy','616-001/-009','Specifické pomocné znaky pro patologické procesy','','','',false,true);
+d.add(48,47,'616-001','<div class="nodetag">616-001</div></span>&nbsp;&nbsp;Traumata. Poranění. Úrazy','616-001','Traumata. Poranění. Úrazy','','','',false,true);
+d.add(49,47,'616-002','<div class="nodetag">616-002</div></span>&nbsp;&nbsp;Zánět. Podráždění. Překrvení (hyperemie). Zahlenění','616-002','Zánět. Podráždění. Překrvení (hyperemie). Zahlenění','','','',false,true);
+d.add(50,47,'616-003','<div class="nodetag">616-003</div></span>&nbsp;&nbsp;Regresivní a reparativní procesy','616-003','Regresivní a reparativní procesy','','','',false,true);
+d.add(51,47,'616-004','<div class="nodetag">616-004</div></span>&nbsp;&nbsp;Skleróza. Ztvrdnutí tkáně (indurace). Cirhóza','616-004','Skleróza. Ztvrdnutí tkáně (indurace). Cirhóza','','','',false,true);
+d.add(52,47,'616-005','<div class="nodetag">616-005</div></span>&nbsp;&nbsp;Lokální poruchy oběhu','616-005','Lokální poruchy oběhu','','','',false,true);
+d.add(53,47,'616-006','<div class="nodetag">616-006</div></span>&nbsp;&nbsp;Tumory. Nádory. Neoplazmy. Novotvary. Blastomy. Choriostomy. Hamartomy. Onkologie','616-006','Tumory. Nádory. Neoplazmy. Novotvary. Blastomy. Choriostomy. Hamartomy. Onkologie','','','',false,true);
+d.add(54,47,'616-007','<div class="nodetag">616-007</div></span>&nbsp;&nbsp;Defektní strukturální vývoj. Fyziologické deformity. Malformace. Hemiterata. Orgány nadměrné nebo podprůměrné velikosti. Teratologie. Zrůdy. Abnormality','616-007','Defektní strukturální vývoj. Fyziologické deformity. Malformace. Hemiterata. Orgány nadměrné nebo podprůměrné velikosti. Teratologie. Zrůdy. Abnormality','','','',false,true);
+d.add(55,47,'616-008','<div class="nodetag">616-008</div></span>&nbsp;&nbsp;Funkční a metabolické poruchy','616-008','Funkční a metabolické poruchy','','','',false,true);
+d.add(56,47,'616-009','<div class="nodetag">616-009</div></span>&nbsp;&nbsp;Nervové poruchy','616-009','Nervové poruchy','','','',false,true);
+d.add(57,46,'616-01/-099','<div class="nodetag">616-01/-099</div></span>&nbsp;&nbsp;Specifické pomocné znaky pro obecné aspekty patologie','616-01/-099','Specifické pomocné znaky pro obecné aspekty patologie','','','',false,true);
+d.add(58,57,'616-01','<div class="nodetag">616-01</div></span>&nbsp;&nbsp;Různá hlediska týkající se nemocí, pacientů a lékařských zásahů','616-01','Různá hlediska týkající se nemocí, pacientů a lékařských zásahů','','','',false,true);
+d.add(59,57,'616-02','<div class="nodetag">616-02</div></span>&nbsp;&nbsp;Etiologie. Nauka o příčinách nemocí','616-02','Etiologie. Nauka o příčinách nemocí','','','',false,true);
+d.add(60,57,'616-03','<div class="nodetag">616-03</div></span>&nbsp;&nbsp;Různé formy nemocí, ošetřování a podávání léků','616-03','Různé formy nemocí, ošetřování a podávání léků','','','',false,true);
+d.add(61,57,'616-05','<div class="nodetag">616-05</div></span>&nbsp;&nbsp;Osoby a charakteristiky osob v patologii. Charakteristika pacienta','616-05','Osoby a charakteristiky osob v patologii. Charakteristika pacienta','','','',false,true);
+d.add(62,57,'616-06','<div class="nodetag">616-06</div></span>&nbsp;&nbsp;Komplikace. Následky. Reakce. Souběh, současný průběh. Korelace. Předcházející nemoci. Předchozí zdravotní stav. Antagonismus dvou nemocí','616-06','Komplikace. Následky. Reakce. Souběh, současný průběh. Korelace. Předcházející nemoci. Předchozí zdravotní stav. Antagonismus dvou nemocí','','','',false,true);
+d.add(63,57,'616-07','<div class="nodetag">616-07</div></span>&nbsp;&nbsp;Sémiologie. Symptomatologie. Příznaky a symptomy. Vyšetření. Diagnóza. Propedeutika','616-07','Sémiologie. Symptomatologie. Příznaky a symptomy. Vyšetření. Diagnóza. Propedeutika','','','',false,true);
+d.add(64,57,'616-08','<div class="nodetag">616-08</div></span>&nbsp;&nbsp;Terapie. Léčba','616-08','Terapie. Léčba','','','',false,true);
+d.add(65,57,'616-091','<div class="nodetag">616-091</div></span>&nbsp;&nbsp;Patologická anatomie','616-091','Patologická anatomie','','','',false,true);
+d.add(66,57,'616-092','<div class="nodetag">616-092</div></span>&nbsp;&nbsp;Patologická fyziologie. Chorobné procesy, způsob působení nemocí. Patogeneze. Studium původu nemocí','616-092','Patologická fyziologie. Chorobné procesy, způsob působení nemocí. Patogeneze. Studium původu nemocí','','','',false,true);
+d.add(67,57,'616-093','<div class="nodetag">616-093</div></span>&nbsp;&nbsp;Mikrobiologické techniky','616-093','Mikrobiologické techniky','','','',false,true);
+d.add(68,57,'616-094','<div class="nodetag">616-094</div></span>&nbsp;&nbsp;Morfologie mikroorganismů','616-094','Morfologie mikroorganismů','','','',false,true);
+d.add(69,57,'616-095','<div class="nodetag">616-095</div></span>&nbsp;&nbsp;Fyziologie mikroorganismů','616-095','Fyziologie mikroorganismů','','','',false,true);
+d.add(70,57,'616-097','<div class="nodetag">616-097</div></span>&nbsp;&nbsp;Antigeny. Protilátky','616-097','Antigeny. Protilátky','','','',false,true);
+d.add(71,57,'616-098','<div class="nodetag">616-098</div></span>&nbsp;&nbsp;Fyzika, chemie, metabolismus a katabolismus mikroorganismů','616-098','Fyzika, chemie, metabolismus a katabolismus mikroorganismů','','','',false,true);
+d.add(72,57,'616-099','<div class="nodetag">616-099</div></span>&nbsp;&nbsp;Otravy. Intoxikace','616-099','Otravy. Intoxikace','','','',false,true);
+d.add(73,46,'616-71/-78','<div class="nodetag">616-71/-78</div></span>&nbsp;&nbsp;Lékařské a chirurgické nástroje a vybavení','616-71/-78','Lékařské a chirurgické nástroje a vybavení','','','',false,true);
+d.add(74,73,'616-71','<div class="nodetag">616-71</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Medical instruments and equipment in general</span>','616-71','Medical instruments and equipment in general','','','',false,true);
+d.add(75,73,'616-72','<div class="nodetag">616-72</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Surgical and therapeutic instruments</span>','616-72','Surgical and therapeutic instruments','','','',false,true);
+d.add(76,73,'616-74','<div class="nodetag">616-74</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Reinforcement and reparative materials and equipment</span>','616-74','Reinforcement and reparative materials and equipment','','','',false,true);
+d.add(77,73,'616-76','<div class="nodetag">616-76</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Corrective and protective appliances, aids etc.</span>','616-76','Corrective and protective appliances, aids etc.','','','',false,true);
+d.add(78,73,'616-77','<div class="nodetag">616-77</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Prosthetic materials and parts. Artificial organs etc.</span>','616-77','Prosthetic materials and parts. Artificial organs etc.','','','',false,true);
+d.add(79,73,'616-78','<div class="nodetag">616-78</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Machines and mechanical apparatus</span>','616-78','Machines and mechanical apparatus','','','',false,true);
+d.add(80,46,'616.1/.9','<div class="nodetag">616.1/.9</div></span>&nbsp;&nbsp;Speciální patologie','616.1/.9','Speciální patologie','','','',false,true);
+d.add(81,80,'616.1','<div class="nodetag">616.1</div></span>&nbsp;&nbsp;Patologie oběhové soustavy a krevních cév. Kardiovaskulární onemocnění','616.1','Patologie oběhové soustavy a krevních cév. Kardiovaskulární onemocnění','','','',false,true);
+d.add(82,80,'616.2','<div class="nodetag">616.2</div></span>&nbsp;&nbsp;Patologie dýchacího ústrojí. Nemoci dýchacích orgánů','616.2','Patologie dýchacího ústrojí. Nemoci dýchacích orgánů','','','',false,true);
+d.add(83,80,'616.3','<div class="nodetag">616.3</div></span>&nbsp;&nbsp;Patologie trávicí soustavy. Nemoci zažívacího traktu','616.3','Patologie trávicí soustavy. Nemoci zažívacího traktu','','','',false,true);
+d.add(84,83,'616.31','<div class="nodetag">616.31</div></span>&nbsp;&nbsp;Stomatologie. Ústní dutina. Ústa. Nemoci úst a zubů','616.31','Stomatologie. Ústní dutina. Ústa. Nemoci úst a zubů','','','',false,true);
+d.add(85,80,'616.4','<div class="nodetag">616.4</div></span>&nbsp;&nbsp;Patologie lymfatického systému, krvetvorných orgánů a žláz s vnitřní sekrecí','616.4','Patologie lymfatického systému, krvetvorných orgánů a žláz s vnitřní sekrecí','','','',false,true);
+d.add(86,80,'616.5','<div class="nodetag">616.5</div></span>&nbsp;&nbsp;Kůže. Integumentum commune. Kožní ústrojí. Klinická dermatologie. Kožní nemoci','616.5','Kůže. Integumentum commune. Kožní ústrojí. Klinická dermatologie. Kožní nemoci','','','',false,true);
+d.add(87,80,'616.6','<div class="nodetag">616.6</div></span>&nbsp;&nbsp;Patologie urogenitální soustavy. Nemoci močového a pohlavního ústrojí','616.6','Patologie urogenitální soustavy. Nemoci močového a pohlavního ústrojí','','','',false,true);
+d.add(88,80,'616.7','<div class="nodetag">616.7</div></span>&nbsp;&nbsp;Patologie pohybových orgánů. Kosterní a pohybová soustava','616.7','Patologie pohybových orgánů. Kosterní a pohybová soustava','','','',false,true);
+d.add(89,80,'616.8','<div class="nodetag">616.8</div></span>&nbsp;&nbsp;Neurologie. Neuropatologie. Nervový systém','616.8','Neurologie. Neuropatologie. Nervový systém','','','',false,true);
+d.add(90,89,'616.89','<div class="nodetag">616.89</div></span>&nbsp;&nbsp;Psychiatrie. Patologická psychologie. Psychopatologie. Frenopatie. Psychózy. Mentální anomálie. Patologické duševní stavy. Poruchy chování a emocí','616.89','Psychiatrie. Patologická psychologie. Psychopatologie. Frenopatie. Psychózy. Mentální anomálie. Patologické duševní stavy. Poruchy chování a emocí','','','',false,true);
+d.add(91,80,'616.9','<div class="nodetag">616.9</div></span>&nbsp;&nbsp;Nakažlivé nemoci. Infekční a přenosné nemoci, horečnatá onemocnění','616.9','Nakažlivé nemoci. Infekční a přenosné nemoci, horečnatá onemocnění','','','',false,true);
+d.add(92,7,'617','<div class="nodetag">617</div></span>&nbsp;&nbsp;Chirurgie. Ortopedie. Oftalmologie','617','Chirurgie. Ortopedie. Oftalmologie','','','',false,true);
+d.add(93,92,'617.3','<div class="nodetag">617.3</div></span>&nbsp;&nbsp;Všeobecné otázky ortopedie','617.3','Všeobecné otázky ortopedie','','','',false,true);
+d.add(94,92,'617.7','<div class="nodetag">617.7</div></span>&nbsp;&nbsp;Oftalmologie. Nemoci očí a jejich léčba','617.7','Oftalmologie. Nemoci očí a jejich léčba','','','',false,true);
+d.add(95,7,'618','<div class="nodetag">618</div></span>&nbsp;&nbsp;Gynekologie. Porodnictví','618','Gynekologie. Porodnictví','','','',false,true);
+d.add(96,0,'62','<div class="nodetag">62</div></span>&nbsp;&nbsp;Technika všeobecně','62','Technika všeobecně','','','',false,true);
+d.add(97,96,'62-1/-9','<div class="nodetag">62-1/-9</div></span>&nbsp;&nbsp;Charakteristiky strojů, přístrojů, zařízení, postupů a výrobků','62-1/-9','Charakteristiky strojů, přístrojů, zařízení, postupů a výrobků','','','',false,true);
+d.add(98,97,'62-1','<div class="nodetag">62-1</div></span>&nbsp;&nbsp;Všeobecné znaky (charakteristiky) strojů atd.','62-1','Všeobecné znaky (charakteristiky) strojů atd.','','','',false,true);
+d.add(99,97,'62-2','<div class="nodetag">62-2</div></span>&nbsp;&nbsp;Pevné a pohyblivé části strojů','62-2','Pevné a pohyblivé části strojů','','','',false,true);
+d.add(100,97,'62-3','<div class="nodetag">62-3</div></span>&nbsp;&nbsp;Části rozvodu. Pohony rozvodu. Ventily, uzávěry atd.','62-3','Části rozvodu. Pohony rozvodu. Ventily, uzávěry atd.','','','',false,true);
+d.add(101,97,'62-4','<div class="nodetag">62-4</div></span>&nbsp;&nbsp;Stav materiálu. Stav povrchu. Tvar a forma předmětů','62-4','Stav materiálu. Stav povrchu. Tvar a forma předmětů','','','',false,true);
+d.add(102,97,'62-5','<div class="nodetag">62-5</div></span>&nbsp;&nbsp;Provoz strojů. Řízení a ovládání','62-5','Provoz strojů. Řízení a ovládání','','','',false,true);
+d.add(103,97,'62-6','<div class="nodetag">62-6</div></span>&nbsp;&nbsp;Charakteristika strojů podle zdroje energie (paliva)','62-6','Charakteristika strojů podle zdroje energie (paliva)','','','',false,true);
+d.add(104,97,'62-7','<div class="nodetag">62-7</div></span>&nbsp;&nbsp;Obsluha, údržba a ošetření strojů','62-7','Obsluha, údržba a ošetření strojů','','','',false,true);
+d.add(105,97,'62-8','<div class="nodetag">62-8</div></span>&nbsp;&nbsp;Stroje podle způsobu pohonu. Zdroje pohybové energie','62-8','Stroje podle způsobu pohonu. Zdroje pohybové energie','','','',false,true);
+d.add(106,97,'62-9','<div class="nodetag">62-9</div></span>&nbsp;&nbsp;Provozní ukazatele a podmínky','62-9','Provozní ukazatele a podmínky','','','',false,true);
+d.add(107,106,'62-91','<div class="nodetag">62-91</div></span>&nbsp;&nbsp;Stav materiálu: charakteristiky a variety','62-91','Stav materiálu: charakteristiky a variety','','','',false,true);
+d.add(108,106,'62-92','<div class="nodetag">62-92</div></span>&nbsp;&nbsp;Reakce vyjádřené z hlediska reagujících látek. Reagující látky','62-92','Reakce vyjádřené z hlediska reagujících látek. Reagující látky','','','',false,true);
+d.add(109,106,'62-93','<div class="nodetag">62-93</div></span>&nbsp;&nbsp;Procesy, stroje a zařízení podle způsobu činnosti, kontinuity, souvislosti, prostředí','62-93','Procesy, stroje a zařízení podle způsobu činnosti, kontinuity, souvislosti, prostředí','','','',false,true);
+d.add(110,106,'62-94','<div class="nodetag">62-94</div></span>&nbsp;&nbsp;Směr, rychlost, trvání procesů atd.','62-94','Směr, rychlost, trvání procesů atd.','','','',false,true);
+d.add(111,106,'62-95','<div class="nodetag">62-95</div></span>&nbsp;&nbsp;Jednoduché a vícenásobné procesy. Jednostupňové a vícestupňové procesy','62-95','Jednoduché a vícenásobné procesy. Jednostupňové a vícestupňové procesy','','','',false,true);
+d.add(112,106,'62-96','<div class="nodetag">62-96</div></span>&nbsp;&nbsp;Procesy podle měnících se vlastností produktů. Modifikace všeobecně','62-96','Procesy podle měnících se vlastností produktů. Modifikace všeobecně','','','',false,true);
+d.add(113,106,'62-97','<div class="nodetag">62-97</div></span>&nbsp;&nbsp;Teplotní ukazatele. Teplota. Teplotní rozsah','62-97','Teplotní ukazatele. Teplota. Teplotní rozsah','','','',false,true);
+d.add(114,106,'62-98','<div class="nodetag">62-98</div></span>&nbsp;&nbsp;Tlak. Tlakový rozsah','62-98','Tlak. Tlakový rozsah','','','',false,true);
+d.add(115,96,'620','<div class="nodetag">620</div></span>&nbsp;&nbsp;Testování materiálů. Nauka o zboží. Energetické výrobny. Ekonomika energetické výroby','620','Testování materiálů. Nauka o zboží. Energetické výrobny. Ekonomika energetické výroby','','','',false,true);
+d.add(116,115,'620.3','<div class="nodetag">620.3</div></span>&nbsp;&nbsp;Nanotechnologie','620.3','Nanotechnologie','','','',false,true);
+d.add(117,115,'620.9','<div class="nodetag">620.9</div></span>&nbsp;&nbsp;Energetika všeobecně','620.9','Energetika všeobecně','','','',false,true);
+d.add(118,96,'621','<div class="nodetag">621</div></span>&nbsp;&nbsp;Strojírenství. Jaderná technologie. Elektrotechnika. Mechanická technologie obecně','621','Strojírenství. Jaderná technologie. Elektrotechnika. Mechanická technologie obecně','','','',false,true);
+d.add(119,118,'621.1','<div class="nodetag">621.1</div></span>&nbsp;&nbsp;Tepelné motory všeobecně. Výroba, rozvod a využití páry. Parní stroje, parní kotle','621.1','Tepelné motory všeobecně. Výroba, rozvod a využití páry. Parní stroje, parní kotle','','','',false,true);
+d.add(120,118,'621.22','<div class="nodetag">621.22</div></span>&nbsp;&nbsp;Hydraulická energie. Vodní síla. Hydraulické stroje','621.22','Hydraulická energie. Vodní síla. Hydraulické stroje','','','',false,true);
+d.add(121,118,'621.3','<div class="nodetag">621.3</div></span>&nbsp;&nbsp;Elektrotechnika','621.3','Elektrotechnika','','','',false,true);
+d.add(122,118,'621.4','<div class="nodetag">621.4</div></span>&nbsp;&nbsp;Tepelné motory (kromě parních strojů)','621.4','Tepelné motory (kromě parních strojů)','','','',false,true);
+d.add(123,118,'621.5','<div class="nodetag">621.5</div></span>&nbsp;&nbsp;Pneumatická energie, stroje a nástroje. Chladicí technika a chladicí zařízení','621.5','Pneumatická energie, stroje a nástroje. Chladicí technika a chladicí zařízení','','','',false,true);
+d.add(124,118,'621.6','<div class="nodetag">621.6</div></span>&nbsp;&nbsp;Zařízení a postupy pro manipulaci, uskladnění a distribuci tekutin (plynů a kapalin)','621.6','Zařízení a postupy pro manipulaci, uskladnění a distribuci tekutin (plynů a kapalin)','','','',false,true);
+d.add(125,118,'621.7','<div class="nodetag">621.7</div></span>&nbsp;&nbsp;Mechanická technologie všeobecně: procesy, nástroje, stroje, vybavení','621.7','Mechanická technologie všeobecně: procesy, nástroje, stroje, vybavení','','','',false,true);
+d.add(126,118,'621.8','<div class="nodetag">621.8</div></span>&nbsp;&nbsp;Strojní součásti. Přenos síly. Manipulace s materiálem. Spoje. Mazání','621.8','Strojní součásti. Přenos síly. Manipulace s materiálem. Spoje. Mazání','','','',false,true);
+d.add(127,118,'621.9','<div class="nodetag">621.9</div></span>&nbsp;&nbsp;Třískové obrábění. Obrušování, rozpojování, rozmělňování. Kladiva a lisy','621.9','Třískové obrábění. Obrušování, rozpojování, rozmělňování. Kladiva a lisy','','','',false,true);
+d.add(128,96,'622','<div class="nodetag">622</div></span>&nbsp;&nbsp;Hornictví','622','Hornictví','','','',false,true);
+d.add(129,128,'622.1','<div class="nodetag">622.1</div></span>&nbsp;&nbsp;Předběžný průzkum. Důlní měřictví a mapování. Prospekce a hornický průzkum (povrchový i podzemní)','622.1','Předběžný průzkum. Důlní měřictví a mapování. Prospekce a hornický průzkum (povrchový i podzemní)','','','',false,true);
+d.add(130,128,'622.2','<div class="nodetag">622.2</div></span>&nbsp;&nbsp;Hornické práce. Průzkum, příprava, otvírání a dobývání nerostných ložisek','622.2','Hornické práce. Průzkum, příprava, otvírání a dobývání nerostných ložisek','','','',false,true);
+d.add(131,128,'622.3','<div class="nodetag">622.3</div></span>&nbsp;&nbsp;Jednotlivá odvětví hornictví. Těžba minerálů, rud, hornin','622.3','Jednotlivá odvětví hornictví. Těžba minerálů, rud, hornin','','','',false,true);
+d.add(132,128,'622.4','<div class="nodetag">622.4</div></span>&nbsp;&nbsp;Větrání, úprava ovzduší, vytápění a osvětlení v dolech','622.4','Větrání, úprava ovzduší, vytápění a osvětlení v dolech','','','',false,true);
+d.add(133,128,'622.5','<div class="nodetag">622.5</div></span>&nbsp;&nbsp;Odvodňování dolů','622.5','Odvodňování dolů','','','',false,true);
+d.add(134,128,'622.6','<div class="nodetag">622.6</div></span>&nbsp;&nbsp;Doprava v porubech, chodbách, slepých jámách a hlavních těžních jámách','622.6','Doprava v porubech, chodbách, slepých jámách a hlavních těžních jámách','','','',false,true);
+d.add(135,128,'622.7','<div class="nodetag">622.7</div></span>&nbsp;&nbsp;Zpracování nerostných surovin. Úprava a předúprava nerostných surovin a rud','622.7','Zpracování nerostných surovin. Úprava a předúprava nerostných surovin a rud','','','',false,true);
+d.add(136,128,'622.8','<div class="nodetag">622.8</div></span>&nbsp;&nbsp;Nebezpečí v dolech. Nehody a škody. Ochrana zdraví a bezpečnost v dolech','622.8','Nebezpečí v dolech. Nehody a škody. Ochrana zdraví a bezpečnost v dolech','','','',false,true);
+d.add(137,96,'623','<div class="nodetag">623</div></span>&nbsp;&nbsp;Vojenská technika','623','Vojenská technika','','','',false,true);
+d.add(138,137,'623.1/.7','<div class="nodetag">623.1/.7</div></span>&nbsp;&nbsp;Výzbroj a technika pozemního vojska. Dělostřelectvo','623.1/.7','Výzbroj a technika pozemního vojska. Dělostřelectvo','','','',false,true);
+d.add(139,138,'623.1/.3','<div class="nodetag">623.1/.3</div></span>&nbsp;&nbsp;Ženijní zabezpečení. Opevňovací práce. Stavby a práce pro obranné účely','623.1/.3','Ženijní zabezpečení. Opevňovací práce. Stavby a práce pro obranné účely','','','',false,true);
+d.add(140,139,'623.1','<div class="nodetag">623.1</div></span>&nbsp;&nbsp;Pevnosti. Stálá opevnění. Opevněné linie, prostory','623.1','Pevnosti. Stálá opevnění. Opevněné linie, prostory','','','',false,true);
+d.add(141,139,'623.2','<div class="nodetag">623.2</div></span>&nbsp;&nbsp;Obranná a útočná zařízení. Polní opevnění. Zákopové práce','623.2','Obranná a útočná zařízení. Polní opevnění. Zákopové práce','','','',false,true);
+d.add(142,139,'623.3','<div class="nodetag">623.3</div></span>&nbsp;&nbsp;Minová pole. Polní překážky. Zaplavení terénu','623.3','Minová pole. Polní překážky. Zaplavení terénu','','','',false,true);
+d.add(143,138,'623.4','<div class="nodetag">623.4</div></span>&nbsp;&nbsp;Zbraně, zbraňové systémy. Dělostřelectvo. Ruční zbraně. Bojová a ostatní vojenská vozidla. Munice a bojové chemické látky. Řízené střely a rakety','623.4','Zbraně, zbraňové systémy. Dělostřelectvo. Ruční zbraně. Bojová a ostatní vojenská vozidla. Munice a bojové chemické látky. Řízené střely a rakety','','','',false,true);
+d.add(144,138,'623.5','<div class="nodetag">623.5</div></span>&nbsp;&nbsp;Balistika. Teorie dělostřelecké střelby. Teoretické a experimentální problémy','623.5','Balistika. Teorie dělostřelecké střelby. Teoretické a experimentální problémy','','','',false,true);
+d.add(145,138,'623.6','<div class="nodetag">623.6</div></span>&nbsp;&nbsp;Ženijní materiál a ženijní práce. Spojovací technika. Radiotechnické prostředky. Vojenská topografie','623.6','Ženijní materiál a ženijní práce. Spojovací technika. Radiotechnické prostředky. Vojenská topografie','','','',false,true);
+d.add(146,138,'623.7','<div class="nodetag">623.7</div></span>&nbsp;&nbsp;Vojenské a námořní letectvo. Maskování atd.','623.7','Vojenské a námořní letectvo. Maskování atd.','','','',false,true);
+d.add(147,137,'623.8/.9','<div class="nodetag">623.8/.9</div></span>&nbsp;&nbsp;Námořní vojenská technika','623.8/.9','Námořní vojenská technika','','','',false,true);
+d.add(148,147,'623.8','<div class="nodetag">623.8</div></span>&nbsp;&nbsp;Lodní stavitelství. Námořní základny. Vojenské lodì a plavidla','623.8','Lodní stavitelství. Námořní základny. Vojenské lodì a plavidla','','','',false,true);
+d.add(149,147,'623.9','<div class="nodetag">623.9</div></span>&nbsp;&nbsp;Materiál a vybavení námořních sil. Ochrana a výzbroj lodí. Ochrana pod vodou','623.9','Materiál a vybavení námořních sil. Ochrana a výzbroj lodí. Ochrana pod vodou','','','',false,true);
+d.add(150,96,'624','<div class="nodetag">624</div></span>&nbsp;&nbsp;Inženýrské stavitelství všeobecně','624','Inženýrské stavitelství všeobecně','','','',false,true);
+d.add(151,150,'624.01/.07','<div class="nodetag">624.01/.07</div></span>&nbsp;&nbsp;Specifické pomocné znaky pro stavební inženýrství a pozemní stavitelství','624.01/.07','Specifické pomocné znaky pro stavební inženýrství a pozemní stavitelství','','','',false,true);
+d.add(152,151,'624.01','<div class="nodetag">624.01</div></span>&nbsp;&nbsp;Konstrukce (stavby a stavební dílce) podle stavebních hmot a stavebních postupů','624.01','Konstrukce (stavby a stavební dílce) podle stavebních hmot a stavebních postupů','','','',false,true);
+d.add(153,151,'624.03','<div class="nodetag">624.03</div></span>&nbsp;&nbsp;Velikost, životnost, poloha a tvar konstrukcí','624.03','Velikost, životnost, poloha a tvar konstrukcí','','','',false,true);
+d.add(154,151,'624.04','<div class="nodetag">624.04</div></span>&nbsp;&nbsp;Konstrukční návrhy. Grafická a analytická statika pro výzkum a výpočty konstrukcí','624.04','Konstrukční návrhy. Grafická a analytická statika pro výzkum a výpočty konstrukcí','','','',false,true);
+d.add(155,151,'624.05','<div class="nodetag">624.05</div></span>&nbsp;&nbsp;Poloha, organizace a zařízení staveništi. Stavební postupy','624.05','Poloha, organizace a zařízení staveništi. Stavební postupy','','','',false,true);
+d.add(156,151,'624.07','<div class="nodetag">624.07</div></span>&nbsp;&nbsp;Konstrukční prvky. Nosné konstrukce','624.07','Konstrukční prvky. Nosné konstrukce','','','',false,true);
+d.add(157,150,'624.1','<div class="nodetag">624.1</div></span>&nbsp;&nbsp;Inženýrské stavby podzemní. Zemní práce. Zakládání. Tunelové stavitelství','624.1','Inženýrské stavby podzemní. Zemní práce. Zakládání. Tunelové stavitelství','','','',false,true);
+d.add(158,150,'624.21/.8','<div class="nodetag">624.21/.8</div></span>&nbsp;&nbsp;Mostní stavitelství','624.21/.8','Mostní stavitelství','','','',false,true);
+d.add(159,158,'624.3','<div class="nodetag">624.3</div></span>&nbsp;&nbsp;Příhradové mosty','624.3','Příhradové mosty','','','',false,true);
+d.add(160,158,'624.5','<div class="nodetag">624.5</div></span>&nbsp;&nbsp;Lanové mosty. Visuté mosty','624.5','Lanové mosty. Visuté mosty','','','',false,true);
+d.add(161,158,'624.6','<div class="nodetag">624.6</div></span>&nbsp;&nbsp;Obloukové mosty','624.6','Obloukové mosty','','','',false,true);
+d.add(162,158,'624.8','<div class="nodetag">624.8</div></span>&nbsp;&nbsp;Pohyblivé mosty','624.8','Pohyblivé mosty','','','',false,true);
+d.add(163,150,'624.9','<div class="nodetag">624.9</div></span>&nbsp;&nbsp;Inženýrské pozemní stavby (s výjimkou mostů). Pozemní stavby jako úplné stavby','624.9','Inženýrské pozemní stavby (s výjimkou mostů). Pozemní stavby jako úplné stavby','','','',false,true);
+d.add(164,96,'625','<div class="nodetag">625</div></span>&nbsp;&nbsp;Technika pozemních komunikací. Železniční stavitelství. Silniční stavitelství. Stavba cest','625','Technika pozemních komunikací. Železniční stavitelství. Silniční stavitelství. Stavba cest','','','',false,true);
+d.add(165,164,'625.1/.5','<div class="nodetag">625.1/.5</div></span>&nbsp;&nbsp;Kolejové dráhy. Tramvaje. Lanové dráhy','625.1/.5','Kolejové dráhy. Tramvaje. Lanové dráhy','','','',false,true);
+d.add(166,165,'625.1','<div class="nodetag">625.1</div></span>&nbsp;&nbsp;Železnice všeobecně. Železniční trati. Stavba tratí','625.1','Železnice všeobecně. Železniční trati. Stavba tratí','','','',false,true);
+d.add(167,165,'625.5','<div class="nodetag">625.5</div></span>&nbsp;&nbsp;Lanové dráhy. Pozemní lanovky. Visuté dráhy. Lanové visuté dráhy','625.5','Lanové dráhy. Pozemní lanovky. Visuté dráhy. Lanové visuté dráhy','','','',false,true);
+d.add(168,164,'625.7/.8','<div class="nodetag">625.7/.8</div></span>&nbsp;&nbsp;Silniční stavitelství. Stavba silnic a cest','625.7/.8','Silniční stavitelství. Stavba silnic a cest','','','',false,true);
+d.add(169,168,'625.7','<div class="nodetag">625.7</div></span>&nbsp;&nbsp;Silnice a cesty všeobecně. Silnice, ulice. Městský a místní uliční a silniční systém','625.7','Silnice a cesty všeobecně. Silnice, ulice. Městský a místní uliční a silniční systém','','','',false,true);
+d.add(170,168,'625.8','<div class="nodetag">625.8</div></span>&nbsp;&nbsp;Zpevnění silnic a cest. Dlaždicový povrch. Desková dlažba. Poštěrkování a jiné druhy zpevnění. Příprava a použití silničních materiálů','625.8','Zpevnění silnic a cest. Dlaždicový povrch. Desková dlažba. Poštěrkování a jiné druhy zpevnění. Příprava a použití silničních materiálů','','','',false,true);
+d.add(171,96,'626/627','<div class="nodetag">626/627</div></span>&nbsp;&nbsp;Vodní stavitelství a vodní stavby','626/627','Vodní stavitelství a vodní stavby','','','',false,true);
+d.add(172,171,'626','<div class="nodetag">626</div></span>&nbsp;&nbsp;Vodní stavitelství všeobecně','626','Vodní stavitelství všeobecně','','','',false,true);
+d.add(173,172,'626.1','<div class="nodetag">626.1</div></span>&nbsp;&nbsp;Vnitrozemské průplavy. Plavební kanály','626.1','Vnitrozemské průplavy. Plavební kanály','','','',false,true);
+d.add(174,172,'626.4','<div class="nodetag">626.4</div></span>&nbsp;&nbsp;Plavební komory','626.4','Plavební komory','','','',false,true);
+d.add(175,172,'626.5','<div class="nodetag">626.5</div></span>&nbsp;&nbsp;Zdvihací zařízení a nakloněné roviny pro lodě. Lodní zdvihadla','626.5','Zdvihací zařízení a nakloněné roviny pro lodě. Lodní zdvihadla','','','',false,true);
+d.add(176,172,'626.8','<div class="nodetag">626.8</div></span>&nbsp;&nbsp;Zemědělská kultivační technika. Zavlažování, odvodňování a rekultivace','626.8','Zemědělská kultivační technika. Zavlažování, odvodňování a rekultivace','','','',false,true);
+d.add(177,172,'626.9','<div class="nodetag">626.9</div></span>&nbsp;&nbsp;Mořské průplavy','626.9','Mořské průplavy','','','',false,true);
+d.add(178,171,'627','<div class="nodetag">627</div></span>&nbsp;&nbsp;Stavba vodních cest, přístavů, kotvišť a úprava pobřeží. Plavební, bagrovací, záchranná a vyprošťovací zařízení. Přehrady a vodní elektrárny','627','Stavba vodních cest, přístavů, kotvišť a úprava pobřeží. Plavební, bagrovací, záchranná a vyprošťovací zařízení. Přehrady a vodní elektrárny','','','',false,true);
+d.add(179,178,'627.2','<div class="nodetag">627.2</div></span>&nbsp;&nbsp;Přístavy, kotviště, rejdy (inženýrské stavby všeobecně)','627.2','Přístavy, kotviště, rejdy (inženýrské stavby všeobecně)','','','',false,true);
+d.add(180,178,'627.3','<div class="nodetag">627.3</div></span>&nbsp;&nbsp;Vnitropřístavní zařízení. Doky. Loděnice. Nábřežní zařízení a vybavení','627.3','Vnitropřístavní zařízení. Doky. Loděnice. Nábřežní zařízení a vybavení','','','',false,true);
+d.add(181,178,'627.4','<div class="nodetag">627.4</div></span>&nbsp;&nbsp;Ochrana říčních břehů. Opevňování a jiné úpravy (regulace) břehů řek a vodních toků','627.4','Ochrana říčních břehů. Opevňování a jiné úpravy (regulace) břehů řek a vodních toků','','','',false,true);
+d.add(182,178,'627.5','<div class="nodetag">627.5</div></span>&nbsp;&nbsp;Ostatní stavby k ochraně a úpravě toků a pobřeží. Stavba ochranných hrází. Získávání půdy','627.5','Ostatní stavby k ochraně a úpravě toků a pobřeží. Stavba ochranných hrází. Získávání půdy','','','',false,true);
+d.add(183,178,'627.7','<div class="nodetag">627.7</div></span>&nbsp;&nbsp;Plavební cesty a jejich udržování. Mořská záchranná služba a zařízení pro záchranu','627.7','Plavební cesty a jejich udržování. Mořská záchranná služba a zařízení pro záchranu','','','',false,true);
+d.add(184,178,'627.8','<div class="nodetag">627.8</div></span>&nbsp;&nbsp;Údolní přehrady, vodní elektrárny','627.8','Údolní přehrady, vodní elektrárny','','','',false,true);
+d.add(185,96,'628','<div class="nodetag">628</div></span>&nbsp;&nbsp;Zdravotní technika. Voda. Zdravotnětechnická zařízení. Osvětlovací technika','628','Zdravotní technika. Voda. Zdravotnětechnická zařízení. Osvětlovací technika','','','',false,true);
+d.add(186,185,'628.1','<div class="nodetag">628.1</div></span>&nbsp;&nbsp;Zásobování vodou. Úprava vody. Spotřeba vody','628.1','Zásobování vodou. Úprava vody. Spotřeba vody','','','',false,true);
+d.add(187,185,'628.2','<div class="nodetag">628.2</div></span>&nbsp;&nbsp;Odvádění městských odpadních vod. Stokování. Kanalizace','628.2','Odvádění městských odpadních vod. Stokování. Kanalizace','','','',false,true);
+d.add(188,185,'628.3','<div class="nodetag">628.3</div></span>&nbsp;&nbsp;Odpadní vody. Úprava, odstraňování a zužitkování odpadních vod','628.3','Odpadní vody. Úprava, odstraňování a zužitkování odpadních vod','','','',false,true);
+d.add(189,185,'628.4','<div class="nodetag">628.4</div></span>&nbsp;&nbsp;Hygiena měst. Odpady. Odpadky. Shromažďování a odstraňování městského odpadu','628.4','Hygiena měst. Odpady. Odpadky. Shromažďování a odstraňování městského odpadu','','','',false,true);
+d.add(190,185,'628.5','<div class="nodetag">628.5</div></span>&nbsp;&nbsp;Technická opatření proti průmyslovým a jiným znečištěním','628.5','Technická opatření proti průmyslovým a jiným znečištěním','','','',false,true);
+d.add(191,185,'628.6','<div class="nodetag">628.6</div></span>&nbsp;&nbsp;Kanalizace a zdravotní zařízení budov (zvláště z hlediska zdravotních požadavků)','628.6','Kanalizace a zdravotní zařízení budov (zvláště z hlediska zdravotních požadavků)','','','',false,true);
+d.add(192,185,'628.8','<div class="nodetag">628.8</div></span>&nbsp;&nbsp;Vnitřní klima. Klimatizace. Vytápění. Větrání','628.8','Vnitřní klima. Klimatizace. Vytápění. Větrání','','','',false,true);
+d.add(193,185,'628.9','<div class="nodetag">628.9</div></span>&nbsp;&nbsp;Osvětlení. Světelná technika','628.9','Osvětlení. Světelná technika','','','',false,true);
+d.add(194,96,'629','<div class="nodetag">629</div></span>&nbsp;&nbsp;Technika dopravních prostředků','629','Technika dopravních prostředků','','','',false,true);
+d.add(195,194,'629.01/.08','<div class="nodetag">629.01/.08</div></span>&nbsp;&nbsp;Specifické pomocné znaky pro dopravní prostředky','629.01/.08','Specifické pomocné znaky pro dopravní prostředky','','','',false,true);
+d.add(196,195,'629.01','<div class="nodetag">629.01</div></span>&nbsp;&nbsp;Návrhy, charakteristiky a použití dopravních prostředků, zkoušky','629.01','Návrhy, charakteristiky a použití dopravních prostředků, zkoušky','','','',false,true);
+d.add(197,195,'629.02','<div class="nodetag">629.02</div></span>&nbsp;&nbsp;Konstrukce dopravních prostředků. Konstrukční principy. Konstrukce a díly všeobecně','629.02','Konstrukce dopravních prostředků. Konstrukční principy. Konstrukce a díly všeobecně','','','',false,true);
+d.add(198,195,'629.03','<div class="nodetag">629.03</div></span>&nbsp;&nbsp;Pohonné systémy','629.03','Pohonné systémy','','','',false,true);
+d.add(199,195,'629.04','<div class="nodetag">629.04</div></span>&nbsp;&nbsp;Vnitřní zařízení, prostory, instalace, vybavení pro osoby a náklad','629.04','Vnitřní zařízení, prostory, instalace, vybavení pro osoby a náklad','','','',false,true);
+d.add(200,195,'629.05','<div class="nodetag">629.05</div></span>&nbsp;&nbsp;Naváděcí, řídicí a navigační systémy a přístroje (nesené dopravními prostředky)','629.05','Naváděcí, řídicí a navigační systémy a přístroje (nesené dopravními prostředky)','','','',false,true);
+d.add(201,195,'629.06','<div class="nodetag">629.06</div></span>&nbsp;&nbsp;Pomocné systémy a zařízení dopravních prostředků','629.06','Pomocné systémy a zařízení dopravních prostředků','','','',false,true);
+d.add(202,195,'629.07','<div class="nodetag">629.07</div></span>&nbsp;&nbsp;Technické aspekty provozu dopravních prostředků. Provozní techniky','629.07','Technické aspekty provozu dopravních prostředků. Provozní techniky','','','',false,true);
+d.add(203,195,'629.08','<div class="nodetag">629.08</div></span>&nbsp;&nbsp;Základní vybavení, zařízení a odpovídající technické procedury','629.08','Základní vybavení, zařízení a odpovídající technické procedury','','','',false,true);
+d.add(204,194,'629.3','<div class="nodetag">629.3</div></span>&nbsp;&nbsp;Technika pozemních dopravních prostředků (kromě kolejových dopravních prostředků)','629.3','Technika pozemních dopravních prostředků (kromě kolejových dopravních prostředků)','','','',false,true);
+d.add(205,194,'629.4','<div class="nodetag">629.4</div></span>&nbsp;&nbsp;Technika kolejových vozidel. Lokomotivy. Vozový park. Zařízení a údržba kolejových vozidel','629.4','Technika kolejových vozidel. Lokomotivy. Vozový park. Zařízení a údržba kolejových vozidel','','','',false,true);
+d.add(206,194,'629.5','<div class="nodetag">629.5</div></span>&nbsp;&nbsp;Technika plavidel. Lodní stavitelství. Plavidla a jejich konstrukce','629.5','Technika plavidel. Lodní stavitelství. Plavidla a jejich konstrukce','','','',false,true);
+d.add(207,194,'629.7','<div class="nodetag">629.7</div></span>&nbsp;&nbsp;Technika vzdušných a kosmických dopravních prostředků. Letectví, letadla, rakety, řízené střely. Kosmonautika, kosmické dopravní prostředky','629.7','Technika vzdušných a kosmických dopravních prostředků. Letectví, letadla, rakety, řízené střely. Kosmonautika, kosmické dopravní prostředky','','','',false,true);
+d.add(208,0,'63','<div class="nodetag">63</div></span>&nbsp;&nbsp;Zemědělství a příbuzné oblasti vědy a techniky. Lesnictví. Zemědělská výroba. Využívání přírody','63','Zemědělství a příbuzné oblasti vědy a techniky. Lesnictví. Zemědělská výroba. Využívání přírody','','','',false,true);
+d.add(209,208,'630','<div class="nodetag">630</div></span>&nbsp;&nbsp;Lesnictví','630','Lesnictví','','','',false,true);
+d.add(210,209,'630*0','<div class="nodetag">630*0</div></span>&nbsp;&nbsp;Lesy, lesnictví a využití lesních produktů','630*0','Lesy, lesnictví a využití lesních produktů','','','',false,true);
+d.add(211,209,'630*1','<div class="nodetag">630*1</div></span>&nbsp;&nbsp;Vlivy životního prostředí z hlediska lesnictví. Biologie lesa','630*1','Vlivy životního prostředí z hlediska lesnictví. Biologie lesa','','','',false,true);
+d.add(212,209,'630*2','<div class="nodetag">630*2</div></span>&nbsp;&nbsp;Biologie lesa','630*2','Biologie lesa','','','',false,true);
+d.add(213,209,'630*3','<div class="nodetag">630*3</div></span>&nbsp;&nbsp;Poloha. Lesnická topografie','630*3','Poloha. Lesnická topografie','','','',false,true);
+d.add(214,209,'630*4','<div class="nodetag">630*4</div></span>&nbsp;&nbsp;Poškození a ochrana lesa','630*4','Poškození a ochrana lesa','','','',false,true);
+d.add(215,209,'630*5','<div class="nodetag">630*5</div></span>&nbsp;&nbsp;Dendrometrie. Růst stromů, přírůstek. Vývoj a složení porostů','630*5','Dendrometrie. Růst stromů, přírůstek. Vývoj a složení porostů','','','',false,true);
+d.add(216,209,'630*6','<div class="nodetag">630*6</div></span>&nbsp;&nbsp;Řízení lesních závodů. Obchodní ekonomika lesnictví. Správa a organizace lesních závodů','630*6','Řízení lesních závodů. Obchodní ekonomika lesnictví. Správa a organizace lesních závodů','','','',false,true);
+d.add(217,209,'630*7','<div class="nodetag">630*7</div></span>&nbsp;&nbsp;Obchodování s lesními produkty. Ekonomika lesní dopravy a dřevařského průmyslu','630*7','Obchodování s lesními produkty. Ekonomika lesní dopravy a dřevařského průmyslu','','','',false,true);
+d.add(218,209,'630*8','<div class="nodetag">630*8</div></span>&nbsp;&nbsp;Lesní produkty a jejich využití','630*8','Lesní produkty a jejich využití','','','',false,true);
+d.add(219,209,'630*9','<div class="nodetag">630*9</div></span>&nbsp;&nbsp;Vedlejší lesní produkty','630*9','Vedlejší lesní produkty','','','',false,true);
+d.add(220,208,'631/635','<div class="nodetag">631/635</div></span>&nbsp;&nbsp;Řízení zemědělské výroby. Agronomie. Zahradnictví','631/635','Řízení zemědělské výroby. Agronomie. Zahradnictví','','','',false,true);
+d.add(221,220,'631','<div class="nodetag">631</div></span>&nbsp;&nbsp;Zemědělství všeobecně','631','Zemědělství všeobecně','','','',false,true);
+d.add(222,221,'631.1','<div class="nodetag">631.1</div></span>&nbsp;&nbsp;Řízení a organizace zemědělských podniků','631.1','Řízení a organizace zemědělských podniků','','','',false,true);
+d.add(223,221,'631.2','<div class="nodetag">631.2</div></span>&nbsp;&nbsp;Zemědělské budovy, konstrukce a stavby. Budovy pro chov hospodářských zvířat, výrobu, stroje a vybavení','631.2','Zemědělské budovy, konstrukce a stavby. Budovy pro chov hospodářských zvířat, výrobu, stroje a vybavení','','','',false,true);
+d.add(224,221,'631.3','<div class="nodetag">631.3</div></span>&nbsp;&nbsp;Zemědělské stroje, nářadí a zařízení','631.3','Zemědělské stroje, nářadí a zařízení','','','',false,true);
+d.add(225,221,'631.4','<div class="nodetag">631.4</div></span>&nbsp;&nbsp;Půdoznalství. Pedologie. Výzkum půd','631.4','Půdoznalství. Pedologie. Výzkum půd','','','',false,true);
+d.add(226,221,'631.5','<div class="nodetag">631.5</div></span>&nbsp;&nbsp;Agrotechnika. Zemědělské práce','631.5','Agrotechnika. Zemědělské práce','','','',false,true);
+d.add(227,221,'631.6','<div class="nodetag">631.6</div></span>&nbsp;&nbsp;Zemědělské inženýrství','631.6','Zemědělské inženýrství','','','',false,true);
+d.add(228,221,'631.8','<div class="nodetag">631.8</div></span>&nbsp;&nbsp;Průmyslová hnojiva, přírodní hnojiva a obohacování půdy. Podpoření růstu. Rostlinné stimulátory','631.8','Průmyslová hnojiva, přírodní hnojiva a obohacování půdy. Podpoření růstu. Rostlinné stimulátory','','','',false,true);
+d.add(229,220,'632','<div class="nodetag">632</div></span>&nbsp;&nbsp;Škody na rostlinách. Choroby rostlin. Škůdci, organismy škodící rostlinám. Ochrana rostlin','632','Škody na rostlinách. Choroby rostlin. Škůdci, organismy škodící rostlinám. Ochrana rostlin','','','',false,true);
+d.add(230,220,'633/635','<div class="nodetag">633/635</div></span>&nbsp;&nbsp;Zahradnictví obecně','633/635','Zahradnictví obecně','','','',false,true);
+d.add(231,230,'633','<div class="nodetag">633</div></span>&nbsp;&nbsp;Polní plodiny a jejich pěstování','633','Polní plodiny a jejich pěstování','','','',false,true);
+d.add(232,231,'633.1','<div class="nodetag">633.1</div></span>&nbsp;&nbsp;Obilniny. Zrniny','633.1','Obilniny. Zrniny','','','',false,true);
+d.add(233,231,'633.2','<div class="nodetag">633.2</div></span>&nbsp;&nbsp;Pícniny. Luční a pastvinné trávy','633.2','Pícniny. Luční a pastvinné trávy','','','',false,true);
+d.add(234,231,'633.3','<div class="nodetag">633.3</div></span>&nbsp;&nbsp;Pícniny s výjimkou travin','633.3','Pícniny s výjimkou travin','','','',false,true);
+d.add(235,231,'633.4','<div class="nodetag">633.4</div></span>&nbsp;&nbsp;Jedlé kořeny a hlízy. Okopaniny','633.4','Jedlé kořeny a hlízy. Okopaniny','','','',false,true);
+d.add(236,231,'633.5','<div class="nodetag">633.5</div></span>&nbsp;&nbsp;Textilní rostliny a rostliny pěstované na vlákno','633.5','Textilní rostliny a rostliny pěstované na vlákno','','','',false,true);
+d.add(237,231,'633.6','<div class="nodetag">633.6</div></span>&nbsp;&nbsp;Rostliny pěstované na cukr a škrob.','633.6','Rostliny pěstované na cukr a škrob.','','','',false,true);
+d.add(238,231,'633.7','<div class="nodetag">633.7</div></span>&nbsp;&nbsp;Rostliny poskytující stimulanty. Pochutinové rostliny','633.7','Rostliny poskytující stimulanty. Pochutinové rostliny','','','',false,true);
+d.add(239,231,'633.8','<div class="nodetag">633.8</div></span>&nbsp;&nbsp;Aromatické rostliny. Kořeninové rostliny. Olejniny. Barvířské rostliny. Tříslovinové rostliny. Léčivé rostliny','633.8','Aromatické rostliny. Kořeninové rostliny. Olejniny. Barvířské rostliny. Tříslovinové rostliny. Léčivé rostliny','','','',false,true);
+d.add(240,231,'633.9','<div class="nodetag">633.9</div></span>&nbsp;&nbsp;Ostatní průmyslové rostliny','633.9','Ostatní průmyslové rostliny','','','',false,true);
+d.add(241,230,'634','<div class="nodetag">634</div></span>&nbsp;&nbsp;Ovocnářství','634','Ovocnářství','','','',false,true);
+d.add(242,241,'634.2','<div class="nodetag">634.2</div></span>&nbsp;&nbsp;Peckové ovoce. Peckoviny obecně','634.2','Peckové ovoce. Peckoviny obecně','','','',false,true);
+d.add(243,241,'634.3','<div class="nodetag">634.3</div></span>&nbsp;&nbsp;Plody routovitých a morušovitých. Citrusové plody obecně','634.3','Plody routovitých a morušovitých. Citrusové plody obecně','','','',false,true);
+d.add(244,241,'634.4','<div class="nodetag">634.4</div></span>&nbsp;&nbsp;Ostatní dužnaté plody','634.4','Ostatní dužnaté plody','','','',false,true);
+d.add(245,241,'634.5','<div class="nodetag">634.5</div></span>&nbsp;&nbsp;Ořechy. Skořápkaté ovoce','634.5','Ořechy. Skořápkaté ovoce','','','',false,true);
+d.add(246,241,'634.6','<div class="nodetag">634.6</div></span>&nbsp;&nbsp;Různé druhy tropického a subtropického ovoce','634.6','Různé druhy tropického a subtropického ovoce','','','',false,true);
+d.add(247,241,'634.7','<div class="nodetag">634.7</div></span>&nbsp;&nbsp;Malé plody keřů a bylin. Bobulovité plody','634.7','Malé plody keřů a bylin. Bobulovité plody','','','',false,true);
+d.add(248,241,'634.8','<div class="nodetag">634.8</div></span>&nbsp;&nbsp;Vinohradnictví. Hroznové víno. Vinice','634.8','Vinohradnictví. Hroznové víno. Vinice','','','',false,true);
+d.add(249,230,'635','<div class="nodetag">635</div></span>&nbsp;&nbsp;Zahradní rostliny. Zahradnictví (zahrádkářství)','635','Zahradní rostliny. Zahradnictví (zahrádkářství)','','','',false,true);
+d.add(250,249,'635.1/.8','<div class="nodetag">635.1/.8</div></span>&nbsp;&nbsp;Zelenina. Kuchyňské zahradnictví','635.1/.8','Zelenina. Kuchyňské zahradnictví','','','',false,true);
+d.add(251,250,'635.1','<div class="nodetag">635.1</div></span>&nbsp;&nbsp;Jedlé kořeny. Kořenová zelenina','635.1','Jedlé kořeny. Kořenová zelenina','','','',false,true);
+d.add(252,250,'635.2','<div class="nodetag">635.2</div></span>&nbsp;&nbsp;Jedlé hlízy a cibule','635.2','Jedlé hlízy a cibule','','','',false,true);
+d.add(253,250,'635.3','<div class="nodetag">635.3</div></span>&nbsp;&nbsp;Rostliny s jedlými stonky, listy nebo květy','635.3','Rostliny s jedlými stonky, listy nebo květy','','','',false,true);
+d.add(254,250,'635.4','<div class="nodetag">635.4</div></span>&nbsp;&nbsp;Listová zelenina','635.4','Listová zelenina','','','',false,true);
+d.add(255,250,'635.6','<div class="nodetag">635.6</div></span>&nbsp;&nbsp;Jedlé plody a semena. Luštěniny','635.6','Jedlé plody a semena. Luštěniny','','','',false,true);
+d.add(256,250,'635.7','<div class="nodetag">635.7</div></span>&nbsp;&nbsp;Aromatické byliny. Kořeninové rostliny','635.7','Aromatické byliny. Kořeninové rostliny','','','',false,true);
+d.add(257,250,'635.8','<div class="nodetag">635.8</div></span>&nbsp;&nbsp;Jedlé houby','635.8','Jedlé houby','','','',false,true);
+d.add(258,249,'635.9','<div class="nodetag">635.9</div></span>&nbsp;&nbsp;Okrasné rostliny. Dekorativní rostliny. Okrasné zahradnictví','635.9','Okrasné rostliny. Dekorativní rostliny. Okrasné zahradnictví','','','',false,true);
+d.add(259,208,'636','<div class="nodetag">636</div></span>&nbsp;&nbsp;Chov zvířat všeobecně. Živočišná výroba','636','Chov zvířat všeobecně. Živočišná výroba','','','',false,true);
+d.add(260,259,'636.01/.09','<div class="nodetag">636.01/.09</div></span>&nbsp;&nbsp;Specifické pomocné znaky pro živočišnou výrobu','636.01/.09','Specifické pomocné znaky pro živočišnou výrobu','','','',false,true);
+d.add(261,260,'636.01','<div class="nodetag">636.01</div></span>&nbsp;&nbsp;Původ, vývoj a domestikace zvířat chovaných člověkem. Krocení zvířat. Biologické základy chovu a výcviku zvířat','636.01','Původ, vývoj a domestikace zvířat chovaných člověkem. Krocení zvířat. Biologické základy chovu a výcviku zvířat','','','',false,true);
+d.add(262,260,'636.02','<div class="nodetag">636.02</div></span>&nbsp;&nbsp;Zvířata chovaná na plemenitbu, vystavování a vědecké účely','636.02','Zvířata chovaná na plemenitbu, vystavování a vědecké účely','','','',false,true);
+d.add(263,260,'636.03','<div class="nodetag">636.03</div></span>&nbsp;&nbsp;Zvířata chovaná na výrobu potravin nebo jiných produktů (produktivita, užitkovost). Hospodářská a stádová zvířata obecně','636.03','Zvířata chovaná na výrobu potravin nebo jiných produktů (produktivita, užitkovost). Hospodářská a stádová zvířata obecně','','','',false,true);
+d.add(264,260,'636.04','<div class="nodetag">636.04</div></span>&nbsp;&nbsp;Zvířata chovaná na práci, služby nebo potěšení člověka','636.04','Zvířata chovaná na práci, služby nebo potěšení člověka','','','',false,true);
+d.add(265,260,'636.05','<div class="nodetag">636.05</div></span>&nbsp;&nbsp;Zvířata podle plemenitby či chovu','636.05','Zvířata podle plemenitby či chovu','','','',false,true);
+d.add(266,260,'636.06','<div class="nodetag">636.06</div></span>&nbsp;&nbsp;Charakteristiky, stavba a speciální biologické rysy domácích zvířat','636.06','Charakteristiky, stavba a speciální biologické rysy domácích zvířat','','','',false,true);
+d.add(267,260,'636.08','<div class="nodetag">636.08</div></span>&nbsp;&nbsp;Obecné otázky rozmnožování a chovu zvířat','636.08','Obecné otázky rozmnožování a chovu zvířat','','','',false,true);
+d.add(268,260,'636.09','<div class="nodetag">636.09</div></span>&nbsp;&nbsp;Veterinářství. Zvěrolékařství','636.09','Veterinářství. Zvěrolékařství','','','',false,true);
+d.add(269,259,'636.1','<div class="nodetag">636.1</div></span>&nbsp;&nbsp;Domácí koňovití. Koně','636.1','Domácí koňovití. Koně','','','',false,true);
+d.add(270,259,'636.2','<div class="nodetag">636.2</div></span>&nbsp;&nbsp;Velcí přežvýkavci. Hovězí dobytek, skot','636.2','Velcí přežvýkavci. Hovězí dobytek, skot','','','',false,true);
+d.add(271,259,'636.3','<div class="nodetag">636.3</div></span>&nbsp;&nbsp;Malí přežvýkavci','636.3','Malí přežvýkavci','','','',false,true);
+d.add(272,259,'636.4','<div class="nodetag">636.4</div></span>&nbsp;&nbsp;Vepři. Prasata','636.4','Vepři. Prasata','','','',false,true);
+d.add(273,259,'636.5','<div class="nodetag">636.5</div></span>&nbsp;&nbsp;Drůbež','636.5','Drůbež','','','',false,true);
+d.add(274,259,'636.6','<div class="nodetag">636.6</div></span>&nbsp;&nbsp;Ptáci (kromě drůbeže a pernaté zvěře) chovaní nebo držení člověkem','636.6','Ptáci (kromě drůbeže a pernaté zvěře) chovaní nebo držení člověkem','','','',false,true);
+d.add(275,259,'636.7','<div class="nodetag">636.7</div></span>&nbsp;&nbsp;Psi','636.7','Psi','','','',false,true);
+d.add(276,259,'636.8','<div class="nodetag">636.8</div></span>&nbsp;&nbsp;Kočky','636.8','Kočky','','','',false,true);
+d.add(277,259,'636.9','<div class="nodetag">636.9</div></span>&nbsp;&nbsp;Ostatní zvířata chovaná člověkem','636.9','Ostatní zvířata chovaná člověkem','','','',false,true);
+d.add(278,208,'637','<div class="nodetag">637</div></span>&nbsp;&nbsp;Produkty získávané z domácích zvířat a zvěřiny','637','Produkty získávané z domácích zvířat a zvěřiny','','','',false,true);
+d.add(279,208,'638','<div class="nodetag">638</div></span>&nbsp;&nbsp;Chov hmyzu a jiných členovců','638','Chov hmyzu a jiných členovců','','','',false,true);
+d.add(280,208,'639','<div class="nodetag">639</div></span>&nbsp;&nbsp;Myslivost. Rybářství. Chov ryb','639','Myslivost. Rybářství. Chov ryb','','','',false,true);
+d.add(281,280,'639.1','<div class="nodetag">639.1</div></span>&nbsp;&nbsp;Myslivost','639.1','Myslivost','','','',false,true);
+d.add(282,280,'639.2','<div class="nodetag">639.2</div></span>&nbsp;&nbsp;Rybářství. Rybolov','639.2','Rybářství. Rybolov','','','',false,true);
+d.add(283,280,'639.3','<div class="nodetag">639.3</div></span>&nbsp;&nbsp;Chov ryb','639.3','Chov ryb','','','',false,true);
+d.add(284,280,'639.4','<div class="nodetag">639.4</div></span>&nbsp;&nbsp;Chov vodních měkkýšů','639.4','Chov vodních měkkýšů','','','',false,true);
+d.add(285,280,'639.5','<div class="nodetag">639.5</div></span>&nbsp;&nbsp;Chov vodních korýšů, mořských ježovek, pijavic atd.','639.5','Chov vodních korýšů, mořských ježovek, pijavic atd.','','','',false,true);
+d.add(286,280,'639.6','<div class="nodetag">639.6</div></span>&nbsp;&nbsp;Ostatní mořské produkty','639.6','Ostatní mořské produkty','','','',false,true);
+d.add(287,0,'64','<div class="nodetag">64</div></span>&nbsp;&nbsp;Domácnost. Hospodaření v domácnosti. Vedení domácnosti','64','Domácnost. Hospodaření v domácnosti. Vedení domácnosti','','','',false,true);
+d.add(288,287,'64.01/.08','<div class="nodetag">64.01/.08</div></span>&nbsp;&nbsp;Specifické pomocné znaky pro domácí hospodářství','64.01/.08','Specifické pomocné znaky pro domácí hospodářství','','','',false,true);
+d.add(289,288,'64.01','<div class="nodetag">64.01</div></span>&nbsp;&nbsp;Domácnost. Řízení domácnosti','64.01','Domácnost. Řízení domácnosti','','','',false,true);
+d.add(290,288,'64.048','<div class="nodetag">64.048</div></span>&nbsp;&nbsp;Studium práce a pracovních metod v domácnosti','64.048','Studium práce a pracovních metod v domácnosti','','','',false,true);
+d.add(291,288,'64.05','<div class="nodetag">64.05</div></span>&nbsp;&nbsp;Domácí hospodaření. Vedení domácnosti, zařízení a vybavení domova atd. pro zvláštní druhy osob','64.05','Domácí hospodaření. Vedení domácnosti, zařízení a vybavení domova atd. pro zvláštní druhy osob','','','',false,true);
+d.add(292,288,'64.06','<div class="nodetag">64.06</div></span>&nbsp;&nbsp;Zařízení a stroje pro domácnost. Pomůcky ulehčující domácí práce','64.06','Zařízení a stroje pro domácnost. Pomůcky ulehčující domácí práce','','','',false,true);
+d.add(293,288,'64.08','<div class="nodetag">64.08</div></span>&nbsp;&nbsp;Stěhování','64.08','Stěhování','','','',false,true);
+d.add(294,287,'640','<div class="nodetag">640</div></span>&nbsp;&nbsp;Druhy domácností','640','Druhy domácností','','','',false,true);
+d.add(295,287,'641/642','<div class="nodetag">641/642</div></span>&nbsp;&nbsp;Potraviny. Vaření. Jídla (pokrmy). Denní jídla','641/642','Potraviny. Vaření. Jídla (pokrmy). Denní jídla','','','',false,true);
+d.add(296,295,'641','<div class="nodetag">641</div></span>&nbsp;&nbsp;Potraviny. Vaření. Jídla (pokrmy)','641','Potraviny. Vaření. Jídla (pokrmy)','','','',false,true);
+d.add(297,295,'642','<div class="nodetag">642</div></span>&nbsp;&nbsp;Denní jídla. Stolní náčiní','642','Denní jídla. Stolní náčiní','','','',false,true);
+d.add(298,287,'643/645','<div class="nodetag">643/645</div></span>&nbsp;&nbsp;Byt. Bytové zařízení a vybavení','643/645','Byt. Bytové zařízení a vybavení','','','',false,true);
+d.add(299,298,'643','<div class="nodetag">643</div></span>&nbsp;&nbsp;Byt. Obydlí','643','Byt. Obydlí','','','',false,true);
+d.add(300,298,'644','<div class="nodetag">644</div></span>&nbsp;&nbsp;Bytové zařízení pro zdraví a pohodlí','644','Bytové zařízení pro zdraví a pohodlí','','','',false,true);
+d.add(301,300,'644.1','<div class="nodetag">644.1</div></span>&nbsp;&nbsp;Klimatizace. Vytápění. Větrání','644.1','Klimatizace. Vytápění. Větrání','','','',false,true);
+d.add(302,300,'644.3','<div class="nodetag">644.3</div></span>&nbsp;&nbsp;Domácí osvětlení','644.3','Domácí osvětlení','','','',false,true);
+d.add(303,300,'644.6','<div class="nodetag">644.6</div></span>&nbsp;&nbsp;Zásobování domácností vodou a sanitární zařízení','644.6','Zásobování domácností vodou a sanitární zařízení','','','',false,true);
+d.add(304,298,'645','<div class="nodetag">645</div></span>&nbsp;&nbsp;Nábytek a bytová zařízení','645','Nábytek a bytová zařízení','','','',false,true);
+d.add(305,287,'646/649','<div class="nodetag">646/649</div></span>&nbsp;&nbsp;Osobní potřeby. Řízení domácnosti','646/649','Osobní potřeby. Řízení domácnosti','','','',false,true);
+d.add(306,305,'646','<div class="nodetag">646</div></span>&nbsp;&nbsp;Odívání. Péče o tělo','646','Odívání. Péče o tělo','','','',false,true);
+d.add(307,306,'646.2','<div class="nodetag">646.2</div></span>&nbsp;&nbsp;Zhotovování a opravy oděvů doma. Domácí šití','646.2','Zhotovování a opravy oděvů doma. Domácí šití','','','',false,true);
+d.add(308,306,'646.4','<div class="nodetag">646.4</div></span>&nbsp;&nbsp;Oděvy. Šaty','646.4','Oděvy. Šaty','','','',false,true);
+d.add(309,306,'646.7','<div class="nodetag">646.7</div></span>&nbsp;&nbsp;Péče o tělo. Kosmetika. Pomůcky na oblékání a svlékání','646.7','Péče o tělo. Kosmetika. Pomůcky na oblékání a svlékání','','','',false,true);
+d.add(310,305,'648','<div class="nodetag">648</div></span>&nbsp;&nbsp;Praní. Prádelny. Čištění','648','Praní. Prádelny. Čištění','','','',false,true);
+d.add(311,305,'649','<div class="nodetag">649</div></span>&nbsp;&nbsp;Domácí péče o děti, nemocné a hosty','649','Domácí péče o děti, nemocné a hosty','','','',false,true);
+d.add(312,0,'65','<div class="nodetag">65</div></span>&nbsp;&nbsp;Spoje a doprava. Účetnictví. Řízení a správa podniku. Public relations','65','Spoje a doprava. Účetnictví. Řízení a správa podniku. Public relations','','','',false,true);
+d.add(313,312,'654','<div class="nodetag">654</div></span>&nbsp;&nbsp;Telekomunikace a dálkové řízení (organizace, služby)','654','Telekomunikace a dálkové řízení (organizace, služby)','','','',false,true);
+d.add(314,313,'654.1','<div class="nodetag">654.1</div></span>&nbsp;&nbsp;Telegraf. Telefon. Rozhlas. Televize','654.1','Telegraf. Telefon. Rozhlas. Televize','','','',false,true);
+d.add(315,313,'654.9','<div class="nodetag">654.9</div></span>&nbsp;&nbsp;Signalizace. Různé telekomunikační služby. Dálkové řízení (ovládání)','654.9','Signalizace. Různé telekomunikační služby. Dálkové řízení (ovládání)','','','',false,true);
+d.add(316,312,'655','<div class="nodetag">655</div></span>&nbsp;&nbsp;Grafická odvětví. Tisk. Vydavatelství. Knižní obchod','655','Grafická odvětví. Tisk. Vydavatelství. Knižní obchod','','','',false,true);
+d.add(317,316,'655.1','<div class="nodetag">655.1</div></span>&nbsp;&nbsp;Polygrafie obecně','655.1','Polygrafie obecně','','','',false,true);
+d.add(318,316,'655.4','<div class="nodetag">655.4</div></span>&nbsp;&nbsp;Vydavatelství a prodej knih obecně','655.4','Vydavatelství a prodej knih obecně','','','',false,true);
+d.add(319,312,'656','<div class="nodetag">656</div></span>&nbsp;&nbsp;Doprava a poštovní služby. Organizace a řízení dopravy','656','Doprava a poštovní služby. Organizace a řízení dopravy','','','',false,true);
+d.add(320,319,'656.1/.5','<div class="nodetag">656.1/.5</div></span>&nbsp;&nbsp;Pozemní doprava','656.1/.5','Pozemní doprava','','','',false,true);
+d.add(321,320,'656.1','<div class="nodetag">656.1</div></span>&nbsp;&nbsp;Silniční doprava','656.1','Silniční doprava','','','',false,true);
+d.add(322,320,'656.2','<div class="nodetag">656.2</div></span>&nbsp;&nbsp;Železniční doprava','656.2','Železniční doprava','','','',false,true);
+d.add(323,320,'656.4','<div class="nodetag">656.4</div></span>&nbsp;&nbsp;Doprava na úzkokolejných dráhách','656.4','Doprava na úzkokolejných dráhách','','','',false,true);
+d.add(324,320,'656.5','<div class="nodetag">656.5</div></span>&nbsp;&nbsp;Pozemní doprava dopravními pásy a potrubím','656.5','Pozemní doprava dopravními pásy a potrubím','','','',false,true);
+d.add(325,319,'656.6','<div class="nodetag">656.6</div></span>&nbsp;&nbsp;Vodní doprava','656.6','Vodní doprava','','','',false,true);
+d.add(326,319,'656.7','<div class="nodetag">656.7</div></span>&nbsp;&nbsp;Letecká doprava. Letový provoz','656.7','Letecká doprava. Letový provoz','','','',false,true);
+d.add(327,319,'656.8','<div class="nodetag">656.8</div></span>&nbsp;&nbsp;Poštovní služby a správa','656.8','Poštovní služby a správa','','','',false,true);
+d.add(328,312,'657','<div class="nodetag">657</div></span>&nbsp;&nbsp;Účetnictví','657','Účetnictví','','','',false,true);
+d.add(329,312,'658','<div class="nodetag">658</div></span>&nbsp;&nbsp;Řízení, správa podniku. Obchodní organizace','658','Řízení, správa podniku. Obchodní organizace','','','',false,true);
+d.add(330,329,'658.1','<div class="nodetag">658.1</div></span>&nbsp;&nbsp;Formy podniku. Finance','658.1','Formy podniku. Finance','','','',false,true);
+d.add(331,329,'658.2','<div class="nodetag">658.2</div></span>&nbsp;&nbsp;Provozní zařízení. Provozní prostory. Budovy, dílny, továrny, materiály','658.2','Provozní zařízení. Provozní prostory. Budovy, dílny, továrny, materiály','','','',false,true);
+d.add(332,329,'658.3','<div class="nodetag">658.3</div></span>&nbsp;&nbsp;Mezilidské vztahy v podniku. Personální management','658.3','Mezilidské vztahy v podniku. Personální management','','','',false,true);
+d.add(333,329,'658.5','<div class="nodetag">658.5</div></span>&nbsp;&nbsp;Plánování výroby. Projektování výroby. Řízení a kontrola výroby','658.5','Plánování výroby. Projektování výroby. Řízení a kontrola výroby','','','',false,true);
+d.add(334,329,'658.6','<div class="nodetag">658.6</div></span>&nbsp;&nbsp;Obchodní organizace a praxe. Zboží. Služby','658.6','Obchodní organizace a praxe. Zboží. Služby','','','',false,true);
+d.add(335,329,'658.7','<div class="nodetag">658.7</div></span>&nbsp;&nbsp;Koupě. Nákup. Pořízení. Řízení zásob','658.7','Koupě. Nákup. Pořízení. Řízení zásob','','','',false,true);
+d.add(336,329,'658.8','<div class="nodetag">658.8</div></span>&nbsp;&nbsp;Odbyt. Prodej. Distribuce','658.8','Odbyt. Prodej. Distribuce','','','',false,true);
+d.add(337,329,'658.9','<div class="nodetag">658.9</div></span>&nbsp;&nbsp;Jiné obchodní činnosti','658.9','Jiné obchodní činnosti','','','',false,true);
+d.add(338,312,'659','<div class="nodetag">659</div></span>&nbsp;&nbsp;Propagace. Práce s informacemi. Styk s veřejností','659','Propagace. Práce s informacemi. Styk s veřejností','','','',false,true);
+d.add(339,338,'659.1','<div class="nodetag">659.1</div></span>&nbsp;&nbsp;Propagace. Reklama','659.1','Propagace. Reklama','','','',false,true);
+d.add(340,338,'659.2','<div class="nodetag">659.2</div></span>&nbsp;&nbsp;Práce s informacemi. Poradenské služby','659.2','Práce s informacemi. Poradenské služby','','','',false,true);
+d.add(341,338,'659.3','<div class="nodetag">659.3</div></span>&nbsp;&nbsp;Masové sdělovací prostředky. Informování, vzdělávání široké veřejnosti','659.3','Masové sdělovací prostředky. Informování, vzdělávání široké veřejnosti','','','',false,true);
+d.add(342,338,'659.4','<div class="nodetag">659.4</div></span>&nbsp;&nbsp;Styk s veřejností','659.4','Styk s veřejností','','','',false,true);
+d.add(343,0,'66','<div class="nodetag">66</div></span>&nbsp;&nbsp;Chemická technologie. Chemický průmysl a příbuzná průmyslová odvětví','66','Chemická technologie. Chemický průmysl a příbuzná průmyslová odvětví','','','',false,true);
+d.add(344,343,'66.01/.09','<div class="nodetag">66.01/.09</div></span>&nbsp;&nbsp;Specifické pomocné znaky pro chemické inženýrství','66.01/.09','Specifické pomocné znaky pro chemické inženýrství','','','',false,true);
+d.add(345,344,'66.01','<div class="nodetag">66.01</div></span>&nbsp;&nbsp;Základy chemického inženýrství','66.01','Základy chemického inženýrství','','','',false,true);
+d.add(346,344,'66.02','<div class="nodetag">66.02</div></span>&nbsp;&nbsp;Postupy v chemické výrobě a zařízení všeobecně','66.02','Postupy v chemické výrobě a zařízení všeobecně','','','',false,true);
+d.add(347,344,'66.03','<div class="nodetag">66.03</div></span>&nbsp;&nbsp;Materiály, vlastnosti, procesy a zařízení','66.03','Materiály, vlastnosti, procesy a zařízení','','','',false,true);
+d.add(348,344,'66.04','<div class="nodetag">66.04</div></span>&nbsp;&nbsp;Postupy a zařízení pro tepelné procesy','66.04','Postupy a zařízení pro tepelné procesy','','','',false,true);
+d.add(349,344,'66.06','<div class="nodetag">66.06</div></span>&nbsp;&nbsp;Zpracování a výroba kapalin. Procesy a vybavení pro zpracování kapalin nebo pomocí kapalin','66.06','Zpracování a výroba kapalin. Procesy a vybavení pro zpracování kapalin nebo pomocí kapalin','','','',false,true);
+d.add(350,344,'66.07','<div class="nodetag">66.07</div></span>&nbsp;&nbsp;Zpracování a výroba plynů','66.07','Zpracování a výroba plynů','','','',false,true);
+d.add(351,344,'66.08','<div class="nodetag">66.08</div></span>&nbsp;&nbsp;Fyzikální a fyzikálněchemické procesy a zařízení. Fyzikální a fyzikálněchemické vlivy na chemické procesy','66.08','Fyzikální a fyzikálněchemické procesy a zařízení. Fyzikální a fyzikálněchemické vlivy na chemické procesy','','','',false,true);
+d.add(352,343,'661','<div class="nodetag">661</div></span>&nbsp;&nbsp;Chemické výrobky v užším smyslu. Chemikálie','661','Chemické výrobky v užším smyslu. Chemikálie','','','',false,true);
+d.add(353,352,'661.1','<div class="nodetag">661.1</div></span>&nbsp;&nbsp;Zvláštní odvětví chemického průmyslu','661.1','Zvláštní odvětví chemického průmyslu','','','',false,true);
+d.add(354,352,'661.2','<div class="nodetag">661.2</div></span>&nbsp;&nbsp;Výroba síry a jejích sloučenin','661.2','Výroba síry a jejích sloučenin','','','',false,true);
+d.add(355,352,'661.3','<div class="nodetag">661.3</div></span>&nbsp;&nbsp;Výroba sody a potaše, alkálií','661.3','Výroba sody a potaše, alkálií','','','',false,true);
+d.add(356,352,'661.4','<div class="nodetag">661.4</div></span>&nbsp;&nbsp;Výroba halogenů a jejich sloučenin, anorganických peroxosloučeniny','661.4','Výroba halogenů a jejich sloučenin, anorganických peroxosloučeniny','','','',false,true);
+d.add(357,352,'661.5','<div class="nodetag">661.5</div></span>&nbsp;&nbsp;Výroba sloučenin dusíku. Fixace dusíku. Průmysl dusíku všeobecně','661.5','Výroba sloučenin dusíku. Fixace dusíku. Průmysl dusíku všeobecně','','','',false,true);
+d.add(358,352,'661.6','<div class="nodetag">661.6</div></span>&nbsp;&nbsp;Výroba různých nekovů, polokovů (metaloidů) a jejich sloučenin','661.6','Výroba různých nekovů, polokovů (metaloidů) a jejich sloučenin','','','',false,true);
+d.add(359,352,'661.7','<div class="nodetag">661.7</div></span>&nbsp;&nbsp;Výroba organických sloučenin. Organické látky','661.7','Výroba organických sloučenin. Organické látky','','','',false,true);
+d.add(360,352,'661.8','<div class="nodetag">661.8</div></span>&nbsp;&nbsp;Sloučeniny kovů všeobecně. Soli. Minerální látky','661.8','Sloučeniny kovů všeobecně. Soli. Minerální látky','','','',false,true);
+d.add(361,352,'661.9','<div class="nodetag">661.9</div></span>&nbsp;&nbsp;Výroba plynů','661.9','Výroba plynů','','','',false,true);
+d.add(362,343,'662','<div class="nodetag">662</div></span>&nbsp;&nbsp;Výbušiny. Paliva','662','Výbušiny. Paliva','','','',false,true);
+d.add(363,362,'662.1/.4','<div class="nodetag">662.1/.4</div></span>&nbsp;&nbsp;Výbušiny','662.1/.4','Výbušiny','','','',false,true);
+d.add(364,363,'662.1','<div class="nodetag">662.1</div></span>&nbsp;&nbsp;Ohňostroje. Pyrotechnika a příbuzné techniky','662.1','Ohňostroje. Pyrotechnika a příbuzné techniky','','','',false,true);
+d.add(365,363,'662.2','<div class="nodetag">662.2</div></span>&nbsp;&nbsp;Trhaviny','662.2','Trhaviny','','','',false,true);
+d.add(366,363,'662.3','<div class="nodetag">662.3</div></span>&nbsp;&nbsp;Střeliviny. Střelný prach','662.3','Střeliviny. Střelný prach','','','',false,true);
+d.add(367,363,'662.4','<div class="nodetag">662.4</div></span>&nbsp;&nbsp;Třaskaviny, iniciátory výbušin. Rozbušky','662.4','Třaskaviny, iniciátory výbušin. Rozbušky','','','',false,true);
+d.add(368,362,'662.5','<div class="nodetag">662.5</div></span>&nbsp;&nbsp;Zažehovače. Zapalovače. Zápalky','662.5','Zažehovače. Zapalovače. Zápalky','','','',false,true);
+d.add(369,362,'662.6/.9','<div class="nodetag">662.6/.9</div></span>&nbsp;&nbsp;Tepelné hospodářství. Hospodaření s palivy. Paliva. Vytápění','662.6/.9','Tepelné hospodářství. Hospodaření s palivy. Paliva. Vytápění','','','',false,true);
+d.add(370,369,'662.6','<div class="nodetag">662.6</div></span>&nbsp;&nbsp;Tepelné nebo palivové hospodářství všeobecně. Spalování. Přírodní paliva','662.6','Tepelné nebo palivové hospodářství všeobecně. Spalování. Přírodní paliva','','','',false,true);
+d.add(371,369,'662.7','<div class="nodetag">662.7</div></span>&nbsp;&nbsp;Technologie paliv','662.7','Technologie paliv','','','',false,true);
+d.add(372,369,'662.8','<div class="nodetag">662.8</div></span>&nbsp;&nbsp;Mechanické ztužování paliv. Briketování','662.8','Mechanické ztužování paliv. Briketování','','','',false,true);
+d.add(373,369,'662.9','<div class="nodetag">662.9</div></span>&nbsp;&nbsp;Topení a topeniště','662.9','Topení a topeniště','','','',false,true);
+d.add(374,343,'663','<div class="nodetag">663</div></span>&nbsp;&nbsp;Průmyslová mikrobiologie. Průmyslová mykologie. Kvasný průmysl. Nápojový průmysl. Průmysl pochutin','663','Průmyslová mikrobiologie. Průmyslová mykologie. Kvasný průmysl. Nápojový průmysl. Průmysl pochutin','','','',false,true);
+d.add(375,374,'663.1','<div class="nodetag">663.1</div></span>&nbsp;&nbsp;Mikrobiologický průmysl. Aplikovaná mikrobiologie. Aplikovaná mykologie','663.1','Mikrobiologický průmysl. Aplikovaná mikrobiologie. Aplikovaná mykologie','','','',false,true);
+d.add(376,374,'663.2','<div class="nodetag">663.2</div></span>&nbsp;&nbsp;Víno. Výroba vína. Oenologie','663.2','Víno. Výroba vína. Oenologie','','','',false,true);
+d.add(377,374,'663.3','<div class="nodetag">663.3</div></span>&nbsp;&nbsp;Jablečné víno. Hruškové víno. Jiná ovocná vína','663.3','Jablečné víno. Hruškové víno. Jiná ovocná vína','','','',false,true);
+d.add(378,374,'663.4','<div class="nodetag">663.4</div></span>&nbsp;&nbsp;Pivo. Pivovarnictví. Sladování','663.4','Pivo. Pivovarnictví. Sladování','','','',false,true);
+d.add(379,374,'663.5','<div class="nodetag">663.5</div></span>&nbsp;&nbsp;Alkohol. Konzumní líh. Lihoviny. Destilace a čištění alkoholu','663.5','Alkohol. Konzumní líh. Lihoviny. Destilace a čištění alkoholu','','','',false,true);
+d.add(380,374,'663.6','<div class="nodetag">663.6</div></span>&nbsp;&nbsp;Voda pro nápoje a jiné průmyslové použití. Minerální vody. Léčivé vody. Led pro potravinářské účely','663.6','Voda pro nápoje a jiné průmyslové použití. Minerální vody. Léčivé vody. Led pro potravinářské účely','','','',false,true);
+d.add(381,374,'663.8','<div class="nodetag">663.8</div></span>&nbsp;&nbsp;Hlavní složky míchaných nápojů. Ovocné a zeleninové šťávy. Sirupy. Likéry. Nealkoholické nápoje','663.8','Hlavní složky míchaných nápojů. Ovocné a zeleninové šťávy. Sirupy. Likéry. Nealkoholické nápoje','','','',false,true);
+d.add(382,374,'663.9','<div class="nodetag">663.9</div></span>&nbsp;&nbsp;Čokoláda. Kakao. Káva. Čaj. Tabák','663.9','Čokoláda. Kakao. Káva. Čaj. Tabák','','','',false,true);
+d.add(383,343,'664','<div class="nodetag">664</div></span>&nbsp;&nbsp;Výroba a konzervace tuhých potravin','664','Výroba a konzervace tuhých potravin','','','',false,true);
+d.add(384,383,'664.1','<div class="nodetag">664.1</div></span>&nbsp;&nbsp;Cukr. Melasa. Glukóza atd.','664.1','Cukr. Melasa. Glukóza atd.','','','',false,true);
+d.add(385,383,'664.2','<div class="nodetag">664.2</div></span>&nbsp;&nbsp;Škrob. Látky obsahující škrob','664.2','Škrob. Látky obsahující škrob','','','',false,true);
+d.add(386,383,'664.3','<div class="nodetag">664.3</div></span>&nbsp;&nbsp;Jedlé oleje a tuky. Margarín. Bílkovinné potraviny','664.3','Jedlé oleje a tuky. Margarín. Bílkovinné potraviny','','','',false,true);
+d.add(387,383,'664.4','<div class="nodetag">664.4</div></span>&nbsp;&nbsp;Jedlé minerály','664.4','Jedlé minerály','','','',false,true);
+d.add(388,383,'664.5','<div class="nodetag">664.5</div></span>&nbsp;&nbsp;Koření','664.5','Koření','','','',false,true);
+d.add(389,383,'664.6/.7','<div class="nodetag">664.6/.7</div></span>&nbsp;&nbsp;Technologie a zpracování obilovin','664.6/.7','Technologie a zpracování obilovin','','','',false,true);
+d.add(390,389,'664.6','<div class="nodetag">664.6</div></span>&nbsp;&nbsp;Pekařství. Chléb. Jemné pečivo','664.6','Pekařství. Chléb. Jemné pečivo','','','',false,true);
+d.add(391,389,'664.7','<div class="nodetag">664.7</div></span>&nbsp;&nbsp;Zpracování obilí. Mletí obilí. Výroba potravin z obilí','664.7','Zpracování obilí. Mletí obilí. Výroba potravin z obilí','','','',false,true);
+d.add(392,383,'664.8/.9','<div class="nodetag">664.8/.9</div></span>&nbsp;&nbsp;Technika konzervace potravin','664.8/.9','Technika konzervace potravin','','','',false,true);
+d.add(393,343,'665','<div class="nodetag">665</div></span>&nbsp;&nbsp;Oleje. Tuky. Vosky. Pojiva. Gumy. Pryskyřice','665','Oleje. Tuky. Vosky. Pojiva. Gumy. Pryskyřice','','','',false,true);
+d.add(394,393,'665.1','<div class="nodetag">665.1</div></span>&nbsp;&nbsp;Všeobecně o olejích, tucích, voscích a výrobcích z nich','665.1','Všeobecně o olejích, tucích, voscích a výrobcích z nich','','','',false,true);
+d.add(395,393,'665.2','<div class="nodetag">665.2</div></span>&nbsp;&nbsp;Oleje, tuky a vosky živočišného původu','665.2','Oleje, tuky a vosky živočišného původu','','','',false,true);
+d.add(396,393,'665.3','<div class="nodetag">665.3</div></span>&nbsp;&nbsp;Oleje, tuky, vosky a fosfatidy rostlinného původu','665.3','Oleje, tuky, vosky a fosfatidy rostlinného původu','','','',false,true);
+d.add(397,393,'665.5','<div class="nodetag">665.5</div></span>&nbsp;&nbsp;Silice. Parfumerie. Kosmetické přípravky','665.5','Silice. Parfumerie. Kosmetické přípravky','','','',false,true);
+d.add(398,393,'665.6/.7','<div class="nodetag">665.6/.7</div></span>&nbsp;&nbsp;Technologie a výrobky ropného průmyslu a příbuzných odvětví','665.6/.7','Technologie a výrobky ropného průmyslu a příbuzných odvětví','','','',false,true);
+d.add(399,398,'665.6','<div class="nodetag">665.6</div></span>&nbsp;&nbsp;Technologie minerálních olejů. Technologie ropy a ropných produktů','665.6','Technologie minerálních olejů. Technologie ropy a ropných produktů','','','',false,true);
+d.add(400,398,'665.7','<div class="nodetag">665.7</div></span>&nbsp;&nbsp;Výrobky ropného průmyslu. Minerální oleje a podobné výrobky','665.7','Výrobky ropného průmyslu. Minerální oleje a podobné výrobky','','','',false,true);
+d.add(401,393,'665.9','<div class="nodetag">665.9</div></span>&nbsp;&nbsp;Různé výrobky organického chemického průmyslu','665.9','Různé výrobky organického chemického průmyslu','','','',false,true);
+d.add(402,343,'666','<div class="nodetag">666</div></span>&nbsp;&nbsp;Sklářský průmysl. Keramika. Cement a beton','666','Sklářský průmysl. Keramika. Cement a beton','','','',false,true);
+d.add(403,402,'666.1','<div class="nodetag">666.1</div></span>&nbsp;&nbsp;Sklářský průmysl. Sklářská technologie. Výroba skla všeobecně. Sklo všeobecně','666.1','Sklářský průmysl. Sklářská technologie. Výroba skla všeobecně. Sklo všeobecně','','','',false,true);
+d.add(404,402,'666.3/.7','<div class="nodetag">666.3/.7</div></span>&nbsp;&nbsp;Keramika','666.3/.7','Keramika','','','',false,true);
+d.add(405,404,'666.3','<div class="nodetag">666.3</div></span>&nbsp;&nbsp;Keramika všeobecně. Keramické suroviny','666.3','Keramika všeobecně. Keramické suroviny','','','',false,true);
+d.add(406,404,'666.5','<div class="nodetag">666.5</div></span>&nbsp;&nbsp;Porcelán','666.5','Porcelán','','','',false,true);
+d.add(407,404,'666.6','<div class="nodetag">666.6</div></span>&nbsp;&nbsp;Kamenina. Neslinutá bílá užitková keramika, bělnina (porézní keramické zboží)','666.6','Kamenina. Neslinutá bílá užitková keramika, bělnina (porézní keramické zboží)','','','',false,true);
+d.add(408,404,'666.7','<div class="nodetag">666.7</div></span>&nbsp;&nbsp;Hrubá keramika. Žárovzdorné výrobky. Tvrdé keramické materiály. Směsi keramiky a jiných látek','666.7','Hrubá keramika. Žárovzdorné výrobky. Tvrdé keramické materiály. Směsi keramiky a jiných látek','','','',false,true);
+d.add(409,402,'666.9','<div class="nodetag">666.9</div></span>&nbsp;&nbsp;Průmysl sádry, vápna a cementu. Tvrdnoucí materiály. Omítky. Pojiva. Malta a beton','666.9','Průmysl sádry, vápna a cementu. Tvrdnoucí materiály. Omítky. Pojiva. Malta a beton','','','',false,true);
+d.add(410,343,'667','<div class="nodetag">667</div></span>&nbsp;&nbsp;Průmysl barviv','667','Průmysl barviv','','','',false,true);
+d.add(411,410,'667.2','<div class="nodetag">667.2</div></span>&nbsp;&nbsp;Barvářství. Výroba a použití barviv','667.2','Barvářství. Výroba a použití barviv','','','',false,true);
+d.add(412,410,'667.4','<div class="nodetag">667.4</div></span>&nbsp;&nbsp;Inkousty na psaní','667.4','Inkousty na psaní','','','',false,true);
+d.add(413,410,'667.5','<div class="nodetag">667.5</div></span>&nbsp;&nbsp;Tiskové černi a barvy. Litografické tuše. Psací a kreslicí tužky. Barevné tužky','667.5','Tiskové černi a barvy. Litografické tuše. Psací a kreslicí tužky. Barevné tužky','','','',false,true);
+d.add(414,410,'667.6','<div class="nodetag">667.6</div></span>&nbsp;&nbsp;Nátěry a nátěrové techniky. Povlaky. Laky','667.6','Nátěry a nátěrové techniky. Povlaky. Laky','','','',false,true);
+d.add(415,410,'667.7','<div class="nodetag">667.7</div></span>&nbsp;&nbsp;Barvení, moření atd. různých materiálů (jinak než tiskem nebo nátěrem)','667.7','Barvení, moření atd. různých materiálů (jinak než tiskem nebo nátěrem)','','','',false,true);
+d.add(416,343,'669','<div class="nodetag">669</div></span>&nbsp;&nbsp;Metalurgie','669','Metalurgie','','','',false,true);
+d.add(417,416,'669.1','<div class="nodetag">669.1</div></span>&nbsp;&nbsp;Metalurgie železa. Železo a ocel','669.1','Metalurgie železa. Železo a ocel','','','',false,true);
+d.add(418,416,'669.2','<div class="nodetag">669.2</div></span>&nbsp;&nbsp;Neželezné kovy všeobecně','669.2','Neželezné kovy všeobecně','','','',false,true);
+d.add(419,0,'67','<div class="nodetag">67</div></span>&nbsp;&nbsp;Různá odvětví průmyslu a řemesel','67','Různá odvětví průmyslu a řemesel','','','',false,true);
+d.add(420,419,'671','<div class="nodetag">671</div></span>&nbsp;&nbsp;Předměty z drahých kovů, drahokamů, polodrahokamů','671','Předměty z drahých kovů, drahokamů, polodrahokamů','','','',false,true);
+d.add(421,420,'671.1','<div class="nodetag">671.1</div></span>&nbsp;&nbsp;Předměty ze zlata a stříbra. Předměty z dalších drahých kovů. Klenotnické zboží','671.1','Předměty ze zlata a stříbra. Předměty z dalších drahých kovů. Klenotnické zboží','','','',false,true);
+d.add(422,420,'671.4','<div class="nodetag">671.4</div></span>&nbsp;&nbsp;Výroba mincí a medailí','671.4','Výroba mincí a medailí','','','',false,true);
+d.add(423,419,'672','<div class="nodetag">672</div></span>&nbsp;&nbsp;Předměty ze železa a oceli všeobecně','672','Předměty ze železa a oceli všeobecně','','','',false,true);
+d.add(424,419,'673','<div class="nodetag">673</div></span>&nbsp;&nbsp;Předměty z neželezných kovů (s výjimkou drahých kovů)','673','Předměty z neželezných kovů (s výjimkou drahých kovů)','','','',false,true);
+d.add(425,419,'674','<div class="nodetag">674</div></span>&nbsp;&nbsp;Dřevo a dřevařský průmysl','674','Dřevo a dřevařský průmysl','','','',false,true);
+d.add(426,419,'675','<div class="nodetag">675</div></span>&nbsp;&nbsp;Kožedělný průmysl (včetně kožešin a imitací kůže)','675','Kožedělný průmysl (včetně kožešin a imitací kůže)','','','',false,true);
+d.add(427,419,'676','<div class="nodetag">676</div></span>&nbsp;&nbsp;Papírenský průmysl. Výroba papíru, kartonu a lepenky','676','Papírenský průmysl. Výroba papíru, kartonu a lepenky','','','',false,true);
+d.add(428,419,'677','<div class="nodetag">677</div></span>&nbsp;&nbsp;Textilní průmysl','677','Textilní průmysl','','','',false,true);
+d.add(429,428,'677.1/.5','<div class="nodetag">677.1/.5</div></span>&nbsp;&nbsp;Textilní vlákna','677.1/.5','Textilní vlákna','','','',false,true);
+d.add(430,429,'677.1/.3','<div class="nodetag">677.1/.3</div></span>&nbsp;&nbsp;Přírodní vlákna','677.1/.3','Přírodní vlákna','','','',false,true);
+d.add(431,430,'677.1/.2','<div class="nodetag">677.1/.2</div></span>&nbsp;&nbsp;Rostlinná vlákna','677.1/.2','Rostlinná vlákna','','','',false,true);
+d.add(432,431,'677.1','<div class="nodetag">677.1</div></span>&nbsp;&nbsp;Lýková vlákna (vlákna ze stonků dvouděložných rostlin). Tvrdá vlákna (vlákna z listů a plodů jednoděložných rostlin)','677.1','Lýková vlákna (vlákna ze stonků dvouděložných rostlin). Tvrdá vlákna (vlákna z listů a plodů jednoděložných rostlin)','','','',false,true);
+d.add(433,431,'677.2','<div class="nodetag">677.2</div></span>&nbsp;&nbsp;Rostlinná vlákna','677.2','Rostlinná vlákna','','','',false,true);
+d.add(434,430,'677.3','<div class="nodetag">677.3</div></span>&nbsp;&nbsp;Živočišná vlákna','677.3','Živočišná vlákna','','','',false,true);
+d.add(435,429,'677.4','<div class="nodetag">677.4</div></span>&nbsp;&nbsp;Chemická vlákna','677.4','Chemická vlákna','','','',false,true);
+d.add(436,429,'677.5','<div class="nodetag">677.5</div></span>&nbsp;&nbsp;Minerální a kovová vlákna. Pletivové materiály. Gumová vlákna. Papírové příze','677.5','Minerální a kovová vlákna. Pletivové materiály. Gumová vlákna. Papírové příze','','','',false,true);
+d.add(437,419,'678','<div class="nodetag">678</div></span>&nbsp;&nbsp;Průmysl makromolekulárních látek. Gumárenský průmysl. Průmysl plastů','678','Průmysl makromolekulárních látek. Gumárenský průmysl. Průmysl plastů','','','',false,true);
+d.add(438,437,'678.4','<div class="nodetag">678.4</div></span>&nbsp;&nbsp;Přírodní kaučuk. Ostatní přírodní makromolekulární látky obsahující pouze uhlík a vodík','678.4','Přírodní kaučuk. Ostatní přírodní makromolekulární látky obsahující pouze uhlík a vodík','','','',false,true);
+d.add(439,437,'678.5','<div class="nodetag">678.5</div></span>&nbsp;&nbsp;Plasty','678.5','Plasty','','','',false,true);
+d.add(440,437,'678.6','<div class="nodetag">678.6</div></span>&nbsp;&nbsp;Syntetické produkty polykondenzace. Polykondenzáty. Syntetické pryskyřice. Syntetická vlákna atd.','678.6','Syntetické produkty polykondenzace. Polykondenzáty. Syntetické pryskyřice. Syntetická vlákna atd.','','','',false,true);
+d.add(441,437,'678.7','<div class="nodetag">678.7</div></span>&nbsp;&nbsp;Syntetické produkty polymerace. Polymery. Syntetický kaučuk','678.7','Syntetické produkty polymerace. Polymery. Syntetický kaučuk','','','',false,true);
+d.add(442,419,'679','<div class="nodetag">679</div></span>&nbsp;&nbsp;Průmyslová odvětví založená na různých zpracovatelných materiálech','679','Průmyslová odvětví založená na různých zpracovatelných materiálech','','','',false,true);
+d.add(443,442,'679.7','<div class="nodetag">679.7</div></span>&nbsp;&nbsp;Výroba kabelů, provazů a lan','679.7','Výroba kabelů, provazů a lan','','','',false,true);
+d.add(444,442,'679.8','<div class="nodetag">679.8</div></span>&nbsp;&nbsp;Kamenářská technologie. Průmysl kamene','679.8','Kamenářská technologie. Průmysl kamene','','','',false,true);
+d.add(445,442,'679.9','<div class="nodetag">679.9</div></span>&nbsp;&nbsp;Technologie ostatních přírodních zpracovatelných materiálů','679.9','Technologie ostatních přírodních zpracovatelných materiálů','','','',false,true);
+d.add(446,0,'68','<div class="nodetag">68</div></span>&nbsp;&nbsp;Různá odvětví průmyslu a řemesel','68','Různá odvětví průmyslu a řemesel','','','',false,true);
+d.add(447,446,'681','<div class="nodetag">681</div></span>&nbsp;&nbsp;Přesná mechanika. Přesné mechanismy a přístroje','681','Přesná mechanika. Přesné mechanismy a přístroje','','','',false,true);
+d.add(448,447,'681.1','<div class="nodetag">681.1</div></span>&nbsp;&nbsp;Přístroje s převody nebo pohyblivými mechanismy','681.1','Přístroje s převody nebo pohyblivými mechanismy','','','',false,true);
+d.add(449,447,'681.2','<div class="nodetag">681.2</div></span>&nbsp;&nbsp;Měřicí přístroje všeobecně. Konstrukce a výroba měřicích přístrojů. Váhy','681.2','Měřicí přístroje všeobecně. Konstrukce a výroba měřicích přístrojů. Váhy','','','',false,true);
+d.add(450,447,'681.5','<div class="nodetag">681.5</div></span>&nbsp;&nbsp;Automatizační řídicí technika. Technika automatizovaného řízení','681.5','Automatizační řídicí technika. Technika automatizovaného řízení','','','',false,true);
+d.add(451,447,'681.6','<div class="nodetag">681.6</div></span>&nbsp;&nbsp;Stroje a zařízení pro zhotovování tiskových forem. Tiskové stroje','681.6','Stroje a zařízení pro zhotovování tiskových forem. Tiskové stroje','','','',false,true);
+d.add(452,447,'681.7','<div class="nodetag">681.7</div></span>&nbsp;&nbsp;Optické přístroje','681.7','Optické přístroje','','','',false,true);
+d.add(453,447,'681.8','<div class="nodetag">681.8</div></span>&nbsp;&nbsp;Zvuková technika. Hudební nástroje','681.8','Zvuková technika. Hudební nástroje','','','',false,true);
+d.add(454,446,'682','<div class="nodetag">682</div></span>&nbsp;&nbsp;Kovářství. Podkovářství','682','Kovářství. Podkovářství','','','',false,true);
+d.add(455,454,'682.1','<div class="nodetag">682.1</div></span>&nbsp;&nbsp;Podkovářství','682.1','Podkovářství','','','',false,true);
+d.add(456,454,'682.3','<div class="nodetag">682.3</div></span>&nbsp;&nbsp;Kování nástrojů a náčiní','682.3','Kování nástrojů a náčiní','','','',false,true);
+d.add(457,454,'682.5','<div class="nodetag">682.5</div></span>&nbsp;&nbsp;Nábytkové kování','682.5','Nábytkové kování','','','',false,true);
+d.add(458,454,'682.6','<div class="nodetag">682.6</div></span>&nbsp;&nbsp;Stavební kování','682.6','Stavební kování','','','',false,true);
+d.add(459,446,'683','<div class="nodetag">683</div></span>&nbsp;&nbsp;Železářství. Železářské zboží. Zámečnictví. Výčepnictví. Palivová svítidla. Topná zařízení','683','Železářství. Železářské zboží. Zámečnictví. Výčepnictví. Palivová svítidla. Topná zařízení','','','',false,true);
+d.add(460,446,'684','<div class="nodetag">684</div></span>&nbsp;&nbsp;Nábytkářský průmysl a příbuzná průmyslová odvětví. Výroba nábytku. Čalounictví','684','Nábytkářský průmysl a příbuzná průmyslová odvětví. Výroba nábytku. Čalounictví','','','',false,true);
+d.add(461,460,'684.4','<div class="nodetag">684.4</div></span>&nbsp;&nbsp;Nábytek. Návrhářství a výroba nábytku','684.4','Nábytek. Návrhářství a výroba nábytku','','','',false,true);
+d.add(462,460,'684.6','<div class="nodetag">684.6</div></span>&nbsp;&nbsp;Dýhování. Intarzie. Vykládání atd.','684.6','Dýhování. Intarzie. Vykládání atd.','','','',false,true);
+d.add(463,460,'684.7','<div class="nodetag">684.7</div></span>&nbsp;&nbsp;Čalounictví. Lůžkoviny. Potahy. Závěsy','684.7','Čalounictví. Lůžkoviny. Potahy. Závěsy','','','',false,true);
+d.add(464,446,'685','<div class="nodetag">685</div></span>&nbsp;&nbsp;Sedlářství. Obuvnictví. Rukavičkářství. Cestovní potřeby, sportovní potřeby, potřeby pro hry a jiné vybavení','685','Sedlářství. Obuvnictví. Rukavičkářství. Cestovní potřeby, sportovní potřeby, potřeby pro hry a jiné vybavení','','','',false,true);
+d.add(465,464,'685.1','<div class="nodetag">685.1</div></span>&nbsp;&nbsp;Sedlářství. Výroba postroje','685.1','Sedlářství. Výroba postroje','','','',false,true);
+d.add(466,464,'685.2','<div class="nodetag">685.2</div></span>&nbsp;&nbsp;Různé výrobky z usní. Výroba opasků atd.','685.2','Různé výrobky z usní. Výroba opasků atd.','','','',false,true);
+d.add(467,464,'685.3','<div class="nodetag">685.3</div></span>&nbsp;&nbsp;Obuv. Jiné pomůcky umožňující pohyb','685.3','Obuv. Jiné pomůcky umožňující pohyb','','','',false,true);
+d.add(468,464,'685.4','<div class="nodetag">685.4</div></span>&nbsp;&nbsp;Rukavičkářství','685.4','Rukavičkářství','','','',false,true);
+d.add(469,464,'685.5','<div class="nodetag">685.5</div></span>&nbsp;&nbsp;Cestovní potřeby. Potřeby pro kempink','685.5','Cestovní potřeby. Potřeby pro kempink','','','',false,true);
+d.add(470,464,'685.6','<div class="nodetag">685.6</div></span>&nbsp;&nbsp;Sportovní nářadí a náčiní. Vybavení pro stadiony, tělocvičny, posilovny','685.6','Sportovní nářadí a náčiní. Vybavení pro stadiony, tělocvičny, posilovny','','','',false,true);
+d.add(471,464,'685.7','<div class="nodetag">685.7</div></span>&nbsp;&nbsp;Potřeby pro horolezectví. Potřeby pro plavání','685.7','Potřeby pro horolezectví. Potřeby pro plavání','','','',false,true);
+d.add(472,464,'685.8','<div class="nodetag">685.8</div></span>&nbsp;&nbsp;Potřeby pro stolní hry','685.8','Potřeby pro stolní hry','','','',false,true);
+d.add(473,446,'686','<div class="nodetag">686</div></span>&nbsp;&nbsp;Knihařství. Pokovování. Sklenářství. Papírnické zboží. Kancelářské potřeby','686','Knihařství. Pokovování. Sklenářství. Papírnické zboží. Kancelářské potřeby','','','',false,true);
+d.add(474,446,'687','<div class="nodetag">687</div></span>&nbsp;&nbsp;Oděvní průmysl. Výroba oděvů. Péče o vzhled','687','Oděvní průmysl. Výroba oděvů. Péče o vzhled','','','',false,true);
+d.add(475,474,'687.1','<div class="nodetag">687.1</div></span>&nbsp;&nbsp;Oděvy. Konfekce. Krejčovství','687.1','Oděvy. Konfekce. Krejčovství','','','',false,true);
+d.add(476,474,'687.2','<div class="nodetag">687.2</div></span>&nbsp;&nbsp;Prádlo. Spodní oděv','687.2','Prádlo. Spodní oděv','','','',false,true);
+d.add(477,474,'687.3','<div class="nodetag">687.3</div></span>&nbsp;&nbsp;Pletené zboží. Stuhy, šňůrky, řemínky. Zařízení k zabezpečení a ochraně oděvů','687.3','Pletené zboží. Stuhy, šňůrky, řemínky. Zařízení k zabezpečení a ochraně oděvů','','','',false,true);
+d.add(478,474,'687.4','<div class="nodetag">687.4</div></span>&nbsp;&nbsp;Pokrývky hlavy. Výroba klobouků. Kloboučnické zboží','687.4','Pokrývky hlavy. Výroba klobouků. Kloboučnické zboží','','','',false,true);
+d.add(479,474,'687.5','<div class="nodetag">687.5</div></span>&nbsp;&nbsp;Péče o vzhled','687.5','Péče o vzhled','','','',false,true);
+d.add(480,474,'687.8','<div class="nodetag">687.8</div></span>&nbsp;&nbsp;Umělé kožešiny','687.8','Umělé kožešiny','','','',false,true);
+d.add(481,474,'687.9','<div class="nodetag">687.9</div></span>&nbsp;&nbsp;Kartáčnický průmysl. Smetáky, košťata atd.','687.9','Kartáčnický průmysl. Smetáky, košťata atd.','','','',false,true);
+d.add(482,446,'688','<div class="nodetag">688</div></span>&nbsp;&nbsp;Galanterní zboží. Hračky. Dekorační předměty','688','Galanterní zboží. Hračky. Dekorační předměty','','','',false,true);
+d.add(483,482,'688.7','<div class="nodetag">688.7</div></span>&nbsp;&nbsp;Hračky. Zábavní, žertovné předměty. Dekorační předměty','688.7','Hračky. Zábavní, žertovné předměty. Dekorační předměty','','','',false,true);
+d.add(484,446,'689','<div class="nodetag">689</div></span>&nbsp;&nbsp;Amatérské rukodělné práce. Technické koníčky. Kutilství','689','Amatérské rukodělné práce. Technické koníčky. Kutilství','','','',false,true);
+d.add(485,0,'69','<div class="nodetag">69</div></span>&nbsp;&nbsp;Stavebnictví. Stavební průmysl. Stavební materiály. Stavební práce','69','Stavebnictví. Stavební průmysl. Stavební materiály. Stavební práce','','','',false,true);
+d.add(486,485,'691','<div class="nodetag">691</div></span>&nbsp;&nbsp;Stavební hmoty. Stavební prvky a dílce','691','Stavební hmoty. Stavební prvky a dílce','','','',false,true);
+d.add(487,485,'692','<div class="nodetag">692</div></span>&nbsp;&nbsp;Konstrukční části a prvky staveb','692','Konstrukční části a prvky staveb','','','',false,true);
+d.add(488,485,'693','<div class="nodetag">693</div></span>&nbsp;&nbsp;Zednické a příbuzné stavební práce','693','Zednické a příbuzné stavební práce','','','',false,true);
+d.add(489,485,'694','<div class="nodetag">694</div></span>&nbsp;&nbsp;Dřevěné stavby. Tesařské stavební práce. Truhlářské stavební práce','694','Dřevěné stavby. Tesařské stavební práce. Truhlářské stavební práce','','','',false,true);
+d.add(490,485,'696','<div class="nodetag">696</div></span>&nbsp;&nbsp;Sanitární, plynové, parní a elektrické instalace v budovách. Různé stavební práce. Instalatéři, klempíři, potrubáři, elektrikáři','696','Sanitární, plynové, parní a elektrické instalace v budovách. Různé stavební práce. Instalatéři, klempíři, potrubáři, elektrikáři','','','',false,true);
+d.add(491,485,'697','<div class="nodetag">697</div></span>&nbsp;&nbsp;Vytápění, větrání a klimatizace budov','697','Vytápění, větrání a klimatizace budov','','','',false,true);
+d.add(492,485,'698','<div class="nodetag">698</div></span>&nbsp;&nbsp;Dokončovací a dekoratérské práce','698','Dokončovací a dekoratérské práce','','','',false,true);
+d.config.useSelection = false;
+d.config.inOrder = true;
+d.config.useIcons = false;
+document.write(d);
+//-->
+</script>
+</div>
+</div><div id="expandbox" onclick="expandbox(); return false;">&nbsp;</div>
+<div id="recordbox" class="debugbkg">
+<div class="fronthint">záznam získáte pokliknutím na znak/symbol vlevo</div>
+</div>
+
+        <div id="footer">
+            <div class="footersectionleft">
+                The UDC Summary (UDCS) provides a selection of around 2,600 classes from the whole scheme which comprises more than 70,000 entries.
+                Please send questions and suggestions to <a href="mailto:udcs@udcc.org?subject=UDC Summary Enquiry">udcs@udcc.org</a><br><br>
+	            <p>
+		            The data provided in this Summary is released under the <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative Commons Attribution Share Alike 3.0 license</a> <a href="../about.htm">[more]</a>
+	            </p>
+            </div>
+            <div class="footermiddle">
+                <a href="http://www.udcc.org"><img src="../images/udclogowhite.png" border="0"></a>
+            </div>
+			<div class="footerright">
+                For complete UDC schedules see <a href="http://www.udc-hub.com/">UDC Online Hub</a><br/><a href="http://www.udc-hub.com/"><img width="60" height="35" src="../images/udclogo.png"/></a>
+
+			</div>
+        </div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-13138465-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>

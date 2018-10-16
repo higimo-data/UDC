@@ -1,0 +1,654 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>UDC Summary</title>
+    <link rel="stylesheet" href="../reset.css" type="text/css" />
+    <link rel="stylesheet" href="../udc2000.css" type="text/css" />
+	    <link rel="StyleSheet" href="dtree2.css" type="text/css" />
+	    <script type="text/javascript" src="dtree.js"></script>
+	    <script type="text/javascript" src="udcdisplay_9.js"></script>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+</head>
+
+<body >
+<div id="centercontainer" class="debugbkg">
+    <div id="titlebox" class="debugbkg">
+		<div id="rightbox">
+        	<div id="languagecount">57 languages</div>
+            <div id="languagebox">
+            <select id="selectedlang" style="vertical-align: middle;" onchange="location = this.options[this.selectedIndex].value;">
+			<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=af&pr=Y">Afrikaans (Afrikaans) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sq&pr=Y">Albanian (Shqip) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=anp&pr=Y">Angika (अंगिका) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ar&pr=Y">Arabic (العربية) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hy&pr=Y">Armenian (հայերեն) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=eu&pr=Y">Basque (Euskara) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=be&pr=Y">Belarusian (Беларуская) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bn&pr=Y">Bengali (বাংলা) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bho&pr=Y">Bhojpuri (भोजपुरी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bg&pr=Y">Bulgarian (Български) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ca&pr=Y">Catalan (Català) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=chi&pr=Y">Chinese (中文) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hr&pr=Y">Croatian (Hrvatski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=cs&pr=Y">Czech (Čeština) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=da&pr=Y">Danish (Dansk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=nl&pr=Y">Dutch (Nederlands) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=en&pr=Y">English (English) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=eo&pr=Y">Esperanto (Esperanto) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=et&pr=Y">Estonian (Eesti) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=fi&pr=Y" selected>Finnish (Suomi) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=fr&pr=Y">French (Français) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=gl&pr=Y">Galician (Galego) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ka&pr=Y">Georgian (ქართული) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=de&pr=Y">German (Deutsch) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=el&pr=Y">Greek (Ελληνικά) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hi&pr=Y">Hindi (हिन्दी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hu&pr=Y">Hungarian (Magyar) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=id&pr=Y">Indonesian (Bahasa Ind) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ga&pr=Y">Irish (Gaeilge) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=it&pr=Y">Italian (Italiano) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ja&pr=Y">Japanese (日本語) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=kn&pr=Y">Kannada (ಕನ್ನಡ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=kk&pr=Y">Kazakh (Қазақ тілі) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=lv&pr=Y">Latvian (Latviešu) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=lt&pr=Y">Lithuanian (lietuvių) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=mk&pr=Y">Macedonian (македонски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ml&pr=Y">Malayalam (മലയാളം) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=mr&pr=Y">Marathi (मराठी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=no&pr=Y">Norwegian (Norsk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pl&pr=Y">Polish (Polski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pt&pr=Y">Portuguese (Português) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pa&pr=Y">Punjabi (ਪੰਜਾਬੀ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ro&pr=Y">Romanian (Româna) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ru&pr=Y">Russian (Pусский) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sa&pr=Y">Sanskrit (Saṃskṛtam) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sr&pr=Y">Serbian (Српски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=si&pr=Y">Sinhala (සිංහල) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sk&pr=Y">Slovak (Slovenský) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sl&pr=Y">Slovenian (Slovenski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=es&pr=Y">Spanish (Español) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sv&pr=Y">Swedish (Svenska) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ta&pr=Y">Tamil (தமிழ்) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=te&pr=Y">Telugu (తెలుగు) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=tr&pr=Y">Turkish (Türkçe) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=uk&pr=Y">Ukrainian (Yкраї́нська) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=uz&pr=Y">Uzbek (oʻzbek) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=vi&pr=Y">Vietnamese (tiếng Việt) </option>
+            </select>
+            </div>
+            </div>
+        </div>
+		<div id="menubox" class="debugbkg">
+            <ul class="menu boldmenu">
+<li><a href="index.php@lang=fi">YLÖS</a></li>
+<li><a href="index.php@tag=--&amp;lang=fi">MERKIT</a></li>
+<li><a href="index.php@tag=---&amp;lang=fi">LISÄLUVUT</a></li>
+<li><a href="index.php@tag=0&amp;lang=fi">0</a></li>
+<li><a href="index.php@tag=1&amp;lang=fi">1</a></li>
+<li><a href="index.php@tag=2&amp;lang=fi">2</a></li>
+<li><a href="index.php@tag=3&amp;lang=fi">3</a></li>
+<li><a  class="vacant" href="index.php@tag=6&amp;lang=fi#">4</a></li>
+<li><a href="index.php@tag=5&amp;lang=fi">5</a></li>
+<li><a href="index.php@tag=6&amp;lang=fi">6</a></li>
+<li><a href="index.php@tag=7&amp;lang=fi">7</a></li>
+<li><a href="index.php@tag=8&amp;lang=fi">8</a></li>
+<li><a href="index.php@tag=9&amp;lang=fi">9</a></li>
+</ul>
+<input type="hidden" id="if_loading" name="if_loading" value="Ladataan"/>
+<input type="hidden" id="if_lang" name="if_lang" value="10"/>
+<ul class="rightmenu boldmenu">
+<li><a href="../translation.htm">KÄÄNNOKSET</a></li>
+<li><a href="index.php@tag=6&amp;lang=fi#" title="Under Development">MAPPINGS</a></li>
+<li><a href="../exports.htm" title="Data Exports">VIENTI</a></li>
+<li><a href="index.php@tag=6&amp;lang=fi#" title="Under Development">A/Ö HAKEMISTO</a></li>
+<li><a href="index.php@tag=6&amp;lang=fi#" title="Under Development">KÄYTTÖOHJE</a></li>
+<li><a href="../about.htm" title="About the UDC Summary">ABOUT</a></li>
+</ul>
+
+        </div>
+		<input type="hidden" id="leftWidth" value="420"/><input type="hidden" id="rightWidth" value="522"/>
+		<div id="classmarkbox" class="debugbkg">
+
+<div id="openclosemenu"><a href="javascript: d.openAll();">&nbsp;Näytä kaikki</a> | <a href="javascript: d.closeAll();">piilota kaikki</a></div>
+<div id="classtree">
+<script type="text/javascript">
+<!--
+d = new dTree('d');
+d.config.hrefIsClick = true;
+d.add(0,-1,'6','<span class="nodetag">6</span>&nbsp;&nbsp;SOVELTAVAT TIETEET. LÄÄKETIEDE. TEKNIIKKA','6','','','','',false,true);
+d.add(1,0,'60','<div class="nodetag">60</div></span>&nbsp;&nbsp;Biotekniikka','60','Biotekniikka','','','',false,true);
+d.add(2,1,'601','<div class="nodetag">601</div></span>&nbsp;&nbsp;Biotekniikan peruskäsitteitä','601','Biotekniikan peruskäsitteitä','','','',false,true);
+d.add(3,1,'602','<div class="nodetag">602</div></span>&nbsp;&nbsp;Biotekniikan prosessit ja menetelmät','602','Biotekniikan prosessit ja menetelmät','','','',false,true);
+d.add(4,1,'604','<div class="nodetag">604</div></span>&nbsp;&nbsp;Biotekniikan tuotteet','604','Biotekniikan tuotteet','','','',false,true);
+d.add(5,1,'606','<div class="nodetag">606</div></span>&nbsp;&nbsp;Biotekniikan sovellukset','606','Biotekniikan sovellukset','','','',false,true);
+d.add(6,1,'608','<div class="nodetag">608</div></span>&nbsp;&nbsp;Biotekniikan yleiset kysymykset','608','Biotekniikan yleiset kysymykset','','','',false,true);
+d.add(7,0,'61','<div class="nodetag">61</div></span>&nbsp;&nbsp;Lääketiede','61','Lääketiede','','','',false,true);
+d.add(8,7,'611/612','<div class="nodetag">611/612</div></span>&nbsp;&nbsp;Ihmisen biologia','611/612','Ihmisen biologia','','','',false,true);
+d.add(9,8,'611','<div class="nodetag">611</div></span>&nbsp;&nbsp;Anatomia. Ihmisen ja vertaileva anatomia','611','Anatomia. Ihmisen ja vertaileva anatomia','','','',false,true);
+d.add(10,8,'612','<div class="nodetag">612</div></span>&nbsp;&nbsp;Fysiologia. Ihmisen ja vertaileva fysiologia','612','Fysiologia. Ihmisen ja vertaileva fysiologia','','','',false,true);
+d.add(11,10,'612.1/.8','<div class="nodetag">612.1/.8</div></span>&nbsp;&nbsp;Systemaattinen fysiologia','612.1/.8','Systemaattinen fysiologia','','','',false,true);
+d.add(12,11,'612.1','<div class="nodetag">612.1</div></span>&nbsp;&nbsp;Veri. Sydän, verenkiertoelimet','612.1','Veri. Sydän, verenkiertoelimet','','','',false,true);
+d.add(13,11,'612.2','<div class="nodetag">612.2</div></span>&nbsp;&nbsp;Hengitys. Hengittäminen. Hengityselimet','612.2','Hengitys. Hengittäminen. Hengityselimet','','','',false,true);
+d.add(14,11,'612.3','<div class="nodetag">612.3</div></span>&nbsp;&nbsp;Ravinto. Syöminen. Ruoansulatus. Ravitsemus','612.3','Ravinto. Syöminen. Ruoansulatus. Ravitsemus','','','',false,true);
+d.add(15,11,'612.4','<div class="nodetag">612.4</div></span>&nbsp;&nbsp;Rauhaset. Eritteet. Eritys','612.4','Rauhaset. Eritteet. Eritys','','','',false,true);
+d.add(16,11,'612.5','<div class="nodetag">612.5</div></span>&nbsp;&nbsp;Kehon lämpötila. Kehon lämpötalous','612.5','Kehon lämpötila. Kehon lämpötalous','','','',false,true);
+d.add(17,11,'612.6','<div class="nodetag">612.6</div></span>&nbsp;&nbsp;Lisääntyminen. Kasvu. Kehitys','612.6','Lisääntyminen. Kasvu. Kehitys','','','',false,true);
+d.add(18,11,'612.7','<div class="nodetag">612.7</div></span>&nbsp;&nbsp;Motoriikka. Liikuntaelimet. Ääni. Iho ja ihon apuelimet','612.7','Motoriikka. Liikuntaelimet. Ääni. Iho ja ihon apuelimet','','','',false,true);
+d.add(19,11,'612.8','<div class="nodetag">612.8</div></span>&nbsp;&nbsp;Hermosto. Aistielimet','612.8','Hermosto. Aistielimet','','','',false,true);
+d.add(20,7,'613','<div class="nodetag">613</div></span>&nbsp;&nbsp;Hygienia yleisesti. Henkilökohtainen terveys ja hygienia','613','Hygienia yleisesti. Henkilökohtainen terveys ja hygienia','','','',false,true);
+d.add(21,20,'613.2','<div class="nodetag">613.2</div></span>&nbsp;&nbsp;Ruokavalio-oppi. Ravitsemuksen periaatteet ruokailuun ja elintarvikkeisiin sovellettuna','613.2','Ruokavalio-oppi. Ravitsemuksen periaatteet ruokailuun ja elintarvikkeisiin sovellettuna','','','',false,true);
+d.add(22,20,'613.3','<div class="nodetag">613.3</div></span>&nbsp;&nbsp;Juomat. Parantavat juomat. Terveysjuomat. Nestemäinen ruokavalio','613.3','Juomat. Parantavat juomat. Terveysjuomat. Nestemäinen ruokavalio','','','',false,true);
+d.add(23,20,'613.4','<div class="nodetag">613.4</div></span>&nbsp;&nbsp;Henkilökohtainen hygienia. Vaatetus','613.4','Henkilökohtainen hygienia. Vaatetus','','','',false,true);
+d.add(24,20,'613.5','<div class="nodetag">613.5</div></span>&nbsp;&nbsp;Asumisterveys','613.5','Asumisterveys','','','',false,true);
+d.add(25,20,'613.6','<div class="nodetag">613.6</div></span>&nbsp;&nbsp;Työterveysriskit. Työterveys ja hygienia','613.6','Työterveysriskit. Työterveys ja hygienia','','','',false,true);
+d.add(26,20,'613.7','<div class="nodetag">613.7</div></span>&nbsp;&nbsp;Virkistys, kuntoliikunta, uni','613.7','Virkistys, kuntoliikunta, uni','','','',false,true);
+d.add(27,20,'613.8','<div class="nodetag">613.8</div></span>&nbsp;&nbsp;Hermoston terveys ja hygienia. Terveys ja etiikka. (Päihteet. Alkoholinkäyttö. Huumeiden käyttö. Tupakointi)','613.8','Hermoston terveys ja hygienia. Terveys ja etiikka. (Päihteet. Alkoholinkäyttö. Huumeiden käyttö. Tupakointi)','','','',false,true);
+d.add(28,20,'613.9','<div class="nodetag">613.9</div></span>&nbsp;&nbsp;Terveydenhoito ja hygienia suhteessa ikään, sukupuoleen, etnisyyteen','613.9','Terveydenhoito ja hygienia suhteessa ikään, sukupuoleen, etnisyyteen','','','',false,true);
+d.add(29,7,'614','<div class="nodetag">614</div></span>&nbsp;&nbsp;Kansanterveys. Tapaturmien ehkäisy','614','Kansanterveys. Tapaturmien ehkäisy','','','',false,true);
+d.add(30,29,'614.1','<div class="nodetag">614.1</div></span>&nbsp;&nbsp;Väestönkasvu. Väestökato','614.1','Väestönkasvu. Väestökato','','','',false,true);
+d.add(31,29,'614.2','<div class="nodetag">614.2</div></span>&nbsp;&nbsp;Julkinen ja ammatillinen terveydenhuolto','614.2','Julkinen ja ammatillinen terveydenhuolto','','','',false,true);
+d.add(32,29,'614.3','<div class="nodetag">614.3</div></span>&nbsp;&nbsp;Terveysvalvonta','614.3','Terveysvalvonta','','','',false,true);
+d.add(33,32,'614.39','<div class="nodetag">614.39</div></span>&nbsp;&nbsp;Kansalliset terveyspalvelut','614.39','Kansalliset terveyspalvelut','','','',false,true);
+d.add(34,29,'614.4','<div class="nodetag">614.4</div></span>&nbsp;&nbsp;Tartuntatautien ehkäisy ja valvonta. Epidemioiden ehkäisy','614.4','Tartuntatautien ehkäisy ja valvonta. Epidemioiden ehkäisy','','','',false,true);
+d.add(35,29,'614.6','<div class="nodetag">614.6</div></span>&nbsp;&nbsp;Hautausmaahygienia. Vainajan ruumiin käsittely','614.6','Hautausmaahygienia. Vainajan ruumiin käsittely','','','',false,true);
+d.add(36,29,'614.7','<div class="nodetag">614.7</div></span>&nbsp;&nbsp;Ilman, veden ja maaperän laatu terveysnäkökulmasta. Saastuminen ja sen valvonta','614.7','Ilman, veden ja maaperän laatu terveysnäkökulmasta. Saastuminen ja sen valvonta','','','',false,true);
+d.add(37,29,'614.8','<div class="nodetag">614.8</div></span>&nbsp;&nbsp;Tapaturmat. Riskit. Vaarat. Tapaturmantorjunta. Henkilökohtainen suojautuminen. Turvallisuus','614.8','Tapaturmat. Riskit. Vaarat. Tapaturmantorjunta. Henkilökohtainen suojautuminen. Turvallisuus','','','',false,true);
+d.add(38,29,'614.9','<div class="nodetag">614.9</div></span>&nbsp;&nbsp;Eläinten terveys. Eläinlääkintähygienia','614.9','Eläinten terveys. Eläinlääkintähygienia','','','',false,true);
+d.add(39,7,'615','<div class="nodetag">615</div></span>&nbsp;&nbsp;Farmakologia. Hoito-oppi. Toksikologia','615','Farmakologia. Hoito-oppi. Toksikologia','','','',false,true);
+d.add(40,39,'615.1','<div class="nodetag">615.1</div></span>&nbsp;&nbsp;Yleinen ja ammatillinen farmasia','615.1','Yleinen ja ammatillinen farmasia','','','',false,true);
+d.add(41,39,'615.2','<div class="nodetag">615.2</div></span>&nbsp;&nbsp;Lääkkeet pääasiallisen vaikutuksen mukaan','615.2','Lääkkeet pääasiallisen vaikutuksen mukaan','','','',false,true);
+d.add(42,39,'615.3','<div class="nodetag">615.3</div></span>&nbsp;&nbsp;Lääkkeet alkuperän mukaan','615.3','Lääkkeet alkuperän mukaan','','','',false,true);
+d.add(43,39,'615.4','<div class="nodetag">615.4</div></span>&nbsp;&nbsp;Farmaseuttiset valmisteet. Lääketieteelliset materiaalit. Välineet','615.4','Farmaseuttiset valmisteet. Lääketieteelliset materiaalit. Välineet','','','',false,true);
+d.add(44,39,'615.8','<div class="nodetag">615.8</div></span>&nbsp;&nbsp;Fysioterapia. Fysikaalinen hoito. Sädehoito. Muut ei-lääketieteelliset hoidot','615.8','Fysioterapia. Fysikaalinen hoito. Sädehoito. Muut ei-lääketieteelliset hoidot','','','',false,true);
+d.add(45,39,'615.9','<div class="nodetag">615.9</div></span>&nbsp;&nbsp;Yleinen toksikologia. Myrkyt ja myrkytykset yleensä','615.9','Yleinen toksikologia. Myrkyt ja myrkytykset yleensä','','','',false,true);
+d.add(46,7,'616','<div class="nodetag">616</div></span>&nbsp;&nbsp;Patologia. Kliininen lääketiede','616','Patologia. Kliininen lääketiede','','','',false,true);
+d.add(47,46,'616-001/-009','<div class="nodetag">616-001/-009</div></span>&nbsp;&nbsp;Sairauksien erityislisäluvut','616-001/-009','Sairauksien erityislisäluvut','','','',false,true);
+d.add(48,47,'616-001','<div class="nodetag">616-001</div></span>&nbsp;&nbsp;Traumat. Vammat. Haavat','616-001','Traumat. Vammat. Haavat','','','',false,true);
+d.add(49,47,'616-002','<div class="nodetag">616-002</div></span>&nbsp;&nbsp;Tulehdukset. Ärsytys. Hyperemia. Limakalvojen tukkoisuus','616-002','Tulehdukset. Ärsytys. Hyperemia. Limakalvojen tukkoisuus','','','',false,true);
+d.add(50,47,'616-003','<div class="nodetag">616-003</div></span>&nbsp;&nbsp;Pahentavat ja parantavat prosessit','616-003','Pahentavat ja parantavat prosessit','','','',false,true);
+d.add(51,47,'616-004','<div class="nodetag">616-004</div></span>&nbsp;&nbsp;Skleroosi. Kovettuminen. Kirroosi','616-004','Skleroosi. Kovettuminen. Kirroosi','','','',false,true);
+d.add(52,47,'616-005','<div class="nodetag">616-005</div></span>&nbsp;&nbsp;Paikalliset verenkiertohäiriöt','616-005','Paikalliset verenkiertohäiriöt','','','',false,true);
+d.add(53,47,'616-006','<div class="nodetag">616-006</div></span>&nbsp;&nbsp;Kasvaimet. Neoplasmat. Blastoomat. Koristoomat. Hamartoomat. Onkologia','616-006','Kasvaimet. Neoplasmat. Blastoomat. Koristoomat. Hamartoomat. Onkologia','','','',false,true);
+d.add(54,47,'616-007','<div class="nodetag">616-007</div></span>&nbsp;&nbsp;Puutteellinen rakenteellinen kehitys. Fysiologiset poikkeavuudet. Epämuodostumat. Ylisuuret ja alimittaiset elimet. Teratologia. Epäsikiöt. Synnynnäiset poikkeavuudet','616-007','Puutteellinen rakenteellinen kehitys. Fysiologiset poikkeavuudet. Epämuodostumat. Ylisuuret ja alimittaiset elimet. Teratologia. Epäsikiöt. Synnynnäiset poikkeavuudet','','','',false,true);
+d.add(55,47,'616-008','<div class="nodetag">616-008</div></span>&nbsp;&nbsp;Toiminnalliset ja aineenvaihdunnan häiriöt','616-008','Toiminnalliset ja aineenvaihdunnan häiriöt','','','',false,true);
+d.add(56,47,'616-009','<div class="nodetag">616-009</div></span>&nbsp;&nbsp;Hermostolliset häiriöt','616-009','Hermostolliset häiriöt','','','',false,true);
+d.add(57,46,'616-01/-099','<div class="nodetag">616-01/-099</div></span>&nbsp;&nbsp;Patologian yleisten näkökulmien erikoislisäluvut','616-01/-099','Patologian yleisten näkökulmien erikoislisäluvut','','','',false,true);
+d.add(58,57,'616-01','<div class="nodetag">616-01</div></span>&nbsp;&nbsp;Näkökulmia sairauteen, potilaat ja lääkärin hoitoa vaativat tilat','616-01','Näkökulmia sairauteen, potilaat ja lääkärin hoitoa vaativat tilat','','','',false,true);
+d.add(59,57,'616-02','<div class="nodetag">616-02</div></span>&nbsp;&nbsp;Etiologia. Oppi sairauksien syistä','616-02','Etiologia. Oppi sairauksien syistä','','','',false,true);
+d.add(60,57,'616-03','<div class="nodetag">616-03</div></span>&nbsp;&nbsp;Erilaiset tautimuodot, hoitomuodot ja lääkkeiden annostelu','616-03','Erilaiset tautimuodot, hoitomuodot ja lääkkeiden annostelu','','','',false,true);
+d.add(61,57,'616-05','<div class="nodetag">616-05</div></span>&nbsp;&nbsp;Sairaat ja sairaan persoonallisuus. Potilaan ominaisuudet','616-05','Sairaat ja sairaan persoonallisuus. Potilaan ominaisuudet','','','',false,true);
+d.add(62,57,'616-06','<div class="nodetag">616-06</div></span>&nbsp;&nbsp;Komplikaatiot. Lisätaudit. Jälkiseuraukset. Samanaikaisuus. Korrelaatio. Aikaisemmat sairaudet. Aikasempi terveydentila. Kahden sairauden antagonismi','616-06','Komplikaatiot. Lisätaudit. Jälkiseuraukset. Samanaikaisuus. Korrelaatio. Aikaisemmat sairaudet. Aikasempi terveydentila. Kahden sairauden antagonismi','','','',false,true);
+d.add(63,57,'616-07','<div class="nodetag">616-07</div></span>&nbsp;&nbsp;Taudinmääritysoppi. Oireoppi. Oireet. Tutkimus. Diagnoosi. Propedeutiikka','616-07','Taudinmääritysoppi. Oireoppi. Oireet. Tutkimus. Diagnoosi. Propedeutiikka','','','',false,true);
+d.add(64,57,'616-08','<div class="nodetag">616-08</div></span>&nbsp;&nbsp;Hoito','616-08','Hoito','','','',false,true);
+d.add(65,57,'616-091','<div class="nodetag">616-091</div></span>&nbsp;&nbsp;Patologinen anatomia','616-091','Patologinen anatomia','','','',false,true);
+d.add(66,57,'616-092','<div class="nodetag">616-092</div></span>&nbsp;&nbsp;Patologinen fysiologia. Patofysiologia. Sairauksien vaikutustapa (elimistössä). Patogeneesi. Sairauksien synty','616-092','Patologinen fysiologia. Patofysiologia. Sairauksien vaikutustapa (elimistössä). Patogeneesi. Sairauksien synty','','','',false,true);
+d.add(67,57,'616-093','<div class="nodetag">616-093</div></span>&nbsp;&nbsp;Mikrobiologiset tekniikat','616-093','Mikrobiologiset tekniikat','','','',false,true);
+d.add(68,57,'616-094','<div class="nodetag">616-094</div></span>&nbsp;&nbsp;Mikrobien morfologia','616-094','Mikrobien morfologia','','','',false,true);
+d.add(69,57,'616-095','<div class="nodetag">616-095</div></span>&nbsp;&nbsp;Mikrobien fysiologia','616-095','Mikrobien fysiologia','','','',false,true);
+d.add(70,57,'616-097','<div class="nodetag">616-097</div></span>&nbsp;&nbsp;Immunogeenisyys','616-097','Immunogeenisyys','','','',false,true);
+d.add(71,57,'616-098','<div class="nodetag">616-098</div></span>&nbsp;&nbsp;Mikrobiologinen fysiikka, kemia, aineenvaihdunta, katabolia','616-098','Mikrobiologinen fysiikka, kemia, aineenvaihdunta, katabolia','','','',false,true);
+d.add(72,57,'616-099','<div class="nodetag">616-099</div></span>&nbsp;&nbsp;Myrkytykset. Päihtymys','616-099','Myrkytykset. Päihtymys','','','',false,true);
+d.add(73,46,'616-71/-78','<div class="nodetag">616-71/-78</div></span>&nbsp;&nbsp;Lääketieteellisten ja kirurgisten instrumenttien ja laitteiden erikoislisäluvut','616-71/-78','Lääketieteellisten ja kirurgisten instrumenttien ja laitteiden erikoislisäluvut','','','',false,true);
+d.add(74,73,'616-71','<div class="nodetag">616-71</div></span>&nbsp;&nbsp;Lääketieteelliset välineet ja laitteet yleensä','616-71','Lääketieteelliset välineet ja laitteet yleensä','','','',false,true);
+d.add(75,73,'616-72','<div class="nodetag">616-72</div></span>&nbsp;&nbsp;Kirurgiset ja hoidolliset laitteet','616-72','Kirurgiset ja hoidolliset laitteet','','','',false,true);
+d.add(76,73,'616-74','<div class="nodetag">616-74</div></span>&nbsp;&nbsp;Vahvistavat ja korjaavat materiaalit ja välineet','616-74','Vahvistavat ja korjaavat materiaalit ja välineet','','','',false,true);
+d.add(77,73,'616-76','<div class="nodetag">616-76</div></span>&nbsp;&nbsp;Korjaavat ja suojaavat apuvälineet, apukeinot jne.','616-76','Korjaavat ja suojaavat apuvälineet, apukeinot jne.','','','',false,true);
+d.add(78,73,'616-77','<div class="nodetag">616-77</div></span>&nbsp;&nbsp;Prosteettiset materiaalit ja osat. Keinotekoiset elimet jne.','616-77','Prosteettiset materiaalit ja osat. Keinotekoiset elimet jne.','','','',false,true);
+d.add(79,73,'616-78','<div class="nodetag">616-78</div></span>&nbsp;&nbsp;Koneet ja mekaaniset laitteet','616-78','Koneet ja mekaaniset laitteet','','','',false,true);
+d.add(80,46,'616.1/.9','<div class="nodetag">616.1/.9</div></span>&nbsp;&nbsp;Erityispatologia','616.1/.9','Erityispatologia','','','',false,true);
+d.add(81,80,'616.1','<div class="nodetag">616.1</div></span>&nbsp;&nbsp;Verenkiertoelimistön patologia, verisuonet. Sydän- ja verisuonitaudit','616.1','Verenkiertoelimistön patologia, verisuonet. Sydän- ja verisuonitaudit','','','',false,true);
+d.add(82,80,'616.2','<div class="nodetag">616.2</div></span>&nbsp;&nbsp;Hengityselinten patologia. Hengityselinten taudit','616.2','Hengityselinten patologia. Hengityselinten taudit','','','',false,true);
+d.add(83,80,'616.3','<div class="nodetag">616.3</div></span>&nbsp;&nbsp;Ruoansulatuselimistön patologia. Ruoansulatuselinten taudit','616.3','Ruoansulatuselimistön patologia. Ruoansulatuselinten taudit','','','',false,true);
+d.add(84,83,'616.31','<div class="nodetag">616.31</div></span>&nbsp;&nbsp;Suulääketiede. Suuontelo. Suu. Suun ja hampaiden sairaudet','616.31','Suulääketiede. Suuontelo. Suu. Suun ja hampaiden sairaudet','','','',false,true);
+d.add(85,80,'616.4','<div class="nodetag">616.4</div></span>&nbsp;&nbsp;Imukudosjärjestelmän, verisoluja tuottavien elinten ja endokriininen patologia','616.4','Imukudosjärjestelmän, verisoluja tuottavien elinten ja endokriininen patologia','','','',false,true);
+d.add(86,80,'616.5','<div class="nodetag">616.5</div></span>&nbsp;&nbsp;Iho. Ihovaippa. Dermatologia. Ihotaudit','616.5','Iho. Ihovaippa. Dermatologia. Ihotaudit','','','',false,true);
+d.add(87,80,'616.6','<div class="nodetag">616.6</div></span>&nbsp;&nbsp;Virtsa- ja sukupuolielinten patologia. Virtsateiden ja sukupuolielinten taudit. Urologia','616.6','Virtsa- ja sukupuolielinten patologia. Virtsateiden ja sukupuolielinten taudit. Urologia','','','',false,true);
+d.add(88,80,'616.7','<div class="nodetag">616.7</div></span>&nbsp;&nbsp;Liikuntaelimistön patologia. Tuki- ja liikuntaelimet','616.7','Liikuntaelimistön patologia. Tuki- ja liikuntaelimet','','','',false,true);
+d.add(89,80,'616.8','<div class="nodetag">616.8</div></span>&nbsp;&nbsp;Neurologia. Neuropatologia. Hermosto','616.8','Neurologia. Neuropatologia. Hermosto','','','',false,true);
+d.add(90,89,'616.89','<div class="nodetag">616.89</div></span>&nbsp;&nbsp;Psykiatria. Patologinen psykiatria. Psykopatologia. Psykoosit. Mielenterveyden häriöt. Sairaat mielentilat. Käyttäytymisen ja tunne-elämän häiriöt','616.89','Psykiatria. Patologinen psykiatria. Psykopatologia. Psykoosit. Mielenterveyden häriöt. Sairaat mielentilat. Käyttäytymisen ja tunne-elämän häiriöt','','','',false,true);
+d.add(91,80,'616.9','<div class="nodetag">616.9</div></span>&nbsp;&nbsp;Tartuntataudit. Infektiotaudit, kuumetaudit','616.9','Tartuntataudit. Infektiotaudit, kuumetaudit','','','',false,true);
+d.add(92,7,'617','<div class="nodetag">617</div></span>&nbsp;&nbsp;Kirurgia. Ortopedia. Silmätautioppi','617','Kirurgia. Ortopedia. Silmätautioppi','','','',false,true);
+d.add(93,92,'617.3','<div class="nodetag">617.3</div></span>&nbsp;&nbsp;Ortopedia yleensä','617.3','Ortopedia yleensä','','','',false,true);
+d.add(94,92,'617.7','<div class="nodetag">617.7</div></span>&nbsp;&nbsp;Silmätautioppi. Silmäsairaudet ja niiden hoito','617.7','Silmätautioppi. Silmäsairaudet ja niiden hoito','','','',false,true);
+d.add(95,7,'618','<div class="nodetag">618</div></span>&nbsp;&nbsp;Gynekologia. Synnytysoppi','618','Gynekologia. Synnytysoppi','','','',false,true);
+d.add(96,0,'62','<div class="nodetag">62</div></span>&nbsp;&nbsp;Insinööritaito. Tekniikka yleensä','62','Insinööritaito. Tekniikka yleensä','','','',false,true);
+d.add(97,96,'62-1/-9','<div class="nodetag">62-1/-9</div></span>&nbsp;&nbsp;Erikoislisäluvut tekniikalle yleensä','62-1/-9','Erikoislisäluvut tekniikalle yleensä','','','',false,true);
+d.add(98,97,'62-1','<div class="nodetag">62-1</div></span>&nbsp;&nbsp;Koneiden ja laitteiden yleiset piirteet','62-1','Koneiden ja laitteiden yleiset piirteet','','','',false,true);
+d.add(99,97,'62-2','<div class="nodetag">62-2</div></span>&nbsp;&nbsp;Koneiden ja laitteiden kiinteät ja liikkuvat osat','62-2','Koneiden ja laitteiden kiinteät ja liikkuvat osat','','','',false,true);
+d.add(100,97,'62-3','<div class="nodetag">62-3</div></span>&nbsp;&nbsp;Virtauksen säätelyosat. Venttilit, sulkmet, jne.','62-3','Virtauksen säätelyosat. Venttilit, sulkmet, jne.','','','',false,true);
+d.add(101,97,'62-4','<div class="nodetag">62-4</div></span>&nbsp;&nbsp;Aineiden olotila. Aineiden, pintojen ja esineiden muodot','62-4','Aineiden olotila. Aineiden, pintojen ja esineiden muodot','','','',false,true);
+d.add(102,97,'62-5','<div class="nodetag">62-5</div></span>&nbsp;&nbsp;Koneiden ja prosessien käyttö ja säätely','62-5','Koneiden ja prosessien käyttö ja säätely','','','',false,true);
+d.add(103,97,'62-6','<div class="nodetag">62-6</div></span>&nbsp;&nbsp;Koneiden luokitus lämmönlähteen (polttoaineen) mukaan','62-6','Koneiden luokitus lämmönlähteen (polttoaineen) mukaan','','','',false,true);
+d.add(104,97,'62-7','<div class="nodetag">62-7</div></span>&nbsp;&nbsp;Koneiden käyttö-, hoito- ja huoltolaitteet','62-7','Koneiden käyttö-, hoito- ja huoltolaitteet','','','',false,true);
+d.add(105,97,'62-8','<div class="nodetag">62-8</div></span>&nbsp;&nbsp;Koneiden jaottelu käyttövoiman mukaan. Koneiden energialähteet','62-8','Koneiden jaottelu käyttövoiman mukaan. Koneiden energialähteet','','','',false,true);
+d.add(106,97,'62-9','<div class="nodetag">62-9</div></span>&nbsp;&nbsp;Tuotantoproessien, -laitteiden ja tehtaiden käyttöparametrit ja olosuhteet','62-9','Tuotantoproessien, -laitteiden ja tehtaiden käyttöparametrit ja olosuhteet','','','',false,true);
+d.add(107,106,'62-91','<div class="nodetag">62-91</div></span>&nbsp;&nbsp;Materiaalin tila: ominasuudet ja muuttujat','62-91','Materiaalin tila: ominasuudet ja muuttujat','','','',false,true);
+d.add(108,106,'62-92','<div class="nodetag">62-92</div></span>&nbsp;&nbsp;Reaktiot reagenssien mukaan. Reagenssit','62-92','Reaktiot reagenssien mukaan. Reagenssit','','','',false,true);
+d.add(109,106,'62-93','<div class="nodetag">62-93</div></span>&nbsp;&nbsp;Prosessit, koneet ja laitteet luokiteltuina toimintatavan, jatkuvuuden, yhteyksien ja ympäristön mukaan','62-93','Prosessit, koneet ja laitteet luokiteltuina toimintatavan, jatkuvuuden, yhteyksien ja ympäristön mukaan','','','',false,true);
+d.add(110,106,'62-94','<div class="nodetag">62-94</div></span>&nbsp;&nbsp;Prosessien suunta, nopeus, tahti, kesto jne.','62-94','Prosessien suunta, nopeus, tahti, kesto jne.','','','',false,true);
+d.add(111,106,'62-95','<div class="nodetag">62-95</div></span>&nbsp;&nbsp;Yksinkertaiset ja porrastetut prosessit. Yksivaiheiset ja monivaiheiset prosessit','62-95','Yksinkertaiset ja porrastetut prosessit. Yksivaiheiset ja monivaiheiset prosessit','','','',false,true);
+d.add(112,106,'62-96','<div class="nodetag">62-96</div></span>&nbsp;&nbsp;Prosessit tuotteen muokkaustavan mukaan. Muokkaus yleensä','62-96','Prosessit tuotteen muokkaustavan mukaan. Muokkaus yleensä','','','',false,true);
+d.add(113,106,'62-97','<div class="nodetag">62-97</div></span>&nbsp;&nbsp;Termiset ja termodynaamiset parametrit. Lämpötila. Lämpötila-alue','62-97','Termiset ja termodynaamiset parametrit. Lämpötila. Lämpötila-alue','','','',false,true);
+d.add(114,106,'62-98','<div class="nodetag">62-98</div></span>&nbsp;&nbsp;Paine. Painealue','62-98','Paine. Painealue','','','',false,true);
+d.add(115,96,'620','<div class="nodetag">620</div></span>&nbsp;&nbsp;Aineoppi. Materiaalioppi. Aineenkoetus. Voimalaitokset. Energiatalous','620','Aineoppi. Materiaalioppi. Aineenkoetus. Voimalaitokset. Energiatalous','','','',false,true);
+d.add(116,115,'620.3','<div class="nodetag">620.3</div></span>&nbsp;&nbsp;Nanotekniikka','620.3','Nanotekniikka','','','',false,true);
+d.add(117,115,'620.9','<div class="nodetag">620.9</div></span>&nbsp;&nbsp;Energiatalous','620.9','Energiatalous','','','',false,true);
+d.add(118,96,'621','<div class="nodetag">621</div></span>&nbsp;&nbsp;Konetekniikka yleensä. Ydintekniikka. Sähkötekniikka. Koneet','621','Konetekniikka yleensä. Ydintekniikka. Sähkötekniikka. Koneet','','','',false,true);
+d.add(119,118,'621.1','<div class="nodetag">621.1</div></span>&nbsp;&nbsp;Lämpövoima. Höyryn tuotanto, jakelu ja käyttö. Höyrykoneet. Lämmityskattilat','621.1','Lämpövoima. Höyryn tuotanto, jakelu ja käyttö. Höyrykoneet. Lämmityskattilat','','','',false,true);
+d.add(120,118,'621.22','<div class="nodetag">621.22</div></span>&nbsp;&nbsp;Hydraulinen energia. Vesivoima. Hydrauliset koneet','621.22','Hydraulinen energia. Vesivoima. Hydrauliset koneet','','','',false,true);
+d.add(121,118,'621.3','<div class="nodetag">621.3</div></span>&nbsp;&nbsp;Sähkötekniikka','621.3','Sähkötekniikka','','','',false,true);
+d.add(122,118,'621.4','<div class="nodetag">621.4</div></span>&nbsp;&nbsp;Lämpövoimakoneet (patsi höyrkoneet)','621.4','Lämpövoimakoneet (patsi höyrkoneet)','','','',false,true);
+d.add(123,118,'621.5','<div class="nodetag">621.5</div></span>&nbsp;&nbsp;Paineilmaenergia ja -koneet. Jäähdytys','621.5','Paineilmaenergia ja -koneet. Jäähdytys','','','',false,true);
+d.add(124,118,'621.6','<div class="nodetag">621.6</div></span>&nbsp;&nbsp;Nesteiden käsittely-, varastonti- ja jakelutekniikka','621.6','Nesteiden käsittely-, varastonti- ja jakelutekniikka','','','',false,true);
+d.add(125,118,'621.7','<div class="nodetag">621.7</div></span>&nbsp;&nbsp;mekaaninen teknologia yleensä: prosessit, työkalut, koneet, laitteet','621.7','mekaaninen teknologia yleensä: prosessit, työkalut, koneet, laitteet','','','',false,true);
+d.add(126,118,'621.8','<div class="nodetag">621.8</div></span>&nbsp;&nbsp;Kone-elimet. Käyttövoimatekniikka. Materiaalinkäsittely. Lisätarvikkeet. Voitelu','621.8','Kone-elimet. Käyttövoimatekniikka. Materiaalinkäsittely. Lisätarvikkeet. Voitelu','','','',false,true);
+d.add(127,118,'621.9','<div class="nodetag">621.9</div></span>&nbsp;&nbsp;Lastuava työstö. Hionta. Vasarat ja prässit','621.9','Lastuava työstö. Hionta. Vasarat ja prässit','','','',false,true);
+d.add(128,96,'622','<div class="nodetag">622</div></span>&nbsp;&nbsp;Kaivostekniikka','622','Kaivostekniikka','','','',false,true);
+d.add(129,128,'622.1','<div class="nodetag">622.1</div></span>&nbsp;&nbsp;Esitutkinta. Kaivosmittaus ja -kartoitus. Malminetsintä (maan pinnalla ja alla)','622.1','Esitutkinta. Kaivosmittaus ja -kartoitus. Malminetsintä (maan pinnalla ja alla)','','','',false,true);
+d.add(130,128,'622.2','<div class="nodetag">622.2</div></span>&nbsp;&nbsp;Vuoriteollisuus. Mineraalilöydösten etsintä, avaaminen, kehitys, käyttöönotto ja louhinta','622.2','Vuoriteollisuus. Mineraalilöydösten etsintä, avaaminen, kehitys, käyttöönotto ja louhinta','','','',false,true);
+d.add(131,128,'622.3','<div class="nodetag">622.3</div></span>&nbsp;&nbsp;Eri vuorityöhaarat, mukaan luettuina kivenlouhimot, hiekkakuopat jne.','622.3','Eri vuorityöhaarat, mukaan luettuina kivenlouhimot, hiekkakuopat jne.','','','',false,true);
+d.add(132,128,'622.4','<div class="nodetag">622.4</div></span>&nbsp;&nbsp;Kaivosten tuuletus, ilmastointi, lämmitys ja valaistus','622.4','Kaivosten tuuletus, ilmastointi, lämmitys ja valaistus','','','',false,true);
+d.add(133,128,'622.5','<div class="nodetag">622.5</div></span>&nbsp;&nbsp;Kaivosvesi. Veden poisto kaivoksesta','622.5','Kaivosvesi. Veden poisto kaivoksesta','','','',false,true);
+d.add(134,128,'622.6','<div class="nodetag">622.6</div></span>&nbsp;&nbsp;Kuljetus ja käsittely. Malmien nosto. Maanpäällinen kuljetus','622.6','Kuljetus ja käsittely. Malmien nosto. Maanpäällinen kuljetus','','','',false,true);
+d.add(135,128,'622.7','<div class="nodetag">622.7</div></span>&nbsp;&nbsp;Raakamateriaalin käsittely. Rikastus. Mineraalien lajittelu','622.7','Raakamateriaalin käsittely. Rikastus. Mineraalien lajittelu','','','',false,true);
+d.add(136,128,'622.8','<div class="nodetag">622.8</div></span>&nbsp;&nbsp;Kaivosonettomuudet, tapaturmat kaivoksissa. Työsuojelu ja -turvallisuus kaivoksissa','622.8','Kaivosonettomuudet, tapaturmat kaivoksissa. Työsuojelu ja -turvallisuus kaivoksissa','','','',false,true);
+d.add(137,96,'623','<div class="nodetag">623</div></span>&nbsp;&nbsp;Sotatekniikka','623','Sotatekniikka','','','',false,true);
+d.add(138,137,'623.1/.7','<div class="nodetag">623.1/.7</div></span>&nbsp;&nbsp;Maasotatekniikka. Tykistö','623.1/.7','Maasotatekniikka. Tykistö','','','',false,true);
+d.add(139,138,'623.1/.3','<div class="nodetag">623.1/.3</div></span>&nbsp;&nbsp;Kenttälinnoittaminen. Linnoitteet. Puolustuslaitteet','623.1/.3','Kenttälinnoittaminen. Linnoitteet. Puolustuslaitteet','','','',false,true);
+d.add(140,139,'623.1','<div class="nodetag">623.1</div></span>&nbsp;&nbsp;Linnoitukset. Kantalinnoitteet. Vahvistetut puolustuslinjat ja -alueet','623.1','Linnoitukset. Kantalinnoitteet. Vahvistetut puolustuslinjat ja -alueet','','','',false,true);
+d.add(141,139,'623.2','<div class="nodetag">623.2</div></span>&nbsp;&nbsp;Hyökkäys- ja puolustusrakennelmat yleensä. Piiritysrakennelmat. Kenttälinnoitteet. Juoksuhaudat','623.2','Hyökkäys- ja puolustusrakennelmat yleensä. Piiritysrakennelmat. Kenttälinnoitteet. Juoksuhaudat','','','',false,true);
+d.add(142,139,'623.3','<div class="nodetag">623.3</div></span>&nbsp;&nbsp;Miinakentät. Kenttäesteet. Tulvittaminen','623.3','Miinakentät. Kenttäesteet. Tulvittaminen','','','',false,true);
+d.add(143,138,'623.4','<div class="nodetag">623.4</div></span>&nbsp;&nbsp;Asevarustelu. Sotamateriaali. Aseistus. Aseet. Tykit. Tykistö. Käsiaseet. Pistoolit. Panssaroidut ja muut sotilasajoneuvot. Apumatarvikkeet ja taistelukaasut. Ohjukset ja raketit','623.4','Asevarustelu. Sotamateriaali. Aseistus. Aseet. Tykit. Tykistö. Käsiaseet. Pistoolit. Panssaroidut ja muut sotilasajoneuvot. Apumatarvikkeet ja taistelukaasut. Ohjukset ja raketit','','','',false,true);
+d.add(144,138,'623.5','<div class="nodetag">623.5</div></span>&nbsp;&nbsp;Ballistiikka. Ammunta. Teoreettiset ja kokeelliset kysymykset','623.5','Ballistiikka. Ammunta. Teoreettiset ja kokeelliset kysymykset','','','',false,true);
+d.add(145,138,'623.6','<div class="nodetag">623.6</div></span>&nbsp;&nbsp;Pioneeritoiminnan välineet ja toiminta. Huoltoyhteydet. Tutkahäirintä. Sotilaskartoitus','623.6','Pioneeritoiminnan välineet ja toiminta. Huoltoyhteydet. Tutkahäirintä. Sotilaskartoitus','','','',false,true);
+d.add(146,138,'623.7','<div class="nodetag">623.7</div></span>&nbsp;&nbsp;Sotilasilmailu, merivoimien ilmailu. Ilmapuolustus','623.7','Sotilasilmailu, merivoimien ilmailu. Ilmapuolustus','','','',false,true);
+d.add(147,137,'623.8/.9','<div class="nodetag">623.8/.9</div></span>&nbsp;&nbsp;Merisotatekniikka','623.8/.9','Merisotatekniikka','','','',false,true);
+d.add(148,147,'623.8','<div class="nodetag">623.8</div></span>&nbsp;&nbsp;Laivanrakennus. Laivastotukikohdat. Taistelulaivat ja muut sotalaivat','623.8','Laivanrakennus. Laivastotukikohdat. Taistelulaivat ja muut sotalaivat','','','',false,true);
+d.add(149,147,'623.9','<div class="nodetag">623.9</div></span>&nbsp;&nbsp;Sotalaivaston materiaali ja laitteet. Laivaston aseistus ja suojaus. Sukellusveneiden torjunta','623.9','Sotalaivaston materiaali ja laitteet. Laivaston aseistus ja suojaus. Sukellusveneiden torjunta','','','',false,true);
+d.add(150,96,'624','<div class="nodetag">624</div></span>&nbsp;&nbsp;Rakennustekniikka yleensä. Rakennusstatiikka.','624','Rakennustekniikka yleensä. Rakennusstatiikka.','','','',false,true);
+d.add(151,150,'624.01/.07','<div class="nodetag">624.01/.07</div></span>&nbsp;&nbsp;Rakennustekniikan erityislisäluvut','624.01/.07','Rakennustekniikan erityislisäluvut','','','',false,true);
+d.add(152,151,'624.01','<div class="nodetag">624.01</div></span>&nbsp;&nbsp;Rakennelmat ja rakennusosat valmistusmateriaalin ja rakennustavan mukaan','624.01','Rakennelmat ja rakennusosat valmistusmateriaalin ja rakennustavan mukaan','','','',false,true);
+d.add(153,151,'624.03','<div class="nodetag">624.03</div></span>&nbsp;&nbsp;Rakennelmien koko, kestävyys, sijainti ja muoto','624.03','Rakennelmien koko, kestävyys, sijainti ja muoto','','','',false,true);
+d.add(154,151,'624.04','<div class="nodetag">624.04</div></span>&nbsp;&nbsp;Rakennesuunnittelu. Rakenteiden statiikka. Kuormien ja jännitysten laskenta','624.04','Rakennesuunnittelu. Rakenteiden statiikka. Kuormien ja jännitysten laskenta','','','',false,true);
+d.add(155,151,'624.05','<div class="nodetag">624.05</div></span>&nbsp;&nbsp;Rakennustyömaan sijainti ja työmaan yleisjärjestely. Rakennusmenetelmät','624.05','Rakennustyömaan sijainti ja työmaan yleisjärjestely. Rakennusmenetelmät','','','',false,true);
+d.add(156,151,'624.07','<div class="nodetag">624.07</div></span>&nbsp;&nbsp;Rakenteiden mekaniikka. Kantavat rakenteet','624.07','Rakenteiden mekaniikka. Kantavat rakenteet','','','',false,true);
+d.add(157,150,'624.1','<div class="nodetag">624.1</div></span>&nbsp;&nbsp;Maanalaiset rakenteet. Maarakennus. Perustukset. Tunnelirakennus. (Geotekniikka. Rakennusgeologia. Kalliorakennus)','624.1','Maanalaiset rakenteet. Maarakennus. Perustukset. Tunnelirakennus. (Geotekniikka. Rakennusgeologia. Kalliorakennus)','','','',false,true);
+d.add(158,150,'624.21/.8','<div class="nodetag">624.21/.8</div></span>&nbsp;&nbsp;Sillanrakennus','624.21/.8','Sillanrakennus','','','',false,true);
+d.add(159,158,'624.3','<div class="nodetag">624.3</div></span>&nbsp;&nbsp;Ristikkosillat (kaideansassillat, ristikkopalkkisillat)','624.3','Ristikkosillat (kaideansassillat, ristikkopalkkisillat)','','','',false,true);
+d.add(160,158,'624.5','<div class="nodetag">624.5</div></span>&nbsp;&nbsp;Vinoköysisillat. Riippusillat','624.5','Vinoköysisillat. Riippusillat','','','',false,true);
+d.add(161,158,'624.6','<div class="nodetag">624.6</div></span>&nbsp;&nbsp;Holvisillat','624.6','Holvisillat','','','',false,true);
+d.add(162,158,'624.8','<div class="nodetag">624.8</div></span>&nbsp;&nbsp;Avattavat sillat','624.8','Avattavat sillat','','','',false,true);
+d.add(163,150,'624.9','<div class="nodetag">624.9</div></span>&nbsp;&nbsp;Maanpäälliset rakenteeet (paitsi sillat). Rakennusrungot','624.9','Maanpäälliset rakenteeet (paitsi sillat). Rakennusrungot','','','',false,true);
+d.add(164,96,'625','<div class="nodetag">625</div></span>&nbsp;&nbsp;Maaliikenneväylien yhdyskuntatekniikka. Raideliikenneväylien tekniikka. Tienrakennus','625','Maaliikenneväylien yhdyskuntatekniikka. Raideliikenneväylien tekniikka. Tienrakennus','','','',false,true);
+d.add(165,164,'625.1/.5','<div class="nodetag">625.1/.5</div></span>&nbsp;&nbsp;Rautatiet. Raitiotiet. Köysiradat','625.1/.5','Rautatiet. Raitiotiet. Köysiradat','','','',false,true);
+d.add(166,165,'625.1','<div class="nodetag">625.1</div></span>&nbsp;&nbsp;Rautatiet yleensä. Junaradat. Radanrakennus','625.1','Rautatiet yleensä. Junaradat. Radanrakennus','','','',false,true);
+d.add(167,165,'625.5','<div class="nodetag">625.5</div></span>&nbsp;&nbsp;Kiskoköysiradat. Funikulaarit. Riippuradat. Köysiradat ja kaapelijunat. Gondolihissit','625.5','Kiskoköysiradat. Funikulaarit. Riippuradat. Köysiradat ja kaapelijunat. Gondolihissit','','','',false,true);
+d.add(168,164,'625.7/.8','<div class="nodetag">625.7/.8</div></span>&nbsp;&nbsp;Tienrakennus (kadunrakennus)','625.7/.8','Tienrakennus (kadunrakennus)','','','',false,true);
+d.add(169,168,'625.7','<div class="nodetag">625.7</div></span>&nbsp;&nbsp;Valtatiet yleensä. Tiet. Ajoradat. Kadut. Maaseudun ja kaupunkien tieverkko','625.7','Valtatiet yleensä. Tiet. Ajoradat. Kadut. Maaseudun ja kaupunkien tieverkko','','','',false,true);
+d.add(170,168,'625.8','<div class="nodetag">625.8</div></span>&nbsp;&nbsp;Valtateiden pintamateriaali. Päällyste, kulutuspinta. Päällysteiden valmistus ja käyttö','625.8','Valtateiden pintamateriaali. Päällyste, kulutuspinta. Päällysteiden valmistus ja käyttö','','','',false,true);
+d.add(171,96,'626/627','<div class="nodetag">626/627</div></span>&nbsp;&nbsp;Vesirakennus. Vesirakenteet','626/627','Vesirakennus. Vesirakenteet','','','',false,true);
+d.add(172,171,'626','<div class="nodetag">626</div></span>&nbsp;&nbsp;Vesirakennus yleensä','626','Vesirakennus yleensä','','','',false,true);
+d.add(173,172,'626.1','<div class="nodetag">626.1</div></span>&nbsp;&nbsp;Sisävesiväylät. Kanavat. Kanavoidut joet','626.1','Sisävesiväylät. Kanavat. Kanavoidut joet','','','',false,true);
+d.add(174,172,'626.4','<div class="nodetag">626.4</div></span>&nbsp;&nbsp;Sulut','626.4','Sulut','','','',false,true);
+d.add(175,172,'626.5','<div class="nodetag">626.5</div></span>&nbsp;&nbsp;Laivannostolaitteet ja luiskat','626.5','Laivannostolaitteet ja luiskat','','','',false,true);
+d.add(176,172,'626.8','<div class="nodetag">626.8</div></span>&nbsp;&nbsp;Maatalouden vesirakennus. Kastelu- ja kuivatustekniikka','626.8','Maatalouden vesirakennus. Kastelu- ja kuivatustekniikka','','','',false,true);
+d.add(177,172,'626.9','<div class="nodetag">626.9</div></span>&nbsp;&nbsp;Merikanavat. Muut suuret kanavat','626.9','Merikanavat. Muut suuret kanavat','','','',false,true);
+d.add(178,171,'627','<div class="nodetag">627</div></span>&nbsp;&nbsp;Vesiväylien ja satamien rakentaminen. Ruoppaus. Padot ja vesivoimalaitokset','627','Vesiväylien ja satamien rakentaminen. Ruoppaus. Padot ja vesivoimalaitokset','','','',false,true);
+d.add(179,178,'627.2','<div class="nodetag">627.2</div></span>&nbsp;&nbsp;Satamat, luonnonsatamat ja redit: suunnittelu ja rakentaminen yleensä','627.2','Satamat, luonnonsatamat ja redit: suunnittelu ja rakentaminen yleensä','','','',false,true);
+d.add(180,178,'627.3','<div class="nodetag">627.3</div></span>&nbsp;&nbsp;Satamainfrastruktuuri. Redit. Laiturit. Satamalaiturit. Satamalaitteet','627.3','Satamainfrastruktuuri. Redit. Laiturit. Satamalaiturit. Satamalaitteet','','','',false,true);
+d.add(181,178,'627.4','<div class="nodetag">627.4</div></span>&nbsp;&nbsp;Rannikon ja rantapenkereiden suojaaminen. Jokien ja virtojen oikaisu. Muut vesirakennustyöt','627.4','Rannikon ja rantapenkereiden suojaaminen. Jokien ja virtojen oikaisu. Muut vesirakennustyöt','','','',false,true);
+d.add(182,178,'627.5','<div class="nodetag">627.5</div></span>&nbsp;&nbsp;Muut vesiväylien suojaamiseksi ja parantamiseksi tehdyt rakenteet. Rantavallit. Rannikonhoito. Ojitus ja uudisraivaus','627.5','Muut vesiväylien suojaamiseksi ja parantamiseksi tehdyt rakenteet. Rantavallit. Rannikonhoito. Ojitus ja uudisraivaus','','','',false,true);
+d.add(183,178,'627.7','<div class="nodetag">627.7</div></span>&nbsp;&nbsp;Väylämerkinnät. Väylien kunnossapito. Meripelastuspalvelut','627.7','Väylämerkinnät. Väylien kunnossapito. Meripelastuspalvelut','','','',false,true);
+d.add(184,178,'627.8','<div class="nodetag">627.8</div></span>&nbsp;&nbsp;Voimalaitospadot. Vesivoimalat','627.8','Voimalaitospadot. Vesivoimalat','','','',false,true);
+d.add(185,96,'628','<div class="nodetag">628</div></span>&nbsp;&nbsp;Kunnallistekniikka. Vesihuolto. Puhtaanapito. Valaistustekniikka. Ympäristönsuojelutekniikka','628','Kunnallistekniikka. Vesihuolto. Puhtaanapito. Valaistustekniikka. Ympäristönsuojelutekniikka','','','',false,true);
+d.add(186,185,'628.1','<div class="nodetag">628.1</div></span>&nbsp;&nbsp;Vedenhankinta. Käyttöveden käsittely. Veden tarve ja kulutus','628.1','Vedenhankinta. Käyttöveden käsittely. Veden tarve ja kulutus','','','',false,true);
+d.add(187,185,'628.2','<div class="nodetag">628.2</div></span>&nbsp;&nbsp;Jäteveden poisjohtaminen. Erillisviemäröinti. Viemäröinti','628.2','Jäteveden poisjohtaminen. Erillisviemäröinti. Viemäröinti','','','',false,true);
+d.add(188,185,'628.3','<div class="nodetag">628.3</div></span>&nbsp;&nbsp;Jätevesi. Jäteveden käsittely ja uudelleenkäyttö','628.3','Jätevesi. Jäteveden käsittely ja uudelleenkäyttö','','','',false,true);
+d.add(189,185,'628.4','<div class="nodetag">628.4</div></span>&nbsp;&nbsp;Jätehuolto. Kiinteiden jätteiden käsittely. Roskat. Kierrätys','628.4','Jätehuolto. Kiinteiden jätteiden käsittely. Roskat. Kierrätys','','','',false,true);
+d.add(190,185,'628.5','<div class="nodetag">628.5</div></span>&nbsp;&nbsp;Toimenpiteet erilaisia haittoja ja vahingonaiheuttajia vastaan','628.5','Toimenpiteet erilaisia haittoja ja vahingonaiheuttajia vastaan','','','',false,true);
+d.add(191,185,'628.6','<div class="nodetag">628.6</div></span>&nbsp;&nbsp;Rakennusten jätevesikysymykset ja saniteettitekniikka (erityisesti julkisen terveydenhoidon kannalta)','628.6','Rakennusten jätevesikysymykset ja saniteettitekniikka (erityisesti julkisen terveydenhoidon kannalta)','','','',false,true);
+d.add(192,185,'628.8','<div class="nodetag">628.8</div></span>&nbsp;&nbsp;Huoneilma. Ilmastointitekniikka. Lämmitys ja jäähdytys. Tuuletus','628.8','Huoneilma. Ilmastointitekniikka. Lämmitys ja jäähdytys. Tuuletus','','','',false,true);
+d.add(193,185,'628.9','<div class="nodetag">628.9</div></span>&nbsp;&nbsp;Valaistustekniikka','628.9','Valaistustekniikka','','','',false,true);
+d.add(194,96,'629','<div class="nodetag">629</div></span>&nbsp;&nbsp;Liikennevälinetekniikka','629','Liikennevälinetekniikka','','','',false,true);
+d.add(195,194,'629.01/.08','<div class="nodetag">629.01/.08</div></span>&nbsp;&nbsp;Liikennevälinetekniikan erityislisäluvut','629.01/.08','Liikennevälinetekniikan erityislisäluvut','','','',false,true);
+d.add(196,195,'629.01','<div class="nodetag">629.01</div></span>&nbsp;&nbsp;Kulkuneuvojen suunnitteluperiaatteet: ominaisuudet, kyvykkyys, testit','629.01','Kulkuneuvojen suunnitteluperiaatteet: ominaisuudet, kyvykkyys, testit','','','',false,true);
+d.add(197,195,'629.02','<div class="nodetag">629.02</div></span>&nbsp;&nbsp;Kulkuneuvojen rakenne, rakennusperiaatteet, yleinen rakenne ja osat','629.02','Kulkuneuvojen rakenne, rakennusperiaatteet, yleinen rakenne ja osat','','','',false,true);
+d.add(198,195,'629.03','<div class="nodetag">629.03</div></span>&nbsp;&nbsp;Propulsiomenetelmät','629.03','Propulsiomenetelmät','','','',false,true);
+d.add(199,195,'629.04','<div class="nodetag">629.04</div></span>&nbsp;&nbsp;Kulkuneuvojen sisustus: majoitustilat, asennus, laitteet henkilöille ja tavaroille','629.04','Kulkuneuvojen sisustus: majoitustilat, asennus, laitteet henkilöille ja tavaroille','','','',false,true);
+d.add(200,195,'629.05','<div class="nodetag">629.05</div></span>&nbsp;&nbsp;Kulkuneuvojen kontrolli- ja navigointilaitteet','629.05','Kulkuneuvojen kontrolli- ja navigointilaitteet','','','',false,true);
+d.add(201,195,'629.06','<div class="nodetag">629.06</div></span>&nbsp;&nbsp;Kulkuneuvojen apulaitteet','629.06','Kulkuneuvojen apulaitteet','','','',false,true);
+d.add(202,195,'629.07','<div class="nodetag">629.07</div></span>&nbsp;&nbsp;Kulkuneuvojen käyttötekniikka','629.07','Kulkuneuvojen käyttötekniikka','','','',false,true);
+d.add(203,195,'629.08','<div class="nodetag">629.08</div></span>&nbsp;&nbsp;Peruslatteet, asennus ja vastaavat prosessit','629.08','Peruslatteet, asennus ja vastaavat prosessit','','','',false,true);
+d.add(204,194,'629.3','<div class="nodetag">629.3</div></span>&nbsp;&nbsp;Maakulkuneuvot (pois lukien raideliikenne)','629.3','Maakulkuneuvot (pois lukien raideliikenne)','','','',false,true);
+d.add(205,194,'629.4','<div class="nodetag">629.4</div></span>&nbsp;&nbsp;Raidekulkuneuvot tekniikka. Veturit. Rautatiekalusto. Ratapihat. Rautatiekaluston huolto ja palvelut','629.4','Raidekulkuneuvot tekniikka. Veturit. Rautatiekalusto. Ratapihat. Rautatiekaluston huolto ja palvelut','','','',false,true);
+d.add(206,194,'629.5','<div class="nodetag">629.5</div></span>&nbsp;&nbsp;Vesikulkuneuvotekniikka. Laivanrakennus. Veneet. Laivat. Veneenrakennus ja laivanrakennus','629.5','Vesikulkuneuvotekniikka. Laivanrakennus. Veneet. Laivat. Veneenrakennus ja laivanrakennus','','','',false,true);
+d.add(207,194,'629.7','<div class="nodetag">629.7</div></span>&nbsp;&nbsp;Lentokone- ja avaruustekniikka. Ilmailu ja ilmakulkuneuvot. Raketit ja ohjukset. Astronautikka ja avaruusalukset','629.7','Lentokone- ja avaruustekniikka. Ilmailu ja ilmakulkuneuvot. Raketit ja ohjukset. Astronautikka ja avaruusalukset','','','',false,true);
+d.add(208,0,'63','<div class="nodetag">63</div></span>&nbsp;&nbsp;Maatalous ja siihen liittyvät tieteet ja tekniikat. Metsätalous. Maanviljely. Luonnonvaraisten eläinten hyödyntäminen','63','Maatalous ja siihen liittyvät tieteet ja tekniikat. Metsätalous. Maanviljely. Luonnonvaraisten eläinten hyödyntäminen','','','',false,true);
+d.add(209,208,'630','<div class="nodetag">630</div></span>&nbsp;&nbsp;Metsätalous','630','Metsätalous','','','',false,true);
+d.add(210,209,'630*0','<div class="nodetag">630*0</div></span>&nbsp;&nbsp;Metsät, metsätalous ja metsätuotteiden käyttö','630*0','Metsät, metsätalous ja metsätuotteiden käyttö','','','',false,true);
+d.add(211,209,'630*1','<div class="nodetag">630*1</div></span>&nbsp;&nbsp;Ympäristötekijät. Metsäbiologia','630*1','Ympäristötekijät. Metsäbiologia','','','',false,true);
+d.add(212,209,'630*2','<div class="nodetag">630*2</div></span>&nbsp;&nbsp;Metsänhoito','630*2','Metsänhoito','','','',false,true);
+d.add(213,209,'630*3','<div class="nodetag">630*3</div></span>&nbsp;&nbsp;Metsätyö (työntutkimus). Puunkorjuu: hakkuu ja kuljetus. Metsäteknologia','630*3','Metsätyö (työntutkimus). Puunkorjuu: hakkuu ja kuljetus. Metsäteknologia','','','',false,true);
+d.add(214,209,'630*4','<div class="nodetag">630*4</div></span>&nbsp;&nbsp;Metsätuhot ja metsänsuojelu','630*4','Metsätuhot ja metsänsuojelu','','','',false,true);
+d.add(215,209,'630*5','<div class="nodetag">630*5</div></span>&nbsp;&nbsp;Metsänarvioiminen. Puutavaran mittaus. Metsiköiden kasvu, kehitys ja rakenne. Maanmittaus ja kartoitus','630*5','Metsänarvioiminen. Puutavaran mittaus. Metsiköiden kasvu, kehitys ja rakenne. Maanmittaus ja kartoitus','','','',false,true);
+d.add(216,209,'630*6','<div class="nodetag">630*6</div></span>&nbsp;&nbsp;Metsätalouden suunnittelu. Metsäekonomia. Metsätalouden hallinto ja organisaatio','630*6','Metsätalouden suunnittelu. Metsäekonomia. Metsätalouden hallinto ja organisaatio','','','',false,true);
+d.add(217,209,'630*7','<div class="nodetag">630*7</div></span>&nbsp;&nbsp;Metsäntuotteiden markkinointi. Kuljetustalous ja metsä- ja puuteollisuuden talous','630*7','Metsäntuotteiden markkinointi. Kuljetustalous ja metsä- ja puuteollisuuden talous','','','',false,true);
+d.add(218,209,'630*8','<div class="nodetag">630*8</div></span>&nbsp;&nbsp;Metsätuotteet ja niiden käyttö','630*8','Metsätuotteet ja niiden käyttö','','','',false,true);
+d.add(219,209,'630*9','<div class="nodetag">630*9</div></span>&nbsp;&nbsp;Metsät ja metsätalous kansantaloudelliselta ja yhteiskunnalliselta kannalta. (Metsänomistus. Metsäpolitiikka)','630*9','Metsät ja metsätalous kansantaloudelliselta ja yhteiskunnalliselta kannalta. (Metsänomistus. Metsäpolitiikka)','','','',false,true);
+d.add(220,208,'631/635','<div class="nodetag">631/635</div></span>&nbsp;&nbsp;Maatilatalous. Maatalous. Puutarhanhoito','631/635','Maatilatalous. Maatalous. Puutarhanhoito','','','',false,true);
+d.add(221,220,'631','<div class="nodetag">631</div></span>&nbsp;&nbsp;Maatalous yleisesti','631','Maatalous yleisesti','','','',false,true);
+d.add(222,221,'631.1','<div class="nodetag">631.1</div></span>&nbsp;&nbsp;Maatilan hoito ja organisointi (maatalousekonomia)','631.1','Maatilan hoito ja organisointi (maatalousekonomia)','','','',false,true);
+d.add(223,221,'631.2','<div class="nodetag">631.2</div></span>&nbsp;&nbsp;Maatalousrakennukset, -rakenteet ja -laitokset. Rakennukset eläimiä, tuotteita, koneita ja laitteita varten','631.2','Maatalousrakennukset, -rakenteet ja -laitokset. Rakennukset eläimiä, tuotteita, koneita ja laitteita varten','','','',false,true);
+d.add(224,221,'631.3','<div class="nodetag">631.3</div></span>&nbsp;&nbsp;Maatalouskoneet, -välineet ja -laitteet','631.3','Maatalouskoneet, -välineet ja -laitteet','','','',false,true);
+d.add(225,221,'631.4','<div class="nodetag">631.4</div></span>&nbsp;&nbsp;Maaperätiede. Maantutkimus','631.4','Maaperätiede. Maantutkimus','','','',false,true);
+d.add(226,221,'631.5','<div class="nodetag">631.5</div></span>&nbsp;&nbsp;Maatalouden toiminta','631.5','Maatalouden toiminta','','','',false,true);
+d.add(227,221,'631.6','<div class="nodetag">631.6</div></span>&nbsp;&nbsp;Maaseudun suunnittelu','631.6','Maaseudun suunnittelu','','','',false,true);
+d.add(228,221,'631.8','<div class="nodetag">631.8</div></span>&nbsp;&nbsp;Lannoitteet, lanta, maanparannus. Kasvun edistäminen. Kasvinravitsemus','631.8','Lannoitteet, lanta, maanparannus. Kasvun edistäminen. Kasvinravitsemus','','','',false,true);
+d.add(229,220,'632','<div class="nodetag">632</div></span>&nbsp;&nbsp;Kasvivauriot. Kasvitaudit. Kasvituholaiset. Rikkakasvit. Kasvinsuojelu','632','Kasvivauriot. Kasvitaudit. Kasvituholaiset. Rikkakasvit. Kasvinsuojelu','','','',false,true);
+d.add(230,220,'633/635','<div class="nodetag">633/635</div></span>&nbsp;&nbsp;Puutarhanhoito yleisesti. Erityiset kasvit','633/635','Puutarhanhoito yleisesti. Erityiset kasvit','','','',false,true);
+d.add(231,230,'633','<div class="nodetag">633</div></span>&nbsp;&nbsp;Kasvinviljely ja tuotanto','633','Kasvinviljely ja tuotanto','','','',false,true);
+d.add(232,231,'633.1','<div class="nodetag">633.1</div></span>&nbsp;&nbsp;Viljakasvit','633.1','Viljakasvit','','','',false,true);
+d.add(233,231,'633.2','<div class="nodetag">633.2</div></span>&nbsp;&nbsp;Nurmiheinäkasvit','633.2','Nurmiheinäkasvit','','','',false,true);
+d.add(234,231,'633.3','<div class="nodetag">633.3</div></span>&nbsp;&nbsp;Rehukasvit paitsi ruoho','633.3','Rehukasvit paitsi ruoho','','','',false,true);
+d.add(235,231,'633.4','<div class="nodetag">633.4</div></span>&nbsp;&nbsp;Juurikasvit. Mukulakasvit. Juurekset','633.4','Juurikasvit. Mukulakasvit. Juurekset','','','',false,true);
+d.add(236,231,'633.5','<div class="nodetag">633.5</div></span>&nbsp;&nbsp;Tesktiilikuitukasvit','633.5','Tesktiilikuitukasvit','','','',false,true);
+d.add(237,231,'633.6','<div class="nodetag">633.6</div></span>&nbsp;&nbsp;Sokeri- ja tärkkelyskasvit','633.6','Sokeri- ja tärkkelyskasvit','','','',false,true);
+d.add(238,231,'633.7','<div class="nodetag">633.7</div></span>&nbsp;&nbsp;Nautintoainekasvit. Juomakasvit','633.7','Nautintoainekasvit. Juomakasvit','','','',false,true);
+d.add(239,231,'633.8','<div class="nodetag">633.8</div></span>&nbsp;&nbsp;Hajuainekasvit. Maustekasvit. Öljykasvit. Väriainekasvit. Parkkiainekasvit. Lääkekasvit','633.8','Hajuainekasvit. Maustekasvit. Öljykasvit. Väriainekasvit. Parkkiainekasvit. Lääkekasvit','','','',false,true);
+d.add(240,231,'633.9','<div class="nodetag">633.9</div></span>&nbsp;&nbsp;Muut teollisuuskasvit','633.9','Muut teollisuuskasvit','','','',false,true);
+d.add(241,230,'634','<div class="nodetag">634</div></span>&nbsp;&nbsp;Hedelmänviljely. Marjanviljely','634','Hedelmänviljely. Marjanviljely','','','',false,true);
+d.add(242,241,'634.2','<div class="nodetag">634.2</div></span>&nbsp;&nbsp;Luuhedelmät. Luumarjat yleensä','634.2','Luuhedelmät. Luumarjat yleensä','','','',false,true);
+d.add(243,241,'634.3','<div class="nodetag">634.3</div></span>&nbsp;&nbsp;Sitrushedelmät. Moraceae','634.3','Sitrushedelmät. Moraceae','','','',false,true);
+d.add(244,241,'634.4','<div class="nodetag">634.4</div></span>&nbsp;&nbsp;Muut mehevät hedelmät ja palkohedelmät','634.4','Muut mehevät hedelmät ja palkohedelmät','','','',false,true);
+d.add(245,241,'634.5','<div class="nodetag">634.5</div></span>&nbsp;&nbsp;Pähkinät','634.5','Pähkinät','','','',false,true);
+d.add(246,241,'634.6','<div class="nodetag">634.6</div></span>&nbsp;&nbsp;Erilaisia ​​trooppisia ja subtrooppisia hedelmiä','634.6','Erilaisia ​​trooppisia ja subtrooppisia hedelmiä','','','',false,true);
+d.add(247,241,'634.7','<div class="nodetag">634.7</div></span>&nbsp;&nbsp;Marjakasvit','634.7','Marjakasvit','','','',false,true);
+d.add(248,241,'634.8','<div class="nodetag">634.8</div></span>&nbsp;&nbsp;Viininviljely. Rypälekasvit. Viininviljely alueittain','634.8','Viininviljely. Rypälekasvit. Viininviljely alueittain','','','',false,true);
+d.add(249,230,'635','<div class="nodetag">635</div></span>&nbsp;&nbsp;Vihannesviljely. Koristepuutarhat','635','Vihannesviljely. Koristepuutarhat','','','',false,true);
+d.add(250,249,'635.1/.8','<div class="nodetag">635.1/.8</div></span>&nbsp;&nbsp;Vihannekset. Vihannesviljely','635.1/.8','Vihannekset. Vihannesviljely','','','',false,true);
+d.add(251,250,'635.1','<div class="nodetag">635.1</div></span>&nbsp;&nbsp;Juuri- ja mukulavihannekset','635.1','Juuri- ja mukulavihannekset','','','',false,true);
+d.add(252,250,'635.2','<div class="nodetag">635.2</div></span>&nbsp;&nbsp;Syötävät mukulat ja sipulikasvit','635.2','Syötävät mukulat ja sipulikasvit','','','',false,true);
+d.add(253,250,'635.3','<div class="nodetag">635.3</div></span>&nbsp;&nbsp;Verso- ja lehtivihannekset','635.3','Verso- ja lehtivihannekset','','','',false,true);
+d.add(254,250,'635.4','<div class="nodetag">635.4</div></span>&nbsp;&nbsp;Muut vihreät vihannekset. Lehtivihannekset','635.4','Muut vihreät vihannekset. Lehtivihannekset','','','',false,true);
+d.add(255,250,'635.6','<div class="nodetag">635.6</div></span>&nbsp;&nbsp;Hedelmä- ja siemenvihannekset. Palkokasvit','635.6','Hedelmä- ja siemenvihannekset. Palkokasvit','','','',false,true);
+d.add(256,250,'635.7','<div class="nodetag">635.7</div></span>&nbsp;&nbsp;Yrttikasvit. Maustekasvit','635.7','Yrttikasvit. Maustekasvit','','','',false,true);
+d.add(257,250,'635.8','<div class="nodetag">635.8</div></span>&nbsp;&nbsp;Ruokasienet','635.8','Ruokasienet','','','',false,true);
+d.add(258,249,'635.9','<div class="nodetag">635.9</div></span>&nbsp;&nbsp;Koristekasvit. Koristekasviviljely. Koristepuutarhat. Viherrakentaminen','635.9','Koristekasvit. Koristekasviviljely. Koristepuutarhat. Viherrakentaminen','','','',false,true);
+d.add(259,208,'636','<div class="nodetag">636</div></span>&nbsp;&nbsp;Kotieläintalous ja eläinjalostus. Karjankasvatus. Lemmikkieläimet. Turkiseläimet','636','Kotieläintalous ja eläinjalostus. Karjankasvatus. Lemmikkieläimet. Turkiseläimet','','','',false,true);
+d.add(260,259,'636.01/.09','<div class="nodetag">636.01/.09</div></span>&nbsp;&nbsp;Kotieläintalouden erityislisäluvut','636.01/.09','Kotieläintalouden erityislisäluvut','','','',false,true);
+d.add(261,260,'636.01','<div class="nodetag">636.01</div></span>&nbsp;&nbsp;Kotileläinten alkuperä, evoluutio ja kesytys. Eläinten kesytys. Kotieläinhoidon biologiset perusteet','636.01','Kotileläinten alkuperä, evoluutio ja kesytys. Eläinten kesytys. Kotieläinhoidon biologiset perusteet','','','',false,true);
+d.add(262,260,'636.02','<div class="nodetag">636.02</div></span>&nbsp;&nbsp;Hyötyeläimet jalostukseen, näyttelyihin ja tieteellisiin tarkoituksiin (koe-eläimet)','636.02','Hyötyeläimet jalostukseen, näyttelyihin ja tieteellisiin tarkoituksiin (koe-eläimet)','','','',false,true);
+d.add(263,260,'636.03','<div class="nodetag">636.03</div></span>&nbsp;&nbsp;Tuotantoeläimet ravintoa ja muita tuotteita varten (tuottavuus, tuotos). Maatilaeläimet yleensä','636.03','Tuotantoeläimet ravintoa ja muita tuotteita varten (tuottavuus, tuotos). Maatilaeläimet yleensä','','','',false,true);
+d.add(264,260,'636.04','<div class="nodetag">636.04</div></span>&nbsp;&nbsp;Työ- ja virkistyskäyttöön jalostetut ja käytetyt eläimet','636.04','Työ- ja virkistyskäyttöön jalostetut ja käytetyt eläimet','','','',false,true);
+d.add(265,260,'636.05','<div class="nodetag">636.05</div></span>&nbsp;&nbsp;Eläimet jalostustavan mukaan','636.05','Eläimet jalostustavan mukaan','','','',false,true);
+d.add(266,260,'636.06','<div class="nodetag">636.06</div></span>&nbsp;&nbsp;Kotieläinten ominaisuudet, rakenne ja erityiset biologiset piirteet','636.06','Kotieläinten ominaisuudet, rakenne ja erityiset biologiset piirteet','','','',false,true);
+d.add(267,260,'636.08','<div class="nodetag">636.08</div></span>&nbsp;&nbsp;Kotieläintalous, yleistä','636.08','Kotieläintalous, yleistä','','','',false,true);
+d.add(268,260,'636.09','<div class="nodetag">636.09</div></span>&nbsp;&nbsp;Eläinlääketiede','636.09','Eläinlääketiede','','','',false,true);
+d.add(269,259,'636.1','<div class="nodetag">636.1</div></span>&nbsp;&nbsp;Hevoseläimet kotieläiminä. Hevoset','636.1','Hevoseläimet kotieläiminä. Hevoset','','','',false,true);
+d.add(270,259,'636.2','<div class="nodetag">636.2</div></span>&nbsp;&nbsp;Nautaeläimet ja muut suuret märehtijät','636.2','Nautaeläimet ja muut suuret märehtijät','','','',false,true);
+d.add(271,259,'636.3','<div class="nodetag">636.3</div></span>&nbsp;&nbsp;Pienet märehtijät','636.3','Pienet märehtijät','','','',false,true);
+d.add(272,259,'636.4','<div class="nodetag">636.4</div></span>&nbsp;&nbsp;Siat','636.4','Siat','','','',false,true);
+d.add(273,259,'636.5','<div class="nodetag">636.5</div></span>&nbsp;&nbsp;Siipikarja','636.5','Siipikarja','','','',false,true);
+d.add(274,259,'636.6','<div class="nodetag">636.6</div></span>&nbsp;&nbsp;Muut ihmisen kasvattamat linnut (paitsi siipikarja ja riistalinnut)','636.6','Muut ihmisen kasvattamat linnut (paitsi siipikarja ja riistalinnut)','','','',false,true);
+d.add(275,259,'636.7','<div class="nodetag">636.7</div></span>&nbsp;&nbsp;Koirat','636.7','Koirat','','','',false,true);
+d.add(276,259,'636.8','<div class="nodetag">636.8</div></span>&nbsp;&nbsp;Kissat','636.8','Kissat','','','',false,true);
+d.add(277,259,'636.9','<div class="nodetag">636.9</div></span>&nbsp;&nbsp;Muut kotieläimet','636.9','Muut kotieläimet','','','',false,true);
+d.add(278,208,'637','<div class="nodetag">637</div></span>&nbsp;&nbsp;Kotieläintuotteet ja riistaeläintuotteet','637','Kotieläintuotteet ja riistaeläintuotteet','','','',false,true);
+d.add(279,208,'638','<div class="nodetag">638</div></span>&nbsp;&nbsp;Hyönteisten ja muiden niveljalkaisten kasvatus ja hoito','638','Hyönteisten ja muiden niveljalkaisten kasvatus ja hoito','','','',false,true);
+d.add(280,208,'639','<div class="nodetag">639</div></span>&nbsp;&nbsp;Metsästys. Kalastus. Kalanviljely','639','Metsästys. Kalastus. Kalanviljely','','','',false,true);
+d.add(281,280,'639.1','<div class="nodetag">639.1</div></span>&nbsp;&nbsp;Metsästys. Riistatalous. Riistanhoito','639.1','Metsästys. Riistatalous. Riistanhoito','','','',false,true);
+d.add(282,280,'639.2','<div class="nodetag">639.2</div></span>&nbsp;&nbsp;Kalastus. Kalatalous','639.2','Kalastus. Kalatalous','','','',false,true);
+d.add(283,280,'639.3','<div class="nodetag">639.3</div></span>&nbsp;&nbsp;Kalanviljely','639.3','Kalanviljely','','','',false,true);
+d.add(284,280,'639.4','<div class="nodetag">639.4</div></span>&nbsp;&nbsp;Nilviäisten viljely ja pyynti','639.4','Nilviäisten viljely ja pyynti','','','',false,true);
+d.add(285,280,'639.5','<div class="nodetag">639.5</div></span>&nbsp;&nbsp;Vedessä elävien äyriäisten viljely ja pyynti','639.5','Vedessä elävien äyriäisten viljely ja pyynti','','','',false,true);
+d.add(286,280,'639.6','<div class="nodetag">639.6</div></span>&nbsp;&nbsp;Muut merestä saatavat tuotteet','639.6','Muut merestä saatavat tuotteet','','','',false,true);
+d.add(287,0,'64','<div class="nodetag">64</div></span>&nbsp;&nbsp;Kotitaloustiede. Kotitalous. Kodinhoito','64','Kotitaloustiede. Kotitalous. Kodinhoito','','','',false,true);
+d.add(288,287,'64.01/.08','<div class="nodetag">64.01/.08</div></span>&nbsp;&nbsp;Kotitaloustieteen erityislisäluvut','64.01/.08','Kotitaloustieteen erityislisäluvut','','','',false,true);
+d.add(289,288,'64.01','<div class="nodetag">64.01</div></span>&nbsp;&nbsp;Kotitaloudet. Kotitalous','64.01','Kotitaloudet. Kotitalous','','','',false,true);
+d.add(290,288,'64.048','<div class="nodetag">64.048</div></span>&nbsp;&nbsp;Kotityön ja kotityön menetelmien tutkimus','64.048','Kotityön ja kotityön menetelmien tutkimus','','','',false,true);
+d.add(291,288,'64.05','<div class="nodetag">64.05</div></span>&nbsp;&nbsp;Kotitaloustiede. Kodinhoito ja kodin kalustaminen esimerkiksi erityisille henkilöryhmille','64.05','Kotitaloustiede. Kodinhoito ja kodin kalustaminen esimerkiksi erityisille henkilöryhmille','','','',false,true);
+d.add(292,288,'64.06','<div class="nodetag">64.06</div></span>&nbsp;&nbsp;Kotitalouskoneet ja laitteet. Kotityötä helpottavat laitteet','64.06','Kotitalouskoneet ja laitteet. Kotityötä helpottavat laitteet','','','',false,true);
+d.add(293,288,'64.08','<div class="nodetag">64.08</div></span>&nbsp;&nbsp;Muutot','64.08','Muutot','','','',false,true);
+d.add(294,287,'640','<div class="nodetag">640</div></span>&nbsp;&nbsp;Kotitaloustyypit','640','Kotitaloustyypit','','','',false,true);
+d.add(295,287,'641/642','<div class="nodetag">641/642</div></span>&nbsp;&nbsp;Ruoka ja elintarvikkeet. Ruoanvalmistus. Ruokalajit. Ateriat','641/642','Ruoka ja elintarvikkeet. Ruoanvalmistus. Ruokalajit. Ateriat','','','',false,true);
+d.add(296,295,'641','<div class="nodetag">641</div></span>&nbsp;&nbsp;Ruoka ja elintarvikkeet. Ruoanvalmistus. Ruokalajit','641','Ruoka ja elintarvikkeet. Ruoanvalmistus. Ruokalajit','','','',false,true);
+d.add(297,295,'642','<div class="nodetag">642</div></span>&nbsp;&nbsp;Ateriat ja ruoka-ajat. Astiastot','642','Ateriat ja ruoka-ajat. Astiastot','','','',false,true);
+d.add(298,287,'643/645','<div class="nodetag">643/645</div></span>&nbsp;&nbsp;Koti. Kodin varustus ja sisustus. Kiinteistönhoito','643/645','Koti. Kodin varustus ja sisustus. Kiinteistönhoito','','','',false,true);
+d.add(299,298,'643','<div class="nodetag">643</div></span>&nbsp;&nbsp;Koti. Asunto','643','Koti. Asunto','','','',false,true);
+d.add(300,298,'644','<div class="nodetag">644</div></span>&nbsp;&nbsp;Terveys ja viihtyvyys asunnoissa. Kotitalouden energiakysymykset','644','Terveys ja viihtyvyys asunnoissa. Kotitalouden energiakysymykset','','','',false,true);
+d.add(301,300,'644.1','<div class="nodetag">644.1</div></span>&nbsp;&nbsp;Sisäilman säätely. Lämmitys. Tuuletus. Ilmastointi','644.1','Sisäilman säätely. Lämmitys. Tuuletus. Ilmastointi','','','',false,true);
+d.add(302,300,'644.3','<div class="nodetag">644.3</div></span>&nbsp;&nbsp;Kodin valaistus','644.3','Kodin valaistus','','','',false,true);
+d.add(303,300,'644.6','<div class="nodetag">644.6</div></span>&nbsp;&nbsp;Kodin vesi- ja jätehuolto','644.6','Kodin vesi- ja jätehuolto','','','',false,true);
+d.add(304,298,'645','<div class="nodetag">645</div></span>&nbsp;&nbsp;Kodin sisustus ja kalustus','645','Kodin sisustus ja kalustus','','','',false,true);
+d.add(305,287,'646/649','<div class="nodetag">646/649</div></span>&nbsp;&nbsp;Henkilökohtaiset tarvikkeet. Kotitalous','646/649','Henkilökohtaiset tarvikkeet. Kotitalous','','','',false,true);
+d.add(306,305,'646','<div class="nodetag">646</div></span>&nbsp;&nbsp;Pukineet. Henkilökohtainen hygienia','646','Pukineet. Henkilökohtainen hygienia','','','',false,true);
+d.add(307,306,'646.2','<div class="nodetag">646.2</div></span>&nbsp;&nbsp;Vaatteiden valmistus ja korjaaminen kotona','646.2','Vaatteiden valmistus ja korjaaminen kotona','','','',false,true);
+d.add(308,306,'646.4','<div class="nodetag">646.4</div></span>&nbsp;&nbsp;Pukineet. Asusteet. Vaatteet','646.4','Pukineet. Asusteet. Vaatteet','','','',false,true);
+d.add(309,306,'646.7','<div class="nodetag">646.7</div></span>&nbsp;&nbsp;Henkilökohtainen hygienia. Kauneudenhoito. Pukeutuminen','646.7','Henkilökohtainen hygienia. Kauneudenhoito. Pukeutuminen','','','',false,true);
+d.add(310,305,'648','<div class="nodetag">648</div></span>&nbsp;&nbsp;Pesu. Pyykinpesu. Siivous','648','Pesu. Pyykinpesu. Siivous','','','',false,true);
+d.add(311,305,'649','<div class="nodetag">649</div></span>&nbsp;&nbsp;Kotona tapahtuva lastenhoito, vammaishoito ja vieraista huolehtiminen','649','Kotona tapahtuva lastenhoito, vammaishoito ja vieraista huolehtiminen','','','',false,true);
+d.add(312,0,'65','<div class="nodetag">65</div></span>&nbsp;&nbsp;Tietoliikenne- ja kuljetustalous. Kirjanpito. Liikkeenjohto. Suhdetoiminta','65','Tietoliikenne- ja kuljetustalous. Kirjanpito. Liikkeenjohto. Suhdetoiminta','','','',false,true);
+d.add(313,312,'654','<div class="nodetag">654</div></span>&nbsp;&nbsp;Tietoliikenne ja kauko-ohjaus (organisaatiot, palvelut)','654','Tietoliikenne ja kauko-ohjaus (organisaatiot, palvelut)','','','',false,true);
+d.add(314,313,'654.1','<div class="nodetag">654.1</div></span>&nbsp;&nbsp;Lennätin, puhelin, radio, televisio','654.1','Lennätin, puhelin, radio, televisio','','','',false,true);
+d.add(315,313,'654.9','<div class="nodetag">654.9</div></span>&nbsp;&nbsp;Merkinanto. Tietoliikennepalvelut. Kauko-ohjaus. Hälytyslaitteet','654.9','Merkinanto. Tietoliikennepalvelut. Kauko-ohjaus. Hälytyslaitteet','','','',false,true);
+d.add(316,312,'655','<div class="nodetag">655</div></span>&nbsp;&nbsp;Graafinen teollisuus. Kirjapainoala. Kustannustoimi. Kirjakauppa','655','Graafinen teollisuus. Kirjapainoala. Kustannustoimi. Kirjakauppa','','','',false,true);
+d.add(317,316,'655.1','<div class="nodetag">655.1</div></span>&nbsp;&nbsp;Kirjapainoala yleensä','655.1','Kirjapainoala yleensä','','','',false,true);
+d.add(318,316,'655.4','<div class="nodetag">655.4</div></span>&nbsp;&nbsp;Kustannus- ja kirjakauppatoimi, yleistä','655.4','Kustannus- ja kirjakauppatoimi, yleistä','','','',false,true);
+d.add(319,312,'656','<div class="nodetag">656</div></span>&nbsp;&nbsp;Liikenne- ja postipalvelut. Liikenteen ohjaus. Liikenneturvallisuus','656','Liikenne- ja postipalvelut. Liikenteen ohjaus. Liikenneturvallisuus','','','',false,true);
+d.add(320,319,'656.1/.5','<div class="nodetag">656.1/.5</div></span>&nbsp;&nbsp;Maaliikenne','656.1/.5','Maaliikenne','','','',false,true);
+d.add(321,320,'656.1','<div class="nodetag">656.1</div></span>&nbsp;&nbsp;Tieliikenne','656.1','Tieliikenne','','','',false,true);
+d.add(322,320,'656.2','<div class="nodetag">656.2</div></span>&nbsp;&nbsp;Rautatiekuljetus. Raideliikenne','656.2','Rautatiekuljetus. Raideliikenne','','','',false,true);
+d.add(323,320,'656.4','<div class="nodetag">656.4</div></span>&nbsp;&nbsp;Liikenne kapearaiteisilla radoilla. Raitiotieliikenne','656.4','Liikenne kapearaiteisilla radoilla. Raitiotieliikenne','','','',false,true);
+d.add(324,320,'656.5','<div class="nodetag">656.5</div></span>&nbsp;&nbsp;Maakuljetus kuljetinjärjestelmillä ja putkilla','656.5','Maakuljetus kuljetinjärjestelmillä ja putkilla','','','',false,true);
+d.add(325,319,'656.6','<div class="nodetag">656.6</div></span>&nbsp;&nbsp;Vesiliikenne. Merenkulku','656.6','Vesiliikenne. Merenkulku','','','',false,true);
+d.add(326,319,'656.7','<div class="nodetag">656.7</div></span>&nbsp;&nbsp;Ilmaliikenne. Lentoliikenne','656.7','Ilmaliikenne. Lentoliikenne','','','',false,true);
+d.add(327,319,'656.8','<div class="nodetag">656.8</div></span>&nbsp;&nbsp;Postipalvelut ja -hallinto','656.8','Postipalvelut ja -hallinto','','','',false,true);
+d.add(328,312,'657','<div class="nodetag">657</div></span>&nbsp;&nbsp;Laskentatoimi. Kirjanpito','657','Laskentatoimi. Kirjanpito','','','',false,true);
+d.add(329,312,'658','<div class="nodetag">658</div></span>&nbsp;&nbsp;Liiketalous, liikkeenjohto, hallinto. Yritysmuodot, toiminta. Myynnin organisointi','658','Liiketalous, liikkeenjohto, hallinto. Yritysmuodot, toiminta. Myynnin organisointi','','','',false,true);
+d.add(330,329,'658.1','<div class="nodetag">658.1</div></span>&nbsp;&nbsp;Yritysmuodot. Rahoitus','658.1','Yritysmuodot. Rahoitus','','','',false,true);
+d.add(331,329,'658.2','<div class="nodetag">658.2</div></span>&nbsp;&nbsp;Yrityksen sijainti. Yrityksen tilat. Tuotantovälineet, tehtaat. Materiaalit. Kuljetukset','658.2','Yrityksen sijainti. Yrityksen tilat. Tuotantovälineet, tehtaat. Materiaalit. Kuljetukset','','','',false,true);
+d.add(332,329,'658.3','<div class="nodetag">658.3</div></span>&nbsp;&nbsp;Henkilöstöhallinto. Henkilöstölehdet','658.3','Henkilöstöhallinto. Henkilöstölehdet','','','',false,true);
+d.add(333,329,'658.5','<div class="nodetag">658.5</div></span>&nbsp;&nbsp;Tuotannonsuunnittelu. Tuotesuunnittelu. Laadunvalvonta','658.5','Tuotannonsuunnittelu. Tuotesuunnittelu. Laadunvalvonta','','','',false,true);
+d.add(334,329,'658.6','<div class="nodetag">658.6</div></span>&nbsp;&nbsp;Kauppatekniikka. Tuotteet. Palvelut','658.6','Kauppatekniikka. Tuotteet. Palvelut','','','',false,true);
+d.add(335,329,'658.7','<div class="nodetag">658.7</div></span>&nbsp;&nbsp;Osto. Hankinta. Varastointi','658.7','Osto. Hankinta. Varastointi','','','',false,true);
+d.add(336,329,'658.8','<div class="nodetag">658.8</div></span>&nbsp;&nbsp;Markkinointi. Myynti. Jakelu. Vähittäiskauppa. Tukkukauppa','658.8','Markkinointi. Myynti. Jakelu. Vähittäiskauppa. Tukkukauppa','','','',false,true);
+d.add(337,329,'658.9','<div class="nodetag">658.9</div></span>&nbsp;&nbsp;Muut kauppatoimet','658.9','Muut kauppatoimet','','','',false,true);
+d.add(338,312,'659','<div class="nodetag">659</div></span>&nbsp;&nbsp;Joukkoviestintä, tiedotustoiminta. Suhdetoiminta','659','Joukkoviestintä, tiedotustoiminta. Suhdetoiminta','','','',false,true);
+d.add(339,338,'659.1','<div class="nodetag">659.1</div></span>&nbsp;&nbsp;Julkisuus. Mainonta','659.1','Julkisuus. Mainonta','','','',false,true);
+d.add(340,338,'659.2','<div class="nodetag">659.2</div></span>&nbsp;&nbsp;Tietotyö. Neuvonta- ja konsultointipalvelut','659.2','Tietotyö. Neuvonta- ja konsultointipalvelut','','','',false,true);
+d.add(341,338,'659.3','<div class="nodetag">659.3</div></span>&nbsp;&nbsp;Joukkoviestintä','659.3','Joukkoviestintä','','','',false,true);
+d.add(342,338,'659.4','<div class="nodetag">659.4</div></span>&nbsp;&nbsp;Suhdetoiminta. Public relations (PR)','659.4','Suhdetoiminta. Public relations (PR)','','','',false,true);
+d.add(343,0,'66','<div class="nodetag">66</div></span>&nbsp;&nbsp;Kemiantekniikka. Kemianteollisuus','66','Kemiantekniikka. Kemianteollisuus','','','',false,true);
+d.add(344,343,'66.01/.09','<div class="nodetag">66.01/.09</div></span>&nbsp;&nbsp;Kemiantekniikan erityislisäluvut','66.01/.09','Kemiantekniikan erityislisäluvut','','','',false,true);
+d.add(345,344,'66.01','<div class="nodetag">66.01</div></span>&nbsp;&nbsp;Kemiantekniikan perusteet','66.01','Kemiantekniikan perusteet','','','',false,true);
+d.add(346,344,'66.02','<div class="nodetag">66.02</div></span>&nbsp;&nbsp;Kemiallisten prosessien menetelmät ja tehtaat yleensä','66.02','Kemiallisten prosessien menetelmät ja tehtaat yleensä','','','',false,true);
+d.add(347,344,'66.03','<div class="nodetag">66.03</div></span>&nbsp;&nbsp;Materiaalit, ominaisuudet, prosessit ja laitteet','66.03','Materiaalit, ominaisuudet, prosessit ja laitteet','','','',false,true);
+d.add(348,344,'66.04','<div class="nodetag">66.04</div></span>&nbsp;&nbsp;Lämpökäsittelymenetelmät ja laitteet','66.04','Lämpökäsittelymenetelmät ja laitteet','','','',false,true);
+d.add(349,344,'66.06','<div class="nodetag">66.06</div></span>&nbsp;&nbsp;Nesteiden kemiantekniikka. Nesteiden käsittelyprosessit ja laitteistot. Puhdistus. Raffinointi','66.06','Nesteiden kemiantekniikka. Nesteiden käsittelyprosessit ja laitteistot. Puhdistus. Raffinointi','','','',false,true);
+d.add(350,344,'66.07','<div class="nodetag">66.07</div></span>&nbsp;&nbsp;Kaasujen kemiantekniikka','66.07','Kaasujen kemiantekniikka','','','',false,true);
+d.add(351,344,'66.08','<div class="nodetag">66.08</div></span>&nbsp;&nbsp;Muut fysikaaliset ja fysiko-kemialliset menetelmät ja laitteet. Fysikaaliset vaikutukset kemiallisiin prosesseihin','66.08','Muut fysikaaliset ja fysiko-kemialliset menetelmät ja laitteet. Fysikaaliset vaikutukset kemiallisiin prosesseihin','','','',false,true);
+d.add(352,343,'661','<div class="nodetag">661</div></span>&nbsp;&nbsp;Kemikaalit','661','Kemikaalit','','','',false,true);
+d.add(353,352,'661.1','<div class="nodetag">661.1</div></span>&nbsp;&nbsp;Kemian teollisuuden erikoisalat','661.1','Kemian teollisuuden erikoisalat','','','',false,true);
+d.add(354,352,'661.2','<div class="nodetag">661.2</div></span>&nbsp;&nbsp;Rikin ja rikkiyhdisteiden tuotanto','661.2','Rikin ja rikkiyhdisteiden tuotanto','','','',false,true);
+d.add(355,352,'661.3','<div class="nodetag">661.3</div></span>&nbsp;&nbsp;Soodan- ja kaliumkarbonaatin tuotanto, lkaliyhdisteet','661.3','Soodan- ja kaliumkarbonaatin tuotanto, lkaliyhdisteet','','','',false,true);
+d.add(356,352,'661.4','<div class="nodetag">661.4</div></span>&nbsp;&nbsp;Halogeenien ja halogeeniyhdisteiden tuotanto. Epäorgaaniset peroksidit','661.4','Halogeenien ja halogeeniyhdisteiden tuotanto. Epäorgaaniset peroksidit','','','',false,true);
+d.add(357,352,'661.5','<div class="nodetag">661.5</div></span>&nbsp;&nbsp;Typpiyhdisteiden tuotanto. Typensidonta. Typpiteollisuus yleensä','661.5','Typpiyhdisteiden tuotanto. Typensidonta. Typpiteollisuus yleensä','','','',false,true);
+d.add(358,352,'661.6','<div class="nodetag">661.6</div></span>&nbsp;&nbsp;Epämetallien ja puolimetallien (metalloidien) ja niiden yhdisteiden tuotanto','661.6','Epämetallien ja puolimetallien (metalloidien) ja niiden yhdisteiden tuotanto','','','',false,true);
+d.add(359,352,'661.7','<div class="nodetag">661.7</div></span>&nbsp;&nbsp;Orgaanisten aineiden tuotanto. Orgaaniset kemikaalit','661.7','Orgaanisten aineiden tuotanto. Orgaaniset kemikaalit','','','',false,true);
+d.add(360,352,'661.8','<div class="nodetag">661.8</div></span>&nbsp;&nbsp;Epäorgaaniset metalliyhdisteet yleensä. Suolat. Mineraalipigmentit','661.8','Epäorgaaniset metalliyhdisteet yleensä. Suolat. Mineraalipigmentit','','','',false,true);
+d.add(361,352,'661.9','<div class="nodetag">661.9</div></span>&nbsp;&nbsp;Tekniset kaasut','661.9','Tekniset kaasut','','','',false,true);
+d.add(362,343,'662','<div class="nodetag">662</div></span>&nbsp;&nbsp;Räjähdysaineet. Polttoaineet','662','Räjähdysaineet. Polttoaineet','','','',false,true);
+d.add(363,362,'662.1/.4','<div class="nodetag">662.1/.4</div></span>&nbsp;&nbsp;Räjähteet','662.1/.4','Räjähteet','','','',false,true);
+d.add(364,363,'662.1','<div class="nodetag">662.1</div></span>&nbsp;&nbsp;Pyrotekniikka. Rakettitekniikka ja siihen liittyvät menetelmät','662.1','Pyrotekniikka. Rakettitekniikka ja siihen liittyvät menetelmät','','','',false,true);
+d.add(365,363,'662.2','<div class="nodetag">662.2</div></span>&nbsp;&nbsp;Räjähdysaineet','662.2','Räjähdysaineet','','','',false,true);
+d.add(366,363,'662.3','<div class="nodetag">662.3</div></span>&nbsp;&nbsp;Ajoaineet. Ruudit','662.3','Ajoaineet. Ruudit','','','',false,true);
+d.add(367,363,'662.4','<div class="nodetag">662.4</div></span>&nbsp;&nbsp;Sytytysaineet. Sytyttimet (räjäytin)','662.4','Sytytysaineet. Sytyttimet (räjäytin)','','','',false,true);
+d.add(368,362,'662.5','<div class="nodetag">662.5</div></span>&nbsp;&nbsp;Tulentekovälineet. Tulukset. Tulitikut. Sytyttimet (tulentekoväline)','662.5','Tulentekovälineet. Tulukset. Tulitikut. Sytyttimet (tulentekoväline)','','','',false,true);
+d.add(369,362,'662.6/.9','<div class="nodetag">662.6/.9</div></span>&nbsp;&nbsp;Polttoaineet. Polttotekniikka. Lämmitys','662.6/.9','Polttoaineet. Polttotekniikka. Lämmitys','','','',false,true);
+d.add(370,369,'662.6','<div class="nodetag">662.6</div></span>&nbsp;&nbsp;Polttoainetalous, yleistä. Palaminen. Luonnon polttoaineet','662.6','Polttoainetalous, yleistä. Palaminen. Luonnon polttoaineet','','','',false,true);
+d.add(371,369,'662.7','<div class="nodetag">662.7</div></span>&nbsp;&nbsp;Polttoaineteknologia','662.7','Polttoaineteknologia','','','',false,true);
+d.add(372,369,'662.8','<div class="nodetag">662.8</div></span>&nbsp;&nbsp;Kiinteiden polttoaineiden valmistus. Polttoaineet. Briketointi','662.8','Kiinteiden polttoaineiden valmistus. Polttoaineet. Briketointi','','','',false,true);
+d.add(373,369,'662.9','<div class="nodetag">662.9</div></span>&nbsp;&nbsp;Polttotekniikka. Lämpötalous','662.9','Polttotekniikka. Lämpötalous','','','',false,true);
+d.add(374,343,'663','<div class="nodetag">663</div></span>&nbsp;&nbsp;Teollinen mikrobiologia. Teollinen mykologia. Käyminen, käymisteollisuus. Panimoteollisuus. Nautintoaineteollisuus','663','Teollinen mikrobiologia. Teollinen mykologia. Käyminen, käymisteollisuus. Panimoteollisuus. Nautintoaineteollisuus','','','',false,true);
+d.add(375,374,'663.1','<div class="nodetag">663.1</div></span>&nbsp;&nbsp;Mikrobiologinen teollisuus. Sovellettu mikrobiologia. Sovellettu mykologia','663.1','Mikrobiologinen teollisuus. Sovellettu mikrobiologia. Sovellettu mykologia','','','',false,true);
+d.add(376,374,'663.2','<div class="nodetag">663.2</div></span>&nbsp;&nbsp;Viini. Viininvalmistus. Viinitiede, enologia','663.2','Viini. Viininvalmistus. Viinitiede, enologia','','','',false,true);
+d.add(377,374,'663.3','<div class="nodetag">663.3</div></span>&nbsp;&nbsp;Siiderit. Muut hedelmäviinit, palmuviinit','663.3','Siiderit. Muut hedelmäviinit, palmuviinit','','','',false,true);
+d.add(378,374,'663.4','<div class="nodetag">663.4</div></span>&nbsp;&nbsp;Olut. Panimot. Mallastamot','663.4','Olut. Panimot. Mallastamot','','','',false,true);
+d.add(379,374,'663.5','<div class="nodetag">663.5</div></span>&nbsp;&nbsp;Juotava alkoholi. Vahvat alkoholijuomat. Valmistusmenetelmät, tislaus, jalostus','663.5','Juotava alkoholi. Vahvat alkoholijuomat. Valmistusmenetelmät, tislaus, jalostus','','','',false,true);
+d.add(380,374,'663.6','<div class="nodetag">663.6</div></span>&nbsp;&nbsp;Juomiin ja muuhun teolliseen käyttöön tarkoitettu vesi. Kivennäisvesi. Lääkevesi. Syötävä jää','663.6','Juomiin ja muuhun teolliseen käyttöön tarkoitettu vesi. Kivennäisvesi. Lääkevesi. Syötävä jää','','','',false,true);
+d.add(381,374,'663.8','<div class="nodetag">663.8</div></span>&nbsp;&nbsp;Juomat ja niiden raaka-aineet. Hedelmämehut. Vihannesmehut. Liköörit. Alkoholipitoiset sekoitukset. Virvoitusjuomat','663.8','Juomat ja niiden raaka-aineet. Hedelmämehut. Vihannesmehut. Liköörit. Alkoholipitoiset sekoitukset. Virvoitusjuomat','','','',false,true);
+d.add(382,374,'663.9','<div class="nodetag">663.9</div></span>&nbsp;&nbsp;Suklaa. Kaakao. Kahvi. Tee. Tupakka','663.9','Suklaa. Kaakao. Kahvi. Tee. Tupakka','','','',false,true);
+d.add(383,343,'664','<div class="nodetag">664</div></span>&nbsp;&nbsp;Elintarviketeknologia','664','Elintarviketeknologia','','','',false,true);
+d.add(384,383,'664.1','<div class="nodetag">664.1</div></span>&nbsp;&nbsp;Sokeri. Melassi. Glukoosi jne.','664.1','Sokeri. Melassi. Glukoosi jne.','','','',false,true);
+d.add(385,383,'664.2','<div class="nodetag">664.2</div></span>&nbsp;&nbsp;Tärkkelys. Tärkkelyspitoiset aineet. Pektiinit','664.2','Tärkkelys. Tärkkelyspitoiset aineet. Pektiinit','','','',false,true);
+d.add(386,383,'664.3','<div class="nodetag">664.3</div></span>&nbsp;&nbsp;Ruokaöljyt. Ruokarasvat. Margariini. Valkuaisaineet','664.3','Ruokaöljyt. Ruokarasvat. Margariini. Valkuaisaineet','','','',false,true);
+d.add(387,383,'664.4','<div class="nodetag">664.4</div></span>&nbsp;&nbsp;Syötävät mineraalit','664.4','Syötävät mineraalit','','','',false,true);
+d.add(388,383,'664.5','<div class="nodetag">664.5</div></span>&nbsp;&nbsp;Mausteet. Kondimentit','664.5','Mausteet. Kondimentit','','','',false,true);
+d.add(389,383,'664.6/.7','<div class="nodetag">664.6/.7</div></span>&nbsp;&nbsp;Viljateollisuus','664.6/.7','Viljateollisuus','','','',false,true);
+d.add(390,389,'664.6','<div class="nodetag">664.6</div></span>&nbsp;&nbsp;Leipominen. Leipä. Leipomoteollisuus','664.6','Leipominen. Leipä. Leipomoteollisuus','','','',false,true);
+d.add(391,389,'664.7','<div class="nodetag">664.7</div></span>&nbsp;&nbsp;Viljateknologia. Myllytekniikka. Viljateollisuus','664.7','Viljateknologia. Myllytekniikka. Viljateollisuus','','','',false,true);
+d.add(392,383,'664.8/.9','<div class="nodetag">664.8/.9</div></span>&nbsp;&nbsp;Säilöntämenetelmät','664.8/.9','Säilöntämenetelmät','','','',false,true);
+d.add(393,343,'665','<div class="nodetag">665</div></span>&nbsp;&nbsp;Öljyt. Rasvat. Vahat. Liimat. Kumit. Pihkat','665','Öljyt. Rasvat. Vahat. Liimat. Kumit. Pihkat','','','',false,true);
+d.add(394,393,'665.1','<div class="nodetag">665.1</div></span>&nbsp;&nbsp;Öljyt, rasvat ja vahat ja niistä valmistetut tuotteet, yleistä','665.1','Öljyt, rasvat ja vahat ja niistä valmistetut tuotteet, yleistä','','','',false,true);
+d.add(395,393,'665.2','<div class="nodetag">665.2</div></span>&nbsp;&nbsp;Eläinöljyt, -rasvat ja -vahat','665.2','Eläinöljyt, -rasvat ja -vahat','','','',false,true);
+d.add(396,393,'665.3','<div class="nodetag">665.3</div></span>&nbsp;&nbsp;Kasviöljyt, -rasvat ja -vahat. Kasvifosfatidit','665.3','Kasviöljyt, -rasvat ja -vahat. Kasvifosfatidit','','','',false,true);
+d.add(397,393,'665.5','<div class="nodetag">665.5</div></span>&nbsp;&nbsp;Eteeriset öljyt. Hajuvedet. Kosmetiikka','665.5','Eteeriset öljyt. Hajuvedet. Kosmetiikka','','','',false,true);
+d.add(398,393,'665.6/.7','<div class="nodetag">665.6/.7</div></span>&nbsp;&nbsp;Öljy- ja öljynjalostusteollisuuden tuotanto ja tuotteet','665.6/.7','Öljy- ja öljynjalostusteollisuuden tuotanto ja tuotteet','','','',false,true);
+d.add(399,398,'665.6','<div class="nodetag">665.6</div></span>&nbsp;&nbsp;Mineraaliöljytekniikka. Öljyn ja öljytuotteiden tuotantotekniikka','665.6','Mineraaliöljytekniikka. Öljyn ja öljytuotteiden tuotantotekniikka','','','',false,true);
+d.add(400,398,'665.7','<div class="nodetag">665.7</div></span>&nbsp;&nbsp;Mineraaliöljyteollisuuden tuotteet. Mineraaliöljyt ja vastaavat tuotteet','665.7','Mineraaliöljyteollisuuden tuotteet. Mineraaliöljyt ja vastaavat tuotteet','','','',false,true);
+d.add(401,393,'665.9','<div class="nodetag">665.9</div></span>&nbsp;&nbsp;Sekalainen orgaanisen kemian teollisuus','665.9','Sekalainen orgaanisen kemian teollisuus','','','',false,true);
+d.add(402,343,'666','<div class="nodetag">666</div></span>&nbsp;&nbsp;Lasiteollisuus. Keramiikka. Sementti ja betoni','666','Lasiteollisuus. Keramiikka. Sementti ja betoni','','','',false,true);
+d.add(403,402,'666.1','<div class="nodetag">666.1</div></span>&nbsp;&nbsp;Lasiteollisuus. Lasiteknologia. Lasinvalmistus yleensä. Lasi kattavasti tarkasteltuna','666.1','Lasiteollisuus. Lasiteknologia. Lasinvalmistus yleensä. Lasi kattavasti tarkasteltuna','','','',false,true);
+d.add(404,402,'666.3/.7','<div class="nodetag">666.3/.7</div></span>&nbsp;&nbsp;Keramiikka','666.3/.7','Keramiikka','','','',false,true);
+d.add(405,404,'666.3','<div class="nodetag">666.3</div></span>&nbsp;&nbsp;Keramiikka yleensä. Keraamiset raaka-aineet','666.3','Keramiikka yleensä. Keraamiset raaka-aineet','','','',false,true);
+d.add(406,404,'666.5','<div class="nodetag">666.5</div></span>&nbsp;&nbsp;Posliini','666.5','Posliini','','','',false,true);
+d.add(407,404,'666.6','<div class="nodetag">666.6</div></span>&nbsp;&nbsp;Kivitavara. Savitavara (huokoinen keramiikka)','666.6','Kivitavara. Savitavara (huokoinen keramiikka)','','','',false,true);
+d.add(408,404,'666.7','<div class="nodetag">666.7</div></span>&nbsp;&nbsp;Karkeakeramiikka. Tulitiilet. Kovakeraamiset raaka-aineet. Keramiikan ja muiden raaka-aineiden yhdistelmät','666.7','Karkeakeramiikka. Tulitiilet. Kovakeraamiset raaka-aineet. Keramiikan ja muiden raaka-aineiden yhdistelmät','','','',false,true);
+d.add(409,402,'666.9','<div class="nodetag">666.9</div></span>&nbsp;&nbsp;Kipsi-, kalkki- ja sementtiteollisuus. Kovettuvat materiaalit. Rappausaineet ja komposiitit. Laasti ja betoni','666.9','Kipsi-, kalkki- ja sementtiteollisuus. Kovettuvat materiaalit. Rappausaineet ja komposiitit. Laasti ja betoni','','','',false,true);
+d.add(410,343,'667','<div class="nodetag">667</div></span>&nbsp;&nbsp;Väriteollisuus','667','Väriteollisuus','','','',false,true);
+d.add(411,410,'667.2','<div class="nodetag">667.2</div></span>&nbsp;&nbsp;Väriaineteollisuus. Väriaineiden valmistus ja käyttö','667.2','Väriaineteollisuus. Väriaineiden valmistus ja käyttö','','','',false,true);
+d.add(412,410,'667.4','<div class="nodetag">667.4</div></span>&nbsp;&nbsp;Kirjoitusmusteet','667.4','Kirjoitusmusteet','','','',false,true);
+d.add(413,410,'667.5','<div class="nodetag">667.5</div></span>&nbsp;&nbsp;Painovärit (musta tai värillinen). Kivipainovärit. Lyijykynät ja puuvärit. Väriliidut','667.5','Painovärit (musta tai värillinen). Kivipainovärit. Lyijykynät ja puuvärit. Väriliidut','','','',false,true);
+d.add(414,410,'667.6','<div class="nodetag">667.6</div></span>&nbsp;&nbsp;Pinnoitteet ja pinnotustekniikat. Maalit. Vernissat. Lakat','667.6','Pinnoitteet ja pinnotustekniikat. Maalit. Vernissat. Lakat','','','',false,true);
+d.add(415,410,'667.7','<div class="nodetag">667.7</div></span>&nbsp;&nbsp;Eri materiaalien värjäys (muilla menetelmillä kuin painamalla tai maalaamalla)','667.7','Eri materiaalien värjäys (muilla menetelmillä kuin painamalla tai maalaamalla)','','','',false,true);
+d.add(416,343,'669','<div class="nodetag">669</div></span>&nbsp;&nbsp;Metallurgia','669','Metallurgia','','','',false,true);
+d.add(417,416,'669.1','<div class="nodetag">669.1</div></span>&nbsp;&nbsp;Rautametallurgia. Rauta ja teräs','669.1','Rautametallurgia. Rauta ja teräs','','','',false,true);
+d.add(418,416,'669.2','<div class="nodetag">669.2</div></span>&nbsp;&nbsp;Ei-rautametallit yleensä','669.2','Ei-rautametallit yleensä','','','',false,true);
+d.add(419,0,'67','<div class="nodetag">67</div></span>&nbsp;&nbsp;Teollisuuden, kaupan ja käsityöaloja','67','Teollisuuden, kaupan ja käsityöaloja','','','',false,true);
+d.add(420,419,'671','<div class="nodetag">671</div></span>&nbsp;&nbsp;Jalometalli-, jalokivi-, korukiviesineet','671','Jalometalli-, jalokivi-, korukiviesineet','','','',false,true);
+d.add(421,420,'671.1','<div class="nodetag">671.1</div></span>&nbsp;&nbsp;Kulta- ja hopeaesineet. Muut jalometalliesineet. Korut','671.1','Kulta- ja hopeaesineet. Muut jalometalliesineet. Korut','','','',false,true);
+d.add(422,420,'671.4','<div class="nodetag">671.4</div></span>&nbsp;&nbsp;Rahojen ja mitaleiden valmistus. Rahanlyönti','671.4','Rahojen ja mitaleiden valmistus. Rahanlyönti','','','',false,true);
+d.add(423,419,'672','<div class="nodetag">672</div></span>&nbsp;&nbsp;Rauta- ja teräsesineet yleensä','672','Rauta- ja teräsesineet yleensä','','','',false,true);
+d.add(424,419,'673','<div class="nodetag">673</div></span>&nbsp;&nbsp;Muut kuin rautametalliesineet (paitsi jalometalliset)','673','Muut kuin rautametalliesineet (paitsi jalometalliset)','','','',false,true);
+d.add(425,419,'674','<div class="nodetag">674</div></span>&nbsp;&nbsp;Puuteollisuus','674','Puuteollisuus','','','',false,true);
+d.add(426,419,'675','<div class="nodetag">675</div></span>&nbsp;&nbsp;Nahkateollisuus (turkikset ja nahkajäljitelmät mukaan luettuna)','675','Nahkateollisuus (turkikset ja nahkajäljitelmät mukaan luettuna)','','','',false,true);
+d.add(427,419,'676','<div class="nodetag">676</div></span>&nbsp;&nbsp;Massateollisuus. Paperiteollisuus. Levyteollisuus','676','Massateollisuus. Paperiteollisuus. Levyteollisuus','','','',false,true);
+d.add(428,419,'677','<div class="nodetag">677</div></span>&nbsp;&nbsp;Tekstiiliteollisuus','677','Tekstiiliteollisuus','','','',false,true);
+d.add(429,428,'677.1/.5','<div class="nodetag">677.1/.5</div></span>&nbsp;&nbsp;Tekstiilikuidut','677.1/.5','Tekstiilikuidut','','','',false,true);
+d.add(430,429,'677.1/.3','<div class="nodetag">677.1/.3</div></span>&nbsp;&nbsp;Luonnonkuidut','677.1/.3','Luonnonkuidut','','','',false,true);
+d.add(431,430,'677.1/.2','<div class="nodetag">677.1/.2</div></span>&nbsp;&nbsp;Kasvikuidut','677.1/.2','Kasvikuidut','','','',false,true);
+d.add(432,431,'677.1','<div class="nodetag">677.1</div></span>&nbsp;&nbsp;Niini (kuidut kaksisirkkaisten kasvien varsista, runkokuidut). Vulkaanikuidut (lehtikuidut, lehtituppikuidut, hedelmäkuidut)','677.1','Niini (kuidut kaksisirkkaisten kasvien varsista, runkokuidut). Vulkaanikuidut (lehtikuidut, lehtituppikuidut, hedelmäkuidut)','','','',false,true);
+d.add(433,431,'677.2','<div class="nodetag">677.2</div></span>&nbsp;&nbsp;Siemenkuidut','677.2','Siemenkuidut','','','',false,true);
+d.add(434,430,'677.3','<div class="nodetag">677.3</div></span>&nbsp;&nbsp;Eläinkuidut','677.3','Eläinkuidut','','','',false,true);
+d.add(435,429,'677.4','<div class="nodetag">677.4</div></span>&nbsp;&nbsp;Tekokuidut','677.4','Tekokuidut','','','',false,true);
+d.add(436,429,'677.5','<div class="nodetag">677.5</div></span>&nbsp;&nbsp;Mineraali- ja metallikuidut. Punontamateriaalit. Kumilangat. Paperilangat','677.5','Mineraali- ja metallikuidut. Punontamateriaalit. Kumilangat. Paperilangat','','','',false,true);
+d.add(437,419,'678','<div class="nodetag">678</div></span>&nbsp;&nbsp;Makromolekyylimateriaaliteollisuus. Kumiteollisuus. Muoviteollisuus','678','Makromolekyylimateriaaliteollisuus. Kumiteollisuus. Muoviteollisuus','','','',false,true);
+d.add(438,437,'678.4','<div class="nodetag">678.4</div></span>&nbsp;&nbsp;Kautsu. Muut luonnolliset makromolekyyliyhdisteet, joissa vain hiiltä ja vetyä','678.4','Kautsu. Muut luonnolliset makromolekyyliyhdisteet, joissa vain hiiltä ja vetyä','','','',false,true);
+d.add(439,437,'678.5','<div class="nodetag">678.5</div></span>&nbsp;&nbsp;Muovit','678.5','Muovit','','','',false,true);
+d.add(440,437,'678.6','<div class="nodetag">678.6</div></span>&nbsp;&nbsp;Synteettiset polykondensaatiomuovit. Kondensaatiopolymeerit. Synteettiset hartsit. Synteettiset kuidut, jne.','678.6','Synteettiset polykondensaatiomuovit. Kondensaatiopolymeerit. Synteettiset hartsit. Synteettiset kuidut, jne.','','','',false,true);
+d.add(441,437,'678.7','<div class="nodetag">678.7</div></span>&nbsp;&nbsp;Synteettisen polymeroinnin tuotteet. Polymeerit. Synteettiset kumit','678.7','Synteettisen polymeroinnin tuotteet. Polymeerit. Synteettiset kumit','','','',false,true);
+d.add(442,419,'679','<div class="nodetag">679</div></span>&nbsp;&nbsp;Käsiteltäviin materiaaleihin perustuva teollisuus','679','Käsiteltäviin materiaaleihin perustuva teollisuus','','','',false,true);
+d.add(443,442,'679.7','<div class="nodetag">679.7</div></span>&nbsp;&nbsp;Kaapeli- ja purjelankateollisuus','679.7','Kaapeli- ja purjelankateollisuus','','','',false,true);
+d.add(444,442,'679.8','<div class="nodetag">679.8</div></span>&nbsp;&nbsp;Kiviteknologia. Kiviteollisuus','679.8','Kiviteknologia. Kiviteollisuus','','','',false,true);
+d.add(445,442,'679.9','<div class="nodetag">679.9</div></span>&nbsp;&nbsp;Muiden käsiteltävissä olevien luonnonmateriaalien teknologia','679.9','Muiden käsiteltävissä olevien luonnonmateriaalien teknologia','','','',false,true);
+d.add(446,0,'68','<div class="nodetag">68</div></span>&nbsp;&nbsp;Valmiiden tai osista koottavien tavaroiden valmistus ja kauppa','68','Valmiiden tai osista koottavien tavaroiden valmistus ja kauppa','','','',false,true);
+d.add(447,446,'681','<div class="nodetag">681</div></span>&nbsp;&nbsp;Hienomekaniikka ja hienomekaaniset välineet','681','Hienomekaniikka ja hienomekaaniset välineet','','','',false,true);
+d.add(448,447,'681.1','<div class="nodetag">681.1</div></span>&nbsp;&nbsp;Hammasrattailla ja muilla liikkuvilla koneistoilla varustetut laiteet','681.1','Hammasrattailla ja muilla liikkuvilla koneistoilla varustetut laiteet','','','',false,true);
+d.add(449,447,'681.2','<div class="nodetag">681.2</div></span>&nbsp;&nbsp;Instrumenttien valmistus yleensä. Instrumentointi. Mittauslaitteet ja niiden valmistus. Vaa\'at. Punnituslaitteet','681.2','Instrumenttien valmistus yleensä. Instrumentointi. Mittauslaitteet ja niiden valmistus. Vaa\'at. Punnituslaitteet','','','',false,true);
+d.add(450,447,'681.5','<div class="nodetag">681.5</div></span>&nbsp;&nbsp;Automaatiotekniikka. Älytekniikka','681.5','Automaatiotekniikka. Älytekniikka','','','',false,true);
+d.add(451,447,'681.6','<div class="nodetag">681.6</div></span>&nbsp;&nbsp;Graafiset jäljennyskoneet ja -välineet','681.6','Graafiset jäljennyskoneet ja -välineet','','','',false,true);
+d.add(452,447,'681.7','<div class="nodetag">681.7</div></span>&nbsp;&nbsp;Optiset laitteet ja välineet','681.7','Optiset laitteet ja välineet','','','',false,true);
+d.add(453,447,'681.8','<div class="nodetag">681.8</div></span>&nbsp;&nbsp;Tekninen akustiikka','681.8','Tekninen akustiikka','','','',false,true);
+d.add(454,446,'682','<div class="nodetag">682</div></span>&nbsp;&nbsp;Pajatyö. Sepäntyöt. Hevosenkengitys. Käsin taotut esineet','682','Pajatyö. Sepäntyöt. Hevosenkengitys. Käsin taotut esineet','','','',false,true);
+d.add(455,454,'682.1','<div class="nodetag">682.1</div></span>&nbsp;&nbsp;Hevosenkengät. Hevosenkengitys','682.1','Hevosenkengät. Hevosenkengitys','','','',false,true);
+d.add(456,454,'682.3','<div class="nodetag">682.3</div></span>&nbsp;&nbsp;Työkalunvalmistus. Teräaseiden taonta','682.3','Työkalunvalmistus. Teräaseiden taonta','','','',false,true);
+d.add(457,454,'682.5','<div class="nodetag">682.5</div></span>&nbsp;&nbsp;Huonekaluhelat','682.5','Huonekaluhelat','','','',false,true);
+d.add(458,454,'682.6','<div class="nodetag">682.6</div></span>&nbsp;&nbsp;Rakennushelat','682.6','Rakennushelat','','','',false,true);
+d.add(459,446,'683','<div class="nodetag">683</div></span>&nbsp;&nbsp;Rautakauppa. Rautatavara. Lukkosepäntyöt. Pullotus. Lamput. Lämmityslaitteet','683','Rautakauppa. Rautatavara. Lukkosepäntyöt. Pullotus. Lamput. Lämmityslaitteet','','','',false,true);
+d.add(460,446,'684','<div class="nodetag">684</div></span>&nbsp;&nbsp;Huonekaluteollisuus. Huonekalujen valmistus. Verhoilu','684','Huonekaluteollisuus. Huonekalujen valmistus. Verhoilu','','','',false,true);
+d.add(461,460,'684.4','<div class="nodetag">684.4</div></span>&nbsp;&nbsp;Huonekalut. Huonekalujen suunnittelu ja valmistus','684.4','Huonekalut. Huonekalujen suunnittelu ja valmistus','','','',false,true);
+d.add(462,460,'684.6','<div class="nodetag">684.6</div></span>&nbsp;&nbsp;Viilutus. Marketeria. Intarsia jne.','684.6','Viilutus. Marketeria. Intarsia jne.','','','',false,true);
+d.add(463,460,'684.7','<div class="nodetag">684.7</div></span>&nbsp;&nbsp;Verhoilutyöt. Pehmustus. Peitot. Seinävaatteet','684.7','Verhoilutyöt. Pehmustus. Peitot. Seinävaatteet','','','',false,true);
+d.add(464,446,'685','<div class="nodetag">685</div></span>&nbsp;&nbsp;Hevosvarusteet. Jalkineet. Käsineet. Matkailu-, urheilu- ja muut välineet','685','Hevosvarusteet. Jalkineet. Käsineet. Matkailu-, urheilu- ja muut välineet','','','',false,true);
+d.add(465,464,'685.1','<div class="nodetag">685.1</div></span>&nbsp;&nbsp;Satulat. Satulasepäntyöt','685.1','Satulat. Satulasepäntyöt','','','',false,true);
+d.add(466,464,'685.2','<div class="nodetag">685.2</div></span>&nbsp;&nbsp;Lisävarusteet. Vyöt. Nahkavarusteet ja vastaavat tuotteet','685.2','Lisävarusteet. Vyöt. Nahkavarusteet ja vastaavat tuotteet','','','',false,true);
+d.add(467,464,'685.3','<div class="nodetag">685.3</div></span>&nbsp;&nbsp;Jalkineet. Liikkumisvälineet','685.3','Jalkineet. Liikkumisvälineet','','','',false,true);
+d.add(468,464,'685.4','<div class="nodetag">685.4</div></span>&nbsp;&nbsp;Käsineet. Käsineiden valmistus','685.4','Käsineet. Käsineiden valmistus','','','',false,true);
+d.add(469,464,'685.5','<div class="nodetag">685.5</div></span>&nbsp;&nbsp;Matkailutarvikkeet. Retkeilyvarusteet','685.5','Matkailutarvikkeet. Retkeilyvarusteet','','','',false,true);
+d.add(470,464,'685.6','<div class="nodetag">685.6</div></span>&nbsp;&nbsp;Urheilu- ja pelivälineet. Välineet ja laitteet urheilua, voimistelua, kuntoilua varten','685.6','Urheilu- ja pelivälineet. Välineet ja laitteet urheilua, voimistelua, kuntoilua varten','','','',false,true);
+d.add(471,464,'685.7','<div class="nodetag">685.7</div></span>&nbsp;&nbsp;Vuorikiipeilyvälineet, kiipeilyvälineet. Uintivälineet','685.7','Vuorikiipeilyvälineet, kiipeilyvälineet. Uintivälineet','','','',false,true);
+d.add(472,464,'685.8','<div class="nodetag">685.8</div></span>&nbsp;&nbsp;Lauta- ja pöytäpelivälineet','685.8','Lauta- ja pöytäpelivälineet','','','',false,true);
+d.add(473,446,'686','<div class="nodetag">686</div></span>&nbsp;&nbsp;Kirjansidonta. Metallointi. Peilinvalmistus. Toimistotarvikkeiden valmistus','686','Kirjansidonta. Metallointi. Peilinvalmistus. Toimistotarvikkeiden valmistus','','','',false,true);
+d.add(474,446,'687','<div class="nodetag">687</div></span>&nbsp;&nbsp;Vaateteollisuus. Asusteiden valmistus. Kauneudenhoitoala','687','Vaateteollisuus. Asusteiden valmistus. Kauneudenhoitoala','','','',false,true);
+d.add(475,474,'687.1','<div class="nodetag">687.1</div></span>&nbsp;&nbsp;Pukimien valmistus. Räätälintyö','687.1','Pukimien valmistus. Räätälintyö','','','',false,true);
+d.add(476,474,'687.2','<div class="nodetag">687.2</div></span>&nbsp;&nbsp;Liinavaatteet. Alusvaatteet','687.2','Liinavaatteet. Alusvaatteet','','','',false,true);
+d.add(477,474,'687.3','<div class="nodetag">687.3</div></span>&nbsp;&nbsp;Neuletuotteet. Solmiot. Vaatteiden kiinnitys ja suojaus','687.3','Neuletuotteet. Solmiot. Vaatteiden kiinnitys ja suojaus','','','',false,true);
+d.add(478,474,'687.4','<div class="nodetag">687.4</div></span>&nbsp;&nbsp;Päähineet. Hatunvalmistus. Hattukauppa','687.4','Päähineet. Hatunvalmistus. Hattukauppa','','','',false,true);
+d.add(479,474,'687.5','<div class="nodetag">687.5</div></span>&nbsp;&nbsp;Kauneudenhoitoala','687.5','Kauneudenhoitoala','','','',false,true);
+d.add(480,474,'687.8','<div class="nodetag">687.8</div></span>&nbsp;&nbsp;Tekoturkikset','687.8','Tekoturkikset','','','',false,true);
+d.add(481,474,'687.9','<div class="nodetag">687.9</div></span>&nbsp;&nbsp;Harjanvalmistus. Harjat. Siveltimet','687.9','Harjanvalmistus. Harjat. Siveltimet','','','',false,true);
+d.add(482,446,'688','<div class="nodetag">688</div></span>&nbsp;&nbsp;Koruesineet. Leikkikalut. Koriste-esineet','688','Koruesineet. Leikkikalut. Koriste-esineet','','','',false,true);
+d.add(483,482,'688.7','<div class="nodetag">688.7</div></span>&nbsp;&nbsp;Leikkikalut. Huvitusvälineet. Pilailuvälineet. Koristeet','688.7','Leikkikalut. Huvitusvälineet. Pilailuvälineet. Koristeet','','','',false,true);
+d.add(484,446,'689','<div class="nodetag">689</div></span>&nbsp;&nbsp;Käsityöt. Tekniset harrastukset','689','Käsityöt. Tekniset harrastukset','','','',false,true);
+d.add(485,0,'69','<div class="nodetag">69</div></span>&nbsp;&nbsp;Rakennusala. Rakennusmateriaalit. Rakennustavat ja -käytännöt','69','Rakennusala. Rakennusmateriaalit. Rakennustavat ja -käytännöt','','','',false,true);
+d.add(486,485,'691','<div class="nodetag">691</div></span>&nbsp;&nbsp;Rakennusaineet. Rakennustarvikkeet','691','Rakennusaineet. Rakennustarvikkeet','','','',false,true);
+d.add(487,485,'692','<div class="nodetag">692</div></span>&nbsp;&nbsp;Rakennusten kantavat osat ja elementit','692','Rakennusten kantavat osat ja elementit','','','',false,true);
+d.add(488,485,'693','<div class="nodetag">693</div></span>&nbsp;&nbsp;Muuraus. Betonivalu ym. rakennustyöt','693','Muuraus. Betonivalu ym. rakennustyöt','','','',false,true);
+d.add(489,485,'694','<div class="nodetag">694</div></span>&nbsp;&nbsp;Puurakenteet. Kirvesmiehentyöt. Rakennuspuusepäntyöt','694','Puurakenteet. Kirvesmiehentyöt. Rakennuspuusepäntyöt','','','',false,true);
+d.add(490,485,'696','<div class="nodetag">696</div></span>&nbsp;&nbsp;Laitteet, asennukset rakennuksissa (saniteettitekniikka, kaasu, höyry, sähkö). Putkiasentaja. Putkimies. Metallimies. Viemäriasentaja. Sähköasentaja. Muut ammatit','696','Laitteet, asennukset rakennuksissa (saniteettitekniikka, kaasu, höyry, sähkö). Putkiasentaja. Putkimies. Metallimies. Viemäriasentaja. Sähköasentaja. Muut ammatit','','','',false,true);
+d.add(491,485,'697','<div class="nodetag">697</div></span>&nbsp;&nbsp;Rakennusten lämmitys, ilmanvaihto ja ilmastointi','697','Rakennusten lämmitys, ilmanvaihto ja ilmastointi','','','',false,true);
+d.add(492,485,'698','<div class="nodetag">698</div></span>&nbsp;&nbsp;Viimeistely- ja koristelutyöt','698','Viimeistely- ja koristelutyöt','','','',false,true);
+d.config.useSelection = false;
+d.config.inOrder = true;
+d.config.useIcons = false;
+document.write(d);
+//-->
+</script>
+</div>
+</div><div id="expandbox" onclick="expandbox(); return false;">&nbsp;</div>
+<div id="recordbox" class="debugbkg">
+<div class="fronthint">Napsauta vasemmalla olevaa luokkaa nähdäksesi tulokset</div>
+</div>
+
+        <div id="footer">
+            <div class="footersectionleft">
+                The UDC Summary (UDCS) provides a selection of around 2,600 classes from the whole scheme which comprises more than 70,000 entries.
+                Please send questions and suggestions to <a href="mailto:udcs@udcc.org?subject=UDC Summary Enquiry">udcs@udcc.org</a><br><br>
+	            <p>
+		            The data provided in this Summary is released under the <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative Commons Attribution Share Alike 3.0 license</a> <a href="../about.htm">[more]</a>
+	            </p>
+            </div>
+            <div class="footermiddle">
+                <a href="http://www.udcc.org"><img src="../images/udclogowhite.png" border="0"></a>
+            </div>
+			<div class="footerright">
+                For complete UDC schedules see <a href="http://www.udc-hub.com/">UDC Online Hub</a><br/><a href="http://www.udc-hub.com/"><img width="60" height="35" src="../images/udclogo.png"/></a>
+
+			</div>
+        </div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-13138465-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>

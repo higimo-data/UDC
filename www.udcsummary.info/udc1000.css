@@ -1,0 +1,577 @@
+/*
+div 
+{
+	font-family: Calibri, Tahoma, Helvetica, sans-serif;
+	font-size: 0.95em;
+	line-height: 1.1em;
+}
+*/
+.debugbkg
+{
+	background-color: white;/*#efefff;*/
+}
+
+#centercontainer
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#aboutcontainer
+{
+    float:left;
+	width: 780px;
+	margin-top: 10px;	
+	margin-bottom: 10px;
+	font-family: Calibri, Tahoma, Helvetica, sans-serif;
+	font-size: 0.95em;
+	line-height: 1.1em;
+	padding: 10px;
+}
+
+#rightmenucontainer
+{
+	width: 130px;
+	float: right;
+	margin-top: 10px;	
+	margin-bottom: 10px;
+	font-family: Calibri, Tahoma, Helvetica, sans-serif;
+	font-size: .7em;
+	color: #000066;
+	line-height: 1.1em;
+	padding: 10px;
+	background-color: white;
+}
+#aboutcontainer h1
+{
+	color: #0e1b4f;
+	font-family: Calibri, Tahoma, Helvetica, sans-serif;
+	font-size: 1.4em;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+#aboutcontainer h2
+{
+	color: #0e1b4f;
+	font-family: Calibri, Tahoma, Helvetica, sans-serif;
+	font-size: 1.25em;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+#aboutcontainer h3
+{
+	color:#656482;
+	font-family: Calibri, Tahoma, Helvetica, sans-serif;
+	font-size: 1.1em;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+#titlebox
+{
+	width: 1000px;
+	float: left;
+	clear: left;
+    height: 90px;
+    background-image: url(images/udcsumtitle.jpg);
+    vertical-align: middle;
+}
+
+#footer
+{
+    float: left;
+    width: 1000px;
+    clear: left;
+    background-color: #00335f;/*  #0e1b4f;*/
+    text-align: center;
+    color: #ffffff;
+    min-height: 104px;
+	font-family: Calibri, Tahoma, Helvetica, sans-serif;
+	font-size: .9em;
+	line-height: 35px;
+	text-decoration: none;       
+}
+
+.footersectionleft
+{
+    float: left;
+    width: 375px;
+	font-family: Calibri, Tahoma, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.2em;  
+	padding: 10px 0px 0px 10px;  
+	text-align: left;
+}
+
+.footersectionleft a
+{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.footermiddle 
+{
+    float: left;
+    width: 190px;
+	padding: 10px 0px 10px 0px; 
+	margin-left: 17px;
+	font-family: Calibri, Tahoma, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.2em;  
+}
+
+.footerright
+{
+	width: 275px;
+	float: right;
+	font-family: Calibri, Tahoma, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.2em;  	
+	padding: 10px 10px 0px 0px;  
+	text-align: left;
+}
+
+.footerright a
+{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.footercc
+{
+	width: 100px;
+	float: right;
+	font-family: Calibri, Tahoma, Helvetica, sans-serif;
+	font-size: 0.95em;
+	line-height: 1.1em;  		
+	padding: 10px 10px 0px 0px;  	
+}
+
+#menubox
+{
+	width: 1000px;
+	float: left;
+	clear: left;
+    height: 30px;
+    background-color: #efefef;
+}
+ 
+.rightmenubox
+{
+	float: right;
+    height: 30px;
+    background-color: #efefef;
+}
+
+#classmarkbox
+{
+	width: 420px;
+	margin: 10px 0px 10px 10px;
+	float: left;
+	overflow: auto;
+	padding: 4px;
+	border: 1px solid #aaaaaa;
+    height: 520px;
+}
+
+#expandbox {
+	width: 20px;
+	margin: 10px 0px;
+	float: left;
+	overflow: auto;
+	padding: 0px;
+	background-color: white;
+	background-image: url(images/rightarrow.png);
+    height: 520px;
+}
+
+#recordbox
+{	
+	font-family: Calibri, Tahoma, Helvetica, sans-serif;
+	font-size: 0.95em;
+	line-height: 1.1em;
+	margin: 10px 10px 10px 0px;
+	width: 520px;
+	float: left;
+    background-color: white; /*#ebebff;*/
+    overflow: auto;
+    height: 520px;
+  	padding: 4px;
+    border: 1px solid #aaaaaa;
+}
+
+#openclosemenu
+{
+    float: left;
+    width: 405px;
+    clear: left;
+    background-color: #efefff;
+    color: black;
+    height: 1.3em;    
+    margin-bottom: 5px;
+}
+
+#openclosemenu a
+{
+    color: black;
+    padding:  2px;
+	font-family: Calibri, Tahoma, Helvetica, sans-serif;
+	font-size: 0.75em;
+    font-weight: bold;
+    text-decoration: none;
+	line-height: 1.5em;
+    vertical-align: middle;
+}
+
+#classtree
+{
+    float: left;
+    width: 405px;
+    clear: left;
+    color: black;
+    margin-bottom: 10px;
+    border: 1px solid red;
+}
+
+.record
+{
+    width: 500px;
+    float: left;
+    clear: left;
+	font-family: Calibri, Tahoma, Helvetica, sans-serif;
+	font-size: 0.85em;
+    color: black;     
+    /*border: 1px solid #cdcdef;*/
+    overflow: auto;
+ }
+
+.recordrow
+{
+    float: left;
+    width: 498px;
+    clear: left;
+    background-color: white;
+    margin-bottom: 5px;
+    
+    /*border-left: 1px solid #dcdcef; 
+    border-right: 1px solid #dcdcef; 
+    border-bottom: 1px solid #dcdcef;*/ 
+}
+
+.headerrow
+{
+    float: left;
+    width: 498px;
+    clear: left;
+    padding: 1px;
+    background-color: white;/*#cdcdef;*/
+    margin-bottom: 5px;
+}
+
+.notation
+{
+    float: left;
+    clear: left;
+    width: 75px;
+    padding: 2px;
+    font-size: 15px;    
+    line-height: 17px;
+}
+
+.caption
+{
+    float: left;
+    width: 410px;
+    padding: 2px;
+    font-size: 15px;    
+    line-height: 17px;
+}
+
+.label
+{
+    float: left;
+    clear: left;
+    width: 75px;
+    margin: 2px;
+    background-color: white;
+}
+
+.recordvalue
+{
+    float: left;
+    width: 410px;
+    background-color: white;
+    margin: 2px;
+}
+
+.extag
+{
+    background-color: white;
+    vertical-align: top;   
+    font-style: normal; 
+    width: 75px;
+    font-size: 0.85em;
+}
+
+.reftag
+{
+    background-color: white;
+    vertical-align: top;   
+    font-style: normal; 
+    width: 75px;
+    line-height: 17px;
+    font-size: 0.85em;
+}
+
+.exdesc
+{
+    background-color: white;
+    vertical-align: top;    
+    font-style: normal; 
+    padding-left: 10px;
+    font-size: 0.85em;
+}
+
+.recordseparator 
+{
+    width: 100%;
+    float: left;
+    clear: left;
+    border-top: 1px dotted #aaaaaa;
+    margin-top: 5px;
+    line-height: 5px;
+}
+
+#languagebox
+{
+    float: right;
+    width: 200px;
+    margin-top: 5px;
+    text-align: right;
+    margin-right: 5px;
+}
+
+ul.menu {
+    list-style-type: none;
+    float: left;
+    width: 570px;
+    position: relative;
+    display: block;
+    height: 30px;
+    font-size: .7em;
+    /*background:url(images/bg.png) repeat-x top left;*/)
+    font-family: Calibri, Verdana, Helvetica, Arial, sans-serif;
+    /*border-right: 1px solid blue;*/
+    margin: 0;
+    padding: 0;
+}
+
+.boldmenu
+{
+    font-weight: bold;
+}
+
+ul.rightmenu {
+    float: right;
+    width: 430px;
+    /*position: relative;*/
+    display: block;
+    height: 30px;
+    font-size: .7em;
+    /*background:url(images/bg.png) repeat-x top left;*/)
+    font-family: Calibri, Verdana, Helvetica, Arial, sans-serif;
+    /*border-left: 1px solid red;*/
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul.rightmenu li 
+{
+    display: block;
+    float: right;
+    margin: 0;
+    height: 20px;
+    padding: 10px 10px 0px 0px;
+    /*border: 1px solid red;*/       
+}
+
+ul.rightmenu li a {
+    color: #A0A0A0;
+	font-family: Calibri, Tahoma, Helvetica, sans-serif;
+    text-decoration: none;
+ }
+ 
+ ul.menu li a.vacant {
+    color: #aaaaaa;
+	font-family: Calibri, Tahoma, Helvetica, sans-serif;
+    text-decoration: none;
+ }
+ul.menu li {
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+ul.menu li a {
+    float: left;
+    color: #000;
+	font-family: Calibri, Tahoma, Helvetica, sans-serif;
+    text-decoration: none;
+    height: 20px;
+    padding: 10px 8px 0;
+}
+
+.wait
+{
+    width: inherit;
+    float: left;
+    font-size: 55px;
+    color: #aaaaaa;
+    text-align: center;
+    line-height: 60px;
+    margin-top: 200px;
+}
+
+.fronthint
+{
+    float: left;
+    width: 300px;
+    margin-left: 2.5em;
+    margin-right: auto;
+	font-family: Calibri, Tahoma, Helvetica, sans-serif;
+	font-size: 3em;
+    line-height: 1.2em;
+    color: #dedede;
+    margin-top: 30px;
+}
+
+.difflang
+{
+    color: #cbcbcb;
+}
+
+.including
+{
+    width: 400px;   
+    float: left; 
+    /*color: #555555;*/
+    font-size: 0.9em;
+    margin-top: 2px;
+}
+
+.grey 
+{
+    color: #555555;
+}
+
+#rightbox {
+    width: 200px;
+    height: 27px;
+    float: right;
+    clear: right;    
+}
+
+#languagecount {
+    width: 150px;
+    height: 27px;
+    float: right;
+    clear: right;
+    /*background-image: url('images/languagecount.jpg');*/
+    background-repeat: no-repeat;
+    text-align: right;
+    line-height: 27px;
+    vertical-align: middle;
+    font-family: Calibri, Tahoma, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top:  5px;
+    margin-right: 5px;
+    color:  #C9A200;
+}
+
+#navpath {
+    font-family: Calibri, Tahoma, Helvetica, sans-serif;
+    font-size: 0.75em;    
+    background-color: #efefef;
+    padding: 2px;
+    margin-top: 1px;
+    margin-left: 2px;
+    line-height: 1.3em;
+    min-height: 1.5em;
+    margin-bottom: 5px;
+    vertical-align: middle;    
+    overflow: auto;
+}
+
+#navpath a {
+    line-height: 1.5em;    
+    text-decoration: underline;
+}
+
+#navpath a:hover {
+    text-decoration: underline;
+}
+
+.simplenav {
+    padding:  2px;
+    font-weight: normal;
+    color: black;
+    text-decoration: none;
+    line-height: 1.3em;
+    vertical-align: middle;
+    
+}
+
+.currentnav {
+    padding:  2px;
+    font-weight: bold;
+    color: blue;
+    text-decoration: none;
+    line-height: 1.3em;
+    vertical-align: middle;
+}
+
+.pathelement {
+    float: left;
+    height: 1.3em;
+    padding-left: 2px;
+}
+
+.pathnextprev {
+    float: right;
+    height: 1.3em;
+    padding-left: 2px;
+}
+
+.nextprevnav {
+    float: right;
+    width: 100px;
+    overflow: visible;
+    text-align: right;
+}
+/*
+ul.menu li a:hover,.current {
+color:#fff;
+background:url(images/bg.png) repeat-x top left;
+}
+
+ul.menu .current a {
+color:#fff;
+font-weight:700;
+}
+
+
+ul.menu.red{
+background-color:#B11718;
+}
+ul.menu.red li a:hover, .menu.red li.current {
+background-color:#DE3330;
+}
+*/

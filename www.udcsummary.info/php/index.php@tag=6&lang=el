@@ -1,0 +1,654 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>UDC Summary</title>
+    <link rel="stylesheet" href="../reset.css" type="text/css" />
+    <link rel="stylesheet" href="../udc2000.css" type="text/css" />
+	    <link rel="StyleSheet" href="dtree2.css" type="text/css" />
+	    <script type="text/javascript" src="dtree.js"></script>
+	    <script type="text/javascript" src="udcdisplay_9.js"></script>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+</head>
+
+<body >
+<div id="centercontainer" class="debugbkg">
+    <div id="titlebox" class="debugbkg">
+		<div id="rightbox">
+        	<div id="languagecount">57 languages</div>
+            <div id="languagebox">
+            <select id="selectedlang" style="vertical-align: middle;" onchange="location = this.options[this.selectedIndex].value;">
+			<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=af&pr=Y">Afrikaans (Afrikaans) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sq&pr=Y">Albanian (Shqip) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=anp&pr=Y">Angika (अंगिका) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ar&pr=Y">Arabic (العربية) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hy&pr=Y">Armenian (հայերեն) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=eu&pr=Y">Basque (Euskara) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=be&pr=Y">Belarusian (Беларуская) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bn&pr=Y">Bengali (বাংলা) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bho&pr=Y">Bhojpuri (भोजपुरी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bg&pr=Y">Bulgarian (Български) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ca&pr=Y">Catalan (Català) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=chi&pr=Y">Chinese (中文) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hr&pr=Y">Croatian (Hrvatski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=cs&pr=Y">Czech (Čeština) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=da&pr=Y">Danish (Dansk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=nl&pr=Y">Dutch (Nederlands) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=en&pr=Y">English (English) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=eo&pr=Y">Esperanto (Esperanto) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=et&pr=Y">Estonian (Eesti) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=fi&pr=Y">Finnish (Suomi) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=fr&pr=Y">French (Français) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=gl&pr=Y">Galician (Galego) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ka&pr=Y">Georgian (ქართული) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=de&pr=Y">German (Deutsch) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=el&pr=Y" selected>Greek (Ελληνικά) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hi&pr=Y">Hindi (हिन्दी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hu&pr=Y">Hungarian (Magyar) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=id&pr=Y">Indonesian (Bahasa Ind) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ga&pr=Y">Irish (Gaeilge) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=it&pr=Y">Italian (Italiano) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ja&pr=Y">Japanese (日本語) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=kn&pr=Y">Kannada (ಕನ್ನಡ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=kk&pr=Y">Kazakh (Қазақ тілі) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=lv&pr=Y">Latvian (Latviešu) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=lt&pr=Y">Lithuanian (lietuvių) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=mk&pr=Y">Macedonian (македонски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ml&pr=Y">Malayalam (മലയാളം) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=mr&pr=Y">Marathi (मराठी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=no&pr=Y">Norwegian (Norsk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pl&pr=Y">Polish (Polski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pt&pr=Y">Portuguese (Português) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pa&pr=Y">Punjabi (ਪੰਜਾਬੀ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ro&pr=Y">Romanian (Româna) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ru&pr=Y">Russian (Pусский) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sa&pr=Y">Sanskrit (Saṃskṛtam) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sr&pr=Y">Serbian (Српски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=si&pr=Y">Sinhala (සිංහල) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sk&pr=Y">Slovak (Slovenský) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sl&pr=Y">Slovenian (Slovenski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=es&pr=Y">Spanish (Español) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sv&pr=Y">Swedish (Svenska) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ta&pr=Y">Tamil (தமிழ்) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=te&pr=Y">Telugu (తెలుగు) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=tr&pr=Y">Turkish (Türkçe) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=uk&pr=Y">Ukrainian (Yкраї́нська) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=uz&pr=Y">Uzbek (oʻzbek) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=vi&pr=Y">Vietnamese (tiếng Việt) </option>
+            </select>
+            </div>
+            </div>
+        </div>
+		<div id="menubox" class="debugbkg">
+            <ul class="menu boldmenu">
+<li><a href="index.php@lang=el">ΑΝΩ</a></li>
+<li><a href="index.php@tag=--&amp;lang=el">ΣΗΜΕΙΑ</a></li>
+<li><a href="index.php@tag=---&amp;lang=el">ΒΟΗΘΙΤΙΚΑ ΝΟΥΜΕΡΑ</a></li>
+<li><a href="index.php@tag=0&amp;lang=el">0</a></li>
+<li><a href="index.php@tag=1&amp;lang=el">1</a></li>
+<li><a href="index.php@tag=2&amp;lang=el">2</a></li>
+<li><a href="index.php@tag=3&amp;lang=el">3</a></li>
+<li><a  class="vacant" href="index.php@tag=6&amp;lang=el#">4</a></li>
+<li><a href="index.php@tag=5&amp;lang=el">5</a></li>
+<li><a href="index.php@tag=6&amp;lang=el">6</a></li>
+<li><a href="index.php@tag=7&amp;lang=el">7</a></li>
+<li><a href="index.php@tag=8&amp;lang=el">8</a></li>
+<li><a href="index.php@tag=9&amp;lang=el">9</a></li>
+</ul>
+<input type="hidden" id="if_loading" name="if_loading" value="Φορτώνει"/>
+<input type="hidden" id="if_lang" name="if_lang" value="25"/>
+<ul class="rightmenu boldmenu">
+<li><a href="../translation.htm">ΜΕΤΑΦΡΑΣΕΙΣ</a></li>
+<li><a href="index.php@tag=6&amp;lang=el#" title="Under Development">ΧΑΡΤΟΓΡΑΦΗΣΕΙΣ</a></li>
+<li><a href="../exports.htm" title="Data Exports">ΕΞΑΓΟΜΕΝΑ</a></li>
+<li><a href="index.php@tag=6&amp;lang=el#" title="Under Development">ΑΛΦΑΒΗΤΙΚΟ ΕΥΡΕΤΗΡΙΟ</a></li>
+<li><a href="index.php@tag=6&amp;lang=el#" title="Under Development">ΟΔΗΓΙΕΣ</a></li>
+<li><a href="../about.htm" title="About the UDC Summary">ΣΧΕΤΙΚΑ</a></li>
+</ul>
+
+        </div>
+		<input type="hidden" id="leftWidth" value="420"/><input type="hidden" id="rightWidth" value="522"/>
+		<div id="classmarkbox" class="debugbkg">
+
+<div id="openclosemenu"><a href="javascript: d.openAll();">&nbsp;πλήρης ανάπτυξη</a> | <a href="javascript: d.closeAll();">πλήρης αναδίπλωση</a></div>
+<div id="classtree">
+<script type="text/javascript">
+<!--
+d = new dTree('d');
+d.config.hrefIsClick = true;
+d.add(0,-1,'6','<span class="nodetag">6</span>&nbsp;&nbsp;ΕΦΑΡΜΟΣΜΕΝΕΣ ΕΠΙΣΤΗΜΕΣ. ΙΑΤΡΙΚΗ. ΤΕΧΝΟΛΟΓΙΑ','6','','','','',false,true);
+d.add(1,0,'60','<div class="nodetag">60</div></span>&nbsp;&nbsp;Βιοτεχνολογία','60','Βιοτεχνολογία','','','',false,true);
+d.add(2,1,'601','<div class="nodetag">601</div></span>&nbsp;&nbsp;Θεμελιώδεις έννοιες','601','Θεμελιώδεις έννοιες','','','',false,true);
+d.add(3,1,'602','<div class="nodetag">602</div></span>&nbsp;&nbsp;Διαδικασίες και τεχνικές στην βιοτεχνολογία','602','Διαδικασίες και τεχνικές στην βιοτεχνολογία','','','',false,true);
+d.add(4,1,'604','<div class="nodetag">604</div></span>&nbsp;&nbsp;Προϊόντα βιοτεχνολογίας','604','Προϊόντα βιοτεχνολογίας','','','',false,true);
+d.add(5,1,'606','<div class="nodetag">606</div></span>&nbsp;&nbsp;Εφαρμογές της βιοτεχνολογίας','606','Εφαρμογές της βιοτεχνολογίας','','','',false,true);
+d.add(6,1,'608','<div class="nodetag">608</div></span>&nbsp;&nbsp;Ερωτήματα στην βιοτεχνολογία','608','Ερωτήματα στην βιοτεχνολογία','','','',false,true);
+d.add(7,0,'61','<div class="nodetag">61</div></span>&nbsp;&nbsp;Ιατρικές επιστήμες','61','Ιατρικές επιστήμες','','','',false,true);
+d.add(8,7,'611/612','<div class="nodetag">611/612</div></span>&nbsp;&nbsp;Ανθρώπινη βιολογία','611/612','Ανθρώπινη βιολογία','','','',false,true);
+d.add(9,8,'611','<div class="nodetag">611</div></span>&nbsp;&nbsp;Ανατομία. Ανθρώπινη και συγκρητική ανατομία','611','Ανατομία. Ανθρώπινη και συγκρητική ανατομία','','','',false,true);
+d.add(10,8,'612','<div class="nodetag">612</div></span>&nbsp;&nbsp;Φυσιολογία. Ανθρώπινη και συγκρητική φυσιολογία','612','Φυσιολογία. Ανθρώπινη και συγκρητική φυσιολογία','','','',false,true);
+d.add(11,10,'612.1/.8','<div class="nodetag">612.1/.8</div></span>&nbsp;&nbsp;Συστηματική φυσιολογία','612.1/.8','Συστηματική φυσιολογία','','','',false,true);
+d.add(12,11,'612.1','<div class="nodetag">612.1</div></span>&nbsp;&nbsp;Αίμα. Καρδιοαγγειακό, κυκλοφοριακό σύστημα','612.1','Αίμα. Καρδιοαγγειακό, κυκλοφοριακό σύστημα','','','',false,true);
+d.add(13,11,'612.2','<div class="nodetag">612.2</div></span>&nbsp;&nbsp;Αναπνοή. Αναπνευστικό σύστημα','612.2','Αναπνοή. Αναπνευστικό σύστημα','','','',false,true);
+d.add(14,11,'612.3','<div class="nodetag">612.3</div></span>&nbsp;&nbsp;Διατροφή. Βρώση. Χώνευση. Τροφή','612.3','Διατροφή. Βρώση. Χώνευση. Τροφή','','','',false,true);
+d.add(15,11,'612.4','<div class="nodetag">612.4</div></span>&nbsp;&nbsp;Αδενικό σύστημα. Έκκριση. Έκκριμα','612.4','Αδενικό σύστημα. Έκκριση. Έκκριμα','','','',false,true);
+d.add(16,11,'612.5','<div class="nodetag">612.5</div></span>&nbsp;&nbsp;Ζωϊκή θερμότητα. Θερμικές διαδικασίες','612.5','Ζωϊκή θερμότητα. Θερμικές διαδικασίες','','','',false,true);
+d.add(17,11,'612.6','<div class="nodetag">612.6</div></span>&nbsp;&nbsp;Αναπαραγωγή. Ανάπτυξη. Εξέλιξη','612.6','Αναπαραγωγή. Ανάπτυξη. Εξέλιξη','','','',false,true);
+d.add(18,11,'612.7','<div class="nodetag">612.7</div></span>&nbsp;&nbsp;Κινητικές λειτουργίες. Όργανα κίνησης. Φωνή. Εξωτερικό περίβλημα','612.7','Κινητικές λειτουργίες. Όργανα κίνησης. Φωνή. Εξωτερικό περίβλημα','','','',false,true);
+d.add(19,11,'612.8','<div class="nodetag">612.8</div></span>&nbsp;&nbsp;Νευρικό σύστημα. Αισθητήρια όργανα','612.8','Νευρικό σύστημα. Αισθητήρια όργανα','','','',false,true);
+d.add(20,7,'613','<div class="nodetag">613</div></span>&nbsp;&nbsp;Υγιεινή γενικά. Προσωπική υγεία και υγιεινή','613','Υγιεινή γενικά. Προσωπική υγεία και υγιεινή','','','',false,true);
+d.add(21,20,'613.2','<div class="nodetag">613.2</div></span>&nbsp;&nbsp;Διαιτητική. Διατροφικές αρχές εφαρμοσμένες θρέψη και στα τρόφιμα','613.2','Διαιτητική. Διατροφικές αρχές εφαρμοσμένες θρέψη και στα τρόφιμα','','','',false,true);
+d.add(22,20,'613.3','<div class="nodetag">613.3</div></span>&nbsp;&nbsp;Ποτά. Θεραπευτικά ποτά. Θαρμακευτικά ποτά. Υγρή δίαιτα','613.3','Ποτά. Θεραπευτικά ποτά. Θαρμακευτικά ποτά. Υγρή δίαιτα','','','',false,true);
+d.add(23,20,'613.4','<div class="nodetag">613.4</div></span>&nbsp;&nbsp;Προσωπική υγιεινή. Ένδυση','613.4','Προσωπική υγιεινή. Ένδυση','','','',false,true);
+d.add(24,20,'613.5','<div class="nodetag">613.5</div></span>&nbsp;&nbsp;Υγιεινή των κατοικιών','613.5','Υγιεινή των κατοικιών','','','',false,true);
+d.add(25,20,'613.6','<div class="nodetag">613.6</div></span>&nbsp;&nbsp;Επαγγελματικοί κίνδυνοι υγείας. Επαγγελματική υγεία και υγιεινή','613.6','Επαγγελματικοί κίνδυνοι υγείας. Επαγγελματική υγεία και υγιεινή','','','',false,true);
+d.add(26,20,'613.7','<div class="nodetag">613.7</div></span>&nbsp;&nbsp;Υγεία και υγιεινή της ανάπαυσης, αναψυχής, ύπνου','613.7','Υγεία και υγιεινή της ανάπαυσης, αναψυχής, ύπνου','','','',false,true);
+d.add(27,20,'613.8','<div class="nodetag">613.8</div></span>&nbsp;&nbsp;Υγεία και υγιεινή του νευρικού συστήματος. Υγεία και ηθική','613.8','Υγεία και υγιεινή του νευρικού συστήματος. Υγεία και ηθική','','','',false,true);
+d.add(28,20,'613.9','<div class="nodetag">613.9</div></span>&nbsp;&nbsp;Υγεία και υγιεινή σε σχέση με την ηλικία, το φύλο, την εθνότητα','613.9','Υγεία και υγιεινή σε σχέση με την ηλικία, το φύλο, την εθνότητα','','','',false,true);
+d.add(29,7,'614','<div class="nodetag">614</div></span>&nbsp;&nbsp;Δημόσια υγεία και υγιεινή. Πρόληψη ατυχημάτων','614','Δημόσια υγεία και υγιεινή. Πρόληψη ατυχημάτων','','','',false,true);
+d.add(30,29,'614.1','<div class="nodetag">614.1</div></span>&nbsp;&nbsp;Πληθυσμός. Αποπληθυσμός','614.1','Πληθυσμός. Αποπληθυσμός','','','',false,true);
+d.add(31,29,'614.2','<div class="nodetag">614.2</div></span>&nbsp;&nbsp;Δημόσια και επαγγελματική οργάνωση της υγείας','614.2','Δημόσια και επαγγελματική οργάνωση της υγείας','','','',false,true);
+d.add(32,29,'614.3','<div class="nodetag">614.3</div></span>&nbsp;&nbsp;Υγειονομική επιθεώρηση και έλεγχος','614.3','Υγειονομική επιθεώρηση και έλεγχος','','','',false,true);
+d.add(33,32,'614.39','<div class="nodetag">614.39</div></span>&nbsp;&nbsp;Εθνικές υπηρεσίες υγείας','614.39','Εθνικές υπηρεσίες υγείας','','','',false,true);
+d.add(34,29,'614.4','<div class="nodetag">614.4</div></span>&nbsp;&nbsp;Πρόληψη και έλεγχος μεταδιδόμενων (λοιμωδών, κολλητικών) ασθενειών. Πρόληψη επιδημιών','614.4','Πρόληψη και έλεγχος μεταδιδόμενων (λοιμωδών, κολλητικών) ασθενειών. Πρόληψη επιδημιών','','','',false,true);
+d.add(35,29,'614.6','<div class="nodetag">614.6</div></span>&nbsp;&nbsp;Υγιεινή κοιμητηρίων. Απόθεση νεκρών','614.6','Υγιεινή κοιμητηρίων. Απόθεση νεκρών','','','',false,true);
+d.add(36,29,'614.7','<div class="nodetag">614.7</div></span>&nbsp;&nbsp;Υγιεινή του αέρα, νερού, εδάφους','614.7','Υγιεινή του αέρα, νερού, εδάφους','','','',false,true);
+d.add(37,29,'614.8','<div class="nodetag">614.8</div></span>&nbsp;&nbsp;Ατυχήματα. Ρίσκα. Κίνδυνοι. Πρόληψη ατυχημάτων. Προσωπική προστασία. Ασφάλεια','614.8','Ατυχήματα. Ρίσκα. Κίνδυνοι. Πρόληψη ατυχημάτων. Προσωπική προστασία. Ασφάλεια','','','',false,true);
+d.add(38,29,'614.9','<div class="nodetag">614.9</div></span>&nbsp;&nbsp;Υγεία των ζώων. Κτηνιατρική υγιεινή','614.9','Υγεία των ζώων. Κτηνιατρική υγιεινή','','','',false,true);
+d.add(39,7,'615','<div class="nodetag">615</div></span>&nbsp;&nbsp;Φαρμακολογία. Θεραπευτική. Τοξικολογία','615','Φαρμακολογία. Θεραπευτική. Τοξικολογία','','','',false,true);
+d.add(40,39,'615.1','<div class="nodetag">615.1</div></span>&nbsp;&nbsp;Γενική και επαγγελματική φαρμακευτική','615.1','Γενική και επαγγελματική φαρμακευτική','','','',false,true);
+d.add(41,39,'615.2','<div class="nodetag">615.2</div></span>&nbsp;&nbsp;Φάρμακα σύμφωνα με την κύρια δράση τους','615.2','Φάρμακα σύμφωνα με την κύρια δράση τους','','','',false,true);
+d.add(42,39,'615.3','<div class="nodetag">615.3</div></span>&nbsp;&nbsp;Φάρμακα σύμφωνα με την προέλευσή τους','615.3','Φάρμακα σύμφωνα με την προέλευσή τους','','','',false,true);
+d.add(43,39,'615.4','<div class="nodetag">615.4</div></span>&nbsp;&nbsp;Φαρμακευτικά παρασκευάσματα. Φαρμακευτικό υλικό. Εξοπλισμός','615.4','Φαρμακευτικά παρασκευάσματα. Φαρμακευτικό υλικό. Εξοπλισμός','','','',false,true);
+d.add(44,39,'615.8','<div class="nodetag">615.8</div></span>&nbsp;&nbsp;Φυσιοθεραπεία. Σωματική θεραπεία. Ραδιοθεραπεία. Άλλες μη φαρμακευτικές θεραπευτικές αγωγές','615.8','Φυσιοθεραπεία. Σωματική θεραπεία. Ραδιοθεραπεία. Άλλες μη φαρμακευτικές θεραπευτικές αγωγές','','','',false,true);
+d.add(45,39,'615.9','<div class="nodetag">615.9</div></span>&nbsp;&nbsp;Γενική τοξικολογία. Γενικές σπουδές των δηλητηρίων και της δηλητηρίασης','615.9','Γενική τοξικολογία. Γενικές σπουδές των δηλητηρίων και της δηλητηρίασης','','','',false,true);
+d.add(46,7,'616','<div class="nodetag">616</div></span>&nbsp;&nbsp;Παθολογία. Κλινική ιατρική','616','Παθολογία. Κλινική ιατρική','','','',false,true);
+d.add(47,46,'616-001/-009','<div class="nodetag">616-001/-009</div></span>&nbsp;&nbsp;Ειδικοί βοηθητικοί αριθμοί για νοσηρές διαδικασίες','616-001/-009','Ειδικοί βοηθητικοί αριθμοί για νοσηρές διαδικασίες','','','',false,true);
+d.add(48,47,'616-001','<div class="nodetag">616-001</div></span>&nbsp;&nbsp;Τραύματα. Τραυματισμοί. Πληγές','616-001','Τραύματα. Τραυματισμοί. Πληγές','','','',false,true);
+d.add(49,47,'616-002','<div class="nodetag">616-002</div></span>&nbsp;&nbsp;Φλεγμονή. Ερεθισμός. Συμφόρηση (υπεραιμία). Βλεννώδης συμφόρηση','616-002','Φλεγμονή. Ερεθισμός. Συμφόρηση (υπεραιμία). Βλεννώδης συμφόρηση','','','',false,true);
+d.add(50,47,'616-003','<div class="nodetag">616-003</div></span>&nbsp;&nbsp;Διαδικασίες αποκατάστασης','616-003','Διαδικασίες αποκατάστασης','','','',false,true);
+d.add(51,47,'616-004','<div class="nodetag">616-004</div></span>&nbsp;&nbsp;Σκλήρυνση. Κίρρωση','616-004','Σκλήρυνση. Κίρρωση','','','',false,true);
+d.add(52,47,'616-005','<div class="nodetag">616-005</div></span>&nbsp;&nbsp;Τοπικές κυκλοφοριακές ανωμαλίες','616-005','Τοπικές κυκλοφοριακές ανωμαλίες','','','',false,true);
+d.add(53,47,'616-006','<div class="nodetag">616-006</div></span>&nbsp;&nbsp;Όγκοι. Νεοπλάσματα. Βλαστόματα. Χοριστόματα. Χαμαρτόματα. Ογκολογία','616-006','Όγκοι. Νεοπλάσματα. Βλαστόματα. Χοριστόματα. Χαμαρτόματα. Ογκολογία','','','',false,true);
+d.add(54,47,'616-007','<div class="nodetag">616-007</div></span>&nbsp;&nbsp;Ελλατωματική δομική ανάπτυξη. Φυσιολογικές δυσμορφίες. Δυσπλασίες. Ημιτέρατα. Υπερμεγέθη, υπομεγέθη όργανα. Τερατολογία. Τέρατα. Ανωμαλίες','616-007','Ελλατωματική δομική ανάπτυξη. Φυσιολογικές δυσμορφίες. Δυσπλασίες. Ημιτέρατα. Υπερμεγέθη, υπομεγέθη όργανα. Τερατολογία. Τέρατα. Ανωμαλίες','','','',false,true);
+d.add(55,47,'616-008','<div class="nodetag">616-008</div></span>&nbsp;&nbsp;Λειτουργικές και μεταβολικές δυσλειτουργίες','616-008','Λειτουργικές και μεταβολικές δυσλειτουργίες','','','',false,true);
+d.add(56,47,'616-009','<div class="nodetag">616-009</div></span>&nbsp;&nbsp;Νευρο-δυσλειτουργίες','616-009','Νευρο-δυσλειτουργίες','','','',false,true);
+d.add(57,46,'616-01/-099','<div class="nodetag">616-01/-099</div></span>&nbsp;&nbsp;Ειδικοί βοηθητικοί αριθμοί για τις γενικές απόψεις της παθολογίας','616-01/-099','Ειδικοί βοηθητικοί αριθμοί για τις γενικές απόψεις της παθολογίας','','','',false,true);
+d.add(58,57,'616-01','<div class="nodetag">616-01</div></span>&nbsp;&nbsp;Διάφορες απόψεις των ασθενειών, των ασθενών και της ιατρικής παρέμβασης','616-01','Διάφορες απόψεις των ασθενειών, των ασθενών και της ιατρικής παρέμβασης','','','',false,true);
+d.add(59,57,'616-02','<div class="nodetag">616-02</div></span>&nbsp;&nbsp;Αιτιολογία. Επιστήμη των αιτιών της ασθένειας','616-02','Αιτιολογία. Επιστήμη των αιτιών της ασθένειας','','','',false,true);
+d.add(60,57,'616-03','<div class="nodetag">616-03</div></span>&nbsp;&nbsp;Διάφορες φόρμες της ασθένειας, της θεραπείας, της διαχείρησης των φαρμάκων','616-03','Διάφορες φόρμες της ασθένειας, της θεραπείας, της διαχείρησης των φαρμάκων','','','',false,true);
+d.add(61,57,'616-05','<div class="nodetag">616-05</div></span>&nbsp;&nbsp;Άτομα και ατομικά χαρακτηριστικά στην παθολογία. Χαρακτηριστικά του ασθενή','616-05','Άτομα και ατομικά χαρακτηριστικά στην παθολογία. Χαρακτηριστικά του ασθενή','','','',false,true);
+d.add(62,57,'616-06','<div class="nodetag">616-06</div></span>&nbsp;&nbsp;Επιπλοκές. Συνέπειες. Αντίκτυπος. Ταυτοχρονία, συμπίπτουσα κατάσταση. Αλληλεξάρτηση. Προηγούμενη ασθένεια. Προηγούμενη κατάσταση υγείας. Ανταγωνισμός δύο ασθενειών','616-06','Επιπλοκές. Συνέπειες. Αντίκτυπος. Ταυτοχρονία, συμπίπτουσα κατάσταση. Αλληλεξάρτηση. Προηγούμενη ασθένεια. Προηγούμενη κατάσταση υγείας. Ανταγωνισμός δύο ασθενειών','','','',false,true);
+d.add(63,57,'616-07','<div class="nodetag">616-07</div></span>&nbsp;&nbsp;Σημειολογία. Συμπτωματολογία. Σημάδια και συμπτώματα. Εξέταση. Διάγνωση. Προπαιδευτική','616-07','Σημειολογία. Συμπτωματολογία. Σημάδια και συμπτώματα. Εξέταση. Διάγνωση. Προπαιδευτική','','','',false,true);
+d.add(64,57,'616-08','<div class="nodetag">616-08</div></span>&nbsp;&nbsp;Θεραπεία','616-08','Θεραπεία','','','',false,true);
+d.add(65,57,'616-091','<div class="nodetag">616-091</div></span>&nbsp;&nbsp;Παθολογική ανατομία. Νοσηρή ανατομία','616-091','Παθολογική ανατομία. Νοσηρή ανατομία','','','',false,true);
+d.add(66,57,'616-092','<div class="nodetag">616-092</div></span>&nbsp;&nbsp;Παθολογική φυσιολογία. Διαδικασία, τρόπος δράσης των ασθενειών. Παθογένεση. Μελέτη της προέλευσης των ασθενειών','616-092','Παθολογική φυσιολογία. Διαδικασία, τρόπος δράσης των ασθενειών. Παθογένεση. Μελέτη της προέλευσης των ασθενειών','','','',false,true);
+d.add(67,57,'616-093','<div class="nodetag">616-093</div></span>&nbsp;&nbsp;Μικροβιακές τεχνικές','616-093','Μικροβιακές τεχνικές','','','',false,true);
+d.add(68,57,'616-094','<div class="nodetag">616-094</div></span>&nbsp;&nbsp;Μικροβιακή μορφολογία','616-094','Μικροβιακή μορφολογία','','','',false,true);
+d.add(69,57,'616-095','<div class="nodetag">616-095</div></span>&nbsp;&nbsp;Μικροβιακή φυσιολογία','616-095','Μικροβιακή φυσιολογία','','','',false,true);
+d.add(70,57,'616-097','<div class="nodetag">616-097</div></span>&nbsp;&nbsp;Ανοσοποιογεννησιολογία','616-097','Ανοσοποιογεννησιολογία','','','',false,true);
+d.add(71,57,'616-098','<div class="nodetag">616-098</div></span>&nbsp;&nbsp;Μικροβιακή φυσική, χημεία, μεταβολισμός, καταβολισμός','616-098','Μικροβιακή φυσική, χημεία, μεταβολισμός, καταβολισμός','','','',false,true);
+d.add(72,57,'616-099','<div class="nodetag">616-099</div></span>&nbsp;&nbsp;Δηλητηρίαση. Μέθη','616-099','Δηλητηρίαση. Μέθη','','','',false,true);
+d.add(73,46,'616-71/-78','<div class="nodetag">616-71/-78</div></span>&nbsp;&nbsp;Ειδικοί βοηθητικοί αριθμοί για φαρμακευτική και χειρουργική χρήση οργάνων και εξοπλισμό','616-71/-78','Ειδικοί βοηθητικοί αριθμοί για φαρμακευτική και χειρουργική χρήση οργάνων και εξοπλισμό','','','',false,true);
+d.add(74,73,'616-71','<div class="nodetag">616-71</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Medical instruments and equipment in general</span>','616-71','Medical instruments and equipment in general','','','',false,true);
+d.add(75,73,'616-72','<div class="nodetag">616-72</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Surgical and therapeutic instruments</span>','616-72','Surgical and therapeutic instruments','','','',false,true);
+d.add(76,73,'616-74','<div class="nodetag">616-74</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Reinforcement and reparative materials and equipment</span>','616-74','Reinforcement and reparative materials and equipment','','','',false,true);
+d.add(77,73,'616-76','<div class="nodetag">616-76</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Corrective and protective appliances, aids etc.</span>','616-76','Corrective and protective appliances, aids etc.','','','',false,true);
+d.add(78,73,'616-77','<div class="nodetag">616-77</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Prosthetic materials and parts. Artificial organs etc.</span>','616-77','Prosthetic materials and parts. Artificial organs etc.','','','',false,true);
+d.add(79,73,'616-78','<div class="nodetag">616-78</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Machines and mechanical apparatus</span>','616-78','Machines and mechanical apparatus','','','',false,true);
+d.add(80,46,'616.1/.9','<div class="nodetag">616.1/.9</div></span>&nbsp;&nbsp;Ειδική παθολογία','616.1/.9','Ειδική παθολογία','','','',false,true);
+d.add(81,80,'616.1','<div class="nodetag">616.1</div></span>&nbsp;&nbsp;Παθολογία του κυκλοφοριακού συστήματος, αιμοφόρα αγγεία. Καρδιοαγγειακά ενοχλήματα','616.1','Παθολογία του κυκλοφοριακού συστήματος, αιμοφόρα αγγεία. Καρδιοαγγειακά ενοχλήματα','','','',false,true);
+d.add(82,80,'616.2','<div class="nodetag">616.2</div></span>&nbsp;&nbsp;Παθολογία του αναπνευστικού συστήματος. Ενοχλήσεις των αναπνευστικών οργάνων','616.2','Παθολογία του αναπνευστικού συστήματος. Ενοχλήσεις των αναπνευστικών οργάνων','','','',false,true);
+d.add(83,80,'616.3','<div class="nodetag">616.3</div></span>&nbsp;&nbsp;Παθολογία του πεπτικού συστήματος. Ενοχλήσεις του διατροφικού καναλιού','616.3','Παθολογία του πεπτικού συστήματος. Ενοχλήσεις του διατροφικού καναλιού','','','',false,true);
+d.add(84,83,'616.31','<div class="nodetag">616.31</div></span>&nbsp;&nbsp;Στοματολογία. Στοματική κοιλότητα. Στόμα. Παθήσεις του στόματος και των δοντιών','616.31','Στοματολογία. Στοματική κοιλότητα. Στόμα. Παθήσεις του στόματος και των δοντιών','','','',false,true);
+d.add(85,80,'616.4','<div class="nodetag">616.4</div></span>&nbsp;&nbsp;Παθολογία του λυμφατικού συστήματος, αιμοποιητικών οργάνων, ενδοκρινικών','616.4','Παθολογία του λυμφατικού συστήματος, αιμοποιητικών οργάνων, ενδοκρινικών','','','',false,true);
+d.add(86,80,'616.5','<div class="nodetag">616.5</div></span>&nbsp;&nbsp;Δέρμα. Κοινό περίβλημα. Κλινική δερματολογία. Δερματικά ενοχλήματα','616.5','Δέρμα. Κοινό περίβλημα. Κλινική δερματολογία. Δερματικά ενοχλήματα','','','',false,true);
+d.add(87,80,'616.6','<div class="nodetag">616.6</div></span>&nbsp;&nbsp;Παθολογία του ουρογεννητικού συστήματος. Ουρητικά και σεξουαλικά (γεννητικά) ενοχλήματα','616.6','Παθολογία του ουρογεννητικού συστήματος. Ουρητικά και σεξουαλικά (γεννητικά) ενοχλήματα','','','',false,true);
+d.add(88,80,'616.7','<div class="nodetag">616.7</div></span>&nbsp;&nbsp;Παθολογία των οργάνων της κίνησης. Σκελετικό και κινητικό σύστημα','616.7','Παθολογία των οργάνων της κίνησης. Σκελετικό και κινητικό σύστημα','','','',false,true);
+d.add(89,80,'616.8','<div class="nodetag">616.8</div></span>&nbsp;&nbsp;Νευρολογία. Νευροπαθολογία. Νευρικό σύστημα','616.8','Νευρολογία. Νευροπαθολογία. Νευρικό σύστημα','','','',false,true);
+d.add(90,89,'616.89','<div class="nodetag">616.89</div></span>&nbsp;&nbsp;Ψυχιατρική. Παθολογική ψυχιατρική. Ψυχοπαθολογία. Φρενοπάθειες. Ψυχώσεις. Πνευματική ανωμλία. Νοσηρές πνευματικές καταστάσεις. Συμπεριφοριακές και συναισθηματικές ενοχλήσεις','616.89','Ψυχιατρική. Παθολογική ψυχιατρική. Ψυχοπαθολογία. Φρενοπάθειες. Ψυχώσεις. Πνευματική ανωμλία. Νοσηρές πνευματικές καταστάσεις. Συμπεριφοριακές και συναισθηματικές ενοχλήσεις','','','',false,true);
+d.add(91,80,'616.9','<div class="nodetag">616.9</div></span>&nbsp;&nbsp;Μεταδιδόμενες ασθένειες. Λοιμώδεις και κολλητικές ασθένειες, πυρετοί','616.9','Μεταδιδόμενες ασθένειες. Λοιμώδεις και κολλητικές ασθένειες, πυρετοί','','','',false,true);
+d.add(92,7,'617','<div class="nodetag">617</div></span>&nbsp;&nbsp;Χειρουργική. Ορθοπεδική. Οφθαλμολογία','617','Χειρουργική. Ορθοπεδική. Οφθαλμολογία','','','',false,true);
+d.add(93,92,'617.3','<div class="nodetag">617.3</div></span>&nbsp;&nbsp;Ορθοπεδική γενικά','617.3','Ορθοπεδική γενικά','','','',false,true);
+d.add(94,92,'617.7','<div class="nodetag">617.7</div></span>&nbsp;&nbsp;Οφθαλμολογία. Δυσλειτουργίες των ματιών και θεραπεία','617.7','Οφθαλμολογία. Δυσλειτουργίες των ματιών και θεραπεία','','','',false,true);
+d.add(95,7,'618','<div class="nodetag">618</div></span>&nbsp;&nbsp;Γυναικολογία. Μαιευτική','618','Γυναικολογία. Μαιευτική','','','',false,true);
+d.add(96,0,'62','<div class="nodetag">62</div></span>&nbsp;&nbsp;Μηχανική. Τεχνολογία γενικά','62','Μηχανική. Τεχνολογία γενικά','','','',false,true);
+d.add(97,96,'62-1/-9','<div class="nodetag">62-1/-9</div></span>&nbsp;&nbsp;Ειδικοί βοηθητικοί αριθμοί των χαρακτηριστικών και λεπτομερειών των μηχανών, εξοπλισμού, μονάδων, διδικασιών και προϊόντων','62-1/-9','Ειδικοί βοηθητικοί αριθμοί των χαρακτηριστικών και λεπτομερειών των μηχανών, εξοπλισμού, μονάδων, διδικασιών και προϊόντων','','','',false,true);
+d.add(98,97,'62-1','<div class="nodetag">62-1</div></span>&nbsp;&nbsp;Γενικά χαρακτηριστικά των μηχανών κλπ.','62-1','Γενικά χαρακτηριστικά των μηχανών κλπ.','','','',false,true);
+d.add(99,97,'62-2','<div class="nodetag">62-2</div></span>&nbsp;&nbsp;Σταθερά και κινητά τμήματα, συστατικά των μηχανών','62-2','Σταθερά και κινητά τμήματα, συστατικά των μηχανών','','','',false,true);
+d.add(100,97,'62-3','<div class="nodetag">62-3</div></span>&nbsp;&nbsp;Εξαρτήματα ελέγχου και κίνησης υγρών. Βαλβίδες, καπάκια κλπ.','62-3','Εξαρτήματα ελέγχου και κίνησης υγρών. Βαλβίδες, καπάκια κλπ.','','','',false,true);
+d.add(101,97,'62-4','<div class="nodetag">62-4</div></span>&nbsp;&nbsp;Κατάσταση, συνθήκη, φόρμα των υλικών, επιφανειών, αντικειμένων, προϊόντων','62-4','Κατάσταση, συνθήκη, φόρμα των υλικών, επιφανειών, αντικειμένων, προϊόντων','','','',false,true);
+d.add(102,97,'62-5','<div class="nodetag">62-5</div></span>&nbsp;&nbsp;Λειτουργία και έλεγχος μηχανών και διαδικασιών','62-5','Λειτουργία και έλεγχος μηχανών και διαδικασιών','','','',false,true);
+d.add(103,97,'62-6','<div class="nodetag">62-6</div></span>&nbsp;&nbsp;Καύσιμος ύλη και άλλα χαρακτηριστικά θερμικών πηγών μηχανών και εγκαταστάσεων','62-6','Καύσιμος ύλη και άλλα χαρακτηριστικά θερμικών πηγών μηχανών και εγκαταστάσεων','','','',false,true);
+d.add(104,97,'62-7','<div class="nodetag">62-7</div></span>&nbsp;&nbsp;Συσκευές για συντήρηση και προστασία των μηχανών','62-7','Συσκευές για συντήρηση και προστασία των μηχανών','','','',false,true);
+d.add(105,97,'62-8','<div class="nodetag">62-8</div></span>&nbsp;&nbsp;Μηχανές σύμφωνα με κινητήρια δύναμη, προωθητική δύναμη. Πηγή ενέργειας της μηχανής','62-8','Μηχανές σύμφωνα με κινητήρια δύναμη, προωθητική δύναμη. Πηγή ενέργειας της μηχανής','','','',false,true);
+d.add(106,97,'62-9','<div class="nodetag">62-9</div></span>&nbsp;&nbsp;Μεταβλητές, συνθήκες και χαρακτηριστικά της διαδικασίας παραγωγής, εγκατάστασης και εξοπλισμού','62-9','Μεταβλητές, συνθήκες και χαρακτηριστικά της διαδικασίας παραγωγής, εγκατάστασης και εξοπλισμού','','','',false,true);
+d.add(107,106,'62-91','<div class="nodetag">62-91</div></span>&nbsp;&nbsp;Κατάσταση του υλικού: χαρακτηριστικά και μεταβλητές','62-91','Κατάσταση του υλικού: χαρακτηριστικά και μεταβλητές','','','',false,true);
+d.add(108,106,'62-92','<div class="nodetag">62-92</div></span>&nbsp;&nbsp;Αντιδράσεις σχετικά με αντιδραστήρια. Αντιδραστήρια','62-92','Αντιδράσεις σχετικά με αντιδραστήρια. Αντιδραστήρια','','','',false,true);
+d.add(109,106,'62-93','<div class="nodetag">62-93</div></span>&nbsp;&nbsp;Επεξεργασίες, μηχανές και εξοπλισμός σύμφωνα με τον τρόπο εργασίας, συνεχείας, συσχετισμών και μέσων','62-93','Επεξεργασίες, μηχανές και εξοπλισμός σύμφωνα με τον τρόπο εργασίας, συνεχείας, συσχετισμών και μέσων','','','',false,true);
+d.add(110,106,'62-94','<div class="nodetag">62-94</div></span>&nbsp;&nbsp;Κατεύθυνση, ταχύτητα, αναλογία, διάρκεια των επεξεργασιών κλπ.','62-94','Κατεύθυνση, ταχύτητα, αναλογία, διάρκεια των επεξεργασιών κλπ.','','','',false,true);
+d.add(111,106,'62-95','<div class="nodetag">62-95</div></span>&nbsp;&nbsp;Απλές και περίπλοκες επεξεργασίες. Επεξεργασίες ενός σταδίου και πολλών σταδίων','62-95','Απλές και περίπλοκες επεξεργασίες. Επεξεργασίες ενός σταδίου και πολλών σταδίων','','','',false,true);
+d.add(112,106,'62-96','<div class="nodetag">62-96</div></span>&nbsp;&nbsp;Επεξεργασίες σχετικά με την αλλαγή των ιδιοτήτων του προϊόντος. Μεταβολή γενικά','62-96','Επεξεργασίες σχετικά με την αλλαγή των ιδιοτήτων του προϊόντος. Μεταβολή γενικά','','','',false,true);
+d.add(113,106,'62-97','<div class="nodetag">62-97</div></span>&nbsp;&nbsp;Θερμικά χαρακτηριστικά. Θερμοκρασία. Διακύμανση θερμοκρασίας','62-97','Θερμικά χαρακτηριστικά. Θερμοκρασία. Διακύμανση θερμοκρασίας','','','',false,true);
+d.add(114,106,'62-98','<div class="nodetag">62-98</div></span>&nbsp;&nbsp;Πίεση. Διακύμανση πίεσης','62-98','Πίεση. Διακύμανση πίεσης','','','',false,true);
+d.add(115,96,'620','<div class="nodetag">620</div></span>&nbsp;&nbsp;Έλεγχος υλικών. Εμπορικά υλικά. Ενεργειακές μονάδες. Οικονομία της ενέργειας','620','Έλεγχος υλικών. Εμπορικά υλικά. Ενεργειακές μονάδες. Οικονομία της ενέργειας','','','',false,true);
+d.add(116,115,'620.3','<div class="nodetag">620.3</div></span>&nbsp;&nbsp;Νανοτεχνολογία','620.3','Νανοτεχνολογία','','','',false,true);
+d.add(117,115,'620.9','<div class="nodetag">620.9</div></span>&nbsp;&nbsp;Οικονομία της ενέργειας γενικά','620.9','Οικονομία της ενέργειας γενικά','','','',false,true);
+d.add(118,96,'621','<div class="nodetag">621</div></span>&nbsp;&nbsp;Μηχανολογία γενικά. Πυρηνική τεχνολογία. Ηλεκτρομηχανική. Μηχανές','621','Μηχανολογία γενικά. Πυρηνική τεχνολογία. Ηλεκτρομηχανική. Μηχανές','','','',false,true);
+d.add(119,118,'621.1','<div class="nodetag">621.1</div></span>&nbsp;&nbsp;Θερμομηχανές γενικά. Παραγωγή, διάθεση και χρήση του ατμού. Ατμομηχανές. Βραστήρες','621.1','Θερμομηχανές γενικά. Παραγωγή, διάθεση και χρήση του ατμού. Ατμομηχανές. Βραστήρες','','','',false,true);
+d.add(120,118,'621.22','<div class="nodetag">621.22</div></span>&nbsp;&nbsp;Υδραυλική ενέργεια. Δύναμη ύδατος. Υδραυλικές μηχανές','621.22','Υδραυλική ενέργεια. Δύναμη ύδατος. Υδραυλικές μηχανές','','','',false,true);
+d.add(121,118,'621.3','<div class="nodetag">621.3</div></span>&nbsp;&nbsp;Ηλεκτροτεχνική','621.3','Ηλεκτροτεχνική','','','',false,true);
+d.add(122,118,'621.4','<div class="nodetag">621.4</div></span>&nbsp;&nbsp;Θερμομηχανές (εκτός ατμομηχανών)','621.4','Θερμομηχανές (εκτός ατμομηχανών)','','','',false,true);
+d.add(123,118,'621.5','<div class="nodetag">621.5</div></span>&nbsp;&nbsp;Αεριώδης ενέργεια, μηχανές και εργαλεία. Ψύξη','621.5','Αεριώδης ενέργεια, μηχανές και εργαλεία. Ψύξη','','','',false,true);
+d.add(124,118,'621.6','<div class="nodetag">621.6</div></span>&nbsp;&nbsp;Υγρών διαχείρηση, μονάδες και τεχνικές αποθήκευσης και διανομής','621.6','Υγρών διαχείρηση, μονάδες και τεχνικές αποθήκευσης και διανομής','','','',false,true);
+d.add(125,118,'621.7','<div class="nodetag">621.7</div></span>&nbsp;&nbsp;Μηχανολογική τεχνολογία γενικά: διαδικασίες, εργαλεία, μηχανές, εξοπλισμός','621.7','Μηχανολογική τεχνολογία γενικά: διαδικασίες, εργαλεία, μηχανές, εξοπλισμός','','','',false,true);
+d.add(126,118,'621.8','<div class="nodetag">621.8</div></span>&nbsp;&nbsp;Στοιχεία μηχανών. Μηχανική κινητήριων δυνάμεων. Διαχείρηση υλικών. Ρυθμίσεις. Λίπανση','621.8','Στοιχεία μηχανών. Μηχανική κινητήριων δυνάμεων. Διαχείρηση υλικών. Ρυθμίσεις. Λίπανση','','','',false,true);
+d.add(127,118,'621.9','<div class="nodetag">621.9</div></span>&nbsp;&nbsp;Εργασία ή χρήση μηχανής με δημιουργία ρινισμάτων. Εργασία λείανσης. Σφυριά και πρέσσες','621.9','Εργασία ή χρήση μηχανής με δημιουργία ρινισμάτων. Εργασία λείανσης. Σφυριά και πρέσσες','','','',false,true);
+d.add(128,96,'622','<div class="nodetag">622</div></span>&nbsp;&nbsp;Μετάλλευση','622','Μετάλλευση','','','',false,true);
+d.add(129,128,'622.1','<div class="nodetag">622.1</div></span>&nbsp;&nbsp;Προκαταρκτική εξέταση. Μέτρηση και χαρτογράφηση μεταλλείων. Διερεύνηση ορυκτών κοιτασμάτων (επιφανείας και υπεδάφους)','622.1','Προκαταρκτική εξέταση. Μέτρηση και χαρτογράφηση μεταλλείων. Διερεύνηση ορυκτών κοιτασμάτων (επιφανείας και υπεδάφους)','','','',false,true);
+d.add(130,128,'622.2','<div class="nodetag">622.2</div></span>&nbsp;&nbsp;Μεταλλευτικές εργασίες. Εξερεύνηση, άνοιγμα, ανάπτυξη, επεξεργασία ορυκτών κοιτασμάτων','622.2','Μεταλλευτικές εργασίες. Εξερεύνηση, άνοιγμα, ανάπτυξη, επεξεργασία ορυκτών κοιτασμάτων','','','',false,true);
+d.add(131,128,'622.3','<div class="nodetag">622.3</div></span>&nbsp;&nbsp;Εξόρυξη συγκεκριμένων ορυκτών, μεταλλευμάτων, λίθων','622.3','Εξόρυξη συγκεκριμένων ορυκτών, μεταλλευμάτων, λίθων','','','',false,true);
+d.add(132,128,'622.4','<div class="nodetag">622.4</div></span>&nbsp;&nbsp;Εξαερισμός, κλιματισμός, θέρμανση και φώτιση ορυχείων','622.4','Εξαερισμός, κλιματισμός, θέρμανση και φώτιση ορυχείων','','','',false,true);
+d.add(133,128,'622.5','<div class="nodetag">622.5</div></span>&nbsp;&nbsp;Αποστράγγιση ορυχείων. Αφυδάτωση','622.5','Αποστράγγιση ορυχείων. Αφυδάτωση','','','',false,true);
+d.add(134,128,'622.6','<div class="nodetag">622.6</div></span>&nbsp;&nbsp;Ρυμούλκηση και διαχείρηση. Ανύψωση. Περιστροφή. Μεταφορά επιφανείας','622.6','Ρυμούλκηση και διαχείρηση. Ανύψωση. Περιστροφή. Μεταφορά επιφανείας','','','',false,true);
+d.add(135,128,'622.7','<div class="nodetag">622.7</div></span>&nbsp;&nbsp;Επεξεργασία ορυκτών. Εμπλουτισμός ορυκτών. Επεξεργασία μεταλλευμάτων','622.7','Επεξεργασία ορυκτών. Εμπλουτισμός ορυκτών. Επεξεργασία μεταλλευμάτων','','','',false,true);
+d.add(136,128,'622.8','<div class="nodetag">622.8</div></span>&nbsp;&nbsp;Κίνδυνοι εξόρυξης, ατυχήματα και ζημιά. Προστασία υγείας και ασφάλεια στα ορυχεία','622.8','Κίνδυνοι εξόρυξης, ατυχήματα και ζημιά. Προστασία υγείας και ασφάλεια στα ορυχεία','','','',false,true);
+d.add(137,96,'623','<div class="nodetag">623</div></span>&nbsp;&nbsp;Στρατιωτική μηχανική','623','Στρατιωτική μηχανική','','','',false,true);
+d.add(138,137,'623.1/.7','<div class="nodetag">623.1/.7</div></span>&nbsp;&nbsp;Επίγεια στρατιωτική μηχανική. Πυροβολικό','623.1/.7','Επίγεια στρατιωτική μηχανική. Πυροβολικό','','','',false,true);
+d.add(139,138,'623.1/.3','<div class="nodetag">623.1/.3</div></span>&nbsp;&nbsp;Μηχανική πεδίου. Οχυρώσεις. Αμυντικά έργα','623.1/.3','Μηχανική πεδίου. Οχυρώσεις. Αμυντικά έργα','','','',false,true);
+d.add(140,139,'623.1','<div class="nodetag">623.1</div></span>&nbsp;&nbsp;Οχυρά. Μόνιμες οχυρώσεις. Οχυρωμένς γραμμές και περιοχές','623.1','Οχυρά. Μόνιμες οχυρώσεις. Οχυρωμένς γραμμές και περιοχές','','','',false,true);
+d.add(141,139,'623.2','<div class="nodetag">623.2</div></span>&nbsp;&nbsp;Αμυντικά και επιθετικά έργα. Πολιορκητικά έργα. Οχυρώσεις πεδίων. Έργα χαρακωμάτων','623.2','Αμυντικά και επιθετικά έργα. Πολιορκητικά έργα. Οχυρώσεις πεδίων. Έργα χαρακωμάτων','','','',false,true);
+d.add(142,139,'623.3','<div class="nodetag">623.3</div></span>&nbsp;&nbsp;Ναρκοπέδια ξηράς. Εμπόδια πεδίου. Πλημμύρισμα','623.3','Ναρκοπέδια ξηράς. Εμπόδια πεδίου. Πλημμύρισμα','','','',false,true);
+d.add(143,138,'623.4','<div class="nodetag">623.4</div></span>&nbsp;&nbsp;Πολεμοφόδια. Όπλα. Πυροβολικό. Μικρά όπλα. Θωρακισμένα και άλλα οχήματα υπηρεσίας. Πυρομαχικά και αέρια πολέμου. Κατευθυνόμενοι πύραυλοι και ρουκέττες','623.4','Πολεμοφόδια. Όπλα. Πυροβολικό. Μικρά όπλα. Θωρακισμένα και άλλα οχήματα υπηρεσίας. Πυρομαχικά και αέρια πολέμου. Κατευθυνόμενοι πύραυλοι και ρουκέττες','','','',false,true);
+d.add(144,138,'623.5','<div class="nodetag">623.5</div></span>&nbsp;&nbsp;Βαλλιστική. Βλητική. Θεωρητικά και πειραματικά προβλήματα','623.5','Βαλλιστική. Βλητική. Θεωρητικά και πειραματικά προβλήματα','','','',false,true);
+d.add(145,138,'623.6','<div class="nodetag">623.6</div></span>&nbsp;&nbsp;Εξοπλισμός και λειρουργίες μηχανικής πεδίου. Γραμμές επικοινωνίας. Αντι-μέτρα ραντάρ. Στρατιωτική τοπογραφία','623.6','Εξοπλισμός και λειρουργίες μηχανικής πεδίου. Γραμμές επικοινωνίας. Αντι-μέτρα ραντάρ. Στρατιωτική τοπογραφία','','','',false,true);
+d.add(146,138,'623.7','<div class="nodetag">623.7</div></span>&nbsp;&nbsp;Στρατιωτική και ναυτική αεροπλοΐα. Αεροάμυνα','623.7','Στρατιωτική και ναυτική αεροπλοΐα. Αεροάμυνα','','','',false,true);
+d.add(147,137,'623.8/.9','<div class="nodetag">623.8/.9</div></span>&nbsp;&nbsp;Ναυπηγική','623.8/.9','Ναυπηγική','','','',false,true);
+d.add(148,147,'623.8','<div class="nodetag">623.8</div></span>&nbsp;&nbsp;Ναυπηγοκατασκευαστική. Ναυτικές βάσεις. Πολεμικά πλοία και άλλα σκάφη','623.8','Ναυπηγοκατασκευαστική. Ναυτικές βάσεις. Πολεμικά πλοία και άλλα σκάφη','','','',false,true);
+d.add(149,147,'623.9','<div class="nodetag">623.9</div></span>&nbsp;&nbsp;Υλικά και εξοπλισμός των ναυτικών δυνάμεων. Προστασία και οπλισμός των σκαφών. Υποβρύχια άμυνα','623.9','Υλικά και εξοπλισμός των ναυτικών δυνάμεων. Προστασία και οπλισμός των σκαφών. Υποβρύχια άμυνα','','','',false,true);
+d.add(150,96,'624','<div class="nodetag">624</div></span>&nbsp;&nbsp;Πολιτική και δομική μηχανική γενικά','624','Πολιτική και δομική μηχανική γενικά','','','',false,true);
+d.add(151,150,'624.01/.07','<div class="nodetag">624.01/.07</div></span>&nbsp;&nbsp;Ειδική βοηθητική υποομάδα για την πολιτική και δομική μηχανική','624.01/.07','Ειδική βοηθητική υποομάδα για την πολιτική και δομική μηχανική','','','',false,true);
+d.add(152,151,'624.01','<div class="nodetag">624.01</div></span>&nbsp;&nbsp;Δομές και δομικά μέρη σύμφωνα με το υλικό και την μέθοδο κατασκευής','624.01','Δομές και δομικά μέρη σύμφωνα με το υλικό και την μέθοδο κατασκευής','','','',false,true);
+d.add(153,151,'624.03','<div class="nodetag">624.03</div></span>&nbsp;&nbsp;Μέγεθος, μονιμότητα, τοποθεσία και μορφή των δομών','624.03','Μέγεθος, μονιμότητα, τοποθεσία και μορφή των δομών','','','',false,true);
+d.add(154,151,'624.04','<div class="nodetag">624.04</div></span>&nbsp;&nbsp;Δομικός σχεδιασμός. Γραφική και ανλυτική στατική για επιθεώρηση και υπολογισμό των δομών','624.04','Δομικός σχεδιασμός. Γραφική και ανλυτική στατική για επιθεώρηση και υπολογισμό των δομών','','','',false,true);
+d.add(155,151,'624.05','<div class="nodetag">624.05</div></span>&nbsp;&nbsp;Θέση, οργάνωση και εγκατάσταση. Μέθοδοι κατασκευής','624.05','Θέση, οργάνωση και εγκατάσταση. Μέθοδοι κατασκευής','','','',false,true);
+d.add(156,151,'624.07','<div class="nodetag">624.07</div></span>&nbsp;&nbsp;Κατασκευαστικά στοιχεία. Επιφορτισμένα μέλη','624.07','Κατασκευαστικά στοιχεία. Επιφορτισμένα μέλη','','','',false,true);
+d.add(157,150,'624.1','<div class="nodetag">624.1</div></span>&nbsp;&nbsp;Υποκατασκευές. Εργασίες εδάφους. Θεμέλια. Διάνοιξη σήραγγας','624.1','Υποκατασκευές. Εργασίες εδάφους. Θεμέλια. Διάνοιξη σήραγγας','','','',false,true);
+d.add(158,150,'624.21/.8','<div class="nodetag">624.21/.8</div></span>&nbsp;&nbsp;Κατασκευή γεφυρών','624.21/.8','Κατασκευή γεφυρών','','','',false,true);
+d.add(159,158,'624.3','<div class="nodetag">624.3</div></span>&nbsp;&nbsp;Ζευκτές γέφυρες (ανοικτού ιστού)','624.3','Ζευκτές γέφυρες (ανοικτού ιστού)','','','',false,true);
+d.add(160,158,'624.5','<div class="nodetag">624.5</div></span>&nbsp;&nbsp;Καλωδιογέφυρες. Κρεμαστές γέφυρες','624.5','Καλωδιογέφυρες. Κρεμαστές γέφυρες','','','',false,true);
+d.add(161,158,'624.6','<div class="nodetag">624.6</div></span>&nbsp;&nbsp;Αψυδωτές γέφυρες','624.6','Αψυδωτές γέφυρες','','','',false,true);
+d.add(162,158,'624.8','<div class="nodetag">624.8</div></span>&nbsp;&nbsp;Κινητές γέφυρες','624.8','Κινητές γέφυρες','','','',false,true);
+d.add(163,150,'624.9','<div class="nodetag">624.9</div></span>&nbsp;&nbsp;Υπερδομές (εκτός γεφυρών). Υπερδομές ολοκληρωμένες','624.9','Υπερδομές (εκτός γεφυρών). Υπερδομές ολοκληρωμένες','','','',false,true);
+d.add(164,96,'625','<div class="nodetag">625</div></span>&nbsp;&nbsp;Πολιτική μηχανική της επίγειας μεταφοράς. Μηχανική σιδηροδρόμων. Μηχανική αυτοκινητοδρόμων','625','Πολιτική μηχανική της επίγειας μεταφοράς. Μηχανική σιδηροδρόμων. Μηχανική αυτοκινητοδρόμων','','','',false,true);
+d.add(165,164,'625.1/.5','<div class="nodetag">625.1/.5</div></span>&nbsp;&nbsp;Σιδηρόδρομοι. Γραμμές τραμ. Εναέριοι καλώδιοσιδηρόδρομοι','625.1/.5','Σιδηρόδρομοι. Γραμμές τραμ. Εναέριοι καλώδιοσιδηρόδρομοι','','','',false,true);
+d.add(166,165,'625.1','<div class="nodetag">625.1</div></span>&nbsp;&nbsp;Σιδηρόδρομοι γενικά. Μόνιμος δρόμος. Κατασκευή δρόμων','625.1','Σιδηρόδρομοι γενικά. Μόνιμος δρόμος. Κατασκευή δρόμων','','','',false,true);
+d.add(167,165,'625.5','<div class="nodetag">625.5</div></span>&nbsp;&nbsp;Εναέριοι καλώδιοσιδηρόδρομοι. Εναέριοι σχοινοσυρμοί. Κρεμαστοί συρμοί. Τελεφερίκ','625.5','Εναέριοι καλώδιοσιδηρόδρομοι. Εναέριοι σχοινοσυρμοί. Κρεμαστοί συρμοί. Τελεφερίκ','','','',false,true);
+d.add(168,164,'625.7/.8','<div class="nodetag">625.7/.8</div></span>&nbsp;&nbsp;Μηχανική αυτοκινητοδρόμων','625.7/.8','Μηχανική αυτοκινητοδρόμων','','','',false,true);
+d.add(169,168,'625.7','<div class="nodetag">625.7</div></span>&nbsp;&nbsp;Αυτοκινητόδρομοι γενικά. Δρόμοι. Αμαξόδρομοι. Αγροτικά και αστικά οδικά συστήματα','625.7','Αυτοκινητόδρομοι γενικά. Δρόμοι. Αμαξόδρομοι. Αγροτικά και αστικά οδικά συστήματα','','','',false,true);
+d.add(170,168,'625.8','<div class="nodetag">625.8</div></span>&nbsp;&nbsp;Σκληρή επίστρωση αυτοκινητοδρόμων. Πεζοδρόμιο, τάπητας ή επιφάνεια τριβής','625.8','Σκληρή επίστρωση αυτοκινητοδρόμων. Πεζοδρόμιο, τάπητας ή επιφάνεια τριβής','','','',false,true);
+d.add(171,96,'626/627','<div class="nodetag">626/627</div></span>&nbsp;&nbsp;Υδραυλική μηχανική και κατασκευή. Υδάτινες κατασκευές','626/627','Υδραυλική μηχανική και κατασκευή. Υδάτινες κατασκευές','','','',false,true);
+d.add(172,171,'626','<div class="nodetag">626</div></span>&nbsp;&nbsp;Υδραυλική μηχανική γενικά','626','Υδραυλική μηχανική γενικά','','','',false,true);
+d.add(173,172,'626.1','<div class="nodetag">626.1</div></span>&nbsp;&nbsp;Μεσόγειοι πλεύσιμοι υδρόδρομοι. Κανάλια. Διοχετευμένοι ποταμοί','626.1','Μεσόγειοι πλεύσιμοι υδρόδρομοι. Κανάλια. Διοχετευμένοι ποταμοί','','','',false,true);
+d.add(174,172,'626.4','<div class="nodetag">626.4</div></span>&nbsp;&nbsp;Κλειδωνιές','626.4','Κλειδωνιές','','','',false,true);
+d.add(175,172,'626.5','<div class="nodetag">626.5</div></span>&nbsp;&nbsp;Σύνεργα ανελκύσεων και κεκλιμένα επίπεδα για σκάφη','626.5','Σύνεργα ανελκύσεων και κεκλιμένα επίπεδα για σκάφη','','','',false,true);
+d.add(176,172,'626.8','<div class="nodetag">626.8</div></span>&nbsp;&nbsp;Γεωργική υδραυλική. Αρδευτική, αποξηραντική και εγγειοβελτιωτική μηχανική','626.8','Γεωργική υδραυλική. Αρδευτική, αποξηραντική και εγγειοβελτιωτική μηχανική','','','',false,true);
+d.add(177,172,'626.9','<div class="nodetag">626.9</div></span>&nbsp;&nbsp;Ναυτιλιακά κανάλια. Κανάλια πλοίων','626.9','Ναυτιλιακά κανάλια. Κανάλια πλοίων','','','',false,true);
+d.add(178,171,'627','<div class="nodetag">627</div></span>&nbsp;&nbsp;Μηχανική φυσικού υδρόδρομου, λιμανιών και ακτής. Μέσα ναυσιπλοΐας, βυθοκόρου και διάσωσης. Φράγματα και μονάδες υδραυλικής ενέργειας','627','Μηχανική φυσικού υδρόδρομου, λιμανιών και ακτής. Μέσα ναυσιπλοΐας, βυθοκόρου και διάσωσης. Φράγματα και μονάδες υδραυλικής ενέργειας','','','',false,true);
+d.add(179,178,'627.2','<div class="nodetag">627.2</div></span>&nbsp;&nbsp;Λιμάνια και αγκυροβόλια: έργα μηχανικής και κατασκευής γενικά','627.2','Λιμάνια και αγκυροβόλια: έργα μηχανικής και κατασκευής γενικά','','','',false,true);
+d.add(180,178,'627.3','<div class="nodetag">627.3</div></span>&nbsp;&nbsp;Εγκαταστάσεις λιμανιών. Προβλήτες. Αποβάθρες. Προκυμαίες. Εγκαταστάσεις και εξοπλισμός','627.3','Εγκαταστάσεις λιμανιών. Προβλήτες. Αποβάθρες. Προκυμαίες. Εγκαταστάσεις και εξοπλισμός','','','',false,true);
+d.add(181,178,'627.4','<div class="nodetag">627.4</div></span>&nbsp;&nbsp;Προστασία όχθης ποταμών. Ευθυγράμμιση ποταμών και ρεμμάτων. Άλλα έργα βελτίωσης ποταμών','627.4','Προστασία όχθης ποταμών. Ευθυγράμμιση ποταμών και ρεμμάτων. Άλλα έργα βελτίωσης ποταμών','','','',false,true);
+d.add(182,178,'627.5','<div class="nodetag">627.5</div></span>&nbsp;&nbsp;Άλλες εργασίες προστασίας και βελτίωσης υδρορροών. Αναχώματα. Προστασία ακτών. Αποξήρανση γής και βελτίωση','627.5','Άλλες εργασίες προστασίας και βελτίωσης υδρορροών. Αναχώματα. Προστασία ακτών. Αποξήρανση γής και βελτίωση','','','',false,true);
+d.add(183,178,'627.7','<div class="nodetag">627.7</div></span>&nbsp;&nbsp;Ναυτιλιακές εγκαταστάσεις. Συντήρηση καναλιών. Ναυαγοσωστική και εγκαταστάσεις διάσωσης','627.7','Ναυτιλιακές εγκαταστάσεις. Συντήρηση καναλιών. Ναυαγοσωστική και εγκαταστάσεις διάσωσης','','','',false,true);
+d.add(184,178,'627.8','<div class="nodetag">627.8</div></span>&nbsp;&nbsp;Φράγματα. Εργασίες μονάδων υδραυλικής ενέργειας','627.8','Φράγματα. Εργασίες μονάδων υδραυλικής ενέργειας','','','',false,true);
+d.add(185,96,'628','<div class="nodetag">628</div></span>&nbsp;&nbsp;Μηχανική δημόσιας υγείας. Νερό. Υγιεινή. Μηχανική φωτισμού','628','Μηχανική δημόσιας υγείας. Νερό. Υγιεινή. Μηχανική φωτισμού','','','',false,true);
+d.add(186,185,'628.1','<div class="nodetag">628.1</div></span>&nbsp;&nbsp;Παροχή ύδατος. Επεξεργασία ύδατος. Κατανάλωση ύδατος','628.1','Παροχή ύδατος. Επεξεργασία ύδατος. Κατανάλωση ύδατος','','','',false,true);
+d.add(187,185,'628.2','<div class="nodetag">628.2</div></span>&nbsp;&nbsp;Απομάκρυνση αστικών υδάτων. Αστική αποχέτευση. Δίκτυο αποχέτευσης','628.2','Απομάκρυνση αστικών υδάτων. Αστική αποχέτευση. Δίκτυο αποχέτευσης','','','',false,true);
+d.add(188,185,'628.3','<div class="nodetag">628.3</div></span>&nbsp;&nbsp;Αποχετεύσεις. Επεξεργασία, απόθεση, χρησιμοποίηση ακαθαρσιών υπονόμων','628.3','Αποχετεύσεις. Επεξεργασία, απόθεση, χρησιμοποίηση ακαθαρσιών υπονόμων','','','',false,true);
+d.add(189,185,'628.4','<div class="nodetag">628.4</div></span>&nbsp;&nbsp;Αστική υγιεινή. Απορρίματα. Απόβλητα. Σκουπίδια. Αποκομιδή και απόθεση αστικών λειμμάτων','628.4','Αστική υγιεινή. Απορρίματα. Απόβλητα. Σκουπίδια. Αποκομιδή και απόθεση αστικών λειμμάτων','','','',false,true);
+d.add(190,185,'628.5','<div class="nodetag">628.5</div></span>&nbsp;&nbsp;Μέτρα κατά της βιομηχανικής και άλλης ενόχλησης','628.5','Μέτρα κατά της βιομηχανικής και άλλης ενόχλησης','','','',false,true);
+d.add(191,185,'628.6','<div class="nodetag">628.6</div></span>&nbsp;&nbsp;Αποχετευτικές και υγιειονομικές εγκαταστάσεις κτιρίων (ειδικές απαιτήσεις δημόσιας υγείας)','628.6','Αποχετευτικές και υγιειονομικές εγκαταστάσεις κτιρίων (ειδικές απαιτήσεις δημόσιας υγείας)','','','',false,true);
+d.add(192,185,'628.8','<div class="nodetag">628.8</div></span>&nbsp;&nbsp;Εσωτερικό κλίμα. Κλιματισμός. Θέρμανση. Εξαερισμός','628.8','Εσωτερικό κλίμα. Κλιματισμός. Θέρμανση. Εξαερισμός','','','',false,true);
+d.add(193,185,'628.9','<div class="nodetag">628.9</div></span>&nbsp;&nbsp;Φωτισμός. Μηχανική φωτισμού','628.9','Φωτισμός. Μηχανική φωτισμού','','','',false,true);
+d.add(194,96,'629','<div class="nodetag">629</div></span>&nbsp;&nbsp;Μηχανική οχημάτων μεταφοράς','629','Μηχανική οχημάτων μεταφοράς','','','',false,true);
+d.add(195,194,'629.01/.08','<div class="nodetag">629.01/.08</div></span>&nbsp;&nbsp;Ειδικοί βοηθητικοί αριθμοί για την μηχανική οχημάτων μεταφοράς','629.01/.08','Ειδικοί βοηθητικοί αριθμοί για την μηχανική οχημάτων μεταφοράς','','','',false,true);
+d.add(196,195,'629.01','<div class="nodetag">629.01</div></span>&nbsp;&nbsp;Αρχές σχεδίασης οχημάτων: χαρακτηριστικά, δυνατότητες, έλεγχοι','629.01','Αρχές σχεδίασης οχημάτων: χαρακτηριστικά, δυνατότητες, έλεγχοι','','','',false,true);
+d.add(197,195,'629.02','<div class="nodetag">629.02</div></span>&nbsp;&nbsp;Δομή οχημάτων, αρχές κατασκευής, γενικό σχέδιο και μέρη','629.02','Δομή οχημάτων, αρχές κατασκευής, γενικό σχέδιο και μέρη','','','',false,true);
+d.add(198,195,'629.03','<div class="nodetag">629.03</div></span>&nbsp;&nbsp;Προωθητικά συστήματα','629.03','Προωθητικά συστήματα','','','',false,true);
+d.add(199,195,'629.04','<div class="nodetag">629.04</div></span>&nbsp;&nbsp;Εσωτερικό σχέδιο: προσαρμογή, εγκατάσταση, εξοπλισμός για άτομα και φορτείο','629.04','Εσωτερικό σχέδιο: προσαρμογή, εγκατάσταση, εξοπλισμός για άτομα και φορτείο','','','',false,true);
+d.add(200,195,'629.05','<div class="nodetag">629.05</div></span>&nbsp;&nbsp;Καθοδήγηση, εναρκτήριος έλεγχος και συστήματα πλοήγησης και όργανα','629.05','Καθοδήγηση, εναρκτήριος έλεγχος και συστήματα πλοήγησης και όργανα','','','',false,true);
+d.add(201,195,'629.06','<div class="nodetag">629.06</div></span>&nbsp;&nbsp;Βοηθητικά συστήματα και συσκευές οχημάτων','629.06','Βοηθητικά συστήματα και συσκευές οχημάτων','','','',false,true);
+d.add(202,195,'629.07','<div class="nodetag">629.07</div></span>&nbsp;&nbsp;Τεχνικές απόψεις τροχαίων λειτουργιών (λειτουργικές τεχνικές)','629.07','Τεχνικές απόψεις τροχαίων λειτουργιών (λειτουργικές τεχνικές)','','','',false,true);
+d.add(203,195,'629.08','<div class="nodetag">629.08</div></span>&nbsp;&nbsp;Εξοπλισμός βάσης, εγκαταστάσεις και αντίστοιχες τεχνικές διαδικασίες','629.08','Εξοπλισμός βάσης, εγκαταστάσεις και αντίστοιχες τεχνικές διαδικασίες','','','',false,true);
+d.add(204,194,'629.3','<div class="nodetag">629.3</div></span>&nbsp;&nbsp;Μηχανική επίγειων οχημάτων (εκτός οχημάτων σιδηροτροχιών)','629.3','Μηχανική επίγειων οχημάτων (εκτός οχημάτων σιδηροτροχιών)','','','',false,true);
+d.add(205,194,'629.4','<div class="nodetag">629.4</div></span>&nbsp;&nbsp;Μηχανική οχημάτων σιδηροτροχιών. Σιδηροδρομικές μηχανές. Σταθμοί συνδέσεως συρμών. Εγκαταστάσεις και υπηρεσίες που αφορούν τον τροχαίο εξοπλισμό σιδηροδρόμων','629.4','Μηχανική οχημάτων σιδηροτροχιών. Σιδηροδρομικές μηχανές. Σταθμοί συνδέσεως συρμών. Εγκαταστάσεις και υπηρεσίες που αφορούν τον τροχαίο εξοπλισμό σιδηροδρόμων','','','',false,true);
+d.add(206,194,'629.5','<div class="nodetag">629.5</div></span>&nbsp;&nbsp;Μηχανική σκαφών. Ναυτιλιακή μηχανική. Πλοία. Καράβια. Ναυπηγική','629.5','Μηχανική σκαφών. Ναυτιλιακή μηχανική. Πλοία. Καράβια. Ναυπηγική','','','',false,true);
+d.add(207,194,'629.7','<div class="nodetag">629.7</div></span>&nbsp;&nbsp;Μηχανική εναέριων και διαστημικών μεταφορών. Αεροναυτική και αερόπλοια. Ρουκέτες και πύραυλοι. Αυστροναυτική και διαστημόπλοια','629.7','Μηχανική εναέριων και διαστημικών μεταφορών. Αεροναυτική και αερόπλοια. Ρουκέτες και πύραυλοι. Αυστροναυτική και διαστημόπλοια','','','',false,true);
+d.add(208,0,'63','<div class="nodetag">63</div></span>&nbsp;&nbsp;Γεωργία και σχετικές επιστήμες και τεχνικές. Δασοπονία. Καλλιέργεια. Εκμετάλλευση χερσέων πόρων','63','Γεωργία και σχετικές επιστήμες και τεχνικές. Δασοπονία. Καλλιέργεια. Εκμετάλλευση χερσέων πόρων','','','',false,true);
+d.add(209,208,'630','<div class="nodetag">630</div></span>&nbsp;&nbsp;Δασοπονία','630','Δασοπονία','','','',false,true);
+d.add(210,209,'630*0','<div class="nodetag">630*0</div></span>&nbsp;&nbsp;Δάση, δασολογία και η χρήση των δασικών προϊόντων','630*0','Δάση, δασολογία και η χρήση των δασικών προϊόντων','','','',false,true);
+d.add(211,209,'630*1','<div class="nodetag">630*1</div></span>&nbsp;&nbsp;Περιβαλλοντικοί παράγοντες. Δασική βιολογία','630*1','Περιβαλλοντικοί παράγοντες. Δασική βιολογία','','','',false,true);
+d.add(212,209,'630*2','<div class="nodetag">630*2</div></span>&nbsp;&nbsp;Δασοκομία','630*2','Δασοκομία','','','',false,true);
+d.add(213,209,'630*3','<div class="nodetag">630*3</div></span>&nbsp;&nbsp;Επιστήμη εργασίας (σπουδές εργασίας) στην δασοπονία. Συγκομιδή ξυλείας: Υλοτομία και μεταφορά. Μηχανική δασών','630*3','Επιστήμη εργασίας (σπουδές εργασίας) στην δασοπονία. Συγκομιδή ξυλείας: Υλοτομία και μεταφορά. Μηχανική δασών','','','',false,true);
+d.add(214,209,'630*4','<div class="nodetag">630*4</div></span>&nbsp;&nbsp;Τραυματισμοί δασών και προστασία','630*4','Τραυματισμοί δασών και προστασία','','','',false,true);
+d.add(215,209,'630*5','<div class="nodetag">630*5</div></span>&nbsp;&nbsp;Καταμέτρηση δασών. Αύξηση, ανάπτυξη και κατασκευή εξεδρών. Τοπομέτρηση και χαρτογράφηση','630*5','Καταμέτρηση δασών. Αύξηση, ανάπτυξη και κατασκευή εξεδρών. Τοπομέτρηση και χαρτογράφηση','','','',false,true);
+d.add(216,209,'630*6','<div class="nodetag">630*6</div></span>&nbsp;&nbsp;Διαχείρηση δασών. Επιχειρησιακή οικονομία δασοπονίας. Διοίκηση και οργάνωση των δασικών επιχειρήσεων','630*6','Διαχείρηση δασών. Επιχειρησιακή οικονομία δασοπονίας. Διοίκηση και οργάνωση των δασικών επιχειρήσεων','','','',false,true);
+d.add(217,209,'630*7','<div class="nodetag">630*7</div></span>&nbsp;&nbsp;Προώθηση δασικών προϊόντων. Οικονομία δασικών μεταφορών και βιομηχανίες ξυλείας','630*7','Προώθηση δασικών προϊόντων. Οικονομία δασικών μεταφορών και βιομηχανίες ξυλείας','','','',false,true);
+d.add(218,209,'630*8','<div class="nodetag">630*8</div></span>&nbsp;&nbsp;Δασικά προϊόντα και η χρησιμοποίησή τους','630*8','Δασικά προϊόντα και η χρησιμοποίησή τους','','','',false,true);
+d.add(219,209,'630*9','<div class="nodetag">630*9</div></span>&nbsp;&nbsp;Δάση και δασοπονία από εθνική άποψη. Κοινωνική οικονομία των δασών','630*9','Δάση και δασοπονία από εθνική άποψη. Κοινωνική οικονομία των δασών','','','',false,true);
+d.add(220,208,'631/635','<div class="nodetag">631/635</div></span>&nbsp;&nbsp;Διαχείρηση αγροκτημάτων. Αγρονομία. Κηπευτική','631/635','Διαχείρηση αγροκτημάτων. Αγρονομία. Κηπευτική','','','',false,true);
+d.add(221,220,'631','<div class="nodetag">631</div></span>&nbsp;&nbsp;Γεωργία γενικά','631','Γεωργία γενικά','','','',false,true);
+d.add(222,221,'631.1','<div class="nodetag">631.1</div></span>&nbsp;&nbsp;Διαχείρηση αγροκτημάτων και οργάνωση','631.1','Διαχείρηση αγροκτημάτων και οργάνωση','','','',false,true);
+d.add(223,221,'631.2','<div class="nodetag">631.2</div></span>&nbsp;&nbsp;Κτίρια, κατασκευές και εγκαταστάσεις αγροκτημάτων. Κτίρια για αγροτικά ζώα, παραγωγή, μηχανές και εξοπλισμό','631.2','Κτίρια, κατασκευές και εγκαταστάσεις αγροκτημάτων. Κτίρια για αγροτικά ζώα, παραγωγή, μηχανές και εξοπλισμό','','','',false,true);
+d.add(224,221,'631.3','<div class="nodetag">631.3</div></span>&nbsp;&nbsp;Αγροτικές μηχανές, σύνεργα και εξοπλισμός','631.3','Αγροτικές μηχανές, σύνεργα και εξοπλισμός','','','',false,true);
+d.add(225,221,'631.4','<div class="nodetag">631.4</div></span>&nbsp;&nbsp;Επστήμη εδάφους. Εδαφολογία. Έρευνα εδάφους','631.4','Επστήμη εδάφους. Εδαφολογία. Έρευνα εδάφους','','','',false,true);
+d.add(226,221,'631.5','<div class="nodetag">631.5</div></span>&nbsp;&nbsp;Γεωργικές εργασίες','631.5','Γεωργικές εργασίες','','','',false,true);
+d.add(227,221,'631.6','<div class="nodetag">631.6</div></span>&nbsp;&nbsp;Αγροτική μηχανική','631.6','Αγροτική μηχανική','','','',false,true);
+d.add(228,221,'631.8','<div class="nodetag">631.8</div></span>&nbsp;&nbsp;Λιπάσματα, κοπριές και εμπλουτισμός εδάφους. Ενίσχυση της ανάπτυξης. Τονωτικά φυτών','631.8','Λιπάσματα, κοπριές και εμπλουτισμός εδάφους. Ενίσχυση της ανάπτυξης. Τονωτικά φυτών','','','',false,true);
+d.add(229,220,'632','<div class="nodetag">632</div></span>&nbsp;&nbsp;Ζημιές, τραυματισμοί φυτών. Ασθένειες φυτών. Λοιμοί, οργανισμοί επιβλαβή για φυτά. Προστασία φυτών','632','Ζημιές, τραυματισμοί φυτών. Ασθένειες φυτών. Λοιμοί, οργανισμοί επιβλαβή για φυτά. Προστασία φυτών','','','',false,true);
+d.add(230,220,'633/635','<div class="nodetag">633/635</div></span>&nbsp;&nbsp;Κηπευτική γενικά. Συγκεκριμένες σοδειές','633/635','Κηπευτική γενικά. Συγκεκριμένες σοδειές','','','',false,true);
+d.add(231,230,'633','<div class="nodetag">633</div></span>&nbsp;&nbsp;Σοδειές χωραφιού και η παραγωγή τους','633','Σοδειές χωραφιού και η παραγωγή τους','','','',false,true);
+d.add(232,231,'633.1','<div class="nodetag">633.1</div></span>&nbsp;&nbsp;Δημητριακά. Σοδειές σιτηρών','633.1','Δημητριακά. Σοδειές σιτηρών','','','',false,true);
+d.add(233,231,'633.2','<div class="nodetag">633.2</div></span>&nbsp;&nbsp;Χορτάρια ως ζωοτροφές. Χορτάρια λειβαδιών και βοσκοτόπων','633.2','Χορτάρια ως ζωοτροφές. Χορτάρια λειβαδιών και βοσκοτόπων','','','',false,true);
+d.add(234,231,'633.3','<div class="nodetag">633.3</div></span>&nbsp;&nbsp;Φυτά ως ζωοτροφές εκτός χορταριών','633.3','Φυτά ως ζωοτροφές εκτός χορταριών','','','',false,true);
+d.add(235,231,'633.4','<div class="nodetag">633.4</div></span>&nbsp;&nbsp;Βρώσιμες ρίζες και βολβοί. Σοδειές ριζών','633.4','Βρώσιμες ρίζες και βολβοί. Σοδειές ριζών','','','',false,true);
+d.add(236,231,'633.5','<div class="nodetag">633.5</div></span>&nbsp;&nbsp;Φυτά για υφαντική και νήματα','633.5','Φυτά για υφαντική και νήματα','','','',false,true);
+d.add(237,231,'633.6','<div class="nodetag">633.6</div></span>&nbsp;&nbsp;Φυτά ζάχαρης και αμυλούχων','633.6','Φυτά ζάχαρης και αμυλούχων','','','',false,true);
+d.add(238,231,'633.7','<div class="nodetag">633.7</div></span>&nbsp;&nbsp;Διεγερτικά ανάπτυξης φυτών. Φυτά για αφεψήματα','633.7','Διεγερτικά ανάπτυξης φυτών. Φυτά για αφεψήματα','','','',false,true);
+d.add(239,231,'633.8','<div class="nodetag">633.8</div></span>&nbsp;&nbsp;Αρωματικά φυτά. Καρυκευτικά φυτά. Ελαιώδη φυτά. Χρωστικά φυτά. Φυτά βυρσοδεψίας. Φαρμακευτικά φυτά','633.8','Αρωματικά φυτά. Καρυκευτικά φυτά. Ελαιώδη φυτά. Χρωστικά φυτά. Φυτά βυρσοδεψίας. Φαρμακευτικά φυτά','','','',false,true);
+d.add(240,231,'633.9','<div class="nodetag">633.9</div></span>&nbsp;&nbsp;Άλλα φυτά με βιομηχανικές χρήσεις','633.9','Άλλα φυτά με βιομηχανικές χρήσεις','','','',false,true);
+d.add(241,230,'634','<div class="nodetag">634</div></span>&nbsp;&nbsp;Καλλιέργεια φρούτων','634','Καλλιέργεια φρούτων','','','',false,true);
+d.add(242,241,'634.2','<div class="nodetag">634.2</div></span>&nbsp;&nbsp;Εμπύρηνα φρούτα. Δρύπεις γενικά','634.2','Εμπύρηνα φρούτα. Δρύπεις γενικά','','','',false,true);
+d.add(243,241,'634.3','<div class="nodetag">634.3</div></span>&nbsp;&nbsp;Εσπεριδοειδή γενικά','634.3','Εσπεριδοειδή γενικά','','','',false,true);
+d.add(244,241,'634.4','<div class="nodetag">634.4</div></span>&nbsp;&nbsp;Άλλα σαρκώδη φρούτα','634.4','Άλλα σαρκώδη φρούτα','','','',false,true);
+d.add(245,241,'634.5','<div class="nodetag">634.5</div></span>&nbsp;&nbsp;Καρύδια','634.5','Καρύδια','','','',false,true);
+d.add(246,241,'634.6','<div class="nodetag">634.6</div></span>&nbsp;&nbsp;Διάφορα τροπικά και υποτροπικά φρούτα','634.6','Διάφορα τροπικά και υποτροπικά φρούτα','','','',false,true);
+d.add(247,241,'634.7','<div class="nodetag">634.7</div></span>&nbsp;&nbsp;Μικρά φρούτα θάμνων και φυλλώδν φυτών. Μούρα','634.7','Μικρά φρούτα θάμνων και φυλλώδν φυτών. Μούρα','','','',false,true);
+d.add(248,241,'634.8','<div class="nodetag">634.8</div></span>&nbsp;&nbsp;Αμπελουργία. Άμπελοι. Αμπελώνες.','634.8','Αμπελουργία. Άμπελοι. Αμπελώνες.','','','',false,true);
+d.add(249,230,'635','<div class="nodetag">635</div></span>&nbsp;&nbsp;Φυτά κήπου. Κηπουρική','635','Φυτά κήπου. Κηπουρική','','','',false,true);
+d.add(250,249,'635.1/.8','<div class="nodetag">635.1/.8</div></span>&nbsp;&nbsp;Λαχανικά. Κηπουρική κουζίνας','635.1/.8','Λαχανικά. Κηπουρική κουζίνας','','','',false,true);
+d.add(251,250,'635.1','<div class="nodetag">635.1</div></span>&nbsp;&nbsp;Βρώσιμες ρίζες. Βολβώδη λαχανικά','635.1','Βρώσιμες ρίζες. Βολβώδη λαχανικά','','','',false,true);
+d.add(252,250,'635.2','<div class="nodetag">635.2</div></span>&nbsp;&nbsp;Βρώσιμοι κονδύλοι και βολβοί','635.2','Βρώσιμοι κονδύλοι και βολβοί','','','',false,true);
+d.add(253,250,'635.3','<div class="nodetag">635.3</div></span>&nbsp;&nbsp;Φυτά με φαγώσιμα στελέχη, φύλλα ή άνθη','635.3','Φυτά με φαγώσιμα στελέχη, φύλλα ή άνθη','','','',false,true);
+d.add(254,250,'635.4','<div class="nodetag">635.4</div></span>&nbsp;&nbsp;Άλλα πράσινα λαχανικά. Φυλλώδη λαχανικά','635.4','Άλλα πράσινα λαχανικά. Φυλλώδη λαχανικά','','','',false,true);
+d.add(255,250,'635.6','<div class="nodetag">635.6</div></span>&nbsp;&nbsp;Βρώσιμα φρούτα και σπόροι. Όσπρια','635.6','Βρώσιμα φρούτα και σπόροι. Όσπρια','','','',false,true);
+d.add(256,250,'635.7','<div class="nodetag">635.7</div></span>&nbsp;&nbsp;Αρωματικά βότανα. Φυτά για καρύκευμα','635.7','Αρωματικά βότανα. Φυτά για καρύκευμα','','','',false,true);
+d.add(257,250,'635.8','<div class="nodetag">635.8</div></span>&nbsp;&nbsp;Βρώσιμοι μύκητες','635.8','Βρώσιμοι μύκητες','','','',false,true);
+d.add(258,249,'635.9','<div class="nodetag">635.9</div></span>&nbsp;&nbsp;Καλλωπιστικά. Διακοσμητικά φυτά. Διακοσμητική κηπουρική','635.9','Καλλωπιστικά. Διακοσμητικά φυτά. Διακοσμητική κηπουρική','','','',false,true);
+d.add(259,208,'636','<div class="nodetag">636</div></span>&nbsp;&nbsp;Αγροτική οικονομία ζώων και εκτροφή γενικά. Εκτροφή αγελαίων ζώων. Εκτροφή οικιακών ζώων','636','Αγροτική οικονομία ζώων και εκτροφή γενικά. Εκτροφή αγελαίων ζώων. Εκτροφή οικιακών ζώων','','','',false,true);
+d.add(260,259,'636.01/.09','<div class="nodetag">636.01/.09</div></span>&nbsp;&nbsp;Ειδικοί βοηθητικοί αριθμοί για την αγροτική οικονομία ζώων','636.01/.09','Ειδικοί βοηθητικοί αριθμοί για την αγροτική οικονομία ζώων','','','',false,true);
+d.add(261,260,'636.01','<div class="nodetag">636.01</div></span>&nbsp;&nbsp;Καταγωγή, εξέλιξη και εξημέρωση ζών που φυλάσσονται από ανθρώπους. Εξημέρωση ζώων. Βιολογικές βάσεις εκτροφής και εκπαίδευσης','636.01','Καταγωγή, εξέλιξη και εξημέρωση ζών που φυλάσσονται από ανθρώπους. Εξημέρωση ζώων. Βιολογικές βάσεις εκτροφής και εκπαίδευσης','','','',false,true);
+d.add(262,260,'636.02','<div class="nodetag">636.02</div></span>&nbsp;&nbsp;Ζώα φυλασσόμενα για αναπαραγωγή, έκθεση και επιστημονικούς λόγους','636.02','Ζώα φυλασσόμενα για αναπαραγωγή, έκθεση και επιστημονικούς λόγους','','','',false,true);
+d.add(263,260,'636.03','<div class="nodetag">636.03</div></span>&nbsp;&nbsp;Ζώα αναπαραγώμενα ή φυλασσόμενα για τροφή ή άλλη παραγωγή (παραγωγικότητα, εσοδεία). Ζώα αγροκτήματος γενικά','636.03','Ζώα αναπαραγώμενα ή φυλασσόμενα για τροφή ή άλλη παραγωγή (παραγωγικότητα, εσοδεία). Ζώα αγροκτήματος γενικά','','','',false,true);
+d.add(264,260,'636.04','<div class="nodetag">636.04</div></span>&nbsp;&nbsp;Ζώα αναπαραγώμενα ή φυλασσόμενα από ανθρώπους για δουλειά και υπηρεσίες ή για ευχαρίστηση','636.04','Ζώα αναπαραγώμενα ή φυλασσόμενα από ανθρώπους για δουλειά και υπηρεσίες ή για ευχαρίστηση','','','',false,true);
+d.add(265,260,'636.05','<div class="nodetag">636.05</div></span>&nbsp;&nbsp;Ζώα σύμφωνα με την αναπαραγωγή','636.05','Ζώα σύμφωνα με την αναπαραγωγή','','','',false,true);
+d.add(266,260,'636.06','<div class="nodetag">636.06</div></span>&nbsp;&nbsp;Χαρακτηριστικά, οργανισμός και ειδικά βιολογικά γνωρίσματα των οιακών ζώων','636.06','Χαρακτηριστικά, οργανισμός και ειδικά βιολογικά γνωρίσματα των οιακών ζώων','','','',false,true);
+d.add(267,260,'636.08','<div class="nodetag">636.08</div></span>&nbsp;&nbsp;Γενικά ερωτήματα αναπαραγωγής και εκτροφής','636.08','Γενικά ερωτήματα αναπαραγωγής και εκτροφής','','','',false,true);
+d.add(268,260,'636.09','<div class="nodetag">636.09</div></span>&nbsp;&nbsp;Κτηνιαττρική επιστήμη','636.09','Κτηνιαττρική επιστήμη','','','',false,true);
+d.add(269,259,'636.1','<div class="nodetag">636.1</div></span>&nbsp;&nbsp;Κατοικίδια ίππεια. Άλογα','636.1','Κατοικίδια ίππεια. Άλογα','','','',false,true);
+d.add(270,259,'636.2','<div class="nodetag">636.2</div></span>&nbsp;&nbsp;Μεγάλα μηρυκαστικά. Βοοειδή. Μουλάρια. Ημίονοι','636.2','Μεγάλα μηρυκαστικά. Βοοειδή. Μουλάρια. Ημίονοι','','','',false,true);
+d.add(271,259,'636.3','<div class="nodetag">636.3</div></span>&nbsp;&nbsp;Μικρά μηρυκαστικά','636.3','Μικρά μηρυκαστικά','','','',false,true);
+d.add(272,259,'636.4','<div class="nodetag">636.4</div></span>&nbsp;&nbsp;Γουρούνια. Χοίροι','636.4','Γουρούνια. Χοίροι','','','',false,true);
+d.add(273,259,'636.5','<div class="nodetag">636.5</div></span>&nbsp;&nbsp;Πουλερικά','636.5','Πουλερικά','','','',false,true);
+d.add(274,259,'636.6','<div class="nodetag">636.6</div></span>&nbsp;&nbsp;Πτηνά (εκτός από πουλερικά και κυνήγι) αναπαραγώμενα ή φυλασσόμενα από ανθρώπους','636.6','Πτηνά (εκτός από πουλερικά και κυνήγι) αναπαραγώμενα ή φυλασσόμενα από ανθρώπους','','','',false,true);
+d.add(275,259,'636.7','<div class="nodetag">636.7</div></span>&nbsp;&nbsp;Σκύλοι','636.7','Σκύλοι','','','',false,true);
+d.add(276,259,'636.8','<div class="nodetag">636.8</div></span>&nbsp;&nbsp;Γάτες','636.8','Γάτες','','','',false,true);
+d.add(277,259,'636.9','<div class="nodetag">636.9</div></span>&nbsp;&nbsp;Άλλα οικιακά ζώα','636.9','Άλλα οικιακά ζώα','','','',false,true);
+d.add(278,208,'637','<div class="nodetag">637</div></span>&nbsp;&nbsp;Παραγωγή κατοικίδιων (αγροτικών) ζώων και κυνηγίου','637','Παραγωγή κατοικίδιων (αγροτικών) ζώων και κυνηγίου','','','',false,true);
+d.add(279,208,'638','<div class="nodetag">638</div></span>&nbsp;&nbsp;Διατήρηση, εκτροφή και διαχείρηση εντόμων και άλλων αρθρόποδων','638','Διατήρηση, εκτροφή και διαχείρηση εντόμων και άλλων αρθρόποδων','','','',false,true);
+d.add(280,208,'639','<div class="nodetag">639</div></span>&nbsp;&nbsp;Κυνήγι. Ψάρεμα. Εκτροφή ψαριών','639','Κυνήγι. Ψάρεμα. Εκτροφή ψαριών','','','',false,true);
+d.add(281,280,'639.1','<div class="nodetag">639.1</div></span>&nbsp;&nbsp;Κυνήγι','639.1','Κυνήγι','','','',false,true);
+d.add(282,280,'639.2','<div class="nodetag">639.2</div></span>&nbsp;&nbsp;Ψάρεμα','639.2','Ψάρεμα','','','',false,true);
+d.add(283,280,'639.3','<div class="nodetag">639.3</div></span>&nbsp;&nbsp;Ιχθειοκαλλιέργεια','639.3','Ιχθειοκαλλιέργεια','','','',false,true);
+d.add(284,280,'639.4','<div class="nodetag">639.4</div></span>&nbsp;&nbsp;Εκτροφή μαλάκιων του νερού (οστρακόδερμα)','639.4','Εκτροφή μαλάκιων του νερού (οστρακόδερμα)','','','',false,true);
+d.add(285,280,'639.5','<div class="nodetag">639.5</div></span>&nbsp;&nbsp;Εκτροφή καρκινοειδών του νερού','639.5','Εκτροφή καρκινοειδών του νερού','','','',false,true);
+d.add(286,280,'639.6','<div class="nodetag">639.6</div></span>&nbsp;&nbsp;Άλλα θαλασσινά προϊόντα','639.6','Άλλα θαλασσινά προϊόντα','','','',false,true);
+d.add(287,0,'64','<div class="nodetag">64</div></span>&nbsp;&nbsp;Οικιακή οικονομία. Οικιακή επιστήμη. Οικοκυρική','64','Οικιακή οικονομία. Οικιακή επιστήμη. Οικοκυρική','','','',false,true);
+d.add(288,287,'64.01/.08','<div class="nodetag">64.01/.08</div></span>&nbsp;&nbsp;Ειδικοί βοηθητικοί αριθμοί για την οικοκυρική επιστήμη','64.01/.08','Ειδικοί βοηθητικοί αριθμοί για την οικοκυρική επιστήμη','','','',false,true);
+d.add(289,288,'64.01','<div class="nodetag">64.01</div></span>&nbsp;&nbsp;Το νοικοκυριό. Οικιακή διαχείρηση','64.01','Το νοικοκυριό. Οικιακή διαχείρηση','','','',false,true);
+d.add(290,288,'64.048','<div class="nodetag">64.048</div></span>&nbsp;&nbsp;Έρευνα εργασίας και μέθοδοι εργασίας μέσα στο νοικοκυριό','64.048','Έρευνα εργασίας και μέθοδοι εργασίας μέσα στο νοικοκυριό','','','',false,true);
+d.add(291,288,'64.05','<div class="nodetag">64.05</div></span>&nbsp;&nbsp;Οικοκυρικά. Οικιακά, επίπλωση και εξόπλιση σπιτιού κλπ. για συγκεκριμένους τύπους ατόμων','64.05','Οικοκυρικά. Οικιακά, επίπλωση και εξόπλιση σπιτιού κλπ. για συγκεκριμένους τύπους ατόμων','','','',false,true);
+d.add(292,288,'64.06','<div class="nodetag">64.06</div></span>&nbsp;&nbsp;Οικιακές συσκευές και μηχανές. Οικιακές συσκευές εξοικονόμισης εργασίας','64.06','Οικιακές συσκευές και μηχανές. Οικιακές συσκευές εξοικονόμισης εργασίας','','','',false,true);
+d.add(293,288,'64.08','<div class="nodetag">64.08</div></span>&nbsp;&nbsp;Μετακομίσεις','64.08','Μετακομίσεις','','','',false,true);
+d.add(294,287,'640','<div class="nodetag">640</div></span>&nbsp;&nbsp;Είδη νοικοκυριών','640','Είδη νοικοκυριών','','','',false,true);
+d.add(295,287,'641/642','<div class="nodetag">641/642</div></span>&nbsp;&nbsp;Φαγητό. Μαγείρεμα. Εδέσματα. Γεύματα','641/642','Φαγητό. Μαγείρεμα. Εδέσματα. Γεύματα','','','',false,true);
+d.add(296,295,'641','<div class="nodetag">641</div></span>&nbsp;&nbsp;Φαγητό. Μαγείρεμα. Εδέσματα','641','Φαγητό. Μαγείρεμα. Εδέσματα','','','',false,true);
+d.add(297,295,'642','<div class="nodetag">642</div></span>&nbsp;&nbsp;Γεύματα και ώρες γευμάτων. Επιτραπέζια σκεύη','642','Γεύματα και ώρες γευμάτων. Επιτραπέζια σκεύη','','','',false,true);
+d.add(298,287,'643/645','<div class="nodetag">643/645</div></span>&nbsp;&nbsp;Το σπίτι. Εσωτερικός εξοπλισμός και επίπλωση','643/645','Το σπίτι. Εσωτερικός εξοπλισμός και επίπλωση','','','',false,true);
+d.add(299,298,'643','<div class="nodetag">643</div></span>&nbsp;&nbsp;Το σπίτι. Η Οικία','643','Το σπίτι. Η Οικία','','','',false,true);
+d.add(300,298,'644','<div class="nodetag">644</div></span>&nbsp;&nbsp;Εγκαταστάσεις υγείας και άνεσης για οικίες','644','Εγκαταστάσεις υγείας και άνεσης για οικίες','','','',false,true);
+d.add(301,300,'644.1','<div class="nodetag">644.1</div></span>&nbsp;&nbsp;Εσωτερικός έλεγχος κλίματος. Θέρμανση. Εξαερισμός. Κλιματισμός','644.1','Εσωτερικός έλεγχος κλίματος. Θέρμανση. Εξαερισμός. Κλιματισμός','','','',false,true);
+d.add(302,300,'644.3','<div class="nodetag">644.3</div></span>&nbsp;&nbsp;Οικιακός φωτισμός','644.3','Οικιακός φωτισμός','','','',false,true);
+d.add(303,300,'644.6','<div class="nodetag">644.6</div></span>&nbsp;&nbsp;Οικιακή παροχή νερού και υδραυλικές εγκαταστάσεις','644.6','Οικιακή παροχή νερού και υδραυλικές εγκαταστάσεις','','','',false,true);
+d.add(304,298,'645','<div class="nodetag">645</div></span>&nbsp;&nbsp;Οικιακή επίπλωση και εξοπλισμός','645','Οικιακή επίπλωση και εξοπλισμός','','','',false,true);
+d.add(305,287,'646/649','<div class="nodetag">646/649</div></span>&nbsp;&nbsp;Προσωπικά απαραίτητα. Οικιακή διαχείρηση. Οικοκυρική','646/649','Προσωπικά απαραίτητα. Οικιακή διαχείρηση. Οικοκυρική','','','',false,true);
+d.add(306,305,'646','<div class="nodetag">646</div></span>&nbsp;&nbsp;Ρουχισμός. Σωματική φροντίδα','646','Ρουχισμός. Σωματική φροντίδα','','','',false,true);
+d.add(307,306,'646.2','<div class="nodetag">646.2</div></span>&nbsp;&nbsp;Κατασκευή και μαντάρισμα ρούχων στο σπίτι. Ράψιμο ρούχων στο σπίτι','646.2','Κατασκευή και μαντάρισμα ρούχων στο σπίτι. Ράψιμο ρούχων στο σπίτι','','','',false,true);
+d.add(308,306,'646.4','<div class="nodetag">646.4</div></span>&nbsp;&nbsp;Ρουχισμός. Ρούχα','646.4','Ρουχισμός. Ρούχα','','','',false,true);
+d.add(309,306,'646.7','<div class="nodetag">646.7</div></span>&nbsp;&nbsp;Σωματική φροντίδα. Φροντίδα ομορφιάς. Βοηθητικά μέσα για ντύσιμο και ξεντύσιμο','646.7','Σωματική φροντίδα. Φροντίδα ομορφιάς. Βοηθητικά μέσα για ντύσιμο και ξεντύσιμο','','','',false,true);
+d.add(310,305,'648','<div class="nodetag">648</div></span>&nbsp;&nbsp;Πλύσιμο. Μπουγάδα. Καθάρισμα','648','Πλύσιμο. Μπουγάδα. Καθάρισμα','','','',false,true);
+d.add(311,305,'649','<div class="nodetag">649</div></span>&nbsp;&nbsp;Σπιτική φροντίδα παιδιών, αναπήρων, επισκεπτών','649','Σπιτική φροντίδα παιδιών, αναπήρων, επισκεπτών','','','',false,true);
+d.add(312,0,'65','<div class="nodetag">65</div></span>&nbsp;&nbsp;Επικοινωνία και βιομηχανίες μεταφορών. Λογιστική. Διοίκηση επιχειρήσεων. Δημόσιες σχέσεις','65','Επικοινωνία και βιομηχανίες μεταφορών. Λογιστική. Διοίκηση επιχειρήσεων. Δημόσιες σχέσεις','','','',false,true);
+d.add(313,312,'654','<div class="nodetag">654</div></span>&nbsp;&nbsp;Τηλεπικοινωνία και τηλεχειρισμός (οργάνωση, υπηρεσίες)','654','Τηλεπικοινωνία και τηλεχειρισμός (οργάνωση, υπηρεσίες)','','','',false,true);
+d.add(314,313,'654.1','<div class="nodetag">654.1</div></span>&nbsp;&nbsp;Τηλεγραφία. Τηλεφωνία. Ραδιόφωνο. Τηλεόραση','654.1','Τηλεγραφία. Τηλεφωνία. Ραδιόφωνο. Τηλεόραση','','','',false,true);
+d.add(315,313,'654.9','<div class="nodetag">654.9</div></span>&nbsp;&nbsp;Εκπομπή σήματος. Ποικίλες τηλεπικοινωνιακές υπηρεσίες. Τηλεχειρισμός','654.9','Εκπομπή σήματος. Ποικίλες τηλεπικοινωνιακές υπηρεσίες. Τηλεχειρισμός','','','',false,true);
+d.add(316,312,'655','<div class="nodetag">655</div></span>&nbsp;&nbsp;Βιομηχανία γραφικών τεχνών. Εκτυπώσεις. Εκδόσεις. Εμπόριο βιβλίων','655','Βιομηχανία γραφικών τεχνών. Εκτυπώσεις. Εκδόσεις. Εμπόριο βιβλίων','','','',false,true);
+d.add(317,316,'655.1','<div class="nodetag">655.1</div></span>&nbsp;&nbsp;Βιομηχανία εκτυπώσεων γενικά','655.1','Βιομηχανία εκτυπώσεων γενικά','','','',false,true);
+d.add(318,316,'655.4','<div class="nodetag">655.4</div></span>&nbsp;&nbsp;Εκδόσεις και πώληση βιβλίων γενικά','655.4','Εκδόσεις και πώληση βιβλίων γενικά','','','',false,true);
+d.add(319,312,'656','<div class="nodetag">656</div></span>&nbsp;&nbsp;Μεταφορές. Ταχυδρομείο. Οργάνωση και έλεγχος συγκοινωνιών','656','Μεταφορές. Ταχυδρομείο. Οργάνωση και έλεγχος συγκοινωνιών','','','',false,true);
+d.add(320,319,'656.1/.5','<div class="nodetag">656.1/.5</div></span>&nbsp;&nbsp;Επίγειες μεταφορές','656.1/.5','Επίγειες μεταφορές','','','',false,true);
+d.add(321,320,'656.1','<div class="nodetag">656.1</div></span>&nbsp;&nbsp;Οδικές μεταφορές','656.1','Οδικές μεταφορές','','','',false,true);
+d.add(322,320,'656.2','<div class="nodetag">656.2</div></span>&nbsp;&nbsp;Σιδηροδρομικές μεταφορές. Σιδηροδρομικές συγκοινωνίες','656.2','Σιδηροδρομικές μεταφορές. Σιδηροδρομικές συγκοινωνίες','','','',false,true);
+d.add(323,320,'656.4','<div class="nodetag">656.4</div></span>&nbsp;&nbsp;Μεταφορές μέσω ελαφρών σιδηροδρομικών γραμμών, τραμ','656.4','Μεταφορές μέσω ελαφρών σιδηροδρομικών γραμμών, τραμ','','','',false,true);
+d.add(324,320,'656.5','<div class="nodetag">656.5</div></span>&nbsp;&nbsp;Επίγειες μεταφορές μέσω συστημάτων μεταφορών και αγωγών','656.5','Επίγειες μεταφορές μέσω συστημάτων μεταφορών και αγωγών','','','',false,true);
+d.add(325,319,'656.6','<div class="nodetag">656.6</div></span>&nbsp;&nbsp;Μεταφορές μέσω ύδατος','656.6','Μεταφορές μέσω ύδατος','','','',false,true);
+d.add(326,319,'656.7','<div class="nodetag">656.7</div></span>&nbsp;&nbsp;Εναέριες μεταφορές. Εναέρια συγκοινωνία','656.7','Εναέριες μεταφορές. Εναέρια συγκοινωνία','','','',false,true);
+d.add(327,319,'656.8','<div class="nodetag">656.8</div></span>&nbsp;&nbsp;Ταχυδρομικές υπηρεσίες και διοίκηση','656.8','Ταχυδρομικές υπηρεσίες και διοίκηση','','','',false,true);
+d.add(328,312,'657','<div class="nodetag">657</div></span>&nbsp;&nbsp;Λογιστική','657','Λογιστική','','','',false,true);
+d.add(329,312,'658','<div class="nodetag">658</div></span>&nbsp;&nbsp;Διοίκηση επιχειρήσεων. Εμπορική οργάνωση','658','Διοίκηση επιχειρήσεων. Εμπορική οργάνωση','','','',false,true);
+d.add(330,329,'658.1','<div class="nodetag">658.1</div></span>&nbsp;&nbsp;Είδη επιχειρήσεων. Οικονομικά','658.1','Είδη επιχειρήσεων. Οικονομικά','','','',false,true);
+d.add(331,329,'658.2','<div class="nodetag">658.2</div></span>&nbsp;&nbsp;Εγκαταστάσεις και εργοστάσια. Κτίρια, εργασίες, χώροι. Υλικά','658.2','Εγκαταστάσεις και εργοστάσια. Κτίρια, εργασίες, χώροι. Υλικά','','','',false,true);
+d.add(332,329,'658.3','<div class="nodetag">658.3</div></span>&nbsp;&nbsp;Ανθρώπινες σχέσεις μέσα στην επιχείρηση. Διαχείρηση προσωπικού','658.3','Ανθρώπινες σχέσεις μέσα στην επιχείρηση. Διαχείρηση προσωπικού','','','',false,true);
+d.add(333,329,'658.5','<div class="nodetag">658.5</div></span>&nbsp;&nbsp;Σχεδιασμός παραγωγής. Ντιζάϊν. Διαχείρηση και έλεγχος παραγωγής','658.5','Σχεδιασμός παραγωγής. Ντιζάϊν. Διαχείρηση και έλεγχος παραγωγής','','','',false,true);
+d.add(334,329,'658.6','<div class="nodetag">658.6</div></span>&nbsp;&nbsp;Εμπορική οργάνωση και πρακτική. Αγαθά. Υπηρεσίες','658.6','Εμπορική οργάνωση και πρακτική. Αγαθά. Υπηρεσίες','','','',false,true);
+d.add(335,329,'658.7','<div class="nodetag">658.7</div></span>&nbsp;&nbsp;Αγορά. Προμήθεια. Διαχείρηση προμηθειών','658.7','Αγορά. Προμήθεια. Διαχείρηση προμηθειών','','','',false,true);
+d.add(336,329,'658.8','<div class="nodetag">658.8</div></span>&nbsp;&nbsp;Μάρκετινγκ (προώθηση αγαθών). Πωλήσεις. Διανομή','658.8','Μάρκετινγκ (προώθηση αγαθών). Πωλήσεις. Διανομή','','','',false,true);
+d.add(337,329,'658.9','<div class="nodetag">658.9</div></span>&nbsp;&nbsp;Άλλες εμπορικές δραστηριότητες','658.9','Άλλες εμπορικές δραστηριότητες','','','',false,true);
+d.add(338,312,'659','<div class="nodetag">659</div></span>&nbsp;&nbsp;Δημοσιότητα. Δημόσιες σχέσεις','659','Δημοσιότητα. Δημόσιες σχέσεις','','','',false,true);
+d.add(339,338,'659.1','<div class="nodetag">659.1</div></span>&nbsp;&nbsp;Δημοσιότητα. Διαφήμηση','659.1','Δημοσιότητα. Διαφήμηση','','','',false,true);
+d.add(340,338,'659.2','<div class="nodetag">659.2</div></span>&nbsp;&nbsp;Πληροφόρηση. Συμβουλευτικές υπηρεσίες','659.2','Πληροφόρηση. Συμβουλευτικές υπηρεσίες','','','',false,true);
+d.add(341,338,'659.3','<div class="nodetag">659.3</div></span>&nbsp;&nbsp;Μαζική πληροφόρηση. Πληροφόρηση του κοινού','659.3','Μαζική πληροφόρηση. Πληροφόρηση του κοινού','','','',false,true);
+d.add(342,338,'659.4','<div class="nodetag">659.4</div></span>&nbsp;&nbsp;Δημόσιες σχέσεις (PR)','659.4','Δημόσιες σχέσεις (PR)','','','',false,true);
+d.add(343,0,'66','<div class="nodetag">66</div></span>&nbsp;&nbsp;Χημική τεχνολογία. Χημικές και συγγενικές βιομηχανίες','66','Χημική τεχνολογία. Χημικές και συγγενικές βιομηχανίες','','','',false,true);
+d.add(344,343,'66.01/.09','<div class="nodetag">66.01/.09</div></span>&nbsp;&nbsp;Ειδικοί βοηθητικοί αριθμοί για χημική μηχανική','66.01/.09','Ειδικοί βοηθητικοί αριθμοί για χημική μηχανική','','','',false,true);
+d.add(345,344,'66.01','<div class="nodetag">66.01</div></span>&nbsp;&nbsp;Θεμελιώδη της χημικής μηχανικής','66.01','Θεμελιώδη της χημικής μηχανικής','','','',false,true);
+d.add(346,344,'66.02','<div class="nodetag">66.02</div></span>&nbsp;&nbsp;Λειτουργίες χημικών διεργασιών και εξοπλισμός γενικά','66.02','Λειτουργίες χημικών διεργασιών και εξοπλισμός γενικά','','','',false,true);
+d.add(347,344,'66.03','<div class="nodetag">66.03</div></span>&nbsp;&nbsp;Υλικά, χαρακτηριστικά, διεργασίες και εξοπλισμός','66.03','Υλικά, χαρακτηριστικά, διεργασίες και εξοπλισμός','','','',false,true);
+d.add(348,344,'66.04','<div class="nodetag">66.04</div></span>&nbsp;&nbsp;Λειτουργίες θερμικής επεξεργασίας και εξοπλισμός','66.04','Λειτουργίες θερμικής επεξεργασίας και εξοπλισμός','','','',false,true);
+d.add(349,344,'66.06','<div class="nodetag">66.06</div></span>&nbsp;&nbsp;Θερμική τεχνολογία των ρευστών. Διεργασίες και εξοπλισμός για επεξεργασία των ή δια των ρευστών','66.06','Θερμική τεχνολογία των ρευστών. Διεργασίες και εξοπλισμός για επεξεργασία των ή δια των ρευστών','','','',false,true);
+d.add(350,344,'66.07','<div class="nodetag">66.07</div></span>&nbsp;&nbsp;Χημική τεχνολογία των αερίων','66.07','Χημική τεχνολογία των αερίων','','','',false,true);
+d.add(351,344,'66.08','<div class="nodetag">66.08</div></span>&nbsp;&nbsp;Φυσικές και φυσικοχημικές λειτουργίες και εξοπλισμός. Φυσικές και φυσικοχημικές επιδράσεις σε χημικές διεργασίες','66.08','Φυσικές και φυσικοχημικές λειτουργίες και εξοπλισμός. Φυσικές και φυσικοχημικές επιδράσεις σε χημικές διεργασίες','','','',false,true);
+d.add(352,343,'661','<div class="nodetag">661</div></span>&nbsp;&nbsp;Χημικά','661','Χημικά','','','',false,true);
+d.add(353,352,'661.1','<div class="nodetag">661.1</div></span>&nbsp;&nbsp;Ειδικές χημικές βιομηχανίες','661.1','Ειδικές χημικές βιομηχανίες','','','',false,true);
+d.add(354,352,'661.2','<div class="nodetag">661.2</div></span>&nbsp;&nbsp;Παραγωγή θείου και των παραγώγων του','661.2','Παραγωγή θείου και των παραγώγων του','','','',false,true);
+d.add(355,352,'661.3','<div class="nodetag">661.3</div></span>&nbsp;&nbsp;Παραγωγή σόδας και ποτάσας, αλκάλια','661.3','Παραγωγή σόδας και ποτάσας, αλκάλια','','','',false,true);
+d.add(356,352,'661.4','<div class="nodetag">661.4</div></span>&nbsp;&nbsp;Παραγωγή αλογόνων και αλογόνων συστατικών, ανόργανων υπεροξειδίων συστατικών','661.4','Παραγωγή αλογόνων και αλογόνων συστατικών, ανόργανων υπεροξειδίων συστατικών','','','',false,true);
+d.add(357,352,'661.5','<div class="nodetag">661.5</div></span>&nbsp;&nbsp;Παραγωγή συστατικών του αζώτου. Σταθεροποίηση του αζώτου. Βιομηχανία αζώτου γενικά','661.5','Παραγωγή συστατικών του αζώτου. Σταθεροποίηση του αζώτου. Βιομηχανία αζώτου γενικά','','','',false,true);
+d.add(358,352,'661.6','<div class="nodetag">661.6</div></span>&nbsp;&nbsp;Παραγωγή διαφόρων μη μετάλλων και ημι-μετάλλων (μεταλλοειδή), και άλλων συστατικών','661.6','Παραγωγή διαφόρων μη μετάλλων και ημι-μετάλλων (μεταλλοειδή), και άλλων συστατικών','','','',false,true);
+d.add(359,352,'661.7','<div class="nodetag">661.7</div></span>&nbsp;&nbsp;Παραγωγή οργανικών ουσιών. Οργανικά χημικά','661.7','Παραγωγή οργανικών ουσιών. Οργανικά χημικά','','','',false,true);
+d.add(360,352,'661.8','<div class="nodetag">661.8</div></span>&nbsp;&nbsp;Μεταλλικά συστατικά γενικά. Άλατα. Ορυκτά συστατικά','661.8','Μεταλλικά συστατικά γενικά. Άλατα. Ορυκτά συστατικά','','','',false,true);
+d.add(361,352,'661.9','<div class="nodetag">661.9</div></span>&nbsp;&nbsp;Παραγωγή αερίων','661.9','Παραγωγή αερίων','','','',false,true);
+d.add(362,343,'662','<div class="nodetag">662</div></span>&nbsp;&nbsp;Εκρηκτικά. Καύσιμα','662','Εκρηκτικά. Καύσιμα','','','',false,true);
+d.add(363,362,'662.1/.4','<div class="nodetag">662.1/.4</div></span>&nbsp;&nbsp;Εκρηκτικά','662.1/.4','Εκρηκτικά','','','',false,true);
+d.add(364,363,'662.1','<div class="nodetag">662.1</div></span>&nbsp;&nbsp;Πυροτεχνήματα. Πυροτεχνική και συναφείς συσκευές','662.1','Πυροτεχνήματα. Πυροτεχνική και συναφείς συσκευές','','','',false,true);
+d.add(365,363,'662.2','<div class="nodetag">662.2</div></span>&nbsp;&nbsp;Υψηλά εκρηκτικά','662.2','Υψηλά εκρηκτικά','','','',false,true);
+d.add(366,363,'662.3','<div class="nodetag">662.3</div></span>&nbsp;&nbsp;Προωθητικές σκόνες. Πυρίτιδες','662.3','Προωθητικές σκόνες. Πυρίτιδες','','','',false,true);
+d.add(367,363,'662.4','<div class="nodetag">662.4</div></span>&nbsp;&nbsp;Ενεργοποιητές, εκκινητές για εκρηκτικά. Πυροκροτητές','662.4','Ενεργοποιητές, εκκινητές για εκρηκτικά. Πυροκροτητές','','','',false,true);
+d.add(368,362,'662.5','<div class="nodetag">662.5</div></span>&nbsp;&nbsp;Αναφλεκτήρες. Προσανάμματα. Σπίρτα. Αναπτήρες','662.5','Αναφλεκτήρες. Προσανάμματα. Σπίρτα. Αναπτήρες','','','',false,true);
+d.add(369,362,'662.6/.9','<div class="nodetag">662.6/.9</div></span>&nbsp;&nbsp;Οικονομία της θερμότητας. Οικονομία των καυσίμων. Καύσιμα. Θέρμανση','662.6/.9','Οικονομία της θερμότητας. Οικονομία των καυσίμων. Καύσιμα. Θέρμανση','','','',false,true);
+d.add(370,369,'662.6','<div class="nodetag">662.6</div></span>&nbsp;&nbsp;Οικονομία των καυσίμων ή της θερμότητας γενικά. Καύση. Φυσικά καύσιμα','662.6','Οικονομία των καυσίμων ή της θερμότητας γενικά. Καύση. Φυσικά καύσιμα','','','',false,true);
+d.add(371,369,'662.7','<div class="nodetag">662.7</div></span>&nbsp;&nbsp;Τεχνολογία καυσίμων. Επεξεργασμένα καύσιμα','662.7','Τεχνολογία καυσίμων. Επεξεργασμένα καύσιμα','','','',false,true);
+d.add(372,369,'662.8','<div class="nodetag">662.8</div></span>&nbsp;&nbsp;Μηχανική επεξεργασία για την στεροποίηση των καυσίμων.','662.8','Μηχανική επεξεργασία για την στεροποίηση των καυσίμων.','','','',false,true);
+d.add(373,369,'662.9','<div class="nodetag">662.9</div></span>&nbsp;&nbsp;Μηχανική των φούρνων και της καύσης','662.9','Μηχανική των φούρνων και της καύσης','','','',false,true);
+d.add(374,343,'663','<div class="nodetag">663</div></span>&nbsp;&nbsp;Βιομηχανική μικροβιολογία. Βιομηχανική μυκητολογία. Ζυμουργική, βιομηχανία ζύμωσης. Βιομηχανία ποτοποιείας. Βιομηχανία διεγερτικών','663','Βιομηχανική μικροβιολογία. Βιομηχανική μυκητολογία. Ζυμουργική, βιομηχανία ζύμωσης. Βιομηχανία ποτοποιείας. Βιομηχανία διεγερτικών','','','',false,true);
+d.add(375,374,'663.1','<div class="nodetag">663.1</div></span>&nbsp;&nbsp;Μικροβιολογικές βιομηχανίες. Επιστήμη και τεχνική της εφαρμοσμένης μικροβιολογίας. Εφαρμοσμένη μυκητολογία','663.1','Μικροβιολογικές βιομηχανίες. Επιστήμη και τεχνική της εφαρμοσμένης μικροβιολογίας. Εφαρμοσμένη μυκητολογία','','','',false,true);
+d.add(376,374,'663.2','<div class="nodetag">663.2</div></span>&nbsp;&nbsp;Οίνος. Οινοποιεία. Οινολογία','663.2','Οίνος. Οινοποιεία. Οινολογία','','','',false,true);
+d.add(377,374,'663.3','<div class="nodetag">663.3</div></span>&nbsp;&nbsp;Μηλίτης οίνος. Απιδίτης. Άλλοι φρουτώδεις οίνοι','663.3','Μηλίτης οίνος. Απιδίτης. Άλλοι φρουτώδεις οίνοι','','','',false,true);
+d.add(378,374,'663.4','<div class="nodetag">663.4</div></span>&nbsp;&nbsp;Μπύρες. Ζυθοποιΐα.','663.4','Μπύρες. Ζυθοποιΐα.','','','',false,true);
+d.add(379,374,'663.5','<div class="nodetag">663.5</div></span>&nbsp;&nbsp;Πώσιμο οινόπνευμα. Αλκοολούχα ποτά. Οινόπνευμα, απόσταξη, διΰλιση','663.5','Πώσιμο οινόπνευμα. Αλκοολούχα ποτά. Οινόπνευμα, απόσταξη, διΰλιση','','','',false,true);
+d.add(380,374,'663.6','<div class="nodetag">663.6</div></span>&nbsp;&nbsp;Νερό για ποτά και άλλες βιομηχανικές χρήσεις. Μεταλλικά νερά. Ιαματικά νερά. Βρώσιμος πάγος','663.6','Νερό για ποτά και άλλες βιομηχανικές χρήσεις. Μεταλλικά νερά. Ιαματικά νερά. Βρώσιμος πάγος','','','',false,true);
+d.add(381,374,'663.8','<div class="nodetag">663.8</div></span>&nbsp;&nbsp;Κύρια συστατικά για την ανάμιξη ποτών. Χυμοί φρουτων και λαχανικών. Σιρόπια. Λικέρ. Αναψυκτικά','663.8','Κύρια συστατικά για την ανάμιξη ποτών. Χυμοί φρουτων και λαχανικών. Σιρόπια. Λικέρ. Αναψυκτικά','','','',false,true);
+d.add(382,374,'663.9','<div class="nodetag">663.9</div></span>&nbsp;&nbsp;Σοκολάτα. Κακάο. Καφές. Τσάϊ. Καπνός','663.9','Σοκολάτα. Κακάο. Καφές. Τσάϊ. Καπνός','','','',false,true);
+d.add(383,343,'664','<div class="nodetag">664</div></span>&nbsp;&nbsp;Παραγωγή και συντήρηση στερεών τροφίμων','664','Παραγωγή και συντήρηση στερεών τροφίμων','','','',false,true);
+d.add(384,383,'664.1','<div class="nodetag">664.1</div></span>&nbsp;&nbsp;Ζάχαρη. Μολάσσες. Γλυκόζη κλπ.','664.1','Ζάχαρη. Μολάσσες. Γλυκόζη κλπ.','','','',false,true);
+d.add(385,383,'664.2','<div class="nodetag">664.2</div></span>&nbsp;&nbsp;Άμυλο. Αμυλώδη υλικά','664.2','Άμυλο. Αμυλώδη υλικά','','','',false,true);
+d.add(386,383,'664.3','<div class="nodetag">664.3</div></span>&nbsp;&nbsp;Βρώσιμα έλαια και λίπη. Μαργαρίνη. Πρωτεϊνικά τρόφιμα','664.3','Βρώσιμα έλαια και λίπη. Μαργαρίνη. Πρωτεϊνικά τρόφιμα','','','',false,true);
+d.add(387,383,'664.4','<div class="nodetag">664.4</div></span>&nbsp;&nbsp;Βρώσιμα ορυκτά','664.4','Βρώσιμα ορυκτά','','','',false,true);
+d.add(388,383,'664.5','<div class="nodetag">664.5</div></span>&nbsp;&nbsp;Μπαχαρικά. Καρυκεύματα','664.5','Μπαχαρικά. Καρυκεύματα','','','',false,true);
+d.add(389,383,'664.6/.7','<div class="nodetag">664.6/.7</div></span>&nbsp;&nbsp;Τεχνολογία και επεξεργασία σιτηρών','664.6/.7','Τεχνολογία και επεξεργασία σιτηρών','','','',false,true);
+d.add(390,389,'664.6','<div class="nodetag">664.6</div></span>&nbsp;&nbsp;Ψήσιμο. Ψωμί. Αλευρούχα προϊόντα ζαχαροπλαστικής','664.6','Ψήσιμο. Ψωμί. Αλευρούχα προϊόντα ζαχαροπλαστικής','','','',false,true);
+d.add(391,389,'664.7','<div class="nodetag">664.7</div></span>&nbsp;&nbsp;Τεχνολογία σιτηρών. Άλεση αλεύρου και καλαμποκιού. Επεξεργασία σιτηρών','664.7','Τεχνολογία σιτηρών. Άλεση αλεύρου και καλαμποκιού. Επεξεργασία σιτηρών','','','',false,true);
+d.add(392,383,'664.8/.9','<div class="nodetag">664.8/.9</div></span>&nbsp;&nbsp;Τεχνική συντήρησης τροφίμων','664.8/.9','Τεχνική συντήρησης τροφίμων','','','',false,true);
+d.add(393,343,'665','<div class="nodetag">665</div></span>&nbsp;&nbsp;Έλαια. Λίπη. Κηρία. Κόλλες. Γόμμες. Ρετσίνια','665','Έλαια. Λίπη. Κηρία. Κόλλες. Γόμμες. Ρετσίνια','','','',false,true);
+d.add(394,393,'665.1','<div class="nodetag">665.1</div></span>&nbsp;&nbsp;Γενικότητες για έλαια, λίπη, κηρία και προερχόμενα προϊόντα','665.1','Γενικότητες για έλαια, λίπη, κηρία και προερχόμενα προϊόντα','','','',false,true);
+d.add(395,393,'665.2','<div class="nodetag">665.2</div></span>&nbsp;&nbsp;Έλαια, λίπη και κηρία ζωϊκής προέλευσης','665.2','Έλαια, λίπη και κηρία ζωϊκής προέλευσης','','','',false,true);
+d.add(396,393,'665.3','<div class="nodetag">665.3</div></span>&nbsp;&nbsp;Φυτικά έλαια, λίπη, κηρία, φωσφορικά άλατα','665.3','Φυτικά έλαια, λίπη, κηρία, φωσφορικά άλατα','','','',false,true);
+d.add(397,393,'665.5','<div class="nodetag">665.5</div></span>&nbsp;&nbsp;Αιθέρια έλαια. Αρωματοποιΐα. Καλλυντικά','665.5','Αιθέρια έλαια. Αρωματοποιΐα. Καλλυντικά','','','',false,true);
+d.add(398,393,'665.6/.7','<div class="nodetag">665.6/.7</div></span>&nbsp;&nbsp;Επεξεργασίες και προϊόντα της πετρελαϊκής και συναφούς βιομηχανίας','665.6/.7','Επεξεργασίες και προϊόντα της πετρελαϊκής και συναφούς βιομηχανίας','','','',false,true);
+d.add(399,398,'665.6','<div class="nodetag">665.6</div></span>&nbsp;&nbsp;Τεχνολογία ορυκτέλαιου. Τεχνολογία πετρελαίου και συναφών προϊόντων','665.6','Τεχνολογία ορυκτέλαιου. Τεχνολογία πετρελαίου και συναφών προϊόντων','','','',false,true);
+d.add(400,398,'665.7','<div class="nodetag">665.7</div></span>&nbsp;&nbsp;Προϊόντα της βιομηχανίας ορυκτέλαιου. Ορυκτέλαια και συναφή προϊόντα','665.7','Προϊόντα της βιομηχανίας ορυκτέλαιου. Ορυκτέλαια και συναφή προϊόντα','','','',false,true);
+d.add(401,393,'665.9','<div class="nodetag">665.9</div></span>&nbsp;&nbsp;Διάφορες βιομηχανίες οργανικών χημικών','665.9','Διάφορες βιομηχανίες οργανικών χημικών','','','',false,true);
+d.add(402,343,'666','<div class="nodetag">666</div></span>&nbsp;&nbsp;Υαλοβιομηχανία. Κεραμικά. Τσιμέντο και μπετόν','666','Υαλοβιομηχανία. Κεραμικά. Τσιμέντο και μπετόν','','','',false,true);
+d.add(403,402,'666.1','<div class="nodetag">666.1</div></span>&nbsp;&nbsp;Υαλοβιομηχανία. Υαλοτεχνολογία. Υαλοκατασκευή γενικά. Ύαλος με ευρεία έννοια','666.1','Υαλοβιομηχανία. Υαλοτεχνολογία. Υαλοκατασκευή γενικά. Ύαλος με ευρεία έννοια','','','',false,true);
+d.add(404,402,'666.3/.7','<div class="nodetag">666.3/.7</div></span>&nbsp;&nbsp;Κεραμική','666.3/.7','Κεραμική','','','',false,true);
+d.add(405,404,'666.3','<div class="nodetag">666.3</div></span>&nbsp;&nbsp;Κεραμική γενικά. Κερμαικές πρώτες ύλες','666.3','Κεραμική γενικά. Κερμαικές πρώτες ύλες','','','',false,true);
+d.add(406,404,'666.5','<div class="nodetag">666.5</div></span>&nbsp;&nbsp;Πορσελάνη. Κίνα','666.5','Πορσελάνη. Κίνα','','','',false,true);
+d.add(407,404,'666.6','<div class="nodetag">666.6</div></span>&nbsp;&nbsp;Ψαμμάργιλος. Πήλινα είδη','666.6','Ψαμμάργιλος. Πήλινα είδη','','','',false,true);
+d.add(408,404,'666.7','<div class="nodetag">666.7</div></span>&nbsp;&nbsp;Χονδρόκοκκα κεραμικά. Βαρειά κεραμικά. Πυρίμαχα. Σκληρά κεραμικά υλικά. Μείγματα κεραμικών και άλλων υλικών','666.7','Χονδρόκοκκα κεραμικά. Βαρειά κεραμικά. Πυρίμαχα. Σκληρά κεραμικά υλικά. Μείγματα κεραμικών και άλλων υλικών','','','',false,true);
+d.add(409,402,'666.9','<div class="nodetag">666.9</div></span>&nbsp;&nbsp;Βιομηχανίες γύψου, ασβέστη και τσιμέντου. Άκαμπτα υλικά. Ασβεστοκονίαμα (σοβάς) και συνθέσεις. Κονίαμα (λάσπη οικοδομών) και μπετόν','666.9','Βιομηχανίες γύψου, ασβέστη και τσιμέντου. Άκαμπτα υλικά. Ασβεστοκονίαμα (σοβάς) και συνθέσεις. Κονίαμα (λάσπη οικοδομών) και μπετόν','','','',false,true);
+d.add(410,343,'667','<div class="nodetag">667</div></span>&nbsp;&nbsp;Βιομηχανιές χρωμάτων','667','Βιομηχανιές χρωμάτων','','','',false,true);
+d.add(411,410,'667.2','<div class="nodetag">667.2</div></span>&nbsp;&nbsp;Βιομηχανία βαφικών υλών. Παρασκευή και χρήση των βαφικών υλών','667.2','Βιομηχανία βαφικών υλών. Παρασκευή και χρήση των βαφικών υλών','','','',false,true);
+d.add(412,410,'667.4','<div class="nodetag">667.4</div></span>&nbsp;&nbsp;Μελάνια γραφής','667.4','Μελάνια γραφής','','','',false,true);
+d.add(413,410,'667.5','<div class="nodetag">667.5</div></span>&nbsp;&nbsp;Μελάνια τυπώματος (μαύρα ή χρωματιστά). Λιθογραφικά μελάνια. Μολύβια γραφής και σχεδίου. Χρωματιστά κραγιόνια','667.5','Μελάνια τυπώματος (μαύρα ή χρωματιστά). Λιθογραφικά μελάνια. Μολύβια γραφής και σχεδίου. Χρωματιστά κραγιόνια','','','',false,true);
+d.add(414,410,'667.6','<div class="nodetag">667.6</div></span>&nbsp;&nbsp;Επιστρώσεις και τεχνικές επιστρώσεων. Βαφές. Βερνίκια. Λούστρα','667.6','Επιστρώσεις και τεχνικές επιστρώσεων. Βαφές. Βερνίκια. Λούστρα','','','',false,true);
+d.add(415,410,'667.7','<div class="nodetag">667.7</div></span>&nbsp;&nbsp;Βαφή, κηλίδωση κλπ. διαφόρων μετάλλων (εκτός από τύπωμα και ζωγράφισμα)','667.7','Βαφή, κηλίδωση κλπ. διαφόρων μετάλλων (εκτός από τύπωμα και ζωγράφισμα)','','','',false,true);
+d.add(416,343,'669','<div class="nodetag">669</div></span>&nbsp;&nbsp;Μεταλλουργία','669','Μεταλλουργία','','','',false,true);
+d.add(417,416,'669.1','<div class="nodetag">669.1</div></span>&nbsp;&nbsp;Σιδηρούχα μεταλλουργία. Σίδηρο και ατσάλι','669.1','Σιδηρούχα μεταλλουργία. Σίδηρο και ατσάλι','','','',false,true);
+d.add(418,416,'669.2','<div class="nodetag">669.2</div></span>&nbsp;&nbsp;Μη σιδηρούχα μέταλλα γενικά','669.2','Μη σιδηρούχα μέταλλα γενικά','','','',false,true);
+d.add(419,0,'67','<div class="nodetag">67</div></span>&nbsp;&nbsp;Διάφορες βιομηχανίες, εμπόριο και κατασκευές','67','Διάφορες βιομηχανίες, εμπόριο και κατασκευές','','','',false,true);
+d.add(420,419,'671','<div class="nodetag">671</div></span>&nbsp;&nbsp;Είδη από πολύτιμα μέταλλα, πετράδια, πολύτιμους λίθους','671','Είδη από πολύτιμα μέταλλα, πετράδια, πολύτιμους λίθους','','','',false,true);
+d.add(421,420,'671.1','<div class="nodetag">671.1</div></span>&nbsp;&nbsp;Χρυσά και αργυρά είδη. Είδη από άλλα πολύτιμα μέταλλα. Κοσμήματα','671.1','Χρυσά και αργυρά είδη. Είδη από άλλα πολύτιμα μέταλλα. Κοσμήματα','','','',false,true);
+d.add(422,420,'671.4','<div class="nodetag">671.4</div></span>&nbsp;&nbsp;Κατασκευή νομισμάτων και μεταλλίων. Νομισματοκοπεία','671.4','Κατασκευή νομισμάτων και μεταλλίων. Νομισματοκοπεία','','','',false,true);
+d.add(423,419,'672','<div class="nodetag">672</div></span>&nbsp;&nbsp;Είδη από σίδηρο και ατσάλι γενικά','672','Είδη από σίδηρο και ατσάλι γενικά','','','',false,true);
+d.add(424,419,'673','<div class="nodetag">673</div></span>&nbsp;&nbsp;Είδη από μη σιδηρούχα μέταλλα (εκτός από πολύτιμα μέταλλα)','673','Είδη από μη σιδηρούχα μέταλλα (εκτός από πολύτιμα μέταλλα)','','','',false,true);
+d.add(425,419,'674','<div class="nodetag">674</div></span>&nbsp;&nbsp;Βιομηχανία ξυλείας και επεξεργασίας ξύλου','674','Βιομηχανία ξυλείας και επεξεργασίας ξύλου','','','',false,true);
+d.add(426,419,'675','<div class="nodetag">675</div></span>&nbsp;&nbsp;Βιομηχανία δερμάτων (συμπεριλαμβανομένων γούνας και απομίμησης δέρματος)','675','Βιομηχανία δερμάτων (συμπεριλαμβανομένων γούνας και απομίμησης δέρματος)','','','',false,true);
+d.add(427,419,'676','<div class="nodetag">676</div></span>&nbsp;&nbsp;Βιομηχανία πολτού, χαρτιού και χαρτονιού','676','Βιομηχανία πολτού, χαρτιού και χαρτονιού','','','',false,true);
+d.add(428,419,'677','<div class="nodetag">677</div></span>&nbsp;&nbsp;Υφαντουργικές βιομηχανίες','677','Υφαντουργικές βιομηχανίες','','','',false,true);
+d.add(429,428,'677.1/.5','<div class="nodetag">677.1/.5</div></span>&nbsp;&nbsp;Υφαντουργικές ίνες','677.1/.5','Υφαντουργικές ίνες','','','',false,true);
+d.add(430,429,'677.1/.3','<div class="nodetag">677.1/.3</div></span>&nbsp;&nbsp;Φυσικές ίνες','677.1/.3','Φυσικές ίνες','','','',false,true);
+d.add(431,430,'677.1/.2','<div class="nodetag">677.1/.2</div></span>&nbsp;&nbsp;Φυτικές ίνες','677.1/.2','Φυτικές ίνες','','','',false,true);
+d.add(432,431,'677.1','<div class="nodetag">677.1</div></span>&nbsp;&nbsp;Ίνες ραφίας (ίνες από δικοτυλήδονα στελέχη). Σκληρές ίνες (ίνες από μονοκοτυλήδονα φύλλα και φρούτα)','677.1','Ίνες ραφίας (ίνες από δικοτυλήδονα στελέχη). Σκληρές ίνες (ίνες από μονοκοτυλήδονα φύλλα και φρούτα)','','','',false,true);
+d.add(433,431,'677.2','<div class="nodetag">677.2</div></span>&nbsp;&nbsp;Τρίχες από φυτά','677.2','Τρίχες από φυτά','','','',false,true);
+d.add(434,430,'677.3','<div class="nodetag">677.3</div></span>&nbsp;&nbsp;Ζωϊκές ίνες','677.3','Ζωϊκές ίνες','','','',false,true);
+d.add(435,429,'677.4','<div class="nodetag">677.4</div></span>&nbsp;&nbsp;Τεχνητές ίνες','677.4','Τεχνητές ίνες','','','',false,true);
+d.add(436,429,'677.5','<div class="nodetag">677.5</div></span>&nbsp;&nbsp;Ορυκτές και μεταλλικές ίνες. Υλικά για πλέξιμο. Λατιχένιες κλωστές. Χάρτινα νήματα','677.5','Ορυκτές και μεταλλικές ίνες. Υλικά για πλέξιμο. Λατιχένιες κλωστές. Χάρτινα νήματα','','','',false,true);
+d.add(437,419,'678','<div class="nodetag">678</div></span>&nbsp;&nbsp;Βιομηχανίες βασιζόμενες σε μακρομοριακά υλικά. Βιομηχανία λαστιχών. Βιομηαχανία πλαστικών','678','Βιομηχανίες βασιζόμενες σε μακρομοριακά υλικά. Βιομηχανία λαστιχών. Βιομηαχανία πλαστικών','','','',false,true);
+d.add(438,437,'678.4','<div class="nodetag">678.4</div></span>&nbsp;&nbsp;Φυσικό λάστιχο. Άλλα φυσικά μακρομοριακά εμπεριέχοντα μόνο άνθρακα και υδρογόνο','678.4','Φυσικό λάστιχο. Άλλα φυσικά μακρομοριακά εμπεριέχοντα μόνο άνθρακα και υδρογόνο','','','',false,true);
+d.add(439,437,'678.5','<div class="nodetag">678.5</div></span>&nbsp;&nbsp;Πλαστικά','678.5','Πλαστικά','','','',false,true);
+d.add(440,437,'678.6','<div class="nodetag">678.6</div></span>&nbsp;&nbsp;Προϊόντα συνθετικής πολυσυμπύκνωσης. Πολυσυμπυκνωμένα. Συνθετικά ρετσίνια. Συνθετικές ίνες κλπ.','678.6','Προϊόντα συνθετικής πολυσυμπύκνωσης. Πολυσυμπυκνωμένα. Συνθετικά ρετσίνια. Συνθετικές ίνες κλπ.','','','',false,true);
+d.add(441,437,'678.7','<div class="nodetag">678.7</div></span>&nbsp;&nbsp;Προϊόντα συνθετικού πολυμερισμού. Πολυμερισμένα. Συνθετικά λάστιχα','678.7','Προϊόντα συνθετικού πολυμερισμού. Πολυμερισμένα. Συνθετικά λάστιχα','','','',false,true);
+d.add(442,419,'679','<div class="nodetag">679</div></span>&nbsp;&nbsp;Βιομηχανίες βασιζόμενες σε διάφορα κατεργαζόμενα υλικά','679','Βιομηχανίες βασιζόμενες σε διάφορα κατεργαζόμενα υλικά','','','',false,true);
+d.add(443,442,'679.7','<div class="nodetag">679.7</div></span>&nbsp;&nbsp;Βιομηχανίες καλωδίων και σχοινιών','679.7','Βιομηχανίες καλωδίων και σχοινιών','','','',false,true);
+d.add(444,442,'679.8','<div class="nodetag">679.8</div></span>&nbsp;&nbsp;Τεχνολογία λίθων. Βιομηχανία λίθων','679.8','Τεχνολογία λίθων. Βιομηχανία λίθων','','','',false,true);
+d.add(445,442,'679.9','<div class="nodetag">679.9</div></span>&nbsp;&nbsp;Τεχνολογία άλλων φυσικών κατεργαζόμενων υλικών','679.9','Τεχνολογία άλλων φυσικών κατεργαζόμενων υλικών','','','',false,true);
+d.add(446,0,'68','<div class="nodetag">68</div></span>&nbsp;&nbsp;Βιομηχανίες, κατασκευές και εμπορία ετοίμων ή συναρμολογημένων αντικειμένων','68','Βιομηχανίες, κατασκευές και εμπορία ετοίμων ή συναρμολογημένων αντικειμένων','','','',false,true);
+d.add(447,446,'681','<div class="nodetag">681</div></span>&nbsp;&nbsp;Μηχανισμοί και όργανα ακριβείας','681','Μηχανισμοί και όργανα ακριβείας','','','',false,true);
+d.add(448,447,'681.1','<div class="nodetag">681.1</div></span>&nbsp;&nbsp;Συσκευές με μηχανισμό τροχών ή κινητήρα','681.1','Συσκευές με μηχανισμό τροχών ή κινητήρα','','','',false,true);
+d.add(449,447,'681.2','<div class="nodetag">681.2</div></span>&nbsp;&nbsp;Κατασκευή οργάνων γενικά. Χρήση επιστημονικών οργάνων. Όργανα μέτρησης και η κατασκευή τους. Ζυγαριές. Συσκευές μέτρησης βάρους','681.2','Κατασκευή οργάνων γενικά. Χρήση επιστημονικών οργάνων. Όργανα μέτρησης και η κατασκευή τους. Ζυγαριές. Συσκευές μέτρησης βάρους','','','',false,true);
+d.add(450,447,'681.5','<div class="nodetag">681.5</div></span>&nbsp;&nbsp;Τεχνολογία αυτόματου ελέγχου. Έξυπνη τεχνολογία','681.5','Τεχνολογία αυτόματου ελέγχου. Έξυπνη τεχνολογία','','','',false,true);
+d.add(451,447,'681.6','<div class="nodetag">681.6</div></span>&nbsp;&nbsp;Μηχανές και εξοπλισμός μηχανικής αναπαραγωγής','681.6','Μηχανές και εξοπλισμός μηχανικής αναπαραγωγής','','','',false,true);
+d.add(452,447,'681.7','<div class="nodetag">681.7</div></span>&nbsp;&nbsp;Οπτικά όργανα και συσκευές','681.7','Οπτικά όργανα και συσκευές','','','',false,true);
+d.add(453,447,'681.8','<div class="nodetag">681.8</div></span>&nbsp;&nbsp;Τεχνική ακουστική','681.8','Τεχνική ακουστική','','','',false,true);
+d.add(454,446,'682','<div class="nodetag">682</div></span>&nbsp;&nbsp;Μεταλουργία. Σιδηρουργία. Πεταλωτική. Χειρο-χάλκευση μετάλλων','682','Μεταλουργία. Σιδηρουργία. Πεταλωτική. Χειρο-χάλκευση μετάλλων','','','',false,true);
+d.add(455,454,'682.1','<div class="nodetag">682.1</div></span>&nbsp;&nbsp;Πεταλωτική','682.1','Πεταλωτική','','','',false,true);
+d.add(456,454,'682.3','<div class="nodetag">682.3</div></span>&nbsp;&nbsp;Κατασκευή εργαλείων. Χάλκευση αιχμηρών εργαλείων','682.3','Κατασκευή εργαλείων. Χάλκευση αιχμηρών εργαλείων','','','',false,true);
+d.add(457,454,'682.5','<div class="nodetag">682.5</div></span>&nbsp;&nbsp;Σιδηρές κατασκευές επίπλων','682.5','Σιδηρές κατασκευές επίπλων','','','',false,true);
+d.add(458,454,'682.6','<div class="nodetag">682.6</div></span>&nbsp;&nbsp;Σιδηρές κατασκευές κτιρίων','682.6','Σιδηρές κατασκευές κτιρίων','','','',false,true);
+d.add(459,446,'683','<div class="nodetag">683</div></span>&nbsp;&nbsp;Σιδηρικά. Είδη κλειδαρά. Εμφιαλώσεις. Λαμπτήρες. Συσκευές θέρμανσης','683','Σιδηρικά. Είδη κλειδαρά. Εμφιαλώσεις. Λαμπτήρες. Συσκευές θέρμανσης','','','',false,true);
+d.add(460,446,'684','<div class="nodetag">684</div></span>&nbsp;&nbsp;Επίπλωση και συναφείς βιομηχανίες. Κατασκευή επίπλων. Ταπετσαρία','684','Επίπλωση και συναφείς βιομηχανίες. Κατασκευή επίπλων. Ταπετσαρία','','','',false,true);
+d.add(461,460,'684.4','<div class="nodetag">684.4</div></span>&nbsp;&nbsp;Επίπλωση. Σχεδιασμός και κατασκευή επίπλων','684.4','Επίπλωση. Σχεδιασμός και κατασκευή επίπλων','','','',false,true);
+d.add(462,460,'684.6','<div class="nodetag">684.6</div></span>&nbsp;&nbsp;Υλικά επενδύσεων. Μαρκετερί. Ένθετα ποικίλματα','684.6','Υλικά επενδύσεων. Μαρκετερί. Ένθετα ποικίλματα','','','',false,true);
+d.add(463,460,'684.7','<div class="nodetag">684.7</div></span>&nbsp;&nbsp;Ταπετσαρία. Κλινοσκεπάσματα. Καλύματα. Παραπετάσματα','684.7','Ταπετσαρία. Κλινοσκεπάσματα. Καλύματα. Παραπετάσματα','','','',false,true);
+d.add(464,446,'685','<div class="nodetag">685</div></span>&nbsp;&nbsp;Κατασκευή σελών. Υπόδηση. Γάντια. Είδη ταξιδίου. Εξαρτήματα για αθλήματα και παιχνίδια','685','Κατασκευή σελών. Υπόδηση. Γάντια. Είδη ταξιδίου. Εξαρτήματα για αθλήματα και παιχνίδια','','','',false,true);
+d.add(465,464,'685.1','<div class="nodetag">685.1</div></span>&nbsp;&nbsp;Κατασκευή σελών. Κατασκευή χαλιναριών','685.1','Κατασκευή σελών. Κατασκευή χαλιναριών','','','',false,true);
+d.add(466,464,'685.2','<div class="nodetag">685.2</div></span>&nbsp;&nbsp;Εξάρτηση. Κατασκευή ζωνών. Εξαρτήματα από δέρμα και ανάλογα προϊόντα','685.2','Εξάρτηση. Κατασκευή ζωνών. Εξαρτήματα από δέρμα και ανάλογα προϊόντα','','','',false,true);
+d.add(467,464,'685.3','<div class="nodetag">685.3</div></span>&nbsp;&nbsp;Υποδήματα. Άλλα βοηθήματα κίνησης','685.3','Υποδήματα. Άλλα βοηθήματα κίνησης','','','',false,true);
+d.add(468,464,'685.4','<div class="nodetag">685.4</div></span>&nbsp;&nbsp;Γάντια. Κατασκευή γαντιών','685.4','Γάντια. Κατασκευή γαντιών','','','',false,true);
+d.add(469,464,'685.5','<div class="nodetag">685.5</div></span>&nbsp;&nbsp;Αγαθά ταξιδίου. Εξαρτήματα κατασκήνωσης','685.5','Αγαθά ταξιδίου. Εξαρτήματα κατασκήνωσης','','','',false,true);
+d.add(470,464,'685.6','<div class="nodetag">685.6</div></span>&nbsp;&nbsp;Εξαρτήματα αθλημάτων και παιχνιδιών. Εξαρτήματα και εγκαταστάσεις για αθλητισμό, γυμναστικλη, φυσική εξάσκηση','685.6','Εξαρτήματα αθλημάτων και παιχνιδιών. Εξαρτήματα και εγκαταστάσεις για αθλητισμό, γυμναστικλη, φυσική εξάσκηση','','','',false,true);
+d.add(471,464,'685.7','<div class="nodetag">685.7</div></span>&nbsp;&nbsp;Εξαρτήματα για ορειβασία και αναρύχηση. Εξαρτήματα για κολύμβηση','685.7','Εξαρτήματα για ορειβασία και αναρύχηση. Εξαρτήματα για κολύμβηση','','','',false,true);
+d.add(472,464,'685.8','<div class="nodetag">685.8</div></span>&nbsp;&nbsp;Εξαρτήματα για επιτραπέζια παιχνίδια','685.8','Εξαρτήματα για επιτραπέζια παιχνίδια','','','',false,true);
+d.add(473,446,'686','<div class="nodetag">686</div></span>&nbsp;&nbsp;Βιβλιοδεσία. Επιμετάλλωση. Κατασκευή καθρεπτών. Γραφική ύλη','686','Βιβλιοδεσία. Επιμετάλλωση. Κατασκευή καθρεπτών. Γραφική ύλη','','','',false,true);
+d.add(474,446,'687','<div class="nodetag">687</div></span>&nbsp;&nbsp;Βιομηχανία ένδυσης','687','Βιομηχανία ένδυσης','','','',false,true);
+d.add(475,474,'687.1','<div class="nodetag">687.1</div></span>&nbsp;&nbsp;Εξωτερική ένδυση. Ραφεία','687.1','Εξωτερική ένδυση. Ραφεία','','','',false,true);
+d.add(476,474,'687.2','<div class="nodetag">687.2</div></span>&nbsp;&nbsp;Λινά. Εσώρουχα','687.2','Λινά. Εσώρουχα','','','',false,true);
+d.add(477,474,'687.3','<div class="nodetag">687.3</div></span>&nbsp;&nbsp;Πλεκτά. Γραβάτες. Συσκευές για την προστασία των ρούχων','687.3','Πλεκτά. Γραβάτες. Συσκευές για την προστασία των ρούχων','','','',false,true);
+d.add(478,474,'687.4','<div class="nodetag">687.4</div></span>&nbsp;&nbsp;Καλύματα κεφαλής. Πιλοποεία. Εμπορία καπέλλων','687.4','Καλύματα κεφαλής. Πιλοποεία. Εμπορία καπέλλων','','','',false,true);
+d.add(479,474,'687.5','<div class="nodetag">687.5</div></span>&nbsp;&nbsp;Βιομηχανίες της κουλτούρας καλλωπισμού','687.5','Βιομηχανίες της κουλτούρας καλλωπισμού','','','',false,true);
+d.add(480,474,'687.8','<div class="nodetag">687.8</div></span>&nbsp;&nbsp;Τεχνητές γούνες','687.8','Τεχνητές γούνες','','','',false,true);
+d.add(481,474,'687.9','<div class="nodetag">687.9</div></span>&nbsp;&nbsp;Βιομηχανία βουρτσών. Σκούπες κλπ.','687.9','Βιομηχανία βουρτσών. Σκούπες κλπ.','','','',false,true);
+d.add(482,446,'688','<div class="nodetag">688</div></span>&nbsp;&nbsp;Αγαθά πολυτελείας. Παιχνίδια. Διακοσμητικά είδη','688','Αγαθά πολυτελείας. Παιχνίδια. Διακοσμητικά είδη','','','',false,true);
+d.add(483,482,'688.7','<div class="nodetag">688.7</div></span>&nbsp;&nbsp;Παιχνίδια. Είδη για ψυχαγωγία, κόλπα','688.7','Παιχνίδια. Είδη για ψυχαγωγία, κόλπα','','','',false,true);
+d.add(484,446,'689','<div class="nodetag">689</div></span>&nbsp;&nbsp;Ερασιτεχνικές χειροτεχνίες. Τεχνικά χόμπυ','689','Ερασιτεχνικές χειροτεχνίες. Τεχνικά χόμπυ','','','',false,true);
+d.add(485,0,'69','<div class="nodetag">69</div></span>&nbsp;&nbsp;Οικοδομικό (κατασκευαστικό) εμπόριο. Οικοδομικά υλικά. Οικοδομική πρακτική και διαδικασία','69','Οικοδομικό (κατασκευαστικό) εμπόριο. Οικοδομικά υλικά. Οικοδομική πρακτική και διαδικασία','','','',false,true);
+d.add(486,485,'691','<div class="nodetag">691</div></span>&nbsp;&nbsp;Οικοδομικά υλικά. Οικοδομικά στοιχεία','691','Οικοδομικά υλικά. Οικοδομικά στοιχεία','','','',false,true);
+d.add(487,485,'692','<div class="nodetag">692</div></span>&nbsp;&nbsp;Δομικά κομμάτια και στοιχεία κτιρίων','692','Δομικά κομμάτια και στοιχεία κτιρίων','','','',false,true);
+d.add(488,485,'693','<div class="nodetag">693</div></span>&nbsp;&nbsp;Τοιχοποιία και σχετικές τέχνες οικοδόμησης','693','Τοιχοποιία και σχετικές τέχνες οικοδόμησης','','','',false,true);
+d.add(489,485,'694','<div class="nodetag">694</div></span>&nbsp;&nbsp;Ξύλινη κατασκευή. Ξυλουργία. Ξυλουργική','694','Ξύλινη κατασκευή. Ξυλουργία. Ξυλουργική','','','',false,true);
+d.add(490,485,'696','<div class="nodetag">696</div></span>&nbsp;&nbsp;Εξοπλισμός, παροχές, εγκαταστάσεις σε κτίρια ( αποχέτευση, φυσικό αέριο, ατμός, ηλεκτρισμός). Συναρμολογητής σωλήνων. Υδραυλικός. Μεταλοτεχνήτης. Τεχνήτης εγκατάστασης αποχετευτικών σωλήνων. Ηλεκτρολόγος. Άλλες τέχνες','696','Εξοπλισμός, παροχές, εγκαταστάσεις σε κτίρια ( αποχέτευση, φυσικό αέριο, ατμός, ηλεκτρισμός). Συναρμολογητής σωλήνων. Υδραυλικός. Μεταλοτεχνήτης. Τεχνήτης εγκατάστασης αποχετευτικών σωλήνων. Ηλεκτρολόγος. Άλλες τέχνες','','','',false,true);
+d.add(491,485,'697','<div class="nodetag">697</div></span>&nbsp;&nbsp;Θέρμανση, εξαερισμός και κλιματισμός κτιρίων','697','Θέρμανση, εξαερισμός και κλιματισμός κτιρίων','','','',false,true);
+d.add(492,485,'698','<div class="nodetag">698</div></span>&nbsp;&nbsp;Τέχνες φινιρίσματος και διακόσμησης κτιρίων','698','Τέχνες φινιρίσματος και διακόσμησης κτιρίων','','','',false,true);
+d.config.useSelection = false;
+d.config.inOrder = true;
+d.config.useIcons = false;
+document.write(d);
+//-->
+</script>
+</div>
+</div><div id="expandbox" onclick="expandbox(); return false;">&nbsp;</div>
+<div id="recordbox" class="debugbkg">
+<div class="fronthint">πατείστε στην κλάση αριστερά για να φανερώσετε τις εγγραφές</div>
+</div>
+
+        <div id="footer">
+            <div class="footersectionleft">
+                The UDC Summary (UDCS) provides a selection of around 2,600 classes from the whole scheme which comprises more than 70,000 entries.
+                Please send questions and suggestions to <a href="mailto:udcs@udcc.org?subject=UDC Summary Enquiry">udcs@udcc.org</a><br><br>
+	            <p>
+		            The data provided in this Summary is released under the <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative Commons Attribution Share Alike 3.0 license</a> <a href="../about.htm">[more]</a>
+	            </p>
+            </div>
+            <div class="footermiddle">
+                <a href="http://www.udcc.org"><img src="../images/udclogowhite.png" border="0"></a>
+            </div>
+			<div class="footerright">
+                For complete UDC schedules see <a href="http://www.udc-hub.com/">UDC Online Hub</a><br/><a href="http://www.udc-hub.com/"><img width="60" height="35" src="../images/udclogo.png"/></a>
+
+			</div>
+        </div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-13138465-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>

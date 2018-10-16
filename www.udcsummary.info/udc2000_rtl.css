@@ -1,0 +1,154 @@
+#openclosemenu
+{
+    float: right;
+    width: 720px;
+    clear: left;
+    background-color: #efefff;
+    color: black;
+    height: 1.3em;
+    margin-bottom: 5px;
+}
+
+#classtree
+{
+    float: right;
+    width: 405px;
+    clear: right;
+    color: black;
+    margin-bottom: 10px;
+}
+
+#expandbox {
+    width: 20px;
+    margin: 10px 0px;
+    float: left;
+    overflow: auto;
+    padding: 0px;
+    background-color: white;
+    background-image: url(images/leftarrow.png);
+    height: 535px;
+}
+
+.label
+{
+    float: right;
+    clear: right;
+    width: 75px;
+    margin: 2px;
+    background-color: white;
+}
+
+.recordvalue
+{
+    float: right;
+    width: 410px;
+    background-color: white;
+    margin: 2px;
+}
+
+.leftrecord {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+
+.notation
+{
+    float: right;
+    clear: right;
+    width: 75px;
+    padding: 2px;
+    font-size: 15px;
+    line-height: 17px;
+    unicode-bidi: bidi-override;
+    direction: ltr;
+    text-align: right;
+}
+
+.caption
+{
+    float: right;
+    width: 410px;
+    padding: 2px;
+    font-size: 15px;
+    line-height: 17px;
+}
+
+.extag
+{
+    background-color: white;
+    vertical-align: top;
+    font-style: normal;
+    width: 75px;
+    font-size: 0.85em;
+}
+
+.reftag
+{
+    background-color: white;
+    vertical-align: top;
+    font-style: normal;
+    width: 75px;
+    line-height: 17px;
+    font-size: 0.85em;
+    unicode-bidi: bidi-override;
+    direction: ltr;
+    text-align: right;
+}
+
+.exdesc
+{
+    background-color: white;
+    vertical-align: top;
+    font-style: normal;
+    padding-right: 10px;
+    font-size: 0.85em;
+    text-align: right;
+}
+
+.pathelement {
+    float: right;
+    padding-left: 2px;
+    unicode-bidi: bidi-override;
+    direction: ltr;
+}
+
+.pathnextprev {
+    float: left;
+    padding-left: 2px;
+}
+
+.nextprevnav {
+    float: left;
+    width: 100px;
+    overflow: visible;
+    text-align: right;
+    margin-left: 10px;
+}
+
+ul.rightmenu li a {
+    color: black;
+    font-family: Calibri, Tahoma, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+ul.rightmenu li a.vacant {
+    color: #aaaaaa;
+    font-family: Calibri, Tahoma, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+ul.menu li {
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+ul.menu li a {
+    float: left;
+    color: #A0A0A0;
+    font-family: Calibri, Tahoma, Helvetica, sans-serif;
+    text-decoration: none;
+    height: 20px;
+    padding: 10px 8px 0;
+}

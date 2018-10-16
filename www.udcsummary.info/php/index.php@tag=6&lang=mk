@@ -1,0 +1,654 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>UDC Summary</title>
+    <link rel="stylesheet" href="../reset.css" type="text/css" />
+    <link rel="stylesheet" href="../udc2000.css" type="text/css" />
+	    <link rel="StyleSheet" href="dtree2.css" type="text/css" />
+	    <script type="text/javascript" src="dtree.js"></script>
+	    <script type="text/javascript" src="udcdisplay_9.js"></script>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+</head>
+
+<body >
+<div id="centercontainer" class="debugbkg">
+    <div id="titlebox" class="debugbkg">
+		<div id="rightbox">
+        	<div id="languagecount">57 languages</div>
+            <div id="languagebox">
+            <select id="selectedlang" style="vertical-align: middle;" onchange="location = this.options[this.selectedIndex].value;">
+			<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=af&pr=Y">Afrikaans (Afrikaans) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sq&pr=Y">Albanian (Shqip) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=anp&pr=Y">Angika (अंगिका) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ar&pr=Y">Arabic (العربية) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hy&pr=Y">Armenian (հայերեն) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=eu&pr=Y">Basque (Euskara) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=be&pr=Y">Belarusian (Беларуская) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bn&pr=Y">Bengali (বাংলা) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bho&pr=Y">Bhojpuri (भोजपुरी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bg&pr=Y">Bulgarian (Български) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ca&pr=Y">Catalan (Català) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=chi&pr=Y">Chinese (中文) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hr&pr=Y">Croatian (Hrvatski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=cs&pr=Y">Czech (Čeština) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=da&pr=Y">Danish (Dansk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=nl&pr=Y">Dutch (Nederlands) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=en&pr=Y">English (English) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=eo&pr=Y">Esperanto (Esperanto) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=et&pr=Y">Estonian (Eesti) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=fi&pr=Y">Finnish (Suomi) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=fr&pr=Y">French (Français) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=gl&pr=Y">Galician (Galego) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ka&pr=Y">Georgian (ქართული) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=de&pr=Y">German (Deutsch) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=el&pr=Y">Greek (Ελληνικά) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hi&pr=Y">Hindi (हिन्दी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hu&pr=Y">Hungarian (Magyar) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=id&pr=Y">Indonesian (Bahasa Ind) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ga&pr=Y">Irish (Gaeilge) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=it&pr=Y">Italian (Italiano) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ja&pr=Y">Japanese (日本語) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=kn&pr=Y">Kannada (ಕನ್ನಡ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=kk&pr=Y">Kazakh (Қазақ тілі) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=lv&pr=Y">Latvian (Latviešu) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=lt&pr=Y">Lithuanian (lietuvių) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=mk&pr=Y" selected>Macedonian (македонски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ml&pr=Y">Malayalam (മലയാളം) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=mr&pr=Y">Marathi (मराठी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=no&pr=Y">Norwegian (Norsk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pl&pr=Y">Polish (Polski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pt&pr=Y">Portuguese (Português) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pa&pr=Y">Punjabi (ਪੰਜਾਬੀ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ro&pr=Y">Romanian (Româna) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ru&pr=Y">Russian (Pусский) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sa&pr=Y">Sanskrit (Saṃskṛtam) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sr&pr=Y">Serbian (Српски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=si&pr=Y">Sinhala (සිංහල) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sk&pr=Y">Slovak (Slovenský) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sl&pr=Y">Slovenian (Slovenski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=es&pr=Y">Spanish (Español) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sv&pr=Y">Swedish (Svenska) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ta&pr=Y">Tamil (தமிழ்) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=te&pr=Y">Telugu (తెలుగు) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=tr&pr=Y">Turkish (Türkçe) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=uk&pr=Y">Ukrainian (Yкраї́нська) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=uz&pr=Y">Uzbek (oʻzbek) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=vi&pr=Y">Vietnamese (tiếng Việt) </option>
+            </select>
+            </div>
+            </div>
+        </div>
+		<div id="menubox" class="debugbkg">
+            <ul class="menu boldmenu">
+<li><a href="index.php@lang=mk">НА ПОЧЕТОК</a></li>
+<li><a href="index.php@tag=--&amp;lang=mk">ЗНАЦИ</a></li>
+<li><a href="index.php@tag=---&amp;lang=mk">ПОМОШНИ БРОЕВИ</a></li>
+<li><a href="index.php@tag=0&amp;lang=mk">0</a></li>
+<li><a href="index.php@tag=1&amp;lang=mk">1</a></li>
+<li><a href="index.php@tag=2&amp;lang=mk">2</a></li>
+<li><a href="index.php@tag=3&amp;lang=mk">3</a></li>
+<li><a  class="vacant" href="index.php@tag=6&amp;lang=mk#">4</a></li>
+<li><a href="index.php@tag=5&amp;lang=mk">5</a></li>
+<li><a href="index.php@tag=6&amp;lang=mk">6</a></li>
+<li><a href="index.php@tag=7&amp;lang=mk">7</a></li>
+<li><a href="index.php@tag=8&amp;lang=mk">8</a></li>
+<li><a href="index.php@tag=9&amp;lang=mk">9</a></li>
+</ul>
+<input type="hidden" id="if_loading" name="if_loading" value="се вчитува"/>
+<input type="hidden" id="if_lang" name="if_lang" value="51"/>
+<ul class="rightmenu boldmenu">
+<li><a href="../translation.htm">ПРЕВОДИ</a></li>
+<li><a href="index.php@tag=6&amp;lang=mk#" title="Under Development">МАПИРАЊЕ</a></li>
+<li><a href="../exports.htm" title="Data Exports">ИСПИСИ</a></li>
+<li><a href="index.php@tag=6&amp;lang=mk#" title="Under Development">ИНДЕКС</a></li>
+<li><a href="index.php@tag=6&amp;lang=mk#" title="Under Development">УПАТСТВО</a></li>
+<li><a href="../about.htm" title="About the UDC Summary">ИНФО</a></li>
+</ul>
+
+        </div>
+		<input type="hidden" id="leftWidth" value="420"/><input type="hidden" id="rightWidth" value="522"/>
+		<div id="classmarkbox" class="debugbkg">
+
+<div id="openclosemenu"><a href="javascript: d.openAll();">&nbsp;отвори ги сите</a> | <a href="javascript: d.closeAll();">затвори ги сити</a></div>
+<div id="classtree">
+<script type="text/javascript">
+<!--
+d = new dTree('d');
+d.config.hrefIsClick = true;
+d.add(0,-1,'6','<span class="nodetag">6</span>&nbsp;&nbsp;ПРИМЕНЕТИ НАУКИ. МЕДИЦИНА. ТЕХНОЛОГИЈА','6','','','','',false,true);
+d.add(1,0,'60','<div class="nodetag">60</div></span>&nbsp;&nbsp;Биотехнологија','60','Биотехнологија','','','',false,true);
+d.add(2,1,'601','<div class="nodetag">601</div></span>&nbsp;&nbsp;Базични концепти','601','Базични концепти','','','',false,true);
+d.add(3,1,'602','<div class="nodetag">602</div></span>&nbsp;&nbsp;Биотехнолошки процеси и техники','602','Биотехнолошки процеси и техники','','','',false,true);
+d.add(4,1,'604','<div class="nodetag">604</div></span>&nbsp;&nbsp;Биотехнолошки продукти','604','Биотехнолошки продукти','','','',false,true);
+d.add(5,1,'606','<div class="nodetag">606</div></span>&nbsp;&nbsp;Примена на биотехнологијата','606','Примена на биотехнологијата','','','',false,true);
+d.add(6,1,'608','<div class="nodetag">608</div></span>&nbsp;&nbsp;Прашања од биотехнолошки аспект','608','Прашања од биотехнолошки аспект','','','',false,true);
+d.add(7,0,'61','<div class="nodetag">61</div></span>&nbsp;&nbsp;Медицински науки','61','Медицински науки','','','',false,true);
+d.add(8,7,'611/612','<div class="nodetag">611/612</div></span>&nbsp;&nbsp;Биологија на човек/Хумана биологија','611/612','Биологија на човек/Хумана биологија','','','',false,true);
+d.add(9,8,'611','<div class="nodetag">611</div></span>&nbsp;&nbsp;Анатомија. Хумана и компаративна анатомија','611','Анатомија. Хумана и компаративна анатомија','','','',false,true);
+d.add(10,8,'612','<div class="nodetag">612</div></span>&nbsp;&nbsp;Физиологија. Хумана и компаративна физиологија','612','Физиологија. Хумана и компаративна физиологија','','','',false,true);
+d.add(11,10,'612.1/.8','<div class="nodetag">612.1/.8</div></span>&nbsp;&nbsp;Физиологија на одделни системи/Систематска физиологија','612.1/.8','Физиологија на одделни системи/Систематска физиологија','','','',false,true);
+d.add(12,11,'612.1','<div class="nodetag">612.1</div></span>&nbsp;&nbsp;Крв. Кардиоваскуларен, циркулаторен систем','612.1','Крв. Кардиоваскуларен, циркулаторен систем','','','',false,true);
+d.add(13,11,'612.2','<div class="nodetag">612.2</div></span>&nbsp;&nbsp;Респирација. Дишење. Респираторен систем','612.2','Респирација. Дишење. Респираторен систем','','','',false,true);
+d.add(14,11,'612.3','<div class="nodetag">612.3</div></span>&nbsp;&nbsp;Исхрана. Јадење. Варење. Прехрана','612.3','Исхрана. Јадење. Варење. Прехрана','','','',false,true);
+d.add(15,11,'612.4','<div class="nodetag">612.4</div></span>&nbsp;&nbsp;Ендокрин систем. Секреција. Екскреција','612.4','Ендокрин систем. Секреција. Екскреција','','','',false,true);
+d.add(16,11,'612.5','<div class="nodetag">612.5</div></span>&nbsp;&nbsp;Телесна топлина. Топлотни процеси','612.5','Телесна топлина. Топлотни процеси','','','',false,true);
+d.add(17,11,'612.6','<div class="nodetag">612.6</div></span>&nbsp;&nbsp;Репродукција. Раст. Развој','612.6','Репродукција. Раст. Развој','','','',false,true);
+d.add(18,11,'612.7','<div class="nodetag">612.7</div></span>&nbsp;&nbsp;Моторни функции. Органи за движење. Глас. Кожа','612.7','Моторни функции. Органи за движење. Глас. Кожа','','','',false,true);
+d.add(19,11,'612.8','<div class="nodetag">612.8</div></span>&nbsp;&nbsp;Нервен систем. Сетила','612.8','Нервен систем. Сетила','','','',false,true);
+d.add(20,7,'613','<div class="nodetag">613</div></span>&nbsp;&nbsp;Хигиена, општо. Лична хигиена и здравје','613','Хигиена, општо. Лична хигиена и здравје','','','',false,true);
+d.add(21,20,'613.2','<div class="nodetag">613.2</div></span>&nbsp;&nbsp;Диететика. Нутритивни принципи применети во исхраната и храната','613.2','Диететика. Нутритивни принципи применети во исхраната и храната','','','',false,true);
+d.add(22,20,'613.3','<div class="nodetag">613.3</div></span>&nbsp;&nbsp;Пијалаци. Лековити пијалаци. лековити води. Диета со течности','613.3','Пијалаци. Лековити пијалаци. лековити води. Диета со течности','','','',false,true);
+d.add(23,20,'613.4','<div class="nodetag">613.4</div></span>&nbsp;&nbsp;Лична хигиена. Облека','613.4','Лична хигиена. Облека','','','',false,true);
+d.add(24,20,'613.5','<div class="nodetag">613.5</div></span>&nbsp;&nbsp;Хигиена на живеалишта','613.5','Хигиена на живеалишта','','','',false,true);
+d.add(25,20,'613.6','<div class="nodetag">613.6</div></span>&nbsp;&nbsp;Индустриска хигиена. Професионални опасности','613.6','Индустриска хигиена. Професионални опасности','','','',false,true);
+d.add(26,20,'613.7','<div class="nodetag">613.7</div></span>&nbsp;&nbsp;Здравје и хигиена на одмор/слободно време, рекреација, спиење','613.7','Здравје и хигиена на одмор/слободно време, рекреација, спиење','','','',false,true);
+d.add(27,20,'613.8','<div class="nodetag">613.8</div></span>&nbsp;&nbsp;Здравје и хигиена на нервниот систем. Здравје и етика','613.8','Здравје и хигиена на нервниот систем. Здравје и етика','','','',false,true);
+d.add(28,20,'613.9','<div class="nodetag">613.9</div></span>&nbsp;&nbsp;Здравје и хигиена во однос на старост, пол, етнички групи','613.9','Здравје и хигиена во однос на старост, пол, етнички групи','','','',false,true);
+d.add(29,7,'614','<div class="nodetag">614</div></span>&nbsp;&nbsp;Јавно здравство и јавна хигиена. Превенција на несреќни случаи','614','Јавно здравство и јавна хигиена. Превенција на несреќни случаи','','','',false,true);
+d.add(30,29,'614.1','<div class="nodetag">614.1</div></span>&nbsp;&nbsp;Популација. Депопулација','614.1','Популација. Депопулација','','','',false,true);
+d.add(31,29,'614.2','<div class="nodetag">614.2</div></span>&nbsp;&nbsp;Јавна и професионална организација на здравствена служба','614.2','Јавна и професионална организација на здравствена служба','','','',false,true);
+d.add(32,29,'614.3','<div class="nodetag">614.3</div></span>&nbsp;&nbsp;Санитарна инспекција и контрола','614.3','Санитарна инспекција и контрола','','','',false,true);
+d.add(33,32,'614.39','<div class="nodetag">614.39</div></span>&nbsp;&nbsp;Национални здравствени служби','614.39','Национални здравствени служби','','','',false,true);
+d.add(34,29,'614.4','<div class="nodetag">614.4</div></span>&nbsp;&nbsp;Превенција и контрола на преносливи (инфективни, контагиозни) болести. Превенција од епидемии','614.4','Превенција и контрола на преносливи (инфективни, контагиозни) болести. Превенција од епидемии','','','',false,true);
+d.add(35,29,'614.6','<div class="nodetag">614.6</div></span>&nbsp;&nbsp;Хигиена на гробишта. Постапка со мртвите','614.6','Хигиена на гробишта. Постапка со мртвите','','','',false,true);
+d.add(36,29,'614.7','<div class="nodetag">614.7</div></span>&nbsp;&nbsp;Хигиена на воздухот, водата, земјата. Загадување и контрола на загадување','614.7','Хигиена на воздухот, водата, земјата. Загадување и контрола на загадување','','','',false,true);
+d.add(37,29,'614.8','<div class="nodetag">614.8</div></span>&nbsp;&nbsp;Несреќи. Ризици. Опасности. Превенција на несреќи. Лична заштита. Сигурност','614.8','Несреќи. Ризици. Опасности. Превенција на несреќи. Лична заштита. Сигурност','','','',false,true);
+d.add(38,29,'614.9','<div class="nodetag">614.9</div></span>&nbsp;&nbsp;Ветеринарна хигиена','614.9','Ветеринарна хигиена','','','',false,true);
+d.add(39,7,'615','<div class="nodetag">615</div></span>&nbsp;&nbsp;Фармација. Фармакологија','615','Фармација. Фармакологија','','','',false,true);
+d.add(40,39,'615.1','<div class="nodetag">615.1</div></span>&nbsp;&nbsp;Општа и професионална фармација','615.1','Општа и професионална фармација','','','',false,true);
+d.add(41,39,'615.2','<div class="nodetag">615.2</div></span>&nbsp;&nbsp;Лекови според нивното најважно дејство','615.2','Лекови според нивното најважно дејство','','','',false,true);
+d.add(42,39,'615.3','<div class="nodetag">615.3</div></span>&nbsp;&nbsp;Лекови според нивното потекло','615.3','Лекови според нивното потекло','','','',false,true);
+d.add(43,39,'615.4','<div class="nodetag">615.4</div></span>&nbsp;&nbsp;Фармацевтски препарати. Медицински материјали. Опрема','615.4','Фармацевтски препарати. Медицински материјали. Опрема','','','',false,true);
+d.add(44,39,'615.8','<div class="nodetag">615.8</div></span>&nbsp;&nbsp;Физиотерапија. Физикална терапија. Радиотерапија. Други немедицински тераписки третмани','615.8','Физиотерапија. Физикална терапија. Радиотерапија. Други немедицински тераписки третмани','','','',false,true);
+d.add(45,39,'615.9','<div class="nodetag">615.9</div></span>&nbsp;&nbsp;Општа токсикологија. Општи истражувања за отровите и труењата (интоксикации)','615.9','Општа токсикологија. Општи истражувања за отровите и труењата (интоксикации)','','','',false,true);
+d.add(46,7,'616','<div class="nodetag">616</div></span>&nbsp;&nbsp;Патологија. Клиничка медицина','616','Патологија. Клиничка медицина','','','',false,true);
+d.add(47,46,'616-001/-009','<div class="nodetag">616-001/-009</div></span>&nbsp;&nbsp;Специјални помошни броеви/ознаки за патолошки процеси','616-001/-009','Специјални помошни броеви/ознаки за патолошки процеси','','','',false,true);
+d.add(48,47,'616-001','<div class="nodetag">616-001</div></span>&nbsp;&nbsp;Повреди. Трауми. Рани','616-001','Повреди. Трауми. Рани','','','',false,true);
+d.add(49,47,'616-002','<div class="nodetag">616-002</div></span>&nbsp;&nbsp;Воспаленија. Иритации. Зголемена прокрвеност (хиперемија). Конгестија на слузница','616-002','Воспаленија. Иритации. Зголемена прокрвеност (хиперемија). Конгестија на слузница','','','',false,true);
+d.add(50,47,'616-003','<div class="nodetag">616-003</div></span>&nbsp;&nbsp;Регресивни и репаративни процеси','616-003','Регресивни и репаративни процеси','','','',false,true);
+d.add(51,47,'616-004','<div class="nodetag">616-004</div></span>&nbsp;&nbsp;Склероза. Стврднување (индурација). Цироза','616-004','Склероза. Стврднување (индурација). Цироза','','','',false,true);
+d.add(52,47,'616-005','<div class="nodetag">616-005</div></span>&nbsp;&nbsp;Локални циркулаторни растројства','616-005','Локални циркулаторни растројства','','','',false,true);
+d.add(53,47,'616-006','<div class="nodetag">616-006</div></span>&nbsp;&nbsp;Тумори. Неоплазми. Бластоми. Хористоми. Хамартоми. Онкологија','616-006','Тумори. Неоплазми. Бластоми. Хористоми. Хамартоми. Онкологија','','','',false,true);
+d.add(54,47,'616-007','<div class="nodetag">616-007</div></span>&nbsp;&nbsp;Дефектен структуерен развој. Физиолошки деформитети. Малформации. Хемитерати. Преголеми и премали органи. Тератологија. Монструми. Абнормалности','616-007','Дефектен структуерен развој. Физиолошки деформитети. Малформации. Хемитерати. Преголеми и премали органи. Тератологија. Монструми. Абнормалности','','','',false,true);
+d.add(55,47,'616-008','<div class="nodetag">616-008</div></span>&nbsp;&nbsp;Функционални и метаболни растројства','616-008','Функционални и метаболни растројства','','','',false,true);
+d.add(56,47,'616-009','<div class="nodetag">616-009</div></span>&nbsp;&nbsp;Невролошки растројства','616-009','Невролошки растројства','','','',false,true);
+d.add(57,46,'616-01/-099','<div class="nodetag">616-01/-099</div></span>&nbsp;&nbsp;Специјални помошни броеви/ознаки за општи патолошки аспекти','616-01/-099','Специјални помошни броеви/ознаки за општи патолошки аспекти','','','',false,true);
+d.add(58,57,'616-01','<div class="nodetag">616-01</div></span>&nbsp;&nbsp;Различни аспекти на болеста, пациенти и медицински интервенции','616-01','Различни аспекти на болеста, пациенти и медицински интервенции','','','',false,true);
+d.add(59,57,'616-02','<div class="nodetag">616-02</div></span>&nbsp;&nbsp;Етиологија. Наука за причините на болестите','616-02','Етиологија. Наука за причините на болестите','','','',false,true);
+d.add(60,57,'616-03','<div class="nodetag">616-03</div></span>&nbsp;&nbsp;Форми на болеста, лекувањето и давањето лекови','616-03','Форми на болеста, лекувањето и давањето лекови','','','',false,true);
+d.add(61,57,'616-05','<div class="nodetag">616-05</div></span>&nbsp;&nbsp;Личност и индивидуални карактеристика на болниот. Особини на пациентот','616-05','Личност и индивидуални карактеристика на болниот. Особини на пациентот','','','',false,true);
+d.add(62,57,'616-06','<div class="nodetag">616-06</div></span>&nbsp;&nbsp;Компликации. Последици. Реперкусии. Едновремени, симултани состојби. Корелации. Претходни заболувања. Претходна здравствена состојба. Антагонизам на две заболувања','616-06','Компликации. Последици. Реперкусии. Едновремени, симултани состојби. Корелации. Претходни заболувања. Претходна здравствена состојба. Антагонизам на две заболувања','','','',false,true);
+d.add(63,57,'616-07','<div class="nodetag">616-07</div></span>&nbsp;&nbsp;Семиологија. Симптоматологија. Знаци и симптоми. Преглед. Дијагноза. Пропедевтика','616-07','Семиологија. Симптоматологија. Знаци и симптоми. Преглед. Дијагноза. Пропедевтика','','','',false,true);
+d.add(64,57,'616-08','<div class="nodetag">616-08</div></span>&nbsp;&nbsp;Лекување/третман','616-08','Лекување/третман','','','',false,true);
+d.add(65,57,'616-091','<div class="nodetag">616-091</div></span>&nbsp;&nbsp;Патолошка анатомија. Патологија','616-091','Патолошка анатомија. Патологија','','','',false,true);
+d.add(66,57,'616-092','<div class="nodetag">616-092</div></span>&nbsp;&nbsp;Патолошка физиологија. Процеси, развој на болеста. Патогенеза. Истражување за потеклото на болеста','616-092','Патолошка физиологија. Процеси, развој на болеста. Патогенеза. Истражување за потеклото на болеста','','','',false,true);
+d.add(67,57,'616-093','<div class="nodetag">616-093</div></span>&nbsp;&nbsp;Микробиолошки техники','616-093','Микробиолошки техники','','','',false,true);
+d.add(68,57,'616-094','<div class="nodetag">616-094</div></span>&nbsp;&nbsp;Морфологија на микроорганизмите','616-094','Морфологија на микроорганизмите','','','',false,true);
+d.add(69,57,'616-095','<div class="nodetag">616-095</div></span>&nbsp;&nbsp;Физиологија на микроорганизмите','616-095','Физиологија на микроорганизмите','','','',false,true);
+d.add(70,57,'616-097','<div class="nodetag">616-097</div></span>&nbsp;&nbsp;Имунологија','616-097','Имунологија','','','',false,true);
+d.add(71,57,'616-098','<div class="nodetag">616-098</div></span>&nbsp;&nbsp;Физика, хемија, метаболизам, катаболизам на микроорганизмите','616-098','Физика, хемија, метаболизам, катаболизам на микроорганизмите','','','',false,true);
+d.add(72,57,'616-099','<div class="nodetag">616-099</div></span>&nbsp;&nbsp;Труење. Интоксикација','616-099','Труење. Интоксикација','','','',false,true);
+d.add(73,46,'616-71/-78','<div class="nodetag">616-71/-78</div></span>&nbsp;&nbsp;Специјални помошни броеви/ознаки за медицински и хируршки инструмени и опрема','616-71/-78','Специјални помошни броеви/ознаки за медицински и хируршки инструмени и опрема','','','',false,true);
+d.add(74,73,'616-71','<div class="nodetag">616-71</div></span>&nbsp;&nbsp;Медицински инструменти и опрема општо','616-71','Медицински инструменти и опрема општо','','','',false,true);
+d.add(75,73,'616-72','<div class="nodetag">616-72</div></span>&nbsp;&nbsp;Хируршки и тераписки инструменти','616-72','Хируршки и тераписки инструменти','','','',false,true);
+d.add(76,73,'616-74','<div class="nodetag">616-74</div></span>&nbsp;&nbsp;Материјали и опрема за зајакнување и поправка','616-74','Материјали и опрема за зајакнување и поправка','','','',false,true);
+d.add(77,73,'616-76','<div class="nodetag">616-76</div></span>&nbsp;&nbsp;Корективни и заштитни средства, помагала и т.н.','616-76','Корективни и заштитни средства, помагала и т.н.','','','',false,true);
+d.add(78,73,'616-77','<div class="nodetag">616-77</div></span>&nbsp;&nbsp;Протетски материјали и делови. Вештачки органи и т.н.','616-77','Протетски материјали и делови. Вештачки органи и т.н.','','','',false,true);
+d.add(79,73,'616-78','<div class="nodetag">616-78</div></span>&nbsp;&nbsp;Машини и механички апарати','616-78','Машини и механички апарати','','','',false,true);
+d.add(80,46,'616.1/.9','<div class="nodetag">616.1/.9</div></span>&nbsp;&nbsp;Специјална патологија','616.1/.9','Специјална патологија','','','',false,true);
+d.add(81,80,'616.1','<div class="nodetag">616.1</div></span>&nbsp;&nbsp;Болести на циркулаторниот систем, крвните садови. Кардиоваскуларни заболувања','616.1','Болести на циркулаторниот систем, крвните садови. Кардиоваскуларни заболувања','','','',false,true);
+d.add(82,80,'616.2','<div class="nodetag">616.2</div></span>&nbsp;&nbsp;Болести на респираторниот систем. Проблеми со дишните патишта','616.2','Болести на респираторниот систем. Проблеми со дишните патишта','','','',false,true);
+d.add(83,80,'616.3','<div class="nodetag">616.3</div></span>&nbsp;&nbsp;Патологија на дигестивниот систем. Проблеми со органите за варење. Гастроентерологија','616.3','Патологија на дигестивниот систем. Проблеми со органите за варење. Гастроентерологија','','','',false,true);
+d.add(84,83,'616.31','<div class="nodetag">616.31</div></span>&nbsp;&nbsp;Стоматологија. Орална шуплина. Уста. Болести на устата и забите','616.31','Стоматологија. Орална шуплина. Уста. Болести на устата и забите','','','',false,true);
+d.add(85,80,'616.4','<div class="nodetag">616.4</div></span>&nbsp;&nbsp;Болести на лимфниот систем, хематопоетските и ендокрините органи','616.4','Болести на лимфниот систем, хематопоетските и ендокрините органи','','','',false,true);
+d.add(86,80,'616.5','<div class="nodetag">616.5</div></span>&nbsp;&nbsp;Дерматологија. Кожни болести','616.5','Дерматологија. Кожни болести','','','',false,true);
+d.add(87,80,'616.6','<div class="nodetag">616.6</div></span>&nbsp;&nbsp;Болести на урогениталниот систем. Проблеми со уринарни сексуални (генитални) органи. Урологија.','616.6','Болести на урогениталниот систем. Проблеми со уринарни сексуални (генитални) органи. Урологија.','','','',false,true);
+d.add(88,80,'616.7','<div class="nodetag">616.7</div></span>&nbsp;&nbsp;Болести на органите за движење. Скелетен и локомоторен систем','616.7','Болести на органите за движење. Скелетен и локомоторен систем','','','',false,true);
+d.add(89,80,'616.8','<div class="nodetag">616.8</div></span>&nbsp;&nbsp;Неврологија. Невропатологија. Нервен систем','616.8','Неврологија. Невропатологија. Нервен систем','','','',false,true);
+d.add(90,89,'616.89','<div class="nodetag">616.89</div></span>&nbsp;&nbsp;Психијатрија. Психопатологија. Душевни растројства','616.89','Психијатрија. Психопатологија. Душевни растројства','','','',false,true);
+d.add(91,80,'616.9','<div class="nodetag">616.9</div></span>&nbsp;&nbsp;Преносливи болести. Инфективни и контагиозни болести, треска','616.9','Преносливи болести. Инфективни и контагиозни болести, треска','','','',false,true);
+d.add(92,7,'617','<div class="nodetag">617</div></span>&nbsp;&nbsp;Хирургија','617','Хирургија','','','',false,true);
+d.add(93,92,'617.3','<div class="nodetag">617.3</div></span>&nbsp;&nbsp;Ортопедија општо','617.3','Ортопедија општо','','','',false,true);
+d.add(94,92,'617.7','<div class="nodetag">617.7</div></span>&nbsp;&nbsp;Офталмологија. Очни болести и лекување','617.7','Офталмологија. Очни болести и лекување','','','',false,true);
+d.add(95,7,'618','<div class="nodetag">618</div></span>&nbsp;&nbsp;Гинекологија. Акушерство','618','Гинекологија. Акушерство','','','',false,true);
+d.add(96,0,'62','<div class="nodetag">62</div></span>&nbsp;&nbsp;Инженерство. Технологија општо','62','Инженерство. Технологија општо','','','',false,true);
+d.add(97,96,'62-1/-9','<div class="nodetag">62-1/-9</div></span>&nbsp;&nbsp;Специјални помошни броеви за технологија општо','62-1/-9','Специјални помошни броеви за технологија општо','','','',false,true);
+d.add(98,97,'62-1','<div class="nodetag">62-1</div></span>&nbsp;&nbsp;Општи карактеристики за машини и слично','62-1','Општи карактеристики за машини и слично','','','',false,true);
+d.add(99,97,'62-2','<div class="nodetag">62-2</div></span>&nbsp;&nbsp;Неподвижни и подвижни делови, компоненти на машините','62-2','Неподвижни и подвижни делови, компоненти на машините','','','',false,true);
+d.add(100,97,'62-3','<div class="nodetag">62-3</div></span>&nbsp;&nbsp;Делови и погони за контрола на течности. Вентили, затворачи итн.','62-3','Делови и погони за контрола на течности. Вентили, затворачи итн.','','','',false,true);
+d.add(101,97,'62-4','<div class="nodetag">62-4</div></span>&nbsp;&nbsp;Состојба, облик на материјалите, површини, објекти, производи','62-4','Состојба, облик на материјалите, површини, објекти, производи','','','',false,true);
+d.add(102,97,'62-5','<div class="nodetag">62-5</div></span>&nbsp;&nbsp;Режим на работа и контрола на машините и процесите','62-5','Режим на работа и контрола на машините и процесите','','','',false,true);
+d.add(103,97,'62-6','<div class="nodetag">62-6</div></span>&nbsp;&nbsp;Карактеристики на машините и инсталациите според горивото и топлинските извори','62-6','Карактеристики на машините и инсталациите според горивото и топлинските извори','','','',false,true);
+d.add(104,97,'62-7','<div class="nodetag">62-7</div></span>&nbsp;&nbsp;Опрема за сервисирање, одржување и заштита на машините','62-7','Опрема за сервисирање, одржување и заштита на машините','','','',false,true);
+d.add(105,97,'62-8','<div class="nodetag">62-8</div></span>&nbsp;&nbsp;Карактеристики на машините  според погонот, придвижувачка сила. Извори на енергија на машините','62-8','Карактеристики на машините  според погонот, придвижувачка сила. Извори на енергија на машините','','','',false,true);
+d.add(106,97,'62-9','<div class="nodetag">62-9</div></span>&nbsp;&nbsp;Параметри, состојби и карактеристики на производствените процеси, постројки и опрема','62-9','Параметри, состојби и карактеристики на производствените процеси, постројки и опрема','','','',false,true);
+d.add(107,106,'62-91','<div class="nodetag">62-91</div></span>&nbsp;&nbsp;Состојба на материјалите: карактеристики и променливи величини','62-91','Состојба на материјалите: карактеристики и променливи величини','','','',false,true);
+d.add(108,106,'62-92','<div class="nodetag">62-92</div></span>&nbsp;&nbsp;реакции според реагенсите. Реагенси','62-92','реакции според реагенсите. Реагенси','','','',false,true);
+d.add(109,106,'62-93','<div class="nodetag">62-93</div></span>&nbsp;&nbsp;Процеси, машини и опрема според начинот на работа, непрекинатост, взаемна поврзаност, работна средина','62-93','Процеси, машини и опрема според начинот на работа, непрекинатост, взаемна поврзаност, работна средина','','','',false,true);
+d.add(110,106,'62-94','<div class="nodetag">62-94</div></span>&nbsp;&nbsp;Насока, брзина, поделба, времетраење на процесите итн.','62-94','Насока, брзина, поделба, времетраење на процесите итн.','','','',false,true);
+d.add(111,106,'62-95','<div class="nodetag">62-95</div></span>&nbsp;&nbsp;Прости и сложени процеси. Едностепени и повеќестепени процеси','62-95','Прости и сложени процеси. Едностепени и повеќестепени процеси','','','',false,true);
+d.add(112,106,'62-96','<div class="nodetag">62-96</div></span>&nbsp;&nbsp;Процеси кои се однесуваат на промена на својствата на производите. Општо за модифицираноста','62-96','Процеси кои се однесуваат на промена на својствата на производите. Општо за модифицираноста','','','',false,true);
+d.add(113,106,'62-97','<div class="nodetag">62-97</div></span>&nbsp;&nbsp;Топлински карактеристики. Температура. Температурен интервал','62-97','Топлински карактеристики. Температура. Температурен интервал','','','',false,true);
+d.add(114,106,'62-98','<div class="nodetag">62-98</div></span>&nbsp;&nbsp;Притисок. Ранг на притисокот','62-98','Притисок. Ранг на притисокот','','','',false,true);
+d.add(115,96,'620','<div class="nodetag">620</div></span>&nbsp;&nbsp;Испитување на материјали. Комерцијални материјали. Електрични централи (електрани). Енергетика','620','Испитување на материјали. Комерцијални материјали. Електрични централи (електрани). Енергетика','','','',false,true);
+d.add(116,115,'620.3','<div class="nodetag">620.3</div></span>&nbsp;&nbsp;Нанотехнологија','620.3','Нанотехнологија','','','',false,true);
+d.add(117,115,'620.9','<div class="nodetag">620.9</div></span>&nbsp;&nbsp;Енергетика (општо)','620.9','Енергетика (општо)','','','',false,true);
+d.add(118,96,'621','<div class="nodetag">621</div></span>&nbsp;&nbsp;Општо за машинство. Нуклеарна технологија. Електротехника. Машински елементи и постројки','621','Општо за машинство. Нуклеарна технологија. Електротехника. Машински елементи и постројки','','','',false,true);
+d.add(119,118,'621.1','<div class="nodetag">621.1</div></span>&nbsp;&nbsp;Општо за топлински машини. Добивање, распределба и искористување на водената пара. Парни машини. Парни котли','621.1','Општо за топлински машини. Добивање, распределба и искористување на водената пара. Парни машини. Парни котли','','','',false,true);
+d.add(120,118,'621.22','<div class="nodetag">621.22</div></span>&nbsp;&nbsp;Хидраулична енергија. Енергија на вода. Хидраулични машини (хидромотори)','621.22','Хидраулична енергија. Енергија на вода. Хидраулични машини (хидромотори)','','','',false,true);
+d.add(121,118,'621.3','<div class="nodetag">621.3</div></span>&nbsp;&nbsp;Електротехника','621.3','Електротехника','','','',false,true);
+d.add(122,118,'621.4','<div class="nodetag">621.4</div></span>&nbsp;&nbsp;Топлински машини (со исклучок на парни)','621.4','Топлински машини (со исклучок на парни)','','','',false,true);
+d.add(123,118,'621.5','<div class="nodetag">621.5</div></span>&nbsp;&nbsp;Пневматска енергија, машини и алати. Разладна техника','621.5','Пневматска енергија, машини и алати. Разладна техника','','','',false,true);
+d.add(124,118,'621.6','<div class="nodetag">621.6</div></span>&nbsp;&nbsp;Работа со флуиди, постројки и техники за складирање и дистрибуција','621.6','Работа со флуиди, постројки и техники за складирање и дистрибуција','','','',false,true);
+d.add(125,118,'621.7','<div class="nodetag">621.7</div></span>&nbsp;&nbsp;Механичка технологија општо: процеси, алати, машини, опрема','621.7','Механичка технологија општо: процеси, алати, машини, опрема','','','',false,true);
+d.add(126,118,'621.8','<div class="nodetag">621.8</div></span>&nbsp;&nbsp;Машински елементи. Погонска техника. Работа со материјали. Прицврстување. Подмачкување','621.8','Машински елементи. Погонска техника. Работа со материјали. Прицврстување. Подмачкување','','','',false,true);
+d.add(127,118,'621.9','<div class="nodetag">621.9</div></span>&nbsp;&nbsp;Работа со струганици  или машини за стружење. Абразивна обработка. Чекани и преси','621.9','Работа со струганици  или машини за стружење. Абразивна обработка. Чекани и преси','','','',false,true);
+d.add(128,96,'622','<div class="nodetag">622</div></span>&nbsp;&nbsp;Рударство','622','Рударство','','','',false,true);
+d.add(129,128,'622.1','<div class="nodetag">622.1</div></span>&nbsp;&nbsp;Прелиминарни истражувања. Премер и картирање на рудници. Истражувања на минерални лежишта (површински и подземни)','622.1','Прелиминарни истражувања. Премер и картирање на рудници. Истражувања на минерални лежишта (површински и подземни)','','','',false,true);
+d.add(130,128,'622.2','<div class="nodetag">622.2</div></span>&nbsp;&nbsp;Рударски операции. Истражувања, отварање, развој, работа на минералните лежишта','622.2','Рударски операции. Истражувања, отварање, развој, работа на минералните лежишта','','','',false,true);
+d.add(131,128,'622.3','<div class="nodetag">622.3</div></span>&nbsp;&nbsp;Рударство на одредени минерали, руди, карпи','622.3','Рударство на одредени минерали, руди, карпи','','','',false,true);
+d.add(132,128,'622.4','<div class="nodetag">622.4</div></span>&nbsp;&nbsp;Вентилација, проветрување, греење и осветлување на рудниците','622.4','Вентилација, проветрување, греење и осветлување на рудниците','','','',false,true);
+d.add(133,128,'622.5','<div class="nodetag">622.5</div></span>&nbsp;&nbsp;Дренажа на рудниците. Исушување (одводнување)','622.5','Дренажа на рудниците. Исушување (одводнување)','','','',false,true);
+d.add(134,128,'622.6','<div class="nodetag">622.6</div></span>&nbsp;&nbsp;Транспорт во јамите и ракување. Извлекување од окна. Намотување. Површински транспорт','622.6','Транспорт во јамите и ракување. Извлекување од окна. Намотување. Површински транспорт','','','',false,true);
+d.add(135,128,'622.7','<div class="nodetag">622.7</div></span>&nbsp;&nbsp;Третирање, обработка на минералите. Збогатување на минералите. Подготовка на рудите','622.7','Третирање, обработка на минералите. Збогатување на минералите. Подготовка на рудите','','','',false,true);
+d.add(136,128,'622.8','<div class="nodetag">622.8</div></span>&nbsp;&nbsp;Опасности во рудниците, несреќи и штети. Здравствена заштита и безбедност во рудниците','622.8','Опасности во рудниците, несреќи и штети. Здравствена заштита и безбедност во рудниците','','','',false,true);
+d.add(137,96,'623','<div class="nodetag">623</div></span>&nbsp;&nbsp;Воена техника','623','Воена техника','','','',false,true);
+d.add(138,137,'623.1/.7','<div class="nodetag">623.1/.7</div></span>&nbsp;&nbsp;Копнена воена техника. Артилерија','623.1/.7','Копнена воена техника. Артилерија','','','',false,true);
+d.add(139,138,'623.1/.3','<div class="nodetag">623.1/.3</div></span>&nbsp;&nbsp;Полска инженерија. Утврдувања. Одбрана','623.1/.3','Полска инженерија. Утврдувања. Одбрана','','','',false,true);
+d.add(140,139,'623.1','<div class="nodetag">623.1</div></span>&nbsp;&nbsp;Тврдини. Трајни утврдувања. Линии, зони на утврдувањата','623.1','Тврдини. Трајни утврдувања. Линии, зони на утврдувањата','','','',false,true);
+d.add(141,139,'623.2','<div class="nodetag">623.2</div></span>&nbsp;&nbsp;Поставување при напад и одбрана. Поставување пречки. Полско утврдување. Уредување на ровови','623.2','Поставување при напад и одбрана. Поставување пречки. Полско утврдување. Уредување на ровови','','','',false,true);
+d.add(142,139,'623.3','<div class="nodetag">623.3</div></span>&nbsp;&nbsp;Мински полиња. Полски пречки. Поплавување','623.3','Мински полиња. Полски пречки. Поплавување','','','',false,true);
+d.add(143,138,'623.4','<div class="nodetag">623.4</div></span>&nbsp;&nbsp;Вооружување. Убојни средства. Оружје. Пушки. Пиштоли. Артилерија. Малокалибарско оружје. Лично оружје. Оклопни и други наменски возила. Муниција и бојни отрови. Водени проектили и ракети','623.4','Вооружување. Убојни средства. Оружје. Пушки. Пиштоли. Артилерија. Малокалибарско оружје. Лично оружје. Оклопни и други наменски возила. Муниција и бојни отрови. Водени проектили и ракети','','','',false,true);
+d.add(144,138,'623.5','<div class="nodetag">623.5</div></span>&nbsp;&nbsp;Балистика. Стрелаштво. Теоретски и експериментални проблеми','623.5','Балистика. Стрелаштво. Теоретски и експериментални проблеми','','','',false,true);
+d.add(145,138,'623.6','<div class="nodetag">623.6</div></span>&nbsp;&nbsp;Опрема и активности на полската инженерија. Комуникациски врски. Радарски контрамерки. Воена топографија','623.6','Опрема и активности на полската инженерија. Комуникациски врски. Радарски контрамерки. Воена топографија','','','',false,true);
+d.add(146,138,'623.7','<div class="nodetag">623.7</div></span>&nbsp;&nbsp;Воена и поморска авиација. Противвоздушна одбрана','623.7','Воена и поморска авиација. Противвоздушна одбрана','','','',false,true);
+d.add(147,137,'623.8/.9','<div class="nodetag">623.8/.9</div></span>&nbsp;&nbsp;Техника на поморска авиација','623.8/.9','Техника на поморска авиација','','','',false,true);
+d.add(148,147,'623.8','<div class="nodetag">623.8</div></span>&nbsp;&nbsp;Воена бродоградба. Воени поморски бази. Воени бродови и други пловни објекти','623.8','Воена бродоградба. Воени поморски бази. Воени бродови и други пловни објекти','','','',false,true);
+d.add(149,147,'623.9','<div class="nodetag">623.9</div></span>&nbsp;&nbsp;Технички средства и опрема за поморската авиација. Заштита и вооружување на пловните објекти. Противподморнаричка одбрана','623.9','Технички средства и опрема за поморската авиација. Заштита и вооружување на пловните објекти. Противподморнаричка одбрана','','','',false,true);
+d.add(150,96,'624','<div class="nodetag">624</div></span>&nbsp;&nbsp;Градежништво и градежни конструкции, општо','624','Градежништво и градежни конструкции, општо','','','',false,true);
+d.add(151,150,'624.01/.07','<div class="nodetag">624.01/.07</div></span>&nbsp;&nbsp;Специјални помошни броеви за градежништво и градежни конструкции','624.01/.07','Специјални помошни броеви за градежништво и градежни конструкции','','','',false,true);
+d.add(152,151,'624.01','<div class="nodetag">624.01</div></span>&nbsp;&nbsp;Градби и конструктивни делови на градби според материјалот и методот на конструкција','624.01','Градби и конструктивни делови на градби според материјалот и методот на конструкција','','','',false,true);
+d.add(153,151,'624.03','<div class="nodetag">624.03</div></span>&nbsp;&nbsp;Големина, трајност, локација и форма на градбите','624.03','Големина, трајност, локација и форма на градбите','','','',false,true);
+d.add(154,151,'624.04','<div class="nodetag">624.04</div></span>&nbsp;&nbsp;Градежен проект. Графичка  и аналитичка статика за проучување и пресметки за градежната конструкцијата','624.04','Градежен проект. Графичка  и аналитичка статика за проучување и пресметки за градежната конструкцијата','','','',false,true);
+d.add(155,151,'624.05','<div class="nodetag">624.05</div></span>&nbsp;&nbsp;Градилиште, организација и постројка. Градежни методи','624.05','Градилиште, организација и постројка. Градежни методи','','','',false,true);
+d.add(156,151,'624.07','<div class="nodetag">624.07</div></span>&nbsp;&nbsp;Градежни конструктивни елементи. Носечки елементи','624.07','Градежни конструктивни елементи. Носечки елементи','','','',false,true);
+d.add(157,150,'624.1','<div class="nodetag">624.1</div></span>&nbsp;&nbsp;Подземни градби. Земјени работи. Фундирање (поставување темели). Изградба на тунели','624.1','Подземни градби. Земјени работи. Фундирање (поставување темели). Изградба на тунели','','','',false,true);
+d.add(158,150,'624.21/.8','<div class="nodetag">624.21/.8</div></span>&nbsp;&nbsp;Изградба на мостови','624.21/.8','Изградба на мостови','','','',false,true);
+d.add(159,158,'624.3','<div class="nodetag">624.3</div></span>&nbsp;&nbsp;Решеткасти мостови (мостови со решеткасти конструкции)','624.3','Решеткасти мостови (мостови со решеткасти конструкции)','','','',false,true);
+d.add(160,158,'624.5','<div class="nodetag">624.5</div></span>&nbsp;&nbsp;Висечки мостови. Мостови со кабелски носачи','624.5','Висечки мостови. Мостови со кабелски носачи','','','',false,true);
+d.add(161,158,'624.6','<div class="nodetag">624.6</div></span>&nbsp;&nbsp;Мостови со лачна (сводна) конструкција','624.6','Мостови со лачна (сводна) конструкција','','','',false,true);
+d.add(162,158,'624.8','<div class="nodetag">624.8</div></span>&nbsp;&nbsp;Подвижни мостови','624.8','Подвижни мостови','','','',false,true);
+d.add(163,150,'624.9','<div class="nodetag">624.9</div></span>&nbsp;&nbsp;Високоградба (освен мостови). Комплексни високоградби како самостојни објекти','624.9','Високоградба (освен мостови). Комплексни високоградби како самостојни објекти','','','',false,true);
+d.add(164,96,'625','<div class="nodetag">625</div></span>&nbsp;&nbsp;Нискоградба во копнен транспорт. Изградба на железници. Изградба на патишта','625','Нискоградба во копнен транспорт. Изградба на железници. Изградба на патишта','','','',false,true);
+d.add(165,164,'625.1/.5','<div class="nodetag">625.1/.5</div></span>&nbsp;&nbsp;Железнички пруги. Трамбајски пруги. Жицарници','625.1/.5','Железнички пруги. Трамбајски пруги. Жицарници','','','',false,true);
+d.add(166,165,'625.1','<div class="nodetag">625.1</div></span>&nbsp;&nbsp;Железнички пруги, општо. Колосеци. Изградба на коловози','625.1','Железнички пруги, општо. Колосеци. Изградба на коловози','','','',false,true);
+d.add(167,165,'625.5','<div class="nodetag">625.5</div></span>&nbsp;&nbsp;Жицарници. Висечки железници. Искачувачки железници. Воздушни жичарници со јажиња и кабли. Телфери','625.5','Жицарници. Висечки железници. Искачувачки железници. Воздушни жичарници со јажиња и кабли. Телфери','','','',false,true);
+d.add(168,164,'625.7/.8','<div class="nodetag">625.7/.8</div></span>&nbsp;&nbsp;Изградба на автопатишта','625.7/.8','Изградба на автопатишта','','','',false,true);
+d.add(169,168,'625.7','<div class="nodetag">625.7</div></span>&nbsp;&nbsp;Автопатишта, општо. Патишта. Товарни патишта. Улици. Селски и градски патни системи','625.7','Автопатишта, општо. Патишта. Товарни патишта. Улици. Селски и градски патни системи','','','',false,true);
+d.add(170,168,'625.8','<div class="nodetag">625.8</div></span>&nbsp;&nbsp;Патишта според површинската (покривен слој) конструкција. Тротоари, патеки или ивичници. Подготовка и употреба на материјалите','625.8','Патишта според површинската (покривен слој) конструкција. Тротоари, патеки или ивичници. Подготовка и употреба на материјалите','','','',false,true);
+d.add(171,96,'626/627','<div class="nodetag">626/627</div></span>&nbsp;&nbsp;Хидротехника и хидротехнички конструкции. Објекти на вода','626/627','Хидротехника и хидротехнички конструкции. Објекти на вода','','','',false,true);
+d.add(172,171,'626','<div class="nodetag">626</div></span>&nbsp;&nbsp;Хидротехника, општо','626','Хидротехника, општо','','','',false,true);
+d.add(173,172,'626.1','<div class="nodetag">626.1</div></span>&nbsp;&nbsp;Копнени пловни водотеци. Канали. Канализирани реки','626.1','Копнени пловни водотеци. Канали. Канализирани реки','','','',false,true);
+d.add(174,172,'626.4','<div class="nodetag">626.4</div></span>&nbsp;&nbsp;Преводници (регулирање на пловност)','626.4','Преводници (регулирање на пловност)','','','',false,true);
+d.add(175,172,'626.5','<div class="nodetag">626.5</div></span>&nbsp;&nbsp;Системи за подигање и коси рамнини за пловила','626.5','Системи за подигање и коси рамнини за пловила','','','',false,true);
+d.add(176,172,'626.8','<div class="nodetag">626.8</div></span>&nbsp;&nbsp;Мелиорации. Наводнување, одводнување (дренажа) и подобрување на квалитетот на земјиштето','626.8','Мелиорации. Наводнување, одводнување (дренажа) и подобрување на квалитетот на земјиштето','','','',false,true);
+d.add(177,172,'626.9','<div class="nodetag">626.9</div></span>&nbsp;&nbsp;Морски канали. Канали за бродови','626.9','Морски канали. Канали за бродови','','','',false,true);
+d.add(178,171,'627','<div class="nodetag">627</div></span>&nbsp;&nbsp;Техника на природните водотеци, пристаништа,пристанишни заливи и крајбрежја. навигациски постановки, опремаза спасување и заштита. Брани и хидроцентрали','627','Техника на природните водотеци, пристаништа,пристанишни заливи и крајбрежја. навигациски постановки, опремаза спасување и заштита. Брани и хидроцентрали','','','',false,true);
+d.add(179,178,'627.2','<div class="nodetag">627.2</div></span>&nbsp;&nbsp;Пристаништа, пристанишни заливи и сидришта:технички и конструктивни дејности, општо','627.2','Пристаништа, пристанишни заливи и сидришта:технички и конструктивни дејности, општо','','','',false,true);
+d.add(180,178,'627.3','<div class="nodetag">627.3</div></span>&nbsp;&nbsp;Објекти во пристаништата. Докови. Гатови. Кејови. Инсталации и опрема','627.3','Објекти во пристаништата. Докови. Гатови. Кејови. Инсталации и опрема','','','',false,true);
+d.add(181,178,'627.4','<div class="nodetag">627.4</div></span>&nbsp;&nbsp;Заштита на речните брегови. Исправување на реките и потоците. Други дејности за подобрување на речниот тек','627.4','Заштита на речните брегови. Исправување на реките и потоците. Други дејности за подобрување на речниот тек','','','',false,true);
+d.add(182,178,'627.5','<div class="nodetag">627.5</div></span>&nbsp;&nbsp;Други дејности и објекти за заштита и подобрување на водотеците. Насипи. Заштита на крајбрежја. Дренирање и ревитализација на земјиштето.','627.5','Други дејности и објекти за заштита и подобрување на водотеците. Насипи. Заштита на крајбрежја. Дренирање и ревитализација на земјиштето.','','','',false,true);
+d.add(183,178,'627.7','<div class="nodetag">627.7</div></span>&nbsp;&nbsp;Објекти и средства за навигација. Одржување на канали. Спасување и опрема за спасување на море','627.7','Објекти и средства за навигација. Одржување на канали. Спасување и опрема за спасување на море','','','',false,true);
+d.add(184,178,'627.8','<div class="nodetag">627.8</div></span>&nbsp;&nbsp;Брани. Работа на хидроцентрали','627.8','Брани. Работа на хидроцентрали','','','',false,true);
+d.add(185,96,'628','<div class="nodetag">628</div></span>&nbsp;&nbsp;Техника за јавно здравје. Вода. Санитарна техника. Техника за осветлување','628','Техника за јавно здравје. Вода. Санитарна техника. Техника за осветлување','','','',false,true);
+d.add(186,185,'628.1','<div class="nodetag">628.1</div></span>&nbsp;&nbsp;Водоснабдување. Прочистување на водата. Потрошувачка на вода','628.1','Водоснабдување. Прочистување на водата. Потрошувачка на вода','','','',false,true);
+d.add(187,185,'628.2','<div class="nodetag">628.2</div></span>&nbsp;&nbsp;Отстранување на градската вода. Градско одводнување. Канализација','628.2','Отстранување на градската вода. Градско одводнување. Канализација','','','',false,true);
+d.add(188,185,'628.3','<div class="nodetag">628.3</div></span>&nbsp;&nbsp;Отпадни води. Преработка, отсранување и искористување на отпадните води','628.3','Отпадни води. Преработка, отсранување и искористување на отпадните води','','','',false,true);
+d.add(189,185,'628.4','<div class="nodetag">628.4</div></span>&nbsp;&nbsp;Комунална хигиена. Отпадоци. Шут. Ѓубре. Смет. Собирање и исфрлање на градскот отпад','628.4','Комунална хигиена. Отпадоци. Шут. Ѓубре. Смет. Собирање и исфрлање на градскот отпад','','','',false,true);
+d.add(190,185,'628.5','<div class="nodetag">628.5</div></span>&nbsp;&nbsp;Мерки против индустриските и други загадувања','628.5','Мерки против индустриските и други загадувања','','','',false,true);
+d.add(191,185,'628.6','<div class="nodetag">628.6</div></span>&nbsp;&nbsp;Одводи и санитарни инсталации во згради (од аспект на јавно здравје)','628.6','Одводи и санитарни инсталации во згради (од аспект на јавно здравје)','','','',false,true);
+d.add(192,185,'628.8','<div class="nodetag">628.8</div></span>&nbsp;&nbsp;Внатрешна климатизација. Проветрување. Греење. Вентилација','628.8','Внатрешна климатизација. Проветрување. Греење. Вентилација','','','',false,true);
+d.add(193,185,'628.9','<div class="nodetag">628.9</div></span>&nbsp;&nbsp;Осветлување. Техника на осветлување','628.9','Осветлување. Техника на осветлување','','','',false,true);
+d.add(194,96,'629','<div class="nodetag">629</div></span>&nbsp;&nbsp;Техника на превозни средства','629','Техника на превозни средства','','','',false,true);
+d.add(195,194,'629.01/.08','<div class="nodetag">629.01/.08</div></span>&nbsp;&nbsp;Специјални помошни броеви за техника на превозни средства','629.01/.08','Специјални помошни броеви за техника на превозни средства','','','',false,true);
+d.add(196,195,'629.01','<div class="nodetag">629.01</div></span>&nbsp;&nbsp;Принципи на дизајн кај превозните средства: карактеристики, можности, тестирање','629.01','Принципи на дизајн кај превозните средства: карактеристики, можности, тестирање','','','',false,true);
+d.add(197,195,'629.02','<div class="nodetag">629.02</div></span>&nbsp;&nbsp;Структура, конструктивни начела, општа шема и делови кај превозните средства','629.02','Структура, конструктивни начела, општа шема и делови кај превозните средства','','','',false,true);
+d.add(198,195,'629.03','<div class="nodetag">629.03</div></span>&nbsp;&nbsp;Погонски системи','629.03','Погонски системи','','','',false,true);
+d.add(199,195,'629.04','<div class="nodetag">629.04</div></span>&nbsp;&nbsp;Внатрешна шема: сместување, инсталации, опрема за лица и товар','629.04','Внатрешна шема: сместување, инсталации, опрема за лица и товар','','','',false,true);
+d.add(200,195,'629.05','<div class="nodetag">629.05</div></span>&nbsp;&nbsp;Системи и инструменти за водење, контрола (упавување) и навигација (на превозните средства)','629.05','Системи и инструменти за водење, контрола (упавување) и навигација (на превозните средства)','','','',false,true);
+d.add(201,195,'629.06','<div class="nodetag">629.06</div></span>&nbsp;&nbsp;Помошни системи и уреди на превозните средства','629.06','Помошни системи и уреди на превозните средства','','','',false,true);
+d.add(202,195,'629.07','<div class="nodetag">629.07</div></span>&nbsp;&nbsp;Технички аспекти за операциите на превозните средства. Операциски техники','629.07','Технички аспекти за операциите на превозните средства. Операциски техники','','','',false,true);
+d.add(203,195,'629.08','<div class="nodetag">629.08</div></span>&nbsp;&nbsp;Основна опрема, инсталации и соодветни технички процедури','629.08','Основна опрема, инсталации и соодветни технички процедури','','','',false,true);
+d.add(204,194,'629.3','<div class="nodetag">629.3</div></span>&nbsp;&nbsp;Техника на сувоземни превозни средства (освен шински)','629.3','Техника на сувоземни превозни средства (освен шински)','','','',false,true);
+d.add(205,194,'629.4','<div class="nodetag">629.4</div></span>&nbsp;&nbsp;Техника на шински превозни средства. Локомотиви. Возен парк. Железнички станици. Инсталации и сервиси за возниот парк','629.4','Техника на шински превозни средства. Локомотиви. Возен парк. Железнички станици. Инсталации и сервиси за возниот парк','','','',false,true);
+d.add(206,194,'629.5','<div class="nodetag">629.5</div></span>&nbsp;&nbsp;Техника на водени превозни средства. Поморски иженеринг. Чамци. Бродови. Изградба на чамци. Бродоградба','629.5','Техника на водени превозни средства. Поморски иженеринг. Чамци. Бродови. Изградба на чамци. Бродоградба','','','',false,true);
+d.add(207,194,'629.7','<div class="nodetag">629.7</div></span>&nbsp;&nbsp;Техника на воздушни и вселенски превозни средства. Аеронаутика и воздухопловство. Ракети и проектили. Астронаутика и вселенски бродови','629.7','Техника на воздушни и вселенски превозни средства. Аеронаутика и воздухопловство. Ракети и проектили. Астронаутика и вселенски бродови','','','',false,true);
+d.add(208,0,'63','<div class="nodetag">63</div></span>&nbsp;&nbsp;Земјоделство и сродни науки и техники. Шумарство. Сточарство. Лов. Риболов','63','Земјоделство и сродни науки и техники. Шумарство. Сточарство. Лов. Риболов','','','',false,true);
+d.add(209,208,'630','<div class="nodetag">630</div></span>&nbsp;&nbsp;Шумарство','630','Шумарство','','','',false,true);
+d.add(210,209,'630*0','<div class="nodetag">630*0</div></span>&nbsp;&nbsp;Шуми, шумарство и искористување на шумските производи','630*0','Шуми, шумарство и искористување на шумските производи','','','',false,true);
+d.add(211,209,'630*1','<div class="nodetag">630*1</div></span>&nbsp;&nbsp;Фактори на животната средина. Биологија на шуми','630*1','Фактори на животната средина. Биологија на шуми','','','',false,true);
+d.add(212,209,'630*2','<div class="nodetag">630*2</div></span>&nbsp;&nbsp;Одгледување на шуми','630*2','Одгледување на шуми','','','',false,true);
+d.add(213,209,'630*3','<div class="nodetag">630*3</div></span>&nbsp;&nbsp;Научна работа (работни студии) во шумарство. Шумска берба: сечење и транспорт. Шумарско инженерство','630*3','Научна работа (работни студии) во шумарство. Шумска берба: сечење и транспорт. Шумарско инженерство','','','',false,true);
+d.add(214,209,'630*4','<div class="nodetag">630*4</div></span>&nbsp;&nbsp;Шумски штети и заштита на шуми','630*4','Шумски штети и заштита на шуми','','','',false,true);
+d.add(215,209,'630*5','<div class="nodetag">630*5</div></span>&nbsp;&nbsp;Шумски мерења. Прираст развој и структура на шумските насади. Премер и мапирање','630*5','Шумски мерења. Прираст развој и структура на шумските насади. Премер и мапирање','','','',false,true);
+d.add(216,209,'630*6','<div class="nodetag">630*6</div></span>&nbsp;&nbsp;Шумски менаџмент. Деловна економија во шумарство. Администрација и организација на шумарски претпријатија','630*6','Шумски менаџмент. Деловна економија во шумарство. Администрација и организација на шумарски претпријатија','','','',false,true);
+d.add(217,209,'630*7','<div class="nodetag">630*7</div></span>&nbsp;&nbsp;Маркетинг на шумски производи. Економија на шумскиот транспорт и дрвна индустрија','630*7','Маркетинг на шумски производи. Економија на шумскиот транспорт и дрвна индустрија','','','',false,true);
+d.add(218,209,'630*8','<div class="nodetag">630*8</div></span>&nbsp;&nbsp;Шумски производи и нивно искористување','630*8','Шумски производи и нивно искористување','','','',false,true);
+d.add(219,209,'630*9','<div class="nodetag">630*9</div></span>&nbsp;&nbsp;Шуми и шумарство од национална гледна точка. Социјална економија во шумарство','630*9','Шуми и шумарство од национална гледна точка. Социјална економија во шумарство','','','',false,true);
+d.add(220,208,'631/635','<div class="nodetag">631/635</div></span>&nbsp;&nbsp;Земјоделски менаџмент. Агрономија. Хортикултура','631/635','Земјоделски менаџмент. Агрономија. Хортикултура','','','',false,true);
+d.add(221,220,'631','<div class="nodetag">631</div></span>&nbsp;&nbsp;Земјоделство (општи прашања). Земјоделска технологија','631','Земјоделство (општи прашања). Земјоделска технологија','','','',false,true);
+d.add(222,221,'631.1','<div class="nodetag">631.1</div></span>&nbsp;&nbsp;Земјоделски менаџмент и организација','631.1','Земјоделски менаџмент и организација','','','',false,true);
+d.add(223,221,'631.2','<div class="nodetag">631.2</div></span>&nbsp;&nbsp;Земјоделски згради, објекти и инсталации. Згради за стока, продукти, механизација и опрема','631.2','Земјоделски згради, објекти и инсталации. Згради за стока, продукти, механизација и опрема','','','',false,true);
+d.add(224,221,'631.3','<div class="nodetag">631.3</div></span>&nbsp;&nbsp;Земјоделски машини, орудија и опрема','631.3','Земјоделски машини, орудија и опрема','','','',false,true);
+d.add(225,221,'631.4','<div class="nodetag">631.4</div></span>&nbsp;&nbsp;Педологија. Испитување на почвата','631.4','Педологија. Испитување на почвата','','','',false,true);
+d.add(226,221,'631.5','<div class="nodetag">631.5</div></span>&nbsp;&nbsp;Земјоделски работи','631.5','Земјоделски работи','','','',false,true);
+d.add(227,221,'631.6','<div class="nodetag">631.6</div></span>&nbsp;&nbsp;Земјоделско инженерство. Земјоделски техники','631.6','Земјоделско инженерство. Земјоделски техники','','','',false,true);
+d.add(228,221,'631.8','<div class="nodetag">631.8</div></span>&nbsp;&nbsp;Ѓубрење, ѓубрива и обогатување на почва. Подобрување на растот. Стимулатори на растенија','631.8','Ѓубрење, ѓубрива и обогатување на почва. Подобрување на растот. Стимулатори на растенија','','','',false,true);
+d.add(229,220,'632','<div class="nodetag">632</div></span>&nbsp;&nbsp;Штети и повреди на растенијата. Болести на растенијата. Штетници, штетни организми за растенијата. Заштита на растенијата.','632','Штети и повреди на растенијата. Болести на растенијата. Штетници, штетни организми за растенијата. Заштита на растенијата.','','','',false,true);
+d.add(230,220,'633/635','<div class="nodetag">633/635</div></span>&nbsp;&nbsp;Хортикултура општо. Специфични посеви','633/635','Хортикултура општо. Специфични посеви','','','',false,true);
+d.add(231,230,'633','<div class="nodetag">633</div></span>&nbsp;&nbsp;Полски посеви и нивно производство','633','Полски посеви и нивно производство','','','',false,true);
+d.add(232,231,'633.1','<div class="nodetag">633.1</div></span>&nbsp;&nbsp;Житарици. Зрнести посеви','633.1','Житарици. Зрнести посеви','','','',false,true);
+d.add(233,231,'633.2','<div class="nodetag">633.2</div></span>&nbsp;&nbsp;Фуражни треви. Треви од ливади и пасишта','633.2','Фуражни треви. Треви од ливади и пасишта','','','',false,true);
+d.add(234,231,'633.3','<div class="nodetag">633.3</div></span>&nbsp;&nbsp;Фуражни растенија со исклучок на треви','633.3','Фуражни растенија со исклучок на треви','','','',false,true);
+d.add(235,231,'633.4','<div class="nodetag">633.4</div></span>&nbsp;&nbsp;Јадливи корени и кртоли. Коренести посеви','633.4','Јадливи корени и кртоли. Коренести посеви','','','',false,true);
+d.add(236,231,'633.5','<div class="nodetag">633.5</div></span>&nbsp;&nbsp;Текстилни и влакнести растенија','633.5','Текстилни и влакнести растенија','','','',false,true);
+d.add(237,231,'633.6','<div class="nodetag">633.6</div></span>&nbsp;&nbsp;Шеќерни и скробни растенија','633.6','Шеќерни и скробни растенија','','','',false,true);
+d.add(238,231,'633.7','<div class="nodetag">633.7</div></span>&nbsp;&nbsp;Растенија од кои се добиваат стимуланси. Растенија за подготвување напитоци','633.7','Растенија од кои се добиваат стимуланси. Растенија за подготвување напитоци','','','',false,true);
+d.add(239,231,'633.8','<div class="nodetag">633.8</div></span>&nbsp;&nbsp;Ароматични растенија. Растенија како зачини. Маслодајни растенија. Растенија од кои се добиваат бои. Растенија од кои се добиваат средства за штавење. Лековити растенија','633.8','Ароматични растенија. Растенија како зачини. Маслодајни растенија. Растенија од кои се добиваат бои. Растенија од кои се добиваат средства за штавење. Лековити растенија','','','',false,true);
+d.add(240,231,'633.9','<div class="nodetag">633.9</div></span>&nbsp;&nbsp;Останати растенија кои се користат во индустријата','633.9','Останати растенија кои се користат во индустријата','','','',false,true);
+d.add(241,230,'634','<div class="nodetag">634</div></span>&nbsp;&nbsp;Овоштарство','634','Овоштарство','','','',false,true);
+d.add(242,241,'634.2','<div class="nodetag">634.2</div></span>&nbsp;&nbsp;Овошје со семка. Овошје со семка општо','634.2','Овошје со семка. Овошје со семка општо','','','',false,true);
+d.add(243,241,'634.3','<div class="nodetag">634.3</div></span>&nbsp;&nbsp;Цитрусни и дудинкасти плодови. Агруми општо','634.3','Цитрусни и дудинкасти плодови. Агруми општо','','','',false,true);
+d.add(244,241,'634.4','<div class="nodetag">634.4</div></span>&nbsp;&nbsp;Останати меснати плодови','634.4','Останати меснати плодови','','','',false,true);
+d.add(245,241,'634.5','<div class="nodetag">634.5</div></span>&nbsp;&nbsp;Ореви, лешници, бадеми и др.','634.5','Ореви, лешници, бадеми и др.','','','',false,true);
+d.add(246,241,'634.6','<div class="nodetag">634.6</div></span>&nbsp;&nbsp;Разновидно тропско и суптропско овошје','634.6','Разновидно тропско и суптропско овошје','','','',false,true);
+d.add(247,241,'634.7','<div class="nodetag">634.7</div></span>&nbsp;&nbsp;Ситни плодови од жбунасти и зелјаси растенија. Јагодести плодови','634.7','Ситни плодови од жбунасти и зелјаси растенија. Јагодести плодови','','','',false,true);
+d.add(248,241,'634.8','<div class="nodetag">634.8</div></span>&nbsp;&nbsp;Лозарство. Винова лоза. Лозови насади','634.8','Лозарство. Винова лоза. Лозови насади','','','',false,true);
+d.add(249,230,'635','<div class="nodetag">635</div></span>&nbsp;&nbsp;Градинарски растенија. Градинарство','635','Градинарски растенија. Градинарство','','','',false,true);
+d.add(250,249,'635.1/.8','<div class="nodetag">635.1/.8</div></span>&nbsp;&nbsp;Зеленчук. Зеленчук за домаќинство','635.1/.8','Зеленчук. Зеленчук за домаќинство','','','',false,true);
+d.add(251,250,'635.1','<div class="nodetag">635.1</div></span>&nbsp;&nbsp;Јадливи корења. Коренест зеленчук','635.1','Јадливи корења. Коренест зеленчук','','','',false,true);
+d.add(252,250,'635.2','<div class="nodetag">635.2</div></span>&nbsp;&nbsp;Јадливи кртоли и луковици','635.2','Јадливи кртоли и луковици','','','',false,true);
+d.add(253,250,'635.3','<div class="nodetag">635.3</div></span>&nbsp;&nbsp;Растенија со јадливи стебла, листови и цветови','635.3','Растенија со јадливи стебла, листови и цветови','','','',false,true);
+d.add(254,250,'635.4','<div class="nodetag">635.4</div></span>&nbsp;&nbsp;Останат зелен зеленчук. Лиснат зеленчук','635.4','Останат зелен зеленчук. Лиснат зеленчук','','','',false,true);
+d.add(255,250,'635.6','<div class="nodetag">635.6</div></span>&nbsp;&nbsp;Јадливи плодови и семки. Мешункасти растенија','635.6','Јадливи плодови и семки. Мешункасти растенија','','','',false,true);
+d.add(256,250,'635.7','<div class="nodetag">635.7</div></span>&nbsp;&nbsp;Ароматични растенија. Зачински растенија','635.7','Ароматични растенија. Зачински растенија','','','',false,true);
+d.add(257,250,'635.8','<div class="nodetag">635.8</div></span>&nbsp;&nbsp;Јадливи габи','635.8','Јадливи габи','','','',false,true);
+d.add(258,249,'635.9','<div class="nodetag">635.9</div></span>&nbsp;&nbsp;Декоративни растенија. Украсно градинарство','635.9','Декоративни растенија. Украсно градинарство','','','',false,true);
+d.add(259,208,'636','<div class="nodetag">636</div></span>&nbsp;&nbsp;Сточарство (општо). Одгледување на добиток. Одгледување на домашни животни','636','Сточарство (општо). Одгледување на добиток. Одгледување на домашни животни','','','',false,true);
+d.add(260,259,'636.01/.09','<div class="nodetag">636.01/.09</div></span>&nbsp;&nbsp;Специјални помошни броеви за сточарство','636.01/.09','Специјални помошни броеви за сточарство','','','',false,true);
+d.add(261,260,'636.01','<div class="nodetag">636.01</div></span>&nbsp;&nbsp;Потекло, еволуција и припитомување на животни кои ги чува човекот. Припитомување на животни. Биолошки основи на одгледување и дресирање','636.01','Потекло, еволуција и припитомување на животни кои ги чува човекот. Припитомување на животни. Биолошки основи на одгледување и дресирање','','','',false,true);
+d.add(262,260,'636.02','<div class="nodetag">636.02</div></span>&nbsp;&nbsp;Животни кои се одгледуваат за размножување, изложбени и научни потреби','636.02','Животни кои се одгледуваат за размножување, изложбени и научни потреби','','','',false,true);
+d.add(263,260,'636.03','<div class="nodetag">636.03</div></span>&nbsp;&nbsp;Животни кои се одгледуваат или чуваат за храна или други производи (продуктивност, добивка). Животни на фарми општо','636.03','Животни кои се одгледуваат или чуваат за храна или други производи (продуктивност, добивка). Животни на фарми општо','','','',false,true);
+d.add(264,260,'636.04','<div class="nodetag">636.04</div></span>&nbsp;&nbsp;Животни кои се одгледуваат и чуваат за работа и услуги или за задоволство на луѓето','636.04','Животни кои се одгледуваат и чуваат за работа и услуги или за задоволство на луѓето','','','',false,true);
+d.add(265,260,'636.05','<div class="nodetag">636.05</div></span>&nbsp;&nbsp;Животни спрема одгледување','636.05','Животни спрема одгледување','','','',false,true);
+d.add(266,260,'636.06','<div class="nodetag">636.06</div></span>&nbsp;&nbsp;Карактеристики, конституција и посебни биолошки особини на домашните животни','636.06','Карактеристики, конституција и посебни биолошки особини на домашните животни','','','',false,true);
+d.add(267,260,'636.08','<div class="nodetag">636.08</div></span>&nbsp;&nbsp;Општи прашања за размножување','636.08','Општи прашања за размножување','','','',false,true);
+d.add(268,260,'636.09','<div class="nodetag">636.09</div></span>&nbsp;&nbsp;Ветеринарство. Ветеринарна наука','636.09','Ветеринарство. Ветеринарна наука','','','',false,true);
+d.add(269,259,'636.1','<div class="nodetag">636.1</div></span>&nbsp;&nbsp;Домашни копитари. Коњи','636.1','Домашни копитари. Коњи','','','',false,true);
+d.add(270,259,'636.2','<div class="nodetag">636.2</div></span>&nbsp;&nbsp;Крупни преживари. Говеда, волови','636.2','Крупни преживари. Говеда, волови','','','',false,true);
+d.add(271,259,'636.3','<div class="nodetag">636.3</div></span>&nbsp;&nbsp;Мали преживари','636.3','Мали преживари','','','',false,true);
+d.add(272,259,'636.4','<div class="nodetag">636.4</div></span>&nbsp;&nbsp;Свињи','636.4','Свињи','','','',false,true);
+d.add(273,259,'636.5','<div class="nodetag">636.5</div></span>&nbsp;&nbsp;Живина','636.5','Живина','','','',false,true);
+d.add(274,259,'636.6','<div class="nodetag">636.6</div></span>&nbsp;&nbsp;Птици (освен живина и пердувест дивеч) кои ги одгледува и чува човекот','636.6','Птици (освен живина и пердувест дивеч) кои ги одгледува и чува човекот','','','',false,true);
+d.add(275,259,'636.7','<div class="nodetag">636.7</div></span>&nbsp;&nbsp;Кучиња','636.7','Кучиња','','','',false,true);
+d.add(276,259,'636.8','<div class="nodetag">636.8</div></span>&nbsp;&nbsp;Мачки','636.8','Мачки','','','',false,true);
+d.add(277,259,'636.9','<div class="nodetag">636.9</div></span>&nbsp;&nbsp;Останати животни кои ги чува човекот','636.9','Останати животни кои ги чува човекот','','','',false,true);
+d.add(278,208,'637','<div class="nodetag">637</div></span>&nbsp;&nbsp;Производи од домашни животни и дивеч','637','Производи од домашни животни и дивеч','','','',false,true);
+d.add(279,208,'638','<div class="nodetag">638</div></span>&nbsp;&nbsp;Чување, одгледување и управување со инсекти и останати членконоги','638','Чување, одгледување и управување со инсекти и останати членконоги','','','',false,true);
+d.add(280,208,'639','<div class="nodetag">639</div></span>&nbsp;&nbsp;Лов. Риболов. Одгледување риби','639','Лов. Риболов. Одгледување риби','','','',false,true);
+d.add(281,280,'639.1','<div class="nodetag">639.1</div></span>&nbsp;&nbsp;Лов','639.1','Лов','','','',false,true);
+d.add(282,280,'639.2','<div class="nodetag">639.2</div></span>&nbsp;&nbsp;Риболов. Рибарство','639.2','Риболов. Рибарство','','','',false,true);
+d.add(283,280,'639.3','<div class="nodetag">639.3</div></span>&nbsp;&nbsp;Одгледување риби. Одгледување риби во рибници','639.3','Одгледување риби. Одгледување риби во рибници','','','',false,true);
+d.add(284,280,'639.4','<div class="nodetag">639.4</div></span>&nbsp;&nbsp;Одгледување акватични мекотели (ракови, школки)','639.4','Одгледување акватични мекотели (ракови, школки)','','','',false,true);
+d.add(285,280,'639.5','<div class="nodetag">639.5</div></span>&nbsp;&nbsp;Одгледување на акватични ракови','639.5','Одгледување на акватични ракови','','','',false,true);
+d.add(286,280,'639.6','<div class="nodetag">639.6</div></span>&nbsp;&nbsp;Останати морски производи','639.6','Останати морски производи','','','',false,true);
+d.add(287,0,'64','<div class="nodetag">64</div></span>&nbsp;&nbsp;Економика на домаќинство. Наука за домаќинство. Домаќинство','64','Економика на домаќинство. Наука за домаќинство. Домаќинство','','','',false,true);
+d.add(288,287,'64.01/.08','<div class="nodetag">64.01/.08</div></span>&nbsp;&nbsp;Специјални помошни броеви за науката за домаќинство','64.01/.08','Специјални помошни броеви за науката за домаќинство','','','',false,true);
+d.add(289,288,'64.01','<div class="nodetag">64.01</div></span>&nbsp;&nbsp;Домаќинство. Управување со домаќинството','64.01','Домаќинство. Управување со домаќинството','','','',false,true);
+d.add(290,288,'64.048','<div class="nodetag">64.048</div></span>&nbsp;&nbsp;Проучување на работата и методите за работа во домаќинство','64.048','Проучување на работата и методите за работа во домаќинство','','','',false,true);
+d.add(291,288,'64.05','<div class="nodetag">64.05</div></span>&nbsp;&nbsp;Екомоника на домаќинства. Водење на домаќинства, средување на домот со намештај и опрема за одреден вид на личност','64.05','Екомоника на домаќинства. Водење на домаќинства, средување на домот со намештај и опрема за одреден вид на личност','','','',false,true);
+d.add(292,288,'64.06','<div class="nodetag">64.06</div></span>&nbsp;&nbsp;Алати и машини во домаќинството. Заштеда на труд во домаќинството','64.06','Алати и машини во домаќинството. Заштеда на труд во домаќинството','','','',false,true);
+d.add(293,288,'64.08','<div class="nodetag">64.08</div></span>&nbsp;&nbsp;Селидба. Преселување','64.08','Селидба. Преселување','','','',false,true);
+d.add(294,287,'640','<div class="nodetag">640</div></span>&nbsp;&nbsp;Водиви на домаќинства','640','Водиви на домаќинства','','','',false,true);
+d.add(295,287,'641/642','<div class="nodetag">641/642</div></span>&nbsp;&nbsp;Храна. Готвење. Јадења. Оброци','641/642','Храна. Готвење. Јадења. Оброци','','','',false,true);
+d.add(296,295,'641','<div class="nodetag">641</div></span>&nbsp;&nbsp;Храна. Готвење. Јадења','641','Храна. Готвење. Јадења','','','',false,true);
+d.add(297,295,'642','<div class="nodetag">642</div></span>&nbsp;&nbsp;Оброци, време на оброците. Прибор за јадење','642','Оброци, време на оброците. Прибор за јадење','','','',false,true);
+d.add(298,287,'643/645','<div class="nodetag">643/645</div></span>&nbsp;&nbsp;Дом. Опрема и намештај за домаќинство','643/645','Дом. Опрема и намештај за домаќинство','','','',false,true);
+d.add(299,298,'643','<div class="nodetag">643</div></span>&nbsp;&nbsp;Дом. Живеалиште','643','Дом. Живеалиште','','','',false,true);
+d.add(300,298,'644','<div class="nodetag">644</div></span>&nbsp;&nbsp;Уреди за здраво и удобно живеење','644','Уреди за здраво и удобно живеење','','','',false,true);
+d.add(301,300,'644.1','<div class="nodetag">644.1</div></span>&nbsp;&nbsp;Внатрешна контрола на климата. Греење. Вентилација. Климатизација','644.1','Внатрешна контрола на климата. Греење. Вентилација. Климатизација','','','',false,true);
+d.add(302,300,'644.3','<div class="nodetag">644.3</div></span>&nbsp;&nbsp;Осветлување во домот','644.3','Осветлување во домот','','','',false,true);
+d.add(303,300,'644.6','<div class="nodetag">644.6</div></span>&nbsp;&nbsp;Снабдување со вода и санитарна инсталација во домот','644.6','Снабдување со вода и санитарна инсталација во домот','','','',false,true);
+d.add(304,298,'645','<div class="nodetag">645</div></span>&nbsp;&nbsp;Мебел и внатрешното уредување','645','Мебел и внатрешното уредување','','','',false,true);
+d.add(305,287,'646/649','<div class="nodetag">646/649</div></span>&nbsp;&nbsp;Лични работи. Управување со домаќинството','646/649','Лични работи. Управување со домаќинството','','','',false,true);
+d.add(306,305,'646','<div class="nodetag">646</div></span>&nbsp;&nbsp;Облека. Нега на тело','646','Облека. Нега на тело','','','',false,true);
+d.add(307,306,'646.2','<div class="nodetag">646.2</div></span>&nbsp;&nbsp;Изработка и поправка на облека дома. Шиење облека дома','646.2','Изработка и поправка на облека дома. Шиење облека дома','','','',false,true);
+d.add(308,306,'646.4','<div class="nodetag">646.4</div></span>&nbsp;&nbsp;Облека. Предмети за облека','646.4','Облека. Предмети за облека','','','',false,true);
+d.add(309,306,'646.7','<div class="nodetag">646.7</div></span>&nbsp;&nbsp;Нега на тело. Нега на убавина. Додатоци за облекување и долна облека','646.7','Нега на тело. Нега на убавина. Додатоци за облекување и долна облека','','','',false,true);
+d.add(310,305,'648','<div class="nodetag">648</div></span>&nbsp;&nbsp;Миење. Перење. Чистење','648','Миење. Перење. Чистење','','','',false,true);
+d.add(311,305,'649','<div class="nodetag">649</div></span>&nbsp;&nbsp;Домашна нега на деца, инвалиди, гости','649','Домашна нега на деца, инвалиди, гости','','','',false,true);
+d.add(312,0,'65','<div class="nodetag">65</div></span>&nbsp;&nbsp;Комуникациска и транспортна индустрија. Сметководство. Деловен менаџмент. Односи со јавноста','65','Комуникациска и транспортна индустрија. Сметководство. Деловен менаџмент. Односи со јавноста','','','',false,true);
+d.add(313,312,'654','<div class="nodetag">654</div></span>&nbsp;&nbsp;Телекомуникација и телеконтрола (организација, услуги)','654','Телекомуникација и телеконтрола (организација, услуги)','','','',false,true);
+d.add(314,313,'654.1','<div class="nodetag">654.1</div></span>&nbsp;&nbsp;Телеграф, телефон. радио, телевизиски услуги','654.1','Телеграф, телефон. радио, телевизиски услуги','','','',false,true);
+d.add(315,313,'654.9','<div class="nodetag">654.9</div></span>&nbsp;&nbsp;Сигнализација. Различни телекомуникациски услуги. Далечински управувач','654.9','Сигнализација. Различни телекомуникациски услуги. Далечински управувач','','','',false,true);
+d.add(316,312,'655','<div class="nodetag">655</div></span>&nbsp;&nbsp;Графичка индустрија. Печатење. Издаваштво. Трговија со книги','655','Графичка индустрија. Печатење. Издаваштво. Трговија со книги','','','',false,true);
+d.add(317,316,'655.1','<div class="nodetag">655.1</div></span>&nbsp;&nbsp;Печатарска индустрија општо','655.1','Печатарска индустрија општо','','','',false,true);
+d.add(318,316,'655.4','<div class="nodetag">655.4</div></span>&nbsp;&nbsp;Издаваштво и продажба на книги општо','655.4','Издаваштво и продажба на книги општо','','','',false,true);
+d.add(319,312,'656','<div class="nodetag">656</div></span>&nbsp;&nbsp;Транспортни и поштенски услуги. Организација и контрола на сообраќај','656','Транспортни и поштенски услуги. Организација и контрола на сообраќај','','','',false,true);
+d.add(320,319,'656.1/.5','<div class="nodetag">656.1/.5</div></span>&nbsp;&nbsp;Сувоземен сообраќај','656.1/.5','Сувоземен сообраќај','','','',false,true);
+d.add(321,320,'656.1','<div class="nodetag">656.1</div></span>&nbsp;&nbsp;Патен сообраќај','656.1','Патен сообраќај','','','',false,true);
+d.add(322,320,'656.2','<div class="nodetag">656.2</div></span>&nbsp;&nbsp;Железнички транспорт. Железнички сообраќај','656.2','Железнички транспорт. Железнички сообраќај','','','',false,true);
+d.add(323,320,'656.4','<div class="nodetag">656.4</div></span>&nbsp;&nbsp;Транспорт со лесна железница','656.4','Транспорт со лесна железница','','','',false,true);
+d.add(324,320,'656.5','<div class="nodetag">656.5</div></span>&nbsp;&nbsp;Патен транспорт со други системи за пренос и цевоводи','656.5','Патен транспорт со други системи за пренос и цевоводи','','','',false,true);
+d.add(325,319,'656.6','<div class="nodetag">656.6</div></span>&nbsp;&nbsp;Воден сообраќај','656.6','Воден сообраќај','','','',false,true);
+d.add(326,319,'656.7','<div class="nodetag">656.7</div></span>&nbsp;&nbsp;Воздушен транспорт. Воздушен сообраќај','656.7','Воздушен транспорт. Воздушен сообраќај','','','',false,true);
+d.add(327,319,'656.8','<div class="nodetag">656.8</div></span>&nbsp;&nbsp;Поштенски услуги и администрација','656.8','Поштенски услуги и администрација','','','',false,true);
+d.add(328,312,'657','<div class="nodetag">657</div></span>&nbsp;&nbsp;Сметководство','657','Сметководство','','','',false,true);
+d.add(329,312,'658','<div class="nodetag">658</div></span>&nbsp;&nbsp;Деловен менаџмент, администрација. Комерцијална организација','658','Деловен менаџмент, администрација. Комерцијална организација','','','',false,true);
+d.add(330,329,'658.1','<div class="nodetag">658.1</div></span>&nbsp;&nbsp;Видови претпријатија. Финансии','658.1','Видови претпријатија. Финансии','','','',false,true);
+d.add(331,329,'658.2','<div class="nodetag">658.2</div></span>&nbsp;&nbsp;Постојки и погони. Простории. Згради, работилници, фабрики. Материјали','658.2','Постојки и погони. Простории. Згради, работилници, фабрики. Материјали','','','',false,true);
+d.add(332,329,'658.3','<div class="nodetag">658.3</div></span>&nbsp;&nbsp;Меѓучовечки односи во претпријатијата. Управување со кадри','658.3','Меѓучовечки односи во претпријатијата. Управување со кадри','','','',false,true);
+d.add(333,329,'658.5','<div class="nodetag">658.5</div></span>&nbsp;&nbsp;Организација и планирање на производството. Дизајн. Управување на производството и контрола','658.5','Организација и планирање на производството. Дизајн. Управување на производството и контрола','','','',false,true);
+d.add(334,329,'658.6','<div class="nodetag">658.6</div></span>&nbsp;&nbsp;Комерцијална организација и практика. Стоки. Услуиги','658.6','Комерцијална организација и практика. Стоки. Услуиги','','','',false,true);
+d.add(335,329,'658.7','<div class="nodetag">658.7</div></span>&nbsp;&nbsp;Купување. Набавка. Добавување. Управување со залихи','658.7','Купување. Набавка. Добавување. Управување со залихи','','','',false,true);
+d.add(336,329,'658.8','<div class="nodetag">658.8</div></span>&nbsp;&nbsp;Маркетинг. Промет. Продажба. Дистрибуција','658.8','Маркетинг. Промет. Продажба. Дистрибуција','','','',false,true);
+d.add(337,329,'658.9','<div class="nodetag">658.9</div></span>&nbsp;&nbsp;Други комерцијални активности','658.9','Други комерцијални активности','','','',false,true);
+d.add(338,312,'659','<div class="nodetag">659</div></span>&nbsp;&nbsp;Реклама. Информирање. Односи со јавноста.','659','Реклама. Информирање. Односи со јавноста.','','','',false,true);
+d.add(339,338,'659.1','<div class="nodetag">659.1</div></span>&nbsp;&nbsp;Реклама. Огласување','659.1','Реклама. Огласување','','','',false,true);
+d.add(340,338,'659.2','<div class="nodetag">659.2</div></span>&nbsp;&nbsp;Информацирање. Советодавни и консултански услуги','659.2','Информацирање. Советодавни и консултански услуги','','','',false,true);
+d.add(341,338,'659.3','<div class="nodetag">659.3</div></span>&nbsp;&nbsp;Масовна комуникација. Информирање, просветување на широката јавнозт','659.3','Масовна комуникација. Информирање, просветување на широката јавнозт','','','',false,true);
+d.add(342,338,'659.4','<div class="nodetag">659.4</div></span>&nbsp;&nbsp;Односи со јавноста','659.4','Односи со јавноста','','','',false,true);
+d.add(343,0,'66','<div class="nodetag">66</div></span>&nbsp;&nbsp;Хемиска технологија. Хемиска и сродни индустрии','66','Хемиска технологија. Хемиска и сродни индустрии','','','',false,true);
+d.add(344,343,'66.01/.09','<div class="nodetag">66.01/.09</div></span>&nbsp;&nbsp;Специјални помошни броеви за хемиско инженерство','66.01/.09','Специјални помошни броеви за хемиско инженерство','','','',false,true);
+d.add(345,344,'66.01','<div class="nodetag">66.01</div></span>&nbsp;&nbsp;Основи на хемиското инженерство','66.01','Основи на хемиското инженерство','','','',false,true);
+d.add(346,344,'66.02','<div class="nodetag">66.02</div></span>&nbsp;&nbsp;Хемиски производни процеси и опрема општо','66.02','Хемиски производни процеси и опрема општо','','','',false,true);
+d.add(347,344,'66.03','<div class="nodetag">66.03</div></span>&nbsp;&nbsp;Материјали, карактеристики, процеси и опрема','66.03','Материјали, карактеристики, процеси и опрема','','','',false,true);
+d.add(348,344,'66.04','<div class="nodetag">66.04</div></span>&nbsp;&nbsp;Топлински операции и опрема','66.04','Топлински операции и опрема','','','',false,true);
+d.add(349,344,'66.06','<div class="nodetag">66.06</div></span>&nbsp;&nbsp;Хемиска технологија на течности. Процеси и опрема за третман на течности или со течности','66.06','Хемиска технологија на течности. Процеси и опрема за третман на течности или со течности','','','',false,true);
+d.add(350,344,'66.07','<div class="nodetag">66.07</div></span>&nbsp;&nbsp;Хемиска технологија на гасови','66.07','Хемиска технологија на гасови','','','',false,true);
+d.add(351,344,'66.08','<div class="nodetag">66.08</div></span>&nbsp;&nbsp;Физички и физичкохемиски операции и опрема. Физички и физичкохемиски влијанија на хемиските процеси','66.08','Физички и физичкохемиски операции и опрема. Физички и физичкохемиски влијанија на хемиските процеси','','','',false,true);
+d.add(352,343,'661','<div class="nodetag">661</div></span>&nbsp;&nbsp;Хемикалии','661','Хемикалии','','','',false,true);
+d.add(353,352,'661.1','<div class="nodetag">661.1</div></span>&nbsp;&nbsp;Специјални хемиски индустрии','661.1','Специјални хемиски индустрии','','','',false,true);
+d.add(354,352,'661.2','<div class="nodetag">661.2</div></span>&nbsp;&nbsp;Производство на сулфур и негови деривати','661.2','Производство на сулфур и негови деривати','','','',false,true);
+d.add(355,352,'661.3','<div class="nodetag">661.3</div></span>&nbsp;&nbsp;Производство на сода и поташ, алкалии','661.3','Производство на сода и поташ, алкалии','','','',false,true);
+d.add(356,352,'661.4','<div class="nodetag">661.4</div></span>&nbsp;&nbsp;Производство на халогени и халогени соединенија, неоргански пероксо-соединенија','661.4','Производство на халогени и халогени соединенија, неоргански пероксо-соединенија','','','',false,true);
+d.add(357,352,'661.5','<div class="nodetag">661.5</div></span>&nbsp;&nbsp;Производство на азотни соединенија. Фиксација на азот. Индустрија на азот општо','661.5','Производство на азотни соединенија. Фиксација на азот. Индустрија на азот општо','','','',false,true);
+d.add(358,352,'661.6','<div class="nodetag">661.6</div></span>&nbsp;&nbsp;Производство на различни неметали и полуметали (металоиди), и нивни соединенија','661.6','Производство на различни неметали и полуметали (металоиди), и нивни соединенија','','','',false,true);
+d.add(359,352,'661.7','<div class="nodetag">661.7</div></span>&nbsp;&nbsp;Производство на органски супстанци. Органски хемикалии','661.7','Производство на органски супстанци. Органски хемикалии','','','',false,true);
+d.add(360,352,'661.8','<div class="nodetag">661.8</div></span>&nbsp;&nbsp;Метални соединенија општо. Соли. Минерални соединенија','661.8','Метални соединенија општо. Соли. Минерални соединенија','','','',false,true);
+d.add(361,352,'661.9','<div class="nodetag">661.9</div></span>&nbsp;&nbsp;Производство на гасови','661.9','Производство на гасови','','','',false,true);
+d.add(362,343,'662','<div class="nodetag">662</div></span>&nbsp;&nbsp;Експлозиви. Горива','662','Експлозиви. Горива','','','',false,true);
+d.add(363,362,'662.1/.4','<div class="nodetag">662.1/.4</div></span>&nbsp;&nbsp;Експлозиви','662.1/.4','Експлозиви','','','',false,true);
+d.add(364,363,'662.1','<div class="nodetag">662.1</div></span>&nbsp;&nbsp;Огномети. Пиротехника и слични уреди','662.1','Огномети. Пиротехника и слични уреди','','','',false,true);
+d.add(365,363,'662.2','<div class="nodetag">662.2</div></span>&nbsp;&nbsp;Силни експлозиви','662.2','Силни експлозиви','','','',false,true);
+d.add(366,363,'662.3','<div class="nodetag">662.3</div></span>&nbsp;&nbsp;Реактивни прашоци (експлозивни). Барут','662.3','Реактивни прашоци (експлозивни). Барут','','','',false,true);
+d.add(367,363,'662.4','<div class="nodetag">662.4</div></span>&nbsp;&nbsp;Иницијатори, запалки за експлозиви. Детонатори','662.4','Иницијатори, запалки за експлозиви. Детонатори','','','',false,true);
+d.add(368,362,'662.5','<div class="nodetag">662.5</div></span>&nbsp;&nbsp;Средства за палење. Запалки. Кибрит.','662.5','Средства за палење. Запалки. Кибрит.','','','',false,true);
+d.add(369,362,'662.6/.9','<div class="nodetag">662.6/.9</div></span>&nbsp;&nbsp;Економика на греење. Економика на горива. Горива. Греење','662.6/.9','Економика на греење. Економика на горива. Горива. Греење','','','',false,true);
+d.add(370,369,'662.6','<div class="nodetag">662.6</div></span>&nbsp;&nbsp;Економика на греење или горива. Согорување. Природни горива','662.6','Економика на греење или горива. Согорување. Природни горива','','','',false,true);
+d.add(371,369,'662.7','<div class="nodetag">662.7</div></span>&nbsp;&nbsp;Технологија на горивата. Прочистени горива','662.7','Технологија на горивата. Прочистени горива','','','',false,true);
+d.add(372,369,'662.8','<div class="nodetag">662.8</div></span>&nbsp;&nbsp;Механичка обработка за вцрстување на горивата. Брикетирање','662.8','Механичка обработка за вцрстување на горивата. Брикетирање','','','',false,true);
+d.add(373,369,'662.9','<div class="nodetag">662.9</div></span>&nbsp;&nbsp;Горење и техника на согорување','662.9','Горење и техника на согорување','','','',false,true);
+d.add(374,343,'663','<div class="nodetag">663</div></span>&nbsp;&nbsp;Индустриска микробиологија. Индустриска микологија. Зимургија, ферментативна индустрија. Индустрија за пијалаци. Индустрија за стимулативни средства','663','Индустриска микробиологија. Индустриска микологија. Зимургија, ферментативна индустрија. Индустрија за пијалаци. Индустрија за стимулативни средства','','','',false,true);
+d.add(375,374,'663.1','<div class="nodetag">663.1</div></span>&nbsp;&nbsp;Микробилошки индустрии. Наука и техника на применета микробиологија. Применета микологија','663.1','Микробилошки индустрии. Наука и техника на применета микробиологија. Применета микологија','','','',false,true);
+d.add(376,374,'663.2','<div class="nodetag">663.2</div></span>&nbsp;&nbsp;Вино. Винарство. Енологија','663.2','Вино. Винарство. Енологија','','','',false,true);
+d.add(377,374,'663.3','<div class="nodetag">663.3</div></span>&nbsp;&nbsp;Јаболковица. Крушковица. Останати овошни вина, сокови','663.3','Јаболковица. Крушковица. Останати овошни вина, сокови','','','',false,true);
+d.add(378,374,'663.4','<div class="nodetag">663.4</div></span>&nbsp;&nbsp;Пиво. Пиварство. Производство на слад','663.4','Пиво. Пиварство. Производство на слад','','','',false,true);
+d.add(379,374,'663.5','<div class="nodetag">663.5</div></span>&nbsp;&nbsp;Алкохол за пиење. Алкохолни течности (жестоки пијалаци). Алкохолна дестилација, пречистување','663.5','Алкохол за пиење. Алкохолни течности (жестоки пијалаци). Алкохолна дестилација, пречистување','','','',false,true);
+d.add(380,374,'663.6','<div class="nodetag">663.6</div></span>&nbsp;&nbsp;Вода за пијалаци и останати индустриски потреби. Минерални води. Лековити води. Мраз за јадење.','663.6','Вода за пијалаци и останати индустриски потреби. Минерални води. Лековити води. Мраз за јадење.','','','',false,true);
+d.add(381,374,'663.8','<div class="nodetag">663.8</div></span>&nbsp;&nbsp;Главни состојки за мешање на пијалаци. Овошни и зеленчукови сокови. Сирупи. Ликери. Безалкохолни пијалаци','663.8','Главни состојки за мешање на пијалаци. Овошни и зеленчукови сокови. Сирупи. Ликери. Безалкохолни пијалаци','','','',false,true);
+d.add(382,374,'663.9','<div class="nodetag">663.9</div></span>&nbsp;&nbsp;Чоколадо. Какао. кафе. чај. Тутун','663.9','Чоколадо. Какао. кафе. чај. Тутун','','','',false,true);
+d.add(383,343,'664','<div class="nodetag">664</div></span>&nbsp;&nbsp;Производство и конзервирање на цврсти прехрамбени производи','664','Производство и конзервирање на цврсти прехрамбени производи','','','',false,true);
+d.add(384,383,'664.1','<div class="nodetag">664.1</div></span>&nbsp;&nbsp;Шеќер. Меласа. Гликоза и др.','664.1','Шеќер. Меласа. Гликоза и др.','','','',false,true);
+d.add(385,383,'664.2','<div class="nodetag">664.2</div></span>&nbsp;&nbsp;Скроб. Амилински материи','664.2','Скроб. Амилински материи','','','',false,true);
+d.add(386,383,'664.3','<div class="nodetag">664.3</div></span>&nbsp;&nbsp;Масла за јадење и масти. Маргарин. Протеински пехрамбени производи','664.3','Масла за јадење и масти. Маргарин. Протеински пехрамбени производи','','','',false,true);
+d.add(387,383,'664.4','<div class="nodetag">664.4</div></span>&nbsp;&nbsp;Минерални хранливи материи','664.4','Минерални хранливи материи','','','',false,true);
+d.add(388,383,'664.5','<div class="nodetag">664.5</div></span>&nbsp;&nbsp;Зачини. Мирудии','664.5','Зачини. Мирудии','','','',false,true);
+d.add(389,383,'664.6/.7','<div class="nodetag">664.6/.7</div></span>&nbsp;&nbsp;Технологија и преработка на зрнести житарици','664.6/.7','Технологија и преработка на зрнести житарици','','','',false,true);
+d.add(390,389,'664.6','<div class="nodetag">664.6</div></span>&nbsp;&nbsp;Пекарство. Леб. Пецива','664.6','Пекарство. Леб. Пецива','','','',false,true);
+d.add(391,389,'664.7','<div class="nodetag">664.7</div></span>&nbsp;&nbsp;Технологија на преработка на житарици. Брашно и мелење пченка. Преработка на зрна','664.7','Технологија на преработка на житарици. Брашно и мелење пченка. Преработка на зрна','','','',false,true);
+d.add(392,383,'664.8/.9','<div class="nodetag">664.8/.9</div></span>&nbsp;&nbsp;Техника на чување, конзервирање на храна','664.8/.9','Техника на чување, конзервирање на храна','','','',false,true);
+d.add(393,343,'665','<div class="nodetag">665</div></span>&nbsp;&nbsp;Масло. Масти. Восоци. Адхезиви. Гуми. Смола','665','Масло. Масти. Восоци. Адхезиви. Гуми. Смола','','','',false,true);
+d.add(394,393,'665.1','<div class="nodetag">665.1</div></span>&nbsp;&nbsp;Општо за масла, масти, восоци и нивни производи','665.1','Општо за масла, масти, восоци и нивни производи','','','',false,true);
+d.add(395,393,'665.2','<div class="nodetag">665.2</div></span>&nbsp;&nbsp;Масла, масти и восоци од животинско потекло','665.2','Масла, масти и восоци од животинско потекло','','','',false,true);
+d.add(396,393,'665.3','<div class="nodetag">665.3</div></span>&nbsp;&nbsp;Растителни масла, масти, восоци, фосфатиди','665.3','Растителни масла, масти, восоци, фосфатиди','','','',false,true);
+d.add(397,393,'665.5','<div class="nodetag">665.5</div></span>&nbsp;&nbsp;Етерични масла. Парфимерија. Козметика','665.5','Етерични масла. Парфимерија. Козметика','','','',false,true);
+d.add(398,393,'665.6/.7','<div class="nodetag">665.6/.7</div></span>&nbsp;&nbsp;Преработка и производи од нафта и сродни индустрии','665.6/.7','Преработка и производи од нафта и сродни индустрии','','','',false,true);
+d.add(399,398,'665.6','<div class="nodetag">665.6</div></span>&nbsp;&nbsp;Технологија на минерални масла. Технологија на нафта и слични производи','665.6','Технологија на минерални масла. Технологија на нафта и слични производи','','','',false,true);
+d.add(400,398,'665.7','<div class="nodetag">665.7</div></span>&nbsp;&nbsp;Производи од индустријата на минерални масла. Минерални масла и слични производи','665.7','Производи од индустријата на минерални масла. Минерални масла и слични производи','','','',false,true);
+d.add(401,393,'665.9','<div class="nodetag">665.9</div></span>&nbsp;&nbsp;Разновидни органскохемиски индустрии','665.9','Разновидни органскохемиски индустрии','','','',false,true);
+d.add(402,343,'666','<div class="nodetag">666</div></span>&nbsp;&nbsp;Стакларска индустрија. Керамика. Цемент и бетон','666','Стакларска индустрија. Керамика. Цемент и бетон','','','',false,true);
+d.add(403,402,'666.1','<div class="nodetag">666.1</div></span>&nbsp;&nbsp;Стакларска индустрија. Технологија на стакло. Производство на стакло, општо. Стакло во поширока смисла','666.1','Стакларска индустрија. Технологија на стакло. Производство на стакло, општо. Стакло во поширока смисла','','','',false,true);
+d.add(404,402,'666.3/.7','<div class="nodetag">666.3/.7</div></span>&nbsp;&nbsp;Керамика','666.3/.7','Керамика','','','',false,true);
+d.add(405,404,'666.3','<div class="nodetag">666.3</div></span>&nbsp;&nbsp;Керамика, општо. Керамички суровини','666.3','Керамика, општо. Керамички суровини','','','',false,true);
+d.add(406,404,'666.5','<div class="nodetag">666.5</div></span>&nbsp;&nbsp;Порцелан','666.5','Порцелан','','','',false,true);
+d.add(407,404,'666.6','<div class="nodetag">666.6</div></span>&nbsp;&nbsp;Производи од камен. Земјани производи (порозна керамика)','666.6','Производи од камен. Земјани производи (порозна керамика)','','','',false,true);
+d.add(408,404,'666.7','<div class="nodetag">666.7</div></span>&nbsp;&nbsp;Груба керамика. Тешка грнчарија. Огноотпорни материјали. Тешки керамички материјали. Мешавини од керамика со други материјали','666.7','Груба керамика. Тешка грнчарија. Огноотпорни материјали. Тешки керамички материјали. Мешавини од керамика со други материјали','','','',false,true);
+d.add(409,402,'666.9','<div class="nodetag">666.9</div></span>&nbsp;&nbsp;Гипсана, варовничка и цементна индустрија. Тешко сврзливи материјали. Малтер и бетон','666.9','Гипсана, варовничка и цементна индустрија. Тешко сврзливи материјали. Малтер и бетон','','','',false,true);
+d.add(410,343,'667','<div class="nodetag">667</div></span>&nbsp;&nbsp;Индустрија на бои','667','Индустрија на бои','','','',false,true);
+d.add(411,410,'667.2','<div class="nodetag">667.2</div></span>&nbsp;&nbsp;Индустрија на бои. Производство и примена на бои','667.2','Индустрија на бои. Производство и примена на бои','','','',false,true);
+d.add(412,410,'667.4','<div class="nodetag">667.4</div></span>&nbsp;&nbsp;Мастила за пишување','667.4','Мастила за пишување','','','',false,true);
+d.add(413,410,'667.5','<div class="nodetag">667.5</div></span>&nbsp;&nbsp;Печатарски мастила (црни и обоени). Литографски мастила. Моливи за пишување и цртање. Креди во боја','667.5','Печатарски мастила (црни и обоени). Литографски мастила. Моливи за пишување и цртање. Креди во боја','','','',false,true);
+d.add(414,410,'667.6','<div class="nodetag">667.6</div></span>&nbsp;&nbsp;Премази и техники на премачкувње. Бои. Политури. Лакови','667.6','Премази и техники на премачкувње. Бои. Политури. Лакови','','','',false,true);
+d.add(415,410,'667.7','<div class="nodetag">667.7</div></span>&nbsp;&nbsp;Боење на различни материјали (освен печатење и сликање)','667.7','Боење на различни материјали (освен печатење и сликање)','','','',false,true);
+d.add(416,343,'669','<div class="nodetag">669</div></span>&nbsp;&nbsp;Металургија','669','Металургија','','','',false,true);
+d.add(417,416,'669.1','<div class="nodetag">669.1</div></span>&nbsp;&nbsp;Црна металургија. Железо и челик','669.1','Црна металургија. Железо и челик','','','',false,true);
+d.add(418,416,'669.2','<div class="nodetag">669.2</div></span>&nbsp;&nbsp;Обоени метали, општо','669.2','Обоени метали, општо','','','',false,true);
+d.add(419,0,'67','<div class="nodetag">67</div></span>&nbsp;&nbsp;Различни индустрии, занаети и творечки вештини','67','Различни индустрии, занаети и творечки вештини','','','',false,true);
+d.add(420,419,'671','<div class="nodetag">671</div></span>&nbsp;&nbsp;Изработки од скапоцени метали, благородни камења, скапоцени камења','671','Изработки од скапоцени метали, благородни камења, скапоцени камења','','','',false,true);
+d.add(421,420,'671.1','<div class="nodetag">671.1</div></span>&nbsp;&nbsp;Изработки од злато и сребро. Изработки од други скапоцени метали. Накит','671.1','Изработки од злато и сребро. Изработки од други скапоцени метали. Накит','','','',false,true);
+d.add(422,420,'671.4','<div class="nodetag">671.4</div></span>&nbsp;&nbsp;Изработка на монети и медаљи. Ковање','671.4','Изработка на монети и медаљи. Ковање','','','',false,true);
+d.add(423,419,'672','<div class="nodetag">672</div></span>&nbsp;&nbsp;изработки од железо и челик, општо','672','изработки од железо и челик, општо','','','',false,true);
+d.add(424,419,'673','<div class="nodetag">673</div></span>&nbsp;&nbsp;Изработки од обоени метали (освен скапоцените метали)','673','Изработки од обоени метали (освен скапоцените метали)','','','',false,true);
+d.add(425,419,'674','<div class="nodetag">674</div></span>&nbsp;&nbsp;Дрвна граѓа и дрвна индустрија','674','Дрвна граѓа и дрвна индустрија','','','',false,true);
+d.add(426,419,'675','<div class="nodetag">675</div></span>&nbsp;&nbsp;Кожна индустрија (вклучувајки  крзно и вештачка кожа)','675','Кожна индустрија (вклучувајки  крзно и вештачка кожа)','','','',false,true);
+d.add(427,419,'676','<div class="nodetag">676</div></span>&nbsp;&nbsp;Индустрија на целулоза, хартија и картон','676','Индустрија на целулоза, хартија и картон','','','',false,true);
+d.add(428,419,'677','<div class="nodetag">677</div></span>&nbsp;&nbsp;Текстилна индустрија','677','Текстилна индустрија','','','',false,true);
+d.add(429,428,'677.1/.5','<div class="nodetag">677.1/.5</div></span>&nbsp;&nbsp;Текстилни влакна','677.1/.5','Текстилни влакна','','','',false,true);
+d.add(430,429,'677.1/.3','<div class="nodetag">677.1/.3</div></span>&nbsp;&nbsp;Природни влакна','677.1/.3','Природни влакна','','','',false,true);
+d.add(431,430,'677.1/.2','<div class="nodetag">677.1/.2</div></span>&nbsp;&nbsp;Влакна од растително потекло','677.1/.2','Влакна од растително потекло','','','',false,true);
+d.add(432,431,'677.1','<div class="nodetag">677.1</div></span>&nbsp;&nbsp;Влакна од стеблести растенија ( влакна од дикотелидонски стебла). Цврсти влакна (влакна од монокотиледонски стебла)','677.1','Влакна од стеблести растенија ( влакна од дикотелидонски стебла). Цврсти влакна (влакна од монокотиледонски стебла)','','','',false,true);
+d.add(433,431,'677.2','<div class="nodetag">677.2</div></span>&nbsp;&nbsp;Билни влакна','677.2','Билни влакна','','','',false,true);
+d.add(434,430,'677.3','<div class="nodetag">677.3</div></span>&nbsp;&nbsp;Животински влакна','677.3','Животински влакна','','','',false,true);
+d.add(435,429,'677.4','<div class="nodetag">677.4</div></span>&nbsp;&nbsp;Вештачки влакна','677.4','Вештачки влакна','','','',false,true);
+d.add(436,429,'677.5','<div class="nodetag">677.5</div></span>&nbsp;&nbsp;Минерални и метални влакна. Плетени материјали. Гумени конци. Хартиени предива','677.5','Минерални и метални влакна. Плетени материјали. Гумени конци. Хартиени предива','','','',false,true);
+d.add(437,419,'678','<div class="nodetag">678</div></span>&nbsp;&nbsp;Индустрии базирани макромолекулси материјали. Индустрија за гума. Индустрија за пластика','678','Индустрии базирани макромолекулси материјали. Индустрија за гума. Индустрија за пластика','','','',false,true);
+d.add(438,437,'678.4','<div class="nodetag">678.4</div></span>&nbsp;&nbsp;Природна гума. Останати природни макромолекулски материјали кои содржат само јаглрод и водород','678.4','Природна гума. Останати природни макромолекулски материјали кои содржат само јаглрод и водород','','','',false,true);
+d.add(439,437,'678.5','<div class="nodetag">678.5</div></span>&nbsp;&nbsp;Пластики (пластични маси)','678.5','Пластики (пластични маси)','','','',false,true);
+d.add(440,437,'678.6','<div class="nodetag">678.6</div></span>&nbsp;&nbsp;Синтетички производи од поликондензација. Поликондензати. Синтетички смоли. Синтетички влакна итн.','678.6','Синтетички производи од поликондензација. Поликондензати. Синтетички смоли. Синтетички влакна итн.','','','',false,true);
+d.add(441,437,'678.7','<div class="nodetag">678.7</div></span>&nbsp;&nbsp;Синтетички продукти на полимеризација. Полимери. Синтетички гуми','678.7','Синтетички продукти на полимеризација. Полимери. Синтетички гуми','','','',false,true);
+d.add(442,419,'679','<div class="nodetag">679</div></span>&nbsp;&nbsp;Индустрии базирани на разни обработливи материјали','679','Индустрии базирани на разни обработливи материјали','','','',false,true);
+d.add(443,442,'679.7','<div class="nodetag">679.7</div></span>&nbsp;&nbsp;Индустрии за кабли и јажиња','679.7','Индустрии за кабли и јажиња','','','',false,true);
+d.add(444,442,'679.8','<div class="nodetag">679.8</div></span>&nbsp;&nbsp;Технологија на камен. Индустрија за камен','679.8','Технологија на камен. Индустрија за камен','','','',false,true);
+d.add(445,442,'679.9','<div class="nodetag">679.9</div></span>&nbsp;&nbsp;Технологија на други природни обработливи материјали','679.9','Технологија на други природни обработливи материјали','','','',false,true);
+d.add(446,0,'68','<div class="nodetag">68</div></span>&nbsp;&nbsp;Индустрии, занаети и творечки вештини за готови и монтажни производи','68','Индустрии, занаети и творечки вештини за готови и монтажни производи','','','',false,true);
+d.add(447,446,'681','<div class="nodetag">681</div></span>&nbsp;&nbsp;Прецизни механизми и инструменти','681','Прецизни механизми и инструменти','','','',false,true);
+d.add(448,447,'681.1','<div class="nodetag">681.1</div></span>&nbsp;&nbsp;Апарати со запчести и движечки механизми','681.1','Апарати со запчести и движечки механизми','','','',false,true);
+d.add(449,447,'681.2','<div class="nodetag">681.2</div></span>&nbsp;&nbsp;Општо за изработка на инструменти. Инструментација. Мерни инструменти и нивно производство. Ваги. Уреди за мерење тежина','681.2','Општо за изработка на инструменти. Инструментација. Мерни инструменти и нивно производство. Ваги. Уреди за мерење тежина','','','',false,true);
+d.add(450,447,'681.5','<div class="nodetag">681.5</div></span>&nbsp;&nbsp;Технологија на автоматска контрола. Паметна технологија (Интелегентни системи)','681.5','Технологија на автоматска контрола. Паметна технологија (Интелегентни системи)','','','',false,true);
+d.add(451,447,'681.6','<div class="nodetag">681.6</div></span>&nbsp;&nbsp;Машини и опрема за графичко умножување','681.6','Машини и опрема за графичко умножување','','','',false,true);
+d.add(452,447,'681.7','<div class="nodetag">681.7</div></span>&nbsp;&nbsp;Оптички апарати и инструменти','681.7','Оптички апарати и инструменти','','','',false,true);
+d.add(453,447,'681.8','<div class="nodetag">681.8</div></span>&nbsp;&nbsp;Техничка акустика','681.8','Техничка акустика','','','',false,true);
+d.add(454,446,'682','<div class="nodetag">682</div></span>&nbsp;&nbsp;Ковачки занаети. Потковување. Ковачници. Рачно ковање на предмети од железо','682','Ковачки занаети. Потковување. Ковачници. Рачно ковање на предмети од железо','','','',false,true);
+d.add(455,454,'682.1','<div class="nodetag">682.1</div></span>&nbsp;&nbsp;Потковување на животни','682.1','Потковување на животни','','','',false,true);
+d.add(456,454,'682.3','<div class="nodetag">682.3</div></span>&nbsp;&nbsp;Ковање на алатки. Ковање на алати со сечива','682.3','Ковање на алатки. Ковање на алати со сечива','','','',false,true);
+d.add(457,454,'682.5','<div class="nodetag">682.5</div></span>&nbsp;&nbsp;Изработки од ковано железо (оков)','682.5','Изработки од ковано железо (оков)','','','',false,true);
+d.add(458,454,'682.6','<div class="nodetag">682.6</div></span>&nbsp;&nbsp;Окови за градежништво','682.6','Окови за градежништво','','','',false,true);
+d.add(459,446,'683','<div class="nodetag">683</div></span>&nbsp;&nbsp;Железарии. Метална роба. Браварство. полнење на боци. Ламби. Грејни тела (апарати)','683','Железарии. Метална роба. Браварство. полнење на боци. Ламби. Грејни тела (апарати)','','','',false,true);
+d.add(460,446,'684','<div class="nodetag">684</div></span>&nbsp;&nbsp;Мебелни и други сродни индустрии. Производство на мебел. Тапацирство','684','Мебелни и други сродни индустрии. Производство на мебел. Тапацирство','','','',false,true);
+d.add(461,460,'684.4','<div class="nodetag">684.4</div></span>&nbsp;&nbsp;Мебел. Дизајнирање и производство на мебел','684.4','Мебел. Дизајнирање и производство на мебел','','','',false,true);
+d.add(462,460,'684.6','<div class="nodetag">684.6</div></span>&nbsp;&nbsp;Фурнирање. Интарзија. Обложување итн.','684.6','Фурнирање. Интарзија. Обложување итн.','','','',false,true);
+d.add(463,460,'684.7','<div class="nodetag">684.7</div></span>&nbsp;&nbsp;Тапацир. Креветски преслеки. Покривачи. Драперии','684.7','Тапацир. Креветски преслеки. Покривачи. Драперии','','','',false,true);
+d.add(464,446,'685','<div class="nodetag">685</div></span>&nbsp;&nbsp;Седларство. Индустрија за обувки. Ракавичарство. Опрема за патување, спорт, игри и друго','685','Седларство. Индустрија за обувки. Ракавичарство. Опрема за патување, спорт, игри и друго','','','',false,true);
+d.add(465,464,'685.1','<div class="nodetag">685.1</div></span>&nbsp;&nbsp;Седларство. Изработка на опрема за јавање','685.1','Седларство. Изработка на опрема за јавање','','','',false,true);
+d.add(466,464,'685.2','<div class="nodetag">685.2</div></span>&nbsp;&nbsp;Заштитна облека. Изработка на појаси. Кожна опрема  и аналогни производи','685.2','Заштитна облека. Изработка на појаси. Кожна опрема  и аналогни производи','','','',false,true);
+d.add(467,464,'685.3','<div class="nodetag">685.3</div></span>&nbsp;&nbsp;Обувки. Други помагала за движење','685.3','Обувки. Други помагала за движење','','','',false,true);
+d.add(468,464,'685.4','<div class="nodetag">685.4</div></span>&nbsp;&nbsp;Ракавичарство. Изработка на ракавици','685.4','Ракавичарство. Изработка на ракавици','','','',false,true);
+d.add(469,464,'685.5','<div class="nodetag">685.5</div></span>&nbsp;&nbsp;Работи за патување. Опрема за кампување','685.5','Работи за патување. Опрема за кампување','','','',false,true);
+d.add(470,464,'685.6','<div class="nodetag">685.6</div></span>&nbsp;&nbsp;Спортска и опрема за игри. Опрема и справи за атлетика, гимнастика, физички вежби','685.6','Спортска и опрема за игри. Опрема и справи за атлетика, гимнастика, физички вежби','','','',false,true);
+d.add(471,464,'685.7','<div class="nodetag">685.7</div></span>&nbsp;&nbsp;Опрема за планинарење, искачување. Опрема за пливање','685.7','Опрема за планинарење, искачување. Опрема за пливање','','','',false,true);
+d.add(472,464,'685.8','<div class="nodetag">685.8</div></span>&nbsp;&nbsp;Опрема за игри на маса и табла','685.8','Опрема за игри на маса и табла','','','',false,true);
+d.add(473,446,'686','<div class="nodetag">686</div></span>&nbsp;&nbsp;Книговезничарство. Метализирање. Изработка на огледала. Прибор за пишување','686','Книговезничарство. Метализирање. Изработка на огледала. Прибор за пишување','','','',false,true);
+d.add(474,446,'687','<div class="nodetag">687</div></span>&nbsp;&nbsp;Индустрија за облека. Изработка на облека. Козметичко-фризерска нега','687','Индустрија за облека. Изработка на облека. Козметичко-фризерска нега','','','',false,true);
+d.add(475,474,'687.1','<div class="nodetag">687.1</div></span>&nbsp;&nbsp;Горна облека. Кроење','687.1','Горна облека. Кроење','','','',false,true);
+d.add(476,474,'687.2','<div class="nodetag">687.2</div></span>&nbsp;&nbsp;Алишта. Веш','687.2','Алишта. Веш','','','',false,true);
+d.add(477,474,'687.3','<div class="nodetag">687.3</div></span>&nbsp;&nbsp;Плетена облека. Вратоврски. Средства за придржување и заштита на облеката','687.3','Плетена облека. Вратоврски. Средства за придржување и заштита на облеката','','','',false,true);
+d.add(478,474,'687.4','<div class="nodetag">687.4</div></span>&nbsp;&nbsp;предмети за носење на глава. Изработка на шапки','687.4','предмети за носење на глава. Изработка на шапки','','','',false,true);
+d.add(479,474,'687.5','<div class="nodetag">687.5</div></span>&nbsp;&nbsp;Индустрии за нега на убавина','687.5','Индустрии за нега на убавина','','','',false,true);
+d.add(480,474,'687.8','<div class="nodetag">687.8</div></span>&nbsp;&nbsp;Вештачки крзна','687.8','Вештачки крзна','','','',false,true);
+d.add(481,474,'687.9','<div class="nodetag">687.9</div></span>&nbsp;&nbsp;Индустрија за четки. Метли итн.','687.9','Индустрија за четки. Метли итн.','','','',false,true);
+d.add(482,446,'688','<div class="nodetag">688</div></span>&nbsp;&nbsp;Галантерија. Играчки. Декоративни изработки','688','Галантерија. Играчки. Декоративни изработки','','','',false,true);
+d.add(483,482,'688.7','<div class="nodetag">688.7</div></span>&nbsp;&nbsp;Играчки. Предмети за забава, разонода. Украси','688.7','Играчки. Предмети за забава, разонода. Украси','','','',false,true);
+d.add(484,446,'689','<div class="nodetag">689</div></span>&nbsp;&nbsp;Аматерски рачни изработки. Технички хобиа','689','Аматерски рачни изработки. Технички хобиа','','','',false,true);
+d.add(485,0,'69','<div class="nodetag">69</div></span>&nbsp;&nbsp;Градежни занаети. Градежни материјали. Градежни практики и постапки','69','Градежни занаети. Градежни материјали. Градежни практики и постапки','','','',false,true);
+d.add(486,485,'691','<div class="nodetag">691</div></span>&nbsp;&nbsp;Градежни материјали. Градежни делови','691','Градежни материјали. Градежни делови','','','',false,true);
+d.add(487,485,'692','<div class="nodetag">692</div></span>&nbsp;&nbsp;Конструкциски делови и елементи на градбите','692','Конструкциски делови и елементи на градбите','','','',false,true);
+d.add(488,485,'693','<div class="nodetag">693</div></span>&nbsp;&nbsp;Ѕидарство и сродни градежни занаети','693','Ѕидарство и сродни градежни занаети','','','',false,true);
+d.add(489,485,'694','<div class="nodetag">694</div></span>&nbsp;&nbsp;Градежно дрводелство. Столарство. Дограма','694','Градежно дрводелство. Столарство. Дограма','','','',false,true);
+d.add(490,485,'696','<div class="nodetag">696</div></span>&nbsp;&nbsp;Опрема, приклучоци, инсталации во зградите (санитарни, гасни, парни, електрични). Инсталатерски работи. Водоводџиски работи. Лимарски работи. Дренажни работи. Електричарски работи. Други занаети','696','Опрема, приклучоци, инсталации во зградите (санитарни, гасни, парни, електрични). Инсталатерски работи. Водоводџиски работи. Лимарски работи. Дренажни работи. Електричарски работи. Други занаети','','','',false,true);
+d.add(491,485,'697','<div class="nodetag">697</div></span>&nbsp;&nbsp;Греење, вентилација и климатизација на зградите','697','Греење, вентилација и климатизација на зградите','','','',false,true);
+d.add(492,485,'698','<div class="nodetag">698</div></span>&nbsp;&nbsp;Завршни и декоративни работи','698','Завршни и декоративни работи','','','',false,true);
+d.config.useSelection = false;
+d.config.inOrder = true;
+d.config.useIcons = false;
+document.write(d);
+//-->
+</script>
+</div>
+</div><div id="expandbox" onclick="expandbox(); return false;">&nbsp;</div>
+<div id="recordbox" class="debugbkg">
+<div class="fronthint">кликни на класата лево за да се покажат записите</div>
+</div>
+
+        <div id="footer">
+            <div class="footersectionleft">
+                The UDC Summary (UDCS) provides a selection of around 2,600 classes from the whole scheme which comprises more than 70,000 entries.
+                Please send questions and suggestions to <a href="mailto:udcs@udcc.org?subject=UDC Summary Enquiry">udcs@udcc.org</a><br><br>
+	            <p>
+		            The data provided in this Summary is released under the <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative Commons Attribution Share Alike 3.0 license</a> <a href="../about.htm">[more]</a>
+	            </p>
+            </div>
+            <div class="footermiddle">
+                <a href="http://www.udcc.org"><img src="../images/udclogowhite.png" border="0"></a>
+            </div>
+			<div class="footerright">
+                For complete UDC schedules see <a href="http://www.udc-hub.com/">UDC Online Hub</a><br/><a href="http://www.udc-hub.com/"><img width="60" height="35" src="../images/udclogo.png"/></a>
+
+			</div>
+        </div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-13138465-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>

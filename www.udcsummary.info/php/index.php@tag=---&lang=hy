@@ -1,0 +1,901 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>UDC Summary</title>
+    <link rel="stylesheet" href="../reset.css" type="text/css" />
+    <link rel="stylesheet" href="../udc2000.css" type="text/css" />
+	    <link rel="StyleSheet" href="dtree2.css" type="text/css" />
+	    <script type="text/javascript" src="dtree.js"></script>
+	    <script type="text/javascript" src="udcdisplay_9.js"></script>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+</head>
+
+<body >
+<div id="centercontainer" class="debugbkg">
+    <div id="titlebox" class="debugbkg">
+		<div id="rightbox">
+        	<div id="languagecount">57 languages</div>
+            <div id="languagebox">
+            <select id="selectedlang" style="vertical-align: middle;" onchange="location = this.options[this.selectedIndex].value;">
+			<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=af&pr=Y">Afrikaans (Afrikaans) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sq&pr=Y">Albanian (Shqip) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=anp&pr=Y">Angika (अंगिका) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ar&pr=Y">Arabic (العربية) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=hy&pr=Y" selected>Armenian (հայերեն) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=eu&pr=Y">Basque (Euskara) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=be&pr=Y">Belarusian (Беларуская) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=bn&pr=Y">Bengali (বাংলা) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=bho&pr=Y">Bhojpuri (भोजपुरी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=bg&pr=Y">Bulgarian (Български) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ca&pr=Y">Catalan (Català) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=chi&pr=Y">Chinese (中文) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=hr&pr=Y">Croatian (Hrvatski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=cs&pr=Y">Czech (Čeština) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=da&pr=Y">Danish (Dansk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=nl&pr=Y">Dutch (Nederlands) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=en&pr=Y">English (English) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=eo&pr=Y">Esperanto (Esperanto) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=et&pr=Y">Estonian (Eesti) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=fi&pr=Y">Finnish (Suomi) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=fr&pr=Y">French (Français) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=gl&pr=Y">Galician (Galego) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ka&pr=Y">Georgian (ქართული) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=de&pr=Y">German (Deutsch) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=el&pr=Y">Greek (Ελληνικά) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=hi&pr=Y">Hindi (हिन्दी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=hu&pr=Y">Hungarian (Magyar) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=id&pr=Y">Indonesian (Bahasa Ind) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ga&pr=Y">Irish (Gaeilge) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=it&pr=Y">Italian (Italiano) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ja&pr=Y">Japanese (日本語) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=kn&pr=Y">Kannada (ಕನ್ನಡ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=kk&pr=Y">Kazakh (Қазақ тілі) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=lv&pr=Y">Latvian (Latviešu) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=lt&pr=Y">Lithuanian (lietuvių) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=mk&pr=Y">Macedonian (македонски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ml&pr=Y">Malayalam (മലയാളം) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=mr&pr=Y">Marathi (मराठी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=no&pr=Y">Norwegian (Norsk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=pl&pr=Y">Polish (Polski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=pt&pr=Y">Portuguese (Português) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=pa&pr=Y">Punjabi (ਪੰਜਾਬੀ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ro&pr=Y">Romanian (Româna) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ru&pr=Y">Russian (Pусский) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sa&pr=Y">Sanskrit (Saṃskṛtam) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sr&pr=Y">Serbian (Српски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=si&pr=Y">Sinhala (සිංහල) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sk&pr=Y">Slovak (Slovenský) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sl&pr=Y">Slovenian (Slovenski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=es&pr=Y">Spanish (Español) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sv&pr=Y">Swedish (Svenska) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ta&pr=Y">Tamil (தமிழ்) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=te&pr=Y">Telugu (తెలుగు) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=tr&pr=Y">Turkish (Türkçe) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=uk&pr=Y">Ukrainian (Yкраї́нська) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=uz&pr=Y">Uzbek (oʻzbek) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=vi&pr=Y">Vietnamese (tiếng Việt) </option>
+            </select>
+            </div>
+            </div>
+        </div>
+		<div id="menubox" class="debugbkg">
+            <ul class="menu boldmenu">
+<li><a href="index.php@lang=hy">ՎԵՐ</a></li>
+<li><a href="index.php@tag=--&amp;lang=hy">ՆՇԱՆՆԵՐ</a></li>
+<li><a href="index.php@tag=---&amp;lang=hy">ՕԺԱՆԴԱԿ ՄԱՍԵՐ</a></li>
+<li><a href="index.php@tag=0&amp;lang=hy">0</a></li>
+<li><a href="index.php@tag=1&amp;lang=hy">1</a></li>
+<li><a href="index.php@tag=2&amp;lang=hy">2</a></li>
+<li><a href="index.php@tag=3&amp;lang=hy">3</a></li>
+<li><a  class="vacant" href="index.php@tag=---&amp;lang=hy#">4</a></li>
+<li><a href="index.php@tag=5&amp;lang=hy">5</a></li>
+<li><a href="index.php@tag=6&amp;lang=hy">6</a></li>
+<li><a href="index.php@tag=7&amp;lang=hy">7</a></li>
+<li><a href="index.php@tag=8&amp;lang=hy">8</a></li>
+<li><a href="index.php@tag=9&amp;lang=hy">9</a></li>
+</ul>
+<input type="hidden" id="if_loading" name="if_loading" value="Բեռնավորում"/>
+<input type="hidden" id="if_lang" name="if_lang" value="21"/>
+<ul class="rightmenu boldmenu">
+<li><a href="../translation.htm">Թարգմանություններ</a></li>
+<li><a href="index.php@tag=---&amp;lang=hy#" title="Under Development">Համընկնումներ</a></li>
+<li><a href="../exports.htm" title="Data Exports">Արտահանում</a></li>
+<li><a href="index.php@tag=---&amp;lang=hy#" title="Under Development">Ցուցիչ</a></li>
+<li><a href="index.php@tag=---&amp;lang=hy#" title="Under Development">Ուղեցույց</a></li>
+<li><a href="../about.htm" title="About the UDC Summary">Մասին</a></li>
+</ul>
+
+        </div>
+		<input type="hidden" id="leftWidth" value="420"/><input type="hidden" id="rightWidth" value="522"/>
+		<div id="classmarkbox" class="debugbkg">
+
+<div id="openclosemenu"><a href="javascript: d.openAll();">&nbsp;ընդլայնիր</a> | <a href="javascript: d.closeAll();">սեղմիր</a></div>
+<div id="classtree">
+<script type="text/javascript">
+<!--
+d = new dTree('d');
+d.config.hrefIsClick = true;
+d.add(0,-1,'---','<span class="nodetag"></span>COMMON AUXILIARY NUMBERS','---','','','','',false,true);
+d.add(1,0,'=...','<div class="nodetag">=...</div></span>&nbsp;&nbsp;Լեզվի ընդհանուր որոշիչներ (հավասարման նշան)','=...','Լեզվի ընդհանուր որոշիչներ (հավասարման նշան)','','','',false,true);
+d.add(2,1,'=...`01/`08','<div class="nodetag">=...`01/`08</div></span>&nbsp;&nbsp;Լեզվի ծագման և ժամանակաշրջանի վերաբերյալ հատուկ օժանդակ դասիչներ ։ Զարգացման փուլեր','=...`01/`08','Լեզվի ծագման և ժամանակաշրջանի վերաբերյալ հատուկ օժանդակ դասիչներ ։ Զարգացման փուլեր','','','',false,true);
+d.add(3,2,'=...`01','<div class="nodetag">=...`01</div></span>&nbsp;&nbsp;Հին շրջան','=...`01','Հին շրջան','','','',false,true);
+d.add(4,2,'=...`04','<div class="nodetag">=...`04</div></span>&nbsp;&nbsp;Միջին շրջան','=...`04','Միջին շրջան','','','',false,true);
+d.add(5,2,'=...`06','<div class="nodetag">=...`06</div></span>&nbsp;&nbsp;Ժամանակակից շրջան','=...`06','Ժամանակակից շրջան','','','',false,true);
+d.add(6,1,'=...`276/`282','<div class="nodetag">=...`276/`282</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Special auxiliary subdivision for language usage, dialects and variants</span>','=...`276/`282','Special auxiliary subdivision for language usage, dialects and variants','','','',false,true);
+d.add(7,6,'=...`276','<div class="nodetag">=...`276</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Social dialects. Vocational slangs. Special vernacular forms</span>','=...`276','Social dialects. Vocational slangs. Special vernacular forms','','','',false,true);
+d.add(8,6,'=...`282','<div class="nodetag">=...`282</div></span>&nbsp;&nbsp;Բարբառներ: Տեղական և շրջանային լեզուներ։ Տարբերակներ և տեղական բարբառներ','=...`282','Բարբառներ: Տեղական և շրջանային լեզուներ։ Տարբերակներ և տեղական բարբառներ','','','',false,true);
+d.add(9,1,'=00','<div class="nodetag">=00</div></span>&nbsp;&nbsp;Բազմալեզվություն','=00','Բազմալեզվություն','','','',false,true);
+d.add(10,1,'=030','<div class="nodetag">=030</div></span>&nbsp;&nbsp;Թարգմանված փաստաթղթեր, թարգմանություններ','=030','Թարգմանված փաստաթղթեր, թարգմանություններ','','','',false,true);
+d.add(11,1,'=1/=9','<div class="nodetag">=1/=9</div></span>&nbsp;&nbsp;Լեզուներ (բնական և արհեստական)','=1/=9','Լեզուներ (բնական և արհեստական)','','','',false,true);
+d.add(12,11,'=1/=8','<div class="nodetag">=1/=8</div></span>&nbsp;&nbsp;Բնական լեզուներ','=1/=8','Բնական լեզուներ','','','',false,true);
+d.add(13,12,'=1/=2','<div class="nodetag">=1/=2</div></span>&nbsp;&nbsp;Հնդեվրոպական լեզուներ','=1/=2','Հնդեվրոպական լեզուներ','','','',false,true);
+d.add(14,13,'=1','<div class="nodetag">=1</div></span>&nbsp;&nbsp;Եվրոպայի հնդեվրոպական   լեզուներ','=1','Եվրոպայի հնդեվրոպական   լեզուներ','','','',false,true);
+d.add(15,14,'=11','<div class="nodetag">=11</div></span>&nbsp;&nbsp;Գերմանական լեզուներ','=11','Գերմանական լեզուներ','','','',false,true);
+d.add(16,15,'=111','<div class="nodetag">=111</div></span>&nbsp;&nbsp;Անգլերեն','=111','Անգլերեն','','','',false,true);
+d.add(17,15,'=112','<div class="nodetag">=112</div></span>&nbsp;&nbsp;Արևմտագերմանական լեզուներ (բացի անգլերենից)','=112','Արևմտագերմանական լեզուներ (բացի անգլերենից)','','','',false,true);
+d.add(18,17,'=112.2','<div class="nodetag">=112.2</div></span>&nbsp;&nbsp;Գերմաներեն','=112.2','Գերմաներեն','','','',false,true);
+d.add(19,17,'=112.5','<div class="nodetag">=112.5</div></span>&nbsp;&nbsp;Նիդերլանդերեն (հոլանդերեն)','=112.5','Նիդերլանդերեն (հոլանդերեն)','','','',false,true);
+d.add(20,17,'=112.6','<div class="nodetag">=112.6</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Afrikaans</span>','=112.6','Afrikaans','','','',false,true);
+d.add(21,15,'=113','<div class="nodetag">=113</div></span>&nbsp;&nbsp;Հյուսիսգերմանական լեզուներ','=113','Հյուսիսգերմանական լեզուներ','','','',false,true);
+d.add(22,21,'=113.3','<div class="nodetag">=113.3</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Icelandic</span>','=113.3','Icelandic','','','',false,true);
+d.add(23,21,'=113.4','<div class="nodetag">=113.4</div></span>&nbsp;&nbsp;Դանիերեն','=113.4','Դանիերեն','','','',false,true);
+d.add(24,21,'=113.5','<div class="nodetag">=113.5</div></span>&nbsp;&nbsp;Նորվեգերեն','=113.5','Նորվեգերեն','','','',false,true);
+d.add(25,21,'=113.6','<div class="nodetag">=113.6</div></span>&nbsp;&nbsp;Շվեդերեն','=113.6','Շվեդերեն','','','',false,true);
+d.add(26,15,'=114','<div class="nodetag">=114</div></span>&nbsp;&nbsp;Արեվելագերմանական լեզուներ','=114','Արեվելագերմանական լեզուներ','','','',false,true);
+d.add(27,14,'=12','<div class="nodetag">=12</div></span>&nbsp;&nbsp;Իտալական լեզուներ','=12','Իտալական լեզուներ','','','',false,true);
+d.add(28,27,'=122','<div class="nodetag">=122</div></span>&nbsp;&nbsp;Ումբրա-օսկա-սաբելլական լեզուներ','=122','Ումբրա-օսկա-սաբելլական լեզուներ','','','',false,true);
+d.add(29,27,'=124','<div class="nodetag">=124</div></span>&nbsp;&nbsp;Լատիներեն','=124','Լատիներեն','','','',false,true);
+d.add(30,14,'=13','<div class="nodetag">=13</div></span>&nbsp;&nbsp;Ռոմանական լեզուներ','=13','Ռոմանական լեզուներ','','','',false,true);
+d.add(31,30,'=131','<div class="nodetag">=131</div></span>&nbsp;&nbsp;Իտալառոմանական լեզուներ','=131','Իտալառոմանական լեզուներ','','','',false,true);
+d.add(32,31,'=131.1','<div class="nodetag">=131.1</div></span>&nbsp;&nbsp;Իտալերեն','=131.1','Իտալերեն','','','',false,true);
+d.add(33,30,'=132','<div class="nodetag">=132</div></span>&nbsp;&nbsp;Ռետառոմանական լեզուներ','=132','Ռետառոմանական լեզուներ','','','',false,true);
+d.add(34,30,'=133','<div class="nodetag">=133</div></span>&nbsp;&nbsp;Գալլառոմանական լեզուներ','=133','Գալլառոմանական լեզուներ','','','',false,true);
+d.add(35,34,'=133.1','<div class="nodetag">=133.1</div></span>&nbsp;&nbsp;Ֆրանսերեն','=133.1','Ֆրանսերեն','','','',false,true);
+d.add(36,30,'=134','<div class="nodetag">=134</div></span>&nbsp;&nbsp;Իբերառոմանական լեզուներ','=134','Իբերառոմանական լեզուներ','','','',false,true);
+d.add(37,36,'=134.1','<div class="nodetag">=134.1</div></span>&nbsp;&nbsp;Կատալաներեն','=134.1','Կատալաներեն','','','',false,true);
+d.add(38,36,'=134.2','<div class="nodetag">=134.2</div></span>&nbsp;&nbsp;Իսպաներեն','=134.2','Իսպաներեն','','','',false,true);
+d.add(39,36,'=134.3','<div class="nodetag">=134.3</div></span>&nbsp;&nbsp;Պորտուգալերեն','=134.3','Պորտուգալերեն','','','',false,true);
+d.add(40,36,'=134.4','<div class="nodetag">=134.4</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Gallegan / Galician</span>','=134.4','Gallegan / Galician','','','',false,true);
+d.add(41,30,'=135','<div class="nodetag">=135</div></span>&nbsp;&nbsp;Բալկանա-ռոմանական լեզուներ','=135','Բալկանա-ռոմանական լեզուներ','','','',false,true);
+d.add(42,41,'=135.1','<div class="nodetag">=135.1</div></span>&nbsp;&nbsp;Ռումիներեն','=135.1','Ռումիներեն','','','',false,true);
+d.add(43,14,'=14','<div class="nodetag">=14</div></span>&nbsp;&nbsp;Հունարեն','=14','Հունարեն','','','',false,true);
+d.add(44,14,'=15','<div class="nodetag">=15</div></span>&nbsp;&nbsp;Կելտական լեզուներ','=15','Կելտական լեզուներ','','','',false,true);
+d.add(45,44,'=152','<div class="nodetag">=152</div></span>&nbsp;&nbsp;Գոյդելական խումբ','=152','Գոյդելական խումբ','','','',false,true);
+d.add(46,45,'=152.1','<div class="nodetag">=152.1</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Irish</span>','=152.1','Irish','','','',false,true);
+d.add(47,45,'=152.2','<div class="nodetag">=152.2</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Scots Gaelic</span>','=152.2','Scots Gaelic','','','',false,true);
+d.add(48,44,'=153','<div class="nodetag">=153</div></span>&nbsp;&nbsp;Բրիտանական խումբ','=153','Բրիտանական խումբ','','','',false,true);
+d.add(49,14,'=16','<div class="nodetag">=16</div></span>&nbsp;&nbsp;Սլավոնական լեզուներ','=16','Սլավոնական լեզուներ','','','',false,true);
+d.add(50,49,'=161','<div class="nodetag">=161</div></span>&nbsp;&nbsp;Արևելասլավոնական լեզուներ','=161','Արևելասլավոնական լեզուներ','','','',false,true);
+d.add(51,50,'=161.1','<div class="nodetag">=161.1</div></span>&nbsp;&nbsp;Ռուսերեն','=161.1','Ռուսերեն','','','',false,true);
+d.add(52,50,'=161.2','<div class="nodetag">=161.2</div></span>&nbsp;&nbsp;Ուկրաիներեն','=161.2','Ուկրաիներեն','','','',false,true);
+d.add(53,50,'=161.3','<div class="nodetag">=161.3</div></span>&nbsp;&nbsp;Բելառուսերեն','=161.3','Բելառուսերեն','','','',false,true);
+d.add(54,49,'=162','<div class="nodetag">=162</div></span>&nbsp;&nbsp;Արևմտասլավոնական լեզուներ','=162','Արևմտասլավոնական լեզուներ','','','',false,true);
+d.add(55,54,'=162.1','<div class="nodetag">=162.1</div></span>&nbsp;&nbsp;Լեհերեն','=162.1','Լեհերեն','','','',false,true);
+d.add(56,54,'=162.3','<div class="nodetag">=162.3</div></span>&nbsp;&nbsp;Չեխերեն','=162.3','Չեխերեն','','','',false,true);
+d.add(57,54,'=162.4','<div class="nodetag">=162.4</div></span>&nbsp;&nbsp;Սլովակերեն','=162.4','Սլովակերեն','','','',false,true);
+d.add(58,49,'=163','<div class="nodetag">=163</div></span>&nbsp;&nbsp;Հարավսլավոնական լեզուներ','=163','Հարավսլավոնական լեզուներ','','','',false,true);
+d.add(59,58,'=163.2','<div class="nodetag">=163.2</div></span>&nbsp;&nbsp;Բուլղարերեն','=163.2','Բուլղարերեն','','','',false,true);
+d.add(60,58,'=163.3','<div class="nodetag">=163.3</div></span>&nbsp;&nbsp;Մակեդոներեն','=163.3','Մակեդոներեն','','','',false,true);
+d.add(61,58,'=163.4','<div class="nodetag">=163.4</div></span>&nbsp;&nbsp;Սերբերեն և խորվաթերեն','=163.4','Սերբերեն և խորվաթերեն','','','',false,true);
+d.add(62,61,'=163.41','<div class="nodetag">=163.41</div></span>&nbsp;&nbsp;Սերբերեն','=163.41','Սերբերեն','','','',false,true);
+d.add(63,61,'=163.42','<div class="nodetag">=163.42</div></span>&nbsp;&nbsp;Խորվաթերեն','=163.42','Խորվաթերեն','','','',false,true);
+d.add(64,58,'=163.6','<div class="nodetag">=163.6</div></span>&nbsp;&nbsp;Սլովեներեն','=163.6','Սլովեներեն','','','',false,true);
+d.add(65,14,'=17','<div class="nodetag">=17</div></span>&nbsp;&nbsp;Բալթյան լեզուներ','=17','Բալթյան լեզուներ','','','',false,true);
+d.add(66,65,'=172','<div class="nodetag">=172</div></span>&nbsp;&nbsp;Լիտվերեն','=172','Լիտվերեն','','','',false,true);
+d.add(67,65,'=174','<div class="nodetag">=174</div></span>&nbsp;&nbsp;Լատվերեն  (լատիշերեն)','=174','Լատվերեն  (լատիշերեն)','','','',false,true);
+d.add(68,14,'=18','<div class="nodetag">=18</div></span>&nbsp;&nbsp;Ալբաներեն','=18','Ալբաներեն','','','',false,true);
+d.add(69,14,'=19','<div class="nodetag">=19</div></span>&nbsp;&nbsp;Հայերեն','=19','Հայերեն','','','',false,true);
+d.add(70,13,'=2','<div class="nodetag">=2</div></span>&nbsp;&nbsp;Հնդիրանական, նուրիստանի և հնդեվրոպական մեռած լեզուներ','=2','Հնդիրանական, նուրիստանի և հնդեվրոպական մեռած լեզուներ','','','',false,true);
+d.add(71,70,'=21/=22','<div class="nodetag">=21/=22</div></span>&nbsp;&nbsp;Հնդիրանական լեզուներ','=21/=22','Հնդիրանական լեզուներ','','','',false,true);
+d.add(72,71,'=21','<div class="nodetag">=21</div></span>&nbsp;&nbsp;Հնդկական լեզուներ','=21','Հնդկական լեզուներ','','','',false,true);
+d.add(73,72,'=211','<div class="nodetag">=211</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Sanskrit</span>','=211','Sanskrit','','','',false,true);
+d.add(74,72,'=212','<div class="nodetag">=212</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Pali</span>','=212','Pali','','','',false,true);
+d.add(75,72,'=213','<div class="nodetag">=213</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Prakrit</span>','=213','Prakrit','','','',false,true);
+d.add(76,72,'=214','<div class="nodetag">=214</div></span>&nbsp;&nbsp;Ժամանակակից հնդկական լեզուներ','=214','Ժամանակակից հնդկական լեզուներ','','','',false,true);
+d.add(77,76,'=214.1','<div class="nodetag">=214.1</div></span>&nbsp;&nbsp;Դարդյան խումբ','=214.1','Դարդյան խումբ','','','',false,true);
+d.add(78,76,'=214.2','<div class="nodetag">=214.2</div></span>&nbsp;&nbsp;Կենտրոնական խումբ','=214.2','Կենտրոնական խումբ','','','',false,true);
+d.add(79,78,'=214.21','<div class="nodetag">=214.21</div></span>&nbsp;&nbsp;Հինդի','=214.21','Հինդի','','','',false,true);
+d.add(80,78,'=214.22','<div class="nodetag">=214.22</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Urdu</span>','=214.22','Urdu','','','',false,true);
+d.add(81,78,'=214.25','<div class="nodetag">=214.25</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Gujarati</span>','=214.25','Gujarati','','','',false,true);
+d.add(82,78,'=214.27','<div class="nodetag">=214.27</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Punjabi / Panjabi</span>','=214.27','Punjabi / Panjabi','','','',false,true);
+d.add(83,78,'=214.28','<div class="nodetag">=214.28</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Rajasthani</span>','=214.28','Rajasthani','','','',false,true);
+d.add(84,76,'=214.3','<div class="nodetag">=214.3</div></span>&nbsp;&nbsp;Արևելյան խումբ','=214.3','Արևելյան խումբ','','','',false,true);
+d.add(85,84,'=214.32','<div class="nodetag">=214.32</div></span>&nbsp;&nbsp;Բենգալերեն','=214.32','Բենգալերեն','','','',false,true);
+d.add(86,84,'=214.35','<div class="nodetag">=214.35</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Marathi</span>','=214.35','Marathi','','','',false,true);
+d.add(87,76,'=214.4','<div class="nodetag">=214.4</div></span>&nbsp;&nbsp;Հյուսիսային խումբ','=214.4','Հյուսիսային խումբ','','','',false,true);
+d.add(88,87,'=214.43','<div class="nodetag">=214.43</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Nepali</span>','=214.43','Nepali','','','',false,true);
+d.add(89,76,'=214.5','<div class="nodetag">=214.5</div></span>&nbsp;&nbsp;Հյուսիս-արևմտյան խումբ','=214.5','Հյուսիս-արևմտյան խումբ','','','',false,true);
+d.add(90,89,'=214.52','<div class="nodetag">=214.52</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Sindhi</span>','=214.52','Sindhi','','','',false,true);
+d.add(91,89,'=214.58','<div class="nodetag">=214.58</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Romany / Gipsy / Gypsy</span>','=214.58','Romany / Gipsy / Gypsy','','','',false,true);
+d.add(92,76,'=214.6','<div class="nodetag">=214.6</div></span>&nbsp;&nbsp;Սինհալ-մալդիվյան խումբ','=214.6','Սինհալ-մալդիվյան խումբ','','','',false,true);
+d.add(93,71,'=22','<div class="nodetag">=22</div></span>&nbsp;&nbsp;Իրանական լեզուներ','=22','Իրանական լեզուներ','','','',false,true);
+d.add(94,93,'=221','<div class="nodetag">=221</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Eastern Iranian languages</span>','=221','Eastern Iranian languages','','','',false,true);
+d.add(95,94,'=221.31','<div class="nodetag">=221.31</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Pashto (Pushto)</span>','=221.31','Pashto (Pushto)','','','',false,true);
+d.add(96,93,'=222/=223','<div class="nodetag">=222/=223</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Western Iranian languages</span>','=222/=223','Western Iranian languages','','','',false,true);
+d.add(97,96,'=222.1','<div class="nodetag">=222.1</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Persian</span>','=222.1','Persian','','','',false,true);
+d.add(98,96,'=222.5','<div class="nodetag">=222.5</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Kurdish</span>','=222.5','Kurdish','','','',false,true);
+d.add(99,70,'=29','<div class="nodetag">=29</div></span>&nbsp;&nbsp;Հնդեվրոպական մեռած լեզուներ (որևէ տեղ չնշված)','=29','Հնդեվրոպական մեռած լեզուներ (որևէ տեղ չնշված)','','','',false,true);
+d.add(100,12,'=3','<div class="nodetag">=3</div></span>&nbsp;&nbsp;Անհայտ ծագման մեռած լազուներ։ Կովկասյան լեզուներ','=3','Անհայտ ծագման մեռած լազուներ։ Կովկասյան լեզուներ','','','',false,true);
+d.add(101,100,'=34','<div class="nodetag">=34</div></span>&nbsp;&nbsp;Անհայտ ծագման մեռած լեզուներ, որով խոսում են միջերկրածովյան երկրներում և Մերձավոր Արևելքում (բացառությամբ սեմականի)','=34','Անհայտ ծագման մեռած լեզուներ, որով խոսում են միջերկրածովյան երկրներում և Մերձավոր Արևելքում (բացառությամբ սեմականի)','','','',false,true);
+d.add(102,100,'=35','<div class="nodetag">=35</div></span>&nbsp;&nbsp;Կովկասյան լեզուներ','=35','Կովկասյան լեզուներ','','','',false,true);
+d.add(103,102,'=351','<div class="nodetag">=351</div></span>&nbsp;&nbsp;Հյուսիս -արևելյան խումբ','=351','Հյուսիս -արևելյան խումբ','','','',false,true);
+d.add(104,102,'=352','<div class="nodetag">=352</div></span>&nbsp;&nbsp;Հյուսիս- արևմտյան խումբ','=352','Հյուսիս- արևմտյան խումբ','','','',false,true);
+d.add(105,102,'=353','<div class="nodetag">=353</div></span>&nbsp;&nbsp;Հարավային քարթվելական խումբ','=353','Հարավային քարթվելական խումբ','','','',false,true);
+d.add(106,105,'=353.1','<div class="nodetag">=353.1</div></span>&nbsp;&nbsp;Վրացերեն','=353.1','Վրացերեն','','','',false,true);
+d.add(107,100,'=361','<div class="nodetag">=361</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Basque / Euskera / Euskara</span>','=361','Basque / Euskera / Euskara','','','',false,true);
+d.add(108,12,'=4','<div class="nodetag">=4</div></span>&nbsp;&nbsp;Աֆրո-ասիական, նեղոսա-սահարական, կոնգո-կորդոֆանական , կոյսան լեզուներ','=4','Աֆրո-ասիական, նեղոսա-սահարական, կոնգո-կորդոֆանական , կոյսան լեզուներ','','','',false,true);
+d.add(109,108,'=41','<div class="nodetag">=41</div></span>&nbsp;&nbsp;Աֆրո-ասիական (քամա-սեմական) լեզուներ','=41','Աֆրո-ասիական (քամա-սեմական) լեզուներ','','','',false,true);
+d.add(110,109,'=411','<div class="nodetag">=411</div></span>&nbsp;&nbsp;Սեմական լեզուներ','=411','Սեմական լեզուներ','','','',false,true);
+d.add(111,110,'=411.1','<div class="nodetag">=411.1</div></span>&nbsp;&nbsp;Հյուսիս –սեմական լեզուներ','=411.1','Հյուսիս –սեմական լեզուներ','','','',false,true);
+d.add(112,111,'=411.16','<div class="nodetag">=411.16</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Hebrew</span>','=411.16','Hebrew','','','',false,true);
+d.add(113,110,'=411.2','<div class="nodetag">=411.2</div></span>&nbsp;&nbsp;Հարավ-արևմտյան սեմական լեզուներ','=411.2','Հարավ-արևմտյան սեմական լեզուներ','','','',false,true);
+d.add(114,113,'=411.21','<div class="nodetag">=411.21</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Arabic</span>','=411.21','Arabic','','','',false,true);
+d.add(115,110,'=411.3','<div class="nodetag">=411.3</div></span>&nbsp;&nbsp;Հարավ-արևելյան սեմական լեզուներ','=411.3','Հարավ-արևելյան սեմական լեզուներ','','','',false,true);
+d.add(116,110,'=411.4','<div class="nodetag">=411.4</div></span>&nbsp;&nbsp;Եթովպա-սեմական լեզուներ','=411.4','Եթովպա-սեմական լեզուներ','','','',false,true);
+d.add(117,109,'=412','<div class="nodetag">=412</div></span>&nbsp;&nbsp;Եգիպտա-ղպտիական լեզուներ','=412','Եգիպտա-ղպտիական լեզուներ','','','',false,true);
+d.add(118,109,'=413','<div class="nodetag">=413</div></span>&nbsp;&nbsp;Բերբերական լեզուներ','=413','Բերբերական լեզուներ','','','',false,true);
+d.add(119,109,'=414','<div class="nodetag">=414</div></span>&nbsp;&nbsp;Չադական լեզուներ','=414','Չադական լեզուներ','','','',false,true);
+d.add(120,119,'=414.231','<div class="nodetag">=414.231</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Hausa</span>','=414.231','Hausa','','','',false,true);
+d.add(121,109,'=415','<div class="nodetag">=415</div></span>&nbsp;&nbsp;Քուշական լեզուներ','=415','Քուշական լեզուներ','','','',false,true);
+d.add(122,109,'=416','<div class="nodetag">=416</div></span>&nbsp;&nbsp;Օմոտիկական լեզուներ','=416','Օմոտիկական լեզուներ','','','',false,true);
+d.add(123,108,'=42','<div class="nodetag">=42</div></span>&nbsp;&nbsp;Նեղոսա-սահարական լեզուներ','=42','Նեղոսա-սահարական լեզուներ','','','',false,true);
+d.add(124,123,'=422','<div class="nodetag">=422</div></span>&nbsp;&nbsp;Սահարական ճյուղ','=422','Սահարական ճյուղ','','','',false,true);
+d.add(125,123,'=425','<div class="nodetag">=425</div></span>&nbsp;&nbsp;Կոմանական լեզուներ','=425','Կոմանական լեզուներ','','','',false,true);
+d.add(126,123,'=426','<div class="nodetag">=426</div></span>&nbsp;&nbsp;Չարի-նեղոսյան ճյուղ','=426','Չարի-նեղոսյան ճյուղ','','','',false,true);
+d.add(127,108,'=43','<div class="nodetag">=43</div></span>&nbsp;&nbsp;Կոնգո-կորդոֆանական լեզուներ','=43','Կոնգո-կորդոֆանական լեզուներ','','','',false,true);
+d.add(128,127,'=431','<div class="nodetag">=431</div></span>&nbsp;&nbsp;Կորդոֆանական լեզվախումբ','=431','Կորդոֆանական լեզվախումբ','','','',false,true);
+d.add(129,127,'=432','<div class="nodetag">=432</div></span>&nbsp;&nbsp;Նիգերա - կոնգոլեզյան լեզվախումբ','=432','Նիգերա - կոնգոլեզյան լեզվախումբ','','','',false,true);
+d.add(130,108,'=45','<div class="nodetag">=45</div></span>&nbsp;&nbsp;Կոյսան լեզվախումբ','=45','Կոյսան լեզվախումբ','','','',false,true);
+d.add(131,12,'=5','<div class="nodetag">=5</div></span>&nbsp;&nbsp;Ուրալ-ալթայական, ճապոնական, կորեական, հին սիբիրական, էսկիմո-ալեութական, դրավիդյան լեզուներ, չին-տիբեթական լեզուներ','=5','Ուրալ-ալթայական, ճապոնական, կորեական, հին սիբիրական, էսկիմո-ալեութական, դրավիդյան լեզուներ, չին-տիբեթական լեզուներ','','','',false,true);
+d.add(132,131,'=51','<div class="nodetag">=51</div></span>&nbsp;&nbsp;Ուրալ-ալթայական լեզուներ','=51','Ուրալ-ալթայական լեզուներ','','','',false,true);
+d.add(133,132,'=511','<div class="nodetag">=511</div></span>&nbsp;&nbsp;Ուրալական լեզուներ','=511','Ուրալական լեզուներ','','','',false,true);
+d.add(134,133,'=511.1','<div class="nodetag">=511.1</div></span>&nbsp;&nbsp;Ֆիննա-ուգրական լեզուներ','=511.1','Ֆիննա-ուգրական լեզուներ','','','',false,true);
+d.add(135,134,'=511.11','<div class="nodetag">=511.11</div></span>&nbsp;&nbsp;Ֆիննական լեզուներ','=511.11','Ֆիննական լեզուներ','','','',false,true);
+d.add(136,135,'=511.111','<div class="nodetag">=511.111</div></span>&nbsp;&nbsp;Ֆիններեն','=511.111','Ֆիններեն','','','',false,true);
+d.add(137,135,'=511.113','<div class="nodetag">=511.113</div></span>&nbsp;&nbsp;Էստոներեն','=511.113','Էստոներեն','','','',false,true);
+d.add(138,134,'=511.12','<div class="nodetag">=511.12</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Sami / Saami / Lappic languages</span>','=511.12','Sami / Saami / Lappic languages','','','',false,true);
+d.add(139,134,'=511.14','<div class="nodetag">=511.14</div></span>&nbsp;&nbsp;Ուգրական լեզուներ','=511.14','Ուգրական լեզուներ','','','',false,true);
+d.add(140,139,'=511.141','<div class="nodetag">=511.141</div></span>&nbsp;&nbsp;Հունգարերեն','=511.141','Հունգարերեն','','','',false,true);
+d.add(141,133,'=511.2','<div class="nodetag">=511.2</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Samoyedic languages</span>','=511.2','Samoyedic languages','','','',false,true);
+d.add(142,132,'=512','<div class="nodetag">=512</div></span>&nbsp;&nbsp;Ալթայական լեզուներ','=512','Ալթայական լեզուներ','','','',false,true);
+d.add(143,142,'=512.1','<div class="nodetag">=512.1</div></span>&nbsp;&nbsp;Թյուրքական լեզուներ','=512.1','Թյուրքական լեզուներ','','','',false,true);
+d.add(144,143,'=512.12','<div class="nodetag">=512.12</div></span>&nbsp;&nbsp;Թյուրքական լեզուների կենտրոնական խումբ','=512.12','Թյուրքական լեզուների կենտրոնական խումբ','','','',false,true);
+d.add(145,144,'=512.122','<div class="nodetag">=512.122</div></span>&nbsp;&nbsp;Ղազախերեն','=512.122','Ղազախերեն','','','',false,true);
+d.add(146,143,'=512.13','<div class="nodetag">=512.13</div></span>&nbsp;&nbsp;Թյուրքական լեզուների արևելյան (կարլյուկյան)խումբ','=512.13','Թյուրքական լեզուների արևելյան (կարլյուկյան)խումբ','','','',false,true);
+d.add(147,146,'=512.133','<div class="nodetag">=512.133</div></span>&nbsp;&nbsp;Ուզբեկերեն','=512.133','Ուզբեկերեն','','','',false,true);
+d.add(148,143,'=512.14','<div class="nodetag">=512.14</div></span>&nbsp;&nbsp;Թյուրքական լեզուների արևմտյան խումբ','=512.14','Թյուրքական լեզուների արևմտյան խումբ','','','',false,true);
+d.add(149,143,'=512.15','<div class="nodetag">=512.15</div></span>&nbsp;&nbsp;Թյուրքական լեզուների հյուսիսային խումբ','=512.15','Թյուրքական լեզուների հյուսիսային խումբ','','','',false,true);
+d.add(150,149,'=512.154','<div class="nodetag">=512.154</div></span>&nbsp;&nbsp;Կիրգիզերեն','=512.154','Կիրգիզերեն','','','',false,true);
+d.add(151,143,'=512.16','<div class="nodetag">=512.16</div></span>&nbsp;&nbsp;Թուրքական լեզուների հարավային խումբ','=512.16','Թուրքական լեզուների հարավային խումբ','','','',false,true);
+d.add(152,151,'=512.161','<div class="nodetag">=512.161</div></span>&nbsp;&nbsp;Թուրքերեն','=512.161','Թուրքերեն','','','',false,true);
+d.add(153,151,'=512.162','<div class="nodetag">=512.162</div></span>&nbsp;&nbsp;Ադրբեջաներեն','=512.162','Ադրբեջաներեն','','','',false,true);
+d.add(154,151,'=512.164','<div class="nodetag">=512.164</div></span>&nbsp;&nbsp;Թուրքմեներեն','=512.164','Թուրքմեներեն','','','',false,true);
+d.add(155,142,'=512.2','<div class="nodetag">=512.2</div></span>&nbsp;&nbsp;Տունգուսական լեզուներ','=512.2','Տունգուսական լեզուներ','','','',false,true);
+d.add(156,142,'=512.3','<div class="nodetag">=512.3</div></span>&nbsp;&nbsp;Մոնղոլական լեզուներ','=512.3','Մոնղոլական լեզուներ','','','',false,true);
+d.add(157,131,'=521','<div class="nodetag">=521</div></span>&nbsp;&nbsp;Ճապոներեն','=521','Ճապոներեն','','','',false,true);
+d.add(158,131,'=531','<div class="nodetag">=531</div></span>&nbsp;&nbsp;Կորեերեն','=531','Կորեերեն','','','',false,true);
+d.add(159,131,'=541','<div class="nodetag">=541</div></span>&nbsp;&nbsp;Այներեն','=541','Այներեն','','','',false,true);
+d.add(160,131,'=55','<div class="nodetag">=55</div></span>&nbsp;&nbsp;Հին սիբիրյան լեզուներ','=55','Հին սիբիրյան լեզուներ','','','',false,true);
+d.add(161,131,'=56','<div class="nodetag">=56</div></span>&nbsp;&nbsp;Էսկիմոսալեուտյան լեզուներ','=56','Էսկիմոսալեուտյան լեզուներ','','','',false,true);
+d.add(162,131,'=58','<div class="nodetag">=58</div></span>&nbsp;&nbsp;Չին-տիբեթական լեզուներ','=58','Չին-տիբեթական լեզուներ','','','',false,true);
+d.add(163,162,'=581','<div class="nodetag">=581</div></span>&nbsp;&nbsp;Չինական լեզուներ','=581','Չինական լեզուներ','','','',false,true);
+d.add(164,162,'=582','<div class="nodetag">=582</div></span>&nbsp;&nbsp;Թայ լեզուներ','=582','Թայ լեզուներ','','','',false,true);
+d.add(165,162,'=583','<div class="nodetag">=583</div></span>&nbsp;&nbsp;Մյաո-յաո լեզուներ','=583','Մյաո-յաո լեզուներ','','','',false,true);
+d.add(166,162,'=584','<div class="nodetag">=584</div></span>&nbsp;&nbsp;Տիբեթա-բիրմայական լեզուներ','=584','Տիբեթա-բիրմայական լեզուներ','','','',false,true);
+d.add(167,12,'=6','<div class="nodetag">=6</div></span>&nbsp;&nbsp;Ավստրոասիական լեզուներ։ Ավստրոնեզիական լեզուներ','=6','Ավստրոասիական լեզուներ։ Ավստրոնեզիական լեզուներ','','','',false,true);
+d.add(168,167,'=61','<div class="nodetag">=61</div></span>&nbsp;&nbsp;Ավստրոասիական լեզուներ','=61','Ավստրոասիական լեզուներ','','','',false,true);
+d.add(169,168,'=611','<div class="nodetag">=611</div></span>&nbsp;&nbsp;Մալակյան խումբ','=611','Մալակյան խումբ','','','',false,true);
+d.add(170,168,'=612','<div class="nodetag">=612</div></span>&nbsp;&nbsp;Մոն-քմերական լեզուներ','=612','Մոն-քմերական լեզուներ','','','',false,true);
+d.add(171,170,'=612.4','<div class="nodetag">=612.4</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Cambodian / Khmer</span>','=612.4','Cambodian / Khmer','','','',false,true);
+d.add(172,170,'=612.91','<div class="nodetag">=612.91</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Vietnamese</span>','=612.91','Vietnamese','','','',false,true);
+d.add(173,168,'=613','<div class="nodetag">=613</div></span>&nbsp;&nbsp;Մունդա լեզուներ','=613','Մունդա լեզուներ','','','',false,true);
+d.add(174,168,'=614','<div class="nodetag">=614</div></span>&nbsp;&nbsp;Նիկոբարյան խումբ','=614','Նիկոբարյան խումբ','','','',false,true);
+d.add(175,167,'=62','<div class="nodetag">=62</div></span>&nbsp;&nbsp;Ավստրոնեզիական լեզուներ','=62','Ավստրոնեզիական լեզուներ','','','',false,true);
+d.add(176,175,'=621','<div class="nodetag">=621</div></span>&nbsp;&nbsp;Մալայա-պոլինեզյան լեզուներ','=621','Մալայա-պոլինեզյան լեզուներ','','','',false,true);
+d.add(177,176,'=621.251','<div class="nodetag">=621.251</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Malay / Bahasa Indonesia / Bahasa Malaysia</span>','=621.251','Malay / Bahasa Indonesia / Bahasa Malaysia','','','',false,true);
+d.add(178,175,'=622','<div class="nodetag">=622</div></span>&nbsp;&nbsp;Օվկիանիայի լեզուներ','=622','Օվկիանիայի լեզուներ','','','',false,true);
+d.add(179,12,'=7','<div class="nodetag">=7</div></span>&nbsp;&nbsp;Հնդ-խաղաղօվկանոսյան լեզուներ։ Ավստրալիական լեզուներ','=7','Հնդ-խաղաղօվկանոսյան լեզուներ։ Ավստրալիական լեզուներ','','','',false,true);
+d.add(180,179,'=71','<div class="nodetag">=71</div></span>&nbsp;&nbsp;Հնդ-խաղաղօվկիանոսյան լեզուներ','=71','Հնդ-խաղաղօվկիանոսյան լեզուներ','','','',false,true);
+d.add(181,180,'=713','<div class="nodetag">=713</div></span>&nbsp;&nbsp;Նոր գվինեական լեզուներ','=713','Նոր գվինեական լեզուներ','','','',false,true);
+d.add(182,180,'=714','<div class="nodetag">=714</div></span>&nbsp;&nbsp;Հյուսիս-արևելյան գվինեերեն (մադանգ)','=714','Հյուսիս-արևելյան գվինեերեն (մադանգ)','','','',false,true);
+d.add(183,180,'=715','<div class="nodetag">=715</div></span>&nbsp;&nbsp;Արևմտյան նոր գվինեական լեզուներ','=715','Արևմտյան նոր գվինեական լեզուներ','','','',false,true);
+d.add(184,180,'=716','<div class="nodetag">=716</div></span>&nbsp;&nbsp;Բուգենվիլյան լեզուներ','=716','Բուգենվիլյան լեզուներ','','','',false,true);
+d.add(185,180,'=718','<div class="nodetag">=718</div></span>&nbsp;&nbsp;Տասմաներեն','=718','Տասմաներեն','','','',false,true);
+d.add(186,180,'=719','<div class="nodetag">=719</div></span>&nbsp;&nbsp;Հնդ-խաղաղօվկիանոսյան այլ լեզուներ','=719','Հնդ-խաղաղօվկիանոսյան այլ լեզուներ','','','',false,true);
+d.add(187,179,'=72','<div class="nodetag">=72</div></span>&nbsp;&nbsp;Ավստրալիական լեզուներ','=72','Ավստրալիական լեզուներ','','','',false,true);
+d.add(188,187,'=721','<div class="nodetag">=721</div></span>&nbsp;&nbsp;Ավստրալիական   լեզուներ, պապա-մարիկ խումբ','=721','Ավստրալիական   լեզուներ, պապա-մարիկ խումբ','','','',false,true);
+d.add(189,187,'=722','<div class="nodetag">=722</div></span>&nbsp;&nbsp;Ավստրալիական   լեզուներ, պապա-նյունգան խումբ','=722','Ավստրալիական   լեզուներ, պապա-նյունգան խումբ','','','',false,true);
+d.add(190,187,'=729','<div class="nodetag">=729</div></span>&nbsp;&nbsp;Ավստալիական այլ լեզուներ','=729','Ավստալիական այլ լեզուներ','','','',false,true);
+d.add(191,12,'=8','<div class="nodetag">=8</div></span>&nbsp;&nbsp;Ամերիկյան հնդկացիական լեզուներ','=8','Ամերիկյան հնդկացիական լեզուներ','','','',false,true);
+d.add(192,191,'=81','<div class="nodetag">=81</div></span>&nbsp;&nbsp;Կանադայի, ԱՄՆ -ի և Հյուսիս-Կենտրոնական Մեքսիկայի բնիկների լեզուներ','=81','Կանադայի, ԱՄՆ -ի և Հյուսիս-Կենտրոնական Մեքսիկայի բնիկների լեզուներ','','','',false,true);
+d.add(193,191,'=82','<div class="nodetag">=82</div></span>&nbsp;&nbsp;Ամերիկայի Հյուսիս-Արևմտյան Ափի,  Մեքսիկայի և Յուկատանի բնիկների լեզուներ','=82','Ամերիկայի Հյուսիս-Արևմտյան Ափի,  Մեքսիկայի և Յուկատանի բնիկների լեզուներ','','','',false,true);
+d.add(194,193,'=821.24','<div class="nodetag">=821.24</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Mixe-Zoque languages</span>','=821.24','Mixe-Zoque languages','','','',false,true);
+d.add(195,193,'=822.21','<div class="nodetag">=822.21</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Nahuatl</span>','=822.21','Nahuatl','','','',false,true);
+d.add(196,193,'=823.7','<div class="nodetag">=823.7</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Zapotecan languages</span>','=823.7','Zapotecan languages','','','',false,true);
+d.add(197,191,'=84/=88','<div class="nodetag">=84/=88</div></span>&nbsp;&nbsp;Կենտրոնական և Հարավային Ամերիկայի բնիկների   լեզուներ','=84/=88','Կենտրոնական և Հարավային Ամերիկայի բնիկների   լեզուներ','','','',false,true);
+d.add(198,197,'=84','<div class="nodetag">=84</div></span>&nbsp;&nbsp;Գե-Պանո կարիբյան  լեզուներ։ Մակրո-չիբչա լեզուներ','=84','Գե-Պանո կարիբյան  լեզուներ։ Մակրո-չիբչա լեզուներ','','','',false,true);
+d.add(199,198,'=842','<div class="nodetag">=842</div></span>&nbsp;&nbsp;Գե-Պանո կարիբյան  լեզուներ','=842','Գե-Պանո կարիբյան  լեզուներ','','','',false,true);
+d.add(200,198,'=845','<div class="nodetag">=845</div></span>&nbsp;&nbsp;Մակրո-չիբչա լեզուներ','=845','Մակրո-չիբչա լեզուներ','','','',false,true);
+d.add(201,197,'=85','<div class="nodetag">=85</div></span>&nbsp;&nbsp;Անդյան լեզուներ ։ Հասարակածային լեզուներ ','=85','Անդյան լեզուներ ։ Հասարակածային լեզուներ ','','','',false,true);
+d.add(202,201,'=852','<div class="nodetag">=852</div></span>&nbsp;&nbsp;Անդյան լեզուներ','=852','Անդյան լեզուներ','','','',false,true);
+d.add(203,202,'=852.11','<div class="nodetag">=852.11</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Aymara</span>','=852.11','Aymara','','','',false,true);
+d.add(204,202,'=852.2','<div class="nodetag">=852.2</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Quechuan languages</span>','=852.2','Quechuan languages','','','',false,true);
+d.add(205,202,'=852.5','<div class="nodetag">=852.5</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Araucanian languages</span>','=852.5','Araucanian languages','','','',false,true);
+d.add(206,205,'=852.51','<div class="nodetag">=852.51</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Mapuche / Mapudungun</span>','=852.51','Mapuche / Mapudungun','','','',false,true);
+d.add(207,201,'=855','<div class="nodetag">=855</div></span>&nbsp;&nbsp;Հասարակածային լեզուներ ','=855','Հասարակածային լեզուներ ','','','',false,true);
+d.add(208,207,'=855.21','<div class="nodetag">=855.21</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Guarani languages</span>','=855.21','Guarani languages','','','',false,true);
+d.add(209,197,'=86','<div class="nodetag">=86</div></span>&nbsp;&nbsp;Չակո  լեզուներ։Պատագոնյան  լեզուներ','=86','Չակո  լեզուներ։Պատագոնյան  լեզուներ','','','',false,true);
+d.add(210,209,'=862','<div class="nodetag">=862</div></span>&nbsp;&nbsp;Չակո  լեզուներ','=862','Չակո  լեզուներ','','','',false,true);
+d.add(211,209,'=865','<div class="nodetag">=865</div></span>&nbsp;&nbsp;Պատագոնյան  լեզուներ','=865','Պատագոնյան  լեզուներ','','','',false,true);
+d.add(212,197,'=88','<div class="nodetag">=88</div></span>&nbsp;&nbsp;Մեկուսացված, չդասակարգված Կենտրոնական և Հարավային Ամերիկայի հնդկացիական լեզուներ','=88','Մեկուսացված, չդասակարգված Կենտրոնական և Հարավային Ամերիկայի հնդկացիական լեզուներ','','','',false,true);
+d.add(213,11,'=9','<div class="nodetag">=9</div></span>&nbsp;&nbsp;Արհեստական լեզուներ','=9','Արհեստական լեզուներ','','','',false,true);
+d.add(214,213,'=92','<div class="nodetag">=92</div></span>&nbsp;&nbsp;Արհեստական լեզուներ մարդկանց հաղորդակցման համար։ Միջազգային օժանդակ լեզուներ','=92','Արհեստական լեզուներ մարդկանց հաղորդակցման համար։ Միջազգային օժանդակ լեզուներ','','','',false,true);
+d.add(215,214,'=922','<div class="nodetag">=922</div></span>&nbsp;&nbsp;Էսպերանտո  (մշակել է Զամենհոֆը)','=922','Էսպերանտո  (մշակել է Զամենհոֆը)','','','',false,true);
+d.add(216,213,'=93','<div class="nodetag">=93</div></span>&nbsp;&nbsp;Արհեստական լեզուներ մեքենաների հրահանգավորման համար: Ծրագրավորման լեզուներ։ Համակարգչային լեզուներ','=93','Արհեստական լեզուներ մեքենաների հրահանգավորման համար: Ծրագրավորման լեզուներ։ Համակարգչային լեզուներ','','','',false,true);
+d.add(217,0,'(0...)','<div class="nodetag">(0...)</div></span>&nbsp;&nbsp;Ձևի ընդհանուր որոշիչներ Աղ. 1d ( 0 ...)','(0...)','Ձևի ընդհանուր որոշիչներ Աղ. 1d ( 0 ...)','','','',false,true);
+d.add(218,217,'(0.02/.08)','<div class="nodetag">(0.02/.08)</div></span>&nbsp;&nbsp;Փաստաթղթերի ֆիզիկական հատկությունների, արտադրության, օգտագործման առանձնահատկությունների, լրացուցիչ նշանակության հատուկ օժանդակ որոշիչներ','(0.02/.08)','Փաստաթղթերի ֆիզիկական հատկությունների, արտադրության, օգտագործման առանձնահատկությունների, լրացուցիչ նշանակության հատուկ օժանդակ որոշիչներ','','','',false,true);
+d.add(219,218,'(0.02)','<div class="nodetag">(0.02)</div></span>&nbsp;&nbsp;Փաստաթղթեր` ըստ ֆիզիկական և արտաքին ձևի','(0.02)','Փաստաթղթեր` ըստ ֆիզիկական և արտաքին ձևի','','','',false,true);
+d.add(220,218,'(0.03)','<div class="nodetag">(0.03)</div></span>&nbsp;&nbsp;Փաստաթղթեր՝ ըստ թողարկման և հրատարակման ձևի','(0.03)','Փաստաթղթեր՝ ըստ թողարկման և հրատարակման ձևի','','','',false,true);
+d.add(221,220,'(0.032)','<div class="nodetag">(0.032)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Handwritten documents (autograph, holograph copies). Manuscripts. Pictorial documents (drawings, paintings)</span>','(0.032)','Handwritten documents (autograph, holograph copies). Manuscripts. Pictorial documents (drawings, paintings)','','','',false,true);
+d.add(222,220,'(0.034)','<div class="nodetag">(0.034)</div></span>&nbsp;&nbsp;Մեքենաընթեռնելի փաստաթղթեր','(0.034)','Մեքենաընթեռնելի փաստաթղթեր','','','',false,true);
+d.add(223,218,'(0.04)','<div class="nodetag">(0.04)</div></span>&nbsp;&nbsp;Փաստաթղթեր՝ ըստ պատրաստման  փուլերի','(0.04)','Փաստաթղթեր՝ ըստ պատրաստման  փուլերի','','','',false,true);
+d.add(224,218,'(0.05)','<div class="nodetag">(0.05)</div></span>&nbsp;&nbsp;Փաստաթղթեր՝ ըստ օգտվողների հատուկ խմբերի','(0.05)','Փաստաթղթեր՝ ըստ օգտվողների հատուկ խմբերի','','','',false,true);
+d.add(225,218,'(0.06)','<div class="nodetag">(0.06)</div></span>&nbsp;&nbsp;Փաստաթղթեր՝ ըստ ներկայացման և մատչելիության մակարդակի','(0.06)','Փաստաթղթեր՝ ըստ ներկայացման և մատչելիության մակարդակի','','','',false,true);
+d.add(226,218,'(0.07)','<div class="nodetag">(0.07)</div></span>&nbsp;&nbsp;Փաստաթղթերի հետ հրատարակված հավելվածներ','(0.07)','Փաստաթղթերի հետ հրատարակված հավելվածներ','','','',false,true);
+d.add(227,218,'(0.08)','<div class="nodetag">(0.08)</div></span>&nbsp;&nbsp;Փաստաթղթերի առանձին հրատարակված հավելվածներ կամ մասեր','(0.08)','Փաստաթղթերի առանձին հրատարակված հավելվածներ կամ մասեր','','','',false,true);
+d.add(228,217,'(01)','<div class="nodetag">(01)</div></span>&nbsp;&nbsp;Մատենագիտություններ','(01)','Մատենագիտություններ','','','',false,true);
+d.add(229,217,'(02)','<div class="nodetag">(02)</div></span>&nbsp;&nbsp;Գրքերն ամբողջուոթյամբ','(02)','Գրքերն ամբողջուոթյամբ','','','',false,true);
+d.add(230,217,'(03)','<div class="nodetag">(03)</div></span>&nbsp;&nbsp;Տեղեկատու հրատարակություններ','(03)','Տեղեկատու հրատարակություններ','','','',false,true);
+d.add(231,230,'(031)','<div class="nodetag">(031)</div></span>&nbsp;&nbsp;Հանրագիտարաններ','(031)','Հանրագիտարաններ','','','',false,true);
+d.add(232,230,'(035)','<div class="nodetag">(035)</div></span>&nbsp;&nbsp;Տեղեկագրքեր։ Ձեռնարկներ','(035)','Տեղեկագրքեր։ Ձեռնարկներ','','','',false,true);
+d.add(233,230,'(036)','<div class="nodetag">(036)</div></span>&nbsp;&nbsp;Ուղեցույցներ (գործնական և նկարագրական տեղակատվությամբ )','(036)','Ուղեցույցներ (գործնական և նկարագրական տեղակատվությամբ )','','','',false,true);
+d.add(234,230,'(038)','<div class="nodetag">(038)</div></span>&nbsp;&nbsp;Բառարաններ: Տերմինաբանական բառարաններ: Լեզվական բառարաններ','(038)','Բառարաններ: Տերմինաբանական բառարաններ: Լեզվական բառարաններ','','','',false,true);
+d.add(235,217,'(04)','<div class="nodetag">(04)</div></span>&nbsp;&nbsp;Ոչ պարբերական հրատարակություններ: Առանձնատիպեր','(04)','Ոչ պարբերական հրատարակություններ: Առանձնատիպեր','','','',false,true);
+d.add(236,235,'(041)','<div class="nodetag">(041)</div></span>&nbsp;&nbsp;Ծանուցատետրեր: Բրոշյուրներ (գրքույկներ)','(041)','Ծանուցատետրեր: Բրոշյուրներ (գրքույկներ)','','','',false,true);
+d.add(237,235,'(042)','<div class="nodetag">(042)</div></span>&nbsp;&nbsp;Հասցեներ, դասախոսություններ,զեկույցներ (ճառեր)','(042)','Հասցեներ, դասախոսություններ,զեկույցներ (ճառեր)','','','',false,true);
+d.add(238,235,'(043)','<div class="nodetag">(043)</div></span>&nbsp;&nbsp;Թեզեր, դիսերտացիաներ (ատենախոսություններ)','(043)','Թեզեր, դիսերտացիաներ (ատենախոսություններ)','','','',false,true);
+d.add(239,235,'(044)','<div class="nodetag">(044)</div></span>&nbsp;&nbsp;Անձնական փաստաթղթեր, թղթակցություններ, նամակներ, շրջաբերականներ','(044)','Անձնական փաստաթղթեր, թղթակցություններ, նամակներ, շրջաբերականներ','','','',false,true);
+d.add(240,235,'(045)','<div class="nodetag">(045)</div></span>&nbsp;&nbsp;Հոդվածներ շարունակական և պարբերական հրատարակություններում, գրառումներում, ժողովածուներում և այլն','(045)','Հոդվածներ շարունակական և պարբերական հրատարակություններում, գրառումներում, ժողովածուներում և այլն','','','',false,true);
+d.add(241,235,'(046)','<div class="nodetag">(046)</div></span>&nbsp;&nbsp;Թերթերի հոդվածներ','(046)','Թերթերի հոդվածներ','','','',false,true);
+d.add(242,235,'(047)','<div class="nodetag">(047)</div></span>&nbsp;&nbsp;Զեկույցներ։ Ծանուցումներ։ Ամփոփագրեր','(047)','Զեկույցներ։ Ծանուցումներ։ Ամփոփագրեր','','','',false,true);
+d.add(243,235,'(048)','<div class="nodetag">(048)</div></span>&nbsp;&nbsp;Մատենագիտական նկարագրություններ։ Քաղվածքներ։ Համառոտ շարադրանքներ։ Տեսություններ','(048)','Մատենագիտական նկարագրություններ։ Քաղվածքներ։ Համառոտ շարադրանքներ։ Տեսություններ','','','',false,true);
+d.add(244,235,'(049)','<div class="nodetag">(049)</div></span>&nbsp;&nbsp;Այլ ոչ պարբերական առանձնատիպեր','(049)','Այլ ոչ պարբերական առանձնատիպեր','','','',false,true);
+d.add(245,217,'(05)','<div class="nodetag">(05)</div></span>&nbsp;&nbsp;Շարունակական հրատարակություններ։ Պարբերականներ','(05)','Շարունակական հրատարակություններ։ Պարբերականներ','','','',false,true);
+d.add(246,245,'(051)','<div class="nodetag">(051)</div></span>&nbsp;&nbsp;Պարբերականներ (խիստ իմաստով)','(051)','Պարբերականներ (խիստ իմաստով)','','','',false,true);
+d.add(247,245,'(054)','<div class="nodetag">(054)</div></span>&nbsp;&nbsp;Թերթեր','(054)','Թերթեր','','','',false,true);
+d.add(248,245,'(055)','<div class="nodetag">(055)</div></span>&nbsp;&nbsp;Նորությունների ամփոփագրեր: Ամփոփագրեր։ Տեղեկատվական ամփոփագրեր','(055)','Նորությունների ամփոփագրեր: Ամփոփագրեր։ Տեղեկատվական ամփոփագրեր','','','',false,true);
+d.add(249,245,'(058)','<div class="nodetag">(058)</div></span>&nbsp;&nbsp;Տարեգրքեր։ Պարբերական տեղեկագրեր','(058)','Տարեգրքեր։ Պարբերական տեղեկագրեր','','','',false,true);
+d.add(250,245,'(059)','<div class="nodetag">(059)</div></span>&nbsp;&nbsp;Ալմանախներ։ Օրարցույցներ (բոլոր տեսակների)','(059)','Ալմանախներ։ Օրարցույցներ (բոլոր տեսակների)','','','',false,true);
+d.add(251,217,'(06)','<div class="nodetag">(06)</div></span>&nbsp;&nbsp;Ընկերությունների, միությունների, կազմակերպությունների վերաբերյալ հրատարակություններ','(06)','Ընկերությունների, միությունների, կազմակերպությունների վերաբերյալ հրատարակություններ','','','',false,true);
+d.add(252,217,'(07)','<div class="nodetag">(07)</div></span>&nbsp;&nbsp;Դասավանդման, ուսուցման, հետազոտման, գործնական ուսուցման համար փաստաթղթեր','(07)','Դասավանդման, ուսուցման, հետազոտման, գործնական ուսուցման համար փաստաթղթեր','','','',false,true);
+d.add(253,252,'(072)','<div class="nodetag">(072)</div></span>&nbsp;&nbsp;Օժանդակ նյութեր ուսուցման համար։ Մեթոդական ձեռնարկներ ուսուցիչների և դասավանդողների համար','(072)','Օժանդակ նյութեր ուսուցման համար։ Մեթոդական ձեռնարկներ ուսուցիչների և դասավանդողների համար','','','',false,true);
+d.add(254,252,'(073)','<div class="nodetag">(073)</div></span>&nbsp;&nbsp;Ուսումնական ծրագրեր և պլաններ','(073)','Ուսումնական ծրագրեր և պլաններ','','','',false,true);
+d.add(255,252,'(075)','<div class="nodetag">(075)</div></span>&nbsp;&nbsp;Դասագրքեր և ուսումնական ձեռնարկներ։ Դպրոցական դասագրքեր։ Բարձրագույն և միջնակարգ մասնագիտացված ուսումնական հաստատությունների դասագրքեր','(075)','Դասագրքեր և ուսումնական ձեռնարկներ։ Դպրոցական դասագրքեր։ Բարձրագույն և միջնակարգ մասնագիտացված ուսումնական հաստատությունների դասագրքեր','','','',false,true);
+d.add(256,252,'(076)','<div class="nodetag">(076)</div></span>&nbsp;&nbsp;Գործնական աշխատանքների ուսումնական ձեռնարկներ','(076)','Գործնական աշխատանքների ուսումնական ձեռնարկներ','','','',false,true);
+d.add(257,252,'(078)','<div class="nodetag">(078)</div></span>&nbsp;&nbsp;Ուսումնական այլ ձեռնարկներ և նյութեր','(078)','Ուսումնական այլ ձեռնարկներ և նյութեր','','','',false,true);
+d.add(258,252,'(079)','<div class="nodetag">(079)</div></span>&nbsp;&nbsp;Մրցույթների, թեսթերի, քննությունների վերաբերյալ ձեռնարկներ','(079)','Մրցույթների, թեսթերի, քննությունների վերաբերյալ ձեռնարկներ','','','',false,true);
+d.add(259,217,'(08)','<div class="nodetag">(08)</div></span>&nbsp;&nbsp;Ժողովածուներ և տպագրված երկեր։ Ձևեր։ Ցանկեր։ Նկարազարդումներ։ Գործարարության հրատարակություններ','(08)','Ժողովածուներ և տպագրված երկեր։ Ձևեր։ Ցանկեր։ Նկարազարդումներ։ Գործարարության հրատարակություններ','','','',false,true);
+d.add(260,259,'(081)','<div class="nodetag">(081)</div></span>&nbsp;&nbsp;Երկերի ժողովածուներ ։ Անհատ հեղինակների երկերի ժողովածուներ','(081)','Երկերի ժողովածուներ ։ Անհատ հեղինակների երկերի ժողովածուներ','','','',false,true);
+d.add(261,259,'(082)','<div class="nodetag">(082)</div></span>&nbsp;&nbsp;Տարբեր հեղինակների երկերի ժողովածուներ','(082)','Տարբեր հեղինակների երկերի ժողովածուներ','','','',false,true);
+d.add(262,259,'(083)','<div class="nodetag">(083)</div></span>&nbsp;&nbsp;Տեխնիկական և նորմատիվ փաստաթղթեր։ Աղյուսակներ։ Ցուցակներ','(083)','Տեխնիկական և նորմատիվ փաստաթղթեր։ Աղյուսակներ։ Ցուցակներ','','','',false,true);
+d.add(263,259,'(084)','<div class="nodetag">(084)</div></span>&nbsp;&nbsp;Պատկերներ ։ Գեղանկարչական և գրաֆիկական փաստաթղթեր','(084)','Պատկերներ ։ Գեղանկարչական և գրաֆիկական փաստաթղթեր','','','',false,true);
+d.add(264,259,'(085)','<div class="nodetag">(085)</div></span>&nbsp;&nbsp;Ձեռնարկատիրական ընկերությունների (արդյունաբերական, առևտրական) հրատարակություններ։ Առևտրական գովազդներ, տեղեկատվություն, գովազդային նյութեր','(085)','Ձեռնարկատիրական ընկերությունների (արդյունաբերական, առևտրական) հրատարակություններ։ Առևտրական գովազդներ, տեղեկատվություն, գովազդային նյութեր','','','',false,true);
+d.add(265,259,'(086)','<div class="nodetag">(086)</div></span>&nbsp;&nbsp;Եռաչափ փաստաթղթեր։ Ձայնագրություններ և տեսալսողական փաստաթղթեր','(086)','Եռաչափ փաստաթղթեր։ Ձայնագրություններ և տեսալսողական փաստաթղթեր','','','',false,true);
+d.add(266,265,'(086.3)','<div class="nodetag">(086.3)</div></span>&nbsp;&nbsp;Օրինակներ, առարկաներ որպես փաստաթղթեր','(086.3)','Օրինակներ, առարկաներ որպես փաստաթղթեր','','','',false,true);
+d.add(267,265,'(086.7)','<div class="nodetag">(086.7)</div></span>&nbsp;&nbsp;Լսողական փաստաթղթեր։ Ձայնագրություններ','(086.7)','Լսողական փաստաթղթեր։ Ձայնագրություններ','','','',false,true);
+d.add(268,265,'(086.8)','<div class="nodetag">(086.8)</div></span>&nbsp;&nbsp;Տեսագրություններ','(086.8)','Տեսագրություններ','','','',false,true);
+d.add(269,259,'(088)','<div class="nodetag">(088)</div></span>&nbsp;&nbsp;Ատեստավորում : Հատուկ նշանակության փաստաթղթեր','(088)','Ատեստավորում : Հատուկ նշանակության փաստաթղթեր','','','',false,true);
+d.add(270,217,'(09)','<div class="nodetag">(09)</div></span>&nbsp;&nbsp;Հրատարկություններ պատմական ձևով։ Պատմական և իրավական աղբյուրներ','(09)','Հրատարկություններ պատմական ձևով։ Պատմական և իրավական աղբյուրներ','','','',false,true);
+d.add(271,270,'(091)','<div class="nodetag">(091)</div></span>&nbsp;&nbsp;Պատմության ժամանակագրական շարադրում խիստ պատմական տեսանկյունից','(091)','Պատմության ժամանակագրական շարադրում խիստ պատմական տեսանկյունից','','','',false,true);
+d.add(272,270,'(092)','<div class="nodetag">(092)</div></span>&nbsp;&nbsp;Նյութի շարադրում կենսագրության տեսքով','(092)','Նյութի շարադրում կենսագրության տեսքով','','','',false,true);
+d.add(273,270,'(093)','<div class="nodetag">(093)</div></span>&nbsp;&nbsp;Պատմական աղբյուներ','(093)','Պատմական աղբյուներ','','','',false,true);
+d.add(274,270,'(094)','<div class="nodetag">(094)</div></span>&nbsp;&nbsp;Իրավական աղբյուրներ։ Իրավական փաստաթղթեր','(094)','Իրավական աղբյուրներ։ Իրավական փաստաթղթեր','','','',false,true);
+d.add(275,0,'(1/9)','<div class="nodetag">(1/9)</div></span>&nbsp;&nbsp;Ընդհանուր տարածքային որոշիչներ','(1/9)','Ընդհանուր տարածքային որոշիչներ','','','',false,true);
+d.add(276,275,'(1)','<div class="nodetag">(1)</div></span>&nbsp;&nbsp;Տեղը և տարածությունը ամբողջությամբ։ Տեղայնացում։ Կողմնորոշում','(1)','Տեղը և տարածությունը ամբողջությամբ։ Տեղայնացում։ Կողմնորոշում','','','',false,true);
+d.add(277,276,'(100)','<div class="nodetag">(100)</div></span>&nbsp;&nbsp;Ամբողջ աշխարհը։ Միջազգային։ Բոլոր երկրներն ամբողջությամբ','(100)','Ամբողջ աշխարհը։ Միջազգային։ Բոլոր երկրներն ամբողջությամբ','','','',false,true);
+d.add(278,275,'(1-0/-9)','<div class="nodetag">(1-0/-9)</div></span>&nbsp;&nbsp;Տարբեր տեսակի տարածքների և սահմանների հատուկ որոշիչներ','(1-0/-9)','Տարբեր տեսակի տարածքների և սահմանների հատուկ որոշիչներ','','','',false,true);
+d.add(279,278,'(1-0)','<div class="nodetag">(1-0)</div></span>&nbsp;&nbsp;Գոտիներ','(1-0)','Գոտիներ','','','',false,true);
+d.add(280,278,'(1-1)','<div class="nodetag">(1-1)</div></span>&nbsp;&nbsp;Կողմնորոշում։ Կողմնացույցի հատվածամասեր (աշխարհի կողմեր)։ Հարաբերական տեղադրություն','(1-1)','Կողմնորոշում։ Կողմնացույցի հատվածամասեր (աշխարհի կողմեր)։ Հարաբերական տեղադրություն','','','',false,true);
+d.add(281,280,'(1-11)','<div class="nodetag">(1-11)</div></span>&nbsp;&nbsp;Արևելք։ Արևելյան','(1-11)','Արևելք։ Արևելյան','','','',false,true);
+d.add(282,280,'(1-12)','<div class="nodetag">(1-12)</div></span>&nbsp;&nbsp;Հարավ-արևելք: Հարավ-արևելյան','(1-12)','Հարավ-արևելք: Հարավ-արևելյան','','','',false,true);
+d.add(283,280,'(1-13)','<div class="nodetag">(1-13)</div></span>&nbsp;&nbsp;Հարավ։ Հարավային','(1-13)','Հարավ։ Հարավային','','','',false,true);
+d.add(284,280,'(1-14)','<div class="nodetag">(1-14)</div></span>&nbsp;&nbsp;Հարավ-արևմուտք: Հարավ-արևմտյան','(1-14)','Հարավ-արևմուտք: Հարավ-արևմտյան','','','',false,true);
+d.add(285,280,'(1-15)','<div class="nodetag">(1-15)</div></span>&nbsp;&nbsp;Արևմուտք։ Արևմտյան','(1-15)','Արևմուտք։ Արևմտյան','','','',false,true);
+d.add(286,280,'(1-16)','<div class="nodetag">(1-16)</div></span>&nbsp;&nbsp;Հյուսիս-արևմուտք: Հյուսիս-արևմտյան','(1-16)','Հյուսիս-արևմուտք: Հյուսիս-արևմտյան','','','',false,true);
+d.add(287,280,'(1-17)','<div class="nodetag">(1-17)</div></span>&nbsp;&nbsp;Հյուսիս։ Հյուսիսային','(1-17)','Հյուսիս։ Հյուսիսային','','','',false,true);
+d.add(288,280,'(1-18)','<div class="nodetag">(1-18)</div></span>&nbsp;&nbsp;Հյուսիս-արևելք: Հյուսիս-արևելյան','(1-18)','Հյուսիս-արևելք: Հյուսիս-արևելյան','','','',false,true);
+d.add(289,280,'(1-19)','<div class="nodetag">(1-19)</div></span>&nbsp;&nbsp;Հարաբերական տեղադրություն, ուղղորդում և կողմնորոշում','(1-19)','Հարաբերական տեղադրություն, ուղղորդում և կողմնորոշում','','','',false,true);
+d.add(290,278,'(1-2/-4)','<div class="nodetag">(1-2/-4)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Political units. Administrative units</span>','(1-2/-4)','Political units. Administrative units','','','',false,true);
+d.add(291,290,'(1-2)','<div class="nodetag">(1-2)</div></span>&nbsp;&nbsp;Ստորին վարչական միավորումներ։ Տեղանքներ','(1-2)','Ստորին վարչական միավորումներ։ Տեղանքներ','','','',false,true);
+d.add(292,291,'(1-24)','<div class="nodetag">(1-24)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Joint local administrative units</span>','(1-24)','Joint local administrative units','','','',false,true);
+d.add(293,291,'(1-25)','<div class="nodetag">(1-25)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Capital cities. Metropolises</span>','(1-25)','Capital cities. Metropolises','','','',false,true);
+d.add(294,290,'(1-3)','<div class="nodetag">(1-3)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Larger units within the state</span>','(1-3)','Larger units within the state','','','',false,true);
+d.add(295,294,'(1-32)','<div class="nodetag">(1-32)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Higher-level administrative units. Provinces</span>','(1-32)','Higher-level administrative units. Provinces','','','',false,true);
+d.add(296,294,'(1-35)','<div class="nodetag">(1-35)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Middle-level administrative units</span>','(1-35)','Middle-level administrative units','','','',false,true);
+d.add(297,294,'(1-37)','<div class="nodetag">(1-37)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Lower-level administrative units</span>','(1-37)','Lower-level administrative units','','','',false,true);
+d.add(298,290,'(1-4)','<div class="nodetag">(1-4)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Units of highest (state) level. Nations. States. Confederations</span>','(1-4)','Units of highest (state) level. Nations. States. Confederations','','','',false,true);
+d.add(299,298,'(1-43)','<div class="nodetag">(1-43)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Constituent states within a confederation. Federal states. Autonomous republics</span>','(1-43)','Constituent states within a confederation. Federal states. Autonomous republics','','','',false,true);
+d.add(300,298,'(1-44)','<div class="nodetag">(1-44)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Empires. Combination of mother-country, dominions and colonies</span>','(1-44)','Empires. Combination of mother-country, dominions and colonies','','','',false,true);
+d.add(301,278,'(1-5)','<div class="nodetag">(1-5)</div></span>&nbsp;&nbsp;Կախյալ կամ կիսակախյալ տարածքներ','(1-5)','Կախյալ կամ կիսակախյալ տարածքներ','','','',false,true);
+d.add(302,278,'(1-6)','<div class="nodetag">(1-6)</div></span>&nbsp;&nbsp;Պետություններ կամ պետությունների խմբեր տարբեր տեսանկյուններից','(1-6)','Պետություններ կամ պետությունների խմբեր տարբեր տեսանկյուններից','','','',false,true);
+d.add(303,278,'(1-7)','<div class="nodetag">(1-7)</div></span>&nbsp;&nbsp;Վայրեր և տարածքներ համաձայն մեկուսացվածության և այլ առանձնահատկությունների','(1-7)','Վայրեր և տարածքներ համաձայն մեկուսացվածության և այլ առանձնահատկությունների','','','',false,true);
+d.add(304,278,'(1-8)','<div class="nodetag">(1-8)</div></span>&nbsp;&nbsp;Տեղանք։ Սկզբնաղբյուր։ Տարանցիկ։ Նպատակատեղ','(1-8)','Տեղանք։ Սկզբնաղբյուր։ Տարանցիկ։ Նպատակատեղ','','','',false,true);
+d.add(305,278,'(1-9)','<div class="nodetag">(1-9)</div></span>&nbsp;&nbsp;Տարածաշրջայնացում՝ ըստ հատուկ հայեցակետերի','(1-9)','Տարածաշրջայնացում՝ ըստ հատուկ հայեցակետերի','','','',false,true);
+d.add(306,275,'(2)','<div class="nodetag">(2)</div></span>&nbsp;&nbsp;Տեղանքի Ֆիզիկա-աշխարհագրական բնութագիր։ Աշխարհագրական միջավայր։ Ֆիզիկա-աշխարհագրական գոտիներ,օբյեկտներ','(2)','Տեղանքի Ֆիզիկա-աշխարհագրական բնութագիր։ Աշխարհագրական միջավայր։ Ֆիզիկա-աշխարհագրական գոտիներ,օբյեկտներ','','','',false,true);
+d.add(307,306,'(20)','<div class="nodetag">(20)</div></span>&nbsp;&nbsp;Էկոսֆերա','(20)','Էկոսֆերա','','','',false,true);
+d.add(308,306,'(21)','<div class="nodetag">(21)</div></span>&nbsp;&nbsp;Երկրի մակերևույթ։ Ցամաք։ Բնական գոտիներ և շրջաններ','(21)','Երկրի մակերևույթ։ Ցամաք։ Բնական գոտիներ և շրջաններ','','','',false,true);
+d.add(309,306,'(23)','<div class="nodetag">(23)</div></span>&nbsp;&nbsp;Ծովի մակարդակից բարձր։ Մակերևույթի ռելիեֆ ։ Երկրի մակարդակից բարձր ։ Լեռներ','(23)','Ծովի մակարդակից բարձր։ Մակերևույթի ռելիեֆ ։ Երկրի մակարդակից բարձր ։ Լեռներ','','','',false,true);
+d.add(310,306,'(24)','<div class="nodetag">(24)</div></span>&nbsp;&nbsp;Ծովի մակարդակից ցածր։ Ստորերկրյա։ Ստորգետնյա','(24)','Ծովի մակարդակից ցածր։ Ստորերկրյա։ Ստորգետնյա','','','',false,true);
+d.add(311,306,'(25)','<div class="nodetag">(25)</div></span>&nbsp;&nbsp;Բնական հարթավայր (հավասար, բարձր կամ ցածր ծովի մակարդակից)։  Բնական պայմանների հողեր՝ մշակված կամ բնակեցված','(25)','Բնական հարթավայր (հավասար, բարձր կամ ցածր ծովի մակարդակից)։  Բնական պայմանների հողեր՝ մշակված կամ բնակեցված','','','',false,true);
+d.add(312,306,'(26)','<div class="nodetag">(26)</div></span>&nbsp;&nbsp;Օվկիանոսներ, ծովեր և կապը նրանց միջև','(26)','Օվկիանոսներ, ծովեր և կապը նրանց միջև','','','',false,true);
+d.add(313,306,'(28)','<div class="nodetag">(28)</div></span>&nbsp;&nbsp;Ներքին ջրեր','(28)','Ներքին ջրեր','','','',false,true);
+d.add(314,275,'(3/9)','<div class="nodetag">(3/9)</div></span>&nbsp;&nbsp;Անտիկ և ժամանակակից աշխարհում առանձին վայրեր','(3/9)','Անտիկ և ժամանակակից աշխարհում առանձին վայրեր','','','',false,true);
+d.add(315,314,'(3)','<div class="nodetag">(3)</div></span>&nbsp;&nbsp;Հնադարյան և միջնադարյան երկրներ ու տեղանքներ','(3)','Հնադարյան և միջնադարյան երկրներ ու տեղանքներ','','','',false,true);
+d.add(316,315,'(31)','<div class="nodetag">(31)</div></span>&nbsp;&nbsp;Հին Չինաստան, Ճապոնիա','(31)','Հին Չինաստան, Ճապոնիա','','','',false,true);
+d.add(317,315,'(32)','<div class="nodetag">(32)</div></span>&nbsp;&nbsp;Հին Եգիպտոս','(32)','Հին Եգիպտոս','','','',false,true);
+d.add(318,315,'(33)','<div class="nodetag">(33)</div></span>&nbsp;&nbsp;Հրեաստան։ Սուրբ Երկիր։ Հրեական տարածաշրջան','(33)','Հրեաստան։ Սուրբ Երկիր։ Հրեական տարածաշրջան','','','',false,true);
+d.add(319,315,'(34)','<div class="nodetag">(34)</div></span>&nbsp;&nbsp;Հին Հնդկաստան','(34)','Հին Հնդկաստան','','','',false,true);
+d.add(320,315,'(35)','<div class="nodetag">(35)</div></span>&nbsp;&nbsp;Մարաստան: Պարսկաստան','(35)','Մարաստան: Պարսկաստան','','','',false,true);
+d.add(321,315,'(36)','<div class="nodetag">(36)</div></span>&nbsp;&nbsp;Բարբարոսների տարածաշրջաններ','(36)','Բարբարոսների տարածաշրջաններ','','','',false,true);
+d.add(322,315,'(37)','<div class="nodetag">(37)</div></span>&nbsp;&nbsp;Իտալիա։  Հին Հռոմ և Իտալիա','(37)','Իտալիա։  Հին Հռոմ և Իտալիա','','','',false,true);
+d.add(323,315,'(38)','<div class="nodetag">(38)</div></span>&nbsp;&nbsp;Հունաստան։ Հին Հունաստան','(38)','Հունաստան։ Հին Հունաստան','','','',false,true);
+d.add(324,315,'(399)','<div class="nodetag">(399)</div></span>&nbsp;&nbsp;Այլ տարածաշրջաններ։ Հին աշխարհագրական բաժանումներ','(399)','Այլ տարածաշրջաններ։ Հին աշխարհագրական բաժանումներ','','','',false,true);
+d.add(325,324,'(399.7)','<div class="nodetag">(399.7)</div></span>&nbsp;&nbsp;Հին ամերիկյան մշակութային տարածաշրջաններ։ Մինչկոլումբոսյան Ամերիկա','(399.7)','Հին ամերիկյան մշակութային տարածաշրջաններ։ Մինչկոլումբոսյան Ամերիկա','','','',false,true);
+d.add(326,314,'(4/9)','<div class="nodetag">(4/9)</div></span>&nbsp;&nbsp;ժամանակակից աշխարհի երկրներն ու վայրերը','(4/9)','ժամանակակից աշխարհի երկրներն ու վայրերը','','','',false,true);
+d.add(327,326,'(4)','<div class="nodetag">(4)</div></span>&nbsp;&nbsp;Եվրոպա','(4)','Եվրոպա','','','',false,true);
+d.add(328,327,'(41)','<div class="nodetag">(41)</div></span>&nbsp;&nbsp;Բրիտանական կղզիներ','(41)','Բրիտանական կղզիներ','','','',false,true);
+d.add(329,328,'(410)','<div class="nodetag">(410)</div></span>&nbsp;&nbsp;Մեծ Բրիտանիա: Մեծ Բրիտանիայի և Հյուսիսային Իռլանդիայի Միացյալ Թագավորություն','(410)','Մեծ Բրիտանիա: Մեծ Բրիտանիայի և Հյուսիսային Իռլանդիայի Միացյալ Թագավորություն','','','',false,true);
+d.add(330,328,'(417)','<div class="nodetag">(417)</div></span>&nbsp;&nbsp;Իռլանդիա: Իռլանդիայի Հանրապետություն','(417)','Իռլանդիա: Իռլանդիայի Հանրապետություն','','','',false,true);
+d.add(331,327,'(430)','<div class="nodetag">(430)</div></span>&nbsp;&nbsp;Գերմանիա: Գերմանիայի Դաշնային Հանրապետություն','(430)','Գերմանիա: Գերմանիայի Դաշնային Հանրապետություն','','','',false,true);
+d.add(332,327,'(435.9)','<div class="nodetag">(435.9)</div></span>&nbsp;&nbsp;Լյուքսեմբուրգ: Լյուքսեմբուրգի Մեծ Դքսություն','(435.9)','Լյուքսեմբուրգ: Լյուքսեմբուրգի Մեծ Դքսություն','','','',false,true);
+d.add(333,327,'(436)','<div class="nodetag">(436)</div></span>&nbsp;&nbsp;Ավստրիա: Ավսրիական Հանրապետություն','(436)','Ավստրիա: Ավսրիական Հանրապետություն','','','',false,true);
+d.add(334,327,'(437.3)','<div class="nodetag">(437.3)</div></span>&nbsp;&nbsp;Չեխիա : Չեխիայի Հանրապետություն','(437.3)','Չեխիա : Չեխիայի Հանրապետություն','','','',false,true);
+d.add(335,327,'(437.6)','<div class="nodetag">(437.6)</div></span>&nbsp;&nbsp;Սլովակիա: Սլովակիայի Հանրապետություն','(437.6)','Սլովակիա: Սլովակիայի Հանրապետություն','','','',false,true);
+d.add(336,327,'(438)','<div class="nodetag">(438)</div></span>&nbsp;&nbsp;Լեհաստան: Լեհաստանի Հանրապետություն','(438)','Լեհաստան: Լեհաստանի Հանրապետություն','','','',false,true);
+d.add(337,327,'(439)','<div class="nodetag">(439)</div></span>&nbsp;&nbsp;Հունգարիա: Հունգարիայի Հանրապետություն','(439)','Հունգարիա: Հունգարիայի Հանրապետություն','','','',false,true);
+d.add(338,327,'(44)','<div class="nodetag">(44)</div></span>&nbsp;&nbsp;Ֆրանսիա: Ֆրանսիական Հանրապետություն','(44)','Ֆրանսիա: Ֆրանսիական Հանրապետություն','','','',false,true);
+d.add(339,327,'(450)','<div class="nodetag">(450)</div></span>&nbsp;&nbsp;Իտալիա: Իտալիայի Հանրապետություն','(450)','Իտալիա: Իտալիայի Հանրապետություն','','','',false,true);
+d.add(340,327,'(454.4)','<div class="nodetag">(454.4)</div></span>&nbsp;&nbsp;Սան-Մարինո: Սան-Մարինոյի Հանրապետություն','(454.4)','Սան-Մարինո: Սան-Մարինոյի Հանրապետություն','','','',false,true);
+d.add(341,327,'(456.31)','<div class="nodetag">(456.31)</div></span>&nbsp;&nbsp;Վատիկան: Վատիկանի քաղաք-պետություն  (Սուրբ Աթոռ)','(456.31)','Վատիկան: Վատիկանի քաղաք-պետություն  (Սուրբ Աթոռ)','','','',false,true);
+d.add(342,327,'(458.2)','<div class="nodetag">(458.2)</div></span>&nbsp;&nbsp;Մալթա: Մալթայի Հանրապետություն','(458.2)','Մալթա: Մալթայի Հանրապետություն','','','',false,true);
+d.add(343,327,'(46)','<div class="nodetag">(46)</div></span>&nbsp;&nbsp;Պիրենեյան թերակղզու երկրներ','(46)','Պիրենեյան թերակղզու երկրներ','','','',false,true);
+d.add(344,343,'(460)','<div class="nodetag">(460)</div></span>&nbsp;&nbsp;Իսպանիա: Իսպանիայի Թագավորություն','(460)','Իսպանիա: Իսպանիայի Թագավորություն','','','',false,true);
+d.add(345,343,'(467)','<div class="nodetag">(467)</div></span>&nbsp;&nbsp;Անդորա։ Անդորրայի Իշխանություն','(467)','Անդորա։ Անդորրայի Իշխանություն','','','',false,true);
+d.add(346,343,'(469)','<div class="nodetag">(469)</div></span>&nbsp;&nbsp;Պորտուգալիա: Պորտուգալիայի Հանրապետություն','(469)','Պորտուգալիա: Պորտուգալիայի Հանրապետություն','','','',false,true);
+d.add(347,327,'(470+571)','<div class="nodetag">(470+571)</div></span>&nbsp;&nbsp;Ռուսաստան: Ռուսաստանի Դաշնություն','(470+571)','Ռուսաստան: Ռուսաստանի Դաշնություն','','','',false,true);
+d.add(348,327,'(474)','<div class="nodetag">(474)</div></span>&nbsp;&nbsp;Բալթյան պետություններ','(474)','Բալթյան պետություններ','','','',false,true);
+d.add(349,348,'(474.2)','<div class="nodetag">(474.2)</div></span>&nbsp;&nbsp;Էստոնիա: Էստոնիայի Հանրապետություն','(474.2)','Էստոնիա: Էստոնիայի Հանրապետություն','','','',false,true);
+d.add(350,348,'(474.3)','<div class="nodetag">(474.3)</div></span>&nbsp;&nbsp;Լատվիա: Լատվիայի Հանրապետություն','(474.3)','Լատվիա: Լատվիայի Հանրապետություն','','','',false,true);
+d.add(351,348,'(474.5)','<div class="nodetag">(474.5)</div></span>&nbsp;&nbsp;Լիտվա: Լիտվայի Հանրապետություն','(474.5)','Լիտվա: Լիտվայի Հանրապետություն','','','',false,true);
+d.add(352,327,'(476)','<div class="nodetag">(476)</div></span>&nbsp;&nbsp;Բելառուս: Բելառուսի Հանրապետություն','(476)','Բելառուս: Բելառուսի Հանրապետություն','','','',false,true);
+d.add(353,327,'(477)','<div class="nodetag">(477)</div></span>&nbsp;&nbsp;Ուկրաինա','(477)','Ուկրաինա','','','',false,true);
+d.add(354,327,'(478)','<div class="nodetag">(478)</div></span>&nbsp;&nbsp;Մոլդովա։ Մոլդովայի Հանրապետություն','(478)','Մոլդովա։ Մոլդովայի Հանրապետություն','','','',false,true);
+d.add(355,327,'(479)','<div class="nodetag">(479)</div></span>&nbsp;&nbsp;Կովկասն ամբողջությամբ','(479)','Կովկասն ամբողջությամբ','','','',false,true);
+d.add(356,355,'(479.22)','<div class="nodetag">(479.22)</div></span>&nbsp;&nbsp;Վրաստան։ Վրաստանի Հանրապետություն','(479.22)','Վրաստան։ Վրաստանի Հանրապետություն','','','',false,true);
+d.add(357,355,'(479.24)','<div class="nodetag">(479.24)</div></span>&nbsp;&nbsp;Ադրբեջան։ Ադրբեջանական Հանրապետություն','(479.24)','Ադրբեջան։ Ադրբեջանական Հանրապետություն','','','',false,true);
+d.add(358,355,'(479.25)','<div class="nodetag">(479.25)</div></span>&nbsp;&nbsp;Հայաստան։ Հայաստանի Հանրապետություն','(479.25)','Հայաստան։ Հայաստանի Հանրապետություն','','','',false,true);
+d.add(359,327,'(48)','<div class="nodetag">(48)</div></span>&nbsp;&nbsp;Սկանդինավյան երկրներ','(48)','Սկանդինավյան երկրներ','','','',false,true);
+d.add(360,359,'(480)','<div class="nodetag">(480)</div></span>&nbsp;&nbsp;Ֆինլանդիա։ Ֆինլանդական Հանրապետություն։','(480)','Ֆինլանդիա։ Ֆինլանդական Հանրապետություն։','','','',false,true);
+d.add(361,359,'(481)','<div class="nodetag">(481)</div></span>&nbsp;&nbsp;Նորվեգիա։ Նորվեգական Թագավորություն','(481)','Նորվեգիա։ Նորվեգական Թագավորություն','','','',false,true);
+d.add(362,359,'(485)','<div class="nodetag">(485)</div></span>&nbsp;&nbsp;Շվեդիա։ Շվեդական Թագավորություն','(485)','Շվեդիա։ Շվեդական Թագավորություն','','','',false,true);
+d.add(363,359,'(489)','<div class="nodetag">(489)</div></span>&nbsp;&nbsp;Դանիա։ Դանիական Թագավորություն','(489)','Դանիա։ Դանիական Թագավորություն','','','',false,true);
+d.add(364,327,'(491.1)','<div class="nodetag">(491.1)</div></span>&nbsp;&nbsp;Իսլանդիա։ Իսլանդական Հանրապետություն','(491.1)','Իսլանդիա։ Իսլանդական Հանրապետություն','','','',false,true);
+d.add(365,327,'(492)','<div class="nodetag">(492)</div></span>&nbsp;&nbsp;Նիդերլանդներ։ Նիդերլանդական Թագավորություն','(492)','Նիդերլանդներ։ Նիդերլանդական Թագավորություն','','','',false,true);
+d.add(366,327,'(493)','<div class="nodetag">(493)</div></span>&nbsp;&nbsp;Բելգիա։ Բելգիայի Թագավորություն','(493)','Բելգիա։ Բելգիայի Թագավորություն','','','',false,true);
+d.add(367,327,'(494)','<div class="nodetag">(494)</div></span>&nbsp;&nbsp;Շվեյցարիա։ Շվեցարական Համադաշնություն','(494)','Շվեյցարիա։ Շվեցարական Համադաշնություն','','','',false,true);
+d.add(368,367,'(494.9)','<div class="nodetag">(494.9)</div></span>&nbsp;&nbsp;Լիխտենշտայն։ Լիխտենշտայնի Իշխանություն','(494.9)','Լիխտենշտայն։ Լիխտենշտայնի Իշխանություն','','','',false,true);
+d.add(369,327,'(495)','<div class="nodetag">(495)</div></span>&nbsp;&nbsp;Հունաստան։ Հունաստանի Հանրապետություն','(495)','Հունաստան։ Հունաստանի Հանրապետություն','','','',false,true);
+d.add(370,327,'(496.5)','<div class="nodetag">(496.5)</div></span>&nbsp;&nbsp;Ալբանիա։Ալբանիայի Հանրապետություն','(496.5)','Ալբանիա։Ալբանիայի Հանրապետություն','','','',false,true);
+d.add(371,327,'(497)','<div class="nodetag">(497)</div></span>&nbsp;&nbsp;Բալկանյան երկեներ','(497)','Բալկանյան երկեներ','','','',false,true);
+d.add(372,371,'(497.11)','<div class="nodetag">(497.11)</div></span>&nbsp;&nbsp;Սերբիա։ Սերբական Հանրապետություն','(497.11)','Սերբիա։ Սերբական Հանրապետություն','','','',false,true);
+d.add(373,371,'(497.16)','<div class="nodetag">(497.16)</div></span>&nbsp;&nbsp;Մոնտենեգրո','(497.16)','Մոնտենեգրո','','','',false,true);
+d.add(374,371,'(497.2)','<div class="nodetag">(497.2)</div></span>&nbsp;&nbsp;Բուլղարիա։ Բուլղարական Հանրապետություն','(497.2)','Բուլղարիա։ Բուլղարական Հանրապետություն','','','',false,true);
+d.add(375,371,'(497.4)','<div class="nodetag">(497.4)</div></span>&nbsp;&nbsp;Սլովենիա։ Սլովենական Հանրապետություն','(497.4)','Սլովենիա։ Սլովենական Հանրապետություն','','','',false,true);
+d.add(376,371,'(497.5)','<div class="nodetag">(497.5)</div></span>&nbsp;&nbsp;Խորվաթիա։ Խորվաթական Հանրապետություն','(497.5)','Խորվաթիա։ Խորվաթական Հանրապետություն','','','',false,true);
+d.add(377,371,'(497.6)','<div class="nodetag">(497.6)</div></span>&nbsp;&nbsp;Բոսնիա-Հերցոգովինա։ Բոսնիայի և Հերցոգովինայի Հանրապետություն','(497.6)','Բոսնիա-Հերցոգովինա։ Բոսնիայի և Հերցոգովինայի Հանրապետություն','','','',false,true);
+d.add(378,371,'(497.7)','<div class="nodetag">(497.7)</div></span>&nbsp;&nbsp;Մակեդոնիա։ Նախկին Հարավսլավական Հանրապետություն Մակեդոնիա','(497.7)','Մակեդոնիա։ Նախկին Հարավսլավական Հանրապետություն Մակեդոնիա','','','',false,true);
+d.add(379,327,'(498)','<div class="nodetag">(498)</div></span>&nbsp;&nbsp;Ռումինիա։ Ռումինական Հանրապետություն','(498)','Ռումինիա։ Ռումինական Հանրապետություն','','','',false,true);
+d.add(380,326,'(5)','<div class="nodetag">(5)</div></span>&nbsp;&nbsp;Ասիա','(5)','Ասիա','','','',false,true);
+d.add(381,380,'(510)','<div class="nodetag">(510)</div></span>&nbsp;&nbsp;Չինաստան։ Չինաստանի Ժողովրդական Հանրապետություն','(510)','Չինաստան։ Չինաստանի Ժողովրդական Հանրապետություն','','','',false,true);
+d.add(382,380,'(512.317)','<div class="nodetag">(512.317)</div></span>&nbsp;&nbsp;Հոնկոնգ։ Սյանգան','(512.317)','Հոնկոնգ։ Սյանգան','','','',false,true);
+d.add(383,380,'(512.318)','<div class="nodetag">(512.318)</div></span>&nbsp;&nbsp;Մակաո: Աոմին','(512.318)','Մակաո: Աոմին','','','',false,true);
+d.add(384,380,'(515)','<div class="nodetag">(515)</div></span>&nbsp;&nbsp;Տիբեթի Ինքնավար Շրջան','(515)','Տիբեթի Ինքնավար Շրջան','','','',false,true);
+d.add(385,380,'(517.9)','<div class="nodetag">(517.9)</div></span>&nbsp;&nbsp;Մոնղոլիա։ Մոնղոլիայի Պետություն','(517.9)','Մոնղոլիա։ Մոնղոլիայի Պետություն','','','',false,true);
+d.add(386,380,'(519)','<div class="nodetag">(519)</div></span>&nbsp;&nbsp;Կորեա','(519)','Կորեա','','','',false,true);
+d.add(387,386,'(519.3)','<div class="nodetag">(519.3)</div></span>&nbsp;&nbsp;Հյուսիսային Կորեա։ Կորեական Ժողովրդական Դեմոկրատական Հանրապետություն','(519.3)','Հյուսիսային Կորեա։ Կորեական Ժողովրդական Դեմոկրատական Հանրապետություն','','','',false,true);
+d.add(388,386,'(519.5)','<div class="nodetag">(519.5)</div></span>&nbsp;&nbsp;Հարավային Կորեա։ Կորեական Հանրապետություն','(519.5)','Հարավային Կորեա։ Կորեական Հանրապետություն','','','',false,true);
+d.add(389,380,'(52)','<div class="nodetag">(52)</div></span>&nbsp;&nbsp;Ճապոնիա և սահմանակից կղզիներ','(52)','Ճապոնիա և սահմանակից կղզիներ','','','',false,true);
+d.add(390,389,'(520)','<div class="nodetag">(520)</div></span>&nbsp;&nbsp;Ճապոնիա','(520)','Ճապոնիա','','','',false,true);
+d.add(391,389,'(529)','<div class="nodetag">(529)</div></span>&nbsp;&nbsp;Թայվան։ Չինաստանի  Հանրապետություն','(529)','Թայվան։ Չինաստանի  Հանրապետություն','','','',false,true);
+d.add(392,380,'(53)','<div class="nodetag">(53)</div></span>&nbsp;&nbsp;Արաբական երկրներ և տարածքներ','(53)','Արաբական երկրներ և տարածքներ','','','',false,true);
+d.add(393,392,'(532)','<div class="nodetag">(532)</div></span>&nbsp;&nbsp;Սաուդյան Արաբիա։ Սաուդյան Արաբիայի Թագավորություն','(532)','Սաուդյան Արաբիա։ Սաուդյան Արաբիայի Թագավորություն','','','',false,true);
+d.add(394,392,'(533)','<div class="nodetag">(533)</div></span>&nbsp;&nbsp;Եմեն։ Եմենի Հանրապետություն','(533)','Եմեն։ Եմենի Հանրապետություն','','','',false,true);
+d.add(395,392,'(535)','<div class="nodetag">(535)</div></span>&nbsp;&nbsp;Օման։ Օմանի Սուլթանություն','(535)','Օման։ Օմանի Սուլթանություն','','','',false,true);
+d.add(396,392,'(536)','<div class="nodetag">(536)</div></span>&nbsp;&nbsp;Արևելյան Արաբական երկրներ','(536)','Արևելյան Արաբական երկրներ','','','',false,true);
+d.add(397,396,'(536.2)','<div class="nodetag">(536.2)</div></span>&nbsp;&nbsp;Միացյալ Արաբական Էմիրություններ','(536.2)','Միացյալ Արաբական Էմիրություններ','','','',false,true);
+d.add(398,396,'(536.4)','<div class="nodetag">(536.4)</div></span>&nbsp;&nbsp;Քաթար','(536.4)','Քաթար','','','',false,true);
+d.add(399,396,'(536.5)','<div class="nodetag">(536.5)</div></span>&nbsp;&nbsp;Բահրեյն: Բահրեյնյան Պետություն','(536.5)','Բահրեյն: Բահրեյնյան Պետություն','','','',false,true);
+d.add(400,396,'(536.8)','<div class="nodetag">(536.8)</div></span>&nbsp;&nbsp;Քուվեյթ։ Քուվեյթի Պետություն','(536.8)','Քուվեյթ։ Քուվեյթի Պետություն','','','',false,true);
+d.add(401,380,'(54)','<div class="nodetag">(54)</div></span>&nbsp;&nbsp;Հնդկական թերակղզու պետություններ','(54)','Հնդկական թերակղզու պետություններ','','','',false,true);
+d.add(402,401,'(540)','<div class="nodetag">(540)</div></span>&nbsp;&nbsp;Հնդկաստան։ Հնդկաստանի Հանրապետություն','(540)','Հնդկաստան։ Հնդկաստանի Հանրապետություն','','','',false,true);
+d.add(403,401,'(541.31)','<div class="nodetag">(541.31)</div></span>&nbsp;&nbsp;Բութան։ Բութանի Թագավորություն','(541.31)','Բութան։ Բութանի Թագավորություն','','','',false,true);
+d.add(404,401,'(541.35)','<div class="nodetag">(541.35)</div></span>&nbsp;&nbsp;Նեպալ։ Նեպալի Դաշնային Դեմոկրատական Հանրապետություն','(541.35)','Նեպալ։ Նեպալի Դաշնային Դեմոկրատական Հանրապետություն','','','',false,true);
+d.add(405,401,'(548.7)','<div class="nodetag">(548.7)</div></span>&nbsp;&nbsp;Շրի Լանկա (մինչև 1972թ.Ցեյլոն)։ Շրի Լանկայի Դեմոկրատական Սոցիալիստական Հանրապետություն','(548.7)','Շրի Լանկա (մինչև 1972թ.Ցեյլոն)։ Շրի Լանկայի Դեմոկրատական Սոցիալիստական Հանրապետություն','','','',false,true);
+d.add(406,401,'(548.82)','<div class="nodetag">(548.82)</div></span>&nbsp;&nbsp;Մալդիվներ: Մալդիվյան Հանրապետություն','(548.82)','Մալդիվներ: Մալդիվյան Հանրապետություն','','','',false,true);
+d.add(407,401,'(549.1)','<div class="nodetag">(549.1)</div></span>&nbsp;&nbsp;Պակիստան։ Պակիստանի Իսլամական Հանրապետություն','(549.1)','Պակիստան։ Պակիստանի Իսլամական Հանրապետություն','','','',false,true);
+d.add(408,401,'(549.3)','<div class="nodetag">(549.3)</div></span>&nbsp;&nbsp;Բանգլադեշ։ Բանգլադեշի Ժողովրդական Հանրապետություն','(549.3)','Բանգլադեշ։ Բանգլադեշի Ժողովրդական Հանրապետություն','','','',false,true);
+d.add(409,380,'(55)','<div class="nodetag">(55)</div></span>&nbsp;&nbsp;Իրան։ Իրանի Իսլամական Հանրապետեւթյուն (1979 թվից, մինչև 1935 թ.՝Պարսկաստան)','(55)','Իրան։ Իրանի Իսլամական Հանրապետեւթյուն (1979 թվից, մինչև 1935 թ.՝Պարսկաստան)','','','',false,true);
+d.add(410,380,'(56)','<div class="nodetag">(56)</div></span>&nbsp;&nbsp;Լևանտ։ Փոքր Ասիա','(56)','Լևանտ։ Փոքր Ասիա','','','',false,true);
+d.add(411,410,'(560)','<div class="nodetag">(560)</div></span>&nbsp;&nbsp;Թուրքիա։ Թուրքիայի Հանրապետություն','(560)','Թուրքիա։ Թուրքիայի Հանրապետություն','','','',false,true);
+d.add(412,410,'(564.3)','<div class="nodetag">(564.3)</div></span>&nbsp;&nbsp;Կիպրոս։ Կիպրոսի Հանրապետություն','(564.3)','Կիպրոս։ Կիպրոսի Հանրապետություն','','','',false,true);
+d.add(413,410,'(567)','<div class="nodetag">(567)</div></span>&nbsp;&nbsp;Իրաք։ Իրաքի Հանրապետություն','(567)','Իրաք։ Իրաքի Հանրապետություն','','','',false,true);
+d.add(414,410,'(569.1)','<div class="nodetag">(569.1)</div></span>&nbsp;&nbsp;Սիրիա։ Սիրիայի Արաբական Հանրապետություն','(569.1)','Սիրիա։ Սիրիայի Արաբական Հանրապետություն','','','',false,true);
+d.add(415,410,'(569.3)','<div class="nodetag">(569.3)</div></span>&nbsp;&nbsp;Լիբանան։ Լիբանանի Հանրապետություն','(569.3)','Լիբանան։ Լիբանանի Հանրապետություն','','','',false,true);
+d.add(416,410,'(569.4)','<div class="nodetag">(569.4)</div></span>&nbsp;&nbsp;Իսրայել։ Իսրայելի Պետություն','(569.4)','Իսրայել։ Իսրայելի Պետություն','','','',false,true);
+d.add(417,410,'(569.5)','<div class="nodetag">(569.5)</div></span>&nbsp;&nbsp;Հորդանան։ Հորդանանի Հաշիմյան Թագավորություն','(569.5)','Հորդանան։ Հորդանանի Հաշիմյան Թագավորություն','','','',false,true);
+d.add(418,380,'(57)','<div class="nodetag">(57)</div></span>&nbsp;&nbsp;Նախկին ԽՍՀՄ-ի ասիական տարածաշրջան','(57)','Նախկին ԽՍՀՄ-ի ասիական տարածաշրջան','','','',false,true);
+d.add(419,418,'(571)','<div class="nodetag">(571)</div></span>&nbsp;&nbsp;Ռուսաստանի Դաշնության ասիական հատված. Սիբիր և Հեռավոր Արևելք','(571)','Ռուսաստանի Դաշնության ասիական հատված. Սիբիր և Հեռավոր Արևելք','','','',false,true);
+d.add(420,418,'(574)','<div class="nodetag">(574)</div></span>&nbsp;&nbsp;Ղազախստան։ Ղազախստանի Հանրապետություն','(574)','Ղազախստան։ Ղազախստանի Հանրապետություն','','','',false,true);
+d.add(421,418,'(575.1)','<div class="nodetag">(575.1)</div></span>&nbsp;&nbsp;Ուզբեկստան։ Ուզբեկստանի Հանրապետություն','(575.1)','Ուզբեկստան։ Ուզբեկստանի Հանրապետություն','','','',false,true);
+d.add(422,418,'(575.2)','<div class="nodetag">(575.2)</div></span>&nbsp;&nbsp;Ղրղզստան։ Ղրղզստանի Հանրապետություն','(575.2)','Ղրղզստան։ Ղրղզստանի Հանրապետություն','','','',false,true);
+d.add(423,418,'(575.3)','<div class="nodetag">(575.3)</div></span>&nbsp;&nbsp;Տաջիկստան։ Տաջիկստանի Հանրապետություն','(575.3)','Տաջիկստան։ Տաջիկստանի Հանրապետություն','','','',false,true);
+d.add(424,418,'(575.4)','<div class="nodetag">(575.4)</div></span>&nbsp;&nbsp;Թուրքմենստան։ Թուրքմենստանի Հանրապետություն','(575.4)','Թուրքմենստան։ Թուրքմենստանի Հանրապետություն','','','',false,true);
+d.add(425,380,'(581)','<div class="nodetag">(581)</div></span>&nbsp;&nbsp;Աֆղանստան։ Աֆղանստանի Իսլամական Հանրապետություն','(581)','Աֆղանստան։ Աֆղանստանի Իսլամական Հանրապետություն','','','',false,true);
+d.add(426,380,'(59)','<div class="nodetag">(59)</div></span>&nbsp;&nbsp;Հարավ-արևելյան Ասիայի երկրներ և տերիտորիաներ','(59)','Հարավ-արևելյան Ասիայի երկրներ և տերիտորիաներ','','','',false,true);
+d.add(427,426,'(591)','<div class="nodetag">(591)</div></span>&nbsp;&nbsp;Բիրմա։ Մյանմա','(591)','Բիրմա։ Մյանմա','','','',false,true);
+d.add(428,426,'(592.3)','<div class="nodetag">(592.3)</div></span>&nbsp;&nbsp;Սինգապուր։ Սինգապուրի Հանրապետություն','(592.3)','Սինգապուր։ Սինգապուրի Հանրապետություն','','','',false,true);
+d.add(429,426,'(592.6)','<div class="nodetag">(592.6)</div></span>&nbsp;&nbsp;Բրունեյ։ Բրունեյի Պետություն (1984թ.)','(592.6)','Բրունեյ։ Բրունեյի Պետություն (1984թ.)','','','',false,true);
+d.add(430,426,'(593)','<div class="nodetag">(593)</div></span>&nbsp;&nbsp;Թաիլանդ։ Թաիլանդի Թագավորություն (մինչև՝1939թ.Սիամ)','(593)','Թաիլանդ։ Թաիլանդի Թագավորություն (մինչև՝1939թ.Սիամ)','','','',false,true);
+d.add(431,426,'(594)','<div class="nodetag">(594)</div></span>&nbsp;&nbsp;Ինդոնեզիա։ Ինդոնեզիայի Հանրապետություն','(594)','Ինդոնեզիա։ Ինդոնեզիայի Հանրապետություն','','','',false,true);
+d.add(432,426,'(595)','<div class="nodetag">(595)</div></span>&nbsp;&nbsp;Մալայզիա։ Մալայզիայի Դաշնություն','(595)','Մալայզիա։ Մալայզիայի Դաշնություն','','','',false,true);
+d.add(433,426,'(596/598)','<div class="nodetag">(596/598)</div></span>&nbsp;&nbsp;Հնդկաչին','(596/598)','Հնդկաչին','','','',false,true);
+d.add(434,433,'(596)','<div class="nodetag">(596)</div></span>&nbsp;&nbsp;Կամբոջա։ Կամբոջայի Թագավորություն','(596)','Կամբոջա։ Կամբոջայի Թագավորություն','','','',false,true);
+d.add(435,433,'(597)','<div class="nodetag">(597)</div></span>&nbsp;&nbsp;Վիետնամ։ Վիետնամի Սոցիալիստական Հանրապետություն','(597)','Վիետնամ։ Վիետնամի Սոցիալիստական Հանրապետություն','','','',false,true);
+d.add(436,433,'(598)','<div class="nodetag">(598)</div></span>&nbsp;&nbsp;Լաոս։ Լաոսի Ժովրդա-դեմոկրատական Հանրապետություն','(598)','Լաոս։ Լաոսի Ժովրդա-դեմոկրատական Հանրապետություն','','','',false,true);
+d.add(437,426,'(599)','<div class="nodetag">(599)</div></span>&nbsp;&nbsp;Ֆիլիպիններ։ Ֆիլիպինների Հանրապետություն','(599)','Ֆիլիպիններ։ Ֆիլիպինների Հանրապետություն','','','',false,true);
+d.add(438,326,'(6)','<div class="nodetag">(6)</div></span>&nbsp;&nbsp;Աֆրիկա','(6)','Աֆրիկա','','','',false,true);
+d.add(439,438,'(61)','<div class="nodetag">(61)</div></span>&nbsp;&nbsp;Հյուսիս - Աֆրիկյան երկրներ (ներառյալ Մաղրիբի երկրներ)','(61)','Հյուսիս - Աֆրիկյան երկրներ (ներառյալ Մաղրիբի երկրներ)','','','',false,true);
+d.add(440,439,'(611)','<div class="nodetag">(611)</div></span>&nbsp;&nbsp;Թունիս։ Թունիսի Հանրապետություն','(611)','Թունիս։ Թունիսի Հանրապետություն','','','',false,true);
+d.add(441,439,'(612)','<div class="nodetag">(612)</div></span>&nbsp;&nbsp;Լիբիա։ Լիբիական Արաբական Սոցիալիստական Ժողովրդական Ջամահարիա','(612)','Լիբիա։ Լիբիական Արաբական Սոցիալիստական Ժողովրդական Ջամահարիա','','','',false,true);
+d.add(442,438,'(620)','<div class="nodetag">(620)</div></span>&nbsp;&nbsp;Եգիպտոս։ Եգիպտոսի Արաբական Հանրապետություն (1958-1971 թթ.՝ Միայալ Արաբական Հանրապետություն)','(620)','Եգիպտոս։ Եգիպտոսի Արաբական Հանրապետություն (1958-1971 թթ.՝ Միայալ Արաբական Հանրապետություն)','','','',false,true);
+d.add(443,438,'(624)','<div class="nodetag">(624)</div></span>&nbsp;&nbsp;Սուդան։ Սուդանի Հանրապետություն','(624)','Սուդան։ Սուդանի Հանրապետություն','','','',false,true);
+d.add(444,443,'(624.1)','<div class="nodetag">(624.1)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Sudan. al-Sūdān. Repubic of the Sudan. Jumhūriyyat as-Sūdān</span>','(624.1)','Sudan. al-Sūdān. Repubic of the Sudan. Jumhūriyyat as-Sūdān','','','',false,true);
+d.add(445,443,'(624.4)','<div class="nodetag">(624.4)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Republic of South Sudan</span>','(624.4)','Republic of South Sudan','','','',false,true);
+d.add(446,438,'(630)','<div class="nodetag">(630)</div></span>&nbsp;&nbsp;Եթովպիա։ Եթովպիայի Դաշնային Դեմոկրատական Հանրապետություն','(630)','Եթովպիա։ Եթովպիայի Դաշնային Դեմոկրատական Հանրապետություն','','','',false,true);
+d.add(447,438,'(635)','<div class="nodetag">(635)</div></span>&nbsp;&nbsp;Էրիտրեա։ Էրիտրեայի Պետություն','(635)','Էրիտրեա։ Էրիտրեայի Պետություն','','','',false,true);
+d.add(448,438,'(64)','<div class="nodetag">(64)</div></span>&nbsp;&nbsp;Մարոկկո։ Մարոկկոյի Թագավորություն','(64)','Մարոկկո։ Մարոկկոյի Թագավորություն','','','',false,true);
+d.add(449,438,'(65)','<div class="nodetag">(65)</div></span>&nbsp;&nbsp;Ալժիր։ Ալժիրի Ժովորդադեմոկրատական Հանրապետություն','(65)','Ալժիր։ Ալժիրի Ժովորդադեմոկրատական Հանրապետություն','','','',false,true);
+d.add(450,438,'(66)','<div class="nodetag">(66)</div></span>&nbsp;&nbsp;Արևմտյան Աֆրիկայի պետություններ','(66)','Արևմտյան Աֆրիկայի պետություններ','','','',false,true);
+d.add(451,450,'(661.2)','<div class="nodetag">(661.2)</div></span>&nbsp;&nbsp;Մավրիտանիա։ Մավրիտանիայի Իսլամական Հանրապետություն','(661.2)','Մավրիտանիա։ Մավրիտանիայի Իսլամական Հանրապետություն','','','',false,true);
+d.add(452,450,'(662.1)','<div class="nodetag">(662.1)</div></span>&nbsp;&nbsp;Մալի։ Մալիի Հանրապետություն','(662.1)','Մալի։ Մալիի Հանրապետություն','','','',false,true);
+d.add(453,450,'(662.5)','<div class="nodetag">(662.5)</div></span>&nbsp;&nbsp;Բուրկինա-Ֆասո։ Բուրկինա-Ֆասոյի Ժովորդա - դեմոկրատական Հանրապետություն','(662.5)','Բուրկինա-Ֆասո։ Բուրկինա-Ֆասոյի Ժովորդա - դեմոկրատական Հանրապետություն','','','',false,true);
+d.add(454,450,'(662.6)','<div class="nodetag">(662.6)</div></span>&nbsp;&nbsp;Նիգեր։ Նիգերի Հանրապետություն','(662.6)','Նիգեր։ Նիգերի Հանրապետություն','','','',false,true);
+d.add(455,450,'(663)','<div class="nodetag">(663)</div></span>&nbsp;&nbsp;Սենեգալ։ Սենեգալի Հանրապետություն','(663)','Սենեգալ։ Սենեգալի Հանրապետություն','','','',false,true);
+d.add(456,450,'(664)','<div class="nodetag">(664)</div></span>&nbsp;&nbsp;Սիեռա-Լեոնե։ Սիեռա-Լեոնեի Հանրապետություն','(664)','Սիեռա-Լեոնե։ Սիեռա-Լեոնեի Հանրապետություն','','','',false,true);
+d.add(457,450,'(665)','<div class="nodetag">(665)</div></span>&nbsp;&nbsp;Վերին Գվինեայի պետություններ և տարածքներ','(665)','Վերին Գվինեայի պետություններ և տարածքներ','','','',false,true);
+d.add(458,457,'(665.1)','<div class="nodetag">(665.1)</div></span>&nbsp;&nbsp;Գամբիա։ Գամբիայի Հանրապետություն','(665.1)','Գամբիա։ Գամբիայի Հանրապետություն','','','',false,true);
+d.add(459,457,'(665.2)','<div class="nodetag">(665.2)</div></span>&nbsp;&nbsp;Գվինեա։ Գվինեայի Հանրապետություն','(665.2)','Գվինեա։ Գվինեայի Հանրապետություն','','','',false,true);
+d.add(460,457,'(665.7)','<div class="nodetag">(665.7)</div></span>&nbsp;&nbsp;Գվինեա-Բիսաու։ Գվինեա-Բիսաուի Հանրապետություն ( մինչև 1973 թ.՝ Պորտուգալական Գվինեա )','(665.7)','Գվինեա-Բիսաու։ Գվինեա-Բիսաուի Հանրապետություն ( մինչև 1973 թ.՝ Պորտուգալական Գվինեա )','','','',false,true);
+d.add(461,457,'(665.8)','<div class="nodetag">(665.8)</div></span>&nbsp;&nbsp;Կաբո-Վերդե։Կաբո-Վերդեի Հանրապետություն','(665.8)','Կաբո-Վերդե։Կաբո-Վերդեի Հանրապետություն','','','',false,true);
+d.add(462,450,'(666.2)','<div class="nodetag">(666.2)</div></span>&nbsp;&nbsp;Լիբերիա։ Լիբերիայի Հանրապետություն','(666.2)','Լիբերիա։ Լիբերիայի Հանրապետություն','','','',false,true);
+d.add(463,450,'(666.8)','<div class="nodetag">(666.8)</div></span>&nbsp;&nbsp;Կոտ դ\'Իվուար։ Կոտ դ\'Իվուարի Հանրապետություն','(666.8)','Կոտ դ\'Իվուար։ Կոտ դ\'Իվուարի Հանրապետություն','','','',false,true);
+d.add(464,450,'(667)','<div class="nodetag">(667)</div></span>&nbsp;&nbsp;Գանա։ Գանայի Հանրապետություն (մինչև 1957 թ՝. Ոսկե Ափ)','(667)','Գանա։ Գանայի Հանրապետություն (մինչև 1957 թ՝. Ոսկե Ափ)','','','',false,true);
+d.add(465,450,'(668.1)','<div class="nodetag">(668.1)</div></span>&nbsp;&nbsp;Տոգո։ Տոգոյի Հանրապետություն','(668.1)','Տոգո։ Տոգոյի Հանրապետություն','','','',false,true);
+d.add(466,450,'(668.2)','<div class="nodetag">(668.2)</div></span>&nbsp;&nbsp;Բենին։ Բենինի Հանրապետություն (մինչև 1975 թ՝. Դահոմեա)','(668.2)','Բենին։ Բենինի Հանրապետություն (մինչև 1975 թ՝. Դահոմեա)','','','',false,true);
+d.add(467,450,'(669.1)','<div class="nodetag">(669.1)</div></span>&nbsp;&nbsp;Նիգերիա։ Նիգերիայի Հանրապետություն','(669.1)','Նիգերիա։ Նիգերիայի Հանրապետություն','','','',false,true);
+d.add(468,450,'(669.95)','<div class="nodetag">(669.95)</div></span>&nbsp;&nbsp;Սան-Տոմե և Պրինսիպի։ Սան-Տոմեի և Պրինսիպիի Հանրապետություն (1975 թվից)','(669.95)','Սան-Տոմե և Պրինսիպի։ Սան-Տոմեի և Պրինսիպիի Հանրապետություն (1975 թվից)','','','',false,true);
+d.add(469,438,'(67)','<div class="nodetag">(67)</div></span>&nbsp;&nbsp;Հասարակածային, կենրոնական և արևելյան Աֆրիկայի պետություններ և տարածքներ','(67)','Հասարակածային, կենրոնական և արևելյան Աֆրիկայի պետություններ և տարածքներ','','','',false,true);
+d.add(470,469,'(671.1)','<div class="nodetag">(671.1)</div></span>&nbsp;&nbsp;Կամերուն։ Կամերունի Հանրապետություն (1972-1983թթ ՝ Կամերունի Միացյալ Հանրապետություն)','(671.1)','Կամերուն։ Կամերունի Հանրապետություն (1972-1983թթ ՝ Կամերունի Միացյալ Հանրապետություն)','','','',false,true);
+d.add(471,469,'(671.8)','<div class="nodetag">(671.8)</div></span>&nbsp;&nbsp;Հասարակածային Գվինեա։ Հասարակածային Գվինեայի Հանրապետություն ( մինչև 1968թ՝ Իսպանական Գվինեա)','(671.8)','Հասարակածային Գվինեա։ Հասարակածային Գվինեայի Հանրապետություն ( մինչև 1968թ՝ Իսպանական Գվինեա)','','','',false,true);
+d.add(472,469,'(672.1)','<div class="nodetag">(672.1)</div></span>&nbsp;&nbsp;Գաբոն։ Գաբոնի Հանրապետություն','(672.1)','Գաբոն։ Գաբոնի Հանրապետություն','','','',false,true);
+d.add(473,469,'(672.4)','<div class="nodetag">(672.4)</div></span>&nbsp;&nbsp;Կոնգո (Բրազավիլ) ։ Կոնգոյի Հանրապետություն','(672.4)','Կոնգո (Բրազավիլ) ։ Կոնգոյի Հանրապետություն','','','',false,true);
+d.add(474,469,'(673)','<div class="nodetag">(673)</div></span>&nbsp;&nbsp;Անգոլա։ Անգոլայի Հանրապետություն','(673)','Անգոլա։ Անգոլայի Հանրապետություն','','','',false,true);
+d.add(475,469,'(674.1)','<div class="nodetag">(674.1)</div></span>&nbsp;&nbsp;Կենտրոնա - Աֆրիկյան Հանրապետություն (1976-1979 թթ.Կենտրոնա-Աֆրիկյան Կայսրություն (մինչև 1958 թ՝. Ուբանգի-Շարի)','(674.1)','Կենտրոնա - Աֆրիկյան Հանրապետություն (1976-1979 թթ.Կենտրոնա-Աֆրիկյան Կայսրություն (մինչև 1958 թ՝. Ուբանգի-Շարի)','','','',false,true);
+d.add(476,469,'(674.3)','<div class="nodetag">(674.3)</div></span>&nbsp;&nbsp;Չադ։ Չադի Հանրապետություն','(674.3)','Չադ։ Չադի Հանրապետություն','','','',false,true);
+d.add(477,469,'(675)','<div class="nodetag">(675)</div></span>&nbsp;&nbsp;Կոնգո ։ Կոնգոյի Դեմոկրատական Հանրապետություն','(675)','Կոնգո ։ Կոնգոյի Դեմոկրատական Հանրապետություն','','','',false,true);
+d.add(478,477,'(675.97)','<div class="nodetag">(675.97)</div></span>&nbsp;&nbsp;Բուրունդի։ Բուրունդիի Հանրապետություն','(675.97)','Բուրունդի։ Բուրունդիի Հանրապետություն','','','',false,true);
+d.add(479,477,'(675.98)','<div class="nodetag">(675.98)</div></span>&nbsp;&nbsp;Ռուանդա։ Ռուանդայի Հանրապետություն','(675.98)','Ռուանդա։ Ռուանդայի Հանրապետություն','','','',false,true);
+d.add(480,469,'(676.1)','<div class="nodetag">(676.1)</div></span>&nbsp;&nbsp;Ուգանդա։ Ուգանդայի Հանրապետություն','(676.1)','Ուգանդա։ Ուգանդայի Հանրապետություն','','','',false,true);
+d.add(481,469,'(676.2)','<div class="nodetag">(676.2)</div></span>&nbsp;&nbsp;Քենիա։ Քենիայի Հանրապետություն','(676.2)','Քենիա։ Քենիայի Հանրապետություն','','','',false,true);
+d.add(482,469,'(677.8)','<div class="nodetag">(677.8)</div></span>&nbsp;&nbsp;Սոմալի։ Սոմալիի Դեմոկրատական Հանրապետություն ','(677.8)','Սոմալի։ Սոմալիի Դեմոկրատական Հանրապետություն ','','','',false,true);
+d.add(483,469,'(677.9)','<div class="nodetag">(677.9)</div></span>&nbsp;&nbsp;Ջիբութի։ Ջիբութիի Հանրապետություն','(677.9)','Ջիբութի։ Ջիբութիի Հանրապետություն','','','',false,true);
+d.add(484,469,'(678)','<div class="nodetag">(678)</div></span>&nbsp;&nbsp;Տանզանիա։ Տանզանիայի Միացյալ Հանրապետություն','(678)','Տանզանիա։ Տանզանիայի Միացյալ Հանրապետություն','','','',false,true);
+d.add(485,469,'(679)','<div class="nodetag">(679)</div></span>&nbsp;&nbsp;Մոզամբիկ։ Մոզամբիկի Հանրապետություն','(679)','Մոզամբիկ։ Մոզամբիկի Հանրապետություն','','','',false,true);
+d.add(486,438,'(68)','<div class="nodetag">(68)</div></span>&nbsp;&nbsp;Հարավ-աֆրիկյան պետություններ և տարածքներ','(68)','Հարավ-աֆրիկյան պետություններ և տարածքներ','','','',false,true);
+d.add(487,486,'(680)','<div class="nodetag">(680)</div></span>&nbsp;&nbsp;Հարավային Աֆրիկա։ Հարավ-Աֆրիկյան Հանրապետություն','(680)','Հարավային Աֆրիկա։ Հարավ-Աֆրիկյան Հանրապետություն','','','',false,true);
+d.add(488,486,'(688.1)','<div class="nodetag">(688.1)</div></span>&nbsp;&nbsp;Նամիբիա։ Նամիբիայի Հանրապետություն','(688.1)','Նամիբիա։ Նամիբիայի Հանրապետություն','','','',false,true);
+d.add(489,486,'(688.3)','<div class="nodetag">(688.3)</div></span>&nbsp;&nbsp;Բոտսվանա։ Բոտսվանայի Հանրապետություն','(688.3)','Բոտսվանա։ Բոտսվանայի Հանրապետություն','','','',false,true);
+d.add(490,486,'(688.5)','<div class="nodetag">(688.5)</div></span>&nbsp;&nbsp;Լեսոթո։ Լեսոթոյի Թագավորություն','(688.5)','Լեսոթո։ Լեսոթոյի Թագավորություն','','','',false,true);
+d.add(491,486,'(688.7)','<div class="nodetag">(688.7)</div></span>&nbsp;&nbsp;Սվազիլենդ։ Սվազիլենդի Թագավորություն','(688.7)','Սվազիլենդ։ Սվազիլենդի Թագավորություն','','','',false,true);
+d.add(492,486,'(689.1)','<div class="nodetag">(689.1)</div></span>&nbsp;&nbsp;Զիմբաբվե։ Զիմբաբվեի Հանրապետություն (մինչև 1980 թ. ՝Հարավային Ռոդեզիա )','(689.1)','Զիմբաբվե։ Զիմբաբվեի Հանրապետություն (մինչև 1980 թ. ՝Հարավային Ռոդեզիա )','','','',false,true);
+d.add(493,486,'(689.4)','<div class="nodetag">(689.4)</div></span>&nbsp;&nbsp;Զամբիա։ Զամբիայի Հանրապետություն (մինչև 1964 թ. ՝ Հյուսիսային Ռոդեզիա )','(689.4)','Զամբիա։ Զամբիայի Հանրապետություն (մինչև 1964 թ. ՝ Հյուսիսային Ռոդեզիա )','','','',false,true);
+d.add(494,486,'(689.7)','<div class="nodetag">(689.7)</div></span>&nbsp;&nbsp;Մալավի։ Մալավիի Հանրապետություն (մինչև 1964 թ. ՝ Նյասալենդ )','(689.7)','Մալավի։ Մալավիի Հանրապետություն (մինչև 1964 թ. ՝ Նյասալենդ )','','','',false,true);
+d.add(495,438,'(69)','<div class="nodetag">(69)</div></span>&nbsp;&nbsp;Հնդկական և Հարավային Ատլանտյան օվկիանոսների աֆրիկյան կղզիներ։','(69)','Հնդկական և Հարավային Ատլանտյան օվկիանոսների աֆրիկյան կղզիներ։','','','',false,true);
+d.add(496,495,'(691)','<div class="nodetag">(691)</div></span>&nbsp;&nbsp;Մադագասկար։ Մադագասկարի Դեմոկրատական Հանրապետություն','(691)','Մադագասկար։ Մադագասկարի Դեմոկրատական Հանրապետություն','','','',false,true);
+d.add(497,495,'(694)','<div class="nodetag">(694)</div></span>&nbsp;&nbsp;Հյուսիսային Մադագասկարի կղզիներ','(694)','Հյուսիսային Մադագասկարի կղզիներ','','','',false,true);
+d.add(498,495,'(696)','<div class="nodetag">(696)</div></span>&nbsp;&nbsp;Սեյշելյան Կղզիներ։ Սեյշելյան Կղզիների Հանրապետություն (1976 թ- ից)','(696)','Սեյշելյան Կղզիներ։ Սեյշելյան Կղզիների Հանրապետություն (1976 թ- ից)','','','',false,true);
+d.add(499,495,'(697)','<div class="nodetag">(697)</div></span>&nbsp;&nbsp;Հնդկական Օվկիանոսի Բրիտանական տարածք','(697)','Հնդկական Օվկիանոսի Բրիտանական տարածք','','','',false,true);
+d.add(500,495,'(698)','<div class="nodetag">(698)</div></span>&nbsp;&nbsp;Մասկարենյան Կղզիներ','(698)','Մասկարենյան Կղզիներ','','','',false,true);
+d.add(501,500,'(698.1)','<div class="nodetag">(698.1)</div></span>&nbsp;&nbsp;Ռեյունիոն (Ֆրանսիա)','(698.1)','Ռեյունիոն (Ֆրանսիա)','','','',false,true);
+d.add(502,500,'(698.2)','<div class="nodetag">(698.2)</div></span>&nbsp;&nbsp;Մավրիկիա։ Մավրիկիայի Հանրապեպություն։','(698.2)','Մավրիկիա։ Մավրիկիայի Հանրապեպություն։','','','',false,true);
+d.add(503,495,'(699)','<div class="nodetag">(699)</div></span>&nbsp;&nbsp;Հարավային Հնդկական և հարավային Ատլանտիկ օվկիանոսի հեռավոր կղզիներ','(699)','Հարավային Հնդկական և հարավային Ատլանտիկ օվկիանոսի հեռավոր կղզիներ','','','',false,true);
+d.add(504,326,'(7/8)','<div class="nodetag">(7/8)</div></span>&nbsp;&nbsp;Հյուսիսային և Հարավային Ամերիկաներ','(7/8)','Հյուսիսային և Հարավային Ամերիկաներ','','','',false,true);
+d.add(505,504,'(7)','<div class="nodetag">(7)</div></span>&nbsp;&nbsp;Հյուսիսային և Կենտրոնական Ամերիկաներ','(7)','Հյուսիսային և Կենտրոնական Ամերիկաներ','','','',false,true);
+d.add(506,505,'(71)','<div class="nodetag">(71)</div></span>&nbsp;&nbsp;Կանադա','(71)','Կանադա','','','',false,true);
+d.add(507,505,'(72)','<div class="nodetag">(72)</div></span>&nbsp;&nbsp;Մեքսիկա։ Կենտրոնական Ամերիկայի երկրներ։ Կարիբյան տարածաշրջան','(72)','Մեքսիկա։ Կենտրոնական Ամերիկայի երկրներ։ Կարիբյան տարածաշրջան','','','',false,true);
+d.add(508,507,'(721/727)','<div class="nodetag">(721/727)</div></span>&nbsp;&nbsp;Մեքսիկա։ Մեքսիկայի Միացյալ Նահանգներ','(721/727)','Մեքսիկա։ Մեքսիկայի Միացյալ Նահանգներ','','','',false,true);
+d.add(509,507,'(728)','<div class="nodetag">(728)</div></span>&nbsp;&nbsp;Կենտրոնական Ամերիկայի երկրներ','(728)','Կենտրոնական Ամերիկայի երկրներ','','','',false,true);
+d.add(510,509,'(728.1)','<div class="nodetag">(728.1)</div></span>&nbsp;&nbsp;Գվատեմալա։ Գվատեմալայի Հանրապետություն','(728.1)','Գվատեմալա։ Գվատեմալայի Հանրապետություն','','','',false,true);
+d.add(511,509,'(728.2)','<div class="nodetag">(728.2)</div></span>&nbsp;&nbsp;Բելիզ (միչև 1973թ.՝ Բրիտանական Հոնդուրաս)','(728.2)','Բելիզ (միչև 1973թ.՝ Բրիտանական Հոնդուրաս)','','','',false,true);
+d.add(512,509,'(728.3)','<div class="nodetag">(728.3)</div></span>&nbsp;&nbsp;Հոնդուրաս։ Հոնդուրասի Հանրապետություն','(728.3)','Հոնդուրաս։ Հոնդուրասի Հանրապետություն','','','',false,true);
+d.add(513,509,'(728.4)','<div class="nodetag">(728.4)</div></span>&nbsp;&nbsp;Սալվադոր։ Էլ- Սալվադորի Հանրապետություն','(728.4)','Սալվադոր։ Էլ- Սալվադորի Հանրապետություն','','','',false,true);
+d.add(514,509,'(728.5)','<div class="nodetag">(728.5)</div></span>&nbsp;&nbsp;Նիկարագուա։ Նիկարագուայի Հանրապետություն','(728.5)','Նիկարագուա։ Նիկարագուայի Հանրապետություն','','','',false,true);
+d.add(515,509,'(728.6)','<div class="nodetag">(728.6)</div></span>&nbsp;&nbsp;Կոստա-Ռիկա։ Կոստա-Ռիկայի Հանրապետություն','(728.6)','Կոստա-Ռիկա։ Կոստա-Ռիկայի Հանրապետություն','','','',false,true);
+d.add(516,509,'(728.7)','<div class="nodetag">(728.7)</div></span>&nbsp;&nbsp;Պանամա։ Պանամայի Հանրապետություն','(728.7)','Պանամա։ Պանամայի Հանրապետություն','','','',false,true);
+d.add(517,507,'(729)','<div class="nodetag">(729)</div></span>&nbsp;&nbsp;Կարիբյան տարածաշրջան։ Վեստ-Ինդիա (Անտիլյան կղզիներ)','(729)','Կարիբյան տարածաշրջան։ Վեստ-Ինդիա (Անտիլյան կղզիներ)','','','',false,true);
+d.add(518,517,'(729.1/.5)','<div class="nodetag">(729.1/.5)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Greater Antilles</span>','(729.1/.5)','Greater Antilles','','','',false,true);
+d.add(519,518,'(729.1)','<div class="nodetag">(729.1)</div></span>&nbsp;&nbsp;Կուբա։ Կուբայի Հանրապետություն','(729.1)','Կուբա։ Կուբայի Հանրապետություն','','','',false,true);
+d.add(520,518,'(729.2)','<div class="nodetag">(729.2)</div></span>&nbsp;&nbsp;Ճամայկա','(729.2)','Ճամայկա','','','',false,true);
+d.add(521,518,'(729.29)','<div class="nodetag">(729.29)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Cayman Islands (UK)</span>','(729.29)','Cayman Islands (UK)','','','',false,true);
+d.add(522,518,'(729.3/.4)','<div class="nodetag">(729.3/.4)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Hispaniola</span>','(729.3/.4)','Hispaniola','','','',false,true);
+d.add(523,522,'(729.3)','<div class="nodetag">(729.3)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Dominican Republic</span>','(729.3)','Dominican Republic','','','',false,true);
+d.add(524,522,'(729.4)','<div class="nodetag">(729.4)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Haiti. Republic of Haiti</span>','(729.4)','Haiti. Republic of Haiti','','','',false,true);
+d.add(525,518,'(729.5)','<div class="nodetag">(729.5)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Puerto Rico. Commonwealth of Puerto Rico (USA)</span>','(729.5)','Puerto Rico. Commonwealth of Puerto Rico (USA)','','','',false,true);
+d.add(526,517,'(729.68)','<div class="nodetag">(729.68)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Turks and Caicos Islands (UK)</span>','(729.68)','Turks and Caicos Islands (UK)','','','',false,true);
+d.add(527,517,'(729.7/.8)','<div class="nodetag">(729.7/.8)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Lesser Antilles (Eastern Caribbean)</span>','(729.7/.8)','Lesser Antilles (Eastern Caribbean)','','','',false,true);
+d.add(528,527,'(729.7)','<div class="nodetag">(729.7)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Leeward Islands</span>','(729.7)','Leeward Islands','','','',false,true);
+d.add(529,528,'(729.71)','<div class="nodetag">(729.71)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Virgin Islands of the United States (American Virgin Islands) (USA)</span>','(729.71)','Virgin Islands of the United States (American Virgin Islands) (USA)','','','',false,true);
+d.add(530,528,'(729.724)','<div class="nodetag">(729.724)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">St Kitts-Nevis. Federation of St Kitts-Nevis</span>','(729.724)','St Kitts-Nevis. Federation of St Kitts-Nevis','','','',false,true);
+d.add(531,528,'(729.726)','<div class="nodetag">(729.726)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Antigua and Barbuda</span>','(729.726)','Antigua and Barbuda','','','',false,true);
+d.add(532,528,'(729.727)','<div class="nodetag">(729.727)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Montserrat (UK)</span>','(729.727)','Montserrat (UK)','','','',false,true);
+d.add(533,528,'(729.74)','<div class="nodetag">(729.74)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">French territories in Lesser Antilles</span>','(729.74)','French territories in Lesser Antilles','','','',false,true);
+d.add(534,533,'(729.741)','<div class="nodetag">(729.741)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Guadeloupe (region and department) (France)</span>','(729.741)','Guadeloupe (region and department) (France)','','','',false,true);
+d.add(535,533,'(729.745)','<div class="nodetag">(729.745)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Martinique (region and department) (France)</span>','(729.745)','Martinique (region and department) (France)','','','',false,true);
+d.add(536,527,'(729.8)','<div class="nodetag">(729.8)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Windward Islands</span>','(729.8)','Windward Islands','','','',false,true);
+d.add(537,536,'(729.821)','<div class="nodetag">(729.821)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Dominica. Commonwealth of Dominica</span>','(729.821)','Dominica. Commonwealth of Dominica','','','',false,true);
+d.add(538,536,'(729.822)','<div class="nodetag">(729.822)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Saint Lucia. State of Saint Lucia</span>','(729.822)','Saint Lucia. State of Saint Lucia','','','',false,true);
+d.add(539,536,'(729.824)','<div class="nodetag">(729.824)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Saint Vincent. Saint Vincent and the Grenadines</span>','(729.824)','Saint Vincent. Saint Vincent and the Grenadines','','','',false,true);
+d.add(540,536,'(729.828)','<div class="nodetag">(729.828)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Grenada</span>','(729.828)','Grenada','','','',false,true);
+d.add(541,536,'(729.86)','<div class="nodetag">(729.86)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Barbados</span>','(729.86)','Barbados','','','',false,true);
+d.add(542,536,'(729.87)','<div class="nodetag">(729.87)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Trinidad and Tobago. Republic of Trinidad and Tobago</span>','(729.87)','Trinidad and Tobago. Republic of Trinidad and Tobago','','','',false,true);
+d.add(543,536,'(729.88)','<div class="nodetag">(729.88)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Netherlands territories in Lesser Antilles (Caribees). Nederlandse Antillen. Antia Hulandes</span>','(729.88)','Netherlands territories in Lesser Antilles (Caribees). Nederlandse Antillen. Antia Hulandes','','','',false,true);
+d.add(544,543,'(729.885)','<div class="nodetag">(729.885)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Aruba (Kingdom of the Netherlands)</span>','(729.885)','Aruba (Kingdom of the Netherlands)','','','',false,true);
+d.add(545,517,'(729.9)','<div class="nodetag">(729.9)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Bermudas (Somers Islands) (UK)</span>','(729.9)','Bermudas (Somers Islands) (UK)','','','',false,true);
+d.add(546,505,'(73)','<div class="nodetag">(73)</div></span>&nbsp;&nbsp;Ամերիկայի Միացյալ Նահանգներ (ԱՄՆ)','(73)','Ամերիկայի Միացյալ Նահանգներ (ԱՄՆ)','','','',false,true);
+d.add(547,504,'(8)','<div class="nodetag">(8)</div></span>&nbsp;&nbsp;Հարավային Ամերիկա։ Լատինական Ամերիկա','(8)','Հարավային Ամերիկա։ Լատինական Ամերիկա','','','',false,true);
+d.add(548,547,'(81)','<div class="nodetag">(81)</div></span>&nbsp;&nbsp;Բրազիլիա։ Բրազիլիայի Դաշնային Հանրապետություն','(81)','Բրազիլիա։ Բրազիլիայի Դաշնային Հանրապետություն','','','',false,true);
+d.add(549,547,'(82)','<div class="nodetag">(82)</div></span>&nbsp;&nbsp;Արգենտինա։ Արգենտինայի Հանրապետություն','(82)','Արգենտինա։ Արգենտինայի Հանրապետություն','','','',false,true);
+d.add(550,547,'(83)','<div class="nodetag">(83)</div></span>&nbsp;&nbsp;Չիլի։ Չիլիի Հանրապետություն','(83)','Չիլի։ Չիլիի Հանրապետություն','','','',false,true);
+d.add(551,547,'(84)','<div class="nodetag">(84)</div></span>&nbsp;&nbsp;Բոլիվիա։ Բոլիվիայի Հանրապետություն','(84)','Բոլիվիա։ Բոլիվիայի Հանրապետություն','','','',false,true);
+d.add(552,547,'(85)','<div class="nodetag">(85)</div></span>&nbsp;&nbsp;Պերու։ Պերուի Հանրապետություն','(85)','Պերու։ Պերուի Հանրապետություն','','','',false,true);
+d.add(553,547,'(862)','<div class="nodetag">(862)</div></span>&nbsp;&nbsp;Կոլումբիա։ Կոլումբիայի Հանրապետություն','(862)','Կոլումբիա։ Կոլումբիայի Հանրապետություն','','','',false,true);
+d.add(554,547,'(866)','<div class="nodetag">(866)</div></span>&nbsp;&nbsp;Էկվադոր։ Էկվադորի Հանրապետություն','(866)','Էկվադոր։ Էկվադորի Հանրապետություն','','','',false,true);
+d.add(555,547,'(87)','<div class="nodetag">(87)</div></span>&nbsp;&nbsp;Վենեսուելա։ Վենեսուելայի Հանրապետություն','(87)','Վենեսուելա։ Վենեսուելայի Հանրապետություն','','','',false,true);
+d.add(556,547,'(88)','<div class="nodetag">(88)</div></span>&nbsp;&nbsp;Գվիանայի երկրներ','(88)','Գվիանայի երկրներ','','','',false,true);
+d.add(557,556,'(881)','<div class="nodetag">(881)</div></span>&nbsp;&nbsp;Գայանա։ Գայանայի Հանրապետություն','(881)','Գայանա։ Գայանայի Հանրապետություն','','','',false,true);
+d.add(558,556,'(882)','<div class="nodetag">(882)</div></span>&nbsp;&nbsp;Ֆրանսիական Գվիանա','(882)','Ֆրանսիական Գվիանա','','','',false,true);
+d.add(559,556,'(883)','<div class="nodetag">(883)</div></span>&nbsp;&nbsp;Սուրինամ։ Սուրինամի Հանրապետություն (մինչ 1975թ. ՝ Նիդերլանդական Գվիանա)','(883)','Սուրինամ։ Սուրինամի Հանրապետություն (մինչ 1975թ. ՝ Նիդերլանդական Գվիանա)','','','',false,true);
+d.add(560,547,'(893)','<div class="nodetag">(893)</div></span>&nbsp;&nbsp;Պարագվայ։ Պարագվայի Հանրապետություն','(893)','Պարագվայ։ Պարագվայի Հանրապետություն','','','',false,true);
+d.add(561,547,'(899)','<div class="nodetag">(899)</div></span>&nbsp;&nbsp;Ուրուգվայ։ Ուրուգվայի Արևելյան Հանրապետություն','(899)','Ուրուգվայ։ Ուրուգվայի Արևելյան Հանրապետություն','','','',false,true);
+d.add(562,326,'(9)','<div class="nodetag">(9)</div></span>&nbsp;&nbsp;Խաղաղ օվկիանոսի հարավային մասի (Օվկիանիա) պետություններ և երկրամասեր։ Ավստրալիա։ Արկտիկա։ Անտարկտիդա','(9)','Խաղաղ օվկիանոսի հարավային մասի (Օվկիանիա) պետություններ և երկրամասեր։ Ավստրալիա։ Արկտիկա։ Անտարկտիդա','','','',false,true);
+d.add(563,562,'(931)','<div class="nodetag">(931)</div></span>&nbsp;&nbsp;Նոր Զելանդիա','(931)','Նոր Զելանդիա','','','',false,true);
+d.add(564,562,'(932/935)','<div class="nodetag">(932/935)</div></span>&nbsp;&nbsp;Մելանեզիա։ Մելանեզիայի պետություններ և երկրամասեր','(932/935)','Մելանեզիա։ Մելանեզիայի պետություններ և երկրամասեր','','','',false,true);
+d.add(565,562,'(94)','<div class="nodetag">(94)</div></span>&nbsp;&nbsp;Ավստրալիա։ Ավստրալիական Միություն','(94)','Ավստրալիա։ Ավստրալիական Միություն','','','',false,true);
+d.add(566,562,'(954)','<div class="nodetag">(954)</div></span>&nbsp;&nbsp;Պապուա-Նոր Գվինեա։ Պապուա-Նոր Գվինեայի Անկախ Պետություն','(954)','Պապուա-Նոր Գվինեա։ Պապուա-Նոր Գվինեայի Անկախ Պետություն','','','',false,true);
+d.add(567,562,'(961/964)','<div class="nodetag">(961/964)</div></span>&nbsp;&nbsp;Պոլինեզիա։ Պոլինեզիայի պետություններ և երկրամասեր','(961/964)','Պոլինեզիա։ Պոլինեզիայի պետություններ և երկրամասեր','','','',false,true);
+d.add(568,562,'(966/968)','<div class="nodetag">(966/968)</div></span>&nbsp;&nbsp;Միկրոնեզիա։ Միկրոնեզիայի պետություններ և երկրամասեր','(966/968)','Միկրոնեզիա։ Միկրոնեզիայի պետություններ և երկրամասեր','','','',false,true);
+d.add(569,562,'(97)','<div class="nodetag">(97)</div></span>&nbsp;&nbsp;Խաղաղ օվկիանոսի առանձին կղզիներ','(97)','Խաղաղ օվկիանոսի առանձին կղզիներ','','','',false,true);
+d.add(570,562,'(98)','<div class="nodetag">(98)</div></span>&nbsp;&nbsp;Արկտիկա։ Հյուսիսային բևեռային շրջան','(98)','Արկտիկա։ Հյուսիսային բևեռային շրջան','','','',false,true);
+d.add(571,570,'(988)','<div class="nodetag">(988)</div></span>&nbsp;&nbsp;Գրենլանդիա (Դանիա)','(988)','Գրենլանդիա (Դանիա)','','','',false,true);
+d.add(572,562,'(99)','<div class="nodetag">(99)</div></span>&nbsp;&nbsp;Անտարկտիկական շրջաններ։ Հարավային բևեռային շրջաններ','(99)','Անտարկտիկական շրջաններ։ Հարավային բևեռային շրջաններ','','','',false,true);
+d.add(573,0,'(=...)','<div class="nodetag">(=...)</div></span>&nbsp;&nbsp;Ցեղերի, ժողովուրդների, էթնիկական խմբերի և ազգությունների ընդհանուր որոշիչներ։ Աղ. 1f','(=...)','Ցեղերի, ժողովուրդների, էթնիկական խմբերի և ազգությունների ընդհանուր որոշիչներ։ Աղ. 1f','','','',false,true);
+d.add(574,573,'(=01)','<div class="nodetag">(=01)</div></span>&nbsp;&nbsp;Մարդացեղեր','(=01)','Մարդացեղեր','','','',false,true);
+d.add(575,574,'(=011)','<div class="nodetag">(=011)</div></span>&nbsp;&nbsp;Եվրոպական  մայրցամաքային մարդացեղեր','(=011)','Եվրոպական  մայրցամաքային մարդացեղեր','','','',false,true);
+d.add(576,574,'(=012)','<div class="nodetag">(=012)</div></span>&nbsp;&nbsp;Ասիական մայրցամաքային մարդացեղեր','(=012)','Ասիական մայրցամաքային մարդացեղեր','','','',false,true);
+d.add(577,574,'(=013)','<div class="nodetag">(=013)</div></span>&nbsp;&nbsp;Աֆրիկյան մայրցամաքային մարդացեղեր','(=013)','Աֆրիկյան մայրցամաքային մարդացեղեր','','','',false,true);
+d.add(578,574,'(=014)','<div class="nodetag">(=014)</div></span>&nbsp;&nbsp;Օվկիանիայի  մարդացեղեր','(=014)','Օվկիանիայի  մարդացեղեր','','','',false,true);
+d.add(579,574,'(=017)','<div class="nodetag">(=017)</div></span>&nbsp;&nbsp;Ամերիկյան մայրցամաքային բնիկ մարդացեղեր','(=017)','Ամերիկյան մայրցամաքային բնիկ մարդացեղեր','','','',false,true);
+d.add(580,573,'(=1/=8)','<div class="nodetag">(=1/=8)</div></span>&nbsp;&nbsp;Լեզվա-մշակութային խմբեր, էթնիկական խմբեր, ժողովուրդներ','(=1/=8)','Լեզվա-մշակութային խմբեր, էթնիկական խմբեր, ժողովուրդներ','','','',false,true);
+d.add(581,580,'(=1/=2)','<div class="nodetag">(=1/=2)</div></span>&nbsp;&nbsp;Հնդևրոպական ժողովուրդներ','(=1/=2)','Հնդևրոպական ժողովուրդներ','','','',false,true);
+d.add(582,581,'(=13)','<div class="nodetag">(=13)</div></span>&nbsp;&nbsp;Ռոմանական (լատինական)  ժողովուրդներ','(=13)','Ռոմանական (լատինական)  ժողովուրդներ','','','',false,true);
+d.add(583,573,'(=1:1/9)','<div class="nodetag">(=1:1/9)</div></span>&nbsp;&nbsp;Ժողովուրդներ կապված աշխարհագրական հատուկ վայրերի  հետ','(=1:1/9)','Ժողովուրդներ կապված աշխարհագրական հատուկ վայրերի  հետ','','','',false,true);
+d.add(584,0,'"..."','<div class="nodetag">"..."</div></span>&nbsp;&nbsp;Ժամանակի ընդհանուր որոշիչներ:  Աղ. 1g','"..."','Ժամանակի ընդհանուր որոշիչներ:  Աղ. 1g','','','',false,true);
+d.add(585,584,'"0/2"','<div class="nodetag">"0/2"</div></span>&nbsp;&nbsp;Համընդհանուր ընդունված քրիստոնեական (գրիգորյան) թվականության տարեթվեր և ժամանակաշրջաններ (մ. թ. կամ Ք.հ.)','"0/2"','Համընդհանուր ընդունված քրիստոնեական (գրիգորյան) թվականության տարեթվեր և ժամանակաշրջաններ (մ. թ. կամ Ք.հ.)','','','',false,true);
+d.add(586,585,'"0"','<div class="nodetag">"0"</div></span>&nbsp;&nbsp;Մ.թ.  առաջին  հազարամյակ','"0"','Մ.թ.  առաջին  հազարամյակ','','','',false,true);
+d.add(587,585,'"1"','<div class="nodetag">"1"</div></span>&nbsp;&nbsp;Մ.թ. 2-րդ հազարամյակ','"1"','Մ.թ. 2-րդ հազարամյակ','','','',false,true);
+d.add(588,585,'"2"','<div class="nodetag">"2"</div></span>&nbsp;&nbsp;Մ.թ. 3-րդ հազարամյակ','"2"','Մ.թ. 3-րդ հազարամյակ','','','',false,true);
+d.add(589,584,'"3/7"','<div class="nodetag">"3/7"</div></span>&nbsp;&nbsp;Քրիստոնեականից (գրիգորյան) բացի այլ ժամանակային բաժանումներ','"3/7"','Քրիստոնեականից (գրիգորյան) բացի այլ ժամանակային բաժանումներ','','','',false,true);
+d.add(590,589,'"3"','<div class="nodetag">"3"</div></span>&nbsp;&nbsp;Համընդհանուր ընդունված ժամանակի բաժանումներ՝ համարակալված, անվանված և այլն','"3"','Համընդհանուր ընդունված ժամանակի բաժանումներ՝ համարակալված, անվանված և այլն','','','',false,true);
+d.add(591,590,'"32"','<div class="nodetag">"32"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">The year. Seasons and other divisions of the year</span>','"32"','The year. Seasons and other divisions of the year','','','',false,true);
+d.add(592,591,'"321/324"','<div class="nodetag">"321/324"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Seasons</span>','"321/324"','Seasons','','','',false,true);
+d.add(593,592,'"321"','<div class="nodetag">"321"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Spring</span>','"321"','Spring','','','',false,true);
+d.add(594,592,'"322"','<div class="nodetag">"322"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Summer</span>','"322"','Summer','','','',false,true);
+d.add(595,592,'"323"','<div class="nodetag">"323"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Autumn (fall)</span>','"323"','Autumn (fall)','','','',false,true);
+d.add(596,592,'"324"','<div class="nodetag">"324"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Winter</span>','"324"','Winter','','','',false,true);
+d.add(597,591,'"325"','<div class="nodetag">"325"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Quarters (quarter years, trimesters)</span>','"325"','Quarters (quarter years, trimesters)','','','',false,true);
+d.add(598,591,'"327"','<div class="nodetag">"327"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Months</span>','"327"','Months','','','',false,true);
+d.add(599,591,'"328"','<div class="nodetag">"328"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Weeks</span>','"328"','Weeks','','','',false,true);
+d.add(600,591,'"329"','<div class="nodetag">"329"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Days</span>','"329"','Days','','','',false,true);
+d.add(601,590,'"34"','<div class="nodetag">"34"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Day and night phenomena. Hours or times of day</span>','"34"','Day and night phenomena. Hours or times of day','','','',false,true);
+d.add(602,601,'"344"','<div class="nodetag">"344"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Daytime. Daylight hours</span>','"344"','Daytime. Daylight hours','','','',false,true);
+d.add(603,601,'"345"','<div class="nodetag">"345"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Night-time. Hours of darkness or semi-darkness</span>','"345"','Night-time. Hours of darkness or semi-darkness','','','',false,true);
+d.add(604,590,'"36"','<div class="nodetag">"36"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Times of peace, war, danger, emergency, difficulties</span>','"36"','Times of peace, war, danger, emergency, difficulties','','','',false,true);
+d.add(605,604,'"362"','<div class="nodetag">"362"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Peacetime. Time of no danger</span>','"362"','Peacetime. Time of no danger','','','',false,true);
+d.add(606,604,'"363"','<div class="nodetag">"363"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Time of danger, threat</span>','"363"','Time of danger, threat','','','',false,true);
+d.add(607,604,'"364"','<div class="nodetag">"364"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Wartime</span>','"364"','Wartime','','','',false,true);
+d.add(608,604,'"367"','<div class="nodetag">"367"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Times according to volume of use, load, demand</span>','"367"','Times according to volume of use, load, demand','','','',false,true);
+d.add(609,590,'"37"','<div class="nodetag">"37"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Time of work activity, occupation, production, daily routine</span>','"37"','Time of work activity, occupation, production, daily routine','','','',false,true);
+d.add(610,609,'"372"','<div class="nodetag">"372"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Working hours. Service hours. Time of occupation</span>','"372"','Working hours. Service hours. Time of occupation','','','',false,true);
+d.add(611,609,'"377"','<div class="nodetag">"377"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Rest and recreation time. Spare time. Free time. Time outside working hours</span>','"377"','Rest and recreation time. Spare time. Free time. Time outside working hours','','','',false,true);
+d.add(612,590,'"38"','<div class="nodetag">"38"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Holidays. Festive and commemorative occasions</span>','"38"','Holidays. Festive and commemorative occasions','','','',false,true);
+d.add(613,612,'"382"','<div class="nodetag">"382"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Religious holidays, festive and commemorative occasions</span>','"382"','Religious holidays, festive and commemorative occasions','','','',false,true);
+d.add(614,612,'"383"','<div class="nodetag">"383"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Public, national or regional holidays (other than religious)</span>','"383"','Public, national or regional holidays (other than religious)','','','',false,true);
+d.add(615,612,'"385"','<div class="nodetag">"385"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Personal private holidays, vacation or leave time</span>','"385"','Personal private holidays, vacation or leave time','','','',false,true);
+d.add(616,589,'"4"','<div class="nodetag">"4"</div></span>&nbsp;&nbsp;Տևողություն։ Ժամանակահատված։ Ժամանակաշրջան։ Ժամկետ։ Տարիք և տարիքային խմբեր','"4"','Տևողություն։ Ժամանակահատված։ Ժամանակաշրջան։ Ժամկետ։ Տարիք և տարիքային խմբեր','','','',false,true);
+d.add(617,616,'"40"','<div class="nodetag">"40"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Relative duration, period, term</span>','"40"','Relative duration, period, term','','','',false,true);
+d.add(618,617,'"401"','<div class="nodetag">"401"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Life or lifetime with definite term or deadline. Period of durability</span>','"401"','Life or lifetime with definite term or deadline. Period of durability','','','',false,true);
+d.add(619,617,'"403"','<div class="nodetag">"403"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Short duration. Short-term</span>','"403"','Short duration. Short-term','','','',false,true);
+d.add(620,617,'"404"','<div class="nodetag">"404"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Medium duration. Medium-term</span>','"404"','Medium duration. Medium-term','','','',false,true);
+d.add(621,617,'"405"','<div class="nodetag">"405"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Long duration. Long-term</span>','"405"','Long duration. Long-term','','','',false,true);
+d.add(622,617,'"408"','<div class="nodetag">"408"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Indefinite, unlimited duration. Without specific term or deadline</span>','"408"','Indefinite, unlimited duration. Without specific term or deadline','','','',false,true);
+d.add(623,616,'"41"','<div class="nodetag">"41"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Duration up to one day</span>','"41"','Duration up to one day','','','',false,true);
+d.add(624,616,'"42"','<div class="nodetag">"42"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Duration expressed in days</span>','"42"','Duration expressed in days','','','',false,true);
+d.add(625,616,'"43"','<div class="nodetag">"43"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Duration expressed in weeks</span>','"43"','Duration expressed in weeks','','','',false,true);
+d.add(626,616,'"44"','<div class="nodetag">"44"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Duration expressed in months</span>','"44"','Duration expressed in months','','','',false,true);
+d.add(627,616,'"45"','<div class="nodetag">"45"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Duration expressed in years, centuries, millenniums, etc.</span>','"45"','Duration expressed in years, centuries, millenniums, etc.','','','',false,true);
+d.add(628,616,'"46"','<div class="nodetag">"46"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Ages and age groups of persons, animate and inanimate things</span>','"46"','Ages and age groups of persons, animate and inanimate things','','','',false,true);
+d.add(629,628,'"462"','<div class="nodetag">"462"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Age in days</span>','"462"','Age in days','','','',false,true);
+d.add(630,628,'"463"','<div class="nodetag">"463"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Age in weeks</span>','"463"','Age in weeks','','','',false,true);
+d.add(631,628,'"464"','<div class="nodetag">"464"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Age in months</span>','"464"','Age in months','','','',false,true);
+d.add(632,628,'"465"','<div class="nodetag">"465"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Age expressed in years and decades</span>','"465"','Age expressed in years and decades','','','',false,true);
+d.add(633,589,'"5"','<div class="nodetag">"5"</div></span>&nbsp;&nbsp;Պարբերականություն։ Հաճախականություն։ Կրկնություն որոշակի ժամանակահատվածներից հետո','"5"','Պարբերականություն։ Հաճախականություն։ Կրկնություն որոշակի ժամանակահատվածներից հետո','','','',false,true);
+d.add(634,633,'"51"','<div class="nodetag">"51"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Recurring at intervals of less than a day. More frequent than daily</span>','"51"','Recurring at intervals of less than a day. More frequent than daily','','','',false,true);
+d.add(635,633,'"52"','<div class="nodetag">"52"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Recurring at intervals of 1 day or more (expressed in days)</span>','"52"','Recurring at intervals of 1 day or more (expressed in days)','','','',false,true);
+d.add(636,633,'"53"','<div class="nodetag">"53"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Recurring at intervals of 1 week or more (expressed in weeks)</span>','"53"','Recurring at intervals of 1 week or more (expressed in weeks)','','','',false,true);
+d.add(637,633,'"54"','<div class="nodetag">"54"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Recurring at intervals of 1 month or more (expressed in months)</span>','"54"','Recurring at intervals of 1 month or more (expressed in months)','','','',false,true);
+d.add(638,633,'"55"','<div class="nodetag">"55"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Recurring at intervals of 1 year or more (expressed in years, centuries, millenniums)</span>','"55"','Recurring at intervals of 1 year or more (expressed in years, centuries, millenniums)','','','',false,true);
+d.add(639,633,'"56"','<div class="nodetag">"56"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Recurring every generation, lifetime, etc. Life-cycle</span>','"56"','Recurring every generation, lifetime, etc. Life-cycle','','','',false,true);
+d.add(640,589,'"6"','<div class="nodetag">"6"</div></span>&nbsp;&nbsp;Երկրաբանական, հնագիտական և մշակութային ժամանակի բաժանումներ','"6"','Երկրաբանական, հնագիտական և մշակութային ժամանակի բաժանումներ','','','',false,true);
+d.add(641,640,'"61/62"','<div class="nodetag">"61/62"</div></span>&nbsp;&nbsp;Երկրաբանական (լիտոլոգիական / կենսաբանական / հնէաէկոլոգիական ) ժամանակի բաժանում','"61/62"','Երկրաբանական (լիտոլոգիական / կենսաբանական / հնէաէկոլոգիական ) ժամանակի բաժանում','','','',false,true);
+d.add(642,641,'"61"','<div class="nodetag">"61"</div></span>&nbsp;&nbsp;Մինչքեմբրիից մինչև մեզոզոյան (ավելի քան 600 ից 70 Մ.Թ.Մ.Տ.Ա.)','"61"','Մինչքեմբրիից մինչև մեզոզոյան (ավելի քան 600 ից 70 Մ.Թ.Մ.Տ.Ա.)','','','',false,true);
+d.add(643,641,'"62"','<div class="nodetag">"62"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Phanerozoic (542 MYBP to present) (eon)</span>','"62"','Phanerozoic (542 MYBP to present) (eon)','','','',false,true);
+d.add(644,643,'"621"','<div class="nodetag">"621"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Palaeozoic / Paleozoic (542-251 MYBP) (era)</span>','"621"','Palaeozoic / Paleozoic (542-251 MYBP) (era)','','','',false,true);
+d.add(645,643,'"622"','<div class="nodetag">"622"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Mesozoic (251-65.5 MYBP) (era)</span>','"622"','Mesozoic (251-65.5 MYBP) (era)','','','',false,true);
+d.add(646,643,'"628"','<div class="nodetag">"628"</div></span>&nbsp;&nbsp;Կայնոզոյան։ Նեոզոյան   (65.5 Մ.Թ.Մ.Տ.Ա. - ներկա)','"628"','Կայնոզոյան։ Նեոզոյան   (65.5 Մ.Թ.Մ.Տ.Ա. - ներկա)','','','',false,true);
+d.add(647,641,'"63"','<div class="nodetag">"63"</div></span>&nbsp;&nbsp;Հնագիտական, նախապատմական ժամանակաշրջաններ և դարեր','"63"','Հնագիտական, նախապատմական ժամանակաշրջաններ և դարեր','','','',false,true);
+d.add(648,640,'"67/69"','<div class="nodetag">"67/69"</div></span>&nbsp;&nbsp;Թվականություն՝  համընհանուր, աշխարհիկ, ոչ քրիստոնեական կրոնների','"67/69"','Թվականություն՝  համընհանուր, աշխարհիկ, ոչ քրիստոնեական կրոնների','','','',false,true);
+d.add(649,648,'"67"','<div class="nodetag">"67"</div></span>&nbsp;&nbsp;Համընդհանուր թվականություն ։ Մեր թվարկությունից առաջ','"67"','Համընդհանուր թվականություն ։ Մեր թվարկությունից առաջ','','','',false,true);
+d.add(650,648,'"68"','<div class="nodetag">"68"</div></span>&nbsp;&nbsp;Աշխարհիկ  թվականություն բացի համընդհանուրից և քրիստոնեականից (գրիգորյան) օրացույցից','"68"','Աշխարհիկ  թվականություն բացի համընդհանուրից և քրիստոնեականից (գրիգորյան) օրացույցից','','','',false,true);
+d.add(651,648,'"69"','<div class="nodetag">"69"</div></span>&nbsp;&nbsp;Ոչ քրիստոնեական (գրիգորյան) եկեղեցական տոմարներ','"69"','Ոչ քրիստոնեական (գրիգորյան) եկեղեցական տոմարներ','','','',false,true);
+d.add(652,589,'"7"','<div class="nodetag">"7"</div></span>&nbsp;&nbsp;Երևույթներ ժամանակի մեջ։ Ժամանակի ֆենոմենոլոգիա','"7"','Երևույթներ ժամանակի մեջ։ Ժամանակի ֆենոմենոլոգիա','','','',false,true);
+d.add(653,0,'-0...','<div class="nodetag">-0...</div></span>&nbsp;&nbsp;Հիմնական բնութագրումների ընդհանուր որոշիչներ. հատկություններ , նյութեր, կապեր /գործընթացներ և անձեր։ Աղ. 1k','-0...','Հիմնական բնութագրումների ընդհանուր որոշիչներ. հատկություններ , նյութեր, կապեր /գործընթացներ և անձեր։ Աղ. 1k','','','',false,true);
+d.add(654,653,'-02','<div class="nodetag">-02</div></span>&nbsp;&nbsp;Հատկությունների ընդհանուր որոշիչներ։ Աղ. 1k','-02','Հատկությունների ընդհանուր որոշիչներ։ Աղ. 1k','','','',false,true);
+d.add(655,654,'-021','<div class="nodetag">-021</div></span>&nbsp;&nbsp;Գոյության միջոցներ','-021','Գոյության միջոցներ','','','',false,true);
+d.add(656,654,'-022','<div class="nodetag">-022</div></span>&nbsp;&nbsp;Ծավալի, աստիճանի, քանակի, համարի, չափի, ժամանակի ,մեծության, չափսերի հատկություններ','-022','Ծավալի, աստիճանի, քանակի, համարի, չափի, ժամանակի ,մեծության, չափսերի հատկություններ','','','',false,true);
+d.add(657,654,'-023','<div class="nodetag">-023</div></span>&nbsp;&nbsp;Ձևի հատկություններ','-023','Ձևի հատկություններ','','','',false,true);
+d.add(658,654,'-024','<div class="nodetag">-024</div></span>&nbsp;&nbsp;Կառուցվածքի հատկություններ։ Դիրք','-024','Կառուցվածքի հատկություններ։ Դիրք','','','',false,true);
+d.add(659,654,'-025','<div class="nodetag">-025</div></span>&nbsp;&nbsp;Կանոնակարգման հատկություններ','-025','Կանոնակարգման հատկություններ','','','',false,true);
+d.add(660,654,'-026','<div class="nodetag">-026</div></span>&nbsp;&nbsp;Գործողության և շարժման հատկություններ','-026','Գործողության և շարժման հատկություններ','','','',false,true);
+d.add(661,654,'-027','<div class="nodetag">-027</div></span>&nbsp;&nbsp;Գործառնական հատկություններ','-027','Գործառնական հատկություններ','','','',false,true);
+d.add(662,654,'-028','<div class="nodetag">-028</div></span>&nbsp;&nbsp;Ոճի ներկայացման հատկություններ','-028','Ոճի ներկայացման հատկություններ','','','',false,true);
+d.add(663,662,'-028.41','<div class="nodetag">-028.41</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Popular</span>','-028.41','Popular','','','',false,true);
+d.add(664,662,'-028.42','<div class="nodetag">-028.42</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Learned. Scholarly. Academic</span>','-028.42','Learned. Scholarly. Academic','','','',false,true);
+d.add(665,662,'-028.43','<div class="nodetag">-028.43</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Critical. Non-critical. Uncritical</span>','-028.43','Critical. Non-critical. Uncritical','','','',false,true);
+d.add(666,662,'-028.44','<div class="nodetag">-028.44</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Descriptive</span>','-028.44','Descriptive','','','',false,true);
+d.add(667,662,'-028.45','<div class="nodetag">-028.45</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Analytical</span>','-028.45','Analytical','','','',false,true);
+d.add(668,662,'-028.46','<div class="nodetag">-028.46</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Experiential. Pragmatic</span>','-028.46','Experiential. Pragmatic','','','',false,true);
+d.add(669,662,'-028.47','<div class="nodetag">-028.47</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Anecdotal</span>','-028.47','Anecdotal','','','',false,true);
+d.add(670,662,'-028.5','<div class="nodetag">-028.5</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Properties of authorship</span>','-028.5','Properties of authorship','','','',false,true);
+d.add(671,662,'-028.6','<div class="nodetag">-028.6</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Properties of order, arrangement</span>','-028.6','Properties of order, arrangement','','','',false,true);
+d.add(672,654,'-029','<div class="nodetag">-029</div></span>&nbsp;&nbsp;Այլ հիմնական դասերից ծագող հատկություններ','-029','Այլ հիմնական դասերից ծագող հատկություններ','','','',false,true);
+d.add(673,653,'-03','<div class="nodetag">-03</div></span>&nbsp;&nbsp;Նյութերի ընդհանուր որոշիչներ։ Աղ 1','-03','Նյութերի ընդհանուր որոշիչներ։ Աղ 1','','','',false,true);
+d.add(674,673,'-032','<div class="nodetag">-032</div></span>&nbsp;&nbsp;Անօրգանական ծագման բնական նյութեր','-032','Անօրգանական ծագման բնական նյութեր','','','',false,true);
+d.add(675,673,'-033','<div class="nodetag">-033</div></span>&nbsp;&nbsp;Հանքային հումքով արտադրված նյութեր','-033','Հանքային հումքով արտադրված նյութեր','','','',false,true);
+d.add(676,673,'-034','<div class="nodetag">-034</div></span>&nbsp;&nbsp;Մետաղներ','-034','Մետաղներ','','','',false,true);
+d.add(677,673,'-035','<div class="nodetag">-035</div></span>&nbsp;&nbsp;Հիմնականում օրգանական ծագում ունեցող նյութեր','-035','Հիմնականում օրգանական ծագում ունեցող նյութեր','','','',false,true);
+d.add(678,673,'-036','<div class="nodetag">-036</div></span>&nbsp;&nbsp;Մակրոմոլեկուլային նյութեր։ Ռետինե նյութեր և պլաստմասսե նյութեր','-036','Մակրոմոլեկուլային նյութեր։ Ռետինե նյութեր և պլաստմասսե նյութեր','','','',false,true);
+d.add(679,673,'-037','<div class="nodetag">-037</div></span>&nbsp;&nbsp;Մանածագործվածքներ(տեքստիլ), մանրաթելեր, մանվածքներ, գործվածք,  հագուստ','-037','Մանածագործվածքներ(տեքստիլ), մանրաթելեր, մանվածքներ, գործվածք,  հագուստ','','','',false,true);
+d.add(680,653,'-04','<div class="nodetag">-04</div></span>&nbsp;&nbsp;Հարաբերությունների,գործընթացների և գործողությունների ընդհանուր որոշիչներ','-04','Հարաբերությունների,գործընթացների և գործողությունների ընդհանուր որոշիչներ','','','',false,true);
+d.add(681,680,'-042','<div class="nodetag">-042</div></span>&nbsp;&nbsp;Փուլային հարաբերություններ','-042','Փուլային հարաբերություններ','','','',false,true);
+d.add(682,681,'-042.1','<div class="nodetag">-042.1</div></span>&nbsp;&nbsp;Թեք փուլ','-042.1','Թեք փուլ','','','',false,true);
+d.add(683,681,'-042.2','<div class="nodetag">-042.2</div></span>&nbsp;&nbsp;Համեմատության փուլ','-042.2','Համեմատության փուլ','','','',false,true);
+d.add(684,681,'-042.3','<div class="nodetag">-042.3</div></span>&nbsp;&nbsp;Ազդեցության փուլ','-042.3','Ազդեցության փուլ','','','',false,true);
+d.add(685,681,'-042.4','<div class="nodetag">-042.4</div></span>&nbsp;&nbsp;Գործիքավորման փուլ։ Ցուցադրման փուլ','-042.4','Գործիքավորման փուլ։ Ցուցադրման փուլ','','','',false,true);
+d.add(686,681,'-042.5/.8','<div class="nodetag">-042.5/.8</div></span>&nbsp;&nbsp;Հասկացությունների միջև հարաբերությունների նկարագրական այլ տերմինններ','-042.5/.8','Հասկացությունների միջև հարաբերությունների նկարագրական այլ տերմինններ','','','',false,true);
+d.add(687,680,'-043','<div class="nodetag">-043</div></span>&nbsp;&nbsp;Ընդհանուր գործընթացներ','-043','Ընդհանուր գործընթացներ','','','',false,true);
+d.add(688,687,'-043.8/.9','<div class="nodetag">-043.8/.9</div></span>&nbsp;&nbsp;Գոյության գործընթացներ','-043.8/.9','Գոյության գործընթացներ','','','',false,true);
+d.add(689,680,'-044.3','<div class="nodetag">-044.3</div></span>&nbsp;&nbsp;Գնահատման գործընթացներ','-044.3','Գնահատման գործընթացներ','','','',false,true);
+d.add(690,680,'-044.4','<div class="nodetag">-044.4</div></span>&nbsp;&nbsp;Կարգավորման և հաջորդականության գործընթացներ','-044.4','Կարգավորման և հաջորդականության գործընթացներ','','','',false,true);
+d.add(691,680,'-044.5','<div class="nodetag">-044.5</div></span>&nbsp;&nbsp;Ծավալի գործընթացներ','-044.5','Ծավալի գործընթացներ','','','',false,true);
+d.add(692,680,'-044.6','<div class="nodetag">-044.6</div></span>&nbsp;&nbsp;Համարի և աստիճանի գործընթացներ','-044.6','Համարի և աստիճանի գործընթացներ','','','',false,true);
+d.add(693,680,'-044.7','<div class="nodetag">-044.7</div></span>&nbsp;&nbsp;Ժամանակի և ժամանակագրության հետ կապված գործընթացներ','-044.7','Ժամանակի և ժամանակագրության հետ կապված գործընթացներ','','','',false,true);
+d.add(694,680,'-044.8','<div class="nodetag">-044.8</div></span>&nbsp;&nbsp;Մեծության գործընթացներ','-044.8','Մեծության գործընթացներ','','','',false,true);
+d.add(695,680,'-044.9','<div class="nodetag">-044.9</div></span>&nbsp;&nbsp;Ձևի գործընթացներ','-044.9','Ձևի գործընթացներ','','','',false,true);
+d.add(696,680,'-045','<div class="nodetag">-045</div></span>&nbsp;&nbsp;Նյութի դիրքի, կարգավորման, շարժման, ֆիզիկական հատկությունների, վիճակների հետ կապված գործընթացներ','-045','Նյութի դիրքի, կարգավորման, շարժման, ֆիզիկական հատկությունների, վիճակների հետ կապված գործընթացներ','','','',false,true);
+d.add(697,680,'-047/-049','<div class="nodetag">-047/-049</div></span>&nbsp;&nbsp;Աշխատանք և գործունեություն ամբողջությամբ','-047/-049','Աշխատանք և գործունեություն ամբողջությամբ','','','',false,true);
+d.add(698,653,'-05','<div class="nodetag">-05</div></span>&nbsp;&nbsp;Անձերի և անձնական բնութագրերի ընդհանուր որոշիչներ','-05','Անձերի և անձնական բնութագրերի ընդհանուր որոշիչներ','','','',false,true);
+d.add(699,698,'-051','<div class="nodetag">-051</div></span>&nbsp;&nbsp;Ներգործություն և ազդեցություն գործող անձեր (ուսումնասիրող, արտադրող, սպասարկող և այլն)','-051','Ներգործություն և ազդեցություն գործող անձեր (ուսումնասիրող, արտադրող, սպասարկող և այլն)','','','',false,true);
+d.add(700,698,'-052','<div class="nodetag">-052</div></span>&nbsp;&nbsp;Ներգործության և ազդեցության տակ գտնվող անձեր (ուսումնասիրվողներ,սպասարկվողներ և այլն)','-052','Ներգործության և ազդեցության տակ գտնվող անձեր (ուսումնասիրվողներ,սպասարկվողներ և այլն)','','','',false,true);
+d.add(701,698,'-053','<div class="nodetag">-053</div></span>&nbsp;&nbsp;Անձերն ըստ տարիքի կամ տարիքային խմբերի','-053','Անձերն ըստ տարիքի կամ տարիքային խմբերի','','','',false,true);
+d.add(702,701,'-053.1','<div class="nodetag">-053.1</div></span>&nbsp;&nbsp;Մարդկային էակներ, ծնված կամ չծնված, կենդանի կամ մեռած','-053.1','Մարդկային էակներ, ծնված կամ չծնված, կենդանի կամ մեռած','','','',false,true);
+d.add(703,701,'-053.2','<div class="nodetag">-053.2</div></span>&nbsp;&nbsp;Երեխաներ և նորածիններ (ընդհանրական)','-053.2','Երեխաներ և նորածիններ (ընդհանրական)','','','',false,true);
+d.add(704,701,'-053.8','<div class="nodetag">-053.8</div></span>&nbsp;&nbsp;Չափահասներ։ Մեծահասակներ','-053.8','Չափահասներ։ Մեծահասակներ','','','',false,true);
+d.add(705,701,'-053.9','<div class="nodetag">-053.9</div></span>&nbsp;&nbsp;Ծերեր','-053.9','Ծերեր','','','',false,true);
+d.add(706,698,'-054','<div class="nodetag">-054</div></span>&nbsp;&nbsp;Անձեր ըստ էթնիկական բնութագրությունների, ազգային կամ քաղաքցիության խմբերի','-054','Անձեր ըստ էթնիկական բնութագրությունների, ազգային կամ քաղաքցիության խմբերի','','','',false,true);
+d.add(707,706,'-054.4','<div class="nodetag">-054.4</div></span>&nbsp;&nbsp;Մշտական բնակիչներ (քաղաքացիներ կամ ոչ քաղաքացիներ)','-054.4','Մշտական բնակիչներ (քաղաքացիներ կամ ոչ քաղաքացիներ)','','','',false,true);
+d.add(708,706,'-054.5','<div class="nodetag">-054.5</div></span>&nbsp;&nbsp;Տվյալ երկրի քաղաքացիներ','-054.5','Տվյալ երկրի քաղաքացիներ','','','',false,true);
+d.add(709,706,'-054.6','<div class="nodetag">-054.6</div></span>&nbsp;&nbsp;Տվյալ երկրի քաղաքացիներ չհանդիսացող անձեր: Օտարերկրացիներ','-054.6','Տվյալ երկրի քաղաքացիներ չհանդիսացող անձեր: Օտարերկրացիներ','','','',false,true);
+d.add(710,706,'-054.7','<div class="nodetag">-054.7</div></span>&nbsp;&nbsp;Վտարանդիներ, արտաքսվածներ, հայրենադարձներ, ներգաղթվածներ, քաղաքացիություն չունեցող անձեր','-054.7','Վտարանդիներ, արտաքսվածներ, հայրենադարձներ, ներգաղթվածներ, քաղաքացիություն չունեցող անձեր','','','',false,true);
+d.add(711,698,'-055','<div class="nodetag">-055</div></span>&nbsp;&nbsp;Անձերն ըստ սեռի և ազգակցական կապերի','-055','Անձերն ըստ սեռի և ազգակցական կապերի','','','',false,true);
+d.add(712,711,'-055.1','<div class="nodetag">-055.1</div></span>&nbsp;&nbsp;Արական սեռի ներկայացուցիչներ: Տղամարդիք','-055.1','Արական սեռի ներկայացուցիչներ: Տղամարդիք','','','',false,true);
+d.add(713,711,'-055.2','<div class="nodetag">-055.2</div></span>&nbsp;&nbsp;Իգական սեռի ներկայացուցիչներ: Կանայք','-055.2','Իգական սեռի ներկայացուցիչներ: Կանայք','','','',false,true);
+d.add(714,711,'-055.3','<div class="nodetag">-055.3</div></span>&nbsp;&nbsp;Անձերն ըստ սեռական կողմնորոշման','-055.3','Անձերն ըստ սեռական կողմնորոշման','','','',false,true);
+d.add(715,711,'-055.5','<div class="nodetag">-055.5</div></span>&nbsp;&nbsp;Անձերն ըստ նախորդ սերունդների (ծնողական կամ նախնիների) հարաբերությունների ։ Նախնիներ','-055.5','Անձերն ըստ նախորդ սերունդների (ծնողական կամ նախնիների) հարաբերությունների ։ Նախնիներ','','','',false,true);
+d.add(716,711,'-055.6','<div class="nodetag">-055.6</div></span>&nbsp;&nbsp;Անձերն ըստ հետագա սերունդների (զավակի կամ հետնորդի) հարաբերությունների','-055.6','Անձերն ըստ հետագա սերունդների (զավակի կամ հետնորդի) հարաբերությունների','','','',false,true);
+d.add(717,711,'-055.7','<div class="nodetag">-055.7</div></span>&nbsp;&nbsp;Անձերն ըստ ազգակցական հարաբերությունների','-055.7','Անձերն ըստ ազգակցական հարաբերությունների','','','',false,true);
+d.add(718,698,'-056','<div class="nodetag">-056</div></span>&nbsp;&nbsp;Անձերն ըստ կառուցվածքի, առողջության, հակումների, ժառանգականության կամ այլ բնորոշիչների','-056','Անձերն ըստ կառուցվածքի, առողջության, հակումների, ժառանգականության կամ այլ բնորոշիչների','','','',false,true);
+d.add(719,718,'-056.1','<div class="nodetag">-056.1</div></span>&nbsp;&nbsp;Անձերն ըստ ընդհանուր կառուցվածքի, հակումի կամ բնավորության','-056.1','Անձերն ըստ ընդհանուր կառուցվածքի, հակումի կամ բնավորության','','','',false,true);
+d.add(720,718,'-056.2','<div class="nodetag">-056.2</div></span>&nbsp;&nbsp;Անձերն ըստ ֆիզիկական և առողջության վիճակի','-056.2','Անձերն ըստ ֆիզիկական և առողջության վիճակի','','','',false,true);
+d.add(721,718,'-056.3','<div class="nodetag">-056.3</div></span>&nbsp;&nbsp;Անձերն ըստ ընդունակության և մտավոր կամ հոգեկան վիճակի','-056.3','Անձերն ըստ ընդունակության և մտավոր կամ հոգեկան վիճակի','','','',false,true);
+d.add(722,718,'-056.4','<div class="nodetag">-056.4</div></span>&nbsp;&nbsp;Անձերն ըստ խառնվածքի, նախատրամադրվածության','-056.4','Անձերն ըստ խառնվածքի, նախատրամադրվածության','','','',false,true);
+d.add(723,698,'-057','<div class="nodetag">-057</div></span>&nbsp;&nbsp;Անձերն ըստ զբաղվածության, աշխատանքի, եկամուտի աղբյուրների և կրթության','-057','Անձերն ըստ զբաղվածության, աշխատանքի, եկամուտի աղբյուրների և կրթության','','','',false,true);
+d.add(724,723,'-057.1','<div class="nodetag">-057.1</div></span>&nbsp;&nbsp;Անձերն ըստ իրենց աշխատանքի, զբաղվածութան և վարչական կարգավիճակի','-057.1','Անձերն ըստ իրենց աշխատանքի, զբաղվածութան և վարչական կարգավիճակի','','','',false,true);
+d.add(725,723,'-057.2','<div class="nodetag">-057.2</div></span>&nbsp;&nbsp;Տեխնիկական անձնակազմ։ Որակավորում ունեցող բանվորներ։ Բանվորներ','-057.2','Տեխնիկական անձնակազմ։ Որակավորում ունեցող բանվորներ։ Բանվորներ','','','',false,true);
+d.add(726,723,'-057.3','<div class="nodetag">-057.3</div></span>&nbsp;&nbsp;Գրասենյակային, վարչական աշխատողներ: Քարտուղարներ, կլերկներ, գրասենյակային ծառայողներ','-057.3','Գրասենյակային, վարչական աշխատողներ: Քարտուղարներ, կլերկներ, գրասենյակային ծառայողներ','','','',false,true);
+d.add(727,723,'-057.4','<div class="nodetag">-057.4</div></span>&nbsp;&nbsp;Բարձրագույն կրթությամբ մասնագետներ կամ գիտական աշխատողներ','-057.4','Բարձրագույն կրթությամբ մասնագետներ կամ գիտական աշխատողներ','','','',false,true);
+d.add(728,723,'-057.5','<div class="nodetag">-057.5</div></span>&nbsp;&nbsp;Անձերն ըստ իրենց աշխատատեղի և ձեռնարկության հետ ունեցած կապերի','-057.5','Անձերն ըստ իրենց աշխատատեղի և ձեռնարկության հետ ունեցած կապերի','','','',false,true);
+d.add(729,723,'-057.6','<div class="nodetag">-057.6</div></span>&nbsp;&nbsp;Անձերն ըստ իրենց բնակության վայրի','-057.6','Անձերն ըստ իրենց բնակության վայրի','','','',false,true);
+d.add(730,723,'-057.7','<div class="nodetag">-057.7</div></span>&nbsp;&nbsp;Անձերն ըստ իրենց եկամտի աղբյուրների և ապահովագրության','-057.7','Անձերն ըստ իրենց եկամտի աղբյուրների և ապահովագրության','','','',false,true);
+d.add(731,723,'-057.8','<div class="nodetag">-057.8</div></span>&nbsp;&nbsp;Անձերն ըստ իրենց կրթության և փորձառության','-057.8','Անձերն ըստ իրենց կրթության և փորձառության','','','',false,true);
+d.add(732,723,'-057.9','<div class="nodetag">-057.9</div></span>&nbsp;&nbsp;Անձերն ըստ իրենց կատարողական գործունեության','-057.9','Անձերն ըստ իրենց կատարողական գործունեության','','','',false,true);
+d.add(733,698,'-058','<div class="nodetag">-058</div></span>&nbsp;&nbsp;Անձերն ըստ իրենց սոցիալական դասի և քաղաքացիական կարգավիճակի','-058','Անձերն ըստ իրենց սոցիալական դասի և քաղաքացիական կարգավիճակի','','','',false,true);
+d.add(734,733,'-058.1','<div class="nodetag">-058.1</div></span>&nbsp;&nbsp;Անձերն ըստ իրենց սոցիալական դասի կամ կարգավիճակի','-058.1','Անձերն ըստ իրենց սոցիալական դասի կամ կարգավիճակի','','','',false,true);
+d.add(735,733,'-058.3','<div class="nodetag">-058.3</div></span>&nbsp;&nbsp;Անձերն ըստ իրենց տնտեսական կարգերի (նշանակության, անվտանգության, այլ իրավունքների)','-058.3','Անձերն ըստ իրենց տնտեսական կարգերի (նշանակության, անվտանգության, այլ իրավունքների)','','','',false,true);
+d.add(736,733,'-058.5','<div class="nodetag">-058.5</div></span>&nbsp;&nbsp;Սոցիալտնտեսական ընդունված դասերից դուրս անձեր','-058.5','Սոցիալտնտեսական ընդունված դասերից դուրս անձեր','','','',false,true);
+d.add(737,733,'-058.6','<div class="nodetag">-058.6</div></span>&nbsp;&nbsp;Հանգամանքների զոհեր','-058.6','Հանգամանքների զոհեր','','','',false,true);
+d.add(738,733,'-058.7','<div class="nodetag">-058.7</div></span>&nbsp;&nbsp;Կախյալ անձեր','-058.7','Կախյալ անձեր','','','',false,true);
+d.add(739,733,'-058.8','<div class="nodetag">-058.8</div></span>&nbsp;&nbsp;Անձերն ըստ ամուսնության,ընտանեկան և քաղաքացիական կացության','-058.8','Անձերն ըստ ամուսնության,ընտանեկան և քաղաքացիական կացության','','','',false,true);
+d.config.useSelection = false;
+d.config.inOrder = true;
+d.config.useIcons = false;
+document.write(d);
+//-->
+</script>
+</div>
+</div><div id="expandbox" onclick="expandbox(); return false;">&nbsp;</div>
+<div id="recordbox" class="debugbkg">
+<div class="fronthint">սեղմիր ձախ կողմի դասի վրա գրառումների արտածման համար</div>
+</div>
+
+        <div id="footer">
+            <div class="footersectionleft">
+                The UDC Summary (UDCS) provides a selection of around 2,600 classes from the whole scheme which comprises more than 70,000 entries.
+                Please send questions and suggestions to <a href="mailto:udcs@udcc.org?subject=UDC Summary Enquiry">udcs@udcc.org</a><br><br>
+	            <p>
+		            The data provided in this Summary is released under the <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative Commons Attribution Share Alike 3.0 license</a> <a href="../about.htm">[more]</a>
+	            </p>
+            </div>
+            <div class="footermiddle">
+                <a href="http://www.udcc.org"><img src="../images/udclogowhite.png" border="0"></a>
+            </div>
+			<div class="footerright">
+                For complete UDC schedules see <a href="http://www.udc-hub.com/">UDC Online Hub</a><br/><a href="http://www.udc-hub.com/"><img width="60" height="35" src="../images/udclogo.png"/></a>
+
+			</div>
+        </div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-13138465-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>

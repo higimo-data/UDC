@@ -1,0 +1,654 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>UDC Summary</title>
+    <link rel="stylesheet" href="../reset.css" type="text/css" />
+    <link rel="stylesheet" href="../udc2000.css" type="text/css" />
+	    <link rel="StyleSheet" href="dtree2.css" type="text/css" />
+	    <script type="text/javascript" src="dtree.js"></script>
+	    <script type="text/javascript" src="udcdisplay_9.js"></script>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+</head>
+
+<body >
+<div id="centercontainer" class="debugbkg">
+    <div id="titlebox" class="debugbkg">
+		<div id="rightbox">
+        	<div id="languagecount">57 languages</div>
+            <div id="languagebox">
+            <select id="selectedlang" style="vertical-align: middle;" onchange="location = this.options[this.selectedIndex].value;">
+			<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=af&pr=Y">Afrikaans (Afrikaans) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sq&pr=Y">Albanian (Shqip) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=anp&pr=Y">Angika (अंगिका) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ar&pr=Y">Arabic (العربية) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hy&pr=Y">Armenian (հայերեն) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=eu&pr=Y">Basque (Euskara) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=be&pr=Y">Belarusian (Беларуская) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bn&pr=Y">Bengali (বাংলা) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bho&pr=Y">Bhojpuri (भोजपुरी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bg&pr=Y">Bulgarian (Български) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ca&pr=Y">Catalan (Català) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=chi&pr=Y">Chinese (中文) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hr&pr=Y">Croatian (Hrvatski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=cs&pr=Y">Czech (Čeština) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=da&pr=Y">Danish (Dansk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=nl&pr=Y">Dutch (Nederlands) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=en&pr=Y">English (English) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=eo&pr=Y">Esperanto (Esperanto) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=et&pr=Y">Estonian (Eesti) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=fi&pr=Y">Finnish (Suomi) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=fr&pr=Y" selected>French (Français) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=gl&pr=Y">Galician (Galego) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ka&pr=Y">Georgian (ქართული) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=de&pr=Y">German (Deutsch) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=el&pr=Y">Greek (Ελληνικά) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hi&pr=Y">Hindi (हिन्दी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hu&pr=Y">Hungarian (Magyar) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=id&pr=Y">Indonesian (Bahasa Ind) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ga&pr=Y">Irish (Gaeilge) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=it&pr=Y">Italian (Italiano) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ja&pr=Y">Japanese (日本語) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=kn&pr=Y">Kannada (ಕನ್ನಡ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=kk&pr=Y">Kazakh (Қазақ тілі) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=lv&pr=Y">Latvian (Latviešu) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=lt&pr=Y">Lithuanian (lietuvių) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=mk&pr=Y">Macedonian (македонски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ml&pr=Y">Malayalam (മലയാളം) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=mr&pr=Y">Marathi (मराठी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=no&pr=Y">Norwegian (Norsk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pl&pr=Y">Polish (Polski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pt&pr=Y">Portuguese (Português) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pa&pr=Y">Punjabi (ਪੰਜਾਬੀ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ro&pr=Y">Romanian (Româna) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ru&pr=Y">Russian (Pусский) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sa&pr=Y">Sanskrit (Saṃskṛtam) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sr&pr=Y">Serbian (Српски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=si&pr=Y">Sinhala (සිංහල) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sk&pr=Y">Slovak (Slovenský) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sl&pr=Y">Slovenian (Slovenski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=es&pr=Y">Spanish (Español) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sv&pr=Y">Swedish (Svenska) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ta&pr=Y">Tamil (தமிழ்) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=te&pr=Y">Telugu (తెలుగు) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=tr&pr=Y">Turkish (Türkçe) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=uk&pr=Y">Ukrainian (Yкраї́нська) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=uz&pr=Y">Uzbek (oʻzbek) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=vi&pr=Y">Vietnamese (tiếng Việt) </option>
+            </select>
+            </div>
+            </div>
+        </div>
+		<div id="menubox" class="debugbkg">
+            <ul class="menu boldmenu">
+<li><a href="index.php@lang=fr">HAUT</a></li>
+<li><a href="index.php@tag=--&amp;lang=fr">SIGNES</a></li>
+<li><a href="index.php@tag=---&amp;lang=fr">TABLES AUXILIAIRES</a></li>
+<li><a href="index.php@tag=0&amp;lang=fr">0</a></li>
+<li><a href="index.php@tag=1&amp;lang=fr">1</a></li>
+<li><a href="index.php@tag=2&amp;lang=fr">2</a></li>
+<li><a href="index.php@tag=3&amp;lang=fr">3</a></li>
+<li><a  class="vacant" href="index.php@tag=6&amp;lang=fr#">4</a></li>
+<li><a href="index.php@tag=5&amp;lang=fr">5</a></li>
+<li><a href="index.php@tag=6&amp;lang=fr">6</a></li>
+<li><a href="index.php@tag=7&amp;lang=fr">7</a></li>
+<li><a href="index.php@tag=8&amp;lang=fr">8</a></li>
+<li><a href="index.php@tag=9&amp;lang=fr">9</a></li>
+</ul>
+<input type="hidden" id="if_loading" name="if_loading" value="Chargement"/>
+<input type="hidden" id="if_lang" name="if_lang" value="4"/>
+<ul class="rightmenu boldmenu">
+<li><a href="../translation.htm">TRADUCTIONS</a></li>
+<li><a href="index.php@tag=6&amp;lang=fr#" title="Under Development">CORRESPONDANCES</a></li>
+<li><a href="../exports.htm" title="Data Exports">EXPORTS</a></li>
+<li><a href="index.php@tag=6&amp;lang=fr#" title="Under Development">INDEX ALPHABÉTIQUE</a></li>
+<li><a href="index.php@tag=6&amp;lang=fr#" title="Under Development">GUIDE</a></li>
+<li><a href="../about.htm" title="About the UDC Summary">À PROPOS</a></li>
+</ul>
+
+        </div>
+		<input type="hidden" id="leftWidth" value="420"/><input type="hidden" id="rightWidth" value="522"/>
+		<div id="classmarkbox" class="debugbkg">
+
+<div id="openclosemenu"><a href="javascript: d.openAll();">&nbsp;tout déplier</a> | <a href="javascript: d.closeAll();">tout replier</a></div>
+<div id="classtree">
+<script type="text/javascript">
+<!--
+d = new dTree('d');
+d.config.hrefIsClick = true;
+d.add(0,-1,'6','<span class="nodetag">6</span>&nbsp;&nbsp;SCIENCES APPLIQUEES. MEDECINE. TECHNOLOGIE','6','','','','',false,true);
+d.add(1,0,'60','<div class="nodetag">60</div></span>&nbsp;&nbsp;Biotechnologie','60','Biotechnologie','','','',false,true);
+d.add(2,1,'601','<div class="nodetag">601</div></span>&nbsp;&nbsp;Concepts fondamentaux','601','Concepts fondamentaux','','','',false,true);
+d.add(3,1,'602','<div class="nodetag">602</div></span>&nbsp;&nbsp;Processus et techniques en biotechnologie','602','Processus et techniques en biotechnologie','','','',false,true);
+d.add(4,1,'604','<div class="nodetag">604</div></span>&nbsp;&nbsp;Produits biotechnologiques','604','Produits biotechnologiques','','','',false,true);
+d.add(5,1,'606','<div class="nodetag">606</div></span>&nbsp;&nbsp;Applications de la biotechnologie','606','Applications de la biotechnologie','','','',false,true);
+d.add(6,1,'608','<div class="nodetag">608</div></span>&nbsp;&nbsp;Questions, problèmes en biotechnologie','608','Questions, problèmes en biotechnologie','','','',false,true);
+d.add(7,0,'61','<div class="nodetag">61</div></span>&nbsp;&nbsp;Sciences médicales','61','Sciences médicales','','','',false,true);
+d.add(8,7,'611/612','<div class="nodetag">611/612</div></span>&nbsp;&nbsp;Biologie humaine','611/612','Biologie humaine','','','',false,true);
+d.add(9,8,'611','<div class="nodetag">611</div></span>&nbsp;&nbsp;Anatomie. Anatomie humaine et comparée','611','Anatomie. Anatomie humaine et comparée','','','',false,true);
+d.add(10,8,'612','<div class="nodetag">612</div></span>&nbsp;&nbsp;Physiologie. Physiologie humaine et comparée','612','Physiologie. Physiologie humaine et comparée','','','',false,true);
+d.add(11,10,'612.1/.8','<div class="nodetag">612.1/.8</div></span>&nbsp;&nbsp;Physiologie systématique','612.1/.8','Physiologie systématique','','','',false,true);
+d.add(12,11,'612.1','<div class="nodetag">612.1</div></span>&nbsp;&nbsp;Sang. Système cardio-vasculaire, circulatoire','612.1','Sang. Système cardio-vasculaire, circulatoire','','','',false,true);
+d.add(13,11,'612.2','<div class="nodetag">612.2</div></span>&nbsp;&nbsp;Respiration. Système respiratoire','612.2','Respiration. Système respiratoire','','','',false,true);
+d.add(14,11,'612.3','<div class="nodetag">612.3</div></span>&nbsp;&nbsp;Alimentation. Digestion. Nutrition','612.3','Alimentation. Digestion. Nutrition','','','',false,true);
+d.add(15,11,'612.4','<div class="nodetag">612.4</div></span>&nbsp;&nbsp;Physiologie glandulaire. Sécrétion. Excrétion','612.4','Physiologie glandulaire. Sécrétion. Excrétion','','','',false,true);
+d.add(16,11,'612.5','<div class="nodetag">612.5</div></span>&nbsp;&nbsp;Chaleur animale. Processus thermiques','612.5','Chaleur animale. Processus thermiques','','','',false,true);
+d.add(17,11,'612.6','<div class="nodetag">612.6</div></span>&nbsp;&nbsp;Reproduction. Croissance. Développement','612.6','Reproduction. Croissance. Développement','','','',false,true);
+d.add(18,11,'612.7','<div class="nodetag">612.7</div></span>&nbsp;&nbsp;Fonctions motrices. Organes locomoteurs. Voix. Tégument','612.7','Fonctions motrices. Organes locomoteurs. Voix. Tégument','','','',false,true);
+d.add(19,11,'612.8','<div class="nodetag">612.8</div></span>&nbsp;&nbsp;Système nerveux. Organes des sens','612.8','Système nerveux. Organes des sens','','','',false,true);
+d.add(20,7,'613','<div class="nodetag">613</div></span>&nbsp;&nbsp;Hygiène en général. Santé et hygiène personnelle','613','Hygiène en général. Santé et hygiène personnelle','','','',false,true);
+d.add(21,20,'613.2','<div class="nodetag">613.2</div></span>&nbsp;&nbsp;Diététique. Principes de la nutrition apliqués a l\'alimentation et le nourriture','613.2','Diététique. Principes de la nutrition apliqués a l\'alimentation et le nourriture','','','',false,true);
+d.add(22,20,'613.3','<div class="nodetag">613.3</div></span>&nbsp;&nbsp;Boissons. Boissons curatives. Eaux médicinales. Régime liquide','613.3','Boissons. Boissons curatives. Eaux médicinales. Régime liquide','','','',false,true);
+d.add(23,20,'613.4','<div class="nodetag">613.4</div></span>&nbsp;&nbsp;Hygiène personnelle. Propreté. Habillement','613.4','Hygiène personnelle. Propreté. Habillement','','','',false,true);
+d.add(24,20,'613.5','<div class="nodetag">613.5</div></span>&nbsp;&nbsp;Hygiène de l’habitat','613.5','Hygiène de l’habitat','','','',false,true);
+d.add(25,20,'613.6','<div class="nodetag">613.6</div></span>&nbsp;&nbsp;Risques professionnels. Santé et hygiène professionnelle','613.6','Risques professionnels. Santé et hygiène professionnelle','','','',false,true);
+d.add(26,20,'613.7','<div class="nodetag">613.7</div></span>&nbsp;&nbsp;Santé et hygiène des loisirs. Hygiène du repos','613.7','Santé et hygiène des loisirs. Hygiène du repos','','','',false,true);
+d.add(27,20,'613.8','<div class="nodetag">613.8</div></span>&nbsp;&nbsp;Santé et hygiène du système nerveux. Santé et éthique','613.8','Santé et hygiène du système nerveux. Santé et éthique','','','',false,true);
+d.add(28,20,'613.9','<div class="nodetag">613.9</div></span>&nbsp;&nbsp;Hygiène en relation avec l’âge, le sexe, l\'origine ethnique','613.9','Hygiène en relation avec l’âge, le sexe, l\'origine ethnique','','','',false,true);
+d.add(29,7,'614','<div class="nodetag">614</div></span>&nbsp;&nbsp;Santé et hygiene publique. Prévention des accidents','614','Santé et hygiene publique. Prévention des accidents','','','',false,true);
+d.add(30,29,'614.1','<div class="nodetag">614.1</div></span>&nbsp;&nbsp;Population. Dépopulation','614.1','Population. Dépopulation','','','',false,true);
+d.add(31,29,'614.2','<div class="nodetag">614.2</div></span>&nbsp;&nbsp;Organisation des services de santé publique et professionelle','614.2','Organisation des services de santé publique et professionelle','','','',false,true);
+d.add(32,29,'614.3','<div class="nodetag">614.3</div></span>&nbsp;&nbsp;Inspection et contrôle sanitaires','614.3','Inspection et contrôle sanitaires','','','',false,true);
+d.add(33,32,'614.39','<div class="nodetag">614.39</div></span>&nbsp;&nbsp;Systèmes de santé nationaux','614.39','Systèmes de santé nationaux','','','',false,true);
+d.add(34,29,'614.4','<div class="nodetag">614.4</div></span>&nbsp;&nbsp;Prévention et contrôle des maladies infectieuses et contagieuses. Prévention des épidémies','614.4','Prévention et contrôle des maladies infectieuses et contagieuses. Prévention des épidémies','','','',false,true);
+d.add(35,29,'614.6','<div class="nodetag">614.6</div></span>&nbsp;&nbsp;Hygiène des cimetières','614.6','Hygiène des cimetières','','','',false,true);
+d.add(36,29,'614.7','<div class="nodetag">614.7</div></span>&nbsp;&nbsp;Hygiène de l\'air, de l\'eau, du sol. Pollution et son contrôle','614.7','Hygiène de l\'air, de l\'eau, du sol. Pollution et son contrôle','','','',false,true);
+d.add(37,29,'614.8','<div class="nodetag">614.8</div></span>&nbsp;&nbsp;Accidents. Risques. Prévention des accidents. Protection personnelle. Sécurité','614.8','Accidents. Risques. Prévention des accidents. Protection personnelle. Sécurité','','','',false,true);
+d.add(38,29,'614.9','<div class="nodetag">614.9</div></span>&nbsp;&nbsp;Hygiène vétérinaire. Santé des animaux','614.9','Hygiène vétérinaire. Santé des animaux','','','',false,true);
+d.add(39,7,'615','<div class="nodetag">615</div></span>&nbsp;&nbsp;Pharmacologie. Thérapeutique. Toxicologie','615','Pharmacologie. Thérapeutique. Toxicologie','','','',false,true);
+d.add(40,39,'615.1','<div class="nodetag">615.1</div></span>&nbsp;&nbsp;Pharmacie générale et professionnelle','615.1','Pharmacie générale et professionnelle','','','',false,true);
+d.add(41,39,'615.2','<div class="nodetag">615.2</div></span>&nbsp;&nbsp;Médicament en fonction de leur action principale','615.2','Médicament en fonction de leur action principale','','','',false,true);
+d.add(42,39,'615.3','<div class="nodetag">615.3</div></span>&nbsp;&nbsp;Médicaments en fonction de leur origine','615.3','Médicaments en fonction de leur origine','','','',false,true);
+d.add(43,39,'615.4','<div class="nodetag">615.4</div></span>&nbsp;&nbsp;Préparations pharmaceutiques. Matériel médical. Equipement','615.4','Préparations pharmaceutiques. Matériel médical. Equipement','','','',false,true);
+d.add(44,39,'615.8','<div class="nodetag">615.8</div></span>&nbsp;&nbsp;Physiothérapie. Radiothérapie. Autres traitements thérapeutiques non médicamenteux','615.8','Physiothérapie. Radiothérapie. Autres traitements thérapeutiques non médicamenteux','','','',false,true);
+d.add(45,39,'615.9','<div class="nodetag">615.9</div></span>&nbsp;&nbsp;Toxicologie générale. Etude des produits toxiques et des intoxications','615.9','Toxicologie générale. Etude des produits toxiques et des intoxications','','','',false,true);
+d.add(46,7,'616','<div class="nodetag">616</div></span>&nbsp;&nbsp;Pathologie. Médecine clinique','616','Pathologie. Médecine clinique','','','',false,true);
+d.add(47,46,'616-001/-009','<div class="nodetag">616-001/-009</div></span>&nbsp;&nbsp;Divisions spéciales pour les processus morbides','616-001/-009','Divisions spéciales pour les processus morbides','','','',false,true);
+d.add(48,47,'616-001','<div class="nodetag">616-001</div></span>&nbsp;&nbsp;Traumatismes. Lésions. Blessures','616-001','Traumatismes. Lésions. Blessures','','','',false,true);
+d.add(49,47,'616-002','<div class="nodetag">616-002</div></span>&nbsp;&nbsp;Inflammation. Irritation. Engorgement. Congestion muqueuse','616-002','Inflammation. Irritation. Engorgement. Congestion muqueuse','','','',false,true);
+d.add(50,47,'616-003','<div class="nodetag">616-003</div></span>&nbsp;&nbsp;Processus régressifs et réparateurs','616-003','Processus régressifs et réparateurs','','','',false,true);
+d.add(51,47,'616-004','<div class="nodetag">616-004</div></span>&nbsp;&nbsp;Sclérose. Induration. Cirrhose','616-004','Sclérose. Induration. Cirrhose','','','',false,true);
+d.add(52,47,'616-005','<div class="nodetag">616-005</div></span>&nbsp;&nbsp;Troubles circulatoires locaux','616-005','Troubles circulatoires locaux','','','',false,true);
+d.add(53,47,'616-006','<div class="nodetag">616-006</div></span>&nbsp;&nbsp;Tumeurs. Néoplasmes. Blastome. Choristome. Hamartome. Oncologie','616-006','Tumeurs. Néoplasmes. Blastome. Choristome. Hamartome. Oncologie','','','',false,true);
+d.add(54,47,'616-007','<div class="nodetag">616-007</div></span>&nbsp;&nbsp;Défauts structurels du développement. Difformités physiologiques. Malformations. Hémitérate. Organes atrophiés ou hypertrophiés. Monstres. Anormalités','616-007','Défauts structurels du développement. Difformités physiologiques. Malformations. Hémitérate. Organes atrophiés ou hypertrophiés. Monstres. Anormalités','','','',false,true);
+d.add(55,47,'616-008','<div class="nodetag">616-008</div></span>&nbsp;&nbsp;Troubles des fonctions et du métabolisme','616-008','Troubles des fonctions et du métabolisme','','','',false,true);
+d.add(56,47,'616-009','<div class="nodetag">616-009</div></span>&nbsp;&nbsp;Troubles nerveux','616-009','Troubles nerveux','','','',false,true);
+d.add(57,46,'616-01/-099','<div class="nodetag">616-01/-099</div></span>&nbsp;&nbsp;Divisions spéciales pour les aspects généraux de la pathologie','616-01/-099','Divisions spéciales pour les aspects généraux de la pathologie','','','',false,true);
+d.add(58,57,'616-01','<div class="nodetag">616-01</div></span>&nbsp;&nbsp;Aspects divers de la maladie, du patient et de l\'intervention médicale','616-01','Aspects divers de la maladie, du patient et de l\'intervention médicale','','','',false,true);
+d.add(59,57,'616-02','<div class="nodetag">616-02</div></span>&nbsp;&nbsp;Etiologie. Science des causes des maladies','616-02','Etiologie. Science des causes des maladies','','','',false,true);
+d.add(60,57,'616-03','<div class="nodetag">616-03</div></span>&nbsp;&nbsp;Formes diverses des maladies, des traitements et de l\'administration des médicaments','616-03','Formes diverses des maladies, des traitements et de l\'administration des médicaments','','','',false,true);
+d.add(61,57,'616-05','<div class="nodetag">616-05</div></span>&nbsp;&nbsp;Personnes et caractéristiques personnelles en pathologie. Caractéristiques du patient','616-05','Personnes et caractéristiques personnelles en pathologie. Caractéristiques du patient','','','',false,true);
+d.add(62,57,'616-06','<div class="nodetag">616-06</div></span>&nbsp;&nbsp;Complications. Conséquences. Répercussions. Coexistence. Corrélation. Maladies antérieures. Etat de santé antérieur. Antagonisme entre deux maladies','616-06','Complications. Conséquences. Répercussions. Coexistence. Corrélation. Maladies antérieures. Etat de santé antérieur. Antagonisme entre deux maladies','','','',false,true);
+d.add(63,57,'616-07','<div class="nodetag">616-07</div></span>&nbsp;&nbsp;Séméiologie générale. Symptomatologie. Signes et symptoms. Examens. Diagnostic. Propédeutique','616-07','Séméiologie générale. Symptomatologie. Signes et symptoms. Examens. Diagnostic. Propédeutique','','','',false,true);
+d.add(64,57,'616-08','<div class="nodetag">616-08</div></span>&nbsp;&nbsp;Traitement','616-08','Traitement','','','',false,true);
+d.add(65,57,'616-091','<div class="nodetag">616-091</div></span>&nbsp;&nbsp;Anatomie pathologique. Anatomie morbide','616-091','Anatomie pathologique. Anatomie morbide','','','',false,true);
+d.add(66,57,'616-092','<div class="nodetag">616-092</div></span>&nbsp;&nbsp;Physiologie pathologique. Processus, mode d\'action des maladies. Pathogénie. Etude de l\'origine des maladies','616-092','Physiologie pathologique. Processus, mode d\'action des maladies. Pathogénie. Etude de l\'origine des maladies','','','',false,true);
+d.add(67,57,'616-093','<div class="nodetag">616-093</div></span>&nbsp;&nbsp;Techniques microbiennes','616-093','Techniques microbiennes','','','',false,true);
+d.add(68,57,'616-094','<div class="nodetag">616-094</div></span>&nbsp;&nbsp;Morphologie microbiennes','616-094','Morphologie microbiennes','','','',false,true);
+d.add(69,57,'616-095','<div class="nodetag">616-095</div></span>&nbsp;&nbsp;Physiologie microbienne','616-095','Physiologie microbienne','','','',false,true);
+d.add(70,57,'616-097','<div class="nodetag">616-097</div></span>&nbsp;&nbsp;Antigènes. Anticorps','616-097','Antigènes. Anticorps','','','',false,true);
+d.add(71,57,'616-098','<div class="nodetag">616-098</div></span>&nbsp;&nbsp;Physique, chimie microbienne, métabolisme, catabolisme microbien','616-098','Physique, chimie microbienne, métabolisme, catabolisme microbien','','','',false,true);
+d.add(72,57,'616-099','<div class="nodetag">616-099</div></span>&nbsp;&nbsp;Empoisonnement. Intoxication','616-099','Empoisonnement. Intoxication','','','',false,true);
+d.add(73,46,'616-71/-78','<div class="nodetag">616-71/-78</div></span>&nbsp;&nbsp;Divisions spéciales pour l\'instrumentation et les appareils de médecine et de chirurgie','616-71/-78','Divisions spéciales pour l\'instrumentation et les appareils de médecine et de chirurgie','','','',false,true);
+d.add(74,73,'616-71','<div class="nodetag">616-71</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Medical instruments and equipment in general</span>','616-71','Medical instruments and equipment in general','','','',false,true);
+d.add(75,73,'616-72','<div class="nodetag">616-72</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Surgical and therapeutic instruments</span>','616-72','Surgical and therapeutic instruments','','','',false,true);
+d.add(76,73,'616-74','<div class="nodetag">616-74</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Reinforcement and reparative materials and equipment</span>','616-74','Reinforcement and reparative materials and equipment','','','',false,true);
+d.add(77,73,'616-76','<div class="nodetag">616-76</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Corrective and protective appliances, aids etc.</span>','616-76','Corrective and protective appliances, aids etc.','','','',false,true);
+d.add(78,73,'616-77','<div class="nodetag">616-77</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Prosthetic materials and parts. Artificial organs etc.</span>','616-77','Prosthetic materials and parts. Artificial organs etc.','','','',false,true);
+d.add(79,73,'616-78','<div class="nodetag">616-78</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Machines and mechanical apparatus</span>','616-78','Machines and mechanical apparatus','','','',false,true);
+d.add(80,46,'616.1/.9','<div class="nodetag">616.1/.9</div></span>&nbsp;&nbsp;Pathologie spéciale','616.1/.9','Pathologie spéciale','','','',false,true);
+d.add(81,80,'616.1','<div class="nodetag">616.1</div></span>&nbsp;&nbsp;Affection de l’appareil circulatoire, des vaisseaux sanguins. Affections cardio-vasculaires','616.1','Affection de l’appareil circulatoire, des vaisseaux sanguins. Affections cardio-vasculaires','','','',false,true);
+d.add(82,80,'616.2','<div class="nodetag">616.2</div></span>&nbsp;&nbsp;Pathologie de l’appareil respiratoire. Affections des organes respiratoires','616.2','Pathologie de l’appareil respiratoire. Affections des organes respiratoires','','','',false,true);
+d.add(83,80,'616.3','<div class="nodetag">616.3</div></span>&nbsp;&nbsp;Pathologie de l\'appareil digestif. Affections de l\'appareil digestif','616.3','Pathologie de l\'appareil digestif. Affections de l\'appareil digestif','','','',false,true);
+d.add(84,83,'616.31','<div class="nodetag">616.31</div></span>&nbsp;&nbsp;Stomatologie. Cavité orale. Affections de la bouche et des dents','616.31','Stomatologie. Cavité orale. Affections de la bouche et des dents','','','',false,true);
+d.add(85,80,'616.4','<div class="nodetag">616.4</div></span>&nbsp;&nbsp;Pathologie du système lymphatique, des organes hématopoïétiques, du système endocrinien','616.4','Pathologie du système lymphatique, des organes hématopoïétiques, du système endocrinien','','','',false,true);
+d.add(86,80,'616.5','<div class="nodetag">616.5</div></span>&nbsp;&nbsp;Peau. Tégument commun. Dermatologie clinique. Affections cutanés','616.5','Peau. Tégument commun. Dermatologie clinique. Affections cutanés','','','',false,true);
+d.add(87,80,'616.6','<div class="nodetag">616.6</div></span>&nbsp;&nbsp;Pathologie du système uro-génital. Affections urinaires et génitales','616.6','Pathologie du système uro-génital. Affections urinaires et génitales','','','',false,true);
+d.add(88,80,'616.7','<div class="nodetag">616.7</div></span>&nbsp;&nbsp;Pathologie des organes locomoteurs. Système squelettique et locomoteur','616.7','Pathologie des organes locomoteurs. Système squelettique et locomoteur','','','',false,true);
+d.add(89,80,'616.8','<div class="nodetag">616.8</div></span>&nbsp;&nbsp;Neurologie. Neuropathologie. Système nerveux','616.8','Neurologie. Neuropathologie. Système nerveux','','','',false,true);
+d.add(90,89,'616.89','<div class="nodetag">616.89</div></span>&nbsp;&nbsp;Psychiatrie. Pathologies psychiatriques. Psychopathologie. Phrenopathies. Psychoses. Anomalies mentales. Etats psychiques et mentaux morbides. Désordres émotionnels et comportementaux','616.89','Psychiatrie. Pathologies psychiatriques. Psychopathologie. Phrenopathies. Psychoses. Anomalies mentales. Etats psychiques et mentaux morbides. Désordres émotionnels et comportementaux','','','',false,true);
+d.add(91,80,'616.9','<div class="nodetag">616.9</div></span>&nbsp;&nbsp;Maladies infectieuses et contagieuses, fièvres','616.9','Maladies infectieuses et contagieuses, fièvres','','','',false,true);
+d.add(92,7,'617','<div class="nodetag">617</div></span>&nbsp;&nbsp;Chirurgie. Orthopédie. Ophtalmologie','617','Chirurgie. Orthopédie. Ophtalmologie','','','',false,true);
+d.add(93,92,'617.3','<div class="nodetag">617.3</div></span>&nbsp;&nbsp;Orthopédie en général','617.3','Orthopédie en général','','','',false,true);
+d.add(94,92,'617.7','<div class="nodetag">617.7</div></span>&nbsp;&nbsp;Ophtalmologie. Maladie des yeux et traitements','617.7','Ophtalmologie. Maladie des yeux et traitements','','','',false,true);
+d.add(95,7,'618','<div class="nodetag">618</div></span>&nbsp;&nbsp;Gynécologie. Obstétrique','618','Gynécologie. Obstétrique','','','',false,true);
+d.add(96,0,'62','<div class="nodetag">62</div></span>&nbsp;&nbsp;Ingénierie. Technologie en général','62','Ingénierie. Technologie en général','','','',false,true);
+d.add(97,96,'62-1/-9','<div class="nodetag">62-1/-9</div></span>&nbsp;&nbsp;Divisions spéciales pour les caractéristiques et les détails des machines, de l\'équipement, des usines, des processus et des produits','62-1/-9','Divisions spéciales pour les caractéristiques et les détails des machines, de l\'équipement, des usines, des processus et des produits','','','',false,true);
+d.add(98,97,'62-1','<div class="nodetag">62-1</div></span>&nbsp;&nbsp;Caractéristiques générales des machines','62-1','Caractéristiques générales des machines','','','',false,true);
+d.add(99,97,'62-2','<div class="nodetag">62-2</div></span>&nbsp;&nbsp;Eléments fixes et mobiles des machines, pièces composantes','62-2','Eléments fixes et mobiles des machines, pièces composantes','','','',false,true);
+d.add(100,97,'62-3','<div class="nodetag">62-3</div></span>&nbsp;&nbsp;Organes de commande des fluides. Soupapes, valves, etc.','62-3','Organes de commande des fluides. Soupapes, valves, etc.','','','',false,true);
+d.add(101,97,'62-4','<div class="nodetag">62-4</div></span>&nbsp;&nbsp;Etat, conditions, types de matériaux, surfaces, objets, produits','62-4','Etat, conditions, types de matériaux, surfaces, objets, produits','','','',false,true);
+d.add(102,97,'62-5','<div class="nodetag">62-5</div></span>&nbsp;&nbsp;Conduite et contrôle des machines et processus','62-5','Conduite et contrôle des machines et processus','','','',false,true);
+d.add(103,97,'62-6','<div class="nodetag">62-6</div></span>&nbsp;&nbsp;Combustibles et outres caractéristiques d\'alimentation des machines et usines','62-6','Combustibles et outres caractéristiques d\'alimentation des machines et usines','','','',false,true);
+d.add(104,97,'62-7','<div class="nodetag">62-7</div></span>&nbsp;&nbsp;Dispositifs pour le service, l\'entretien et la protection des machines','62-7','Dispositifs pour le service, l\'entretien et la protection des machines','','','',false,true);
+d.add(105,97,'62-8','<div class="nodetag">62-8</div></span>&nbsp;&nbsp;Machines en fonction de l\'énergie motrice, de la force de propulsion. Source d\'énergie des machines','62-8','Machines en fonction de l\'énergie motrice, de la force de propulsion. Source d\'énergie des machines','','','',false,true);
+d.add(106,97,'62-9','<div class="nodetag">62-9</div></span>&nbsp;&nbsp;Variables, conditions et caractéristiques du processus de production, de l\'usine et de l\'équipement','62-9','Variables, conditions et caractéristiques du processus de production, de l\'usine et de l\'équipement','','','',false,true);
+d.add(107,106,'62-91','<div class="nodetag">62-91</div></span>&nbsp;&nbsp;Etat des matériaux: caractéristiques et variables','62-91','Etat des matériaux: caractéristiques et variables','','','',false,true);
+d.add(108,106,'62-92','<div class="nodetag">62-92</div></span>&nbsp;&nbsp;Réaction aux réactifs. Réactifs','62-92','Réaction aux réactifs. Réactifs','','','',false,true);
+d.add(109,106,'62-93','<div class="nodetag">62-93</div></span>&nbsp;&nbsp;Procédés, machines et équipements en fonction de la continuité, des associations, des milieux','62-93','Procédés, machines et équipements en fonction de la continuité, des associations, des milieux','','','',false,true);
+d.add(110,106,'62-94','<div class="nodetag">62-94</div></span>&nbsp;&nbsp;Direction, vitesse, taux, durée des processus, etc.','62-94','Direction, vitesse, taux, durée des processus, etc.','','','',false,true);
+d.add(111,106,'62-95','<div class="nodetag">62-95</div></span>&nbsp;&nbsp;Types de procédés. Procédés simples et multiples','62-95','Types de procédés. Procédés simples et multiples','','','',false,true);
+d.add(112,106,'62-96','<div class="nodetag">62-96</div></span>&nbsp;&nbsp;Procédés affectant les propriétés des matériaux. Modifications en général','62-96','Procédés affectant les propriétés des matériaux. Modifications en général','','','',false,true);
+d.add(113,106,'62-97','<div class="nodetag">62-97</div></span>&nbsp;&nbsp;Caractéristiques thermiques. Température','62-97','Caractéristiques thermiques. Température','','','',false,true);
+d.add(114,106,'62-98','<div class="nodetag">62-98</div></span>&nbsp;&nbsp;Pression','62-98','Pression','','','',false,true);
+d.add(115,96,'620','<div class="nodetag">620</div></span>&nbsp;&nbsp;Essais des matériaux. Marchandises. Production de l\'énergie. Activités économiques de l\'énergie','620','Essais des matériaux. Marchandises. Production de l\'énergie. Activités économiques de l\'énergie','','','',false,true);
+d.add(116,115,'620.3','<div class="nodetag">620.3</div></span>&nbsp;&nbsp;Nanotechnologie','620.3','Nanotechnologie','','','',false,true);
+d.add(117,115,'620.9','<div class="nodetag">620.9</div></span>&nbsp;&nbsp;Activités économiques, production de l’énergie en général','620.9','Activités économiques, production de l’énergie en général','','','',false,true);
+d.add(118,96,'621','<div class="nodetag">621</div></span>&nbsp;&nbsp;Mécanique en général. Technologie nucléaire. Ingénierie électrique. Machinerie','621','Mécanique en général. Technologie nucléaire. Ingénierie électrique. Machinerie','','','',false,true);
+d.add(119,118,'621.1','<div class="nodetag">621.1</div></span>&nbsp;&nbsp;Machines thermiques. Production, distribution et utilisation de la vapeur. Moteurs à vapeur. Chaudières','621.1','Machines thermiques. Production, distribution et utilisation de la vapeur. Moteurs à vapeur. Chaudières','','','',false,true);
+d.add(120,118,'621.22','<div class="nodetag">621.22</div></span>&nbsp;&nbsp;Energie hydraulique. Machines hydrauliques','621.22','Energie hydraulique. Machines hydrauliques','','','',false,true);
+d.add(121,118,'621.3','<div class="nodetag">621.3</div></span>&nbsp;&nbsp;Ingénierie électrique','621.3','Ingénierie électrique','','','',false,true);
+d.add(122,118,'621.4','<div class="nodetag">621.4</div></span>&nbsp;&nbsp;Moteurs thermiques (sauf les moteurs à vapeur)','621.4','Moteurs thermiques (sauf les moteurs à vapeur)','','','',false,true);
+d.add(123,118,'621.5','<div class="nodetag">621.5</div></span>&nbsp;&nbsp;Energie, machinerie et outils pneumatiques. Réfrigération','621.5','Energie, machinerie et outils pneumatiques. Réfrigération','','','',false,true);
+d.add(124,118,'621.6','<div class="nodetag">621.6</div></span>&nbsp;&nbsp;Techniques et installations de distribution, de stockage et de manipulation des fluides','621.6','Techniques et installations de distribution, de stockage et de manipulation des fluides','','','',false,true);
+d.add(125,118,'621.7','<div class="nodetag">621.7</div></span>&nbsp;&nbsp;Technologie mécanique en général: procédés, outillage, machines, équipement','621.7','Technologie mécanique en général: procédés, outillage, machines, équipement','','','',false,true);
+d.add(126,118,'621.8','<div class="nodetag">621.8</div></span>&nbsp;&nbsp;Eléments de machines. Techniques de manutention. Fixation. Graissage','621.8','Eléments de machines. Techniques de manutention. Fixation. Graissage','','','',false,true);
+d.add(127,118,'621.9','<div class="nodetag">621.9</div></span>&nbsp;&nbsp;Travail ou usinage avec formation de copeaux. Travail en rapport avec l\'abrasion. Marteaux et presses','621.9','Travail ou usinage avec formation de copeaux. Travail en rapport avec l\'abrasion. Marteaux et presses','','','',false,true);
+d.add(128,96,'622','<div class="nodetag">622</div></span>&nbsp;&nbsp;Industrie minière','622','Industrie minière','','','',false,true);
+d.add(129,128,'622.1','<div class="nodetag">622.1</div></span>&nbsp;&nbsp;Etude préliminaires. Arpentage et cartographie des mines. Exploration des gisements (de surface et souterrain)','622.1','Etude préliminaires. Arpentage et cartographie des mines. Exploration des gisements (de surface et souterrain)','','','',false,true);
+d.add(130,128,'622.2','<div class="nodetag">622.2</div></span>&nbsp;&nbsp;Operations minières. Exploration, préparation, découverte, développement des gisements miniers','622.2','Operations minières. Exploration, préparation, découverte, développement des gisements miniers','','','',false,true);
+d.add(131,128,'622.3','<div class="nodetag">622.3</div></span>&nbsp;&nbsp;Extraction de minéraux, de minerais, de roches spécifiques','622.3','Extraction de minéraux, de minerais, de roches spécifiques','','','',false,true);
+d.add(132,128,'622.4','<div class="nodetag">622.4</div></span>&nbsp;&nbsp;Ventilation, aération, climatisation, chauffage et éclairage des mines','622.4','Ventilation, aération, climatisation, chauffage et éclairage des mines','','','',false,true);
+d.add(133,128,'622.5','<div class="nodetag">622.5</div></span>&nbsp;&nbsp;Drainage. Exhaure. Pompage des eaux des mines','622.5','Drainage. Exhaure. Pompage des eaux des mines','','','',false,true);
+d.add(134,128,'622.6','<div class="nodetag">622.6</div></span>&nbsp;&nbsp;Extraction. Remontée. Transport en surface. Stockage','622.6','Extraction. Remontée. Transport en surface. Stockage','','','',false,true);
+d.add(135,128,'622.7','<div class="nodetag">622.7</div></span>&nbsp;&nbsp;Traitement des minerais. Séparation des minerais. Préparation des minerais','622.7','Traitement des minerais. Séparation des minerais. Préparation des minerais','','','',false,true);
+d.add(136,128,'622.8','<div class="nodetag">622.8</div></span>&nbsp;&nbsp;Dangers, accidents et dégâts dans l\'industrie minière. Hygiène et sécurité minière','622.8','Dangers, accidents et dégâts dans l\'industrie minière. Hygiène et sécurité minière','','','',false,true);
+d.add(137,96,'623','<div class="nodetag">623</div></span>&nbsp;&nbsp;Génie militaire','623','Génie militaire','','','',false,true);
+d.add(138,137,'623.1/.7','<div class="nodetag">623.1/.7</div></span>&nbsp;&nbsp;Génie militaire des forces terrestres. Artillerie','623.1/.7','Génie militaire des forces terrestres. Artillerie','','','',false,true);
+d.add(139,138,'623.1/.3','<div class="nodetag">623.1/.3</div></span>&nbsp;&nbsp;Génie de campagne. Fortifications. Ouvrages de défense','623.1/.3','Génie de campagne. Fortifications. Ouvrages de défense','','','',false,true);
+d.add(140,139,'623.1','<div class="nodetag">623.1</div></span>&nbsp;&nbsp;Forteresses. Fortifications permanentes. Lignes et zones fortifiées','623.1','Forteresses. Fortifications permanentes. Lignes et zones fortifiées','','','',false,true);
+d.add(141,139,'623.2','<div class="nodetag">623.2</div></span>&nbsp;&nbsp;Ouvrages de défenses et d\'assaut. Fortifications de campagne. Travaux de tranchées','623.2','Ouvrages de défenses et d\'assaut. Fortifications de campagne. Travaux de tranchées','','','',false,true);
+d.add(142,139,'623.3','<div class="nodetag">623.3</div></span>&nbsp;&nbsp;Champs de mines. Obstacles. Inondations','623.3','Champs de mines. Obstacles. Inondations','','','',false,true);
+d.add(143,138,'623.4','<div class="nodetag">623.4</div></span>&nbsp;&nbsp;Armement. Armes. Pièces d’artillerie. Armes légères. Blindés et autres véhicules de service. Munitions et gaz de combat. Missiles et roquettes','623.4','Armement. Armes. Pièces d’artillerie. Armes légères. Blindés et autres véhicules de service. Munitions et gaz de combat. Missiles et roquettes','','','',false,true);
+d.add(144,138,'623.5','<div class="nodetag">623.5</div></span>&nbsp;&nbsp;Balistique. Artillerie. Problèmes théoriques et expérimentaux','623.5','Balistique. Artillerie. Problèmes théoriques et expérimentaux','','','',false,true);
+d.add(145,138,'623.6','<div class="nodetag">623.6</div></span>&nbsp;&nbsp;Equipement et opérations du génie de campagne. Lignes de communication. Contre-mesures, brouillage antiradar. Topographie militaire','623.6','Equipement et opérations du génie de campagne. Lignes de communication. Contre-mesures, brouillage antiradar. Topographie militaire','','','',false,true);
+d.add(146,138,'623.7','<div class="nodetag">623.7</div></span>&nbsp;&nbsp;Aviation militaire et navale. Défense aérienne','623.7','Aviation militaire et navale. Défense aérienne','','','',false,true);
+d.add(147,137,'623.8/.9','<div class="nodetag">623.8/.9</div></span>&nbsp;&nbsp;Génie naval','623.8/.9','Génie naval','','','',false,true);
+d.add(148,147,'623.8','<div class="nodetag">623.8</div></span>&nbsp;&nbsp;Construction navale. Bases navales. Navires et vaisseaux de guerre','623.8','Construction navale. Bases navales. Navires et vaisseaux de guerre','','','',false,true);
+d.add(149,147,'623.9','<div class="nodetag">623.9</div></span>&nbsp;&nbsp;Matériel et équipement des forces navales. Protection et armement des navires. Défense sous-marine','623.9','Matériel et équipement des forces navales. Protection et armement des navires. Défense sous-marine','','','',false,true);
+d.add(150,96,'624','<div class="nodetag">624</div></span>&nbsp;&nbsp;Génie civil et infrastructures en général','624','Génie civil et infrastructures en général','','','',false,true);
+d.add(151,150,'624.01/.07','<div class="nodetag">624.01/.07</div></span>&nbsp;&nbsp;Divisions spéciales pour le génie civil et structurel','624.01/.07','Divisions spéciales pour le génie civil et structurel','','','',false,true);
+d.add(152,151,'624.01','<div class="nodetag">624.01</div></span>&nbsp;&nbsp;Structures et éléments de structures en fonction des matériaux et des procédés de construction','624.01','Structures et éléments de structures en fonction des matériaux et des procédés de construction','','','',false,true);
+d.add(153,151,'624.03','<div class="nodetag">624.03</div></span>&nbsp;&nbsp;Taille, permanence, localisation et forme des structures','624.03','Taille, permanence, localisation et forme des structures','','','',false,true);
+d.add(154,151,'624.04','<div class="nodetag">624.04</div></span>&nbsp;&nbsp;Design structurel. Statique graphique et analytique pour la recherche et le calcul des structures','624.04','Design structurel. Statique graphique et analytique pour la recherche et le calcul des structures','','','',false,true);
+d.add(155,151,'624.05','<div class="nodetag">624.05</div></span>&nbsp;&nbsp;Site, organisation, implantation. Procédés de construction','624.05','Site, organisation, implantation. Procédés de construction','','','',false,true);
+d.add(156,151,'624.07','<div class="nodetag">624.07</div></span>&nbsp;&nbsp;Eléments de structures. Eléments portants','624.07','Eléments de structures. Eléments portants','','','',false,true);
+d.add(157,150,'624.1','<div class="nodetag">624.1</div></span>&nbsp;&nbsp;Infrastructures. Terrassement. Fondations. Tunnels','624.1','Infrastructures. Terrassement. Fondations. Tunnels','','','',false,true);
+d.add(158,150,'624.21/.8','<div class="nodetag">624.21/.8</div></span>&nbsp;&nbsp;Construction de ponts','624.21/.8','Construction de ponts','','','',false,true);
+d.add(159,158,'624.3','<div class="nodetag">624.3</div></span>&nbsp;&nbsp;Ponts en treillis (âmes ajourées, poutres lattices)','624.3','Ponts en treillis (âmes ajourées, poutres lattices)','','','',false,true);
+d.add(160,158,'624.5','<div class="nodetag">624.5</div></span>&nbsp;&nbsp;Ponts suspendus. Ponts à haubans','624.5','Ponts suspendus. Ponts à haubans','','','',false,true);
+d.add(161,158,'624.6','<div class="nodetag">624.6</div></span>&nbsp;&nbsp;Ponts en arc','624.6','Ponts en arc','','','',false,true);
+d.add(162,158,'624.8','<div class="nodetag">624.8</div></span>&nbsp;&nbsp;Ponts mobiles','624.8','Ponts mobiles','','','',false,true);
+d.add(163,150,'624.9','<div class="nodetag">624.9</div></span>&nbsp;&nbsp;Superstructures (sauf ponts). Superstructures complète en elles-mêmes.','624.9','Superstructures (sauf ponts). Superstructures complète en elles-mêmes.','','','',false,true);
+d.add(164,96,'625','<div class="nodetag">625</div></span>&nbsp;&nbsp;Ingénierie des transports par voies terrestres. Ingénierie des voies ferrées. Ingénierie des routes','625','Ingénierie des transports par voies terrestres. Ingénierie des voies ferrées. Ingénierie des routes','','','',false,true);
+d.add(165,164,'625.1/.5','<div class="nodetag">625.1/.5</div></span>&nbsp;&nbsp;Chemins de fer. Tramways. Funiculaires','625.1/.5','Chemins de fer. Tramways. Funiculaires','','','',false,true);
+d.add(166,165,'625.1','<div class="nodetag">625.1</div></span>&nbsp;&nbsp;Chemins de fer en général. Voie ferrée. Construction des voies','625.1','Chemins de fer en général. Voie ferrée. Construction des voies','','','',false,true);
+d.add(167,165,'625.5','<div class="nodetag">625.5</div></span>&nbsp;&nbsp;Téléphériques. Chemins de fer à câbles. Funiculaires. Chemin de fer suspendu. Télécabines','625.5','Téléphériques. Chemins de fer à câbles. Funiculaires. Chemin de fer suspendu. Télécabines','','','',false,true);
+d.add(168,164,'625.7/.8','<div class="nodetag">625.7/.8</div></span>&nbsp;&nbsp;Construction routière','625.7/.8','Construction routière','','','',false,true);
+d.add(169,168,'625.7','<div class="nodetag">625.7</div></span>&nbsp;&nbsp;Routes en général. Réseau routier. Chaussées. Rues. Réseaux routiers ruraux et urbains','625.7','Routes en général. Réseau routier. Chaussées. Rues. Réseaux routiers ruraux et urbains','','','',false,true);
+d.add(170,168,'625.8','<div class="nodetag">625.8</div></span>&nbsp;&nbsp;Revêtement des routes. Préparation et utilisation des matériaux','625.8','Revêtement des routes. Préparation et utilisation des matériaux','','','',false,true);
+d.add(171,96,'626/627','<div class="nodetag">626/627</div></span>&nbsp;&nbsp;Génie et constructions hydrauliques. Structures aqutiques','626/627','Génie et constructions hydrauliques. Structures aqutiques','','','',false,true);
+d.add(172,171,'626','<div class="nodetag">626</div></span>&nbsp;&nbsp;Ingénierie des constructions hydrauliques en général','626','Ingénierie des constructions hydrauliques en général','','','',false,true);
+d.add(173,172,'626.1','<div class="nodetag">626.1</div></span>&nbsp;&nbsp;Voies de navigation intérieure. Canaux. Cours d\'eau canalisés','626.1','Voies de navigation intérieure. Canaux. Cours d\'eau canalisés','','','',false,true);
+d.add(174,172,'626.4','<div class="nodetag">626.4</div></span>&nbsp;&nbsp;Ecluses','626.4','Ecluses','','','',false,true);
+d.add(175,172,'626.5','<div class="nodetag">626.5</div></span>&nbsp;&nbsp;Matériel de levage et plans inclinés pour bateaux','626.5','Matériel de levage et plans inclinés pour bateaux','','','',false,true);
+d.add(176,172,'626.8','<div class="nodetag">626.8</div></span>&nbsp;&nbsp;Hydraulique appliquée à l’agriculture. Ingénierie de l\'irrigation, du drainage et de l\'assèchement','626.8','Hydraulique appliquée à l’agriculture. Ingénierie de l\'irrigation, du drainage et de l\'assèchement','','','',false,true);
+d.add(177,172,'626.9','<div class="nodetag">626.9</div></span>&nbsp;&nbsp;Canaux maritimes. Canaux pour navigation','626.9','Canaux maritimes. Canaux pour navigation','','','',false,true);
+d.add(178,171,'627','<div class="nodetag">627</div></span>&nbsp;&nbsp;Génie des voies navigables naturelles, génie portuaire et côtier. Installations pour la navigation, le sauvetage et la récupération. Barrages et centrales hydrauliques','627','Génie des voies navigables naturelles, génie portuaire et côtier. Installations pour la navigation, le sauvetage et la récupération. Barrages et centrales hydrauliques','','','',false,true);
+d.add(179,178,'627.2','<div class="nodetag">627.2</div></span>&nbsp;&nbsp;Ports et rades: génie et constructions en général','627.2','Ports et rades: génie et constructions en général','','','',false,true);
+d.add(180,178,'627.3','<div class="nodetag">627.3</div></span>&nbsp;&nbsp;Complexes intérieurs des ports. Docks. Bassins. Quais. Aménagements et équipements','627.3','Complexes intérieurs des ports. Docks. Bassins. Quais. Aménagements et équipements','','','',false,true);
+d.add(181,178,'627.4','<div class="nodetag">627.4</div></span>&nbsp;&nbsp;Protection des berges des fleuves et des rivières. Redressement des cours d\'eau. Autres travaux d\'amélioration des fleuves','627.4','Protection des berges des fleuves et des rivières. Redressement des cours d\'eau. Autres travaux d\'amélioration des fleuves','','','',false,true);
+d.add(182,178,'627.5','<div class="nodetag">627.5</div></span>&nbsp;&nbsp;Autres travaux de protections et d\'amélioration des voies navigables. Digues. Protections côtières. Drainage, assèchement, réhabilitation des terres','627.5','Autres travaux de protections et d\'amélioration des voies navigables. Digues. Protections côtières. Drainage, assèchement, réhabilitation des terres','','','',false,true);
+d.add(183,178,'627.7','<div class="nodetag">627.7</div></span>&nbsp;&nbsp;Aménagements pour la navigation. Entretien des chenaux. Installations de sauvetage et de récupération maritimes','627.7','Aménagements pour la navigation. Entretien des chenaux. Installations de sauvetage et de récupération maritimes','','','',false,true);
+d.add(184,178,'627.8','<div class="nodetag">627.8</div></span>&nbsp;&nbsp;Barrages. Centrales hydro-électriques','627.8','Barrages. Centrales hydro-électriques','','','',false,true);
+d.add(185,96,'628','<div class="nodetag">628</div></span>&nbsp;&nbsp;Génie sanitaire, de santé publique. Eau. Assainissement. Techniques d\'éclairage','628','Génie sanitaire, de santé publique. Eau. Assainissement. Techniques d\'éclairage','','','',false,true);
+d.add(186,185,'628.1','<div class="nodetag">628.1</div></span>&nbsp;&nbsp;Alimentation en eau. Traitement des eaux. Consommation d’eaux','628.1','Alimentation en eau. Traitement des eaux. Consommation d’eaux','','','',false,true);
+d.add(187,185,'628.2','<div class="nodetag">628.2</div></span>&nbsp;&nbsp;Evacuation des eaux urbaines. Egouts','628.2','Evacuation des eaux urbaines. Egouts','','','',false,true);
+d.add(188,185,'628.3','<div class="nodetag">628.3</div></span>&nbsp;&nbsp;Eaux usées. Traitement, évacuation, utilisation','628.3','Eaux usées. Traitement, évacuation, utilisation','','','',false,true);
+d.add(189,185,'628.4','<div class="nodetag">628.4</div></span>&nbsp;&nbsp;Hygiène urbaine. Déchets. Ordures. Collecte et traitement des ordures ménagères','628.4','Hygiène urbaine. Déchets. Ordures. Collecte et traitement des ordures ménagères','','','',false,true);
+d.add(190,185,'628.5','<div class="nodetag">628.5</div></span>&nbsp;&nbsp;Mesures contre les nuisances industrielles et autres','628.5','Mesures contre les nuisances industrielles et autres','','','',false,true);
+d.add(191,185,'628.6','<div class="nodetag">628.6</div></span>&nbsp;&nbsp;Installations sanitaires et égouttage des immeubles (spécialement concernant les exigences en matière de santé publique)','628.6','Installations sanitaires et égouttage des immeubles (spécialement concernant les exigences en matière de santé publique)','','','',false,true);
+d.add(192,185,'628.8','<div class="nodetag">628.8</div></span>&nbsp;&nbsp;Climatisation. Conditionnement d’air. Chauffage. Ventilation','628.8','Climatisation. Conditionnement d’air. Chauffage. Ventilation','','','',false,true);
+d.add(193,185,'628.9','<div class="nodetag">628.9</div></span>&nbsp;&nbsp;Eclairage. Techniques d’éclairage','628.9','Eclairage. Techniques d’éclairage','','','',false,true);
+d.add(194,96,'629','<div class="nodetag">629</div></span>&nbsp;&nbsp;Ingénierie des véhicules de transport','629','Ingénierie des véhicules de transport','','','',false,true);
+d.add(195,194,'629.01/.08','<div class="nodetag">629.01/.08</div></span>&nbsp;&nbsp;Divisions spéciales pour l\'ingénierie des véhicules de transports','629.01/.08','Divisions spéciales pour l\'ingénierie des véhicules de transports','','','',false,true);
+d.add(196,195,'629.01','<div class="nodetag">629.01</div></span>&nbsp;&nbsp;Conception du véhicule: caractéristiques, capacités, essais','629.01','Conception du véhicule: caractéristiques, capacités, essais','','','',false,true);
+d.add(197,195,'629.02','<div class="nodetag">629.02</div></span>&nbsp;&nbsp;Structure du véhicule, principes de construction, agencement général et pièces','629.02','Structure du véhicule, principes de construction, agencement général et pièces','','','',false,true);
+d.add(198,195,'629.03','<div class="nodetag">629.03</div></span>&nbsp;&nbsp;Système de propulsion','629.03','Système de propulsion','','','',false,true);
+d.add(199,195,'629.04','<div class="nodetag">629.04</div></span>&nbsp;&nbsp;Agencement intérieur: espace, installations, aménagements, équipements pour les personnes et le fret','629.04','Agencement intérieur: espace, installations, aménagements, équipements pour les personnes et le fret','','','',false,true);
+d.add(200,195,'629.05','<div class="nodetag">629.05</div></span>&nbsp;&nbsp;Systèmes et instruments de direction, de navigation et de contrôle (à bord du véhicule)','629.05','Systèmes et instruments de direction, de navigation et de contrôle (à bord du véhicule)','','','',false,true);
+d.add(201,195,'629.06','<div class="nodetag">629.06</div></span>&nbsp;&nbsp;Systèmes et dispositifs auxiliaires du véhicule','629.06','Systèmes et dispositifs auxiliaires du véhicule','','','',false,true);
+d.add(202,195,'629.07','<div class="nodetag">629.07</div></span>&nbsp;&nbsp;Aspects techniques des diverses opérations liées au véhicule (techniques opérationnelles)','629.07','Aspects techniques des diverses opérations liées au véhicule (techniques opérationnelles)','','','',false,true);
+d.add(203,195,'629.08','<div class="nodetag">629.08</div></span>&nbsp;&nbsp;Equipement de base, installations et procédure techniques correspondantes.','629.08','Equipement de base, installations et procédure techniques correspondantes.','','','',false,true);
+d.add(204,194,'629.3','<div class="nodetag">629.3</div></span>&nbsp;&nbsp;Ingénierie des véhicules terrestres (sauf véhicules sur rail)','629.3','Ingénierie des véhicules terrestres (sauf véhicules sur rail)','','','',false,true);
+d.add(205,194,'629.4','<div class="nodetag">629.4</div></span>&nbsp;&nbsp;Ingénierie des véhicules sur rail. Locomotives. Matériel roulant ferroviaire. Gares de triage et ateliers. Installations et services liés au matériel roulant.','629.4','Ingénierie des véhicules sur rail. Locomotives. Matériel roulant ferroviaire. Gares de triage et ateliers. Installations et services liés au matériel roulant.','','','',false,true);
+d.add(206,194,'629.5','<div class="nodetag">629.5</div></span>&nbsp;&nbsp;Génie maritime. Architecture navale. Bateaux. Navires. Constructions navales','629.5','Génie maritime. Architecture navale. Bateaux. Navires. Constructions navales','','','',false,true);
+d.add(207,194,'629.7','<div class="nodetag">629.7</div></span>&nbsp;&nbsp;Ingénierie du transport aérien et spatial. Aéronautique et aéronef. Fusées et missiles. Astronautique et engins spatiaux','629.7','Ingénierie du transport aérien et spatial. Aéronautique et aéronef. Fusées et missiles. Astronautique et engins spatiaux','','','',false,true);
+d.add(208,0,'63','<div class="nodetag">63</div></span>&nbsp;&nbsp;Agriculture, sciences et techniques relatives à l\'agriculture. Sylviculture. Exploitation agricole. Exploitation de la faune et de la flore sauvage','63','Agriculture, sciences et techniques relatives à l\'agriculture. Sylviculture. Exploitation agricole. Exploitation de la faune et de la flore sauvage','','','',false,true);
+d.add(209,208,'630','<div class="nodetag">630</div></span>&nbsp;&nbsp;Exploitation forestière, sylviculture','630','Exploitation forestière, sylviculture','','','',false,true);
+d.add(210,209,'630*0','<div class="nodetag">630*0</div></span>&nbsp;&nbsp;Forêts, exploitations forestière et utilisation des produits de la forêt','630*0','Forêts, exploitations forestière et utilisation des produits de la forêt','','','',false,true);
+d.add(211,209,'630*1','<div class="nodetag">630*1</div></span>&nbsp;&nbsp;Facteurs de l\'environnement. Biologie forestière','630*1','Facteurs de l\'environnement. Biologie forestière','','','',false,true);
+d.add(212,209,'630*2','<div class="nodetag">630*2</div></span>&nbsp;&nbsp;Sylviculture','630*2','Sylviculture','','','',false,true);
+d.add(213,209,'630*3','<div class="nodetag">630*3</div></span>&nbsp;&nbsp;Etudes scientifiques et rationalisation du travail forestier. Exploitation: abattage, façonnage et transport. Génie forestier','630*3','Etudes scientifiques et rationalisation du travail forestier. Exploitation: abattage, façonnage et transport. Génie forestier','','','',false,true);
+d.add(214,209,'630*4','<div class="nodetag">630*4</div></span>&nbsp;&nbsp;Dommages causés aux forêts et protection','630*4','Dommages causés aux forêts et protection','','','',false,true);
+d.add(215,209,'630*5','<div class="nodetag">630*5</div></span>&nbsp;&nbsp;Mesures forestières. Croissance, évolution, développement et structure des peuplements des arbres. Arpentage et cartographie','630*5','Mesures forestières. Croissance, évolution, développement et structure des peuplements des arbres. Arpentage et cartographie','','','',false,true);
+d.add(216,209,'630*6','<div class="nodetag">630*6</div></span>&nbsp;&nbsp;Gestion de la forêt. Economie de l\'exploitation forestière. Administration et organisation des entreprises forestières','630*6','Gestion de la forêt. Economie de l\'exploitation forestière. Administration et organisation des entreprises forestières','','','',false,true);
+d.add(217,209,'630*7','<div class="nodetag">630*7</div></span>&nbsp;&nbsp;Marketing des produits de la forêt. Economie du transport forestier et industrie du bois','630*7','Marketing des produits de la forêt. Economie du transport forestier et industrie du bois','','','',false,true);
+d.add(218,209,'630*8','<div class="nodetag">630*8</div></span>&nbsp;&nbsp;Produits forestiers et leur utilisation','630*8','Produits forestiers et leur utilisation','','','',false,true);
+d.add(219,209,'630*9','<div class="nodetag">630*9</div></span>&nbsp;&nbsp;Forêt et exploitation forestière d\'un point de vue national. Economie social de l\'exploitation forestière','630*9','Forêt et exploitation forestière d\'un point de vue national. Economie social de l\'exploitation forestière','','','',false,true);
+d.add(220,208,'631/635','<div class="nodetag">631/635</div></span>&nbsp;&nbsp;Gestion des exploitations agricoles. Agronomie. Horticulture','631/635','Gestion des exploitations agricoles. Agronomie. Horticulture','','','',false,true);
+d.add(221,220,'631','<div class="nodetag">631</div></span>&nbsp;&nbsp;Agriculture en général','631','Agriculture en général','','','',false,true);
+d.add(222,221,'631.1','<div class="nodetag">631.1</div></span>&nbsp;&nbsp;Gestion et organisation de l’exploitation agricole','631.1','Gestion et organisation de l’exploitation agricole','','','',false,true);
+d.add(223,221,'631.2','<div class="nodetag">631.2</div></span>&nbsp;&nbsp;Bâtiments, structures et Installations agricoles. Bâtiments pour le bétail, les produits de l\'agriculture, les machines et l\'équipement','631.2','Bâtiments, structures et Installations agricoles. Bâtiments pour le bétail, les produits de l\'agriculture, les machines et l\'équipement','','','',false,true);
+d.add(224,221,'631.3','<div class="nodetag">631.3</div></span>&nbsp;&nbsp;Machines, outillages et équipements agricoles','631.3','Machines, outillages et équipements agricoles','','','',false,true);
+d.add(225,221,'631.4','<div class="nodetag">631.4</div></span>&nbsp;&nbsp;Science du Sol. Pédologie. Recherche du soil','631.4','Science du Sol. Pédologie. Recherche du soil','','','',false,true);
+d.add(226,221,'631.5','<div class="nodetag">631.5</div></span>&nbsp;&nbsp;Travaux agricoles','631.5','Travaux agricoles','','','',false,true);
+d.add(227,221,'631.6','<div class="nodetag">631.6</div></span>&nbsp;&nbsp;Génie rural','631.6','Génie rural','','','',false,true);
+d.add(228,221,'631.8','<div class="nodetag">631.8</div></span>&nbsp;&nbsp;Fertilisants, fumiers et enrichissement du sol. Favorisation de la croissance. Stimulants, engrais','631.8','Fertilisants, fumiers et enrichissement du sol. Favorisation de la croissance. Stimulants, engrais','','','',false,true);
+d.add(229,220,'632','<div class="nodetag">632</div></span>&nbsp;&nbsp;Dégâts, blessures aux plantes. Maladies des plantes. Ravageurs, organismes préjudiciables aux plantes. Protection des plantes','632','Dégâts, blessures aux plantes. Maladies des plantes. Ravageurs, organismes préjudiciables aux plantes. Protection des plantes','','','',false,true);
+d.add(230,220,'633/635','<div class="nodetag">633/635</div></span>&nbsp;&nbsp;Horticulture en général. Cultures spécifiques','633/635','Horticulture en général. Cultures spécifiques','','','',false,true);
+d.add(231,230,'633','<div class="nodetag">633</div></span>&nbsp;&nbsp;Plantes de culture et leur production','633','Plantes de culture et leur production','','','',false,true);
+d.add(232,231,'633.1','<div class="nodetag">633.1</div></span>&nbsp;&nbsp;Céréales. Cultures à graines','633.1','Céréales. Cultures à graines','','','',false,true);
+d.add(233,231,'633.2','<div class="nodetag">633.2</div></span>&nbsp;&nbsp;Plantes fourragères. Prairies et pâturages','633.2','Plantes fourragères. Prairies et pâturages','','','',false,true);
+d.add(234,231,'633.3','<div class="nodetag">633.3</div></span>&nbsp;&nbsp;Plantes fourragères sauf graminées (herbe)','633.3','Plantes fourragères sauf graminées (herbe)','','','',false,true);
+d.add(235,231,'633.4','<div class="nodetag">633.4</div></span>&nbsp;&nbsp;Racines et tubercules comestibles. Cultures à racine','633.4','Racines et tubercules comestibles. Cultures à racine','','','',false,true);
+d.add(236,231,'633.5','<div class="nodetag">633.5</div></span>&nbsp;&nbsp;Plantes textiles et à fibres','633.5','Plantes textiles et à fibres','','','',false,true);
+d.add(237,231,'633.6','<div class="nodetag">633.6</div></span>&nbsp;&nbsp;Plantes sucrières et amylacées (amidon)','633.6','Plantes sucrières et amylacées (amidon)','','','',false,true);
+d.add(238,231,'633.7','<div class="nodetag">633.7</div></span>&nbsp;&nbsp;Plantes stimulantes. Plantes à boisson','633.7','Plantes stimulantes. Plantes à boisson','','','',false,true);
+d.add(239,231,'633.8','<div class="nodetag">633.8</div></span>&nbsp;&nbsp;Plantes aromatiques. Plantes condimentaires. Plantes oléagineuses. Plantes tinctoriales (teintures). Plantes à tanin. Plantes médicinales','633.8','Plantes aromatiques. Plantes condimentaires. Plantes oléagineuses. Plantes tinctoriales (teintures). Plantes à tanin. Plantes médicinales','','','',false,true);
+d.add(240,231,'633.9','<div class="nodetag">633.9</div></span>&nbsp;&nbsp;Autres plantes à usage industriel','633.9','Autres plantes à usage industriel','','','',false,true);
+d.add(241,230,'634','<div class="nodetag">634</div></span>&nbsp;&nbsp;Arboriculture fruitière','634','Arboriculture fruitière','','','',false,true);
+d.add(242,241,'634.2','<div class="nodetag">634.2</div></span>&nbsp;&nbsp;Fruits à noyaux. Drupes en général','634.2','Fruits à noyaux. Drupes en général','','','',false,true);
+d.add(243,241,'634.3','<div class="nodetag">634.3</div></span>&nbsp;&nbsp;Fruits des rutacées et moracées. Agrumes en général','634.3','Fruits des rutacées et moracées. Agrumes en général','','','',false,true);
+d.add(244,241,'634.4','<div class="nodetag">634.4</div></span>&nbsp;&nbsp;Autres fruits à pulpe','634.4','Autres fruits à pulpe','','','',false,true);
+d.add(245,241,'634.5','<div class="nodetag">634.5</div></span>&nbsp;&nbsp;Noix','634.5','Noix','','','',false,true);
+d.add(246,241,'634.6','<div class="nodetag">634.6</div></span>&nbsp;&nbsp;Fruits tropicaux et subtropicaux divers','634.6','Fruits tropicaux et subtropicaux divers','','','',false,true);
+d.add(247,241,'634.7','<div class="nodetag">634.7</div></span>&nbsp;&nbsp;Petits fruits d’arbustes et de plantes herbacées. Baies','634.7','Petits fruits d’arbustes et de plantes herbacées. Baies','','','',false,true);
+d.add(248,241,'634.8','<div class="nodetag">634.8</div></span>&nbsp;&nbsp;Viticulture. Vins de raisin. Vignobles','634.8','Viticulture. Vins de raisin. Vignobles','','','',false,true);
+d.add(249,230,'635','<div class="nodetag">635</div></span>&nbsp;&nbsp;Plantes de jardin. Jardinage','635','Plantes de jardin. Jardinage','','','',false,true);
+d.add(250,249,'635.1/.8','<div class="nodetag">635.1/.8</div></span>&nbsp;&nbsp;Légumes. Jardins potagers','635.1/.8','Légumes. Jardins potagers','','','',false,true);
+d.add(251,250,'635.1','<div class="nodetag">635.1</div></span>&nbsp;&nbsp;Racines comestibles. Légumes à racines','635.1','Racines comestibles. Légumes à racines','','','',false,true);
+d.add(252,250,'635.2','<div class="nodetag">635.2</div></span>&nbsp;&nbsp;Tubercules et bulbes comestibles','635.2','Tubercules et bulbes comestibles','','','',false,true);
+d.add(253,250,'635.3','<div class="nodetag">635.3</div></span>&nbsp;&nbsp;Plantes à tiges, feuilles ou fleurs comestibles','635.3','Plantes à tiges, feuilles ou fleurs comestibles','','','',false,true);
+d.add(254,250,'635.4','<div class="nodetag">635.4</div></span>&nbsp;&nbsp;Autres légumes verts. Légumes-feuilles','635.4','Autres légumes verts. Légumes-feuilles','','','',false,true);
+d.add(255,250,'635.6','<div class="nodetag">635.6</div></span>&nbsp;&nbsp;Fruits et grains comestibles. Gousses','635.6','Fruits et grains comestibles. Gousses','','','',false,true);
+d.add(256,250,'635.7','<div class="nodetag">635.7</div></span>&nbsp;&nbsp;Plantes aromatiques. Plants pour l\'assaisonnement','635.7','Plantes aromatiques. Plants pour l\'assaisonnement','','','',false,true);
+d.add(257,250,'635.8','<div class="nodetag">635.8</div></span>&nbsp;&nbsp;Mycètes (champignons) comestibles','635.8','Mycètes (champignons) comestibles','','','',false,true);
+d.add(258,249,'635.9','<div class="nodetag">635.9</div></span>&nbsp;&nbsp;Plantes ornementales. Plants décoratives. Jardin d’agrément','635.9','Plantes ornementales. Plants décoratives. Jardin d’agrément','','','',false,true);
+d.add(259,208,'636','<div class="nodetag">636</div></span>&nbsp;&nbsp;Elevage et reproduction d\'animaux en général. Elevage du bétail. Elevage d’animaux domestiques','636','Elevage et reproduction d\'animaux en général. Elevage du bétail. Elevage d’animaux domestiques','','','',false,true);
+d.add(260,259,'636.01/.09','<div class="nodetag">636.01/.09</div></span>&nbsp;&nbsp;Divisions spéciales pour l\'élevage et la reproduction d\'animaux','636.01/.09','Divisions spéciales pour l\'élevage et la reproduction d\'animaux','','','',false,true);
+d.add(261,260,'636.01','<div class="nodetag">636.01</div></span>&nbsp;&nbsp;Origine, évolution et domestication d’animaux. Apprivoisement des animaux. Bases biologiques de l\'élevage et du dressage, domptage','636.01','Origine, évolution et domestication d’animaux. Apprivoisement des animaux. Bases biologiques de l\'élevage et du dressage, domptage','','','',false,true);
+d.add(262,260,'636.02','<div class="nodetag">636.02</div></span>&nbsp;&nbsp;Animaux de reproduction, de démonstration et à usage scientifique','636.02','Animaux de reproduction, de démonstration et à usage scientifique','','','',false,true);
+d.add(263,260,'636.03','<div class="nodetag">636.03</div></span>&nbsp;&nbsp;Animaux élevés pour la nourriture ou pour d\'autres produits (productivité, rendement). Animaux de fermes en général','636.03','Animaux élevés pour la nourriture ou pour d\'autres produits (productivité, rendement). Animaux de fermes en général','','','',false,true);
+d.add(264,260,'636.04','<div class="nodetag">636.04</div></span>&nbsp;&nbsp;Animaux élevés pour le travail et le service ou pour le plaisir des humains','636.04','Animaux élevés pour le travail et le service ou pour le plaisir des humains','','','',false,true);
+d.add(265,260,'636.05','<div class="nodetag">636.05</div></span>&nbsp;&nbsp;Animaux en fonction de leur élevage, race','636.05','Animaux en fonction de leur élevage, race','','','',false,true);
+d.add(266,260,'636.06','<div class="nodetag">636.06</div></span>&nbsp;&nbsp;Caractéristiques, constitution et traits biologiques spéciaux d\'animaux domestiques','636.06','Caractéristiques, constitution et traits biologiques spéciaux d\'animaux domestiques','','','',false,true);
+d.add(267,260,'636.08','<div class="nodetag">636.08</div></span>&nbsp;&nbsp;Questions générales concernant l’élevage et la reproduction','636.08','Questions générales concernant l’élevage et la reproduction','','','',false,true);
+d.add(268,260,'636.09','<div class="nodetag">636.09</div></span>&nbsp;&nbsp;Médecine vétérinaire','636.09','Médecine vétérinaire','','','',false,true);
+d.add(269,259,'636.1','<div class="nodetag">636.1</div></span>&nbsp;&nbsp;Equidés domestiques. Chevaux.','636.1','Equidés domestiques. Chevaux.','','','',false,true);
+d.add(270,259,'636.2','<div class="nodetag">636.2</div></span>&nbsp;&nbsp;Grands ruminants. Bovins, bœuf','636.2','Grands ruminants. Bovins, bœuf','','','',false,true);
+d.add(271,259,'636.3','<div class="nodetag">636.3</div></span>&nbsp;&nbsp;Petits ruminants','636.3','Petits ruminants','','','',false,true);
+d.add(272,259,'636.4','<div class="nodetag">636.4</div></span>&nbsp;&nbsp;Porcs. Cochons','636.4','Porcs. Cochons','','','',false,true);
+d.add(273,259,'636.5','<div class="nodetag">636.5</div></span>&nbsp;&nbsp;Volaille','636.5','Volaille','','','',false,true);
+d.add(274,259,'636.6','<div class="nodetag">636.6</div></span>&nbsp;&nbsp;Oiseaux élevés ou gardés par l’homme (sauf volaille et gibier)','636.6','Oiseaux élevés ou gardés par l’homme (sauf volaille et gibier)','','','',false,true);
+d.add(275,259,'636.7','<div class="nodetag">636.7</div></span>&nbsp;&nbsp;Chiens','636.7','Chiens','','','',false,true);
+d.add(276,259,'636.8','<div class="nodetag">636.8</div></span>&nbsp;&nbsp;Chats','636.8','Chats','','','',false,true);
+d.add(277,259,'636.9','<div class="nodetag">636.9</div></span>&nbsp;&nbsp;Autres animaux gardés par les humains','636.9','Autres animaux gardés par les humains','','','',false,true);
+d.add(278,208,'637','<div class="nodetag">637</div></span>&nbsp;&nbsp;Produits des animaux domestiques et du gibier','637','Produits des animaux domestiques et du gibier','','','',false,true);
+d.add(279,208,'638','<div class="nodetag">638</div></span>&nbsp;&nbsp;Elevage d’insectes et autres arthropodes','638','Elevage d’insectes et autres arthropodes','','','',false,true);
+d.add(280,208,'639','<div class="nodetag">639</div></span>&nbsp;&nbsp;Chasse. Pêche. Pisciculture','639','Chasse. Pêche. Pisciculture','','','',false,true);
+d.add(281,280,'639.1','<div class="nodetag">639.1</div></span>&nbsp;&nbsp;Chasse','639.1','Chasse','','','',false,true);
+d.add(282,280,'639.2','<div class="nodetag">639.2</div></span>&nbsp;&nbsp;Pêche. Pêcherie','639.2','Pêche. Pêcherie','','','',false,true);
+d.add(283,280,'639.3','<div class="nodetag">639.3</div></span>&nbsp;&nbsp;Elevage des poissons. Pisciculture','639.3','Elevage des poissons. Pisciculture','','','',false,true);
+d.add(284,280,'639.4','<div class="nodetag">639.4</div></span>&nbsp;&nbsp;Elevage de mollusques aquatiques (coquillages)','639.4','Elevage de mollusques aquatiques (coquillages)','','','',false,true);
+d.add(285,280,'639.5','<div class="nodetag">639.5</div></span>&nbsp;&nbsp;Elevage de crustacés aquatiques','639.5','Elevage de crustacés aquatiques','','','',false,true);
+d.add(286,280,'639.6','<div class="nodetag">639.6</div></span>&nbsp;&nbsp;Autres produits de la mer','639.6','Autres produits de la mer','','','',false,true);
+d.add(287,0,'64','<div class="nodetag">64</div></span>&nbsp;&nbsp;Economie domestique. Sciences ménagères','64','Economie domestique. Sciences ménagères','','','',false,true);
+d.add(288,287,'64.01/.08','<div class="nodetag">64.01/.08</div></span>&nbsp;&nbsp;Divisions spéciales pour l\'économie domestique','64.01/.08','Divisions spéciales pour l\'économie domestique','','','',false,true);
+d.add(289,288,'64.01','<div class="nodetag">64.01</div></span>&nbsp;&nbsp;Le ménage (foyer). Gestion du ménage','64.01','Le ménage (foyer). Gestion du ménage','','','',false,true);
+d.add(290,288,'64.048','<div class="nodetag">64.048</div></span>&nbsp;&nbsp;Etude du travail et des méthodes de travail dans un ménage','64.048','Etude du travail et des méthodes de travail dans un ménage','','','',false,true);
+d.add(291,288,'64.05','<div class="nodetag">64.05</div></span>&nbsp;&nbsp;Economie domestique. Meubles et équipements d\'une maison etc. pour des catégories particulières de personnes','64.05','Economie domestique. Meubles et équipements d\'une maison etc. pour des catégories particulières de personnes','','','',false,true);
+d.add(292,288,'64.06','<div class="nodetag">64.06</div></span>&nbsp;&nbsp;Appareils ménagers. Dispositifs épargnant le travail ménager','64.06','Appareils ménagers. Dispositifs épargnant le travail ménager','','','',false,true);
+d.add(293,288,'64.08','<div class="nodetag">64.08</div></span>&nbsp;&nbsp;Déménagement','64.08','Déménagement','','','',false,true);
+d.add(294,287,'640','<div class="nodetag">640</div></span>&nbsp;&nbsp;Types de ménages','640','Types de ménages','','','',false,true);
+d.add(295,287,'641/642','<div class="nodetag">641/642</div></span>&nbsp;&nbsp;Aliments. Cuisine. Plats cuisinés, mets. Repas','641/642','Aliments. Cuisine. Plats cuisinés, mets. Repas','','','',false,true);
+d.add(296,295,'641','<div class="nodetag">641</div></span>&nbsp;&nbsp;Aliment. Cuisine. Plats cuisinés, mets','641','Aliment. Cuisine. Plats cuisinés, mets','','','',false,true);
+d.add(297,295,'642','<div class="nodetag">642</div></span>&nbsp;&nbsp;Repas et heures des repas. Articles de table','642','Repas et heures des repas. Articles de table','','','',false,true);
+d.add(298,287,'643/645','<div class="nodetag">643/645</div></span>&nbsp;&nbsp;La maison, le foyer. Installation et mobilier','643/645','La maison, le foyer. Installation et mobilier','','','',false,true);
+d.add(299,298,'643','<div class="nodetag">643</div></span>&nbsp;&nbsp;La maison, le foyer. L’habitation','643','La maison, le foyer. L’habitation','','','',false,true);
+d.add(300,298,'644','<div class="nodetag">644</div></span>&nbsp;&nbsp;Installations pour la santé et le confort dans les habitations','644','Installations pour la santé et le confort dans les habitations','','','',false,true);
+d.add(301,300,'644.1','<div class="nodetag">644.1</div></span>&nbsp;&nbsp;Climatisation. Chauffage. Ventilation. Air conditionné','644.1','Climatisation. Chauffage. Ventilation. Air conditionné','','','',false,true);
+d.add(302,300,'644.3','<div class="nodetag">644.3</div></span>&nbsp;&nbsp;Eclairage domestique','644.3','Eclairage domestique','','','',false,true);
+d.add(303,300,'644.6','<div class="nodetag">644.6</div></span>&nbsp;&nbsp;Fourniture d\'eau domestique et installations sanitaires','644.6','Fourniture d\'eau domestique et installations sanitaires','','','',false,true);
+d.add(304,298,'645','<div class="nodetag">645</div></span>&nbsp;&nbsp;Aménagement et ameublement de l’habitation','645','Aménagement et ameublement de l’habitation','','','',false,true);
+d.add(305,287,'646/649','<div class="nodetag">646/649</div></span>&nbsp;&nbsp;Gestion du ménage. Effets personnels','646/649','Gestion du ménage. Effets personnels','','','',false,true);
+d.add(306,305,'646','<div class="nodetag">646</div></span>&nbsp;&nbsp;Habillement. Soins du corps','646','Habillement. Soins du corps','','','',false,true);
+d.add(307,306,'646.2','<div class="nodetag">646.2</div></span>&nbsp;&nbsp;Confection et raccommodage des vêtements à la maison. Couture domestique','646.2','Confection et raccommodage des vêtements à la maison. Couture domestique','','','',false,true);
+d.add(308,306,'646.4','<div class="nodetag">646.4</div></span>&nbsp;&nbsp;Vêtements. Habits','646.4','Vêtements. Habits','','','',false,true);
+d.add(309,306,'646.7','<div class="nodetag">646.7</div></span>&nbsp;&nbsp;Soins du corps. Soins de beauté. Accessoires pour l\'habillage et le déshabillage','646.7','Soins du corps. Soins de beauté. Accessoires pour l\'habillage et le déshabillage','','','',false,true);
+d.add(310,305,'648','<div class="nodetag">648</div></span>&nbsp;&nbsp;Lavage. Blanchissage','648','Lavage. Blanchissage','','','',false,true);
+d.add(311,305,'649','<div class="nodetag">649</div></span>&nbsp;&nbsp;Soins, attention domestiques aux enfants, aux invalides, aux invités','649','Soins, attention domestiques aux enfants, aux invalides, aux invités','','','',false,true);
+d.add(312,0,'65','<div class="nodetag">65</div></span>&nbsp;&nbsp;Industries du transport et de la communication. Comptabilité. Gestion d\'entreprise. Relations publiques','65','Industries du transport et de la communication. Comptabilité. Gestion d\'entreprise. Relations publiques','','','',false,true);
+d.add(313,312,'654','<div class="nodetag">654</div></span>&nbsp;&nbsp;Télécommunications et télécontrôle (organisation, services)','654','Télécommunications et télécontrôle (organisation, services)','','','',false,true);
+d.add(314,313,'654.1','<div class="nodetag">654.1</div></span>&nbsp;&nbsp;Télégraphie. Téléphonie. Radio. Télévision','654.1','Télégraphie. Téléphonie. Radio. Télévision','','','',false,true);
+d.add(315,313,'654.9','<div class="nodetag">654.9</div></span>&nbsp;&nbsp;Signalisation (en télécommunication). Services divers de télécommunication. Commande à distance (télécontrôle)','654.9','Signalisation (en télécommunication). Services divers de télécommunication. Commande à distance (télécontrôle)','','','',false,true);
+d.add(316,312,'655','<div class="nodetag">655</div></span>&nbsp;&nbsp;Industries graphiques. Imprimerie. Edition. Commerce du livre','655','Industries graphiques. Imprimerie. Edition. Commerce du livre','','','',false,true);
+d.add(317,316,'655.1','<div class="nodetag">655.1</div></span>&nbsp;&nbsp;Industrie graphique, imprimerie en général','655.1','Industrie graphique, imprimerie en général','','','',false,true);
+d.add(318,316,'655.4','<div class="nodetag">655.4</div></span>&nbsp;&nbsp;Edition et commerce de livres en général','655.4','Edition et commerce de livres en général','','','',false,true);
+d.add(319,312,'656','<div class="nodetag">656</div></span>&nbsp;&nbsp;Transport et services postaux. Organisation et contrôle du trafic','656','Transport et services postaux. Organisation et contrôle du trafic','','','',false,true);
+d.add(320,319,'656.1/.5','<div class="nodetag">656.1/.5</div></span>&nbsp;&nbsp;Transport terrestre','656.1/.5','Transport terrestre','','','',false,true);
+d.add(321,320,'656.1','<div class="nodetag">656.1</div></span>&nbsp;&nbsp;Transport routier','656.1','Transport routier','','','',false,true);
+d.add(322,320,'656.2','<div class="nodetag">656.2</div></span>&nbsp;&nbsp;Transport ferroviaire. Transport par rail','656.2','Transport ferroviaire. Transport par rail','','','',false,true);
+d.add(323,320,'656.4','<div class="nodetag">656.4</div></span>&nbsp;&nbsp;Transport par chemin de fer à voir étroite, sur assiette légère','656.4','Transport par chemin de fer à voir étroite, sur assiette légère','','','',false,true);
+d.add(324,320,'656.5','<div class="nodetag">656.5</div></span>&nbsp;&nbsp;Transport terrestre par systèmes à bande et oléoducs','656.5','Transport terrestre par systèmes à bande et oléoducs','','','',false,true);
+d.add(325,319,'656.6','<div class="nodetag">656.6</div></span>&nbsp;&nbsp;Transport par eau','656.6','Transport par eau','','','',false,true);
+d.add(326,319,'656.7','<div class="nodetag">656.7</div></span>&nbsp;&nbsp;Transport par air. Trafic aérien','656.7','Transport par air. Trafic aérien','','','',false,true);
+d.add(327,319,'656.8','<div class="nodetag">656.8</div></span>&nbsp;&nbsp;Services postaux et administrations des postes','656.8','Services postaux et administrations des postes','','','',false,true);
+d.add(328,312,'657','<div class="nodetag">657</div></span>&nbsp;&nbsp;Comptabilité','657','Comptabilité','','','',false,true);
+d.add(329,312,'658','<div class="nodetag">658</div></span>&nbsp;&nbsp;Gestion, administration des entreprises. Gestion commerciale','658','Gestion, administration des entreprises. Gestion commerciale','','','',false,true);
+d.add(330,329,'658.1','<div class="nodetag">658.1</div></span>&nbsp;&nbsp;Formes d’entreprises. Finances','658.1','Formes d’entreprises. Finances','','','',false,true);
+d.add(331,329,'658.2','<div class="nodetag">658.2</div></span>&nbsp;&nbsp;Installations et implantations. Locaux. Bâtiments, travaux, usines. Moyens matériels','658.2','Installations et implantations. Locaux. Bâtiments, travaux, usines. Moyens matériels','','','',false,true);
+d.add(332,329,'658.3','<div class="nodetag">658.3</div></span>&nbsp;&nbsp;Relations humaines dans l’entreprise. Personnel','658.3','Relations humaines dans l’entreprise. Personnel','','','',false,true);
+d.add(333,329,'658.5','<div class="nodetag">658.5</div></span>&nbsp;&nbsp;Techniques et planification de la production. Conception. Gestion et contrôle de la production','658.5','Techniques et planification de la production. Conception. Gestion et contrôle de la production','','','',false,true);
+d.add(334,329,'658.6','<div class="nodetag">658.6</div></span>&nbsp;&nbsp;Organisation et pratique commerciale. Marchandises. Services','658.6','Organisation et pratique commerciale. Marchandises. Services','','','',false,true);
+d.add(335,329,'658.7','<div class="nodetag">658.7</div></span>&nbsp;&nbsp;Achat. Approvisionnement. Gestion des stocks','658.7','Achat. Approvisionnement. Gestion des stocks','','','',false,true);
+d.add(336,329,'658.8','<div class="nodetag">658.8</div></span>&nbsp;&nbsp;Marketing. Vente. Distribution','658.8','Marketing. Vente. Distribution','','','',false,true);
+d.add(337,329,'658.9','<div class="nodetag">658.9</div></span>&nbsp;&nbsp;Autres activités commerciales','658.9','Autres activités commerciales','','','',false,true);
+d.add(338,312,'659','<div class="nodetag">659</div></span>&nbsp;&nbsp;Publicité. Information. Relations publiques','659','Publicité. Information. Relations publiques','','','',false,true);
+d.add(339,338,'659.1','<div class="nodetag">659.1</div></span>&nbsp;&nbsp;Publicité. Information','659.1','Publicité. Information','','','',false,true);
+d.add(340,338,'659.2','<div class="nodetag">659.2</div></span>&nbsp;&nbsp;Travail d’information. Services de conseils et consultance','659.2','Travail d’information. Services de conseils et consultance','','','',false,true);
+d.add(341,338,'659.3','<div class="nodetag">659.3</div></span>&nbsp;&nbsp;Communication de masse. Information du grand public','659.3','Communication de masse. Information du grand public','','','',false,true);
+d.add(342,338,'659.4','<div class="nodetag">659.4</div></span>&nbsp;&nbsp;Relations publiques (RP)','659.4','Relations publiques (RP)','','','',false,true);
+d.add(343,0,'66','<div class="nodetag">66</div></span>&nbsp;&nbsp;Technologie de la chimie. Industries chimiques et apparentées','66','Technologie de la chimie. Industries chimiques et apparentées','','','',false,true);
+d.add(344,343,'66.01/.09','<div class="nodetag">66.01/.09</div></span>&nbsp;&nbsp;Division spéciale pour le génie chimique','66.01/.09','Division spéciale pour le génie chimique','','','',false,true);
+d.add(345,344,'66.01','<div class="nodetag">66.01</div></span>&nbsp;&nbsp;Principes fondamentaux du génie chimique','66.01','Principes fondamentaux du génie chimique','','','',false,true);
+d.add(346,344,'66.02','<div class="nodetag">66.02</div></span>&nbsp;&nbsp;Mise en œuvre des procédés chimiques et équipement en général','66.02','Mise en œuvre des procédés chimiques et équipement en général','','','',false,true);
+d.add(347,344,'66.03','<div class="nodetag">66.03</div></span>&nbsp;&nbsp;Matériaux, caractéristiques, procédés et équipement','66.03','Matériaux, caractéristiques, procédés et équipement','','','',false,true);
+d.add(348,344,'66.04','<div class="nodetag">66.04</div></span>&nbsp;&nbsp;Traitements thermiques et équipement','66.04','Traitements thermiques et équipement','','','',false,true);
+d.add(349,344,'66.06','<div class="nodetag">66.06</div></span>&nbsp;&nbsp;Technologie chimique des liquides. Procédés et équipement pour le traitement des liquides ou au moyen de liquides','66.06','Technologie chimique des liquides. Procédés et équipement pour le traitement des liquides ou au moyen de liquides','','','',false,true);
+d.add(350,344,'66.07','<div class="nodetag">66.07</div></span>&nbsp;&nbsp;Technologie chimique des gaz','66.07','Technologie chimique des gaz','','','',false,true);
+d.add(351,344,'66.08','<div class="nodetag">66.08</div></span>&nbsp;&nbsp;Procédés et équipements physiques et physico-chimiques. Effets physiques et physico-chimiques sur processus chimiques','66.08','Procédés et équipements physiques et physico-chimiques. Effets physiques et physico-chimiques sur processus chimiques','','','',false,true);
+d.add(352,343,'661','<div class="nodetag">661</div></span>&nbsp;&nbsp;Produits chimiques','661','Produits chimiques','','','',false,true);
+d.add(353,352,'661.1','<div class="nodetag">661.1</div></span>&nbsp;&nbsp;Industries chimiques spécifiques','661.1','Industries chimiques spécifiques','','','',false,true);
+d.add(354,352,'661.2','<div class="nodetag">661.2</div></span>&nbsp;&nbsp;Production de soufre et ses dérivés','661.2','Production de soufre et ses dérivés','','','',false,true);
+d.add(355,352,'661.3','<div class="nodetag">661.3</div></span>&nbsp;&nbsp;Industries de la soude et de la potasse, alcalis','661.3','Industries de la soude et de la potasse, alcalis','','','',false,true);
+d.add(356,352,'661.4','<div class="nodetag">661.4</div></span>&nbsp;&nbsp;Production d\'halogènes et de composés halogénés, de composés peroxo inorganiques','661.4','Production d\'halogènes et de composés halogénés, de composés peroxo inorganiques','','','',false,true);
+d.add(357,352,'661.5','<div class="nodetag">661.5</div></span>&nbsp;&nbsp;Production de composés azotés. Fixation de l’azote. Industrie de l\'azote en général','661.5','Production de composés azotés. Fixation de l’azote. Industrie de l\'azote en général','','','',false,true);
+d.add(358,352,'661.6','<div class="nodetag">661.6</div></span>&nbsp;&nbsp;Production de non-métaux et semi-métaux (métalloïdes) divers ainsi que leurs composés','661.6','Production de non-métaux et semi-métaux (métalloïdes) divers ainsi que leurs composés','','','',false,true);
+d.add(359,352,'661.7','<div class="nodetag">661.7</div></span>&nbsp;&nbsp;Production de substances organiques. Produits chimiques organiques','661.7','Production de substances organiques. Produits chimiques organiques','','','',false,true);
+d.add(360,352,'661.8','<div class="nodetag">661.8</div></span>&nbsp;&nbsp;Composés métalliques en général. Sels. Composés minéraux','661.8','Composés métalliques en général. Sels. Composés minéraux','','','',false,true);
+d.add(361,352,'661.9','<div class="nodetag">661.9</div></span>&nbsp;&nbsp;Production des gaz','661.9','Production des gaz','','','',false,true);
+d.add(362,343,'662','<div class="nodetag">662</div></span>&nbsp;&nbsp;Explosifs. Combustibles','662','Explosifs. Combustibles','','','',false,true);
+d.add(363,362,'662.1/.4','<div class="nodetag">662.1/.4</div></span>&nbsp;&nbsp;Explosifs','662.1/.4','Explosifs','','','',false,true);
+d.add(364,363,'662.1','<div class="nodetag">662.1</div></span>&nbsp;&nbsp;Feux d’artifice. Pyrotechnie et dispositifs associés','662.1','Feux d’artifice. Pyrotechnie et dispositifs associés','','','',false,true);
+d.add(365,363,'662.2','<div class="nodetag">662.2</div></span>&nbsp;&nbsp;Explosifs progressifs et brisants','662.2','Explosifs progressifs et brisants','','','',false,true);
+d.add(366,363,'662.3','<div class="nodetag">662.3</div></span>&nbsp;&nbsp;Poudres propulsives. Poudres à canon','662.3','Poudres propulsives. Poudres à canon','','','',false,true);
+d.add(367,363,'662.4','<div class="nodetag">662.4</div></span>&nbsp;&nbsp;Initiateurs, amorces pour explosifs. Détonateurs','662.4','Initiateurs, amorces pour explosifs. Détonateurs','','','',false,true);
+d.add(368,362,'662.5','<div class="nodetag">662.5</div></span>&nbsp;&nbsp;Allumeurs. Allumettes. Briquets','662.5','Allumeurs. Allumettes. Briquets','','','',false,true);
+d.add(369,362,'662.6/.9','<div class="nodetag">662.6/.9</div></span>&nbsp;&nbsp;Activités économiques liées au chauffage et aux combustibles. Combustibles. Chauffage','662.6/.9','Activités économiques liées au chauffage et aux combustibles. Combustibles. Chauffage','','','',false,true);
+d.add(370,369,'662.6','<div class="nodetag">662.6</div></span>&nbsp;&nbsp;Activités économiques liées au chauffage et aux combustibles en général. Combustion. Combustibles naturels','662.6','Activités économiques liées au chauffage et aux combustibles en général. Combustion. Combustibles naturels','','','',false,true);
+d.add(371,369,'662.7','<div class="nodetag">662.7</div></span>&nbsp;&nbsp;Technologie des combustibles. Combustibles traités, distillés','662.7','Technologie des combustibles. Combustibles traités, distillés','','','',false,true);
+d.add(372,369,'662.8','<div class="nodetag">662.8</div></span>&nbsp;&nbsp;Traitement mécanique pour solidifier les combustibles. Briquetage','662.8','Traitement mécanique pour solidifier les combustibles. Briquetage','','','',false,true);
+d.add(373,369,'662.9','<div class="nodetag">662.9</div></span>&nbsp;&nbsp;Ingénierie du chauffage et de la combustion','662.9','Ingénierie du chauffage et de la combustion','','','',false,true);
+d.add(374,343,'663','<div class="nodetag">663</div></span>&nbsp;&nbsp;Microbiologie industrielle. Mycologie industrielle. Industrie des fermentations. Industrie des boissons. Industrie des stimulants','663','Microbiologie industrielle. Mycologie industrielle. Industrie des fermentations. Industrie des boissons. Industrie des stimulants','','','',false,true);
+d.add(375,374,'663.1','<div class="nodetag">663.1</div></span>&nbsp;&nbsp;Industries microbiologiques. Science et techniques de la microbiologie. Mycologie appliquée','663.1','Industries microbiologiques. Science et techniques de la microbiologie. Mycologie appliquée','','','',false,true);
+d.add(376,374,'663.2','<div class="nodetag">663.2</div></span>&nbsp;&nbsp;Vin. Vinification. Œnologie','663.2','Vin. Vinification. Œnologie','','','',false,true);
+d.add(377,374,'663.3','<div class="nodetag">663.3</div></span>&nbsp;&nbsp;Cidres. Poiré. Autres vins de fruits, vins de sèves','663.3','Cidres. Poiré. Autres vins de fruits, vins de sèves','','','',false,true);
+d.add(378,374,'663.4','<div class="nodetag">663.4</div></span>&nbsp;&nbsp;Bières. Brasserie. Malterie','663.4','Bières. Brasserie. Malterie','','','',false,true);
+d.add(379,374,'663.5','<div class="nodetag">663.5</div></span>&nbsp;&nbsp;Alcool (boisson). Spiritueux. Distillation, affinage','663.5','Alcool (boisson). Spiritueux. Distillation, affinage','','','',false,true);
+d.add(380,374,'663.6','<div class="nodetag">663.6</div></span>&nbsp;&nbsp;Eau pour les boissons et pour d\'autres usages industriels. Eaux minérales. Eaux médicinales. Glace alimentaire','663.6','Eau pour les boissons et pour d\'autres usages industriels. Eaux minérales. Eaux médicinales. Glace alimentaire','','','',false,true);
+d.add(381,374,'663.8','<div class="nodetag">663.8</div></span>&nbsp;&nbsp;Ingrédients principaux pour la préparation de boisson. Jus de fruits et de légumes. Sirops. Limonades, sodas. Liqueurs','663.8','Ingrédients principaux pour la préparation de boisson. Jus de fruits et de légumes. Sirops. Limonades, sodas. Liqueurs','','','',false,true);
+d.add(382,374,'663.9','<div class="nodetag">663.9</div></span>&nbsp;&nbsp;Chocolat. Cacao. Café. Thé. Tabac','663.9','Chocolat. Cacao. Café. Thé. Tabac','','','',false,true);
+d.add(383,343,'664','<div class="nodetag">664</div></span>&nbsp;&nbsp;Préparation et conservation des aliments solides','664','Préparation et conservation des aliments solides','','','',false,true);
+d.add(384,383,'664.1','<div class="nodetag">664.1</div></span>&nbsp;&nbsp;Sucre. Mélasse. Glucose, etc.','664.1','Sucre. Mélasse. Glucose, etc.','','','',false,true);
+d.add(385,383,'664.2','<div class="nodetag">664.2</div></span>&nbsp;&nbsp;Amidon. Matières amylacées','664.2','Amidon. Matières amylacées','','','',false,true);
+d.add(386,383,'664.3','<div class="nodetag">664.3</div></span>&nbsp;&nbsp;Huiles et graisses alimentaires. Margarine. Aliments protéiques','664.3','Huiles et graisses alimentaires. Margarine. Aliments protéiques','','','',false,true);
+d.add(387,383,'664.4','<div class="nodetag">664.4</div></span>&nbsp;&nbsp;Aliments d’origine minérale','664.4','Aliments d’origine minérale','','','',false,true);
+d.add(388,383,'664.5','<div class="nodetag">664.5</div></span>&nbsp;&nbsp;Epices. Condiments','664.5','Epices. Condiments','','','',false,true);
+d.add(389,383,'664.6/.7','<div class="nodetag">664.6/.7</div></span>&nbsp;&nbsp;Technologie et transformation des graines de céréales','664.6/.7','Technologie et transformation des graines de céréales','','','',false,true);
+d.add(390,389,'664.6','<div class="nodetag">664.6</div></span>&nbsp;&nbsp;Boulangerie. Pain. Préparation à base de farine','664.6','Boulangerie. Pain. Préparation à base de farine','','','',false,true);
+d.add(391,389,'664.7','<div class="nodetag">664.7</div></span>&nbsp;&nbsp;Technologie des céréales. Meunerie. Minoterie','664.7','Technologie des céréales. Meunerie. Minoterie','','','',false,true);
+d.add(392,383,'664.8/.9','<div class="nodetag">664.8/.9</div></span>&nbsp;&nbsp;Techniques de conservation des aliments','664.8/.9','Techniques de conservation des aliments','','','',false,true);
+d.add(393,343,'665','<div class="nodetag">665</div></span>&nbsp;&nbsp;Huiles. Graisses. Cires. Adhésifs. Gommes. Résines','665','Huiles. Graisses. Cires. Adhésifs. Gommes. Résines','','','',false,true);
+d.add(394,393,'665.1','<div class="nodetag">665.1</div></span>&nbsp;&nbsp;Généralités sur les huiles, les graisses, les cires et les produits qui en dérivent','665.1','Généralités sur les huiles, les graisses, les cires et les produits qui en dérivent','','','',false,true);
+d.add(395,393,'665.2','<div class="nodetag">665.2</div></span>&nbsp;&nbsp;Huiles, graisses et cires d\'origine animale','665.2','Huiles, graisses et cires d\'origine animale','','','',false,true);
+d.add(396,393,'665.3','<div class="nodetag">665.3</div></span>&nbsp;&nbsp;Huiles, graisses et cires végétales. Phosphatides','665.3','Huiles, graisses et cires végétales. Phosphatides','','','',false,true);
+d.add(397,393,'665.5','<div class="nodetag">665.5</div></span>&nbsp;&nbsp;Huiles essentielles. Parfumerie. Cosmétiques','665.5','Huiles essentielles. Parfumerie. Cosmétiques','','','',false,true);
+d.add(398,393,'665.6/.7','<div class="nodetag">665.6/.7</div></span>&nbsp;&nbsp;Procédés et produits de l\'industrie du pétrole et des industries apparentées','665.6/.7','Procédés et produits de l\'industrie du pétrole et des industries apparentées','','','',false,true);
+d.add(399,398,'665.6','<div class="nodetag">665.6</div></span>&nbsp;&nbsp;Technologie des huiles minérales. Technologie du pétrole et produits apparentés','665.6','Technologie des huiles minérales. Technologie du pétrole et produits apparentés','','','',false,true);
+d.add(400,398,'665.7','<div class="nodetag">665.7</div></span>&nbsp;&nbsp;Produits de l’industrie pétrolière. Huiles minérales et produits analogues','665.7','Produits de l’industrie pétrolière. Huiles minérales et produits analogues','','','',false,true);
+d.add(401,393,'665.9','<div class="nodetag">665.9</div></span>&nbsp;&nbsp;Industries diverses de chimie organique','665.9','Industries diverses de chimie organique','','','',false,true);
+d.add(402,343,'666','<div class="nodetag">666</div></span>&nbsp;&nbsp;Industrie du verre. Céramiques. Ciments et bétons','666','Industrie du verre. Céramiques. Ciments et bétons','','','',false,true);
+d.add(403,402,'666.1','<div class="nodetag">666.1</div></span>&nbsp;&nbsp;Industrie du verre. Technologie du verre. Fabrication du verre en général. Verre au sens large','666.1','Industrie du verre. Technologie du verre. Fabrication du verre en général. Verre au sens large','','','',false,true);
+d.add(404,402,'666.3/.7','<div class="nodetag">666.3/.7</div></span>&nbsp;&nbsp;Céramique','666.3/.7','Céramique','','','',false,true);
+d.add(405,404,'666.3','<div class="nodetag">666.3</div></span>&nbsp;&nbsp;Céramique. Matières premières pour la céramique','666.3','Céramique. Matières premières pour la céramique','','','',false,true);
+d.add(406,404,'666.5','<div class="nodetag">666.5</div></span>&nbsp;&nbsp;Porcelaine. Chine (céramique chinoise)','666.5','Porcelaine. Chine (céramique chinoise)','','','',false,true);
+d.add(407,404,'666.6','<div class="nodetag">666.6</div></span>&nbsp;&nbsp;Faïence. Porcelaine de grès. Poterie. Terre cuite','666.6','Faïence. Porcelaine de grès. Poterie. Terre cuite','','','',false,true);
+d.add(408,404,'666.7','<div class="nodetag">666.7</div></span>&nbsp;&nbsp;Céramique grossière, épaisse. Céramique lourde. Céramique réfractaire. Céramique dure. Mélange de céramiques et d\'autres matériaux','666.7','Céramique grossière, épaisse. Céramique lourde. Céramique réfractaire. Céramique dure. Mélange de céramiques et d\'autres matériaux','','','',false,true);
+d.add(409,402,'666.9','<div class="nodetag">666.9</div></span>&nbsp;&nbsp;Industries du gypse, de la chaux et du ciment. Matériaux durcissant, faisant prise. Plâtres. Mortiers et bétons','666.9','Industries du gypse, de la chaux et du ciment. Matériaux durcissant, faisant prise. Plâtres. Mortiers et bétons','','','',false,true);
+d.add(410,343,'667','<div class="nodetag">667</div></span>&nbsp;&nbsp;Industries des couleurs','667','Industries des couleurs','','','',false,true);
+d.add(411,410,'667.2','<div class="nodetag">667.2</div></span>&nbsp;&nbsp;Industrie des colorants. Fabrication et utilisation des colorants','667.2','Industrie des colorants. Fabrication et utilisation des colorants','','','',false,true);
+d.add(412,410,'667.4','<div class="nodetag">667.4</div></span>&nbsp;&nbsp;Encres d’écriture','667.4','Encres d’écriture','','','',false,true);
+d.add(413,410,'667.5','<div class="nodetag">667.5</div></span>&nbsp;&nbsp;Encres d’imprimerie (noire ou couleur). Encres lithographiques. Crayons d\'écriture et de dessin. Crayons de couleur','667.5','Encres d’imprimerie (noire ou couleur). Encres lithographiques. Crayons d\'écriture et de dessin. Crayons de couleur','','','',false,true);
+d.add(414,410,'667.6','<div class="nodetag">667.6</div></span>&nbsp;&nbsp;Enduits, enrobages, coating et techniques. Peintures. Vernis. Laques','667.6','Enduits, enrobages, coating et techniques. Peintures. Vernis. Laques','','','',false,true);
+d.add(415,410,'667.7','<div class="nodetag">667.7</div></span>&nbsp;&nbsp;Coloration, teinture, etc. pour divers matériaux (sauf imprimerie et peinture)','667.7','Coloration, teinture, etc. pour divers matériaux (sauf imprimerie et peinture)','','','',false,true);
+d.add(416,343,'669','<div class="nodetag">669</div></span>&nbsp;&nbsp;Métallurgie','669','Métallurgie','','','',false,true);
+d.add(417,416,'669.1','<div class="nodetag">669.1</div></span>&nbsp;&nbsp;Sidérurgie. Fer et acier','669.1','Sidérurgie. Fer et acier','','','',false,true);
+d.add(418,416,'669.2','<div class="nodetag">669.2</div></span>&nbsp;&nbsp;Métaux non-ferreux en général','669.2','Métaux non-ferreux en général','','','',false,true);
+d.add(419,0,'67','<div class="nodetag">67</div></span>&nbsp;&nbsp;Industries, commerces et artisanats divers','67','Industries, commerces et artisanats divers','','','',false,true);
+d.add(420,419,'671','<div class="nodetag">671</div></span>&nbsp;&nbsp;Objets en métal précieux, gemmes, pierres précieuses','671','Objets en métal précieux, gemmes, pierres précieuses','','','',false,true);
+d.add(421,420,'671.1','<div class="nodetag">671.1</div></span>&nbsp;&nbsp;Objets en or et en argent. Articles faits d\'autres métaux précieux. Bijoux','671.1','Objets en or et en argent. Articles faits d\'autres métaux précieux. Bijoux','','','',false,true);
+d.add(422,420,'671.4','<div class="nodetag">671.4</div></span>&nbsp;&nbsp;Fabrication de pièces de monnaies et de médailles. Frappe','671.4','Fabrication de pièces de monnaies et de médailles. Frappe','','','',false,true);
+d.add(423,419,'672','<div class="nodetag">672</div></span>&nbsp;&nbsp;Objets en fer et en acier en général','672','Objets en fer et en acier en général','','','',false,true);
+d.add(424,419,'673','<div class="nodetag">673</div></span>&nbsp;&nbsp;Objets en métaux non ferreux','673','Objets en métaux non ferreux','','','',false,true);
+d.add(425,419,'674','<div class="nodetag">674</div></span>&nbsp;&nbsp;Industrie du bois','674','Industrie du bois','','','',false,true);
+d.add(426,419,'675','<div class="nodetag">675</div></span>&nbsp;&nbsp;Industrie du cuir (y compris la fourrure et les imitations cuir)','675','Industrie du cuir (y compris la fourrure et les imitations cuir)','','','',false,true);
+d.add(427,419,'676','<div class="nodetag">676</div></span>&nbsp;&nbsp;Industrie de la pâte à papier, du papier et du carton','676','Industrie de la pâte à papier, du papier et du carton','','','',false,true);
+d.add(428,419,'677','<div class="nodetag">677</div></span>&nbsp;&nbsp;Industrie textile','677','Industrie textile','','','',false,true);
+d.add(429,428,'677.1/.5','<div class="nodetag">677.1/.5</div></span>&nbsp;&nbsp;Fibres textiles','677.1/.5','Fibres textiles','','','',false,true);
+d.add(430,429,'677.1/.3','<div class="nodetag">677.1/.3</div></span>&nbsp;&nbsp;Fibres naturelles','677.1/.3','Fibres naturelles','','','',false,true);
+d.add(431,430,'677.1/.2','<div class="nodetag">677.1/.2</div></span>&nbsp;&nbsp;Fibres végétales','677.1/.2','Fibres végétales','','','',false,true);
+d.add(432,431,'677.1','<div class="nodetag">677.1</div></span>&nbsp;&nbsp;Fibres libériennes (fibres des tiges de dicotylédones). Fibres dures (fibres des feuilles et fruits de monocotylédones)','677.1','Fibres libériennes (fibres des tiges de dicotylédones). Fibres dures (fibres des feuilles et fruits de monocotylédones)','','','',false,true);
+d.add(433,431,'677.2','<div class="nodetag">677.2</div></span>&nbsp;&nbsp;Poils végétaux (séminaux)','677.2','Poils végétaux (séminaux)','','','',false,true);
+d.add(434,430,'677.3','<div class="nodetag">677.3</div></span>&nbsp;&nbsp;Fibres d’origine animale','677.3','Fibres d’origine animale','','','',false,true);
+d.add(435,429,'677.4','<div class="nodetag">677.4</div></span>&nbsp;&nbsp;Fibres artificielles et synthétiques','677.4','Fibres artificielles et synthétiques','','','',false,true);
+d.add(436,429,'677.5','<div class="nodetag">677.5</div></span>&nbsp;&nbsp;Fibres minérales et métalliques. Matériaux pour le tressage. Fils de caoutchouc. Fils de papier','677.5','Fibres minérales et métalliques. Matériaux pour le tressage. Fils de caoutchouc. Fils de papier','','','',false,true);
+d.add(437,419,'678','<div class="nodetag">678</div></span>&nbsp;&nbsp;Industries basés sur des matériaux macromoléculaires. Industrie du caoutchouc. Industrie des matières plastiques','678','Industries basés sur des matériaux macromoléculaires. Industrie du caoutchouc. Industrie des matières plastiques','','','',false,true);
+d.add(438,437,'678.4','<div class="nodetag">678.4</div></span>&nbsp;&nbsp;Caoutchouc naturel. Autres matériaux macromoléculaires contenant du carbone et de l\'hydrogène','678.4','Caoutchouc naturel. Autres matériaux macromoléculaires contenant du carbone et de l\'hydrogène','','','',false,true);
+d.add(439,437,'678.5','<div class="nodetag">678.5</div></span>&nbsp;&nbsp;Matières plastiques','678.5','Matières plastiques','','','',false,true);
+d.add(440,437,'678.6','<div class="nodetag">678.6</div></span>&nbsp;&nbsp;Produits synthétique de polycondensation. Polycondensats. Résines synthétiques. Fibres synthétiques, etc.','678.6','Produits synthétique de polycondensation. Polycondensats. Résines synthétiques. Fibres synthétiques, etc.','','','',false,true);
+d.add(441,437,'678.7','<div class="nodetag">678.7</div></span>&nbsp;&nbsp;Produits synthétiques de polymérisation. Polymérisats. Caoutchouc synthétiques','678.7','Produits synthétiques de polymérisation. Polymérisats. Caoutchouc synthétiques','','','',false,true);
+d.add(442,419,'679','<div class="nodetag">679</div></span>&nbsp;&nbsp;Industries basés sur divers matériaux transformables','679','Industries basés sur divers matériaux transformables','','','',false,true);
+d.add(443,442,'679.7','<div class="nodetag">679.7</div></span>&nbsp;&nbsp;Industrie des câbles et cordes','679.7','Industrie des câbles et cordes','','','',false,true);
+d.add(444,442,'679.8','<div class="nodetag">679.8</div></span>&nbsp;&nbsp;Technologie de la pierre. Industrie de la pierre','679.8','Technologie de la pierre. Industrie de la pierre','','','',false,true);
+d.add(445,442,'679.9','<div class="nodetag">679.9</div></span>&nbsp;&nbsp;Technologie d’autres matériaux naturels transformables','679.9','Technologie d’autres matériaux naturels transformables','','','',false,true);
+d.add(446,0,'68','<div class="nodetag">68</div></span>&nbsp;&nbsp;Industries, artisanats et commerces de produits finis ou assemblés','68','Industries, artisanats et commerces de produits finis ou assemblés','','','',false,true);
+d.add(447,446,'681','<div class="nodetag">681</div></span>&nbsp;&nbsp;Mécanismes et instruments de précision','681','Mécanismes et instruments de précision','','','',false,true);
+d.add(448,447,'681.1','<div class="nodetag">681.1</div></span>&nbsp;&nbsp;Appareils à rouages ou mécanismes moteurs','681.1','Appareils à rouages ou mécanismes moteurs','','','',false,true);
+d.add(449,447,'681.2','<div class="nodetag">681.2</div></span>&nbsp;&nbsp;Fabrication d\'instrument en général. Instrumentation. Instruments de mesure et leur fabrication. Balances. Appareils de pesage','681.2','Fabrication d\'instrument en général. Instrumentation. Instruments de mesure et leur fabrication. Balances. Appareils de pesage','','','',false,true);
+d.add(450,447,'681.5','<div class="nodetag">681.5</div></span>&nbsp;&nbsp;Technologie de la commande automatique. Technologie intelligente','681.5','Technologie de la commande automatique. Technologie intelligente','','','',false,true);
+d.add(451,447,'681.6','<div class="nodetag">681.6</div></span>&nbsp;&nbsp;Machines et équipements pour la reproduction graphique','681.6','Machines et équipements pour la reproduction graphique','','','',false,true);
+d.add(452,447,'681.7','<div class="nodetag">681.7</div></span>&nbsp;&nbsp;Appareils et instruments d’optique','681.7','Appareils et instruments d’optique','','','',false,true);
+d.add(453,447,'681.8','<div class="nodetag">681.8</div></span>&nbsp;&nbsp;Acoustique technique','681.8','Acoustique technique','','','',false,true);
+d.add(454,446,'682','<div class="nodetag">682</div></span>&nbsp;&nbsp;Ferronnerie. Travail de la forge. Maréchalerie. Travail manuel du fer','682','Ferronnerie. Travail de la forge. Maréchalerie. Travail manuel du fer','','','',false,true);
+d.add(455,454,'682.1','<div class="nodetag">682.1</div></span>&nbsp;&nbsp;Maréchalerie. Ferrure','682.1','Maréchalerie. Ferrure','','','',false,true);
+d.add(456,454,'682.3','<div class="nodetag">682.3</div></span>&nbsp;&nbsp;Travail des outils forgés. Travail des outils tranchant forgés','682.3','Travail des outils forgés. Travail des outils tranchant forgés','','','',false,true);
+d.add(457,454,'682.5','<div class="nodetag">682.5</div></span>&nbsp;&nbsp;Ferronnerie de mobilier','682.5','Ferronnerie de mobilier','','','',false,true);
+d.add(458,454,'682.6','<div class="nodetag">682.6</div></span>&nbsp;&nbsp;Ferronnerie pour la construction','682.6','Ferronnerie pour la construction','','','',false,true);
+d.add(459,446,'683','<div class="nodetag">683</div></span>&nbsp;&nbsp;Quincaillerie. Serrurerie. Lampisterie. Bouteillerie. Appareils de chauffage','683','Quincaillerie. Serrurerie. Lampisterie. Bouteillerie. Appareils de chauffage','','','',false,true);
+d.add(460,446,'684','<div class="nodetag">684</div></span>&nbsp;&nbsp;Ameublement et industrie apparentée. Fabrication de meubles. Garniture. Mobilier. Tapisserie et garniture','684','Ameublement et industrie apparentée. Fabrication de meubles. Garniture. Mobilier. Tapisserie et garniture','','','',false,true);
+d.add(461,460,'684.4','<div class="nodetag">684.4</div></span>&nbsp;&nbsp;Mobilier. Conception et fabrication des meubles','684.4','Mobilier. Conception et fabrication des meubles','','','',false,true);
+d.add(462,460,'684.6','<div class="nodetag">684.6</div></span>&nbsp;&nbsp;Placage. Marqueterie. Incrustation, etc.','684.6','Placage. Marqueterie. Incrustation, etc.','','','',false,true);
+d.add(463,460,'684.7','<div class="nodetag">684.7</div></span>&nbsp;&nbsp;Garniture, tapisserie. Literie. Recouvrement, housses, couvertures. Tentures, draperies','684.7','Garniture, tapisserie. Literie. Recouvrement, housses, couvertures. Tentures, draperies','','','',false,true);
+d.add(464,446,'685','<div class="nodetag">685</div></span>&nbsp;&nbsp;Sellerie. Cordonnerie. Ganterie. Articles de voyage, de sport, de jeux, etc.','685','Sellerie. Cordonnerie. Ganterie. Articles de voyage, de sport, de jeux, etc.','','','',false,true);
+d.add(465,464,'685.1','<div class="nodetag">685.1</div></span>&nbsp;&nbsp;Sellerie. Harnachement','685.1','Sellerie. Harnachement','','','',false,true);
+d.add(466,464,'685.2','<div class="nodetag">685.2</div></span>&nbsp;&nbsp;Accessoires vestimentaires. Fabrication de ceintures. Equipement en cuir et produits similaires','685.2','Accessoires vestimentaires. Fabrication de ceintures. Equipement en cuir et produits similaires','','','',false,true);
+d.add(467,464,'685.3','<div class="nodetag">685.3</div></span>&nbsp;&nbsp;Cordonnerie, fabrication de chaussures. Autres accessoires pour la locomotion','685.3','Cordonnerie, fabrication de chaussures. Autres accessoires pour la locomotion','','','',false,true);
+d.add(468,464,'685.4','<div class="nodetag">685.4</div></span>&nbsp;&nbsp;Gants. Ganterie','685.4','Gants. Ganterie','','','',false,true);
+d.add(469,464,'685.5','<div class="nodetag">685.5</div></span>&nbsp;&nbsp;Articles de voyage. Matériel de camping','685.5','Articles de voyage. Matériel de camping','','','',false,true);
+d.add(470,464,'685.6','<div class="nodetag">685.6</div></span>&nbsp;&nbsp;Equipements pour le sport et les jeux. Equipement et installation pour l\'activité physique, l\'athlétisme et la gymnastique','685.6','Equipements pour le sport et les jeux. Equipement et installation pour l\'activité physique, l\'athlétisme et la gymnastique','','','',false,true);
+d.add(471,464,'685.7','<div class="nodetag">685.7</div></span>&nbsp;&nbsp;Equipements pour l’alpinisme, l\'escalade, la natation','685.7','Equipements pour l’alpinisme, l\'escalade, la natation','','','',false,true);
+d.add(472,464,'685.8','<div class="nodetag">685.8</div></span>&nbsp;&nbsp;Accessoires pour jeux de plateau, les jeux de sociétés, les jeux de table','685.8','Accessoires pour jeux de plateau, les jeux de sociétés, les jeux de table','','','',false,true);
+d.add(473,446,'686','<div class="nodetag">686</div></span>&nbsp;&nbsp;Reliure. Dorure. Miroiterie. Papeterie. Accessoires de bureau','686','Reliure. Dorure. Miroiterie. Papeterie. Accessoires de bureau','','','',false,true);
+d.add(474,446,'687','<div class="nodetag">687</div></span>&nbsp;&nbsp;Industrie du vêtement et des articles vestimentaires. Industrie des articles de toilette, de beauté','687','Industrie du vêtement et des articles vestimentaires. Industrie des articles de toilette, de beauté','','','',false,true);
+d.add(475,474,'687.1','<div class="nodetag">687.1</div></span>&nbsp;&nbsp;Vêtements. Habillement. Confection','687.1','Vêtements. Habillement. Confection','','','',false,true);
+d.add(476,474,'687.2','<div class="nodetag">687.2</div></span>&nbsp;&nbsp;Sous-vêtements. Lingerie','687.2','Sous-vêtements. Lingerie','','','',false,true);
+d.add(477,474,'687.3','<div class="nodetag">687.3</div></span>&nbsp;&nbsp;Bonneterie (vêtements de mailles, tricots). Cravates. Dispositifs pour maintenir et protéger les vêtements','687.3','Bonneterie (vêtements de mailles, tricots). Cravates. Dispositifs pour maintenir et protéger les vêtements','','','',false,true);
+d.add(478,474,'687.4','<div class="nodetag">687.4</div></span>&nbsp;&nbsp;Couvre-chef. Chapellerie. Travail des modistes','687.4','Couvre-chef. Chapellerie. Travail des modistes','','','',false,true);
+d.add(479,474,'687.5','<div class="nodetag">687.5</div></span>&nbsp;&nbsp;Industrie des soins de beauté et esthétique corporelle','687.5','Industrie des soins de beauté et esthétique corporelle','','','',false,true);
+d.add(480,474,'687.8','<div class="nodetag">687.8</div></span>&nbsp;&nbsp;Fourrures artificielles','687.8','Fourrures artificielles','','','',false,true);
+d.add(481,474,'687.9','<div class="nodetag">687.9</div></span>&nbsp;&nbsp;Industrie des brosses. Balais, etc.','687.9','Industrie des brosses. Balais, etc.','','','',false,true);
+d.add(482,446,'688','<div class="nodetag">688</div></span>&nbsp;&nbsp;Articles de fantaisie. Jouets. Articles décoratifs','688','Articles de fantaisie. Jouets. Articles décoratifs','','','',false,true);
+d.add(483,482,'688.7','<div class="nodetag">688.7</div></span>&nbsp;&nbsp;Jouets. Articles de divertissement et d’amusement','688.7','Jouets. Articles de divertissement et d’amusement','','','',false,true);
+d.add(484,446,'689','<div class="nodetag">689</div></span>&nbsp;&nbsp;Artisanat d\'amateur. Hobbies techniques','689','Artisanat d\'amateur. Hobbies techniques','','','',false,true);
+d.add(485,0,'69','<div class="nodetag">69</div></span>&nbsp;&nbsp;Industrie de la construction. Materiaux, méthodes et procédes','69','Industrie de la construction. Materiaux, méthodes et procédes','','','',false,true);
+d.add(486,485,'691','<div class="nodetag">691</div></span>&nbsp;&nbsp;Matériaux de construction. Eléments de construction','691','Matériaux de construction. Eléments de construction','','','',false,true);
+d.add(487,485,'692','<div class="nodetag">692</div></span>&nbsp;&nbsp;Pièces et éléments de la structure des bâtiments','692','Pièces et éléments de la structure des bâtiments','','','',false,true);
+d.add(488,485,'693','<div class="nodetag">693</div></span>&nbsp;&nbsp;Maçonnerie et travaux apparentés','693','Maçonnerie et travaux apparentés','','','',false,true);
+d.add(489,485,'694','<div class="nodetag">694</div></span>&nbsp;&nbsp;Construction en bois. Charpenterie. Menuiserie','694','Construction en bois. Charpenterie. Menuiserie','','','',false,true);
+d.add(490,485,'696','<div class="nodetag">696</div></span>&nbsp;&nbsp;Equipement, services, installations dans les bâtiments (sanitaires, gaz, vapeur, électricité). Travail du plombier. Métiers des métaux. Poseur de canalisation. Electricien. Autres corps de métier','696','Equipement, services, installations dans les bâtiments (sanitaires, gaz, vapeur, électricité). Travail du plombier. Métiers des métaux. Poseur de canalisation. Electricien. Autres corps de métier','','','',false,true);
+d.add(491,485,'697','<div class="nodetag">697</div></span>&nbsp;&nbsp;Chauffage, ventilation, aération et conditionnement d’air dans les bâtiments','697','Chauffage, ventilation, aération et conditionnement d’air dans les bâtiments','','','',false,true);
+d.add(492,485,'698','<div class="nodetag">698</div></span>&nbsp;&nbsp;Finition et décoration','698','Finition et décoration','','','',false,true);
+d.config.useSelection = false;
+d.config.inOrder = true;
+d.config.useIcons = false;
+document.write(d);
+//-->
+</script>
+</div>
+</div><div id="expandbox" onclick="expandbox(); return false;">&nbsp;</div>
+<div id="recordbox" class="debugbkg">
+<div class="fronthint">Cliquez sur une classe à gauche pour afficher les entrées</div>
+</div>
+
+        <div id="footer">
+            <div class="footersectionleft">
+                The UDC Summary (UDCS) provides a selection of around 2,600 classes from the whole scheme which comprises more than 70,000 entries.
+                Please send questions and suggestions to <a href="mailto:udcs@udcc.org?subject=UDC Summary Enquiry">udcs@udcc.org</a><br><br>
+	            <p>
+		            The data provided in this Summary is released under the <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative Commons Attribution Share Alike 3.0 license</a> <a href="../about.htm">[more]</a>
+	            </p>
+            </div>
+            <div class="footermiddle">
+                <a href="http://www.udcc.org"><img src="../images/udclogowhite.png" border="0"></a>
+            </div>
+			<div class="footerright">
+                For complete UDC schedules see <a href="http://www.udc-hub.com/">UDC Online Hub</a><br/><a href="http://www.udc-hub.com/"><img width="60" height="35" src="../images/udclogo.png"/></a>
+
+			</div>
+        </div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-13138465-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>

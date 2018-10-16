@@ -1,0 +1,901 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>UDC Summary</title>
+    <link rel="stylesheet" href="../reset.css" type="text/css" />
+    <link rel="stylesheet" href="../udc2000.css" type="text/css" />
+	    <link rel="StyleSheet" href="dtree2.css" type="text/css" />
+	    <script type="text/javascript" src="dtree.js"></script>
+	    <script type="text/javascript" src="udcdisplay_9.js"></script>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+</head>
+
+<body >
+<div id="centercontainer" class="debugbkg">
+    <div id="titlebox" class="debugbkg">
+		<div id="rightbox">
+        	<div id="languagecount">57 languages</div>
+            <div id="languagebox">
+            <select id="selectedlang" style="vertical-align: middle;" onchange="location = this.options[this.selectedIndex].value;">
+			<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=af&pr=Y">Afrikaans (Afrikaans) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sq&pr=Y">Albanian (Shqip) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=anp&pr=Y">Angika (अंगिका) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ar&pr=Y">Arabic (العربية) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=hy&pr=Y">Armenian (հայերեն) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=eu&pr=Y">Basque (Euskara) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=be&pr=Y">Belarusian (Беларуская) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=bn&pr=Y">Bengali (বাংলা) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=bho&pr=Y">Bhojpuri (भोजपुरी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=bg&pr=Y">Bulgarian (Български) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ca&pr=Y">Catalan (Català) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=chi&pr=Y">Chinese (中文) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=hr&pr=Y">Croatian (Hrvatski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=cs&pr=Y">Czech (Čeština) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=da&pr=Y">Danish (Dansk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=nl&pr=Y">Dutch (Nederlands) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=en&pr=Y">English (English) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=eo&pr=Y">Esperanto (Esperanto) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=et&pr=Y">Estonian (Eesti) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=fi&pr=Y">Finnish (Suomi) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=fr&pr=Y">French (Français) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=gl&pr=Y">Galician (Galego) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ka&pr=Y">Georgian (ქართული) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=de&pr=Y">German (Deutsch) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=el&pr=Y" selected>Greek (Ελληνικά) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=hi&pr=Y">Hindi (हिन्दी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=hu&pr=Y">Hungarian (Magyar) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=id&pr=Y">Indonesian (Bahasa Ind) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ga&pr=Y">Irish (Gaeilge) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=it&pr=Y">Italian (Italiano) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ja&pr=Y">Japanese (日本語) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=kn&pr=Y">Kannada (ಕನ್ನಡ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=kk&pr=Y">Kazakh (Қазақ тілі) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=lv&pr=Y">Latvian (Latviešu) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=lt&pr=Y">Lithuanian (lietuvių) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=mk&pr=Y">Macedonian (македонски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ml&pr=Y">Malayalam (മലയാളം) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=mr&pr=Y">Marathi (मराठी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=no&pr=Y">Norwegian (Norsk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=pl&pr=Y">Polish (Polski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=pt&pr=Y">Portuguese (Português) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=pa&pr=Y">Punjabi (ਪੰਜਾਬੀ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ro&pr=Y">Romanian (Româna) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ru&pr=Y">Russian (Pусский) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sa&pr=Y">Sanskrit (Saṃskṛtam) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sr&pr=Y">Serbian (Српски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=si&pr=Y">Sinhala (සිංහල) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sk&pr=Y">Slovak (Slovenský) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sl&pr=Y">Slovenian (Slovenski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=es&pr=Y">Spanish (Español) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sv&pr=Y">Swedish (Svenska) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ta&pr=Y">Tamil (தமிழ்) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=te&pr=Y">Telugu (తెలుగు) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=tr&pr=Y">Turkish (Türkçe) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=uk&pr=Y">Ukrainian (Yкраї́нська) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=uz&pr=Y">Uzbek (oʻzbek) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=vi&pr=Y">Vietnamese (tiếng Việt) </option>
+            </select>
+            </div>
+            </div>
+        </div>
+		<div id="menubox" class="debugbkg">
+            <ul class="menu boldmenu">
+<li><a href="index.php@lang=el">ΑΝΩ</a></li>
+<li><a href="index.php@tag=--&amp;lang=el">ΣΗΜΕΙΑ</a></li>
+<li><a href="index.php@tag=---&amp;lang=el">ΒΟΗΘΙΤΙΚΑ ΝΟΥΜΕΡΑ</a></li>
+<li><a href="index.php@tag=0&amp;lang=el">0</a></li>
+<li><a href="index.php@tag=1&amp;lang=el">1</a></li>
+<li><a href="index.php@tag=2&amp;lang=el">2</a></li>
+<li><a href="index.php@tag=3&amp;lang=el">3</a></li>
+<li><a  class="vacant" href="index.php@tag=---&amp;lang=el#">4</a></li>
+<li><a href="index.php@tag=5&amp;lang=el">5</a></li>
+<li><a href="index.php@tag=6&amp;lang=el">6</a></li>
+<li><a href="index.php@tag=7&amp;lang=el">7</a></li>
+<li><a href="index.php@tag=8&amp;lang=el">8</a></li>
+<li><a href="index.php@tag=9&amp;lang=el">9</a></li>
+</ul>
+<input type="hidden" id="if_loading" name="if_loading" value="Φορτώνει"/>
+<input type="hidden" id="if_lang" name="if_lang" value="25"/>
+<ul class="rightmenu boldmenu">
+<li><a href="../translation.htm">ΜΕΤΑΦΡΑΣΕΙΣ</a></li>
+<li><a href="index.php@tag=---&amp;lang=el#" title="Under Development">ΧΑΡΤΟΓΡΑΦΗΣΕΙΣ</a></li>
+<li><a href="../exports.htm" title="Data Exports">ΕΞΑΓΟΜΕΝΑ</a></li>
+<li><a href="index.php@tag=---&amp;lang=el#" title="Under Development">ΑΛΦΑΒΗΤΙΚΟ ΕΥΡΕΤΗΡΙΟ</a></li>
+<li><a href="index.php@tag=---&amp;lang=el#" title="Under Development">ΟΔΗΓΙΕΣ</a></li>
+<li><a href="../about.htm" title="About the UDC Summary">ΣΧΕΤΙΚΑ</a></li>
+</ul>
+
+        </div>
+		<input type="hidden" id="leftWidth" value="420"/><input type="hidden" id="rightWidth" value="522"/>
+		<div id="classmarkbox" class="debugbkg">
+
+<div id="openclosemenu"><a href="javascript: d.openAll();">&nbsp;πλήρης ανάπτυξη</a> | <a href="javascript: d.closeAll();">πλήρης αναδίπλωση</a></div>
+<div id="classtree">
+<script type="text/javascript">
+<!--
+d = new dTree('d');
+d.config.hrefIsClick = true;
+d.add(0,-1,'---','<span class="nodetag"></span>COMMON AUXILIARY NUMBERS','---','','','','',false,true);
+d.add(1,0,'=...','<div class="nodetag">=...</div></span>&nbsp;&nbsp;Κοινός βοηθητικός πίνακας γλώσσας. Πίνακας 1c','=...','Κοινός βοηθητικός πίνακας γλώσσας. Πίνακας 1c','','','',false,true);
+d.add(2,1,'=...`01/`08','<div class="nodetag">=...`01/`08</div></span>&nbsp;&nbsp;Ειδικά βοηθητικά νούμερα υποδιαιρέσεων για καταγωγές και περιόδους της γλώσσας καθώς και φάσεις εξέλιξης','=...`01/`08','Ειδικά βοηθητικά νούμερα υποδιαιρέσεων για καταγωγές και περιόδους της γλώσσας καθώς και φάσεις εξέλιξης','','','',false,true);
+d.add(3,2,'=...`01','<div class="nodetag">=...`01</div></span>&nbsp;&nbsp;Παλαιά περίοδος. Αρχαϊκή περίοδος','=...`01','Παλαιά περίοδος. Αρχαϊκή περίοδος','','','',false,true);
+d.add(4,2,'=...`04','<div class="nodetag">=...`04</div></span>&nbsp;&nbsp;Μέση περίοδος','=...`04','Μέση περίοδος','','','',false,true);
+d.add(5,2,'=...`06','<div class="nodetag">=...`06</div></span>&nbsp;&nbsp;Μοντέρνα περίοδος','=...`06','Μοντέρνα περίοδος','','','',false,true);
+d.add(6,1,'=...`276/`282','<div class="nodetag">=...`276/`282</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Special auxiliary subdivision for language usage, dialects and variants</span>','=...`276/`282','Special auxiliary subdivision for language usage, dialects and variants','','','',false,true);
+d.add(7,6,'=...`276','<div class="nodetag">=...`276</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Social dialects. Vocational slangs. Special vernacular forms</span>','=...`276','Social dialects. Vocational slangs. Special vernacular forms','','','',false,true);
+d.add(8,6,'=...`282','<div class="nodetag">=...`282</div></span>&nbsp;&nbsp;Διάλεκτοι. Τοπική και περιφερειακή γλώσσα. Παραλλαγές και ιδιώματα','=...`282','Διάλεκτοι. Τοπική και περιφερειακή γλώσσα. Παραλλαγές και ιδιώματα','','','',false,true);
+d.add(9,1,'=00','<div class="nodetag">=00</div></span>&nbsp;&nbsp;Πολυγλωσσία','=00','Πολυγλωσσία','','','',false,true);
+d.add(10,1,'=030','<div class="nodetag">=030</div></span>&nbsp;&nbsp;Μεταφρασμένα έγγραφα. Μεταφράσεις','=030','Μεταφρασμένα έγγραφα. Μεταφράσεις','','','',false,true);
+d.add(11,1,'=1/=9','<div class="nodetag">=1/=9</div></span>&nbsp;&nbsp;Γλώσσες (φυσικές και τεχνητές)','=1/=9','Γλώσσες (φυσικές και τεχνητές)','','','',false,true);
+d.add(12,11,'=1/=8','<div class="nodetag">=1/=8</div></span>&nbsp;&nbsp;Φυσικές γλώσσες','=1/=8','Φυσικές γλώσσες','','','',false,true);
+d.add(13,12,'=1/=2','<div class="nodetag">=1/=2</div></span>&nbsp;&nbsp;Ινδο-ευρωπαϊκές γλώσσες','=1/=2','Ινδο-ευρωπαϊκές γλώσσες','','','',false,true);
+d.add(14,13,'=1','<div class="nodetag">=1</div></span>&nbsp;&nbsp;Ινδο-ευρωπαϊκές γλώσσες της Ευρώπης','=1','Ινδο-ευρωπαϊκές γλώσσες της Ευρώπης','','','',false,true);
+d.add(15,14,'=11','<div class="nodetag">=11</div></span>&nbsp;&nbsp;Γερμανικές γλώσσες','=11','Γερμανικές γλώσσες','','','',false,true);
+d.add(16,15,'=111','<div class="nodetag">=111</div></span>&nbsp;&nbsp;Αγγλική','=111','Αγγλική','','','',false,true);
+d.add(17,15,'=112','<div class="nodetag">=112</div></span>&nbsp;&nbsp;Δυτικο-γερμανικές γλώσσες (άλλες εκτός των Αγγλικών)','=112','Δυτικο-γερμανικές γλώσσες (άλλες εκτός των Αγγλικών)','','','',false,true);
+d.add(18,17,'=112.2','<div class="nodetag">=112.2</div></span>&nbsp;&nbsp;Γερμανική','=112.2','Γερμανική','','','',false,true);
+d.add(19,17,'=112.5','<div class="nodetag">=112.5</div></span>&nbsp;&nbsp;Ολλανδική','=112.5','Ολλανδική','','','',false,true);
+d.add(20,17,'=112.6','<div class="nodetag">=112.6</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Afrikaans</span>','=112.6','Afrikaans','','','',false,true);
+d.add(21,15,'=113','<div class="nodetag">=113</div></span>&nbsp;&nbsp;Βόρειες Γερμανικές (Σκανδιναβικές) γλώσσες','=113','Βόρειες Γερμανικές (Σκανδιναβικές) γλώσσες','','','',false,true);
+d.add(22,21,'=113.3','<div class="nodetag">=113.3</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Icelandic</span>','=113.3','Icelandic','','','',false,true);
+d.add(23,21,'=113.4','<div class="nodetag">=113.4</div></span>&nbsp;&nbsp;Δανεζική','=113.4','Δανεζική','','','',false,true);
+d.add(24,21,'=113.5','<div class="nodetag">=113.5</div></span>&nbsp;&nbsp;Νορβηγική','=113.5','Νορβηγική','','','',false,true);
+d.add(25,21,'=113.6','<div class="nodetag">=113.6</div></span>&nbsp;&nbsp;Σουηδική','=113.6','Σουηδική','','','',false,true);
+d.add(26,15,'=114','<div class="nodetag">=114</div></span>&nbsp;&nbsp;Ανατολικο-γερμανικές γλώσσες','=114','Ανατολικο-γερμανικές γλώσσες','','','',false,true);
+d.add(27,14,'=12','<div class="nodetag">=12</div></span>&nbsp;&nbsp;Ιταλικές γλώσσες','=12','Ιταλικές γλώσσες','','','',false,true);
+d.add(28,27,'=122','<div class="nodetag">=122</div></span>&nbsp;&nbsp;Ουμβρο-Σαμπελλική (Οσκο-Ουμβρική) γλώσσα','=122','Ουμβρο-Σαμπελλική (Οσκο-Ουμβρική) γλώσσα','','','',false,true);
+d.add(29,27,'=124','<div class="nodetag">=124</div></span>&nbsp;&nbsp;Λατινική','=124','Λατινική','','','',false,true);
+d.add(30,14,'=13','<div class="nodetag">=13</div></span>&nbsp;&nbsp;Ρωμανικές γλώσσες','=13','Ρωμανικές γλώσσες','','','',false,true);
+d.add(31,30,'=131','<div class="nodetag">=131</div></span>&nbsp;&nbsp;Ιταλο-Ρωμανικές γλώσσες','=131','Ιταλο-Ρωμανικές γλώσσες','','','',false,true);
+d.add(32,31,'=131.1','<div class="nodetag">=131.1</div></span>&nbsp;&nbsp;Ιταλική','=131.1','Ιταλική','','','',false,true);
+d.add(33,30,'=132','<div class="nodetag">=132</div></span>&nbsp;&nbsp;Ρετο-Ρωμανικές γλώσσες','=132','Ρετο-Ρωμανικές γλώσσες','','','',false,true);
+d.add(34,30,'=133','<div class="nodetag">=133</div></span>&nbsp;&nbsp;Γαλλο-Ρωμανικές γλώσσες','=133','Γαλλο-Ρωμανικές γλώσσες','','','',false,true);
+d.add(35,34,'=133.1','<div class="nodetag">=133.1</div></span>&nbsp;&nbsp;Γαλλική','=133.1','Γαλλική','','','',false,true);
+d.add(36,30,'=134','<div class="nodetag">=134</div></span>&nbsp;&nbsp;Ιβηρο-Ρωμανικές γλώσσες','=134','Ιβηρο-Ρωμανικές γλώσσες','','','',false,true);
+d.add(37,36,'=134.1','<div class="nodetag">=134.1</div></span>&nbsp;&nbsp;Καταλανική','=134.1','Καταλανική','','','',false,true);
+d.add(38,36,'=134.2','<div class="nodetag">=134.2</div></span>&nbsp;&nbsp;Ισπανική','=134.2','Ισπανική','','','',false,true);
+d.add(39,36,'=134.3','<div class="nodetag">=134.3</div></span>&nbsp;&nbsp;Πορτογαλική','=134.3','Πορτογαλική','','','',false,true);
+d.add(40,36,'=134.4','<div class="nodetag">=134.4</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Gallegan / Galician</span>','=134.4','Gallegan / Galician','','','',false,true);
+d.add(41,30,'=135','<div class="nodetag">=135</div></span>&nbsp;&nbsp;Βαλακανικές Ρωμανικές γλώσσες','=135','Βαλακανικές Ρωμανικές γλώσσες','','','',false,true);
+d.add(42,41,'=135.1','<div class="nodetag">=135.1</div></span>&nbsp;&nbsp;Ρουμανική','=135.1','Ρουμανική','','','',false,true);
+d.add(43,14,'=14','<div class="nodetag">=14</div></span>&nbsp;&nbsp;Ελληνική','=14','Ελληνική','','','',false,true);
+d.add(44,14,'=15','<div class="nodetag">=15</div></span>&nbsp;&nbsp;Κέλτικες γλώσσες','=15','Κέλτικες γλώσσες','','','',false,true);
+d.add(45,44,'=152','<div class="nodetag">=152</div></span>&nbsp;&nbsp;Γκοϊντέλικ ομάδα','=152','Γκοϊντέλικ ομάδα','','','',false,true);
+d.add(46,45,'=152.1','<div class="nodetag">=152.1</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Irish</span>','=152.1','Irish','','','',false,true);
+d.add(47,45,'=152.2','<div class="nodetag">=152.2</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Scots Gaelic</span>','=152.2','Scots Gaelic','','','',false,true);
+d.add(48,44,'=153','<div class="nodetag">=153</div></span>&nbsp;&nbsp;Μπρυθονική ομάδα','=153','Μπρυθονική ομάδα','','','',false,true);
+d.add(49,14,'=16','<div class="nodetag">=16</div></span>&nbsp;&nbsp;Σλαβικές γλώσσες','=16','Σλαβικές γλώσσες','','','',false,true);
+d.add(50,49,'=161','<div class="nodetag">=161</div></span>&nbsp;&nbsp;Ανατολικο-σλαβικές γλώσσες','=161','Ανατολικο-σλαβικές γλώσσες','','','',false,true);
+d.add(51,50,'=161.1','<div class="nodetag">=161.1</div></span>&nbsp;&nbsp;Ρωσική','=161.1','Ρωσική','','','',false,true);
+d.add(52,50,'=161.2','<div class="nodetag">=161.2</div></span>&nbsp;&nbsp;Ουκρανική','=161.2','Ουκρανική','','','',false,true);
+d.add(53,50,'=161.3','<div class="nodetag">=161.3</div></span>&nbsp;&nbsp;Λευκορωσική','=161.3','Λευκορωσική','','','',false,true);
+d.add(54,49,'=162','<div class="nodetag">=162</div></span>&nbsp;&nbsp;Δυτικο-σλαβικές γλώσσες','=162','Δυτικο-σλαβικές γλώσσες','','','',false,true);
+d.add(55,54,'=162.1','<div class="nodetag">=162.1</div></span>&nbsp;&nbsp;Πολωνική','=162.1','Πολωνική','','','',false,true);
+d.add(56,54,'=162.3','<div class="nodetag">=162.3</div></span>&nbsp;&nbsp;Τσεχική','=162.3','Τσεχική','','','',false,true);
+d.add(57,54,'=162.4','<div class="nodetag">=162.4</div></span>&nbsp;&nbsp;Σλοβακική','=162.4','Σλοβακική','','','',false,true);
+d.add(58,49,'=163','<div class="nodetag">=163</div></span>&nbsp;&nbsp;Νοτιο-σλαβικές γλώσσες','=163','Νοτιο-σλαβικές γλώσσες','','','',false,true);
+d.add(59,58,'=163.2','<div class="nodetag">=163.2</div></span>&nbsp;&nbsp;Βουλγαρική','=163.2','Βουλγαρική','','','',false,true);
+d.add(60,58,'=163.3','<div class="nodetag">=163.3</div></span>&nbsp;&nbsp;Μακεδονική','=163.3','Μακεδονική','','','',false,true);
+d.add(61,58,'=163.4','<div class="nodetag">=163.4</div></span>&nbsp;&nbsp;Σερβική και Κροατική','=163.4','Σερβική και Κροατική','','','',false,true);
+d.add(62,61,'=163.41','<div class="nodetag">=163.41</div></span>&nbsp;&nbsp;Σερβική','=163.41','Σερβική','','','',false,true);
+d.add(63,61,'=163.42','<div class="nodetag">=163.42</div></span>&nbsp;&nbsp;Κροατική','=163.42','Κροατική','','','',false,true);
+d.add(64,58,'=163.6','<div class="nodetag">=163.6</div></span>&nbsp;&nbsp;Σλοβενική','=163.6','Σλοβενική','','','',false,true);
+d.add(65,14,'=17','<div class="nodetag">=17</div></span>&nbsp;&nbsp;Βαλτικές γλώσσες','=17','Βαλτικές γλώσσες','','','',false,true);
+d.add(66,65,'=172','<div class="nodetag">=172</div></span>&nbsp;&nbsp;Λιθουανική','=172','Λιθουανική','','','',false,true);
+d.add(67,65,'=174','<div class="nodetag">=174</div></span>&nbsp;&nbsp;Λεττική','=174','Λεττική','','','',false,true);
+d.add(68,14,'=18','<div class="nodetag">=18</div></span>&nbsp;&nbsp;Αλβανική','=18','Αλβανική','','','',false,true);
+d.add(69,14,'=19','<div class="nodetag">=19</div></span>&nbsp;&nbsp;Αρμενική','=19','Αρμενική','','','',false,true);
+d.add(70,13,'=2','<div class="nodetag">=2</div></span>&nbsp;&nbsp;Ινδο-Ιρανική, Νουριστάνι (Καφίρι) και νεκρές Ινδο-ευρωπαϊκές γλώσσες','=2','Ινδο-Ιρανική, Νουριστάνι (Καφίρι) και νεκρές Ινδο-ευρωπαϊκές γλώσσες','','','',false,true);
+d.add(71,70,'=21/=22','<div class="nodetag">=21/=22</div></span>&nbsp;&nbsp;Ινδο-Ιρανικές γλώσσες','=21/=22','Ινδο-Ιρανικές γλώσσες','','','',false,true);
+d.add(72,71,'=21','<div class="nodetag">=21</div></span>&nbsp;&nbsp;Ινδικές γλώσσες','=21','Ινδικές γλώσσες','','','',false,true);
+d.add(73,72,'=211','<div class="nodetag">=211</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Sanskrit</span>','=211','Sanskrit','','','',false,true);
+d.add(74,72,'=212','<div class="nodetag">=212</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Pali</span>','=212','Pali','','','',false,true);
+d.add(75,72,'=213','<div class="nodetag">=213</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Prakrit</span>','=213','Prakrit','','','',false,true);
+d.add(76,72,'=214','<div class="nodetag">=214</div></span>&nbsp;&nbsp;Μοντέρνες Ινδικές γλώσσες','=214','Μοντέρνες Ινδικές γλώσσες','','','',false,true);
+d.add(77,76,'=214.1','<div class="nodetag">=214.1</div></span>&nbsp;&nbsp;Δαρδική ομάδα','=214.1','Δαρδική ομάδα','','','',false,true);
+d.add(78,76,'=214.2','<div class="nodetag">=214.2</div></span>&nbsp;&nbsp;Κεντρική ομάδα','=214.2','Κεντρική ομάδα','','','',false,true);
+d.add(79,78,'=214.21','<div class="nodetag">=214.21</div></span>&nbsp;&nbsp;Χίντι','=214.21','Χίντι','','','',false,true);
+d.add(80,78,'=214.22','<div class="nodetag">=214.22</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Urdu</span>','=214.22','Urdu','','','',false,true);
+d.add(81,78,'=214.25','<div class="nodetag">=214.25</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Gujarati</span>','=214.25','Gujarati','','','',false,true);
+d.add(82,78,'=214.27','<div class="nodetag">=214.27</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Punjabi / Panjabi</span>','=214.27','Punjabi / Panjabi','','','',false,true);
+d.add(83,78,'=214.28','<div class="nodetag">=214.28</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Rajasthani</span>','=214.28','Rajasthani','','','',false,true);
+d.add(84,76,'=214.3','<div class="nodetag">=214.3</div></span>&nbsp;&nbsp;Ανατολική ομάδα','=214.3','Ανατολική ομάδα','','','',false,true);
+d.add(85,84,'=214.32','<div class="nodetag">=214.32</div></span>&nbsp;&nbsp;Μπενγκάλι (Μπάνγκλα)','=214.32','Μπενγκάλι (Μπάνγκλα)','','','',false,true);
+d.add(86,84,'=214.35','<div class="nodetag">=214.35</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Marathi</span>','=214.35','Marathi','','','',false,true);
+d.add(87,76,'=214.4','<div class="nodetag">=214.4</div></span>&nbsp;&nbsp;Βόρεια ομάδα','=214.4','Βόρεια ομάδα','','','',false,true);
+d.add(88,87,'=214.43','<div class="nodetag">=214.43</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Nepali</span>','=214.43','Nepali','','','',false,true);
+d.add(89,76,'=214.5','<div class="nodetag">=214.5</div></span>&nbsp;&nbsp;Βορειο-δυτική ομάδα','=214.5','Βορειο-δυτική ομάδα','','','',false,true);
+d.add(90,89,'=214.52','<div class="nodetag">=214.52</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Sindhi</span>','=214.52','Sindhi','','','',false,true);
+d.add(91,89,'=214.58','<div class="nodetag">=214.58</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Romany / Gipsy / Gypsy</span>','=214.58','Romany / Gipsy / Gypsy','','','',false,true);
+d.add(92,76,'=214.6','<div class="nodetag">=214.6</div></span>&nbsp;&nbsp;Σινγκαλές-Μαλβίδιαν ομάδα','=214.6','Σινγκαλές-Μαλβίδιαν ομάδα','','','',false,true);
+d.add(93,71,'=22','<div class="nodetag">=22</div></span>&nbsp;&nbsp;Ιρανικές γλώσσες','=22','Ιρανικές γλώσσες','','','',false,true);
+d.add(94,93,'=221','<div class="nodetag">=221</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Eastern Iranian languages</span>','=221','Eastern Iranian languages','','','',false,true);
+d.add(95,94,'=221.31','<div class="nodetag">=221.31</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Pashto (Pushto)</span>','=221.31','Pashto (Pushto)','','','',false,true);
+d.add(96,93,'=222/=223','<div class="nodetag">=222/=223</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Western Iranian languages</span>','=222/=223','Western Iranian languages','','','',false,true);
+d.add(97,96,'=222.1','<div class="nodetag">=222.1</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Persian</span>','=222.1','Persian','','','',false,true);
+d.add(98,96,'=222.5','<div class="nodetag">=222.5</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Kurdish</span>','=222.5','Kurdish','','','',false,true);
+d.add(99,70,'=29','<div class="nodetag">=29</div></span>&nbsp;&nbsp;Νεκρές Ινδο-Ευρωπαϊκες γλώσσες (μη καταγεγραμμένες αλλού)','=29','Νεκρές Ινδο-Ευρωπαϊκες γλώσσες (μη καταγεγραμμένες αλλού)','','','',false,true);
+d.add(100,12,'=3','<div class="nodetag">=3</div></span>&nbsp;&nbsp;Νεκρές γλώσσες άγνωστης σύνδεσης. Καυκασιανές γλώσσες','=3','Νεκρές γλώσσες άγνωστης σύνδεσης. Καυκασιανές γλώσσες','','','',false,true);
+d.add(101,100,'=34','<div class="nodetag">=34</div></span>&nbsp;&nbsp;Νεκρές γλώσσες άγνωστης σύνδεσης, ομιλούμενες στην Μεσόγειο και στην Μέση Ανατολή (εκτός από την Σημιτική)','=34','Νεκρές γλώσσες άγνωστης σύνδεσης, ομιλούμενες στην Μεσόγειο και στην Μέση Ανατολή (εκτός από την Σημιτική)','','','',false,true);
+d.add(102,100,'=35','<div class="nodetag">=35</div></span>&nbsp;&nbsp;Καυκασιανές γλώσσες','=35','Καυκασιανές γλώσσες','','','',false,true);
+d.add(103,102,'=351','<div class="nodetag">=351</div></span>&nbsp;&nbsp;Βορειο-ανατολική ομάδα','=351','Βορειο-ανατολική ομάδα','','','',false,true);
+d.add(104,102,'=352','<div class="nodetag">=352</div></span>&nbsp;&nbsp;Βορειο-δυτική ομάδα','=352','Βορειο-δυτική ομάδα','','','',false,true);
+d.add(105,102,'=353','<div class="nodetag">=353</div></span>&nbsp;&nbsp;Νότια (Καρτβέλιαν) ομάδα','=353','Νότια (Καρτβέλιαν) ομάδα','','','',false,true);
+d.add(106,105,'=353.1','<div class="nodetag">=353.1</div></span>&nbsp;&nbsp;Γεωργιανή','=353.1','Γεωργιανή','','','',false,true);
+d.add(107,100,'=361','<div class="nodetag">=361</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Basque / Euskera / Euskara</span>','=361','Basque / Euskera / Euskara','','','',false,true);
+d.add(108,12,'=4','<div class="nodetag">=4</div></span>&nbsp;&nbsp;Αφρο-Ασιατική, Νειλο-Σαχάραν, Κονγκο-Κορντοφάνιαν, Κχοίσαν γλώσσες','=4','Αφρο-Ασιατική, Νειλο-Σαχάραν, Κονγκο-Κορντοφάνιαν, Κχοίσαν γλώσσες','','','',false,true);
+d.add(109,108,'=41','<div class="nodetag">=41</div></span>&nbsp;&nbsp;Αφρο-Ασιατικές (Χαμιτο-Σημιτικές) γλώσσες','=41','Αφρο-Ασιατικές (Χαμιτο-Σημιτικές) γλώσσες','','','',false,true);
+d.add(110,109,'=411','<div class="nodetag">=411</div></span>&nbsp;&nbsp;Σημιτικές γλώσσες','=411','Σημιτικές γλώσσες','','','',false,true);
+d.add(111,110,'=411.1','<div class="nodetag">=411.1</div></span>&nbsp;&nbsp;Βορειες Σημιτικές γλώσσες','=411.1','Βορειες Σημιτικές γλώσσες','','','',false,true);
+d.add(112,111,'=411.16','<div class="nodetag">=411.16</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Hebrew</span>','=411.16','Hebrew','','','',false,true);
+d.add(113,110,'=411.2','<div class="nodetag">=411.2</div></span>&nbsp;&nbsp;Νοτιο-δυτικές Σημιτικές γλώσσες','=411.2','Νοτιο-δυτικές Σημιτικές γλώσσες','','','',false,true);
+d.add(114,113,'=411.21','<div class="nodetag">=411.21</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Arabic</span>','=411.21','Arabic','','','',false,true);
+d.add(115,110,'=411.3','<div class="nodetag">=411.3</div></span>&nbsp;&nbsp;Νοτιο-ανατολικές Σημιτικές γλώσσες','=411.3','Νοτιο-ανατολικές Σημιτικές γλώσσες','','','',false,true);
+d.add(116,110,'=411.4','<div class="nodetag">=411.4</div></span>&nbsp;&nbsp;Εθιοπικές-Σημιτικές γλώσσες','=411.4','Εθιοπικές-Σημιτικές γλώσσες','','','',false,true);
+d.add(117,109,'=412','<div class="nodetag">=412</div></span>&nbsp;&nbsp;Αιγυπτιακή-Κοπτική','=412','Αιγυπτιακή-Κοπτική','','','',false,true);
+d.add(118,109,'=413','<div class="nodetag">=413</div></span>&nbsp;&nbsp;Βερβερικές γλώσσες','=413','Βερβερικές γλώσσες','','','',false,true);
+d.add(119,109,'=414','<div class="nodetag">=414</div></span>&nbsp;&nbsp;Τσάντικ γλώσσες','=414','Τσάντικ γλώσσες','','','',false,true);
+d.add(120,119,'=414.231','<div class="nodetag">=414.231</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Hausa</span>','=414.231','Hausa','','','',false,true);
+d.add(121,109,'=415','<div class="nodetag">=415</div></span>&nbsp;&nbsp;Κουσιτικές γλώσσες','=415','Κουσιτικές γλώσσες','','','',false,true);
+d.add(122,109,'=416','<div class="nodetag">=416</div></span>&nbsp;&nbsp;Ομοτικές γλώσσες','=416','Ομοτικές γλώσσες','','','',false,true);
+d.add(123,108,'=42','<div class="nodetag">=42</div></span>&nbsp;&nbsp;Νειλο-Σαχαριανές γλώσσες','=42','Νειλο-Σαχαριανές γλώσσες','','','',false,true);
+d.add(124,123,'=422','<div class="nodetag">=422</div></span>&nbsp;&nbsp;Σαχάρας παρακλάδι','=422','Σαχάρας παρακλάδι','','','',false,true);
+d.add(125,123,'=425','<div class="nodetag">=425</div></span>&nbsp;&nbsp;Κόμαν λώσσες','=425','Κόμαν λώσσες','','','',false,true);
+d.add(126,123,'=426','<div class="nodetag">=426</div></span>&nbsp;&nbsp;Τσάρι-Νείλος παρακλάδι','=426','Τσάρι-Νείλος παρακλάδι','','','',false,true);
+d.add(127,108,'=43','<div class="nodetag">=43</div></span>&nbsp;&nbsp;Κονγκο-Κορντοφάνιαν (Νιγηριανές-Κορντοφάνιαν) γλώσσες','=43','Κονγκο-Κορντοφάνιαν (Νιγηριανές-Κορντοφάνιαν) γλώσσες','','','',false,true);
+d.add(128,127,'=431','<div class="nodetag">=431</div></span>&nbsp;&nbsp;Κορντοφάνιαν γλώσσες','=431','Κορντοφάνιαν γλώσσες','','','',false,true);
+d.add(129,127,'=432','<div class="nodetag">=432</div></span>&nbsp;&nbsp;Νιγηριανές-Κονγκολέζικες γλώσσες','=432','Νιγηριανές-Κονγκολέζικες γλώσσες','','','',false,true);
+d.add(130,108,'=45','<div class="nodetag">=45</div></span>&nbsp;&nbsp;Κόϊσαν γλώσσες','=45','Κόϊσαν γλώσσες','','','',false,true);
+d.add(131,12,'=5','<div class="nodetag">=5</div></span>&nbsp;&nbsp;Ουραλ-Αλταϊκή, Ιαπωνική, Κορεατική, Αινού, Παλαιο-Σιβηρική, Εσκιμο-Αλέτ, Δραβιδιάν γλώσσες, Σινο-Θιβετιανές γλώσσες','=5','Ουραλ-Αλταϊκή, Ιαπωνική, Κορεατική, Αινού, Παλαιο-Σιβηρική, Εσκιμο-Αλέτ, Δραβιδιάν γλώσσες, Σινο-Θιβετιανές γλώσσες','','','',false,true);
+d.add(132,131,'=51','<div class="nodetag">=51</div></span>&nbsp;&nbsp;Ουραλ-Αλταϊκές γλώσσες','=51','Ουραλ-Αλταϊκές γλώσσες','','','',false,true);
+d.add(133,132,'=511','<div class="nodetag">=511</div></span>&nbsp;&nbsp;Ουραλικές γλώσσες','=511','Ουραλικές γλώσσες','','','',false,true);
+d.add(134,133,'=511.1','<div class="nodetag">=511.1</div></span>&nbsp;&nbsp;Φινο-Ουγγρικές γλώσσες','=511.1','Φινο-Ουγγρικές γλώσσες','','','',false,true);
+d.add(135,134,'=511.11','<div class="nodetag">=511.11</div></span>&nbsp;&nbsp;Φινλανδικές γλώσσες','=511.11','Φινλανδικές γλώσσες','','','',false,true);
+d.add(136,135,'=511.111','<div class="nodetag">=511.111</div></span>&nbsp;&nbsp;Φινλανδική','=511.111','Φινλανδική','','','',false,true);
+d.add(137,135,'=511.113','<div class="nodetag">=511.113</div></span>&nbsp;&nbsp;Εσθονική','=511.113','Εσθονική','','','',false,true);
+d.add(138,134,'=511.12','<div class="nodetag">=511.12</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Sami / Saami / Lappic languages</span>','=511.12','Sami / Saami / Lappic languages','','','',false,true);
+d.add(139,134,'=511.14','<div class="nodetag">=511.14</div></span>&nbsp;&nbsp;Ουγγρικές γλώσσες','=511.14','Ουγγρικές γλώσσες','','','',false,true);
+d.add(140,139,'=511.141','<div class="nodetag">=511.141</div></span>&nbsp;&nbsp;Ουγγρική','=511.141','Ουγγρική','','','',false,true);
+d.add(141,133,'=511.2','<div class="nodetag">=511.2</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Samoyedic languages</span>','=511.2','Samoyedic languages','','','',false,true);
+d.add(142,132,'=512','<div class="nodetag">=512</div></span>&nbsp;&nbsp;Αλταϊκές γλώσσες','=512','Αλταϊκές γλώσσες','','','',false,true);
+d.add(143,142,'=512.1','<div class="nodetag">=512.1</div></span>&nbsp;&nbsp;Τουρκικές γλώσσες','=512.1','Τουρκικές γλώσσες','','','',false,true);
+d.add(144,143,'=512.12','<div class="nodetag">=512.12</div></span>&nbsp;&nbsp;Κεντρική ομάδα των Τουρκικών γλωσσών','=512.12','Κεντρική ομάδα των Τουρκικών γλωσσών','','','',false,true);
+d.add(145,144,'=512.122','<div class="nodetag">=512.122</div></span>&nbsp;&nbsp;Καζάκ','=512.122','Καζάκ','','','',false,true);
+d.add(146,143,'=512.13','<div class="nodetag">=512.13</div></span>&nbsp;&nbsp;Ανατολική (Καρλούκ) ομάδα των Τουρκικών γλωσσών','=512.13','Ανατολική (Καρλούκ) ομάδα των Τουρκικών γλωσσών','','','',false,true);
+d.add(147,146,'=512.133','<div class="nodetag">=512.133</div></span>&nbsp;&nbsp;Ουζμπεκική','=512.133','Ουζμπεκική','','','',false,true);
+d.add(148,143,'=512.14','<div class="nodetag">=512.14</div></span>&nbsp;&nbsp;Δυτική ομάδα των Τουρκικών γλωσσών','=512.14','Δυτική ομάδα των Τουρκικών γλωσσών','','','',false,true);
+d.add(149,143,'=512.15','<div class="nodetag">=512.15</div></span>&nbsp;&nbsp;Βόρεια ομάδα των Τουρκικών γλωσσών','=512.15','Βόρεια ομάδα των Τουρκικών γλωσσών','','','',false,true);
+d.add(150,149,'=512.154','<div class="nodetag">=512.154</div></span>&nbsp;&nbsp;Κιργκίζ','=512.154','Κιργκίζ','','','',false,true);
+d.add(151,143,'=512.16','<div class="nodetag">=512.16</div></span>&nbsp;&nbsp;Νότια ομάδα των Τουρκικών γλωσσών','=512.16','Νότια ομάδα των Τουρκικών γλωσσών','','','',false,true);
+d.add(152,151,'=512.161','<div class="nodetag">=512.161</div></span>&nbsp;&nbsp;Τουρκική (Οσμανλί)','=512.161','Τουρκική (Οσμανλί)','','','',false,true);
+d.add(153,151,'=512.162','<div class="nodetag">=512.162</div></span>&nbsp;&nbsp;Αζερμπατζάνι','=512.162','Αζερμπατζάνι','','','',false,true);
+d.add(154,151,'=512.164','<div class="nodetag">=512.164</div></span>&nbsp;&nbsp;Τουρκμέν','=512.164','Τουρκμέν','','','',false,true);
+d.add(155,142,'=512.2','<div class="nodetag">=512.2</div></span>&nbsp;&nbsp;Τούνγκους γλώσσες','=512.2','Τούνγκους γλώσσες','','','',false,true);
+d.add(156,142,'=512.3','<div class="nodetag">=512.3</div></span>&nbsp;&nbsp;Μογγολικές γλώσσες','=512.3','Μογγολικές γλώσσες','','','',false,true);
+d.add(157,131,'=521','<div class="nodetag">=521</div></span>&nbsp;&nbsp;Ιαπωνική','=521','Ιαπωνική','','','',false,true);
+d.add(158,131,'=531','<div class="nodetag">=531</div></span>&nbsp;&nbsp;Κορεατική','=531','Κορεατική','','','',false,true);
+d.add(159,131,'=541','<div class="nodetag">=541</div></span>&nbsp;&nbsp;Αινού','=541','Αινού','','','',false,true);
+d.add(160,131,'=55','<div class="nodetag">=55</div></span>&nbsp;&nbsp;Παλαιο-Σιβηρικές γλώσσες','=55','Παλαιο-Σιβηρικές γλώσσες','','','',false,true);
+d.add(161,131,'=56','<div class="nodetag">=56</div></span>&nbsp;&nbsp;Εσκιμο-Αλέτ γλώσσες','=56','Εσκιμο-Αλέτ γλώσσες','','','',false,true);
+d.add(162,131,'=58','<div class="nodetag">=58</div></span>&nbsp;&nbsp;Σινο-Θιβετιανές γλώσσες','=58','Σινο-Θιβετιανές γλώσσες','','','',false,true);
+d.add(163,162,'=581','<div class="nodetag">=581</div></span>&nbsp;&nbsp;Κινεζικές γλώσσες','=581','Κινεζικές γλώσσες','','','',false,true);
+d.add(164,162,'=582','<div class="nodetag">=582</div></span>&nbsp;&nbsp;Καμ-Τάϊ γλώσσες','=582','Καμ-Τάϊ γλώσσες','','','',false,true);
+d.add(165,162,'=583','<div class="nodetag">=583</div></span>&nbsp;&nbsp;Μιάο-Γιάο γλώσσες','=583','Μιάο-Γιάο γλώσσες','','','',false,true);
+d.add(166,162,'=584','<div class="nodetag">=584</div></span>&nbsp;&nbsp;Θιβετο-Βιρμανικές γλώσσες','=584','Θιβετο-Βιρμανικές γλώσσες','','','',false,true);
+d.add(167,12,'=6','<div class="nodetag">=6</div></span>&nbsp;&nbsp;Αυστρο-Ασιατικές γλώσσες. Αυστρονησιακές γλώσσες','=6','Αυστρο-Ασιατικές γλώσσες. Αυστρονησιακές γλώσσες','','','',false,true);
+d.add(168,167,'=61','<div class="nodetag">=61</div></span>&nbsp;&nbsp;Αυστρο-Ασιατικές γλώσσες','=61','Αυστρο-Ασιατικές γλώσσες','','','',false,true);
+d.add(169,168,'=611','<div class="nodetag">=611</div></span>&nbsp;&nbsp;Μαλακκά (Ασλιαν) ομάδα','=611','Μαλακκά (Ασλιαν) ομάδα','','','',false,true);
+d.add(170,168,'=612','<div class="nodetag">=612</div></span>&nbsp;&nbsp;Μον-Χμερ γλώσσες','=612','Μον-Χμερ γλώσσες','','','',false,true);
+d.add(171,170,'=612.4','<div class="nodetag">=612.4</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Cambodian / Khmer</span>','=612.4','Cambodian / Khmer','','','',false,true);
+d.add(172,170,'=612.91','<div class="nodetag">=612.91</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Vietnamese</span>','=612.91','Vietnamese','','','',false,true);
+d.add(173,168,'=613','<div class="nodetag">=613</div></span>&nbsp;&nbsp;Μούντα γλώσσες','=613','Μούντα γλώσσες','','','',false,true);
+d.add(174,168,'=614','<div class="nodetag">=614</div></span>&nbsp;&nbsp;Νικομπαρέζ ομάδα','=614','Νικομπαρέζ ομάδα','','','',false,true);
+d.add(175,167,'=62','<div class="nodetag">=62</div></span>&nbsp;&nbsp;Αυστρονησιακές γλώσσες','=62','Αυστρονησιακές γλώσσες','','','',false,true);
+d.add(176,175,'=621','<div class="nodetag">=621</div></span>&nbsp;&nbsp;Μαλαισιανο-Πολυνησιακές γλώσσες','=621','Μαλαισιανο-Πολυνησιακές γλώσσες','','','',false,true);
+d.add(177,176,'=621.251','<div class="nodetag">=621.251</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Malay / Bahasa Indonesia / Bahasa Malaysia</span>','=621.251','Malay / Bahasa Indonesia / Bahasa Malaysia','','','',false,true);
+d.add(178,175,'=622','<div class="nodetag">=622</div></span>&nbsp;&nbsp;Ωκεανικές γλώσσες','=622','Ωκεανικές γλώσσες','','','',false,true);
+d.add(179,12,'=7','<div class="nodetag">=7</div></span>&nbsp;&nbsp;Ινδο-Ειρηνικές (μη-Αυστρονησιακές) γλώσσες. Αυστραλιανές γλώσσες','=7','Ινδο-Ειρηνικές (μη-Αυστρονησιακές) γλώσσες. Αυστραλιανές γλώσσες','','','',false,true);
+d.add(180,179,'=71','<div class="nodetag">=71</div></span>&nbsp;&nbsp;Ινδο-Ειρηνικές (μη-Αυστρονησιακές) γλώσσες','=71','Ινδο-Ειρηνικές (μη-Αυστρονησιακές) γλώσσες','','','',false,true);
+d.add(181,180,'=713','<div class="nodetag">=713</div></span>&nbsp;&nbsp;Γλώσσες Νέας Γουϊνέας (Παπούαν)','=713','Γλώσσες Νέας Γουϊνέας (Παπούαν)','','','',false,true);
+d.add(182,180,'=714','<div class="nodetag">=714</div></span>&nbsp;&nbsp;Βορειο-Ανατολική Νέο-Γουϊνέζικη (Μαντάνγκ)','=714','Βορειο-Ανατολική Νέο-Γουϊνέζικη (Μαντάνγκ)','','','',false,true);
+d.add(183,180,'=715','<div class="nodetag">=715</div></span>&nbsp;&nbsp;Γλώσσες Δυτικές Νεο-Γουϊνεζικές','=715','Γλώσσες Δυτικές Νεο-Γουϊνεζικές','','','',false,true);
+d.add(184,180,'=716','<div class="nodetag">=716</div></span>&nbsp;&nbsp;Μπουγκαϊνβίλλεαν γλώσσες','=716','Μπουγκαϊνβίλλεαν γλώσσες','','','',false,true);
+d.add(185,180,'=718','<div class="nodetag">=718</div></span>&nbsp;&nbsp;Τασμανική','=718','Τασμανική','','','',false,true);
+d.add(186,180,'=719','<div class="nodetag">=719</div></span>&nbsp;&nbsp;Άλλες γλώσσες Ινδο-Ειρηνικού','=719','Άλλες γλώσσες Ινδο-Ειρηνικού','','','',false,true);
+d.add(187,179,'=72','<div class="nodetag">=72</div></span>&nbsp;&nbsp;Αυστραλιανές γλώσσες','=72','Αυστραλιανές γλώσσες','','','',false,true);
+d.add(188,187,'=721','<div class="nodetag">=721</div></span>&nbsp;&nbsp;Παμα-Μάρικ ομάδα','=721','Παμα-Μάρικ ομάδα','','','',false,true);
+d.add(189,187,'=722','<div class="nodetag">=722</div></span>&nbsp;&nbsp;Παμα-Νυούνγκαν ομάδα','=722','Παμα-Νυούνγκαν ομάδα','','','',false,true);
+d.add(190,187,'=729','<div class="nodetag">=729</div></span>&nbsp;&nbsp;Άλλες Αυστραλιανές γλώσσες','=729','Άλλες Αυστραλιανές γλώσσες','','','',false,true);
+d.add(191,12,'=8','<div class="nodetag">=8</div></span>&nbsp;&nbsp;Αμερικανικές γηγενείς γλώσσες','=8','Αμερικανικές γηγενείς γλώσσες','','','',false,true);
+d.add(192,191,'=81','<div class="nodetag">=81</div></span>&nbsp;&nbsp;Βορειο-Αμερικανικές γηγενείς (Βορειο-Αμερικανικές Ινδιάνικες) γλώσσες','=81','Βορειο-Αμερικανικές γηγενείς (Βορειο-Αμερικανικές Ινδιάνικες) γλώσσες','','','',false,true);
+d.add(193,191,'=82','<div class="nodetag">=82</div></span>&nbsp;&nbsp;Γηγενείς γλώσσες του Μεξικού και Γιουκατάν','=82','Γηγενείς γλώσσες του Μεξικού και Γιουκατάν','','','',false,true);
+d.add(194,193,'=821.24','<div class="nodetag">=821.24</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Mixe-Zoque languages</span>','=821.24','Mixe-Zoque languages','','','',false,true);
+d.add(195,193,'=822.21','<div class="nodetag">=822.21</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Nahuatl</span>','=822.21','Nahuatl','','','',false,true);
+d.add(196,193,'=823.7','<div class="nodetag">=823.7</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Zapotecan languages</span>','=823.7','Zapotecan languages','','','',false,true);
+d.add(197,191,'=84/=88','<div class="nodetag">=84/=88</div></span>&nbsp;&nbsp;Κεντρικής και Νότιας Αμερικής γηγενείς γλώσσες','=84/=88','Κεντρικής και Νότιας Αμερικής γηγενείς γλώσσες','','','',false,true);
+d.add(198,197,'=84','<div class="nodetag">=84</div></span>&nbsp;&nbsp;Γκε-Πάνο γλώσσες Καραϊβικής. Μακρο-Τσιμπτσαν γλώσσες','=84','Γκε-Πάνο γλώσσες Καραϊβικής. Μακρο-Τσιμπτσαν γλώσσες','','','',false,true);
+d.add(199,198,'=842','<div class="nodetag">=842</div></span>&nbsp;&nbsp;Γκε-Πάνο γλώσσες Καραϊβικής','=842','Γκε-Πάνο γλώσσες Καραϊβικής','','','',false,true);
+d.add(200,198,'=845','<div class="nodetag">=845</div></span>&nbsp;&nbsp;Μακρο-Σιμπτσαν γλώσσες','=845','Μακρο-Σιμπτσαν γλώσσες','','','',false,true);
+d.add(201,197,'=85','<div class="nodetag">=85</div></span>&nbsp;&nbsp;Ανδέων γλώσσες. Ισημερινού γλώσσες','=85','Ανδέων γλώσσες. Ισημερινού γλώσσες','','','',false,true);
+d.add(202,201,'=852','<div class="nodetag">=852</div></span>&nbsp;&nbsp;Ανδέων γλώσσες','=852','Ανδέων γλώσσες','','','',false,true);
+d.add(203,202,'=852.11','<div class="nodetag">=852.11</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Aymara</span>','=852.11','Aymara','','','',false,true);
+d.add(204,202,'=852.2','<div class="nodetag">=852.2</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Quechuan languages</span>','=852.2','Quechuan languages','','','',false,true);
+d.add(205,202,'=852.5','<div class="nodetag">=852.5</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Araucanian languages</span>','=852.5','Araucanian languages','','','',false,true);
+d.add(206,205,'=852.51','<div class="nodetag">=852.51</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Mapuche / Mapudungun</span>','=852.51','Mapuche / Mapudungun','','','',false,true);
+d.add(207,201,'=855','<div class="nodetag">=855</div></span>&nbsp;&nbsp;Ισημερινού γλώσσες','=855','Ισημερινού γλώσσες','','','',false,true);
+d.add(208,207,'=855.21','<div class="nodetag">=855.21</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Guarani languages</span>','=855.21','Guarani languages','','','',false,true);
+d.add(209,197,'=86','<div class="nodetag">=86</div></span>&nbsp;&nbsp;Τσάκο γλώσσες. Γλώσσες Παταγωνίας και Γης του Πυρός','=86','Τσάκο γλώσσες. Γλώσσες Παταγωνίας και Γης του Πυρός','','','',false,true);
+d.add(210,209,'=862','<div class="nodetag">=862</div></span>&nbsp;&nbsp;Τσάκο γλώσσες','=862','Τσάκο γλώσσες','','','',false,true);
+d.add(211,209,'=865','<div class="nodetag">=865</div></span>&nbsp;&nbsp;Γλώσσες Παταγωνίας και Γης του Πυρός','=865','Γλώσσες Παταγωνίας και Γης του Πυρός','','','',false,true);
+d.add(212,197,'=88','<div class="nodetag">=88</div></span>&nbsp;&nbsp;Απομονωμένες, αταξινόμητες γηγενείς γλώσσες της Κεντρικής και Νότιας Αμερικής','=88','Απομονωμένες, αταξινόμητες γηγενείς γλώσσες της Κεντρικής και Νότιας Αμερικής','','','',false,true);
+d.add(213,11,'=9','<div class="nodetag">=9</div></span>&nbsp;&nbsp;Τεχνητές γλώσσες','=9','Τεχνητές γλώσσες','','','',false,true);
+d.add(214,213,'=92','<div class="nodetag">=92</div></span>&nbsp;&nbsp;Τεχνητές γλώσσες για χρήση μεταξύ ανθρώπων. Διεθνείς βοηθητικές γλώσσες ( δια-γλώσσες)','=92','Τεχνητές γλώσσες για χρήση μεταξύ ανθρώπων. Διεθνείς βοηθητικές γλώσσες ( δια-γλώσσες)','','','',false,true);
+d.add(215,214,'=922','<div class="nodetag">=922</div></span>&nbsp;&nbsp;Εσπεράντο(σχεδιασμένη από τον Zamenhof)','=922','Εσπεράντο(σχεδιασμένη από τον Zamenhof)','','','',false,true);
+d.add(216,213,'=93','<div class="nodetag">=93</div></span>&nbsp;&nbsp;Τεχνητές γλώσσες σχεδιασμένες για να καθοδηγούν μηχανές. Γλώσσες προγραμματισμού. Γλώσσες υπολογιστών','=93','Τεχνητές γλώσσες σχεδιασμένες για να καθοδηγούν μηχανές. Γλώσσες προγραμματισμού. Γλώσσες υπολογιστών','','','',false,true);
+d.add(217,0,'(0...)','<div class="nodetag">(0...)</div></span>&nbsp;&nbsp;Κοινός βοηθητικός πίνακας φόρμας. Πίνακας 1d','(0...)','Κοινός βοηθητικός πίνακας φόρμας. Πίνακας 1d','','','',false,true);
+d.add(218,217,'(0.02/.08)','<div class="nodetag">(0.02/.08)</div></span>&nbsp;&nbsp;Ειδικά βοηθητικά νούμερα φυσικών χαρακτηριστικών, παραγωγής, χρήσης χαρακτηριστικών και συμπληρωματικής στοιχειοθεσίας εγγράφων','(0.02/.08)','Ειδικά βοηθητικά νούμερα φυσικών χαρακτηριστικών, παραγωγής, χρήσης χαρακτηριστικών και συμπληρωματικής στοιχειοθεσίας εγγράφων','','','',false,true);
+d.add(219,218,'(0.02)','<div class="nodetag">(0.02)</div></span>&nbsp;&nbsp;Έγγραφα σύμφωνα με την φυσική, εξωτερική φόρμα','(0.02)','Έγγραφα σύμφωνα με την φυσική, εξωτερική φόρμα','','','',false,true);
+d.add(220,218,'(0.03)','<div class="nodetag">(0.03)</div></span>&nbsp;&nbsp;Έγγραφα σύμφωνα με την μέθοδο παραγωγής','(0.03)','Έγγραφα σύμφωνα με την μέθοδο παραγωγής','','','',false,true);
+d.add(221,220,'(0.032)','<div class="nodetag">(0.032)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Handwritten documents (autograph, holograph copies). Manuscripts. Pictorial documents (drawings, paintings)</span>','(0.032)','Handwritten documents (autograph, holograph copies). Manuscripts. Pictorial documents (drawings, paintings)','','','',false,true);
+d.add(222,220,'(0.034)','<div class="nodetag">(0.034)</div></span>&nbsp;&nbsp;Έγγραφα αναγνώσιμα μέσω μηχανής','(0.034)','Έγγραφα αναγνώσιμα μέσω μηχανής','','','',false,true);
+d.add(223,218,'(0.04)','<div class="nodetag">(0.04)</div></span>&nbsp;&nbsp;Έγγραφα σύμφωνα με το στάδιο παραγωγής','(0.04)','Έγγραφα σύμφωνα με το στάδιο παραγωγής','','','',false,true);
+d.add(224,218,'(0.05)','<div class="nodetag">(0.05)</div></span>&nbsp;&nbsp;Έγγραφα για συγκεκριμένα είδη χρηστών','(0.05)','Έγγραφα για συγκεκριμένα είδη χρηστών','','','',false,true);
+d.add(225,218,'(0.06)','<div class="nodetag">(0.06)</div></span>&nbsp;&nbsp;Έγγραφα σύμφωνα με το επίπεδο παρουσίασης, και διαθεσιμότητας','(0.06)','Έγγραφα σύμφωνα με το επίπεδο παρουσίασης, και διαθεσιμότητας','','','',false,true);
+d.add(226,218,'(0.07)','<div class="nodetag">(0.07)</div></span>&nbsp;&nbsp;Πρόσθετο υλικό συνημμένο στο έγγραφο','(0.07)','Πρόσθετο υλικό συνημμένο στο έγγραφο','','','',false,true);
+d.add(227,218,'(0.08)','<div class="nodetag">(0.08)</div></span>&nbsp;&nbsp;Χωριστά εκδιδόμενα συμπληρώματα ή μέρη εγγράφων','(0.08)','Χωριστά εκδιδόμενα συμπληρώματα ή μέρη εγγράφων','','','',false,true);
+d.add(228,217,'(01)','<div class="nodetag">(01)</div></span>&nbsp;&nbsp;Βιβλιογραφίες','(01)','Βιβλιογραφίες','','','',false,true);
+d.add(229,217,'(02)','<div class="nodetag">(02)</div></span>&nbsp;&nbsp;Βιβλία γενικά','(02)','Βιβλία γενικά','','','',false,true);
+d.add(230,217,'(03)','<div class="nodetag">(03)</div></span>&nbsp;&nbsp;Εργασίες αναφοράς','(03)','Εργασίες αναφοράς','','','',false,true);
+d.add(231,230,'(031)','<div class="nodetag">(031)</div></span>&nbsp;&nbsp;Εγκυκλοπαίδιες','(031)','Εγκυκλοπαίδιες','','','',false,true);
+d.add(232,230,'(035)','<div class="nodetag">(035)</div></span>&nbsp;&nbsp;Εγχειρίδια. Οδηγοί','(035)','Εγχειρίδια. Οδηγοί','','','',false,true);
+d.add(233,230,'(036)','<div class="nodetag">(036)</div></span>&nbsp;&nbsp;Οδηγοί (με πρακτικές και περιγραφικές πληροφορίες)','(036)','Οδηγοί (με πρακτικές και περιγραφικές πληροφορίες)','','','',false,true);
+d.add(234,230,'(038)','<div class="nodetag">(038)</div></span>&nbsp;&nbsp;Λεξικά','(038)','Λεξικά','','','',false,true);
+d.add(235,217,'(04)','<div class="nodetag">(04)</div></span>&nbsp;&nbsp;Έγγραφα εκτός σειράς . Separata','(04)','Έγγραφα εκτός σειράς . Separata','','','',false,true);
+d.add(236,235,'(041)','<div class="nodetag">(041)</div></span>&nbsp;&nbsp;Φυλλάδια. Μπροσούρες','(041)','Φυλλάδια. Μπροσούρες','','','',false,true);
+d.add(237,235,'(042)','<div class="nodetag">(042)</div></span>&nbsp;&nbsp;Προσφωνήσεις. Διαλέξεις. Λόγοι','(042)','Προσφωνήσεις. Διαλέξεις. Λόγοι','','','',false,true);
+d.add(238,235,'(043)','<div class="nodetag">(043)</div></span>&nbsp;&nbsp;Διατριβές. Πραγματείες','(043)','Διατριβές. Πραγματείες','','','',false,true);
+d.add(239,235,'(044)','<div class="nodetag">(044)</div></span>&nbsp;&nbsp;Προσωπικά έγγραφα. Αλληλογραφία. Γράμματα. Εγκύκλιοι','(044)','Προσωπικά έγγραφα. Αλληλογραφία. Γράμματα. Εγκύκλιοι','','','',false,true);
+d.add(240,235,'(045)','<div class="nodetag">(045)</div></span>&nbsp;&nbsp;Άρθρα σε περιοδικά, συλλογές κλπ. Συνεισφορές','(045)','Άρθρα σε περιοδικά, συλλογές κλπ. Συνεισφορές','','','',false,true);
+d.add(241,235,'(046)','<div class="nodetag">(046)</div></span>&nbsp;&nbsp;Άρθρα εφημερίδων','(046)','Άρθρα εφημερίδων','','','',false,true);
+d.add(242,235,'(047)','<div class="nodetag">(047)</div></span>&nbsp;&nbsp;Αναφορές. Ανακοινώσεις. Ανακοινωθέντα','(047)','Αναφορές. Ανακοινώσεις. Ανακοινωθέντα','','','',false,true);
+d.add(243,235,'(048)','<div class="nodetag">(048)</div></span>&nbsp;&nbsp;Βιβλιογραφικές περιγραφές. Συνόψεις. Περιλήψεις. Έρευνες','(048)','Βιβλιογραφικές περιγραφές. Συνόψεις. Περιλήψεις. Έρευνες','','','',false,true);
+d.add(244,235,'(049)','<div class="nodetag">(049)</div></span>&nbsp;&nbsp;Άλλες μη-σειριακά έγγραφα','(049)','Άλλες μη-σειριακά έγγραφα','','','',false,true);
+d.add(245,217,'(05)','<div class="nodetag">(05)</div></span>&nbsp;&nbsp;Επιφυλλίδες. Περιοδικά','(05)','Επιφυλλίδες. Περιοδικά','','','',false,true);
+d.add(246,245,'(051)','<div class="nodetag">(051)</div></span>&nbsp;&nbsp;Περιοδικά (με την στενή έννοια)','(051)','Περιοδικά (με την στενή έννοια)','','','',false,true);
+d.add(247,245,'(054)','<div class="nodetag">(054)</div></span>&nbsp;&nbsp;Εφημερίδες','(054)','Εφημερίδες','','','',false,true);
+d.add(248,245,'(055)','<div class="nodetag">(055)</div></span>&nbsp;&nbsp;Ειδησεογραφικά ανακοινωθέντα. Ειδησεογραφικά γράμματα. Πληροφοριακά φυλλαδια','(055)','Ειδησεογραφικά ανακοινωθέντα. Ειδησεογραφικά γράμματα. Πληροφοριακά φυλλαδια','','','',false,true);
+d.add(249,245,'(058)','<div class="nodetag">(058)</div></span>&nbsp;&nbsp;Επετηρίδα. Κατάλογος διευθύνσεων','(058)','Επετηρίδα. Κατάλογος διευθύνσεων','','','',false,true);
+d.add(250,245,'(059)','<div class="nodetag">(059)</div></span>&nbsp;&nbsp;Καζαμίας. Ημερολόγια (κάθε τύπου)','(059)','Καζαμίας. Ημερολόγια (κάθε τύπου)','','','',false,true);
+d.add(251,217,'(06)','<div class="nodetag">(06)</div></span>&nbsp;&nbsp;Έγγραφα σχετικά με συλλόγους, σωματεία, οργανώσεις','(06)','Έγγραφα σχετικά με συλλόγους, σωματεία, οργανώσεις','','','',false,true);
+d.add(252,217,'(07)','<div class="nodetag">(07)</div></span>&nbsp;&nbsp;Έγγραφα για εκπαίδευση, διδασκαλία, σπουδή, εξάσκηση','(07)','Έγγραφα για εκπαίδευση, διδασκαλία, σπουδή, εξάσκηση','','','',false,true);
+d.add(253,252,'(072)','<div class="nodetag">(072)</div></span>&nbsp;&nbsp;Τεκμηριωμένα υλικά για διδασκαλία. Διδακτικό υλικό','(072)','Τεκμηριωμένα υλικά για διδασκαλία. Διδακτικό υλικό','','','',false,true);
+d.add(254,252,'(073)','<div class="nodetag">(073)</div></span>&nbsp;&nbsp;Περιεχόμενο σπουδών. Σημειώσεις','(073)','Περιεχόμενο σπουδών. Σημειώσεις','','','',false,true);
+d.add(255,252,'(075)','<div class="nodetag">(075)</div></span>&nbsp;&nbsp;Εκπαιδευτικά κείμενα. Σχολικά βιβλία. Κείμενα για σπουδαστές','(075)','Εκπαιδευτικά κείμενα. Σχολικά βιβλία. Κείμενα για σπουδαστές','','','',false,true);
+d.add(256,252,'(076)','<div class="nodetag">(076)</div></span>&nbsp;&nbsp;Έγγραφα για πρακτικές οδηγίες, εκπαίδευση','(076)','Έγγραφα για πρακτικές οδηγίες, εκπαίδευση','','','',false,true);
+d.add(257,252,'(078)','<div class="nodetag">(078)</div></span>&nbsp;&nbsp;Εκπαιδευτικά έγγραφα και υλικό μη ταξινομημένα αλλού','(078)','Εκπαιδευτικά έγγραφα και υλικό μη ταξινομημένα αλλού','','','',false,true);
+d.add(258,252,'(079)','<div class="nodetag">(079)</div></span>&nbsp;&nbsp;Έγγραφα συνδεόμενα με διαγωνισμούς, δοκιμές, εξετάσεις κλπ.','(079)','Έγγραφα συνδεόμενα με διαγωνισμούς, δοκιμές, εξετάσεις κλπ.','','','',false,true);
+d.add(259,217,'(08)','<div class="nodetag">(08)</div></span>&nbsp;&nbsp;Συλλογές και εργασίες πολυγραφικές. Έντυπα. Καταστάσεις. Εικονογραφήσεις. Επαγγελματικές εκδόσεις','(08)','Συλλογές και εργασίες πολυγραφικές. Έντυπα. Καταστάσεις. Εικονογραφήσεις. Επαγγελματικές εκδόσεις','','','',false,true);
+d.add(260,259,'(081)','<div class="nodetag">(081)</div></span>&nbsp;&nbsp;Μεμονωμένες πολυγραφίες. Συγκεντρωμένες εργασίες μεμονωμένων συγγραφέων','(081)','Μεμονωμένες πολυγραφίες. Συγκεντρωμένες εργασίες μεμονωμένων συγγραφέων','','','',false,true);
+d.add(261,259,'(082)','<div class="nodetag">(082)</div></span>&nbsp;&nbsp;Συλλογικές πολυγραφίες. Συλλογές έργων από πολλούς συγγραφείς','(082)','Συλλογικές πολυγραφίες. Συλλογές έργων από πολλούς συγγραφείς','','','',false,true);
+d.add(262,259,'(083)','<div class="nodetag">(083)</div></span>&nbsp;&nbsp;Τεχνικά και δεοντολογικά έγγραφα. Πίνακες. Λιστες κλπ.','(083)','Τεχνικά και δεοντολογικά έγγραφα. Πίνακες. Λιστες κλπ.','','','',false,true);
+d.add(263,259,'(084)','<div class="nodetag">(084)</div></span>&nbsp;&nbsp;Εικόνες. Εικονογραφημένα έγγραφα. Γραφικά έγγραφα','(084)','Εικόνες. Εικονογραφημένα έγγραφα. Γραφικά έγγραφα','','','',false,true);
+d.add(264,259,'(085)','<div class="nodetag">(085)</div></span>&nbsp;&nbsp;Εκδόσεις επιχειρήσεων (βιομηχανικές, εμπορικές). Εμπρική διαφήμηση, πληροφορία, διφημιστικό υλικό','(085)','Εκδόσεις επιχειρήσεων (βιομηχανικές, εμπορικές). Εμπρική διαφήμηση, πληροφορία, διφημιστικό υλικό','','','',false,true);
+d.add(265,259,'(086)','<div class="nodetag">(086)</div></span>&nbsp;&nbsp;Τρισδιάστατα (συμπαγή) έγγραφα. Ακουστικά και οπτικοακουστικά έγγραφα','(086)','Τρισδιάστατα (συμπαγή) έγγραφα. Ακουστικά και οπτικοακουστικά έγγραφα','','','',false,true);
+d.add(266,265,'(086.3)','<div class="nodetag">(086.3)</div></span>&nbsp;&nbsp;Δείγματα, αντικείμενα και έγγραφα','(086.3)','Δείγματα, αντικείμενα και έγγραφα','','','',false,true);
+d.add(267,265,'(086.7)','<div class="nodetag">(086.7)</div></span>&nbsp;&nbsp;Ακουστικά έγγραφα. Ηχογραφήσεις','(086.7)','Ακουστικά έγγραφα. Ηχογραφήσεις','','','',false,true);
+d.add(268,265,'(086.8)','<div class="nodetag">(086.8)</div></span>&nbsp;&nbsp;Αποτυπώσεις εικόνας','(086.8)','Αποτυπώσεις εικόνας','','','',false,true);
+d.add(269,259,'(088)','<div class="nodetag">(088)</div></span>&nbsp;&nbsp;Μαρτυρίες. Έγγραφα ειδικού σκοπού','(088)','Μαρτυρίες. Έγγραφα ειδικού σκοπού','','','',false,true);
+d.add(270,217,'(09)','<div class="nodetag">(09)</div></span>&nbsp;&nbsp;Παρουσίαση σε ιστορική φόρμα. Νομικές και ιστορικές πηγές','(09)','Παρουσίαση σε ιστορική φόρμα. Νομικές και ιστορικές πηγές','','','',false,true);
+d.add(271,270,'(091)','<div class="nodetag">(091)</div></span>&nbsp;&nbsp;Παρουσίαση σε χρονολογική, ιστορική φόρμα. Ιστορική παρουσίαση με στενή έννοια','(091)','Παρουσίαση σε χρονολογική, ιστορική φόρμα. Ιστορική παρουσίαση με στενή έννοια','','','',false,true);
+d.add(272,270,'(092)','<div class="nodetag">(092)</div></span>&nbsp;&nbsp;Βιογραφική παρουσίαση','(092)','Βιογραφική παρουσίαση','','','',false,true);
+d.add(273,270,'(093)','<div class="nodetag">(093)</div></span>&nbsp;&nbsp;Ιστορικές πηγές','(093)','Ιστορικές πηγές','','','',false,true);
+d.add(274,270,'(094)','<div class="nodetag">(094)</div></span>&nbsp;&nbsp;Νομικές πηγές. Νομικά έγγραφα','(094)','Νομικές πηγές. Νομικά έγγραφα','','','',false,true);
+d.add(275,0,'(1/9)','<div class="nodetag">(1/9)</div></span>&nbsp;&nbsp;Κοινά βοηθητικά νούμερα τόπου. Πίνακας 1e','(1/9)','Κοινά βοηθητικά νούμερα τόπου. Πίνακας 1e','','','',false,true);
+d.add(276,275,'(1)','<div class="nodetag">(1)</div></span>&nbsp;&nbsp;Τόπος και χώρος γενικά. Τοποθέτηση. Προσανατολισμός','(1)','Τόπος και χώρος γενικά. Τοποθέτηση. Προσανατολισμός','','','',false,true);
+d.add(277,276,'(100)','<div class="nodetag">(100)</div></span>&nbsp;&nbsp;Παγκόσμιο ως προς τον τόπο. Διεθνές. Όλες οι χώρες γενικά','(100)','Παγκόσμιο ως προς τον τόπο. Διεθνές. Όλες οι χώρες γενικά','','','',false,true);
+d.add(278,275,'(1-0/-9)','<div class="nodetag">(1-0/-9)</div></span>&nbsp;&nbsp;Ειδική βοηθητική υπο-ομάδα για όρια και διαφόρων ειδών σχήματα στο χώρο','(1-0/-9)','Ειδική βοηθητική υπο-ομάδα για όρια και διαφόρων ειδών σχήματα στο χώρο','','','',false,true);
+d.add(279,278,'(1-0)','<div class="nodetag">(1-0)</div></span>&nbsp;&nbsp;Ζώνες','(1-0)','Ζώνες','','','',false,true);
+d.add(280,278,'(1-1)','<div class="nodetag">(1-1)</div></span>&nbsp;&nbsp;Προσανατολισμός. Σημεία της πυξίδας. Σχετική θέση','(1-1)','Προσανατολισμός. Σημεία της πυξίδας. Σχετική θέση','','','',false,true);
+d.add(281,280,'(1-11)','<div class="nodetag">(1-11)</div></span>&nbsp;&nbsp;Ανατολή. Ανατολικός','(1-11)','Ανατολή. Ανατολικός','','','',false,true);
+d.add(282,280,'(1-12)','<div class="nodetag">(1-12)</div></span>&nbsp;&nbsp;Νοτιο-ανατολικόν. Νοτιο-ανατολικός','(1-12)','Νοτιο-ανατολικόν. Νοτιο-ανατολικός','','','',false,true);
+d.add(283,280,'(1-13)','<div class="nodetag">(1-13)</div></span>&nbsp;&nbsp;Νότος. Νότιος','(1-13)','Νότος. Νότιος','','','',false,true);
+d.add(284,280,'(1-14)','<div class="nodetag">(1-14)</div></span>&nbsp;&nbsp;Νοτιο-δυτικόν. Νοτιο-δυτικός','(1-14)','Νοτιο-δυτικόν. Νοτιο-δυτικός','','','',false,true);
+d.add(285,280,'(1-15)','<div class="nodetag">(1-15)</div></span>&nbsp;&nbsp;Δύση. Δυτικός','(1-15)','Δύση. Δυτικός','','','',false,true);
+d.add(286,280,'(1-16)','<div class="nodetag">(1-16)</div></span>&nbsp;&nbsp;Βορειο-δυτικόν. Βορειο-δυτικός','(1-16)','Βορειο-δυτικόν. Βορειο-δυτικός','','','',false,true);
+d.add(287,280,'(1-17)','<div class="nodetag">(1-17)</div></span>&nbsp;&nbsp;Βορράς. Βόρειος','(1-17)','Βορράς. Βόρειος','','','',false,true);
+d.add(288,280,'(1-18)','<div class="nodetag">(1-18)</div></span>&nbsp;&nbsp;Βορειο-ανατολικόν. Βορειο-ανατολικός','(1-18)','Βορειο-ανατολικόν. Βορειο-ανατολικός','','','',false,true);
+d.add(289,280,'(1-19)','<div class="nodetag">(1-19)</div></span>&nbsp;&nbsp;Σχετική θέση, κατεύθυνση και προσανατολισμός','(1-19)','Σχετική θέση, κατεύθυνση και προσανατολισμός','','','',false,true);
+d.add(290,278,'(1-2/-4)','<div class="nodetag">(1-2/-4)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Political units. Administrative units</span>','(1-2/-4)','Political units. Administrative units','','','',false,true);
+d.add(291,290,'(1-2)','<div class="nodetag">(1-2)</div></span>&nbsp;&nbsp;Κατώτερες διοικητικές μονάδες. Τοποθεσίες','(1-2)','Κατώτερες διοικητικές μονάδες. Τοποθεσίες','','','',false,true);
+d.add(292,291,'(1-24)','<div class="nodetag">(1-24)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Joint local administrative units</span>','(1-24)','Joint local administrative units','','','',false,true);
+d.add(293,291,'(1-25)','<div class="nodetag">(1-25)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Capital cities. Metropolises</span>','(1-25)','Capital cities. Metropolises','','','',false,true);
+d.add(294,290,'(1-3)','<div class="nodetag">(1-3)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Larger units within the state</span>','(1-3)','Larger units within the state','','','',false,true);
+d.add(295,294,'(1-32)','<div class="nodetag">(1-32)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Higher-level administrative units. Provinces</span>','(1-32)','Higher-level administrative units. Provinces','','','',false,true);
+d.add(296,294,'(1-35)','<div class="nodetag">(1-35)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Middle-level administrative units</span>','(1-35)','Middle-level administrative units','','','',false,true);
+d.add(297,294,'(1-37)','<div class="nodetag">(1-37)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Lower-level administrative units</span>','(1-37)','Lower-level administrative units','','','',false,true);
+d.add(298,290,'(1-4)','<div class="nodetag">(1-4)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Units of highest (state) level. Nations. States. Confederations</span>','(1-4)','Units of highest (state) level. Nations. States. Confederations','','','',false,true);
+d.add(299,298,'(1-43)','<div class="nodetag">(1-43)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Constituent states within a confederation. Federal states. Autonomous republics</span>','(1-43)','Constituent states within a confederation. Federal states. Autonomous republics','','','',false,true);
+d.add(300,298,'(1-44)','<div class="nodetag">(1-44)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Empires. Combination of mother-country, dominions and colonies</span>','(1-44)','Empires. Combination of mother-country, dominions and colonies','','','',false,true);
+d.add(301,278,'(1-5)','<div class="nodetag">(1-5)</div></span>&nbsp;&nbsp;Εξαρτώμενες ή ημι-εξαρτώμενες περιοχές','(1-5)','Εξαρτώμενες ή ημι-εξαρτώμενες περιοχές','','','',false,true);
+d.add(302,278,'(1-6)','<div class="nodetag">(1-6)</div></span>&nbsp;&nbsp;Κράτη ή ομάδες κρατών από διάφορες απόψεις','(1-6)','Κράτη ή ομάδες κρατών από διάφορες απόψεις','','','',false,true);
+d.add(303,278,'(1-7)','<div class="nodetag">(1-7)</div></span>&nbsp;&nbsp;Μέρη και περιοχές σύμφωνα με την ιδιωτικότητα, την δημοσιότητα και άλλα ειδικά χαρακτηριστικά','(1-7)','Μέρη και περιοχές σύμφωνα με την ιδιωτικότητα, την δημοσιότητα και άλλα ειδικά χαρακτηριστικά','','','',false,true);
+d.add(304,278,'(1-8)','<div class="nodetag">(1-8)</div></span>&nbsp;&nbsp;Θέση. Πηγή. Διάβαση. Προορισμός','(1-8)','Θέση. Πηγή. Διάβαση. Προορισμός','','','',false,true);
+d.add(305,278,'(1-9)','<div class="nodetag">(1-9)</div></span>&nbsp;&nbsp;Διαίρεση της γής σε περιοχές σύμφωνα με εξειδικευμένες απόψεις','(1-9)','Διαίρεση της γής σε περιοχές σύμφωνα με εξειδικευμένες απόψεις','','','',false,true);
+d.add(306,275,'(2)','<div class="nodetag">(2)</div></span>&nbsp;&nbsp;Φυσιογραφικός προσδιορισμός','(2)','Φυσιογραφικός προσδιορισμός','','','',false,true);
+d.add(307,306,'(20)','<div class="nodetag">(20)</div></span>&nbsp;&nbsp;Οικοσφαίρα','(20)','Οικοσφαίρα','','','',false,true);
+d.add(308,306,'(21)','<div class="nodetag">(21)</div></span>&nbsp;&nbsp;Η επιφάνεια της γής γενικά. Περιοχές χωρών συγκεκριμένα. Φυσικές ζώνες και περιοχές','(21)','Η επιφάνεια της γής γενικά. Περιοχές χωρών συγκεκριμένα. Φυσικές ζώνες και περιοχές','','','',false,true);
+d.add(309,306,'(23)','<div class="nodetag">(23)</div></span>&nbsp;&nbsp;Πάνω από το επίπεδο της θάλασσας. Ανάγλυφο επιφανείας. Πάνω από το έδαφος γενικά. Βουνά','(23)','Πάνω από το επίπεδο της θάλασσας. Ανάγλυφο επιφανείας. Πάνω από το έδαφος γενικά. Βουνά','','','',false,true);
+d.add(310,306,'(24)','<div class="nodetag">(24)</div></span>&nbsp;&nbsp;Κάτω από το επίπεδο της θάλασσας. Υπόγειος.','(24)','Κάτω από το επίπεδο της θάλασσας. Υπόγειος.','','','',false,true);
+d.add(311,306,'(25)','<div class="nodetag">(25)</div></span>&nbsp;&nbsp;Φυσικό επίπεδο έδαφος (στο, πάνω ή κάτψ από το επίπεδο της θάλασσας). Το έδαφος στην φυσική του κατάσταση, καλιεργημένο ή κατοικημένο','(25)','Φυσικό επίπεδο έδαφος (στο, πάνω ή κάτψ από το επίπεδο της θάλασσας). Το έδαφος στην φυσική του κατάσταση, καλιεργημένο ή κατοικημένο','','','',false,true);
+d.add(312,306,'(26)','<div class="nodetag">(26)</div></span>&nbsp;&nbsp;Ωκεανοί, θάλασσες και διασυνδέσεις','(26)','Ωκεανοί, θάλασσες και διασυνδέσεις','','','',false,true);
+d.add(313,306,'(28)','<div class="nodetag">(28)</div></span>&nbsp;&nbsp;Μεσογειακά νερά','(28)','Μεσογειακά νερά','','','',false,true);
+d.add(314,275,'(3/9)','<div class="nodetag">(3/9)</div></span>&nbsp;&nbsp;Μεμονωμένοι τόποι τού αρχαίου και τού μοντέρνου κόσμου','(3/9)','Μεμονωμένοι τόποι τού αρχαίου και τού μοντέρνου κόσμου','','','',false,true);
+d.add(315,314,'(3)','<div class="nodetag">(3)</div></span>&nbsp;&nbsp;Τόποι του αρχαίου και του μεσαιωνικού κόσμου','(3)','Τόποι του αρχαίου και του μεσαιωνικού κόσμου','','','',false,true);
+d.add(316,315,'(31)','<div class="nodetag">(31)</div></span>&nbsp;&nbsp;Αρχαία Κίνα και Ιαπωνία','(31)','Αρχαία Κίνα και Ιαπωνία','','','',false,true);
+d.add(317,315,'(32)','<div class="nodetag">(32)</div></span>&nbsp;&nbsp;Aegyptus. Αρχαία Αίγυπτος','(32)','Aegyptus. Αρχαία Αίγυπτος','','','',false,true);
+d.add(318,315,'(33)','<div class="nodetag">(33)</div></span>&nbsp;&nbsp;Ιουδαία. Ο Ιερός Τόπος. Περιοχή των Ισραηλιτών','(33)','Ιουδαία. Ο Ιερός Τόπος. Περιοχή των Ισραηλιτών','','','',false,true);
+d.add(319,315,'(34)','<div class="nodetag">(34)</div></span>&nbsp;&nbsp;Αρχαία Ινδία','(34)','Αρχαία Ινδία','','','',false,true);
+d.add(320,315,'(35)','<div class="nodetag">(35)</div></span>&nbsp;&nbsp;Μεσο-Περσία','(35)','Μεσο-Περσία','','','',false,true);
+d.add(321,315,'(36)','<div class="nodetag">(36)</div></span>&nbsp;&nbsp;Περιοχές των αποκαλούμενων βαρβάρων','(36)','Περιοχές των αποκαλούμενων βαρβάρων','','','',false,true);
+d.add(322,315,'(37)','<div class="nodetag">(37)</div></span>&nbsp;&nbsp;Ιταλία. Αρχαία Ρώμη και Ιταλία','(37)','Ιταλία. Αρχαία Ρώμη και Ιταλία','','','',false,true);
+d.add(323,315,'(38)','<div class="nodetag">(38)</div></span>&nbsp;&nbsp;Ελλάδα. Αρχαία Ελλάδα','(38)','Ελλάδα. Αρχαία Ελλάδα','','','',false,true);
+d.add(324,315,'(399)','<div class="nodetag">(399)</div></span>&nbsp;&nbsp;Άλλες περιοχές. Αρχαίες γεωγραφικές διαιρέσεις άλλες από τις διαιρέσεις της κλασσικής αρχαιότητας','(399)','Άλλες περιοχές. Αρχαίες γεωγραφικές διαιρέσεις άλλες από τις διαιρέσεις της κλασσικής αρχαιότητας','','','',false,true);
+d.add(325,324,'(399.7)','<div class="nodetag">(399.7)</div></span>&nbsp;&nbsp;Περιοχές των αρχαίων Αμερικανικών πολιτισμών. Προ-Κολομβιανή Αμερική','(399.7)','Περιοχές των αρχαίων Αμερικανικών πολιτισμών. Προ-Κολομβιανή Αμερική','','','',false,true);
+d.add(326,314,'(4/9)','<div class="nodetag">(4/9)</div></span>&nbsp;&nbsp;Χώρες και τόποι του μοντέρνου κόσμου','(4/9)','Χώρες και τόποι του μοντέρνου κόσμου','','','',false,true);
+d.add(327,326,'(4)','<div class="nodetag">(4)</div></span>&nbsp;&nbsp;Ευρώπη','(4)','Ευρώπη','','','',false,true);
+d.add(328,327,'(41)','<div class="nodetag">(41)</div></span>&nbsp;&nbsp;Χώρες των Βρεττανικών Νήσων','(41)','Χώρες των Βρεττανικών Νήσων','','','',false,true);
+d.add(329,328,'(410)','<div class="nodetag">(410)</div></span>&nbsp;&nbsp;Ηνωμένο Βασίλειο Μεγάλης Βρεττανίας και Βόρειας Ιρλανδίας','(410)','Ηνωμένο Βασίλειο Μεγάλης Βρεττανίας και Βόρειας Ιρλανδίας','','','',false,true);
+d.add(330,328,'(417)','<div class="nodetag">(417)</div></span>&nbsp;&nbsp;Ιρλανδία. Δημοκρατία της Ιρλανδίας, Eire','(417)','Ιρλανδία. Δημοκρατία της Ιρλανδίας, Eire','','','',false,true);
+d.add(331,327,'(430)','<div class="nodetag">(430)</div></span>&nbsp;&nbsp;Γερμανία. Ομοσπονδιακή Δημοκρατία της Γερμανίας. Bundesrepublik Deutschland','(430)','Γερμανία. Ομοσπονδιακή Δημοκρατία της Γερμανίας. Bundesrepublik Deutschland','','','',false,true);
+d.add(332,327,'(435.9)','<div class="nodetag">(435.9)</div></span>&nbsp;&nbsp;Λουξεμβούργο. Μεγάλο Δουκάτο του Λουξεμβούργου. Grand-Duché de Luxembourg. Grossherzogtum Luxemburg. Grousherzogdem Lëtzebuerg','(435.9)','Λουξεμβούργο. Μεγάλο Δουκάτο του Λουξεμβούργου. Grand-Duché de Luxembourg. Grossherzogtum Luxemburg. Grousherzogdem Lëtzebuerg','','','',false,true);
+d.add(333,327,'(436)','<div class="nodetag">(436)</div></span>&nbsp;&nbsp;Αυστρία. Δημοκρατία της Αυστρίας. Republik Österreich','(436)','Αυστρία. Δημοκρατία της Αυστρίας. Republik Österreich','','','',false,true);
+d.add(334,327,'(437.3)','<div class="nodetag">(437.3)</div></span>&nbsp;&nbsp;Τσεχία. Δημοκρατία της Τσεχίας. Česko. Česká Republika','(437.3)','Τσεχία. Δημοκρατία της Τσεχίας. Česko. Česká Republika','','','',false,true);
+d.add(335,327,'(437.6)','<div class="nodetag">(437.6)</div></span>&nbsp;&nbsp;Σλοβακία. Δημοκρατία της Σλοβακίας. Slovensko. Slovenská Republika','(437.6)','Σλοβακία. Δημοκρατία της Σλοβακίας. Slovensko. Slovenská Republika','','','',false,true);
+d.add(336,327,'(438)','<div class="nodetag">(438)</div></span>&nbsp;&nbsp;Πολωνία. Δημοκρατία της Πολωνίας. Rzeczpospolita Polska','(438)','Πολωνία. Δημοκρατία της Πολωνίας. Rzeczpospolita Polska','','','',false,true);
+d.add(337,327,'(439)','<div class="nodetag">(439)</div></span>&nbsp;&nbsp;Ουγγαρία. Δημοκρατία της Ουγγαρίας. Magyarorszag. Magyar Köztársaság','(439)','Ουγγαρία. Δημοκρατία της Ουγγαρίας. Magyarorszag. Magyar Köztársaság','','','',false,true);
+d.add(338,327,'(44)','<div class="nodetag">(44)</div></span>&nbsp;&nbsp;Γαλλία. Γαλλική Δημοκρατία. République Française','(44)','Γαλλία. Γαλλική Δημοκρατία. République Française','','','',false,true);
+d.add(339,327,'(450)','<div class="nodetag">(450)</div></span>&nbsp;&nbsp;Ιταλία. Δημοκρατία της Ιταλίας. Republica Italiana','(450)','Ιταλία. Δημοκρατία της Ιταλίας. Republica Italiana','','','',false,true);
+d.add(340,327,'(454.4)','<div class="nodetag">(454.4)</div></span>&nbsp;&nbsp;Σαν Μαρίνο. Γαληνιοτάτη Δημοκρατία του Σαν Μαρίνο. Serenissima Repubblica di San Marino','(454.4)','Σαν Μαρίνο. Γαληνιοτάτη Δημοκρατία του Σαν Μαρίνο. Serenissima Repubblica di San Marino','','','',false,true);
+d.add(341,327,'(456.31)','<div class="nodetag">(456.31)</div></span>&nbsp;&nbsp;Βατικανό. Βατικανική Πολιτεία (Αγία Θάλασσα). Status Civitatis Vaticanae','(456.31)','Βατικανό. Βατικανική Πολιτεία (Αγία Θάλασσα). Status Civitatis Vaticanae','','','',false,true);
+d.add(342,327,'(458.2)','<div class="nodetag">(458.2)</div></span>&nbsp;&nbsp;Μάλτα. Δημοκρατία της Μάλτας. Repubblika ta\' Malta','(458.2)','Μάλτα. Δημοκρατία της Μάλτας. Repubblika ta\' Malta','','','',false,true);
+d.add(343,327,'(46)','<div class="nodetag">(46)</div></span>&nbsp;&nbsp;Χώρες τη Ιβηρικής χερσονήσου','(46)','Χώρες τη Ιβηρικής χερσονήσου','','','',false,true);
+d.add(344,343,'(460)','<div class="nodetag">(460)</div></span>&nbsp;&nbsp;Ισπανία. Βασίλειο της Ισπανίας. Reino de España','(460)','Ισπανία. Βασίλειο της Ισπανίας. Reino de España','','','',false,true);
+d.add(345,343,'(467)','<div class="nodetag">(467)</div></span>&nbsp;&nbsp;Ανδόρρα. Πριγκηπάτο της Ανδόρρας. Principat d\'Andorra','(467)','Ανδόρρα. Πριγκηπάτο της Ανδόρρας. Principat d\'Andorra','','','',false,true);
+d.add(346,343,'(469)','<div class="nodetag">(469)</div></span>&nbsp;&nbsp;Πορτογαλία. Δημοκρατία της Πορτογαλίας. República Portuguesa','(469)','Πορτογαλία. Δημοκρατία της Πορτογαλίας. República Portuguesa','','','',false,true);
+d.add(347,327,'(470+571)','<div class="nodetag">(470+571)</div></span>&nbsp;&nbsp;Ρωσία. Ρωσική Ομοσπονδία. Rossiya. Rossiiskaya Federatsiya','(470+571)','Ρωσία. Ρωσική Ομοσπονδία. Rossiya. Rossiiskaya Federatsiya','','','',false,true);
+d.add(348,327,'(474)','<div class="nodetag">(474)</div></span>&nbsp;&nbsp;Βαλτικά Κράτη','(474)','Βαλτικά Κράτη','','','',false,true);
+d.add(349,348,'(474.2)','<div class="nodetag">(474.2)</div></span>&nbsp;&nbsp;Εσθονία. Δημοκρατία της Εσθονίας. Eesti Vabariik','(474.2)','Εσθονία. Δημοκρατία της Εσθονίας. Eesti Vabariik','','','',false,true);
+d.add(350,348,'(474.3)','<div class="nodetag">(474.3)</div></span>&nbsp;&nbsp;Λεττονία. Δημοκρατία της Λεττονίας. Latvijas Republikas','(474.3)','Λεττονία. Δημοκρατία της Λεττονίας. Latvijas Republikas','','','',false,true);
+d.add(351,348,'(474.5)','<div class="nodetag">(474.5)</div></span>&nbsp;&nbsp;Λιθουανία. Δημοκρατία της Λιθουανίας. Lietuvos Respublika','(474.5)','Λιθουανία. Δημοκρατία της Λιθουανίας. Lietuvos Respublika','','','',false,true);
+d.add(352,327,'(476)','<div class="nodetag">(476)</div></span>&nbsp;&nbsp;Λευκορωσία. Δημοκρατία της Λευκορωσίας. Respublika Belarus','(476)','Λευκορωσία. Δημοκρατία της Λευκορωσίας. Respublika Belarus','','','',false,true);
+d.add(353,327,'(477)','<div class="nodetag">(477)</div></span>&nbsp;&nbsp;Ουκρανία. Ukrayina','(477)','Ουκρανία. Ukrayina','','','',false,true);
+d.add(354,327,'(478)','<div class="nodetag">(478)</div></span>&nbsp;&nbsp;Μολδαβία. Δημοκρατία της Μολδαβίας. Republica Moldoveneasca','(478)','Μολδαβία. Δημοκρατία της Μολδαβίας. Republica Moldoveneasca','','','',false,true);
+d.add(355,327,'(479)','<div class="nodetag">(479)</div></span>&nbsp;&nbsp;Χώρες της Καυκασιανής περιοχής','(479)','Χώρες της Καυκασιανής περιοχής','','','',false,true);
+d.add(356,355,'(479.22)','<div class="nodetag">(479.22)</div></span>&nbsp;&nbsp;Γεωργία. Δημοκρατία της Γεωργίας. Sakartvelo. Sakartvelos Respublika','(479.22)','Γεωργία. Δημοκρατία της Γεωργίας. Sakartvelo. Sakartvelos Respublika','','','',false,true);
+d.add(357,355,'(479.24)','<div class="nodetag">(479.24)</div></span>&nbsp;&nbsp;Αζερμπαϊτζάν. Δημοκρατία του Αζερμπαϊτζάν. Azərbaycan Respublikası','(479.24)','Αζερμπαϊτζάν. Δημοκρατία του Αζερμπαϊτζάν. Azərbaycan Respublikası','','','',false,true);
+d.add(358,355,'(479.25)','<div class="nodetag">(479.25)</div></span>&nbsp;&nbsp;Αρμενία. Δημοκρατία της Αρμενίας. Hayastan. Hayastani Hanrapetut’yun (Haikakan Hanrapetoutioun)','(479.25)','Αρμενία. Δημοκρατία της Αρμενίας. Hayastan. Hayastani Hanrapetut’yun (Haikakan Hanrapetoutioun)','','','',false,true);
+d.add(359,327,'(48)','<div class="nodetag">(48)</div></span>&nbsp;&nbsp;Σκανδιναβικά Κράτη','(48)','Σκανδιναβικά Κράτη','','','',false,true);
+d.add(360,359,'(480)','<div class="nodetag">(480)</div></span>&nbsp;&nbsp;Φινλανδία. Δημοκρατία της Φινλανδίας. Suomi. Suomen Tasavalta. Republiken Finland','(480)','Φινλανδία. Δημοκρατία της Φινλανδίας. Suomi. Suomen Tasavalta. Republiken Finland','','','',false,true);
+d.add(361,359,'(481)','<div class="nodetag">(481)</div></span>&nbsp;&nbsp;Νορβηγία. Βασίλειο της Νορβηγίας. Kongeriket Norge. Kongeriket Noreg','(481)','Νορβηγία. Βασίλειο της Νορβηγίας. Kongeriket Norge. Kongeriket Noreg','','','',false,true);
+d.add(362,359,'(485)','<div class="nodetag">(485)</div></span>&nbsp;&nbsp;Σουηδία. Βασίλειο της Σουηδίας. Konungariket Sverige','(485)','Σουηδία. Βασίλειο της Σουηδίας. Konungariket Sverige','','','',false,true);
+d.add(363,359,'(489)','<div class="nodetag">(489)</div></span>&nbsp;&nbsp;Δανία. Βασίλειο της Δανίας. Kongeriget Danmark','(489)','Δανία. Βασίλειο της Δανίας. Kongeriget Danmark','','','',false,true);
+d.add(364,327,'(491.1)','<div class="nodetag">(491.1)</div></span>&nbsp;&nbsp;Ισλανδία. Δημοκρατία της Ισλανδίας. Island. Lýðveldið Ísland','(491.1)','Ισλανδία. Δημοκρατία της Ισλανδίας. Island. Lýðveldið Ísland','','','',false,true);
+d.add(365,327,'(492)','<div class="nodetag">(492)</div></span>&nbsp;&nbsp;Κάτω Χώρες. Ολλανδία. Βασίλειο των Κάτω Χωρών. Koninkrijk der Nederlanden','(492)','Κάτω Χώρες. Ολλανδία. Βασίλειο των Κάτω Χωρών. Koninkrijk der Nederlanden','','','',false,true);
+d.add(366,327,'(493)','<div class="nodetag">(493)</div></span>&nbsp;&nbsp;Βέλγιο. Βασ΄λειο του Βελγίου. Royaume de Belgique. Koninkrijk België. Königreich Belgien','(493)','Βέλγιο. Βασ΄λειο του Βελγίου. Royaume de Belgique. Koninkrijk België. Königreich Belgien','','','',false,true);
+d.add(367,327,'(494)','<div class="nodetag">(494)</div></span>&nbsp;&nbsp;Ελβετία. Ελβετική Συνομοσπονδία. Schweizerische Eidgenossenschaft. Confédération suisse. Confederazione Svizzera. Confederaziun svizra. Confoederatio Helvetica','(494)','Ελβετία. Ελβετική Συνομοσπονδία. Schweizerische Eidgenossenschaft. Confédération suisse. Confederazione Svizzera. Confederaziun svizra. Confoederatio Helvetica','','','',false,true);
+d.add(368,367,'(494.9)','<div class="nodetag">(494.9)</div></span>&nbsp;&nbsp;Λιχτενστάϊν. Πριγκηπάτο του Λιχτενστάϊν. Fürstentum Liechtenstein','(494.9)','Λιχτενστάϊν. Πριγκηπάτο του Λιχτενστάϊν. Fürstentum Liechtenstein','','','',false,true);
+d.add(369,327,'(495)','<div class="nodetag">(495)</div></span>&nbsp;&nbsp;Ελλάδα. Ελληνική Δημοκρατία.','(495)','Ελλάδα. Ελληνική Δημοκρατία.','','','',false,true);
+d.add(370,327,'(496.5)','<div class="nodetag">(496.5)</div></span>&nbsp;&nbsp;Αλβανία. Δημοκρατία της Αλβανίας. Shqipëria. Republika e Shqipërisë','(496.5)','Αλβανία. Δημοκρατία της Αλβανίας. Shqipëria. Republika e Shqipërisë','','','',false,true);
+d.add(371,327,'(497)','<div class="nodetag">(497)</div></span>&nbsp;&nbsp;Βαλκανικά Κράτη','(497)','Βαλκανικά Κράτη','','','',false,true);
+d.add(372,371,'(497.11)','<div class="nodetag">(497.11)</div></span>&nbsp;&nbsp;Σερβία. Δημοκρατία της Σερβίας. Republika Srbija','(497.11)','Σερβία. Δημοκρατία της Σερβίας. Republika Srbija','','','',false,true);
+d.add(373,371,'(497.16)','<div class="nodetag">(497.16)</div></span>&nbsp;&nbsp;Μαυροβούνιο. Crna Gora','(497.16)','Μαυροβούνιο. Crna Gora','','','',false,true);
+d.add(374,371,'(497.2)','<div class="nodetag">(497.2)</div></span>&nbsp;&nbsp;Βουλγαρία. Δημοκρατία της Βουλγαρίας. Republika Bulgarija','(497.2)','Βουλγαρία. Δημοκρατία της Βουλγαρίας. Republika Bulgarija','','','',false,true);
+d.add(375,371,'(497.4)','<div class="nodetag">(497.4)</div></span>&nbsp;&nbsp;Σλοβενία. Δημοκρατία της Σλοβενίας. Republika Slovenija','(497.4)','Σλοβενία. Δημοκρατία της Σλοβενίας. Republika Slovenija','','','',false,true);
+d.add(376,371,'(497.5)','<div class="nodetag">(497.5)</div></span>&nbsp;&nbsp;Κροατία. Δημοκρατία της Κροατίας. Republika Hrvatska','(497.5)','Κροατία. Δημοκρατία της Κροατίας. Republika Hrvatska','','','',false,true);
+d.add(377,371,'(497.6)','<div class="nodetag">(497.6)</div></span>&nbsp;&nbsp;Βοσνία-Ερζεγοβίνη. Δημοκρατία της Βοσνίας-Ερζεγοβίνης. Republika Bosna i Hercegovina','(497.6)','Βοσνία-Ερζεγοβίνη. Δημοκρατία της Βοσνίας-Ερζεγοβίνης. Republika Bosna i Hercegovina','','','',false,true);
+d.add(378,371,'(497.7)','<div class="nodetag">(497.7)</div></span>&nbsp;&nbsp;Μακεδονία. Πρώην Γιουγκοσλαβική Δημοκρατία της Μακεδονίας (FYROM). Makedonija','(497.7)','Μακεδονία. Πρώην Γιουγκοσλαβική Δημοκρατία της Μακεδονίας (FYROM). Makedonija','','','',false,true);
+d.add(379,327,'(498)','<div class="nodetag">(498)</div></span>&nbsp;&nbsp;Ρουμανία. Δημοκρατία της Ρουμανίας.','(498)','Ρουμανία. Δημοκρατία της Ρουμανίας.','','','',false,true);
+d.add(380,326,'(5)','<div class="nodetag">(5)</div></span>&nbsp;&nbsp;Ασία','(5)','Ασία','','','',false,true);
+d.add(381,380,'(510)','<div class="nodetag">(510)</div></span>&nbsp;&nbsp;Κίνα. Λαϊκή Δημοκρατία της Κίνας','(510)','Κίνα. Λαϊκή Δημοκρατία της Κίνας','','','',false,true);
+d.add(382,380,'(512.317)','<div class="nodetag">(512.317)</div></span>&nbsp;&nbsp;Χονγκ-Κονγκ. Xianggang (Hsiang-Kang)','(512.317)','Χονγκ-Κονγκ. Xianggang (Hsiang-Kang)','','','',false,true);
+d.add(383,380,'(512.318)','<div class="nodetag">(512.318)</div></span>&nbsp;&nbsp;Μακάο (Macau). Αόμεν (Ao-men)','(512.318)','Μακάο (Macau). Αόμεν (Ao-men)','','','',false,true);
+d.add(384,380,'(515)','<div class="nodetag">(515)</div></span>&nbsp;&nbsp;Θιβέτ. Αυτόνομη Περιοχή του Θιβέτ. Xizang Zizhiqu','(515)','Θιβέτ. Αυτόνομη Περιοχή του Θιβέτ. Xizang Zizhiqu','','','',false,true);
+d.add(385,380,'(517.9)','<div class="nodetag">(517.9)</div></span>&nbsp;&nbsp;Μογγολία. Κράτη της Μογγολίας. Mongol Uls','(517.9)','Μογγολία. Κράτη της Μογγολίας. Mongol Uls','','','',false,true);
+d.add(386,380,'(519)','<div class="nodetag">(519)</div></span>&nbsp;&nbsp;Κορέα','(519)','Κορέα','','','',false,true);
+d.add(387,386,'(519.3)','<div class="nodetag">(519.3)</div></span>&nbsp;&nbsp;Βόρεια Κορέα. Λαϊκή Δημοκρατία της Κορέας','(519.3)','Βόρεια Κορέα. Λαϊκή Δημοκρατία της Κορέας','','','',false,true);
+d.add(388,386,'(519.5)','<div class="nodetag">(519.5)</div></span>&nbsp;&nbsp;Νότια Κορέα. Δημοκρατία της Κορέα','(519.5)','Νότια Κορέα. Δημοκρατία της Κορέα','','','',false,true);
+d.add(389,380,'(52)','<div class="nodetag">(52)</div></span>&nbsp;&nbsp;Ιαπωνία και παρακείμενα νησιά','(52)','Ιαπωνία και παρακείμενα νησιά','','','',false,true);
+d.add(390,389,'(520)','<div class="nodetag">(520)</div></span>&nbsp;&nbsp;Ιαπωνία. Nippon (Nihon). Nippon-koku (Nihon Koku)','(520)','Ιαπωνία. Nippon (Nihon). Nippon-koku (Nihon Koku)','','','',false,true);
+d.add(391,389,'(529)','<div class="nodetag">(529)</div></span>&nbsp;&nbsp;Ταϊβάν. Δημοκρατία της Κίνας. Zhōnghuá Mínguó','(529)','Ταϊβάν. Δημοκρατία της Κίνας. Zhōnghuá Mínguó','','','',false,true);
+d.add(392,380,'(53)','<div class="nodetag">(53)</div></span>&nbsp;&nbsp;Αραβικά κράτη και περιοχές','(53)','Αραβικά κράτη και περιοχές','','','',false,true);
+d.add(393,392,'(532)','<div class="nodetag">(532)</div></span>&nbsp;&nbsp;Σαουδική Αραβία. Βασίλειο της Σαουδική Αραβίας. al-Mamlaka al-ʻArabiyya as-Suʻūdiyya','(532)','Σαουδική Αραβία. Βασίλειο της Σαουδική Αραβίας. al-Mamlaka al-ʻArabiyya as-Suʻūdiyya','','','',false,true);
+d.add(394,392,'(533)','<div class="nodetag">(533)</div></span>&nbsp;&nbsp;Υεμένη. Δημοκρατία της Υεμένης. Al-Jumhūriyyah al-Yamaniyyah','(533)','Υεμένη. Δημοκρατία της Υεμένης. Al-Jumhūriyyah al-Yamaniyyah','','','',false,true);
+d.add(395,392,'(535)','<div class="nodetag">(535)</div></span>&nbsp;&nbsp;Ομάν. Σουλτανάτο του Ομάν','(535)','Ομάν. Σουλτανάτο του Ομάν','','','',false,true);
+d.add(396,392,'(536)','<div class="nodetag">(536)</div></span>&nbsp;&nbsp;Ανατολικά Αραβικά κράτη (Κράτη του Κόλπου)','(536)','Ανατολικά Αραβικά κράτη (Κράτη του Κόλπου)','','','',false,true);
+d.add(397,396,'(536.2)','<div class="nodetag">(536.2)</div></span>&nbsp;&nbsp;Ηνωμένα Αραβικά Εμιράτα. Dawlat al-Imārāt al-‘Arabīyah al-Muttaḥidah','(536.2)','Ηνωμένα Αραβικά Εμιράτα. Dawlat al-Imārāt al-‘Arabīyah al-Muttaḥidah','','','',false,true);
+d.add(398,396,'(536.4)','<div class="nodetag">(536.4)</div></span>&nbsp;&nbsp;Κατάρ. Κράτος του Κατάρ','(536.4)','Κατάρ. Κράτος του Κατάρ','','','',false,true);
+d.add(399,396,'(536.5)','<div class="nodetag">(536.5)</div></span>&nbsp;&nbsp;Μπαχρέϊν. Βασίλειο του Μπαχρέϊν. Mamlakat al-Baḥrayn','(536.5)','Μπαχρέϊν. Βασίλειο του Μπαχρέϊν. Mamlakat al-Baḥrayn','','','',false,true);
+d.add(400,396,'(536.8)','<div class="nodetag">(536.8)</div></span>&nbsp;&nbsp;Κουβέϊτ. Κράτος του Κουβέϊτ','(536.8)','Κουβέϊτ. Κράτος του Κουβέϊτ','','','',false,true);
+d.add(401,380,'(54)','<div class="nodetag">(54)</div></span>&nbsp;&nbsp;Κράτη της Ινδικής υπο-ηπείρου','(54)','Κράτη της Ινδικής υπο-ηπείρου','','','',false,true);
+d.add(402,401,'(540)','<div class="nodetag">(540)</div></span>&nbsp;&nbsp;Ινδία. Δημοκρατία της Ινδίας. Bhārat Gaṇarājya','(540)','Ινδία. Δημοκρατία της Ινδίας. Bhārat Gaṇarājya','','','',false,true);
+d.add(403,401,'(541.31)','<div class="nodetag">(541.31)</div></span>&nbsp;&nbsp;Μπουτάν. Βασίλειο του Μπουτάν. Druk-yul','(541.31)','Μπουτάν. Βασίλειο του Μπουτάν. Druk-yul','','','',false,true);
+d.add(404,401,'(541.35)','<div class="nodetag">(541.35)</div></span>&nbsp;&nbsp;Νεπάλ. Ομοσπονδιακή Δημοκρατία του Νεπάλ. Sanghiya Loktantrik Ganatantra Nepal','(541.35)','Νεπάλ. Ομοσπονδιακή Δημοκρατία του Νεπάλ. Sanghiya Loktantrik Ganatantra Nepal','','','',false,true);
+d.add(405,401,'(548.7)','<div class="nodetag">(548.7)</div></span>&nbsp;&nbsp;Σρι Λάνκα. Σοσιαλιστική Δημοκρατία της Σρι Λάνκα. Sri Lanka Prajathanthrika Samajavadi Janarajaya (Sinhala). Illankai Chananaayaka Chosalisa Kudiyarasu (Tamil)','(548.7)','Σρι Λάνκα. Σοσιαλιστική Δημοκρατία της Σρι Λάνκα. Sri Lanka Prajathanthrika Samajavadi Janarajaya (Sinhala). Illankai Chananaayaka Chosalisa Kudiyarasu (Tamil)','','','',false,true);
+d.add(406,401,'(548.82)','<div class="nodetag">(548.82)</div></span>&nbsp;&nbsp;Μαλβίδες. Δημοκρατία των Μαλβίδων. Divehi Rājjey ge Jumhuriyyā','(548.82)','Μαλβίδες. Δημοκρατία των Μαλβίδων. Divehi Rājjey ge Jumhuriyyā','','','',false,true);
+d.add(407,401,'(549.1)','<div class="nodetag">(549.1)</div></span>&nbsp;&nbsp;Πακιστάν. Ισλαμική Δημοκρατία του Πακιστάν. Islāmī Jumhūrī-ye Pākistān','(549.1)','Πακιστάν. Ισλαμική Δημοκρατία του Πακιστάν. Islāmī Jumhūrī-ye Pākistān','','','',false,true);
+d.add(408,401,'(549.3)','<div class="nodetag">(549.3)</div></span>&nbsp;&nbsp;Μπανγκλαντές. Λαϊκή Δημοκρατία του Μπανγκλαντές. Gônoprojatontri Bangladesh','(549.3)','Μπανγκλαντές. Λαϊκή Δημοκρατία του Μπανγκλαντές. Gônoprojatontri Bangladesh','','','',false,true);
+d.add(409,380,'(55)','<div class="nodetag">(55)</div></span>&nbsp;&nbsp;Ιράν. Ισλαμική Δημοκρατία του Ιράν. Περσία (ιστορικά)','(55)','Ιράν. Ισλαμική Δημοκρατία του Ιράν. Περσία (ιστορικά)','','','',false,true);
+d.add(410,380,'(56)','<div class="nodetag">(56)</div></span>&nbsp;&nbsp;Λεβαντία (Ανατολή). Μικρά Ασία','(56)','Λεβαντία (Ανατολή). Μικρά Ασία','','','',false,true);
+d.add(411,410,'(560)','<div class="nodetag">(560)</div></span>&nbsp;&nbsp;Τουρκία. Δημοκρατία τη Τουρκίας. Türkiye Cumhuriyeti','(560)','Τουρκία. Δημοκρατία τη Τουρκίας. Türkiye Cumhuriyeti','','','',false,true);
+d.add(412,410,'(564.3)','<div class="nodetag">(564.3)</div></span>&nbsp;&nbsp;Κύπρος. Κυπριακή Δημοκρατία. Kıbrıs Cumhuriyeti','(564.3)','Κύπρος. Κυπριακή Δημοκρατία. Kıbrıs Cumhuriyeti','','','',false,true);
+d.add(413,410,'(567)','<div class="nodetag">(567)</div></span>&nbsp;&nbsp;Ιράκ. Δημοκρατία του Ιράκ. Jumhūriyat Al-Irāq. Komara Îraqê','(567)','Ιράκ. Δημοκρατία του Ιράκ. Jumhūriyat Al-Irāq. Komara Îraqê','','','',false,true);
+d.add(414,410,'(569.1)','<div class="nodetag">(569.1)</div></span>&nbsp;&nbsp;Συρία. Αραβική Δημοκρατία της Συρίας. Sūryā. Al-Jumhūriyyah al-ʿArabiyyah as-Sūriyyah','(569.1)','Συρία. Αραβική Δημοκρατία της Συρίας. Sūryā. Al-Jumhūriyyah al-ʿArabiyyah as-Sūriyyah','','','',false,true);
+d.add(415,410,'(569.3)','<div class="nodetag">(569.3)</div></span>&nbsp;&nbsp;Λίβανος. Δημοκρατία του Λιβάνου. Lubnān. Liban. al-Jumhūrīyah al-Lubnānīyah. République libanaise.','(569.3)','Λίβανος. Δημοκρατία του Λιβάνου. Lubnān. Liban. al-Jumhūrīyah al-Lubnānīyah. République libanaise.','','','',false,true);
+d.add(416,410,'(569.4)','<div class="nodetag">(569.4)</div></span>&nbsp;&nbsp;Ισραήλ. Κράτος του Ισραήλ. Medīnat Yisrā\'el. Dawlat Isrā\'īl','(569.4)','Ισραήλ. Κράτος του Ισραήλ. Medīnat Yisrā\'el. Dawlat Isrā\'īl','','','',false,true);
+d.add(417,410,'(569.5)','<div class="nodetag">(569.5)</div></span>&nbsp;&nbsp;Ιορδανία. Χασημιτικό Βασίλειο της Ιορδανίας. al-\'Urdunn','(569.5)','Ιορδανία. Χασημιτικό Βασίλειο της Ιορδανίας. al-\'Urdunn','','','',false,true);
+d.add(418,380,'(57)','<div class="nodetag">(57)</div></span>&nbsp;&nbsp;Πρών Ασιατική Ε.Σ.Σ.Δ.','(57)','Πρών Ασιατική Ε.Σ.Σ.Δ.','','','',false,true);
+d.add(419,418,'(571)','<div class="nodetag">(571)</div></span>&nbsp;&nbsp;Ρωσική Ομοσπονδία στην Ασία','(571)','Ρωσική Ομοσπονδία στην Ασία','','','',false,true);
+d.add(420,418,'(574)','<div class="nodetag">(574)</div></span>&nbsp;&nbsp;Καζακστάν. Δημοκρατία του Καζακστάν. Kazak Respublikasy (Qazaqstan Respwblïkası). Respublika Kazakhstan','(574)','Καζακστάν. Δημοκρατία του Καζακστάν. Kazak Respublikasy (Qazaqstan Respwblïkası). Respublika Kazakhstan','','','',false,true);
+d.add(421,418,'(575.1)','<div class="nodetag">(575.1)</div></span>&nbsp;&nbsp;Ουζμπεκιστάν. Δημοκρατία του Ουζμπεκιστάν. Ozbekiston Respublikasi','(575.1)','Ουζμπεκιστάν. Δημοκρατία του Ουζμπεκιστάν. Ozbekiston Respublikasi','','','',false,true);
+d.add(422,418,'(575.2)','<div class="nodetag">(575.2)</div></span>&nbsp;&nbsp;Κιρζιγία. Δημοκρατία της Κιρζιγίας. Kyrgyz Respublikasy. Kyrgyzskaya Respublika','(575.2)','Κιρζιγία. Δημοκρατία της Κιρζιγίας. Kyrgyz Respublikasy. Kyrgyzskaya Respublika','','','',false,true);
+d.add(423,418,'(575.3)','<div class="nodetag">(575.3)</div></span>&nbsp;&nbsp;Τατζικιστάν. Δημοκρατία του Τατζικιστάν. Jumhurii Tojikiston','(575.3)','Τατζικιστάν. Δημοκρατία του Τατζικιστάν. Jumhurii Tojikiston','','','',false,true);
+d.add(424,418,'(575.4)','<div class="nodetag">(575.4)</div></span>&nbsp;&nbsp;Τουρκμενιστάν. Δημοκρατία του Τουρκμενιστάν. Turkmenia. Türkmenistan Respublikasy','(575.4)','Τουρκμενιστάν. Δημοκρατία του Τουρκμενιστάν. Turkmenia. Türkmenistan Respublikasy','','','',false,true);
+d.add(425,380,'(581)','<div class="nodetag">(581)</div></span>&nbsp;&nbsp;Αφγανιστάν. Ισλαμική Δημοκρατία του Αφγανιστάν. Afganistan. Jomhūrī-ye Eslāmī-ye Afġānistān. Da Afġānistān Islāmī Jomhoriyat','(581)','Αφγανιστάν. Ισλαμική Δημοκρατία του Αφγανιστάν. Afganistan. Jomhūrī-ye Eslāmī-ye Afġānistān. Da Afġānistān Islāmī Jomhoriyat','','','',false,true);
+d.add(426,380,'(59)','<div class="nodetag">(59)</div></span>&nbsp;&nbsp;Νοτιο-ανατολικές Ασιατικές χώρες','(59)','Νοτιο-ανατολικές Ασιατικές χώρες','','','',false,true);
+d.add(427,426,'(591)','<div class="nodetag">(591)</div></span>&nbsp;&nbsp;Μυανμάρ (Βίρμα). Ένωση τουΜυανμάρ. Myanmar Naingngandaw. Pyi-daung-zu Myan-ma Naing-ngan-daw','(591)','Μυανμάρ (Βίρμα). Ένωση τουΜυανμάρ. Myanmar Naingngandaw. Pyi-daung-zu Myan-ma Naing-ngan-daw','','','',false,true);
+d.add(428,426,'(592.3)','<div class="nodetag">(592.3)</div></span>&nbsp;&nbsp;Σιγκαπούρη. Δημοκρατία της Σιγκαπούρης','(592.3)','Σιγκαπούρη. Δημοκρατία της Σιγκαπούρης','','','',false,true);
+d.add(429,426,'(592.6)','<div class="nodetag">(592.6)</div></span>&nbsp;&nbsp;Μπρουνέϊ. Κράτος του Μπρουνέϊ Νταρουσσαλάμ. Negara Brunei Darussalam','(592.6)','Μπρουνέϊ. Κράτος του Μπρουνέϊ Νταρουσσαλάμ. Negara Brunei Darussalam','','','',false,true);
+d.add(430,426,'(593)','<div class="nodetag">(593)</div></span>&nbsp;&nbsp;Ταϊλάνδη. Βασίλειο της Ταϊλάνδης. Mueang Thai (Prathes Thai). Ratcha Anachak Thai','(593)','Ταϊλάνδη. Βασίλειο της Ταϊλάνδης. Mueang Thai (Prathes Thai). Ratcha Anachak Thai','','','',false,true);
+d.add(431,426,'(594)','<div class="nodetag">(594)</div></span>&nbsp;&nbsp;Ινδονησία. Δημοκρατία της Ινδονησίας. Republik Indonesia','(594)','Ινδονησία. Δημοκρατία της Ινδονησίας. Republik Indonesia','','','',false,true);
+d.add(432,426,'(595)','<div class="nodetag">(595)</div></span>&nbsp;&nbsp;Μαλαισία. Ομοσπονδία της Μαλαισίας. Persekutuan Tanah Malaysia','(595)','Μαλαισία. Ομοσπονδία της Μαλαισίας. Persekutuan Tanah Malaysia','','','',false,true);
+d.add(433,426,'(596/598)','<div class="nodetag">(596/598)</div></span>&nbsp;&nbsp;Ινδο-Κίνα','(596/598)','Ινδο-Κίνα','','','',false,true);
+d.add(434,433,'(596)','<div class="nodetag">(596)</div></span>&nbsp;&nbsp;Καμπότζη. Βασίλειο της Καμπότζης. Srok Khmae (Prateh Kampuchea). Preăh Réachéa Anachâk Kâmpŭchea','(596)','Καμπότζη. Βασίλειο της Καμπότζης. Srok Khmae (Prateh Kampuchea). Preăh Réachéa Anachâk Kâmpŭchea','','','',false,true);
+d.add(435,433,'(597)','<div class="nodetag">(597)</div></span>&nbsp;&nbsp;Βιετνάμ. Σοσιαλιστική Δημοκρατία του Βιετνάμ. Cộng hòa xã hội chủ nghĩa Việt Nam','(597)','Βιετνάμ. Σοσιαλιστική Δημοκρατία του Βιετνάμ. Cộng hòa xã hội chủ nghĩa Việt Nam','','','',false,true);
+d.add(436,433,'(598)','<div class="nodetag">(598)</div></span>&nbsp;&nbsp;Λάος. Λαϊκή Δημοκρατία του Λάος. Meuang Lao. Sathalanalat Paxathipatai Paxaxon Lao','(598)','Λάος. Λαϊκή Δημοκρατία του Λάος. Meuang Lao. Sathalanalat Paxathipatai Paxaxon Lao','','','',false,true);
+d.add(437,426,'(599)','<div class="nodetag">(599)</div></span>&nbsp;&nbsp;Φιλιππίνες. Δημοκρατία των Φιλιππίνων. Republika ng Pilipinas','(599)','Φιλιππίνες. Δημοκρατία των Φιλιππίνων. Republika ng Pilipinas','','','',false,true);
+d.add(438,326,'(6)','<div class="nodetag">(6)</div></span>&nbsp;&nbsp;Αφρική','(6)','Αφρική','','','',false,true);
+d.add(439,438,'(61)','<div class="nodetag">(61)</div></span>&nbsp;&nbsp;Βορειο-Αφρικανικά κράτη γενικά. Μαχρέμπ. Μπαρμπάρι κράτη','(61)','Βορειο-Αφρικανικά κράτη γενικά. Μαχρέμπ. Μπαρμπάρι κράτη','','','',false,true);
+d.add(440,439,'(611)','<div class="nodetag">(611)</div></span>&nbsp;&nbsp;Τυνησία. Δημοκρατία τη Τυνησίας. al-Jumhūriyya at-Tūnisiyya','(611)','Τυνησία. Δημοκρατία τη Τυνησίας. al-Jumhūriyya at-Tūnisiyya','','','',false,true);
+d.add(441,439,'(612)','<div class="nodetag">(612)</div></span>&nbsp;&nbsp;Λιβύη. Μεγάλη Σοσιαλιστική Λαϊκή Λιβυκή ArabJamahiriya. Lībya. Al-Jamāhīriyyah al-ʿArabiyyah al-Lībiyyah aš-Šaʿbiyyah al-Ištirākiyyah al-ʿUẓmā','(612)','Λιβύη. Μεγάλη Σοσιαλιστική Λαϊκή Λιβυκή ArabJamahiriya. Lībya. Al-Jamāhīriyyah al-ʿArabiyyah al-Lībiyyah aš-Šaʿbiyyah al-Ištirākiyyah al-ʿUẓmā','','','',false,true);
+d.add(442,438,'(620)','<div class="nodetag">(620)</div></span>&nbsp;&nbsp;Αίγυπτος. Αραβική Δημοκρατία της Αιγύπτου. Miṣr (Misr). Ǧumhūrīyâtu Miṣra l-ʿArabīyâ','(620)','Αίγυπτος. Αραβική Δημοκρατία της Αιγύπτου. Miṣr (Misr). Ǧumhūrīyâtu Miṣra l-ʿArabīyâ','','','',false,true);
+d.add(443,438,'(624)','<div class="nodetag">(624)</div></span>&nbsp;&nbsp;Σουδάν. Δημοκρατία του Σουδάν. al-Sūdan. Jumhūriyyat as-Sūdan','(624)','Σουδάν. Δημοκρατία του Σουδάν. al-Sūdan. Jumhūriyyat as-Sūdan','','','',false,true);
+d.add(444,443,'(624.1)','<div class="nodetag">(624.1)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Sudan. al-Sūdān. Repubic of the Sudan. Jumhūriyyat as-Sūdān</span>','(624.1)','Sudan. al-Sūdān. Repubic of the Sudan. Jumhūriyyat as-Sūdān','','','',false,true);
+d.add(445,443,'(624.4)','<div class="nodetag">(624.4)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Republic of South Sudan</span>','(624.4)','Republic of South Sudan','','','',false,true);
+d.add(446,438,'(630)','<div class="nodetag">(630)</div></span>&nbsp;&nbsp;Αιθιοπία. Ομοσπονδιακή Δημοκρατία της Αιθιοπίας.','(630)','Αιθιοπία. Ομοσπονδιακή Δημοκρατία της Αιθιοπίας.','','','',false,true);
+d.add(447,438,'(635)','<div class="nodetag">(635)</div></span>&nbsp;&nbsp;Εριθρέα. Κράτο της Εριθρέας. Ertra. Hagəre Ertra (Dawlâtu Iritrīya)','(635)','Εριθρέα. Κράτο της Εριθρέας. Ertra. Hagəre Ertra (Dawlâtu Iritrīya)','','','',false,true);
+d.add(448,438,'(64)','<div class="nodetag">(64)</div></span>&nbsp;&nbsp;Μαρόκκο. Βασίλειο του Μαρόκκου. al-Maġrib. al-Mamlakâtu l-Maġribīyâ','(64)','Μαρόκκο. Βασίλειο του Μαρόκκου. al-Maġrib. al-Mamlakâtu l-Maġribīyâ','','','',false,true);
+d.add(449,438,'(65)','<div class="nodetag">(65)</div></span>&nbsp;&nbsp;Αλγερία. Λαϊκή Δημοκρατία της Αλγερίας. Al Jaza\'ir. Al Jumhuriyah al Jaza\'iriyah ad Dimuqratiyah ash Sha\'biyah','(65)','Αλγερία. Λαϊκή Δημοκρατία της Αλγερίας. Al Jaza\'ir. Al Jumhuriyah al Jaza\'iriyah ad Dimuqratiyah ash Sha\'biyah','','','',false,true);
+d.add(450,438,'(66)','<div class="nodetag">(66)</div></span>&nbsp;&nbsp;Δυτικο-Αφρικανικά κράτη και περιοχές','(66)','Δυτικο-Αφρικανικά κράτη και περιοχές','','','',false,true);
+d.add(451,450,'(661.2)','<div class="nodetag">(661.2)</div></span>&nbsp;&nbsp;Μαυριτανία. Ισλαμική Δημοκρατία της Μαυριτανίας. Mūrītaniya. Al-Jumhūriyyah al-Islamiyyah al-Mūrītaniyyah','(661.2)','Μαυριτανία. Ισλαμική Δημοκρατία της Μαυριτανίας. Mūrītaniya. Al-Jumhūriyyah al-Islamiyyah al-Mūrītaniyyah','','','',false,true);
+d.add(452,450,'(662.1)','<div class="nodetag">(662.1)</div></span>&nbsp;&nbsp;Μάλι. Δημοκρατία του Μάλι. République du Mali','(662.1)','Μάλι. Δημοκρατία του Μάλι. République du Mali','','','',false,true);
+d.add(453,450,'(662.5)','<div class="nodetag">(662.5)</div></span>&nbsp;&nbsp;Μπουρκίνα Φάσο. Λαϊκή Δημοκρατία της Μπουρκίνα Φάσο. République Démocratique Populaire de Burkina Faso','(662.5)','Μπουρκίνα Φάσο. Λαϊκή Δημοκρατία της Μπουρκίνα Φάσο. République Démocratique Populaire de Burkina Faso','','','',false,true);
+d.add(454,450,'(662.6)','<div class="nodetag">(662.6)</div></span>&nbsp;&nbsp;Νιγκέρ. Δημοκρατία του Νιγκέρ. République du Niger','(662.6)','Νιγκέρ. Δημοκρατία του Νιγκέρ. République du Niger','','','',false,true);
+d.add(455,450,'(663)','<div class="nodetag">(663)</div></span>&nbsp;&nbsp;Σενεγάλη. Δημοκρατία της Σενεγάλης. République du Senegal','(663)','Σενεγάλη. Δημοκρατία της Σενεγάλης. République du Senegal','','','',false,true);
+d.add(456,450,'(664)','<div class="nodetag">(664)</div></span>&nbsp;&nbsp;Σιέρρα Λεόνε. Δημοκρατία της Σιέρρα Λεόνε','(664)','Σιέρρα Λεόνε. Δημοκρατία της Σιέρρα Λεόνε','','','',false,true);
+d.add(457,450,'(665)','<div class="nodetag">(665)</div></span>&nbsp;&nbsp;Η Γκάμπια και η Γουϊνέα','(665)','Η Γκάμπια και η Γουϊνέα','','','',false,true);
+d.add(458,457,'(665.1)','<div class="nodetag">(665.1)</div></span>&nbsp;&nbsp;Η Γκάμπια. Γκάμπια. Δημοκρατία της Γκάμπια','(665.1)','Η Γκάμπια. Γκάμπια. Δημοκρατία της Γκάμπια','','','',false,true);
+d.add(459,457,'(665.2)','<div class="nodetag">(665.2)</div></span>&nbsp;&nbsp;Γουϊνέα. Δημοκρατία της Γουϊνέας. République de Guinée','(665.2)','Γουϊνέα. Δημοκρατία της Γουϊνέας. République de Guinée','','','',false,true);
+d.add(460,457,'(665.7)','<div class="nodetag">(665.7)</div></span>&nbsp;&nbsp;Γουϊνέα - Μπισσάου. Δημοκρατία της Γουϊνέα - Μπισσάου. Guiné-Bissau. República da Guiné-Bissau','(665.7)','Γουϊνέα - Μπισσάου. Δημοκρατία της Γουϊνέα - Μπισσάου. Guiné-Bissau. República da Guiné-Bissau','','','',false,true);
+d.add(461,457,'(665.8)','<div class="nodetag">(665.8)</div></span>&nbsp;&nbsp;Πράσινο Ακρωτήρι. Δημοκρατία του Πράσινου Ακρωτηρίου. República de Cabo Verde','(665.8)','Πράσινο Ακρωτήρι. Δημοκρατία του Πράσινου Ακρωτηρίου. República de Cabo Verde','','','',false,true);
+d.add(462,450,'(666.2)','<div class="nodetag">(666.2)</div></span>&nbsp;&nbsp;Λιβερία. Δημοκρατία της Λιβερίας','(666.2)','Λιβερία. Δημοκρατία της Λιβερίας','','','',false,true);
+d.add(463,450,'(666.8)','<div class="nodetag">(666.8)</div></span>&nbsp;&nbsp;Ακτή του Ελεφαντοστούν. Δημοκρατία της Ακτής του Ελεφαντοστούν. Ivory Coast. République de Côte d\'Ivoire','(666.8)','Ακτή του Ελεφαντοστούν. Δημοκρατία της Ακτής του Ελεφαντοστούν. Ivory Coast. République de Côte d\'Ivoire','','','',false,true);
+d.add(464,450,'(667)','<div class="nodetag">(667)</div></span>&nbsp;&nbsp;Γκάνα. Δημοκρατία της Γκάνα','(667)','Γκάνα. Δημοκρατία της Γκάνα','','','',false,true);
+d.add(465,450,'(668.1)','<div class="nodetag">(668.1)</div></span>&nbsp;&nbsp;Τόγκο. Δημοκρατία του Τόγκο. République togolaise','(668.1)','Τόγκο. Δημοκρατία του Τόγκο. République togolaise','','','',false,true);
+d.add(466,450,'(668.2)','<div class="nodetag">(668.2)</div></span>&nbsp;&nbsp;Μπένιν. Δημοκρατία του Μπένιν. République du Bénin','(668.2)','Μπένιν. Δημοκρατία του Μπένιν. République du Bénin','','','',false,true);
+d.add(467,450,'(669.1)','<div class="nodetag">(669.1)</div></span>&nbsp;&nbsp;Νιγηρία. Ομοσπονδιακή Δημοκρατία της Νιγηρίας','(669.1)','Νιγηρία. Ομοσπονδιακή Δημοκρατία της Νιγηρίας','','','',false,true);
+d.add(468,450,'(669.95)','<div class="nodetag">(669.95)</div></span>&nbsp;&nbsp;Σαο Τομέ. Δημοκρατία του Σαο Τομέ και Πρίνσιπε. República Democrática de São Tomé e Príncipe','(669.95)','Σαο Τομέ. Δημοκρατία του Σαο Τομέ και Πρίνσιπε. República Democrática de São Tomé e Príncipe','','','',false,true);
+d.add(469,438,'(67)','<div class="nodetag">(67)</div></span>&nbsp;&nbsp;Ισημερινός, κεντρικά και ανατολικά Αφρικανικά κράτη και περιοχές','(67)','Ισημερινός, κεντρικά και ανατολικά Αφρικανικά κράτη και περιοχές','','','',false,true);
+d.add(470,469,'(671.1)','<div class="nodetag">(671.1)</div></span>&nbsp;&nbsp;Καμερούν. Ενωμένη Δημοκρατία του Καμερούν','(671.1)','Καμερούν. Ενωμένη Δημοκρατία του Καμερούν','','','',false,true);
+d.add(471,469,'(671.8)','<div class="nodetag">(671.8)</div></span>&nbsp;&nbsp;Ισημερινή Γουϊνέα. Δημοκρατία της Ισημερινής Γουϊνέας','(671.8)','Ισημερινή Γουϊνέα. Δημοκρατία της Ισημερινής Γουϊνέας','','','',false,true);
+d.add(472,469,'(672.1)','<div class="nodetag">(672.1)</div></span>&nbsp;&nbsp;Γκαμπόν. Δημοκρατία του Γκαμπόν. République Gabonaise','(672.1)','Γκαμπόν. Δημοκρατία του Γκαμπόν. République Gabonaise','','','',false,true);
+d.add(473,469,'(672.4)','<div class="nodetag">(672.4)</div></span>&nbsp;&nbsp;Κονγκό (Μπραζαβίλ). Δημοκρατία του Κονγκό. République du Congo. Repubilika ya Kongo. Republiki ya Kongó','(672.4)','Κονγκό (Μπραζαβίλ). Δημοκρατία του Κονγκό. République du Congo. Repubilika ya Kongo. Republiki ya Kongó','','','',false,true);
+d.add(474,469,'(673)','<div class="nodetag">(673)</div></span>&nbsp;&nbsp;Ανγκόλα. Δημοκρατία της Ανγκόλα','(673)','Ανγκόλα. Δημοκρατία της Ανγκόλα','','','',false,true);
+d.add(475,469,'(674.1)','<div class="nodetag">(674.1)</div></span>&nbsp;&nbsp;Κεντρική Αφρικανική Δημοκρατία','(674.1)','Κεντρική Αφρικανική Δημοκρατία','','','',false,true);
+d.add(476,469,'(674.3)','<div class="nodetag">(674.3)</div></span>&nbsp;&nbsp;Τσαντ. Δημοκρατία του Τσαντ','(674.3)','Τσαντ. Δημοκρατία του Τσαντ','','','',false,true);
+d.add(477,469,'(675)','<div class="nodetag">(675)</div></span>&nbsp;&nbsp;Δημοκρατία του Κονγκό. République Démocratique du Congo. Republiki ya Kongó Demokratiki. Jamhuri ya Kidemokrasia ya Kongo','(675)','Δημοκρατία του Κονγκό. République Démocratique du Congo. Republiki ya Kongó Demokratiki. Jamhuri ya Kidemokrasia ya Kongo','','','',false,true);
+d.add(478,477,'(675.97)','<div class="nodetag">(675.97)</div></span>&nbsp;&nbsp;Μπουρούντι. Δημοκρατία του Μπουρούντι','(675.97)','Μπουρούντι. Δημοκρατία του Μπουρούντι','','','',false,true);
+d.add(479,477,'(675.98)','<div class="nodetag">(675.98)</div></span>&nbsp;&nbsp;Ρουάντα. Δημοκρατία της Ρουάντα','(675.98)','Ρουάντα. Δημοκρατία της Ρουάντα','','','',false,true);
+d.add(480,469,'(676.1)','<div class="nodetag">(676.1)</div></span>&nbsp;&nbsp;Ουγκάντα. Δημοκρατία της Ουγκάντα','(676.1)','Ουγκάντα. Δημοκρατία της Ουγκάντα','','','',false,true);
+d.add(481,469,'(676.2)','<div class="nodetag">(676.2)</div></span>&nbsp;&nbsp;Κένυα. Δημοκρατία της Κένυα. Jamhuri ya Kenya','(676.2)','Κένυα. Δημοκρατία της Κένυα. Jamhuri ya Kenya','','','',false,true);
+d.add(482,469,'(677.8)','<div class="nodetag">(677.8)</div></span>&nbsp;&nbsp;Σομαλία. Δημοκρατία της Σομαλίας','(677.8)','Σομαλία. Δημοκρατία της Σομαλίας','','','',false,true);
+d.add(483,469,'(677.9)','<div class="nodetag">(677.9)</div></span>&nbsp;&nbsp;Τζιμπουτί. Δημοκρατία του Τζιμπουτί. Jumhouriyya Djibouti','(677.9)','Τζιμπουτί. Δημοκρατία του Τζιμπουτί. Jumhouriyya Djibouti','','','',false,true);
+d.add(484,469,'(678)','<div class="nodetag">(678)</div></span>&nbsp;&nbsp;Τανζανία. Ενωμένη Δημοκρατία της Τανζανίας','(678)','Τανζανία. Ενωμένη Δημοκρατία της Τανζανίας','','','',false,true);
+d.add(485,469,'(679)','<div class="nodetag">(679)</div></span>&nbsp;&nbsp;Μοζαμβίκη. Δημοκρατία της Μοζαμβίκης. República de Moçambique','(679)','Μοζαμβίκη. Δημοκρατία της Μοζαμβίκης. República de Moçambique','','','',false,true);
+d.add(486,438,'(68)','<div class="nodetag">(68)</div></span>&nbsp;&nbsp;Κράτη και περιοχές της Νότιας Αφρικής','(68)','Κράτη και περιοχές της Νότιας Αφρικής','','','',false,true);
+d.add(487,486,'(680)','<div class="nodetag">(680)</div></span>&nbsp;&nbsp;Νότια Αφρική. Δημοκρατία της Νότιας Αφρικής','(680)','Νότια Αφρική. Δημοκρατία της Νότιας Αφρικής','','','',false,true);
+d.add(488,486,'(688.1)','<div class="nodetag">(688.1)</div></span>&nbsp;&nbsp;Ναμίμπια. Δημοκρατία της Ναμίμπια','(688.1)','Ναμίμπια. Δημοκρατία της Ναμίμπια','','','',false,true);
+d.add(489,486,'(688.3)','<div class="nodetag">(688.3)</div></span>&nbsp;&nbsp;Μποτσουάνα. Δημοκρατία της Μποτσουάνα. Lefatshe la Botswana','(688.3)','Μποτσουάνα. Δημοκρατία της Μποτσουάνα. Lefatshe la Botswana','','','',false,true);
+d.add(490,486,'(688.5)','<div class="nodetag">(688.5)</div></span>&nbsp;&nbsp;Λεσότο. Βασίλειο του Λεσότο. Muso oa Lesotho','(688.5)','Λεσότο. Βασίλειο του Λεσότο. Muso oa Lesotho','','','',false,true);
+d.add(491,486,'(688.7)','<div class="nodetag">(688.7)</div></span>&nbsp;&nbsp;Σουαζιλάνδη (Ngwane). Βασίλειο της Σουαζιλάνδης. Umbuso weSwatini','(688.7)','Σουαζιλάνδη (Ngwane). Βασίλειο της Σουαζιλάνδης. Umbuso weSwatini','','','',false,true);
+d.add(492,486,'(689.1)','<div class="nodetag">(689.1)</div></span>&nbsp;&nbsp;Ζιμπάμπουε. Δημοκρατία της Ζιμπάμπουε','(689.1)','Ζιμπάμπουε. Δημοκρατία της Ζιμπάμπουε','','','',false,true);
+d.add(493,486,'(689.4)','<div class="nodetag">(689.4)</div></span>&nbsp;&nbsp;Ζάμπια. Δημοκρατία της Ζάμπια','(689.4)','Ζάμπια. Δημοκρατία της Ζάμπια','','','',false,true);
+d.add(494,486,'(689.7)','<div class="nodetag">(689.7)</div></span>&nbsp;&nbsp;Μαλάουϊ. Δημοκρατία του Μαλάουϊ','(689.7)','Μαλάουϊ. Δημοκρατία του Μαλάουϊ','','','',false,true);
+d.add(495,438,'(69)','<div class="nodetag">(69)</div></span>&nbsp;&nbsp;Αφρικανικά νησιά του Ινδικού και του Νότιου Ατλαντικού Ωκεανού','(69)','Αφρικανικά νησιά του Ινδικού και του Νότιου Ατλαντικού Ωκεανού','','','',false,true);
+d.add(496,495,'(691)','<div class="nodetag">(691)</div></span>&nbsp;&nbsp;Μαδαγασκάρη. Δημοκρατία της Μαδαγασκάρης. Repoblikan\'i Madagasikara','(691)','Μαδαγασκάρη. Δημοκρατία της Μαδαγασκάρης. Repoblikan\'i Madagasikara','','','',false,true);
+d.add(497,495,'(694)','<div class="nodetag">(694)</div></span>&nbsp;&nbsp;Νησιά βόρεια της Μαδαγασκάρης','(694)','Νησιά βόρεια της Μαδαγασκάρης','','','',false,true);
+d.add(498,495,'(696)','<div class="nodetag">(696)</div></span>&nbsp;&nbsp;Σεϋχέλλες. Δημοκρατία των Σεϋχελλών. République des Seychelles','(696)','Σεϋχέλλες. Δημοκρατία των Σεϋχελλών. République des Seychelles','','','',false,true);
+d.add(499,495,'(697)','<div class="nodetag">(697)</div></span>&nbsp;&nbsp;Βρεττανική Επικράτεια Ινδικού Ωκεανού (ΒΙΟΤ) (Αρχιπέλαγος Τσάγος)','(697)','Βρεττανική Επικράτεια Ινδικού Ωκεανού (ΒΙΟΤ) (Αρχιπέλαγος Τσάγος)','','','',false,true);
+d.add(500,495,'(698)','<div class="nodetag">(698)</div></span>&nbsp;&nbsp;Νήσοι Μασκαρένε','(698)','Νήσοι Μασκαρένε','','','',false,true);
+d.add(501,500,'(698.1)','<div class="nodetag">(698.1)</div></span>&nbsp;&nbsp;Ρεουνιόν (Γαλλία)','(698.1)','Ρεουνιόν (Γαλλία)','','','',false,true);
+d.add(502,500,'(698.2)','<div class="nodetag">(698.2)</div></span>&nbsp;&nbsp;Μαυρίκιος. Δημοκρατία του Μαυρίκιου. Repiblik Moris. République de Maurice','(698.2)','Μαυρίκιος. Δημοκρατία του Μαυρίκιου. Repiblik Moris. République de Maurice','','','',false,true);
+d.add(503,495,'(699)','<div class="nodetag">(699)</div></span>&nbsp;&nbsp;Απομεμακρυσμένα νησιά στον Νότιο Ινδικό και Νότιο Ατλαντικό Ωκεανό','(699)','Απομεμακρυσμένα νησιά στον Νότιο Ινδικό και Νότιο Ατλαντικό Ωκεανό','','','',false,true);
+d.add(504,326,'(7/8)','<div class="nodetag">(7/8)</div></span>&nbsp;&nbsp;Αμερική, Βόρεια και Νότια. Οι Αμερικές','(7/8)','Αμερική, Βόρεια και Νότια. Οι Αμερικές','','','',false,true);
+d.add(505,504,'(7)','<div class="nodetag">(7)</div></span>&nbsp;&nbsp;Βόρεια και Κεντρική Αμερική','(7)','Βόρεια και Κεντρική Αμερική','','','',false,true);
+d.add(506,505,'(71)','<div class="nodetag">(71)</div></span>&nbsp;&nbsp;Καναδάς','(71)','Καναδάς','','','',false,true);
+d.add(507,505,'(72)','<div class="nodetag">(72)</div></span>&nbsp;&nbsp;Μεξικό. Κεντρικές Αμερικανικές Πολιτείες. Περιοχές της Καραϊβικής','(72)','Μεξικό. Κεντρικές Αμερικανικές Πολιτείες. Περιοχές της Καραϊβικής','','','',false,true);
+d.add(508,507,'(721/727)','<div class="nodetag">(721/727)</div></span>&nbsp;&nbsp;Μεξικό. Ενωμένες Μεξικανικές Πολιτείες. México (Méjico). Estados Unidos Mexicanos','(721/727)','Μεξικό. Ενωμένες Μεξικανικές Πολιτείες. México (Méjico). Estados Unidos Mexicanos','','','',false,true);
+d.add(509,507,'(728)','<div class="nodetag">(728)</div></span>&nbsp;&nbsp;Κεντρικές Αμερικανικές Πολιτείες','(728)','Κεντρικές Αμερικανικές Πολιτείες','','','',false,true);
+d.add(510,509,'(728.1)','<div class="nodetag">(728.1)</div></span>&nbsp;&nbsp;Γουατεμάλα. Δημοκρατία της Γουατεμάλας. República de Guatemala','(728.1)','Γουατεμάλα. Δημοκρατία της Γουατεμάλας. República de Guatemala','','','',false,true);
+d.add(511,509,'(728.2)','<div class="nodetag">(728.2)</div></span>&nbsp;&nbsp;Μπελίζ. Belice','(728.2)','Μπελίζ. Belice','','','',false,true);
+d.add(512,509,'(728.3)','<div class="nodetag">(728.3)</div></span>&nbsp;&nbsp;Ονδούρα. Δημοκρατία της Ονδούρας. República de Honduras','(728.3)','Ονδούρα. Δημοκρατία της Ονδούρας. República de Honduras','','','',false,true);
+d.add(513,509,'(728.4)','<div class="nodetag">(728.4)</div></span>&nbsp;&nbsp;Ελ Σαλβαδόρ. Δημοκρατία του Ελ Σαλβαδόρ. República de El Salvador','(728.4)','Ελ Σαλβαδόρ. Δημοκρατία του Ελ Σαλβαδόρ. República de El Salvador','','','',false,true);
+d.add(514,509,'(728.5)','<div class="nodetag">(728.5)</div></span>&nbsp;&nbsp;Νικαράγουα. Δημοκρατία της Νικαράγουας. República de Nicaragua','(728.5)','Νικαράγουα. Δημοκρατία της Νικαράγουας. República de Nicaragua','','','',false,true);
+d.add(515,509,'(728.6)','<div class="nodetag">(728.6)</div></span>&nbsp;&nbsp;Κόστα Ρίκα. Δημοκρατία της Κόστα Ρίκα. República de Costa Rica','(728.6)','Κόστα Ρίκα. Δημοκρατία της Κόστα Ρίκα. República de Costa Rica','','','',false,true);
+d.add(516,509,'(728.7)','<div class="nodetag">(728.7)</div></span>&nbsp;&nbsp;Παναμάς. Δημοκρατία του Παναμά. República de Panamá','(728.7)','Παναμάς. Δημοκρατία του Παναμά. República de Panamá','','','',false,true);
+d.add(517,507,'(729)','<div class="nodetag">(729)</div></span>&nbsp;&nbsp;Περιοχές της Καραϊβικής. Δυτικές Ινδίες (Αντίλλες)','(729)','Περιοχές της Καραϊβικής. Δυτικές Ινδίες (Αντίλλες)','','','',false,true);
+d.add(518,517,'(729.1/.5)','<div class="nodetag">(729.1/.5)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Greater Antilles</span>','(729.1/.5)','Greater Antilles','','','',false,true);
+d.add(519,518,'(729.1)','<div class="nodetag">(729.1)</div></span>&nbsp;&nbsp;Κούβα. Δημοκρατία τη Κούβας. República de Cuba','(729.1)','Κούβα. Δημοκρατία τη Κούβας. República de Cuba','','','',false,true);
+d.add(520,518,'(729.2)','<div class="nodetag">(729.2)</div></span>&nbsp;&nbsp;Τζαμάϊκα','(729.2)','Τζαμάϊκα','','','',false,true);
+d.add(521,518,'(729.29)','<div class="nodetag">(729.29)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Cayman Islands (UK)</span>','(729.29)','Cayman Islands (UK)','','','',false,true);
+d.add(522,518,'(729.3/.4)','<div class="nodetag">(729.3/.4)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Hispaniola</span>','(729.3/.4)','Hispaniola','','','',false,true);
+d.add(523,522,'(729.3)','<div class="nodetag">(729.3)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Dominican Republic</span>','(729.3)','Dominican Republic','','','',false,true);
+d.add(524,522,'(729.4)','<div class="nodetag">(729.4)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Haiti. Republic of Haiti</span>','(729.4)','Haiti. Republic of Haiti','','','',false,true);
+d.add(525,518,'(729.5)','<div class="nodetag">(729.5)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Puerto Rico. Commonwealth of Puerto Rico (USA)</span>','(729.5)','Puerto Rico. Commonwealth of Puerto Rico (USA)','','','',false,true);
+d.add(526,517,'(729.68)','<div class="nodetag">(729.68)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Turks and Caicos Islands (UK)</span>','(729.68)','Turks and Caicos Islands (UK)','','','',false,true);
+d.add(527,517,'(729.7/.8)','<div class="nodetag">(729.7/.8)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Lesser Antilles (Eastern Caribbean)</span>','(729.7/.8)','Lesser Antilles (Eastern Caribbean)','','','',false,true);
+d.add(528,527,'(729.7)','<div class="nodetag">(729.7)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Leeward Islands</span>','(729.7)','Leeward Islands','','','',false,true);
+d.add(529,528,'(729.71)','<div class="nodetag">(729.71)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Virgin Islands of the United States (American Virgin Islands) (USA)</span>','(729.71)','Virgin Islands of the United States (American Virgin Islands) (USA)','','','',false,true);
+d.add(530,528,'(729.724)','<div class="nodetag">(729.724)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">St Kitts-Nevis. Federation of St Kitts-Nevis</span>','(729.724)','St Kitts-Nevis. Federation of St Kitts-Nevis','','','',false,true);
+d.add(531,528,'(729.726)','<div class="nodetag">(729.726)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Antigua and Barbuda</span>','(729.726)','Antigua and Barbuda','','','',false,true);
+d.add(532,528,'(729.727)','<div class="nodetag">(729.727)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Montserrat (UK)</span>','(729.727)','Montserrat (UK)','','','',false,true);
+d.add(533,528,'(729.74)','<div class="nodetag">(729.74)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">French territories in Lesser Antilles</span>','(729.74)','French territories in Lesser Antilles','','','',false,true);
+d.add(534,533,'(729.741)','<div class="nodetag">(729.741)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Guadeloupe (region and department) (France)</span>','(729.741)','Guadeloupe (region and department) (France)','','','',false,true);
+d.add(535,533,'(729.745)','<div class="nodetag">(729.745)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Martinique (region and department) (France)</span>','(729.745)','Martinique (region and department) (France)','','','',false,true);
+d.add(536,527,'(729.8)','<div class="nodetag">(729.8)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Windward Islands</span>','(729.8)','Windward Islands','','','',false,true);
+d.add(537,536,'(729.821)','<div class="nodetag">(729.821)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Dominica. Commonwealth of Dominica</span>','(729.821)','Dominica. Commonwealth of Dominica','','','',false,true);
+d.add(538,536,'(729.822)','<div class="nodetag">(729.822)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Saint Lucia. State of Saint Lucia</span>','(729.822)','Saint Lucia. State of Saint Lucia','','','',false,true);
+d.add(539,536,'(729.824)','<div class="nodetag">(729.824)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Saint Vincent. Saint Vincent and the Grenadines</span>','(729.824)','Saint Vincent. Saint Vincent and the Grenadines','','','',false,true);
+d.add(540,536,'(729.828)','<div class="nodetag">(729.828)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Grenada</span>','(729.828)','Grenada','','','',false,true);
+d.add(541,536,'(729.86)','<div class="nodetag">(729.86)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Barbados</span>','(729.86)','Barbados','','','',false,true);
+d.add(542,536,'(729.87)','<div class="nodetag">(729.87)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Trinidad and Tobago. Republic of Trinidad and Tobago</span>','(729.87)','Trinidad and Tobago. Republic of Trinidad and Tobago','','','',false,true);
+d.add(543,536,'(729.88)','<div class="nodetag">(729.88)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Netherlands territories in Lesser Antilles (Caribees). Nederlandse Antillen. Antia Hulandes</span>','(729.88)','Netherlands territories in Lesser Antilles (Caribees). Nederlandse Antillen. Antia Hulandes','','','',false,true);
+d.add(544,543,'(729.885)','<div class="nodetag">(729.885)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Aruba (Kingdom of the Netherlands)</span>','(729.885)','Aruba (Kingdom of the Netherlands)','','','',false,true);
+d.add(545,517,'(729.9)','<div class="nodetag">(729.9)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Bermudas (Somers Islands) (UK)</span>','(729.9)','Bermudas (Somers Islands) (UK)','','','',false,true);
+d.add(546,505,'(73)','<div class="nodetag">(73)</div></span>&nbsp;&nbsp;Ηνωμένες Πολιτείες της Αμερικές (ΗΠΑ)','(73)','Ηνωμένες Πολιτείες της Αμερικές (ΗΠΑ)','','','',false,true);
+d.add(547,504,'(8)','<div class="nodetag">(8)</div></span>&nbsp;&nbsp;Νότια Αμερική. Κράτη και περιοχές της Νότιας Αμερικής. Λατινική Αμερική','(8)','Νότια Αμερική. Κράτη και περιοχές της Νότιας Αμερικής. Λατινική Αμερική','','','',false,true);
+d.add(548,547,'(81)','<div class="nodetag">(81)</div></span>&nbsp;&nbsp;Βραζιλία. Ομοσπονδιακή Δημοκρατία της Βραζιλίας. República Federativa do Brasil','(81)','Βραζιλία. Ομοσπονδιακή Δημοκρατία της Βραζιλίας. República Federativa do Brasil','','','',false,true);
+d.add(549,547,'(82)','<div class="nodetag">(82)</div></span>&nbsp;&nbsp;Αργεντινή. Δημοκρατία της Αργεντινής. República Argentina','(82)','Αργεντινή. Δημοκρατία της Αργεντινής. República Argentina','','','',false,true);
+d.add(550,547,'(83)','<div class="nodetag">(83)</div></span>&nbsp;&nbsp;Χιλή. Δημοκρατία της Χιλής. República de Chile','(83)','Χιλή. Δημοκρατία της Χιλής. República de Chile','','','',false,true);
+d.add(551,547,'(84)','<div class="nodetag">(84)</div></span>&nbsp;&nbsp;Βολιβία. Το Πολυεθνικό Κράτος της Βολιβίας. Estado Plurinacional de Bolivia. Bulibya Mamallaqta. Wuliwya Suyu. Tetã Volívia','(84)','Βολιβία. Το Πολυεθνικό Κράτος της Βολιβίας. Estado Plurinacional de Bolivia. Bulibya Mamallaqta. Wuliwya Suyu. Tetã Volívia','','','',false,true);
+d.add(552,547,'(85)','<div class="nodetag">(85)</div></span>&nbsp;&nbsp;Περού. Δημοκρατία του Περού. República del Perú','(85)','Περού. Δημοκρατία του Περού. República del Perú','','','',false,true);
+d.add(553,547,'(862)','<div class="nodetag">(862)</div></span>&nbsp;&nbsp;Κολομβία. Δημοκρατία της Κολομβίας','(862)','Κολομβία. Δημοκρατία της Κολομβίας','','','',false,true);
+d.add(554,547,'(866)','<div class="nodetag">(866)</div></span>&nbsp;&nbsp;Εκουαδόρ. Δημοκρατία του Εκουαδόρ','(866)','Εκουαδόρ. Δημοκρατία του Εκουαδόρ','','','',false,true);
+d.add(555,547,'(87)','<div class="nodetag">(87)</div></span>&nbsp;&nbsp;Βενεζουέλα. Μπολιβαριανή Δημοκρατία της Βενεζουέλας. República Bolivariana de Venezuela','(87)','Βενεζουέλα. Μπολιβαριανή Δημοκρατία της Βενεζουέλας. República Bolivariana de Venezuela','','','',false,true);
+d.add(556,547,'(88)','<div class="nodetag">(88)</div></span>&nbsp;&nbsp;Οι Γουϊάνες','(88)','Οι Γουϊάνες','','','',false,true);
+d.add(557,556,'(881)','<div class="nodetag">(881)</div></span>&nbsp;&nbsp;Γουϊάνα. Συνεργατική Δημοκρατία της Γουϊάνας','(881)','Γουϊάνα. Συνεργατική Δημοκρατία της Γουϊάνας','','','',false,true);
+d.add(558,556,'(882)','<div class="nodetag">(882)</div></span>&nbsp;&nbsp;Γαλλική Γουϊάνα. Περιφέρεια της Γουϊάνας. Guyane française. Guyane (département d\'outre-mer)','(882)','Γαλλική Γουϊάνα. Περιφέρεια της Γουϊάνας. Guyane française. Guyane (département d\'outre-mer)','','','',false,true);
+d.add(559,556,'(883)','<div class="nodetag">(883)</div></span>&nbsp;&nbsp;Σουρινάμ. Δημοκρατία του Σουρινάμ. Sranan. Republiek Suriname','(883)','Σουρινάμ. Δημοκρατία του Σουρινάμ. Sranan. Republiek Suriname','','','',false,true);
+d.add(560,547,'(893)','<div class="nodetag">(893)</div></span>&nbsp;&nbsp;Παραγουάη. Δημοκρατία της Παραγουάης. República del Paraguay. Tetã Paraguái','(893)','Παραγουάη. Δημοκρατία της Παραγουάης. República del Paraguay. Tetã Paraguái','','','',false,true);
+d.add(561,547,'(899)','<div class="nodetag">(899)</div></span>&nbsp;&nbsp;Ουρουγουάη. Ανατολική Δημοκρατία της Ουρουγουάης. República Oriental del Uruguay','(899)','Ουρουγουάη. Ανατολική Δημοκρατία της Ουρουγουάης. República Oriental del Uruguay','','','',false,true);
+d.add(562,326,'(9)','<div class="nodetag">(9)</div></span>&nbsp;&nbsp;Κράτη και περιοχές του Νότιου Ειρηνικού και Αυσττραλία. Αρκτική. Ανταρκτική','(9)','Κράτη και περιοχές του Νότιου Ειρηνικού και Αυσττραλία. Αρκτική. Ανταρκτική','','','',false,true);
+d.add(563,562,'(931)','<div class="nodetag">(931)</div></span>&nbsp;&nbsp;Νέα Ζηλανδία','(931)','Νέα Ζηλανδία','','','',false,true);
+d.add(564,562,'(932/935)','<div class="nodetag">(932/935)</div></span>&nbsp;&nbsp;Μελανησία. Κράτη και περιοχές της Μελανησίας','(932/935)','Μελανησία. Κράτη και περιοχές της Μελανησίας','','','',false,true);
+d.add(565,562,'(94)','<div class="nodetag">(94)</div></span>&nbsp;&nbsp;Αυστραλία. Αυστραλιανή Κοινοπολιτεία','(94)','Αυστραλία. Αυστραλιανή Κοινοπολιτεία','','','',false,true);
+d.add(566,562,'(954)','<div class="nodetag">(954)</div></span>&nbsp;&nbsp;Παπούα Νέα Γουϊνέα. Ανεξάρτητο Κράτος της Παπούα Νέα Γουϊνέα','(954)','Παπούα Νέα Γουϊνέα. Ανεξάρτητο Κράτος της Παπούα Νέα Γουϊνέα','','','',false,true);
+d.add(567,562,'(961/964)','<div class="nodetag">(961/964)</div></span>&nbsp;&nbsp;Πολυνησία. Κράτη και περιοχές της Πολυνησίας','(961/964)','Πολυνησία. Κράτη και περιοχές της Πολυνησίας','','','',false,true);
+d.add(568,562,'(966/968)','<div class="nodetag">(966/968)</div></span>&nbsp;&nbsp;Μικρονησία. Κράτη και περιοχές της Μικρονησίας','(966/968)','Μικρονησία. Κράτη και περιοχές της Μικρονησίας','','','',false,true);
+d.add(569,562,'(97)','<div class="nodetag">(97)</div></span>&nbsp;&nbsp;Απομονωμένα Νησιά του Ειρηνικού Ωκεανού','(97)','Απομονωμένα Νησιά του Ειρηνικού Ωκεανού','','','',false,true);
+d.add(570,562,'(98)','<div class="nodetag">(98)</div></span>&nbsp;&nbsp;Αρκτικές περιοχές. Περιοχές του Βορείου Πόλου','(98)','Αρκτικές περιοχές. Περιοχές του Βορείου Πόλου','','','',false,true);
+d.add(571,570,'(988)','<div class="nodetag">(988)</div></span>&nbsp;&nbsp;Γρηλανδία (Δανία)','(988)','Γρηλανδία (Δανία)','','','',false,true);
+d.add(572,562,'(99)','<div class="nodetag">(99)</div></span>&nbsp;&nbsp;Ανταρκτικές περιοχές. Περιοχές του Νοτίου Πόλου','(99)','Ανταρκτικές περιοχές. Περιοχές του Νοτίου Πόλου','','','',false,true);
+d.add(573,0,'(=...)','<div class="nodetag">(=...)</div></span>&nbsp;&nbsp;Κοινά βοηθητικά νούμερα γενεαλογίας, εθνικότητας και υπηκοότητας. Πίνακας 1f','(=...)','Κοινά βοηθητικά νούμερα γενεαλογίας, εθνικότητας και υπηκοότητας. Πίνακας 1f','','','',false,true);
+d.add(574,573,'(=01)','<div class="nodetag">(=01)</div></span>&nbsp;&nbsp;Γενεαλογικές ομάδες','(=01)','Γενεαλογικές ομάδες','','','',false,true);
+d.add(575,574,'(=011)','<div class="nodetag">(=011)</div></span>&nbsp;&nbsp;Ευρωπαϊκή γενεαλογική ομάδα','(=011)','Ευρωπαϊκή γενεαλογική ομάδα','','','',false,true);
+d.add(576,574,'(=012)','<div class="nodetag">(=012)</div></span>&nbsp;&nbsp;Ασιατική γενεαλογική ομάδα','(=012)','Ασιατική γενεαλογική ομάδα','','','',false,true);
+d.add(577,574,'(=013)','<div class="nodetag">(=013)</div></span>&nbsp;&nbsp;Αφρικανική γενεαλογική ομάδα','(=013)','Αφρικανική γενεαλογική ομάδα','','','',false,true);
+d.add(578,574,'(=014)','<div class="nodetag">(=014)</div></span>&nbsp;&nbsp;Ωκεανική γενεαλογική ομάδα','(=014)','Ωκεανική γενεαλογική ομάδα','','','',false,true);
+d.add(579,574,'(=017)','<div class="nodetag">(=017)</div></span>&nbsp;&nbsp;Γενεαλογική ομάδα γηγενών αμερικανών','(=017)','Γενεαλογική ομάδα γηγενών αμερικανών','','','',false,true);
+d.add(580,573,'(=1/=8)','<div class="nodetag">(=1/=8)</div></span>&nbsp;&nbsp;Γλωσσικές - πολιτισμικές ομάδες, εθνικές ομάδες, λαοί','(=1/=8)','Γλωσσικές - πολιτισμικές ομάδες, εθνικές ομάδες, λαοί','','','',false,true);
+d.add(581,580,'(=1/=2)','<div class="nodetag">(=1/=2)</div></span>&nbsp;&nbsp;Ινδο-ευρωπαϊκοί λαοί','(=1/=2)','Ινδο-ευρωπαϊκοί λαοί','','','',false,true);
+d.add(582,581,'(=13)','<div class="nodetag">(=13)</div></span>&nbsp;&nbsp;Ρωμανικοί, Λατινικοί λαοί','(=13)','Ρωμανικοί, Λατινικοί λαοί','','','',false,true);
+d.add(583,573,'(=1:1/9)','<div class="nodetag">(=1:1/9)</div></span>&nbsp;&nbsp;Λαοί συνδεδεμένοι με συγκεκριμένους τόπους','(=1:1/9)','Λαοί συνδεδεμένοι με συγκεκριμένους τόπους','','','',false,true);
+d.add(584,0,'"..."','<div class="nodetag">"..."</div></span>&nbsp;&nbsp;Κοινά βοηθητικά νούμερα χρόνου. Πίνακας 1g','"..."','Κοινά βοηθητικά νούμερα χρόνου. Πίνακας 1g','','','',false,true);
+d.add(585,584,'"0/2"','<div class="nodetag">"0/2"</div></span>&nbsp;&nbsp;Ημερομηνίες και πεδία χρόνου (κ.ε. και ...) στον συμβατικό Χριστιανικό (Γρηγοριανό) υπολογισμό','"0/2"','Ημερομηνίες και πεδία χρόνου (κ.ε. και ...) στον συμβατικό Χριστιανικό (Γρηγοριανό) υπολογισμό','','','',false,true);
+d.add(586,585,'"0"','<div class="nodetag">"0"</div></span>&nbsp;&nbsp;Πρώτη Χιλιετία μ.Χ.','"0"','Πρώτη Χιλιετία μ.Χ.','','','',false,true);
+d.add(587,585,'"1"','<div class="nodetag">"1"</div></span>&nbsp;&nbsp;Δεύτερη Χιλιετία μ.Χ.','"1"','Δεύτερη Χιλιετία μ.Χ.','','','',false,true);
+d.add(588,585,'"2"','<div class="nodetag">"2"</div></span>&nbsp;&nbsp;Τρίτη Χιλιετία μ.Χ.','"2"','Τρίτη Χιλιετία μ.Χ.','','','',false,true);
+d.add(589,584,'"3/7"','<div class="nodetag">"3/7"</div></span>&nbsp;&nbsp;Διαιρέσεις χρόνου εκτός ημερομηνιών στον Χριστιανικό (Γρηγοριανό) υπολογισμό','"3/7"','Διαιρέσεις χρόνου εκτός ημερομηνιών στον Χριστιανικό (Γρηγοριανό) υπολογισμό','','','',false,true);
+d.add(590,589,'"3"','<div class="nodetag">"3"</div></span>&nbsp;&nbsp;Συμβατικές διαιρέσεις και υποδιαιρέσεις χρόνου: αριθμημένες, χαρακτηρισμένες, κλπ.','"3"','Συμβατικές διαιρέσεις και υποδιαιρέσεις χρόνου: αριθμημένες, χαρακτηρισμένες, κλπ.','','','',false,true);
+d.add(591,590,'"32"','<div class="nodetag">"32"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">The year. Seasons and other divisions of the year</span>','"32"','The year. Seasons and other divisions of the year','','','',false,true);
+d.add(592,591,'"321/324"','<div class="nodetag">"321/324"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Seasons</span>','"321/324"','Seasons','','','',false,true);
+d.add(593,592,'"321"','<div class="nodetag">"321"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Spring</span>','"321"','Spring','','','',false,true);
+d.add(594,592,'"322"','<div class="nodetag">"322"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Summer</span>','"322"','Summer','','','',false,true);
+d.add(595,592,'"323"','<div class="nodetag">"323"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Autumn (fall)</span>','"323"','Autumn (fall)','','','',false,true);
+d.add(596,592,'"324"','<div class="nodetag">"324"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Winter</span>','"324"','Winter','','','',false,true);
+d.add(597,591,'"325"','<div class="nodetag">"325"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Quarters (quarter years, trimesters)</span>','"325"','Quarters (quarter years, trimesters)','','','',false,true);
+d.add(598,591,'"327"','<div class="nodetag">"327"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Months</span>','"327"','Months','','','',false,true);
+d.add(599,591,'"328"','<div class="nodetag">"328"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Weeks</span>','"328"','Weeks','','','',false,true);
+d.add(600,591,'"329"','<div class="nodetag">"329"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Days</span>','"329"','Days','','','',false,true);
+d.add(601,590,'"34"','<div class="nodetag">"34"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Day and night phenomena. Hours or times of day</span>','"34"','Day and night phenomena. Hours or times of day','','','',false,true);
+d.add(602,601,'"344"','<div class="nodetag">"344"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Daytime. Daylight hours</span>','"344"','Daytime. Daylight hours','','','',false,true);
+d.add(603,601,'"345"','<div class="nodetag">"345"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Night-time. Hours of darkness or semi-darkness</span>','"345"','Night-time. Hours of darkness or semi-darkness','','','',false,true);
+d.add(604,590,'"36"','<div class="nodetag">"36"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Times of peace, war, danger, emergency, difficulties</span>','"36"','Times of peace, war, danger, emergency, difficulties','','','',false,true);
+d.add(605,604,'"362"','<div class="nodetag">"362"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Peacetime. Time of no danger</span>','"362"','Peacetime. Time of no danger','','','',false,true);
+d.add(606,604,'"363"','<div class="nodetag">"363"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Time of danger, threat</span>','"363"','Time of danger, threat','','','',false,true);
+d.add(607,604,'"364"','<div class="nodetag">"364"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Wartime</span>','"364"','Wartime','','','',false,true);
+d.add(608,604,'"367"','<div class="nodetag">"367"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Times according to volume of use, load, demand</span>','"367"','Times according to volume of use, load, demand','','','',false,true);
+d.add(609,590,'"37"','<div class="nodetag">"37"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Time of work activity, occupation, production, daily routine</span>','"37"','Time of work activity, occupation, production, daily routine','','','',false,true);
+d.add(610,609,'"372"','<div class="nodetag">"372"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Working hours. Service hours. Time of occupation</span>','"372"','Working hours. Service hours. Time of occupation','','','',false,true);
+d.add(611,609,'"377"','<div class="nodetag">"377"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Rest and recreation time. Spare time. Free time. Time outside working hours</span>','"377"','Rest and recreation time. Spare time. Free time. Time outside working hours','','','',false,true);
+d.add(612,590,'"38"','<div class="nodetag">"38"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Holidays. Festive and commemorative occasions</span>','"38"','Holidays. Festive and commemorative occasions','','','',false,true);
+d.add(613,612,'"382"','<div class="nodetag">"382"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Religious holidays, festive and commemorative occasions</span>','"382"','Religious holidays, festive and commemorative occasions','','','',false,true);
+d.add(614,612,'"383"','<div class="nodetag">"383"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Public, national or regional holidays (other than religious)</span>','"383"','Public, national or regional holidays (other than religious)','','','',false,true);
+d.add(615,612,'"385"','<div class="nodetag">"385"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Personal private holidays, vacation or leave time</span>','"385"','Personal private holidays, vacation or leave time','','','',false,true);
+d.add(616,589,'"4"','<div class="nodetag">"4"</div></span>&nbsp;&nbsp;Διάρκεια. Περίοδος. Ηλικίες και ηλικιακές ομάδες','"4"','Διάρκεια. Περίοδος. Ηλικίες και ηλικιακές ομάδες','','','',false,true);
+d.add(617,616,'"40"','<div class="nodetag">"40"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Relative duration, period, term</span>','"40"','Relative duration, period, term','','','',false,true);
+d.add(618,617,'"401"','<div class="nodetag">"401"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Life or lifetime with definite term or deadline. Period of durability</span>','"401"','Life or lifetime with definite term or deadline. Period of durability','','','',false,true);
+d.add(619,617,'"403"','<div class="nodetag">"403"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Short duration. Short-term</span>','"403"','Short duration. Short-term','','','',false,true);
+d.add(620,617,'"404"','<div class="nodetag">"404"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Medium duration. Medium-term</span>','"404"','Medium duration. Medium-term','','','',false,true);
+d.add(621,617,'"405"','<div class="nodetag">"405"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Long duration. Long-term</span>','"405"','Long duration. Long-term','','','',false,true);
+d.add(622,617,'"408"','<div class="nodetag">"408"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Indefinite, unlimited duration. Without specific term or deadline</span>','"408"','Indefinite, unlimited duration. Without specific term or deadline','','','',false,true);
+d.add(623,616,'"41"','<div class="nodetag">"41"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Duration up to one day</span>','"41"','Duration up to one day','','','',false,true);
+d.add(624,616,'"42"','<div class="nodetag">"42"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Duration expressed in days</span>','"42"','Duration expressed in days','','','',false,true);
+d.add(625,616,'"43"','<div class="nodetag">"43"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Duration expressed in weeks</span>','"43"','Duration expressed in weeks','','','',false,true);
+d.add(626,616,'"44"','<div class="nodetag">"44"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Duration expressed in months</span>','"44"','Duration expressed in months','','','',false,true);
+d.add(627,616,'"45"','<div class="nodetag">"45"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Duration expressed in years, centuries, millenniums, etc.</span>','"45"','Duration expressed in years, centuries, millenniums, etc.','','','',false,true);
+d.add(628,616,'"46"','<div class="nodetag">"46"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Ages and age groups of persons, animate and inanimate things</span>','"46"','Ages and age groups of persons, animate and inanimate things','','','',false,true);
+d.add(629,628,'"462"','<div class="nodetag">"462"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Age in days</span>','"462"','Age in days','','','',false,true);
+d.add(630,628,'"463"','<div class="nodetag">"463"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Age in weeks</span>','"463"','Age in weeks','','','',false,true);
+d.add(631,628,'"464"','<div class="nodetag">"464"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Age in months</span>','"464"','Age in months','','','',false,true);
+d.add(632,628,'"465"','<div class="nodetag">"465"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Age expressed in years and decades</span>','"465"','Age expressed in years and decades','','','',false,true);
+d.add(633,589,'"5"','<div class="nodetag">"5"</div></span>&nbsp;&nbsp;Περιοδικότητα. Συχνότητα. Επανάληψη σε συγκεκριμένα διαστήματα','"5"','Περιοδικότητα. Συχνότητα. Επανάληψη σε συγκεκριμένα διαστήματα','','','',false,true);
+d.add(634,633,'"51"','<div class="nodetag">"51"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Recurring at intervals of less than a day. More frequent than daily</span>','"51"','Recurring at intervals of less than a day. More frequent than daily','','','',false,true);
+d.add(635,633,'"52"','<div class="nodetag">"52"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Recurring at intervals of 1 day or more (expressed in days)</span>','"52"','Recurring at intervals of 1 day or more (expressed in days)','','','',false,true);
+d.add(636,633,'"53"','<div class="nodetag">"53"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Recurring at intervals of 1 week or more (expressed in weeks)</span>','"53"','Recurring at intervals of 1 week or more (expressed in weeks)','','','',false,true);
+d.add(637,633,'"54"','<div class="nodetag">"54"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Recurring at intervals of 1 month or more (expressed in months)</span>','"54"','Recurring at intervals of 1 month or more (expressed in months)','','','',false,true);
+d.add(638,633,'"55"','<div class="nodetag">"55"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Recurring at intervals of 1 year or more (expressed in years, centuries, millenniums)</span>','"55"','Recurring at intervals of 1 year or more (expressed in years, centuries, millenniums)','','','',false,true);
+d.add(639,633,'"56"','<div class="nodetag">"56"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Recurring every generation, lifetime, etc. Life-cycle</span>','"56"','Recurring every generation, lifetime, etc. Life-cycle','','','',false,true);
+d.add(640,589,'"6"','<div class="nodetag">"6"</div></span>&nbsp;&nbsp;Γεωλογικές, αρχαιολογικές και πολιτιστικές χρονικές διαιρέσεις','"6"','Γεωλογικές, αρχαιολογικές και πολιτιστικές χρονικές διαιρέσεις','','','',false,true);
+d.add(641,640,'"61/62"','<div class="nodetag">"61/62"</div></span>&nbsp;&nbsp;Γεωλογική (λιθολογική/ βιολογική/ παλαιοοικολογική) χρονική διαίρεση','"61/62"','Γεωλογική (λιθολογική/ βιολογική/ παλαιοοικολογική) χρονική διαίρεση','','','',false,true);
+d.add(642,641,'"61"','<div class="nodetag">"61"</div></span>&nbsp;&nbsp;Προ-Καμβρία έως Μεσοζωϊκή (από περισσότερο από 600 έως 70 χιλιάδες χρόνια πριν το σήμερα)','"61"','Προ-Καμβρία έως Μεσοζωϊκή (από περισσότερο από 600 έως 70 χιλιάδες χρόνια πριν το σήμερα)','','','',false,true);
+d.add(643,641,'"62"','<div class="nodetag">"62"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Phanerozoic (542 MYBP to present) (eon)</span>','"62"','Phanerozoic (542 MYBP to present) (eon)','','','',false,true);
+d.add(644,643,'"621"','<div class="nodetag">"621"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Palaeozoic / Paleozoic (542-251 MYBP) (era)</span>','"621"','Palaeozoic / Paleozoic (542-251 MYBP) (era)','','','',false,true);
+d.add(645,643,'"622"','<div class="nodetag">"622"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Mesozoic (251-65.5 MYBP) (era)</span>','"622"','Mesozoic (251-65.5 MYBP) (era)','','','',false,true);
+d.add(646,643,'"628"','<div class="nodetag">"628"</div></span>&nbsp;&nbsp;Καινοζωϊκή (65.500 χρόνια πριν - σήμερα)','"628"','Καινοζωϊκή (65.500 χρόνια πριν - σήμερα)','','','',false,true);
+d.add(647,641,'"63"','<div class="nodetag">"63"</div></span>&nbsp;&nbsp;Αρχαιολογικές, προϊστορικές, πρωτοϊστορικές περίοδοι και εποχές','"63"','Αρχαιολογικές, προϊστορικές, πρωτοϊστορικές περίοδοι και εποχές','','','',false,true);
+d.add(648,640,'"67/69"','<div class="nodetag">"67/69"</div></span>&nbsp;&nbsp;Υπολογισμοί χρόνου: παγκόσμιος, κοσμικός, θρησκεθτικός μη-Χριστιανικός','"67/69"','Υπολογισμοί χρόνου: παγκόσμιος, κοσμικός, θρησκεθτικός μη-Χριστιανικός','','','',false,true);
+d.add(649,648,'"67"','<div class="nodetag">"67"</div></span>&nbsp;&nbsp;Παγκόσμιος υπολογισμός χρόνου. Πριν το Σήμερα','"67"','Παγκόσμιος υπολογισμός χρόνου. Πριν το Σήμερα','','','',false,true);
+d.add(650,648,'"68"','<div class="nodetag">"68"</div></span>&nbsp;&nbsp;Κοσμικοί υπολογισμοί χρόνου άλλοι από το παγκόσμιο και το Χριστιανικό (Γρηγοριανό) ημερολόγιο','"68"','Κοσμικοί υπολογισμοί χρόνου άλλοι από το παγκόσμιο και το Χριστιανικό (Γρηγοριανό) ημερολόγιο','','','',false,true);
+d.add(651,648,'"69"','<div class="nodetag">"69"</div></span>&nbsp;&nbsp;Ημερομηνίες και μονάδες χρόνου στον μη-Χριστιανικό (μη-Γρηγοριανό) υπολογισμό θρησκευτικού χρόνου','"69"','Ημερομηνίες και μονάδες χρόνου στον μη-Χριστιανικό (μη-Γρηγοριανό) υπολογισμό θρησκευτικού χρόνου','','','',false,true);
+d.add(652,589,'"7"','<div class="nodetag">"7"</div></span>&nbsp;&nbsp;Φαινόμενα στον χρόνο. Φαινομενολογία του χρόνου','"7"','Φαινόμενα στον χρόνο. Φαινομενολογία του χρόνου','','','',false,true);
+d.add(653,0,'-0...','<div class="nodetag">-0...</div></span>&nbsp;&nbsp;Κοινά βοηθητικά νούμερα γενικών χαρακτηριστικών: γνωρίσματα, υλικά, σχέσεις/διαδικασίες και άτομα. Πίνακας 1k.','-0...','Κοινά βοηθητικά νούμερα γενικών χαρακτηριστικών: γνωρίσματα, υλικά, σχέσεις/διαδικασίες και άτομα. Πίνακας 1k.','','','',false,true);
+d.add(654,653,'-02','<div class="nodetag">-02</div></span>&nbsp;&nbsp;Κοινά βοηθητικά νούμερα ιδιοτήτων. Πίνακας 1k','-02','Κοινά βοηθητικά νούμερα ιδιοτήτων. Πίνακας 1k','','','',false,true);
+d.add(655,654,'-021','<div class="nodetag">-021</div></span>&nbsp;&nbsp;Ιδιότητες της ύπαρξης','-021','Ιδιότητες της ύπαρξης','','','',false,true);
+d.add(656,654,'-022','<div class="nodetag">-022</div></span>&nbsp;&nbsp;Ιδιότητες μεγέθους, βαθμού, ποσότητας, αριθμού, χρονικές αξίες, διάσταση, μέγεθος','-022','Ιδιότητες μεγέθους, βαθμού, ποσότητας, αριθμού, χρονικές αξίες, διάσταση, μέγεθος','','','',false,true);
+d.add(657,654,'-023','<div class="nodetag">-023</div></span>&nbsp;&nbsp;Ιδιότητες σχήματος','-023','Ιδιότητες σχήματος','','','',false,true);
+d.add(658,654,'-024','<div class="nodetag">-024</div></span>&nbsp;&nbsp;Ιδιότητες δομής. Χαρακτηριστικά θέσης','-024','Ιδιότητες δομής. Χαρακτηριστικά θέσης','','','',false,true);
+d.add(659,654,'-025','<div class="nodetag">-025</div></span>&nbsp;&nbsp;Ιδιότητες ταξινόμησης','-025','Ιδιότητες ταξινόμησης','','','',false,true);
+d.add(660,654,'-026','<div class="nodetag">-026</div></span>&nbsp;&nbsp;Ιδιότητες πράξης και κίνησης','-026','Ιδιότητες πράξης και κίνησης','','','',false,true);
+d.add(661,654,'-027','<div class="nodetag">-027</div></span>&nbsp;&nbsp;Λειτουργικά χαρακτηριστικά','-027','Λειτουργικά χαρακτηριστικά','','','',false,true);
+d.add(662,654,'-028','<div class="nodetag">-028</div></span>&nbsp;&nbsp;Ιδιότητες ύφους και παρουσίασης','-028','Ιδιότητες ύφους και παρουσίασης','','','',false,true);
+d.add(663,662,'-028.41','<div class="nodetag">-028.41</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Popular</span>','-028.41','Popular','','','',false,true);
+d.add(664,662,'-028.42','<div class="nodetag">-028.42</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Learned. Scholarly. Academic</span>','-028.42','Learned. Scholarly. Academic','','','',false,true);
+d.add(665,662,'-028.43','<div class="nodetag">-028.43</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Critical. Non-critical. Uncritical</span>','-028.43','Critical. Non-critical. Uncritical','','','',false,true);
+d.add(666,662,'-028.44','<div class="nodetag">-028.44</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Descriptive</span>','-028.44','Descriptive','','','',false,true);
+d.add(667,662,'-028.45','<div class="nodetag">-028.45</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Analytical</span>','-028.45','Analytical','','','',false,true);
+d.add(668,662,'-028.46','<div class="nodetag">-028.46</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Experiential. Pragmatic</span>','-028.46','Experiential. Pragmatic','','','',false,true);
+d.add(669,662,'-028.47','<div class="nodetag">-028.47</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Anecdotal</span>','-028.47','Anecdotal','','','',false,true);
+d.add(670,662,'-028.5','<div class="nodetag">-028.5</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Properties of authorship</span>','-028.5','Properties of authorship','','','',false,true);
+d.add(671,662,'-028.6','<div class="nodetag">-028.6</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Properties of order, arrangement</span>','-028.6','Properties of order, arrangement','','','',false,true);
+d.add(672,654,'-029','<div class="nodetag">-029</div></span>&nbsp;&nbsp;Ιδιότητες προερχόμενες από άλλες κύριες κλάσεις','-029','Ιδιότητες προερχόμενες από άλλες κύριες κλάσεις','','','',false,true);
+d.add(673,653,'-03','<div class="nodetag">-03</div></span>&nbsp;&nbsp;Κοινά βοηθητικά νούμερα υλικών. Πίνακας 1k','-03','Κοινά βοηθητικά νούμερα υλικών. Πίνακας 1k','','','',false,true);
+d.add(674,673,'-032','<div class="nodetag">-032</div></span>&nbsp;&nbsp;Ορυκτές ύλες φυσικής προέλευσης','-032','Ορυκτές ύλες φυσικής προέλευσης','','','',false,true);
+d.add(675,673,'-033','<div class="nodetag">-033</div></span>&nbsp;&nbsp;Κατασκευασμένες ύλες ορυκτής βάσης','-033','Κατασκευασμένες ύλες ορυκτής βάσης','','','',false,true);
+d.add(676,673,'-034','<div class="nodetag">-034</div></span>&nbsp;&nbsp;Μέταλλα','-034','Μέταλλα','','','',false,true);
+d.add(677,673,'-035','<div class="nodetag">-035</div></span>&nbsp;&nbsp;Υλικά κυρίως οργανικής προέλευσης','-035','Υλικά κυρίως οργανικής προέλευσης','','','',false,true);
+d.add(678,673,'-036','<div class="nodetag">-036</div></span>&nbsp;&nbsp;Μακρομοριακά υλικά. Λάστιχα και πλαστικά','-036','Μακρομοριακά υλικά. Λάστιχα και πλαστικά','','','',false,true);
+d.add(679,673,'-037','<div class="nodetag">-037</div></span>&nbsp;&nbsp;Υφαντουργικά προϊόντα. Ίνες. Νήματα. Υφάσματα. Πανί','-037','Υφαντουργικά προϊόντα. Ίνες. Νήματα. Υφάσματα. Πανί','','','',false,true);
+d.add(680,653,'-04','<div class="nodetag">-04</div></span>&nbsp;&nbsp;Κοινά βοηθητικά νούμερα συγγενειών, διαδικασιών και λειτουργιών. Πίνακας 1k','-04','Κοινά βοηθητικά νούμερα συγγενειών, διαδικασιών και λειτουργιών. Πίνακας 1k','','','',false,true);
+d.add(681,680,'-042','<div class="nodetag">-042</div></span>&nbsp;&nbsp;Σχέσεις φάσεων','-042','Σχέσεις φάσεων','','','',false,true);
+d.add(682,681,'-042.1','<div class="nodetag">-042.1</div></span>&nbsp;&nbsp;Φάση πόλωσης (προ ή κατά)','-042.1','Φάση πόλωσης (προ ή κατά)','','','',false,true);
+d.add(683,681,'-042.2','<div class="nodetag">-042.2</div></span>&nbsp;&nbsp;Φάση σύγκρησης','-042.2','Φάση σύγκρησης','','','',false,true);
+d.add(684,681,'-042.3','<div class="nodetag">-042.3</div></span>&nbsp;&nbsp;Φάση επιρρεασμού','-042.3','Φάση επιρρεασμού','','','',false,true);
+d.add(685,681,'-042.4','<div class="nodetag">-042.4</div></span>&nbsp;&nbsp;Φάση εργαλείου. Φάση έκθεσης','-042.4','Φάση εργαλείου. Φάση έκθεσης','','','',false,true);
+d.add(686,681,'-042.5/.8','<div class="nodetag">-042.5/.8</div></span>&nbsp;&nbsp;Άλλοι όροι περιγραφής σχέσεων μεταξύ μονάδων','-042.5/.8','Άλλοι όροι περιγραφής σχέσεων μεταξύ μονάδων','','','',false,true);
+d.add(687,680,'-043','<div class="nodetag">-043</div></span>&nbsp;&nbsp;Γενικές διαδικασίες','-043','Γενικές διαδικασίες','','','',false,true);
+d.add(688,687,'-043.8/.9','<div class="nodetag">-043.8/.9</div></span>&nbsp;&nbsp;Διαδικασίες ύπαρξης','-043.8/.9','Διαδικασίες ύπαρξης','','','',false,true);
+d.add(689,680,'-044.3','<div class="nodetag">-044.3</div></span>&nbsp;&nbsp;Διαδικασίες αξίας','-044.3','Διαδικασίες αξίας','','','',false,true);
+d.add(690,680,'-044.4','<div class="nodetag">-044.4</div></span>&nbsp;&nbsp;Διαδικασίες ταξινόμησης και αλληλουχίας','-044.4','Διαδικασίες ταξινόμησης και αλληλουχίας','','','',false,true);
+d.add(691,680,'-044.5','<div class="nodetag">-044.5</div></span>&nbsp;&nbsp;Διαδικασίες μεγέθους','-044.5','Διαδικασίες μεγέθους','','','',false,true);
+d.add(692,680,'-044.6','<div class="nodetag">-044.6</div></span>&nbsp;&nbsp;Διαδικασίες αριθμού και βαθμού','-044.6','Διαδικασίες αριθμού και βαθμού','','','',false,true);
+d.add(693,680,'-044.7','<div class="nodetag">-044.7</div></span>&nbsp;&nbsp;Διαδικασίες συνδεόμενες με χρόνο και χρονολόγηση','-044.7','Διαδικασίες συνδεόμενες με χρόνο και χρονολόγηση','','','',false,true);
+d.add(694,680,'-044.8','<div class="nodetag">-044.8</div></span>&nbsp;&nbsp;Διαδικασίες συνδεόμενες με την διάσταση','-044.8','Διαδικασίες συνδεόμενες με την διάσταση','','','',false,true);
+d.add(695,680,'-044.9','<div class="nodetag">-044.9</div></span>&nbsp;&nbsp;Διαδικασίες συνδεόμενες με το σχήμα','-044.9','Διαδικασίες συνδεόμενες με το σχήμα','','','',false,true);
+d.add(696,680,'-045','<div class="nodetag">-045</div></span>&nbsp;&nbsp;Διαδικασίες συνδεόμενες με την θέση, διάταξη, κίνηση, φυσικές ιδιότητες, καταστάσεις της ύλης','-045','Διαδικασίες συνδεόμενες με την θέση, διάταξη, κίνηση, φυσικές ιδιότητες, καταστάσεις της ύλης','','','',false,true);
+d.add(697,680,'-047/-049','<div class="nodetag">-047/-049</div></span>&nbsp;&nbsp;Γενικές λειτουργίες και δραστηριότητες','-047/-049','Γενικές λειτουργίες και δραστηριότητες','','','',false,true);
+d.add(698,653,'-05','<div class="nodetag">-05</div></span>&nbsp;&nbsp;Κοινά βοηθητικά νούμερα ατόμων και προσωπικών χαρακτηριστικών. Πίνακας 1k','-05','Κοινά βοηθητικά νούμερα ατόμων και προσωπικών χαρακτηριστικών. Πίνακας 1k','','','',false,true);
+d.add(699,698,'-051','<div class="nodetag">-051</div></span>&nbsp;&nbsp;Άτομα ως αντιπρόσωποι, πρακτικοί, επαγγελματίες (μελετόντας, κατασκευάζοντας, υπηρετώντας κλπ.)','-051','Άτομα ως αντιπρόσωποι, πρακτικοί, επαγγελματίες (μελετόντας, κατασκευάζοντας, υπηρετώντας κλπ.)','','','',false,true);
+d.add(700,698,'-052','<div class="nodetag">-052</div></span>&nbsp;&nbsp;Άτομα ως στόχοι, πελάτες, χρήστες (μελετημένοι, εξυπηρετημένοι κλπ.)','-052','Άτομα ως στόχοι, πελάτες, χρήστες (μελετημένοι, εξυπηρετημένοι κλπ.)','','','',false,true);
+d.add(701,698,'-053','<div class="nodetag">-053</div></span>&nbsp;&nbsp;Άτομα σύμφωνα με ηλικία ή ηλικιακή ομάδα','-053','Άτομα σύμφωνα με ηλικία ή ηλικιακή ομάδα','','','',false,true);
+d.add(702,701,'-053.1','<div class="nodetag">-053.1</div></span>&nbsp;&nbsp;Ανθρώπινα όντα, γεννημένα ή αγέννητα, ζωντανά ή νεκρά','-053.1','Ανθρώπινα όντα, γεννημένα ή αγέννητα, ζωντανά ή νεκρά','','','',false,true);
+d.add(703,701,'-053.2','<div class="nodetag">-053.2</div></span>&nbsp;&nbsp;Παιδιά και νήπια (γενικά)','-053.2','Παιδιά και νήπια (γενικά)','','','',false,true);
+d.add(704,701,'-053.8','<div class="nodetag">-053.8</div></span>&nbsp;&nbsp;Ενήλικες','-053.8','Ενήλικες','','','',false,true);
+d.add(705,701,'-053.9','<div class="nodetag">-053.9</div></span>&nbsp;&nbsp;Ηλικιωμένα άτομα. Άτομα σε προχωρημένη ηλικία. Πρεσβύτεροι','-053.9','Ηλικιωμένα άτομα. Άτομα σε προχωρημένη ηλικία. Πρεσβύτεροι','','','',false,true);
+d.add(706,698,'-054','<div class="nodetag">-054</div></span>&nbsp;&nbsp;Άτομα σύμφωνα με εθνικά χαρακτηριστικά, εθνικότητα, υπηκοότητα κλπ.','-054','Άτομα σύμφωνα με εθνικά χαρακτηριστικά, εθνικότητα, υπηκοότητα κλπ.','','','',false,true);
+d.add(707,706,'-054.4','<div class="nodetag">-054.4</div></span>&nbsp;&nbsp;Κάτοικοι (εθνικοί ή μη-εθνικοί)','-054.4','Κάτοικοι (εθνικοί ή μη-εθνικοί)','','','',false,true);
+d.add(708,706,'-054.5','<div class="nodetag">-054.5</div></span>&nbsp;&nbsp;Υπήκοοι. Πολίτες μιας χώρας','-054.5','Υπήκοοι. Πολίτες μιας χώρας','','','',false,true);
+d.add(709,706,'-054.6','<div class="nodetag">-054.6</div></span>&nbsp;&nbsp;Μη-υπήκοοι. Αλλοδαποί. Ξένοι','-054.6','Μη-υπήκοοι. Αλλοδαποί. Ξένοι','','','',false,true);
+d.add(710,706,'-054.7','<div class="nodetag">-054.7</div></span>&nbsp;&nbsp;Εκπατρισμένοι. Εξόριστοι. Επαναπατρισμένοι. Μετανάστες. Άπατρεις','-054.7','Εκπατρισμένοι. Εξόριστοι. Επαναπατρισμένοι. Μετανάστες. Άπατρεις','','','',false,true);
+d.add(711,698,'-055','<div class="nodetag">-055</div></span>&nbsp;&nbsp;Άτομα κατά γένος και συγγένεια','-055','Άτομα κατά γένος και συγγένεια','','','',false,true);
+d.add(712,711,'-055.1','<div class="nodetag">-055.1</div></span>&nbsp;&nbsp;Αρσενικά άτομα. Άντρες','-055.1','Αρσενικά άτομα. Άντρες','','','',false,true);
+d.add(713,711,'-055.2','<div class="nodetag">-055.2</div></span>&nbsp;&nbsp;Θηλικά άτομα. Γυναίκες','-055.2','Θηλικά άτομα. Γυναίκες','','','',false,true);
+d.add(714,711,'-055.3','<div class="nodetag">-055.3</div></span>&nbsp;&nbsp;Άτομα σύμφωνα με την σεξουαλική κλίση','-055.3','Άτομα σύμφωνα με την σεξουαλική κλίση','','','',false,true);
+d.add(715,711,'-055.5','<div class="nodetag">-055.5</div></span>&nbsp;&nbsp;Άτομα σε σχέση γονεϊκή ή ανιούσα συγγένεια. Πρόγονοι.','-055.5','Άτομα σε σχέση γονεϊκή ή ανιούσα συγγένεια. Πρόγονοι.','','','',false,true);
+d.add(716,711,'-055.6','<div class="nodetag">-055.6</div></span>&nbsp;&nbsp;Άτομα σε γενεαλογική σχέση. Απόγονοι','-055.6','Άτομα σε γενεαλογική σχέση. Απόγονοι','','','',false,true);
+d.add(717,711,'-055.7','<div class="nodetag">-055.7</div></span>&nbsp;&nbsp;Άτομα με δευτερεύουσα συγγένεια','-055.7','Άτομα με δευτερεύουσα συγγένεια','','','',false,true);
+d.add(718,698,'-056','<div class="nodetag">-056</div></span>&nbsp;&nbsp;Άτομα σύμφωνα με κατασκευή, υγεία, προδιάθεση, κληρονομικότητα ή άλλα γνωρίσματα','-056','Άτομα σύμφωνα με κατασκευή, υγεία, προδιάθεση, κληρονομικότητα ή άλλα γνωρίσματα','','','',false,true);
+d.add(719,718,'-056.1','<div class="nodetag">-056.1</div></span>&nbsp;&nbsp;Άτομα σύμφωνα με γενική κατασκευή, προδιάθεση ή χαρακτήρα','-056.1','Άτομα σύμφωνα με γενική κατασκευή, προδιάθεση ή χαρακτήρα','','','',false,true);
+d.add(720,718,'-056.2','<div class="nodetag">-056.2</div></span>&nbsp;&nbsp;Άτομα σύμφωνα με φυσική κατάασταση και υγεία','-056.2','Άτομα σύμφωνα με φυσική κατάασταση και υγεία','','','',false,true);
+d.add(721,718,'-056.3','<div class="nodetag">-056.3</div></span>&nbsp;&nbsp;Άτομα σύμφωνα με ευφυΐα και πνευματική ή ψυχολογική κατάσταση','-056.3','Άτομα σύμφωνα με ευφυΐα και πνευματική ή ψυχολογική κατάσταση','','','',false,true);
+d.add(722,718,'-056.4','<div class="nodetag">-056.4</div></span>&nbsp;&nbsp;Άτομα σύμφωνα με ιδιοσυγκρασία, προδιάθεση','-056.4','Άτομα σύμφωνα με ιδιοσυγκρασία, προδιάθεση','','','',false,true);
+d.add(723,698,'-057','<div class="nodetag">-057</div></span>&nbsp;&nbsp;Άτομα σύμφωνα με απασχόληση, εργασία, πόρους ζωής, εκπαίδευση','-057','Άτομα σύμφωνα με απασχόληση, εργασία, πόρους ζωής, εκπαίδευση','','','',false,true);
+d.add(724,723,'-057.1','<div class="nodetag">-057.1</div></span>&nbsp;&nbsp;Άτομα σύμφωνα με εργασία, απασχόληση, διοικητική θέση','-057.1','Άτομα σύμφωνα με εργασία, απασχόληση, διοικητική θέση','','','',false,true);
+d.add(725,723,'-057.2','<div class="nodetag">-057.2</div></span>&nbsp;&nbsp;Τεχνικό προσωπικό. Τεχνίτες. Χειρόνακτες εργάτες','-057.2','Τεχνικό προσωπικό. Τεχνίτες. Χειρόνακτες εργάτες','','','',false,true);
+d.add(726,723,'-057.3','<div class="nodetag">-057.3</div></span>&nbsp;&nbsp;Υπάλληλοι γραφείου, γραμματειακοί υπάλληλοι. Υπάλληλοι. Προσωπικό γραφείου','-057.3','Υπάλληλοι γραφείου, γραμματειακοί υπάλληλοι. Υπάλληλοι. Προσωπικό γραφείου','','','',false,true);
+d.add(727,723,'-057.4','<div class="nodetag">-057.4</div></span>&nbsp;&nbsp;Επαγγελματίες ή ακαδημαϊκοί','-057.4','Επαγγελματίες ή ακαδημαϊκοί','','','',false,true);
+d.add(728,723,'-057.5','<div class="nodetag">-057.5</div></span>&nbsp;&nbsp;Άτομα σε σχέση με τον χώρο εργασίας, τόπο απασχόλησης. Άτομα σε σχέση με την επιχείρηση','-057.5','Άτομα σε σχέση με τον χώρο εργασίας, τόπο απασχόλησης. Άτομα σε σχέση με την επιχείρηση','','','',false,true);
+d.add(729,723,'-057.6','<div class="nodetag">-057.6</div></span>&nbsp;&nbsp;Άτομα σύμφωνα με την κατοικία και την σχέση της με την εργασία ή άλλη δραστηριότητα','-057.6','Άτομα σύμφωνα με την κατοικία και την σχέση της με την εργασία ή άλλη δραστηριότητα','','','',false,true);
+d.add(730,723,'-057.7','<div class="nodetag">-057.7</div></span>&nbsp;&nbsp;Άτομα σύμφωνα με πηγές εσόδων ή ασφάλιση','-057.7','Άτομα σύμφωνα με πηγές εσόδων ή ασφάλιση','','','',false,true);
+d.add(731,723,'-057.8','<div class="nodetag">-057.8</div></span>&nbsp;&nbsp;Άτομα σύμφωνα με μόρφωση, εκπαίδευση, εμπειρία','-057.8','Άτομα σύμφωνα με μόρφωση, εκπαίδευση, εμπειρία','','','',false,true);
+d.add(732,723,'-057.9','<div class="nodetag">-057.9</div></span>&nbsp;&nbsp;Άτομα σύμφωνα με εκτελεστικές λειτουργίες','-057.9','Άτομα σύμφωνα με εκτελεστικές λειτουργίες','','','',false,true);
+d.add(733,698,'-058','<div class="nodetag">-058</div></span>&nbsp;&nbsp;Άτομα σύμφωνα με κοινωνική τάξη, πολιτική θέση','-058','Άτομα σύμφωνα με κοινωνική τάξη, πολιτική θέση','','','',false,true);
+d.add(734,733,'-058.1','<div class="nodetag">-058.1</div></span>&nbsp;&nbsp;Άτομα σύμφωνα με κοινωνική τάξη ή θέση','-058.1','Άτομα σύμφωνα με κοινωνική τάξη ή θέση','','','',false,true);
+d.add(735,733,'-058.3','<div class="nodetag">-058.3</div></span>&nbsp;&nbsp;Άτομα σύμφωνα με οικονομικές κατηγορίες (πόροι, ασφάλεια, άλλα δικαιώματα)','-058.3','Άτομα σύμφωνα με οικονομικές κατηγορίες (πόροι, ασφάλεια, άλλα δικαιώματα)','','','',false,true);
+d.add(736,733,'-058.5','<div class="nodetag">-058.5</div></span>&nbsp;&nbsp;Άτομα που ανήκουν σε οριακές κοινωνικο-οικονομικές κατηγορίες. Περιθωριακές ομάδες','-058.5','Άτομα που ανήκουν σε οριακές κοινωνικο-οικονομικές κατηγορίες. Περιθωριακές ομάδες','','','',false,true);
+d.add(737,733,'-058.6','<div class="nodetag">-058.6</div></span>&nbsp;&nbsp;Θύματα καταστάσεων','-058.6','Θύματα καταστάσεων','','','',false,true);
+d.add(738,733,'-058.7','<div class="nodetag">-058.7</div></span>&nbsp;&nbsp;Εξαρτώμενα άτομα. Προστατευόμενα μέλη οικογένειας','-058.7','Εξαρτώμενα άτομα. Προστατευόμενα μέλη οικογένειας','','','',false,true);
+d.add(739,733,'-058.8','<div class="nodetag">-058.8</div></span>&nbsp;&nbsp;Άτομα σύμφωνα με γάμο, οικογένεια ή άλλη πολιτική θέση','-058.8','Άτομα σύμφωνα με γάμο, οικογένεια ή άλλη πολιτική θέση','','','',false,true);
+d.config.useSelection = false;
+d.config.inOrder = true;
+d.config.useIcons = false;
+document.write(d);
+//-->
+</script>
+</div>
+</div><div id="expandbox" onclick="expandbox(); return false;">&nbsp;</div>
+<div id="recordbox" class="debugbkg">
+<div class="fronthint">πατείστε στην κλάση αριστερά για να φανερώσετε τις εγγραφές</div>
+</div>
+
+        <div id="footer">
+            <div class="footersectionleft">
+                The UDC Summary (UDCS) provides a selection of around 2,600 classes from the whole scheme which comprises more than 70,000 entries.
+                Please send questions and suggestions to <a href="mailto:udcs@udcc.org?subject=UDC Summary Enquiry">udcs@udcc.org</a><br><br>
+	            <p>
+		            The data provided in this Summary is released under the <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative Commons Attribution Share Alike 3.0 license</a> <a href="../about.htm">[more]</a>
+	            </p>
+            </div>
+            <div class="footermiddle">
+                <a href="http://www.udcc.org"><img src="../images/udclogowhite.png" border="0"></a>
+            </div>
+			<div class="footerright">
+                For complete UDC schedules see <a href="http://www.udc-hub.com/">UDC Online Hub</a><br/><a href="http://www.udc-hub.com/"><img width="60" height="35" src="../images/udclogo.png"/></a>
+
+			</div>
+        </div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-13138465-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>

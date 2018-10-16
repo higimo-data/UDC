@@ -1,0 +1,654 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>UDC Summary</title>
+    <link rel="stylesheet" href="../reset.css" type="text/css" />
+    <link rel="stylesheet" href="../udc2000.css" type="text/css" />
+	    <link rel="StyleSheet" href="dtree2.css" type="text/css" />
+	    <script type="text/javascript" src="dtree.js"></script>
+	    <script type="text/javascript" src="udcdisplay_9.js"></script>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+</head>
+
+<body >
+<div id="centercontainer" class="debugbkg">
+    <div id="titlebox" class="debugbkg">
+		<div id="rightbox">
+        	<div id="languagecount">57 languages</div>
+            <div id="languagebox">
+            <select id="selectedlang" style="vertical-align: middle;" onchange="location = this.options[this.selectedIndex].value;">
+			<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=af&pr=Y">Afrikaans (Afrikaans) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sq&pr=Y">Albanian (Shqip) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=anp&pr=Y">Angika (अंगिका) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ar&pr=Y">Arabic (العربية) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hy&pr=Y" selected>Armenian (հայերեն) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=eu&pr=Y">Basque (Euskara) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=be&pr=Y">Belarusian (Беларуская) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bn&pr=Y">Bengali (বাংলা) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bho&pr=Y">Bhojpuri (भोजपुरी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bg&pr=Y">Bulgarian (Български) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ca&pr=Y">Catalan (Català) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=chi&pr=Y">Chinese (中文) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hr&pr=Y">Croatian (Hrvatski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=cs&pr=Y">Czech (Čeština) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=da&pr=Y">Danish (Dansk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=nl&pr=Y">Dutch (Nederlands) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=en&pr=Y">English (English) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=eo&pr=Y">Esperanto (Esperanto) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=et&pr=Y">Estonian (Eesti) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=fi&pr=Y">Finnish (Suomi) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=fr&pr=Y">French (Français) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=gl&pr=Y">Galician (Galego) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ka&pr=Y">Georgian (ქართული) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=de&pr=Y">German (Deutsch) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=el&pr=Y">Greek (Ελληνικά) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hi&pr=Y">Hindi (हिन्दी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hu&pr=Y">Hungarian (Magyar) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=id&pr=Y">Indonesian (Bahasa Ind) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ga&pr=Y">Irish (Gaeilge) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=it&pr=Y">Italian (Italiano) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ja&pr=Y">Japanese (日本語) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=kn&pr=Y">Kannada (ಕನ್ನಡ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=kk&pr=Y">Kazakh (Қазақ тілі) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=lv&pr=Y">Latvian (Latviešu) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=lt&pr=Y">Lithuanian (lietuvių) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=mk&pr=Y">Macedonian (македонски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ml&pr=Y">Malayalam (മലയാളം) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=mr&pr=Y">Marathi (मराठी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=no&pr=Y">Norwegian (Norsk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pl&pr=Y">Polish (Polski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pt&pr=Y">Portuguese (Português) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pa&pr=Y">Punjabi (ਪੰਜਾਬੀ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ro&pr=Y">Romanian (Româna) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ru&pr=Y">Russian (Pусский) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sa&pr=Y">Sanskrit (Saṃskṛtam) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sr&pr=Y">Serbian (Српски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=si&pr=Y">Sinhala (සිංහල) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sk&pr=Y">Slovak (Slovenský) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sl&pr=Y">Slovenian (Slovenski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=es&pr=Y">Spanish (Español) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sv&pr=Y">Swedish (Svenska) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ta&pr=Y">Tamil (தமிழ்) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=te&pr=Y">Telugu (తెలుగు) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=tr&pr=Y">Turkish (Türkçe) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=uk&pr=Y">Ukrainian (Yкраї́нська) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=uz&pr=Y">Uzbek (oʻzbek) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=vi&pr=Y">Vietnamese (tiếng Việt) </option>
+            </select>
+            </div>
+            </div>
+        </div>
+		<div id="menubox" class="debugbkg">
+            <ul class="menu boldmenu">
+<li><a href="index.php@lang=hy">ՎԵՐ</a></li>
+<li><a href="index.php@tag=--&amp;lang=hy">ՆՇԱՆՆԵՐ</a></li>
+<li><a href="index.php@tag=---&amp;lang=hy">ՕԺԱՆԴԱԿ ՄԱՍԵՐ</a></li>
+<li><a href="index.php@tag=0&amp;lang=hy">0</a></li>
+<li><a href="index.php@tag=1&amp;lang=hy">1</a></li>
+<li><a href="index.php@tag=2&amp;lang=hy">2</a></li>
+<li><a href="index.php@tag=3&amp;lang=hy">3</a></li>
+<li><a  class="vacant" href="index.php@tag=6&amp;lang=hy#">4</a></li>
+<li><a href="index.php@tag=5&amp;lang=hy">5</a></li>
+<li><a href="index.php@tag=6&amp;lang=hy">6</a></li>
+<li><a href="index.php@tag=7&amp;lang=hy">7</a></li>
+<li><a href="index.php@tag=8&amp;lang=hy">8</a></li>
+<li><a href="index.php@tag=9&amp;lang=hy">9</a></li>
+</ul>
+<input type="hidden" id="if_loading" name="if_loading" value="Բեռնավորում"/>
+<input type="hidden" id="if_lang" name="if_lang" value="21"/>
+<ul class="rightmenu boldmenu">
+<li><a href="../translation.htm">Թարգմանություններ</a></li>
+<li><a href="index.php@tag=6&amp;lang=hy#" title="Under Development">Համընկնումներ</a></li>
+<li><a href="../exports.htm" title="Data Exports">Արտահանում</a></li>
+<li><a href="index.php@tag=6&amp;lang=hy#" title="Under Development">Ցուցիչ</a></li>
+<li><a href="index.php@tag=6&amp;lang=hy#" title="Under Development">Ուղեցույց</a></li>
+<li><a href="../about.htm" title="About the UDC Summary">Մասին</a></li>
+</ul>
+
+        </div>
+		<input type="hidden" id="leftWidth" value="420"/><input type="hidden" id="rightWidth" value="522"/>
+		<div id="classmarkbox" class="debugbkg">
+
+<div id="openclosemenu"><a href="javascript: d.openAll();">&nbsp;ընդլայնիր</a> | <a href="javascript: d.closeAll();">սեղմիր</a></div>
+<div id="classtree">
+<script type="text/javascript">
+<!--
+d = new dTree('d');
+d.config.hrefIsClick = true;
+d.add(0,-1,'6','<span class="nodetag">6</span>&nbsp;&nbsp;ԿԻՐԱՌԱԿԱՆ  ԳԻՏՈՒԹՅՈՒՆՆԵՐ։ ԲԺՇԿՈՒԹՅՈՒՆ։ ՏԵԽՆԻԿԱԿԱՆ ԳԻՏՈՒԹՅՈՒՆՆԵՐ (ՏԵԽՆՈԼՈԳԻԱ)','6','','','','',false,true);
+d.add(1,0,'60','<div class="nodetag">60</div></span>&nbsp;&nbsp;Կենսատեխնոլոգիա','60','Կենսատեխնոլոգիա','','','',false,true);
+d.add(2,1,'601','<div class="nodetag">601</div></span>&nbsp;&nbsp;Հիմնարար հասկացություններ','601','Հիմնարար հասկացություններ','','','',false,true);
+d.add(3,1,'602','<div class="nodetag">602</div></span>&nbsp;&nbsp;Պրոցեսներ և սարքավորումներ','602','Պրոցեսներ և սարքավորումներ','','','',false,true);
+d.add(4,1,'604','<div class="nodetag">604</div></span>&nbsp;&nbsp;Արտադրանք','604','Արտադրանք','','','',false,true);
+d.add(5,1,'606','<div class="nodetag">606</div></span>&nbsp;&nbsp;Կենսատեխնոլոգիայի կիրառում','606','Կենսատեխնոլոգիայի կիրառում','','','',false,true);
+d.add(6,1,'608','<div class="nodetag">608</div></span>&nbsp;&nbsp;Կենսատեխնոլոգիական արդյունքներ','608','Կենսատեխնոլոգիական արդյունքներ','','','',false,true);
+d.add(7,0,'61','<div class="nodetag">61</div></span>&nbsp;&nbsp;Բժշկական գիտություններ  ','61','Բժշկական գիտություններ  ','','','',false,true);
+d.add(8,7,'611/612','<div class="nodetag">611/612</div></span>&nbsp;&nbsp;Մարդու կենսաբանություն','611/612','Մարդու կենսաբանություն','','','',false,true);
+d.add(9,8,'611','<div class="nodetag">611</div></span>&nbsp;&nbsp;Անատոմիա։ Մարդու  և համեմատական անատոմիա','611','Անատոմիա։ Մարդու  և համեմատական անատոմիա','','','',false,true);
+d.add(10,8,'612','<div class="nodetag">612</div></span>&nbsp;&nbsp;Ֆիզիոլոգիա։ Մարդու  և համեմատական  ֆիզոլոգիա','612','Ֆիզիոլոգիա։ Մարդու  և համեմատական  ֆիզոլոգիա','','','',false,true);
+d.add(11,10,'612.1/.8','<div class="nodetag">612.1/.8</div></span>&nbsp;&nbsp;Սիստեմատիկ ֆիզիոլոգիա','612.1/.8','Սիստեմատիկ ֆիզիոլոգիա','','','',false,true);
+d.add(12,11,'612.1','<div class="nodetag">612.1</div></span>&nbsp;&nbsp;Արյուն։ Սրտանոթային և արյան շրջանառության համակարգ','612.1','Արյուն։ Սրտանոթային և արյան շրջանառության համակարգ','','','',false,true);
+d.add(13,11,'612.2','<div class="nodetag">612.2</div></span>&nbsp;&nbsp;Շնչառություն։ Շնչառական համակարգ','612.2','Շնչառություն։ Շնչառական համակարգ','','','',false,true);
+d.add(14,11,'612.3','<div class="nodetag">612.3</div></span>&nbsp;&nbsp;Սնուցում։ Կերակրում։ Մարսողություն։ Սնունդ','612.3','Սնուցում։ Կերակրում։ Մարսողություն։ Սնունդ','','','',false,true);
+d.add(15,11,'612.4','<div class="nodetag">612.4</div></span>&nbsp;&nbsp;Գեղձային համակարգ։ Սեկրեցիա (գեղձազատում)։ Արտաթորում ','612.4','Գեղձային համակարգ։ Սեկրեցիա (գեղձազատում)։ Արտաթորում ','','','',false,true);
+d.add(16,11,'612.5','<div class="nodetag">612.5</div></span>&nbsp;&nbsp;Կենդանական ջերմություն։ Ջերմային պրոցեսներ','612.5','Կենդանական ջերմություն։ Ջերմային պրոցեսներ','','','',false,true);
+d.add(17,11,'612.6','<div class="nodetag">612.6</div></span>&nbsp;&nbsp;Վերարտադրություն։ Աճ։ Զարգացում','612.6','Վերարտադրություն։ Աճ։ Զարգացում','','','',false,true);
+d.add(18,11,'612.7','<div class="nodetag">612.7</div></span>&nbsp;&nbsp;Շարժողական ֆունկցիաներ։ Տեղաշարժման օրգաններ։ Ձայն։ Մաշկային ծածկույթ','612.7','Շարժողական ֆունկցիաներ։ Տեղաշարժման օրգաններ։ Ձայն։ Մաշկային ծածկույթ','','','',false,true);
+d.add(19,11,'612.8','<div class="nodetag">612.8</div></span>&nbsp;&nbsp;Նյարդային համակարգ։ Զգայական օրգաններ','612.8','Նյարդային համակարգ։ Զգայական օրգաններ','','','',false,true);
+d.add(20,7,'613','<div class="nodetag">613</div></span>&nbsp;&nbsp;Հիգիենան ամբողջությամբ։ Անձնական հիգիենա  և առողջություն','613','Հիգիենան ամբողջությամբ։ Անձնական հիգիենա  և առողջություն','','','',false,true);
+d.add(21,20,'613.2','<div class="nodetag">613.2</div></span>&nbsp;&nbsp;Սնվելու հիգիենա։  Սննդակարգ։ Սնվելու սկզբունքներ','613.2','Սնվելու հիգիենա։  Սննդակարգ։ Սնվելու սկզբունքներ','','','',false,true);
+d.add(22,20,'613.3','<div class="nodetag">613.3</div></span>&nbsp;&nbsp;Խմիչքներ։ Բուժիչ հեղուկներ։ Բժշկական ջրեր։  Հեղուկային  ռեժիմ','613.3','Խմիչքներ։ Բուժիչ հեղուկներ։ Բժշկական ջրեր։  Հեղուկային  ռեժիմ','','','',false,true);
+d.add(23,20,'613.4','<div class="nodetag">613.4</div></span>&nbsp;&nbsp;Անձնական հիգիենա։ Հագուստ','613.4','Անձնական հիգիենա։ Հագուստ','','','',false,true);
+d.add(24,20,'613.5','<div class="nodetag">613.5</div></span>&nbsp;&nbsp;Բնակարանային հիգիենա','613.5','Բնակարանային հիգիենա','','','',false,true);
+d.add(25,20,'613.6','<div class="nodetag">613.6</div></span>&nbsp;&nbsp;Մասնագիտական հիվանդություններ։ Աշխատանքային հիգիենա','613.6','Մասնագիտական հիվանդություններ։ Աշխատանքային հիգիենա','','','',false,true);
+d.add(26,20,'613.7','<div class="nodetag">613.7</div></span>&nbsp;&nbsp;Առողջության,  ժամանցի, հանգստի ու քնի հիգիենա','613.7','Առողջության,  ժամանցի, հանգստի ու քնի հիգիենա','','','',false,true);
+d.add(27,20,'613.8','<div class="nodetag">613.8</div></span>&nbsp;&nbsp;Նյարդային  համակարգի հիգիենա։ Հիգիենա և էթիկա','613.8','Նյարդային  համակարգի հիգիենա։ Հիգիենա և էթիկա','','','',false,true);
+d.add(28,20,'613.9','<div class="nodetag">613.9</div></span>&nbsp;&nbsp;Առողջություն և հիգիենա ըստ ռասայական պատկանելիության, տարիքի և սեռի  ','613.9','Առողջություն և հիգիենա ըստ ռասայական պատկանելիության, տարիքի և սեռի  ','','','',false,true);
+d.add(29,7,'614','<div class="nodetag">614</div></span>&nbsp;&nbsp;Հասարակական առողջապահություն և հիգիենա։ Սանիտարիա։ Պաշտպանությունը դժբախտ դեպքերից և դրանց կանխարգելումը','614','Հասարակական առողջապահություն և հիգիենա։ Սանիտարիա։ Պաշտպանությունը դժբախտ դեպքերից և դրանց կանխարգելումը','','','',false,true);
+d.add(30,29,'614.1','<div class="nodetag">614.1</div></span>&nbsp;&nbsp;Ազգաբնակչություն։ Ազգաբնակչության նվազում','614.1','Ազգաբնակչություն։ Ազգաբնակչության նվազում','','','',false,true);
+d.add(31,29,'614.2','<div class="nodetag">614.2</div></span>&nbsp;&nbsp;Հասարակական և մասնագիտացված առողջապահության կազմակերպում','614.2','Հասարակական և մասնագիտացված առողջապահության կազմակերպում','','','',false,true);
+d.add(32,29,'614.3','<div class="nodetag">614.3</div></span>&nbsp;&nbsp;Սանիտարական հսկողություն և վերահսկողություն','614.3','Սանիտարական հսկողություն և վերահսկողություն','','','',false,true);
+d.add(33,32,'614.39','<div class="nodetag">614.39</div></span>&nbsp;&nbsp;Ազգային առողջապահության  ծառայություններ','614.39','Ազգային առողջապահության  ծառայություններ','','','',false,true);
+d.add(34,29,'614.4','<div class="nodetag">614.4</div></span>&nbsp;&nbsp;Վարակիչ հիվանդությունների կանխարգելում և վերահսկողություն ։ Համաճարակների կանխարգելում ','614.4','Վարակիչ հիվանդությունների կանխարգելում և վերահսկողություն ։ Համաճարակների կանխարգելում ','','','',false,true);
+d.add(35,29,'614.6','<div class="nodetag">614.6</div></span>&nbsp;&nbsp;Գերեզմանոցների հիգիենա','614.6','Գերեզմանոցների հիգիենա','','','',false,true);
+d.add(36,29,'614.7','<div class="nodetag">614.7</div></span>&nbsp;&nbsp;Օդի, ջրի, և հողի հիգիենա։ Աղտոտվածության վերահսկողություն','614.7','Օդի, ջրի, և հողի հիգիենա։ Աղտոտվածության վերահսկողություն','','','',false,true);
+d.add(37,29,'614.8','<div class="nodetag">614.8</div></span>&nbsp;&nbsp;Դժբախտ պատահարներ։ Ռիսկեր։ Վտանգներ։ Դժբախտ պատահարների կախարգելում։ Անձնական պաշտպանության միջոցներ։ Անվտանգություն','614.8','Դժբախտ պատահարներ։ Ռիսկեր։ Վտանգներ։ Դժբախտ պատահարների կախարգելում։ Անձնական պաշտպանության միջոցներ։ Անվտանգություն','','','',false,true);
+d.add(38,29,'614.9','<div class="nodetag">614.9</div></span>&nbsp;&nbsp;Կենդանիների առողջություն։ Անասնաբուժական հիգիենա','614.9','Կենդանիների առողջություն։ Անասնաբուժական հիգիենա','','','',false,true);
+d.add(39,7,'615','<div class="nodetag">615</div></span>&nbsp;&nbsp;Դեղաբանություն։ Ընդհանուր թերապիա։ Թունագիտություն','615','Դեղաբանություն։ Ընդհանուր թերապիա։ Թունագիտություն','','','',false,true);
+d.add(40,39,'615.1','<div class="nodetag">615.1</div></span>&nbsp;&nbsp;Ընդհանուր   դեղագործություն։ Դեղատնային գործ','615.1','Ընդհանուր   դեղագործություն։ Դեղատնային գործ','','','',false,true);
+d.add(41,39,'615.2','<div class="nodetag">615.2</div></span>&nbsp;&nbsp;Դեղորայքներ ըստ իրենց հիմնական ներգործության','615.2','Դեղորայքներ ըստ իրենց հիմնական ներգործության','','','',false,true);
+d.add(42,39,'615.3','<div class="nodetag">615.3</div></span>&nbsp;&nbsp;Դեղերն ըստ իրենց ծագման','615.3','Դեղերն ըստ իրենց ծագման','','','',false,true);
+d.add(43,39,'615.4','<div class="nodetag">615.4</div></span>&nbsp;&nbsp;Դեղամիջոցային պատրաստուկներ։ Բժշկական նյութեր։ Սարքավորումներ','615.4','Դեղամիջոցային պատրաստուկներ։ Բժշկական նյութեր։ Սարքավորումներ','','','',false,true);
+d.add(44,39,'615.8','<div class="nodetag">615.8</div></span>&nbsp;&nbsp;Ֆիզիոթերապիա։ Ռադիոբուժություն։ Այլ դեղային թերապևտիկ  բուժումներ','615.8','Ֆիզիոթերապիա։ Ռադիոբուժություն։ Այլ դեղային թերապևտիկ  բուժումներ','','','',false,true);
+d.add(45,39,'615.9','<div class="nodetag">615.9</div></span>&nbsp;&nbsp;Ընդհանուր  թունաբանություն։ Տեսություն թունավոր նյութերի մասին։ Թունավորում','615.9','Ընդհանուր  թունաբանություն։ Տեսություն թունավոր նյութերի մասին։ Թունավորում','','','',false,true);
+d.add(46,7,'616','<div class="nodetag">616</div></span>&nbsp;&nbsp;Ախտաբանություն։ Կլինիկական  բժշկություն','616','Ախտաբանություն։ Կլինիկական  բժշկություն','','','',false,true);
+d.add(47,46,'616-001/-009','<div class="nodetag">616-001/-009</div></span>&nbsp;&nbsp;Հիվանդագին պրոցեսների հատուկ օժանդակ որոշիչներ','616-001/-009','Հիվանդագին պրոցեսների հատուկ օժանդակ որոշիչներ','','','',false,true);
+d.add(48,47,'616-001','<div class="nodetag">616-001</div></span>&nbsp;&nbsp;Վնասվածքներ։ Կոտրվածքներ։ Վերքեր','616-001','Վնասվածքներ։ Կոտրվածքներ։ Վերքեր','','','',false,true);
+d.add(49,47,'616-002','<div class="nodetag">616-002</div></span>&nbsp;&nbsp;Բորբոքում։ Գրգռում։ Կանգային տեղական գերարյունություն։ Լորձային  տեղական գերարյունություն','616-002','Բորբոքում։ Գրգռում։ Կանգային տեղական գերարյունություն։ Լորձային  տեղական գերարյունություն','','','',false,true);
+d.add(50,47,'616-003','<div class="nodetag">616-003</div></span>&nbsp;&nbsp;Ետընթաց և վերականգնողական պրոցեսներ','616-003','Ետընթաց և վերականգնողական պրոցեսներ','','','',false,true);
+d.add(51,47,'616-004','<div class="nodetag">616-004</div></span>&nbsp;&nbsp;Կարծրախտ (սկլերոզ)։ Ցիռոզ։ Հյուսվածքների կարծրացում','616-004','Կարծրախտ (սկլերոզ)։ Ցիռոզ։ Հյուսվածքների կարծրացում','','','',false,true);
+d.add(52,47,'616-005','<div class="nodetag">616-005</div></span>&nbsp;&nbsp;Արյան շրջանառության տեղային խանգարումներ','616-005','Արյան շրջանառության տեղային խանգարումներ','','','',false,true);
+d.add(53,47,'616-006','<div class="nodetag">616-006</div></span>&nbsp;&nbsp;Ուռուցքներ։ Նորագոյացություններ։ Բլաստոմաներ։ Խորիստոմաներ։ Համարտոմաներ։ Ուռուցքաբանություն','616-006','Ուռուցքներ։ Նորագոյացություններ։ Բլաստոմաներ։ Խորիստոմաներ։ Համարտոմաներ։ Ուռուցքաբանություն','','','',false,true);
+d.add(54,47,'616-007','<div class="nodetag">616-007</div></span>&nbsp;&nbsp;Օրգանիզմի զարգացման արատներ։ Ֆիզիոլոգիական արատներ։Օրգանների զարգացման շեղումներ։ Օրգանների  մեծացում և փոքրացում։ Տձևություն։Անճոռնիություններ','616-007','Օրգանիզմի զարգացման արատներ։ Ֆիզիոլոգիական արատներ։Օրգանների զարգացման շեղումներ։ Օրգանների  մեծացում և փոքրացում։ Տձևություն։Անճոռնիություններ','','','',false,true);
+d.add(55,47,'616-008','<div class="nodetag">616-008</div></span>&nbsp;&nbsp;Ֆունկցիոնալ  և նյութափոխանակության խանգարումներ','616-008','Ֆունկցիոնալ  և նյութափոխանակության խանգարումներ','','','',false,true);
+d.add(56,47,'616-009','<div class="nodetag">616-009</div></span>&nbsp;&nbsp;Նյարդային խանգարումներ','616-009','Նյարդային խանգարումներ','','','',false,true);
+d.add(57,46,'616-01/-099','<div class="nodetag">616-01/-099</div></span>&nbsp;&nbsp;Ախտաբանության ընդհանուր ասպեկտների հատուկ օժանդակ որոշիչ','616-01/-099','Ախտաբանության ընդհանուր ասպեկտների հատուկ օժանդակ որոշիչ','','','',false,true);
+d.add(58,57,'616-01','<div class="nodetag">616-01</div></span>&nbsp;&nbsp;Հիվանդությունների, հիվանդների և բժշկական միջամտության հետ առնչվող տարբեր խնդիրներ','616-01','Հիվանդությունների, հիվանդների և բժշկական միջամտության հետ առնչվող տարբեր խնդիրներ','','','',false,true);
+d.add(59,57,'616-02','<div class="nodetag">616-02</div></span>&nbsp;&nbsp;Էթիոլոգիա։ Հիվանդությունների պատճառների մասին տեսություն','616-02','Էթիոլոգիա։ Հիվանդությունների պատճառների մասին տեսություն','','','',false,true);
+d.add(60,57,'616-03','<div class="nodetag">616-03</div></span>&nbsp;&nbsp;Հիվանդությունների  տարբեր ձևեր, նրանց բուժման մեթոդներ, դեղորայքների կիրառում','616-03','Հիվանդությունների  տարբեր ձևեր, նրանց բուժման մեթոդներ, դեղորայքների կիրառում','','','',false,true);
+d.add(61,57,'616-05','<div class="nodetag">616-05</div></span>&nbsp;&nbsp;Բժշկական անձնակազմ, անձնակազմի բնութագրում։ Հիվանդների բնութագրում','616-05','Բժշկական անձնակազմ, անձնակազմի բնութագրում։ Հիվանդների բնութագրում','','','',false,true);
+d.add(62,57,'616-06','<div class="nodetag">616-06</div></span>&nbsp;&nbsp;Բարդություններ։ Հետևանքներ։  Միաժամանակ գոյություն ունեցող մի շարք հիվանդություններ։ Նրանց փոխադարձ կապը։ Նախորդող հիվանդություններ ։ Նախորդող վիճակ։ Պայքար երկու հիվանդությունների միջև','616-06','Բարդություններ։ Հետևանքներ։  Միաժամանակ գոյություն ունեցող մի շարք հիվանդություններ։ Նրանց փոխադարձ կապը։ Նախորդող հիվանդություններ ։ Նախորդող վիճակ։ Պայքար երկու հիվանդությունների միջև','','','',false,true);
+d.add(63,57,'616-07','<div class="nodetag">616-07</div></span>&nbsp;&nbsp;Նշաններ և ախտանիշեր։  Զննում։ Ախտորոշում։ Պրոպեդևտիկա','616-07','Նշաններ և ախտանիշեր։  Զննում։ Ախտորոշում։ Պրոպեդևտիկա','','','',false,true);
+d.add(64,57,'616-08','<div class="nodetag">616-08</div></span>&nbsp;&nbsp;Բուժում ','616-08','Բուժում ','','','',false,true);
+d.add(65,57,'616-091','<div class="nodetag">616-091</div></span>&nbsp;&nbsp;Ախտաբանական անատոմիա','616-091','Ախտաբանական անատոմիա','','','',false,true);
+d.add(66,57,'616-092','<div class="nodetag">616-092</div></span>&nbsp;&nbsp;Ախտաբանական ֆիզիոլոգիա։ Պրոցեսներ, հիվանդության ընթացք և  ազդեցության ձևեր։ Ախտածնություն։ Հիվանդության ծագման ուսումնասիրությունը','616-092','Ախտաբանական ֆիզիոլոգիա։ Պրոցեսներ, հիվանդության ընթացք և  ազդեցության ձևեր։ Ախտածնություն։ Հիվանդության ծագման ուսումնասիրությունը','','','',false,true);
+d.add(67,57,'616-093','<div class="nodetag">616-093</div></span>&nbsp;&nbsp;Մանրէների ուսումնասիրությունների տեխնիկա','616-093','Մանրէների ուսումնասիրությունների տեխնիկա','','','',false,true);
+d.add(68,57,'616-094','<div class="nodetag">616-094</div></span>&nbsp;&nbsp;Մանրէների  մորֆոլոգիա','616-094','Մանրէների  մորֆոլոգիա','','','',false,true);
+d.add(69,57,'616-095','<div class="nodetag">616-095</div></span>&nbsp;&nbsp;Մանրէների  ֆիզիոլոգիա','616-095','Մանրէների  ֆիզիոլոգիա','','','',false,true);
+d.add(70,57,'616-097','<div class="nodetag">616-097</div></span>&nbsp;&nbsp;Իմունագենետիկա','616-097','Իմունագենետիկա','','','',false,true);
+d.add(71,57,'616-098','<div class="nodetag">616-098</div></span>&nbsp;&nbsp;Մանրէների  ֆիզիկա, քիմիա, մետաբոլիզմ, կատաբոլիզմ','616-098','Մանրէների  ֆիզիկա, քիմիա, մետաբոլիզմ, կատաբոլիզմ','','','',false,true);
+d.add(72,57,'616-099','<div class="nodetag">616-099</div></span>&nbsp;&nbsp;Թունավորում։ Ինտոքսիկացիա','616-099','Թունավորում։ Ինտոքսիկացիա','','','',false,true);
+d.add(73,46,'616-71/-78','<div class="nodetag">616-71/-78</div></span>&nbsp;&nbsp;Հատուկ օժանդակ   բժշկական և վիրահատական գործիքներ և սարքավորումներ ','616-71/-78','Հատուկ օժանդակ   բժշկական և վիրահատական գործիքներ և սարքավորումներ ','','','',false,true);
+d.add(74,73,'616-71','<div class="nodetag">616-71</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Medical instruments and equipment in general</span>','616-71','Medical instruments and equipment in general','','','',false,true);
+d.add(75,73,'616-72','<div class="nodetag">616-72</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Surgical and therapeutic instruments</span>','616-72','Surgical and therapeutic instruments','','','',false,true);
+d.add(76,73,'616-74','<div class="nodetag">616-74</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Reinforcement and reparative materials and equipment</span>','616-74','Reinforcement and reparative materials and equipment','','','',false,true);
+d.add(77,73,'616-76','<div class="nodetag">616-76</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Corrective and protective appliances, aids etc.</span>','616-76','Corrective and protective appliances, aids etc.','','','',false,true);
+d.add(78,73,'616-77','<div class="nodetag">616-77</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Prosthetic materials and parts. Artificial organs etc.</span>','616-77','Prosthetic materials and parts. Artificial organs etc.','','','',false,true);
+d.add(79,73,'616-78','<div class="nodetag">616-78</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Machines and mechanical apparatus</span>','616-78','Machines and mechanical apparatus','','','',false,true);
+d.add(80,46,'616.1/.9','<div class="nodetag">616.1/.9</div></span>&nbsp;&nbsp;Մասնավոր ախտաբանություն','616.1/.9','Մասնավոր ախտաբանություն','','','',false,true);
+d.add(81,80,'616.1','<div class="nodetag">616.1</div></span>&nbsp;&nbsp;Սրտանոթային համակարգի  ախտաբանություն։ Սրտանոթային հիվանդություններ','616.1','Սրտանոթային համակարգի  ախտաբանություն։ Սրտանոթային հիվանդություններ','','','',false,true);
+d.add(82,80,'616.2','<div class="nodetag">616.2</div></span>&nbsp;&nbsp;Շնչառական համակարգի ախտաբանություն։ Շնչառական համակարգի  հիվանդություններ','616.2','Շնչառական համակարգի ախտաբանություն։ Շնչառական համակարգի  հիվանդություններ','','','',false,true);
+d.add(83,80,'616.3','<div class="nodetag">616.3</div></span>&nbsp;&nbsp;Մարսողական համակարգի հիվանդություններ։ Մարսողական ուղիների հիվանդություններ','616.3','Մարսողական համակարգի հիվանդություններ։ Մարսողական ուղիների հիվանդություններ','','','',false,true);
+d.add(84,83,'616.31','<div class="nodetag">616.31</div></span>&nbsp;&nbsp;Ատամնաբուժություն։ Բերանի  խոռոչ։ Բերան։ Բերանի  խոռոչի և ատամների հիվանդություններ','616.31','Ատամնաբուժություն։ Բերանի  խոռոչ։ Բերան։ Բերանի  խոռոչի և ատամների հիվանդություններ','','','',false,true);
+d.add(85,80,'616.4','<div class="nodetag">616.4</div></span>&nbsp;&nbsp;Արյունաստեղծ, ավշային  հանգույցների համակարգերի  և ներքին սեկրեցիայի  գեղձերի հիվանդություններ։Էնդոկրինային հիվանդություններ ','616.4','Արյունաստեղծ, ավշային  հանգույցների համակարգերի  և ներքին սեկրեցիայի  գեղձերի հիվանդություններ։Էնդոկրինային հիվանդություններ ','','','',false,true);
+d.add(86,80,'616.5','<div class="nodetag">616.5</div></span>&nbsp;&nbsp;Մաշկ։ Մարմնի արտաքին ծածկույթը։ Կլինիկական մաշկաբանություն։Մաշկային հիվանդություններ','616.5','Մաշկ։ Մարմնի արտաքին ծածկույթը։ Կլինիկական մաշկաբանություն։Մաշկային հիվանդություններ','','','',false,true);
+d.add(87,80,'616.6','<div class="nodetag">616.6</div></span>&nbsp;&nbsp;Միզասեռական համակարգի ախտաբանություն։ Միզասեռական օրգանների հիվանդություններ','616.6','Միզասեռական համակարգի ախտաբանություն։ Միզասեռական օրգանների հիվանդություններ','','','',false,true);
+d.add(88,80,'616.7','<div class="nodetag">616.7</div></span>&nbsp;&nbsp;Հենաշարժիչ համակարգի հիվանդություններ։  Կմախք և մկանային համակարգ','616.7','Հենաշարժիչ համակարգի հիվանդություններ։  Կմախք և մկանային համակարգ','','','',false,true);
+d.add(89,80,'616.8','<div class="nodetag">616.8</div></span>&nbsp;&nbsp;Նյարդաբանություն։ Նյարդախտաբանություն (նևրոպաթոլոգիա )։ Նյարդային համակարգ','616.8','Նյարդաբանություն։ Նյարդախտաբանություն (նևրոպաթոլոգիա )։ Նյարդային համակարգ','','','',false,true);
+d.add(90,89,'616.89','<div class="nodetag">616.89</div></span>&nbsp;&nbsp;Հոգեբուժություն։ Հոգեբուժական ախտաբանություն։ Հոգեկան հիվանդություներ։Պսիխոզներ։ Հոգեկան  խանգարումներ։ Հիվանդագին հոգեկան վիճակներ։Վարքագծային և հուզական խանգարումներ ','616.89','Հոգեբուժություն։ Հոգեբուժական ախտաբանություն։ Հոգեկան հիվանդություներ։Պսիխոզներ։ Հոգեկան  խանգարումներ։ Հիվանդագին հոգեկան վիճակներ։Վարքագծային և հուզական խանգարումներ ','','','',false,true);
+d.add(91,80,'616.9','<div class="nodetag">616.9</div></span>&nbsp;&nbsp;Տարափոխիկ հիվանդություններ։  Վարակիչ հիվանդություններ։ Վարակիչ տենդեր','616.9','Տարափոխիկ հիվանդություններ։  Վարակիչ հիվանդություններ։ Վարակիչ տենդեր','','','',false,true);
+d.add(92,7,'617','<div class="nodetag">617</div></span>&nbsp;&nbsp;Վիրաբուժություն։ Ոսկրաբուժություն։ Ակնաբուժություն','617','Վիրաբուժություն։ Ոսկրաբուժություն։ Ակնաբուժություն','','','',false,true);
+d.add(93,92,'617.3','<div class="nodetag">617.3</div></span>&nbsp;&nbsp;Ոսկրաբուժությունն ամբողջությամբ','617.3','Ոսկրաբուժությունն ամբողջությամբ','','','',false,true);
+d.add(94,92,'617.7','<div class="nodetag">617.7</div></span>&nbsp;&nbsp;Ակնաբուժություն։ Աչքի հիվանդություններ և բուժում ','617.7','Ակնաբուժություն։ Աչքի հիվանդություններ և բուժում ','','','',false,true);
+d.add(95,7,'618','<div class="nodetag">618</div></span>&nbsp;&nbsp;Գինեկոլոգիա։ Մանկաբարձություն','618','Գինեկոլոգիա։ Մանկաբարձություն','','','',false,true);
+d.add(96,0,'62','<div class="nodetag">62</div></span>&nbsp;&nbsp;Ճարտարագիտությունը և տեխնիկան ամբողջությամբ','62','Ճարտարագիտությունը և տեխնիկան ամբողջությամբ','','','',false,true);
+d.add(97,96,'62-1/-9','<div class="nodetag">62-1/-9</div></span>&nbsp;&nbsp;Մեքենաների մասերի, սարքերի, սարքավորումների, պրոցեսների, արտադրանքների հատկանիշների    հատուկ  օժանդակ որոշիչներ ','62-1/-9','Մեքենաների մասերի, սարքերի, սարքավորումների, պրոցեսների, արտադրանքների հատկանիշների    հատուկ  օժանդակ որոշիչներ ','','','',false,true);
+d.add(98,97,'62-1','<div class="nodetag">62-1</div></span>&nbsp;&nbsp;Մեքենաների և այլնի ընդհանուր որոշիչներ','62-1','Մեքենաների և այլնի ընդհանուր որոշիչներ','','','',false,true);
+d.add(99,97,'62-2','<div class="nodetag">62-2</div></span>&nbsp;&nbsp;Մեքենաների անշարժ  և շարժական մասեր','62-2','Մեքենաների անշարժ  և շարժական մասեր','','','',false,true);
+d.add(100,97,'62-3','<div class="nodetag">62-3</div></span>&nbsp;&nbsp;Հոսքերի կառավարման մասեր և հաղորդակների։ Փականներ  և  այլն','62-3','Հոսքերի կառավարման մասեր և հաղորդակների։ Փականներ  և  այլն','','','',false,true);
+d.add(101,97,'62-4','<div class="nodetag">62-4</div></span>&nbsp;&nbsp;Նյութերի, մակերեսների, առարկաների, արտադրանքների վիճակ, պայմաններ և ձևեր  ','62-4','Նյութերի, մակերեսների, առարկաների, արտադրանքների վիճակ, պայմաններ և ձևեր  ','','','',false,true);
+d.add(102,97,'62-5','<div class="nodetag">62-5</div></span>&nbsp;&nbsp;Մեքենաների և պրոցեսների կարգավորում և կառավարում','62-5','Մեքենաների և պրոցեսների կարգավորում և կառավարում','','','',false,true);
+d.add(103,97,'62-6','<div class="nodetag">62-6</div></span>&nbsp;&nbsp;Մեքենայական սարքավորումների և  այլ կայանքների վառելիքի և վառելանյութերի աղբյուրների բնութագրում','62-6','Մեքենայական սարքավորումների և  այլ կայանքների վառելիքի և վառելանյութերի աղբյուրների բնութագրում','','','',false,true);
+d.add(104,97,'62-7','<div class="nodetag">62-7</div></span>&nbsp;&nbsp;Մեքենաների, կայանքների շահագործման, վերանորոգման, պահպանման սարքեր ','62-7','Մեքենաների, կայանքների շահագործման, վերանորոգման, պահպանման սարքեր ','','','',false,true);
+d.add(105,97,'62-8','<div class="nodetag">62-8</div></span>&nbsp;&nbsp;Մեքենաներն ըստ հզորության  տեսակի և շարժման մեջ  դնող ուժի։  Մեքենաների  էներգիայի աղբյուրներ','62-8','Մեքենաներն ըստ հզորության  տեսակի և շարժման մեջ  դնող ուժի։  Մեքենաների  էներգիայի աղբյուրներ','','','',false,true);
+d.add(106,97,'62-9','<div class="nodetag">62-9</div></span>&nbsp;&nbsp;Արտադրության պրոցեսների, սարքերի պարամետրեր, պայմաններ և բնութագրումներ','62-9','Արտադրության պրոցեսների, սարքերի պարամետրեր, պայմաններ և բնութագրումներ','','','',false,true);
+d.add(107,106,'62-91','<div class="nodetag">62-91</div></span>&nbsp;&nbsp;Նյութի վիճակ. բնութագրումները և պարամետրերը','62-91','Նյութի վիճակ. բնութագրումները և պարամետրերը','','','',false,true);
+d.add(108,106,'62-92','<div class="nodetag">62-92</div></span>&nbsp;&nbsp;Ռեակցիաներ։  Ռեագենտներ','62-92','Ռեակցիաներ։  Ռեագենտներ','','','',false,true);
+d.add(109,106,'62-93','<div class="nodetag">62-93</div></span>&nbsp;&nbsp;Պրոցեսներ, մեքենաներ, սարքավորումներ  համաձայն աշխատանքի միջոցների ,տևողության, միացությունների, միջավայրի','62-93','Պրոցեսներ, մեքենաներ, սարքավորումներ  համաձայն աշխատանքի միջոցների ,տևողության, միացությունների, միջավայրի','','','',false,true);
+d.add(110,106,'62-94','<div class="nodetag">62-94</div></span>&nbsp;&nbsp;Պրոցեսների ուղղությունը, արագությունը, գործակիցը, տևողությունը','62-94','Պրոցեսների ուղղությունը, արագությունը, գործակիցը, տևողությունը','','','',false,true);
+d.add(111,106,'62-95','<div class="nodetag">62-95</div></span>&nbsp;&nbsp;Պարզ և աստիճանական պրոցեսներ։ Միաստիճան և բազմաստիճան պրոցեսներ','62-95','Պարզ և աստիճանական պրոցեսներ։ Միաստիճան և բազմաստիճան պրոցեսներ','','','',false,true);
+d.add(112,106,'62-96','<div class="nodetag">62-96</div></span>&nbsp;&nbsp;Պրոցեսներ ըստ արտադրանքի   հատկանիշների փոփոխության: Վերափոխումներն ամբողջությամբ','62-96','Պրոցեսներ ըստ արտադրանքի   հատկանիշների փոփոխության: Վերափոխումներն ամբողջությամբ','','','',false,true);
+d.add(113,106,'62-97','<div class="nodetag">62-97</div></span>&nbsp;&nbsp;Ջերմայինբնութագրումներ: Ջերմաստիճան: Ջերմաստիճանային միջակայք','62-97','Ջերմայինբնութագրումներ: Ջերմաստիճան: Ջերմաստիճանային միջակայք','','','',false,true);
+d.add(114,106,'62-98','<div class="nodetag">62-98</div></span>&nbsp;&nbsp;Ճնշում: Ճնշման միջակայք ','62-98','Ճնշում: Ճնշման միջակայք ','','','',false,true);
+d.add(115,96,'620','<div class="nodetag">620</div></span>&nbsp;&nbsp;Նյութերի փորձարկում։  Ապրանքագիտություն։ Ուժակայաններ։ Ընդհանուր էներգետիկա','620','Նյութերի փորձարկում։  Ապրանքագիտություն։ Ուժակայաններ։ Ընդհանուր էներգետիկա','','','',false,true);
+d.add(116,115,'620.3','<div class="nodetag">620.3</div></span>&nbsp;&nbsp;Նանոտեխնոլոգիա','620.3','Նանոտեխնոլոգիա','','','',false,true);
+d.add(117,115,'620.9','<div class="nodetag">620.9</div></span>&nbsp;&nbsp;Ընդհանուր էներգետիկան ամբողջությամբ','620.9','Ընդհանուր էներգետիկան ամբողջությամբ','','','',false,true);
+d.add(118,96,'621','<div class="nodetag">621</div></span>&nbsp;&nbsp;Ընդհանուր մեքենաշինությունն ամբողջությամբ։ Միջուկային տեխնոլոգիա։ Էլեկտրատեխնիկա։ Մեքենաշինության տեխնոլոգիա','621','Ընդհանուր մեքենաշինությունն ամբողջությամբ։ Միջուկային տեխնոլոգիա։ Էլեկտրատեխնիկա։ Մեքենաշինության տեխնոլոգիա','','','',false,true);
+d.add(119,118,'621.1','<div class="nodetag">621.1</div></span>&nbsp;&nbsp;Ջերմաշարժիչներն ամբողջությամբ։ Շոգու ստացում, բաշխում և օգտագործում։ Շոգեմեքենաներ։ Շոգեկաթսաներ','621.1','Ջերմաշարժիչներն ամբողջությամբ։ Շոգու ստացում, բաշխում և օգտագործում։ Շոգեմեքենաներ։ Շոգեկաթսաներ','','','',false,true);
+d.add(120,118,'621.22','<div class="nodetag">621.22</div></span>&nbsp;&nbsp;Հիդրավլիկ էներգիա։ Հիդրավլիկ  մեքենաներ','621.22','Հիդրավլիկ էներգիա։ Հիդրավլիկ  մեքենաներ','','','',false,true);
+d.add(121,118,'621.3','<div class="nodetag">621.3</div></span>&nbsp;&nbsp;Էլեկտրատեխնիկա','621.3','Էլեկտրատեխնիկա','','','',false,true);
+d.add(122,118,'621.4','<div class="nodetag">621.4</div></span>&nbsp;&nbsp;Ջերմաշարժիչներ (բացի շոգեմեքենաներից)','621.4','Ջերմաշարժիչներ (բացի շոգեմեքենաներից)','','','',false,true);
+d.add(123,118,'621.5','<div class="nodetag">621.5</div></span>&nbsp;&nbsp;Պնևմաէներգետիկա, պնևմատիկ  մեքենաներ և գործիքներ։ Սառնարանային սարքեր','621.5','Պնևմաէներգետիկա, պնևմատիկ  մեքենաներ և գործիքներ։ Սառնարանային սարքեր','','','',false,true);
+d.add(124,118,'621.6','<div class="nodetag">621.6</div></span>&nbsp;&nbsp;Հեղուկների և գազերի փոխադրման, պահեստավորման և բաշխման  սարքավորումներ ','621.6','Հեղուկների և գազերի փոխադրման, պահեստավորման և բաշխման  սարքավորումներ ','','','',false,true);
+d.add(125,118,'621.7','<div class="nodetag">621.7</div></span>&nbsp;&nbsp;Մեխանիկական տեխնոլոգիան ընդհանրապես. պրոցեսներ, գործիքներ,մեքենաներ և սարքավորումներ','621.7','Մեխանիկական տեխնոլոգիան ընդհանրապես. պրոցեսներ, գործիքներ,մեքենաներ և սարքավորումներ','','','',false,true);
+d.add(126,118,'621.8','<div class="nodetag">621.8</div></span>&nbsp;&nbsp;Մեքենաների մասեր։ Փոխանցումեր (մեխանիկական)։ Վերամբարձ-տրանսպորտային սարքավորումներ։ Ամրակման միջոցներ։ Յուղում','621.8','Մեքենաների մասեր։ Փոխանցումեր (մեխանիկական)։ Վերամբարձ-տրանսպորտային սարքավորումներ։ Ամրակման միջոցներ։ Յուղում','','','',false,true);
+d.add(127,118,'621.9','<div class="nodetag">621.9</div></span>&nbsp;&nbsp;Տեխնիկական մշակում թերթավոր նյութի  ձևավորմամբ։ Հղկումային մշակում։ Մուրճեր և մամլիչներ','621.9','Տեխնիկական մշակում թերթավոր նյութի  ձևավորմամբ։ Հղկումային մշակում։ Մուրճեր և մամլիչներ','','','',false,true);
+d.add(128,96,'622','<div class="nodetag">622</div></span>&nbsp;&nbsp;Լեռնային գործ։ Լեռնային ձեռնարկություններ (հանքավայրեր, հանքահորեր, բացհանքեր)։ Ոչ հանքային հանածոների հանույթ','622','Լեռնային գործ։ Լեռնային ձեռնարկություններ (հանքավայրեր, հանքահորեր, բացհանքեր)։ Ոչ հանքային հանածոների հանույթ','','','',false,true);
+d.add(129,128,'622.1','<div class="nodetag">622.1</div></span>&nbsp;&nbsp;Նախնական հետախուզում։ Հանքերի հետախուզում և քարտեզագրում։ Հանքավայրերի հետախուզում (մակերևութային և ստորգետնյա)','622.1','Նախնական հետախուզում։ Հանքերի հետախուզում և քարտեզագրում։ Հանքավայրերի հետախուզում (մակերևութային և ստորգետնյա)','','','',false,true);
+d.add(130,128,'622.2','<div class="nodetag">622.2</div></span>&nbsp;&nbsp;Լեռնագործական աշխատանքներ։  Հանքավայերի  հետախուզում, հորատում, բացում','622.2','Լեռնագործական աշխատանքներ։  Հանքավայերի  հետախուզում, հորատում, բացում','','','',false,true);
+d.add(131,128,'622.3','<div class="nodetag">622.3</div></span>&nbsp;&nbsp;Հատուկ հանքանյութերի, հանքաքարերի հանքավայրերի շահագործում  ','622.3','Հատուկ հանքանյութերի, հանքաքարերի հանքավայրերի շահագործում  ','','','',false,true);
+d.add(132,128,'622.4','<div class="nodetag">622.4</div></span>&nbsp;&nbsp;Հանքերի օդափոխություն, տաքացում և լուսավորում ','622.4','Հանքերի օդափոխություն, տաքացում և լուսավորում ','','','',false,true);
+d.add(133,128,'622.5','<div class="nodetag">622.5</div></span>&nbsp;&nbsp;Հանքերի ջրահանում։ Հանքահորային ջրեր։ Չորացում','622.5','Հանքերի ջրահանում։ Հանքահորային ջրեր։ Չորացում','','','',false,true);
+d.add(134,128,'622.6','<div class="nodetag">622.6</div></span>&nbsp;&nbsp;Հանքահորային փոխադրամիջոցներ։ Առաքում երկարախորշով, հանքահանում հանքամիջանցքներով, ամբարձրացում հիմնանցքներով։ Մակերևութային փոխադրամիջոց','622.6','Հանքահորային փոխադրամիջոցներ։ Առաքում երկարախորշով, հանքահանում հանքամիջանցքներով, ամբարձրացում հիմնանցքներով։ Մակերևութային փոխադրամիջոց','','','',false,true);
+d.add(135,128,'622.7','<div class="nodetag">622.7</div></span>&nbsp;&nbsp;Հանքային հումքի հարստացում','622.7','Հանքային հումքի հարստացում','','','',false,true);
+d.add(136,128,'622.8','<div class="nodetag">622.8</div></span>&nbsp;&nbsp;Վտանգներ հանքահորերում։ Դժբախտ դեպքեր և վնասվածքներ։ Աշխատանքի պաշտպանություն և անվտանգության տեխնիկա','622.8','Վտանգներ հանքահորերում։ Դժբախտ դեպքեր և վնասվածքներ։ Աշխատանքի պաշտպանություն և անվտանգության տեխնիկա','','','',false,true);
+d.add(137,96,'623','<div class="nodetag">623</div></span>&nbsp;&nbsp;Ռազմական տեխնիկա։ Ցամաքային և ռազմա-օդային ուժերի տեխնիկա։ Ռազմա-ծովային նավատորմի տեխնիկա','623','Ռազմական տեխնիկա։ Ցամաքային և ռազմա-օդային ուժերի տեխնիկա։ Ռազմա-ծովային նավատորմի տեխնիկա','','','',false,true);
+d.add(138,137,'623.1/.7','<div class="nodetag">623.1/.7</div></span>&nbsp;&nbsp;Ցամաքային   ուժերի տեխնիկա։ Հրետանի','623.1/.7','Ցամաքային   ուժերի տեխնիկա։ Հրետանի','','','',false,true);
+d.add(139,138,'623.1/.3','<div class="nodetag">623.1/.3</div></span>&nbsp;&nbsp;Ռազմադաշտային տեխնիկա։ Ամրաշինական կառույցներ։ Պաշտպանական աշխատանքներ','623.1/.3','Ռազմադաշտային տեխնիկա։ Ամրաշինական կառույցներ։ Պաշտպանական աշխատանքներ','','','',false,true);
+d.add(140,139,'623.1','<div class="nodetag">623.1</div></span>&nbsp;&nbsp;Ամրոցներ։ Երկարաժամկետ ամրաշինական կառույցներ։ Ամրացված գոտիներ և շրջաններ   ','623.1','Ամրոցներ։ Երկարաժամկետ ամրաշինական կառույցներ։ Ամրացված գոտիներ և շրջաններ   ','','','',false,true);
+d.add(141,139,'623.2','<div class="nodetag">623.2</div></span>&nbsp;&nbsp;Հարձակողական և պաշտպանողաական գործողությունների ինժեներատեխնիկական ապահովման  աշխատանքներ ։ Պաշարողական  աշխատանքներ ։ Դաշտային ամրություններ։ Խրամուղիների աշխատանքներ ','623.2','Հարձակողական և պաշտպանողաական գործողությունների ինժեներատեխնիկական ապահովման  աշխատանքներ ։ Պաշարողական  աշխատանքներ ։ Դաշտային ամրություններ։ Խրամուղիների աշխատանքներ ','','','',false,true);
+d.add(142,139,'623.3','<div class="nodetag">623.3</div></span>&nbsp;&nbsp;Ականադաշտեր։ Դաշտային արգելափակոցներ և ջրածածկում','623.3','Ականադաշտեր։ Դաշտային արգելափակոցներ և ջրածածկում','','','',false,true);
+d.add(143,138,'623.4','<div class="nodetag">623.4</div></span>&nbsp;&nbsp;Սպառազինություններ։ Հրետանային սպառազինություն։ Զենքեր։ Հրազեններ  ։ Հրաձգային զենք։ Անձնական զենք։ Զրահամեքենաներ։ Զինամթերքներ և մարտական թունավոր նյութեր։ Կառավարելի և չկառավարվող հրթիռներ և ռեակտիվ  արկեր','623.4','Սպառազինություններ։ Հրետանային սպառազինություն։ Զենքեր։ Հրազեններ  ։ Հրաձգային զենք։ Անձնական զենք։ Զրահամեքենաներ։ Զինամթերքներ և մարտական թունավոր նյութեր։ Կառավարելի և չկառավարվող հրթիռներ և ռեակտիվ  արկեր','','','',false,true);
+d.add(144,138,'623.5','<div class="nodetag">623.5</div></span>&nbsp;&nbsp;Բալիստիկա (ձգաբանություն)։ Հրետաձգություն։ Տեսական և փորձնական հարցեր','623.5','Բալիստիկա (ձգաբանություն)։ Հրետաձգություն։ Տեսական և փորձնական հարցեր','','','',false,true);
+d.add(145,138,'623.6','<div class="nodetag">623.6</div></span>&nbsp;&nbsp;Ռազմադաշտային ինժեներական սարքավորումներ և գործողություններ։ Հաղորդակցության ուղիներ։ Հակառադիոլոկացիոն  միջոցներ։ Ռազմական տեղագրություն','623.6','Ռազմադաշտային ինժեներական սարքավորումներ և գործողություններ։ Հաղորդակցության ուղիներ։ Հակառադիոլոկացիոն  միջոցներ։ Ռազմական տեղագրություն','','','',false,true);
+d.add(146,138,'623.7','<div class="nodetag">623.7</div></span>&nbsp;&nbsp;Ռազմական և ռազմա-ծովային ավիացիա։ Հակաօդային պաշտպանություն և այլն','623.7','Ռազմական և ռազմա-ծովային ավիացիա։ Հակաօդային պաշտպանություն և այլն','','','',false,true);
+d.add(147,137,'623.8/.9','<div class="nodetag">623.8/.9</div></span>&nbsp;&nbsp;Ռազմա-ծովային նավատորմի տեխնիկա','623.8/.9','Ռազմա-ծովային նավատորմի տեխնիկա','','','',false,true);
+d.add(148,147,'623.8','<div class="nodetag">623.8</div></span>&nbsp;&nbsp;Ռազմա-ծովային նավաշինություն։ Ռազմա-ծովային   բազաներ։ Ռազմանավեր և այլ  նավեր','623.8','Ռազմա-ծովային նավաշինություն։ Ռազմա-ծովային   բազաներ։ Ռազմանավեր և այլ  նավեր','','','',false,true);
+d.add(149,147,'623.9','<div class="nodetag">623.9</div></span>&nbsp;&nbsp;Ռազմա-ծովային նավատորմի տեխնիկական միջոցներ։ Ռազմանավերի պաշտպանություն և սպառազինություն։  Ստորջրյա պաշտպանություն','623.9','Ռազմա-ծովային նավատորմի տեխնիկական միջոցներ։ Ռազմանավերի պաշտպանություն և սպառազինություն։  Ստորջրյա պաշտպանություն','','','',false,true);
+d.add(150,96,'624','<div class="nodetag">624</div></span>&nbsp;&nbsp;Շինարարական կառուցվածքներն ու տեխնիկան ամբողջությամբ','624','Շինարարական կառուցվածքներն ու տեխնիկան ամբողջությամբ','','','',false,true);
+d.add(151,150,'624.01/.07','<div class="nodetag">624.01/.07</div></span>&nbsp;&nbsp;Շինարարական կառուցվածքներ  և տեխնիկայի հատուկ օժանդակ  բաժանում ','624.01/.07','Շինարարական կառուցվածքներ  և տեխնիկայի հատուկ օժանդակ  բաժանում ','','','',false,true);
+d.add(152,151,'624.01','<div class="nodetag">624.01</div></span>&nbsp;&nbsp;Կառուցվածքներ և կառուցվածքային մասեր ըստ նյութերի և կառուցման մեթոդների','624.01','Կառուցվածքներ և կառուցվածքային մասեր ըստ նյութերի և կառուցման մեթոդների','','','',false,true);
+d.add(153,151,'624.03','<div class="nodetag">624.03</div></span>&nbsp;&nbsp;Կառուցվածքների չափս, ծառայության ժամկետ,  դիրք և ձև','624.03','Կառուցվածքների չափս, ծառայության ժամկետ,  դիրք և ձև','','','',false,true);
+d.add(154,151,'624.04','<div class="nodetag">624.04</div></span>&nbsp;&nbsp;Շինարարական  կառուցվածքների նախագծում։ Կառուցվածքների հետազոտության և հաշվարկի գծագրական  և անալիտիկ ստատիկա','624.04','Շինարարական  կառուցվածքների նախագծում։ Կառուցվածքների հետազոտության և հաշվարկի գծագրական  և անալիտիկ ստատիկա','','','',false,true);
+d.add(155,151,'624.05','<div class="nodetag">624.05</div></span>&nbsp;&nbsp;Շինարարական հրապարակներ, նախապատրաստական աշխատանքների կազմակերպում և սարքավորումներ  Շինարարական  մեթոդներ','624.05','Շինարարական հրապարակներ, նախապատրաստական աշխատանքների կազմակերպում և սարքավորումներ  Շինարարական  մեթոդներ','','','',false,true);
+d.add(156,151,'624.07','<div class="nodetag">624.07</div></span>&nbsp;&nbsp;Կառուցատարրեր։ Կրող կառուցատարրեր ','624.07','Կառուցատարրեր։ Կրող կառուցատարրեր ','','','',false,true);
+d.add(157,150,'624.1','<div class="nodetag">624.1</div></span>&nbsp;&nbsp;Ստորգետնյա շինարարություն։ Հողային աշխատանքներ։ Հիմքեր։ Թունելների կառուցում','624.1','Ստորգետնյա շինարարություն։ Հողային աշխատանքներ։ Հիմքեր։ Թունելների կառուցում','','','',false,true);
+d.add(158,150,'624.21/.8','<div class="nodetag">624.21/.8</div></span>&nbsp;&nbsp;Կամրջաշինություն','624.21/.8','Կամրջաշինություն','','','',false,true);
+d.add(159,158,'624.3','<div class="nodetag">624.3</div></span>&nbsp;&nbsp;Վանդակավոր  կամուրջներ','624.3','Վանդակավոր  կամուրջներ','','','',false,true);
+d.add(160,158,'624.5','<div class="nodetag">624.5</div></span>&nbsp;&nbsp;Կախովի կամուրջներ։ Կայմաճոպանավոր կամուրջներ','624.5','Կախովի կամուրջներ։ Կայմաճոպանավոր կամուրջներ','','','',false,true);
+d.add(161,158,'624.6','<div class="nodetag">624.6</div></span>&nbsp;&nbsp;Կամարավոր կամուրջներ','624.6','Կամարավոր կամուրջներ','','','',false,true);
+d.add(162,158,'624.8','<div class="nodetag">624.8</div></span>&nbsp;&nbsp;Բացովի կամուրջներ','624.8','Բացովի կամուրջներ','','','',false,true);
+d.add(163,150,'624.9','<div class="nodetag">624.9</div></span>&nbsp;&nbsp;Վերգետնյա  շինարարություն։ Վերգետնյա  համալիր շինություններ','624.9','Վերգետնյա  շինարարություն։ Վերգետնյա  համալիր շինություններ','','','',false,true);
+d.add(164,96,'625','<div class="nodetag">625</div></span>&nbsp;&nbsp;Ճանապարհներ։ Երկաթուղիներ։ Երկաթուղիների շինարարություն։ Ավտոճանապարհներ։ Ճանապարհաշինություն ','625','Ճանապարհներ։ Երկաթուղիներ։ Երկաթուղիների շինարարություն։ Ավտոճանապարհներ։ Ճանապարհաշինություն ','','','',false,true);
+d.add(165,164,'625.1/.5','<div class="nodetag">625.1/.5</div></span>&nbsp;&nbsp;Ռելսուղիներ։ Տրամվայներ։ Ճոպանուղիներ','625.1/.5','Ռելսուղիներ։ Տրամվայներ։ Ճոպանուղիներ','','','',false,true);
+d.add(166,165,'625.1','<div class="nodetag">625.1</div></span>&nbsp;&nbsp;Երկաթուղիներն ամբողջությամբ։ Երկաթուղային  գծեր։ Երկաթուղիների շինարարություն','625.1','Երկաթուղիներն ամբողջությամբ։ Երկաթուղային  գծեր։ Երկաթուղիների շինարարություն','','','',false,true);
+d.add(167,165,'625.5','<div class="nodetag">625.5</div></span>&nbsp;&nbsp;Ճոպանուղիներ։ Ֆունիկուլյորներ։ Կախովի ռելսուղիներ։ Կախովի ճոպանուղիներ','625.5','Ճոպանուղիներ։ Ֆունիկուլյորներ։ Կախովի ռելսուղիներ։ Կախովի ճոպանուղիներ','','','',false,true);
+d.add(168,164,'625.7/.8','<div class="nodetag">625.7/.8</div></span>&nbsp;&nbsp;Ավտոճանապարհներ։ Ճանապարհաշինարարություն','625.7/.8','Ավտոճանապարհներ։ Ճանապարհաշինարարություն','','','',false,true);
+d.add(169,168,'625.7','<div class="nodetag">625.7</div></span>&nbsp;&nbsp;Ավտոճանապարհներն ամբողջությամբ։ Միջքաղքային ճանապարհներ։ Ճանապարհների երթևեկելի մասեր։ Փողոցներ։ Գյուղական և քաղաքային ճանապարհային համակարգեր','625.7','Ավտոճանապարհներն ամբողջությամբ։ Միջքաղքային ճանապարհներ։ Ճանապարհների երթևեկելի մասեր։ Փողոցներ։ Գյուղական և քաղաքային ճանապարհային համակարգեր','','','',false,true);
+d.add(170,168,'625.8','<div class="nodetag">625.8</div></span>&nbsp;&nbsp;Ճանապարհային ծածկույթներ։  Սալաքարե ճանապարհներ։  Կամուրջներ։ Խճաքարե և այլ ծածկույթներ։ Ճանապարհա-շինարարական նյութերի նախապատրաստում և օգտագործում։ Ճանապարհներն ըստ ծածկույթների','625.8','Ճանապարհային ծածկույթներ։  Սալաքարե ճանապարհներ։  Կամուրջներ։ Խճաքարե և այլ ծածկույթներ։ Ճանապարհա-շինարարական նյութերի նախապատրաստում և օգտագործում։ Ճանապարհներն ըստ ծածկույթների','','','',false,true);
+d.add(171,96,'626/627','<div class="nodetag">626/627</div></span>&nbsp;&nbsp;Հիդրոտեխնիկական շինարարություն։ Հիդրոտեխնիկա ','626/627','Հիդրոտեխնիկական շինարարություն։ Հիդրոտեխնիկա ','','','',false,true);
+d.add(172,171,'626','<div class="nodetag">626</div></span>&nbsp;&nbsp;Հիդրոտեխնիկական շինարարությունն ամբողջությամբ','626','Հիդրոտեխնիկական շինարարությունն ամբողջությամբ','','','',false,true);
+d.add(173,172,'626.1','<div class="nodetag">626.1</div></span>&nbsp;&nbsp;Ներքին նավարկելի ջրանցքներ։ Ջրանցքներ','626.1','Ներքին նավարկելի ջրանցքներ։ Ջրանցքներ','','','',false,true);
+d.add(174,172,'626.4','<div class="nodetag">626.4</div></span>&nbsp;&nbsp;Նավարկելի ջրարգելակներ (շլյուզներ)','626.4','Նավարկելի ջրարգելակներ (շլյուզներ)','','','',false,true);
+d.add(175,172,'626.5','<div class="nodetag">626.5</div></span>&nbsp;&nbsp;Նավամբարձիչներ։ Թեք նավամբարձիչներ','626.5','Նավամբարձիչներ։ Թեք նավամբարձիչներ','','','',false,true);
+d.add(176,172,'626.8','<div class="nodetag">626.8</div></span>&nbsp;&nbsp;Մելիորատիվ  շինարարություն։ Գյուղատնտեսական հիդրոտեխնիկա','626.8','Մելիորատիվ  շինարարություն։ Գյուղատնտեսական հիդրոտեխնիկա','','','',false,true);
+d.add(177,172,'626.9','<div class="nodetag">626.9</div></span>&nbsp;&nbsp;Ծովային ջրանցքներ','626.9','Ծովային ջրանցքներ','','','',false,true);
+d.add(178,171,'627','<div class="nodetag">627</div></span>&nbsp;&nbsp;Բնական ջրային ճանապարհներ, նավահանգիստներ և մերձափնյա հիդրոտեխնիկական շինություններ։ Նավագնացության պաշտպանական միջոցներ։ Հատակի խորացման և փրկարարական աշխատանքներ։ Ամբարտակներ և կառույցներ հիդրոէլեկտրակայանների համար','627','Բնական ջրային ճանապարհներ, նավահանգիստներ և մերձափնյա հիդրոտեխնիկական շինություններ։ Նավագնացության պաշտպանական միջոցներ։ Հատակի խորացման և փրկարարական աշխատանքներ։ Ամբարտակներ և կառույցներ հիդրոէլեկտրակայանների համար','','','',false,true);
+d.add(179,178,'627.2','<div class="nodetag">627.2</div></span>&nbsp;&nbsp;Նավահանգիստներ և խարսխակայաններ։ Նավահանգստային հիդրոտեխնիկական կառույցներն  ամբողջությամբ','627.2','Նավահանգիստներ և խարսխակայաններ։ Նավահանգստային հիդրոտեխնիկական կառույցներն  ամբողջությամբ','','','',false,true);
+d.add(180,178,'627.3','<div class="nodetag">627.3</div></span>&nbsp;&nbsp;Նավահագիստների ներքին սարքավորումներ։  Նավաշինարաններ։ Առափնամատույցներ։ Նավակայաններ։ Նավահանգիստների նավանորոգարանների սարքեր և սարքավորումներ։ ','627.3','Նավահագիստների ներքին սարքավորումներ։  Նավաշինարաններ։ Առափնամատույցներ։ Նավակայաններ։ Նավահանգիստների նավանորոգարանների սարքեր և սարքավորումներ։ ','','','',false,true);
+d.add(181,178,'627.4','<div class="nodetag">627.4</div></span>&nbsp;&nbsp;Գետափերի պահպանություն։  Գետերի և հոսանքների կարգավորում։  Գետերի բարելավման այլ աշխատանքներ','627.4','Գետափերի պահպանություն։  Գետերի և հոսանքների կարգավորում։  Գետերի բարելավման այլ աշխատանքներ','','','',false,true);
+d.add(182,178,'627.5','<div class="nodetag">627.5</div></span>&nbsp;&nbsp;Ջրային ուղիների և ծովափերի պաշտպանության և կարգավորման  աշխատանքներ։ Պատնեշներ։ Ծոափերի պաշտպանություն ։Դրենաժ և վերականգնում','627.5','Ջրային ուղիների և ծովափերի պաշտպանության և կարգավորման  աշխատանքներ։ Պատնեշներ։ Ծոափերի պաշտպանություն ։Դրենաժ և վերականգնում','','','',false,true);
+d.add(183,178,'627.7','<div class="nodetag">627.7</div></span>&nbsp;&nbsp;Նավագնացության  սարքավորումներ։ Նավարկելի ուղիների  պահպանություն։ Ծովային փրկարարական  միջոցներ','627.7','Նավագնացության  սարքավորումներ։ Նավարկելի ուղիների  պահպանություն։ Ծովային փրկարարական  միջոցներ','','','',false,true);
+d.add(184,178,'627.8','<div class="nodetag">627.8</div></span>&nbsp;&nbsp;Ջրամբարներ։  Ամբարտակներ։ Հիդրոէլեկտրակայանների կառույցներ ','627.8','Ջրամբարներ։  Ամբարտակներ։ Հիդրոէլեկտրակայանների կառույցներ ','','','',false,true);
+d.add(185,96,'628','<div class="nodetag">628</div></span>&nbsp;&nbsp;Սանիտարական տեխնիկա։ Սանիտարա-տեխնիկական կառույցներ։ Ջրամատակարարում։ Սանիտարական հսկողություն։ Լուսավորություն','628','Սանիտարական տեխնիկա։ Սանիտարա-տեխնիկական կառույցներ։ Ջրամատակարարում։ Սանիտարական հսկողություն։ Լուսավորություն','','','',false,true);
+d.add(186,185,'628.1','<div class="nodetag">628.1</div></span>&nbsp;&nbsp;Ջրամատակարարում։ Ջրերի մաքրում։ Ջրօգտագործում','628.1','Ջրամատակարարում։ Ջրերի մաքրում։ Ջրօգտագործում','','','',false,true);
+d.add(187,185,'628.2','<div class="nodetag">628.2</div></span>&nbsp;&nbsp;Քաղաքային ջրմուղ-կոյուղու  կառույցներ և համակարգեր','628.2','Քաղաքային ջրմուղ-կոյուղու  կառույցներ և համակարգեր','','','',false,true);
+d.add(188,185,'628.3','<div class="nodetag">628.3</div></span>&nbsp;&nbsp;Կեղտաջրեր։ Մշակում, հեռացում, օգտագործում','628.3','Կեղտաջրեր։ Մշակում, հեռացում, օգտագործում','','','',false,true);
+d.add(189,185,'628.4','<div class="nodetag">628.4</div></span>&nbsp;&nbsp;Քաղաքի և այլ բնակավայրերի սանիտարական բարեկարգում։ Թափոններ։ Աղբ։ Թափոնների հավաքում և հեռացում','628.4','Քաղաքի և այլ բնակավայրերի սանիտարական բարեկարգում։ Թափոններ։ Աղբ։ Թափոնների հավաքում և հեռացում','','','',false,true);
+d.add(190,185,'628.5','<div class="nodetag">628.5</div></span>&nbsp;&nbsp;Միջոցներ  արդյունաբերական  և այլ վնասակար ազդեցությունների դեմ                                                                                                                                                                                                                                                                                                    ','628.5','Միջոցներ  արդյունաբերական  և այլ վնասակար ազդեցությունների դեմ                                                                                                                                                                                                                                                                                                    ','','','',false,true);
+d.add(191,185,'628.6','<div class="nodetag">628.6</div></span>&nbsp;&nbsp;Շենքերի ջրհեռացման և սանիտարա-տեխնիկական սարքավորումներ','628.6','Շենքերի ջրհեռացման և սանիտարա-տեխնիկական սարքավորումներ','','','',false,true);
+d.add(192,185,'628.8','<div class="nodetag">628.8</div></span>&nbsp;&nbsp;Շինությունների, շենքերի  միկրոկլիմա։  Օդորակում։ Ջեռուցում։ Օդափոխում','628.8','Շինությունների, շենքերի  միկրոկլիմա։  Օդորակում։ Ջեռուցում։ Օդափոխում','','','',false,true);
+d.add(193,185,'628.9','<div class="nodetag">628.9</div></span>&nbsp;&nbsp;Լուսավորություն։ Լուսատեխնիկա','628.9','Լուսավորություն։ Լուսատեխնիկա','','','',false,true);
+d.add(194,96,'629','<div class="nodetag">629</div></span>&nbsp;&nbsp;Տրանսպորտային միջոցների տեխնիկա','629','Տրանսպորտային միջոցների տեխնիկա','','','',false,true);
+d.add(195,194,'629.01/.08','<div class="nodetag">629.01/.08</div></span>&nbsp;&nbsp;Փոխադրամիջոցների արտադրության հատուկ օժանդակ որոշիչ','629.01/.08','Փոխադրամիջոցների արտադրության հատուկ օժանդակ որոշիչ','','','',false,true);
+d.add(196,195,'629.01','<div class="nodetag">629.01</div></span>&nbsp;&nbsp;Փոխադրամիջոցների նախագծման սկզբունքեր, բնութագրեր, հատկություններ,  փորձարկումներ  ','629.01','Փոխադրամիջոցների նախագծման սկզբունքեր, բնութագրեր, հատկություններ,  փորձարկումներ  ','','','',false,true);
+d.add(197,195,'629.02','<div class="nodetag">629.02</div></span>&nbsp;&nbsp;Փոխադրամիջոցների կառուցվածքներ։ Նախագծման սկզբունքներ։ Ընդհանուր կառուցվածք և մասեր','629.02','Փոխադրամիջոցների կառուցվածքներ։ Նախագծման սկզբունքներ։ Ընդհանուր կառուցվածք և մասեր','','','',false,true);
+d.add(198,195,'629.03','<div class="nodetag">629.03</div></span>&nbsp;&nbsp;Շարժասարքեր ','629.03','Շարժասարքեր ','','','',false,true);
+d.add(199,195,'629.04','<div class="nodetag">629.04</div></span>&nbsp;&nbsp;Ներքին նախագծում։ Մարդատար և բեռնատար տարածքներ և նրանց սարքավորումները ','629.04','Ներքին նախագծում։ Մարդատար և բեռնատար տարածքներ և նրանց սարքավորումները ','','','',false,true);
+d.add(200,195,'629.05','<div class="nodetag">629.05</div></span>&nbsp;&nbsp;Նավավարության  ուղղորդման, ղեկավարման և   կողային  համակարգեր։ Կողային սարքավորումներ ','629.05','Նավավարության  ուղղորդման, ղեկավարման և   կողային  համակարգեր։ Կողային սարքավորումներ ','','','',false,true);
+d.add(201,195,'629.06','<div class="nodetag">629.06</div></span>&nbsp;&nbsp;Փոխադրամիջոցների օժանդակ համակարգեր և  սարքավորումներ','629.06','Փոխադրամիջոցների օժանդակ համակարգեր և  սարքավորումներ','','','',false,true);
+d.add(202,195,'629.07','<div class="nodetag">629.07</div></span>&nbsp;&nbsp;Փոխադրական գործողությունների տեխնիկական տեսակներ, ներառյալ վարում, ղեկավարում','629.07','Փոխադրական գործողությունների տեխնիկական տեսակներ, ներառյալ վարում, ղեկավարում','','','',false,true);
+d.add(203,195,'629.08','<div class="nodetag">629.08</div></span>&nbsp;&nbsp;Հիմնական սարքավորումներ, տեղադրումներ և համապատասխան տեխնիկական գործընթացներ','629.08','Հիմնական սարքավորումներ, տեղադրումներ և համապատասխան տեխնիկական գործընթացներ','','','',false,true);
+d.add(204,194,'629.3','<div class="nodetag">629.3</div></span>&nbsp;&nbsp;Գետնային փոխադրամիջոցներ (բացի ռելսայիններից )','629.3','Գետնային փոխադրամիջոցներ (բացի ռելսայիններից )','','','',false,true);
+d.add(205,194,'629.4','<div class="nodetag">629.4</div></span>&nbsp;&nbsp;Ռելսային փոխադրամիջոցներ։ Լոկոմոտիվներ։ Շարժակազմեր։ Երկաթուղային հավաքակայան։ Սարքավորումներ և ծառայություններ կապված շարժակազմի հետ','629.4','Ռելսային փոխադրամիջոցներ։ Լոկոմոտիվներ։ Շարժակազմեր։ Երկաթուղային հավաքակայան։ Սարքավորումներ և ծառայություններ կապված շարժակազմի հետ','','','',false,true);
+d.add(206,194,'629.5','<div class="nodetag">629.5</div></span>&nbsp;&nbsp;Ջրային փոխադրամիջոցներ։ Ծովային տեխնիկա։ Լողացող միջոցներ։ Նավակներ։ Նավեր։Նավաշինություն','629.5','Ջրային փոխադրամիջոցներ։ Ծովային տեխնիկա։ Լողացող միջոցներ։ Նավակներ։ Նավեր։Նավաշինություն','','','',false,true);
+d.add(207,194,'629.7','<div class="nodetag">629.7</div></span>&nbsp;&nbsp;Օդագնացություն և տիեզերագնազություն։ Թռչող ապարատներ։ Հրթիռային տեխնիկա։ Տիեզերագնացություն և տիեզերանավեր ','629.7','Օդագնացություն և տիեզերագնազություն։ Թռչող ապարատներ։ Հրթիռային տեխնիկա։ Տիեզերագնացություն և տիեզերանավեր ','','','',false,true);
+d.add(208,0,'63','<div class="nodetag">63</div></span>&nbsp;&nbsp;Գյուղատնտեսություն և նրա հետ առնչվող գիտություններ և տեխնոլոգիաներ։ Անտառային տնտեսություն։ Հողագործություն։ Որսորդություն։ Ձկնաբուծություն','63','Գյուղատնտեսություն և նրա հետ առնչվող գիտություններ և տեխնոլոգիաներ։ Անտառային տնտեսություն։ Հողագործություն։ Որսորդություն։ Ձկնաբուծություն','','','',false,true);
+d.add(209,208,'630','<div class="nodetag">630</div></span>&nbsp;&nbsp;Անտառային տնտեսություն։ Անտառաբուծություն','630','Անտառային տնտեսություն։ Անտառաբուծություն','','','',false,true);
+d.add(210,209,'630*0','<div class="nodetag">630*0</div></span>&nbsp;&nbsp;Անտառներ, անտառատնտեսության և անտառանյութերի օգտագործում','630*0','Անտառներ, անտառատնտեսության և անտառանյութերի օգտագործում','','','',false,true);
+d.add(211,209,'630*1','<div class="nodetag">630*1</div></span>&nbsp;&nbsp;Շրջակա միջավայրի պայմանները։ Անտառի կենսաբանություն','630*1','Շրջակա միջավայրի պայմանները։ Անտառի կենսաբանություն','','','',false,true);
+d.add(212,209,'630*2','<div class="nodetag">630*2</div></span>&nbsp;&nbsp;Անտառաբուծություն','630*2','Անտառաբուծություն','','','',false,true);
+d.add(213,209,'630*3','<div class="nodetag">630*3</div></span>&nbsp;&nbsp;Գիտական աշխատանքներ (հետազոտություններ) անտառաբուծությունում։  Փայտամթերումներ և տրանսպորտ։Անտառային տեխնիկա','630*3','Գիտական աշխատանքներ (հետազոտություններ) անտառաբուծությունում։  Փայտամթերումներ և տրանսպորտ։Անտառային տեխնիկա','','','',false,true);
+d.add(214,209,'630*4','<div class="nodetag">630*4</div></span>&nbsp;&nbsp;Անտառային վնասատուներ և անտառապահպանման միջոցներ','630*4','Անտառային վնասատուներ և անտառապահպանման միջոցներ','','','',false,true);
+d.add(215,209,'630*5','<div class="nodetag">630*5</div></span>&nbsp;&nbsp;Անտառային չափագիտություն։ Անտառատնկման աճ։ Աճի ընթացքը և կազմությունը','630*5','Անտառային չափագիտություն։ Անտառատնկման աճ։ Աճի ընթացքը և կազմությունը','','','',false,true);
+d.add(216,209,'630*6','<div class="nodetag">630*6</div></span>&nbsp;&nbsp;Անտառատնտեսության կառավարում։ Անտառատնտեսության  տնտեսագիտություն։Վարչական   և կազմակերպչական հարցեր','630*6','Անտառատնտեսության կառավարում։ Անտառատնտեսության  տնտեսագիտություն։Վարչական   և կազմակերպչական հարցեր','','','',false,true);
+d.add(217,209,'630*7','<div class="nodetag">630*7</div></span>&nbsp;&nbsp;Անտառային  արտադրանքի առևտուր։ Անտառային տրանսպորտի և անտառային արդյունաբերության տնտեսագիտություն','630*7','Անտառային  արտադրանքի առևտուր։ Անտառային տրանսպորտի և անտառային արդյունաբերության տնտեսագիտություն','','','',false,true);
+d.add(218,209,'630*8','<div class="nodetag">630*8</div></span>&nbsp;&nbsp;Անտառային արտադրանք և նրա օգտագործումը','630*8','Անտառային արտադրանք և նրա օգտագործումը','','','',false,true);
+d.add(219,209,'630*9','<div class="nodetag">630*9</div></span>&nbsp;&nbsp;Անտառներ և անտառային տնտեսություն պետական ենթակայութան։ Անտառատնտեսության քաղաքականություն։  Անտառային  սոցիալական տնտեսագիտություն','630*9','Անտառներ և անտառային տնտեսություն պետական ենթակայութան։ Անտառատնտեսության քաղաքականություն։  Անտառային  սոցիալական տնտեսագիտություն','','','',false,true);
+d.add(220,208,'631/635','<div class="nodetag">631/635</div></span>&nbsp;&nbsp;Գյուղատնտեսական արտադրության կազմակերպում և կառավարում։ Հողագործություն ։ Այգեգործություն','631/635','Գյուղատնտեսական արտադրության կազմակերպում և կառավարում։ Հողագործություն ։ Այգեգործություն','','','',false,true);
+d.add(221,220,'631','<div class="nodetag">631</div></span>&nbsp;&nbsp;Գյուղատնտեսությունն ամբողջությամբ','631','Գյուղատնտեսությունն ամբողջությամբ','','','',false,true);
+d.add(222,221,'631.1','<div class="nodetag">631.1</div></span>&nbsp;&nbsp;Գյուղատնտեսական արտադրության կազմակերպում և կառավարում։','631.1','Գյուղատնտեսական արտադրության կազմակերպում և կառավարում։','','','',false,true);
+d.add(223,221,'631.2','<div class="nodetag">631.2</div></span>&nbsp;&nbsp;Գյուղատնտեսական շինություններ և կառույցներ (շահագործումը և սարքավորումը)։  Շինություններ անասնապահական,գյուղատնտեսական մթերքների, մեքենաների և գործիքների համար','631.2','Գյուղատնտեսական շինություններ և կառույցներ (շահագործումը և սարքավորումը)։  Շինություններ անասնապահական,գյուղատնտեսական մթերքների, մեքենաների և գործիքների համար','','','',false,true);
+d.add(224,221,'631.3','<div class="nodetag">631.3</div></span>&nbsp;&nbsp;Գյուղատնտեսական մեքենաներ, գործիքներ   և սարքավորումներ','631.3','Գյուղատնտեսական մեքենաներ, գործիքներ   և սարքավորումներ','','','',false,true);
+d.add(225,221,'631.4','<div class="nodetag">631.4</div></span>&nbsp;&nbsp;Հողագիտություն: Հողային հետազոտություններ','631.4','Հողագիտություն: Հողային հետազոտություններ','','','',false,true);
+d.add(226,221,'631.5','<div class="nodetag">631.5</div></span>&nbsp;&nbsp;Գյուղատնտեսական  աշխատանքներ: Ագրոտեխնիկա','631.5','Գյուղատնտեսական  աշխատանքներ: Ագրոտեխնիկա','','','',false,true);
+d.add(227,221,'631.6','<div class="nodetag">631.6</div></span>&nbsp;&nbsp;Գյուղատնտեսական մելիորացիա','631.6','Գյուղատնտեսական մելիորացիա','','','',false,true);
+d.add(228,221,'631.8','<div class="nodetag">631.8</div></span>&nbsp;&nbsp;Պարարտանյութեր և հողի պարարտացում: Բույսերի աճի խթանում, աճի խթանիչներ:','631.8','Պարարտանյութեր և հողի պարարտացում: Բույսերի աճի խթանում, աճի խթանիչներ:','','','',false,true);
+d.add(229,220,'632','<div class="nodetag">632</div></span>&nbsp;&nbsp;Բույսերի վնասվածքներ: Բույսերի վնասատուներ: Բույսերի հիվանդություններ: Բույսերի վնասատուներ։ Բույսերի պահպանություն','632','Բույսերի վնասվածքներ: Բույսերի վնասատուներ: Բույսերի հիվանդություններ: Բույսերի վնասատուներ։ Բույսերի պահպանություն','','','',false,true);
+d.add(230,220,'633/635','<div class="nodetag">633/635</div></span>&nbsp;&nbsp;Այգեգործությունն ամբողջությամբ','633/635','Այգեգործությունն ամբողջությամբ','','','',false,true);
+d.add(231,230,'633','<div class="nodetag">633</div></span>&nbsp;&nbsp;Դաշտավարություն: Դաշտային կուլտուրաներ և նրանց արտադրությունը','633','Դաշտավարություն: Դաշտային կուլտուրաներ և նրանց արտադրությունը','','','',false,true);
+d.add(232,231,'633.1','<div class="nodetag">633.1</div></span>&nbsp;&nbsp;Հացահատիկային բույսեր ','633.1','Հացահատիկային բույսեր ','','','',false,true);
+d.add(233,231,'633.2','<div class="nodetag">633.2</div></span>&nbsp;&nbsp;Կերաբույսեր: Մարգագետնային և արոտավայրերի խոտաբույսեր','633.2','Կերաբույսեր: Մարգագետնային և արոտավայրերի խոտաբույսեր','','','',false,true);
+d.add(234,231,'633.3','<div class="nodetag">633.3</div></span>&nbsp;&nbsp;Անասնակերի բույսեր բացի խոտերից','633.3','Անասնակերի բույսեր բացի խոտերից','','','',false,true);
+d.add(235,231,'633.4','<div class="nodetag">633.4</div></span>&nbsp;&nbsp;Արմատապտուղներ և պալարապտուղներ  ','633.4','Արմատապտուղներ և պալարապտուղներ  ','','','',false,true);
+d.add(236,231,'633.5','<div class="nodetag">633.5</div></span>&nbsp;&nbsp;Մանվածքային և թելատու բույսեր','633.5','Մանվածքային և թելատու բույսեր','','','',false,true);
+d.add(237,231,'633.6','<div class="nodetag">633.6</div></span>&nbsp;&nbsp;Շաքարատու և օսլայատու  բույսեր','633.6','Շաքարատու և օսլայատու  բույսեր','','','',false,true);
+d.add(238,231,'633.7','<div class="nodetag">633.7</div></span>&nbsp;&nbsp;Գրգռիչ և թմրեցուցիչ բույսեր։ Հյութատու բույսեր','633.7','Գրգռիչ և թմրեցուցիչ բույսեր։ Հյութատու բույսեր','','','',false,true);
+d.add(239,231,'633.8','<div class="nodetag">633.8</div></span>&nbsp;&nbsp;Անուշահոտ բույսեր:  Համեմունքային բույսեր։ Եթերայուղային բույսեր։ Ներկատու բույսեր: Դաբաղման բույսեր։ Դեղաբույսեր','633.8','Անուշահոտ բույսեր:  Համեմունքային բույսեր։ Եթերայուղային բույսեր։ Ներկատու բույսեր: Դաբաղման բույսեր։ Դեղաբույսեր','','','',false,true);
+d.add(240,231,'633.9','<div class="nodetag">633.9</div></span>&nbsp;&nbsp;Այլ տեխնիկական բույսեր','633.9','Այլ տեխնիկական բույսեր','','','',false,true);
+d.add(241,230,'634','<div class="nodetag">634</div></span>&nbsp;&nbsp;Այգեգործությունն ամբողջությամբ: Պտղաբուծություն','634','Այգեգործությունն ամբողջությամբ: Պտղաբուծություն','','','',false,true);
+d.add(242,241,'634.2','<div class="nodetag">634.2</div></span>&nbsp;&nbsp;Կորիզավոր պտուղներն ամբողջությամբ','634.2','Կորիզավոր պտուղներն ամբողջությամբ','','','',false,true);
+d.add(243,241,'634.3','<div class="nodetag">634.3</div></span>&nbsp;&nbsp;Փեգենազգիներ և թթազգիներ: Ցիտրուսային բույսերն ամբողջությանբ','634.3','Փեգենազգիներ և թթազգիներ: Ցիտրուսային բույսերն ամբողջությանբ','','','',false,true);
+d.add(244,241,'634.4','<div class="nodetag">634.4</div></span>&nbsp;&nbsp;Այլ փափկամիջուկ պտուղներ','634.4','Այլ փափկամիջուկ պտուղներ','','','',false,true);
+d.add(245,241,'634.5','<div class="nodetag">634.5</div></span>&nbsp;&nbsp;Ընկուզազգիներ','634.5','Ընկուզազգիներ','','','',false,true);
+d.add(246,241,'634.6','<div class="nodetag">634.6</div></span>&nbsp;&nbsp;Տարբեր արևադարձային և մերձարևադարձային պտուղներ','634.6','Տարբեր արևադարձային և մերձարևադարձային պտուղներ','','','',false,true);
+d.add(247,241,'634.7','<div class="nodetag">634.7</div></span>&nbsp;&nbsp;Հատապտուղներ','634.7','Հատապտուղներ','','','',false,true);
+d.add(248,241,'634.8','<div class="nodetag">634.8</div></span>&nbsp;&nbsp;Խաղողագործություն: Խաղողի վազեր և խաղողի այգիներ','634.8','Խաղողագործություն: Խաղողի վազեր և խաղողի այգիներ','','','',false,true);
+d.add(249,230,'635','<div class="nodetag">635</div></span>&nbsp;&nbsp;Բանջարաբուծություն և   այգեգործություն','635','Բանջարաբուծություն և   այգեգործություն','','','',false,true);
+d.add(250,249,'635.1/.8','<div class="nodetag">635.1/.8</div></span>&nbsp;&nbsp;Բանջարաբուծություն','635.1/.8','Բանջարաբուծություն','','','',false,true);
+d.add(251,250,'635.1','<div class="nodetag">635.1</div></span>&nbsp;&nbsp;Արմատապալարապտուղներ: Հեռաշարացան կուլտուրաներն ամբողջությանբ ','635.1','Արմատապալարապտուղներ: Հեռաշարացան կուլտուրաներն ամբողջությանբ ','','','',false,true);
+d.add(252,250,'635.2','<div class="nodetag">635.2</div></span>&nbsp;&nbsp;Պալարապտուղներ և սոխուկավորներ','635.2','Պալարապտուղներ և սոխուկավորներ','','','',false,true);
+d.add(253,250,'635.3','<div class="nodetag">635.3</div></span>&nbsp;&nbsp;Ուտելի ցողուններով, տերևներով և ծաղիկներով բույսեր','635.3','Ուտելի ցողուններով, տերևներով և ծաղիկներով բույսեր','','','',false,true);
+d.add(254,250,'635.4','<div class="nodetag">635.4</div></span>&nbsp;&nbsp;Այլ բանջարեղեն։ Տերևաբանջարներ','635.4','Այլ բանջարեղեն։ Տերևաբանջարներ','','','',false,true);
+d.add(255,250,'635.6','<div class="nodetag">635.6</div></span>&nbsp;&nbsp;Ուտեկի պտուղներով և սերմնահատիկներով բույսեր: Ընդավորներ','635.6','Ուտեկի պտուղներով և սերմնահատիկներով բույսեր: Ընդավորներ','','','',false,true);
+d.add(256,250,'635.7','<div class="nodetag">635.7</div></span>&nbsp;&nbsp;Անուշահոտ խոտեր։ Համեմունքային բույսեր','635.7','Անուշահոտ խոտեր։ Համեմունքային բույսեր','','','',false,true);
+d.add(257,250,'635.8','<div class="nodetag">635.8</div></span>&nbsp;&nbsp;Ուտելի սնկեր','635.8','Ուտելի սնկեր','','','',false,true);
+d.add(258,249,'635.9','<div class="nodetag">635.9</div></span>&nbsp;&nbsp;Դեկորատիվ բույսեր: Դեկորատիվ այգեգործություն','635.9','Դեկորատիվ բույսեր: Դեկորատիվ այգեգործություն','','','',false,true);
+d.add(259,208,'636','<div class="nodetag">636</div></span>&nbsp;&nbsp;Ընդհանուր անասնաբուծությունն  ամբողջությամբ: Կաթնասուն կենդանիների և թռչունների բուծում: Անասնապահություն։ Ընտանի կենդանիների բուծում','636','Ընդհանուր անասնաբուծությունն  ամբողջությամբ: Կաթնասուն կենդանիների և թռչունների բուծում: Անասնապահություն։ Ընտանի կենդանիների բուծում','','','',false,true);
+d.add(260,259,'636.01/.09','<div class="nodetag">636.01/.09</div></span>&nbsp;&nbsp;Անասնապահության հատուկ օժանդակ որոշիչ','636.01/.09','Անասնապահության հատուկ օժանդակ որոշիչ','','','',false,true);
+d.add(261,260,'636.01','<div class="nodetag">636.01</div></span>&nbsp;&nbsp;Մարդու կողմից պահվող կենդանիների ծագումը, զարգացումը և ընտելացումը: Կենդանիների ընտելացումը: Բուծման և և  աճեցման կենսաբանական հիմունքները','636.01','Մարդու կողմից պահվող կենդանիների ծագումը, զարգացումը և ընտելացումը: Կենդանիների ընտելացումը: Բուծման և և  աճեցման կենսաբանական հիմունքները','','','',false,true);
+d.add(262,260,'636.02','<div class="nodetag">636.02</div></span>&nbsp;&nbsp;Կենդանիներ նախատեսված բուծման, ցուցադրման    և գիտական նպատակների համար','636.02','Կենդանիներ նախատեսված բուծման, ցուցադրման    և գիտական նպատակների համար','','','',false,true);
+d.add(263,260,'636.03','<div class="nodetag">636.03</div></span>&nbsp;&nbsp;Անասնապահական մթերք  և այլ արտադրանք տվող կենդանիներ (մթերատվություն): Անասնապահական  ֆերմաներն ամբողջությամբ','636.03','Անասնապահական մթերք  և այլ արտադրանք տվող կենդանիներ (մթերատվություն): Անասնապահական  ֆերմաներն ամբողջությամբ','','','',false,true);
+d.add(264,260,'636.04','<div class="nodetag">636.04</div></span>&nbsp;&nbsp;Ցեղական կամ բանող, ծառայող  և մարդկանց զվարճանքի  համար նախատեսված կենդանիներ','636.04','Ցեղական կամ բանող, ծառայող  և մարդկանց զվարճանքի  համար նախատեսված կենդանիներ','','','',false,true);
+d.add(265,260,'636.05','<div class="nodetag">636.05</div></span>&nbsp;&nbsp;Կենդանիներն ըստ բուծման, ցեղի,   և սեռի  ','636.05','Կենդանիներն ըստ բուծման, ցեղի,   և սեռի  ','','','',false,true);
+d.add(266,260,'636.06','<div class="nodetag">636.06</div></span>&nbsp;&nbsp;Ընտանի կենդանիների բնութագրումը, կազմվածքը և հատուկ կենսաբանական առանձնահատկությունները','636.06','Ընտանի կենդանիների բնութագրումը, կազմվածքը և հատուկ կենսաբանական առանձնահատկությունները','','','',false,true);
+d.add(267,260,'636.08','<div class="nodetag">636.08</div></span>&nbsp;&nbsp;Բուծման  և աճեցման ընդհանուր հարցեր','636.08','Բուծման  և աճեցման ընդհանուր հարցեր','','','',false,true);
+d.add(268,260,'636.09','<div class="nodetag">636.09</div></span>&nbsp;&nbsp;Անասնաբուժություն','636.09','Անասնաբուժություն','','','',false,true);
+d.add(269,259,'636.1','<div class="nodetag">636.1</div></span>&nbsp;&nbsp;Ձիաբուծություն: Ձիեր','636.1','Ձիաբուծություն: Ձիեր','','','',false,true);
+d.add(270,259,'636.2','<div class="nodetag">636.2</div></span>&nbsp;&nbsp;Խոշոր որոճող կենդանիներ: Խոշոր եղջերավորներ','636.2','Խոշոր որոճող կենդանիներ: Խոշոր եղջերավորներ','','','',false,true);
+d.add(271,259,'636.3','<div class="nodetag">636.3</div></span>&nbsp;&nbsp;Մանր եղջերավորներ: Ոչխարներ: Այծեր','636.3','Մանր եղջերավորներ: Ոչխարներ: Այծեր','','','',false,true);
+d.add(272,259,'636.4','<div class="nodetag">636.4</div></span>&nbsp;&nbsp;Խոզեր','636.4','Խոզեր','','','',false,true);
+d.add(273,259,'636.5','<div class="nodetag">636.5</div></span>&nbsp;&nbsp;Ընտանի թռչուններ','636.5','Ընտանի թռչուններ','','','',false,true);
+d.add(274,259,'636.6','<div class="nodetag">636.6</div></span>&nbsp;&nbsp;Մարդու կողմից բուծվող և պահվող ոչ ընտանի որսի թռչուններ ','636.6','Մարդու կողմից բուծվող և պահվող ոչ ընտանի որսի թռչուններ ','','','',false,true);
+d.add(275,259,'636.7','<div class="nodetag">636.7</div></span>&nbsp;&nbsp;Շներ','636.7','Շներ','','','',false,true);
+d.add(276,259,'636.8','<div class="nodetag">636.8</div></span>&nbsp;&nbsp;Կատուներ','636.8','Կատուներ','','','',false,true);
+d.add(277,259,'636.9','<div class="nodetag">636.9</div></span>&nbsp;&nbsp;Մարդու կողմից պահվող այլ կենդանիներ','636.9','Մարդու կողմից պահվող այլ կենդանիներ','','','',false,true);
+d.add(278,208,'637','<div class="nodetag">637</div></span>&nbsp;&nbsp;Անասնապահական մթերք  և որսամիս','637','Անասնապահական մթերք  և որսամիս','','','',false,true);
+d.add(279,208,'638','<div class="nodetag">638</div></span>&nbsp;&nbsp;Միջատների և այլ հատվածոտանիների   բուծումը և խնամքը','638','Միջատների և այլ հատվածոտանիների   բուծումը և խնամքը','','','',false,true);
+d.add(280,208,'639','<div class="nodetag">639</div></span>&nbsp;&nbsp;Որսորդություն: Ձկնորսություն: Ձկնաբուծություն','639','Որսորդություն: Ձկնորսություն: Ձկնաբուծություն','','','',false,true);
+d.add(281,280,'639.1','<div class="nodetag">639.1</div></span>&nbsp;&nbsp;Որսորդություն','639.1','Որսորդություն','','','',false,true);
+d.add(282,280,'639.2','<div class="nodetag">639.2</div></span>&nbsp;&nbsp;Ձկնորսություն','639.2','Ձկնորսություն','','','',false,true);
+d.add(283,280,'639.3','<div class="nodetag">639.3</div></span>&nbsp;&nbsp;Ձկնաբուծություն','639.3','Ձկնաբուծություն','','','',false,true);
+d.add(284,280,'639.4','<div class="nodetag">639.4</div></span>&nbsp;&nbsp;Ջրային կակղամորթերի բուծումը (խեցեմորթներ )','639.4','Ջրային կակղամորթերի բուծումը (խեցեմորթներ )','','','',false,true);
+d.add(285,280,'639.5','<div class="nodetag">639.5</div></span>&nbsp;&nbsp;Ջրային խեցգետնանմանների ( crustaceae ) բուծումը','639.5','Ջրային խեցգետնանմանների ( crustaceae ) բուծումը','','','',false,true);
+d.add(286,280,'639.6','<div class="nodetag">639.6</div></span>&nbsp;&nbsp;Ծովային այլ մթերք ','639.6','Ծովային այլ մթերք ','','','',false,true);
+d.add(287,0,'64','<div class="nodetag">64</div></span>&nbsp;&nbsp;Բնակարանային - կոմունալ տնտեսության էկոնոմիկա։ Տնարարություն: Կոմունալ-կենցաղային տնտեսություն','64','Բնակարանային - կոմունալ տնտեսության էկոնոմիկա։ Տնարարություն: Կոմունալ-կենցաղային տնտեսություն','','','',false,true);
+d.add(288,287,'64.01/.08','<div class="nodetag">64.01/.08</div></span>&nbsp;&nbsp;Տնային տնտեսության հատուկ օժանդակ որոշիչ','64.01/.08','Տնային տնտեսության հատուկ օժանդակ որոշիչ','','','',false,true);
+d.add(289,288,'64.01','<div class="nodetag">64.01</div></span>&nbsp;&nbsp;Տնային տնտեսություն։  Տնային տնտեսության  կառավարում','64.01','Տնային տնտեսություն։  Տնային տնտեսության  կառավարում','','','',false,true);
+d.add(290,288,'64.048','<div class="nodetag">64.048</div></span>&nbsp;&nbsp;Տնային տնտեսության աշխատանքի և աշխատանքի  մեթոդների ուսումնասիրություն','64.048','Տնային տնտեսության աշխատանքի և աշխատանքի  մեթոդների ուսումնասիրություն','','','',false,true);
+d.add(291,288,'64.05','<div class="nodetag">64.05</div></span>&nbsp;&nbsp;Բնակարանային - կոմունալ տնտեսության էկոնոմիկա: Տնարարություն: Տան  կահավորանք և սարքավորումներ հատուկ տիպի մարդկանց համար','64.05','Բնակարանային - կոմունալ տնտեսության էկոնոմիկա: Տնարարություն: Տան  կահավորանք և սարքավորումներ հատուկ տիպի մարդկանց համար','','','',false,true);
+d.add(292,288,'64.06','<div class="nodetag">64.06</div></span>&nbsp;&nbsp;Կենցաղային սարքավորումներ և մեքենաներ: Տնային, կենցաղային սարքավորումներ ','64.06','Կենցաղային սարքավորումներ և մեքենաներ: Տնային, կենցաղային սարքավորումներ ','','','',false,true);
+d.add(293,288,'64.08','<div class="nodetag">64.08</div></span>&nbsp;&nbsp;Բնակարանային տեղափոխում: Տեղափոխություններ','64.08','Բնակարանային տեղափոխում: Տեղափոխություններ','','','',false,true);
+d.add(294,287,'640','<div class="nodetag">640</div></span>&nbsp;&nbsp;Տնային տնտեսության տեսակները','640','Տնային տնտեսության տեսակները','','','',false,true);
+d.add(295,287,'641/642','<div class="nodetag">641/642</div></span>&nbsp;&nbsp;Սնունդ: Սննդի պատրաստում: Սպասք: Կերակրատեսակներ','641/642','Սնունդ: Սննդի պատրաստում: Սպասք: Կերակրատեսակներ','','','',false,true);
+d.add(296,295,'641','<div class="nodetag">641</div></span>&nbsp;&nbsp;Սնունդ: Սննդի պատրաստում: Սպասք','641','Սնունդ: Սննդի պատրաստում: Սպասք','','','',false,true);
+d.add(297,295,'642','<div class="nodetag">642</div></span>&nbsp;&nbsp;Սնունդ: Սննդի ընդունման  ժամեր: Ճաշի սպասք','642','Սնունդ: Սննդի ընդունման  ժամեր: Ճաշի սպասք','','','',false,true);
+d.add(298,287,'643/645','<div class="nodetag">643/645</div></span>&nbsp;&nbsp;Բնակարան ։ Բնակարանային  իրեր և կահավորանք','643/645','Բնակարան ։ Բնակարանային  իրեր և կահավորանք','','','',false,true);
+d.add(299,298,'643','<div class="nodetag">643</div></span>&nbsp;&nbsp;Տուն։ Բնակելի շենքեր','643','Տուն։ Բնակելի շենքեր','','','',false,true);
+d.add(300,298,'644','<div class="nodetag">644</div></span>&nbsp;&nbsp;Սանիտարա-տեխնիկական սարքավորումներ բնակելի տներում ','644','Սանիտարա-տեխնիկական սարքավորումներ բնակելի տներում ','','','',false,true);
+d.add(301,300,'644.1','<div class="nodetag">644.1</div></span>&nbsp;&nbsp;Ներտնային ջերմակարգավորում: Ջեռուցում: Օդափոխում: Օդորակում','644.1','Ներտնային ջերմակարգավորում: Ջեռուցում: Օդափոխում: Օդորակում','','','',false,true);
+d.add(302,300,'644.3','<div class="nodetag">644.3</div></span>&nbsp;&nbsp;Բնակարանների լուսավորություն','644.3','Բնակարանների լուսավորություն','','','',false,true);
+d.add(303,300,'644.6','<div class="nodetag">644.6</div></span>&nbsp;&nbsp;Բնակարանների ջրամատակարարում և սանիտարական սարքավորումներ','644.6','Բնակարանների ջրամատակարարում և սանիտարական սարքավորումներ','','','',false,true);
+d.add(304,298,'645','<div class="nodetag">645</div></span>&nbsp;&nbsp;Կահույք և բնակարանների   կահավորության իրեր','645','Կահույք և բնակարանների   կահավորության իրեր','','','',false,true);
+d.add(305,287,'646/649','<div class="nodetag">646/649</div></span>&nbsp;&nbsp;Անձնական օգտագործման իրեր: Տնային տնտեսության  կառավարում ','646/649','Անձնական օգտագործման իրեր: Տնային տնտեսության  կառավարում ','','','',false,true);
+d.add(306,305,'646','<div class="nodetag">646</div></span>&nbsp;&nbsp;Հագուստ: Անձնական հիգիենա','646','Հագուստ: Անձնական հիգիենա','','','',false,true);
+d.add(307,306,'646.2','<div class="nodetag">646.2</div></span>&nbsp;&nbsp;Տնային պայմաններում հագուստի պատրաստում և վերանորոգում','646.2','Տնային պայմաններում հագուստի պատրաստում և վերանորոգում','','','',false,true);
+d.add(308,306,'646.4','<div class="nodetag">646.4</div></span>&nbsp;&nbsp;Հագուստ։ Հագուստի տարատեսակներ','646.4','Հագուստ։ Հագուստի տարատեսակներ','','','',false,true);
+d.add(309,306,'646.7','<div class="nodetag">646.7</div></span>&nbsp;&nbsp;Անձնական հիգիենա: Կոսմետիկա։ Հագնվելու և  հանվելու  պարագաներ','646.7','Անձնական հիգիենա: Կոսմետիկա։ Հագնվելու և  հանվելու  պարագաներ','','','',false,true);
+d.add(310,305,'648','<div class="nodetag">648</div></span>&nbsp;&nbsp;Լվացք: Մաքրում:  Բնակարանների  մաքրում','648','Լվացք: Մաքրում:  Բնակարանների  մաքրում','','','',false,true);
+d.add(311,305,'649','<div class="nodetag">649</div></span>&nbsp;&nbsp;Տնային պայմաններում երեխաների, հաշմանդամների, հյուրերի խնամք','649','Տնային պայմաններում երեխաների, հաշմանդամների, հյուրերի խնամք','','','',false,true);
+d.add(312,0,'65','<div class="nodetag">65</div></span>&nbsp;&nbsp;Հաղորդակցության և տրանսպորտի արդյունաբերութուն։ Հաշվապահություն։ Աշխատանքի կառավարում։ Հանրային կապեր','65','Հաղորդակցության և տրանսպորտի արդյունաբերութուն։ Հաշվապահություն։ Աշխատանքի կառավարում։ Հանրային կապեր','','','',false,true);
+d.add(313,312,'654','<div class="nodetag">654</div></span>&nbsp;&nbsp;Հեռահաղորդակցություն և հեռակառավարում (կազմակերպում, ծառայություններ)','654','Հեռահաղորդակցություն և հեռակառավարում (կազմակերպում, ծառայություններ)','','','',false,true);
+d.add(314,313,'654.1','<div class="nodetag">654.1</div></span>&nbsp;&nbsp;Հեռագրային և հեռախոսային կապ: Ռադիո։ Հեռուստատեսություն','654.1','Հեռագրային և հեռախոսային կապ: Ռադիո։ Հեռուստատեսություն','','','',false,true);
+d.add(315,313,'654.9','<div class="nodetag">654.9</div></span>&nbsp;&nbsp;Ազդանշանում: Հեռահաղորդակցական այլ  ծառայություններ: Հեռակառավարում','654.9','Ազդանշանում: Հեռահաղորդակցական այլ  ծառայություններ: Հեռակառավարում','','','',false,true);
+d.add(316,312,'655','<div class="nodetag">655</div></span>&nbsp;&nbsp;Պոլիգրաֆիական արդյունաբերություն: Տպագրություն։ Հրատարակչական գործ: Գրավաճառություն','655','Պոլիգրաֆիական արդյունաբերություն: Տպագրություն։ Հրատարակչական գործ: Գրավաճառություն','','','',false,true);
+d.add(317,316,'655.1','<div class="nodetag">655.1</div></span>&nbsp;&nbsp;Տպագրական գործն ամբողջությամբ','655.1','Տպագրական գործն ամբողջությամբ','','','',false,true);
+d.add(318,316,'655.4','<div class="nodetag">655.4</div></span>&nbsp;&nbsp;Հրատարակչական գործ և գրավաճառությունն ամբողջությամբ','655.4','Հրատարակչական գործ և գրավաճառությունն ամբողջությամբ','','','',false,true);
+d.add(319,312,'656','<div class="nodetag">656</div></span>&nbsp;&nbsp;Տրանսպորտ և փոստային ծառայություններ: Երթևեկության կազմակերպում և կառավարում','656','Տրանսպորտ և փոստային ծառայություններ: Երթևեկության կազմակերպում և կառավարում','','','',false,true);
+d.add(320,319,'656.1/.5','<div class="nodetag">656.1/.5</div></span>&nbsp;&nbsp;Ցամաքային տրանսպորտ','656.1/.5','Ցամաքային տրանսպորտ','','','',false,true);
+d.add(321,320,'656.1','<div class="nodetag">656.1</div></span>&nbsp;&nbsp;Ճանապարհային տրանսպորտ','656.1','Ճանապարհային տրանսպորտ','','','',false,true);
+d.add(322,320,'656.2','<div class="nodetag">656.2</div></span>&nbsp;&nbsp;Ռելսային տրանսպորտ: Երկաթուղային երթևեկություն','656.2','Ռելսային տրանսպորտ: Երկաթուղային երթևեկություն','','','',false,true);
+d.add(323,320,'656.4','<div class="nodetag">656.4</div></span>&nbsp;&nbsp;Նեղուղի երկաթուղային տրանսպորտ','656.4','Նեղուղի երկաթուղային տրանսպորտ','','','',false,true);
+d.add(324,320,'656.5','<div class="nodetag">656.5</div></span>&nbsp;&nbsp;Վերգետնյա տրանսպորտ հարահոս գծերով և խողովակաշարերով','656.5','Վերգետնյա տրանսպորտ հարահոս գծերով և խողովակաշարերով','','','',false,true);
+d.add(325,319,'656.6','<div class="nodetag">656.6</div></span>&nbsp;&nbsp;Ջրային տրանսպորտ','656.6','Ջրային տրանսպորտ','','','',false,true);
+d.add(326,319,'656.7','<div class="nodetag">656.7</div></span>&nbsp;&nbsp;Օդային տրանսպորտ: Օդային փոխադրումներ','656.7','Օդային տրանսպորտ: Օդային փոխադրումներ','','','',false,true);
+d.add(327,319,'656.8','<div class="nodetag">656.8</div></span>&nbsp;&nbsp;Փոստային ծառայություններ: Փոստային ծառայությոան կառավարում','656.8','Փոստային ծառայություններ: Փոստային ծառայությոան կառավարում','','','',false,true);
+d.add(328,312,'657','<div class="nodetag">657</div></span>&nbsp;&nbsp;Հաշվապահություն: Հաշվապահական հաշվարկ','657','Հաշվապահություն: Հաշվապահական հաշվարկ','','','',false,true);
+d.add(329,312,'658','<div class="nodetag">658</div></span>&nbsp;&nbsp;Արտադրության կազմակերպում, կառավարում: Առևտրի կազմակերպում ','658','Արտադրության կազմակերպում, կառավարում: Առևտրի կազմակերպում ','','','',false,true);
+d.add(330,329,'658.1','<div class="nodetag">658.1</div></span>&nbsp;&nbsp;Ձեռնարկությունների տեսակները: Ֆինանսներ','658.1','Ձեռնարկությունների տեսակները: Ֆինանսներ','','','',false,true);
+d.add(331,329,'658.2','<div class="nodetag">658.2</div></span>&nbsp;&nbsp;Շենքեր և կառույցներ: Արտադրական տարածքներ։ Շենքեր, շինություններ, գործարաններ։ Հումք և նյութեր  ','658.2','Շենքեր և կառույցներ: Արտադրական տարածքներ։ Շենքեր, շինություններ, գործարաններ։ Հումք և նյութեր  ','','','',false,true);
+d.add(332,329,'658.3','<div class="nodetag">658.3</div></span>&nbsp;&nbsp;Ձեռնարկությունում աշխատակիցների փոխհարաբերությունները: Աշխատակազմի կառավարում','658.3','Ձեռնարկությունում աշխատակիցների փոխհարաբերությունները: Աշխատակազմի կառավարում','','','',false,true);
+d.add(333,329,'658.5','<div class="nodetag">658.5</div></span>&nbsp;&nbsp;Արտադրության  կազմակերպում  և պլանավորում: Նախագծում: Արտադրության կառավարում և հսկում','658.5','Արտադրության  կազմակերպում  և պլանավորում: Նախագծում: Արտադրության կառավարում և հսկում','','','',false,true);
+d.add(334,329,'658.6','<div class="nodetag">658.6</div></span>&nbsp;&nbsp;Առևտրի կազմակերպում և առևտրական գործունեություն: Ապրանքներ: Սպասարկում','658.6','Առևտրի կազմակերպում և առևտրական գործունեություն: Ապրանքներ: Սպասարկում','','','',false,true);
+d.add(335,329,'658.7','<div class="nodetag">658.7</div></span>&nbsp;&nbsp;Գնումներ։  Նյութա-տեխնիկական մատակարարում:  Պահեստային տնտեսության կառավարում ','658.7','Գնումներ։  Նյութա-տեխնիկական մատակարարում:  Պահեստային տնտեսության կառավարում ','','','',false,true);
+d.add(336,329,'658.8','<div class="nodetag">658.8</div></span>&nbsp;&nbsp;Մարկետինգ: Ապրանքաշրջանառություն։ Վաճառք: Ապրանքի իրացում','658.8','Մարկետինգ: Ապրանքաշրջանառություն։ Վաճառք: Ապրանքի իրացում','','','',false,true);
+d.add(337,329,'658.9','<div class="nodetag">658.9</div></span>&nbsp;&nbsp;Առևտրական այլ գործունեություն','658.9','Առևտրական այլ գործունեություն','','','',false,true);
+d.add(338,312,'659','<div class="nodetag">659</div></span>&nbsp;&nbsp;Հրապարակայնություն։  Հանրային կապեր','659','Հրապարակայնություն։  Հանրային կապեր','','','',false,true);
+d.add(339,338,'659.1','<div class="nodetag">659.1</div></span>&nbsp;&nbsp;Գովազդ: Գովազդային  գործունեություն','659.1','Գովազդ: Գովազդային  գործունեություն','','','',false,true);
+d.add(340,338,'659.2','<div class="nodetag">659.2</div></span>&nbsp;&nbsp;Տեղեկատվական գործ: Տեղեկատվական և խորհրդատվական ծառայություններ','659.2','Տեղեկատվական գործ: Տեղեկատվական և խորհրդատվական ծառայություններ','','','',false,true);
+d.add(341,338,'659.3','<div class="nodetag">659.3</div></span>&nbsp;&nbsp;Հասարակության  տեղեկատվություն','659.3','Հասարակության  տեղեկատվություն','','','',false,true);
+d.add(342,338,'659.4','<div class="nodetag">659.4</div></span>&nbsp;&nbsp;Հանրային կապեր: (Public relations, PR)','659.4','Հանրային կապեր: (Public relations, PR)','','','',false,true);
+d.add(343,0,'66','<div class="nodetag">66</div></span>&nbsp;&nbsp;Քիմիական տեխնոլոգիա: Քիմիական և հարակից ճյուղերի արդյունաբերություն','66','Քիմիական տեխնոլոգիա: Քիմիական և հարակից ճյուղերի արդյունաբերություն','','','',false,true);
+d.add(344,343,'66.01/.09','<div class="nodetag">66.01/.09</div></span>&nbsp;&nbsp;Քիմիական տեխնոլոգիաների հատուկ օժանդակ որոշիչ','66.01/.09','Քիմիական տեխնոլոգիաների հատուկ օժանդակ որոշիչ','','','',false,true);
+d.add(345,344,'66.01','<div class="nodetag">66.01</div></span>&nbsp;&nbsp;Քիմիական տեխնոլոգիաների հիմունքներ','66.01','Քիմիական տեխնոլոգիաների հիմունքներ','','','',false,true);
+d.add(346,344,'66.02','<div class="nodetag">66.02</div></span>&nbsp;&nbsp;Քիմիական տեխնոլոգիայի   պրոցեսներ և սարքավորումներն ամբողջությամբ','66.02','Քիմիական տեխնոլոգիայի   պրոցեսներ և սարքավորումներն ամբողջությամբ','','','',false,true);
+d.add(347,344,'66.03','<div class="nodetag">66.03</div></span>&nbsp;&nbsp;Նյութեր, բնութագրումներ, պրոցեսներ և սարքավորումներ  ','66.03','Նյութեր, բնութագրումներ, պրոցեսներ և սարքավորումներ  ','','','',false,true);
+d.add(348,344,'66.04','<div class="nodetag">66.04</div></span>&nbsp;&nbsp;Ջերմային մշակման գործողություններ և սարքավորումներ','66.04','Ջերմային մշակման գործողություններ և սարքավորումներ','','','',false,true);
+d.add(349,344,'66.06','<div class="nodetag">66.06</div></span>&nbsp;&nbsp;Հեղուկների քիմիական տեխնոլոգիա։ Հեղուկների կամ հեղուկներով մշակման պրոցեսներ և սարքավորումներ','66.06','Հեղուկների քիմիական տեխնոլոգիա։ Հեղուկների կամ հեղուկներով մշակման պրոցեսներ և սարքավորումներ','','','',false,true);
+d.add(350,344,'66.07','<div class="nodetag">66.07</div></span>&nbsp;&nbsp;Գազերի քիմիական տեխնոլոգիա','66.07','Գազերի քիմիական տեխնոլոգիա','','','',false,true);
+d.add(351,344,'66.08','<div class="nodetag">66.08</div></span>&nbsp;&nbsp;Ֆիզիկական և ֆիզիկա-քիմիական պրոցեսներ և սարքավորումներ: Ֆիզիկական և ֆիզիկա-քիմիական ներգործությունը   քիմիական պրոցեսների վրա ','66.08','Ֆիզիկական և ֆիզիկա-քիմիական պրոցեսներ և սարքավորումներ: Ֆիզիկական և ֆիզիկա-քիմիական ներգործությունը   քիմիական պրոցեսների վրա ','','','',false,true);
+d.add(352,343,'661','<div class="nodetag">661</div></span>&nbsp;&nbsp;Քիմիական արտադրանքներ','661','Քիմիական արտադրանքներ','','','',false,true);
+d.add(353,352,'661.1','<div class="nodetag">661.1</div></span>&nbsp;&nbsp;Քիմիական արտադրության հատուկ ճյուղեր','661.1','Քիմիական արտադրության հատուկ ճյուղեր','','','',false,true);
+d.add(354,352,'661.2','<div class="nodetag">661.2</div></span>&nbsp;&nbsp;Ծծմբի և նրա ածանցյալների արտադրություն','661.2','Ծծմբի և նրա ածանցյալների արտադրություն','','','',false,true);
+d.add(355,352,'661.3','<div class="nodetag">661.3</div></span>&nbsp;&nbsp;Սոդայի  և պոտաշի արտադրություն: Ալկալիներ','661.3','Սոդայի  և պոտաշի արտադրություն: Ալկալիներ','','','',false,true);
+d.add(356,352,'661.4','<div class="nodetag">661.4</div></span>&nbsp;&nbsp;Հալոգենների և հալոգենային միացությունների արտադրություն: Անօրգանական պերօքսոմիացությունների արտադրություն  ','661.4','Հալոգենների և հալոգենային միացությունների արտադրություն: Անօրգանական պերօքսոմիացությունների արտադրություն  ','','','',false,true);
+d.add(357,352,'661.5','<div class="nodetag">661.5</div></span>&nbsp;&nbsp;Ազոտական միացությունների արտադրություն: Ազոտի կապում: Ազոտի արտադրությունն ամբողջությամբ','661.5','Ազոտական միացությունների արտադրություն: Ազոտի կապում: Ազոտի արտադրությունն ամբողջությամբ','','','',false,true);
+d.add(358,352,'661.6','<div class="nodetag">661.6</div></span>&nbsp;&nbsp;Տարբեր ոչ մետաղների, մետաղակերպերի և նրանց միացությունների արտադրություն','661.6','Տարբեր ոչ մետաղների, մետաղակերպերի և նրանց միացությունների արտադրություն','','','',false,true);
+d.add(359,352,'661.7','<div class="nodetag">661.7</div></span>&nbsp;&nbsp;Օրգանական նյութերի արտադրություն: Օրգանական միացություններ','661.7','Օրգանական նյութերի արտադրություն: Օրգանական միացություններ','','','',false,true);
+d.add(360,352,'661.8','<div class="nodetag">661.8</div></span>&nbsp;&nbsp;Մետաղական միացություններն ամբողջությամբ: Աղեր: Հանքային միացություններ','661.8','Մետաղական միացություններն ամբողջությամբ: Աղեր: Հանքային միացություններ','','','',false,true);
+d.add(361,352,'661.9','<div class="nodetag">661.9</div></span>&nbsp;&nbsp;Գազերի արտադրություն','661.9','Գազերի արտադրություն','','','',false,true);
+d.add(362,343,'662','<div class="nodetag">662</div></span>&nbsp;&nbsp;Պայթուցիկներ: Վառելանյութեր','662','Պայթուցիկներ: Վառելանյութեր','','','',false,true);
+d.add(363,362,'662.1/.4','<div class="nodetag">662.1/.4</div></span>&nbsp;&nbsp;Պայթուցիկ նյութեր','662.1/.4','Պայթուցիկ նյութեր','','','',false,true);
+d.add(364,363,'662.1','<div class="nodetag">662.1</div></span>&nbsp;&nbsp;Հրավառություններ։  Հրատեխնիկական  և  հարակից սարքեր','662.1','Հրավառություններ։  Հրատեխնիկական  և  հարակից սարքեր','','','',false,true);
+d.add(365,363,'662.2','<div class="nodetag">662.2</div></span>&nbsp;&nbsp;Պայթուցիկ նյութեր','662.2','Պայթուցիկ նյութեր','','','',false,true);
+d.add(366,363,'662.3','<div class="nodetag">662.3</div></span>&nbsp;&nbsp;Նետողական պայթուցիկ նյութեր։ Սև վառոդ','662.3','Նետողական պայթուցիկ նյութեր։ Սև վառոդ','','','',false,true);
+d.add(367,363,'662.4','<div class="nodetag">662.4</div></span>&nbsp;&nbsp;Հրահրող պայթուցիկ նյութեր։ Դետոնատորներ','662.4','Հրահրող պայթուցիկ նյութեր։ Դետոնատորներ','','','',false,true);
+d.add(368,362,'662.5','<div class="nodetag">662.5</div></span>&nbsp;&nbsp;Վառիչներ։  Լուցկիներ։ Հրահաններ','662.5','Վառիչներ։  Լուցկիներ։ Հրահաններ','','','',false,true);
+d.add(369,362,'662.6/.9','<div class="nodetag">662.6/.9</div></span>&nbsp;&nbsp;Ջերմային տնտեսություն։ Վառելիքի տնտեսություն։ Վառելիք։ Ջեռուցում','662.6/.9','Ջերմային տնտեսություն։ Վառելիքի տնտեսություն։ Վառելիք։ Ջեռուցում','','','',false,true);
+d.add(370,369,'662.6','<div class="nodetag">662.6</div></span>&nbsp;&nbsp;Ջերմային կամ վառելիքի տնտեսություն։ Այրում։ Բնական վառելիք','662.6','Ջերմային կամ վառելիքի տնտեսություն։ Այրում։ Բնական վառելիք','','','',false,true);
+d.add(371,369,'662.7','<div class="nodetag">662.7</div></span>&nbsp;&nbsp;Վառելիքի տեխնոլոգիա։ Վերամշակված վառելիք','662.7','Վառելիքի տեխնոլոգիա։ Վերամշակված վառելիք','','','',false,true);
+d.add(372,369,'662.8','<div class="nodetag">662.8</div></span>&nbsp;&nbsp;Պինդ վառելիքի մեխանիկական մշակում։ Բրիկետավորում','662.8','Պինդ վառելիքի մեխանիկական մշակում։ Բրիկետավորում','','','',false,true);
+d.add(373,369,'662.9','<div class="nodetag">662.9</div></span>&nbsp;&nbsp;Ջեռուցման և այրման տեխնիկա','662.9','Ջեռուցման և այրման տեխնիկա','','','',false,true);
+d.add(374,343,'663','<div class="nodetag">663</div></span>&nbsp;&nbsp;Մանրէակենսաբանական արտադրություն։ Արդյունաբերական միկոլոգիա։ Խմորման արտադրություն։ Խմիչքների արտադրություն։ Համային մթերքների արտադրություն ','663','Մանրէակենսաբանական արտադրություն։ Արդյունաբերական միկոլոգիա։ Խմորման արտադրություն։ Խմիչքների արտադրություն։ Համային մթերքների արտադրություն ','','','',false,true);
+d.add(375,374,'663.1','<div class="nodetag">663.1</div></span>&nbsp;&nbsp;Մանրէակենսաբանական արտադրություններ։ Կիրառական  մանրէակենսաբանության գիտական հիմունքները և տեխնիկան։ Կիրառական  միկոլոգիա','663.1','Մանրէակենսաբանական արտադրություններ։ Կիրառական  մանրէակենսաբանության գիտական հիմունքները և տեխնիկան։ Կիրառական  միկոլոգիա','','','',false,true);
+d.add(376,374,'663.2','<div class="nodetag">663.2</div></span>&nbsp;&nbsp;Գինիներ։ Գինեգործություն։ Էնոլոգիա։ Խաղողի գինիներ','663.2','Գինիներ։ Գինեգործություն։ Էնոլոգիա։ Խաղողի գինիներ','','','',false,true);
+d.add(377,374,'663.3','<div class="nodetag">663.3</div></span>&nbsp;&nbsp;Պտղա-հատապտղային գինեգործություն։ Պտղա-հատապտղային գինիներ. Խնձորի, տանձի և այլն','663.3','Պտղա-հատապտղային գինեգործություն։ Պտղա-հատապտղային գինիներ. Խնձորի, տանձի և այլն','','','',false,true);
+d.add(378,374,'663.4','<div class="nodetag">663.4</div></span>&nbsp;&nbsp;Գարեջուր։  Գարեջրագործություն։ Ածիկի արտադրություն','663.4','Գարեջուր։  Գարեջրագործություն։ Ածիկի արտադրություն','','','',false,true);
+d.add(379,374,'663.5','<div class="nodetag">663.5</div></span>&nbsp;&nbsp;Ալկոհոլային խմիչքների արտադրություն։ Լիկյորօղու արտադրություն։  Ալկոհոլային խմիչքների թորում','663.5','Ալկոհոլային խմիչքների արտադրություն։ Լիկյորօղու արտադրություն։  Ալկոհոլային խմիչքների թորում','','','',false,true);
+d.add(380,374,'663.6','<div class="nodetag">663.6</div></span>&nbsp;&nbsp;Ըմպելիքների և այլ արտադրական օգտագործման ջուր։ Հանքային ջրեր։ Բժշկական ջրեր։ Սննդի սառույց','663.6','Ըմպելիքների և այլ արտադրական օգտագործման ջուր։ Հանքային ջրեր։ Բժշկական ջրեր։ Սննդի սառույց','','','',false,true);
+d.add(381,374,'663.8','<div class="nodetag">663.8</div></span>&nbsp;&nbsp;Խմիչքների կուպաժավորման հիմնական բաղադրամասերի արտադրություն։ Մրգային և բանջարեղենային հյութեր։ Օշարակներ։ Լիկյորներ։ Թույլ ալկոհոլային խմիչքներ','663.8','Խմիչքների կուպաժավորման հիմնական բաղադրամասերի արտադրություն։ Մրգային և բանջարեղենային հյութեր։ Օշարակներ։ Լիկյորներ։ Թույլ ալկոհոլային խմիչքներ','','','',false,true);
+d.add(382,374,'663.9','<div class="nodetag">663.9</div></span>&nbsp;&nbsp;Շոկոլադի, կակաոյի,  սուրճի, թեյի և ծխախոտի  արտադրություն','663.9','Շոկոլադի, կակաոյի,  սուրճի, թեյի և ծխախոտի  արտադրություն','','','',false,true);
+d.add(383,343,'664','<div class="nodetag">664</div></span>&nbsp;&nbsp;Սննդի արտադրություն։ Սննդի արտադրություն և պահածոյացում','664','Սննդի արտադրություն։ Սննդի արտադրություն և պահածոյացում','','','',false,true);
+d.add(384,383,'664.1','<div class="nodetag">664.1</div></span>&nbsp;&nbsp;Շաքարի արտադրություն։ Օսլայի, մաթի, գլյուկոզայի արտադրություն ','664.1','Շաքարի արտադրություն։ Օսլայի, մաթի, գլյուկոզայի արտադրություն ','','','',false,true);
+d.add(385,383,'664.2','<div class="nodetag">664.2</div></span>&nbsp;&nbsp;Օսլա-մաթային արտադրություն։ Օսլա պարունակող մթերքներ','664.2','Օսլա-մաթային արտադրություն։ Օսլա պարունակող մթերքներ','','','',false,true);
+d.add(386,383,'664.3','<div class="nodetag">664.3</div></span>&nbsp;&nbsp;Սննդի յուղերի և  ճարպերի արտադրություն։ Մարգարին։ Սպիտակուց պարունակող սննդամթերք','664.3','Սննդի յուղերի և  ճարպերի արտադրություն։ Մարգարին։ Սպիտակուց պարունակող սննդամթերք','','','',false,true);
+d.add(387,383,'664.4','<div class="nodetag">664.4</div></span>&nbsp;&nbsp;Հանքային սննդամթերքներ։ Կերակրի  աղ','664.4','Հանքային սննդամթերքներ։ Կերակրի  աղ','','','',false,true);
+d.add(388,383,'664.5','<div class="nodetag">664.5</div></span>&nbsp;&nbsp;Համեմունքներ։  Համեմվածքներ','664.5','Համեմունքներ։  Համեմվածքներ','','','',false,true);
+d.add(389,383,'664.6/.7','<div class="nodetag">664.6/.7</div></span>&nbsp;&nbsp;Հացահատիկի վերամշակում և տեխնոլոգիա','664.6/.7','Հացահատիկի վերամշակում և տեխնոլոգիա','','','',false,true);
+d.add(390,389,'664.6','<div class="nodetag">664.6</div></span>&nbsp;&nbsp;Հացաթխման  արտադրություն։ Հաց և հացամթերք։ Ալյուրե հրուշակեղեն','664.6','Հացաթխման  արտադրություն։ Հաց և հացամթերք։ Ալյուրե հրուշակեղեն','','','',false,true);
+d.add(391,389,'664.7','<div class="nodetag">664.7</div></span>&nbsp;&nbsp;Հացահատիկի վերամշակում։ Ալրաղաց և ձավարեղենի արտադրություն։ Ցորենի վերամշակում','664.7','Հացահատիկի վերամշակում։ Ալրաղաց և ձավարեղենի արտադրություն։ Ցորենի վերամշակում','','','',false,true);
+d.add(392,383,'664.8/.9','<div class="nodetag">664.8/.9</div></span>&nbsp;&nbsp;Սննդամթերքների պահածոյացման տեխնոլոգիա','664.8/.9','Սննդամթերքների պահածոյացման տեխնոլոգիա','','','',false,true);
+d.add(393,343,'665','<div class="nodetag">665</div></span>&nbsp;&nbsp;Յուղեր։ Ճարպեր։ Մոմեր։ Սոսնձող  նյութեր։ Խեժեր։ Բուսախեժեր','665','Յուղեր։ Ճարպեր։ Մոմեր։ Սոսնձող  նյութեր։ Խեժեր։ Բուսախեժեր','','','',false,true);
+d.add(394,393,'665.1','<div class="nodetag">665.1</div></span>&nbsp;&nbsp;Յուղերի, ճարպերի, մեղրամոմերի և դրանց վերամշակման մթերքների մասին ընդհանուր տեղեկություններ','665.1','Յուղերի, ճարպերի, մեղրամոմերի և դրանց վերամշակման մթերքների մասին ընդհանուր տեղեկություններ','','','',false,true);
+d.add(395,393,'665.2','<div class="nodetag">665.2</div></span>&nbsp;&nbsp;Կենդանական ծագում ունեցող յուղեր, ճարպեր և մոմեր ','665.2','Կենդանական ծագում ունեցող յուղեր, ճարպեր և մոմեր ','','','',false,true);
+d.add(396,393,'665.3','<div class="nodetag">665.3</div></span>&nbsp;&nbsp;Բուսական ծագում ունեցող յուղեր, ճարպեր և մոմեր։ Բուսական ֆոսֆորիլիդներ','665.3','Բուսական ծագում ունեցող յուղեր, ճարպեր և մոմեր։ Բուսական ֆոսֆորիլիդներ','','','',false,true);
+d.add(397,393,'665.5','<div class="nodetag">665.5</div></span>&nbsp;&nbsp;Եթերայուղեր։ Օծանելիք։ Կոսմետիկ (գեղարար) միջոցներ','665.5','Եթերայուղեր։ Օծանելիք։ Կոսմետիկ (գեղարար) միջոցներ','','','',false,true);
+d.add(398,393,'665.6/.7','<div class="nodetag">665.6/.7</div></span>&nbsp;&nbsp;Արդյունաբերության նավթի և կից ճյուղերի ընթացքներ և մթերքներ ','665.6/.7','Արդյունաբերության նավթի և կից ճյուղերի ընթացքներ և մթերքներ ','','','',false,true);
+d.add(399,398,'665.6','<div class="nodetag">665.6</div></span>&nbsp;&nbsp;Հանքային յուղերի տեխնոլոգիա։ Նավթի և համանման հումքերի տեխնոլոգիա','665.6','Հանքային յուղերի տեխնոլոգիա։ Նավթի և համանման հումքերի տեխնոլոգիա','','','',false,true);
+d.add(400,398,'665.7','<div class="nodetag">665.7</div></span>&nbsp;&nbsp;Նավթարդյունաբերական մթերքներ։ Հանքային յուղեր և համանման մթերքներ','665.7','Նավթարդյունաբերական մթերքներ։ Հանքային յուղեր և համանման մթերքներ','','','',false,true);
+d.add(401,393,'665.9','<div class="nodetag">665.9</div></span>&nbsp;&nbsp;Օրգանական քիմիական մթերքների տարբեր արտադրություններ','665.9','Օրգանական քիմիական մթերքների տարբեր արտադրություններ','','','',false,true);
+d.add(402,343,'666','<div class="nodetag">666</div></span>&nbsp;&nbsp;Ապակու արդյունաբերություն։ Խեցեղենի արդյունաբերություն։ Ցեմենտ և բետոն','666','Ապակու արդյունաբերություն։ Խեցեղենի արդյունաբերություն։ Ցեմենտ և բետոն','','','',false,true);
+d.add(403,402,'666.1','<div class="nodetag">666.1</div></span>&nbsp;&nbsp;Ապակու արդյունաբերություն։ Ապակու տեխնոլոգիա։ Ապակու արտադրությունն ամբողջությամբ','666.1','Ապակու արդյունաբերություն։ Ապակու տեխնոլոգիա։ Ապակու արտադրությունն ամբողջությամբ','','','',false,true);
+d.add(404,402,'666.3/.7','<div class="nodetag">666.3/.7</div></span>&nbsp;&nbsp;Խեցեղենի արդյունաբերություն','666.3/.7','Խեցեղենի արդյունաբերություն','','','',false,true);
+d.add(405,404,'666.3','<div class="nodetag">666.3</div></span>&nbsp;&nbsp;Խեցեգործությունն ամբողջությամբ։ Խեցեղենի հումք','666.3','Խեցեգործությունն ամբողջությամբ։ Խեցեղենի հումք','','','',false,true);
+d.add(406,404,'666.5','<div class="nodetag">666.5</div></span>&nbsp;&nbsp;Ճենապակի','666.5','Ճենապակի','','','',false,true);
+d.add(407,404,'666.6','<div class="nodetag">666.6</div></span>&nbsp;&nbsp;Քարե խեցի։ Ծակոտկեն իրեր նուրբ խեցուց','666.6','Քարե խեցի։ Ծակոտկեն իրեր նուրբ խեցուց','','','',false,true);
+d.add(408,404,'666.7','<div class="nodetag">666.7</div></span>&nbsp;&nbsp;Կոպիտ խեցի։ Հրակայուն իրեր։ Խեցու և այլ նյութերի խառնուրդ','666.7','Կոպիտ խեցի։ Հրակայուն իրեր։ Խեցու և այլ նյութերի խառնուրդ','','','',false,true);
+d.add(409,402,'666.9','<div class="nodetag">666.9</div></span>&nbsp;&nbsp;Գիպսի, կրի, ցեմենտի արտադրություն։ Մածուցիկ նյութեր։ Շինարարական շաղախ և խառնուրդ','666.9','Գիպսի, կրի, ցեմենտի արտադրություն։ Մածուցիկ նյութեր։ Շինարարական շաղախ և խառնուրդ','','','',false,true);
+d.add(410,343,'667','<div class="nodetag">667</div></span>&nbsp;&nbsp;Ներկող նյութերի արդյունաբերություն։ Ներկերի, թանաքի, գունանյութի և այլ նյութերի արտադրություն և օգտագործում','667','Ներկող նյութերի արդյունաբերություն։ Ներկերի, թանաքի, գունանյութի և այլ նյութերի արտադրություն և օգտագործում','','','',false,true);
+d.add(411,410,'667.2','<div class="nodetag">667.2</div></span>&nbsp;&nbsp;Ներկանյութերի արդյունաբերություն։ Ներկանյութերի  արտադրություն և օգտագործում','667.2','Ներկանյութերի արդյունաբերություն։ Ներկանյութերի  արտադրություն և օգտագործում','','','',false,true);
+d.add(412,410,'667.4','<div class="nodetag">667.4</div></span>&nbsp;&nbsp;Գրելու թանաք','667.4','Գրելու թանաք','','','',false,true);
+d.add(413,410,'667.5','<div class="nodetag">667.5</div></span>&nbsp;&nbsp;Սև և գունավոր տպագրական ներկեր։ Վիմագրական տուշ։ Գունավոր կավիճներ։ Գրելու և գծագրելու մատիտներ','667.5','Սև և գունավոր տպագրական ներկեր։ Վիմագրական տուշ։ Գունավոր կավիճներ։ Գրելու և գծագրելու մատիտներ','','','',false,true);
+d.add(414,410,'667.6','<div class="nodetag">667.6</div></span>&nbsp;&nbsp;Ծածկերի միջոցներ և դրանց տեխնոլոգիան։ Լաքուներկող նյութեր','667.6','Ծածկերի միջոցներ և դրանց տեխնոլոգիան։ Լաքուներկող նյութեր','','','',false,true);
+d.add(415,410,'667.7','<div class="nodetag">667.7</div></span>&nbsp;&nbsp;Տարբեր նյութերի ներկում','667.7','Տարբեր նյութերի ներկում','','','',false,true);
+d.add(416,343,'669','<div class="nodetag">669</div></span>&nbsp;&nbsp;Մետաղագործություն','669','Մետաղագործություն','','','',false,true);
+d.add(417,416,'669.1','<div class="nodetag">669.1</div></span>&nbsp;&nbsp;Սև մետաղագործություն։ Երկաթ, թուջ և պողպատ','669.1','Սև մետաղագործություն։ Երկաթ, թուջ և պողպատ','','','',false,true);
+d.add(418,416,'669.2','<div class="nodetag">669.2</div></span>&nbsp;&nbsp;Ոչ երկաթյա նետաղներն ամբողջությամբ','669.2','Ոչ երկաթյա նետաղներն ամբողջությամբ','','','',false,true);
+d.add(419,0,'67','<div class="nodetag">67</div></span>&nbsp;&nbsp;Տարբեր արդյունաբերություններ, առևտուրներ և արհեստներ','67','Տարբեր արդյունաբերություններ, առևտուրներ և արհեստներ','','','',false,true);
+d.add(420,419,'671','<div class="nodetag">671</div></span>&nbsp;&nbsp;Ազնիվ մետաղներից և թանկարժեք քարերից զարդերի արտադրություն','671','Ազնիվ մետաղներից և թանկարժեք քարերից զարդերի արտադրություն','','','',false,true);
+d.add(421,420,'671.1','<div class="nodetag">671.1</div></span>&nbsp;&nbsp;Ոսկե զարդերի արտադրություն։ Զարդեր։ Ոսկերչական զարդեր','671.1','Ոսկե զարդերի արտադրություն։ Զարդեր։ Ոսկերչական զարդեր','','','',false,true);
+d.add(422,420,'671.4','<div class="nodetag">671.4</div></span>&nbsp;&nbsp;Դրամների և կրծքանշանների արտադրություն','671.4','Դրամների և կրծքանշանների արտադրություն','','','',false,true);
+d.add(423,419,'672','<div class="nodetag">672</div></span>&nbsp;&nbsp;Երկաթից, թուջից և պողպատից իրերի  արտադրությունն ամբողջությամբ','672','Երկաթից, թուջից և պողպատից իրերի  արտադրությունն ամբողջությամբ','','','',false,true);
+d.add(424,419,'673','<div class="nodetag">673</div></span>&nbsp;&nbsp;Արտադրանքներ գունավոր մետաղներից (բացի ազնիվ մետաղներից)','673','Արտադրանքներ գունավոր մետաղներից (բացի ազնիվ մետաղներից)','','','',false,true);
+d.add(425,419,'674','<div class="nodetag">674</div></span>&nbsp;&nbsp;Փայտամշակման արդյունաբերություն','674','Փայտամշակման արդյունաբերություն','','','',false,true);
+d.add(426,419,'675','<div class="nodetag">675</div></span>&nbsp;&nbsp;Կաշվի արդյունաբերություն։ Մորթեղենի արտադրություն։ Մորթեղեն։ Արհեստական կաշվի արտադրություն','675','Կաշվի արդյունաբերություն։ Մորթեղենի արտադրություն։ Մորթեղեն։ Արհեստական կաշվի արտադրություն','','','',false,true);
+d.add(427,419,'676','<div class="nodetag">676</div></span>&nbsp;&nbsp;Ցելյուլոզա-թղթե արդյունաբերություն','676','Ցելյուլոզա-թղթե արդյունաբերություն','','','',false,true);
+d.add(428,419,'677','<div class="nodetag">677</div></span>&nbsp;&nbsp;Մանածագործական արդյունաբերություն','677','Մանածագործական արդյունաբերություն','','','',false,true);
+d.add(429,428,'677.1/.5','<div class="nodetag">677.1/.5</div></span>&nbsp;&nbsp;Մանածագործական մանրաթելեր','677.1/.5','Մանածագործական մանրաթելեր','','','',false,true);
+d.add(430,429,'677.1/.3','<div class="nodetag">677.1/.3</div></span>&nbsp;&nbsp;Բնական մանրաթելեր','677.1/.3','Բնական մանրաթելեր','','','',false,true);
+d.add(431,430,'677.1/.2','<div class="nodetag">677.1/.2</div></span>&nbsp;&nbsp;Բուսական մանրաթելեր','677.1/.2','Բուսական մանրաթելեր','','','',false,true);
+d.add(432,431,'677.1','<div class="nodetag">677.1</div></span>&nbsp;&nbsp;Կեղևային մանրաթելեր։ Պինդ մանրաթելեր','677.1','Կեղևային մանրաթելեր։ Պինդ մանրաթելեր','','','',false,true);
+d.add(433,431,'677.2','<div class="nodetag">677.2</div></span>&nbsp;&nbsp;Բուսական թելք','677.2','Բուսական թելք','','','',false,true);
+d.add(434,430,'677.3','<div class="nodetag">677.3</div></span>&nbsp;&nbsp;Կենդանական ծագումով մանրաթելեր','677.3','Կենդանական ծագումով մանրաթելեր','','','',false,true);
+d.add(435,429,'677.4','<div class="nodetag">677.4</div></span>&nbsp;&nbsp;Արհեստական մանրաթելեր','677.4','Արհեստական մանրաթելեր','','','',false,true);
+d.add(436,429,'677.5','<div class="nodetag">677.5</div></span>&nbsp;&nbsp;Հանքային և մետաղական թելատու նյութեր։ Հյուսելու նյութեր։ Ռետինե թելեր։ Թղթե գլանափաթեթ','677.5','Հանքային և մետաղական թելատու նյութեր։ Հյուսելու նյութեր։ Ռետինե թելեր։ Թղթե գլանափաթեթ','','','',false,true);
+d.add(437,419,'678','<div class="nodetag">678</div></span>&nbsp;&nbsp;Բարձրամոլեկուլային նյութերի արդյունաբերություն։ Ռետինի արդյունաբերություն։ Պլաստմասի արդյունաբերություն','678','Բարձրամոլեկուլային նյութերի արդյունաբերություն։ Ռետինի արդյունաբերություն։ Պլաստմասի արդյունաբերություն','','','',false,true);
+d.add(438,437,'678.4','<div class="nodetag">678.4</div></span>&nbsp;&nbsp;Բնական կաուչուկ։ Այլ բնական բարձրամոլեկուլային նյութեր, միայն ածխածին և ջրածին պարունակող','678.4','Բնական կաուչուկ։ Այլ բնական բարձրամոլեկուլային նյութեր, միայն ածխածին և ջրածին պարունակող','','','',false,true);
+d.add(439,437,'678.5','<div class="nodetag">678.5</div></span>&nbsp;&nbsp;Պլաստմասաններ','678.5','Պլաստմասաններ','','','',false,true);
+d.add(440,437,'678.6','<div class="nodetag">678.6</div></span>&nbsp;&nbsp;Սինթետիկ (արհեստական)  իրերի կիսախտացում։ Կիսախտացումներ(կիսակոնդենսատորներ)','678.6','Սինթետիկ (արհեստական)  իրերի կիսախտացում։ Կիսախտացումներ(կիսակոնդենսատորներ)','','','',false,true);
+d.add(441,437,'678.7','<div class="nodetag">678.7</div></span>&nbsp;&nbsp;Արհեստական պոլիմերիզացված արտադրանքներ։ Պոլիմերներ։ Արհեստական ռետիններ','678.7','Արհեստական պոլիմերիզացված արտադրանքներ։ Պոլիմերներ։ Արհեստական ռետիններ','','','',false,true);
+d.add(442,419,'679','<div class="nodetag">679</div></span>&nbsp;&nbsp;Տարբեր գործունակ նյութերի վրա հիմնված արդյունաբերություն','679','Տարբեր գործունակ նյութերի վրա հիմնված արդյունաբերություն','','','',false,true);
+d.add(443,442,'679.7','<div class="nodetag">679.7</div></span>&nbsp;&nbsp;Կաբելային (մետաղամալուխային) և ճոպանային արտադրանքի արտադրություն','679.7','Կաբելային (մետաղամալուխային) և ճոպանային արտադրանքի արտադրություն','','','',false,true);
+d.add(444,442,'679.8','<div class="nodetag">679.8</div></span>&nbsp;&nbsp;Քարերի մշակման տեխնոլոգիա։ Քարերի արտադրություն','679.8','Քարերի մշակման տեխնոլոգիա։ Քարերի արտադրություն','','','',false,true);
+d.add(445,442,'679.9','<div class="nodetag">679.9</div></span>&nbsp;&nbsp;Մշակմանը ենթարկվող այլ բնական նյութերի արտադրություն','679.9','Մշակմանը ենթարկվող այլ բնական նյութերի արտադրություն','','','',false,true);
+d.add(446,0,'68','<div class="nodetag">68</div></span>&nbsp;&nbsp;Արդյունաբերության և արհեստների վերջնական  արտադրանք տվող տարբեր մասնաճյուղեր','68','Արդյունաբերության և արհեստների վերջնական  արտադրանք տվող տարբեր մասնաճյուղեր','','','',false,true);
+d.add(447,446,'681','<div class="nodetag">681</div></span>&nbsp;&nbsp;Ճշգրիտ մեխանիկա','681','Ճշգրիտ մեխանիկա','','','',false,true);
+d.add(448,447,'681.1','<div class="nodetag">681.1</div></span>&nbsp;&nbsp;Ղեկանիվով կամ շարժիչով մեխանիզմներով մեքենաներ','681.1','Ղեկանիվով կամ շարժիչով մեխանիզմներով մեքենաներ','','','',false,true);
+d.add(449,447,'681.2','<div class="nodetag">681.2</div></span>&nbsp;&nbsp;Սարքաշինությունն ամբողջությամբ։ Սարքերի օգտագործելը։ Չափիչ տեխնիկա։ Կշիռներ։ Կշռաչափիչներ','681.2','Սարքաշինությունն ամբողջությամբ։ Սարքերի օգտագործելը։ Չափիչ տեխնիկա։ Կշիռներ։ Կշռաչափիչներ','','','',false,true);
+d.add(450,447,'681.5','<div class="nodetag">681.5</div></span>&nbsp;&nbsp;Ավտոմատիկա։ Ավտոմատ կառավարման և ղեկավարման համակարգեր։ Կառավարման տեխնոլոգիա։ Կառավարման համակարգի սարքեր։ Տեխնիկական կիբեռնետիկա','681.5','Ավտոմատիկա։ Ավտոմատ կառավարման և ղեկավարման համակարգեր։ Կառավարման տեխնոլոգիա։ Կառավարման համակարգի սարքեր։ Տեխնիկական կիբեռնետիկա','','','',false,true);
+d.add(451,447,'681.6','<div class="nodetag">681.6</div></span>&nbsp;&nbsp;Բազմացնող և տպող մեքենաներ և սարքեր','681.6','Բազմացնող և տպող մեքենաներ և սարքեր','','','',false,true);
+d.add(452,447,'681.7','<div class="nodetag">681.7</div></span>&nbsp;&nbsp;Օպտիկական գործիքներ և սարքավորումներ','681.7','Օպտիկական գործիքներ և սարքավորումներ','','','',false,true);
+d.add(453,447,'681.8','<div class="nodetag">681.8</div></span>&nbsp;&nbsp;Տեխնիկական ակուստիկա (ձայնագիտություն)','681.8','Տեխնիկական ակուստիկա (ձայնագիտություն)','','','',false,true);
+d.add(454,446,'682','<div class="nodetag">682</div></span>&nbsp;&nbsp;Դարբնեգործություն։ Կռածո արտադրանքներ','682','Դարբնեգործություն։ Կռածո արտադրանքներ','','','',false,true);
+d.add(455,454,'682.1','<div class="nodetag">682.1</div></span>&nbsp;&nbsp;Դարբնեգործություն։ Պայտերի պատրաստում','682.1','Դարբնեգործություն։ Պայտերի պատրաստում','','','',false,true);
+d.add(456,454,'682.3','<div class="nodetag">682.3</div></span>&nbsp;&nbsp;Դարդնի գործիքներ։ Զանազան կռածո իրերի պատրաստում','682.3','Դարդնի գործիքներ։ Զանազան կռածո իրերի պատրաստում','','','',false,true);
+d.add(457,454,'682.5','<div class="nodetag">682.5</div></span>&nbsp;&nbsp;Կահույքի կռածո ֆուրնիտուրայի (օժանդակ նյութեր) պատրաստում','682.5','Կահույքի կռածո ֆուրնիտուրայի (օժանդակ նյութեր) պատրաստում','','','',false,true);
+d.add(458,454,'682.6','<div class="nodetag">682.6</div></span>&nbsp;&nbsp;Շինարարական կռածո իրերի պատրաստում','682.6','Շինարարական կռածո իրերի պատրաստում','','','',false,true);
+d.add(459,446,'683','<div class="nodetag">683</div></span>&nbsp;&nbsp;Երկաթե իրեր։ Փականագործություն։ Խմիչքների տարալցում։ Այրվող նյութերով և այրիչներով լամպեր։ Վառարաններ','683','Երկաթե իրեր։ Փականագործություն։ Խմիչքների տարալցում։ Այրվող նյութերով և այրիչներով լամպեր։ Վառարաններ','','','',false,true);
+d.add(460,446,'684','<div class="nodetag">684</div></span>&nbsp;&nbsp;Կահույք և հարակից արտադրություններ։ Կահույքագործություն։ Պաստառագործություն','684','Կահույք և հարակից արտադրություններ։ Կահույքագործություն։ Պաստառագործություն','','','',false,true);
+d.add(461,460,'684.4','<div class="nodetag">684.4</div></span>&nbsp;&nbsp;Կահույքի արտադրության նախագծում և տեխնոլոգիա','684.4','Կահույքի արտադրության նախագծում և տեխնոլոգիա','','','',false,true);
+d.add(462,460,'684.6','<div class="nodetag">684.6</div></span>&nbsp;&nbsp;Նրբատախտակում (երեսպատում)։ Դրվագազարդում։ Ներդրվագ և այլն','684.6','Նրբատախտակում (երեսպատում)։ Դրվագազարդում։ Ներդրվագ և այլն','','','',false,true);
+d.add(463,460,'684.7','<div class="nodetag">684.7</div></span>&nbsp;&nbsp;Կահույքի երեսպատում։ Կահույքի փափուկ տարրերի պատրաստում։ Գեղազարդային աշխատանքներ','684.7','Կահույքի երեսպատում։ Կահույքի փափուկ տարրերի պատրաստում։ Գեղազարդային աշխատանքներ','','','',false,true);
+d.add(464,446,'685','<div class="nodetag">685</div></span>&nbsp;&nbsp;Թամբագործություն։ Կոշկեղենի արտադրություն։ Ձեռնոցների արտադրություն։ Ճանապարհորդական, սպորտային և այլ  պարագաների արտադրություն','685','Թամբագործություն։ Կոշկեղենի արտադրություն։ Ձեռնոցների արտադրություն։ Ճանապարհորդական, սպորտային և այլ  պարագաների արտադրություն','','','',false,true);
+d.add(465,464,'685.1','<div class="nodetag">685.1</div></span>&nbsp;&nbsp;Թամբագործություն։ Թամբերի և սանձերի արտադրություն','685.1','Թամբագործություն։ Թամբերի և սանձերի արտադրություն','','','',false,true);
+d.add(466,464,'685.2','<div class="nodetag">685.2</div></span>&nbsp;&nbsp;Կաշվե հանդերձանք։ Գոտիների և այլ զինվորական հանդերձանքի արտադրություն','685.2','Կաշվե հանդերձանք։ Գոտիների և այլ զինվորական հանդերձանքի արտադրություն','','','',false,true);
+d.add(467,464,'685.3','<div class="nodetag">685.3</div></span>&nbsp;&nbsp;Կոշկեղեն։ Տեղաշարժման այլ օժանդակ միջոցներ','685.3','Կոշկեղեն։ Տեղաշարժման այլ օժանդակ միջոցներ','','','',false,true);
+d.add(468,464,'685.4','<div class="nodetag">685.4</div></span>&nbsp;&nbsp;Ձեռնոցների արտադրություն','685.4','Ձեռնոցների արտադրություն','','','',false,true);
+d.add(469,464,'685.5','<div class="nodetag">685.5</div></span>&nbsp;&nbsp;Ճանապարհորդական պարագաներ։ Արշավի գույք','685.5','Ճանապարհորդական պարագաներ։ Արշավի գույք','','','',false,true);
+d.add(470,464,'685.6','<div class="nodetag">685.6</div></span>&nbsp;&nbsp;Ֆիզկուլտուրայի, սպորտի և մարմնամարզության պարագաներ','685.6','Ֆիզկուլտուրայի, սպորտի և մարմնամարզության պարագաներ','','','',false,true);
+d.add(471,464,'685.7','<div class="nodetag">685.7</div></span>&nbsp;&nbsp;Ալպինիզմի պարագաներ։ Լողի պարագաներ','685.7','Ալպինիզմի պարագաներ։ Լողի պարագաներ','','','',false,true);
+d.add(472,464,'685.8','<div class="nodetag">685.8</div></span>&nbsp;&nbsp;Սեղանի խաղերի պարագաներ','685.8','Սեղանի խաղերի պարագաներ','','','',false,true);
+d.add(473,446,'686','<div class="nodetag">686</div></span>&nbsp;&nbsp;Բրոշյուրա-կազմարարական  արտադրություն։ Մետաղապատում  (մետաղազօծում)։ Ապակեգործություն։  Ապակյա աշխատանքներ։ Գրասենյակային պարագաներ','686','Բրոշյուրա-կազմարարական  արտադրություն։ Մետաղապատում  (մետաղազօծում)։ Ապակեգործություն։  Ապակյա աշխատանքներ։ Գրասենյակային պարագաներ','','','',false,true);
+d.add(474,446,'687','<div class="nodetag">687</div></span>&nbsp;&nbsp;Հագուստի արդյունբերություն։ Հագուստի արտադրություն։ Գեղեցկության մշակույթ (արտադրություն)','687','Հագուստի արդյունբերություն։ Հագուստի արտադրություն։ Գեղեցկության մշակույթ (արտադրություն)','','','',false,true);
+d.add(475,474,'687.1','<div class="nodetag">687.1</div></span>&nbsp;&nbsp;Արտաքին հագուստ','687.1','Արտաքին հագուստ','','','',false,true);
+d.add(476,474,'687.2','<div class="nodetag">687.2</div></span>&nbsp;&nbsp;Կտավե հագուստ։ Կանացի սպիտակեղեն','687.2','Կտավե հագուստ։ Կանացի սպիտակեղեն','','','',false,true);
+d.add(477,474,'687.3','<div class="nodetag">687.3</div></span>&nbsp;&nbsp;Գիշերազգեստ։ Փողկապներ։ Հագուստի պահպանման և օգտագործման   հարմարանքներ','687.3','Գիշերազգեստ։ Փողկապներ։ Հագուստի պահպանման և օգտագործման   հարմարանքներ','','','',false,true);
+d.add(478,474,'687.4','<div class="nodetag">687.4</div></span>&nbsp;&nbsp;Գլխարկներ։ Գլխարկների արտադրություն','687.4','Գլխարկներ։ Գլխարկների արտադրություն','','','',false,true);
+d.add(479,474,'687.5','<div class="nodetag">687.5</div></span>&nbsp;&nbsp;Գեղեցկության արդյունաբերություն։ Վարսահարդարում։ Մատնահարդարում, կոսմետիկա։','687.5','Գեղեցկության արդյունաբերություն։ Վարսահարդարում։ Մատնահարդարում, կոսմետիկա։','','','',false,true);
+d.add(480,474,'687.8','<div class="nodetag">687.8</div></span>&nbsp;&nbsp;Արհեստական մորթի ','687.8','Արհեստական մորթի ','','','',false,true);
+d.add(481,474,'687.9','<div class="nodetag">687.9</div></span>&nbsp;&nbsp;Խոզանակների արտադրություն։ Խոզանակներ, վրձիններ','687.9','Խոզանակների արտադրություն։ Խոզանակներ, վրձիններ','','','',false,true);
+d.add(482,446,'688','<div class="nodetag">688</div></span>&nbsp;&nbsp;Արդուզարդի պարագաների արտադրություն։ Խաղալիքներ։ Դեկորատիվ իրերի պատրաստում','688','Արդուզարդի պարագաների արտադրություն։ Խաղալիքներ։ Դեկորատիվ իրերի պատրաստում','','','',false,true);
+d.add(483,482,'688.7','<div class="nodetag">688.7</div></span>&nbsp;&nbsp;Խաղալիքներ։ Զվարճանքի իրեր։ Դեկորատիվ իրեր','688.7','Խաղալիքներ։ Զվարճանքի իրեր։ Դեկորատիվ իրեր','','','',false,true);
+d.add(484,446,'689','<div class="nodetag">689</div></span>&nbsp;&nbsp;Սիրողական արհեստներ։ Տեխնիկական նախասիրություններ','689','Սիրողական արհեստներ։ Տեխնիկական նախասիրություններ','','','',false,true);
+d.add(485,0,'69','<div class="nodetag">69</div></span>&nbsp;&nbsp;Շինարարություն (կառուցապատում)։ Շինանյութեր։ Շինարարական մոնտաժային աշխատանքներ','69','Շինարարություն (կառուցապատում)։ Շինանյութեր։ Շինարարական մոնտաժային աշխատանքներ','','','',false,true);
+d.add(486,485,'691','<div class="nodetag">691</div></span>&nbsp;&nbsp;Շինանյութեր','691','Շինանյութեր','','','',false,true);
+d.add(487,485,'692','<div class="nodetag">692</div></span>&nbsp;&nbsp;Շենքերի կառուցվածքային մասեր','692','Շենքերի կառուցվածքային մասեր','','','',false,true);
+d.add(488,485,'693','<div class="nodetag">693</div></span>&nbsp;&nbsp;Քարերի շարվածք և այլ շինարարական աշխատանքներ','693','Քարերի շարվածք և այլ շինարարական աշխատանքներ','','','',false,true);
+d.add(489,485,'694','<div class="nodetag">694</div></span>&nbsp;&nbsp;Փայտաշեն կառույցներ։ Ատաղձագործական աշխատանքներ։ Հյուսնագործություն','694','Փայտաշեն կառույցներ։ Ատաղձագործական աշխատանքներ։ Հյուսնագործություն','','','',false,true);
+d.add(490,485,'696','<div class="nodetag">696</div></span>&nbsp;&nbsp;Կառույցների շինտեխնիկա և դրա մոնտաժումը (սանիտարիա, գազ, կոյուղի, հոսանք)։ Խողովակ տեղադրող։ Մետաղի հետ աշխատող։ Ջրատար խողովակ տեղադրող','696','Կառույցների շինտեխնիկա և դրա մոնտաժումը (սանիտարիա, գազ, կոյուղի, հոսանք)։ Խողովակ տեղադրող։ Մետաղի հետ աշխատող։ Ջրատար խողովակ տեղադրող','','','',false,true);
+d.add(491,485,'697','<div class="nodetag">697</div></span>&nbsp;&nbsp;Շենքերի ջեռուցում, օդափոխություն, օդորակավորում','697','Շենքերի ջեռուցում, օդափոխություն, օդորակավորում','','','',false,true);
+d.add(492,485,'698','<div class="nodetag">698</div></span>&nbsp;&nbsp;Վերջնական և դեկորատիվ շինարարական աշխատանքներ','698','Վերջնական և դեկորատիվ շինարարական աշխատանքներ','','','',false,true);
+d.config.useSelection = false;
+d.config.inOrder = true;
+d.config.useIcons = false;
+document.write(d);
+//-->
+</script>
+</div>
+</div><div id="expandbox" onclick="expandbox(); return false;">&nbsp;</div>
+<div id="recordbox" class="debugbkg">
+<div class="fronthint">սեղմիր ձախ կողմի դասի վրա գրառումների արտածման համար</div>
+</div>
+
+        <div id="footer">
+            <div class="footersectionleft">
+                The UDC Summary (UDCS) provides a selection of around 2,600 classes from the whole scheme which comprises more than 70,000 entries.
+                Please send questions and suggestions to <a href="mailto:udcs@udcc.org?subject=UDC Summary Enquiry">udcs@udcc.org</a><br><br>
+	            <p>
+		            The data provided in this Summary is released under the <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative Commons Attribution Share Alike 3.0 license</a> <a href="../about.htm">[more]</a>
+	            </p>
+            </div>
+            <div class="footermiddle">
+                <a href="http://www.udcc.org"><img src="../images/udclogowhite.png" border="0"></a>
+            </div>
+			<div class="footerright">
+                For complete UDC schedules see <a href="http://www.udc-hub.com/">UDC Online Hub</a><br/><a href="http://www.udc-hub.com/"><img width="60" height="35" src="../images/udclogo.png"/></a>
+
+			</div>
+        </div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-13138465-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>

@@ -1,0 +1,901 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>UDC Summary</title>
+    <link rel="stylesheet" href="../reset.css" type="text/css" />
+    <link rel="stylesheet" href="../udc2000.css" type="text/css" />
+	    <link rel="StyleSheet" href="dtree2.css" type="text/css" />
+	    <script type="text/javascript" src="dtree.js"></script>
+	    <script type="text/javascript" src="udcdisplay_9.js"></script>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+</head>
+
+<body >
+<div id="centercontainer" class="debugbkg">
+    <div id="titlebox" class="debugbkg">
+		<div id="rightbox">
+        	<div id="languagecount">57 languages</div>
+            <div id="languagebox">
+            <select id="selectedlang" style="vertical-align: middle;" onchange="location = this.options[this.selectedIndex].value;">
+			<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=af&pr=Y">Afrikaans (Afrikaans) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sq&pr=Y">Albanian (Shqip) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=anp&pr=Y">Angika (अंगिका) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ar&pr=Y">Arabic (العربية) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=hy&pr=Y">Armenian (հայերեն) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=eu&pr=Y">Basque (Euskara) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=be&pr=Y" selected>Belarusian (Беларуская) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=bn&pr=Y">Bengali (বাংলা) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=bho&pr=Y">Bhojpuri (भोजपुरी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=bg&pr=Y">Bulgarian (Български) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ca&pr=Y">Catalan (Català) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=chi&pr=Y">Chinese (中文) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=hr&pr=Y">Croatian (Hrvatski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=cs&pr=Y">Czech (Čeština) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=da&pr=Y">Danish (Dansk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=nl&pr=Y">Dutch (Nederlands) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=en&pr=Y">English (English) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=eo&pr=Y">Esperanto (Esperanto) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=et&pr=Y">Estonian (Eesti) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=fi&pr=Y">Finnish (Suomi) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=fr&pr=Y">French (Français) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=gl&pr=Y">Galician (Galego) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ka&pr=Y">Georgian (ქართული) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=de&pr=Y">German (Deutsch) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=el&pr=Y">Greek (Ελληνικά) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=hi&pr=Y">Hindi (हिन्दी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=hu&pr=Y">Hungarian (Magyar) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=id&pr=Y">Indonesian (Bahasa Ind) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ga&pr=Y">Irish (Gaeilge) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=it&pr=Y">Italian (Italiano) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ja&pr=Y">Japanese (日本語) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=kn&pr=Y">Kannada (ಕನ್ನಡ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=kk&pr=Y">Kazakh (Қазақ тілі) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=lv&pr=Y">Latvian (Latviešu) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=lt&pr=Y">Lithuanian (lietuvių) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=mk&pr=Y">Macedonian (македонски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ml&pr=Y">Malayalam (മലയാളം) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=mr&pr=Y">Marathi (मराठी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=no&pr=Y">Norwegian (Norsk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=pl&pr=Y">Polish (Polski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=pt&pr=Y">Portuguese (Português) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=pa&pr=Y">Punjabi (ਪੰਜਾਬੀ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ro&pr=Y">Romanian (Româna) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ru&pr=Y">Russian (Pусский) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sa&pr=Y">Sanskrit (Saṃskṛtam) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sr&pr=Y">Serbian (Српски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=si&pr=Y">Sinhala (සිංහල) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sk&pr=Y">Slovak (Slovenský) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sl&pr=Y">Slovenian (Slovenski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=es&pr=Y">Spanish (Español) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sv&pr=Y">Swedish (Svenska) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ta&pr=Y">Tamil (தமிழ்) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=te&pr=Y">Telugu (తెలుగు) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=tr&pr=Y">Turkish (Türkçe) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=uk&pr=Y">Ukrainian (Yкраї́нська) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=uz&pr=Y">Uzbek (oʻzbek) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=vi&pr=Y">Vietnamese (tiếng Việt) </option>
+            </select>
+            </div>
+            </div>
+        </div>
+		<div id="menubox" class="debugbkg">
+            <ul class="menu boldmenu">
+<li><a href="index.php@lang=be">ГАЛОЎНАЯ</a></li>
+<li><a href="index.php@tag=--&amp;lang=be">ЗНАКІ</a></li>
+<li><a href="index.php@tag=---&amp;lang=be">ВЫЗНАЧАЛЬНІКІ</a></li>
+<li><a href="index.php@tag=0&amp;lang=be">0</a></li>
+<li><a href="index.php@tag=1&amp;lang=be">1</a></li>
+<li><a href="index.php@tag=2&amp;lang=be">2</a></li>
+<li><a href="index.php@tag=3&amp;lang=be">3</a></li>
+<li><a  class="vacant" href="index.php@tag=---&amp;lang=be#">4</a></li>
+<li><a href="index.php@tag=5&amp;lang=be">5</a></li>
+<li><a href="index.php@tag=6&amp;lang=be">6</a></li>
+<li><a href="index.php@tag=7&amp;lang=be">7</a></li>
+<li><a href="index.php@tag=8&amp;lang=be">8</a></li>
+<li><a href="index.php@tag=9&amp;lang=be">9</a></li>
+</ul>
+<input type="hidden" id="if_loading" name="if_loading" value="Загрузка"/>
+<input type="hidden" id="if_lang" name="if_lang" value="43"/>
+<ul class="rightmenu boldmenu">
+<li><a href="../translation.htm">ПЕРАКЛАДЫ</a></li>
+<li><a href="index.php@tag=---&amp;lang=be#" title="Under Development">МАПАВАННЕ</a></li>
+<li><a href="../exports.htm" title="Data Exports">ЭКСПАРТ</a></li>
+<li><a href="index.php@tag=---&amp;lang=be#" title="Under Development">АЛЬФАБЭТНЫ ЎКАЗАЛЬНІК</a></li>
+<li><a href="index.php@tag=---&amp;lang=be#" title="Under Development">ДАВЕДНІК</a></li>
+<li><a href="../about.htm" title="About the UDC Summary">ІНФАРМАЦЫЯ</a></li>
+</ul>
+
+        </div>
+		<input type="hidden" id="leftWidth" value="420"/><input type="hidden" id="rightWidth" value="522"/>
+		<div id="classmarkbox" class="debugbkg">
+
+<div id="openclosemenu"><a href="javascript: d.openAll();">&nbsp;адкрыць усё</a> | <a href="javascript: d.closeAll();">звярнуць усё</a></div>
+<div id="classtree">
+<script type="text/javascript">
+<!--
+d = new dTree('d');
+d.config.hrefIsClick = true;
+d.add(0,-1,'---','<span class="nodetag"></span>COMMON AUXILIARY NUMBERS','---','','','','',false,true);
+d.add(1,0,'=...','<div class="nodetag">=...</div></span>&nbsp;&nbsp;Агульныя вызначальнікі мовы. Табліца 1c','=...','Агульныя вызначальнікі мовы. Табліца 1c','','','',false,true);
+d.add(2,1,'=...`01/`08','<div class="nodetag">=...`01/`08</div></span>&nbsp;&nbsp;Спецыяльныя вызначальнікі паходжання, перыядаў і стадый развіцця моваў','=...`01/`08','Спецыяльныя вызначальнікі паходжання, перыядаў і стадый развіцця моваў','','','',false,true);
+d.add(3,2,'=...`01','<div class="nodetag">=...`01</div></span>&nbsp;&nbsp;Старажытны перыяд. Архаічны перыяд','=...`01','Старажытны перыяд. Архаічны перыяд','','','',false,true);
+d.add(4,2,'=...`04','<div class="nodetag">=...`04</div></span>&nbsp;&nbsp;Сярэдні перыяд','=...`04','Сярэдні перыяд','','','',false,true);
+d.add(5,2,'=...`06','<div class="nodetag">=...`06</div></span>&nbsp;&nbsp;Сучасны перыяд','=...`06','Сучасны перыяд','','','',false,true);
+d.add(6,1,'=...`276/`282','<div class="nodetag">=...`276/`282</div></span>&nbsp;&nbsp;Спецыяльны дапаможны падраздзел: выкарыстанне моў, дыялекты і варыянты','=...`276/`282','Спецыяльны дапаможны падраздзел: выкарыстанне моў, дыялекты і варыянты','','','',false,true);
+d.add(7,6,'=...`276','<div class="nodetag">=...`276</div></span>&nbsp;&nbsp;Сацыяльныя дыялекты. Прафесійныя слэнгі. Асобныя прастамоўныя формы','=...`276','Сацыяльныя дыялекты. Прафесійныя слэнгі. Асобныя прастамоўныя формы','','','',false,true);
+d.add(8,6,'=...`282','<div class="nodetag">=...`282</div></span>&nbsp;&nbsp;Дыялекты. Мясцовыя і рэгіянальныя мовы. Варыянты і мясцовыя дыялекты','=...`282','Дыялекты. Мясцовыя і рэгіянальныя мовы. Варыянты і мясцовыя дыялекты','','','',false,true);
+d.add(9,1,'=00','<div class="nodetag">=00</div></span>&nbsp;&nbsp;Шматмоўныя дакументы','=00','Шматмоўныя дакументы','','','',false,true);
+d.add(10,1,'=030','<div class="nodetag">=030</div></span>&nbsp;&nbsp;Перакладзеныя дакументы. Пераклады','=030','Перакладзеныя дакументы. Пераклады','','','',false,true);
+d.add(11,1,'=1/=9','<div class="nodetag">=1/=9</div></span>&nbsp;&nbsp;Мовы (натуральныя і штучныя)','=1/=9','Мовы (натуральныя і штучныя)','','','',false,true);
+d.add(12,11,'=1/=8','<div class="nodetag">=1/=8</div></span>&nbsp;&nbsp;Натуральныя мовы','=1/=8','Натуральныя мовы','','','',false,true);
+d.add(13,12,'=1/=2','<div class="nodetag">=1/=2</div></span>&nbsp;&nbsp;Індаеўрапейскія мовы','=1/=2','Індаеўрапейскія мовы','','','',false,true);
+d.add(14,13,'=1','<div class="nodetag">=1</div></span>&nbsp;&nbsp;Індаеўрапейскія мовы Еўропы','=1','Індаеўрапейскія мовы Еўропы','','','',false,true);
+d.add(15,14,'=11','<div class="nodetag">=11</div></span>&nbsp;&nbsp;Германскія мовы','=11','Германскія мовы','','','',false,true);
+d.add(16,15,'=111','<div class="nodetag">=111</div></span>&nbsp;&nbsp;Англійская мова','=111','Англійская мова','','','',false,true);
+d.add(17,15,'=112','<div class="nodetag">=112</div></span>&nbsp;&nbsp;Заходнегерманскія мовы (акрамя англійскай)','=112','Заходнегерманскія мовы (акрамя англійскай)','','','',false,true);
+d.add(18,17,'=112.2','<div class="nodetag">=112.2</div></span>&nbsp;&nbsp;Нямецкая літаратурная пісьмовая мова','=112.2','Нямецкая літаратурная пісьмовая мова','','','',false,true);
+d.add(19,17,'=112.5','<div class="nodetag">=112.5</div></span>&nbsp;&nbsp;Галандская мова. Нідэрландская мова','=112.5','Галандская мова. Нідэрландская мова','','','',false,true);
+d.add(20,17,'=112.6','<div class="nodetag">=112.6</div></span>&nbsp;&nbsp;Афрыкаанс (адносіцца да германскай групы моў)','=112.6','Афрыкаанс (адносіцца да германскай групы моў)','','','',false,true);
+d.add(21,15,'=113','<div class="nodetag">=113</div></span>&nbsp;&nbsp;Паўночнагерманскія (нардычныя) мовы','=113','Паўночнагерманскія (нардычныя) мовы','','','',false,true);
+d.add(22,21,'=113.3','<div class="nodetag">=113.3</div></span>&nbsp;&nbsp;Ісландская мова','=113.3','Ісландская мова','','','',false,true);
+d.add(23,21,'=113.4','<div class="nodetag">=113.4</div></span>&nbsp;&nbsp;Дацкая мова','=113.4','Дацкая мова','','','',false,true);
+d.add(24,21,'=113.5','<div class="nodetag">=113.5</div></span>&nbsp;&nbsp;Нарвежская мова','=113.5','Нарвежская мова','','','',false,true);
+d.add(25,21,'=113.6','<div class="nodetag">=113.6</div></span>&nbsp;&nbsp;Шведская мова','=113.6','Шведская мова','','','',false,true);
+d.add(26,15,'=114','<div class="nodetag">=114</div></span>&nbsp;&nbsp;Усходнегерманскія мовы','=114','Усходнегерманскія мовы','','','',false,true);
+d.add(27,14,'=12','<div class="nodetag">=12</div></span>&nbsp;&nbsp;Італійскія мовы','=12','Італійскія мовы','','','',false,true);
+d.add(28,27,'=122','<div class="nodetag">=122</div></span>&nbsp;&nbsp;Умбра-сабельскія (оскска-умбрскія) мовы','=122','Умбра-сабельскія (оскска-умбрскія) мовы','','','',false,true);
+d.add(29,27,'=124','<div class="nodetag">=124</div></span>&nbsp;&nbsp;Лацінская мова','=124','Лацінская мова','','','',false,true);
+d.add(30,14,'=13','<div class="nodetag">=13</div></span>&nbsp;&nbsp;Раманскія мовы','=13','Раманскія мовы','','','',false,true);
+d.add(31,30,'=131','<div class="nodetag">=131</div></span>&nbsp;&nbsp;Італа-раманскія мовы','=131','Італа-раманскія мовы','','','',false,true);
+d.add(32,31,'=131.1','<div class="nodetag">=131.1</div></span>&nbsp;&nbsp;Італьянская мова','=131.1','Італьянская мова','','','',false,true);
+d.add(33,30,'=132','<div class="nodetag">=132</div></span>&nbsp;&nbsp;Рэта-раманскія мовы','=132','Рэта-раманскія мовы','','','',false,true);
+d.add(34,30,'=133','<div class="nodetag">=133</div></span>&nbsp;&nbsp;Гала-раманскія мовы','=133','Гала-раманскія мовы','','','',false,true);
+d.add(35,34,'=133.1','<div class="nodetag">=133.1</div></span>&nbsp;&nbsp;Французская мова','=133.1','Французская мова','','','',false,true);
+d.add(36,30,'=134','<div class="nodetag">=134</div></span>&nbsp;&nbsp;Ібера-раманскія мовы','=134','Ібера-раманскія мовы','','','',false,true);
+d.add(37,36,'=134.1','<div class="nodetag">=134.1</div></span>&nbsp;&nbsp;Каталанская (каталонская) мова','=134.1','Каталанская (каталонская) мова','','','',false,true);
+d.add(38,36,'=134.2','<div class="nodetag">=134.2</div></span>&nbsp;&nbsp;Іспанская мова','=134.2','Іспанская мова','','','',false,true);
+d.add(39,36,'=134.3','<div class="nodetag">=134.3</div></span>&nbsp;&nbsp;Партугальская мова','=134.3','Партугальская мова','','','',false,true);
+d.add(40,36,'=134.4','<div class="nodetag">=134.4</div></span>&nbsp;&nbsp;Галісійская мова','=134.4','Галісійская мова','','','',false,true);
+d.add(41,30,'=135','<div class="nodetag">=135</div></span>&nbsp;&nbsp;Балканскія раманскія мовы','=135','Балканскія раманскія мовы','','','',false,true);
+d.add(42,41,'=135.1','<div class="nodetag">=135.1</div></span>&nbsp;&nbsp;Румынская мова','=135.1','Румынская мова','','','',false,true);
+d.add(43,14,'=14','<div class="nodetag">=14</div></span>&nbsp;&nbsp;Грэцкая (грэчаская) мова','=14','Грэцкая (грэчаская) мова','','','',false,true);
+d.add(44,14,'=15','<div class="nodetag">=15</div></span>&nbsp;&nbsp;Кельцкія мовы','=15','Кельцкія мовы','','','',false,true);
+d.add(45,44,'=152','<div class="nodetag">=152</div></span>&nbsp;&nbsp;Гайдэльская (гэльская) група','=152','Гайдэльская (гэльская) група','','','',false,true);
+d.add(46,45,'=152.1','<div class="nodetag">=152.1</div></span>&nbsp;&nbsp;Ірландская мова','=152.1','Ірландская мова','','','',false,true);
+d.add(47,45,'=152.2','<div class="nodetag">=152.2</div></span>&nbsp;&nbsp;Шатландская гэльская мова','=152.2','Шатландская гэльская мова','','','',false,true);
+d.add(48,44,'=153','<div class="nodetag">=153</div></span>&nbsp;&nbsp;Брытанская група','=153','Брытанская група','','','',false,true);
+d.add(49,14,'=16','<div class="nodetag">=16</div></span>&nbsp;&nbsp;Славянскія мовы','=16','Славянскія мовы','','','',false,true);
+d.add(50,49,'=161','<div class="nodetag">=161</div></span>&nbsp;&nbsp;Усходнеславянскія мовы','=161','Усходнеславянскія мовы','','','',false,true);
+d.add(51,50,'=161.1','<div class="nodetag">=161.1</div></span>&nbsp;&nbsp;Руская мова','=161.1','Руская мова','','','',false,true);
+d.add(52,50,'=161.2','<div class="nodetag">=161.2</div></span>&nbsp;&nbsp;Украінская мова','=161.2','Украінская мова','','','',false,true);
+d.add(53,50,'=161.3','<div class="nodetag">=161.3</div></span>&nbsp;&nbsp;Беларуская мова','=161.3','Беларуская мова','','','',false,true);
+d.add(54,49,'=162','<div class="nodetag">=162</div></span>&nbsp;&nbsp;Заходнеславянскія мовы','=162','Заходнеславянскія мовы','','','',false,true);
+d.add(55,54,'=162.1','<div class="nodetag">=162.1</div></span>&nbsp;&nbsp;Польская мова','=162.1','Польская мова','','','',false,true);
+d.add(56,54,'=162.3','<div class="nodetag">=162.3</div></span>&nbsp;&nbsp;Чэшская мова','=162.3','Чэшская мова','','','',false,true);
+d.add(57,54,'=162.4','<div class="nodetag">=162.4</div></span>&nbsp;&nbsp;Славацкая мова','=162.4','Славацкая мова','','','',false,true);
+d.add(58,49,'=163','<div class="nodetag">=163</div></span>&nbsp;&nbsp;Паўднёваславянскія мовы','=163','Паўднёваславянскія мовы','','','',false,true);
+d.add(59,58,'=163.2','<div class="nodetag">=163.2</div></span>&nbsp;&nbsp;Балгарская мова','=163.2','Балгарская мова','','','',false,true);
+d.add(60,58,'=163.3','<div class="nodetag">=163.3</div></span>&nbsp;&nbsp;Македонская мова','=163.3','Македонская мова','','','',false,true);
+d.add(61,58,'=163.4','<div class="nodetag">=163.4</div></span>&nbsp;&nbsp;Сербская і харвацкая мовы','=163.4','Сербская і харвацкая мовы','','','',false,true);
+d.add(62,61,'=163.41','<div class="nodetag">=163.41</div></span>&nbsp;&nbsp;Сербская мова','=163.41','Сербская мова','','','',false,true);
+d.add(63,61,'=163.42','<div class="nodetag">=163.42</div></span>&nbsp;&nbsp;Харвацкая мова','=163.42','Харвацкая мова','','','',false,true);
+d.add(64,58,'=163.6','<div class="nodetag">=163.6</div></span>&nbsp;&nbsp;Славенская мова','=163.6','Славенская мова','','','',false,true);
+d.add(65,14,'=17','<div class="nodetag">=17</div></span>&nbsp;&nbsp;Балтыйскія мовы','=17','Балтыйскія мовы','','','',false,true);
+d.add(66,65,'=172','<div class="nodetag">=172</div></span>&nbsp;&nbsp;Літоўская мова','=172','Літоўская мова','','','',false,true);
+d.add(67,65,'=174','<div class="nodetag">=174</div></span>&nbsp;&nbsp;Латышская мова','=174','Латышская мова','','','',false,true);
+d.add(68,14,'=18','<div class="nodetag">=18</div></span>&nbsp;&nbsp;Албанская мова','=18','Албанская мова','','','',false,true);
+d.add(69,14,'=19','<div class="nodetag">=19</div></span>&nbsp;&nbsp;Армянская мова','=19','Армянская мова','','','',false,true);
+d.add(70,13,'=2','<div class="nodetag">=2</div></span>&nbsp;&nbsp;Індаіранскія, нурыстанская (кафірская) і мёртвыя індаеўрапейскія мовы','=2','Індаіранскія, нурыстанская (кафірская) і мёртвыя індаеўрапейскія мовы','','','',false,true);
+d.add(71,70,'=21/=22','<div class="nodetag">=21/=22</div></span>&nbsp;&nbsp;Індаіранскія мовы','=21/=22','Індаіранскія мовы','','','',false,true);
+d.add(72,71,'=21','<div class="nodetag">=21</div></span>&nbsp;&nbsp;Індыйскія мовы','=21','Індыйскія мовы','','','',false,true);
+d.add(73,72,'=211','<div class="nodetag">=211</div></span>&nbsp;&nbsp;Санскрыт','=211','Санскрыт','','','',false,true);
+d.add(74,72,'=212','<div class="nodetag">=212</div></span>&nbsp;&nbsp;Палі','=212','Палі','','','',false,true);
+d.add(75,72,'=213','<div class="nodetag">=213</div></span>&nbsp;&nbsp;Пракрыт','=213','Пракрыт','','','',false,true);
+d.add(76,72,'=214','<div class="nodetag">=214</div></span>&nbsp;&nbsp;Новаіндыйскія (сучасныя індыйскія) мовы','=214','Новаіндыйскія (сучасныя індыйскія) мовы','','','',false,true);
+d.add(77,76,'=214.1','<div class="nodetag">=214.1</div></span>&nbsp;&nbsp;Дардычная група. Дардскія мовы','=214.1','Дардычная група. Дардскія мовы','','','',false,true);
+d.add(78,76,'=214.2','<div class="nodetag">=214.2</div></span>&nbsp;&nbsp;Цэнтральная група','=214.2','Цэнтральная група','','','',false,true);
+d.add(79,78,'=214.21','<div class="nodetag">=214.21</div></span>&nbsp;&nbsp;Хіндзі','=214.21','Хіндзі','','','',false,true);
+d.add(80,78,'=214.22','<div class="nodetag">=214.22</div></span>&nbsp;&nbsp;Урду','=214.22','Урду','','','',false,true);
+d.add(81,78,'=214.25','<div class="nodetag">=214.25</div></span>&nbsp;&nbsp;Гуджараці','=214.25','Гуджараці','','','',false,true);
+d.add(82,78,'=214.27','<div class="nodetag">=214.27</div></span>&nbsp;&nbsp;Панджабі','=214.27','Панджабі','','','',false,true);
+d.add(83,78,'=214.28','<div class="nodetag">=214.28</div></span>&nbsp;&nbsp;Раджастхані','=214.28','Раджастхані','','','',false,true);
+d.add(84,76,'=214.3','<div class="nodetag">=214.3</div></span>&nbsp;&nbsp;Усходняя група індыйскіх моў','=214.3','Усходняя група індыйскіх моў','','','',false,true);
+d.add(85,84,'=214.32','<div class="nodetag">=214.32</div></span>&nbsp;&nbsp;Бенгалі (бенгальская)','=214.32','Бенгалі (бенгальская)','','','',false,true);
+d.add(86,84,'=214.35','<div class="nodetag">=214.35</div></span>&nbsp;&nbsp;Маратхі','=214.35','Маратхі','','','',false,true);
+d.add(87,76,'=214.4','<div class="nodetag">=214.4</div></span>&nbsp;&nbsp;Паўночная група індыйскіх моў','=214.4','Паўночная група індыйскіх моў','','','',false,true);
+d.add(88,87,'=214.43','<div class="nodetag">=214.43</div></span>&nbsp;&nbsp;Непалі (непальская мова)','=214.43','Непалі (непальская мова)','','','',false,true);
+d.add(89,76,'=214.5','<div class="nodetag">=214.5</div></span>&nbsp;&nbsp;Паўночна-заходняя група індыйскіх моў','=214.5','Паўночна-заходняя група індыйскіх моў','','','',false,true);
+d.add(90,89,'=214.52','<div class="nodetag">=214.52</div></span>&nbsp;&nbsp;Сіндхі','=214.52','Сіндхі','','','',false,true);
+d.add(91,89,'=214.58','<div class="nodetag">=214.58</div></span>&nbsp;&nbsp;Цыганскія мовы','=214.58','Цыганскія мовы','','','',false,true);
+d.add(92,76,'=214.6','<div class="nodetag">=214.6</div></span>&nbsp;&nbsp;Сінгальска-мальдыўская група','=214.6','Сінгальска-мальдыўская група','','','',false,true);
+d.add(93,71,'=22','<div class="nodetag">=22</div></span>&nbsp;&nbsp;Іранскія мовы','=22','Іранскія мовы','','','',false,true);
+d.add(94,93,'=221','<div class="nodetag">=221</div></span>&nbsp;&nbsp;Усходнеіранскія мовы','=221','Усходнеіранскія мовы','','','',false,true);
+d.add(95,94,'=221.31','<div class="nodetag">=221.31</div></span>&nbsp;&nbsp;Пушту (афганская мова)','=221.31','Пушту (афганская мова)','','','',false,true);
+d.add(96,93,'=222/=223','<div class="nodetag">=222/=223</div></span>&nbsp;&nbsp;Заходнеіранскія мовы','=222/=223','Заходнеіранскія мовы','','','',false,true);
+d.add(97,96,'=222.1','<div class="nodetag">=222.1</div></span>&nbsp;&nbsp;Персідская мова','=222.1','Персідская мова','','','',false,true);
+d.add(98,96,'=222.5','<div class="nodetag">=222.5</div></span>&nbsp;&nbsp;Курдская мова','=222.5','Курдская мова','','','',false,true);
+d.add(99,70,'=29','<div class="nodetag">=29</div></span>&nbsp;&nbsp;Мёртвыя індаеўрапейскія мовы (нідзе больш не пазначаныя)','=29','Мёртвыя індаеўрапейскія мовы (нідзе больш не пазначаныя)','','','',false,true);
+d.add(100,12,'=3','<div class="nodetag">=3</div></span>&nbsp;&nbsp;Мёртвыя мовы невядомага паходжання. Каўказскія мовы','=3','Мёртвыя мовы невядомага паходжання. Каўказскія мовы','','','',false,true);
+d.add(101,100,'=34','<div class="nodetag">=34</div></span>&nbsp;&nbsp;Мёртвыя мовы невядомага паходжання Міжземнамор\'я і Блізкага Ўсходу (за выключэннем семіцкіх)','=34','Мёртвыя мовы невядомага паходжання Міжземнамор\'я і Блізкага Ўсходу (за выключэннем семіцкіх)','','','',false,true);
+d.add(102,100,'=35','<div class="nodetag">=35</div></span>&nbsp;&nbsp;Каўказскія мовы','=35','Каўказскія мовы','','','',false,true);
+d.add(103,102,'=351','<div class="nodetag">=351</div></span>&nbsp;&nbsp;Паўночна-ўсходняя група каўказскіх моў','=351','Паўночна-ўсходняя група каўказскіх моў','','','',false,true);
+d.add(104,102,'=352','<div class="nodetag">=352</div></span>&nbsp;&nbsp;Паўночна-заходняя група каўказскіх моў','=352','Паўночна-заходняя група каўказскіх моў','','','',false,true);
+d.add(105,102,'=353','<div class="nodetag">=353</div></span>&nbsp;&nbsp;Паўднёвакаўказская (картвельская) моўная група','=353','Паўднёвакаўказская (картвельская) моўная група','','','',false,true);
+d.add(106,105,'=353.1','<div class="nodetag">=353.1</div></span>&nbsp;&nbsp;Грузінская','=353.1','Грузінская','','','',false,true);
+d.add(107,100,'=361','<div class="nodetag">=361</div></span>&nbsp;&nbsp;Баскская мова (саманазва Euskera, Euskara)','=361','Баскская мова (саманазва Euskera, Euskara)','','','',false,true);
+d.add(108,12,'=4','<div class="nodetag">=4</div></span>&nbsp;&nbsp;Афра-азіяцкія, ніла-сахарскія, конга-кардафанскія, кайсанскія мовы','=4','Афра-азіяцкія, ніла-сахарскія, конга-кардафанскія, кайсанскія мовы','','','',false,true);
+d.add(109,108,'=41','<div class="nodetag">=41</div></span>&nbsp;&nbsp;Афра-азіяцкія (хаміта-семіцкія) мовы','=41','Афра-азіяцкія (хаміта-семіцкія) мовы','','','',false,true);
+d.add(110,109,'=411','<div class="nodetag">=411</div></span>&nbsp;&nbsp;Семіцкія мовы','=411','Семіцкія мовы','','','',false,true);
+d.add(111,110,'=411.1','<div class="nodetag">=411.1</div></span>&nbsp;&nbsp;Паўночныя семіцкія мовы','=411.1','Паўночныя семіцкія мовы','','','',false,true);
+d.add(112,111,'=411.16','<div class="nodetag">=411.16</div></span>&nbsp;&nbsp;Яўрэйская мова','=411.16','Яўрэйская мова','','','',false,true);
+d.add(113,110,'=411.2','<div class="nodetag">=411.2</div></span>&nbsp;&nbsp;Паўднёва-заходнія семіцкія мовы. Арабская мова','=411.2','Паўднёва-заходнія семіцкія мовы. Арабская мова','','','',false,true);
+d.add(114,113,'=411.21','<div class="nodetag">=411.21</div></span>&nbsp;&nbsp;Арабская мова','=411.21','Арабская мова','','','',false,true);
+d.add(115,110,'=411.3','<div class="nodetag">=411.3</div></span>&nbsp;&nbsp;Паўднёва-ўсходнія семіцкія мовы','=411.3','Паўднёва-ўсходнія семіцкія мовы','','','',false,true);
+d.add(116,110,'=411.4','<div class="nodetag">=411.4</div></span>&nbsp;&nbsp;Эфіёпскія семіцкія мовы','=411.4','Эфіёпскія семіцкія мовы','','','',false,true);
+d.add(117,109,'=412','<div class="nodetag">=412</div></span>&nbsp;&nbsp;Егіпецка-копцкая мова','=412','Егіпецка-копцкая мова','','','',false,true);
+d.add(118,109,'=413','<div class="nodetag">=413</div></span>&nbsp;&nbsp;Берберскія мовы','=413','Берберскія мовы','','','',false,true);
+d.add(119,109,'=414','<div class="nodetag">=414</div></span>&nbsp;&nbsp;Чадскія мовы','=414','Чадскія мовы','','','',false,true);
+d.add(120,119,'=414.231','<div class="nodetag">=414.231</div></span>&nbsp;&nbsp;Хаўса','=414.231','Хаўса','','','',false,true);
+d.add(121,109,'=415','<div class="nodetag">=415</div></span>&nbsp;&nbsp;Кушыцкія мовы','=415','Кушыцкія мовы','','','',false,true);
+d.add(122,109,'=416','<div class="nodetag">=416</div></span>&nbsp;&nbsp;Амоцкія мовы','=416','Амоцкія мовы','','','',false,true);
+d.add(123,108,'=42','<div class="nodetag">=42</div></span>&nbsp;&nbsp;Ніла-сахарскія мовы','=42','Ніла-сахарскія мовы','','','',false,true);
+d.add(124,123,'=422','<div class="nodetag">=422</div></span>&nbsp;&nbsp;Сахарскія мовы','=422','Сахарскія мовы','','','',false,true);
+d.add(125,123,'=425','<div class="nodetag">=425</div></span>&nbsp;&nbsp;Кома','=425','Кома','','','',false,true);
+d.add(126,123,'=426','<div class="nodetag">=426</div></span>&nbsp;&nbsp;Шары-нільскія мовы','=426','Шары-нільскія мовы','','','',false,true);
+d.add(127,108,'=43','<div class="nodetag">=43</div></span>&nbsp;&nbsp;Конга-кардафанскія (нігера-кардафанскія) мовы','=43','Конга-кардафанскія (нігера-кардафанскія) мовы','','','',false,true);
+d.add(128,127,'=431','<div class="nodetag">=431</div></span>&nbsp;&nbsp;Кардафанскія мовы','=431','Кардафанскія мовы','','','',false,true);
+d.add(129,127,'=432','<div class="nodetag">=432</div></span>&nbsp;&nbsp;Нігера-кангалезскія мовы','=432','Нігера-кангалезскія мовы','','','',false,true);
+d.add(130,108,'=45','<div class="nodetag">=45</div></span>&nbsp;&nbsp;Кайсанскія мовы (палеаафрыканскія)','=45','Кайсанскія мовы (палеаафрыканскія)','','','',false,true);
+d.add(131,12,'=5','<div class="nodetag">=5</div></span>&nbsp;&nbsp;Урала-алтайскія, палеасібірская, эскімоска-алеуцкая, дравідская, кітайска-тыбецкія мовы. Японская мова. Карэйская мова','=5','Урала-алтайскія, палеасібірская, эскімоска-алеуцкая, дравідская, кітайска-тыбецкія мовы. Японская мова. Карэйская мова','','','',false,true);
+d.add(132,131,'=51','<div class="nodetag">=51</div></span>&nbsp;&nbsp;Урала-алтайскія мовы','=51','Урала-алтайскія мовы','','','',false,true);
+d.add(133,132,'=511','<div class="nodetag">=511</div></span>&nbsp;&nbsp;Уральскія мовы','=511','Уральскія мовы','','','',false,true);
+d.add(134,133,'=511.1','<div class="nodetag">=511.1</div></span>&nbsp;&nbsp;Фіна-вугорскія мовы','=511.1','Фіна-вугорскія мовы','','','',false,true);
+d.add(135,134,'=511.11','<div class="nodetag">=511.11</div></span>&nbsp;&nbsp;Фінская група моў','=511.11','Фінская група моў','','','',false,true);
+d.add(136,135,'=511.111','<div class="nodetag">=511.111</div></span>&nbsp;&nbsp;Фінская','=511.111','Фінская','','','',false,true);
+d.add(137,135,'=511.113','<div class="nodetag">=511.113</div></span>&nbsp;&nbsp;Эстонская','=511.113','Эстонская','','','',false,true);
+d.add(138,134,'=511.12','<div class="nodetag">=511.12</div></span>&nbsp;&nbsp;Саамскія / лапландскія мовы','=511.12','Саамскія / лапландскія мовы','','','',false,true);
+d.add(139,134,'=511.14','<div class="nodetag">=511.14</div></span>&nbsp;&nbsp;Вугорскія мовы','=511.14','Вугорскія мовы','','','',false,true);
+d.add(140,139,'=511.141','<div class="nodetag">=511.141</div></span>&nbsp;&nbsp;Венгерская (мадзьярская) мова','=511.141','Венгерская (мадзьярская) мова','','','',false,true);
+d.add(141,133,'=511.2','<div class="nodetag">=511.2</div></span>&nbsp;&nbsp;Самадыйскія мовы','=511.2','Самадыйскія мовы','','','',false,true);
+d.add(142,132,'=512','<div class="nodetag">=512</div></span>&nbsp;&nbsp;Алтайскія мовы','=512','Алтайскія мовы','','','',false,true);
+d.add(143,142,'=512.1','<div class="nodetag">=512.1</div></span>&nbsp;&nbsp;Цюркскія мовы','=512.1','Цюркскія мовы','','','',false,true);
+d.add(144,143,'=512.12','<div class="nodetag">=512.12</div></span>&nbsp;&nbsp;Цэнтральная група цюркскіх моў','=512.12','Цэнтральная група цюркскіх моў','','','',false,true);
+d.add(145,144,'=512.122','<div class="nodetag">=512.122</div></span>&nbsp;&nbsp;Казахская мова','=512.122','Казахская мова','','','',false,true);
+d.add(146,143,'=512.13','<div class="nodetag">=512.13</div></span>&nbsp;&nbsp;Усходняя група цюркскіх моў (саманазва Karluk)','=512.13','Усходняя група цюркскіх моў (саманазва Karluk)','','','',false,true);
+d.add(147,146,'=512.133','<div class="nodetag">=512.133</div></span>&nbsp;&nbsp;Узбекская мова','=512.133','Узбекская мова','','','',false,true);
+d.add(148,143,'=512.14','<div class="nodetag">=512.14</div></span>&nbsp;&nbsp;Заходняя група цюркскіх моў','=512.14','Заходняя група цюркскіх моў','','','',false,true);
+d.add(149,143,'=512.15','<div class="nodetag">=512.15</div></span>&nbsp;&nbsp;Паўночная група цюркскіх моў','=512.15','Паўночная група цюркскіх моў','','','',false,true);
+d.add(150,149,'=512.154','<div class="nodetag">=512.154</div></span>&nbsp;&nbsp;Кіргізская (кыргызская) мова','=512.154','Кіргізская (кыргызская) мова','','','',false,true);
+d.add(151,143,'=512.16','<div class="nodetag">=512.16</div></span>&nbsp;&nbsp;Паўднёвая група цюркскіх моў','=512.16','Паўднёвая група цюркскіх моў','','','',false,true);
+d.add(152,151,'=512.161','<div class="nodetag">=512.161</div></span>&nbsp;&nbsp;Турэцкая (асманская) мова','=512.161','Турэцкая (асманская) мова','','','',false,true);
+d.add(153,151,'=512.162','<div class="nodetag">=512.162</div></span>&nbsp;&nbsp;Азербайджанская мова','=512.162','Азербайджанская мова','','','',false,true);
+d.add(154,151,'=512.164','<div class="nodetag">=512.164</div></span>&nbsp;&nbsp;Туркменская мова','=512.164','Туркменская мова','','','',false,true);
+d.add(155,142,'=512.2','<div class="nodetag">=512.2</div></span>&nbsp;&nbsp;Тунгускія мовы','=512.2','Тунгускія мовы','','','',false,true);
+d.add(156,142,'=512.3','<div class="nodetag">=512.3</div></span>&nbsp;&nbsp;Мангольскія мовы','=512.3','Мангольскія мовы','','','',false,true);
+d.add(157,131,'=521','<div class="nodetag">=521</div></span>&nbsp;&nbsp;Японская мова','=521','Японская мова','','','',false,true);
+d.add(158,131,'=531','<div class="nodetag">=531</div></span>&nbsp;&nbsp;Карэйская мова','=531','Карэйская мова','','','',false,true);
+d.add(159,131,'=541','<div class="nodetag">=541</div></span>&nbsp;&nbsp;Айнская мова','=541','Айнская мова','','','',false,true);
+d.add(160,131,'=55','<div class="nodetag">=55</div></span>&nbsp;&nbsp;Палеасібірскія мовы','=55','Палеасібірскія мовы','','','',false,true);
+d.add(161,131,'=56','<div class="nodetag">=56</div></span>&nbsp;&nbsp;Эскімоска-алеуцкія мовы','=56','Эскімоска-алеуцкія мовы','','','',false,true);
+d.add(162,131,'=58','<div class="nodetag">=58</div></span>&nbsp;&nbsp;Кітайска-тыбецкія мовы','=58','Кітайска-тыбецкія мовы','','','',false,true);
+d.add(163,162,'=581','<div class="nodetag">=581</div></span>&nbsp;&nbsp;Кітайскія мовы','=581','Кітайскія мовы','','','',false,true);
+d.add(164,162,'=582','<div class="nodetag">=582</div></span>&nbsp;&nbsp;Кам-тайскія мовы','=582','Кам-тайскія мовы','','','',false,true);
+d.add(165,162,'=583','<div class="nodetag">=583</div></span>&nbsp;&nbsp;Мовы мяо-яо','=583','Мовы мяо-яо','','','',false,true);
+d.add(166,162,'=584','<div class="nodetag">=584</div></span>&nbsp;&nbsp;Тыбета-бірманскія мовы','=584','Тыбета-бірманскія мовы','','','',false,true);
+d.add(167,12,'=6','<div class="nodetag">=6</div></span>&nbsp;&nbsp;Аўстраазіяцкія мовы. Аўстранезійскія мовы','=6','Аўстраазіяцкія мовы. Аўстранезійскія мовы','','','',false,true);
+d.add(168,167,'=61','<div class="nodetag">=61</div></span>&nbsp;&nbsp;Аўстраазіяцкія мовы','=61','Аўстраазіяцкія мовы','','','',false,true);
+d.add(169,168,'=611','<div class="nodetag">=611</div></span>&nbsp;&nbsp;Малакскія мовы','=611','Малакскія мовы','','','',false,true);
+d.add(170,168,'=612','<div class="nodetag">=612</div></span>&nbsp;&nbsp;Мон-кхмерскія мовы','=612','Мон-кхмерскія мовы','','','',false,true);
+d.add(171,170,'=612.4','<div class="nodetag">=612.4</div></span>&nbsp;&nbsp;Камбаджыйская мова (кхмерская)','=612.4','Камбаджыйская мова (кхмерская)','','','',false,true);
+d.add(172,170,'=612.91','<div class="nodetag">=612.91</div></span>&nbsp;&nbsp;В\'етнамская мова','=612.91','В\'етнамская мова','','','',false,true);
+d.add(173,168,'=613','<div class="nodetag">=613</div></span>&nbsp;&nbsp;Мовы мунда','=613','Мовы мунда','','','',false,true);
+d.add(174,168,'=614','<div class="nodetag">=614</div></span>&nbsp;&nbsp;Нікабарская група','=614','Нікабарская група','','','',false,true);
+d.add(175,167,'=62','<div class="nodetag">=62</div></span>&nbsp;&nbsp;Аўстранезійскія мовы','=62','Аўстранезійскія мовы','','','',false,true);
+d.add(176,175,'=621','<div class="nodetag">=621</div></span>&nbsp;&nbsp;Малайска-палінезійскія мовы','=621','Малайска-палінезійскія мовы','','','',false,true);
+d.add(177,176,'=621.251','<div class="nodetag">=621.251</div></span>&nbsp;&nbsp;Малайскія мовы (інданезійская мова; малайская мова)','=621.251','Малайскія мовы (інданезійская мова; малайская мова)','','','',false,true);
+d.add(178,175,'=622','<div class="nodetag">=622</div></span>&nbsp;&nbsp;Мовы Акіяніі','=622','Мовы Акіяніі','','','',false,true);
+d.add(179,12,'=7','<div class="nodetag">=7</div></span>&nbsp;&nbsp;Інда-ціхаакіянскія (не аўстранезійскія). Аўстралійскія мовы','=7','Інда-ціхаакіянскія (не аўстранезійскія). Аўстралійскія мовы','','','',false,true);
+d.add(180,179,'=71','<div class="nodetag">=71</div></span>&nbsp;&nbsp;Інда-ціхаакіянскія (не аўстранезійскія) мовы','=71','Інда-ціхаакіянскія (не аўстранезійскія) мовы','','','',false,true);
+d.add(181,180,'=713','<div class="nodetag">=713</div></span>&nbsp;&nbsp;Новагвінейскія (папуаскія) мовы','=713','Новагвінейскія (папуаскія) мовы','','','',false,true);
+d.add(182,180,'=714','<div class="nodetag">=714</div></span>&nbsp;&nbsp;Паўночна-ўсходняя новагвінейская мова (маданг)','=714','Паўночна-ўсходняя новагвінейская мова (маданг)','','','',false,true);
+d.add(183,180,'=715','<div class="nodetag">=715</div></span>&nbsp;&nbsp;Мовы захаду Новай Гвінеі','=715','Мовы захаду Новай Гвінеі','','','',false,true);
+d.add(184,180,'=716','<div class="nodetag">=716</div></span>&nbsp;&nbsp;Бугэнвільскія мовы','=716','Бугэнвільскія мовы','','','',false,true);
+d.add(185,180,'=718','<div class="nodetag">=718</div></span>&nbsp;&nbsp;Тасманійскія мовы','=718','Тасманійскія мовы','','','',false,true);
+d.add(186,180,'=719','<div class="nodetag">=719</div></span>&nbsp;&nbsp;Іншыя інда-ціхаакіянскія мовы','=719','Іншыя інда-ціхаакіянскія мовы','','','',false,true);
+d.add(187,179,'=72','<div class="nodetag">=72</div></span>&nbsp;&nbsp;Аўстралійскія мовы','=72','Аўстралійскія мовы','','','',false,true);
+d.add(188,187,'=721','<div class="nodetag">=721</div></span>&nbsp;&nbsp;Пама-марская моўная група','=721','Пама-марская моўная група','','','',false,true);
+d.add(189,187,'=722','<div class="nodetag">=722</div></span>&nbsp;&nbsp;Пама-ньюнганская група','=722','Пама-ньюнганская група','','','',false,true);
+d.add(190,187,'=729','<div class="nodetag">=729</div></span>&nbsp;&nbsp;Іншыя аўстралійскія мовы','=729','Іншыя аўстралійскія мовы','','','',false,true);
+d.add(191,12,'=8','<div class="nodetag">=8</div></span>&nbsp;&nbsp;Мовы індзейцаў Амерыкі (амерыканскіх індзейцаў)','=8','Мовы індзейцаў Амерыкі (амерыканскіх індзейцаў)','','','',false,true);
+d.add(192,191,'=81','<div class="nodetag">=81</div></span>&nbsp;&nbsp;Мясцовыя мовы Канады, ЗША і поўначы Цэнтральнай Мексікі','=81','Мясцовыя мовы Канады, ЗША і поўначы Цэнтральнай Мексікі','','','',false,true);
+d.add(193,191,'=82','<div class="nodetag">=82</div></span>&nbsp;&nbsp;Мясцовыя мовы заходняга ўзбярэжжа Паўночнай Амерыкі, Мексікі і Юкатана','=82','Мясцовыя мовы заходняга ўзбярэжжа Паўночнай Амерыкі, Мексікі і Юкатана','','','',false,true);
+d.add(194,193,'=821.24','<div class="nodetag">=821.24</div></span>&nbsp;&nbsp;Мовы міхе-сокэ','=821.24','Мовы міхе-сокэ','','','',false,true);
+d.add(195,193,'=822.21','<div class="nodetag">=822.21</div></span>&nbsp;&nbsp;Наўатль','=822.21','Наўатль','','','',false,true);
+d.add(196,193,'=823.7','<div class="nodetag">=823.7</div></span>&nbsp;&nbsp;Сапатэкскія мовы','=823.7','Сапатэкскія мовы','','','',false,true);
+d.add(197,191,'=84/=88','<div class="nodetag">=84/=88</div></span>&nbsp;&nbsp;Мовы індзейцаў Цэнтральнай і Паўднёвай Амерыкі','=84/=88','Мовы індзейцаў Цэнтральнай і Паўднёвай Амерыкі','','','',false,true);
+d.add(198,197,'=84','<div class="nodetag">=84</div></span>&nbsp;&nbsp;Ге-пана-карыбскія мовы. Макракарыбскія мовы','=84','Ге-пана-карыбскія мовы. Макракарыбскія мовы','','','',false,true);
+d.add(199,198,'=842','<div class="nodetag">=842</div></span>&nbsp;&nbsp;Ге-пана-карыбскія мовы','=842','Ге-пана-карыбскія мовы','','','',false,true);
+d.add(200,198,'=845','<div class="nodetag">=845</div></span>&nbsp;&nbsp;Макрачыбчанскія мовы','=845','Макрачыбчанскія мовы','','','',false,true);
+d.add(201,197,'=85','<div class="nodetag">=85</div></span>&nbsp;&nbsp;Андскія мовы. Экватарыяльныя мовы','=85','Андскія мовы. Экватарыяльныя мовы','','','',false,true);
+d.add(202,201,'=852','<div class="nodetag">=852</div></span>&nbsp;&nbsp;Андскія мовы','=852','Андскія мовы','','','',false,true);
+d.add(203,202,'=852.11','<div class="nodetag">=852.11</div></span>&nbsp;&nbsp;Мова аймара','=852.11','Мова аймара','','','',false,true);
+d.add(204,202,'=852.2','<div class="nodetag">=852.2</div></span>&nbsp;&nbsp;Кечуанскія мовы','=852.2','Кечуанскія мовы','','','',false,true);
+d.add(205,202,'=852.5','<div class="nodetag">=852.5</div></span>&nbsp;&nbsp;Араўканскія мовы','=852.5','Араўканскія мовы','','','',false,true);
+d.add(206,205,'=852.51','<div class="nodetag">=852.51</div></span>&nbsp;&nbsp;Мова мапучэ (мапудунгу)','=852.51','Мова мапучэ (мапудунгу)','','','',false,true);
+d.add(207,201,'=855','<div class="nodetag">=855</div></span>&nbsp;&nbsp;Экватарыяльныя мовы','=855','Экватарыяльныя мовы','','','',false,true);
+d.add(208,207,'=855.21','<div class="nodetag">=855.21</div></span>&nbsp;&nbsp;Мовы гуарані','=855.21','Мовы гуарані','','','',false,true);
+d.add(209,197,'=86','<div class="nodetag">=86</div></span>&nbsp;&nbsp;Мовы чака. Мовы Патагоні і Агністай Зямлі','=86','Мовы чака. Мовы Патагоні і Агністай Зямлі','','','',false,true);
+d.add(210,209,'=862','<div class="nodetag">=862</div></span>&nbsp;&nbsp;Мовы чака','=862','Мовы чака','','','',false,true);
+d.add(211,209,'=865','<div class="nodetag">=865</div></span>&nbsp;&nbsp;Мовы Патагоніі і Агністай Зямлі','=865','Мовы Патагоніі і Агністай Зямлі','','','',false,true);
+d.add(212,197,'=88','<div class="nodetag">=88</div></span>&nbsp;&nbsp;Асобныя, некласіфікаваныя мовы індзейцаў у Цэнтральнай і Паўднёвай Амерыцы','=88','Асобныя, некласіфікаваныя мовы індзейцаў у Цэнтральнай і Паўднёвай Амерыцы','','','',false,true);
+d.add(213,11,'=9','<div class="nodetag">=9</div></span>&nbsp;&nbsp;Штучныя мовы','=9','Штучныя мовы','','','',false,true);
+d.add(214,213,'=92','<div class="nodetag">=92</div></span>&nbsp;&nbsp;Штучныя мовы для зносінаў паміж людзьмі','=92','Штучныя мовы для зносінаў паміж людзьмі','','','',false,true);
+d.add(215,214,'=922','<div class="nodetag">=922</div></span>&nbsp;&nbsp;Эсперанта','=922','Эсперанта','','','',false,true);
+d.add(216,213,'=93','<div class="nodetag">=93</div></span>&nbsp;&nbsp;Штучныя мовы для кіравання машынамі. Мовы праграмавання. Камп\'ютэрныя мовы','=93','Штучныя мовы для кіравання машынамі. Мовы праграмавання. Камп\'ютэрныя мовы','','','',false,true);
+d.add(217,0,'(0...)','<div class="nodetag">(0...)</div></span>&nbsp;&nbsp;Табліца Id - Агульныя вызначальнікі формаў','(0...)','Табліца Id - Агульныя вызначальнікі формаў','','','',false,true);
+d.add(218,217,'(0.02/.08)','<div class="nodetag">(0.02/.08)</div></span>&nbsp;&nbsp;Спецыяльны дадатковы падраздзел для формы дакументаў','(0.02/.08)','Спецыяльны дадатковы падраздзел для формы дакументаў','','','',false,true);
+d.add(219,218,'(0.02)','<div class="nodetag">(0.02)</div></span>&nbsp;&nbsp;Дакументы ў залежнасці ад фізічнай, знешняй формы выгляду, падачы','(0.02)','Дакументы ў залежнасці ад фізічнай, знешняй формы выгляду, падачы','','','',false,true);
+d.add(220,218,'(0.03)','<div class="nodetag">(0.03)</div></span>&nbsp;&nbsp;Дакументы ў залежнасці ад метаду вырабу або выпуску','(0.03)','Дакументы ў залежнасці ад метаду вырабу або выпуску','','','',false,true);
+d.add(221,220,'(0.032)','<div class="nodetag">(0.032)</div></span>&nbsp;&nbsp;Рукапісныя дакументы (аўтограф, уласнаручныя копіі). Рукапісы. Выяўленчыя дакументы (малюнкі, карціны)','(0.032)','Рукапісныя дакументы (аўтограф, уласнаручныя копіі). Рукапісы. Выяўленчыя дакументы (малюнкі, карціны)','','','',false,true);
+d.add(222,220,'(0.034)','<div class="nodetag">(0.034)</div></span>&nbsp;&nbsp;Машынасчытвальныя дакументы','(0.034)','Машынасчытвальныя дакументы','','','',false,true);
+d.add(223,218,'(0.04)','<div class="nodetag">(0.04)</div></span>&nbsp;&nbsp;Дакументы ў залежнасці ад стадыі вырабу','(0.04)','Дакументы ў залежнасці ад стадыі вырабу','','','',false,true);
+d.add(224,218,'(0.05)','<div class="nodetag">(0.05)</div></span>&nbsp;&nbsp;Дакументы па катэгорыях меркаваных спажыўцоў','(0.05)','Дакументы па катэгорыях меркаваных спажыўцоў','','','',false,true);
+d.add(225,218,'(0.06)','<div class="nodetag">(0.06)</div></span>&nbsp;&nbsp;Дакументы паводле ўзроўню прэзентацыйнасці і даступнасці','(0.06)','Дакументы паводле ўзроўню прэзентацыйнасці і даступнасці','','','',false,true);
+d.add(226,218,'(0.07)','<div class="nodetag">(0.07)</div></span>&nbsp;&nbsp;Дадатковыя матэрыялы, якія суправаджаюць дакументы','(0.07)','Дадатковыя матэрыялы, якія суправаджаюць дакументы','','','',false,true);
+d.add(227,218,'(0.08)','<div class="nodetag">(0.08)</div></span>&nbsp;&nbsp;Дадаткі або часткі дакументаў, выпушчаныя асобна','(0.08)','Дадаткі або часткі дакументаў, выпушчаныя асобна','','','',false,true);
+d.add(228,217,'(01)','<div class="nodetag">(01)</div></span>&nbsp;&nbsp;Кнігапісы','(01)','Кнігапісы','','','',false,true);
+d.add(229,217,'(02)','<div class="nodetag">(02)</div></span>&nbsp;&nbsp;Кнігі ў цэлым','(02)','Кнігі ў цэлым','','','',false,true);
+d.add(230,217,'(03)','<div class="nodetag">(03)</div></span>&nbsp;&nbsp;Даведкавыя выданні','(03)','Даведкавыя выданні','','','',false,true);
+d.add(231,230,'(031)','<div class="nodetag">(031)</div></span>&nbsp;&nbsp;Энцыклапедыі','(031)','Энцыклапедыі','','','',false,true);
+d.add(232,230,'(035)','<div class="nodetag">(035)</div></span>&nbsp;&nbsp;Даведнікі. Кіраўніцтвы','(035)','Даведнікі. Кіраўніцтвы','','','',false,true);
+d.add(233,230,'(036)','<div class="nodetag">(036)</div></span>&nbsp;&nbsp;Даведнікі з практычнай і апісальнай інфармацыяй','(036)','Даведнікі з практычнай і апісальнай інфармацыяй','','','',false,true);
+d.add(234,230,'(038)','<div class="nodetag">(038)</div></span>&nbsp;&nbsp;Слоўнікі','(038)','Слоўнікі','','','',false,true);
+d.add(235,217,'(04)','<div class="nodetag">(04)</div></span>&nbsp;&nbsp;Асобныя выданні. Несерыйныя выданні','(04)','Асобныя выданні. Несерыйныя выданні','','','',false,true);
+d.add(236,235,'(041)','<div class="nodetag">(041)</div></span>&nbsp;&nbsp;Памфлеты. Брашуры','(041)','Памфлеты. Брашуры','','','',false,true);
+d.add(237,235,'(042)','<div class="nodetag">(042)</div></span>&nbsp;&nbsp;Звароты. Лекцыі. Прамовы','(042)','Звароты. Лекцыі. Прамовы','','','',false,true);
+d.add(238,235,'(043)','<div class="nodetag">(043)</div></span>&nbsp;&nbsp;Тэзы. Дысертацыі','(043)','Тэзы. Дысертацыі','','','',false,true);
+d.add(239,235,'(044)','<div class="nodetag">(044)</div></span>&nbsp;&nbsp;Асабістыя дакументы. Перапіска. Лісты. Допісы. Цыркуляры','(044)','Асабістыя дакументы. Перапіска. Лісты. Допісы. Цыркуляры','','','',false,true);
+d.add(240,235,'(045)','<div class="nodetag">(045)</div></span>&nbsp;&nbsp;Артыкулы для публікацыі ў перыядычных выданнях','(045)','Артыкулы для публікацыі ў перыядычных выданнях','','','',false,true);
+d.add(241,235,'(046)','<div class="nodetag">(046)</div></span>&nbsp;&nbsp;Газетныя артыкулы','(046)','Газетныя артыкулы','','','',false,true);
+d.add(242,235,'(047)','<div class="nodetag">(047)</div></span>&nbsp;&nbsp;Паведамленні. Нататкі. Навіны','(047)','Паведамленні. Нататкі. Навіны','','','',false,true);
+d.add(243,235,'(048)','<div class="nodetag">(048)</div></span>&nbsp;&nbsp;Бібліяграфічныя апісанні. Анатацыі. Рэфераты. Рэзюмэ. Агляды','(048)','Бібліяграфічныя апісанні. Анатацыі. Рэфераты. Рэзюмэ. Агляды','','','',false,true);
+d.add(244,235,'(049)','<div class="nodetag">(049)</div></span>&nbsp;&nbsp;Іншыя несерыйныя выданні','(049)','Іншыя несерыйныя выданні','','','',false,true);
+d.add(245,217,'(05)','<div class="nodetag">(05)</div></span>&nbsp;&nbsp;Серыйныя выданні. Перыёдыка','(05)','Серыйныя выданні. Перыёдыка','','','',false,true);
+d.add(246,245,'(051)','<div class="nodetag">(051)</div></span>&nbsp;&nbsp;Перыядычныя выданні (у строгім сэнсе)','(051)','Перыядычныя выданні (у строгім сэнсе)','','','',false,true);
+d.add(247,245,'(054)','<div class="nodetag">(054)</div></span>&nbsp;&nbsp;Газеты','(054)','Газеты','','','',false,true);
+d.add(248,245,'(055)','<div class="nodetag">(055)</div></span>&nbsp;&nbsp;Бюлетэні. Навіны. Інфармацыйныя бюлетэні','(055)','Бюлетэні. Навіны. Інфармацыйныя бюлетэні','','','',false,true);
+d.add(249,245,'(058)','<div class="nodetag">(058)</div></span>&nbsp;&nbsp;Штогоднікі. Перыядычныя даведнікі','(058)','Штогоднікі. Перыядычныя даведнікі','','','',false,true);
+d.add(250,245,'(059)','<div class="nodetag">(059)</div></span>&nbsp;&nbsp;Альманахі. Календары (усіх відаў)','(059)','Альманахі. Календары (усіх відаў)','','','',false,true);
+d.add(251,217,'(06)','<div class="nodetag">(06)</div></span>&nbsp;&nbsp;Выданні ўстаноў і арганізацый','(06)','Выданні ўстаноў і арганізацый','','','',false,true);
+d.add(252,217,'(07)','<div class="nodetag">(07)</div></span>&nbsp;&nbsp;Вучэбныя дапаможнікі і кіраўніцтвы. Дапаможнікі для выкладання і практычнай падрыхтоўкі','(07)','Вучэбныя дапаможнікі і кіраўніцтвы. Дапаможнікі для выкладання і практычнай падрыхтоўкі','','','',false,true);
+d.add(253,252,'(072)','<div class="nodetag">(072)</div></span>&nbsp;&nbsp;Дапаможныя матэрыялы для навучання. Метадычныя дапаможнікі для настаўнікаў і выкладчыкаў','(072)','Дапаможныя матэрыялы для навучання. Метадычныя дапаможнікі для настаўнікаў і выкладчыкаў','','','',false,true);
+d.add(254,252,'(073)','<div class="nodetag">(073)</div></span>&nbsp;&nbsp;Вучэбныя праграмы і планы','(073)','Вучэбныя праграмы і планы','','','',false,true);
+d.add(255,252,'(075)','<div class="nodetag">(075)</div></span>&nbsp;&nbsp;Падручнікі і вучэбныя дапаможнікі. Школьныя падручнікі. Падручнікі для вышэйшых і сярэдніх спецыяльных вучэбных устаноў','(075)','Падручнікі і вучэбныя дапаможнікі. Школьныя падручнікі. Падручнікі для вышэйшых і сярэдніх спецыяльных вучэбных устаноў','','','',false,true);
+d.add(256,252,'(076)','<div class="nodetag">(076)</div></span>&nbsp;&nbsp;Дапаможнікі і кіраўніцтвы для лабараторных і іншых практычных заняткаў і навучання','(076)','Дапаможнікі і кіраўніцтвы для лабараторных і іншых практычных заняткаў і навучання','','','',false,true);
+d.add(257,252,'(078)','<div class="nodetag">(078)</div></span>&nbsp;&nbsp;Іншыя вучэбныя дапаможнікі і матэрыялы','(078)','Іншыя вучэбныя дапаможнікі і матэрыялы','','','',false,true);
+d.add(258,252,'(079)','<div class="nodetag">(079)</div></span>&nbsp;&nbsp;Дакументы, звязаныя з конкурсамі, выпрабаваннямі, іспытамі, спаборніцтвамі і г.д.','(079)','Дакументы, звязаныя з конкурсамі, выпрабаваннямі, іспытамі, спаборніцтвамі і г.д.','','','',false,true);
+d.add(259,217,'(08)','<div class="nodetag">(08)</div></span>&nbsp;&nbsp;Зборнікі і паліграфічныя выданні. Формы. Спісы. Ілюстрацыі. Дзелавыя выданні (бізнес-выданні)','(08)','Зборнікі і паліграфічныя выданні. Формы. Спісы. Ілюстрацыі. Дзелавыя выданні (бізнес-выданні)','','','',false,true);
+d.add(260,259,'(081)','<div class="nodetag">(081)</div></span>&nbsp;&nbsp;Індывідуальныя паліграфічныя выданні. Зборнікі твораў аднаго аўтара','(081)','Індывідуальныя паліграфічныя выданні. Зборнікі твораў аднаго аўтара','','','',false,true);
+d.add(261,259,'(082)','<div class="nodetag">(082)</div></span>&nbsp;&nbsp;Калектыўныя паліграфічныя выданні. Зборнікі твораў некалькіх аўтараў','(082)','Калектыўныя паліграфічныя выданні. Зборнікі твораў некалькіх аўтараў','','','',false,true);
+d.add(262,259,'(083)','<div class="nodetag">(083)</div></span>&nbsp;&nbsp;Спецыяльныя віды тэхнічных і нарматыўных дакументаў. Табліцы. Спісы і г.д.','(083)','Спецыяльныя віды тэхнічных і нарматыўных дакументаў. Табліцы. Спісы і г.д.','','','',false,true);
+d.add(263,259,'(084)','<div class="nodetag">(084)</div></span>&nbsp;&nbsp;Малюнкі. Выяўленчыя і графічныя дакументы','(084)','Малюнкі. Выяўленчыя і графічныя дакументы','','','',false,true);
+d.add(264,259,'(085)','<div class="nodetag">(085)</div></span>&nbsp;&nbsp;Выданні прадпрыемстваў і фірмаў. Гандлёвая інфармацыя і рэкламныя дакументы','(085)','Выданні прадпрыемстваў і фірмаў. Гандлёвая інфармацыя і рэкламныя дакументы','','','',false,true);
+d.add(265,259,'(086)','<div class="nodetag">(086)</div></span>&nbsp;&nbsp;Трохмерныя дакументы. Аўдыёдакументы і аўдыёвізуальныя дакументы','(086)','Трохмерныя дакументы. Аўдыёдакументы і аўдыёвізуальныя дакументы','','','',false,true);
+d.add(266,265,'(086.3)','<div class="nodetag">(086.3)</div></span>&nbsp;&nbsp;Экзэмпляры, матэрыяльныя аб\'екты як дакументы','(086.3)','Экзэмпляры, матэрыяльныя аб\'екты як дакументы','','','',false,true);
+d.add(267,265,'(086.7)','<div class="nodetag">(086.7)</div></span>&nbsp;&nbsp;Аўдыёзапісы. Гукапісы','(086.7)','Аўдыёзапісы. Гукапісы','','','',false,true);
+d.add(268,265,'(086.8)','<div class="nodetag">(086.8)</div></span>&nbsp;&nbsp;Відэазапісы','(086.8)','Відэазапісы','','','',false,true);
+d.add(269,259,'(088)','<div class="nodetag">(088)</div></span>&nbsp;&nbsp;Пасведчанні. Дакументы спецыяльнага прызначэння','(088)','Пасведчанні. Дакументы спецыяльнага прызначэння','','','',false,true);
+d.add(270,217,'(09)','<div class="nodetag">(09)</div></span>&nbsp;&nbsp;Выданні ў гістарычнай форме. Юрыдычныя і гістарычныя крыніцы','(09)','Выданні ў гістарычнай форме. Юрыдычныя і гістарычныя крыніцы','','','',false,true);
+d.add(271,270,'(091)','<div class="nodetag">(091)</div></span>&nbsp;&nbsp;Прэзентацыя матэрыялу строга ў гістарычным, храналагічным аспекце','(091)','Прэзентацыя матэрыялу строга ў гістарычным, храналагічным аспекце','','','',false,true);
+d.add(272,270,'(092)','<div class="nodetag">(092)</div></span>&nbsp;&nbsp;Прадстаўленне біяграфіі','(092)','Прадстаўленне біяграфіі','','','',false,true);
+d.add(273,270,'(093)','<div class="nodetag">(093)</div></span>&nbsp;&nbsp;Гістарычныя крыніцы','(093)','Гістарычныя крыніцы','','','',false,true);
+d.add(274,270,'(094)','<div class="nodetag">(094)</div></span>&nbsp;&nbsp;Юрыдычныя крыніцы. Прававыя дакументы','(094)','Юрыдычныя крыніцы. Прававыя дакументы','','','',false,true);
+d.add(275,0,'(1/9)','<div class="nodetag">(1/9)</div></span>&nbsp;&nbsp;Агульныя вызначальнікі месца. Табліца 1e','(1/9)','Агульныя вызначальнікі месца. Табліца 1e','','','',false,true);
+d.add(276,275,'(1)','<div class="nodetag">(1)</div></span>&nbsp;&nbsp;Месца і прастора наогул. Усталяванне месцазнаходжання, арыентаванне','(1)','Месца і прастора наогул. Усталяванне месцазнаходжання, арыентаванне','','','',false,true);
+d.add(277,276,'(100)','<div class="nodetag">(100)</div></span>&nbsp;&nbsp;Універсум. Свет. Міжнародны. Усе краіны ў цэлым','(100)','Універсум. Свет. Міжнародны. Усе краіны ў цэлым','','','',false,true);
+d.add(278,275,'(1-0/-9)','<div class="nodetag">(1-0/-9)</div></span>&nbsp;&nbsp;Спецыяльныя вызначальнікі для межаў і разнастайных прасторавых дзяленняў','(1-0/-9)','Спецыяльныя вызначальнікі для межаў і разнастайных прасторавых дзяленняў','','','',false,true);
+d.add(279,278,'(1-0)','<div class="nodetag">(1-0)</div></span>&nbsp;&nbsp;Зоны','(1-0)','Зоны','','','',false,true);
+d.add(280,278,'(1-1)','<div class="nodetag">(1-1)</div></span>&nbsp;&nbsp;Арыентаванне. Бакі свету. Адноснае месцазнаходжанне','(1-1)','Арыентаванне. Бакі свету. Адноснае месцазнаходжанне','','','',false,true);
+d.add(281,280,'(1-11)','<div class="nodetag">(1-11)</div></span>&nbsp;&nbsp;Усход. Усходні','(1-11)','Усход. Усходні','','','',false,true);
+d.add(282,280,'(1-12)','<div class="nodetag">(1-12)</div></span>&nbsp;&nbsp;Паўднёвы ўсход. Паўднёва-ўсходні','(1-12)','Паўднёвы ўсход. Паўднёва-ўсходні','','','',false,true);
+d.add(283,280,'(1-13)','<div class="nodetag">(1-13)</div></span>&nbsp;&nbsp;Поўдзень. Паўднёвы','(1-13)','Поўдзень. Паўднёвы','','','',false,true);
+d.add(284,280,'(1-14)','<div class="nodetag">(1-14)</div></span>&nbsp;&nbsp;Паўднёвы захад. Паўднёва-заходні','(1-14)','Паўднёвы захад. Паўднёва-заходні','','','',false,true);
+d.add(285,280,'(1-15)','<div class="nodetag">(1-15)</div></span>&nbsp;&nbsp;Захад. Заходні','(1-15)','Захад. Заходні','','','',false,true);
+d.add(286,280,'(1-16)','<div class="nodetag">(1-16)</div></span>&nbsp;&nbsp;Паўночны захад. Паўночна-заходні','(1-16)','Паўночны захад. Паўночна-заходні','','','',false,true);
+d.add(287,280,'(1-17)','<div class="nodetag">(1-17)</div></span>&nbsp;&nbsp;Поўнач. Паўночны','(1-17)','Поўнач. Паўночны','','','',false,true);
+d.add(288,280,'(1-18)','<div class="nodetag">(1-18)</div></span>&nbsp;&nbsp;Паўночны ўсход. Паўночна-ўсходні','(1-18)','Паўночны ўсход. Паўночна-ўсходні','','','',false,true);
+d.add(289,280,'(1-19)','<div class="nodetag">(1-19)</div></span>&nbsp;&nbsp;Адноснае месцазнаходжанне, накірунак і арыентаванне','(1-19)','Адноснае месцазнаходжанне, накірунак і арыентаванне','','','',false,true);
+d.add(290,278,'(1-2/-4)','<div class="nodetag">(1-2/-4)</div></span>&nbsp;&nbsp;Палітычна-адміністрацыйныя адзінкі','(1-2/-4)','Палітычна-адміністрацыйныя адзінкі','','','',false,true);
+d.add(291,290,'(1-2)','<div class="nodetag">(1-2)</div></span>&nbsp;&nbsp;Ніжэйшыя адміністрацыйныя адзінкі','(1-2)','Ніжэйшыя адміністрацыйныя адзінкі','','','',false,true);
+d.add(292,291,'(1-24)','<div class="nodetag">(1-24)</div></span>&nbsp;&nbsp;Мясцовыя адміністрацыйныя адзінкі','(1-24)','Мясцовыя адміністрацыйныя адзінкі','','','',false,true);
+d.add(293,291,'(1-25)','<div class="nodetag">(1-25)</div></span>&nbsp;&nbsp;Сталіцы. Метраполіі','(1-25)','Сталіцы. Метраполіі','','','',false,true);
+d.add(294,290,'(1-3)','<div class="nodetag">(1-3)</div></span>&nbsp;&nbsp;Больш буйныя адзінкі ў дзяржаве','(1-3)','Больш буйныя адзінкі ў дзяржаве','','','',false,true);
+d.add(295,294,'(1-32)','<div class="nodetag">(1-32)</div></span>&nbsp;&nbsp;Адміністрацыйныя адзінкі высокага ўзроўню. Правінцыі','(1-32)','Адміністрацыйныя адзінкі высокага ўзроўню. Правінцыі','','','',false,true);
+d.add(296,294,'(1-35)','<div class="nodetag">(1-35)</div></span>&nbsp;&nbsp;Адміністрацыйныя адзінкі сярэдняга ўзроўню','(1-35)','Адміністрацыйныя адзінкі сярэдняга ўзроўню','','','',false,true);
+d.add(297,294,'(1-37)','<div class="nodetag">(1-37)</div></span>&nbsp;&nbsp;Адміністрацыйныя адзінкі нізкага ўзроўню','(1-37)','Адміністрацыйныя адзінкі нізкага ўзроўню','','','',false,true);
+d.add(298,290,'(1-4)','<div class="nodetag">(1-4)</div></span>&nbsp;&nbsp;Адміністрацыйныя адзінкі вышэйшага (дзяржаўнага) узроўню. Нацыі. Дзяржавы. Канфедэрацыі','(1-4)','Адміністрацыйныя адзінкі вышэйшага (дзяржаўнага) узроўню. Нацыі. Дзяржавы. Канфедэрацыі','','','',false,true);
+d.add(299,298,'(1-43)','<div class="nodetag">(1-43)</div></span>&nbsp;&nbsp;Краіны, якія ўваходзяць у канфедэрацыі. Федэральныя дзяржавы (штаты). Аўтаномныя рэспублікі','(1-43)','Краіны, якія ўваходзяць у канфедэрацыі. Федэральныя дзяржавы (штаты). Аўтаномныя рэспублікі','','','',false,true);
+d.add(300,298,'(1-44)','<div class="nodetag">(1-44)</div></span>&nbsp;&nbsp;Імперыі. Узаемадзеянне паміж метраполіямі, дамініёнамі і калоніямі','(1-44)','Імперыі. Узаемадзеянне паміж метраполіямі, дамініёнамі і калоніямі','','','',false,true);
+d.add(301,278,'(1-5)','<div class="nodetag">(1-5)</div></span>&nbsp;&nbsp;Залежныя або паўзалежныя тэрыторыі','(1-5)','Залежныя або паўзалежныя тэрыторыі','','','',false,true);
+d.add(302,278,'(1-6)','<div class="nodetag">(1-6)</div></span>&nbsp;&nbsp;Краіны або групоўкі дзяржаў з розных пунктаў гледжання','(1-6)','Краіны або групоўкі дзяржаў з розных пунктаў гледжання','','','',false,true);
+d.add(303,278,'(1-7)','<div class="nodetag">(1-7)</div></span>&nbsp;&nbsp;Месцы і вобласці паводле характару дзейнасці на іх тэрыторыях (публічнасці, адкрытасці) і іншых спецыфічных рыс','(1-7)','Месцы і вобласці паводле характару дзейнасці на іх тэрыторыях (публічнасці, адкрытасці) і іншых спецыфічных рыс','','','',false,true);
+d.add(304,278,'(1-8)','<div class="nodetag">(1-8)</div></span>&nbsp;&nbsp;Месцы размяшчэння, паходжання, транзіту, назначэння','(1-8)','Месцы размяшчэння, паходжання, транзіту, назначэння','','','',false,true);
+d.add(305,278,'(1-9)','<div class="nodetag">(1-9)</div></span>&nbsp;&nbsp;Раянаванне з розных пунктаў гледжання','(1-9)','Раянаванне з розных пунктаў гледжання','','','',false,true);
+d.add(306,275,'(2)','<div class="nodetag">(2)</div></span>&nbsp;&nbsp;Фізіка-геаграфічная характарыстыка месцазнаходжання','(2)','Фізіка-геаграфічная характарыстыка месцазнаходжання','','','',false,true);
+d.add(307,306,'(20)','<div class="nodetag">(20)</div></span>&nbsp;&nbsp;Экасфера','(20)','Экасфера','','','',false,true);
+d.add(308,306,'(21)','<div class="nodetag">(21)</div></span>&nbsp;&nbsp;Паверхня Землі ў цэлым. Зямельныя ўчасткі ў прыватнасці. Прыродныя зоны і рэгіёны','(21)','Паверхня Землі ў цэлым. Зямельныя ўчасткі ў прыватнасці. Прыродныя зоны і рэгіёны','','','',false,true);
+d.add(309,306,'(23)','<div class="nodetag">(23)</div></span>&nbsp;&nbsp;Над узроўнем мора. Рэльеф паверхні. Над зямлёй у цэлым. Горы','(23)','Над узроўнем мора. Рэльеф паверхні. Над зямлёй у цэлым. Горы','','','',false,true);
+d.add(310,306,'(24)','<div class="nodetag">(24)</div></span>&nbsp;&nbsp;Ніжэй за ўзровень мора. Пад зямлёй. Падглебавы','(24)','Ніжэй за ўзровень мора. Пад зямлёй. Падглебавы','','','',false,true);
+d.add(311,306,'(25)','<div class="nodetag">(25)</div></span>&nbsp;&nbsp;Натуральная плоская паверхня Зямлі (незалежна ад узроўню мора). Паверхня ў яе прыродным стане, апрацаваная ці населеная','(25)','Натуральная плоская паверхня Зямлі (незалежна ад узроўню мора). Паверхня ў яе прыродным стане, апрацаваная ці населеная','','','',false,true);
+d.add(312,306,'(26)','<div class="nodetag">(26)</div></span>&nbsp;&nbsp;Акіяны, моры і шляхі злучэнняў паміж імі','(26)','Акіяны, моры і шляхі злучэнняў паміж імі','','','',false,true);
+d.add(313,306,'(28)','<div class="nodetag">(28)</div></span>&nbsp;&nbsp;Унутраныя воды','(28)','Унутраныя воды','','','',false,true);
+d.add(314,275,'(3/9)','<div class="nodetag">(3/9)</div></span>&nbsp;&nbsp;Асобныя месцы старажытнага і сучаснага свету','(3/9)','Асобныя месцы старажытнага і сучаснага свету','','','',false,true);
+d.add(315,314,'(3)','<div class="nodetag">(3)</div></span>&nbsp;&nbsp;Краіны і мясцовасці старажытнага і сярэднявечнага свету','(3)','Краіны і мясцовасці старажытнага і сярэднявечнага свету','','','',false,true);
+d.add(316,315,'(31)','<div class="nodetag">(31)</div></span>&nbsp;&nbsp;Старажытныя Кітай і Японія','(31)','Старажытныя Кітай і Японія','','','',false,true);
+d.add(317,315,'(32)','<div class="nodetag">(32)</div></span>&nbsp;&nbsp;Старажытны Егіпет','(32)','Старажытны Егіпет','','','',false,true);
+d.add(318,315,'(33)','<div class="nodetag">(33)</div></span>&nbsp;&nbsp;Старажытная рымская правінцыя Юдэя. Святая Зямля. Рэгіён пражывання ізраільцян','(33)','Старажытная рымская правінцыя Юдэя. Святая Зямля. Рэгіён пражывання ізраільцян','','','',false,true);
+d.add(319,315,'(34)','<div class="nodetag">(34)</div></span>&nbsp;&nbsp;Старажытная Індыя','(34)','Старажытная Індыя','','','',false,true);
+d.add(320,315,'(35)','<div class="nodetag">(35)</div></span>&nbsp;&nbsp;Міда-Персія','(35)','Міда-Персія','','','',false,true);
+d.add(321,315,'(36)','<div class="nodetag">(36)</div></span>&nbsp;&nbsp;Рэгіёны так званых варвараў (барбараў)','(36)','Рэгіёны так званых варвараў (барбараў)','','','',false,true);
+d.add(322,315,'(37)','<div class="nodetag">(37)</div></span>&nbsp;&nbsp;Старажытныя Рым і Італія','(37)','Старажытныя Рым і Італія','','','',false,true);
+d.add(323,315,'(38)','<div class="nodetag">(38)</div></span>&nbsp;&nbsp;Старажытная Грэцыя. Элада','(38)','Старажытная Грэцыя. Элада','','','',false,true);
+d.add(324,315,'(399)','<div class="nodetag">(399)</div></span>&nbsp;&nbsp;Іншыя рэгіёны. Геаграфічныя дзяленні старажытных часоў, акрамя класічнай старажытнасці','(399)','Іншыя рэгіёны. Геаграфічныя дзяленні старажытных часоў, акрамя класічнай старажытнасці','','','',false,true);
+d.add(325,324,'(399.7)','<div class="nodetag">(399.7)</div></span>&nbsp;&nbsp;Вобласці старажытнаамерыканскіх культур. Дакалумбавая Амерыка','(399.7)','Вобласці старажытнаамерыканскіх культур. Дакалумбавая Амерыка','','','',false,true);
+d.add(326,314,'(4/9)','<div class="nodetag">(4/9)</div></span>&nbsp;&nbsp;Краіны і мясцовасці сучаснага свету','(4/9)','Краіны і мясцовасці сучаснага свету','','','',false,true);
+d.add(327,326,'(4)','<div class="nodetag">(4)</div></span>&nbsp;&nbsp;Еўропа','(4)','Еўропа','','','',false,true);
+d.add(328,327,'(41)','<div class="nodetag">(41)</div></span>&nbsp;&nbsp;Краіны на Брытанскіх астравах','(41)','Краіны на Брытанскіх астравах','','','',false,true);
+d.add(329,328,'(410)','<div class="nodetag">(410)</div></span>&nbsp;&nbsp;Злучанае Каралеўства Вялікабрытаніі і Паўночнай Ірландыі (Вялікабрытанія)','(410)','Злучанае Каралеўства Вялікабрытаніі і Паўночнай Ірландыі (Вялікабрытанія)','','','',false,true);
+d.add(330,328,'(417)','<div class="nodetag">(417)</div></span>&nbsp;&nbsp;Ірландыя. Ірландская Рэспубліка / Éire','(417)','Ірландыя. Ірландская Рэспубліка / Éire','','','',false,true);
+d.add(331,327,'(430)','<div class="nodetag">(430)</div></span>&nbsp;&nbsp;Германія. Федэратыўная Рэспубліка Германія / Bundesrepublik Deutschland','(430)','Германія. Федэратыўная Рэспубліка Германія / Bundesrepublik Deutschland','','','',false,true);
+d.add(332,327,'(435.9)','<div class="nodetag">(435.9)</div></span>&nbsp;&nbsp;Люксембург. Вялікае герцагства Люксембург / Grand-Duché de Luxembourg. Grossherzogtum Luxemburg. Grousherzogdem Lëtzebuerg','(435.9)','Люксембург. Вялікае герцагства Люксембург / Grand-Duché de Luxembourg. Grossherzogtum Luxemburg. Grousherzogdem Lëtzebuerg','','','',false,true);
+d.add(333,327,'(436)','<div class="nodetag">(436)</div></span>&nbsp;&nbsp;Аўстрыя. Аўстрыйская Рэспубліка / Republik Österreich','(436)','Аўстрыя. Аўстрыйская Рэспубліка / Republik Österreich','','','',false,true);
+d.add(334,327,'(437.3)','<div class="nodetag">(437.3)</div></span>&nbsp;&nbsp;Чэшская Рэспубліка. Чэхія / Česko. Česká Republika','(437.3)','Чэшская Рэспубліка. Чэхія / Česko. Česká Republika','','','',false,true);
+d.add(335,327,'(437.6)','<div class="nodetag">(437.6)</div></span>&nbsp;&nbsp;Славакія. Славацкая Рэспубліка / Slovak Republic. Славенія. Рэспубліка Славенія / Republika Slovenija','(437.6)','Славакія. Славацкая Рэспубліка / Slovak Republic. Славенія. Рэспубліка Славенія / Republika Slovenija','','','',false,true);
+d.add(336,327,'(438)','<div class="nodetag">(438)</div></span>&nbsp;&nbsp;Польшча. Польская Рэспубліка / Rzeczpospolita Polska','(438)','Польшча. Польская Рэспубліка / Rzeczpospolita Polska','','','',false,true);
+d.add(337,327,'(439)','<div class="nodetag">(439)</div></span>&nbsp;&nbsp;Венгрыя. Венгерская Рэспубліка / Magyarország. Magyar Köztársaság','(439)','Венгрыя. Венгерская Рэспубліка / Magyarország. Magyar Köztársaság','','','',false,true);
+d.add(338,327,'(44)','<div class="nodetag">(44)</div></span>&nbsp;&nbsp;Францыя. Французская Рэспубліка / République Française','(44)','Францыя. Французская Рэспубліка / République Française','','','',false,true);
+d.add(339,327,'(450)','<div class="nodetag">(450)</div></span>&nbsp;&nbsp;Італія. Італьянская Рэспубліка / Republica Italiana','(450)','Італія. Італьянская Рэспубліка / Republica Italiana','','','',false,true);
+d.add(340,327,'(454.4)','<div class="nodetag">(454.4)</div></span>&nbsp;&nbsp;Сан-Марына. Святлейшая Рэспубліка Сан-Марына / Serenissima Repubblica di San Marino','(454.4)','Сан-Марына. Святлейшая Рэспубліка Сан-Марына / Serenissima Repubblica di San Marino','','','',false,true);
+d.add(341,327,'(456.31)','<div class="nodetag">(456.31)</div></span>&nbsp;&nbsp;Ватыкан. Горад-дзяржава Ватыкан (Святы Пасад) / Stato della Città del Vaticano','(456.31)','Ватыкан. Горад-дзяржава Ватыкан (Святы Пасад) / Stato della Città del Vaticano','','','',false,true);
+d.add(342,327,'(458.2)','<div class="nodetag">(458.2)</div></span>&nbsp;&nbsp;Мальта. Рэспубліка Мальта / Repubblika ta\' Malta','(458.2)','Мальта. Рэспубліка Мальта / Repubblika ta\' Malta','','','',false,true);
+d.add(343,327,'(46)','<div class="nodetag">(46)</div></span>&nbsp;&nbsp;Краіны Пірэнэйскага паўвострава','(46)','Краіны Пірэнэйскага паўвострава','','','',false,true);
+d.add(344,343,'(460)','<div class="nodetag">(460)</div></span>&nbsp;&nbsp;Іспанія. Каралеўства Іспанія / Reino de España','(460)','Іспанія. Каралеўства Іспанія / Reino de España','','','',false,true);
+d.add(345,343,'(467)','<div class="nodetag">(467)</div></span>&nbsp;&nbsp;Андора. Княства Андора','(467)','Андора. Княства Андора','','','',false,true);
+d.add(346,343,'(469)','<div class="nodetag">(469)</div></span>&nbsp;&nbsp;Партугалія. Партугальская Рэспубліка / República Portuguesa','(469)','Партугалія. Партугальская Рэспубліка / República Portuguesa','','','',false,true);
+d.add(347,327,'(470+571)','<div class="nodetag">(470+571)</div></span>&nbsp;&nbsp;Расія / Rossiya. Расійская Федэрацыя / Rossiiskaya Federatsiya','(470+571)','Расія / Rossiya. Расійская Федэрацыя / Rossiiskaya Federatsiya','','','',false,true);
+d.add(348,327,'(474)','<div class="nodetag">(474)</div></span>&nbsp;&nbsp;Балтыйскія дзяржавы ў цэлым','(474)','Балтыйскія дзяржавы ў цэлым','','','',false,true);
+d.add(349,348,'(474.2)','<div class="nodetag">(474.2)</div></span>&nbsp;&nbsp;Эстонія. Эстонская Рэспубліка / Eesti Vabariik','(474.2)','Эстонія. Эстонская Рэспубліка / Eesti Vabariik','','','',false,true);
+d.add(350,348,'(474.3)','<div class="nodetag">(474.3)</div></span>&nbsp;&nbsp;Латвія. Латвійская Рэспубліка / Latvijas Republika','(474.3)','Латвія. Латвійская Рэспубліка / Latvijas Republika','','','',false,true);
+d.add(351,348,'(474.5)','<div class="nodetag">(474.5)</div></span>&nbsp;&nbsp;Літва. Літоўская Рэспубліка / Lietuvos Respublika','(474.5)','Літва. Літоўская Рэспубліка / Lietuvos Respublika','','','',false,true);
+d.add(352,327,'(476)','<div class="nodetag">(476)</div></span>&nbsp;&nbsp;Беларусь. Рэспубліка Беларусь','(476)','Беларусь. Рэспубліка Беларусь','','','',false,true);
+d.add(353,327,'(477)','<div class="nodetag">(477)</div></span>&nbsp;&nbsp;Украіна / Ukrayina','(477)','Украіна / Ukrayina','','','',false,true);
+d.add(354,327,'(478)','<div class="nodetag">(478)</div></span>&nbsp;&nbsp;Малдавія. Рэспубліка Малдова / Republica Moldoveneasca','(478)','Малдавія. Рэспубліка Малдова / Republica Moldoveneasca','','','',false,true);
+d.add(355,327,'(479)','<div class="nodetag">(479)</div></span>&nbsp;&nbsp;Краіны Каўказскага рэгіёну','(479)','Краіны Каўказскага рэгіёну','','','',false,true);
+d.add(356,355,'(479.22)','<div class="nodetag">(479.22)</div></span>&nbsp;&nbsp;Грузія. Сакартвела / Sakartvelo. Рэспубліка Грузія. Рэспубліка Сакартвела / Sakartvelos Respublika','(479.22)','Грузія. Сакартвела / Sakartvelo. Рэспубліка Грузія. Рэспубліка Сакартвела / Sakartvelos Respublika','','','',false,true);
+d.add(357,355,'(479.24)','<div class="nodetag">(479.24)</div></span>&nbsp;&nbsp;Азербайджан. Азербайджанская Рэспубліка / Azərbaycan Respublikası','(479.24)','Азербайджан. Азербайджанская Рэспубліка / Azərbaycan Respublikası','','','',false,true);
+d.add(358,355,'(479.25)','<div class="nodetag">(479.25)</div></span>&nbsp;&nbsp;Арменія. Рэспубліка Арменія. Аястан / Hayastan. Hayastani Hanrapetut’yun / Haikakan Hanrapetoutioun','(479.25)','Арменія. Рэспубліка Арменія. Аястан / Hayastan. Hayastani Hanrapetut’yun / Haikakan Hanrapetoutioun','','','',false,true);
+d.add(359,327,'(48)','<div class="nodetag">(48)</div></span>&nbsp;&nbsp;Скандынаўскія краіны','(48)','Скандынаўскія краіны','','','',false,true);
+d.add(360,359,'(480)','<div class="nodetag">(480)</div></span>&nbsp;&nbsp;Фінляндыя / Finland / Suomi. Фінляндская Рэспубліка / Suomen Tasavalta / Republiken Finland','(480)','Фінляндыя / Finland / Suomi. Фінляндская Рэспубліка / Suomen Tasavalta / Republiken Finland','','','',false,true);
+d.add(361,359,'(481)','<div class="nodetag">(481)</div></span>&nbsp;&nbsp;Нарвегія. Каралеўства Нарвегія / Kongeriket Norge','(481)','Нарвегія. Каралеўства Нарвегія / Kongeriket Norge','','','',false,true);
+d.add(362,359,'(485)','<div class="nodetag">(485)</div></span>&nbsp;&nbsp;Швецыя. Каралеўства Швецыя / Konungariket Sverige','(485)','Швецыя. Каралеўства Швецыя / Konungariket Sverige','','','',false,true);
+d.add(363,359,'(489)','<div class="nodetag">(489)</div></span>&nbsp;&nbsp;Данія. Каралеўства Данія / Kongeriget Danmark','(489)','Данія. Каралеўства Данія / Kongeriget Danmark','','','',false,true);
+d.add(364,327,'(491.1)','<div class="nodetag">(491.1)</div></span>&nbsp;&nbsp;Ісландыя. Рэспубліка Ісландыя / Lýðveldið Ísland','(491.1)','Ісландыя. Рэспубліка Ісландыя / Lýðveldið Ísland','','','',false,true);
+d.add(365,327,'(492)','<div class="nodetag">(492)</div></span>&nbsp;&nbsp;Нідэрланды. Каралеўства Нідэрланды / Koninkrijk der Nederlanden','(492)','Нідэрланды. Каралеўства Нідэрланды / Koninkrijk der Nederlanden','','','',false,true);
+d.add(366,327,'(493)','<div class="nodetag">(493)</div></span>&nbsp;&nbsp;Бельгія. Каралеўства Бельгія / Royaume de Belgique / Koninkrijk België / Königreich Belgien','(493)','Бельгія. Каралеўства Бельгія / Royaume de Belgique / Koninkrijk België / Königreich Belgien','','','',false,true);
+d.add(367,327,'(494)','<div class="nodetag">(494)</div></span>&nbsp;&nbsp;Швейцарыя. Швейцарская канфедэрацыя / Schweizerische Eidgenossenschaft / Confédération suisse / Confederazione Svizzera / Confederaziun svizra / Confoederatio Helvetica','(494)','Швейцарыя. Швейцарская канфедэрацыя / Schweizerische Eidgenossenschaft / Confédération suisse / Confederazione Svizzera / Confederaziun svizra / Confoederatio Helvetica','','','',false,true);
+d.add(368,367,'(494.9)','<div class="nodetag">(494.9)</div></span>&nbsp;&nbsp;Ліхтэнштайн. Княства Ліхтэнштайн / Fürstentum Liechtenstein','(494.9)','Ліхтэнштайн. Княства Ліхтэнштайн / Fürstentum Liechtenstein','','','',false,true);
+d.add(369,327,'(495)','<div class="nodetag">(495)</div></span>&nbsp;&nbsp;Грэцыя. Грэцкая Рэспубліка / Hellenic Republic. Elliniki Dimokratia','(495)','Грэцыя. Грэцкая Рэспубліка / Hellenic Republic. Elliniki Dimokratia','','','',false,true);
+d.add(370,327,'(496.5)','<div class="nodetag">(496.5)</div></span>&nbsp;&nbsp;Албанія. Рэспубліка Албанія / Shqipëria. Republika e Shqipërisë','(496.5)','Албанія. Рэспубліка Албанія / Shqipëria. Republika e Shqipërisë','','','',false,true);
+d.add(371,327,'(497)','<div class="nodetag">(497)</div></span>&nbsp;&nbsp;Балканскія краіны','(497)','Балканскія краіны','','','',false,true);
+d.add(372,371,'(497.11)','<div class="nodetag">(497.11)</div></span>&nbsp;&nbsp;Сербія / Republika Srbija','(497.11)','Сербія / Republika Srbija','','','',false,true);
+d.add(373,371,'(497.16)','<div class="nodetag">(497.16)</div></span>&nbsp;&nbsp;Чарнагорыя / Crna Gora','(497.16)','Чарнагорыя / Crna Gora','','','',false,true);
+d.add(374,371,'(497.2)','<div class="nodetag">(497.2)</div></span>&nbsp;&nbsp;Балгарыя. Рэспубліка Балгарыя / Bulharsko. Republika Bulgariya','(497.2)','Балгарыя. Рэспубліка Балгарыя / Bulharsko. Republika Bulgariya','','','',false,true);
+d.add(375,371,'(497.4)','<div class="nodetag">(497.4)</div></span>&nbsp;&nbsp;Славенія. Рэспубліка Славенія / Republika Slovenija','(497.4)','Славенія. Рэспубліка Славенія / Republika Slovenija','','','',false,true);
+d.add(376,371,'(497.5)','<div class="nodetag">(497.5)</div></span>&nbsp;&nbsp;Харватыя. Рэспубліка Харватыя / Republika Hrvatska','(497.5)','Харватыя. Рэспубліка Харватыя / Republika Hrvatska','','','',false,true);
+d.add(377,371,'(497.6)','<div class="nodetag">(497.6)</div></span>&nbsp;&nbsp;Боснія і Герцагавіна. Рэспубліка Боснія і Герцагавіна / Bosna i Hercegovina','(497.6)','Боснія і Герцагавіна. Рэспубліка Боснія і Герцагавіна / Bosna i Hercegovina','','','',false,true);
+d.add(378,371,'(497.7)','<div class="nodetag">(497.7)</div></span>&nbsp;&nbsp;Македонія. Былая Югаслаўская Рэспубліка Македонія / Republika Makedonija','(497.7)','Македонія. Былая Югаслаўская Рэспубліка Македонія / Republika Makedonija','','','',false,true);
+d.add(379,327,'(498)','<div class="nodetag">(498)</div></span>&nbsp;&nbsp;Румынія. Рэспубліка Румынія / România','(498)','Румынія. Рэспубліка Румынія / România','','','',false,true);
+d.add(380,326,'(5)','<div class="nodetag">(5)</div></span>&nbsp;&nbsp;Азія','(5)','Азія','','','',false,true);
+d.add(381,380,'(510)','<div class="nodetag">(510)</div></span>&nbsp;&nbsp;Кітай. Кітайская Народная Рэспубліка / Zhōnghuá Rénmín Gònghéguó','(510)','Кітай. Кітайская Народная Рэспубліка / Zhōnghuá Rénmín Gònghéguó','','','',false,true);
+d.add(382,380,'(512.317)','<div class="nodetag">(512.317)</div></span>&nbsp;&nbsp;Ганконг. Сянган','(512.317)','Ганконг. Сянган','','','',false,true);
+d.add(383,380,'(512.318)','<div class="nodetag">(512.318)</div></span>&nbsp;&nbsp;Макао. Аомынь','(512.318)','Макао. Аомынь','','','',false,true);
+d.add(384,380,'(515)','<div class="nodetag">(515)</div></span>&nbsp;&nbsp;Тыбет. Тыбецкі аўтаномны рэгіён (Лхаса)','(515)','Тыбет. Тыбецкі аўтаномны рэгіён (Лхаса)','','','',false,true);
+d.add(385,380,'(517.9)','<div class="nodetag">(517.9)</div></span>&nbsp;&nbsp;Манголія. Мангольская Рэспубліка / Mongol Uls','(517.9)','Манголія. Мангольская Рэспубліка / Mongol Uls','','','',false,true);
+d.add(386,380,'(519)','<div class="nodetag">(519)</div></span>&nbsp;&nbsp;Карэя (да 1948 г.)','(519)','Карэя (да 1948 г.)','','','',false,true);
+d.add(387,386,'(519.3)','<div class="nodetag">(519.3)</div></span>&nbsp;&nbsp;Паўночная Карэя. Карэйская Народна-Дэмакратычная Рэспубліка / Chosŏn Minjujuŭi In\'min Konghwaguk (з 1948 г.)','(519.3)','Паўночная Карэя. Карэйская Народна-Дэмакратычная Рэспубліка / Chosŏn Minjujuŭi In\'min Konghwaguk (з 1948 г.)','','','',false,true);
+d.add(388,386,'(519.5)','<div class="nodetag">(519.5)</div></span>&nbsp;&nbsp;Паўднёвая Карэя. Карэйская Рэспубліка / Taehan Min\'guk (з 1948 г.)','(519.5)','Паўднёвая Карэя. Карэйская Рэспубліка / Taehan Min\'guk (з 1948 г.)','','','',false,true);
+d.add(389,380,'(52)','<div class="nodetag">(52)</div></span>&nbsp;&nbsp;Японія і прылеглыя астравы','(52)','Японія і прылеглыя астравы','','','',false,true);
+d.add(390,389,'(520)','<div class="nodetag">(520)</div></span>&nbsp;&nbsp;Японія / Nippon / Nihon','(520)','Японія / Nippon / Nihon','','','',false,true);
+d.add(391,389,'(529)','<div class="nodetag">(529)</div></span>&nbsp;&nbsp;Тайвань (Тайбэй). Кітайская Рэспубліка / Zhōnghuá Mínguó','(529)','Тайвань (Тайбэй). Кітайская Рэспубліка / Zhōnghuá Mínguó','','','',false,true);
+d.add(392,380,'(53)','<div class="nodetag">(53)</div></span>&nbsp;&nbsp;Арабскія краіны і тэрыторыі','(53)','Арабскія краіны і тэрыторыі','','','',false,true);
+d.add(393,392,'(532)','<div class="nodetag">(532)</div></span>&nbsp;&nbsp;Саудаўская Аравія. Каралеўства Саудаўская Аравія / al-Mamlaka al-ʻArabiyya as-Suʻūdiyya','(532)','Саудаўская Аравія. Каралеўства Саудаўская Аравія / al-Mamlaka al-ʻArabiyya as-Suʻūdiyya','','','',false,true);
+d.add(394,392,'(533)','<div class="nodetag">(533)</div></span>&nbsp;&nbsp;Емен. Еменская Рэспубліка / Al-Jumhūriyyah al-Yamaniyyah','(533)','Емен. Еменская Рэспубліка / Al-Jumhūriyyah al-Yamaniyyah','','','',false,true);
+d.add(395,392,'(535)','<div class="nodetag">(535)</div></span>&nbsp;&nbsp;Аман. Султанат Аман / Salṭanat ʻUmān','(535)','Аман. Султанат Аман / Salṭanat ʻUmān','','','',false,true);
+d.add(396,392,'(536)','<div class="nodetag">(536)</div></span>&nbsp;&nbsp;Усходне-арабскія дзяржавы (Дзяржавы Персідскага заліва)','(536)','Усходне-арабскія дзяржавы (Дзяржавы Персідскага заліва)','','','',false,true);
+d.add(397,396,'(536.2)','<div class="nodetag">(536.2)</div></span>&nbsp;&nbsp;Аб\'яднаныя Арабскія Эміраты / Dawlat al-Imārāt al-‘Arabīyah al-Muttaḥidah','(536.2)','Аб\'яднаныя Арабскія Эміраты / Dawlat al-Imārāt al-‘Arabīyah al-Muttaḥidah','','','',false,true);
+d.add(398,396,'(536.4)','<div class="nodetag">(536.4)</div></span>&nbsp;&nbsp;Катар. Дзяржава Катар / Dawlat Qaṭar','(536.4)','Катар. Дзяржава Катар / Dawlat Qaṭar','','','',false,true);
+d.add(399,396,'(536.5)','<div class="nodetag">(536.5)</div></span>&nbsp;&nbsp;Бахрэйн. Каралеўства Бахрэйн / Mamlakat al-Baḥrayn','(536.5)','Бахрэйн. Каралеўства Бахрэйн / Mamlakat al-Baḥrayn','','','',false,true);
+d.add(400,396,'(536.8)','<div class="nodetag">(536.8)</div></span>&nbsp;&nbsp;Кувейт. Дзяржава Кувейт / Dawlat al-Kuwayt','(536.8)','Кувейт. Дзяржава Кувейт / Dawlat al-Kuwayt','','','',false,true);
+d.add(401,380,'(54)','<div class="nodetag">(54)</div></span>&nbsp;&nbsp;Дзяржавы паўвострава Індастан (Індыйскага субкантынента)','(54)','Дзяржавы паўвострава Індастан (Індыйскага субкантынента)','','','',false,true);
+d.add(402,401,'(540)','<div class="nodetag">(540)</div></span>&nbsp;&nbsp;Індыя. Рэспубліка Індыя / Bhārat Gaṇarājya','(540)','Індыя. Рэспубліка Індыя / Bhārat Gaṇarājya','','','',false,true);
+d.add(403,401,'(541.31)','<div class="nodetag">(541.31)</div></span>&nbsp;&nbsp;Бутан. Каралеўства Бутан / Druk-yul. Druk Gyal Khab (Dru Gäkhap)','(541.31)','Бутан. Каралеўства Бутан / Druk-yul. Druk Gyal Khab (Dru Gäkhap)','','','',false,true);
+d.add(404,401,'(541.35)','<div class="nodetag">(541.35)</div></span>&nbsp;&nbsp;Непал. Федэральная дэмакратычная Рэспубліка Непал / Sanghiya Loktantrik Ganatantra Nepal','(541.35)','Непал. Федэральная дэмакратычная Рэспубліка Непал / Sanghiya Loktantrik Ganatantra Nepal','','','',false,true);
+d.add(405,401,'(548.7)','<div class="nodetag">(548.7)</div></span>&nbsp;&nbsp;Шры-Ланка. Дэмакратычная Сацыялістычная Рэспубліка Шры-Ланка / Sri Lankā Prajathanthrika Samajavadi Janarajaya. Illankai Chananaayaka Chosalisa Kudiyarasu','(548.7)','Шры-Ланка. Дэмакратычная Сацыялістычная Рэспубліка Шры-Ланка / Sri Lankā Prajathanthrika Samajavadi Janarajaya. Illankai Chananaayaka Chosalisa Kudiyarasu','','','',false,true);
+d.add(406,401,'(548.82)','<div class="nodetag">(548.82)</div></span>&nbsp;&nbsp;Мальдывы. Рэспубліка Мальдывы / Divehi Rājjey ge Jumhuriyyā','(548.82)','Мальдывы. Рэспубліка Мальдывы / Divehi Rājjey ge Jumhuriyyā','','','',false,true);
+d.add(407,401,'(549.1)','<div class="nodetag">(549.1)</div></span>&nbsp;&nbsp;Пакістан. Ісламская Рэспубліка Пакістан / Islāmī Jumhūrī-ye Pākistān','(549.1)','Пакістан. Ісламская Рэспубліка Пакістан / Islāmī Jumhūrī-ye Pākistān','','','',false,true);
+d.add(408,401,'(549.3)','<div class="nodetag">(549.3)</div></span>&nbsp;&nbsp;Бангладэш. Народная Рэспубліка Бангладэш / Gônoprojatontri Bangladesh','(549.3)','Бангладэш. Народная Рэспубліка Бангладэш / Gônoprojatontri Bangladesh','','','',false,true);
+d.add(409,380,'(55)','<div class="nodetag">(55)</div></span>&nbsp;&nbsp;Іран. Ісламская Рэспубліка Іран / Jomhuri-ye Eslāmi-ye Irān','(55)','Іран. Ісламская Рэспубліка Іран / Jomhuri-ye Eslāmi-ye Irān','','','',false,true);
+d.add(410,380,'(56)','<div class="nodetag">(56)</div></span>&nbsp;&nbsp;Левант. Малая Азія','(56)','Левант. Малая Азія','','','',false,true);
+d.add(411,410,'(560)','<div class="nodetag">(560)</div></span>&nbsp;&nbsp;Турцыя. Турэцкая Рэспубліка / Türkiye Cumhuriyeti','(560)','Турцыя. Турэцкая Рэспубліка / Türkiye Cumhuriyeti','','','',false,true);
+d.add(412,410,'(564.3)','<div class="nodetag">(564.3)</div></span>&nbsp;&nbsp;Кіпр. Рэспубліка Кіпр / Kypriakí Dimokratía / Kıbrıs Cumhuriyeti','(564.3)','Кіпр. Рэспубліка Кіпр / Kypriakí Dimokratía / Kıbrıs Cumhuriyeti','','','',false,true);
+d.add(413,410,'(567)','<div class="nodetag">(567)</div></span>&nbsp;&nbsp;Ірак. Рэспубліка Ірак / Jumhūriyat Al-Irāq / Komara Îraqê','(567)','Ірак. Рэспубліка Ірак / Jumhūriyat Al-Irāq / Komara Îraqê','','','',false,true);
+d.add(414,410,'(569.1)','<div class="nodetag">(569.1)</div></span>&nbsp;&nbsp;Сірыя / Sūryā. Сірыйская Арабская Рэспубліка / Al-Jumhūriyyah al-ʿArabiyyah as-Sūriyyah','(569.1)','Сірыя / Sūryā. Сірыйская Арабская Рэспубліка / Al-Jumhūriyyah al-ʿArabiyyah as-Sūriyyah','','','',false,true);
+d.add(415,410,'(569.3)','<div class="nodetag">(569.3)</div></span>&nbsp;&nbsp;Ліван / Lubnān. Liban. Ліванская Рэспубліка / al-Jumhūrīyah al-Lubnānīyah. République libanaise','(569.3)','Ліван / Lubnān. Liban. Ліванская Рэспубліка / al-Jumhūrīyah al-Lubnānīyah. République libanaise','','','',false,true);
+d.add(416,410,'(569.4)','<div class="nodetag">(569.4)</div></span>&nbsp;&nbsp;Ізраіль. Дзяржава Ізраіль / Medīnat Yisrā\'el / Dawlat Isrā\'īl','(569.4)','Ізраіль. Дзяржава Ізраіль / Medīnat Yisrā\'el / Dawlat Isrā\'īl','','','',false,true);
+d.add(417,410,'(569.5)','<div class="nodetag">(569.5)</div></span>&nbsp;&nbsp;Іарданія / Urdunn / L\'Ürdünn. Іарданскае Хашымідскае Каралеўства / al Mamlaka al Urduniya al Hashemiyah','(569.5)','Іарданія / Urdunn / L\'Ürdünn. Іарданскае Хашымідскае Каралеўства / al Mamlaka al Urduniya al Hashemiyah','','','',false,true);
+d.add(418,380,'(57)','<div class="nodetag">(57)</div></span>&nbsp;&nbsp;Краіны і тэрыторыі азіяцкай часткі былога СССР','(57)','Краіны і тэрыторыі азіяцкай часткі былога СССР','','','',false,true);
+d.add(419,418,'(571)','<div class="nodetag">(571)</div></span>&nbsp;&nbsp;Азіяцкая тэрыторыя Расійскай Федэрацыі','(571)','Азіяцкая тэрыторыя Расійскай Федэрацыі','','','',false,true);
+d.add(420,418,'(574)','<div class="nodetag">(574)</div></span>&nbsp;&nbsp;Казахстан. Рэспубліка Казахстан / Qazaqstan Respūblïkasy / Respublika Kazakhstan','(574)','Казахстан. Рэспубліка Казахстан / Qazaqstan Respūblïkasy / Respublika Kazakhstan','','','',false,true);
+d.add(421,418,'(575.1)','<div class="nodetag">(575.1)</div></span>&nbsp;&nbsp;Узбекістан. Рэспубліка Узбекістан / O’zbekiston Respublikasi','(575.1)','Узбекістан. Рэспубліка Узбекістан / O’zbekiston Respublikasi','','','',false,true);
+d.add(422,418,'(575.2)','<div class="nodetag">(575.2)</div></span>&nbsp;&nbsp;Кыргызстан. Кіргізія. Кыргызская Рэспубліка. Кіргізская Рэспубліка / Kyrgyz Respublikasy','(575.2)','Кыргызстан. Кіргізія. Кыргызская Рэспубліка. Кіргізская Рэспубліка / Kyrgyz Respublikasy','','','',false,true);
+d.add(423,418,'(575.3)','<div class="nodetag">(575.3)</div></span>&nbsp;&nbsp;Таджыкістан. Рэспубліка Таджыкістан / Jumhurii Tojikiston','(575.3)','Таджыкістан. Рэспубліка Таджыкістан / Jumhurii Tojikiston','','','',false,true);
+d.add(424,418,'(575.4)','<div class="nodetag">(575.4)</div></span>&nbsp;&nbsp;Туркменістан. Туркменія. Рэспубліка Туркменістан / Türkmenistan Respublikasy','(575.4)','Туркменістан. Туркменія. Рэспубліка Туркменістан / Türkmenistan Respublikasy','','','',false,true);
+d.add(425,380,'(581)','<div class="nodetag">(581)</div></span>&nbsp;&nbsp;Афганістан. Ісламская Рэспубліка Афганістан / Jomhūrī-ye Eslāmī-ye Afġānistān. Da Afġānistān Islāmī Jomhoriyat','(581)','Афганістан. Ісламская Рэспубліка Афганістан / Jomhūrī-ye Eslāmī-ye Afġānistān. Da Afġānistān Islāmī Jomhoriyat','','','',false,true);
+d.add(426,380,'(59)','<div class="nodetag">(59)</div></span>&nbsp;&nbsp;Краіны і тэрыторыі паўднёва-ўсходняй Азіі','(59)','Краіны і тэрыторыі паўднёва-ўсходняй Азіі','','','',false,true);
+d.add(427,426,'(591)','<div class="nodetag">(591)</div></span>&nbsp;&nbsp;М\'янма (Бірма). Рэспубліка Саюз М\'янма / Pyidaunzu Thanmăda Myăma Nainngandaw','(591)','М\'янма (Бірма). Рэспубліка Саюз М\'янма / Pyidaunzu Thanmăda Myăma Nainngandaw','','','',false,true);
+d.add(428,426,'(592.3)','<div class="nodetag">(592.3)</div></span>&nbsp;&nbsp;Сінгапур. Рэспубліка Сінгапур','(592.3)','Сінгапур. Рэспубліка Сінгапур','','','',false,true);
+d.add(429,426,'(592.6)','<div class="nodetag">(592.6)</div></span>&nbsp;&nbsp;Бруней. Дзяржава Бруней-Дарусалам / Negara Brunei Darussalam','(592.6)','Бруней. Дзяржава Бруней-Дарусалам / Negara Brunei Darussalam','','','',false,true);
+d.add(430,426,'(593)','<div class="nodetag">(593)</div></span>&nbsp;&nbsp;Тайланд / Mueang Thai (Prathes Thai). Каралеўства Тайланд / Ratcha Anachak Thai','(593)','Тайланд / Mueang Thai (Prathes Thai). Каралеўства Тайланд / Ratcha Anachak Thai','','','',false,true);
+d.add(431,426,'(594)','<div class="nodetag">(594)</div></span>&nbsp;&nbsp;Інданэзія. Рэспубліка Інданэзія / Republik Indonesia','(594)','Інданэзія. Рэспубліка Інданэзія / Republik Indonesia','','','',false,true);
+d.add(432,426,'(595)','<div class="nodetag">(595)</div></span>&nbsp;&nbsp;Малайзія. Федэрацыя Малайзія / Persekutuan Tanah Malaysia','(595)','Малайзія. Федэрацыя Малайзія / Persekutuan Tanah Malaysia','','','',false,true);
+d.add(433,426,'(596/598)','<div class="nodetag">(596/598)</div></span>&nbsp;&nbsp;Індакітай','(596/598)','Індакітай','','','',false,true);
+d.add(434,433,'(596)','<div class="nodetag">(596)</div></span>&nbsp;&nbsp;Камбоджа / Srok Khmae (Prateh Kampuchea). Каралеўства Камбоджа / Preăh Réachéa Anachâk Kâmpŭchea','(596)','Камбоджа / Srok Khmae (Prateh Kampuchea). Каралеўства Камбоджа / Preăh Réachéa Anachâk Kâmpŭchea','','','',false,true);
+d.add(435,433,'(597)','<div class="nodetag">(597)</div></span>&nbsp;&nbsp;В\'етнам. Сацыялістычная Рэспубліка В\'етнам / Cộng hòa xã hội chủ nghĩa Việt Nam','(597)','В\'етнам. Сацыялістычная Рэспубліка В\'етнам / Cộng hòa xã hội chủ nghĩa Việt Nam','','','',false,true);
+d.add(436,433,'(598)','<div class="nodetag">(598)</div></span>&nbsp;&nbsp;Лаос / Meuang Lao. Лаоская Народна-Дэмакратычная Рэспубліка / Sathalanalat Paxathipatai Paxaxon Lao','(598)','Лаос / Meuang Lao. Лаоская Народна-Дэмакратычная Рэспубліка / Sathalanalat Paxathipatai Paxaxon Lao','','','',false,true);
+d.add(437,426,'(599)','<div class="nodetag">(599)</div></span>&nbsp;&nbsp;Філіпіны. Рэспубліка Філіпіны / Republika ng Pilipinas','(599)','Філіпіны. Рэспубліка Філіпіны / Republika ng Pilipinas','','','',false,true);
+d.add(438,326,'(6)','<div class="nodetag">(6)</div></span>&nbsp;&nbsp;Афрыка','(6)','Афрыка','','','',false,true);
+d.add(439,438,'(61)','<div class="nodetag">(61)</div></span>&nbsp;&nbsp;Краіны Паўночнай Афрыкі ўвогуле. Тэрыторыі Магрыба і Барбары','(61)','Краіны Паўночнай Афрыкі ўвогуле. Тэрыторыі Магрыба і Барбары','','','',false,true);
+d.add(440,439,'(611)','<div class="nodetag">(611)</div></span>&nbsp;&nbsp;Туніс / Tūnis / Tunis. Туніская Рэспубліка / Al-Jumhūriyya at-Tūnisiyya','(611)','Туніс / Tūnis / Tunis. Туніская Рэспубліка / Al-Jumhūriyya at-Tūnisiyya','','','',false,true);
+d.add(441,439,'(612)','<div class="nodetag">(612)</div></span>&nbsp;&nbsp;Лівія / Lībyā. Дзяржава Лівія','(612)','Лівія / Lībyā. Дзяржава Лівія','','','',false,true);
+d.add(442,438,'(620)','<div class="nodetag">(620)</div></span>&nbsp;&nbsp;Егіпет / Miṣr. Арабская Рэспубліка Егіпет / Ǧumhūrīyâtu Miṣra l-ʿArabīyâ','(620)','Егіпет / Miṣr. Арабская Рэспубліка Егіпет / Ǧumhūrīyâtu Miṣra l-ʿArabīyâ','','','',false,true);
+d.add(443,438,'(624)','<div class="nodetag">(624)</div></span>&nbsp;&nbsp;Рэспубліка Судан. Рэспубліка Паўднёвы Судан','(624)','Рэспубліка Судан. Рэспубліка Паўднёвы Судан','','','',false,true);
+d.add(444,443,'(624.1)','<div class="nodetag">(624.1)</div></span>&nbsp;&nbsp;Судан / al-Sūdān. Рэспубліка Судан / Jumhūriyyat as-Sūdān','(624.1)','Судан / al-Sūdān. Рэспубліка Судан / Jumhūriyyat as-Sūdān','','','',false,true);
+d.add(445,443,'(624.4)','<div class="nodetag">(624.4)</div></span>&nbsp;&nbsp;Рэспубліка Паўднёвы Судан','(624.4)','Рэспубліка Паўднёвы Судан','','','',false,true);
+d.add(446,438,'(630)','<div class="nodetag">(630)</div></span>&nbsp;&nbsp;Эфіопія / Ītyōṗṗyā. Федэратыўная Дэмакратычная Рэспубліка Эфіопія / ye-Ītyōṗṗyā Fēdēralāwī Dīmōkrāsīyāwī Rīpeblīk / yä-Ityoṗya Federalawi Dimokrasiyawi Ripäblik','(630)','Эфіопія / Ītyōṗṗyā. Федэратыўная Дэмакратычная Рэспубліка Эфіопія / ye-Ītyōṗṗyā Fēdēralāwī Dīmōkrāsīyāwī Rīpeblīk / yä-Ityoṗya Federalawi Dimokrasiyawi Ripäblik','','','',false,true);
+d.add(447,438,'(635)','<div class="nodetag">(635)</div></span>&nbsp;&nbsp;Эрытрэя / Ertrā. Дзяржава Эрытрэя / Hagəre Ertra (Dawlātu Iritrīyā)','(635)','Эрытрэя / Ertrā. Дзяржава Эрытрэя / Hagəre Ertra (Dawlātu Iritrīyā)','','','',false,true);
+d.add(448,438,'(64)','<div class="nodetag">(64)</div></span>&nbsp;&nbsp;Марока / Al-Maġrib. Каралеўства Марока / Al-Mamlakâtu l-Maġribīyâ','(64)','Марока / Al-Maġrib. Каралеўства Марока / Al-Mamlakâtu l-Maġribīyâ','','','',false,true);
+d.add(449,438,'(65)','<div class="nodetag">(65)</div></span>&nbsp;&nbsp;Алжыр / Al Jaza\'ir. Алжырская Народна-дэмакратычная Рэспубліка / Al Jumhuriyah al Jaza\'iriyah ad Dimuqratiyah ash Sha\'biyah','(65)','Алжыр / Al Jaza\'ir. Алжырская Народна-дэмакратычная Рэспубліка / Al Jumhuriyah al Jaza\'iriyah ad Dimuqratiyah ash Sha\'biyah','','','',false,true);
+d.add(450,438,'(66)','<div class="nodetag">(66)</div></span>&nbsp;&nbsp;Заходнеафрыканскія краіны і тэрыторыі','(66)','Заходнеафрыканскія краіны і тэрыторыі','','','',false,true);
+d.add(451,450,'(661.2)','<div class="nodetag">(661.2)</div></span>&nbsp;&nbsp;Маўрытанія / Mūrītāniyā. Ісламская Рэспубліка Маўрытанія / Al-Jumhūriyyah al-Islāmiyyah al-Mūrītāniyyah','(661.2)','Маўрытанія / Mūrītāniyā. Ісламская Рэспубліка Маўрытанія / Al-Jumhūriyyah al-Islāmiyyah al-Mūrītāniyyah','','','',false,true);
+d.add(452,450,'(662.1)','<div class="nodetag">(662.1)</div></span>&nbsp;&nbsp;Малі. Рэспубліка Малі / République du Mali','(662.1)','Малі. Рэспубліка Малі / République du Mali','','','',false,true);
+d.add(453,450,'(662.5)','<div class="nodetag">(662.5)</div></span>&nbsp;&nbsp;Буркіна-Фасо. Народная Дэмакратычная Рэспубліка Буркіна-Фасо','(662.5)','Буркіна-Фасо. Народная Дэмакратычная Рэспубліка Буркіна-Фасо','','','',false,true);
+d.add(454,450,'(662.6)','<div class="nodetag">(662.6)</div></span>&nbsp;&nbsp;Нігер. Рэспубліка Нігер','(662.6)','Нігер. Рэспубліка Нігер','','','',false,true);
+d.add(455,450,'(663)','<div class="nodetag">(663)</div></span>&nbsp;&nbsp;Сенегал. Рэспубліка Сенегал','(663)','Сенегал. Рэспубліка Сенегал','','','',false,true);
+d.add(456,450,'(664)','<div class="nodetag">(664)</div></span>&nbsp;&nbsp;Сьера-Леонэ. Рэспубліка Сьера-Леонэ','(664)','Сьера-Леонэ. Рэспубліка Сьера-Леонэ','','','',false,true);
+d.add(457,450,'(665)','<div class="nodetag">(665)</div></span>&nbsp;&nbsp;Тэрыторыі Гамбіі і Гвінеі','(665)','Тэрыторыі Гамбіі і Гвінеі','','','',false,true);
+d.add(458,457,'(665.1)','<div class="nodetag">(665.1)</div></span>&nbsp;&nbsp;Гамбія. Рэспубліка Гамбія','(665.1)','Гамбія. Рэспубліка Гамбія','','','',false,true);
+d.add(459,457,'(665.2)','<div class="nodetag">(665.2)</div></span>&nbsp;&nbsp;Гвінея. Рэспубліка Гвінея / République de Guinée','(665.2)','Гвінея. Рэспубліка Гвінея / République de Guinée','','','',false,true);
+d.add(460,457,'(665.7)','<div class="nodetag">(665.7)</div></span>&nbsp;&nbsp;Гвінея-Бісаў. Рэспубліка Гвінея-Бісаў / República da Guiné-Bissau','(665.7)','Гвінея-Бісаў. Рэспубліка Гвінея-Бісаў / República da Guiné-Bissau','','','',false,true);
+d.add(461,457,'(665.8)','<div class="nodetag">(665.8)</div></span>&nbsp;&nbsp;Каба-Вердэ. Рэспубліка Каба-Вердэ / República de Cabo Verde','(665.8)','Каба-Вердэ. Рэспубліка Каба-Вердэ / República de Cabo Verde','','','',false,true);
+d.add(462,450,'(666.2)','<div class="nodetag">(666.2)</div></span>&nbsp;&nbsp;Ліберыя. Рэспубліка Ліберыя','(666.2)','Ліберыя. Рэспубліка Ліберыя','','','',false,true);
+d.add(463,450,'(666.8)','<div class="nodetag">(666.8)</div></span>&nbsp;&nbsp;Кот-д\'Івуар / Côte d\'Ivoire. Бераг Слановай Косткі. Рэспубліка Кот-д\'Івуар / Republic of Côte d\'Ivoire/ République de Côte d\'Ivoire','(666.8)','Кот-д\'Івуар / Côte d\'Ivoire. Бераг Слановай Косткі. Рэспубліка Кот-д\'Івуар / Republic of Côte d\'Ivoire/ République de Côte d\'Ivoire','','','',false,true);
+d.add(464,450,'(667)','<div class="nodetag">(667)</div></span>&nbsp;&nbsp;Гана. Рэспубліка Гана','(667)','Гана. Рэспубліка Гана','','','',false,true);
+d.add(465,450,'(668.1)','<div class="nodetag">(668.1)</div></span>&nbsp;&nbsp;Тога. Рэспубліка Тога / République togolaise','(668.1)','Тога. Рэспубліка Тога / République togolaise','','','',false,true);
+d.add(466,450,'(668.2)','<div class="nodetag">(668.2)</div></span>&nbsp;&nbsp;Бенін / Bénin. Рэспубліка Бенін / République du Bénin','(668.2)','Бенін / Bénin. Рэспубліка Бенін / République du Bénin','','','',false,true);
+d.add(467,450,'(669.1)','<div class="nodetag">(669.1)</div></span>&nbsp;&nbsp;Нігерыя. Федэратыўная Рэспубліка Нігерыя','(669.1)','Нігерыя. Федэратыўная Рэспубліка Нігерыя','','','',false,true);
+d.add(468,450,'(669.95)','<div class="nodetag">(669.95)</div></span>&nbsp;&nbsp;Сан-Тамэ і Прынсіпі / São Tomé and Príncipe. Дэмакратычная Рэспубліка Сан-Тамэ і Прынсіпі / República Democática de São Tomé e Príncipe','(669.95)','Сан-Тамэ і Прынсіпі / São Tomé and Príncipe. Дэмакратычная Рэспубліка Сан-Тамэ і Прынсіпі / República Democática de São Tomé e Príncipe','','','',false,true);
+d.add(469,438,'(67)','<div class="nodetag">(67)</div></span>&nbsp;&nbsp;Дзяржавы і тэрыторыі экватарыяльнай, цэнтральнай і ўсходняй Афрыкі','(67)','Дзяржавы і тэрыторыі экватарыяльнай, цэнтральнай і ўсходняй Афрыкі','','','',false,true);
+d.add(470,469,'(671.1)','<div class="nodetag">(671.1)</div></span>&nbsp;&nbsp;Камерун. Рэспубліка Камерун','(671.1)','Камерун. Рэспубліка Камерун','','','',false,true);
+d.add(471,469,'(671.8)','<div class="nodetag">(671.8)</div></span>&nbsp;&nbsp;Экватарыяльная Гвінея. Рэспубліка Экватарыяльная Гвінея','(671.8)','Экватарыяльная Гвінея. Рэспубліка Экватарыяльная Гвінея','','','',false,true);
+d.add(472,469,'(672.1)','<div class="nodetag">(672.1)</div></span>&nbsp;&nbsp;Габон. Габонская Рэспубліка / République Gabonaise','(672.1)','Габон. Габонская Рэспубліка / République Gabonaise','','','',false,true);
+d.add(473,469,'(672.4)','<div class="nodetag">(672.4)</div></span>&nbsp;&nbsp;Конга. Рэспубліка Конга / République du Congo / Repubilika ya Kongo / Republiki ya Kongó','(672.4)','Конга. Рэспубліка Конга / République du Congo / Repubilika ya Kongo / Republiki ya Kongó','','','',false,true);
+d.add(474,469,'(673)','<div class="nodetag">(673)</div></span>&nbsp;&nbsp;Ангола. Рэспубліка Ангола / República de Angola','(673)','Ангола. Рэспубліка Ангола / República de Angola','','','',false,true);
+d.add(475,469,'(674.1)','<div class="nodetag">(674.1)</div></span>&nbsp;&nbsp;Цэнтральнаафрыканская Рэспубліка','(674.1)','Цэнтральнаафрыканская Рэспубліка','','','',false,true);
+d.add(476,469,'(674.3)','<div class="nodetag">(674.3)</div></span>&nbsp;&nbsp;Чад. Рэспубліка Чад','(674.3)','Чад. Рэспубліка Чад','','','',false,true);
+d.add(477,469,'(675)','<div class="nodetag">(675)</div></span>&nbsp;&nbsp;Дэмакратычная Рэспубліка Конга / République Démocratique du Congo / Republiki ya Kongó Demokratiki / Jamhuri ya Kidemokrasia ya Kongo','(675)','Дэмакратычная Рэспубліка Конга / République Démocratique du Congo / Republiki ya Kongó Demokratiki / Jamhuri ya Kidemokrasia ya Kongo','','','',false,true);
+d.add(478,477,'(675.97)','<div class="nodetag">(675.97)</div></span>&nbsp;&nbsp;Бурундзі. Рэспубліка Бурундзі','(675.97)','Бурундзі. Рэспубліка Бурундзі','','','',false,true);
+d.add(479,477,'(675.98)','<div class="nodetag">(675.98)</div></span>&nbsp;&nbsp;Руанда. Рэспубліка Руанда','(675.98)','Руанда. Рэспубліка Руанда','','','',false,true);
+d.add(480,469,'(676.1)','<div class="nodetag">(676.1)</div></span>&nbsp;&nbsp;Уганда. Рэспубліка Уганда','(676.1)','Уганда. Рэспубліка Уганда','','','',false,true);
+d.add(481,469,'(676.2)','<div class="nodetag">(676.2)</div></span>&nbsp;&nbsp;Кенія. Рэспубліка Кенія / Jamhuri ya Kenya','(676.2)','Кенія. Рэспубліка Кенія / Jamhuri ya Kenya','','','',false,true);
+d.add(482,469,'(677.8)','<div class="nodetag">(677.8)</div></span>&nbsp;&nbsp;Самалі / Soomaaliya. Самалійская Дэмакратычная Рэспубліка','(677.8)','Самалі / Soomaaliya. Самалійская Дэмакратычная Рэспубліка','','','',false,true);
+d.add(483,469,'(677.9)','<div class="nodetag">(677.9)</div></span>&nbsp;&nbsp;Джыбуці. Рэспубліка Джыбуці / Jumhouriyya Djibouti','(677.9)','Джыбуці. Рэспубліка Джыбуці / Jumhouriyya Djibouti','','','',false,true);
+d.add(484,469,'(678)','<div class="nodetag">(678)</div></span>&nbsp;&nbsp;Танзанія. Аб\'яднаная Рэспубліка Танзанія','(678)','Танзанія. Аб\'яднаная Рэспубліка Танзанія','','','',false,true);
+d.add(485,469,'(679)','<div class="nodetag">(679)</div></span>&nbsp;&nbsp;Мазамбік. Рэспубліка Мазамбік / República de Moçambique','(679)','Мазамбік. Рэспубліка Мазамбік / República de Moçambique','','','',false,true);
+d.add(486,438,'(68)','<div class="nodetag">(68)</div></span>&nbsp;&nbsp;Паўднёваафрыканскія краіны і тэрыторыі','(68)','Паўднёваафрыканскія краіны і тэрыторыі','','','',false,true);
+d.add(487,486,'(680)','<div class="nodetag">(680)</div></span>&nbsp;&nbsp;Паўднёвая Афрыка. Паўднёва-Афрыканская Рэспубліка','(680)','Паўднёвая Афрыка. Паўднёва-Афрыканская Рэспубліка','','','',false,true);
+d.add(488,486,'(688.1)','<div class="nodetag">(688.1)</div></span>&nbsp;&nbsp;Намібія. Рэспубліка Намібія','(688.1)','Намібія. Рэспубліка Намібія','','','',false,true);
+d.add(489,486,'(688.3)','<div class="nodetag">(688.3)</div></span>&nbsp;&nbsp;Батсвана. Рэспубліка Батсвана / Lefatshe la Botswana','(688.3)','Батсвана. Рэспубліка Батсвана / Lefatshe la Botswana','','','',false,true);
+d.add(490,486,'(688.5)','<div class="nodetag">(688.5)</div></span>&nbsp;&nbsp;Лесота. Каралеўства Лесота / Muso oa Lesotho','(688.5)','Лесота. Каралеўства Лесота / Muso oa Lesotho','','','',false,true);
+d.add(491,486,'(688.7)','<div class="nodetag">(688.7)</div></span>&nbsp;&nbsp;Свазіленд. Каралеўства Свазіленд / Umbuso weSwatini','(688.7)','Свазіленд. Каралеўства Свазіленд / Umbuso weSwatini','','','',false,true);
+d.add(492,486,'(689.1)','<div class="nodetag">(689.1)</div></span>&nbsp;&nbsp;Зімбабвэ. Рэспубліка Зімбабвэ','(689.1)','Зімбабвэ. Рэспубліка Зімбабвэ','','','',false,true);
+d.add(493,486,'(689.4)','<div class="nodetag">(689.4)</div></span>&nbsp;&nbsp;Замбія. Рэспубліка Замбія','(689.4)','Замбія. Рэспубліка Замбія','','','',false,true);
+d.add(494,486,'(689.7)','<div class="nodetag">(689.7)</div></span>&nbsp;&nbsp;Малаві. Рэспубліка Малаві','(689.7)','Малаві. Рэспубліка Малаві','','','',false,true);
+d.add(495,438,'(69)','<div class="nodetag">(69)</div></span>&nbsp;&nbsp;Афрыканскія астравы ў Індыйскім акіяне і ў паўднёвых водах Атлантычнага акіяна','(69)','Афрыканскія астравы ў Індыйскім акіяне і ў паўднёвых водах Атлантычнага акіяна','','','',false,true);
+d.add(496,495,'(691)','<div class="nodetag">(691)</div></span>&nbsp;&nbsp;Мадагаскар. Дэмакратычная Рэспубліка Мадагаскар / Repoblikan\'i Madagasikara','(691)','Мадагаскар. Дэмакратычная Рэспубліка Мадагаскар / Repoblikan\'i Madagasikara','','','',false,true);
+d.add(497,495,'(694)','<div class="nodetag">(694)</div></span>&nbsp;&nbsp;Астравы на поўнач ад Мадагаскара','(694)','Астравы на поўнач ад Мадагаскара','','','',false,true);
+d.add(498,495,'(696)','<div class="nodetag">(696)</div></span>&nbsp;&nbsp;Сейшэльскія Астравы. Рэспубліка Сейшэльскія Астравы / République des Seychelles','(696)','Сейшэльскія Астравы. Рэспубліка Сейшэльскія Астравы / République des Seychelles','','','',false,true);
+d.add(499,495,'(697)','<div class="nodetag">(697)</div></span>&nbsp;&nbsp;Брытанская тэрыторыя ў Індыйскім Акіяне','(697)','Брытанская тэрыторыя ў Індыйскім Акіяне','','','',false,true);
+d.add(500,495,'(698)','<div class="nodetag">(698)</div></span>&nbsp;&nbsp;Маскарэнскія Астравы','(698)','Маскарэнскія Астравы','','','',false,true);
+d.add(501,500,'(698.1)','<div class="nodetag">(698.1)</div></span>&nbsp;&nbsp;Рэюньён (рэгіён і дэпартамент) (Францыя)','(698.1)','Рэюньён (рэгіён і дэпартамент) (Францыя)','','','',false,true);
+d.add(502,500,'(698.2)','<div class="nodetag">(698.2)</div></span>&nbsp;&nbsp;Маўрыкій. Рэспубліка Маўрыкій / République de Maurice','(698.2)','Маўрыкій. Рэспубліка Маўрыкій / République de Maurice','','','',false,true);
+d.add(503,495,'(699)','<div class="nodetag">(699)</div></span>&nbsp;&nbsp;Асобныя астравы ў паўднёвых частках Індыйскага і Ціхага акіянаў','(699)','Асобныя астравы ў паўднёвых частках Індыйскага і Ціхага акіянаў','','','',false,true);
+d.add(504,326,'(7/8)','<div class="nodetag">(7/8)</div></span>&nbsp;&nbsp;Паўночная і Паўднёвая Амерыкі','(7/8)','Паўночная і Паўднёвая Амерыкі','','','',false,true);
+d.add(505,504,'(7)','<div class="nodetag">(7)</div></span>&nbsp;&nbsp;Паўночная і Цэнтральная Амерыка','(7)','Паўночная і Цэнтральная Амерыка','','','',false,true);
+d.add(506,505,'(71)','<div class="nodetag">(71)</div></span>&nbsp;&nbsp;Канада','(71)','Канада','','','',false,true);
+d.add(507,505,'(72)','<div class="nodetag">(72)</div></span>&nbsp;&nbsp;Мексіка. Краіны Цэнтральнай Амерыкі. Тэрыторыі Карыбаў','(72)','Мексіка. Краіны Цэнтральнай Амерыкі. Тэрыторыі Карыбаў','','','',false,true);
+d.add(508,507,'(721/727)','<div class="nodetag">(721/727)</div></span>&nbsp;&nbsp;Мексіка / México / Méjico. Мексіканскія Злучаныя Штаты / Estados Unidos Mexicanos','(721/727)','Мексіка / México / Méjico. Мексіканскія Злучаныя Штаты / Estados Unidos Mexicanos','','','',false,true);
+d.add(509,507,'(728)','<div class="nodetag">(728)</div></span>&nbsp;&nbsp;Краіны Цэнтральнай Амерыкі','(728)','Краіны Цэнтральнай Амерыкі','','','',false,true);
+d.add(510,509,'(728.1)','<div class="nodetag">(728.1)</div></span>&nbsp;&nbsp;Гватэмала. Рэспубліка Гватэмала / República de Guatemala','(728.1)','Гватэмала. Рэспубліка Гватэмала / República de Guatemala','','','',false,true);
+d.add(511,509,'(728.2)','<div class="nodetag">(728.2)</div></span>&nbsp;&nbsp;Беліз / Belice','(728.2)','Беліз / Belice','','','',false,true);
+d.add(512,509,'(728.3)','<div class="nodetag">(728.3)</div></span>&nbsp;&nbsp;Гандурас. Рэспубліка Гандурас / República de Honduras','(728.3)','Гандурас. Рэспубліка Гандурас / República de Honduras','','','',false,true);
+d.add(513,509,'(728.4)','<div class="nodetag">(728.4)</div></span>&nbsp;&nbsp;Сальвадор. Рэспубліка Эль-Сальвадор / República de El Salvador','(728.4)','Сальвадор. Рэспубліка Эль-Сальвадор / República de El Salvador','','','',false,true);
+d.add(514,509,'(728.5)','<div class="nodetag">(728.5)</div></span>&nbsp;&nbsp;Нікарагуа. Рэспубліка Нікарагуа / República de Nicaragua','(728.5)','Нікарагуа. Рэспубліка Нікарагуа / República de Nicaragua','','','',false,true);
+d.add(515,509,'(728.6)','<div class="nodetag">(728.6)</div></span>&nbsp;&nbsp;Коста-Рыка. Рэспубліка Коста-Рыка / República de Costa Rica','(728.6)','Коста-Рыка. Рэспубліка Коста-Рыка / República de Costa Rica','','','',false,true);
+d.add(516,509,'(728.7)','<div class="nodetag">(728.7)</div></span>&nbsp;&nbsp;Панама / Panamá. Рэспубліка Панама / República de Panamá','(728.7)','Панама / Panamá. Рэспубліка Панама / República de Panamá','','','',false,true);
+d.add(517,507,'(729)','<div class="nodetag">(729)</div></span>&nbsp;&nbsp;Карыбскія тэрыторыі. Вест-Індыя (Антыльскія астравы)','(729)','Карыбскія тэрыторыі. Вест-Індыя (Антыльскія астравы)','','','',false,true);
+d.add(518,517,'(729.1/.5)','<div class="nodetag">(729.1/.5)</div></span>&nbsp;&nbsp;Вялікія Антыльскія астравы','(729.1/.5)','Вялікія Антыльскія астравы','','','',false,true);
+d.add(519,518,'(729.1)','<div class="nodetag">(729.1)</div></span>&nbsp;&nbsp;Куба. Рэспубліка Куба / República de Cuba','(729.1)','Куба. Рэспубліка Куба / República de Cuba','','','',false,true);
+d.add(520,518,'(729.2)','<div class="nodetag">(729.2)</div></span>&nbsp;&nbsp;Ямайка','(729.2)','Ямайка','','','',false,true);
+d.add(521,518,'(729.29)','<div class="nodetag">(729.29)</div></span>&nbsp;&nbsp;Кайманавы астравы (Вялікабрытанія)','(729.29)','Кайманавы астравы (Вялікабрытанія)','','','',false,true);
+d.add(522,518,'(729.3/.4)','<div class="nodetag">(729.3/.4)</div></span>&nbsp;&nbsp;Эспаньёла','(729.3/.4)','Эспаньёла','','','',false,true);
+d.add(523,522,'(729.3)','<div class="nodetag">(729.3)</div></span>&nbsp;&nbsp;Дамініканская Рэспубліка','(729.3)','Дамініканская Рэспубліка','','','',false,true);
+d.add(524,522,'(729.4)','<div class="nodetag">(729.4)</div></span>&nbsp;&nbsp;Гаіці. Рэспубліка Гаіці','(729.4)','Гаіці. Рэспубліка Гаіці','','','',false,true);
+d.add(525,518,'(729.5)','<div class="nodetag">(729.5)</div></span>&nbsp;&nbsp;Пуэрта-Рыка. Садружнасць Пуэрта-Рыка (ЗША)','(729.5)','Пуэрта-Рыка. Садружнасць Пуэрта-Рыка (ЗША)','','','',false,true);
+d.add(526,517,'(729.68)','<div class="nodetag">(729.68)</div></span>&nbsp;&nbsp;Цёркс і Кайкас (Вялікабрытанія)','(729.68)','Цёркс і Кайкас (Вялікабрытанія)','','','',false,true);
+d.add(527,517,'(729.7/.8)','<div class="nodetag">(729.7/.8)</div></span>&nbsp;&nbsp;Малыя Антыльскія астравы (Усходнія Карыбы)','(729.7/.8)','Малыя Антыльскія астравы (Усходнія Карыбы)','','','',false,true);
+d.add(528,527,'(729.7)','<div class="nodetag">(729.7)</div></span>&nbsp;&nbsp;Падветраныя астравы','(729.7)','Падветраныя астравы','','','',false,true);
+d.add(529,528,'(729.71)','<div class="nodetag">(729.71)</div></span>&nbsp;&nbsp;Амерыканскія Віргінскія астравы (ЗША)','(729.71)','Амерыканскія Віргінскія астравы (ЗША)','','','',false,true);
+d.add(530,528,'(729.724)','<div class="nodetag">(729.724)</div></span>&nbsp;&nbsp;Сент-Кітс і Невіс. Федэрацыя Сент-Кітс і Невіс','(729.724)','Сент-Кітс і Невіс. Федэрацыя Сент-Кітс і Невіс','','','',false,true);
+d.add(531,528,'(729.726)','<div class="nodetag">(729.726)</div></span>&nbsp;&nbsp;Антыгуа і Барбуда','(729.726)','Антыгуа і Барбуда','','','',false,true);
+d.add(532,528,'(729.727)','<div class="nodetag">(729.727)</div></span>&nbsp;&nbsp;Мантсерат (Вялікабрытанія)','(729.727)','Мантсерат (Вялікабрытанія)','','','',false,true);
+d.add(533,528,'(729.74)','<div class="nodetag">(729.74)</div></span>&nbsp;&nbsp;Французскія тэрыторыі на Малых Антыльскіх астравах','(729.74)','Французскія тэрыторыі на Малых Антыльскіх астравах','','','',false,true);
+d.add(534,533,'(729.741)','<div class="nodetag">(729.741)</div></span>&nbsp;&nbsp;Гвадэлупа (рэгіён і дэпартамент) (Францыя)','(729.741)','Гвадэлупа (рэгіён і дэпартамент) (Францыя)','','','',false,true);
+d.add(535,533,'(729.745)','<div class="nodetag">(729.745)</div></span>&nbsp;&nbsp;Марцініка (рэгіён і дэпартамент) (Францыя)','(729.745)','Марцініка (рэгіён і дэпартамент) (Францыя)','','','',false,true);
+d.add(536,527,'(729.8)','<div class="nodetag">(729.8)</div></span>&nbsp;&nbsp;Наветраныя астравы','(729.8)','Наветраныя астравы','','','',false,true);
+d.add(537,536,'(729.821)','<div class="nodetag">(729.821)</div></span>&nbsp;&nbsp;Дамініка. Садружнасць Дамінікі','(729.821)','Дамініка. Садружнасць Дамінікі','','','',false,true);
+d.add(538,536,'(729.822)','<div class="nodetag">(729.822)</div></span>&nbsp;&nbsp;Сент-Люсія. Дзяржава Сент-Люсія','(729.822)','Сент-Люсія. Дзяржава Сент-Люсія','','','',false,true);
+d.add(539,536,'(729.824)','<div class="nodetag">(729.824)</div></span>&nbsp;&nbsp;Востраў Сент-Вінсент. Сент-Вінсент і Грэнадзіны','(729.824)','Востраў Сент-Вінсент. Сент-Вінсент і Грэнадзіны','','','',false,true);
+d.add(540,536,'(729.828)','<div class="nodetag">(729.828)</div></span>&nbsp;&nbsp;Грэнада','(729.828)','Грэнада','','','',false,true);
+d.add(541,536,'(729.86)','<div class="nodetag">(729.86)</div></span>&nbsp;&nbsp;Барбадос','(729.86)','Барбадос','','','',false,true);
+d.add(542,536,'(729.87)','<div class="nodetag">(729.87)</div></span>&nbsp;&nbsp;Трынідад і Табага. Рэспубліка Трынідад і Табага','(729.87)','Трынідад і Табага. Рэспубліка Трынідад і Табага','','','',false,true);
+d.add(543,536,'(729.88)','<div class="nodetag">(729.88)</div></span>&nbsp;&nbsp;Нідэрландскія тэрыторыі на Малых Антыльскіх астравах / Nederlandse Antillen / Antia Hulandes','(729.88)','Нідэрландскія тэрыторыі на Малых Антыльскіх астравах / Nederlandse Antillen / Antia Hulandes','','','',false,true);
+d.add(544,543,'(729.885)','<div class="nodetag">(729.885)</div></span>&nbsp;&nbsp;Аруба (Каралеўства Нідэрландаў)','(729.885)','Аруба (Каралеўства Нідэрландаў)','','','',false,true);
+d.add(545,517,'(729.9)','<div class="nodetag">(729.9)</div></span>&nbsp;&nbsp;Бермуды. Бермудскія астравы (астравы Сомерс) (Вялікабрытанія)','(729.9)','Бермуды. Бермудскія астравы (астравы Сомерс) (Вялікабрытанія)','','','',false,true);
+d.add(546,505,'(73)','<div class="nodetag">(73)</div></span>&nbsp;&nbsp;Злучаныя Штаты Амерыкі (ЗША)','(73)','Злучаныя Штаты Амерыкі (ЗША)','','','',false,true);
+d.add(547,504,'(8)','<div class="nodetag">(8)</div></span>&nbsp;&nbsp;Паўднёвая Амерыка','(8)','Паўднёвая Амерыка','','','',false,true);
+d.add(548,547,'(81)','<div class="nodetag">(81)</div></span>&nbsp;&nbsp;Бразілія. Федэратыўная Рэспубліка Бразілія / República Federativa do Brasil','(81)','Бразілія. Федэратыўная Рэспубліка Бразілія / República Federativa do Brasil','','','',false,true);
+d.add(549,547,'(82)','<div class="nodetag">(82)</div></span>&nbsp;&nbsp;Аргенціна. Аргенцінская Рэспубліка / República Argentina','(82)','Аргенціна. Аргенцінская Рэспубліка / República Argentina','','','',false,true);
+d.add(550,547,'(83)','<div class="nodetag">(83)</div></span>&nbsp;&nbsp;Чылі. Рэспубліка Чылі / República de Chile','(83)','Чылі. Рэспубліка Чылі / República de Chile','','','',false,true);
+d.add(551,547,'(84)','<div class="nodetag">(84)</div></span>&nbsp;&nbsp;Балівія. Шматнацыянальная Дзяржава Балівія / Estado Plurinacional de Bolivia / Bulibya Mamallaqta / Wuliwya Suyu / Tetã Volívia','(84)','Балівія. Шматнацыянальная Дзяржава Балівія / Estado Plurinacional de Bolivia / Bulibya Mamallaqta / Wuliwya Suyu / Tetã Volívia','','','',false,true);
+d.add(552,547,'(85)','<div class="nodetag">(85)</div></span>&nbsp;&nbsp;Перу. Рэспубліка Перу / República del Perú','(85)','Перу. Рэспубліка Перу / República del Perú','','','',false,true);
+d.add(553,547,'(862)','<div class="nodetag">(862)</div></span>&nbsp;&nbsp;Калумбія. Рэспубліка Калумбія / República de Colombia','(862)','Калумбія. Рэспубліка Калумбія / República de Colombia','','','',false,true);
+d.add(554,547,'(866)','<div class="nodetag">(866)</div></span>&nbsp;&nbsp;Эквадор. Рэспубліка Эквадор / República del Ecuador','(866)','Эквадор. Рэспубліка Эквадор / República del Ecuador','','','',false,true);
+d.add(555,547,'(87)','<div class="nodetag">(87)</div></span>&nbsp;&nbsp;Венесуэла. Баліварыянская Рэспубліка Венесуэла / República Bolivariana de Venezuela','(87)','Венесуэла. Баліварыянская Рэспубліка Венесуэла / República Bolivariana de Venezuela','','','',false,true);
+d.add(556,547,'(88)','<div class="nodetag">(88)</div></span>&nbsp;&nbsp;Рэгіён Гвіяны','(88)','Рэгіён Гвіяны','','','',false,true);
+d.add(557,556,'(881)','<div class="nodetag">(881)</div></span>&nbsp;&nbsp;Гаяна. Кааператыўная Рэспубліка Гаяна','(881)','Гаяна. Кааператыўная Рэспубліка Гаяна','','','',false,true);
+d.add(558,556,'(882)','<div class="nodetag">(882)</div></span>&nbsp;&nbsp;Французская Гвіяна / Guyane française','(882)','Французская Гвіяна / Guyane française','','','',false,true);
+d.add(559,556,'(883)','<div class="nodetag">(883)</div></span>&nbsp;&nbsp;Сурынам / Sranan. Рэспубліка Сурынам / Republiek Suriname','(883)','Сурынам / Sranan. Рэспубліка Сурынам / Republiek Suriname','','','',false,true);
+d.add(560,547,'(893)','<div class="nodetag">(893)</div></span>&nbsp;&nbsp;Парагвай. Рэспубліка Парагвай / República del Paraguay / Tetã Paraguái','(893)','Парагвай. Рэспубліка Парагвай / República del Paraguay / Tetã Paraguái','','','',false,true);
+d.add(561,547,'(899)','<div class="nodetag">(899)</div></span>&nbsp;&nbsp;Уругвай. Усходняя Рэспубліка Уругвай / República Oriental del Uruguay','(899)','Уругвай. Усходняя Рэспубліка Уругвай / República Oriental del Uruguay','','','',false,true);
+d.add(562,326,'(9)','<div class="nodetag">(9)</div></span>&nbsp;&nbsp;Краіны і рэгіёны паўднёвай часткі Ціхага Акіяна. Аўстралія. Арктыка і Антарктыка','(9)','Краіны і рэгіёны паўднёвай часткі Ціхага Акіяна. Аўстралія. Арктыка і Антарктыка','','','',false,true);
+d.add(563,562,'(931)','<div class="nodetag">(931)</div></span>&nbsp;&nbsp;Новая Зеландыя','(931)','Новая Зеландыя','','','',false,true);
+d.add(564,562,'(932/935)','<div class="nodetag">(932/935)</div></span>&nbsp;&nbsp;Меланэзія. Краіны і рэгіёны Меланэзіі','(932/935)','Меланэзія. Краіны і рэгіёны Меланэзіі','','','',false,true);
+d.add(565,562,'(94)','<div class="nodetag">(94)</div></span>&nbsp;&nbsp;Аўстралія. Садружнасць Аўстраліі','(94)','Аўстралія. Садружнасць Аўстраліі','','','',false,true);
+d.add(566,562,'(954)','<div class="nodetag">(954)</div></span>&nbsp;&nbsp;Папуа-Новая Гвінея. Незалежная Дзяржава Папуа-Новая Гвінея','(954)','Папуа-Новая Гвінея. Незалежная Дзяржава Папуа-Новая Гвінея','','','',false,true);
+d.add(567,562,'(961/964)','<div class="nodetag">(961/964)</div></span>&nbsp;&nbsp;Палінезія. Краіны і рэгіёны Палінезіі','(961/964)','Палінезія. Краіны і рэгіёны Палінезіі','','','',false,true);
+d.add(568,562,'(966/968)','<div class="nodetag">(966/968)</div></span>&nbsp;&nbsp;Мікранезія. Краіны і рэгіёны Мікранезіі','(966/968)','Мікранезія. Краіны і рэгіёны Мікранезіі','','','',false,true);
+d.add(569,562,'(97)','<div class="nodetag">(97)</div></span>&nbsp;&nbsp;Асобныя астравы Ціхага Акіяна','(97)','Асобныя астравы Ціхага Акіяна','','','',false,true);
+d.add(570,562,'(98)','<div class="nodetag">(98)</div></span>&nbsp;&nbsp;Арктычныя тэрыторыі','(98)','Арктычныя тэрыторыі','','','',false,true);
+d.add(571,570,'(988)','<div class="nodetag">(988)</div></span>&nbsp;&nbsp;Грэнландыя / Gronland (Данія)','(988)','Грэнландыя / Gronland (Данія)','','','',false,true);
+d.add(572,562,'(99)','<div class="nodetag">(99)</div></span>&nbsp;&nbsp;Антарктычныя тэрыторыі. Паўднёвыя палярныя рэгіёны','(99)','Антарктычныя тэрыторыі. Паўднёвыя палярныя рэгіёны','','','',false,true);
+d.add(573,0,'(=...)','<div class="nodetag">(=...)</div></span>&nbsp;&nbsp;Агульныя вызначальнікі расаў, народаў, этнічных груп і нацыянальнасцяў. Табліца 1f','(=...)','Агульныя вызначальнікі расаў, народаў, этнічных груп і нацыянальнасцяў. Табліца 1f','','','',false,true);
+d.add(574,573,'(=01)','<div class="nodetag">(=01)</div></span>&nbsp;&nbsp;Групы людзей у залежнасці ад паходжання','(=01)','Групы людзей у залежнасці ад паходжання','','','',false,true);
+d.add(575,574,'(=011)','<div class="nodetag">(=011)</div></span>&nbsp;&nbsp;Людзі еўрапейскага паходжання','(=011)','Людзі еўрапейскага паходжання','','','',false,true);
+d.add(576,574,'(=012)','<div class="nodetag">(=012)</div></span>&nbsp;&nbsp;Людзі азіяцкага паходжання','(=012)','Людзі азіяцкага паходжання','','','',false,true);
+d.add(577,574,'(=013)','<div class="nodetag">(=013)</div></span>&nbsp;&nbsp;Людзі афрыканскага паходжання','(=013)','Людзі афрыканскага паходжання','','','',false,true);
+d.add(578,574,'(=014)','<div class="nodetag">(=014)</div></span>&nbsp;&nbsp;Людзі родам з Акіяніі','(=014)','Людзі родам з Акіяніі','','','',false,true);
+d.add(579,574,'(=017)','<div class="nodetag">(=017)</div></span>&nbsp;&nbsp;Людзі родам з карэнных народаў Амерыкі','(=017)','Людзі родам з карэнных народаў Амерыкі','','','',false,true);
+d.add(580,573,'(=1/=8)','<div class="nodetag">(=1/=8)</div></span>&nbsp;&nbsp;Розныя культурна-моўныя групы, народы, этнічныя групоўкі','(=1/=8)','Розныя культурна-моўныя групы, народы, этнічныя групоўкі','','','',false,true);
+d.add(581,580,'(=1/=2)','<div class="nodetag">(=1/=2)</div></span>&nbsp;&nbsp;Індаеўрапейскія народы','(=1/=2)','Індаеўрапейскія народы','','','',false,true);
+d.add(582,581,'(=13)','<div class="nodetag">(=13)</div></span>&nbsp;&nbsp;Раманскія народы','(=13)','Раманскія народы','','','',false,true);
+d.add(583,573,'(=1:1/9)','<div class="nodetag">(=1:1/9)</div></span>&nbsp;&nbsp;Народы (насельніцтва, жыхары) пэўных фізіка-геаграфічных рэгіёнаў','(=1:1/9)','Народы (насельніцтва, жыхары) пэўных фізіка-геаграфічных рэгіёнаў','','','',false,true);
+d.add(584,0,'"..."','<div class="nodetag">"..."</div></span>&nbsp;&nbsp;Агульныя вызначальнікі часу. Табліца 1g','"..."','Агульныя вызначальнікі часу. Табліца 1g','','','',false,true);
+d.add(585,584,'"0/2"','<div class="nodetag">"0/2"</div></span>&nbsp;&nbsp;Даты і перыяды (н.э. або ад Н.Х.) у агульнапрынятым хрысціянскім (грыгарыянскім) летазлічэнні','"0/2"','Даты і перыяды (н.э. або ад Н.Х.) у агульнапрынятым хрысціянскім (грыгарыянскім) летазлічэнні','','','',false,true);
+d.add(586,585,'"0"','<div class="nodetag">"0"</div></span>&nbsp;&nbsp;Першае тысячагоддзе н.э.','"0"','Першае тысячагоддзе н.э.','','','',false,true);
+d.add(587,585,'"1"','<div class="nodetag">"1"</div></span>&nbsp;&nbsp;Другое тысячагоддзе н.э.','"1"','Другое тысячагоддзе н.э.','','','',false,true);
+d.add(588,585,'"2"','<div class="nodetag">"2"</div></span>&nbsp;&nbsp;Трэцяе тысячагоддзе н.э.','"2"','Трэцяе тысячагоддзе н.э.','','','',false,true);
+d.add(589,584,'"3/7"','<div class="nodetag">"3/7"</div></span>&nbsp;&nbsp;Падрадзяленні часу, адрозныя ад хрысціянскага (грыгарыянскага) летазлічэння','"3/7"','Падрадзяленні часу, адрозныя ад хрысціянскага (грыгарыянскага) летазлічэння','','','',false,true);
+d.add(590,589,'"3"','<div class="nodetag">"3"</div></span>&nbsp;&nbsp;Агульнапрынятыя дзяленні і падраздзяленні часу: праз нумарацыю, найменні і г.д.','"3"','Агульнапрынятыя дзяленні і падраздзяленні часу: праз нумарацыю, найменні і г.д.','','','',false,true);
+d.add(591,590,'"32"','<div class="nodetag">"32"</div></span>&nbsp;&nbsp;Год. Поры года і іншыя дзяленні году','"32"','Год. Поры года і іншыя дзяленні году','','','',false,true);
+d.add(592,591,'"321/324"','<div class="nodetag">"321/324"</div></span>&nbsp;&nbsp;Поры году','"321/324"','Поры году','','','',false,true);
+d.add(593,592,'"321"','<div class="nodetag">"321"</div></span>&nbsp;&nbsp;Вясна','"321"','Вясна','','','',false,true);
+d.add(594,592,'"322"','<div class="nodetag">"322"</div></span>&nbsp;&nbsp;Лета','"322"','Лета','','','',false,true);
+d.add(595,592,'"323"','<div class="nodetag">"323"</div></span>&nbsp;&nbsp;Восень','"323"','Восень','','','',false,true);
+d.add(596,592,'"324"','<div class="nodetag">"324"</div></span>&nbsp;&nbsp;Зіма','"324"','Зіма','','','',false,true);
+d.add(597,591,'"325"','<div class="nodetag">"325"</div></span>&nbsp;&nbsp;Кварталы (чвэрці року, трыместры)','"325"','Кварталы (чвэрці року, трыместры)','','','',false,true);
+d.add(598,591,'"327"','<div class="nodetag">"327"</div></span>&nbsp;&nbsp;Месяцы','"327"','Месяцы','','','',false,true);
+d.add(599,591,'"328"','<div class="nodetag">"328"</div></span>&nbsp;&nbsp;Тыдні','"328"','Тыдні','','','',false,true);
+d.add(600,591,'"329"','<div class="nodetag">"329"</div></span>&nbsp;&nbsp;Дні','"329"','Дні','','','',false,true);
+d.add(601,590,'"34"','<div class="nodetag">"34"</div></span>&nbsp;&nbsp;Дзённыя або начныя з\'явы. Гадзіны дня','"34"','Дзённыя або начныя з\'явы. Гадзіны дня','','','',false,true);
+d.add(602,601,'"344"','<div class="nodetag">"344"</div></span>&nbsp;&nbsp;Дзень. Дзённыя часы','"344"','Дзень. Дзённыя часы','','','',false,true);
+d.add(603,601,'"345"','<div class="nodetag">"345"</div></span>&nbsp;&nbsp;Ноч. Цёмны час сутак. Гадзіны змроку і паўзмроку','"345"','Ноч. Цёмны час сутак. Гадзіны змроку і паўзмроку','','','',false,true);
+d.add(604,590,'"36"','<div class="nodetag">"36"</div></span>&nbsp;&nbsp;Часы спакою, вайны, небяспекі, надзвычайных сітуацый і цяжкасцяў','"36"','Часы спакою, вайны, небяспекі, надзвычайных сітуацый і цяжкасцяў','','','',false,true);
+d.add(605,604,'"362"','<div class="nodetag">"362"</div></span>&nbsp;&nbsp;Мірны час. Часы, калі нічога не пагражае','"362"','Мірны час. Часы, калі нічога не пагражае','','','',false,true);
+d.add(606,604,'"363"','<div class="nodetag">"363"</div></span>&nbsp;&nbsp;Часы небяспекі, пагрозы','"363"','Часы небяспекі, пагрозы','','','',false,true);
+d.add(607,604,'"364"','<div class="nodetag">"364"</div></span>&nbsp;&nbsp;Ваенны час','"364"','Ваенны час','','','',false,true);
+d.add(608,604,'"367"','<div class="nodetag">"367"</div></span>&nbsp;&nbsp;Часы паводле ступені выкарыстання, загружанасці і патрэбы','"367"','Часы паводле ступені выкарыстання, загружанасці і патрэбы','','','',false,true);
+d.add(609,590,'"37"','<div class="nodetag">"37"</div></span>&nbsp;&nbsp;Часы працоўнай дзейнасці, вытворчых працэсаў, штодзённых спраў','"37"','Часы працоўнай дзейнасці, вытворчых працэсаў, штодзённых спраў','','','',false,true);
+d.add(610,609,'"372"','<div class="nodetag">"372"</div></span>&nbsp;&nbsp;Працоўныя гадзіны. Гадзіны абслугоўвання. Час працы','"372"','Працоўныя гадзіны. Гадзіны абслугоўвання. Час працы','','','',false,true);
+d.add(611,609,'"377"','<div class="nodetag">"377"</div></span>&nbsp;&nbsp;Часы адпачынку. Вольны час. Часы па-за працоўных гадзін','"377"','Часы адпачынку. Вольны час. Часы па-за працоўных гадзін','','','',false,true);
+d.add(612,590,'"38"','<div class="nodetag">"38"</div></span>&nbsp;&nbsp;Святы. Святочныя і памятныя даты','"38"','Святы. Святочныя і памятныя даты','','','',false,true);
+d.add(613,612,'"382"','<div class="nodetag">"382"</div></span>&nbsp;&nbsp;Рэлігійныя святы, святочныя і памятныя даты','"382"','Рэлігійныя святы, святочныя і памятныя даты','','','',false,true);
+d.add(614,612,'"383"','<div class="nodetag">"383"</div></span>&nbsp;&nbsp;Грамадскія, нацыянальныя ці рэгіянальныя святы (акрамя рэлігійных)','"383"','Грамадскія, нацыянальныя ці рэгіянальныя святы (акрамя рэлігійных)','','','',false,true);
+d.add(615,612,'"385"','<div class="nodetag">"385"</div></span>&nbsp;&nbsp;Асабістыя прыватныя святы, канікулы або часы адпачынку','"385"','Асабістыя прыватныя святы, канікулы або часы адпачынку','','','',false,true);
+d.add(616,589,'"4"','<div class="nodetag">"4"</div></span>&nbsp;&nbsp;Працягласць. Прамежак часу. Перыяд. Тэрмін. Узрост і ўзроставыя групы','"4"','Працягласць. Прамежак часу. Перыяд. Тэрмін. Узрост і ўзроставыя групы','','','',false,true);
+d.add(617,616,'"40"','<div class="nodetag">"40"</div></span>&nbsp;&nbsp;Адносная працягласць, перыяд і тэрмін','"40"','Адносная працягласць, перыяд і тэрмін','','','',false,true);
+d.add(618,617,'"401"','<div class="nodetag">"401"</div></span>&nbsp;&nbsp;Жыццё або існаванне з пэўным тэрмінам. Перыяд трываласці','"401"','Жыццё або існаванне з пэўным тэрмінам. Перыяд трываласці','','','',false,true);
+d.add(619,617,'"403"','<div class="nodetag">"403"</div></span>&nbsp;&nbsp;Кароткая працягласць. Кароткатэрміновы','"403"','Кароткая працягласць. Кароткатэрміновы','','','',false,true);
+d.add(620,617,'"404"','<div class="nodetag">"404"</div></span>&nbsp;&nbsp;Сярэдняя працягласць. Сярэднетэрміновы','"404"','Сярэдняя працягласць. Сярэднетэрміновы','','','',false,true);
+d.add(621,617,'"405"','<div class="nodetag">"405"</div></span>&nbsp;&nbsp;Доўгая працягласць. Доўгатэрміновы','"405"','Доўгая працягласць. Доўгатэрміновы','','','',false,true);
+d.add(622,617,'"408"','<div class="nodetag">"408"</div></span>&nbsp;&nbsp;Нявызначаная, неабмежаваная працягласць. Без пэўнага тэрміну','"408"','Нявызначаная, неабмежаваная працягласць. Без пэўнага тэрміну','','','',false,true);
+d.add(623,616,'"41"','<div class="nodetag">"41"</div></span>&nbsp;&nbsp;Працягласць у межах аднаго дню','"41"','Працягласць у межах аднаго дню','','','',false,true);
+d.add(624,616,'"42"','<div class="nodetag">"42"</div></span>&nbsp;&nbsp;Працягласць у днях','"42"','Працягласць у днях','','','',false,true);
+d.add(625,616,'"43"','<div class="nodetag">"43"</div></span>&nbsp;&nbsp;Працягласць у тыднях','"43"','Працягласць у тыднях','','','',false,true);
+d.add(626,616,'"44"','<div class="nodetag">"44"</div></span>&nbsp;&nbsp;Працягласць у месяцах','"44"','Працягласць у месяцах','','','',false,true);
+d.add(627,616,'"45"','<div class="nodetag">"45"</div></span>&nbsp;&nbsp;Працягласць у гадах, стагоддзях, тысячагоддзях і г.д.','"45"','Працягласць у гадах, стагоддзях, тысячагоддзях і г.д.','','','',false,true);
+d.add(628,616,'"46"','<div class="nodetag">"46"</div></span>&nbsp;&nbsp;Узросты і ўзроставыя групы людзей, адушаўлёных і неадушаўлёных прадметаў','"46"','Узросты і ўзроставыя групы людзей, адушаўлёных і неадушаўлёных прадметаў','','','',false,true);
+d.add(629,628,'"462"','<div class="nodetag">"462"</div></span>&nbsp;&nbsp;Узрост у днях','"462"','Узрост у днях','','','',false,true);
+d.add(630,628,'"463"','<div class="nodetag">"463"</div></span>&nbsp;&nbsp;Узрост у тыднях','"463"','Узрост у тыднях','','','',false,true);
+d.add(631,628,'"464"','<div class="nodetag">"464"</div></span>&nbsp;&nbsp;Узрост у месяцах','"464"','Узрост у месяцах','','','',false,true);
+d.add(632,628,'"465"','<div class="nodetag">"465"</div></span>&nbsp;&nbsp;Узрост у гадах і дзесяцігоддзях','"465"','Узрост у гадах і дзесяцігоддзях','','','',false,true);
+d.add(633,589,'"5"','<div class="nodetag">"5"</div></span>&nbsp;&nbsp;Перыядычнасць. Частата. Паўтаральнасць праз пэўныя інтэрвалы','"5"','Перыядычнасць. Частата. Паўтаральнасць праз пэўныя інтэрвалы','','','',false,true);
+d.add(634,633,'"51"','<div class="nodetag">"51"</div></span>&nbsp;&nbsp;Паўтарэнне праз прамежкі, меншыя чым адзін дзень. Часцей, чым штодня','"51"','Паўтарэнне праз прамежкі, меншыя чым адзін дзень. Часцей, чым штодня','','','',false,true);
+d.add(635,633,'"52"','<div class="nodetag">"52"</div></span>&nbsp;&nbsp;Паўтарэнне праз прамежкі часу, роўныя аднаму дню і больш (у днях)','"52"','Паўтарэнне праз прамежкі часу, роўныя аднаму дню і больш (у днях)','','','',false,true);
+d.add(636,633,'"53"','<div class="nodetag">"53"</div></span>&nbsp;&nbsp;Паўтарэнне праз прамежкі, роўныя аднаму тыдню або больш (у тыднях)','"53"','Паўтарэнне праз прамежкі, роўныя аднаму тыдню або больш (у тыднях)','','','',false,true);
+d.add(637,633,'"54"','<div class="nodetag">"54"</div></span>&nbsp;&nbsp;Паўтарэнне праз прамежкі, роўныя аднаму месяцу або больш (у месяцах)','"54"','Паўтарэнне праз прамежкі, роўныя аднаму месяцу або больш (у месяцах)','','','',false,true);
+d.add(638,633,'"55"','<div class="nodetag">"55"</div></span>&nbsp;&nbsp;Паўтарэнне праз прамежкі, роўныя аднаму году або больш (у гадах, стагоддзях, тысячагоддзях)','"55"','Паўтарэнне праз прамежкі, роўныя аднаму году або больш (у гадах, стагоддзях, тысячагоддзях)','','','',false,true);
+d.add(639,633,'"56"','<div class="nodetag">"56"</div></span>&nbsp;&nbsp;Паўтаральнасць у кожным пакаленні, жыцці і г.д. Жыццёвы цыкл','"56"','Паўтаральнасць у кожным пакаленні, жыцці і г.д. Жыццёвы цыкл','','','',false,true);
+d.add(640,589,'"6"','<div class="nodetag">"6"</div></span>&nbsp;&nbsp;Геалагічнае, археалагічнае і культуралагічнае дзяленне часу','"6"','Геалагічнае, археалагічнае і культуралагічнае дзяленне часу','','','',false,true);
+d.add(641,640,'"61/62"','<div class="nodetag">"61/62"</div></span>&nbsp;&nbsp;Геалагічнае дзяленне часу. Геахраналогія','"61/62"','Геалагічнае дзяленне часу. Геахраналогія','','','',false,true);
+d.add(642,641,'"61"','<div class="nodetag">"61"</div></span>&nbsp;&nbsp;Дакебрый (больш за 542 млн. гадоў да н.э.) (геалагічная эра)','"61"','Дакебрый (больш за 542 млн. гадоў да н.э.) (геалагічная эра)','','','',false,true);
+d.add(643,641,'"62"','<div class="nodetag">"62"</div></span>&nbsp;&nbsp;Фанеразой (542 млн. гадоў да н.э. - цяперашні час) (геалагічная эра)','"62"','Фанеразой (542 млн. гадоў да н.э. - цяперашні час) (геалагічная эра)','','','',false,true);
+d.add(644,643,'"621"','<div class="nodetag">"621"</div></span>&nbsp;&nbsp;Палеазой (542-251 млн. гадоў да н.э.) (эра)','"621"','Палеазой (542-251 млн. гадоў да н.э.) (эра)','','','',false,true);
+d.add(645,643,'"622"','<div class="nodetag">"622"</div></span>&nbsp;&nbsp;Мезазой (251-65.5 млн. гадоў да н.э.) (эра)','"622"','Мезазой (251-65.5 млн. гадоў да н.э.) (эра)','','','',false,true);
+d.add(646,643,'"628"','<div class="nodetag">"628"</div></span>&nbsp;&nbsp;Кайназой (65.5 млн. гадоў да н.э - цяперашні час)','"628"','Кайназой (65.5 млн. гадоў да н.э - цяперашні час)','','','',false,true);
+d.add(647,641,'"63"','<div class="nodetag">"63"</div></span>&nbsp;&nbsp;Археалагічныя, дагістарычныя, протагістарычныя перыяды і стагоддзі','"63"','Археалагічныя, дагістарычныя, протагістарычныя перыяды і стагоддзі','','','',false,true);
+d.add(648,640,'"67/69"','<div class="nodetag">"67/69"</div></span>&nbsp;&nbsp;Розныя віды летазлічэнняў: універсальнае, секулярнае, нецаркоўнае','"67/69"','Розныя віды летазлічэнняў: універсальнае, секулярнае, нецаркоўнае','','','',false,true);
+d.add(649,648,'"67"','<div class="nodetag">"67"</div></span>&nbsp;&nbsp;Універсальнае летазлічэнне. Да цяперашняга часу','"67"','Універсальнае летазлічэнне. Да цяперашняга часу','','','',false,true);
+d.add(650,648,'"68"','<div class="nodetag">"68"</div></span>&nbsp;&nbsp;Секулярныя летазлічэнні, адрозныя ад універсальнага і хрысціянскага (грыгарыянскага) календароў','"68"','Секулярныя летазлічэнні, адрозныя ад універсальнага і хрысціянскага (грыгарыянскага) календароў','','','',false,true);
+d.add(651,648,'"69"','<div class="nodetag">"69"</div></span>&nbsp;&nbsp;Нехрысціянскія (негрыгарыянскія) сістэмы злічэння дат і часу','"69"','Нехрысціянскія (негрыгарыянскія) сістэмы злічэння дат і часу','','','',false,true);
+d.add(652,589,'"7"','<div class="nodetag">"7"</div></span>&nbsp;&nbsp;З\'явы ў часе. Фенаменалогія часу','"7"','З\'явы ў часе. Фенаменалогія часу','','','',false,true);
+d.add(653,0,'-0...','<div class="nodetag">-0...</div></span>&nbsp;&nbsp;Агульнапрынятыя вызначальнікі распаўсюджаных характарыстык','-0...','Агульнапрынятыя вызначальнікі распаўсюджаных характарыстык','','','',false,true);
+d.add(654,653,'-02','<div class="nodetag">-02</div></span>&nbsp;&nbsp;Уласцівасці','-02','Уласцівасці','','','',false,true);
+d.add(655,654,'-021','<div class="nodetag">-021</div></span>&nbsp;&nbsp;Уласцівасці існавання','-021','Уласцівасці існавання','','','',false,true);
+d.add(656,654,'-022','<div class="nodetag">-022</div></span>&nbsp;&nbsp;Уласцівасці велічыні, ступені, колькасці, ліку, памеру, часавых значэнняў','-022','Уласцівасці велічыні, ступені, колькасці, ліку, памеру, часавых значэнняў','','','',false,true);
+d.add(657,654,'-023','<div class="nodetag">-023</div></span>&nbsp;&nbsp;Уласцівасці формы','-023','Уласцівасці формы','','','',false,true);
+d.add(658,654,'-024','<div class="nodetag">-024</div></span>&nbsp;&nbsp;Уласцівасці структуры','-024','Уласцівасці структуры','','','',false,true);
+d.add(659,654,'-025','<div class="nodetag">-025</div></span>&nbsp;&nbsp;Уласцівасці ўпарадкавання (кампазіцыі)','-025','Уласцівасці ўпарадкавання (кампазіцыі)','','','',false,true);
+d.add(660,654,'-026','<div class="nodetag">-026</div></span>&nbsp;&nbsp;Уласцівасці дзеяння і руху','-026','Уласцівасці дзеяння і руху','','','',false,true);
+d.add(661,654,'-027','<div class="nodetag">-027</div></span>&nbsp;&nbsp;Аперацыйныя ўласцівасці','-027','Аперацыйныя ўласцівасці','','','',false,true);
+d.add(662,654,'-028','<div class="nodetag">-028</div></span>&nbsp;&nbsp;Уласцівасці стылю і падавання','-028','Уласцівасці стылю і падавання','','','',false,true);
+d.add(663,662,'-028.41','<div class="nodetag">-028.41</div></span>&nbsp;&nbsp;Падаванне ў даступным выглядзе','-028.41','Падаванне ў даступным выглядзе','','','',false,true);
+d.add(664,662,'-028.42','<div class="nodetag">-028.42</div></span>&nbsp;&nbsp;Падаванне ў навуковым выглядзе. Падаванне ў тэарэтычным выглядзе','-028.42','Падаванне ў навуковым выглядзе. Падаванне ў тэарэтычным выглядзе','','','',false,true);
+d.add(665,662,'-028.43','<div class="nodetag">-028.43</div></span>&nbsp;&nbsp;Падаванне ў выглядзе крытыкі. Падаванне з некрытычнай ацэнкай','-028.43','Падаванне ў выглядзе крытыкі. Падаванне з некрытычнай ацэнкай','','','',false,true);
+d.add(666,662,'-028.44','<div class="nodetag">-028.44</div></span>&nbsp;&nbsp;Падаванне ў выглядзе апісання','-028.44','Падаванне ў выглядзе апісання','','','',false,true);
+d.add(667,662,'-028.45','<div class="nodetag">-028.45</div></span>&nbsp;&nbsp;Падаванне з аналітычнымі элементамі','-028.45','Падаванне з аналітычнымі элементамі','','','',false,true);
+d.add(668,662,'-028.46','<div class="nodetag">-028.46</div></span>&nbsp;&nbsp;Эмпірычны стыль. Прагматычны стыль','-028.46','Эмпірычны стыль. Прагматычны стыль','','','',false,true);
+d.add(669,662,'-028.47','<div class="nodetag">-028.47</div></span>&nbsp;&nbsp;Падаванне ў несістэмным выглядзе','-028.47','Падаванне ў несістэмным выглядзе','','','',false,true);
+d.add(670,662,'-028.5','<div class="nodetag">-028.5</div></span>&nbsp;&nbsp;Характарыстыкі аўтарства','-028.5','Характарыстыкі аўтарства','','','',false,true);
+d.add(671,662,'-028.6','<div class="nodetag">-028.6</div></span>&nbsp;&nbsp;Уласцівасці парадку, расстаноўкі','-028.6','Уласцівасці парадку, расстаноўкі','','','',false,true);
+d.add(672,654,'-029','<div class="nodetag">-029</div></span>&nbsp;&nbsp;Уласцівасці, вытворныя ад іншых асноўных класаў','-029','Уласцівасці, вытворныя ад іншых асноўных класаў','','','',false,true);
+d.add(673,653,'-03','<div class="nodetag">-03</div></span>&nbsp;&nbsp;Агульныя вызначальнікі матэрыялаў. Табліца 1k','-03','Агульныя вызначальнікі матэрыялаў. Табліца 1k','','','',false,true);
+d.add(674,673,'-032','<div class="nodetag">-032</div></span>&nbsp;&nbsp;Прыродныя матэрыялы неарганічнага паходжання','-032','Прыродныя матэрыялы неарганічнага паходжання','','','',false,true);
+d.add(675,673,'-033','<div class="nodetag">-033</div></span>&nbsp;&nbsp;Апрацаваныя матэрыялы неарганічнага паходжання','-033','Апрацаваныя матэрыялы неарганічнага паходжання','','','',false,true);
+d.add(676,673,'-034','<div class="nodetag">-034</div></span>&nbsp;&nbsp;Металы','-034','Металы','','','',false,true);
+d.add(677,673,'-035','<div class="nodetag">-035</div></span>&nbsp;&nbsp;Матэрыялы галоўным чынам арганічнага паходжання','-035','Матэрыялы галоўным чынам арганічнага паходжання','','','',false,true);
+d.add(678,673,'-036','<div class="nodetag">-036</div></span>&nbsp;&nbsp;Вялікамалекульныя матэрыялы. Полімерыны. Гумы. Пластмасы','-036','Вялікамалекульныя матэрыялы. Полімерыны. Гумы. Пластмасы','','','',false,true);
+d.add(679,673,'-037','<div class="nodetag">-037</div></span>&nbsp;&nbsp;Тэкстыльныя матэрыялы. Валокны. Прадзіва. Тканіны. Палатно','-037','Тэкстыльныя матэрыялы. Валокны. Прадзіва. Тканіны. Палатно','','','',false,true);
+d.add(680,653,'-04','<div class="nodetag">-04</div></span>&nbsp;&nbsp;Агульныя вызначальнікі адносін, працэсаў і аперацый. Табліца 1k','-04','Агульныя вызначальнікі адносін, працэсаў і аперацый. Табліца 1k','','','',false,true);
+d.add(681,680,'-042','<div class="nodetag">-042</div></span>&nbsp;&nbsp;Фазавыя адносіны','-042','Фазавыя адносіны','','','',false,true);
+d.add(682,681,'-042.1','<div class="nodetag">-042.1</div></span>&nbsp;&nbsp;Фаза зрушэння. Спецыялізацыя','-042.1','Фаза зрушэння. Спецыялізацыя','','','',false,true);
+d.add(683,681,'-042.2','<div class="nodetag">-042.2</div></span>&nbsp;&nbsp;Фаза параўнання. Параўнанне','-042.2','Фаза параўнання. Параўнанне','','','',false,true);
+d.add(684,681,'-042.3','<div class="nodetag">-042.3</div></span>&nbsp;&nbsp;Фаза ўздзеяння. Уздзеянне','-042.3','Фаза ўздзеяння. Уздзеянне','','','',false,true);
+d.add(685,681,'-042.4','<div class="nodetag">-042.4</div></span>&nbsp;&nbsp;Фаза апісання. Апісанне як прылада','-042.4','Фаза апісання. Апісанне як прылада','','','',false,true);
+d.add(686,681,'-042.5/.8','<div class="nodetag">-042.5/.8</div></span>&nbsp;&nbsp;Іншыя спосабы апісання ўзаемаадносін паміж аб\'ектамі','-042.5/.8','Іншыя спосабы апісання ўзаемаадносін паміж аб\'ектамі','','','',false,true);
+d.add(687,680,'-043','<div class="nodetag">-043</div></span>&nbsp;&nbsp;Агульныя працэсы','-043','Агульныя працэсы','','','',false,true);
+d.add(688,687,'-043.8/.9','<div class="nodetag">-043.8/.9</div></span>&nbsp;&nbsp;Працэсы, звязаныя з існаваннем','-043.8/.9','Працэсы, звязаныя з існаваннем','','','',false,true);
+d.add(689,680,'-044.3','<div class="nodetag">-044.3</div></span>&nbsp;&nbsp;Працэсы, звязаныя з ацэнкай','-044.3','Працэсы, звязаныя з ацэнкай','','','',false,true);
+d.add(690,680,'-044.4','<div class="nodetag">-044.4</div></span>&nbsp;&nbsp;Працэсы, звязаныя з упарадкаваннем і паслядоўнасцю','-044.4','Працэсы, звязаныя з упарадкаваннем і паслядоўнасцю','','','',false,true);
+d.add(691,680,'-044.5','<div class="nodetag">-044.5</div></span>&nbsp;&nbsp;Працэсы, звязаныя з велічынёй','-044.5','Працэсы, звязаныя з велічынёй','','','',false,true);
+d.add(692,680,'-044.6','<div class="nodetag">-044.6</div></span>&nbsp;&nbsp;Працэсы, звязаныя з колькасцю і ступенню параўнання','-044.6','Працэсы, звязаныя з колькасцю і ступенню параўнання','','','',false,true);
+d.add(693,680,'-044.7','<div class="nodetag">-044.7</div></span>&nbsp;&nbsp;Працэсы, звязаныя з часам і храналогіяй','-044.7','Працэсы, звязаныя з часам і храналогіяй','','','',false,true);
+d.add(694,680,'-044.8','<div class="nodetag">-044.8</div></span>&nbsp;&nbsp;Працэсы, звязаныя з памерам','-044.8','Працэсы, звязаныя з памерам','','','',false,true);
+d.add(695,680,'-044.9','<div class="nodetag">-044.9</div></span>&nbsp;&nbsp;Працэсы, звязаныя з формай','-044.9','Працэсы, звязаныя з формай','','','',false,true);
+d.add(696,680,'-045','<div class="nodetag">-045</div></span>&nbsp;&nbsp;Працэсы, звязаныя з месцазнаходжаннем, размяшчэннем, зменай становішча і рухам, фізічнымі ўласцівасцямі, станам рэчыва','-045','Працэсы, звязаныя з месцазнаходжаннем, размяшчэннем, зменай становішча і рухам, фізічнымі ўласцівасцямі, станам рэчыва','','','',false,true);
+d.add(697,680,'-047/-049','<div class="nodetag">-047/-049</div></span>&nbsp;&nbsp;Агульныя аперацыі і дзеянні','-047/-049','Агульныя аперацыі і дзеянні','','','',false,true);
+d.add(698,653,'-05','<div class="nodetag">-05</div></span>&nbsp;&nbsp;Агульныя вызначальнікі для асобаў і асабістых характарыстык. Табліца 1k','-05','Агульныя вызначальнікі для асобаў і асабістых характарыстык. Табліца 1k','','','',false,true);
+d.add(699,698,'-051','<div class="nodetag">-051</div></span>&nbsp;&nbsp;Асобы, якія аказваюць уздзеянне, уплыў. Дзейсныя асобы (якія вывучаюць, вырабляюць, абслугоўваюць і г.д.)','-051','Асобы, якія аказваюць уздзеянне, уплыў. Дзейсныя асобы (якія вывучаюць, вырабляюць, абслугоўваюць і г.д.)','','','',false,true);
+d.add(700,698,'-052','<div class="nodetag">-052</div></span>&nbsp;&nbsp;Асобы, якія перажываюць чыёсьці ўздзеянне, уплыў. Кліенты, карыстачы, спажыўцы (навучэнцы, асобы, якіх абслугоўваюць і г.д.)','-052','Асобы, якія перажываюць чыёсьці ўздзеянне, уплыў. Кліенты, карыстачы, спажыўцы (навучэнцы, асобы, якіх абслугоўваюць і г.д.)','','','',false,true);
+d.add(701,698,'-053','<div class="nodetag">-053</div></span>&nbsp;&nbsp;Асобы адпаведна з узростам або ўзроставай групай','-053','Асобы адпаведна з узростам або ўзроставай групай','','','',false,true);
+d.add(702,701,'-053.1','<div class="nodetag">-053.1</div></span>&nbsp;&nbsp;Людзі: народжаныя або ненароджаныя, якія жывуць або памерлі','-053.1','Людзі: народжаныя або ненароджаныя, якія жывуць або памерлі','','','',false,true);
+d.add(703,701,'-053.2','<div class="nodetag">-053.2</div></span>&nbsp;&nbsp;Дзеці і немаўляты ў цэлым','-053.2','Дзеці і немаўляты ў цэлым','','','',false,true);
+d.add(704,701,'-053.8','<div class="nodetag">-053.8</div></span>&nbsp;&nbsp;Дарослыя','-053.8','Дарослыя','','','',false,true);
+d.add(705,701,'-053.9','<div class="nodetag">-053.9</div></span>&nbsp;&nbsp;Старыя','-053.9','Старыя','','','',false,true);
+d.add(706,698,'-054','<div class="nodetag">-054</div></span>&nbsp;&nbsp;Асобы ў адпаведнасці з этнічнымі характарыстыкамі, нацыянальнасцю або грамадзянствам','-054','Асобы ў адпаведнасці з этнічнымі характарыстыкамі, нацыянальнасцю або грамадзянствам','','','',false,true);
+d.add(707,706,'-054.4','<div class="nodetag">-054.4</div></span>&nbsp;&nbsp;Сталыя жыхары дадзенай краіны. Рэзідэнты (якія маюць або не маюць права грамадзянства)','-054.4','Сталыя жыхары дадзенай краіны. Рэзідэнты (якія маюць або не маюць права грамадзянства)','','','',false,true);
+d.add(708,706,'-054.5','<div class="nodetag">-054.5</div></span>&nbsp;&nbsp;Грамадзяне дадзенай краіны','-054.5','Грамадзяне дадзенай краіны','','','',false,true);
+d.add(709,706,'-054.6','<div class="nodetag">-054.6</div></span>&nbsp;&nbsp;Асобы без права грамадзянства дадзенай краіны. Замежнікі','-054.6','Асобы без права грамадзянства дадзенай краіны. Замежнікі','','','',false,true);
+d.add(710,706,'-054.7','<div class="nodetag">-054.7</div></span>&nbsp;&nbsp;Экспатрыянты. Выгнанцы. Мігранты. Рэпатрыянты. Асобы без грамадзянства','-054.7','Экспатрыянты. Выгнанцы. Мігранты. Рэпатрыянты. Асобы без грамадзянства','','','',false,true);
+d.add(711,698,'-055','<div class="nodetag">-055</div></span>&nbsp;&nbsp;Асобы ў адпаведнасці з полам і роднаснымі адносінамі','-055','Асобы ў адпаведнасці з полам і роднаснымі адносінамі','','','',false,true);
+d.add(712,711,'-055.1','<div class="nodetag">-055.1</div></span>&nbsp;&nbsp;Асобы мужчынскага полу. Мужчыны','-055.1','Асобы мужчынскага полу. Мужчыны','','','',false,true);
+d.add(713,711,'-055.2','<div class="nodetag">-055.2</div></span>&nbsp;&nbsp;Жанчыны','-055.2','Жанчыны','','','',false,true);
+d.add(714,711,'-055.3','<div class="nodetag">-055.3</div></span>&nbsp;&nbsp;Асобы ў адпаведнасці з палавой арыентацыяй','-055.3','Асобы ў адпаведнасці з палавой арыентацыяй','','','',false,true);
+d.add(715,711,'-055.5','<div class="nodetag">-055.5</div></span>&nbsp;&nbsp;Асобы, якія знаходзяцца ва ўзыходзячым сваяцтве. Продкі','-055.5','Асобы, якія знаходзяцца ва ўзыходзячым сваяцтве. Продкі','','','',false,true);
+d.add(716,711,'-055.6','<div class="nodetag">-055.6</div></span>&nbsp;&nbsp;Асобы, якія знаходзяцца ў сыходным сваяцтве','-055.6','Асобы, якія знаходзяцца ў сыходным сваяцтве','','','',false,true);
+d.add(717,711,'-055.7','<div class="nodetag">-055.7</div></span>&nbsp;&nbsp;Асобы, якія знаходзяцца ў найбліжэйшым бакавым сваяцтве','-055.7','Асобы, якія знаходзяцца ў найбліжэйшым бакавым сваяцтве','','','',false,true);
+d.add(718,698,'-056','<div class="nodetag">-056</div></span>&nbsp;&nbsp;Асобы ў адпаведнасці з канстытуцыяй, станам здароўя, схільнасцямі, спадчыннасцю або іншымі прыкметамі','-056','Асобы ў адпаведнасці з канстытуцыяй, станам здароўя, схільнасцямі, спадчыннасцю або іншымі прыкметамі','','','',false,true);
+d.add(719,718,'-056.1','<div class="nodetag">-056.1</div></span>&nbsp;&nbsp;Асобы ў адпаведнасці з агульнай (нярвова-псіхічнай) канстытуцыяй, схільнасцямі або характарам','-056.1','Асобы ў адпаведнасці з агульнай (нярвова-псіхічнай) канстытуцыяй, схільнасцямі або характарам','','','',false,true);
+d.add(720,718,'-056.2','<div class="nodetag">-056.2</div></span>&nbsp;&nbsp;Асобы паводле фізічнага стану і стану здароўя','-056.2','Асобы паводле фізічнага стану і стану здароўя','','','',false,true);
+d.add(721,718,'-056.3','<div class="nodetag">-056.3</div></span>&nbsp;&nbsp;Асобы ў адпаведнасці з разумовымі здольнасцямі (інтэлектам) або псіхічным станам','-056.3','Асобы ў адпаведнасці з разумовымі здольнасцямі (інтэлектам) або псіхічным станам','','','',false,true);
+d.add(722,718,'-056.4','<div class="nodetag">-056.4</div></span>&nbsp;&nbsp;Асобы ў адпаведнасці з тэмпераментам або схільнасцямі','-056.4','Асобы ў адпаведнасці з тэмпераментам або схільнасцямі','','','',false,true);
+d.add(723,698,'-057','<div class="nodetag">-057</div></span>&nbsp;&nbsp;Асобы ў адпаведнасці з родам заняткаў, працай, крыніцамі прыбыткаў і адукацыяй','-057','Асобы ў адпаведнасці з родам заняткаў, працай, крыніцамі прыбыткаў і адукацыяй','','','',false,true);
+d.add(724,723,'-057.1','<div class="nodetag">-057.1</div></span>&nbsp;&nbsp;Асобы ў залежнасці ад характару працы, якую выконваюць, занятасці і адміністрацыйнага статусу','-057.1','Асобы ў залежнасці ад характару працы, якую выконваюць, занятасці і адміністрацыйнага статусу','','','',false,true);
+d.add(725,723,'-057.2','<div class="nodetag">-057.2</div></span>&nbsp;&nbsp;Тэхнічны персанал. Працаўнікі фізічнай ручной працы (&quot;сінія каўнерыкі&quot;)','-057.2','Тэхнічны персанал. Працаўнікі фізічнай ручной працы (&quot;сінія каўнерыкі&quot;)','','','',false,true);
+d.add(726,723,'-057.3','<div class="nodetag">-057.3</div></span>&nbsp;&nbsp;Канторскія і адміністрацыйныя працаўнікі. Клеркі. Супрацоўнікі офісаў (&quot;белыя каўнерыкі&quot;)','-057.3','Канторскія і адміністрацыйныя працаўнікі. Клеркі. Супрацоўнікі офісаў (&quot;белыя каўнерыкі&quot;)','','','',false,true);
+d.add(727,723,'-057.4','<div class="nodetag">-057.4</div></span>&nbsp;&nbsp;Спецыялісты з вышэйшай адукацыяй або навуковыя працаўнікі','-057.4','Спецыялісты з вышэйшай адукацыяй або навуковыя працаўнікі','','','',false,true);
+d.add(728,723,'-057.5','<div class="nodetag">-057.5</div></span>&nbsp;&nbsp;Асобы ў адпаведнасці з месцам іх працы, размяшчэннем іх прадпрыемстваў, установаў','-057.5','Асобы ў адпаведнасці з месцам іх працы, размяшчэннем іх прадпрыемстваў, установаў','','','',false,true);
+d.add(729,723,'-057.6','<div class="nodetag">-057.6</div></span>&nbsp;&nbsp;Асобы ў адпаведнасці з месцам жыхарства, з месцам працы або іншай дзейнасцю','-057.6','Асобы ў адпаведнасці з месцам жыхарства, з месцам працы або іншай дзейнасцю','','','',false,true);
+d.add(730,723,'-057.7','<div class="nodetag">-057.7</div></span>&nbsp;&nbsp;Асобы ў адпаведнасці з крыніцамі прыбыткаў або страхавым забеспячэннем','-057.7','Асобы ў адпаведнасці з крыніцамі прыбыткаў або страхавым забеспячэннем','','','',false,true);
+d.add(731,723,'-057.8','<div class="nodetag">-057.8</div></span>&nbsp;&nbsp;Асобы ў адпаведнасці з адукацыяй, прафесійнай падрыхтоўкай і кваліфікацыяй','-057.8','Асобы ў адпаведнасці з адукацыяй, прафесійнай падрыхтоўкай і кваліфікацыяй','','','',false,true);
+d.add(732,723,'-057.9','<div class="nodetag">-057.9</div></span>&nbsp;&nbsp;Асобы ў адпаведнасці з выкананнем службовых абавязкаў','-057.9','Асобы ў адпаведнасці з выкананнем службовых абавязкаў','','','',false,true);
+d.add(733,698,'-058','<div class="nodetag">-058</div></span>&nbsp;&nbsp;Асобы ў адпаведнасці з сацыяльным становішчам або грамадзянскім станам','-058','Асобы ў адпаведнасці з сацыяльным становішчам або грамадзянскім станам','','','',false,true);
+d.add(734,733,'-058.1','<div class="nodetag">-058.1</div></span>&nbsp;&nbsp;Асобы ў адпаведнасці з сацыяльным становішчам, класавай прыналежнасцю','-058.1','Асобы ў адпаведнасці з сацыяльным становішчам, класавай прыналежнасцю','','','',false,true);
+d.add(735,733,'-058.3','<div class="nodetag">-058.3</div></span>&nbsp;&nbsp;Асобы ў адпаведнасці з эканамічным становішчам (сродкі, бяспека, іншыя правы)','-058.3','Асобы ў адпаведнасці з эканамічным становішчам (сродкі, бяспека, іншыя правы)','','','',false,true);
+d.add(736,733,'-058.5','<div class="nodetag">-058.5</div></span>&nbsp;&nbsp;Асобы, якія адносяцца да маргінальных сацыяльна-эканамічным катэгорый','-058.5','Асобы, якія адносяцца да маргінальных сацыяльна-эканамічным катэгорый','','','',false,true);
+d.add(737,733,'-058.6','<div class="nodetag">-058.6</div></span>&nbsp;&nbsp;Ахвяры акалічнасцяў','-058.6','Ахвяры акалічнасцяў','','','',false,true);
+d.add(738,733,'-058.7','<div class="nodetag">-058.7</div></span>&nbsp;&nbsp;Матэрыяльна залежныя асобы. Утрыманцы','-058.7','Матэрыяльна залежныя асобы. Утрыманцы','','','',false,true);
+d.add(739,733,'-058.8','<div class="nodetag">-058.8</div></span>&nbsp;&nbsp;Асобы ў адпаведнасці са шлюбным, сямейным становішчам і іншымі відамі грамадзянскага стану','-058.8','Асобы ў адпаведнасці са шлюбным, сямейным становішчам і іншымі відамі грамадзянскага стану','','','',false,true);
+d.config.useSelection = false;
+d.config.inOrder = true;
+d.config.useIcons = false;
+document.write(d);
+//-->
+</script>
+</div>
+</div><div id="expandbox" onclick="expandbox(); return false;">&nbsp;</div>
+<div id="recordbox" class="debugbkg">
+<div class="fronthint">націсніце на клас злева, каб прагледзець запісы</div>
+</div>
+
+        <div id="footer">
+            <div class="footersectionleft">
+                The UDC Summary (UDCS) provides a selection of around 2,600 classes from the whole scheme which comprises more than 70,000 entries.
+                Please send questions and suggestions to <a href="mailto:udcs@udcc.org?subject=UDC Summary Enquiry">udcs@udcc.org</a><br><br>
+	            <p>
+		            The data provided in this Summary is released under the <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative Commons Attribution Share Alike 3.0 license</a> <a href="../about.htm">[more]</a>
+	            </p>
+            </div>
+            <div class="footermiddle">
+                <a href="http://www.udcc.org"><img src="../images/udclogowhite.png" border="0"></a>
+            </div>
+			<div class="footerright">
+                For complete UDC schedules see <a href="http://www.udc-hub.com/">UDC Online Hub</a><br/><a href="http://www.udc-hub.com/"><img width="60" height="35" src="../images/udclogo.png"/></a>
+
+			</div>
+        </div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-13138465-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>

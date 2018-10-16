@@ -1,0 +1,654 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>UDC Summary</title>
+    <link rel="stylesheet" href="../reset.css" type="text/css" />
+    <link rel="stylesheet" href="../udc2000.css" type="text/css" />
+	    <link rel="StyleSheet" href="dtree2.css" type="text/css" />
+	    <script type="text/javascript" src="dtree.js"></script>
+	    <script type="text/javascript" src="udcdisplay_9.js"></script>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+</head>
+
+<body >
+<div id="centercontainer" class="debugbkg">
+    <div id="titlebox" class="debugbkg">
+		<div id="rightbox">
+        	<div id="languagecount">57 languages</div>
+            <div id="languagebox">
+            <select id="selectedlang" style="vertical-align: middle;" onchange="location = this.options[this.selectedIndex].value;">
+			<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=af&pr=Y">Afrikaans (Afrikaans) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sq&pr=Y">Albanian (Shqip) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=anp&pr=Y">Angika (अंगिका) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ar&pr=Y">Arabic (العربية) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hy&pr=Y">Armenian (հայերեն) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=eu&pr=Y">Basque (Euskara) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=be&pr=Y">Belarusian (Беларуская) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bn&pr=Y">Bengali (বাংলা) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bho&pr=Y">Bhojpuri (भोजपुरी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bg&pr=Y">Bulgarian (Български) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ca&pr=Y">Catalan (Català) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=chi&pr=Y">Chinese (中文) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hr&pr=Y">Croatian (Hrvatski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=cs&pr=Y">Czech (Čeština) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=da&pr=Y">Danish (Dansk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=nl&pr=Y">Dutch (Nederlands) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=en&pr=Y">English (English) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=eo&pr=Y" selected>Esperanto (Esperanto) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=et&pr=Y">Estonian (Eesti) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=fi&pr=Y">Finnish (Suomi) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=fr&pr=Y">French (Français) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=gl&pr=Y">Galician (Galego) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ka&pr=Y">Georgian (ქართული) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=de&pr=Y">German (Deutsch) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=el&pr=Y">Greek (Ελληνικά) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hi&pr=Y">Hindi (हिन्दी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hu&pr=Y">Hungarian (Magyar) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=id&pr=Y">Indonesian (Bahasa Ind) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ga&pr=Y">Irish (Gaeilge) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=it&pr=Y">Italian (Italiano) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ja&pr=Y">Japanese (日本語) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=kn&pr=Y">Kannada (ಕನ್ನಡ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=kk&pr=Y">Kazakh (Қазақ тілі) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=lv&pr=Y">Latvian (Latviešu) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=lt&pr=Y">Lithuanian (lietuvių) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=mk&pr=Y">Macedonian (македонски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ml&pr=Y">Malayalam (മലയാളം) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=mr&pr=Y">Marathi (मराठी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=no&pr=Y">Norwegian (Norsk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pl&pr=Y">Polish (Polski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pt&pr=Y">Portuguese (Português) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pa&pr=Y">Punjabi (ਪੰਜਾਬੀ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ro&pr=Y">Romanian (Româna) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ru&pr=Y">Russian (Pусский) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sa&pr=Y">Sanskrit (Saṃskṛtam) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sr&pr=Y">Serbian (Српски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=si&pr=Y">Sinhala (සිංහල) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sk&pr=Y">Slovak (Slovenský) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sl&pr=Y">Slovenian (Slovenski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=es&pr=Y">Spanish (Español) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sv&pr=Y">Swedish (Svenska) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ta&pr=Y">Tamil (தமிழ்) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=te&pr=Y">Telugu (తెలుగు) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=tr&pr=Y">Turkish (Türkçe) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=uk&pr=Y">Ukrainian (Yкраї́нська) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=uz&pr=Y">Uzbek (oʻzbek) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=vi&pr=Y">Vietnamese (tiếng Việt) </option>
+            </select>
+            </div>
+            </div>
+        </div>
+		<div id="menubox" class="debugbkg">
+            <ul class="menu boldmenu">
+<li><a href="index.php@lang=eo">SUPREN</a></li>
+<li><a href="index.php@tag=--&amp;lang=eo">SIGNOJ</a></li>
+<li><a href="index.php@tag=---&amp;lang=eo">ALDONAĴOJ</a></li>
+<li><a href="index.php@tag=0&amp;lang=eo">0</a></li>
+<li><a href="index.php@tag=1&amp;lang=eo">1</a></li>
+<li><a href="index.php@tag=2&amp;lang=eo">2</a></li>
+<li><a href="index.php@tag=3&amp;lang=eo">3</a></li>
+<li><a  class="vacant" href="index.php@tag=6&amp;lang=eo#">4</a></li>
+<li><a href="index.php@tag=5&amp;lang=eo">5</a></li>
+<li><a href="index.php@tag=6&amp;lang=eo">6</a></li>
+<li><a href="index.php@tag=7&amp;lang=eo">7</a></li>
+<li><a href="index.php@tag=8&amp;lang=eo">8</a></li>
+<li><a href="index.php@tag=9&amp;lang=eo">9</a></li>
+</ul>
+<input type="hidden" id="if_loading" name="if_loading" value="Ŝarĝante"/>
+<input type="hidden" id="if_lang" name="if_lang" value="32"/>
+<ul class="rightmenu boldmenu">
+<li><a href="../translation.htm">TRADUKADO</a></li>
+<li><a href="index.php@tag=6&amp;lang=eo#" title="Under Development">MAPIGOJ</a></li>
+<li><a href="../exports.htm" title="Data Exports">EKSPORTOJ</a></li>
+<li><a href="index.php@tag=6&amp;lang=eo#" title="Under Development">ALFABETA INDEKSO</a></li>
+<li><a href="index.php@tag=6&amp;lang=eo#" title="Under Development">GVIDILO</a></li>
+<li><a href="../about.htm" title="About the UDC Summary">INFORMOJ</a></li>
+</ul>
+
+        </div>
+		<input type="hidden" id="leftWidth" value="420"/><input type="hidden" id="rightWidth" value="522"/>
+		<div id="classmarkbox" class="debugbkg">
+
+<div id="openclosemenu"><a href="javascript: d.openAll();">&nbsp;etendi</a> | <a href="javascript: d.closeAll();">arigi</a></div>
+<div id="classtree">
+<script type="text/javascript">
+<!--
+d = new dTree('d');
+d.config.hrefIsClick = true;
+d.add(0,-1,'6','<span class="nodetag">6</span>&nbsp;&nbsp;APLIKATAJ SCIENCOJ. MEDICINO. TEKNOLOGIO','6','','','','',false,true);
+d.add(1,0,'60','<div class="nodetag">60</div></span>&nbsp;&nbsp;Bioteknologio','60','Bioteknologio','','','',false,true);
+d.add(2,1,'601','<div class="nodetag">601</div></span>&nbsp;&nbsp;Bazaj konceptoj','601','Bazaj konceptoj','','','',false,true);
+d.add(3,1,'602','<div class="nodetag">602</div></span>&nbsp;&nbsp;Procedoj kaj teknikoj de bioteknologio','602','Procedoj kaj teknikoj de bioteknologio','','','',false,true);
+d.add(4,1,'604','<div class="nodetag">604</div></span>&nbsp;&nbsp;Produktoj de bioteknologio','604','Produktoj de bioteknologio','','','',false,true);
+d.add(5,1,'606','<div class="nodetag">606</div></span>&nbsp;&nbsp;Aplikoj de bioteknologio','606','Aplikoj de bioteknologio','','','',false,true);
+d.add(6,1,'608','<div class="nodetag">608</div></span>&nbsp;&nbsp;Demandoj rilate bioteknologion','608','Demandoj rilate bioteknologion','','','',false,true);
+d.add(7,0,'61','<div class="nodetag">61</div></span>&nbsp;&nbsp;Medicino. Medicinaj sciencoj','61','Medicino. Medicinaj sciencoj','','','',false,true);
+d.add(8,7,'611/612','<div class="nodetag">611/612</div></span>&nbsp;&nbsp;Biologio de la homo','611/612','Biologio de la homo','','','',false,true);
+d.add(9,8,'611','<div class="nodetag">611</div></span>&nbsp;&nbsp;Anatomio. Homa kaj kompara anatomioj','611','Anatomio. Homa kaj kompara anatomioj','','','',false,true);
+d.add(10,8,'612','<div class="nodetag">612</div></span>&nbsp;&nbsp;Fiziologio. Homa kaj kompara fiziologioj','612','Fiziologio. Homa kaj kompara fiziologioj','','','',false,true);
+d.add(11,10,'612.1/.8','<div class="nodetag">612.1/.8</div></span>&nbsp;&nbsp;Sistematika fiziologio','612.1/.8','Sistematika fiziologio','','','',false,true);
+d.add(12,11,'612.1','<div class="nodetag">612.1</div></span>&nbsp;&nbsp;Sango. Sangocirkula / kardiovaskula sistemo','612.1','Sango. Sangocirkula / kardiovaskula sistemo','','','',false,true);
+d.add(13,11,'612.2','<div class="nodetag">612.2</div></span>&nbsp;&nbsp;Spirado. Spira sistemo','612.2','Spirado. Spira sistemo','','','',false,true);
+d.add(14,11,'612.3','<div class="nodetag">612.3</div></span>&nbsp;&nbsp;Manĝado. Digestado. Nutrado','612.3','Manĝado. Digestado. Nutrado','','','',false,true);
+d.add(15,11,'612.4','<div class="nodetag">612.4</div></span>&nbsp;&nbsp;Endokrina sistemo. Sekrecio. Ekskrecio','612.4','Endokrina sistemo. Sekrecio. Ekskrecio','','','',false,true);
+d.add(16,11,'612.5','<div class="nodetag">612.5</div></span>&nbsp;&nbsp;Animala varmo. Varmaj, term-procezoj','612.5','Animala varmo. Varmaj, term-procezoj','','','',false,true);
+d.add(17,11,'612.6','<div class="nodetag">612.6</div></span>&nbsp;&nbsp;Reprodukto. Kreskado. Disvolviĝo','612.6','Reprodukto. Kreskado. Disvolviĝo','','','',false,true);
+d.add(18,11,'612.7','<div class="nodetag">612.7</div></span>&nbsp;&nbsp;Funkcioj de movado. Movaj organoj. Voĉo. Tegumento','612.7','Funkcioj de movado. Movaj organoj. Voĉo. Tegumento','','','',false,true);
+d.add(19,11,'612.8','<div class="nodetag">612.8</div></span>&nbsp;&nbsp;Nerva sistemo. Sensaj organoj','612.8','Nerva sistemo. Sensaj organoj','','','',false,true);
+d.add(20,7,'613','<div class="nodetag">613</div></span>&nbsp;&nbsp;Higieno ĝenerale. Personaj sano kaj higieno','613','Higieno ĝenerale. Personaj sano kaj higieno','','','',false,true);
+d.add(21,20,'613.2','<div class="nodetag">613.2</div></span>&nbsp;&nbsp;Dietiko. Principoj de nutrado aplikitaj al manĝigo kaj manĝaĵoj','613.2','Dietiko. Principoj de nutrado aplikitaj al manĝigo kaj manĝaĵoj','','','',false,true);
+d.add(22,20,'613.3','<div class="nodetag">613.3</div></span>&nbsp;&nbsp;Trinkaĵoj. Kuracaj trinkaĵoj. Kuracaj akvoj. Likva dieto','613.3','Trinkaĵoj. Kuracaj trinkaĵoj. Kuracaj akvoj. Likva dieto','','','',false,true);
+d.add(23,20,'613.4','<div class="nodetag">613.4</div></span>&nbsp;&nbsp;Persona higieno. Vestaĵoj','613.4','Persona higieno. Vestaĵoj','','','',false,true);
+d.add(24,20,'613.5','<div class="nodetag">613.5</div></span>&nbsp;&nbsp;Higieno rilate loĝejojn','613.5','Higieno rilate loĝejojn','','','',false,true);
+d.add(25,20,'613.6','<div class="nodetag">613.6</div></span>&nbsp;&nbsp;San-danĝeroj dum laboro. Sano kaj higieno dum laboro','613.6','San-danĝeroj dum laboro. Sano kaj higieno dum laboro','','','',false,true);
+d.add(26,20,'613.7','<div class="nodetag">613.7</div></span>&nbsp;&nbsp;Sano kaj higieno dum libertempo, distraĵoj, dormo','613.7','Sano kaj higieno dum libertempo, distraĵoj, dormo','','','',false,true);
+d.add(27,20,'613.8','<div class="nodetag">613.8</div></span>&nbsp;&nbsp;Sano kaj higieno rilate la nervan sistemon. Sano kaj etiko','613.8','Sano kaj higieno rilate la nervan sistemon. Sano kaj etiko','','','',false,true);
+d.add(28,20,'613.9','<div class="nodetag">613.9</div></span>&nbsp;&nbsp;Sano kaj higieno rilate aĝon, sekson kaj etnon.','613.9','Sano kaj higieno rilate aĝon, sekson kaj etnon.','','','',false,true);
+d.add(29,7,'614','<div class="nodetag">614</div></span>&nbsp;&nbsp;Publikaj sano kaj higieno / sanitaraj procedoj. Prevento de akcidentoj','614','Publikaj sano kaj higieno / sanitaraj procedoj. Prevento de akcidentoj','','','',false,true);
+d.add(30,29,'614.1','<div class="nodetag">614.1</div></span>&nbsp;&nbsp;Populacio / loĝantaro. Senpopuligo','614.1','Populacio / loĝantaro. Senpopuligo','','','',false,true);
+d.add(31,29,'614.2','<div class="nodetag">614.2</div></span>&nbsp;&nbsp;Sanitaraj organizaĵoj','614.2','Sanitaraj organizaĵoj','','','',false,true);
+d.add(32,29,'614.3','<div class="nodetag">614.3</div></span>&nbsp;&nbsp;Sanitaraj inspekto kaj kontrolo','614.3','Sanitaraj inspekto kaj kontrolo','','','',false,true);
+d.add(33,32,'614.39','<div class="nodetag">614.39</div></span>&nbsp;&nbsp;Naciaj sanservoj','614.39','Naciaj sanservoj','','','',false,true);
+d.add(34,29,'614.4','<div class="nodetag">614.4</div></span>&nbsp;&nbsp;Prevento kaj brido de infektaj, kontaĝaj malsanoj. Prevento de epidemioj','614.4','Prevento kaj brido de infektaj, kontaĝaj malsanoj. Prevento de epidemioj','','','',false,true);
+d.add(35,29,'614.6','<div class="nodetag">614.6</div></span>&nbsp;&nbsp;Pritrakto kaj higieno pri mortintuloj','614.6','Pritrakto kaj higieno pri mortintuloj','','','',false,true);
+d.add(36,29,'614.7','<div class="nodetag">614.7</div></span>&nbsp;&nbsp;Higieno rilate aeron, akvon, grundon. Poluo kaj brido de poluo','614.7','Higieno rilate aeron, akvon, grundon. Poluo kaj brido de poluo','','','',false,true);
+d.add(37,29,'614.8','<div class="nodetag">614.8</div></span>&nbsp;&nbsp;Akcidentoj. Riskoj. Danĝeroj. Prevento de akcidentoj. Persona protekto. Sekureco','614.8','Akcidentoj. Riskoj. Danĝeroj. Prevento de akcidentoj. Persona protekto. Sekureco','','','',false,true);
+d.add(38,29,'614.9','<div class="nodetag">614.9</div></span>&nbsp;&nbsp;Sano de bestoj. Veterinara higieno','614.9','Sano de bestoj. Veterinara higieno','','','',false,true);
+d.add(39,7,'615','<div class="nodetag">615</div></span>&nbsp;&nbsp;Farmakologio. Terapeŭtiko. Toksologio','615','Farmakologio. Terapeŭtiko. Toksologio','','','',false,true);
+d.add(40,39,'615.1','<div class="nodetag">615.1</div></span>&nbsp;&nbsp;Ĝenerala kaj profesia farmacioj','615.1','Ĝenerala kaj profesia farmacioj','','','',false,true);
+d.add(41,39,'615.2','<div class="nodetag">615.2</div></span>&nbsp;&nbsp;Medikamentoj laŭ ĉefa efikeco','615.2','Medikamentoj laŭ ĉefa efikeco','','','',false,true);
+d.add(42,39,'615.3','<div class="nodetag">615.3</div></span>&nbsp;&nbsp;Medikamentoj laŭ origino','615.3','Medikamentoj laŭ origino','','','',false,true);
+d.add(43,39,'615.4','<div class="nodetag">615.4</div></span>&nbsp;&nbsp;Farmaciaj preparaĵoj. Medicinaj materialoj. Instrumentoj kaj ekipaĵoj','615.4','Farmaciaj preparaĵoj. Medicinaj materialoj. Instrumentoj kaj ekipaĵoj','','','',false,true);
+d.add(44,39,'615.8','<div class="nodetag">615.8</div></span>&nbsp;&nbsp;Fizioterapio. Fizika terapio. Radioterapio. Aliaj ne-medikamentaj rimedoj','615.8','Fizioterapio. Fizika terapio. Radioterapio. Aliaj ne-medikamentaj rimedoj','','','',false,true);
+d.add(45,39,'615.9','<div class="nodetag">615.9</div></span>&nbsp;&nbsp;Ĝenerala toksologio. Ĝeneralaj studoj pri venenoj kaj toksiĝo','615.9','Ĝenerala toksologio. Ĝeneralaj studoj pri venenoj kaj toksiĝo','','','',false,true);
+d.add(46,7,'616','<div class="nodetag">616</div></span>&nbsp;&nbsp;Patologio. Klinika medicino','616','Patologio. Klinika medicino','','','',false,true);
+d.add(47,46,'616-001/-009','<div class="nodetag">616-001/-009</div></span>&nbsp;&nbsp;Speciala subklaso aldona pri morbaj procezoj','616-001/-009','Speciala subklaso aldona pri morbaj procezoj','','','',false,true);
+d.add(48,47,'616-001','<div class="nodetag">616-001</div></span>&nbsp;&nbsp;Traŭmatoj. Vundoj','616-001','Traŭmatoj. Vundoj','','','',false,true);
+d.add(49,47,'616-002','<div class="nodetag">616-002</div></span>&nbsp;&nbsp;Inflamo. Irito. Kongesto. Saturiĝa vaskula obstrukco. Ŝtopiĝo. Hiperemio','616-002','Inflamo. Irito. Kongesto. Saturiĝa vaskula obstrukco. Ŝtopiĝo. Hiperemio','','','',false,true);
+d.add(50,47,'616-003','<div class="nodetag">616-003</div></span>&nbsp;&nbsp;Regresaj kaj riparaj procezoj kaj procedoj','616-003','Regresaj kaj riparaj procezoj kaj procedoj','','','',false,true);
+d.add(51,47,'616-004','<div class="nodetag">616-004</div></span>&nbsp;&nbsp;Sklerozo. Skleriĝo. Malmoliĝo. Cirozo','616-004','Sklerozo. Skleriĝo. Malmoliĝo. Cirozo','','','',false,true);
+d.add(52,47,'616-005','<div class="nodetag">616-005</div></span>&nbsp;&nbsp;Lokaj cirkulaj malsanoj','616-005','Lokaj cirkulaj malsanoj','','','',false,true);
+d.add(53,47,'616-006','<div class="nodetag">616-006</div></span>&nbsp;&nbsp;Tumoroj. Benignaj tumoroj. Onkoj. Neoplasmoj. Blastomoj. Hamartomoj. Onkologio','616-006','Tumoroj. Benignaj tumoroj. Onkoj. Neoplasmoj. Blastomoj. Hamartomoj. Onkologio','','','',false,true);
+d.add(54,47,'616-007','<div class="nodetag">616-007</div></span>&nbsp;&nbsp;Aberacia disvolviĝo de la strukturo. Fiziologiaj anomalioj. Misformiĝoj. Teratoj. Misa grandeco de organoj. Teratologio. Monstraĵoj','616-007','Aberacia disvolviĝo de la strukturo. Fiziologiaj anomalioj. Misformiĝoj. Teratoj. Misa grandeco de organoj. Teratologio. Monstraĵoj','','','',false,true);
+d.add(55,47,'616-008','<div class="nodetag">616-008</div></span>&nbsp;&nbsp;Funkciaj kaj metabolaj malsanoj','616-008','Funkciaj kaj metabolaj malsanoj','','','',false,true);
+d.add(56,47,'616-009','<div class="nodetag">616-009</div></span>&nbsp;&nbsp;Nervaj malsanoj','616-009','Nervaj malsanoj','','','',false,true);
+d.add(57,46,'616-01/-099','<div class="nodetag">616-01/-099</div></span>&nbsp;&nbsp;Speciala subklaso aldona pri ĝeneralaj facetoj de patologio','616-01/-099','Speciala subklaso aldona pri ĝeneralaj facetoj de patologio','','','',false,true);
+d.add(58,57,'616-01','<div class="nodetag">616-01</div></span>&nbsp;&nbsp;Diversaj facetoj rilate malsanojn, pacientojn kaj medicinajn intervenojn','616-01','Diversaj facetoj rilate malsanojn, pacientojn kaj medicinajn intervenojn','','','',false,true);
+d.add(59,57,'616-02','<div class="nodetag">616-02</div></span>&nbsp;&nbsp;Etiologio. Scienco pri la kaŭzoj de malsanoj','616-02','Etiologio. Scienco pri la kaŭzoj de malsanoj','','','',false,true);
+d.add(60,57,'616-03','<div class="nodetag">616-03</div></span>&nbsp;&nbsp;Diversaj formoj de malsanoj, de pritraktado, de donado de medikamentoj','616-03','Diversaj formoj de malsanoj, de pritraktado, de donado de medikamentoj','','','',false,true);
+d.add(61,57,'616-05','<div class="nodetag">616-05</div></span>&nbsp;&nbsp;Personoj kaj personaj karakterizoj en patologio. Karakterizoj de la paciento','616-05','Personoj kaj personaj karakterizoj en patologio. Karakterizoj de la paciento','','','',false,true);
+d.add(62,57,'616-06','<div class="nodetag">616-06</div></span>&nbsp;&nbsp;Komplikaĵoj. Sekvoj. Postefikoj. Konsekvencoj. Kunokazoj. Korelativeco. Korelacio. Antaŭaj malsanoj. Antaŭa sanstato. Antagonismo de du malsanoj','616-06','Komplikaĵoj. Sekvoj. Postefikoj. Konsekvencoj. Kunokazoj. Korelativeco. Korelacio. Antaŭaj malsanoj. Antaŭa sanstato. Antagonismo de du malsanoj','','','',false,true);
+d.add(63,57,'616-07','<div class="nodetag">616-07</div></span>&nbsp;&nbsp;Semiologio. Signoj kaj simptomoj. Ekzameno. Diagnozo. Propedeŭtiko','616-07','Semiologio. Signoj kaj simptomoj. Ekzameno. Diagnozo. Propedeŭtiko','','','',false,true);
+d.add(64,57,'616-08','<div class="nodetag">616-08</div></span>&nbsp;&nbsp;Kuracado. Pritraktado','616-08','Kuracado. Pritraktado','','','',false,true);
+d.add(65,57,'616-091','<div class="nodetag">616-091</div></span>&nbsp;&nbsp;Anatomia patologio. Morba anatomio','616-091','Anatomia patologio. Morba anatomio','','','',false,true);
+d.add(66,57,'616-092','<div class="nodetag">616-092</div></span>&nbsp;&nbsp;Fiziologia patologio / Patologia fiziologio. Procezoj, mekanismoj kaj agmanieroj de malsanoj. Patogenezo. Studo pri origino de malsanoj','616-092','Fiziologia patologio / Patologia fiziologio. Procezoj, mekanismoj kaj agmanieroj de malsanoj. Patogenezo. Studo pri origino de malsanoj','','','',false,true);
+d.add(67,57,'616-093','<div class="nodetag">616-093</div></span>&nbsp;&nbsp;Mikrobaj teknikoj','616-093','Mikrobaj teknikoj','','','',false,true);
+d.add(68,57,'616-094','<div class="nodetag">616-094</div></span>&nbsp;&nbsp;Mikroba morfologio','616-094','Mikroba morfologio','','','',false,true);
+d.add(69,57,'616-095','<div class="nodetag">616-095</div></span>&nbsp;&nbsp;Mikroba fiziologio','616-095','Mikroba fiziologio','','','',false,true);
+d.add(70,57,'616-097','<div class="nodetag">616-097</div></span>&nbsp;&nbsp;Imuno-stimulo','616-097','Imuno-stimulo','','','',false,true);
+d.add(71,57,'616-098','<div class="nodetag">616-098</div></span>&nbsp;&nbsp;Mikrobaj fiziko, kemio, metabolo, katabolo','616-098','Mikrobaj fiziko, kemio, metabolo, katabolo','','','',false,true);
+d.add(72,57,'616-099','<div class="nodetag">616-099</div></span>&nbsp;&nbsp;Veneniĝo. Toksiĝo','616-099','Veneniĝo. Toksiĝo','','','',false,true);
+d.add(73,46,'616-71/-78','<div class="nodetag">616-71/-78</div></span>&nbsp;&nbsp;Speciala subklaso aldona pri medicinaj kaj kirurgiaj instrumentoj kaj ekipaĵoj','616-71/-78','Speciala subklaso aldona pri medicinaj kaj kirurgiaj instrumentoj kaj ekipaĵoj','','','',false,true);
+d.add(74,73,'616-71','<div class="nodetag">616-71</div></span>&nbsp;&nbsp;Medicinaj instrumentoj kaj ekipaĵoj ĝenerale','616-71','Medicinaj instrumentoj kaj ekipaĵoj ĝenerale','','','',false,true);
+d.add(75,73,'616-72','<div class="nodetag">616-72</div></span>&nbsp;&nbsp;Kirurgiaj kaj terapiaj instrumentoj kaj iloj','616-72','Kirurgiaj kaj terapiaj instrumentoj kaj iloj','','','',false,true);
+d.add(76,73,'616-74','<div class="nodetag">616-74</div></span>&nbsp;&nbsp;Plifortikigaj kaj riparaj materialoj kaj ekipaĵoj','616-74','Plifortikigaj kaj riparaj materialoj kaj ekipaĵoj','','','',false,true);
+d.add(77,73,'616-76','<div class="nodetag">616-76</div></span>&nbsp;&nbsp;Korektaj kaj protektaj aparatoj, helpiloj','616-76','Korektaj kaj protektaj aparatoj, helpiloj','','','',false,true);
+d.add(78,73,'616-77','<div class="nodetag">616-77</div></span>&nbsp;&nbsp;Protezoj kaj protezaj materialoj. Artefaritaj organoj, ktp','616-77','Protezoj kaj protezaj materialoj. Artefaritaj organoj, ktp','','','',false,true);
+d.add(79,73,'616-78','<div class="nodetag">616-78</div></span>&nbsp;&nbsp;Maŝinoj kaj mekanikaj aparatoj','616-78','Maŝinoj kaj mekanikaj aparatoj','','','',false,true);
+d.add(80,46,'616.1/.9','<div class="nodetag">616.1/.9</div></span>&nbsp;&nbsp;Apartaj patologioj','616.1/.9','Apartaj patologioj','','','',false,true);
+d.add(81,80,'616.1','<div class="nodetag">616.1</div></span>&nbsp;&nbsp;Patologio de la cirkula sistemo, sangovaskuloj. Plendoj pri sangocirkulo','616.1','Patologio de la cirkula sistemo, sangovaskuloj. Plendoj pri sangocirkulo','','','',false,true);
+d.add(82,80,'616.2','<div class="nodetag">616.2</div></span>&nbsp;&nbsp;Patologio de la spira sistemo. Plendoj pri la spirorganoj','616.2','Patologio de la spira sistemo. Plendoj pri la spirorganoj','','','',false,true);
+d.add(83,80,'616.3','<div class="nodetag">616.3</div></span>&nbsp;&nbsp;Patologio de la digesta sistemo. Plendoj pri la nutrokanalo','616.3','Patologio de la digesta sistemo. Plendoj pri la nutrokanalo','','','',false,true);
+d.add(84,83,'616.31','<div class="nodetag">616.31</div></span>&nbsp;&nbsp;Stomatologio. Dentaj karioj. Buŝo. Malsanoj de la buŝo kaj dentoj','616.31','Stomatologio. Dentaj karioj. Buŝo. Malsanoj de la buŝo kaj dentoj','','','',false,true);
+d.add(85,80,'616.4','<div class="nodetag">616.4</div></span>&nbsp;&nbsp;Patologioj de la limfa sistemo, organoj respondecaj por poezo, endokrinaj glandoj','616.4','Patologioj de la limfa sistemo, organoj respondecaj por poezo, endokrinaj glandoj','','','',false,true);
+d.add(86,80,'616.5','<div class="nodetag">616.5</div></span>&nbsp;&nbsp;Haŭto. Ĝenerala tegumento. Fanero. Klinika dematologio. Plendoj pri la haŭto','616.5','Haŭto. Ĝenerala tegumento. Fanero. Klinika dematologio. Plendoj pri la haŭto','','','',false,true);
+d.add(87,80,'616.6','<div class="nodetag">616.6</div></span>&nbsp;&nbsp;Patologio de la urogenera sistemo. Plendoj pri problemoj rilate la urinajn kaj reproduktajn organojn. Urologio','616.6','Patologio de la urogenera sistemo. Plendoj pri problemoj rilate la urinajn kaj reproduktajn organojn. Urologio','','','',false,true);
+d.add(88,80,'616.7','<div class="nodetag">616.7</div></span>&nbsp;&nbsp;Patologio de la movaj organoj. Skeleta kaj mova sistemoj','616.7','Patologio de la movaj organoj. Skeleta kaj mova sistemoj','','','',false,true);
+d.add(89,80,'616.8','<div class="nodetag">616.8</div></span>&nbsp;&nbsp;Neŭrologio / nervologio. Neŭropatologio. Nerva sistemo','616.8','Neŭrologio / nervologio. Neŭropatologio. Nerva sistemo','','','',false,true);
+d.add(90,89,'616.89','<div class="nodetag">616.89</div></span>&nbsp;&nbsp;Psikiatrio. Patologia psikiatrio. Psikopatologio. Psikozoj. Mensa nenormaleco. Morbaj mensostatoj. Kondutaj kaj emociaj afekcioj. Afekciaj perturboj','616.89','Psikiatrio. Patologia psikiatrio. Psikopatologio. Psikozoj. Mensa nenormaleco. Morbaj mensostatoj. Kondutaj kaj emociaj afekcioj. Afekciaj perturboj','','','',false,true);
+d.add(91,80,'616.9','<div class="nodetag">616.9</div></span>&nbsp;&nbsp;Infektaj kaj kontaĝaj malsanoj, febroj','616.9','Infektaj kaj kontaĝaj malsanoj, febroj','','','',false,true);
+d.add(92,7,'617','<div class="nodetag">617</div></span>&nbsp;&nbsp;Kirurgio. Ortopedio. Oftalmologio / Okulkuracado','617','Kirurgio. Ortopedio. Oftalmologio / Okulkuracado','','','',false,true);
+d.add(93,92,'617.3','<div class="nodetag">617.3</div></span>&nbsp;&nbsp;Ortopedio ĝenerale','617.3','Ortopedio ĝenerale','','','',false,true);
+d.add(94,92,'617.7','<div class="nodetag">617.7</div></span>&nbsp;&nbsp;Oftalmologio. Malsanoj de la okulo kaj kuracado','617.7','Oftalmologio. Malsanoj de la okulo kaj kuracado','','','',false,true);
+d.add(95,7,'618','<div class="nodetag">618</div></span>&nbsp;&nbsp;Ginekologio. Obstetriko / Akuŝologio','618','Ginekologio. Obstetriko / Akuŝologio','','','',false,true);
+d.add(96,0,'62','<div class="nodetag">62</div></span>&nbsp;&nbsp;Teknologio ĝenerale. Inĝenierio','62','Teknologio ĝenerale. Inĝenierio','','','',false,true);
+d.add(97,96,'62-1/-9','<div class="nodetag">62-1/-9</div></span>&nbsp;&nbsp;Speciala subklaso aldona pri teĥnologio ĝenerale','62-1/-9','Speciala subklaso aldona pri teĥnologio ĝenerale','','','',false,true);
+d.add(98,97,'62-1','<div class="nodetag">62-1</div></span>&nbsp;&nbsp;Ĝeneralaj trajtoj de maŝinoj, ktp','62-1','Ĝeneralaj trajtoj de maŝinoj, ktp','','','',false,true);
+d.add(99,97,'62-2','<div class="nodetag">62-2</div></span>&nbsp;&nbsp;Fiksitaj kaj moveblaj partoj, konsistaĵoj de maŝinoj','62-2','Fiksitaj kaj moveblaj partoj, konsistaĵoj de maŝinoj','','','',false,true);
+d.add(100,97,'62-3','<div class="nodetag">62-3</div></span>&nbsp;&nbsp;Partoj kaj peliloj por regi fluon. Valvoj, klapoj, ŝtopiloj, ktp','62-3','Partoj kaj peliloj por regi fluon. Valvoj, klapoj, ŝtopiloj, ktp','','','',false,true);
+d.add(101,97,'62-4','<div class="nodetag">62-4</div></span>&nbsp;&nbsp;Stato, formo de materialoj, surfacoj, objektoj, produktoj','62-4','Stato, formo de materialoj, surfacoj, objektoj, produktoj','','','',false,true);
+d.add(102,97,'62-5','<div class="nodetag">62-5</div></span>&nbsp;&nbsp;Funkciigo kaj direkto de maŝinoj kaj procedoj','62-5','Funkciigo kaj direkto de maŝinoj kaj procedoj','','','',false,true);
+d.add(103,97,'62-6','<div class="nodetag">62-6</div></span>&nbsp;&nbsp;Fuelo / brulaĵo kaj aliaj maŝinaj trajtoj rilate varmon','62-6','Fuelo / brulaĵo kaj aliaj maŝinaj trajtoj rilate varmon','','','',false,true);
+d.add(104,97,'62-7','<div class="nodetag">62-7</div></span>&nbsp;&nbsp;Iloj por la prizorgado, riparo kaj protekto de maŝinoj','62-7','Iloj por la prizorgado, riparo kaj protekto de maŝinoj','','','',false,true);
+d.add(105,97,'62-8','<div class="nodetag">62-8</div></span>&nbsp;&nbsp;Maŝinoj laŭ motora, propulsa forto. Fonto de energio de maŝino','62-8','Maŝinoj laŭ motora, propulsa forto. Fonto de energio de maŝino','','','',false,true);
+d.add(106,97,'62-9','<div class="nodetag">62-9</div></span>&nbsp;&nbsp;Faktoroj, kondiĉoj, statoj kaj trajtoj de produktaj procedoj, instalejoj kaj ekipaĵoj','62-9','Faktoroj, kondiĉoj, statoj kaj trajtoj de produktaj procedoj, instalejoj kaj ekipaĵoj','','','',false,true);
+d.add(107,106,'62-91','<div class="nodetag">62-91</div></span>&nbsp;&nbsp;Stato de materialo: trajtoj kaj variaj kondiĉoj','62-91','Stato de materialo: trajtoj kaj variaj kondiĉoj','','','',false,true);
+d.add(108,106,'62-92','<div class="nodetag">62-92</div></span>&nbsp;&nbsp;Reakcioj rilate reakciilojn. Reakciiloj','62-92','Reakcioj rilate reakciilojn. Reakciiloj','','','',false,true);
+d.add(109,106,'62-93','<div class="nodetag">62-93</div></span>&nbsp;&nbsp;Procedoj, maŝinoj kaj iloj laŭ labor-maniero, kontinueco, rilatoj, medio','62-93','Procedoj, maŝinoj kaj iloj laŭ labor-maniero, kontinueco, rilatoj, medio','','','',false,true);
+d.add(110,106,'62-94','<div class="nodetag">62-94</div></span>&nbsp;&nbsp;Direkto, rapido, akcelo, vektora rapido, daŭro de procedoj, ktp','62-94','Direkto, rapido, akcelo, vektora rapido, daŭro de procedoj, ktp','','','',false,true);
+d.add(111,106,'62-95','<div class="nodetag">62-95</div></span>&nbsp;&nbsp;Simplaj kaj kompleksaj procedoj. Unuopaj kaj plur-etapaj procedoj','62-95','Simplaj kaj kompleksaj procedoj. Unuopaj kaj plur-etapaj procedoj','','','',false,true);
+d.add(112,106,'62-96','<div class="nodetag">62-96</div></span>&nbsp;&nbsp;Procedoj rilate aliigon de ecoj de produktoj. Modifo ĝenerale','62-96','Procedoj rilate aliigon de ecoj de produktoj. Modifo ĝenerale','','','',false,true);
+d.add(113,106,'62-97','<div class="nodetag">62-97</div></span>&nbsp;&nbsp;Trajtoj rilate varmon. Temperaturo. Amplekso de temperaturo','62-97','Trajtoj rilate varmon. Temperaturo. Amplekso de temperaturo','','','',false,true);
+d.add(114,106,'62-98','<div class="nodetag">62-98</div></span>&nbsp;&nbsp;Premo. Gamo de premo','62-98','Premo. Gamo de premo','','','',false,true);
+d.add(115,96,'620','<div class="nodetag">620</div></span>&nbsp;&nbsp;Testado de materialoj. Komercaj materialoj. Centraloj. Ekonomioj de energio','620','Testado de materialoj. Komercaj materialoj. Centraloj. Ekonomioj de energio','','','',false,true);
+d.add(116,115,'620.3','<div class="nodetag">620.3</div></span>&nbsp;&nbsp;Nanoteknologio','620.3','Nanoteknologio','','','',false,true);
+d.add(117,115,'620.9','<div class="nodetag">620.9</div></span>&nbsp;&nbsp;Ekonomioj de energio ĝenerale','620.9','Ekonomioj de energio ĝenerale','','','',false,true);
+d.add(118,96,'621','<div class="nodetag">621</div></span>&nbsp;&nbsp;Mekanika inĝenierio ĝenerale. Nuklea teknologio. Elektra inĝenierio. Maŝinaro','621','Mekanika inĝenierio ĝenerale. Nuklea teknologio. Elektra inĝenierio. Maŝinaro','','','',false,true);
+d.add(119,118,'621.1','<div class="nodetag">621.1</div></span>&nbsp;&nbsp;Termikaj motoroj ĝenerale. Kreo, distribuo kaj uzo de vaporo. Vapormotoroj. Vapor-kaldronoj','621.1','Termikaj motoroj ĝenerale. Kreo, distribuo kaj uzo de vaporo. Vapormotoroj. Vapor-kaldronoj','','','',false,true);
+d.add(120,118,'621.22','<div class="nodetag">621.22</div></span>&nbsp;&nbsp;Hidraŭlika energio. Forto de akvo. Hidraŭlika maŝinaro','621.22','Hidraŭlika energio. Forto de akvo. Hidraŭlika maŝinaro','','','',false,true);
+d.add(121,118,'621.3','<div class="nodetag">621.3</div></span>&nbsp;&nbsp;Elektra inĝenierio','621.3','Elektra inĝenierio','','','',false,true);
+d.add(122,118,'621.4','<div class="nodetag">621.4</div></span>&nbsp;&nbsp;Termikaj motoroj (escepte vapormotorojn)','621.4','Termikaj motoroj (escepte vapormotorojn)','','','',false,true);
+d.add(123,118,'621.5','<div class="nodetag">621.5</div></span>&nbsp;&nbsp;Pneŭmatikaj energio, maŝinaro kaj iloj. Fridigado','621.5','Pneŭmatikaj energio, maŝinaro kaj iloj. Fridigado','','','',false,true);
+d.add(124,118,'621.6','<div class="nodetag">621.6</div></span>&nbsp;&nbsp;Pritrakto, tenado de likvoj, likvaj distribuejoj kaj teknikoj','621.6','Pritrakto, tenado de likvoj, likvaj distribuejoj kaj teknikoj','','','',false,true);
+d.add(125,118,'621.7','<div class="nodetag">621.7</div></span>&nbsp;&nbsp;Mekanika teknologio ĝenerale: procedoj, iloj, maŝinoj, ekipaĵoj','621.7','Mekanika teknologio ĝenerale: procedoj, iloj, maŝinoj, ekipaĵoj','','','',false,true);
+d.add(126,118,'621.8','<div class="nodetag">621.8</div></span>&nbsp;&nbsp;Pecoj de maŝinoj. Inĝenierarto pri movofortaj rimedoj. Traktado de materialoj. Fiksiloj. Lubrikado','621.8','Pecoj de maŝinoj. Inĝenierarto pri movofortaj rimedoj. Traktado de materialoj. Fiksiloj. Lubrikado','','','',false,true);
+d.add(127,118,'621.9','<div class="nodetag">621.9</div></span>&nbsp;&nbsp;Tajlado aŭ ilmaŝinkonstruado kun formado de eretoj. Formado per abrazio. Marteloj kaj premmaŝinoj','621.9','Tajlado aŭ ilmaŝinkonstruado kun formado de eretoj. Formado per abrazio. Marteloj kaj premmaŝinoj','','','',false,true);
+d.add(128,96,'622','<div class="nodetag">622</div></span>&nbsp;&nbsp;Minado','622','Minado','','','',false,true);
+d.add(129,128,'622.1','<div class="nodetag">622.1</div></span>&nbsp;&nbsp;Komenca esploro. Termezurado kaj mapado koncerne minon. Esplorado por mineralaj deponaĵoj (surtera kaj subtera)','622.1','Komenca esploro. Termezurado kaj mapado koncerne minon. Esplorado por mineralaj deponaĵoj (surtera kaj subtera)','','','',false,true);
+d.add(130,128,'622.2','<div class="nodetag">622.2</div></span>&nbsp;&nbsp;Faroj dum minado. Esploro, malkovro, ekspluato, ekstrakto de mineralaj deponaĵoj','622.2','Faroj dum minado. Esploro, malkovro, ekspluato, ekstrakto de mineralaj deponaĵoj','','','',false,true);
+d.add(131,128,'622.3','<div class="nodetag">622.3</div></span>&nbsp;&nbsp;Minado de specifaj mineraloj, ercoj, rokoj','622.3','Minado de specifaj mineraloj, ercoj, rokoj','','','',false,true);
+d.add(132,128,'622.4','<div class="nodetag">622.4</div></span>&nbsp;&nbsp;Ventolado, klimatizo, hejtado kaj lumigo de minejoj','622.4','Ventolado, klimatizo, hejtado kaj lumigo de minejoj','','','',false,true);
+d.add(133,128,'622.5','<div class="nodetag">622.5</div></span>&nbsp;&nbsp;Drenado de minejo. Malsekigo','622.5','Drenado de minejo. Malsekigo','','','',false,true);
+d.add(134,128,'622.6','<div class="nodetag">622.6</div></span>&nbsp;&nbsp;Haŭlo, transporto kaj pritrakto. Hisado. Vindado. Surtera transporto','622.6','Haŭlo, transporto kaj pritrakto. Hisado. Vindado. Surtera transporto','','','',false,true);
+d.add(135,128,'622.7','<div class="nodetag">622.7</div></span>&nbsp;&nbsp;Pritrakto, ellaboro de mineraloj. Apartigo de la mineraloj el erco (eretigo, ktp)','622.7','Pritrakto, ellaboro de mineraloj. Apartigo de la mineraloj el erco (eretigo, ktp)','','','',false,true);
+d.add(136,128,'622.8','<div class="nodetag">622.8</div></span>&nbsp;&nbsp;Minaj danĝeroj, akcidentoj kaj difektoj. Sanprotekto kaj sekureco en minejoj','622.8','Minaj danĝeroj, akcidentoj kaj difektoj. Sanprotekto kaj sekureco en minejoj','','','',false,true);
+d.add(137,96,'623','<div class="nodetag">623</div></span>&nbsp;&nbsp;Inĝenierio pri militarto','623','Inĝenierio pri militarto','','','',false,true);
+d.add(138,137,'623.1/.7','<div class="nodetag">623.1/.7</div></span>&nbsp;&nbsp;Surtera milita inĝenierio. Artilerio. Kanonaro','623.1/.7','Surtera milita inĝenierio. Artilerio. Kanonaro','','','',false,true);
+d.add(139,138,'623.1/.3','<div class="nodetag">623.1/.3</div></span>&nbsp;&nbsp;Batalkampa inĝenierio. Fortikaĵoj. Defensivaj konstruaĵoj','623.1/.3','Batalkampa inĝenierio. Fortikaĵoj. Defensivaj konstruaĵoj','','','',false,true);
+d.add(140,139,'623.1','<div class="nodetag">623.1</div></span>&nbsp;&nbsp;Fortresoj. Konstantaj fortikaĵoj. Fortikigitaj batallinioj, arenoj','623.1','Fortresoj. Konstantaj fortikaĵoj. Fortikigitaj batallinioj, arenoj','','','',false,true);
+d.add(141,139,'623.2','<div class="nodetag">623.2</div></span>&nbsp;&nbsp;Ofensivaj kaj defensivaj konstruaĵoj. Sieĝaj konstruaĵoj. Kampaj fortikaĵoj. Tranĉeaj konstruaĵoj','623.2','Ofensivaj kaj defensivaj konstruaĵoj. Sieĝaj konstruaĵoj. Kampaj fortikaĵoj. Tranĉeaj konstruaĵoj','','','',false,true);
+d.add(142,139,'623.3','<div class="nodetag">623.3</div></span>&nbsp;&nbsp;Min-terenoj. Baraĵoj en la batalkampo. Inundado','623.3','Min-terenoj. Baraĵoj en la batalkampo. Inundado','','','',false,true);
+d.add(143,138,'623.4','<div class="nodetag">623.4</div></span>&nbsp;&nbsp;Armilaro. Artilerio. Armiloj. Pafiloj. Personaj armiloj. Flank-armiloj. Kirasaŭtoj kaj aliaj militaj veturiloj. Municio kaj venenaj gasoj. Telekondukataj, gvidataj misiloj kaj raketoj','623.4','Armilaro. Artilerio. Armiloj. Pafiloj. Personaj armiloj. Flank-armiloj. Kirasaŭtoj kaj aliaj militaj veturiloj. Municio kaj venenaj gasoj. Telekondukataj, gvidataj misiloj kaj raketoj','','','',false,true);
+d.add(144,138,'623.5','<div class="nodetag">623.5</div></span>&nbsp;&nbsp;Balistiko. Teoriaj kaj eksperimentaj problemoj','623.5','Balistiko. Teoriaj kaj eksperimentaj problemoj','','','',false,true);
+d.add(145,138,'623.6','<div class="nodetag">623.6</div></span>&nbsp;&nbsp;Ekipaĵo kaj taktikoj de la batalkampo. Komunikadaj rimedoj. Elektronikaj kontraŭ-strategioj al radaro. Topografio rilate militon','623.6','Ekipaĵo kaj taktikoj de la batalkampo. Komunikadaj rimedoj. Elektronikaj kontraŭ-strategioj al radaro. Topografio rilate militon','','','',false,true);
+d.add(146,138,'623.7','<div class="nodetag">623.7</div></span>&nbsp;&nbsp;Milita kaj aerarmea aviadoj. Aera defensivo','623.7','Milita kaj aerarmea aviadoj. Aera defensivo','','','',false,true);
+d.add(147,137,'623.8/.9','<div class="nodetag">623.8/.9</div></span>&nbsp;&nbsp;Mararmea inĝenierio','623.8/.9','Mararmea inĝenierio','','','',false,true);
+d.add(148,147,'623.8','<div class="nodetag">623.8</div></span>&nbsp;&nbsp;Maramea konstruado. Mararmeaj bazoj. Militŝipoj kaj aliaj ŝipoj','623.8','Maramea konstruado. Mararmeaj bazoj. Militŝipoj kaj aliaj ŝipoj','','','',false,true);
+d.add(149,147,'623.9','<div class="nodetag">623.9</div></span>&nbsp;&nbsp;Materialoj kaj ekipaĵoj de mararmeaj fortoj. Defensivoj rilate submarŝipojn / submarinojn','623.9','Materialoj kaj ekipaĵoj de mararmeaj fortoj. Defensivoj rilate submarŝipojn / submarinojn','','','',false,true);
+d.add(150,96,'624','<div class="nodetag">624</div></span>&nbsp;&nbsp;Civila / konstrua kaj struktura inĝenierioj ĝenerale','624','Civila / konstrua kaj struktura inĝenierioj ĝenerale','','','',false,true);
+d.add(151,150,'624.01/.07','<div class="nodetag">624.01/.07</div></span>&nbsp;&nbsp;Speciala subklaso aldona por sekcio civila / konstrua kaj struktura inĝenierioj','624.01/.07','Speciala subklaso aldona por sekcio civila / konstrua kaj struktura inĝenierioj','','','',false,true);
+d.add(152,151,'624.01','<div class="nodetag">624.01</div></span>&nbsp;&nbsp;Konstruaĵoj kaj strukturo laŭ materialo kaj metodo de konstruo','624.01','Konstruaĵoj kaj strukturo laŭ materialo kaj metodo de konstruo','','','',false,true);
+d.add(153,151,'624.03','<div class="nodetag">624.03</div></span>&nbsp;&nbsp;Grando, konstanteco, situo kaj formo de konstruaĵoj','624.03','Grando, konstanteco, situo kaj formo de konstruaĵoj','','','',false,true);
+d.add(154,151,'624.04','<div class="nodetag">624.04</div></span>&nbsp;&nbsp;Struktura dezajno. Grafika kaj analiza statikoj por esploro kaj kalkulo de strukturoj','624.04','Struktura dezajno. Grafika kaj analiza statikoj por esploro kaj kalkulo de strukturoj','','','',false,true);
+d.add(155,151,'624.05','<div class="nodetag">624.05</div></span>&nbsp;&nbsp;Loko, organizo kaj instalejo. Konstruaj metodoj','624.05','Loko, organizo kaj instalejo. Konstruaj metodoj','','','',false,true);
+d.add(156,151,'624.07','<div class="nodetag">624.07</div></span>&nbsp;&nbsp;Strukturaj elementoj. Ŝarĝ-apogaj partoj','624.07','Strukturaj elementoj. Ŝarĝ-apogaj partoj','','','',false,true);
+d.add(157,150,'624.1','<div class="nodetag">624.1</div></span>&nbsp;&nbsp;Subkonstruaĵoj. Teramasoj (talusoj, ktp). Fundamentoj. Tuneloj','624.1','Subkonstruaĵoj. Teramasoj (talusoj, ktp). Fundamentoj. Tuneloj','','','',false,true);
+d.add(158,150,'624.21/.8','<div class="nodetag">624.21/.8</div></span>&nbsp;&nbsp;Konstruo de pontoj','624.21/.8','Konstruo de pontoj','','','',false,true);
+d.add(159,158,'624.3','<div class="nodetag">624.3</div></span>&nbsp;&nbsp;Trusaj pontoj (ĉevronumitaj)','624.3','Trusaj pontoj (ĉevronumitaj)','','','',false,true);
+d.add(160,158,'624.5','<div class="nodetag">624.5</div></span>&nbsp;&nbsp;Kablaj pontoj. Suspensiaj / pendantaj pontoj','624.5','Kablaj pontoj. Suspensiaj / pendantaj pontoj','','','',false,true);
+d.add(161,158,'624.6','<div class="nodetag">624.6</div></span>&nbsp;&nbsp;Arkaj pontoj','624.6','Arkaj pontoj','','','',false,true);
+d.add(162,158,'624.8','<div class="nodetag">624.8</div></span>&nbsp;&nbsp;Moveblaj pontoj','624.8','Moveblaj pontoj','','','',false,true);
+d.add(163,150,'624.9','<div class="nodetag">624.9</div></span>&nbsp;&nbsp;Superkonstruaĵoj (escepte pontojn). Superkonstruaĵoj kompletaj en si mem','624.9','Superkonstruaĵoj (escepte pontojn). Superkonstruaĵoj kompletaj en si mem','','','',false,true);
+d.add(164,96,'625','<div class="nodetag">625</div></span>&nbsp;&nbsp;Civila inĝenierio pri surtera transportado. Fervoja inĝenierio. Ŝosea inĝenierio','625','Civila inĝenierio pri surtera transportado. Fervoja inĝenierio. Ŝosea inĝenierio','','','',false,true);
+d.add(165,164,'625.1/.5','<div class="nodetag">625.1/.5</div></span>&nbsp;&nbsp;Fervojoj. Tramvojoj. Telfervojoj','625.1/.5','Fervojoj. Tramvojoj. Telfervojoj','','','',false,true);
+d.add(166,165,'625.1','<div class="nodetag">625.1</div></span>&nbsp;&nbsp;Fervojoj ĝenerale. Trakoj. Konstruo de trakoj','625.1','Fervojoj ĝenerale. Trakoj. Konstruo de trakoj','','','',false,true);
+d.add(167,165,'625.5','<div class="nodetag">625.5</div></span>&nbsp;&nbsp;Kablovojoj. Funikularaj vojoj. Suspensiaj fervojoj. Aer-telfervojoj','625.5','Kablovojoj. Funikularaj vojoj. Suspensiaj fervojoj. Aer-telfervojoj','','','',false,true);
+d.add(168,164,'625.7/.8','<div class="nodetag">625.7/.8</div></span>&nbsp;&nbsp;Ŝosea ingenierio','625.7/.8','Ŝosea ingenierio','','','',false,true);
+d.add(169,168,'625.7','<div class="nodetag">625.7</div></span>&nbsp;&nbsp;Ŝoseoj ĝenerale. Vojoj. Direktaj veturejoj. Stratoj. Kamparaj kaj urbaj vojaj sistemoj','625.7','Ŝoseoj ĝenerale. Vojoj. Direktaj veturejoj. Stratoj. Kamparaj kaj urbaj vojaj sistemoj','','','',false,true);
+d.add(170,168,'625.8','<div class="nodetag">625.8</div></span>&nbsp;&nbsp;Duraj tegaĵoj de vojoj. Pavimo, supra tavolo. Preparo kaj uzo de materialoj','625.8','Duraj tegaĵoj de vojoj. Pavimo, supra tavolo. Preparo kaj uzo de materialoj','','','',false,true);
+d.add(171,96,'626/627','<div class="nodetag">626/627</div></span>&nbsp;&nbsp;Hidraŭlika inĝenierio kaj tia konstruado. Akvaj konstruaĵoj','626/627','Hidraŭlika inĝenierio kaj tia konstruado. Akvaj konstruaĵoj','','','',false,true);
+d.add(172,171,'626','<div class="nodetag">626</div></span>&nbsp;&nbsp;Hidraŭlika inĝenierio ĝenerale','626','Hidraŭlika inĝenierio ĝenerale','','','',false,true);
+d.add(173,172,'626.1','<div class="nodetag">626.1</div></span>&nbsp;&nbsp;Landinternaj navigeblaj akvovojoj. Kanaloj. Kanaligitaj riveroj','626.1','Landinternaj navigeblaj akvovojoj. Kanaloj. Kanaligitaj riveroj','','','',false,true);
+d.add(174,172,'626.4','<div class="nodetag">626.4</div></span>&nbsp;&nbsp;Kluzoj','626.4','Kluzoj','','','',false,true);
+d.add(175,172,'626.5','<div class="nodetag">626.5</div></span>&nbsp;&nbsp;Levaparatoj kaj ramploj, deklivoj por ŝipoj kaj boatoj','626.5','Levaparatoj kaj ramploj, deklivoj por ŝipoj kaj boatoj','','','',false,true);
+d.add(176,172,'626.8','<div class="nodetag">626.8</div></span>&nbsp;&nbsp;Agrokulturo. Irigacio, drenado kaj revaloriga inĝenierio','626.8','Agrokulturo. Irigacio, drenado kaj revaloriga inĝenierio','','','',false,true);
+d.add(177,172,'626.9','<div class="nodetag">626.9</div></span>&nbsp;&nbsp;Maraj kanaloj. Kanaloj por ŝipoj','626.9','Maraj kanaloj. Kanaloj por ŝipoj','','','',false,true);
+d.add(178,171,'627','<div class="nodetag">627</div></span>&nbsp;&nbsp;Naturaj akvovojoj, havena kaj borda inĝenierioj. Navigada, draga, postsava kaj sava instalaĵoj. Digoj kaj hidraŭlikaj centraloj','627','Naturaj akvovojoj, havena kaj borda inĝenierioj. Navigada, draga, postsava kaj sava instalaĵoj. Digoj kaj hidraŭlikaj centraloj','','','',false,true);
+d.add(179,178,'627.2','<div class="nodetag">627.2</div></span>&nbsp;&nbsp;Havenoj kaj rodoj: inĝenieraj kaj konstruaj laboroj ĝenerale','627.2','Havenoj kaj rodoj: inĝenieraj kaj konstruaj laboroj ĝenerale','','','',false,true);
+d.add(180,178,'627.3','<div class="nodetag">627.3</div></span>&nbsp;&nbsp;Havenaj konstruaĵoj. Kajoj. Varfoj. Instalaĵoj kaj ekipaĵoj','627.3','Havenaj konstruaĵoj. Kajoj. Varfoj. Instalaĵoj kaj ekipaĵoj','','','',false,true);
+d.add(181,178,'627.4','<div class="nodetag">627.4</div></span>&nbsp;&nbsp;Protekto de riverbordoj. Rivera rektigo. Aliaj plibonigaj faroj','627.4','Protekto de riverbordoj. Rivera rektigo. Aliaj plibonigaj faroj','','','',false,true);
+d.add(182,178,'627.5','<div class="nodetag">627.5</div></span>&nbsp;&nbsp;Aliaj protektoj kaj plibonigoj de akvovojoj. Digoj. Marborda protekto. Drenado kaj revalorigo de terpecoj','627.5','Aliaj protektoj kaj plibonigoj de akvovojoj. Digoj. Marborda protekto. Drenado kaj revalorigo de terpecoj','','','',false,true);
+d.add(183,178,'627.7','<div class="nodetag">627.7</div></span>&nbsp;&nbsp;Navigadaj konstruaĵoj. Prizorgado de kanaloj. Maraj postsavaj kaj savaj ejoj','627.7','Navigadaj konstruaĵoj. Prizorgado de kanaloj. Maraj postsavaj kaj savaj ejoj','','','',false,true);
+d.add(184,178,'627.8','<div class="nodetag">627.8</div></span>&nbsp;&nbsp;Digoj. Hidraŭlikocentralaj instalejoj','627.8','Digoj. Hidraŭlikocentralaj instalejoj','','','',false,true);
+d.add(185,96,'628','<div class="nodetag">628</div></span>&nbsp;&nbsp;Sanitara inĝenierio. Akvo. Lumiga inĝenierio','628','Sanitara inĝenierio. Akvo. Lumiga inĝenierio','','','',false,true);
+d.add(186,185,'628.1','<div class="nodetag">628.1</div></span>&nbsp;&nbsp;Akvoprovizo. Akvopurigo. Konsumo de akvo','628.1','Akvoprovizo. Akvopurigo. Konsumo de akvo','','','',false,true);
+d.add(187,185,'628.2','<div class="nodetag">628.2</div></span>&nbsp;&nbsp;Urba defluigo de akvo. Kloaka sistemo','628.2','Urba defluigo de akvo. Kloaka sistemo','','','',false,true);
+d.add(188,185,'628.3','<div class="nodetag">628.3</div></span>&nbsp;&nbsp;Kloakaĵoj. Pritrakto, kloakpurigo, forigo, utiligo de malpuraĵoj','628.3','Kloakaĵoj. Pritrakto, kloakpurigo, forigo, utiligo de malpuraĵoj','','','',false,true);
+d.add(189,185,'628.4','<div class="nodetag">628.4</div></span>&nbsp;&nbsp;Urba higieno. Rubaĵoj. Forĵetaĵoj. Kolekto kaj forigo de urbaj rubaĵoj','628.4','Urba higieno. Rubaĵoj. Forĵetaĵoj. Kolekto kaj forigo de urbaj rubaĵoj','','','',false,true);
+d.add(190,185,'628.5','<div class="nodetag">628.5</div></span>&nbsp;&nbsp;Paŝoj por mildigi industrian kaj aliajn ĝenaĵojn','628.5','Paŝoj por mildigi industrian kaj aliajn ĝenaĵojn','','','',false,true);
+d.add(191,185,'628.6','<div class="nodetag">628.6</div></span>&nbsp;&nbsp;Defluigaj kaj sanitaraj instalaĵoj de konstruaĵoj (aparte laŭ postuloj de sanservoj)','628.6','Defluigaj kaj sanitaraj instalaĵoj de konstruaĵoj (aparte laŭ postuloj de sanservoj)','','','',false,true);
+d.add(192,185,'628.8','<div class="nodetag">628.8</div></span>&nbsp;&nbsp;Arta klimato (interna). Klimatizado. Hejtado. Ventolado','628.8','Arta klimato (interna). Klimatizado. Hejtado. Ventolado','','','',false,true);
+d.add(193,185,'628.9','<div class="nodetag">628.9</div></span>&nbsp;&nbsp;Lumigo. Lumiga inĝenerio','628.9','Lumigo. Lumiga inĝenerio','','','',false,true);
+d.add(194,96,'629','<div class="nodetag">629</div></span>&nbsp;&nbsp;Veturila inĝenierarto','629','Veturila inĝenierarto','','','',false,true);
+d.add(195,194,'629.01/.08','<div class="nodetag">629.01/.08</div></span>&nbsp;&nbsp;Speciala subklaso aldona pri veturila inĝenierio','629.01/.08','Speciala subklaso aldona pri veturila inĝenierio','','','',false,true);
+d.add(196,195,'629.01','<div class="nodetag">629.01</div></span>&nbsp;&nbsp;Veturilaj dezajnaj principoj: trajtoj, kapabloj, testoj','629.01','Veturilaj dezajnaj principoj: trajtoj, kapabloj, testoj','','','',false,true);
+d.add(197,195,'629.02','<div class="nodetag">629.02</div></span>&nbsp;&nbsp;Veturilaj strukturo, konstruo, principoj, ĝenerala aranĝo kaj partoj','629.02','Veturilaj strukturo, konstruo, principoj, ĝenerala aranĝo kaj partoj','','','',false,true);
+d.add(198,195,'629.03','<div class="nodetag">629.03</div></span>&nbsp;&nbsp;Propulsaj / pelaj sistemoj','629.03','Propulsaj / pelaj sistemoj','','','',false,true);
+d.add(199,195,'629.04','<div class="nodetag">629.04</div></span>&nbsp;&nbsp;Interna aranĝo: pasaĝeraj lokoj, instalaĵoj, ekipado por personoj kaj kargo','629.04','Interna aranĝo: pasaĝeraj lokoj, instalaĵoj, ekipado por personoj kaj kargo','','','',false,true);
+d.add(200,195,'629.05','<div class="nodetag">629.05</div></span>&nbsp;&nbsp;Gvidaj, kondukaj kaj navigadaj sistemoj kaj instrumentoj (ene de veturilo)','629.05','Gvidaj, kondukaj kaj navigadaj sistemoj kaj instrumentoj (ene de veturilo)','','','',false,true);
+d.add(201,195,'629.06','<div class="nodetag">629.06</div></span>&nbsp;&nbsp;Aldonaj sistemoj kaj aparatoj de veturiloj','629.06','Aldonaj sistemoj kaj aparatoj de veturiloj','','','',false,true);
+d.add(202,195,'629.07','<div class="nodetag">629.07</div></span>&nbsp;&nbsp;Teknikaj aferoj pri funkciigo de veturiloj','629.07','Teknikaj aferoj pri funkciigo de veturiloj','','','',false,true);
+d.add(203,195,'629.08','<div class="nodetag">629.08</div></span>&nbsp;&nbsp;Baza ilaro, instalaĵoj kaj rilataj teknikaj faroj','629.08','Baza ilaro, instalaĵoj kaj rilataj teknikaj faroj','','','',false,true);
+d.add(204,194,'629.3','<div class="nodetag">629.3</div></span>&nbsp;&nbsp;Inĝenierio de teraj veturiloj','629.3','Inĝenierio de teraj veturiloj','','','',false,true);
+d.add(205,194,'629.4','<div class="nodetag">629.4</div></span>&nbsp;&nbsp;Inĝenierio de relveturiloj. Lokomotivoj. Trajnoj. Vagonaro. Fervojejoj. Instalaĵoj kaj revizioj rilate vagonojn','629.4','Inĝenierio de relveturiloj. Lokomotivoj. Trajnoj. Vagonaro. Fervojejoj. Instalaĵoj kaj revizioj rilate vagonojn','','','',false,true);
+d.add(206,194,'629.5','<div class="nodetag">629.5</div></span>&nbsp;&nbsp;Inĝenierio de akvaj veturiloj. Boatoj. Ŝipoj. Konstruo de boatoj kaj ŝipoj','629.5','Inĝenierio de akvaj veturiloj. Boatoj. Ŝipoj. Konstruo de boatoj kaj ŝipoj','','','',false,true);
+d.add(207,194,'629.7','<div class="nodetag">629.7</div></span>&nbsp;&nbsp;Inĝenierio de aera kaj spac-veturado. Aeronaŭtiko kaj aerŝipoj. Raketoj kaj misiloj. Astronaŭtiko kaj spacŝipoj','629.7','Inĝenierio de aera kaj spac-veturado. Aeronaŭtiko kaj aerŝipoj. Raketoj kaj misiloj. Astronaŭtiko kaj spacŝipoj','','','',false,true);
+d.add(208,0,'63','<div class="nodetag">63</div></span>&nbsp;&nbsp;Agrikulturo kaj rilataj scienco kaj tekniko. Forstumo. Ter-kultivado. Ekspluato de sovaĝa vivaĵaro','63','Agrikulturo kaj rilataj scienco kaj tekniko. Forstumo. Ter-kultivado. Ekspluato de sovaĝa vivaĵaro','','','',false,true);
+d.add(209,208,'630','<div class="nodetag">630</div></span>&nbsp;&nbsp;Forstumo','630','Forstumo','','','',false,true);
+d.add(210,209,'630*0','<div class="nodetag">630*0</div></span>&nbsp;&nbsp;Arbaroj, forstumo kaj la utiligo de produktoj el arbaroj','630*0','Arbaroj, forstumo kaj la utiligo de produktoj el arbaroj','','','',false,true);
+d.add(211,209,'630*1','<div class="nodetag">630*1</div></span>&nbsp;&nbsp;Mediaj faktoroj. Biologio de arbaro','630*1','Mediaj faktoroj. Biologio de arbaro','','','',false,true);
+d.add(212,209,'630*2','<div class="nodetag">630*2</div></span>&nbsp;&nbsp;Silvikulturo / Arbarkulturo','630*2','Silvikulturo / Arbarkulturo','','','',false,true);
+d.add(213,209,'630*3','<div class="nodetag">630*3</div></span>&nbsp;&nbsp;La esploro kaj studo pri laboro rilate forstumon. Rikolto de ligno: dehakado kaj transporto. Inĝenierarto de forstumo','630*3','La esploro kaj studo pri laboro rilate forstumon. Rikolto de ligno: dehakado kaj transporto. Inĝenierarto de forstumo','','','',false,true);
+d.add(214,209,'630*4','<div class="nodetag">630*4</div></span>&nbsp;&nbsp;Vundoj kaj protekto en arbaro','630*4','Vundoj kaj protekto en arbaro','','','',false,true);
+d.add(215,209,'630*5','<div class="nodetag">630*5</div></span>&nbsp;&nbsp;Mezur-arto kaj taksado rilate forstumon. Pliigo, evoluo kaj strukturo de boskoj. Mezurado kaj mapado','630*5','Mezur-arto kaj taksado rilate forstumon. Pliigo, evoluo kaj strukturo de boskoj. Mezurado kaj mapado','','','',false,true);
+d.add(216,209,'630*6','<div class="nodetag">630*6</div></span>&nbsp;&nbsp;Arbara mastrumado. Komerca ekonomiko rilate forstumon. Administrado kaj organizado de forstumaj entreprenoj','630*6','Arbara mastrumado. Komerca ekonomiko rilate forstumon. Administrado kaj organizado de forstumaj entreprenoj','','','',false,true);
+d.add(217,209,'630*7','<div class="nodetag">630*7</div></span>&nbsp;&nbsp;Vendado de arbaraj produktoj. Ekonomiko pri transporto de varoj el arbaro kaj industrio ligna','630*7','Vendado de arbaraj produktoj. Ekonomiko pri transporto de varoj el arbaro kaj industrio ligna','','','',false,true);
+d.add(218,209,'630*8','<div class="nodetag">630*8</div></span>&nbsp;&nbsp;Produktoj de arbaro kaj la utiligo de arbaraj produktoj','630*8','Produktoj de arbaro kaj la utiligo de arbaraj produktoj','','','',false,true);
+d.add(219,209,'630*9','<div class="nodetag">630*9</div></span>&nbsp;&nbsp;Arbaroj kaj forstumo de nacia vidpunkto. Socia ekonomiko de forstumo','630*9','Arbaroj kaj forstumo de nacia vidpunkto. Socia ekonomiko de forstumo','','','',false,true);
+d.add(220,208,'631/635','<div class="nodetag">631/635</div></span>&nbsp;&nbsp;Mastrumado de bienoj. Agronomio. Hortikulturo','631/635','Mastrumado de bienoj. Agronomio. Hortikulturo','','','',false,true);
+d.add(221,220,'631','<div class="nodetag">631</div></span>&nbsp;&nbsp;Agrokulturo ĝenerale','631','Agrokulturo ĝenerale','','','',false,true);
+d.add(222,221,'631.1','<div class="nodetag">631.1</div></span>&nbsp;&nbsp;Mastrumado kaj organizado de bienoj','631.1','Mastrumado kaj organizado de bienoj','','','',false,true);
+d.add(223,221,'631.2','<div class="nodetag">631.2</div></span>&nbsp;&nbsp;Konstruaĵoj por brutaro, rikoltaĵoj, maŝinaro kaj ekipaĵoj','631.2','Konstruaĵoj por brutaro, rikoltaĵoj, maŝinaro kaj ekipaĵoj','','','',false,true);
+d.add(224,221,'631.3','<div class="nodetag">631.3</div></span>&nbsp;&nbsp;Agrokulturaj maŝinaj, aparatoj kaj ekipaĵo','631.3','Agrokulturaj maŝinaj, aparatoj kaj ekipaĵo','','','',false,true);
+d.add(225,221,'631.4','<div class="nodetag">631.4</div></span>&nbsp;&nbsp;Grundo-scienco. Pedologio / grundologio. Esploroj de la grundoj','631.4','Grundo-scienco. Pedologio / grundologio. Esploroj de la grundoj','','','',false,true);
+d.add(226,221,'631.5','<div class="nodetag">631.5</div></span>&nbsp;&nbsp;Agrokulturaj faroj','631.5','Agrokulturaj faroj','','','',false,true);
+d.add(227,221,'631.6','<div class="nodetag">631.6</div></span>&nbsp;&nbsp;Rura inĝenierio','631.6','Rura inĝenierio','','','',false,true);
+d.add(228,221,'631.8','<div class="nodetag">631.8</div></span>&nbsp;&nbsp;Sterkoj kaj plibonigo de la grundo. Kuraĝigo de kresko. Stimulado de vegetaĵoj','631.8','Sterkoj kaj plibonigo de la grundo. Kuraĝigo de kresko. Stimulado de vegetaĵoj','','','',false,true);
+d.add(229,220,'632','<div class="nodetag">632</div></span>&nbsp;&nbsp;Damaĝo al plantoj, vundoj. Malsanoj de plantoj. Fiinsektoj, organismoj malutilaj al plantoj. Protekto de plantoj','632','Damaĝo al plantoj, vundoj. Malsanoj de plantoj. Fiinsektoj, organismoj malutilaj al plantoj. Protekto de plantoj','','','',false,true);
+d.add(230,220,'633/635','<div class="nodetag">633/635</div></span>&nbsp;&nbsp;Hortikulturo ĝenerale. Specifaj kultivaĵoj','633/635','Hortikulturo ĝenerale. Specifaj kultivaĵoj','','','',false,true);
+d.add(231,230,'633','<div class="nodetag">633</div></span>&nbsp;&nbsp;Kampaj kultivaĵoj kaj la produkto','633','Kampaj kultivaĵoj kaj la produkto','','','',false,true);
+d.add(232,231,'633.1','<div class="nodetag">633.1</div></span>&nbsp;&nbsp;Cerealoj. Grenoj','633.1','Cerealoj. Grenoj','','','',false,true);
+d.add(233,231,'633.2','<div class="nodetag">633.2</div></span>&nbsp;&nbsp;Furaĝo-gresoj kaj herbaĵoj. Kamparaj kaj paŝtejaj herboj','633.2','Furaĝo-gresoj kaj herbaĵoj. Kamparaj kaj paŝtejaj herboj','','','',false,true);
+d.add(234,231,'633.3','<div class="nodetag">633.3</div></span>&nbsp;&nbsp;Furaĝplantoj escepte gresojn','633.3','Furaĝplantoj escepte gresojn','','','',false,true);
+d.add(235,231,'633.4','<div class="nodetag">633.4</div></span>&nbsp;&nbsp;Manĝeblaj radikoj kaj tuberoj. Radiklegomoj','633.4','Manĝeblaj radikoj kaj tuberoj. Radiklegomoj','','','',false,true);
+d.add(236,231,'633.5','<div class="nodetag">633.5</div></span>&nbsp;&nbsp;Teksumaj plantoj kaj plantoj por fibroj','633.5','Teksumaj plantoj kaj plantoj por fibroj','','','',false,true);
+d.add(237,231,'633.6','<div class="nodetag">633.6</div></span>&nbsp;&nbsp;Plantoj por amelo kaj sukeroj','633.6','Plantoj por amelo kaj sukeroj','','','',false,true);
+d.add(238,231,'633.7','<div class="nodetag">633.7</div></span>&nbsp;&nbsp;Plantoj por la produkto de stimulaĵoj. Por trinkaĵoj','633.7','Plantoj por la produkto de stimulaĵoj. Por trinkaĵoj','','','',false,true);
+d.add(239,231,'633.8','<div class="nodetag">633.8</div></span>&nbsp;&nbsp;Aromaj plantoj. Kondimentaj plantoj. Oleaj plantoj. Tinkturaj plantoj. Vegetaĵaj tanantoj. Medicinaj plantoj','633.8','Aromaj plantoj. Kondimentaj plantoj. Oleaj plantoj. Tinkturaj plantoj. Vegetaĵaj tanantoj. Medicinaj plantoj','','','',false,true);
+d.add(240,231,'633.9','<div class="nodetag">633.9</div></span>&nbsp;&nbsp;Aliaj vegetaĵoj kun industriaj uzoj','633.9','Aliaj vegetaĵoj kun industriaj uzoj','','','',false,true);
+d.add(241,230,'634','<div class="nodetag">634</div></span>&nbsp;&nbsp;Kultivo de fruktoj','634','Kultivo de fruktoj','','','',false,true);
+d.add(242,241,'634.2','<div class="nodetag">634.2</div></span>&nbsp;&nbsp;Kernofruktoj. Drupoj ĝenerale','634.2','Kernofruktoj. Drupoj ĝenerale','','','',false,true);
+d.add(243,241,'634.3','<div class="nodetag">634.3</div></span>&nbsp;&nbsp;Fruktoj de la rutacoj kaj morusacoj. Citrusaj fruktoj ĝenerale','634.3','Fruktoj de la rutacoj kaj morusacoj. Citrusaj fruktoj ĝenerale','','','',false,true);
+d.add(244,241,'634.4','<div class="nodetag">634.4</div></span>&nbsp;&nbsp;Aliaj pulpaj fruktoj','634.4','Aliaj pulpaj fruktoj','','','',false,true);
+d.add(245,241,'634.5','<div class="nodetag">634.5</div></span>&nbsp;&nbsp;Nuksoj','634.5','Nuksoj','','','',false,true);
+d.add(246,241,'634.6','<div class="nodetag">634.6</div></span>&nbsp;&nbsp;Diversaj tropikaj kaj subtropikaj fruktoj','634.6','Diversaj tropikaj kaj subtropikaj fruktoj','','','',false,true);
+d.add(247,241,'634.7','<div class="nodetag">634.7</div></span>&nbsp;&nbsp;Etaj fruktoj de arbedoj kaj herbaj plantoj. Beroj','634.7','Etaj fruktoj de arbedoj kaj herbaj plantoj. Beroj','','','',false,true);
+d.add(248,241,'634.8','<div class="nodetag">634.8</div></span>&nbsp;&nbsp;Vitokulturo. Vinberujoj. Vitejoj','634.8','Vitokulturo. Vinberujoj. Vitejoj','','','',false,true);
+d.add(249,230,'635','<div class="nodetag">635</div></span>&nbsp;&nbsp;Ĝardenaj plantoj. Ĝarden-kulturado','635','Ĝardenaj plantoj. Ĝarden-kulturado','','','',false,true);
+d.add(250,249,'635.1/.8','<div class="nodetag">635.1/.8</div></span>&nbsp;&nbsp;Legomoj. Legomĝardenado','635.1/.8','Legomoj. Legomĝardenado','','','',false,true);
+d.add(251,250,'635.1','<div class="nodetag">635.1</div></span>&nbsp;&nbsp;Manĝeblaj radikoj. Radiklegomoj','635.1','Manĝeblaj radikoj. Radiklegomoj','','','',false,true);
+d.add(252,250,'635.2','<div class="nodetag">635.2</div></span>&nbsp;&nbsp;Manĝeblaj tuberoj kaj bulboj','635.2','Manĝeblaj tuberoj kaj bulboj','','','',false,true);
+d.add(253,250,'635.3','<div class="nodetag">635.3</div></span>&nbsp;&nbsp;Plantoj kun manĝeblaj tigoj, folioj aŭ floroj','635.3','Plantoj kun manĝeblaj tigoj, folioj aŭ floroj','','','',false,true);
+d.add(254,250,'635.4','<div class="nodetag">635.4</div></span>&nbsp;&nbsp;Aliaj verdaj legomoj. Foliaj legomoj','635.4','Aliaj verdaj legomoj. Foliaj legomoj','','','',false,true);
+d.add(255,250,'635.6','<div class="nodetag">635.6</div></span>&nbsp;&nbsp;Manĝeblaj fruktoj kaj semoj. Guŝoj','635.6','Manĝeblaj fruktoj kaj semoj. Guŝoj','','','',false,true);
+d.add(256,250,'635.7','<div class="nodetag">635.7</div></span>&nbsp;&nbsp;Aromaj herboj. Plantoj por spicoj','635.7','Aromaj herboj. Plantoj por spicoj','','','',false,true);
+d.add(257,250,'635.8','<div class="nodetag">635.8</div></span>&nbsp;&nbsp;Manĝeblaj fungoj','635.8','Manĝeblaj fungoj','','','',false,true);
+d.add(258,249,'635.9','<div class="nodetag">635.9</div></span>&nbsp;&nbsp;Ornamaj plantoj. Ornama ĝardenado','635.9','Ornamaj plantoj. Ornama ĝardenado','','','',false,true);
+d.add(259,208,'636','<div class="nodetag">636</div></span>&nbsp;&nbsp;Bestkulturado kaj bredado ĝenerale. La kulturado kaj bredado de brutoj','636','Bestkulturado kaj bredado ĝenerale. La kulturado kaj bredado de brutoj','','','',false,true);
+d.add(260,259,'636.01/.09','<div class="nodetag">636.01/.09</div></span>&nbsp;&nbsp;Speciala subklaso aldona pri bredado','636.01/.09','Speciala subklaso aldona pri bredado','','','',false,true);
+d.add(261,260,'636.01','<div class="nodetag">636.01</div></span>&nbsp;&nbsp;Origino, evoluo kaj komenca malsovaĝigo de bestoj / bestioj. Malsovaĝigo de bestioj. Biologiaj bazoj de bredado kaj dresado','636.01','Origino, evoluo kaj komenca malsovaĝigo de bestoj / bestioj. Malsovaĝigo de bestioj. Biologiaj bazoj de bredado kaj dresado','','','',false,true);
+d.add(262,260,'636.02','<div class="nodetag">636.02</div></span>&nbsp;&nbsp;Tenado de bestoj por bredi, ekspozicii kaj uzi sciencocele','636.02','Tenado de bestoj por bredi, ekspozicii kaj uzi sciencocele','','','',false,true);
+d.add(263,260,'636.03','<div class="nodetag">636.03</div></span>&nbsp;&nbsp;Bestoj bredataj aŭ tenataj por viando, manĝaĵoj aŭ aliaj produktoj. Brutoj kaj kortobestoj ĝenerale','636.03','Bestoj bredataj aŭ tenataj por viando, manĝaĵoj aŭ aliaj produktoj. Brutoj kaj kortobestoj ĝenerale','','','',false,true);
+d.add(264,260,'636.04','<div class="nodetag">636.04</div></span>&nbsp;&nbsp;Bestoj bredataj aŭ tenataj por laboro kaj servado aŭ plezurcele','636.04','Bestoj bredataj aŭ tenataj por laboro kaj servado aŭ plezurcele','','','',false,true);
+d.add(265,260,'636.05','<div class="nodetag">636.05</div></span>&nbsp;&nbsp;Bestoj laŭ bredado','636.05','Bestoj laŭ bredado','','','',false,true);
+d.add(266,260,'636.06','<div class="nodetag">636.06</div></span>&nbsp;&nbsp;Trajtoj, konstitucio kaj apartaj biologiaj trajtoj de malsovaĝaj bestoj','636.06','Trajtoj, konstitucio kaj apartaj biologiaj trajtoj de malsovaĝaj bestoj','','','',false,true);
+d.add(267,260,'636.08','<div class="nodetag">636.08</div></span>&nbsp;&nbsp;Ĝeneralaj demandoj pri bredado','636.08','Ĝeneralaj demandoj pri bredado','','','',false,true);
+d.add(268,260,'636.09','<div class="nodetag">636.09</div></span>&nbsp;&nbsp;Veterinara medicino / scienco','636.09','Veterinara medicino / scienco','','','',false,true);
+d.add(269,259,'636.1','<div class="nodetag">636.1</div></span>&nbsp;&nbsp;Malsovaĝaj ekvoj. Ĉevaloj','636.1','Malsovaĝaj ekvoj. Ĉevaloj','','','',false,true);
+d.add(270,259,'636.2','<div class="nodetag">636.2</div></span>&nbsp;&nbsp;Grandaj remaĉuloj. Bovoj, oksoj','636.2','Grandaj remaĉuloj. Bovoj, oksoj','','','',false,true);
+d.add(271,259,'636.3','<div class="nodetag">636.3</div></span>&nbsp;&nbsp;Malgrandaj remaĉuloj','636.3','Malgrandaj remaĉuloj','','','',false,true);
+d.add(272,259,'636.4','<div class="nodetag">636.4</div></span>&nbsp;&nbsp;Porkoj','636.4','Porkoj','','','',false,true);
+d.add(273,259,'636.5','<div class="nodetag">636.5</div></span>&nbsp;&nbsp;Kortobirdoj','636.5','Kortobirdoj','','','',false,true);
+d.add(274,259,'636.6','<div class="nodetag">636.6</div></span>&nbsp;&nbsp;Birdoj (escepte kortobirdojn kaj ĉasbirdojn) bredataj aŭ tenataj de homoj','636.6','Birdoj (escepte kortobirdojn kaj ĉasbirdojn) bredataj aŭ tenataj de homoj','','','',false,true);
+d.add(275,259,'636.7','<div class="nodetag">636.7</div></span>&nbsp;&nbsp;Hundoj','636.7','Hundoj','','','',false,true);
+d.add(276,259,'636.8','<div class="nodetag">636.8</div></span>&nbsp;&nbsp;Katoj','636.8','Katoj','','','',false,true);
+d.add(277,259,'636.9','<div class="nodetag">636.9</div></span>&nbsp;&nbsp;Aliaj bestoj tenataj de homoj','636.9','Aliaj bestoj tenataj de homoj','','','',false,true);
+d.add(278,208,'637','<div class="nodetag">637</div></span>&nbsp;&nbsp;Produktoj de hejmaj bestoj kaj bestioj','637','Produktoj de hejmaj bestoj kaj bestioj','','','',false,true);
+d.add(279,208,'638','<div class="nodetag">638</div></span>&nbsp;&nbsp;Mastrumado kaj bredado de insektoj kaj aliaj artropodoj','638','Mastrumado kaj bredado de insektoj kaj aliaj artropodoj','','','',false,true);
+d.add(280,208,'639','<div class="nodetag">639</div></span>&nbsp;&nbsp;Bestĉasado. Fiŝkaptado. Bredado de fiŝoj','639','Bestĉasado. Fiŝkaptado. Bredado de fiŝoj','','','',false,true);
+d.add(281,280,'639.1','<div class="nodetag">639.1</div></span>&nbsp;&nbsp;Bestĉasado','639.1','Bestĉasado','','','',false,true);
+d.add(282,280,'639.2','<div class="nodetag">639.2</div></span>&nbsp;&nbsp;Fiŝkaptado. Fiŝejoj','639.2','Fiŝkaptado. Fiŝejoj','','','',false,true);
+d.add(283,280,'639.3','<div class="nodetag">639.3</div></span>&nbsp;&nbsp;Fiŝbredado','639.3','Fiŝbredado','','','',false,true);
+d.add(284,280,'639.4','<div class="nodetag">639.4</div></span>&nbsp;&nbsp;Bredado de moluskoj (konkuloj)','639.4','Bredado de moluskoj (konkuloj)','','','',false,true);
+d.add(285,280,'639.5','<div class="nodetag">639.5</div></span>&nbsp;&nbsp;Bredado de akvaj krustuloj / krustacoj','639.5','Bredado de akvaj krustuloj / krustacoj','','','',false,true);
+d.add(286,280,'639.6','<div class="nodetag">639.6</div></span>&nbsp;&nbsp;Aliaj produkoj de la maro','639.6','Aliaj produkoj de la maro','','','',false,true);
+d.add(287,0,'64','<div class="nodetag">64</div></span>&nbsp;&nbsp;Dommastrumado. Hejma ekonomio. Scienco pri dommastrumado','64','Dommastrumado. Hejma ekonomio. Scienco pri dommastrumado','','','',false,true);
+d.add(288,287,'64.01/.08','<div class="nodetag">64.01/.08</div></span>&nbsp;&nbsp;Speciala subklaso aldona pri dommastruma scienco','64.01/.08','Speciala subklaso aldona pri dommastruma scienco','','','',false,true);
+d.add(289,288,'64.01','<div class="nodetag">64.01</div></span>&nbsp;&nbsp;La hejmo. Mastrumo de la hejmo','64.01','La hejmo. Mastrumo de la hejmo','','','',false,true);
+d.add(290,288,'64.048','<div class="nodetag">64.048</div></span>&nbsp;&nbsp;Studo de laboro kaj labormetodoj en la hejmo','64.048','Studo de laboro kaj labormetodoj en la hejmo','','','',false,true);
+d.add(291,288,'64.05','<div class="nodetag">64.05</div></span>&nbsp;&nbsp;Hejma ekonomio. Dommastrumado, meblado kaj ekipado de hejmo ktp, por apartaj specoj de homoj','64.05','Hejma ekonomio. Dommastrumado, meblado kaj ekipado de hejmo ktp, por apartaj specoj de homoj','','','',false,true);
+d.add(292,288,'64.06','<div class="nodetag">64.06</div></span>&nbsp;&nbsp;Aparatoj kaj maŝinoj de la domo. Laborreduktaj aparatoj de la hejmo','64.06','Aparatoj kaj maŝinoj de la domo. Laborreduktaj aparatoj de la hejmo','','','',false,true);
+d.add(293,288,'64.08','<div class="nodetag">64.08</div></span>&nbsp;&nbsp;Translokiĝo','64.08','Translokiĝo','','','',false,true);
+d.add(294,287,'640','<div class="nodetag">640</div></span>&nbsp;&nbsp;Specoj de hejmoj kaj domoj','640','Specoj de hejmoj kaj domoj','','','',false,true);
+d.add(295,287,'641/642','<div class="nodetag">641/642</div></span>&nbsp;&nbsp;Manĝaĵoj. Kuirado. Pladoj. Manĝoj','641/642','Manĝaĵoj. Kuirado. Pladoj. Manĝoj','','','',false,true);
+d.add(296,295,'641','<div class="nodetag">641</div></span>&nbsp;&nbsp;Manĝaĵoj. Kuirado. Pladoj','641','Manĝaĵoj. Kuirado. Pladoj','','','',false,true);
+d.add(297,295,'642','<div class="nodetag">642</div></span>&nbsp;&nbsp;Manĝoj kaj manĝtempoj. Manĝilaro','642','Manĝoj kaj manĝtempoj. Manĝilaro','','','',false,true);
+d.add(298,287,'643/645','<div class="nodetag">643/645</div></span>&nbsp;&nbsp;La hejmo. Garnituroj kaj mebloj','643/645','La hejmo. Garnituroj kaj mebloj','','','',false,true);
+d.add(299,298,'643','<div class="nodetag">643</div></span>&nbsp;&nbsp;La domo','643','La domo','','','',false,true);
+d.add(300,298,'644','<div class="nodetag">644</div></span>&nbsp;&nbsp;Instalaĵoj por sano kaj komforto en domoj','644','Instalaĵoj por sano kaj komforto en domoj','','','',false,true);
+d.add(301,300,'644.1','<div class="nodetag">644.1</div></span>&nbsp;&nbsp;Hejtado. Ventolado. Klimatizado','644.1','Hejtado. Ventolado. Klimatizado','','','',false,true);
+d.add(302,300,'644.3','<div class="nodetag">644.3</div></span>&nbsp;&nbsp;Lumigo de la domo','644.3','Lumigo de la domo','','','',false,true);
+d.add(303,300,'644.6','<div class="nodetag">644.6</div></span>&nbsp;&nbsp;Akvoprovizo al domo kaj higienaj instalaĵoj','644.6','Akvoprovizo al domo kaj higienaj instalaĵoj','','','',false,true);
+d.add(304,298,'645','<div class="nodetag">645</div></span>&nbsp;&nbsp;Meblaro kaj domaj garnituroj','645','Meblaro kaj domaj garnituroj','','','',false,true);
+d.add(305,287,'646/649','<div class="nodetag">646/649</div></span>&nbsp;&nbsp;Tualeto. Hejma mastrumado','646/649','Tualeto. Hejma mastrumado','','','',false,true);
+d.add(306,305,'646','<div class="nodetag">646</div></span>&nbsp;&nbsp;Vestaĵaro. Korpa kaj persona prizorgado','646','Vestaĵaro. Korpa kaj persona prizorgado','','','',false,true);
+d.add(307,306,'646.2','<div class="nodetag">646.2</div></span>&nbsp;&nbsp;Hejma farado kaj flikado de vestaĵoj','646.2','Hejma farado kaj flikado de vestaĵoj','','','',false,true);
+d.add(308,306,'646.4','<div class="nodetag">646.4</div></span>&nbsp;&nbsp;Vestaĵoj','646.4','Vestaĵoj','','','',false,true);
+d.add(309,306,'646.7','<div class="nodetag">646.7</div></span>&nbsp;&nbsp;Prizorgado de la korpo. Kosmetiko, beligado. Tualeto','646.7','Prizorgado de la korpo. Kosmetiko, beligado. Tualeto','','','',false,true);
+d.add(310,305,'648','<div class="nodetag">648</div></span>&nbsp;&nbsp;Lavado. Purigado','648','Lavado. Purigado','','','',false,true);
+d.add(311,305,'649','<div class="nodetag">649</div></span>&nbsp;&nbsp;Hejma prizorgado de infanoj, invalidoj, gastoj','649','Hejma prizorgado de infanoj, invalidoj, gastoj','','','',false,true);
+d.add(312,0,'65','<div class="nodetag">65</div></span>&nbsp;&nbsp;Transport- kaj komunikad-industrioj. Librotenado. Komerca administrado. Publikaj rilatoj.','65','Transport- kaj komunikad-industrioj. Librotenado. Komerca administrado. Publikaj rilatoj.','','','',false,true);
+d.add(313,312,'654','<div class="nodetag">654</div></span>&nbsp;&nbsp;Telekomunikado kaj teleregado (organizo, servoj)','654','Telekomunikado kaj teleregado (organizo, servoj)','','','',false,true);
+d.add(314,313,'654.1','<div class="nodetag">654.1</div></span>&nbsp;&nbsp;Telegrafio, telefonio, radio, televidaj servoj','654.1','Telegrafio, telefonio, radio, televidaj servoj','','','',false,true);
+d.add(315,313,'654.9','<div class="nodetag">654.9</div></span>&nbsp;&nbsp;Signalado. Diversaj telekomunikadaj servoj. Teleregado','654.9','Signalado. Diversaj telekomunikadaj servoj. Teleregado','','','',false,true);
+d.add(316,312,'655','<div class="nodetag">655</div></span>&nbsp;&nbsp;Grafikaj industrioj. Presado. Eldonado. Libro-komerco','655','Grafikaj industrioj. Presado. Eldonado. Libro-komerco','','','',false,true);
+d.add(317,316,'655.1','<div class="nodetag">655.1</div></span>&nbsp;&nbsp;Pres-industrio ĝenerale','655.1','Pres-industrio ĝenerale','','','',false,true);
+d.add(318,316,'655.4','<div class="nodetag">655.4</div></span>&nbsp;&nbsp;Eldonado kaj vendado de libroj ĝenerale','655.4','Eldonado kaj vendado de libroj ĝenerale','','','',false,true);
+d.add(319,312,'656','<div class="nodetag">656</div></span>&nbsp;&nbsp;Transportaj kaj poŝtaj servoj. Organizo kaj direkto de trafiko','656','Transportaj kaj poŝtaj servoj. Organizo kaj direkto de trafiko','','','',false,true);
+d.add(320,319,'656.1/.5','<div class="nodetag">656.1/.5</div></span>&nbsp;&nbsp;Surtera transporto','656.1/.5','Surtera transporto','','','',false,true);
+d.add(321,320,'656.1','<div class="nodetag">656.1</div></span>&nbsp;&nbsp;Transporto per vojo','656.1','Transporto per vojo','','','',false,true);
+d.add(322,320,'656.2','<div class="nodetag">656.2</div></span>&nbsp;&nbsp;Transporto per relo. Surrela trafiko','656.2','Transporto per relo. Surrela trafiko','','','',false,true);
+d.add(323,320,'656.4','<div class="nodetag">656.4</div></span>&nbsp;&nbsp;Transporto per rapidtramo aŭ simpla fervojo','656.4','Transporto per rapidtramo aŭ simpla fervojo','','','',false,true);
+d.add(324,320,'656.5','<div class="nodetag">656.5</div></span>&nbsp;&nbsp;Surtera transporto per transport-zonoj aŭ ĉenoj kaj per duktoj','656.5','Surtera transporto per transport-zonoj aŭ ĉenoj kaj per duktoj','','','',false,true);
+d.add(325,319,'656.6','<div class="nodetag">656.6</div></span>&nbsp;&nbsp;Surakva transporto','656.6','Surakva transporto','','','',false,true);
+d.add(326,319,'656.7','<div class="nodetag">656.7</div></span>&nbsp;&nbsp;Aertransporto','656.7','Aertransporto','','','',false,true);
+d.add(327,319,'656.8','<div class="nodetag">656.8</div></span>&nbsp;&nbsp;Poŝtaj servoj kaj administrado','656.8','Poŝtaj servoj kaj administrado','','','',false,true);
+d.add(328,312,'657','<div class="nodetag">657</div></span>&nbsp;&nbsp;Kontado','657','Kontado','','','',false,true);
+d.add(329,312,'658','<div class="nodetag">658</div></span>&nbsp;&nbsp;Komerca administrado. Komerca organizado','658','Komerca administrado. Komerca organizado','','','',false,true);
+d.add(330,329,'658.1','<div class="nodetag">658.1</div></span>&nbsp;&nbsp;Specoj de entreprenado. Financoj','658.1','Specoj de entreprenado. Financoj','','','',false,true);
+d.add(331,329,'658.2','<div class="nodetag">658.2</div></span>&nbsp;&nbsp;Instalaĵoj kaj lokalo. Konstruaĵoj, laborejoj, fabrikoj. Materialoj','658.2','Instalaĵoj kaj lokalo. Konstruaĵoj, laborejoj, fabrikoj. Materialoj','','','',false,true);
+d.add(332,329,'658.3','<div class="nodetag">658.3</div></span>&nbsp;&nbsp;Homa interrilatado en komercejo. Administrado de dungitaro','658.3','Homa interrilatado en komercejo. Administrado de dungitaro','','','',false,true);
+d.add(333,329,'658.5','<div class="nodetag">658.5</div></span>&nbsp;&nbsp;Produkta inĝenierio (subfako de industria inĝenierio) kaj planado. Dezajno. Produkta administrado kaj direktado','658.5','Produkta inĝenierio (subfako de industria inĝenierio) kaj planado. Dezajno. Produkta administrado kaj direktado','','','',false,true);
+d.add(334,329,'658.6','<div class="nodetag">658.6</div></span>&nbsp;&nbsp;Komercaj organizado kaj faroj. Varoj. Servoj','658.6','Komercaj organizado kaj faroj. Varoj. Servoj','','','',false,true);
+d.add(335,329,'658.7','<div class="nodetag">658.7</div></span>&nbsp;&nbsp;Aĉetado. Akirado. Administrado de stoko','658.7','Aĉetado. Akirado. Administrado de stoko','','','',false,true);
+d.add(336,329,'658.8','<div class="nodetag">658.8</div></span>&nbsp;&nbsp;Vendado. Merkatiko. Distribuado','658.8','Vendado. Merkatiko. Distribuado','','','',false,true);
+d.add(337,329,'658.9','<div class="nodetag">658.9</div></span>&nbsp;&nbsp;Aliaj komercaj faroj','658.9','Aliaj komercaj faroj','','','',false,true);
+d.add(338,312,'659','<div class="nodetag">659</div></span>&nbsp;&nbsp;Reklamado. Propagando. Publikaj rilatoj. Publika informado','659','Reklamado. Propagando. Publikaj rilatoj. Publika informado','','','',false,true);
+d.add(339,338,'659.1','<div class="nodetag">659.1</div></span>&nbsp;&nbsp;Reklamado','659.1','Reklamado','','','',false,true);
+d.add(340,338,'659.2','<div class="nodetag">659.2</div></span>&nbsp;&nbsp;Propaganda kaj informa laboro. Konsila kaj konsulta servoj','659.2','Propaganda kaj informa laboro. Konsila kaj konsulta servoj','','','',false,true);
+d.add(341,338,'659.3','<div class="nodetag">659.3</div></span>&nbsp;&nbsp;Amaskomunikado. Informado de la ĝenerala publiko','659.3','Amaskomunikado. Informado de la ĝenerala publiko','','','',false,true);
+d.add(342,338,'659.4','<div class="nodetag">659.4</div></span>&nbsp;&nbsp;Publikaj rilatoj (PR)','659.4','Publikaj rilatoj (PR)','','','',false,true);
+d.add(343,0,'66','<div class="nodetag">66</div></span>&nbsp;&nbsp;Kemia teknologio. Kemiaj kaj rilataj industrioj','66','Kemia teknologio. Kemiaj kaj rilataj industrioj','','','',false,true);
+d.add(344,343,'66.01/.09','<div class="nodetag">66.01/.09</div></span>&nbsp;&nbsp;Speciala subklaso aldona pri kemia inĝenierio','66.01/.09','Speciala subklaso aldona pri kemia inĝenierio','','','',false,true);
+d.add(345,344,'66.01','<div class="nodetag">66.01</div></span>&nbsp;&nbsp;Fundamentoj de kemia inĝenierio','66.01','Fundamentoj de kemia inĝenierio','','','',false,true);
+d.add(346,344,'66.02','<div class="nodetag">66.02</div></span>&nbsp;&nbsp;Kemiaj procezaj funkcioj, faroj kaj ekipaĵo ĝenerale','66.02','Kemiaj procezaj funkcioj, faroj kaj ekipaĵo ĝenerale','','','',false,true);
+d.add(347,344,'66.03','<div class="nodetag">66.03</div></span>&nbsp;&nbsp;Materialoj, ecoj, procezoj kaj ekipaĵo','66.03','Materialoj, ecoj, procezoj kaj ekipaĵo','','','',false,true);
+d.add(348,344,'66.04','<div class="nodetag">66.04</div></span>&nbsp;&nbsp;Traktado per varmigo, la teknikoj kaj ekipaĵoj','66.04','Traktado per varmigo, la teknikoj kaj ekipaĵoj','','','',false,true);
+d.add(349,344,'66.06','<div class="nodetag">66.06</div></span>&nbsp;&nbsp;Kemia teknologio pri likvoj. Procedoj kaj ekipaĵo por traktado de aŭ per likvoj','66.06','Kemia teknologio pri likvoj. Procedoj kaj ekipaĵo por traktado de aŭ per likvoj','','','',false,true);
+d.add(350,344,'66.07','<div class="nodetag">66.07</div></span>&nbsp;&nbsp;Kemia teknologio pri gasoj','66.07','Kemia teknologio pri gasoj','','','',false,true);
+d.add(351,344,'66.08','<div class="nodetag">66.08</div></span>&nbsp;&nbsp;Fizika kaj fizikokemia teknikoj kaj ekipaĵoj. Fizikaj kaj fizikokemiaj efikoj sur kemiaj procezoj','66.08','Fizika kaj fizikokemia teknikoj kaj ekipaĵoj. Fizikaj kaj fizikokemiaj efikoj sur kemiaj procezoj','','','',false,true);
+d.add(352,343,'661','<div class="nodetag">661</div></span>&nbsp;&nbsp;Kemiaĵoj','661','Kemiaĵoj','','','',false,true);
+d.add(353,352,'661.1','<div class="nodetag">661.1</div></span>&nbsp;&nbsp;Apartaj kemiaj industrioj','661.1','Apartaj kemiaj industrioj','','','',false,true);
+d.add(354,352,'661.2','<div class="nodetag">661.2</div></span>&nbsp;&nbsp;Produktado de sulfuro kaj ties derivaĵoj','661.2','Produktado de sulfuro kaj ties derivaĵoj','','','',false,true);
+d.add(355,352,'661.3','<div class="nodetag">661.3</div></span>&nbsp;&nbsp;Produktado de sodo kaj potaso, alkaloj','661.3','Produktado de sodo kaj potaso, alkaloj','','','',false,true);
+d.add(356,352,'661.4','<div class="nodetag">661.4</div></span>&nbsp;&nbsp;Produktado de halogenoj kaj halogenaj kombinaĵoj, neorganikaj peroksidaj kombinaĵoj','661.4','Produktado de halogenoj kaj halogenaj kombinaĵoj, neorganikaj peroksidaj kombinaĵoj','','','',false,true);
+d.add(357,352,'661.5','<div class="nodetag">661.5</div></span>&nbsp;&nbsp;Produktado de nitrogenaj kombinaĵoj. Fiksado de nitrogeno. Nitrogena industrio ĝenerale','661.5','Produktado de nitrogenaj kombinaĵoj. Fiksado de nitrogeno. Nitrogena industrio ĝenerale','','','',false,true);
+d.add(358,352,'661.6','<div class="nodetag">661.6</div></span>&nbsp;&nbsp;Produktado de diversaj nemetaloj kaj metaloidoj kaj kombinaĵoj','661.6','Produktado de diversaj nemetaloj kaj metaloidoj kaj kombinaĵoj','','','',false,true);
+d.add(359,352,'661.7','<div class="nodetag">661.7</div></span>&nbsp;&nbsp;Produktado de organikaĵoj. Organikaj kemiaĵoj','661.7','Produktado de organikaĵoj. Organikaj kemiaĵoj','','','',false,true);
+d.add(360,352,'661.8','<div class="nodetag">661.8</div></span>&nbsp;&nbsp;Metalaj kombinaĵoj ĝenerale. Saloj. Mineralaj kombinaĵoj','661.8','Metalaj kombinaĵoj ĝenerale. Saloj. Mineralaj kombinaĵoj','','','',false,true);
+d.add(361,352,'661.9','<div class="nodetag">661.9</div></span>&nbsp;&nbsp;Produktado de gasoj','661.9','Produktado de gasoj','','','',false,true);
+d.add(362,343,'662','<div class="nodetag">662</div></span>&nbsp;&nbsp;Eksplodaĵoj. Fueloj / bruligaĵoj','662','Eksplodaĵoj. Fueloj / bruligaĵoj','','','',false,true);
+d.add(363,362,'662.1/.4','<div class="nodetag">662.1/.4</div></span>&nbsp;&nbsp;Eksplodaĵoj','662.1/.4','Eksplodaĵoj','','','',false,true);
+d.add(364,363,'662.1','<div class="nodetag">662.1</div></span>&nbsp;&nbsp;Artfajraĵoj. Piroteknikaj aĵoj','662.1','Artfajraĵoj. Piroteknikaj aĵoj','','','',false,true);
+d.add(365,363,'662.2','<div class="nodetag">662.2</div></span>&nbsp;&nbsp;Eksplodemaĵoj','662.2','Eksplodemaĵoj','','','',false,true);
+d.add(366,363,'662.3','<div class="nodetag">662.3</div></span>&nbsp;&nbsp;Propulsaj pulvoroj. Pulvo','662.3','Propulsaj pulvoroj. Pulvo','','','',false,true);
+d.add(367,363,'662.4','<div class="nodetag">662.4</div></span>&nbsp;&nbsp;Ekflamigiloj, prajmoj. Detonaciigiloj','662.4','Ekflamigiloj, prajmoj. Detonaciigiloj','','','',false,true);
+d.add(368,362,'662.5','<div class="nodetag">662.5</div></span>&nbsp;&nbsp;Ekbruligiloj. Alumetoj. Fajriloj','662.5','Ekbruligiloj. Alumetoj. Fajriloj','','','',false,true);
+d.add(369,362,'662.6/.9','<div class="nodetag">662.6/.9</div></span>&nbsp;&nbsp;Hejtada / varmiga ekonomio. Fuela ekonomio. Bruligaĵoj. Hejtado','662.6/.9','Hejtada / varmiga ekonomio. Fuela ekonomio. Bruligaĵoj. Hejtado','','','',false,true);
+d.add(370,369,'662.6','<div class="nodetag">662.6</div></span>&nbsp;&nbsp;Hejtada aŭ fuela ekonomio ĝenerale. Bruligado. Naturaj fueloj / brulaĵoj','662.6','Hejtada aŭ fuela ekonomio ĝenerale. Bruligado. Naturaj fueloj / brulaĵoj','','','',false,true);
+d.add(371,369,'662.7','<div class="nodetag">662.7</div></span>&nbsp;&nbsp;Fuela teknologio. Produktitaj bruligaĵoj','662.7','Fuela teknologio. Produktitaj bruligaĵoj','','','',false,true);
+d.add(372,369,'662.8','<div class="nodetag">662.8</div></span>&nbsp;&nbsp;Mekanika pritraktado por solidigo de fueloj. Formado de brikoj','662.8','Mekanika pritraktado por solidigo de fueloj. Formado de brikoj','','','',false,true);
+d.add(373,369,'662.9','<div class="nodetag">662.9</div></span>&nbsp;&nbsp;Inĝenierio pri fornoj kaj ekbruligo','662.9','Inĝenierio pri fornoj kaj ekbruligo','','','',false,true);
+d.add(374,343,'663','<div class="nodetag">663</div></span>&nbsp;&nbsp;Industria mikrobiologio. Industria fungologio / mikologio. Fermentiga industrio. Trinkaĵa, alkoholaĵa industrio. Stimulaĵa industrio','663','Industria mikrobiologio. Industria fungologio / mikologio. Fermentiga industrio. Trinkaĵa, alkoholaĵa industrio. Stimulaĵa industrio','','','',false,true);
+d.add(375,374,'663.1','<div class="nodetag">663.1</div></span>&nbsp;&nbsp;Mikrobiologiaj industrioj. Scienco kaj tekniko de aplikata mikrobiologio','663.1','Mikrobiologiaj industrioj. Scienco kaj tekniko de aplikata mikrobiologio','','','',false,true);
+d.add(376,374,'663.2','<div class="nodetag">663.2</div></span>&nbsp;&nbsp;Vino. Farado de vino. Vinscienco / vinologio','663.2','Vino. Farado de vino. Vinscienco / vinologio','','','',false,true);
+d.add(377,374,'663.3','<div class="nodetag">663.3</div></span>&nbsp;&nbsp;Cidro / pomvino. Pirvino. Aliaj fruktaj vinoj, vinoj de sukoj','663.3','Cidro / pomvino. Pirvino. Aliaj fruktaj vinoj, vinoj de sukoj','','','',false,true);
+d.add(378,374,'663.4','<div class="nodetag">663.4</div></span>&nbsp;&nbsp;Bieroj. Bierfarado. Maltigado','663.4','Bieroj. Bierfarado. Maltigado','','','',false,true);
+d.add(379,374,'663.5','<div class="nodetag">663.5</div></span>&nbsp;&nbsp;Trinkebla alkoholo. Distilitaj alkoholaĵoj, drinkaĵoj. Distilado kaj rafino de alkoholo','663.5','Trinkebla alkoholo. Distilitaj alkoholaĵoj, drinkaĵoj. Distilado kaj rafino de alkoholo','','','',false,true);
+d.add(380,374,'663.6','<div class="nodetag">663.6</div></span>&nbsp;&nbsp;Akvo por trinkaĵoj kaj aliaj industriaj uzoj. Mineralakvoj. Medicinaj akvoj. Manĝebla glacio','663.6','Akvo por trinkaĵoj kaj aliaj industriaj uzoj. Mineralakvoj. Medicinaj akvoj. Manĝebla glacio','','','',false,true);
+d.add(381,374,'663.8','<div class="nodetag">663.8</div></span>&nbsp;&nbsp;Ĉefaj konsistaĵoj de miksitaj trinkaĵoj. Fruktaj kaj legomaj sukoj. Siropoj. Likvoroj. Sodakvoj / karbonataj trinkaĵoj','663.8','Ĉefaj konsistaĵoj de miksitaj trinkaĵoj. Fruktaj kaj legomaj sukoj. Siropoj. Likvoroj. Sodakvoj / karbonataj trinkaĵoj','','','',false,true);
+d.add(382,374,'663.9','<div class="nodetag">663.9</div></span>&nbsp;&nbsp;Ĉokolado. Kakao. Kafo. Teo. Tabako','663.9','Ĉokolado. Kakao. Kafo. Teo. Tabako','','','',false,true);
+d.add(383,343,'664','<div class="nodetag">664</div></span>&nbsp;&nbsp;Produktado kaj konservo de solidaj nutraĵoj','664','Produktado kaj konservo de solidaj nutraĵoj','','','',false,true);
+d.add(384,383,'664.1','<div class="nodetag">664.1</div></span>&nbsp;&nbsp;Sukero. Melaso. Glukozo','664.1','Sukero. Melaso. Glukozo','','','',false,true);
+d.add(385,383,'664.2','<div class="nodetag">664.2</div></span>&nbsp;&nbsp;Amelo. Amel-havaj substancoj kaj materialoj','664.2','Amelo. Amel-havaj substancoj kaj materialoj','','','',false,true);
+d.add(386,383,'664.3','<div class="nodetag">664.3</div></span>&nbsp;&nbsp;Manĝeblaj oleoj kaj grasoj. Margarino. Proteinaj nutraĵoj','664.3','Manĝeblaj oleoj kaj grasoj. Margarino. Proteinaj nutraĵoj','','','',false,true);
+d.add(387,383,'664.4','<div class="nodetag">664.4</div></span>&nbsp;&nbsp;Manĝeblaj mineraloj','664.4','Manĝeblaj mineraloj','','','',false,true);
+d.add(388,383,'664.5','<div class="nodetag">664.5</div></span>&nbsp;&nbsp;Spicoj. Kondimentoj','664.5','Spicoj. Kondimentoj','','','',false,true);
+d.add(389,383,'664.6/.7','<div class="nodetag">664.6/.7</div></span>&nbsp;&nbsp;Teknikoj pri la prilaborado de cerealoj','664.6/.7','Teknikoj pri la prilaborado de cerealoj','','','',false,true);
+d.add(390,389,'664.6','<div class="nodetag">664.6</div></span>&nbsp;&nbsp;Bakado. Pano. Dolĉaj pastaĵoj','664.6','Bakado. Pano. Dolĉaj pastaĵoj','','','',false,true);
+d.add(391,389,'664.7','<div class="nodetag">664.7</div></span>&nbsp;&nbsp;Teknikoj kaj metodoj pritrakti cerealojn. Muelado kaj produkto de farunoj','664.7','Teknikoj kaj metodoj pritrakti cerealojn. Muelado kaj produkto de farunoj','','','',false,true);
+d.add(392,383,'664.8/.9','<div class="nodetag">664.8/.9</div></span>&nbsp;&nbsp;Konservado de manĝaĵoj','664.8/.9','Konservado de manĝaĵoj','','','',false,true);
+d.add(393,343,'665','<div class="nodetag">665</div></span>&nbsp;&nbsp;Oleoj. Grasoj. Vaksoj. Gluoj. Gumoj. Rezinoj','665','Oleoj. Grasoj. Vaksoj. Gluoj. Gumoj. Rezinoj','','','',false,true);
+d.add(394,393,'665.1','<div class="nodetag">665.1</div></span>&nbsp;&nbsp;Ĝeneralaĵoj pri oleoj, grasoj, vaksoj kaj devenigitaj produktaĵoj','665.1','Ĝeneralaĵoj pri oleoj, grasoj, vaksoj kaj devenigitaj produktaĵoj','','','',false,true);
+d.add(395,393,'665.2','<div class="nodetag">665.2</div></span>&nbsp;&nbsp;Oleoj, grasoj kaj vaksoj originaj el bestoj','665.2','Oleoj, grasoj kaj vaksoj originaj el bestoj','','','',false,true);
+d.add(396,393,'665.3','<div class="nodetag">665.3</div></span>&nbsp;&nbsp;Vegetalino. Vegetaĵaj oleoj, grasoj, vaksoj, fosfatidoj','665.3','Vegetalino. Vegetaĵaj oleoj, grasoj, vaksoj, fosfatidoj','','','',false,true);
+d.add(397,393,'665.5','<div class="nodetag">665.5</div></span>&nbsp;&nbsp;Esencaj oleoj. Parfumoj. Kosmetikaĵoj','665.5','Esencaj oleoj. Parfumoj. Kosmetikaĵoj','','','',false,true);
+d.add(398,393,'665.6/.7','<div class="nodetag">665.6/.7</div></span>&nbsp;&nbsp;Pritraktadoj kaj produktoj de la petrolaj kaj rilataj industrioj','665.6/.7','Pritraktadoj kaj produktoj de la petrolaj kaj rilataj industrioj','','','',false,true);
+d.add(399,398,'665.6','<div class="nodetag">665.6</div></span>&nbsp;&nbsp;Minerala olea teknologio. Teknikoj pri petrolo kaj rilataj produktaĵoj','665.6','Minerala olea teknologio. Teknikoj pri petrolo kaj rilataj produktaĵoj','','','',false,true);
+d.add(400,398,'665.7','<div class="nodetag">665.7</div></span>&nbsp;&nbsp;Produktoj de la mineral-olea industrio. Mineraloleoj kaj similaj produktaĵoj','665.7','Produktoj de la mineral-olea industrio. Mineraloleoj kaj similaj produktaĵoj','','','',false,true);
+d.add(401,393,'665.9','<div class="nodetag">665.9</div></span>&nbsp;&nbsp;Diversaj organika-kemiaj industrioj','665.9','Diversaj organika-kemiaj industrioj','','','',false,true);
+d.add(402,343,'666','<div class="nodetag">666</div></span>&nbsp;&nbsp;Vitra industrio. Ceramiko. Cemento kaj betono','666','Vitra industrio. Ceramiko. Cemento kaj betono','','','',false,true);
+d.add(403,402,'666.1','<div class="nodetag">666.1</div></span>&nbsp;&nbsp;Vitra industrio. Vitra teknologio. Ĝenerala fabrikado de vitro. Vitro ĝenerale','666.1','Vitra industrio. Vitra teknologio. Ĝenerala fabrikado de vitro. Vitro ĝenerale','','','',false,true);
+d.add(404,402,'666.3/.7','<div class="nodetag">666.3/.7</div></span>&nbsp;&nbsp;Ceramiko','666.3/.7','Ceramiko','','','',false,true);
+d.add(405,404,'666.3','<div class="nodetag">666.3</div></span>&nbsp;&nbsp;Ceramiko ĝenerale. Krud-materialoj por fari ceramikaĵojn','666.3','Ceramiko ĝenerale. Krud-materialoj por fari ceramikaĵojn','','','',false,true);
+d.add(406,404,'666.5','<div class="nodetag">666.5</div></span>&nbsp;&nbsp;Porcelan(aĵ)o. Fajencaĵo','666.5','Porcelan(aĵ)o. Fajencaĵo','','','',false,true);
+d.add(407,404,'666.6','<div class="nodetag">666.6</div></span>&nbsp;&nbsp;Grejso. Ŝtonceramikaĵo. Argilaĵo','666.6','Grejso. Ŝtonceramikaĵo. Argilaĵo','','','',false,true);
+d.add(408,404,'666.7','<div class="nodetag">666.7</div></span>&nbsp;&nbsp;Maldelikataj ceramikaĵoj. Pezaj argilaĵoj. Fajrorezistaj materialoj. Duraj ceramikaĵoj. Miksaĵoj de ceramikaj kaj aliaj materialoj','666.7','Maldelikataj ceramikaĵoj. Pezaj argilaĵoj. Fajrorezistaj materialoj. Duraj ceramikaĵoj. Miksaĵoj de ceramikaj kaj aliaj materialoj','','','',false,true);
+d.add(409,402,'666.9','<div class="nodetag">666.9</div></span>&nbsp;&nbsp;Gipsa, kalka kaj cementa industrioj. Hardiĝantaj materialoj. Gipso-kombinaĵoj. Morteroj kaj betonoj','666.9','Gipsa, kalka kaj cementa industrioj. Hardiĝantaj materialoj. Gipso-kombinaĵoj. Morteroj kaj betonoj','','','',false,true);
+d.add(410,343,'667','<div class="nodetag">667</div></span>&nbsp;&nbsp;Kolorigaj industrioj','667','Kolorigaj industrioj','','','',false,true);
+d.add(411,410,'667.2','<div class="nodetag">667.2</div></span>&nbsp;&nbsp;Tinktura industrio. Produkto kaj uzo de tinkturoj','667.2','Tinktura industrio. Produkto kaj uzo de tinkturoj','','','',false,true);
+d.add(412,410,'667.4','<div class="nodetag">667.4</div></span>&nbsp;&nbsp;Skrib-inkoj','667.4','Skrib-inkoj','','','',false,true);
+d.add(413,410,'667.5','<div class="nodetag">667.5</div></span>&nbsp;&nbsp;Presinkoj (nigraj, brilkoloraj). Litografiaj inkoj. Skribaj kaj desegnaj krajonoj. Paŝteloj','667.5','Presinkoj (nigraj, brilkoloraj). Litografiaj inkoj. Skribaj kaj desegnaj krajonoj. Paŝteloj','','','',false,true);
+d.add(414,410,'667.6','<div class="nodetag">667.6</div></span>&nbsp;&nbsp;Ŝmirtavoloj kaj teknikoj. Farboj. Vernisoj. Lakoj','667.6','Ŝmirtavoloj kaj teknikoj. Farboj. Vernisoj. Lakoj','','','',false,true);
+d.add(415,410,'667.7','<div class="nodetag">667.7</div></span>&nbsp;&nbsp;Kolorigo, tinkturado, mordumo ktp de diversaj materialoj (escepte printadon kaj farbadon)','667.7','Kolorigo, tinkturado, mordumo ktp de diversaj materialoj (escepte printadon kaj farbadon)','','','',false,true);
+d.add(416,343,'669','<div class="nodetag">669</div></span>&nbsp;&nbsp;Metalurgio','669','Metalurgio','','','',false,true);
+d.add(417,416,'669.1','<div class="nodetag">669.1</div></span>&nbsp;&nbsp;Fera metalurgio. Fero kaj ŝtalo','669.1','Fera metalurgio. Fero kaj ŝtalo','','','',false,true);
+d.add(418,416,'669.2','<div class="nodetag">669.2</div></span>&nbsp;&nbsp;Neferaj metaloj ĝenerale','669.2','Neferaj metaloj ĝenerale','','','',false,true);
+d.add(419,0,'67','<div class="nodetag">67</div></span>&nbsp;&nbsp;Diversaj industrioj, komercoj kaj metioj','67','Diversaj industrioj, komercoj kaj metioj','','','',false,true);
+d.add(420,419,'671','<div class="nodetag">671</div></span>&nbsp;&nbsp;Aĵoj de multvaloraj metaloj, raraj ŝtonoj, noblaj kaj fajnaj gemoj','671','Aĵoj de multvaloraj metaloj, raraj ŝtonoj, noblaj kaj fajnaj gemoj','','','',false,true);
+d.add(421,420,'671.1','<div class="nodetag">671.1</div></span>&nbsp;&nbsp;Oraj kaj arĝentaj pecoj. Aliaj aĵoj de multvaloraj metaloj. Juveloj','671.1','Oraj kaj arĝentaj pecoj. Aliaj aĵoj de multvaloraj metaloj. Juveloj','','','',false,true);
+d.add(422,420,'671.4','<div class="nodetag">671.4</div></span>&nbsp;&nbsp;Fabrikado de moneroj kaj medaloj. Stampado','671.4','Fabrikado de moneroj kaj medaloj. Stampado','','','',false,true);
+d.add(423,419,'672','<div class="nodetag">672</div></span>&nbsp;&nbsp;Feraj kaj ŝtalaj objektoj ĝenerale','672','Feraj kaj ŝtalaj objektoj ĝenerale','','','',false,true);
+d.add(424,419,'673','<div class="nodetag">673</div></span>&nbsp;&nbsp;Aĵoj de neferaj metaloj (escepte la noblajn multvalorajn metalojn)','673','Aĵoj de neferaj metaloj (escepte la noblajn multvalorajn metalojn)','','','',false,true);
+d.add(425,419,'674','<div class="nodetag">674</div></span>&nbsp;&nbsp;Ligno kaj lignoprilaboro','674','Ligno kaj lignoprilaboro','','','',false,true);
+d.add(426,419,'675','<div class="nodetag">675</div></span>&nbsp;&nbsp;Leda industrio (inkluzive felon kaj artledon)','675','Leda industrio (inkluzive felon kaj artledon)','','','',false,true);
+d.add(427,419,'676','<div class="nodetag">676</div></span>&nbsp;&nbsp;Pulpa, papera kaj kartona industrioj','676','Pulpa, papera kaj kartona industrioj','','','',false,true);
+d.add(428,419,'677','<div class="nodetag">677</div></span>&nbsp;&nbsp;Teksuma industrio','677','Teksuma industrio','','','',false,true);
+d.add(429,428,'677.1/.5','<div class="nodetag">677.1/.5</div></span>&nbsp;&nbsp;Teksumaj fibroj','677.1/.5','Teksumaj fibroj','','','',false,true);
+d.add(430,429,'677.1/.3','<div class="nodetag">677.1/.3</div></span>&nbsp;&nbsp;Naturaj fibroj','677.1/.3','Naturaj fibroj','','','',false,true);
+d.add(431,430,'677.1/.2','<div class="nodetag">677.1/.2</div></span>&nbsp;&nbsp;Vegetaĵaj fibroj','677.1/.2','Vegetaĵaj fibroj','','','',false,true);
+d.add(432,431,'677.1','<div class="nodetag">677.1</div></span>&nbsp;&nbsp;Bast-fibroj (fibroj de dukotiledonaj tigoj). Duraj fibroj (fibroj de unukotiledonaj folioj kaj fruktoj)','677.1','Bast-fibroj (fibroj de dukotiledonaj tigoj). Duraj fibroj (fibroj de unukotiledonaj folioj kaj fruktoj)','','','',false,true);
+d.add(433,431,'677.2','<div class="nodetag">677.2</div></span>&nbsp;&nbsp;Planto-haroj','677.2','Planto-haroj','','','',false,true);
+d.add(434,430,'677.3','<div class="nodetag">677.3</div></span>&nbsp;&nbsp;Animalaj fibroj','677.3','Animalaj fibroj','','','',false,true);
+d.add(435,429,'677.4','<div class="nodetag">677.4</div></span>&nbsp;&nbsp;Artefaritaj fibroj','677.4','Artefaritaj fibroj','','','',false,true);
+d.add(436,429,'677.5','<div class="nodetag">677.5</div></span>&nbsp;&nbsp;Mineralaj kaj metalaj fibroj. Materialoj por plektado. Kaŭĉukaj fadenoj. Paperaj fadeneroj','677.5','Mineralaj kaj metalaj fibroj. Materialoj por plektado. Kaŭĉukaj fadenoj. Paperaj fadeneroj','','','',false,true);
+d.add(437,419,'678','<div class="nodetag">678</div></span>&nbsp;&nbsp;Industrioj bazitaj sur makromolekulaj materialoj. Sinteza kaŭĉuka, guma industrio. Plasta industrio','678','Industrioj bazitaj sur makromolekulaj materialoj. Sinteza kaŭĉuka, guma industrio. Plasta industrio','','','',false,true);
+d.add(438,437,'678.4','<div class="nodetag">678.4</div></span>&nbsp;&nbsp;Kaŭĉuko / natura gumo. Aliaj naturaj makromolekuloj de nur karbono kaj hidrogeno','678.4','Kaŭĉuko / natura gumo. Aliaj naturaj makromolekuloj de nur karbono kaj hidrogeno','','','',false,true);
+d.add(439,437,'678.5','<div class="nodetag">678.5</div></span>&nbsp;&nbsp;Plastoj','678.5','Plastoj','','','',false,true);
+d.add(440,437,'678.6','<div class="nodetag">678.6</div></span>&nbsp;&nbsp;Sintezaĵoj de polimeriga kondensado. Polimeroj de kondensadaj procedoj. Sintezaj rezinoj. Sintezaj fibroj, ktp','678.6','Sintezaĵoj de polimeriga kondensado. Polimeroj de kondensadaj procedoj. Sintezaj rezinoj. Sintezaj fibroj, ktp','','','',false,true);
+d.add(441,437,'678.7','<div class="nodetag">678.7</div></span>&nbsp;&nbsp;Sintezaĵoj de polimerigo. Polimeroj. Sintezaj kaŭĉukoj','678.7','Sintezaĵoj de polimerigo. Polimeroj. Sintezaj kaŭĉukoj','','','',false,true);
+d.add(442,419,'679','<div class="nodetag">679</div></span>&nbsp;&nbsp;Industrioj bazitaj sur diversaj prilaboreblaj materialoj','679','Industrioj bazitaj sur diversaj prilaboreblaj materialoj','','','',false,true);
+d.add(443,442,'679.7','<div class="nodetag">679.7</div></span>&nbsp;&nbsp;Ŝnuraj industrioj','679.7','Ŝnuraj industrioj','','','',false,true);
+d.add(444,442,'679.8','<div class="nodetag">679.8</div></span>&nbsp;&nbsp;Ŝton-tekniko. Ŝton-industrio','679.8','Ŝton-tekniko. Ŝton-industrio','','','',false,true);
+d.add(445,442,'679.9','<div class="nodetag">679.9</div></span>&nbsp;&nbsp;Teknologio de aliaj naturaj prilaboreblaj materialoj','679.9','Teknologio de aliaj naturaj prilaboreblaj materialoj','','','',false,true);
+d.add(446,0,'68','<div class="nodetag">68</div></span>&nbsp;&nbsp;Industrioj, komercoj kaj metioj de finitaj aŭ muntitaj produktoj','68','Industrioj, komercoj kaj metioj de finitaj aŭ muntitaj produktoj','','','',false,true);
+d.add(447,446,'681','<div class="nodetag">681</div></span>&nbsp;&nbsp;Precizaj mekanismoj kaj instrumentoj','681','Precizaj mekanismoj kaj instrumentoj','','','',false,true);
+d.add(448,447,'681.1','<div class="nodetag">681.1</div></span>&nbsp;&nbsp;Aparatoj kun radaj aŭ motoraj mekanismoj','681.1','Aparatoj kun radaj aŭ motoraj mekanismoj','','','',false,true);
+d.add(449,447,'681.2','<div class="nodetag">681.2</div></span>&nbsp;&nbsp;Instrument-farado ĝenerale. Mezurinstrumentoj kaj la produkto. Pesiloj','681.2','Instrument-farado ĝenerale. Mezurinstrumentoj kaj la produkto. Pesiloj','','','',false,true);
+d.add(450,447,'681.5','<div class="nodetag">681.5</div></span>&nbsp;&nbsp;Teknologio pri aŭtomata direktado. Inteligenta teknologio','681.5','Teknologio pri aŭtomata direktado. Inteligenta teknologio','','','',false,true);
+d.add(451,447,'681.6','<div class="nodetag">681.6</div></span>&nbsp;&nbsp;Grafikaj reproduktiloj','681.6','Grafikaj reproduktiloj','','','',false,true);
+d.add(452,447,'681.7','<div class="nodetag">681.7</div></span>&nbsp;&nbsp;Optikaj aparatoj kaj instrumentoj','681.7','Optikaj aparatoj kaj instrumentoj','','','',false,true);
+d.add(453,447,'681.8','<div class="nodetag">681.8</div></span>&nbsp;&nbsp;Teknika akustiko','681.8','Teknika akustiko','','','',false,true);
+d.add(454,446,'682','<div class="nodetag">682</div></span>&nbsp;&nbsp;Forĝ-metioj. Hufferado. Man-forĝitaj feraĵoj','682','Forĝ-metioj. Hufferado. Man-forĝitaj feraĵoj','','','',false,true);
+d.add(455,454,'682.1','<div class="nodetag">682.1</div></span>&nbsp;&nbsp;Hufoferado','682.1','Hufoferado','','','',false,true);
+d.add(456,454,'682.3','<div class="nodetag">682.3</div></span>&nbsp;&nbsp;Ilo-forĝado. Forĝado de iloj kun tranĉrandoj','682.3','Ilo-forĝado. Forĝado de iloj kun tranĉrandoj','','','',false,true);
+d.add(457,454,'682.5','<div class="nodetag">682.5</div></span>&nbsp;&nbsp;Feraĵoj kiel mebloj','682.5','Feraĵoj kiel mebloj','','','',false,true);
+d.add(458,454,'682.6','<div class="nodetag">682.6</div></span>&nbsp;&nbsp;Feraĵoj en konstruaĵoj','682.6','Feraĵoj en konstruaĵoj','','','',false,true);
+d.add(459,446,'683','<div class="nodetag">683</div></span>&nbsp;&nbsp;Metalaĵoj Metalaj garnituroj por la domo. Farado de seruroj. Enboteligado. Lampoj. Hejtiloj','683','Metalaĵoj Metalaj garnituroj por la domo. Farado de seruroj. Enboteligado. Lampoj. Hejtiloj','','','',false,true);
+d.add(460,446,'684','<div class="nodetag">684</div></span>&nbsp;&nbsp;Mebloj kaj rilataj industrioj. Farado de mebloj. Remburado','684','Mebloj kaj rilataj industrioj. Farado de mebloj. Remburado','','','',false,true);
+d.add(461,460,'684.4','<div class="nodetag">684.4</div></span>&nbsp;&nbsp;Mebloj. Dezajno kaj farado de mebloj','684.4','Mebloj. Dezajno kaj farado de mebloj','','','',false,true);
+d.add(462,460,'684.6','<div class="nodetag">684.6</div></span>&nbsp;&nbsp;Plakado. Marketrado. Inkrustado, ktp','684.6','Plakado. Marketrado. Inkrustado, ktp','','','',false,true);
+d.add(463,460,'684.7','<div class="nodetag">684.7</div></span>&nbsp;&nbsp;Remburaĵoj. Litaĵoj. Kovriloj.Tapiserioj','684.7','Remburaĵoj. Litaĵoj. Kovriloj.Tapiserioj','','','',false,true);
+d.add(464,446,'685','<div class="nodetag">685</div></span>&nbsp;&nbsp;Ekipaĵo por ĉevaloj. Piedvestoj. Gantoj. Ekipaĵoj por veturado, sportoj, ludoj','685','Ekipaĵo por ĉevaloj. Piedvestoj. Gantoj. Ekipaĵoj por veturado, sportoj, ludoj','','','',false,true);
+d.add(465,464,'685.1','<div class="nodetag">685.1</div></span>&nbsp;&nbsp;Ekipaĵo por ĉevaloj. Farado de jungilaro','685.1','Ekipaĵo por ĉevaloj. Farado de jungilaro','','','',false,true);
+d.add(466,464,'685.2','<div class="nodetag">685.2</div></span>&nbsp;&nbsp;Garnaĵoj. Garnituro. Farado de zonoj. Leda ekipaĵo. Similaj produktoj','685.2','Garnaĵoj. Garnituro. Farado de zonoj. Leda ekipaĵo. Similaj produktoj','','','',false,true);
+d.add(467,464,'685.3','<div class="nodetag">685.3</div></span>&nbsp;&nbsp;Piedovestoj. Aliaj helpiloj al la movado','685.3','Piedovestoj. Aliaj helpiloj al la movado','','','',false,true);
+d.add(468,464,'685.4','<div class="nodetag">685.4</div></span>&nbsp;&nbsp;Gantoj. Gantfarado','685.4','Gantoj. Gantfarado','','','',false,true);
+d.add(469,464,'685.5','<div class="nodetag">685.5</div></span>&nbsp;&nbsp;Varoj por vojaĝado. Tenduma ekipaĵo','685.5','Varoj por vojaĝado. Tenduma ekipaĵo','','','',false,true);
+d.add(470,464,'685.6','<div class="nodetag">685.6</div></span>&nbsp;&nbsp;Ekipaĵo kaj instalaĵoj por atletaj sportoj, gimnastiko, fizika trejnado','685.6','Ekipaĵo kaj instalaĵoj por atletaj sportoj, gimnastiko, fizika trejnado','','','',false,true);
+d.add(471,464,'685.7','<div class="nodetag">685.7</div></span>&nbsp;&nbsp;Ekipaĵo por rampado. Ekipaĵo por naĝado','685.7','Ekipaĵo por rampado. Ekipaĵo por naĝado','','','',false,true);
+d.add(472,464,'685.8','<div class="nodetag">685.8</div></span>&nbsp;&nbsp;Ekipaĵoj por tabulludoj','685.8','Ekipaĵoj por tabulludoj','','','',false,true);
+d.add(473,446,'686','<div class="nodetag">686</div></span>&nbsp;&nbsp;Librobindado. Metalado / metalizado. Spegulfarado. Papervaroj. Skribilaro','686','Librobindado. Metalado / metalizado. Spegulfarado. Papervaroj. Skribilaro','','','',false,true);
+d.add(474,446,'687','<div class="nodetag">687</div></span>&nbsp;&nbsp;Vestindustrio. Fabrikado de vestaĵoj. Mercero. Furnituro. Kosmetiko','687','Vestindustrio. Fabrikado de vestaĵoj. Mercero. Furnituro. Kosmetiko','','','',false,true);
+d.add(475,474,'687.1','<div class="nodetag">687.1</div></span>&nbsp;&nbsp;Supervestoj. Tajlorado','687.1','Supervestoj. Tajlorado','','','',false,true);
+d.add(476,474,'687.2','<div class="nodetag">687.2</div></span>&nbsp;&nbsp;Tolaĵoj. Subvestoj','687.2','Tolaĵoj. Subvestoj','','','',false,true);
+d.add(477,474,'687.3','<div class="nodetag">687.3</div></span>&nbsp;&nbsp;Trikvestoj. Kravatoj. Iloj por sekurigi kaj protekti vestaĵojn','687.3','Trikvestoj. Kravatoj. Iloj por sekurigi kaj protekti vestaĵojn','','','',false,true);
+d.add(478,474,'687.4','<div class="nodetag">687.4</div></span>&nbsp;&nbsp;Kapvestoj. Farado de ĉapeloj','687.4','Kapvestoj. Farado de ĉapeloj','','','',false,true);
+d.add(479,474,'687.5','<div class="nodetag">687.5</div></span>&nbsp;&nbsp;Kosmetikaj kaj beligaj industrioj','687.5','Kosmetikaj kaj beligaj industrioj','','','',false,true);
+d.add(480,474,'687.8','<div class="nodetag">687.8</div></span>&nbsp;&nbsp;Artefarita felo','687.8','Artefarita felo','','','',false,true);
+d.add(481,474,'687.9','<div class="nodetag">687.9</div></span>&nbsp;&nbsp;Brosa industrio, inkluzive balailojn','687.9','Brosa industrio, inkluzive balailojn','','','',false,true);
+d.add(482,446,'688','<div class="nodetag">688</div></span>&nbsp;&nbsp;Akcesoraĵoj. Kapric-varoj. Ornamitaj varoj. Ludiloj','688','Akcesoraĵoj. Kapric-varoj. Ornamitaj varoj. Ludiloj','','','',false,true);
+d.add(483,482,'688.7','<div class="nodetag">688.7</div></span>&nbsp;&nbsp;Ludiloj. Artikloj por distri, iluzii','688.7','Ludiloj. Artikloj por distri, iluzii','','','',false,true);
+d.add(484,446,'689','<div class="nodetag">689</div></span>&nbsp;&nbsp;Amatoraj aŭ hobiaj metioj','689','Amatoraj aŭ hobiaj metioj','','','',false,true);
+d.add(485,0,'69','<div class="nodetag">69</div></span>&nbsp;&nbsp;Konstruindustrio. Materialoj. Metodoj kaj procedoj','69','Konstruindustrio. Materialoj. Metodoj kaj procedoj','','','',false,true);
+d.add(486,485,'691','<div class="nodetag">691</div></span>&nbsp;&nbsp;Konstrumaterialoj. Konstruaj konsistaj partoj','691','Konstrumaterialoj. Konstruaj konsistaj partoj','','','',false,true);
+d.add(487,485,'692','<div class="nodetag">692</div></span>&nbsp;&nbsp;Strukturaj partoj kaj elementoj de konstruaĵoj','692','Strukturaj partoj kaj elementoj de konstruaĵoj','','','',false,true);
+d.add(488,485,'693','<div class="nodetag">693</div></span>&nbsp;&nbsp;Masonado kaj rilataj konstru-metioj','693','Masonado kaj rilataj konstru-metioj','','','',false,true);
+d.add(489,485,'694','<div class="nodetag">694</div></span>&nbsp;&nbsp;Ligna konstruado. Ĉarpentado. Kunligo de ligneroj','694','Ligna konstruado. Ĉarpentado. Kunligo de ligneroj','','','',false,true);
+d.add(490,485,'696','<div class="nodetag">696</div></span>&nbsp;&nbsp;Ekipaĵo, servoj, instalaĵoj ene de konstruaĵoj (higienaj, gasaj, vaporaj, elektraj). Plumbisto. Tubisto. Metal-metiisto. Elektristo. Aliaj metiaj laboroj','696','Ekipaĵo, servoj, instalaĵoj ene de konstruaĵoj (higienaj, gasaj, vaporaj, elektraj). Plumbisto. Tubisto. Metal-metiisto. Elektristo. Aliaj metiaj laboroj','','','',false,true);
+d.add(491,485,'697','<div class="nodetag">697</div></span>&nbsp;&nbsp;Hejtado, ventolado kaj klimatizado de konstruaĵoj','697','Hejtado, ventolado kaj klimatizado de konstruaĵoj','','','',false,true);
+d.add(492,485,'698','<div class="nodetag">698</div></span>&nbsp;&nbsp;Finpretigaj kaj dekoraj metioj','698','Finpretigaj kaj dekoraj metioj','','','',false,true);
+d.config.useSelection = false;
+d.config.inOrder = true;
+d.config.useIcons = false;
+document.write(d);
+//-->
+</script>
+</div>
+</div><div id="expandbox" onclick="expandbox(); return false;">&nbsp;</div>
+<div id="recordbox" class="debugbkg">
+<div class="fronthint">Klaki sur la klaso maldekstre por montri la rikordojn</div>
+</div>
+
+        <div id="footer">
+            <div class="footersectionleft">
+                The UDC Summary (UDCS) provides a selection of around 2,600 classes from the whole scheme which comprises more than 70,000 entries.
+                Please send questions and suggestions to <a href="mailto:udcs@udcc.org?subject=UDC Summary Enquiry">udcs@udcc.org</a><br><br>
+	            <p>
+		            The data provided in this Summary is released under the <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative Commons Attribution Share Alike 3.0 license</a> <a href="../about.htm">[more]</a>
+	            </p>
+            </div>
+            <div class="footermiddle">
+                <a href="http://www.udcc.org"><img src="../images/udclogowhite.png" border="0"></a>
+            </div>
+			<div class="footerright">
+                For complete UDC schedules see <a href="http://www.udc-hub.com/">UDC Online Hub</a><br/><a href="http://www.udc-hub.com/"><img width="60" height="35" src="../images/udclogo.png"/></a>
+
+			</div>
+        </div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-13138465-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>

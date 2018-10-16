@@ -1,0 +1,654 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>UDC Summary</title>
+    <link rel="stylesheet" href="../reset.css" type="text/css" />
+    <link rel="stylesheet" href="../udc2000.css" type="text/css" />
+	    <link rel="StyleSheet" href="dtree2.css" type="text/css" />
+	    <script type="text/javascript" src="dtree.js"></script>
+	    <script type="text/javascript" src="udcdisplay_9.js"></script>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+</head>
+
+<body >
+<div id="centercontainer" class="debugbkg">
+    <div id="titlebox" class="debugbkg">
+		<div id="rightbox">
+        	<div id="languagecount">57 languages</div>
+            <div id="languagebox">
+            <select id="selectedlang" style="vertical-align: middle;" onchange="location = this.options[this.selectedIndex].value;">
+			<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=af&pr=Y">Afrikaans (Afrikaans) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sq&pr=Y">Albanian (Shqip) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=anp&pr=Y">Angika (अंगिका) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ar&pr=Y">Arabic (العربية) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hy&pr=Y">Armenian (հայերեն) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=eu&pr=Y">Basque (Euskara) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=be&pr=Y">Belarusian (Беларуская) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bn&pr=Y">Bengali (বাংলা) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bho&pr=Y">Bhojpuri (भोजपुरी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bg&pr=Y">Bulgarian (Български) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ca&pr=Y">Catalan (Català) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=chi&pr=Y">Chinese (中文) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hr&pr=Y">Croatian (Hrvatski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=cs&pr=Y">Czech (Čeština) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=da&pr=Y">Danish (Dansk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=nl&pr=Y">Dutch (Nederlands) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=en&pr=Y">English (English) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=eo&pr=Y">Esperanto (Esperanto) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=et&pr=Y">Estonian (Eesti) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=fi&pr=Y">Finnish (Suomi) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=fr&pr=Y">French (Français) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=gl&pr=Y">Galician (Galego) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ka&pr=Y">Georgian (ქართული) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=de&pr=Y">German (Deutsch) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=el&pr=Y">Greek (Ελληνικά) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hi&pr=Y">Hindi (हिन्दी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hu&pr=Y">Hungarian (Magyar) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=id&pr=Y" selected>Indonesian (Bahasa Ind) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ga&pr=Y">Irish (Gaeilge) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=it&pr=Y">Italian (Italiano) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ja&pr=Y">Japanese (日本語) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=kn&pr=Y">Kannada (ಕನ್ನಡ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=kk&pr=Y">Kazakh (Қазақ тілі) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=lv&pr=Y">Latvian (Latviešu) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=lt&pr=Y">Lithuanian (lietuvių) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=mk&pr=Y">Macedonian (македонски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ml&pr=Y">Malayalam (മലയാളം) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=mr&pr=Y">Marathi (मराठी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=no&pr=Y">Norwegian (Norsk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pl&pr=Y">Polish (Polski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pt&pr=Y">Portuguese (Português) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pa&pr=Y">Punjabi (ਪੰਜਾਬੀ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ro&pr=Y">Romanian (Româna) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ru&pr=Y">Russian (Pусский) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sa&pr=Y">Sanskrit (Saṃskṛtam) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sr&pr=Y">Serbian (Српски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=si&pr=Y">Sinhala (සිංහල) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sk&pr=Y">Slovak (Slovenský) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sl&pr=Y">Slovenian (Slovenski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=es&pr=Y">Spanish (Español) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sv&pr=Y">Swedish (Svenska) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ta&pr=Y">Tamil (தமிழ்) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=te&pr=Y">Telugu (తెలుగు) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=tr&pr=Y">Turkish (Türkçe) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=uk&pr=Y">Ukrainian (Yкраї́нська) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=uz&pr=Y">Uzbek (oʻzbek) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=vi&pr=Y">Vietnamese (tiếng Việt) </option>
+            </select>
+            </div>
+            </div>
+        </div>
+		<div id="menubox" class="debugbkg">
+            <ul class="menu boldmenu">
+<li><a href="index.php@lang=id">BERANDA</a></li>
+<li><a href="index.php@tag=--&amp;lang=id">TANDA</a></li>
+<li><a href="index.php@tag=---&amp;lang=id">TAMBAHAN</a></li>
+<li><a href="index.php@tag=0&amp;lang=id">0</a></li>
+<li><a href="index.php@tag=1&amp;lang=id">1</a></li>
+<li><a href="index.php@tag=2&amp;lang=id">2</a></li>
+<li><a href="index.php@tag=3&amp;lang=id">3</a></li>
+<li><a  class="vacant" href="index.php@tag=6&amp;lang=id#">4</a></li>
+<li><a href="index.php@tag=5&amp;lang=id">5</a></li>
+<li><a href="index.php@tag=6&amp;lang=id">6</a></li>
+<li><a href="index.php@tag=7&amp;lang=id">7</a></li>
+<li><a href="index.php@tag=8&amp;lang=id">8</a></li>
+<li><a href="index.php@tag=9&amp;lang=id">9</a></li>
+</ul>
+<input type="hidden" id="if_loading" name="if_loading" value="Memuat"/>
+<input type="hidden" id="if_lang" name="if_lang" value="40"/>
+<ul class="rightmenu boldmenu">
+<li><a href="../translation.htm">TERJEMAHAN</a></li>
+<li><a href="index.php@tag=6&amp;lang=id#" title="Under Development">PEMETAAN</a></li>
+<li><a href="../exports.htm" title="Data Exports">EKSPOR</a></li>
+<li><a href="index.php@tag=6&amp;lang=id#" title="Under Development">INDEKS ABJAD</a></li>
+<li><a href="index.php@tag=6&amp;lang=id#" title="Under Development">PANDUAN</a></li>
+<li><a href="../about.htm" title="About the UDC Summary">TENTANG</a></li>
+</ul>
+
+        </div>
+		<input type="hidden" id="leftWidth" value="420"/><input type="hidden" id="rightWidth" value="522"/>
+		<div id="classmarkbox" class="debugbkg">
+
+<div id="openclosemenu"><a href="javascript: d.openAll();">&nbsp;Tampilkan semua</a> | <a href="javascript: d.closeAll();">Persingkat semua</a></div>
+<div id="classtree">
+<script type="text/javascript">
+<!--
+d = new dTree('d');
+d.config.hrefIsClick = true;
+d.add(0,-1,'6','<span class="nodetag">6</span>&nbsp;&nbsp;ILMU TERAPAN. KEDOKTERAN. TEKNOLOGI','6','','','','',false,true);
+d.add(1,0,'60','<div class="nodetag">60</div></span>&nbsp;&nbsp;Bioteknologi','60','Bioteknologi','','','',false,true);
+d.add(2,1,'601','<div class="nodetag">601</div></span>&nbsp;&nbsp;Konsep-konsep dasar','601','Konsep-konsep dasar','','','',false,true);
+d.add(3,1,'602','<div class="nodetag">602</div></span>&nbsp;&nbsp;Proses dan teknik dalam bioteknologi','602','Proses dan teknik dalam bioteknologi','','','',false,true);
+d.add(4,1,'604','<div class="nodetag">604</div></span>&nbsp;&nbsp;Produk bioteknologi','604','Produk bioteknologi','','','',false,true);
+d.add(5,1,'606','<div class="nodetag">606</div></span>&nbsp;&nbsp;Aplikasi bioteknologi','606','Aplikasi bioteknologi','','','',false,true);
+d.add(6,1,'608','<div class="nodetag">608</div></span>&nbsp;&nbsp;Isu-isu dalam bidang bioteknologi','608','Isu-isu dalam bidang bioteknologi','','','',false,true);
+d.add(7,0,'61','<div class="nodetag">61</div></span>&nbsp;&nbsp;Kedokteran','61','Kedokteran','','','',false,true);
+d.add(8,7,'611/612','<div class="nodetag">611/612</div></span>&nbsp;&nbsp;Biologi manusia','611/612','Biologi manusia','','','',false,true);
+d.add(9,8,'611','<div class="nodetag">611</div></span>&nbsp;&nbsp;Anatomi. Anatomi manusia dan bandingan','611','Anatomi. Anatomi manusia dan bandingan','','','',false,true);
+d.add(10,8,'612','<div class="nodetag">612</div></span>&nbsp;&nbsp;Fisiologi. Fisiologi manusiadan komparatif','612','Fisiologi. Fisiologi manusiadan komparatif','','','',false,true);
+d.add(11,10,'612.1/.8','<div class="nodetag">612.1/.8</div></span>&nbsp;&nbsp;Fisiologi sistematik','612.1/.8','Fisiologi sistematik','','','',false,true);
+d.add(12,11,'612.1','<div class="nodetag">612.1</div></span>&nbsp;&nbsp;Darah. Sistem kardiovaskular, sirkulasi','612.1','Darah. Sistem kardiovaskular, sirkulasi','','','',false,true);
+d.add(13,11,'612.2','<div class="nodetag">612.2</div></span>&nbsp;&nbsp;Pernapasan. Bernapas. Sistem pernapasan','612.2','Pernapasan. Bernapas. Sistem pernapasan','','','',false,true);
+d.add(14,11,'612.3','<div class="nodetag">612.3</div></span>&nbsp;&nbsp;Alimentasi. Makan. Pencernakan. Gizi.','612.3','Alimentasi. Makan. Pencernakan. Gizi.','','','',false,true);
+d.add(15,11,'612.4','<div class="nodetag">612.4</div></span>&nbsp;&nbsp;Sistem kelenjar. Sekresi. Ekskresi.','612.4','Sistem kelenjar. Sekresi. Ekskresi.','','','',false,true);
+d.add(16,11,'612.5','<div class="nodetag">612.5</div></span>&nbsp;&nbsp;Kalor hewan.Proses termal','612.5','Kalor hewan.Proses termal','','','',false,true);
+d.add(17,11,'612.6','<div class="nodetag">612.6</div></span>&nbsp;&nbsp;Pembiakan. Pertumbuhan. Perkembangan.','612.6','Pembiakan. Pertumbuhan. Perkembangan.','','','',false,true);
+d.add(18,11,'612.7','<div class="nodetag">612.7</div></span>&nbsp;&nbsp;Fungsi motor. Organ lokomosi. Suara. Integumen.','612.7','Fungsi motor. Organ lokomosi. Suara. Integumen.','','','',false,true);
+d.add(19,11,'612.8','<div class="nodetag">612.8</div></span>&nbsp;&nbsp;Sistem saraf. Organ sensori.','612.8','Sistem saraf. Organ sensori.','','','',false,true);
+d.add(20,7,'613','<div class="nodetag">613</div></span>&nbsp;&nbsp;Kebersihan pada umumnya. Kersehatan dan kebersihan pribadi.','613','Kebersihan pada umumnya. Kersehatan dan kebersihan pribadi.','','','',false,true);
+d.add(21,20,'613.2','<div class="nodetag">613.2</div></span>&nbsp;&nbsp;Diet. Prinsip nutrisi yang diterapkan untuk makan dan makanan','613.2','Diet. Prinsip nutrisi yang diterapkan untuk makan dan makanan','','','',false,true);
+d.add(22,20,'613.3','<div class="nodetag">613.3</div></span>&nbsp;&nbsp;Minuman. Minuman untuk penyembuhan. Minuman obat. Cairan untuk diet','613.3','Minuman. Minuman untuk penyembuhan. Minuman obat. Cairan untuk diet','','','',false,true);
+d.add(23,20,'613.4','<div class="nodetag">613.4</div></span>&nbsp;&nbsp;Kebersihan pribadi. Pakaian','613.4','Kebersihan pribadi. Pakaian','','','',false,true);
+d.add(24,20,'613.5','<div class="nodetag">613.5</div></span>&nbsp;&nbsp;Kebersihan tempat tinggal','613.5','Kebersihan tempat tinggal','','','',false,true);
+d.add(25,20,'613.6','<div class="nodetag">613.6</div></span>&nbsp;&nbsp;Bahaya pekerjaan kesehatan. Pekerjaan kesehatan dan kebersihan','613.6','Bahaya pekerjaan kesehatan. Pekerjaan kesehatan dan kebersihan','','','',false,true);
+d.add(26,20,'613.7','<div class="nodetag">613.7</div></span>&nbsp;&nbsp;Kesehatan dan kebersihan mengenai santai, rekreasi, tidur','613.7','Kesehatan dan kebersihan mengenai santai, rekreasi, tidur','','','',false,true);
+d.add(27,20,'613.8','<div class="nodetag">613.8</div></span>&nbsp;&nbsp;Kesehatan dan kebersihan dari sistem saraf. Kesehatan dan etika','613.8','Kesehatan dan kebersihan dari sistem saraf. Kesehatan dan etika','','','',false,true);
+d.add(28,20,'613.9','<div class="nodetag">613.9</div></span>&nbsp;&nbsp;Kesehatan dan kebersihan dalam kaitannya dengan usia, jenis kelamin, etnis','613.9','Kesehatan dan kebersihan dalam kaitannya dengan usia, jenis kelamin, etnis','','','',false,true);
+d.add(29,7,'614','<div class="nodetag">614</div></span>&nbsp;&nbsp;Kesehatan dan kebersihan masyarakat, Pencegahan kecelakaan','614','Kesehatan dan kebersihan masyarakat, Pencegahan kecelakaan','','','',false,true);
+d.add(30,29,'614.1','<div class="nodetag">614.1</div></span>&nbsp;&nbsp;Populasi. Depopulasi','614.1','Populasi. Depopulasi','','','',false,true);
+d.add(31,29,'614.2','<div class="nodetag">614.2</div></span>&nbsp;&nbsp;Organisasi kesehatan publik dan profesional','614.2','Organisasi kesehatan publik dan profesional','','','',false,true);
+d.add(32,29,'614.3','<div class="nodetag">614.3</div></span>&nbsp;&nbsp;Pengawasan dan pengendalian kebersihan','614.3','Pengawasan dan pengendalian kebersihan','','','',false,true);
+d.add(33,32,'614.39','<div class="nodetag">614.39</div></span>&nbsp;&nbsp;Layanan kesehatan nasional','614.39','Layanan kesehatan nasional','','','',false,true);
+d.add(34,29,'614.4','<div class="nodetag">614.4</div></span>&nbsp;&nbsp;Pencegahan dan pengendalian penyakit menular (infeksi, menular). Pencegahan epidemi','614.4','Pencegahan dan pengendalian penyakit menular (infeksi, menular). Pencegahan epidemi','','','',false,true);
+d.add(35,29,'614.6','<div class="nodetag">614.6</div></span>&nbsp;&nbsp;Kebersihan pemakaman. Tempat penyimpanan mayat','614.6','Kebersihan pemakaman. Tempat penyimpanan mayat','','','',false,true);
+d.add(36,29,'614.7','<div class="nodetag">614.7</div></span>&nbsp;&nbsp;Kebersihana udara, air, tanah. Pencemaran dan pengendaliannya','614.7','Kebersihana udara, air, tanah. Pencemaran dan pengendaliannya','','','',false,true);
+d.add(37,29,'614.8','<div class="nodetag">614.8</div></span>&nbsp;&nbsp;Kecelakaan. Risiko.Bahaya. Pencegahan kecelakaan. Perlindungan pribadi','614.8','Kecelakaan. Risiko.Bahaya. Pencegahan kecelakaan. Perlindungan pribadi','','','',false,true);
+d.add(38,29,'614.9','<div class="nodetag">614.9</div></span>&nbsp;&nbsp;Kesehatan hewan. Kebersihan hewan','614.9','Kesehatan hewan. Kebersihan hewan','','','',false,true);
+d.add(39,7,'615','<div class="nodetag">615</div></span>&nbsp;&nbsp;Farmakologi. Therapeutics. toksikologi','615','Farmakologi. Therapeutics. toksikologi','','','',false,true);
+d.add(40,39,'615.1','<div class="nodetag">615.1</div></span>&nbsp;&nbsp;Apotik umum dan profesional','615.1','Apotik umum dan profesional','','','',false,true);
+d.add(41,39,'615.2','<div class="nodetag">615.2</div></span>&nbsp;&nbsp;Obat menurut daya utamanya','615.2','Obat menurut daya utamanya','','','',false,true);
+d.add(42,39,'615.3','<div class="nodetag">615.3</div></span>&nbsp;&nbsp;Obat menurut asal usulnya','615.3','Obat menurut asal usulnya','','','',false,true);
+d.add(43,39,'615.4','<div class="nodetag">615.4</div></span>&nbsp;&nbsp;Persiapan farmaseutikal. Materi obat. Perlengkapan','615.4','Persiapan farmaseutikal. Materi obat. Perlengkapan','','','',false,true);
+d.add(44,39,'615.8','<div class="nodetag">615.8</div></span>&nbsp;&nbsp;Fisioterapi. Terapi fisik. Radioterapi. Rawat terapeutik nonmedik lainnya.','615.8','Fisioterapi. Terapi fisik. Radioterapi. Rawat terapeutik nonmedik lainnya.','','','',false,true);
+d.add(45,39,'615.9','<div class="nodetag">615.9</div></span>&nbsp;&nbsp;Toksikologi umum. Kajian umum mengenai racun dan keracunan (intoksikasi)','615.9','Toksikologi umum. Kajian umum mengenai racun dan keracunan (intoksikasi)','','','',false,true);
+d.add(46,7,'616','<div class="nodetag">616</div></span>&nbsp;&nbsp;Patologi. Ilmu kedokteran klinik','616','Patologi. Ilmu kedokteran klinik','','','',false,true);
+d.add(47,46,'616-001/-009','<div class="nodetag">616-001/-009</div></span>&nbsp;&nbsp;Subdivisi tanda bantu khusus untuk proses buta','616-001/-009','Subdivisi tanda bantu khusus untuk proses buta','','','',false,true);
+d.add(48,47,'616-001','<div class="nodetag">616-001</div></span>&nbsp;&nbsp;Trauma. Cedera. Luka','616-001','Trauma. Cedera. Luka','','','',false,true);
+d.add(49,47,'616-002','<div class="nodetag">616-002</div></span>&nbsp;&nbsp;Inflamasi.Iritasi.Gembung (hiperaemia). Kongesti mukus','616-002','Inflamasi.Iritasi.Gembung (hiperaemia). Kongesti mukus','','','',false,true);
+d.add(50,47,'616-003','<div class="nodetag">616-003</div></span>&nbsp;&nbsp;Proses regresif dan reparatif','616-003','Proses regresif dan reparatif','','','',false,true);
+d.add(51,47,'616-004','<div class="nodetag">616-004</div></span>&nbsp;&nbsp;Sklerosis. Pengerasan (Perlasakan). Sirosis.','616-004','Sklerosis. Pengerasan (Perlasakan). Sirosis.','','','',false,true);
+d.add(52,47,'616-005','<div class="nodetag">616-005</div></span>&nbsp;&nbsp;Gangguan sirkulatori lokal','616-005','Gangguan sirkulatori lokal','','','',false,true);
+d.add(53,47,'616-006','<div class="nodetag">616-006</div></span>&nbsp;&nbsp;Tumor. Neoplasma. Blastomata.Koristomata. Hamartomata. Onkologi','616-006','Tumor. Neoplasma. Blastomata.Koristomata. Hamartomata. Onkologi','','','',false,true);
+d.add(54,47,'616-007','<div class="nodetag">616-007</div></span>&nbsp;&nbsp;Pengembangan struktur defektif. Deformitas fisiologis.Malformasi. Hemiterata. Organ ukuran besar, ukuran kecil, Teratologi.Monster.Abnormalitas.','616-007','Pengembangan struktur defektif. Deformitas fisiologis.Malformasi. Hemiterata. Organ ukuran besar, ukuran kecil, Teratologi.Monster.Abnormalitas.','','','',false,true);
+d.add(55,47,'616-008','<div class="nodetag">616-008</div></span>&nbsp;&nbsp;Kelainan fungsi dan metabolik','616-008','Kelainan fungsi dan metabolik','','','',false,true);
+d.add(56,47,'616-009','<div class="nodetag">616-009</div></span>&nbsp;&nbsp;Gangguan saraf (nervus)','616-009','Gangguan saraf (nervus)','','','',false,true);
+d.add(57,46,'616-01/-099','<div class="nodetag">616-01/-099</div></span>&nbsp;&nbsp;Subdivisi tanda baca khusus untuk aspek umum patologi','616-01/-099','Subdivisi tanda baca khusus untuk aspek umum patologi','','','',false,true);
+d.add(58,57,'616-01','<div class="nodetag">616-01</div></span>&nbsp;&nbsp;Berbagai aspek penyakit, pasien dan intervensi medis','616-01','Berbagai aspek penyakit, pasien dan intervensi medis','','','',false,true);
+d.add(59,57,'616-02','<div class="nodetag">616-02</div></span>&nbsp;&nbsp;Etiologi. Ilmu penyebab penyakit','616-02','Etiologi. Ilmu penyebab penyakit','','','',false,true);
+d.add(60,57,'616-03','<div class="nodetag">616-03</div></span>&nbsp;&nbsp;Berbagai bentuk penyakit, penanganan, administrasi obat-obatan.','616-03','Berbagai bentuk penyakit, penanganan, administrasi obat-obatan.','','','',false,true);
+d.add(61,57,'616-05','<div class="nodetag">616-05</div></span>&nbsp;&nbsp;Orang dan karakteritistik orang dalam patologi. Karakteristik pasien','616-05','Orang dan karakteritistik orang dalam patologi. Karakteristik pasien','','','',false,true);
+d.add(62,57,'616-06','<div class="nodetag">616-06</div></span>&nbsp;&nbsp;Komplikasi.Konsekwensi Penolakan. Status serentak, simultan. Korelasi. Penyakit sebelumnya.Status kesehatan sebelumnya. Antagonisme dua penyakit.','616-06','Komplikasi.Konsekwensi Penolakan. Status serentak, simultan. Korelasi. Penyakit sebelumnya.Status kesehatan sebelumnya. Antagonisme dua penyakit.','','','',false,true);
+d.add(63,57,'616-07','<div class="nodetag">616-07</div></span>&nbsp;&nbsp;Semeiologi. Simtomatologi. Tanda dan simtom.Pemeriksaan. Diagnosisi.','616-07','Semeiologi. Simtomatologi. Tanda dan simtom.Pemeriksaan. Diagnosisi.','','','',false,true);
+d.add(64,57,'616-08','<div class="nodetag">616-08</div></span>&nbsp;&nbsp;Pengobatan (perawatan)','616-08','Pengobatan (perawatan)','','','',false,true);
+d.add(65,57,'616-091','<div class="nodetag">616-091</div></span>&nbsp;&nbsp;Anatomi patologi. Anatomi morbid','616-091','Anatomi patologi. Anatomi morbid','','','',false,true);
+d.add(66,57,'616-092','<div class="nodetag">616-092</div></span>&nbsp;&nbsp;Fisiologi patologikal. Proses, modus cara kerja penyakit. Patogenesis. Kajian asal usul penyakit','616-092','Fisiologi patologikal. Proses, modus cara kerja penyakit. Patogenesis. Kajian asal usul penyakit','','','',false,true);
+d.add(67,57,'616-093','<div class="nodetag">616-093</div></span>&nbsp;&nbsp;Teknik mikroba','616-093','Teknik mikroba','','','',false,true);
+d.add(68,57,'616-094','<div class="nodetag">616-094</div></span>&nbsp;&nbsp;Morfologi mikroba','616-094','Morfologi mikroba','','','',false,true);
+d.add(69,57,'616-095','<div class="nodetag">616-095</div></span>&nbsp;&nbsp;Fisiologi mikroba','616-095','Fisiologi mikroba','','','',false,true);
+d.add(70,57,'616-097','<div class="nodetag">616-097</div></span>&nbsp;&nbsp;imunogenisitas','616-097','imunogenisitas','','','',false,true);
+d.add(71,57,'616-098','<div class="nodetag">616-098</div></span>&nbsp;&nbsp;Fisika, kimia, metabolisme, katabolisme mikrobial.','616-098','Fisika, kimia, metabolisme, katabolisme mikrobial.','','','',false,true);
+d.add(72,57,'616-099','<div class="nodetag">616-099</div></span>&nbsp;&nbsp;Keracunan. Intoksikasi','616-099','Keracunan. Intoksikasi','','','',false,true);
+d.add(73,46,'616-71/-78','<div class="nodetag">616-71/-78</div></span>&nbsp;&nbsp;Subdivisi tanda bantu khusus untuk instrumentasi dan peralatan kedokteran dan bedah','616-71/-78','Subdivisi tanda bantu khusus untuk instrumentasi dan peralatan kedokteran dan bedah','','','',false,true);
+d.add(74,73,'616-71','<div class="nodetag">616-71</div></span>&nbsp;&nbsp;Instrumen dan peralatan kedokteran pada umumnya','616-71','Instrumen dan peralatan kedokteran pada umumnya','','','',false,true);
+d.add(75,73,'616-72','<div class="nodetag">616-72</div></span>&nbsp;&nbsp;Instrumen bedah dan terapeutik','616-72','Instrumen bedah dan terapeutik','','','',false,true);
+d.add(76,73,'616-74','<div class="nodetag">616-74</div></span>&nbsp;&nbsp;Material dan peralatan penguatan dan perbaikan','616-74','Material dan peralatan penguatan dan perbaikan','','','',false,true);
+d.add(77,73,'616-76','<div class="nodetag">616-76</div></span>&nbsp;&nbsp;Radas, alat bantu korektif dan pelindung dsb.','616-76','Radas, alat bantu korektif dan pelindung dsb.','','','',false,true);
+d.add(78,73,'616-77','<div class="nodetag">616-77</div></span>&nbsp;&nbsp;Material dan bagian prostesis. Organ buatan, dsb.','616-77','Material dan bagian prostesis. Organ buatan, dsb.','','','',false,true);
+d.add(79,73,'616-78','<div class="nodetag">616-78</div></span>&nbsp;&nbsp;Aparatus mesin dan mekanis','616-78','Aparatus mesin dan mekanis','','','',false,true);
+d.add(80,46,'616.1/.9','<div class="nodetag">616.1/.9</div></span>&nbsp;&nbsp;Patologi khusus','616.1/.9','Patologi khusus','','','',false,true);
+d.add(81,80,'616.1','<div class="nodetag">616.1</div></span>&nbsp;&nbsp;Patologi sistem peredaran darah.','616.1','Patologi sistem peredaran darah.','','','',false,true);
+d.add(82,80,'616.2','<div class="nodetag">616.2</div></span>&nbsp;&nbsp;Patologi sistem pernafasan. Keluhan organ pernafasan.','616.2','Patologi sistem pernafasan. Keluhan organ pernafasan.','','','',false,true);
+d.add(83,80,'616.3','<div class="nodetag">616.3</div></span>&nbsp;&nbsp;Patologi sistem pencernaan. Keluhan kanal alimenter','616.3','Patologi sistem pencernaan. Keluhan kanal alimenter','','','',false,true);
+d.add(84,83,'616.31','<div class="nodetag">616.31</div></span>&nbsp;&nbsp;Stomatologi.Rongga mulut. Mulut. Penyakit mulut dan gigi.','616.31','Stomatologi.Rongga mulut. Mulut. Penyakit mulut dan gigi.','','','',false,true);
+d.add(85,80,'616.4','<div class="nodetag">616.4</div></span>&nbsp;&nbsp;Patologi sistem limpa, organ hemopoiesis (hemotopoietik), endokrin','616.4','Patologi sistem limpa, organ hemopoiesis (hemotopoietik), endokrin','','','',false,true);
+d.add(86,80,'616.5','<div class="nodetag">616.5</div></span>&nbsp;&nbsp;Kulit. Integumen bisa. Dermatologi klinis. Keluhan kulit.','616.5','Kulit. Integumen bisa. Dermatologi klinis. Keluhan kulit.','','','',false,true);
+d.add(87,80,'616.6','<div class="nodetag">616.6</div></span>&nbsp;&nbsp;Patologi sistem urogenital. Keluhan uriner dan seksual (genital).','616.6','Patologi sistem urogenital. Keluhan uriner dan seksual (genital).','','','',false,true);
+d.add(88,80,'616.7','<div class="nodetag">616.7</div></span>&nbsp;&nbsp;Patologi organ lokomosi. Sistek kerangka dan lokomotor','616.7','Patologi organ lokomosi. Sistek kerangka dan lokomotor','','','',false,true);
+d.add(89,80,'616.8','<div class="nodetag">616.8</div></span>&nbsp;&nbsp;Neurologi. Neuropatologi. Sistem saraf.','616.8','Neurologi. Neuropatologi. Sistem saraf.','','','',false,true);
+d.add(90,89,'616.89','<div class="nodetag">616.89</div></span>&nbsp;&nbsp;Psikiatri. Psikiatri patologik. Psikopatologi. Frenopati.Psikoses. Abnormaalitas mental. Status mental morbid. Gangguan perilaku dan emosi.','616.89','Psikiatri. Psikiatri patologik. Psikopatologi. Frenopati.Psikoses. Abnormaalitas mental. Status mental morbid. Gangguan perilaku dan emosi.','','','',false,true);
+d.add(91,80,'616.9','<div class="nodetag">616.9</div></span>&nbsp;&nbsp;Penyakit menular. Penyakit infeksi dan kontagius, demam.','616.9','Penyakit menular. Penyakit infeksi dan kontagius, demam.','','','',false,true);
+d.add(92,7,'617','<div class="nodetag">617</div></span>&nbsp;&nbsp;Bedah. Ortopedi. Oftalmologi','617','Bedah. Ortopedi. Oftalmologi','','','',false,true);
+d.add(93,92,'617.3','<div class="nodetag">617.3</div></span>&nbsp;&nbsp;Ortopedi secara umum','617.3','Ortopedi secara umum','','','',false,true);
+d.add(94,92,'617.7','<div class="nodetag">617.7</div></span>&nbsp;&nbsp;Oftalmologi. Gangguan dan perawatan mata.','617.7','Oftalmologi. Gangguan dan perawatan mata.','','','',false,true);
+d.add(95,7,'618','<div class="nodetag">618</div></span>&nbsp;&nbsp;Ginekologi. Obstetrik','618','Ginekologi. Obstetrik','','','',false,true);
+d.add(96,0,'62','<div class="nodetag">62</div></span>&nbsp;&nbsp;Teknik. Rekayasa. Teknologi pada umumnya','62','Teknik. Rekayasa. Teknologi pada umumnya','','','',false,true);
+d.add(97,96,'62-1/-9','<div class="nodetag">62-1/-9</div></span>&nbsp;&nbsp;Subdivisi tambahan khusus untuk teknologi pada umumnya','62-1/-9','Subdivisi tambahan khusus untuk teknologi pada umumnya','','','',false,true);
+d.add(98,97,'62-1','<div class="nodetag">62-1</div></span>&nbsp;&nbsp;Karakteristik umum mesin dsb','62-1','Karakteristik umum mesin dsb','','','',false,true);
+d.add(99,97,'62-2','<div class="nodetag">62-2</div></span>&nbsp;&nbsp;Bagian tetap dan terpindahkan, komponen mesin','62-2','Bagian tetap dan terpindahkan, komponen mesin','','','',false,true);
+d.add(100,97,'62-3','<div class="nodetag">62-3</div></span>&nbsp;&nbsp;Bagian kendali dan gerak fluida. Katup, penutup, dsb','62-3','Bagian kendali dan gerak fluida. Katup, penutup, dsb','','','',false,true);
+d.add(101,97,'62-4','<div class="nodetag">62-4</div></span>&nbsp;&nbsp;Status, kondisi, bentuk material, permukaaan, objek, produk.','62-4','Status, kondisi, bentuk material, permukaaan, objek, produk.','','','',false,true);
+d.add(102,97,'62-5','<div class="nodetag">62-5</div></span>&nbsp;&nbsp;Operasi dan kendali mesin dan proses','62-5','Operasi dan kendali mesin dan proses','','','',false,true);
+d.add(103,97,'62-6','<div class="nodetag">62-6</div></span>&nbsp;&nbsp;Karakteristik bahan bakar dan sumber bahang mesin dan instalasi.','62-6','Karakteristik bahan bakar dan sumber bahang mesin dan instalasi.','','','',false,true);
+d.add(104,97,'62-7','<div class="nodetag">62-7</div></span>&nbsp;&nbsp;Gawai untuk servis, pemeliharaan dan perlindungan mesin,','62-7','Gawai untuk servis, pemeliharaan dan perlindungan mesin,','','','',false,true);
+d.add(105,97,'62-8','<div class="nodetag">62-8</div></span>&nbsp;&nbsp;Mesin menurut daya, kakas pendorong. Sumber energi mesin','62-8','Mesin menurut daya, kakas pendorong. Sumber energi mesin','','','',false,true);
+d.add(106,97,'62-9','<div class="nodetag">62-9</div></span>&nbsp;&nbsp;Variabel, kondisi dan karakter proses produksi, pabrik dan peralatan','62-9','Variabel, kondisi dan karakter proses produksi, pabrik dan peralatan','','','',false,true);
+d.add(107,106,'62-91','<div class="nodetag">62-91</div></span>&nbsp;&nbsp;Status materi: karakteristik dan variabel.','62-91','Status materi: karakteristik dan variabel.','','','',false,true);
+d.add(108,106,'62-92','<div class="nodetag">62-92</div></span>&nbsp;&nbsp;Reaksi dalam makna reagen. Reagen','62-92','Reaksi dalam makna reagen. Reagen','','','',false,true);
+d.add(109,106,'62-93','<div class="nodetag">62-93</div></span>&nbsp;&nbsp;Proses, mesin dan peralatan menurut modus kerja, kontinuitas, asosiasi, mediaContinuity also can be translated as kesinambungan','62-93','Proses, mesin dan peralatan menurut modus kerja, kontinuitas, asosiasi, mediaContinuity also can be translated as kesinambungan','','','',false,true);
+d.add(110,106,'62-94','<div class="nodetag">62-94</div></span>&nbsp;&nbsp;Arah, kecepatan, laju, durasi proses dsb.','62-94','Arah, kecepatan, laju, durasi proses dsb.','','','',false,true);
+d.add(111,106,'62-95','<div class="nodetag">62-95</div></span>&nbsp;&nbsp;Proses sederhana dan jamak. Proses tingkat tunggal dan jamak.','62-95','Proses sederhana dan jamak. Proses tingkat tunggal dan jamak.','','','',false,true);
+d.add(112,106,'62-96','<div class="nodetag">62-96</div></span>&nbsp;&nbsp;Proses dalam arti mengubah ciri produk. Modifikasi pada umumnya','62-96','Proses dalam arti mengubah ciri produk. Modifikasi pada umumnya','','','',false,true);
+d.add(113,106,'62-97','<div class="nodetag">62-97</div></span>&nbsp;&nbsp;Karakteristik termal. Suhu. Jangkauan suhu','62-97','Karakteristik termal. Suhu. Jangkauan suhu','','','',false,true);
+d.add(114,106,'62-98','<div class="nodetag">62-98</div></span>&nbsp;&nbsp;Tekanan. Jangkauan tekanan','62-98','Tekanan. Jangkauan tekanan','','','',false,true);
+d.add(115,96,'620','<div class="nodetag">620</div></span>&nbsp;&nbsp;Pengujian material. Material komersial.Stasiun daya. Ekonomi energi','620','Pengujian material. Material komersial.Stasiun daya. Ekonomi energi','','','',false,true);
+d.add(116,115,'620.3','<div class="nodetag">620.3</div></span>&nbsp;&nbsp;Nanoteknologi','620.3','Nanoteknologi','','','',false,true);
+d.add(117,115,'620.9','<div class="nodetag">620.9</div></span>&nbsp;&nbsp;Ekonomi energi pada umumnya','620.9','Ekonomi energi pada umumnya','','','',false,true);
+d.add(118,96,'621','<div class="nodetag">621</div></span>&nbsp;&nbsp;Teknik mekanika pada umumnya. Teknologi nuklir.Teknik elektrik. Permesinan','621','Teknik mekanika pada umumnya. Teknologi nuklir.Teknik elektrik. Permesinan','','','',false,true);
+d.add(119,118,'621.1','<div class="nodetag">621.1</div></span>&nbsp;&nbsp;Mesin bahang pada umumnya. Pembangkitan, distribusi dan penggunaan uap. Mesin uap. Ketel','621.1','Mesin bahang pada umumnya. Pembangkitan, distribusi dan penggunaan uap. Mesin uap. Ketel','','','',false,true);
+d.add(120,118,'621.22','<div class="nodetag">621.22</div></span>&nbsp;&nbsp;Energi hidraulik. Tenaga air. Mesin hidraulik','621.22','Energi hidraulik. Tenaga air. Mesin hidraulik','','','',false,true);
+d.add(121,118,'621.3','<div class="nodetag">621.3</div></span>&nbsp;&nbsp;Teknik elektrik','621.3','Teknik elektrik','','','',false,true);
+d.add(122,118,'621.4','<div class="nodetag">621.4</div></span>&nbsp;&nbsp;Mesin bahang (kecuali mesin uap)','621.4','Mesin bahang (kecuali mesin uap)','','','',false,true);
+d.add(123,118,'621.5','<div class="nodetag">621.5</div></span>&nbsp;&nbsp;Energi,mesin dan perkakas pneumatik. Pendinginan','621.5','Energi,mesin dan perkakas pneumatik. Pendinginan','','','',false,true);
+d.add(124,118,'621.6','<div class="nodetag">621.6</div></span>&nbsp;&nbsp;Pabrik dan teknik penanganan, penyimpanan dan distribusi fluida','621.6','Pabrik dan teknik penanganan, penyimpanan dan distribusi fluida','','','',false,true);
+d.add(125,118,'621.7','<div class="nodetag">621.7</div></span>&nbsp;&nbsp;Teknologi mekanik pada umumnya: proses, perkakas, mesin, peralatan','621.7','Teknologi mekanik pada umumnya: proses, perkakas, mesin, peralatan','','','',false,true);
+d.add(126,118,'621.8','<div class="nodetag">621.8</div></span>&nbsp;&nbsp;Elemen mesin. Teknik daya motif. Penanganan material. Bahan pengikat. Pelumasan','621.8','Elemen mesin. Teknik daya motif. Penanganan material. Bahan pengikat. Pelumasan','','','',false,true);
+d.add(127,118,'621.9','<div class="nodetag">621.9</div></span>&nbsp;&nbsp;Bekerja atau penggunaan mesin dengan formasi cip. Pekerjaan pengampelasan. Palu dan kempa','621.9','Bekerja atau penggunaan mesin dengan formasi cip. Pekerjaan pengampelasan. Palu dan kempa','','','',false,true);
+d.add(128,96,'622','<div class="nodetag">622</div></span>&nbsp;&nbsp;Pertambangan','622','Pertambangan','','','',false,true);
+d.add(129,128,'622.1','<div class="nodetag">622.1</div></span>&nbsp;&nbsp;Invetigasi pendahuluan. Survei dan pemetaan tambang.Eksplorasi deposit minral (permukaan dan bawah tanah)','622.1','Invetigasi pendahuluan. Survei dan pemetaan tambang.Eksplorasi deposit minral (permukaan dan bawah tanah)','','','',false,true);
+d.add(130,128,'622.2','<div class="nodetag">622.2</div></span>&nbsp;&nbsp;Operasi penambangan. ekpslorasi, pembukaan, pengembangan,pengerjaan deposit mineral.','622.2','Operasi penambangan. ekpslorasi, pembukaan, pengembangan,pengerjaan deposit mineral.','','','',false,true);
+d.add(131,128,'622.3','<div class="nodetag">622.3</div></span>&nbsp;&nbsp;Penambangan mineral, bijih besi, batuan spesifik','622.3','Penambangan mineral, bijih besi, batuan spesifik','','','',false,true);
+d.add(132,128,'622.4','<div class="nodetag">622.4</div></span>&nbsp;&nbsp;Ventilasi, pendinginan udara, pemanasan dan pencahayaan tambang','622.4','Ventilasi, pendinginan udara, pemanasan dan pencahayaan tambang','','','',false,true);
+d.add(133,128,'622.5','<div class="nodetag">622.5</div></span>&nbsp;&nbsp;Drainase tambang. Pengeringan air (pengawaairan)','622.5','Drainase tambang. Pengeringan air (pengawaairan)','','','',false,true);
+d.add(134,128,'622.6','<div class="nodetag">622.6</div></span>&nbsp;&nbsp;Hela dan penanganan. Pengangkatan. Penggulungan. Pengangkutanb permukaan','622.6','Hela dan penanganan. Pengangkatan. Penggulungan. Pengangkutanb permukaan','','','',false,true);
+d.add(135,128,'622.7','<div class="nodetag">622.7</div></span>&nbsp;&nbsp;Perawatan, pemrosesan minreal.Penanganan mineral. Penyiapan bijih','622.7','Perawatan, pemrosesan minreal.Penanganan mineral. Penyiapan bijih','','','',false,true);
+d.add(136,128,'622.8','<div class="nodetag">622.8</div></span>&nbsp;&nbsp;Bahaya, kecelakaan dan kerusakan tambang. Perlindungan kesehatan dan keselamatan di tambang.','622.8','Bahaya, kecelakaan dan kerusakan tambang. Perlindungan kesehatan dan keselamatan di tambang.','','','',false,true);
+d.add(137,96,'623','<div class="nodetag">623</div></span>&nbsp;&nbsp;Teknik kemiliteran','623','Teknik kemiliteran','','','',false,true);
+d.add(138,137,'623.1/.7','<div class="nodetag">623.1/.7</div></span>&nbsp;&nbsp;Teknik kemiliteran darat. Artileri','623.1/.7','Teknik kemiliteran darat. Artileri','','','',false,true);
+d.add(139,138,'623.1/.3','<div class="nodetag">623.1/.3</div></span>&nbsp;&nbsp;Teknik medan. Fortifikasi. Pembuatan pertahanan','623.1/.3','Teknik medan. Fortifikasi. Pembuatan pertahanan','','','',false,true);
+d.add(140,139,'623.1','<div class="nodetag">623.1</div></span>&nbsp;&nbsp;Benteng. Fortifikasi permanen. Garis, kawasan difortifikasi','623.1','Benteng. Fortifikasi permanen. Garis, kawasan difortifikasi','','','',false,true);
+d.add(141,139,'623.2','<div class="nodetag">623.2</div></span>&nbsp;&nbsp;Karya serbu dan pertahanan. Karya pengepungan. Fortifikasi medan. Pembuatan parit pertahanan','623.2','Karya serbu dan pertahanan. Karya pengepungan. Fortifikasi medan. Pembuatan parit pertahanan','','','',false,true);
+d.add(142,139,'623.3','<div class="nodetag">623.3</div></span>&nbsp;&nbsp;Ranjau darat. Rintangan medan. Pembanjiran','623.3','Ranjau darat. Rintangan medan. Pembanjiran','','','',false,true);
+d.add(143,138,'623.4','<div class="nodetag">623.4</div></span>&nbsp;&nbsp;Persejnjataan. Pembekalan . Senjata. Senapan. Meriam.t Artileri. Senjata ringan. Senjata genggam. Kendaraan lapis baja dan dinas lainnya. Amunisid an gas perang. Peluru kendali dan roket','623.4','Persejnjataan. Pembekalan . Senjata. Senapan. Meriam.t Artileri. Senjata ringan. Senjata genggam. Kendaraan lapis baja dan dinas lainnya. Amunisid an gas perang. Peluru kendali dan roket','','','',false,true);
+d.add(144,138,'623.5','<div class="nodetag">623.5</div></span>&nbsp;&nbsp;Balistik. Penembakan. Masalah teori dan eksperimen','623.5','Balistik. Penembakan. Masalah teori dan eksperimen','','','',false,true);
+d.add(145,138,'623.6','<div class="nodetag">623.6</div></span>&nbsp;&nbsp;Peralatan dan operasi teknik lapangan. Garis komunikasi. Kontra radar. Topografi militer','623.6','Peralatan dan operasi teknik lapangan. Garis komunikasi. Kontra radar. Topografi militer','','','',false,true);
+d.add(146,138,'623.7','<div class="nodetag">623.7</div></span>&nbsp;&nbsp;Penerbangan militer dan angkatan laut. Pertahanan udara.','623.7','Penerbangan militer dan angkatan laut. Pertahanan udara.','','','',false,true);
+d.add(147,137,'623.8/.9','<div class="nodetag">623.8/.9</div></span>&nbsp;&nbsp;Teknik keangkatanlautan','623.8/.9','Teknik keangkatanlautan','','','',false,true);
+d.add(148,147,'623.8','<div class="nodetag">623.8</div></span>&nbsp;&nbsp;Konstruksi keangkatanlautan. Pangkalan angkatan laut, Kapal perang dan kapal lainnya.','623.8','Konstruksi keangkatanlautan. Pangkalan angkatan laut, Kapal perang dan kapal lainnya.','','','',false,true);
+d.add(149,147,'623.9','<div class="nodetag">623.9</div></span>&nbsp;&nbsp;Materi dan persenjatan angkatan laut. Perlindungan dan persenjataan kapal. Pertahanan kapal selam','623.9','Materi dan persenjatan angkatan laut. Perlindungan dan persenjataan kapal. Pertahanan kapal selam','','','',false,true);
+d.add(150,96,'624','<div class="nodetag">624</div></span>&nbsp;&nbsp;Teknik sipil dan struktur pada umumnya','624','Teknik sipil dan struktur pada umumnya','','','',false,true);
+d.add(151,150,'624.01/.07','<div class="nodetag">624.01/.07</div></span>&nbsp;&nbsp;Subdivisi tanda bantu khusus untuk teknik sipil dan struktur','624.01/.07','Subdivisi tanda bantu khusus untuk teknik sipil dan struktur','','','',false,true);
+d.add(152,151,'624.01','<div class="nodetag">624.01</div></span>&nbsp;&nbsp;Struktur dan bagian struktur menurut material dan metodenya','624.01','Struktur dan bagian struktur menurut material dan metodenya','','','',false,true);
+d.add(153,151,'624.03','<div class="nodetag">624.03</div></span>&nbsp;&nbsp;Besaran, kepermanenan, lokasi dan bentuk struktur','624.03','Besaran, kepermanenan, lokasi dan bentuk struktur','','','',false,true);
+d.add(154,151,'624.04','<div class="nodetag">624.04</div></span>&nbsp;&nbsp;Desain struktur. Statik grafik dan analitis untuk investigasi dan kalkulasi struktur','624.04','Desain struktur. Statik grafik dan analitis untuk investigasi dan kalkulasi struktur','','','',false,true);
+d.add(155,151,'624.05','<div class="nodetag">624.05</div></span>&nbsp;&nbsp;Tapak, organisasi dan bangunan. Metode konstruksi','624.05','Tapak, organisasi dan bangunan. Metode konstruksi','','','',false,true);
+d.add(156,151,'624.07','<div class="nodetag">624.07</div></span>&nbsp;&nbsp;Elemen struktur.Bagian daya dukung','624.07','Elemen struktur.Bagian daya dukung','','','',false,true);
+d.add(157,150,'624.1','<div class="nodetag">624.1</div></span>&nbsp;&nbsp;Substruktur. Gali timbun tanah. Fondasi. Pembuatan terowongan','624.1','Substruktur. Gali timbun tanah. Fondasi. Pembuatan terowongan','','','',false,true);
+d.add(158,150,'624.21/.8','<div class="nodetag">624.21/.8</div></span>&nbsp;&nbsp;Konstruksi jembatan','624.21/.8','Konstruksi jembatan','','','',false,true);
+d.add(159,158,'624.3','<div class="nodetag">624.3</div></span>&nbsp;&nbsp;Jembatan kuda-kuda (jembatan kisi-kisi penopang, jaring terbuka)','624.3','Jembatan kuda-kuda (jembatan kisi-kisi penopang, jaring terbuka)','','','',false,true);
+d.add(160,158,'624.5','<div class="nodetag">624.5</div></span>&nbsp;&nbsp;Jembatan kabel. Jembatan gantung','624.5','Jembatan kabel. Jembatan gantung','','','',false,true);
+d.add(161,158,'624.6','<div class="nodetag">624.6</div></span>&nbsp;&nbsp;Jembatan busur','624.6','Jembatan busur','','','',false,true);
+d.add(162,158,'624.8','<div class="nodetag">624.8</div></span>&nbsp;&nbsp;Jembatan angkat','624.8','Jembatan angkat','','','',false,true);
+d.add(163,150,'624.9','<div class="nodetag">624.9</div></span>&nbsp;&nbsp;Superstrurrktur (kecuali jembatan). Superstruktur mandiri','624.9','Superstrurrktur (kecuali jembatan). Superstruktur mandiri','','','',false,true);
+d.add(164,96,'625','<div class="nodetag">625</div></span>&nbsp;&nbsp;Teknik sipil angkutan darat. Teknik kereta api. Teknik jalan raya','625','Teknik sipil angkutan darat. Teknik kereta api. Teknik jalan raya','','','',false,true);
+d.add(165,164,'625.1/.5','<div class="nodetag">625.1/.5</div></span>&nbsp;&nbsp;Kereta api. Trem. Kereta listrik','625.1/.5','Kereta api. Trem. Kereta listrik','','','',false,true);
+d.add(166,165,'625.1','<div class="nodetag">625.1</div></span>&nbsp;&nbsp;Kereta api pada umumnya. Jalan permanen. Konstruksi lintasan','625.1','Kereta api pada umumnya. Jalan permanen. Konstruksi lintasan','','','',false,true);
+d.add(167,165,'625.5','<div class="nodetag">625.5</div></span>&nbsp;&nbsp;Trem.Kereta api gunung.Kereta api gsantung. Kabel gantung dan kabel. Telpher','625.5','Trem.Kereta api gunung.Kereta api gsantung. Kabel gantung dan kabel. Telpher','','','',false,true);
+d.add(168,164,'625.7/.8','<div class="nodetag">625.7/.8</div></span>&nbsp;&nbsp;Teknik jalan raya','625.7/.8','Teknik jalan raya','','','',false,true);
+d.add(169,168,'625.7','<div class="nodetag">625.7</div></span>&nbsp;&nbsp;Jalan raya pada umumnya. Jalan. Jalan angkutan. Marga.. Sistem jalan kota dan luar kota.','625.7','Jalan raya pada umumnya. Jalan. Jalan angkutan. Marga.. Sistem jalan kota dan luar kota.','','','',false,true);
+d.add(170,168,'625.8','<div class="nodetag">625.8</div></span>&nbsp;&nbsp;Permukaan keras jalan raya. Trotoar, kaki lima atau arah penggunaan. Penyiapan dan penggunaan material','625.8','Permukaan keras jalan raya. Trotoar, kaki lima atau arah penggunaan. Penyiapan dan penggunaan material','','','',false,true);
+d.add(171,96,'626/627','<div class="nodetag">626/627</div></span>&nbsp;&nbsp;Teknik dan konstruksi hidraulik. Struktur air (akuatik)','626/627','Teknik dan konstruksi hidraulik. Struktur air (akuatik)','','','',false,true);
+d.add(172,171,'626','<div class="nodetag">626</div></span>&nbsp;&nbsp;Teknik hidraulik pada umumnya','626','Teknik hidraulik pada umumnya','','','',false,true);
+d.add(173,172,'626.1','<div class="nodetag">626.1</div></span>&nbsp;&nbsp;Jalan air pedalaman yang dapat dilayari. Terusan. Sungai berkanal','626.1','Jalan air pedalaman yang dapat dilayari. Terusan. Sungai berkanal','','','',false,true);
+d.add(174,172,'626.4','<div class="nodetag">626.4</div></span>&nbsp;&nbsp;Gerbang air','626.4','Gerbang air','','','',false,true);
+d.add(175,172,'626.5','<div class="nodetag">626.5</div></span>&nbsp;&nbsp;Alat pengangkat dan bidang miring untuk kapal','626.5','Alat pengangkat dan bidang miring untuk kapal','','','',false,true);
+d.add(176,172,'626.8','<div class="nodetag">626.8</div></span>&nbsp;&nbsp;Hidraulik pertanian. Irigasi, teknik drainase dan reklamasi','626.8','Hidraulik pertanian. Irigasi, teknik drainase dan reklamasi','','','',false,true);
+d.add(177,172,'626.9','<div class="nodetag">626.9</div></span>&nbsp;&nbsp;Terusan maritim. Terusan kapal','626.9','Terusan maritim. Terusan kapal','','','',false,true);
+d.add(178,171,'627','<div class="nodetag">627</div></span>&nbsp;&nbsp;Jalan air alami, bandar, teknik pelabuhan dan pantai. Fasilitas navigasi, pengangkatan dan penyelamatan kapal. Dan dan bangunan tenaga hidarulik','627','Jalan air alami, bandar, teknik pelabuhan dan pantai. Fasilitas navigasi, pengangkatan dan penyelamatan kapal. Dan dan bangunan tenaga hidarulik','','','',false,true);
+d.add(179,178,'627.2','<div class="nodetag">627.2</div></span>&nbsp;&nbsp;Bandar, pelabuhan dan pangkalan laut:teknik dan pekerjaan konstruksi pada umumnya','627.2','Bandar, pelabuhan dan pangkalan laut:teknik dan pekerjaan konstruksi pada umumnya','','','',false,true);
+d.add(180,178,'627.3','<div class="nodetag">627.3</div></span>&nbsp;&nbsp;Fasilitas dalam pelabuhan. Dok. Dermaga.Kade. Instalasi dan perlengkapan pada umumnya','627.3','Fasilitas dalam pelabuhan. Dok. Dermaga.Kade. Instalasi dan perlengkapan pada umumnya','','','',false,true);
+d.add(181,178,'627.4','<div class="nodetag">627.4</div></span>&nbsp;&nbsp;Perlindungan tebing sungai. Pelurusan sungai dan jalan air. Pekerjaan perbaikan sungai lainnya','627.4','Perlindungan tebing sungai. Pelurusan sungai dan jalan air. Pekerjaan perbaikan sungai lainnya','','','',false,true);
+d.add(182,178,'627.5','<div class="nodetag">627.5</div></span>&nbsp;&nbsp;Pekerjaan perlindungan dan perbaikan jalan air lainnya. Tanggul.Perlindungan pantai. Pengeringan dan reklamasi tanah.','627.5','Pekerjaan perlindungan dan perbaikan jalan air lainnya. Tanggul.Perlindungan pantai. Pengeringan dan reklamasi tanah.','','','',false,true);
+d.add(183,178,'627.7','<div class="nodetag">627.7</div></span>&nbsp;&nbsp;Fasilitas navigasi. Pemelihraan kanal. Pengangkatan dan penyelamatan di laut','627.7','Fasilitas navigasi. Pemelihraan kanal. Pengangkatan dan penyelamatan di laut','','','',false,true);
+d.add(184,178,'627.8','<div class="nodetag">627.8</div></span>&nbsp;&nbsp;Dam, instalasi daya hidraulik','627.8','Dam, instalasi daya hidraulik','','','',false,true);
+d.add(185,96,'628','<div class="nodetag">628</div></span>&nbsp;&nbsp;Teknik kesehatan masyarakat. Air. Sanitasi. Teknik pencahayaan','628','Teknik kesehatan masyarakat. Air. Sanitasi. Teknik pencahayaan','','','',false,true);
+d.add(186,185,'628.1','<div class="nodetag">628.1</div></span>&nbsp;&nbsp;Persediaan air. Penanganan air. Konsumsi air','628.1','Persediaan air. Penanganan air. Konsumsi air','','','',false,true);
+d.add(187,185,'628.2','<div class="nodetag">628.2</div></span>&nbsp;&nbsp;Pembuangan air perkotaan. Drainase kota. Limbah','628.2','Pembuangan air perkotaan. Drainase kota. Limbah','','','',false,true);
+d.add(188,185,'628.3','<div class="nodetag">628.3</div></span>&nbsp;&nbsp;Air selokan. Penanganan, pembuangan, pendayagunaan air selokan','628.3','Air selokan. Penanganan, pembuangan, pendayagunaan air selokan','','','',false,true);
+d.add(189,185,'628.4','<div class="nodetag">628.4</div></span>&nbsp;&nbsp;Kebersihan kota. Limbah. Buangan. Kotoran. Sampah. Pengumpulan dan pemusnahan limbah kota','628.4','Kebersihan kota. Limbah. Buangan. Kotoran. Sampah. Pengumpulan dan pemusnahan limbah kota','','','',false,true);
+d.add(190,185,'628.5','<div class="nodetag">628.5</div></span>&nbsp;&nbsp;Tindakan terhadap gangguan industri serta gangguan lainnya','628.5','Tindakan terhadap gangguan industri serta gangguan lainnya','','','',false,true);
+d.add(191,185,'628.6','<div class="nodetag">628.6</div></span>&nbsp;&nbsp;Instalasi drainase dan saniter bangunan (terutama persyaratan kesehatan masyarakat)','628.6','Instalasi drainase dan saniter bangunan (terutama persyaratan kesehatan masyarakat)','','','',false,true);
+d.add(192,185,'628.8','<div class="nodetag">628.8</div></span>&nbsp;&nbsp;Suhu dalam ruangan. Pendinginan. Pemanasan. Ventilasi','628.8','Suhu dalam ruangan. Pendinginan. Pemanasan. Ventilasi','','','',false,true);
+d.add(193,185,'628.9','<div class="nodetag">628.9</div></span>&nbsp;&nbsp;Pencahayaan. Teknik pencahayaan.','628.9','Pencahayaan. Teknik pencahayaan.','','','',false,true);
+d.add(194,96,'629','<div class="nodetag">629</div></span>&nbsp;&nbsp;Teknik kendaraan angkut','629','Teknik kendaraan angkut','','','',false,true);
+d.add(195,194,'629.01/.08','<div class="nodetag">629.01/.08</div></span>&nbsp;&nbsp;Subdivisi tanda bantu khusus untuk teknik kendaraan angkutan','629.01/.08','Subdivisi tanda bantu khusus untuk teknik kendaraan angkutan','','','',false,true);
+d.add(196,195,'629.01','<div class="nodetag">629.01</div></span>&nbsp;&nbsp;Prinsip desain kendaraan: karakteristik, kemampuan, uji.','629.01','Prinsip desain kendaraan: karakteristik, kemampuan, uji.','','','',false,true);
+d.add(197,195,'629.02','<div class="nodetag">629.02</div></span>&nbsp;&nbsp;Struktur, prinsip konstruksi,tata letak dan bagian kendaraan.','629.02','Struktur, prinsip konstruksi,tata letak dan bagian kendaraan.','','','',false,true);
+d.add(198,195,'629.03','<div class="nodetag">629.03</div></span>&nbsp;&nbsp;Sistem pendorongan','629.03','Sistem pendorongan','','','',false,true);
+d.add(199,195,'629.04','<div class="nodetag">629.04</div></span>&nbsp;&nbsp;Tata letak bagian dalam: akomodasi, instalasi, perlengkapan untuk penumpang dan barang','629.04','Tata letak bagian dalam: akomodasi, instalasi, perlengkapan untuk penumpang dan barang','','','',false,true);
+d.add(200,195,'629.05','<div class="nodetag">629.05</div></span>&nbsp;&nbsp;Sistem dan instrumen pengendalian, kontrol-menghidupkan (terkelindan kendaraan)','629.05','Sistem dan instrumen pengendalian, kontrol-menghidupkan (terkelindan kendaraan)','','','',false,true);
+d.add(201,195,'629.06','<div class="nodetag">629.06</div></span>&nbsp;&nbsp;Sistem dan gawai bantu kendaraan','629.06','Sistem dan gawai bantu kendaraan','','','',false,true);
+d.add(202,195,'629.07','<div class="nodetag">629.07</div></span>&nbsp;&nbsp;Aspek teknik operasi kendaraan. Teknik operasi','629.07','Aspek teknik operasi kendaraan. Teknik operasi','','','',false,true);
+d.add(203,195,'629.08','<div class="nodetag">629.08</div></span>&nbsp;&nbsp;Perlengkapan dasar.instalasi dan prosedut teknis berkaitan','629.08','Perlengkapan dasar.instalasi dan prosedut teknis berkaitan','','','',false,true);
+d.add(204,194,'629.3','<div class="nodetag">629.3</div></span>&nbsp;&nbsp;Teknik kendaraan darat (tidak termasuk kendaraan rel)','629.3','Teknik kendaraan darat (tidak termasuk kendaraan rel)','','','',false,true);
+d.add(205,194,'629.4','<div class="nodetag">629.4</div></span>&nbsp;&nbsp;Teknik kereta api. Lokomotif. Gerbong.Material beroda. Emplasemen kereta api. Instalaai danjasa berkaitan dengan material beroda.','629.4','Teknik kereta api. Lokomotif. Gerbong.Material beroda. Emplasemen kereta api. Instalaai danjasa berkaitan dengan material beroda.','','','',false,true);
+d.add(206,194,'629.5','<div class="nodetag">629.5</div></span>&nbsp;&nbsp;Teknik kapal. TeknikMesin kapal. Perahu. Kapal. Pembuatan perahu dan kapal.','629.5','Teknik kapal. TeknikMesin kapal. Perahu. Kapal. Pembuatan perahu dan kapal.','','','',false,true);
+d.add(207,194,'629.7','<div class="nodetag">629.7</div></span>&nbsp;&nbsp;Teknik angkutan udara dan antariksa. Aeronautika dan pesawat udara. Roket: misil. Atsronautika dan pesawat antariksa','629.7','Teknik angkutan udara dan antariksa. Aeronautika dan pesawat udara. Roket: misil. Atsronautika dan pesawat antariksa','','','',false,true);
+d.add(208,0,'63','<div class="nodetag">63</div></span>&nbsp;&nbsp;Pertanian dan ilmu-ilmu berkaitan serta teknik. Kehutanan. Bertani. Eksplorasi hidupan liar','63','Pertanian dan ilmu-ilmu berkaitan serta teknik. Kehutanan. Bertani. Eksplorasi hidupan liar','','','',false,true);
+d.add(209,208,'630','<div class="nodetag">630</div></span>&nbsp;&nbsp;Kehutanan','630','Kehutanan','','','',false,true);
+d.add(210,209,'630*0','<div class="nodetag">630*0</div></span>&nbsp;&nbsp;Hutan, kehutanan dan pemanfaatan hasil hutan','630*0','Hutan, kehutanan dan pemanfaatan hasil hutan','','','',false,true);
+d.add(211,209,'630*1','<div class="nodetag">630*1</div></span>&nbsp;&nbsp;Faktor-faktor lingkungan. Biologi hutan','630*1','Faktor-faktor lingkungan. Biologi hutan','','','',false,true);
+d.add(212,209,'630*2','<div class="nodetag">630*2</div></span>&nbsp;&nbsp;Silvikultur','630*2','Silvikultur','','','',false,true);
+d.add(213,209,'630*3','<div class="nodetag">630*3</div></span>&nbsp;&nbsp;Ilmu kerja (kajian kerja) dalam kehutanan. Penenbangan pohon: pembalakan dan pengangkutan. Teknik kehutanan','630*3','Ilmu kerja (kajian kerja) dalam kehutanan. Penenbangan pohon: pembalakan dan pengangkutan. Teknik kehutanan','','','',false,true);
+d.add(214,209,'630*4','<div class="nodetag">630*4</div></span>&nbsp;&nbsp;Kerusakan dan perlindungan hutan','630*4','Kerusakan dan perlindungan hutan','','','',false,true);
+d.add(215,209,'630*5','<div class="nodetag">630*5</div></span>&nbsp;&nbsp;Pengukuran hutan. Riap, pengembangan dan struktur tegakan. Survei dan pemetaan','630*5','Pengukuran hutan. Riap, pengembangan dan struktur tegakan. Survei dan pemetaan','','','',false,true);
+d.add(216,209,'630*6','<div class="nodetag">630*6</div></span>&nbsp;&nbsp;Manajemen hutan. Ekonomi bisnis dari kehutanan, Administrasi dan organisasi usaha kehutanan.','630*6','Manajemen hutan. Ekonomi bisnis dari kehutanan, Administrasi dan organisasi usaha kehutanan.','','','',false,true);
+d.add(217,209,'630*7','<div class="nodetag">630*7</div></span>&nbsp;&nbsp;Pemasaran hasil hutan. Keekonomian dari angkutan hutan dan industri kayu.','630*7','Pemasaran hasil hutan. Keekonomian dari angkutan hutan dan industri kayu.','','','',false,true);
+d.add(218,209,'630*8','<div class="nodetag">630*8</div></span>&nbsp;&nbsp;Produk hutan serta pendayagunaannya','630*8','Produk hutan serta pendayagunaannya','','','',false,true);
+d.add(219,209,'630*9','<div class="nodetag">630*9</div></span>&nbsp;&nbsp;Hutan dan kehutanan dari titik pandang nasional. Ekonomi sosial kehutanan','630*9','Hutan dan kehutanan dari titik pandang nasional. Ekonomi sosial kehutanan','','','',false,true);
+d.add(220,208,'631/635','<div class="nodetag">631/635</div></span>&nbsp;&nbsp;Manajemen pertanian. Agronomi. Hortikultura','631/635','Manajemen pertanian. Agronomi. Hortikultura','','','',false,true);
+d.add(221,220,'631','<div class="nodetag">631</div></span>&nbsp;&nbsp;Pertanian secara umum','631','Pertanian secara umum','','','',false,true);
+d.add(222,221,'631.1','<div class="nodetag">631.1</div></span>&nbsp;&nbsp;Manajemen dan organisasi pertanian','631.1','Manajemen dan organisasi pertanian','','','',false,true);
+d.add(223,221,'631.2','<div class="nodetag">631.2</div></span>&nbsp;&nbsp;Bangunan pertanian, struktur dan instalasi. Bangunan untuk ternak, mesin dan peralatan produksi','631.2','Bangunan pertanian, struktur dan instalasi. Bangunan untuk ternak, mesin dan peralatan produksi','','','',false,true);
+d.add(224,221,'631.3','<div class="nodetag">631.3</div></span>&nbsp;&nbsp;Mesin pertanian, perkakas dan peralatan pertanian','631.3','Mesin pertanian, perkakas dan peralatan pertanian','','','',false,true);
+d.add(225,221,'631.4','<div class="nodetag">631.4</div></span>&nbsp;&nbsp;Ilmu tanah. Pedologi. Penelitian tanah','631.4','Ilmu tanah. Pedologi. Penelitian tanah','','','',false,true);
+d.add(226,221,'631.5','<div class="nodetag">631.5</div></span>&nbsp;&nbsp;Operasionalisasi pertanian','631.5','Operasionalisasi pertanian','','','',false,true);
+d.add(227,221,'631.6','<div class="nodetag">631.6</div></span>&nbsp;&nbsp;Teknologi pedesaan','631.6','Teknologi pedesaan','','','',false,true);
+d.add(228,221,'631.8','<div class="nodetag">631.8</div></span>&nbsp;&nbsp;Pupuk, rabuk dan pengayaan tanah. Peningkatan pertumbuhan. Stimulan tanaman','631.8','Pupuk, rabuk dan pengayaan tanah. Peningkatan pertumbuhan. Stimulan tanaman','','','',false,true);
+d.add(229,220,'632','<div class="nodetag">632</div></span>&nbsp;&nbsp;Kerusakan tanaman, cedera. Penyakit tanaman. Hama, organisme berbahaya bagi tanaman. Perlindungan tanaman','632','Kerusakan tanaman, cedera. Penyakit tanaman. Hama, organisme berbahaya bagi tanaman. Perlindungan tanaman','','','',false,true);
+d.add(230,220,'633/635','<div class="nodetag">633/635</div></span>&nbsp;&nbsp;Hortikultur pada umumnya. tanaman spesifik','633/635','Hortikultur pada umumnya. tanaman spesifik','','','',false,true);
+d.add(231,230,'633','<div class="nodetag">633</div></span>&nbsp;&nbsp;Tanaman budidaya dan produksinya','633','Tanaman budidaya dan produksinya','','','',false,true);
+d.add(232,231,'633.1','<div class="nodetag">633.1</div></span>&nbsp;&nbsp;Tanaman sereal. Tanaman biji-bijian','633.1','Tanaman sereal. Tanaman biji-bijian','','','',false,true);
+d.add(233,231,'633.2','<div class="nodetag">633.2</div></span>&nbsp;&nbsp;Hijauan rumput. Padang rumput dan rumput pastura','633.2','Hijauan rumput. Padang rumput dan rumput pastura','','','',false,true);
+d.add(234,231,'633.3','<div class="nodetag">633.3</div></span>&nbsp;&nbsp;Tanaman hijauan mekanan ternak kecuali rumput','633.3','Tanaman hijauan mekanan ternak kecuali rumput','','','',false,true);
+d.add(235,231,'633.4','<div class="nodetag">633.4</div></span>&nbsp;&nbsp;Akar-akaran yang dapat dimakan dan umbi-umbian. Tanaman akar','633.4','Akar-akaran yang dapat dimakan dan umbi-umbian. Tanaman akar','','','',false,true);
+d.add(236,231,'633.5','<div class="nodetag">633.5</div></span>&nbsp;&nbsp;Tanaman serat dan tanaman untuk tekstil','633.5','Tanaman serat dan tanaman untuk tekstil','','','',false,true);
+d.add(237,231,'633.6','<div class="nodetag">633.6</div></span>&nbsp;&nbsp;Tanaman gula dan pati','633.6','Tanaman gula dan pati','','','',false,true);
+d.add(238,231,'633.7','<div class="nodetag">633.7</div></span>&nbsp;&nbsp;Tanaman penghasilkan stimulan. Tanaman minuman','633.7','Tanaman penghasilkan stimulan. Tanaman minuman','','','',false,true);
+d.add(239,231,'633.8','<div class="nodetag">633.8</div></span>&nbsp;&nbsp;Tanaman aromatik. Tanaman bumbu. Tanaman berminyak. Tanaman pewarna. Tanaman penyamak kulit. Tanaman obat','633.8','Tanaman aromatik. Tanaman bumbu. Tanaman berminyak. Tanaman pewarna. Tanaman penyamak kulit. Tanaman obat','','','',false,true);
+d.add(240,231,'633.9','<div class="nodetag">633.9</div></span>&nbsp;&nbsp;Tanaman lain yang digunakan untuk industri','633.9','Tanaman lain yang digunakan untuk industri','','','',false,true);
+d.add(241,230,'634','<div class="nodetag">634</div></span>&nbsp;&nbsp;Pertanian buah','634','Pertanian buah','','','',false,true);
+d.add(242,241,'634.2','<div class="nodetag">634.2</div></span>&nbsp;&nbsp;Buah-buahan keras. Buah-buahan berbiji pada umumnya','634.2','Buah-buahan keras. Buah-buahan berbiji pada umumnya','','','',false,true);
+d.add(243,241,'634.3','<div class="nodetag">634.3</div></span>&nbsp;&nbsp;Buah-buahan rutaceous dan moraceous. Buah-buahan jeruk pada umumnya','634.3','Buah-buahan rutaceous dan moraceous. Buah-buahan jeruk pada umumnya','','','',false,true);
+d.add(244,241,'634.4','<div class="nodetag">634.4</div></span>&nbsp;&nbsp;Buah pulpa lainnya','634.4','Buah pulpa lainnya','','','',false,true);
+d.add(245,241,'634.5','<div class="nodetag">634.5</div></span>&nbsp;&nbsp;Kacang','634.5','Kacang','','','',false,true);
+d.add(246,241,'634.6','<div class="nodetag">634.6</div></span>&nbsp;&nbsp;Berbagai buah tropis dan subtropis','634.6','Berbagai buah tropis dan subtropis','','','',false,true);
+d.add(247,241,'634.7','<div class="nodetag">634.7</div></span>&nbsp;&nbsp;Buah kecil tumbuhan terna dan herbaseus. Beri','634.7','Buah kecil tumbuhan terna dan herbaseus. Beri','','','',false,true);
+d.add(248,241,'634.8','<div class="nodetag">634.8</div></span>&nbsp;&nbsp;Budidaya anggur. Tanaman anggur. Kebun anggur','634.8','Budidaya anggur. Tanaman anggur. Kebun anggur','','','',false,true);
+d.add(249,230,'635','<div class="nodetag">635</div></span>&nbsp;&nbsp;Tanaman kebun. Berkebun','635','Tanaman kebun. Berkebun','','','',false,true);
+d.add(250,249,'635.1/.8','<div class="nodetag">635.1/.8</div></span>&nbsp;&nbsp;Tanaman sayuran. Berkebun sayur','635.1/.8','Tanaman sayuran. Berkebun sayur','','','',false,true);
+d.add(251,250,'635.1','<div class="nodetag">635.1</div></span>&nbsp;&nbsp;Akar yang dapat dimakan. Sayuran akar-akaran','635.1','Akar yang dapat dimakan. Sayuran akar-akaran','','','',false,true);
+d.add(252,250,'635.2','<div class="nodetag">635.2</div></span>&nbsp;&nbsp;Ubi dan umbi lapis yang dapat dimakan','635.2','Ubi dan umbi lapis yang dapat dimakan','','','',false,true);
+d.add(253,250,'635.3','<div class="nodetag">635.3</div></span>&nbsp;&nbsp;Tumbuhan dengan batang, tangkai, daun atau bunga yang dapat dimakan','635.3','Tumbuhan dengan batang, tangkai, daun atau bunga yang dapat dimakan','','','',false,true);
+d.add(254,250,'635.4','<div class="nodetag">635.4</div></span>&nbsp;&nbsp;Sesayuran hijau lainnya. Sayuran daun','635.4','Sesayuran hijau lainnya. Sayuran daun','','','',false,true);
+d.add(255,250,'635.6','<div class="nodetag">635.6</div></span>&nbsp;&nbsp;Buah dan benih yang dapat dimakan. Kacang-kacangan','635.6','Buah dan benih yang dapat dimakan. Kacang-kacangan','','','',false,true);
+d.add(256,250,'635.7','<div class="nodetag">635.7</div></span>&nbsp;&nbsp;Herba aromatik. Tumbuhan untuk bumbu','635.7','Herba aromatik. Tumbuhan untuk bumbu','','','',false,true);
+d.add(257,250,'635.8','<div class="nodetag">635.8</div></span>&nbsp;&nbsp;Jamur yang dapat dimakan','635.8','Jamur yang dapat dimakan','','','',false,true);
+d.add(258,249,'635.9','<div class="nodetag">635.9</div></span>&nbsp;&nbsp;Tanaman hias. Tanaman dekorasi. Kebun ornamental','635.9','Tanaman hias. Tanaman dekorasi. Kebun ornamental','','','',false,true);
+d.add(259,208,'636','<div class="nodetag">636</div></span>&nbsp;&nbsp;Peternakan dan pengembangbiakan ternak secara umum. Pemeliharaan ternak. Pembibitan hewan domestik','636','Peternakan dan pengembangbiakan ternak secara umum. Pemeliharaan ternak. Pembibitan hewan domestik','','','',false,true);
+d.add(260,259,'636.01/.09','<div class="nodetag">636.01/.09</div></span>&nbsp;&nbsp;Tambahan subdivisi khusus untuk peternakan','636.01/.09','Tambahan subdivisi khusus untuk peternakan','','','',false,true);
+d.add(261,260,'636.01','<div class="nodetag">636.01</div></span>&nbsp;&nbsp;Asal, evolusi dan domestikasi hewan yang dipelihara Orang. Menjinakkan hewan. Dasar-dasar biologi dalam pemeliharaan dan pelatihan binatang','636.01','Asal, evolusi dan domestikasi hewan yang dipelihara Orang. Menjinakkan hewan. Dasar-dasar biologi dalam pemeliharaan dan pelatihan binatang','','','',false,true);
+d.add(262,260,'636.02','<div class="nodetag">636.02</div></span>&nbsp;&nbsp;Hewan ternak yang dipelihara untuk dikembangbiakkan, penggunaan hewan untuk keperluan dipertontonkan dan untuk ilmiah','636.02','Hewan ternak yang dipelihara untuk dikembangbiakkan, penggunaan hewan untuk keperluan dipertontonkan dan untuk ilmiah','','','',false,true);
+d.add(263,260,'636.03','<div class="nodetag">636.03</div></span>&nbsp;&nbsp;Hewan ternak yang dibesarkan atau dipelihara untuk makanan atau produk lainnya (produktivitas, hasil). Perusahaan peternakan dan padang penggembalaan ternak secara umum','636.03','Hewan ternak yang dibesarkan atau dipelihara untuk makanan atau produk lainnya (produktivitas, hasil). Perusahaan peternakan dan padang penggembalaan ternak secara umum','','','',false,true);
+d.add(264,260,'636.04','<div class="nodetag">636.04</div></span>&nbsp;&nbsp;Hewan yang dibesarkan atau dipelihara untuk dipekerjakan dan untuk melayani Orang atau untuk hiburan','636.04','Hewan yang dibesarkan atau dipelihara untuk dipekerjakan dan untuk melayani Orang atau untuk hiburan','','','',false,true);
+d.add(265,260,'636.05','<div class="nodetag">636.05</div></span>&nbsp;&nbsp;Hewan menurut jenis bibitnya','636.05','Hewan menurut jenis bibitnya','','','',false,true);
+d.add(266,260,'636.06','<div class="nodetag">636.06</div></span>&nbsp;&nbsp;Karakteristik, konstitusi dan fitur biologis khusus dari hewan-hewan domestik','636.06','Karakteristik, konstitusi dan fitur biologis khusus dari hewan-hewan domestik','','','',false,true);
+d.add(267,260,'636.08','<div class="nodetag">636.08</div></span>&nbsp;&nbsp;Pertanyaan umum dari pembibitan dan pemeliharaan','636.08','Pertanyaan umum dari pembibitan dan pemeliharaan','','','',false,true);
+d.add(268,260,'636.09','<div class="nodetag">636.09</div></span>&nbsp;&nbsp;Ilmu kehewanan','636.09','Ilmu kehewanan','','','',false,true);
+d.add(269,259,'636.1','<div class="nodetag">636.1</div></span>&nbsp;&nbsp;Bangsa ternak kuda. Kuda','636.1','Bangsa ternak kuda. Kuda','','','',false,true);
+d.add(270,259,'636.2','<div class="nodetag">636.2</div></span>&nbsp;&nbsp;Ruminansia besar. Sapi, lembu','636.2','Ruminansia besar. Sapi, lembu','','','',false,true);
+d.add(271,259,'636.3','<div class="nodetag">636.3</div></span>&nbsp;&nbsp;Ruminansia kecil','636.3','Ruminansia kecil','','','',false,true);
+d.add(272,259,'636.4','<div class="nodetag">636.4</div></span>&nbsp;&nbsp;Babi. babi','636.4','Babi. babi','','','',false,true);
+d.add(273,259,'636.5','<div class="nodetag">636.5</div></span>&nbsp;&nbsp;Unggas','636.5','Unggas','','','',false,true);
+d.add(274,259,'636.6','<div class="nodetag">636.6</div></span>&nbsp;&nbsp;Burung (kecuali unggas dan permainan) dibesarkan atau dipelihara oleh Orang','636.6','Burung (kecuali unggas dan permainan) dibesarkan atau dipelihara oleh Orang','','','',false,true);
+d.add(275,259,'636.7','<div class="nodetag">636.7</div></span>&nbsp;&nbsp;Anjing','636.7','Anjing','','','',false,true);
+d.add(276,259,'636.8','<div class="nodetag">636.8</div></span>&nbsp;&nbsp;Kucing','636.8','Kucing','','','',false,true);
+d.add(277,259,'636.9','<div class="nodetag">636.9</div></span>&nbsp;&nbsp;Hewan-hewan lain yang dipelihara Orang','636.9','Hewan-hewan lain yang dipelihara Orang','','','',false,true);
+d.add(278,208,'637','<div class="nodetag">637</div></span>&nbsp;&nbsp;Produk hasil ternak dan permainan','637','Produk hasil ternak dan permainan','','','',false,true);
+d.add(279,208,'638','<div class="nodetag">638</div></span>&nbsp;&nbsp;Pemeliharaan, pengembangbiakan dan pengelolaan serangga dan arthropoda lainnya','638','Pemeliharaan, pengembangbiakan dan pengelolaan serangga dan arthropoda lainnya','','','',false,true);
+d.add(280,208,'639','<div class="nodetag">639</div></span>&nbsp;&nbsp;Berburu. Penangkapan ikan. Pengembangbiakan ikan','639','Berburu. Penangkapan ikan. Pengembangbiakan ikan','','','',false,true);
+d.add(281,280,'639.1','<div class="nodetag">639.1</div></span>&nbsp;&nbsp;Perburuan','639.1','Perburuan','','','',false,true);
+d.add(282,280,'639.2','<div class="nodetag">639.2</div></span>&nbsp;&nbsp;Penangkapan ikan. Perikanan','639.2','Penangkapan ikan. Perikanan','','','',false,true);
+d.add(283,280,'639.3','<div class="nodetag">639.3</div></span>&nbsp;&nbsp;Pengembangbiakan ikan. pemeliharaan ikan','639.3','Pengembangbiakan ikan. pemeliharaan ikan','','','',false,true);
+d.add(284,280,'639.4','<div class="nodetag">639.4</div></span>&nbsp;&nbsp;Pengembangbiakan moluska air (kerang)','639.4','Pengembangbiakan moluska air (kerang)','','','',false,true);
+d.add(285,280,'639.5','<div class="nodetag">639.5</div></span>&nbsp;&nbsp;Pengembangbiakan krustasea air','639.5','Pengembangbiakan krustasea air','','','',false,true);
+d.add(286,280,'639.6','<div class="nodetag">639.6</div></span>&nbsp;&nbsp;Produk-produk laut lainnya','639.6','Produk-produk laut lainnya','','','',false,true);
+d.add(287,0,'64','<div class="nodetag">64</div></span>&nbsp;&nbsp;Kesejahteraan keluarga. Ilmu rumah tangga. Urus rumah','64','Kesejahteraan keluarga. Ilmu rumah tangga. Urus rumah','','','',false,true);
+d.add(288,287,'64.01/.08','<div class="nodetag">64.01/.08</div></span>&nbsp;&nbsp;Subdivisi tanda bantu khusus untuk kesejahteraan keluarga','64.01/.08','Subdivisi tanda bantu khusus untuk kesejahteraan keluarga','','','',false,true);
+d.add(289,288,'64.01','<div class="nodetag">64.01</div></span>&nbsp;&nbsp;Rumah tangga. manajemen rumah tangga','64.01','Rumah tangga. manajemen rumah tangga','','','',false,true);
+d.add(290,288,'64.048','<div class="nodetag">64.048</div></span>&nbsp;&nbsp;Kajian kerja dan metode kerja di rumah tangga','64.048','Kajian kerja dan metode kerja di rumah tangga','','','',false,true);
+d.add(291,288,'64.05','<div class="nodetag">64.05</div></span>&nbsp;&nbsp;Kesejahteraan keluarga. Pengurusan rumah, penyediaan membel dan penyediaan peralatan dsb., untuk jenis penghuni tertentu.','64.05','Kesejahteraan keluarga. Pengurusan rumah, penyediaan membel dan penyediaan peralatan dsb., untuk jenis penghuni tertentu.','','','',false,true);
+d.add(292,288,'64.06','<div class="nodetag">64.06</div></span>&nbsp;&nbsp;Gawai dan mesin rumah tangga. Gawai penghemat tenaga di rumah','64.06','Gawai dan mesin rumah tangga. Gawai penghemat tenaga di rumah','','','',false,true);
+d.add(293,288,'64.08','<div class="nodetag">64.08</div></span>&nbsp;&nbsp;Pindah rumah. Pindahan','64.08','Pindah rumah. Pindahan','','','',false,true);
+d.add(294,287,'640','<div class="nodetag">640</div></span>&nbsp;&nbsp;Jenis-jenis rumah tangga','640','Jenis-jenis rumah tangga','','','',false,true);
+d.add(295,287,'641/642','<div class="nodetag">641/642</div></span>&nbsp;&nbsp;Makanan. Memasak. Hidangan. Penganan','641/642','Makanan. Memasak. Hidangan. Penganan','','','',false,true);
+d.add(296,295,'641','<div class="nodetag">641</div></span>&nbsp;&nbsp;Makanan. Masakan. Hidangan','641','Makanan. Masakan. Hidangan','','','',false,true);
+d.add(297,295,'642','<div class="nodetag">642</div></span>&nbsp;&nbsp;Makanan dan waktu makan. Perangkat meja','642','Makanan dan waktu makan. Perangkat meja','','','',false,true);
+d.add(298,287,'643/645','<div class="nodetag">643/645</div></span>&nbsp;&nbsp;Rumah. Peralatan dan perabotan rumah','643/645','Rumah. Peralatan dan perabotan rumah','','','',false,true);
+d.add(299,298,'643','<div class="nodetag">643</div></span>&nbsp;&nbsp;Rumah. Pemukiman.','643','Rumah. Pemukiman.','','','',false,true);
+d.add(300,298,'644','<div class="nodetag">644</div></span>&nbsp;&nbsp;Instalasi untuk kesehatan dan kenyamanan di pemukiman','644','Instalasi untuk kesehatan dan kenyamanan di pemukiman','','','',false,true);
+d.add(301,300,'644.1','<div class="nodetag">644.1</div></span>&nbsp;&nbsp;Pengendalian suhu dalam ruangan. Pemanasan. Ventilasi. Pendinginan udara','644.1','Pengendalian suhu dalam ruangan. Pemanasan. Ventilasi. Pendinginan udara','','','',false,true);
+d.add(302,300,'644.3','<div class="nodetag">644.3</div></span>&nbsp;&nbsp;Penerangan rumah','644.3','Penerangan rumah','','','',false,true);
+d.add(303,300,'644.6','<div class="nodetag">644.6</div></span>&nbsp;&nbsp;Pasokan air rumah tangga dan instalasi saniter','644.6','Pasokan air rumah tangga dan instalasi saniter','','','',false,true);
+d.add(304,298,'645','<div class="nodetag">645</div></span>&nbsp;&nbsp;Perabot dan keperluan rumah tangga','645','Perabot dan keperluan rumah tangga','','','',false,true);
+d.add(305,287,'646/649','<div class="nodetag">646/649</div></span>&nbsp;&nbsp;Tuntutan pribadi. Manajemen rumah tangga','646/649','Tuntutan pribadi. Manajemen rumah tangga','','','',false,true);
+d.add(306,305,'646','<div class="nodetag">646</div></span>&nbsp;&nbsp;Pakaian. Rawat diri','646','Pakaian. Rawat diri','','','',false,true);
+d.add(307,306,'646.2','<div class="nodetag">646.2</div></span>&nbsp;&nbsp;Pembuatan dan perbaikan pakaian di rumah. Pembuatan pakaiandi rumah tangga','646.2','Pembuatan dan perbaikan pakaian di rumah. Pembuatan pakaiandi rumah tangga','','','',false,true);
+d.add(308,306,'646.4','<div class="nodetag">646.4</div></span>&nbsp;&nbsp;Pakaian. Garmen','646.4','Pakaian. Garmen','','','',false,true);
+d.add(309,306,'646.7','<div class="nodetag">646.7</div></span>&nbsp;&nbsp;Rawat diri. Rawat kecantikan. Aksesori untuk berpakaian dan melepaskan pakaian','646.7','Rawat diri. Rawat kecantikan. Aksesori untuk berpakaian dan melepaskan pakaian','','','',false,true);
+d.add(310,305,'648','<div class="nodetag">648</div></span>&nbsp;&nbsp;Pencucian. Binatu. Pembersihan','648','Pencucian. Binatu. Pembersihan','','','',false,true);
+d.add(311,305,'649','<div class="nodetag">649</div></span>&nbsp;&nbsp;Perawatan di rumah untuk anak-anak, penyandang cacat, tamu','649','Perawatan di rumah untuk anak-anak, penyandang cacat, tamu','','','',false,true);
+d.add(312,0,'65','<div class="nodetag">65</div></span>&nbsp;&nbsp;Industri komunikasi dan angkutan. Akuntansi. Manajemen bisnis. Hubungan masyarakat','65','Industri komunikasi dan angkutan. Akuntansi. Manajemen bisnis. Hubungan masyarakat','','','',false,true);
+d.add(313,312,'654','<div class="nodetag">654</div></span>&nbsp;&nbsp;Telekomunikasi dan pengendalian jarak jauh (organisasi, jasa)','654','Telekomunikasi dan pengendalian jarak jauh (organisasi, jasa)','','','',false,true);
+d.add(314,313,'654.1','<div class="nodetag">654.1</div></span>&nbsp;&nbsp;Jasa telegraf, telepon, radio, televisi','654.1','Jasa telegraf, telepon, radio, televisi','','','',false,true);
+d.add(315,313,'654.9','<div class="nodetag">654.9</div></span>&nbsp;&nbsp;Persinyalan. Berbagai jasa telekomunikasi. Pengendalian jarak jauh (telekontrol)','654.9','Persinyalan. Berbagai jasa telekomunikasi. Pengendalian jarak jauh (telekontrol)','','','',false,true);
+d.add(316,312,'655','<div class="nodetag">655</div></span>&nbsp;&nbsp;Industri grafika. Percetakan. penerbitan. Perdagangan buku','655','Industri grafika. Percetakan. penerbitan. Perdagangan buku','','','',false,true);
+d.add(317,316,'655.1','<div class="nodetag">655.1</div></span>&nbsp;&nbsp;industri percetakan pada umumnya','655.1','industri percetakan pada umumnya','','','',false,true);
+d.add(318,316,'655.4','<div class="nodetag">655.4</div></span>&nbsp;&nbsp;Penerbitan dan penjualan buku pada umumnya','655.4','Penerbitan dan penjualan buku pada umumnya','','','',false,true);
+d.add(319,312,'656','<div class="nodetag">656</div></span>&nbsp;&nbsp;Jasa angkutan dan pos. Organisasi dan pengendalian lalu lintas.','656','Jasa angkutan dan pos. Organisasi dan pengendalian lalu lintas.','','','',false,true);
+d.add(320,319,'656.1/.5','<div class="nodetag">656.1/.5</div></span>&nbsp;&nbsp;Transportasi darat','656.1/.5','Transportasi darat','','','',false,true);
+d.add(321,320,'656.1','<div class="nodetag">656.1</div></span>&nbsp;&nbsp;Transportasi jalan raya','656.1','Transportasi jalan raya','','','',false,true);
+d.add(322,320,'656.2','<div class="nodetag">656.2</div></span>&nbsp;&nbsp;Transportasi kereta api. Lalu lintas kereta api','656.2','Transportasi kereta api. Lalu lintas kereta api','','','',false,true);
+d.add(323,320,'656.4','<div class="nodetag">656.4</div></span>&nbsp;&nbsp;Transportasi melalui kereta api ringan','656.4','Transportasi melalui kereta api ringan','','','',false,true);
+d.add(324,320,'656.5','<div class="nodetag">656.5</div></span>&nbsp;&nbsp;Transportasi darat melalui sistem conveyor dan pipa','656.5','Transportasi darat melalui sistem conveyor dan pipa','','','',false,true);
+d.add(325,319,'656.6','<div class="nodetag">656.6</div></span>&nbsp;&nbsp;Transportasi air','656.6','Transportasi air','','','',false,true);
+d.add(326,319,'656.7','<div class="nodetag">656.7</div></span>&nbsp;&nbsp;Transportasi udara. Lalu lintas udara','656.7','Transportasi udara. Lalu lintas udara','','','',false,true);
+d.add(327,319,'656.8','<div class="nodetag">656.8</div></span>&nbsp;&nbsp;Jasa pos dan administrasinya','656.8','Jasa pos dan administrasinya','','','',false,true);
+d.add(328,312,'657','<div class="nodetag">657</div></span>&nbsp;&nbsp;Akuntansi','657','Akuntansi','','','',false,true);
+d.add(329,312,'658','<div class="nodetag">658</div></span>&nbsp;&nbsp;Manajemen, administrasi bisnis. Organisasi komersial','658','Manajemen, administrasi bisnis. Organisasi komersial','','','',false,true);
+d.add(330,329,'658.1','<div class="nodetag">658.1</div></span>&nbsp;&nbsp;Bentuk usaha. Keuangan','658.1','Bentuk usaha. Keuangan','','','',false,true);
+d.add(331,329,'658.2','<div class="nodetag">658.2</div></span>&nbsp;&nbsp;Instalasi dan pabrik.Tanah dan bangunan. Gedung, pekerjaan, pabrik. Material','658.2','Instalasi dan pabrik.Tanah dan bangunan. Gedung, pekerjaan, pabrik. Material','','','',false,true);
+d.add(332,329,'658.3','<div class="nodetag">658.3</div></span>&nbsp;&nbsp;Hubungan Orang dalam perusahaan. Manajemen kepegawaian.','658.3','Hubungan Orang dalam perusahaan. Manajemen kepegawaian.','','','',false,true);
+d.add(333,329,'658.5','<div class="nodetag">658.5</div></span>&nbsp;&nbsp;Teknik dan perencanaan produksi. Desain.Manajemen dan pengendalian produksi.','658.5','Teknik dan perencanaan produksi. Desain.Manajemen dan pengendalian produksi.','','','',false,true);
+d.add(334,329,'658.6','<div class="nodetag">658.6</div></span>&nbsp;&nbsp;Organisasi dan praktik komersial. Barang. Jasa.','658.6','Organisasi dan praktik komersial. Barang. Jasa.','','','',false,true);
+d.add(335,329,'658.7','<div class="nodetag">658.7</div></span>&nbsp;&nbsp;Pembelian. Pemesanan. Pengadaan. Manajemen stok','658.7','Pembelian. Pemesanan. Pengadaan. Manajemen stok','','','',false,true);
+d.add(336,329,'658.8','<div class="nodetag">658.8</div></span>&nbsp;&nbsp;Pemasaran. Penjualan. Menjual. Distribusi','658.8','Pemasaran. Penjualan. Menjual. Distribusi','','','',false,true);
+d.add(337,329,'658.9','<div class="nodetag">658.9</div></span>&nbsp;&nbsp;Aktivitas komersial lainnya','658.9','Aktivitas komersial lainnya','','','',false,true);
+d.add(338,312,'659','<div class="nodetag">659</div></span>&nbsp;&nbsp;Publisitas. Karya informasi. Hubungan masyarakat','659','Publisitas. Karya informasi. Hubungan masyarakat','','','',false,true);
+d.add(339,338,'659.1','<div class="nodetag">659.1</div></span>&nbsp;&nbsp;Publisitas. Iklan','659.1','Publisitas. Iklan','','','',false,true);
+d.add(340,338,'659.2','<div class="nodetag">659.2</div></span>&nbsp;&nbsp;Karya informasi. Jasa nasehat dan konsultasi','659.2','Karya informasi. Jasa nasehat dan konsultasi','','','',false,true);
+d.add(341,338,'659.3','<div class="nodetag">659.3</div></span>&nbsp;&nbsp;Komunikasi massa. Penginformasian, pencerahan publik pada umumnya','659.3','Komunikasi massa. Penginformasian, pencerahan publik pada umumnya','','','',false,true);
+d.add(342,338,'659.4','<div class="nodetag">659.4</div></span>&nbsp;&nbsp;Hubungan masyarakat (Humas)','659.4','Hubungan masyarakat (Humas)','','','',false,true);
+d.add(343,0,'66','<div class="nodetag">66</div></span>&nbsp;&nbsp;Teknologi kimia. Industri kimia dan yang berhubungan','66','Teknologi kimia. Industri kimia dan yang berhubungan','','','',false,true);
+d.add(344,343,'66.01/.09','<div class="nodetag">66.01/.09</div></span>&nbsp;&nbsp;Subdivisi tanda bantu khusus untuk teknik kimia','66.01/.09','Subdivisi tanda bantu khusus untuk teknik kimia','','','',false,true);
+d.add(345,344,'66.01','<div class="nodetag">66.01</div></span>&nbsp;&nbsp;Dasar-dasar teknik kimia','66.01','Dasar-dasar teknik kimia','','','',false,true);
+d.add(346,344,'66.02','<div class="nodetag">66.02</div></span>&nbsp;&nbsp;Operasi dan peralatan pemrosesan kimia pada umumnya','66.02','Operasi dan peralatan pemrosesan kimia pada umumnya','','','',false,true);
+d.add(347,344,'66.03','<div class="nodetag">66.03</div></span>&nbsp;&nbsp;Materi, karakteristik, proses dan peralatan','66.03','Materi, karakteristik, proses dan peralatan','','','',false,true);
+d.add(348,344,'66.04','<div class="nodetag">66.04</div></span>&nbsp;&nbsp;Operasi dan peraalatan penangnanan bahang.','66.04','Operasi dan peraalatan penangnanan bahang.','','','',false,true);
+d.add(349,344,'66.06','<div class="nodetag">66.06</div></span>&nbsp;&nbsp;Teknologi kimia zat cair. proses dan peralatan untuk penanganan zat cair.','66.06','Teknologi kimia zat cair. proses dan peralatan untuk penanganan zat cair.','','','',false,true);
+d.add(350,344,'66.07','<div class="nodetag">66.07</div></span>&nbsp;&nbsp;Teknologi kimia gas','66.07','Teknologi kimia gas','','','',false,true);
+d.add(351,344,'66.08','<div class="nodetag">66.08</div></span>&nbsp;&nbsp;Operasi dan perlengkapan fisik dan fisikokimia. Efek fisik dan fisikokimia terhadap proses kimia','66.08','Operasi dan perlengkapan fisik dan fisikokimia. Efek fisik dan fisikokimia terhadap proses kimia','','','',false,true);
+d.add(352,343,'661','<div class="nodetag">661</div></span>&nbsp;&nbsp;Bahan kimia','661','Bahan kimia','','','',false,true);
+d.add(353,352,'661.1','<div class="nodetag">661.1</div></span>&nbsp;&nbsp;Industribahan kimia khusus','661.1','Industribahan kimia khusus','','','',false,true);
+d.add(354,352,'661.2','<div class="nodetag">661.2</div></span>&nbsp;&nbsp;Produksi sulfur dan derivasinya','661.2','Produksi sulfur dan derivasinya','','','',false,true);
+d.add(355,352,'661.3','<div class="nodetag">661.3</div></span>&nbsp;&nbsp;Produksi soda dan potas, alkali','661.3','Produksi soda dan potas, alkali','','','',false,true);
+d.add(356,352,'661.4','<div class="nodetag">661.4</div></span>&nbsp;&nbsp;Produksi halogen dan senyawa halogen,senyawa perokso anorgani8k','661.4','Produksi halogen dan senyawa halogen,senyawa perokso anorgani8k','','','',false,true);
+d.add(357,352,'661.5','<div class="nodetag">661.5</div></span>&nbsp;&nbsp;Produksi senyawa nitrogen. Fiksasi notrogen. Industri nitrogen pada umumnya','661.5','Produksi senyawa nitrogen. Fiksasi notrogen. Industri nitrogen pada umumnya','','','',false,true);
+d.add(358,352,'661.6','<div class="nodetag">661.6</div></span>&nbsp;&nbsp;Produksi berbagai nonmetal dan semimetal (metalloid) dan senyawanya.','661.6','Produksi berbagai nonmetal dan semimetal (metalloid) dan senyawanya.','','','',false,true);
+d.add(359,352,'661.7','<div class="nodetag">661.7</div></span>&nbsp;&nbsp;Produksi zat organik. Kimia organik','661.7','Produksi zat organik. Kimia organik','','','',false,true);
+d.add(360,352,'661.8','<div class="nodetag">661.8</div></span>&nbsp;&nbsp;Senyawa logfam pada umumnya. Garam. Senyawa mineral','661.8','Senyawa logfam pada umumnya. Garam. Senyawa mineral','','','',false,true);
+d.add(361,352,'661.9','<div class="nodetag">661.9</div></span>&nbsp;&nbsp;Produksi gas','661.9','Produksi gas','','','',false,true);
+d.add(362,343,'662','<div class="nodetag">662</div></span>&nbsp;&nbsp;Bahan peledak. Bahan bakar','662','Bahan peledak. Bahan bakar','','','',false,true);
+d.add(363,362,'662.1/.4','<div class="nodetag">662.1/.4</div></span>&nbsp;&nbsp;Bahan peledak','662.1/.4','Bahan peledak','','','',false,true);
+d.add(364,363,'662.1','<div class="nodetag">662.1</div></span>&nbsp;&nbsp;Kembang api. Piroteknik dan gawai berkaitan','662.1','Kembang api. Piroteknik dan gawai berkaitan','','','',false,true);
+d.add(365,363,'662.2','<div class="nodetag">662.2</div></span>&nbsp;&nbsp;Bahan peledak daya tinggi','662.2','Bahan peledak daya tinggi','','','',false,true);
+d.add(366,363,'662.3','<div class="nodetag">662.3</div></span>&nbsp;&nbsp;Serbuk propelan. Serbuk senjata','662.3','Serbuk propelan. Serbuk senjata','','','',false,true);
+d.add(367,363,'662.4','<div class="nodetag">662.4</div></span>&nbsp;&nbsp;Pemicu, pemercepat bahan peledak/ Detonator','662.4','Pemicu, pemercepat bahan peledak/ Detonator','','','',false,true);
+d.add(368,362,'662.5','<div class="nodetag">662.5</div></span>&nbsp;&nbsp;Penyulut.Penyala. Korek api.Geretan.','662.5','Penyulut.Penyala. Korek api.Geretan.','','','',false,true);
+d.add(369,362,'662.6/.9','<div class="nodetag">662.6/.9</div></span>&nbsp;&nbsp;Ekonomi bahang. Ekonomi bahan bakar. Bahan bakar. Pemanasan','662.6/.9','Ekonomi bahang. Ekonomi bahan bakar. Bahan bakar. Pemanasan','','','',false,true);
+d.add(370,369,'662.6','<div class="nodetag">662.6</div></span>&nbsp;&nbsp;Ekonomi bahang atau ekonomi bahan bakar pada umumnya.Pembakaran. Bahan bakar almi/','662.6','Ekonomi bahang atau ekonomi bahan bakar pada umumnya.Pembakaran. Bahan bakar almi/','','','',false,true);
+d.add(371,369,'662.7','<div class="nodetag">662.7</div></span>&nbsp;&nbsp;Teknologi bahan bakar. Bahan bakar olahan','662.7','Teknologi bahan bakar. Bahan bakar olahan','','','',false,true);
+d.add(372,369,'662.8','<div class="nodetag">662.8</div></span>&nbsp;&nbsp;Penanganan mekanik untuk pemadatan bahan bakar. Pembuatan briket','662.8','Penanganan mekanik untuk pemadatan bahan bakar. Pembuatan briket','','','',false,true);
+d.add(373,369,'662.9','<div class="nodetag">662.9</div></span>&nbsp;&nbsp;Teknik tungku dan pembakaran','662.9','Teknik tungku dan pembakaran','','','',false,true);
+d.add(374,343,'663','<div class="nodetag">663</div></span>&nbsp;&nbsp;Mikrobiologi industri. Mikologi industri. Zimurgi, termasuk fermentasi. Industri minuman ringan. Industri minuman perangsang','663','Mikrobiologi industri. Mikologi industri. Zimurgi, termasuk fermentasi. Industri minuman ringan. Industri minuman perangsang','','','',false,true);
+d.add(375,374,'663.1','<div class="nodetag">663.1</div></span>&nbsp;&nbsp;Industri mikrobiologi. Ilmu dan teknik mikologi mikrobiologi terapan','663.1','Industri mikrobiologi. Ilmu dan teknik mikologi mikrobiologi terapan','','','',false,true);
+d.add(376,374,'663.2','<div class="nodetag">663.2</div></span>&nbsp;&nbsp;Anggur. Pembuatan anggur. Oenologi.','663.2','Anggur. Pembuatan anggur. Oenologi.','','','',false,true);
+d.add(377,374,'663.3','<div class="nodetag">663.3</div></span>&nbsp;&nbsp;Sari buah apel. Jus pir fermentasi. Anggur buah lainnya, anggur dari tumbuh-tumbuhan','663.3','Sari buah apel. Jus pir fermentasi. Anggur buah lainnya, anggur dari tumbuh-tumbuhan','','','',false,true);
+d.add(378,374,'663.4','<div class="nodetag">663.4</div></span>&nbsp;&nbsp;Bir. Pembuatan bir. Pembuatan malt','663.4','Bir. Pembuatan bir. Pembuatan malt','','','',false,true);
+d.add(379,374,'663.5','<div class="nodetag">663.5</div></span>&nbsp;&nbsp;Alkohol yang dapat diminum. minuman keras (minuman keras yang memabukkan). Distilasi, penapisan alkohol','663.5','Alkohol yang dapat diminum. minuman keras (minuman keras yang memabukkan). Distilasi, penapisan alkohol','','','',false,true);
+d.add(380,374,'663.6','<div class="nodetag">663.6</div></span>&nbsp;&nbsp;Air untuk minuman ringan dan penggunaan industri lainnya. Air mineral. Air pengobatan','663.6','Air untuk minuman ringan dan penggunaan industri lainnya. Air mineral. Air pengobatan','','','',false,true);
+d.add(381,374,'663.8','<div class="nodetag">663.8</div></span>&nbsp;&nbsp;Ramuan utama untuk pencampuran minuman. Jus buah dan sayur. Minuman keras. Minuman ringan','663.8','Ramuan utama untuk pencampuran minuman. Jus buah dan sayur. Minuman keras. Minuman ringan','','','',false,true);
+d.add(382,374,'663.9','<div class="nodetag">663.9</div></span>&nbsp;&nbsp;Cokelat. Kakao. Kopi. Teh. Tembakau','663.9','Cokelat. Kakao. Kopi. Teh. Tembakau','','','',false,true);
+d.add(383,343,'664','<div class="nodetag">664</div></span>&nbsp;&nbsp;Produksi dan pengawetan bahan makanan padat.','664','Produksi dan pengawetan bahan makanan padat.','','','',false,true);
+d.add(384,383,'664.1','<div class="nodetag">664.1</div></span>&nbsp;&nbsp;Gula.Tetes. Glukose dsb','664.1','Gula.Tetes. Glukose dsb','','','',false,true);
+d.add(385,383,'664.2','<div class="nodetag">664.2</div></span>&nbsp;&nbsp;Pati. Material amilase','664.2','Pati. Material amilase','','','',false,true);
+d.add(386,383,'664.3','<div class="nodetag">664.3</div></span>&nbsp;&nbsp;Minyak dan lemak dapat dimakan. Margarine. Bahan makanan protein.','664.3','Minyak dan lemak dapat dimakan. Margarine. Bahan makanan protein.','','','',false,true);
+d.add(387,383,'664.4','<div class="nodetag">664.4</div></span>&nbsp;&nbsp;Mineral dapat dimakan.','664.4','Mineral dapat dimakan.','','','',false,true);
+d.add(388,383,'664.5','<div class="nodetag">664.5</div></span>&nbsp;&nbsp;Rempah-rempah. Bumbu.','664.5','Rempah-rempah. Bumbu.','','','',false,true);
+d.add(389,383,'664.6/.7','<div class="nodetag">664.6/.7</div></span>&nbsp;&nbsp;Teknologi dan pemrosesan bijian sereal','664.6/.7','Teknologi dan pemrosesan bijian sereal','','','',false,true);
+d.add(390,389,'664.6','<div class="nodetag">664.6</div></span>&nbsp;&nbsp;Pemanggangan roti. Roti. Pembuatan tepung.','664.6','Pemanggangan roti. Roti. Pembuatan tepung.','','','',false,true);
+d.add(391,389,'664.7','<div class="nodetag">664.7</div></span>&nbsp;&nbsp;Teknologi sereal. Pengilangan tepung dan jagung. Pemrosesan bijian','664.7','Teknologi sereal. Pengilangan tepung dan jagung. Pemrosesan bijian','','','',false,true);
+d.add(392,383,'664.8/.9','<div class="nodetag">664.8/.9</div></span>&nbsp;&nbsp;Teknik pengawetan makanan.','664.8/.9','Teknik pengawetan makanan.','','','',false,true);
+d.add(393,343,'665','<div class="nodetag">665</div></span>&nbsp;&nbsp;Minyak.Lemak. Lilin. Gom. Resin.','665','Minyak.Lemak. Lilin. Gom. Resin.','','','',false,true);
+d.add(394,393,'665.1','<div class="nodetag">665.1</div></span>&nbsp;&nbsp;Keumuman tentang minyak, lemak. malam dan produk yang berasal dari bahan tersebut.','665.1','Keumuman tentang minyak, lemak. malam dan produk yang berasal dari bahan tersebut.','','','',false,true);
+d.add(395,393,'665.2','<div class="nodetag">665.2</div></span>&nbsp;&nbsp;Minyak, gemuk dan lilin yang berasal dari hewan.','665.2','Minyak, gemuk dan lilin yang berasal dari hewan.','','','',false,true);
+d.add(396,393,'665.3','<div class="nodetag">665.3</div></span>&nbsp;&nbsp;Minyak nabati, gemuk, lilin, fosfatid','665.3','Minyak nabati, gemuk, lilin, fosfatid','','','',false,true);
+d.add(397,393,'665.5','<div class="nodetag">665.5</div></span>&nbsp;&nbsp;Minyak asiri.Minyak wangi. Kosmetik','665.5','Minyak asiri.Minyak wangi. Kosmetik','','','',false,true);
+d.add(398,393,'665.6/.7','<div class="nodetag">665.6/.7</div></span>&nbsp;&nbsp;Proses dan prodik minyak bumi dan industri berkaitan','665.6/.7','Proses dan prodik minyak bumi dan industri berkaitan','','','',false,true);
+d.add(399,398,'665.6','<div class="nodetag">665.6</div></span>&nbsp;&nbsp;Teknologi minyak mineral. Teknologi bensin dan produk berkaitan','665.6','Teknologi minyak mineral. Teknologi bensin dan produk berkaitan','','','',false,true);
+d.add(400,398,'665.7','<div class="nodetag">665.7</div></span>&nbsp;&nbsp;Produk inudtsri minyak tambang. minyak mineral dan produksi sejenis','665.7','Produk inudtsri minyak tambang. minyak mineral dan produksi sejenis','','','',false,true);
+d.add(401,393,'665.9','<div class="nodetag">665.9</div></span>&nbsp;&nbsp;Industri bahan kimia organik aneka ragam.','665.9','Industri bahan kimia organik aneka ragam.','','','',false,true);
+d.add(402,343,'666','<div class="nodetag">666</div></span>&nbsp;&nbsp;Industri gelas. Keramik. Semen dan beton','666','Industri gelas. Keramik. Semen dan beton','','','',false,true);
+d.add(403,402,'666.1','<div class="nodetag">666.1</div></span>&nbsp;&nbsp;Industri gelas. Teknologi gelas. Manufaktur gelas pada umumnya. Gelas dalam arti komprehensif.','666.1','Industri gelas. Teknologi gelas. Manufaktur gelas pada umumnya. Gelas dalam arti komprehensif.','','','',false,true);
+d.add(404,402,'666.3/.7','<div class="nodetag">666.3/.7</div></span>&nbsp;&nbsp;Keramik','666.3/.7','Keramik','','','',false,true);
+d.add(405,404,'666.3','<div class="nodetag">666.3</div></span>&nbsp;&nbsp;Keramik pada umumnya. Bahan mentah keramik.','666.3','Keramik pada umumnya. Bahan mentah keramik.','','','',false,true);
+d.add(406,404,'666.5','<div class="nodetag">666.5</div></span>&nbsp;&nbsp;Porselen. Keramik','666.5','Porselen. Keramik','','','',false,true);
+d.add(407,404,'666.6','<div class="nodetag">666.6</div></span>&nbsp;&nbsp;Perangkat batuan. Bahan tembikar ( bahan keramik berliang renik)','666.6','Perangkat batuan. Bahan tembikar ( bahan keramik berliang renik)','','','',false,true);
+d.add(408,404,'666.7','<div class="nodetag">666.7</div></span>&nbsp;&nbsp;Keramik kasar. Perangkat tanah liat berat. Bahan tahan api. Bahan keramik keras terbuat dari keramik dan material lainnya','666.7','Keramik kasar. Perangkat tanah liat berat. Bahan tahan api. Bahan keramik keras terbuat dari keramik dan material lainnya','','','',false,true);
+d.add(409,402,'666.9','<div class="nodetag">666.9</div></span>&nbsp;&nbsp;Industri gips, kapur dan semen.Material pengeras. Plester dan komposisi. Adukan semen dan beton.','666.9','Industri gips, kapur dan semen.Material pengeras. Plester dan komposisi. Adukan semen dan beton.','','','',false,true);
+d.add(410,343,'667','<div class="nodetag">667</div></span>&nbsp;&nbsp;Industri warna.','667','Industri warna.','','','',false,true);
+d.add(411,410,'667.2','<div class="nodetag">667.2</div></span>&nbsp;&nbsp;Industrizat warna. Manufaktur dan penggunaan zat warna','667.2','Industrizat warna. Manufaktur dan penggunaan zat warna','','','',false,true);
+d.add(412,410,'667.4','<div class="nodetag">667.4</div></span>&nbsp;&nbsp;Tinta tulis.','667.4','Tinta tulis.','','','',false,true);
+d.add(413,410,'667.5','<div class="nodetag">667.5</div></span>&nbsp;&nbsp;Tinta cetak (hitam atau warna). Tinbta litografi. Pensil tulis dan gamabr. Krayon warna','667.5','Tinta cetak (hitam atau warna). Tinbta litografi. Pensil tulis dan gamabr. Krayon warna','','','',false,true);
+d.add(414,410,'667.6','<div class="nodetag">667.6</div></span>&nbsp;&nbsp;Lapisan dan teknik pelapisan. Cat. Pernis. Laker','667.6','Lapisan dan teknik pelapisan. Cat. Pernis. Laker','','','',false,true);
+d.add(415,410,'667.7','<div class="nodetag">667.7</div></span>&nbsp;&nbsp;Pewarnaan, pemberian warna dsb berbagai bahan (kecuali pencetak dan pengecatan)','667.7','Pewarnaan, pemberian warna dsb berbagai bahan (kecuali pencetak dan pengecatan)','','','',false,true);
+d.add(416,343,'669','<div class="nodetag">669</div></span>&nbsp;&nbsp;Metalurgi','669','Metalurgi','','','',false,true);
+d.add(417,416,'669.1','<div class="nodetag">669.1</div></span>&nbsp;&nbsp;Metalurgi besi. Besi dan baja','669.1','Metalurgi besi. Besi dan baja','','','',false,true);
+d.add(418,416,'669.2','<div class="nodetag">669.2</div></span>&nbsp;&nbsp;Logam nonferus pada umumnya','669.2','Logam nonferus pada umumnya','','','',false,true);
+d.add(419,0,'67','<div class="nodetag">67</div></span>&nbsp;&nbsp;Berbagai industri, perdagangan dan kerajinan','67','Berbagai industri, perdagangan dan kerajinan','','','',false,true);
+d.add(420,419,'671','<div class="nodetag">671</div></span>&nbsp;&nbsp;Benda-benda dari logam mulia, permata, batu mulia','671','Benda-benda dari logam mulia, permata, batu mulia','','','',false,true);
+d.add(421,420,'671.1','<div class="nodetag">671.1</div></span>&nbsp;&nbsp;Benda-benda dari emas dan perak. Benda-benda dari logam mulia lainnya.Perhiasan','671.1','Benda-benda dari emas dan perak. Benda-benda dari logam mulia lainnya.Perhiasan','','','',false,true);
+d.add(422,420,'671.4','<div class="nodetag">671.4</div></span>&nbsp;&nbsp;Manufaktur koin dan medali. Pencetakan koin.','671.4','Manufaktur koin dan medali. Pencetakan koin.','','','',false,true);
+d.add(423,419,'672','<div class="nodetag">672</div></span>&nbsp;&nbsp;Benda-benda dari besi dan baja pada umumnya','672','Benda-benda dari besi dan baja pada umumnya','','','',false,true);
+d.add(424,419,'673','<div class="nodetag">673</div></span>&nbsp;&nbsp;Benda-benda logam nonferus (kecuali logam mulia)','673','Benda-benda logam nonferus (kecuali logam mulia)','','','',false,true);
+d.add(425,419,'674','<div class="nodetag">674</div></span>&nbsp;&nbsp;Kayu dan industri perkayuan','674','Kayu dan industri perkayuan','','','',false,true);
+d.add(426,419,'675','<div class="nodetag">675</div></span>&nbsp;&nbsp;Industri kulit (termasuk bulu hewan dan kulit imitasi_','675','Industri kulit (termasuk bulu hewan dan kulit imitasi_','','','',false,true);
+d.add(427,419,'676','<div class="nodetag">676</div></span>&nbsp;&nbsp;Industri pulpa, kertas dan karton.','676','Industri pulpa, kertas dan karton.','','','',false,true);
+d.add(428,419,'677','<div class="nodetag">677</div></span>&nbsp;&nbsp;Industri tekstil','677','Industri tekstil','','','',false,true);
+d.add(429,428,'677.1/.5','<div class="nodetag">677.1/.5</div></span>&nbsp;&nbsp;Serat tekstil','677.1/.5','Serat tekstil','','','',false,true);
+d.add(430,429,'677.1/.3','<div class="nodetag">677.1/.3</div></span>&nbsp;&nbsp;Serat alami','677.1/.3','Serat alami','','','',false,true);
+d.add(431,430,'677.1/.2','<div class="nodetag">677.1/.2</div></span>&nbsp;&nbsp;Serat sayur mayur','677.1/.2','Serat sayur mayur','','','',false,true);
+d.add(432,431,'677.1','<div class="nodetag">677.1</div></span>&nbsp;&nbsp;Serat babakan (serat dari batang dikotiledon).Serat keras (serat dari daun dan buah monocotiledon)','677.1','Serat babakan (serat dari batang dikotiledon).Serat keras (serat dari daun dan buah monocotiledon)','','','',false,true);
+d.add(433,431,'677.2','<div class="nodetag">677.2</div></span>&nbsp;&nbsp;Serat nabati','677.2','Serat nabati','','','',false,true);
+d.add(434,430,'677.3','<div class="nodetag">677.3</div></span>&nbsp;&nbsp;Serat binatang','677.3','Serat binatang','','','',false,true);
+d.add(435,429,'677.4','<div class="nodetag">677.4</div></span>&nbsp;&nbsp;Serat buatan Orang','677.4','Serat buatan Orang','','','',false,true);
+d.add(436,429,'677.5','<div class="nodetag">677.5</div></span>&nbsp;&nbsp;Serat mineral dan logam. Material anyaman. Benang karet. Rajutan kertas.','677.5','Serat mineral dan logam. Material anyaman. Benang karet. Rajutan kertas.','','','',false,true);
+d.add(437,419,'678','<div class="nodetag">678</div></span>&nbsp;&nbsp;Industri berbasis makromolekul. Industri karet. Plastik.','678','Industri berbasis makromolekul. Industri karet. Plastik.','','','',false,true);
+d.add(438,437,'678.4','<div class="nodetag">678.4</div></span>&nbsp;&nbsp;Karet alam. Makromolekuler alami lainnya yang hanya mengandung karbon dan hidrogen.','678.4','Karet alam. Makromolekuler alami lainnya yang hanya mengandung karbon dan hidrogen.','','','',false,true);
+d.add(439,437,'678.5','<div class="nodetag">678.5</div></span>&nbsp;&nbsp;Plastik','678.5','Plastik','','','',false,true);
+d.add(440,437,'678.6','<div class="nodetag">678.6</div></span>&nbsp;&nbsp;Produk polikondensasi sintetis. Polikondensat. Resin sintetis. Serat sintetis dsb','678.6','Produk polikondensasi sintetis. Polikondensat. Resin sintetis. Serat sintetis dsb','','','',false,true);
+d.add(441,437,'678.7','<div class="nodetag">678.7</div></span>&nbsp;&nbsp;Produk polimerisasi sintetik. Polimerisasi. Karet sintetik.','678.7','Produk polimerisasi sintetik. Polimerisasi. Karet sintetik.','','','',false,true);
+d.add(442,419,'679','<div class="nodetag">679</div></span>&nbsp;&nbsp;Industri berbasis berbagai material terproseskan','679','Industri berbasis berbagai material terproseskan','','','',false,true);
+d.add(443,442,'679.7','<div class="nodetag">679.7</div></span>&nbsp;&nbsp;Industri kabel dan tali menali listrik','679.7','Industri kabel dan tali menali listrik','','','',false,true);
+d.add(444,442,'679.8','<div class="nodetag">679.8</div></span>&nbsp;&nbsp;Teknologi batu. Industri batu','679.8','Teknologi batu. Industri batu','','','',false,true);
+d.add(445,442,'679.9','<div class="nodetag">679.9</div></span>&nbsp;&nbsp;Teknologi material terproseskan alami lainnya.','679.9','Teknologi material terproseskan alami lainnya.','','','',false,true);
+d.add(446,0,'68','<div class="nodetag">68</div></span>&nbsp;&nbsp;Industri, seni dan perdagangan untuk barang jadi atau barang rakitan','68','Industri, seni dan perdagangan untuk barang jadi atau barang rakitan','','','',false,true);
+d.add(447,446,'681','<div class="nodetag">681</div></span>&nbsp;&nbsp;Mekanisme dan instrumen presisi','681','Mekanisme dan instrumen presisi','','','',false,true);
+d.add(448,447,'681.1','<div class="nodetag">681.1</div></span>&nbsp;&nbsp;Radas dengan mekanisme roda atau motor.','681.1','Radas dengan mekanisme roda atau motor.','','','',false,true);
+d.add(449,447,'681.2','<div class="nodetag">681.2</div></span>&nbsp;&nbsp;Pembuatan instrumen pada umumnya. Instrumentasi. Instrumen pengkuran dan manufakturnya. Keseimbangan. Gawai pembobotan.','681.2','Pembuatan instrumen pada umumnya. Instrumentasi. Instrumen pengkuran dan manufakturnya. Keseimbangan. Gawai pembobotan.','','','',false,true);
+d.add(450,447,'681.5','<div class="nodetag">681.5</div></span>&nbsp;&nbsp;Teknologi kendali automatik. Teknologi cerdas.','681.5','Teknologi kendali automatik. Teknologi cerdas.','','','',false,true);
+d.add(451,447,'681.6','<div class="nodetag">681.6</div></span>&nbsp;&nbsp;Mesin dan peralatan reproduksi grafis.','681.6','Mesin dan peralatan reproduksi grafis.','','','',false,true);
+d.add(452,447,'681.7','<div class="nodetag">681.7</div></span>&nbsp;&nbsp;Radas dan instrumen optis','681.7','Radas dan instrumen optis','','','',false,true);
+d.add(453,447,'681.8','<div class="nodetag">681.8</div></span>&nbsp;&nbsp;Akustika teknik','681.8','Akustika teknik','','','',false,true);
+d.add(454,446,'682','<div class="nodetag">682</div></span>&nbsp;&nbsp;Pandai logam. Pandai besi. Pandai ladam kuda. Kriya besi buatan tangan.','682','Pandai logam. Pandai besi. Pandai ladam kuda. Kriya besi buatan tangan.','','','',false,true);
+d.add(455,454,'682.1','<div class="nodetag">682.1</div></span>&nbsp;&nbsp;Pembuatan ladam kuda. Pembuatan sepatu.','682.1','Pembuatan ladam kuda. Pembuatan sepatu.','','','',false,true);
+d.add(456,454,'682.3','<div class="nodetag">682.3</div></span>&nbsp;&nbsp;Pembuatan alat. Penempaaan alat pemotong.','682.3','Pembuatan alat. Penempaaan alat pemotong.','','','',false,true);
+d.add(457,454,'682.5','<div class="nodetag">682.5</div></span>&nbsp;&nbsp;Perlengkapan rumah tangga dari besi','682.5','Perlengkapan rumah tangga dari besi','','','',false,true);
+d.add(458,454,'682.6','<div class="nodetag">682.6</div></span>&nbsp;&nbsp;Bangunan dari besi','682.6','Bangunan dari besi','','','',false,true);
+d.add(459,446,'683','<div class="nodetag">683</div></span>&nbsp;&nbsp;Perbesian. Perangkat keras. Pembuatan kunci.Pembuatan botol. Lampu.Alat pemanas.','683','Perbesian. Perangkat keras. Pembuatan kunci.Pembuatan botol. Lampu.Alat pemanas.','','','',false,true);
+d.add(460,446,'684','<div class="nodetag">684</div></span>&nbsp;&nbsp;Industri mebel dan berkaitan. Manufaktur mebel. Jok','684','Industri mebel dan berkaitan. Manufaktur mebel. Jok','','','',false,true);
+d.add(461,460,'684.4','<div class="nodetag">684.4</div></span>&nbsp;&nbsp;Mebeler (furnitur). Rancangan dan pembuatan mebeler (furnitur)','684.4','Mebeler (furnitur). Rancangan dan pembuatan mebeler (furnitur)','','','',false,true);
+d.add(462,460,'684.6','<div class="nodetag">684.6</div></span>&nbsp;&nbsp;Mempernis. Markuetri.Tatahan dsb.','684.6','Mempernis. Markuetri.Tatahan dsb.','','','',false,true);
+d.add(463,460,'684.7','<div class="nodetag">684.7</div></span>&nbsp;&nbsp;Kain pelapis. Pengaturan tempat tidur.Tutup tempat tidur.Gantungan pakaian.','684.7','Kain pelapis. Pengaturan tempat tidur.Tutup tempat tidur.Gantungan pakaian.','','','',false,true);
+d.add(464,446,'685','<div class="nodetag">685</div></span>&nbsp;&nbsp;Pembuatan pelana. Alas kaki. Pembuatan kaos kaki. Peralatan perjalanan, olahraga, permainan dan lperlengkapan lainnya.','685','Pembuatan pelana. Alas kaki. Pembuatan kaos kaki. Peralatan perjalanan, olahraga, permainan dan lperlengkapan lainnya.','','','',false,true);
+d.add(465,464,'685.1','<div class="nodetag">685.1</div></span>&nbsp;&nbsp;Pelana kuda. Pembuatan pakaian kuda.','685.1','Pelana kuda. Pembuatan pakaian kuda.','','','',false,true);
+d.add(466,464,'685.2','<div class="nodetag">685.2</div></span>&nbsp;&nbsp;Asesori untuk pakaian dan perlengkapan. Pembuatan sabuk.Perlengkapan kulit dan produk analognya.','685.2','Asesori untuk pakaian dan perlengkapan. Pembuatan sabuk.Perlengkapan kulit dan produk analognya.','','','',false,true);
+d.add(467,464,'685.3','<div class="nodetag">685.3</div></span>&nbsp;&nbsp;Alas kaki. Alat bantu lain untuk lokomosi','685.3','Alas kaki. Alat bantu lain untuk lokomosi','','','',false,true);
+d.add(468,464,'685.4','<div class="nodetag">685.4</div></span>&nbsp;&nbsp;Pembuatan kaos tangan. Kaos tangan','685.4','Pembuatan kaos tangan. Kaos tangan','','','',false,true);
+d.add(469,464,'685.5','<div class="nodetag">685.5</div></span>&nbsp;&nbsp;Barang-barang untuk bepergian. Perlengkapan berkemah','685.5','Barang-barang untuk bepergian. Perlengkapan berkemah','','','',false,true);
+d.add(470,464,'685.6','<div class="nodetag">685.6</div></span>&nbsp;&nbsp;Perlengkapan olahraga dan permainan, Perlengkapan dan instalasi untuk atletik, senam, latihan fisik.','685.6','Perlengkapan olahraga dan permainan, Perlengkapan dan instalasi untuk atletik, senam, latihan fisik.','','','',false,true);
+d.add(471,464,'685.7','<div class="nodetag">685.7</div></span>&nbsp;&nbsp;Perlengkapan mendaki gunung, memanjat. Perlengkapan berenang','685.7','Perlengkapan mendaki gunung, memanjat. Perlengkapan berenang','','','',false,true);
+d.add(472,464,'685.8','<div class="nodetag">685.8</div></span>&nbsp;&nbsp;Peralatan untuk permainan papan dan meja','685.8','Peralatan untuk permainan papan dan meja','','','',false,true);
+d.add(473,446,'686','<div class="nodetag">686</div></span>&nbsp;&nbsp;Penjilidan buku. Pelogaman. Pembuatan cermin. Alat tulis menulis','686','Penjilidan buku. Pelogaman. Pembuatan cermin. Alat tulis menulis','','','',false,true);
+d.add(474,446,'687','<div class="nodetag">687</div></span>&nbsp;&nbsp;Industri pakaian. Manufaktur garmen. Budaya kecantikan','687','Industri pakaian. Manufaktur garmen. Budaya kecantikan','','','',false,true);
+d.add(475,474,'687.1','<div class="nodetag">687.1</div></span>&nbsp;&nbsp;Pakaian luar. Penjahitan pakaian.','687.1','Pakaian luar. Penjahitan pakaian.','','','',false,true);
+d.add(476,474,'687.2','<div class="nodetag">687.2</div></span>&nbsp;&nbsp;Baju k linen. Pakian dalam untuk wanita','687.2','Baju k linen. Pakian dalam untuk wanita','','','',false,true);
+d.add(477,474,'687.3','<div class="nodetag">687.3</div></span>&nbsp;&nbsp;Pakaian rajutan. Dasi. Gawai untuk mengamankan dan melindungi pakaian.','687.3','Pakaian rajutan. Dasi. Gawai untuk mengamankan dan melindungi pakaian.','','','',false,true);
+d.add(478,474,'687.4','<div class="nodetag">687.4</div></span>&nbsp;&nbsp;Tutup kepala. Pembuatan topi.Topi untuk wanita','687.4','Tutup kepala. Pembuatan topi.Topi untuk wanita','','','',false,true);
+d.add(479,474,'687.5','<div class="nodetag">687.5</div></span>&nbsp;&nbsp;Industri kecantikan','687.5','Industri kecantikan','','','',false,true);
+d.add(480,474,'687.8','<div class="nodetag">687.8</div></span>&nbsp;&nbsp;Pakaian bulu buatan','687.8','Pakaian bulu buatan','','','',false,true);
+d.add(481,474,'687.9','<div class="nodetag">687.9</div></span>&nbsp;&nbsp;Industri sikat. Sapu dsb','687.9','Industri sikat. Sapu dsb','','','',false,true);
+d.add(482,446,'688','<div class="nodetag">688</div></span>&nbsp;&nbsp;Barang-barang menarik. Mainan. Benda-benda dekorasi','688','Barang-barang menarik. Mainan. Benda-benda dekorasi','','','',false,true);
+d.add(483,482,'688.7','<div class="nodetag">688.7</div></span>&nbsp;&nbsp;Mainan. Barang untuk hiburan, sulap. Dekorasi.','688.7','Mainan. Barang untuk hiburan, sulap. Dekorasi.','','','',false,true);
+d.add(484,446,'689','<div class="nodetag">689</div></span>&nbsp;&nbsp;Kerajinan tangan amatir. Hobi teknik','689','Kerajinan tangan amatir. Hobi teknik','','','',false,true);
+d.add(485,0,'69','<div class="nodetag">69</div></span>&nbsp;&nbsp;Masalah bangunan (konstruksi). Bahan bangunan. Praktik dan prosedur bangunan','69','Masalah bangunan (konstruksi). Bahan bangunan. Praktik dan prosedur bangunan','','','',false,true);
+d.add(486,485,'691','<div class="nodetag">691</div></span>&nbsp;&nbsp;Material bangunan. Komponen gedung','691','Material bangunan. Komponen gedung','','','',false,true);
+d.add(487,485,'692','<div class="nodetag">692</div></span>&nbsp;&nbsp;Bagian struktur dan elemen bangunan','692','Bagian struktur dan elemen bangunan','','','',false,true);
+d.add(488,485,'693','<div class="nodetag">693</div></span>&nbsp;&nbsp;Pertukangan batu dan ketrampilan membangun berkaitan','693','Pertukangan batu dan ketrampilan membangun berkaitan','','','',false,true);
+d.add(489,485,'694','<div class="nodetag">694</div></span>&nbsp;&nbsp;Konstruksi kayu. Pertukangan kayu. Tanggam','694','Konstruksi kayu. Pertukangan kayu. Tanggam','','','',false,true);
+d.add(490,485,'696','<div class="nodetag">696</div></span>&nbsp;&nbsp;peralatan, jasa, instalasi di gedung (saniter, gas, uap,elektrik). Penyesuai pipa. Pemasang pipa ledeng. Pekerja logam. Tukang saluran. Tukang listrik. Tukang lainnya.','696','peralatan, jasa, instalasi di gedung (saniter, gas, uap,elektrik). Penyesuai pipa. Pemasang pipa ledeng. Pekerja logam. Tukang saluran. Tukang listrik. Tukang lainnya.','','','',false,true);
+d.add(491,485,'697','<div class="nodetag">697</div></span>&nbsp;&nbsp;Pemanasan. Ventilasi dan penyejukan udara gedung','697','Pemanasan. Ventilasi dan penyejukan udara gedung','','','',false,true);
+d.add(492,485,'698','<div class="nodetag">698</div></span>&nbsp;&nbsp;Kegiatan penyelesaian akhir dan dekorasi','698','Kegiatan penyelesaian akhir dan dekorasi','','','',false,true);
+d.config.useSelection = false;
+d.config.inOrder = true;
+d.config.useIcons = false;
+document.write(d);
+//-->
+</script>
+</div>
+</div><div id="expandbox" onclick="expandbox(); return false;">&nbsp;</div>
+<div id="recordbox" class="debugbkg">
+<div class="fronthint">klik nomor kelas pada bagian kiri untuk menampilkan cantuman</div>
+</div>
+
+        <div id="footer">
+            <div class="footersectionleft">
+                The UDC Summary (UDCS) provides a selection of around 2,600 classes from the whole scheme which comprises more than 70,000 entries.
+                Please send questions and suggestions to <a href="mailto:udcs@udcc.org?subject=UDC Summary Enquiry">udcs@udcc.org</a><br><br>
+	            <p>
+		            The data provided in this Summary is released under the <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative Commons Attribution Share Alike 3.0 license</a> <a href="../about.htm">[more]</a>
+	            </p>
+            </div>
+            <div class="footermiddle">
+                <a href="http://www.udcc.org"><img src="../images/udclogowhite.png" border="0"></a>
+            </div>
+			<div class="footerright">
+                For complete UDC schedules see <a href="http://www.udc-hub.com/">UDC Online Hub</a><br/><a href="http://www.udc-hub.com/"><img width="60" height="35" src="../images/udclogo.png"/></a>
+
+			</div>
+        </div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-13138465-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>

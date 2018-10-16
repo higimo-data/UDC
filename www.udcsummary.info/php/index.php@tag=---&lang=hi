@@ -1,0 +1,901 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>UDC Summary</title>
+    <link rel="stylesheet" href="../reset.css" type="text/css" />
+    <link rel="stylesheet" href="../udc2000.css" type="text/css" />
+	    <link rel="StyleSheet" href="dtree2.css" type="text/css" />
+	    <script type="text/javascript" src="dtree.js"></script>
+	    <script type="text/javascript" src="udcdisplay_9.js"></script>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+</head>
+
+<body >
+<div id="centercontainer" class="debugbkg">
+    <div id="titlebox" class="debugbkg">
+		<div id="rightbox">
+        	<div id="languagecount">57 languages</div>
+            <div id="languagebox">
+            <select id="selectedlang" style="vertical-align: middle;" onchange="location = this.options[this.selectedIndex].value;">
+			<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=af&pr=Y">Afrikaans (Afrikaans) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sq&pr=Y">Albanian (Shqip) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=anp&pr=Y">Angika (अंगिका) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ar&pr=Y">Arabic (العربية) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=hy&pr=Y">Armenian (հայերեն) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=eu&pr=Y">Basque (Euskara) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=be&pr=Y">Belarusian (Беларуская) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=bn&pr=Y">Bengali (বাংলা) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=bho&pr=Y">Bhojpuri (भोजपुरी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=bg&pr=Y">Bulgarian (Български) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ca&pr=Y">Catalan (Català) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=chi&pr=Y">Chinese (中文) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=hr&pr=Y">Croatian (Hrvatski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=cs&pr=Y">Czech (Čeština) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=da&pr=Y">Danish (Dansk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=nl&pr=Y">Dutch (Nederlands) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=en&pr=Y">English (English) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=eo&pr=Y">Esperanto (Esperanto) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=et&pr=Y">Estonian (Eesti) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=fi&pr=Y">Finnish (Suomi) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=fr&pr=Y">French (Français) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=gl&pr=Y">Galician (Galego) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ka&pr=Y">Georgian (ქართული) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=de&pr=Y">German (Deutsch) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=el&pr=Y">Greek (Ελληνικά) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=hi&pr=Y" selected>Hindi (हिन्दी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=hu&pr=Y">Hungarian (Magyar) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=id&pr=Y">Indonesian (Bahasa Ind) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ga&pr=Y">Irish (Gaeilge) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=it&pr=Y">Italian (Italiano) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ja&pr=Y">Japanese (日本語) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=kn&pr=Y">Kannada (ಕನ್ನಡ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=kk&pr=Y">Kazakh (Қазақ тілі) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=lv&pr=Y">Latvian (Latviešu) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=lt&pr=Y">Lithuanian (lietuvių) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=mk&pr=Y">Macedonian (македонски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ml&pr=Y">Malayalam (മലയാളം) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=mr&pr=Y">Marathi (मराठी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=no&pr=Y">Norwegian (Norsk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=pl&pr=Y">Polish (Polski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=pt&pr=Y">Portuguese (Português) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=pa&pr=Y">Punjabi (ਪੰਜਾਬੀ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ro&pr=Y">Romanian (Româna) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ru&pr=Y">Russian (Pусский) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sa&pr=Y">Sanskrit (Saṃskṛtam) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sr&pr=Y">Serbian (Српски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=si&pr=Y">Sinhala (සිංහල) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sk&pr=Y">Slovak (Slovenský) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sl&pr=Y">Slovenian (Slovenski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=es&pr=Y">Spanish (Español) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=sv&pr=Y">Swedish (Svenska) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=ta&pr=Y">Tamil (தமிழ்) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=te&pr=Y">Telugu (తెలుగు) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=tr&pr=Y">Turkish (Türkçe) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=uk&pr=Y">Ukrainian (Yкраї́нська) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=uz&pr=Y">Uzbek (oʻzbek) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=---&lang=vi&pr=Y">Vietnamese (tiếng Việt) </option>
+            </select>
+            </div>
+            </div>
+        </div>
+		<div id="menubox" class="debugbkg">
+            <ul class="menu boldmenu">
+<li><a href="index.php@lang=hi">सबसे ऊपर</a></li>
+<li><a href="index.php@tag=--&amp;lang=hi">संकेत</a></li>
+<li><a href="index.php@tag=---&amp;lang=hi">सहायक</a></li>
+<li><a href="index.php@tag=0&amp;lang=hi">0</a></li>
+<li><a href="index.php@tag=1&amp;lang=hi">1</a></li>
+<li><a href="index.php@tag=2&amp;lang=hi">2</a></li>
+<li><a href="index.php@tag=3&amp;lang=hi">3</a></li>
+<li><a  class="vacant" href="index.php@tag=---&amp;lang=hi#">4</a></li>
+<li><a href="index.php@tag=5&amp;lang=hi">5</a></li>
+<li><a href="index.php@tag=6&amp;lang=hi">6</a></li>
+<li><a href="index.php@tag=7&amp;lang=hi">7</a></li>
+<li><a href="index.php@tag=8&amp;lang=hi">8</a></li>
+<li><a href="index.php@tag=9&amp;lang=hi">9</a></li>
+</ul>
+<input type="hidden" id="if_loading" name="if_loading" value="लोडिंग"/>
+<input type="hidden" id="if_lang" name="if_lang" value="18"/>
+<ul class="rightmenu boldmenu">
+<li><a href="../translation.htm">अनुवाद</a></li>
+<li><a href="index.php@tag=---&amp;lang=hi#" title="Under Development">मानचित्रण</a></li>
+<li><a href="../exports.htm" title="Data Exports">निर्यात</a></li>
+<li><a href="index.php@tag=---&amp;lang=hi#" title="Under Development">ABC सूची</a></li>
+<li><a href="index.php@tag=---&amp;lang=hi#" title="Under Development">मार्गदर्शक</a></li>
+<li><a href="../about.htm" title="About the UDC Summary">विषय में</a></li>
+</ul>
+
+        </div>
+		<input type="hidden" id="leftWidth" value="420"/><input type="hidden" id="rightWidth" value="522"/>
+		<div id="classmarkbox" class="debugbkg">
+
+<div id="openclosemenu"><a href="javascript: d.openAll();">&nbsp;विस्तार</a> | <a href="javascript: d.closeAll();">संक्षिप्त</a></div>
+<div id="classtree">
+<script type="text/javascript">
+<!--
+d = new dTree('d');
+d.config.hrefIsClick = true;
+d.add(0,-1,'---','<span class="nodetag"></span>COMMON AUXILIARY NUMBERS','---','','','','',false,true);
+d.add(1,0,'=...','<div class="nodetag">=...</div></span>&nbsp;&nbsp;भाषा साझा सहायक सारणियां . -1 सी सारणी','=...','भाषा साझा सहायक सारणियां . -1 सी सारणी','','','',false,true);
+d.add(2,1,'=...`01/`08','<div class="nodetag">=...`01/`08</div></span>&nbsp;&nbsp;भाषा की उत्पत्ति, युगों एवं विकास के चरणों के लिए विशेष सहायक उपखंड','=...`01/`08','भाषा की उत्पत्ति, युगों एवं विकास के चरणों के लिए विशेष सहायक उपखंड','','','',false,true);
+d.add(3,2,'=...`01','<div class="nodetag">=...`01</div></span>&nbsp;&nbsp;प्राचीन काल. पुरातन युग','=...`01','प्राचीन काल. पुरातन युग','','','',false,true);
+d.add(4,2,'=...`04','<div class="nodetag">=...`04</div></span>&nbsp;&nbsp;मध्य काल','=...`04','मध्य काल','','','',false,true);
+d.add(5,2,'=...`06','<div class="nodetag">=...`06</div></span>&nbsp;&nbsp;आधुनिक काल','=...`06','आधुनिक काल','','','',false,true);
+d.add(6,1,'=...`276/`282','<div class="nodetag">=...`276/`282</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Special auxiliary subdivision for language usage, dialects and variants</span>','=...`276/`282','Special auxiliary subdivision for language usage, dialects and variants','','','',false,true);
+d.add(7,6,'=...`276','<div class="nodetag">=...`276</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Social dialects. Vocational slangs. Special vernacular forms</span>','=...`276','Social dialects. Vocational slangs. Special vernacular forms','','','',false,true);
+d.add(8,6,'=...`282','<div class="nodetag">=...`282</div></span>&nbsp;&nbsp;बोलियों. स्थानीय और क्षेत्रीय भाषा. संस्करण और विशिष्ट शब्दावली','=...`282','बोलियों. स्थानीय और क्षेत्रीय भाषा. संस्करण और विशिष्ट शब्दावली','','','',false,true);
+d.add(9,1,'=00','<div class="nodetag">=00</div></span>&nbsp;&nbsp;बहुभाषीय. बहुभाषी','=00','बहुभाषीय. बहुभाषी','','','',false,true);
+d.add(10,1,'=030','<div class="nodetag">=030</div></span>&nbsp;&nbsp;अनुवादित दस्तावेज. अनुवाद','=030','अनुवादित दस्तावेज. अनुवाद','','','',false,true);
+d.add(11,1,'=1/=9','<div class="nodetag">=1/=9</div></span>&nbsp;&nbsp;भाषाएँ. (प्राकृतिक और कृत्रिम)','=1/=9','भाषाएँ. (प्राकृतिक और कृत्रिम)','','','',false,true);
+d.add(12,11,'=1/=8','<div class="nodetag">=1/=8</div></span>&nbsp;&nbsp;प्राकृतिक भाषाएँ','=1/=8','प्राकृतिक भाषाएँ','','','',false,true);
+d.add(13,12,'=1/=2','<div class="nodetag">=1/=2</div></span>&nbsp;&nbsp;भारत-यूरोपीय भाषाएँ','=1/=2','भारत-यूरोपीय भाषाएँ','','','',false,true);
+d.add(14,13,'=1','<div class="nodetag">=1</div></span>&nbsp;&nbsp;यूरोप की भारत-यूरोपीय भाषाएँ','=1','यूरोप की भारत-यूरोपीय भाषाएँ','','','',false,true);
+d.add(15,14,'=11','<div class="nodetag">=11</div></span>&nbsp;&nbsp;जर्मन भाषा','=11','जर्मन भाषा','','','',false,true);
+d.add(16,15,'=111','<div class="nodetag">=111</div></span>&nbsp;&nbsp;अंग्रेजी','=111','अंग्रेजी','','','',false,true);
+d.add(17,15,'=112','<div class="nodetag">=112</div></span>&nbsp;&nbsp;पश्चिम जर्मन भाषा (अंग्रेजी के अलावा)','=112','पश्चिम जर्मन भाषा (अंग्रेजी के अलावा)','','','',false,true);
+d.add(18,17,'=112.2','<div class="nodetag">=112.2</div></span>&nbsp;&nbsp;जर्मन','=112.2','जर्मन','','','',false,true);
+d.add(19,17,'=112.5','<div class="nodetag">=112.5</div></span>&nbsp;&nbsp;डच्','=112.5','डच्','','','',false,true);
+d.add(20,17,'=112.6','<div class="nodetag">=112.6</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Afrikaans</span>','=112.6','Afrikaans','','','',false,true);
+d.add(21,15,'=113','<div class="nodetag">=113</div></span>&nbsp;&nbsp;उत्तर जर्मन (नॉर्डिक) भाषाएँ','=113','उत्तर जर्मन (नॉर्डिक) भाषाएँ','','','',false,true);
+d.add(22,21,'=113.3','<div class="nodetag">=113.3</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Icelandic</span>','=113.3','Icelandic','','','',false,true);
+d.add(23,21,'=113.4','<div class="nodetag">=113.4</div></span>&nbsp;&nbsp;डेनिश','=113.4','डेनिश','','','',false,true);
+d.add(24,21,'=113.5','<div class="nodetag">=113.5</div></span>&nbsp;&nbsp;नार्वेजियन','=113.5','नार्वेजियन','','','',false,true);
+d.add(25,21,'=113.6','<div class="nodetag">=113.6</div></span>&nbsp;&nbsp;स्विडिश','=113.6','स्विडिश','','','',false,true);
+d.add(26,15,'=114','<div class="nodetag">=114</div></span>&nbsp;&nbsp;पूर्वी जर्मन भाषाएँ','=114','पूर्वी जर्मन भाषाएँ','','','',false,true);
+d.add(27,14,'=12','<div class="nodetag">=12</div></span>&nbsp;&nbsp;इटैलिक भाषाएँ','=12','इटैलिक भाषाएँ','','','',false,true);
+d.add(28,27,'=122','<div class="nodetag">=122</div></span>&nbsp;&nbsp;प्राचीन इटली के मृत भाषाओं का एक समूह','=122','प्राचीन इटली के मृत भाषाओं का एक समूह','','','',false,true);
+d.add(29,27,'=124','<div class="nodetag">=124</div></span>&nbsp;&nbsp;लैटीन','=124','लैटीन','','','',false,true);
+d.add(30,14,'=13','<div class="nodetag">=13</div></span>&nbsp;&nbsp;रोमांस भाषाएँ','=13','रोमांस भाषाएँ','','','',false,true);
+d.add(31,30,'=131','<div class="nodetag">=131</div></span>&nbsp;&nbsp;इतालवी-रोमांस भाषाएं','=131','इतालवी-रोमांस भाषाएं','','','',false,true);
+d.add(32,31,'=131.1','<div class="nodetag">=131.1</div></span>&nbsp;&nbsp;इतालवी','=131.1','इतालवी','','','',false,true);
+d.add(33,30,'=132','<div class="nodetag">=132</div></span>&nbsp;&nbsp;राइतो-रोमन भाषाएं','=132','राइतो-रोमन भाषाएं','','','',false,true);
+d.add(34,30,'=133','<div class="nodetag">=133</div></span>&nbsp;&nbsp;गैलो-रोमन भाषाएं','=133','गैलो-रोमन भाषाएं','','','',false,true);
+d.add(35,34,'=133.1','<div class="nodetag">=133.1</div></span>&nbsp;&nbsp;फ्रांसिसी भाषा (फ्रेंच)','=133.1','फ्रांसिसी भाषा (फ्रेंच)','','','',false,true);
+d.add(36,30,'=134','<div class="nodetag">=134</div></span>&nbsp;&nbsp;आइबेरियन-रोमनन भाषाएं','=134','आइबेरियन-रोमनन भाषाएं','','','',false,true);
+d.add(37,36,'=134.1','<div class="nodetag">=134.1</div></span>&nbsp;&nbsp;कातलान','=134.1','कातलान','','','',false,true);
+d.add(38,36,'=134.2','<div class="nodetag">=134.2</div></span>&nbsp;&nbsp;स्पेनिश','=134.2','स्पेनिश','','','',false,true);
+d.add(39,36,'=134.3','<div class="nodetag">=134.3</div></span>&nbsp;&nbsp;पुर्तगाली','=134.3','पुर्तगाली','','','',false,true);
+d.add(40,36,'=134.4','<div class="nodetag">=134.4</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Gallegan / Galician</span>','=134.4','Gallegan / Galician','','','',false,true);
+d.add(41,30,'=135','<div class="nodetag">=135</div></span>&nbsp;&nbsp;बाल्कन रोमांस भाषाएँ','=135','बाल्कन रोमांस भाषाएँ','','','',false,true);
+d.add(42,41,'=135.1','<div class="nodetag">=135.1</div></span>&nbsp;&nbsp;रोमानियाई','=135.1','रोमानियाई','','','',false,true);
+d.add(43,14,'=14','<div class="nodetag">=14</div></span>&nbsp;&nbsp;यूनानी (युनानी)','=14','यूनानी (युनानी)','','','',false,true);
+d.add(44,14,'=15','<div class="nodetag">=15</div></span>&nbsp;&nbsp;केल्टिक भाषाएँ','=15','केल्टिक भाषाएँ','','','',false,true);
+d.add(45,44,'=152','<div class="nodetag">=152</div></span>&nbsp;&nbsp;गोइदेलिक भाषा','=152','गोइदेलिक भाषा','','','',false,true);
+d.add(46,45,'=152.1','<div class="nodetag">=152.1</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Irish</span>','=152.1','Irish','','','',false,true);
+d.add(47,45,'=152.2','<div class="nodetag">=152.2</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Scots Gaelic</span>','=152.2','Scots Gaelic','','','',false,true);
+d.add(48,44,'=153','<div class="nodetag">=153</div></span>&nbsp;&nbsp;ब्रायोथोनिक समूह (केल्टिक भाषाओं का एक दक्षिणी समूह)','=153','ब्रायोथोनिक समूह (केल्टिक भाषाओं का एक दक्षिणी समूह)','','','',false,true);
+d.add(49,14,'=16','<div class="nodetag">=16</div></span>&nbsp;&nbsp;स्लाव भाषाएँ','=16','स्लाव भाषाएँ','','','',false,true);
+d.add(50,49,'=161','<div class="nodetag">=161</div></span>&nbsp;&nbsp;पूर्व स्लावीय भाषाएँ','=161','पूर्व स्लावीय भाषाएँ','','','',false,true);
+d.add(51,50,'=161.1','<div class="nodetag">=161.1</div></span>&nbsp;&nbsp;रूसी','=161.1','रूसी','','','',false,true);
+d.add(52,50,'=161.2','<div class="nodetag">=161.2</div></span>&nbsp;&nbsp;यूक्रेनी','=161.2','यूक्रेनी','','','',false,true);
+d.add(53,50,'=161.3','<div class="nodetag">=161.3</div></span>&nbsp;&nbsp;बेलारूस (बेलोरूसि/सफेद रूसी)','=161.3','बेलारूस (बेलोरूसि/सफेद रूसी)','','','',false,true);
+d.add(54,49,'=162','<div class="nodetag">=162</div></span>&nbsp;&nbsp;पश्चिम स्लाव भाषाएँ','=162','पश्चिम स्लाव भाषाएँ','','','',false,true);
+d.add(55,54,'=162.1','<div class="nodetag">=162.1</div></span>&nbsp;&nbsp;पोलिश','=162.1','पोलिश','','','',false,true);
+d.add(56,54,'=162.3','<div class="nodetag">=162.3</div></span>&nbsp;&nbsp;चेक','=162.3','चेक','','','',false,true);
+d.add(57,54,'=162.4','<div class="nodetag">=162.4</div></span>&nbsp;&nbsp;स्लोवाक','=162.4','स्लोवाक','','','',false,true);
+d.add(58,49,'=163','<div class="nodetag">=163</div></span>&nbsp;&nbsp;दक्षिण स्लाव भाषाएँ','=163','दक्षिण स्लाव भाषाएँ','','','',false,true);
+d.add(59,58,'=163.2','<div class="nodetag">=163.2</div></span>&nbsp;&nbsp;बुल्गेरियाई','=163.2','बुल्गेरियाई','','','',false,true);
+d.add(60,58,'=163.3','<div class="nodetag">=163.3</div></span>&nbsp;&nbsp;मेसीडोनियाई','=163.3','मेसीडोनियाई','','','',false,true);
+d.add(61,58,'=163.4','<div class="nodetag">=163.4</div></span>&nbsp;&nbsp;सर्बियाई और क्रोएशियाई','=163.4','सर्बियाई और क्रोएशियाई','','','',false,true);
+d.add(62,61,'=163.41','<div class="nodetag">=163.41</div></span>&nbsp;&nbsp;सर्बियाई','=163.41','सर्बियाई','','','',false,true);
+d.add(63,61,'=163.42','<div class="nodetag">=163.42</div></span>&nbsp;&nbsp;क्रोएशियाई','=163.42','क्रोएशियाई','','','',false,true);
+d.add(64,58,'=163.6','<div class="nodetag">=163.6</div></span>&nbsp;&nbsp;स्लोवेनियाई','=163.6','स्लोवेनियाई','','','',false,true);
+d.add(65,14,'=17','<div class="nodetag">=17</div></span>&nbsp;&nbsp;बाल्टिक भाषाएँ','=17','बाल्टिक भाषाएँ','','','',false,true);
+d.add(66,65,'=172','<div class="nodetag">=172</div></span>&nbsp;&nbsp;लिथुनियाई','=172','लिथुनियाई','','','',false,true);
+d.add(67,65,'=174','<div class="nodetag">=174</div></span>&nbsp;&nbsp;लातवी (लेटिष)','=174','लातवी (लेटिष)','','','',false,true);
+d.add(68,14,'=18','<div class="nodetag">=18</div></span>&nbsp;&nbsp;अल्बेनियाई','=18','अल्बेनियाई','','','',false,true);
+d.add(69,14,'=19','<div class="nodetag">=19</div></span>&nbsp;&nbsp;अर्मेनियाई','=19','अर्मेनियाई','','','',false,true);
+d.add(70,13,'=2','<div class="nodetag">=2</div></span>&nbsp;&nbsp;हिन्द-ईरानी, नूरिस्तानी (काफ़िरी) एवं मृत हिन्द-यूरोपीय भाषाएँ','=2','हिन्द-ईरानी, नूरिस्तानी (काफ़िरी) एवं मृत हिन्द-यूरोपीय भाषाएँ','','','',false,true);
+d.add(71,70,'=21/=22','<div class="nodetag">=21/=22</div></span>&nbsp;&nbsp;हिन्द-ईरानी भाषाएँ','=21/=22','हिन्द-ईरानी भाषाएँ','','','',false,true);
+d.add(72,71,'=21','<div class="nodetag">=21</div></span>&nbsp;&nbsp;भारतीय भाषाएँ','=21','भारतीय भाषाएँ','','','',false,true);
+d.add(73,72,'=211','<div class="nodetag">=211</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Sanskrit</span>','=211','Sanskrit','','','',false,true);
+d.add(74,72,'=212','<div class="nodetag">=212</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Pali</span>','=212','Pali','','','',false,true);
+d.add(75,72,'=213','<div class="nodetag">=213</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Prakrit</span>','=213','Prakrit','','','',false,true);
+d.add(76,72,'=214','<div class="nodetag">=214</div></span>&nbsp;&nbsp;आधुनिक भारतीय भाषाएँ','=214','आधुनिक भारतीय भाषाएँ','','','',false,true);
+d.add(77,76,'=214.1','<div class="nodetag">=214.1</div></span>&nbsp;&nbsp;दार्दिक समूह','=214.1','दार्दिक समूह','','','',false,true);
+d.add(78,76,'=214.2','<div class="nodetag">=214.2</div></span>&nbsp;&nbsp;केंद्रीय समूह','=214.2','केंद्रीय समूह','','','',false,true);
+d.add(79,78,'=214.21','<div class="nodetag">=214.21</div></span>&nbsp;&nbsp;हिन्दी','=214.21','हिन्दी','','','',false,true);
+d.add(80,78,'=214.22','<div class="nodetag">=214.22</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Urdu</span>','=214.22','Urdu','','','',false,true);
+d.add(81,78,'=214.25','<div class="nodetag">=214.25</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Gujarati</span>','=214.25','Gujarati','','','',false,true);
+d.add(82,78,'=214.27','<div class="nodetag">=214.27</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Punjabi / Panjabi</span>','=214.27','Punjabi / Panjabi','','','',false,true);
+d.add(83,78,'=214.28','<div class="nodetag">=214.28</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Rajasthani</span>','=214.28','Rajasthani','','','',false,true);
+d.add(84,76,'=214.3','<div class="nodetag">=214.3</div></span>&nbsp;&nbsp;पूर्वी समूह','=214.3','पूर्वी समूह','','','',false,true);
+d.add(85,84,'=214.32','<div class="nodetag">=214.32</div></span>&nbsp;&nbsp;बंगाली (बंग्ला)','=214.32','बंगाली (बंग्ला)','','','',false,true);
+d.add(86,84,'=214.35','<div class="nodetag">=214.35</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Marathi</span>','=214.35','Marathi','','','',false,true);
+d.add(87,76,'=214.4','<div class="nodetag">=214.4</div></span>&nbsp;&nbsp;उत्तरी समूह','=214.4','उत्तरी समूह','','','',false,true);
+d.add(88,87,'=214.43','<div class="nodetag">=214.43</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Nepali</span>','=214.43','Nepali','','','',false,true);
+d.add(89,76,'=214.5','<div class="nodetag">=214.5</div></span>&nbsp;&nbsp;पश्चिमी उत्तर समूह','=214.5','पश्चिमी उत्तर समूह','','','',false,true);
+d.add(90,89,'=214.52','<div class="nodetag">=214.52</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Sindhi</span>','=214.52','Sindhi','','','',false,true);
+d.add(91,89,'=214.58','<div class="nodetag">=214.58</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Romany / Gipsy / Gypsy</span>','=214.58','Romany / Gipsy / Gypsy','','','',false,true);
+d.add(92,76,'=214.6','<div class="nodetag">=214.6</div></span>&nbsp;&nbsp;सिलोन-मालदीव समूह','=214.6','सिलोन-मालदीव समूह','','','',false,true);
+d.add(93,71,'=22','<div class="nodetag">=22</div></span>&nbsp;&nbsp;ईरानी भाषाएँ','=22','ईरानी भाषाएँ','','','',false,true);
+d.add(94,93,'=221','<div class="nodetag">=221</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Eastern Iranian languages</span>','=221','Eastern Iranian languages','','','',false,true);
+d.add(95,94,'=221.31','<div class="nodetag">=221.31</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Pashto (Pushto)</span>','=221.31','Pashto (Pushto)','','','',false,true);
+d.add(96,93,'=222/=223','<div class="nodetag">=222/=223</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Western Iranian languages</span>','=222/=223','Western Iranian languages','','','',false,true);
+d.add(97,96,'=222.1','<div class="nodetag">=222.1</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Persian</span>','=222.1','Persian','','','',false,true);
+d.add(98,96,'=222.5','<div class="nodetag">=222.5</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Kurdish</span>','=222.5','Kurdish','','','',false,true);
+d.add(99,70,'=29','<div class="nodetag">=29</div></span>&nbsp;&nbsp;मृत भारत और यूरोपीय भाषाएँ (सूचीबद्ध कहीं नहीं)','=29','मृत भारत और यूरोपीय भाषाएँ (सूचीबद्ध कहीं नहीं)','','','',false,true);
+d.add(100,12,'=3','<div class="nodetag">=3</div></span>&nbsp;&nbsp;अज्ञात संबद्धता वाली मृत भाषाएं. कोकेशियान भाषाएँ','=3','अज्ञात संबद्धता वाली मृत भाषाएं. कोकेशियान भाषाएँ','','','',false,true);
+d.add(101,100,'=34','<div class="nodetag">=34</div></span>&nbsp;&nbsp;अज्ञात संबद्धता वाली मृत भाषाएं, भूमध्य एवं पूर्वी भाग (सामी को छोड़कर) में बोली जाने वाली भाषाएं','=34','अज्ञात संबद्धता वाली मृत भाषाएं, भूमध्य एवं पूर्वी भाग (सामी को छोड़कर) में बोली जाने वाली भाषाएं','','','',false,true);
+d.add(102,100,'=35','<div class="nodetag">=35</div></span>&nbsp;&nbsp;कोकेशियान भाषाएं','=35','कोकेशियान भाषाएं','','','',false,true);
+d.add(103,102,'=351','<div class="nodetag">=351</div></span>&nbsp;&nbsp;पूर्वोत्तर समूह','=351','पूर्वोत्तर समूह','','','',false,true);
+d.add(104,102,'=352','<div class="nodetag">=352</div></span>&nbsp;&nbsp;पश्चिमी-उत्तर समूह','=352','पश्चिमी-उत्तर समूह','','','',false,true);
+d.add(105,102,'=353','<div class="nodetag">=353</div></span>&nbsp;&nbsp;दक्षिणी (कार्टवेलियाई) समूह','=353','दक्षिणी (कार्टवेलियाई) समूह','','','',false,true);
+d.add(106,105,'=353.1','<div class="nodetag">=353.1</div></span>&nbsp;&nbsp;जॉर्जियाई','=353.1','जॉर्जियाई','','','',false,true);
+d.add(107,100,'=361','<div class="nodetag">=361</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Basque / Euskera / Euskara</span>','=361','Basque / Euskera / Euskara','','','',false,true);
+d.add(108,12,'=4','<div class="nodetag">=4</div></span>&nbsp;&nbsp;एफ्रो एशियाई, नीलो-सहारा, कांगो-कोरदोफानियन, खोइसान भाषाएं','=4','एफ्रो एशियाई, नीलो-सहारा, कांगो-कोरदोफानियन, खोइसान भाषाएं','','','',false,true);
+d.add(109,108,'=41','<div class="nodetag">=41</div></span>&nbsp;&nbsp;अफ़्रो-एशियाई (हामी-सामी) भाषाएं','=41','अफ़्रो-एशियाई (हामी-सामी) भाषाएं','','','',false,true);
+d.add(110,109,'=411','<div class="nodetag">=411</div></span>&nbsp;&nbsp;सेमेटिक (सामी) भाषाएं','=411','सेमेटिक (सामी) भाषाएं','','','',false,true);
+d.add(111,110,'=411.1','<div class="nodetag">=411.1</div></span>&nbsp;&nbsp;पूर्वी सेमेटिक (सामी) भाषाएं','=411.1','पूर्वी सेमेटिक (सामी) भाषाएं','','','',false,true);
+d.add(112,111,'=411.16','<div class="nodetag">=411.16</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Hebrew</span>','=411.16','Hebrew','','','',false,true);
+d.add(113,110,'=411.2','<div class="nodetag">=411.2</div></span>&nbsp;&nbsp;दक्षिण-पश्चिमी सेमेटिक (सामी) भाषाएं','=411.2','दक्षिण-पश्चिमी सेमेटिक (सामी) भाषाएं','','','',false,true);
+d.add(114,113,'=411.21','<div class="nodetag">=411.21</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Arabic</span>','=411.21','Arabic','','','',false,true);
+d.add(115,110,'=411.3','<div class="nodetag">=411.3</div></span>&nbsp;&nbsp;दक्षिण-पूर्वी सेमेटिक (सामी) भाषाएं','=411.3','दक्षिण-पूर्वी सेमेटिक (सामी) भाषाएं','','','',false,true);
+d.add(116,110,'=411.4','<div class="nodetag">=411.4</div></span>&nbsp;&nbsp;इथियोपिय-सेमेटिक भाषाएं','=411.4','इथियोपिय-सेमेटिक भाषाएं','','','',false,true);
+d.add(117,109,'=412','<div class="nodetag">=412</div></span>&nbsp;&nbsp;मिस्र-कॉप्ट भाषाएं','=412','मिस्र-कॉप्ट भाषाएं','','','',false,true);
+d.add(118,109,'=413','<div class="nodetag">=413</div></span>&nbsp;&nbsp;हज्जामी भाषाएं','=413','हज्जामी भाषाएं','','','',false,true);
+d.add(119,109,'=414','<div class="nodetag">=414</div></span>&nbsp;&nbsp;चाड भाषाएं','=414','चाड भाषाएं','','','',false,true);
+d.add(120,119,'=414.231','<div class="nodetag">=414.231</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Hausa</span>','=414.231','Hausa','','','',false,true);
+d.add(121,109,'=415','<div class="nodetag">=415</div></span>&nbsp;&nbsp;कुशितिक भाषाएं','=415','कुशितिक भाषाएं','','','',false,true);
+d.add(122,109,'=416','<div class="nodetag">=416</div></span>&nbsp;&nbsp;ओमो भाषाएं','=416','ओमो भाषाएं','','','',false,true);
+d.add(123,108,'=42','<div class="nodetag">=42</div></span>&nbsp;&nbsp;नीलो-सहारा भाषाएं','=42','नीलो-सहारा भाषाएं','','','',false,true);
+d.add(124,123,'=422','<div class="nodetag">=422</div></span>&nbsp;&nbsp;सहारा शाखा','=422','सहारा शाखा','','','',false,true);
+d.add(125,123,'=425','<div class="nodetag">=425</div></span>&nbsp;&nbsp;कोमान भाषाएं','=425','कोमान भाषाएं','','','',false,true);
+d.add(126,123,'=426','<div class="nodetag">=426</div></span>&nbsp;&nbsp;चारी-नील शाखा','=426','चारी-नील शाखा','','','',false,true);
+d.add(127,108,'=43','<div class="nodetag">=43</div></span>&nbsp;&nbsp;कांगो-कोरदोफानियन (नाइजर-कोरदोफानियन) भाषाएं','=43','कांगो-कोरदोफानियन (नाइजर-कोरदोफानियन) भाषाएं','','','',false,true);
+d.add(128,127,'=431','<div class="nodetag">=431</div></span>&nbsp;&nbsp;कोरदोफानियन भाषाएं','=431','कोरदोफानियन भाषाएं','','','',false,true);
+d.add(129,127,'=432','<div class="nodetag">=432</div></span>&nbsp;&nbsp;नाइजर-कांगो भाषाएं','=432','नाइजर-कांगो भाषाएं','','','',false,true);
+d.add(130,108,'=45','<div class="nodetag">=45</div></span>&nbsp;&nbsp;खोइसान भाषाएं','=45','खोइसान भाषाएं','','','',false,true);
+d.add(131,12,'=5','<div class="nodetag">=5</div></span>&nbsp;&nbsp;यूरल-अल्ताई, जापानी, कोरियाई, आईनू, पुरा-साइबेरियन, एस्किमो-एलियट, द्रविण भाषाएं, चीनी-तिब्बति भाषाएं','=5','यूरल-अल्ताई, जापानी, कोरियाई, आईनू, पुरा-साइबेरियन, एस्किमो-एलियट, द्रविण भाषाएं, चीनी-तिब्बति भाषाएं','','','',false,true);
+d.add(132,131,'=51','<div class="nodetag">=51</div></span>&nbsp;&nbsp;यूराल-अल्ताई भाषाएं','=51','यूराल-अल्ताई भाषाएं','','','',false,true);
+d.add(133,132,'=511','<div class="nodetag">=511</div></span>&nbsp;&nbsp;यूराली भाषाएं','=511','यूराली भाषाएं','','','',false,true);
+d.add(134,133,'=511.1','<div class="nodetag">=511.1</div></span>&nbsp;&nbsp;फ़िनी-उग्रीक भाषाएं','=511.1','फ़िनी-उग्रीक भाषाएं','','','',false,true);
+d.add(135,134,'=511.11','<div class="nodetag">=511.11</div></span>&nbsp;&nbsp;फ़िनी भाषाएं','=511.11','फ़िनी भाषाएं','','','',false,true);
+d.add(136,135,'=511.111','<div class="nodetag">=511.111</div></span>&nbsp;&nbsp;फ़िनी भाषा','=511.111','फ़िनी भाषा','','','',false,true);
+d.add(137,135,'=511.113','<div class="nodetag">=511.113</div></span>&nbsp;&nbsp;एस्थोनिया की भाषा','=511.113','एस्थोनिया की भाषा','','','',false,true);
+d.add(138,134,'=511.12','<div class="nodetag">=511.12</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Sami / Saami / Lappic languages</span>','=511.12','Sami / Saami / Lappic languages','','','',false,true);
+d.add(139,134,'=511.14','<div class="nodetag">=511.14</div></span>&nbsp;&nbsp;यूग्रियाई भाषाएं','=511.14','यूग्रियाई भाषाएं','','','',false,true);
+d.add(140,139,'=511.141','<div class="nodetag">=511.141</div></span>&nbsp;&nbsp;हंगेरी भाषा','=511.141','हंगेरी भाषा','','','',false,true);
+d.add(141,133,'=511.2','<div class="nodetag">=511.2</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Samoyedic languages</span>','=511.2','Samoyedic languages','','','',false,true);
+d.add(142,132,'=512','<div class="nodetag">=512</div></span>&nbsp;&nbsp;अल्ताई भाषाएं','=512','अल्ताई भाषाएं','','','',false,true);
+d.add(143,142,'=512.1','<div class="nodetag">=512.1</div></span>&nbsp;&nbsp;तुर्की भाषाएं','=512.1','तुर्की भाषाएं','','','',false,true);
+d.add(144,143,'=512.12','<div class="nodetag">=512.12</div></span>&nbsp;&nbsp;तुर्की भाषाओं का केन्द्रीय समूह','=512.12','तुर्की भाषाओं का केन्द्रीय समूह','','','',false,true);
+d.add(145,144,'=512.122','<div class="nodetag">=512.122</div></span>&nbsp;&nbsp;कज़ाक़','=512.122','कज़ाक़','','','',false,true);
+d.add(146,143,'=512.13','<div class="nodetag">=512.13</div></span>&nbsp;&nbsp;तुर्की भाषाओं का पूर्वी (कार्लुक) समूह','=512.13','तुर्की भाषाओं का पूर्वी (कार्लुक) समूह','','','',false,true);
+d.add(147,146,'=512.133','<div class="nodetag">=512.133</div></span>&nbsp;&nbsp;उज़बेक','=512.133','उज़बेक','','','',false,true);
+d.add(148,143,'=512.14','<div class="nodetag">=512.14</div></span>&nbsp;&nbsp;तुर्की भाषाओं का पश्चिमी समूह','=512.14','तुर्की भाषाओं का पश्चिमी समूह','','','',false,true);
+d.add(149,143,'=512.15','<div class="nodetag">=512.15</div></span>&nbsp;&nbsp;तुर्की भाषाओं का उत्तरी समूह','=512.15','तुर्की भाषाओं का उत्तरी समूह','','','',false,true);
+d.add(150,149,'=512.154','<div class="nodetag">=512.154</div></span>&nbsp;&nbsp;किर्गिज़','=512.154','किर्गिज़','','','',false,true);
+d.add(151,143,'=512.16','<div class="nodetag">=512.16</div></span>&nbsp;&nbsp;तुर्की भाषाओं का दक्षिणी समूह,','=512.16','तुर्की भाषाओं का दक्षिणी समूह,','','','',false,true);
+d.add(152,151,'=512.161','<div class="nodetag">=512.161</div></span>&nbsp;&nbsp;तुर्की (उसमान)','=512.161','तुर्की (उसमान)','','','',false,true);
+d.add(153,151,'=512.162','<div class="nodetag">=512.162</div></span>&nbsp;&nbsp;अज़रबेजानी','=512.162','अज़रबेजानी','','','',false,true);
+d.add(154,151,'=512.164','<div class="nodetag">=512.164</div></span>&nbsp;&nbsp;तुर्कमैन','=512.164','तुर्कमैन','','','',false,true);
+d.add(155,142,'=512.2','<div class="nodetag">=512.2</div></span>&nbsp;&nbsp;तुंगुस भाषाएं','=512.2','तुंगुस भाषाएं','','','',false,true);
+d.add(156,142,'=512.3','<div class="nodetag">=512.3</div></span>&nbsp;&nbsp;मंगोलियन भाषाएं','=512.3','मंगोलियन भाषाएं','','','',false,true);
+d.add(157,131,'=521','<div class="nodetag">=521</div></span>&nbsp;&nbsp;जापानी','=521','जापानी','','','',false,true);
+d.add(158,131,'=531','<div class="nodetag">=531</div></span>&nbsp;&nbsp;कोरियाई भाषा','=531','कोरियाई भाषा','','','',false,true);
+d.add(159,131,'=541','<div class="nodetag">=541</div></span>&nbsp;&nbsp;ऐनु','=541','ऐनु','','','',false,true);
+d.add(160,131,'=55','<div class="nodetag">=55</div></span>&nbsp;&nbsp;पुरा-साइबेरियन भाषाएं','=55','पुरा-साइबेरियन भाषाएं','','','',false,true);
+d.add(161,131,'=56','<div class="nodetag">=56</div></span>&nbsp;&nbsp;एस्किमो-एलयूट भाषाएं','=56','एस्किमो-एलयूट भाषाएं','','','',false,true);
+d.add(162,131,'=58','<div class="nodetag">=58</div></span>&nbsp;&nbsp;चीनी-तिब्बती भाषाएं','=58','चीनी-तिब्बती भाषाएं','','','',false,true);
+d.add(163,162,'=581','<div class="nodetag">=581</div></span>&nbsp;&nbsp;चीनी भाषाएं','=581','चीनी भाषाएं','','','',false,true);
+d.add(164,162,'=582','<div class="nodetag">=582</div></span>&nbsp;&nbsp;कम-ताई भाषाएं','=582','कम-ताई भाषाएं','','','',false,true);
+d.add(165,162,'=583','<div class="nodetag">=583</div></span>&nbsp;&nbsp;मियाओ-याव भाषाएँ','=583','मियाओ-याव भाषाएँ','','','',false,true);
+d.add(166,162,'=584','<div class="nodetag">=584</div></span>&nbsp;&nbsp;तिब्बती-बर्मन भाषाएं','=584','तिब्बती-बर्मन भाषाएं','','','',false,true);
+d.add(167,12,'=6','<div class="nodetag">=6</div></span>&nbsp;&nbsp;ऑस्ट्रो-एसिएटिक भाषाएं. ऑस्ट्रोनेशियन भाषाएं','=6','ऑस्ट्रो-एसिएटिक भाषाएं. ऑस्ट्रोनेशियन भाषाएं','','','',false,true);
+d.add(168,167,'=61','<div class="nodetag">=61</div></span>&nbsp;&nbsp;ऑस्ट्रो-एसिएटिक भाषाएं','=61','ऑस्ट्रो-एसिएटिक भाषाएं','','','',false,true);
+d.add(169,168,'=611','<div class="nodetag">=611</div></span>&nbsp;&nbsp;मलक्का (एसलियन) वर्ग','=611','मलक्का (एसलियन) वर्ग','','','',false,true);
+d.add(170,168,'=612','<div class="nodetag">=612</div></span>&nbsp;&nbsp;मोन-खमेर भाषाएं','=612','मोन-खमेर भाषाएं','','','',false,true);
+d.add(171,170,'=612.4','<div class="nodetag">=612.4</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Cambodian / Khmer</span>','=612.4','Cambodian / Khmer','','','',false,true);
+d.add(172,170,'=612.91','<div class="nodetag">=612.91</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Vietnamese</span>','=612.91','Vietnamese','','','',false,true);
+d.add(173,168,'=613','<div class="nodetag">=613</div></span>&nbsp;&nbsp;मुंडा भाषाएं','=613','मुंडा भाषाएं','','','',false,true);
+d.add(174,168,'=614','<div class="nodetag">=614</div></span>&nbsp;&nbsp;निकोबारी वर्ग','=614','निकोबारी वर्ग','','','',false,true);
+d.add(175,167,'=62','<div class="nodetag">=62</div></span>&nbsp;&nbsp;ऑस्ट्रोनेशियन भाषाएं','=62','ऑस्ट्रोनेशियन भाषाएं','','','',false,true);
+d.add(176,175,'=621','<div class="nodetag">=621</div></span>&nbsp;&nbsp;मलायो-पालीनेसियन भाषाएं','=621','मलायो-पालीनेसियन भाषाएं','','','',false,true);
+d.add(177,176,'=621.251','<div class="nodetag">=621.251</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Malay / Bahasa Indonesia / Bahasa Malaysia</span>','=621.251','Malay / Bahasa Indonesia / Bahasa Malaysia','','','',false,true);
+d.add(178,175,'=622','<div class="nodetag">=622</div></span>&nbsp;&nbsp;ओसिनिक भाषाएं','=622','ओसिनिक भाषाएं','','','',false,true);
+d.add(179,12,'=7','<div class="nodetag">=7</div></span>&nbsp;&nbsp;भारत-प्रशांत (आस्ट्रोनेशियन को छोडकर) भाषाएँ, आस्ट्रेलियन भाषाएँ','=7','भारत-प्रशांत (आस्ट्रोनेशियन को छोडकर) भाषाएँ, आस्ट्रेलियन भाषाएँ','','','',false,true);
+d.add(180,179,'=71','<div class="nodetag">=71</div></span>&nbsp;&nbsp;भारत-प्रशांत (आस्ट्रोनेशियन को छोडकर) भाषाएँ,','=71','भारत-प्रशांत (आस्ट्रोनेशियन को छोडकर) भाषाएँ,','','','',false,true);
+d.add(181,180,'=713','<div class="nodetag">=713</div></span>&nbsp;&nbsp;न्यू- गिनी (पापूअन) भाषाएँ','=713','न्यू- गिनी (पापूअन) भाषाएँ','','','',false,true);
+d.add(182,180,'=714','<div class="nodetag">=714</div></span>&nbsp;&nbsp;उत्तर-पूर्वी न्यू- गिनी भाषाएँ (मदंग)','=714','उत्तर-पूर्वी न्यू- गिनी भाषाएँ (मदंग)','','','',false,true);
+d.add(183,180,'=715','<div class="nodetag">=715</div></span>&nbsp;&nbsp;पश्चिमी न्यू- गिनी भाषाएँ','=715','पश्चिमी न्यू- गिनी भाषाएँ','','','',false,true);
+d.add(184,180,'=716','<div class="nodetag">=716</div></span>&nbsp;&nbsp;बोगेनविलेन भाषाएँ','=716','बोगेनविलेन भाषाएँ','','','',false,true);
+d.add(185,180,'=718','<div class="nodetag">=718</div></span>&nbsp;&nbsp;तस्मानी','=718','तस्मानी','','','',false,true);
+d.add(186,180,'=719','<div class="nodetag">=719</div></span>&nbsp;&nbsp;अन्य भारत-प्रशान्तिय भाषाएं','=719','अन्य भारत-प्रशान्तिय भाषाएं','','','',false,true);
+d.add(187,179,'=72','<div class="nodetag">=72</div></span>&nbsp;&nbsp;आस्ट्रेलियन भाषाएँ','=72','आस्ट्रेलियन भाषाएँ','','','',false,true);
+d.add(188,187,'=721','<div class="nodetag">=721</div></span>&nbsp;&nbsp;पामा-मेरिक वर्ग','=721','पामा-मेरिक वर्ग','','','',false,true);
+d.add(189,187,'=722','<div class="nodetag">=722</div></span>&nbsp;&nbsp;पामा-न्यूंगन वर्ग','=722','पामा-न्यूंगन वर्ग','','','',false,true);
+d.add(190,187,'=729','<div class="nodetag">=729</div></span>&nbsp;&nbsp;अन्य ऑस्ट्रेलियाई भाषाएँ','=729','अन्य ऑस्ट्रेलियाई भाषाएँ','','','',false,true);
+d.add(191,12,'=8','<div class="nodetag">=8</div></span>&nbsp;&nbsp;अमेरिकन उत्पन्न भाषाएँ','=8','अमेरिकन उत्पन्न भाषाएँ','','','',false,true);
+d.add(192,191,'=81','<div class="nodetag">=81</div></span>&nbsp;&nbsp;उत्तर-अमेरिकन उत्पन्न (उत्तर-अमेरिकन भारतीय)भाषाएँ','=81','उत्तर-अमेरिकन उत्पन्न (उत्तर-अमेरिकन भारतीय)भाषाएँ','','','',false,true);
+d.add(193,191,'=82','<div class="nodetag">=82</div></span>&nbsp;&nbsp;मैक्सिको और यूक्तान की मूल भाषाएँ,','=82','मैक्सिको और यूक्तान की मूल भाषाएँ,','','','',false,true);
+d.add(194,193,'=821.24','<div class="nodetag">=821.24</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Mixe-Zoque languages</span>','=821.24','Mixe-Zoque languages','','','',false,true);
+d.add(195,193,'=822.21','<div class="nodetag">=822.21</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Nahuatl</span>','=822.21','Nahuatl','','','',false,true);
+d.add(196,193,'=823.7','<div class="nodetag">=823.7</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Zapotecan languages</span>','=823.7','Zapotecan languages','','','',false,true);
+d.add(197,191,'=84/=88','<div class="nodetag">=84/=88</div></span>&nbsp;&nbsp;मध्य और दक्षिणी अमेरिकी मूलभाषा','=84/=88','मध्य और दक्षिणी अमेरिकी मूलभाषा','','','',false,true);
+d.add(198,197,'=84','<div class="nodetag">=84</div></span>&nbsp;&nbsp;गे-पानो कैरिब भाषाएँ, मैक्रो-चिबचन भाषाएँ,','=84','गे-पानो कैरिब भाषाएँ, मैक्रो-चिबचन भाषाएँ,','','','',false,true);
+d.add(199,198,'=842','<div class="nodetag">=842</div></span>&nbsp;&nbsp;गे-पानो कैरिब भाषाएँ,','=842','गे-पानो कैरिब भाषाएँ,','','','',false,true);
+d.add(200,198,'=845','<div class="nodetag">=845</div></span>&nbsp;&nbsp;मैक्रो-चिबचन भाषाएँ,','=845','मैक्रो-चिबचन भाषाएँ,','','','',false,true);
+d.add(201,197,'=85','<div class="nodetag">=85</div></span>&nbsp;&nbsp;एन्डियन भाषाएँ. विषुवतीय भाषाएँ','=85','एन्डियन भाषाएँ. विषुवतीय भाषाएँ','','','',false,true);
+d.add(202,201,'=852','<div class="nodetag">=852</div></span>&nbsp;&nbsp;एन्डियन भाषाएँ','=852','एन्डियन भाषाएँ','','','',false,true);
+d.add(203,202,'=852.11','<div class="nodetag">=852.11</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Aymara</span>','=852.11','Aymara','','','',false,true);
+d.add(204,202,'=852.2','<div class="nodetag">=852.2</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Quechuan languages</span>','=852.2','Quechuan languages','','','',false,true);
+d.add(205,202,'=852.5','<div class="nodetag">=852.5</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Araucanian languages</span>','=852.5','Araucanian languages','','','',false,true);
+d.add(206,205,'=852.51','<div class="nodetag">=852.51</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Mapuche / Mapudungun</span>','=852.51','Mapuche / Mapudungun','','','',false,true);
+d.add(207,201,'=855','<div class="nodetag">=855</div></span>&nbsp;&nbsp;विषुवतीय भाषाएँ','=855','विषुवतीय भाषाएँ','','','',false,true);
+d.add(208,207,'=855.21','<div class="nodetag">=855.21</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Guarani languages</span>','=855.21','Guarani languages','','','',false,true);
+d.add(209,197,'=86','<div class="nodetag">=86</div></span>&nbsp;&nbsp;चाको भाषाएँ. पेटागोनियन और फ्यूजियन भाषाएँ','=86','चाको भाषाएँ. पेटागोनियन और फ्यूजियन भाषाएँ','','','',false,true);
+d.add(210,209,'=862','<div class="nodetag">=862</div></span>&nbsp;&nbsp;चाको भाषाएँ.','=862','चाको भाषाएँ.','','','',false,true);
+d.add(211,209,'=865','<div class="nodetag">=865</div></span>&nbsp;&nbsp;पेटागोनियन और फ्यूजियन भाषाएँ','=865','पेटागोनियन और फ्यूजियन भाषाएँ','','','',false,true);
+d.add(212,197,'=88','<div class="nodetag">=88</div></span>&nbsp;&nbsp;एकल, अवर्गीकृत मध्य और दक्षिणी अमेरिकन उत्तपन भाषाएँ','=88','एकल, अवर्गीकृत मध्य और दक्षिणी अमेरिकन उत्तपन भाषाएँ','','','',false,true);
+d.add(213,11,'=9','<div class="nodetag">=9</div></span>&nbsp;&nbsp;कृत्रिम भाषाएँ','=9','कृत्रिम भाषाएँ','','','',false,true);
+d.add(214,213,'=92','<div class="nodetag">=92</div></span>&nbsp;&nbsp;मानव उपयोग के लिए कृत्रिम भाषाएँ. अंतर्राष्ट्रिय सहायक भाषाएँ (अंतर्भाषाएँ)','=92','मानव उपयोग के लिए कृत्रिम भाषाएँ. अंतर्राष्ट्रिय सहायक भाषाएँ (अंतर्भाषाएँ)','','','',false,true);
+d.add(215,214,'=922','<div class="nodetag">=922</div></span>&nbsp;&nbsp;एस्पेरान्तो (जैमरहॉफ द्वारा निर्मित)','=922','एस्पेरान्तो (जैमरहॉफ द्वारा निर्मित)','','','',false,true);
+d.add(216,213,'=93','<div class="nodetag">=93</div></span>&nbsp;&nbsp;मशीनों के निर्देश का लिए कृत्रिम भाषाएँ, प्रोग्रामिंग भाषाएँ. संगणक भाषाएँ.','=93','मशीनों के निर्देश का लिए कृत्रिम भाषाएँ, प्रोग्रामिंग भाषाएँ. संगणक भाषाएँ.','','','',false,true);
+d.add(217,0,'(0...)','<div class="nodetag">(0...)</div></span>&nbsp;&nbsp;आकृति साझा सहायक.- 1 डी तालिका','(0...)','आकृति साझा सहायक.- 1 डी तालिका','','','',false,true);
+d.add(218,217,'(0.02/.08)','<div class="nodetag">(0.02/.08)</div></span>&nbsp;&nbsp;भौतिक विशेषताओं, उत्पादन, उपयोग विशेषताओं और अनुपूरक दस्तावेजों के लिए विशेष सहायक संख्या','(0.02/.08)','भौतिक विशेषताओं, उत्पादन, उपयोग विशेषताओं और अनुपूरक दस्तावेजों के लिए विशेष सहायक संख्या','','','',false,true);
+d.add(219,218,'(0.02)','<div class="nodetag">(0.02)</div></span>&nbsp;&nbsp;बाह्य-भौतिक आकार के आधार पर दस्तावेज','(0.02)','बाह्य-भौतिक आकार के आधार पर दस्तावेज','','','',false,true);
+d.add(220,218,'(0.03)','<div class="nodetag">(0.03)</div></span>&nbsp;&nbsp;उत्पादन विधि के अनुसार दस्तावेज','(0.03)','उत्पादन विधि के अनुसार दस्तावेज','','','',false,true);
+d.add(221,220,'(0.032)','<div class="nodetag">(0.032)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Handwritten documents (autograph, holograph copies). Manuscripts. Pictorial documents (drawings, paintings)</span>','(0.032)','Handwritten documents (autograph, holograph copies). Manuscripts. Pictorial documents (drawings, paintings)','','','',false,true);
+d.add(222,220,'(0.034)','<div class="nodetag">(0.034)</div></span>&nbsp;&nbsp;यंत्र-पठनीय दस्तावेज','(0.034)','यंत्र-पठनीय दस्तावेज','','','',false,true);
+d.add(223,218,'(0.04)','<div class="nodetag">(0.04)</div></span>&nbsp;&nbsp;उत्पादन के चरणों के अनुसार दस्तावेज','(0.04)','उत्पादन के चरणों के अनुसार दस्तावेज','','','',false,true);
+d.add(224,218,'(0.05)','<div class="nodetag">(0.05)</div></span>&nbsp;&nbsp;विशेष प्रकार के प्रयोक्ता के लिए दस्तावेज्ञ','(0.05)','विशेष प्रकार के प्रयोक्ता के लिए दस्तावेज्ञ','','','',false,true);
+d.add(225,218,'(0.06)','<div class="nodetag">(0.06)</div></span>&nbsp;&nbsp;प्रस्तुति और उपलब्धता के आधार पर दस्तावेज्ञ','(0.06)','प्रस्तुति और उपलब्धता के आधार पर दस्तावेज्ञ','','','',false,true);
+d.add(226,218,'(0.07)','<div class="nodetag">(0.07)</div></span>&nbsp;&nbsp;एक दस्तावेज के साथ निर्गत अनुपूरक विषयवस्तु','(0.07)','एक दस्तावेज के साथ निर्गत अनुपूरक विषयवस्तु','','','',false,true);
+d.add(227,218,'(0.08)','<div class="nodetag">(0.08)</div></span>&nbsp;&nbsp;अलग-अलग निर्गत अनुपूरक या दस्तावेज के भाग','(0.08)','अलग-अलग निर्गत अनुपूरक या दस्तावेज के भाग','','','',false,true);
+d.add(228,217,'(01)','<div class="nodetag">(01)</div></span>&nbsp;&nbsp;ग्रंथ सूची','(01)','ग्रंथ सूची','','','',false,true);
+d.add(229,217,'(02)','<div class="nodetag">(02)</div></span>&nbsp;&nbsp;किताबें (सामान्य)','(02)','किताबें (सामान्य)','','','',false,true);
+d.add(230,217,'(03)','<div class="nodetag">(03)</div></span>&nbsp;&nbsp;संदर्भ कृति','(03)','संदर्भ कृति','','','',false,true);
+d.add(231,230,'(031)','<div class="nodetag">(031)</div></span>&nbsp;&nbsp;विश्वकोश','(031)','विश्वकोश','','','',false,true);
+d.add(232,230,'(035)','<div class="nodetag">(035)</div></span>&nbsp;&nbsp;विवरण पुस्तिका, नियम पुस्तिका.','(035)','विवरण पुस्तिका, नियम पुस्तिका.','','','',false,true);
+d.add(233,230,'(036)','<div class="nodetag">(036)</div></span>&nbsp;&nbsp;नियामक (व्यावहारिक और विस्तृत सूचना के साथ)','(036)','नियामक (व्यावहारिक और विस्तृत सूचना के साथ)','','','',false,true);
+d.add(234,230,'(038)','<div class="nodetag">(038)</div></span>&nbsp;&nbsp;शब्दकोश','(038)','शब्दकोश','','','',false,true);
+d.add(235,217,'(04)','<div class="nodetag">(04)</div></span>&nbsp;&nbsp;गैर आनुक्रमिक अलग. सेपरेटा.','(04)','गैर आनुक्रमिक अलग. सेपरेटा.','','','',false,true);
+d.add(236,235,'(041)','<div class="nodetag">(041)</div></span>&nbsp;&nbsp;प्रचार पुस्तिका, विवरण पुस्तिका','(041)','प्रचार पुस्तिका, विवरण पुस्तिका','','','',false,true);
+d.add(237,235,'(042)','<div class="nodetag">(042)</div></span>&nbsp;&nbsp;संबोधन, व्याख्यान, भाषण.','(042)','संबोधन, व्याख्यान, भाषण.','','','',false,true);
+d.add(238,235,'(043)','<div class="nodetag">(043)</div></span>&nbsp;&nbsp;शोध पुस्तिका. शोध निबंध','(043)','शोध पुस्तिका. शोध निबंध','','','',false,true);
+d.add(239,235,'(044)','<div class="nodetag">(044)</div></span>&nbsp;&nbsp;निजी दस्तावेज. पत्राचार. पत्र, परिपत्र.','(044)','निजी दस्तावेज. पत्राचार. पत्र, परिपत्र.','','','',false,true);
+d.add(240,235,'(045)','<div class="nodetag">(045)</div></span>&nbsp;&nbsp;आनुक्रमिक प्रकाशन में लेख, संग्रह इत्यादि. योगदान','(045)','आनुक्रमिक प्रकाशन में लेख, संग्रह इत्यादि. योगदान','','','',false,true);
+d.add(241,235,'(046)','<div class="nodetag">(046)</div></span>&nbsp;&nbsp;समाचार पत्र लेख','(046)','समाचार पत्र लेख','','','',false,true);
+d.add(242,235,'(047)','<div class="nodetag">(047)</div></span>&nbsp;&nbsp;रिर्पोट. सूचनाएँ. विज्ञप्तियाँ.','(047)','रिर्पोट. सूचनाएँ. विज्ञप्तियाँ.','','','',false,true);
+d.add(243,235,'(048)','<div class="nodetag">(048)</div></span>&nbsp;&nbsp;संदर्भ व्याख्या, साराशं, सार, अवलोकन.','(048)','संदर्भ व्याख्या, साराशं, सार, अवलोकन.','','','',false,true);
+d.add(244,235,'(049)','<div class="nodetag">(049)</div></span>&nbsp;&nbsp;दूसरे गैर आनुक्रमिक अलग','(049)','दूसरे गैर आनुक्रमिक अलग','','','',false,true);
+d.add(245,217,'(05)','<div class="nodetag">(05)</div></span>&nbsp;&nbsp;आनुक्रमिक प्रकाशन. पत्रिकॆ','(05)','आनुक्रमिक प्रकाशन. पत्रिकॆ','','','',false,true);
+d.add(246,245,'(051)','<div class="nodetag">(051)</div></span>&nbsp;&nbsp;आवधिकियाँ (सही अर्थों में)','(051)','आवधिकियाँ (सही अर्थों में)','','','',false,true);
+d.add(247,245,'(054)','<div class="nodetag">(054)</div></span>&nbsp;&nbsp;समाचार पत्र.','(054)','समाचार पत्र.','','','',false,true);
+d.add(248,245,'(055)','<div class="nodetag">(055)</div></span>&nbsp;&nbsp;समाचार विज्ञप्ति, समाचार पत्रक, सूचना पत्रक','(055)','समाचार विज्ञप्ति, समाचार पत्रक, सूचना पत्रक','','','',false,true);
+d.add(249,245,'(058)','<div class="nodetag">(058)</div></span>&nbsp;&nbsp;वार्षिकी, निर्देशिकाएँ','(058)','वार्षिकी, निर्देशिकाएँ','','','',false,true);
+d.add(250,245,'(059)','<div class="nodetag">(059)</div></span>&nbsp;&nbsp;पंचांग, तिथीपत्रक (सभी प्रकार के)','(059)','पंचांग, तिथीपत्रक (सभी प्रकार के)','','','',false,true);
+d.add(251,217,'(06)','<div class="nodetag">(06)</div></span>&nbsp;&nbsp;समितियों, संघों, संगठनों से संबंधित दस्तावेज़','(06)','समितियों, संघों, संगठनों से संबंधित दस्तावेज़','','','',false,true);
+d.add(252,217,'(07)','<div class="nodetag">(07)</div></span>&nbsp;&nbsp;प्रशिक्षण के लिए दस्तावेज़, अनुदेश, शिक्षण, अध्ययन,','(07)','प्रशिक्षण के लिए दस्तावेज़, अनुदेश, शिक्षण, अध्ययन,','','','',false,true);
+d.add(253,252,'(072)','<div class="nodetag">(072)</div></span>&nbsp;&nbsp;अध्य़ापऩ के लिए दस्तावेजी सामान. अध्य़ापऩ सहाय़क','(072)','अध्य़ापऩ के लिए दस्तावेजी सामान. अध्य़ापऩ सहाय़क','','','',false,true);
+d.add(254,252,'(073)','<div class="nodetag">(073)</div></span>&nbsp;&nbsp;अध्ययन सुची. पाठ्यकूम','(073)','अध्ययन सुची. पाठ्यकूम','','','',false,true);
+d.add(255,252,'(075)','<div class="nodetag">(075)</div></span>&nbsp;&nbsp;शैछणिक विषय. पाठशाला पुस्तकें. विद्यार्थीयो के लिए विषय','(075)','शैछणिक विषय. पाठशाला पुस्तकें. विद्यार्थीयो के लिए विषय','','','',false,true);
+d.add(256,252,'(076)','<div class="nodetag">(076)</div></span>&nbsp;&nbsp;अभ्यासिक निर्देश के लिए दस्तावेज,प्रशिक्षण','(076)','अभ्यासिक निर्देश के लिए दस्तावेज,प्रशिक्षण','','','',false,true);
+d.add(257,252,'(078)','<div class="nodetag">(078)</div></span>&nbsp;&nbsp;शैक्षणिक दस्तावेज एवं सामग्री जो कही सूची मे नही है','(078)','शैक्षणिक दस्तावेज एवं सामग्री जो कही सूची मे नही है','','','',false,true);
+d.add(258,252,'(079)','<div class="nodetag">(079)</div></span>&nbsp;&nbsp;प्रतियोगिता,परीक्षा इत्यादि से संबंधित दस्तावेज','(079)','प्रतियोगिता,परीक्षा इत्यादि से संबंधित दस्तावेज','','','',false,true);
+d.add(259,217,'(08)','<div class="nodetag">(08)</div></span>&nbsp;&nbsp;इकट्ठा और पोल्य्ग्रफिक काम . रूप. सूची. उदाहरण. व्यापार प्रकाशन','(08)','इकट्ठा और पोल्य्ग्रफिक काम . रूप. सूची. उदाहरण. व्यापार प्रकाशन','','','',false,true);
+d.add(260,259,'(081)','<div class="nodetag">(081)</div></span>&nbsp;&nbsp;वैयक्तिक पोलीग्राफ,व्यक्तिगत लेखक के संयमित कार्य','(081)','वैयक्तिक पोलीग्राफ,व्यक्तिगत लेखक के संयमित कार्य','','','',false,true);
+d.add(261,259,'(082)','<div class="nodetag">(082)</div></span>&nbsp;&nbsp;सामूहिक पोलीग्राफ.कई लेखको के कार्य संकलन','(082)','सामूहिक पोलीग्राफ.कई लेखको के कार्य संकलन','','','',false,true);
+d.add(262,259,'(083)','<div class="nodetag">(083)</div></span>&nbsp;&nbsp;तकनीकी एवं निर्देशात्मक दस्तावेज़.सूची.तालिका .इत्यादि','(083)','तकनीकी एवं निर्देशात्मक दस्तावेज़.सूची.तालिका .इत्यादि','','','',false,true);
+d.add(263,259,'(084)','<div class="nodetag">(084)</div></span>&nbsp;&nbsp;छवि. चित्रीय दस्तावेज़. रेखाचित्रीय दस्तावेज़','(084)','छवि. चित्रीय दस्तावेज़. रेखाचित्रीय दस्तावेज़','','','',false,true);
+d.add(264,259,'(085)','<div class="nodetag">(085)</div></span>&nbsp;&nbsp;व्यापारिक फर्म प्रकाशन.(औद्योगिक,व्यापारिक), वाणिज्यिक प्रचार, सुचना, विज्ञापन वस्तु','(085)','व्यापारिक फर्म प्रकाशन.(औद्योगिक,व्यापारिक), वाणिज्यिक प्रचार, सुचना, विज्ञापन वस्तु','','','',false,true);
+d.add(265,259,'(086)','<div class="nodetag">(086)</div></span>&nbsp;&nbsp;त्रि-आयामी (ठोस वस्तु) दस्तावेज़. श्रव्य एवं दृश्य-श्रव्य दस्तावेज़','(086)','त्रि-आयामी (ठोस वस्तु) दस्तावेज़. श्रव्य एवं दृश्य-श्रव्य दस्तावेज़','','','',false,true);
+d.add(266,265,'(086.3)','<div class="nodetag">(086.3)</div></span>&nbsp;&nbsp;नमूना, वस्तु के जैसा दस्तावेज़','(086.3)','नमूना, वस्तु के जैसा दस्तावेज़','','','',false,true);
+d.add(267,265,'(086.7)','<div class="nodetag">(086.7)</div></span>&nbsp;&nbsp;श्रव्य दस्तावेज़. ध्वनि अभिलेखिन','(086.7)','श्रव्य दस्तावेज़. ध्वनि अभिलेखिन','','','',false,true);
+d.add(268,265,'(086.8)','<div class="nodetag">(086.8)</div></span>&nbsp;&nbsp;वीडियो अभिलेखिन','(086.8)','वीडियो अभिलेखिन','','','',false,true);
+d.add(269,259,'(088)','<div class="nodetag">(088)</div></span>&nbsp;&nbsp;अनुप्रमाणन. विशेष-अभिप्राय दस्तावेज़','(088)','अनुप्रमाणन. विशेष-अभिप्राय दस्तावेज़','','','',false,true);
+d.add(270,217,'(09)','<div class="nodetag">(09)</div></span>&nbsp;&nbsp;ऐतिहासिक रूप में प्रस्तुति. कानूनी और ऐतिहासिक स्रोत','(09)','ऐतिहासिक रूप में प्रस्तुति. कानूनी और ऐतिहासिक स्रोत','','','',false,true);
+d.add(271,270,'(091)','<div class="nodetag">(091)</div></span>&nbsp;&nbsp;कालानुक्रमिक, ऐतिहासिक रूप में प्रस्तुति. ऐतिहासिक प्रस्तुति सही मायनो में','(091)','कालानुक्रमिक, ऐतिहासिक रूप में प्रस्तुति. ऐतिहासिक प्रस्तुति सही मायनो में','','','',false,true);
+d.add(272,270,'(092)','<div class="nodetag">(092)</div></span>&nbsp;&nbsp;जीवनी संबंधी प्रस्तुति.','(092)','जीवनी संबंधी प्रस्तुति.','','','',false,true);
+d.add(273,270,'(093)','<div class="nodetag">(093)</div></span>&nbsp;&nbsp;ऐतिहासिक स्त्रोत','(093)','ऐतिहासिक स्त्रोत','','','',false,true);
+d.add(274,270,'(094)','<div class="nodetag">(094)</div></span>&nbsp;&nbsp;विधिक स्रोत. विधिक दस्तावेज़','(094)','विधिक स्रोत. विधिक दस्तावेज़','','','',false,true);
+d.add(275,0,'(1/9)','<div class="nodetag">(1/9)</div></span>&nbsp;&nbsp;स्थान की साझा सहायक सारणी. 1ई तालिका','(1/9)','स्थान की साझा सहायक सारणी. 1ई तालिका','','','',false,true);
+d.add(276,275,'(1)','<div class="nodetag">(1)</div></span>&nbsp;&nbsp;सामान्य जगह और क्षेत्र. स्थानीयकरण. ओरिएंटेशन','(1)','सामान्य जगह और क्षेत्र. स्थानीयकरण. ओरिएंटेशन','','','',false,true);
+d.add(277,276,'(100)','<div class="nodetag">(100)</div></span>&nbsp;&nbsp;सार्वभौमिक क्षेत्र .अन्तर्राष्ट्रीय. साधारणतः सभी राष्ट्र','(100)','सार्वभौमिक क्षेत्र .अन्तर्राष्ट्रीय. साधारणतः सभी राष्ट्र','','','',false,true);
+d.add(278,275,'(1-0/-9)','<div class="nodetag">(1-0/-9)</div></span>&nbsp;&nbsp;सीमाओं और विभिन्न प्रकार के स्थानिक रूपों के लिए विशेष सहायक उपविभाग','(1-0/-9)','सीमाओं और विभिन्न प्रकार के स्थानिक रूपों के लिए विशेष सहायक उपविभाग','','','',false,true);
+d.add(279,278,'(1-0)','<div class="nodetag">(1-0)</div></span>&nbsp;&nbsp;क्षेत्र','(1-0)','क्षेत्र','','','',false,true);
+d.add(280,278,'(1-1)','<div class="nodetag">(1-1)</div></span>&nbsp;&nbsp;अभिविन्यास. दिक्सूचक की सूई. संबंधित स्थान','(1-1)','अभिविन्यास. दिक्सूचक की सूई. संबंधित स्थान','','','',false,true);
+d.add(281,280,'(1-11)','<div class="nodetag">(1-11)</div></span>&nbsp;&nbsp;पूर्व. पूर्वी','(1-11)','पूर्व. पूर्वी','','','',false,true);
+d.add(282,280,'(1-12)','<div class="nodetag">(1-12)</div></span>&nbsp;&nbsp;दक्षिण पूर्व. दक्षिण पूर्वी','(1-12)','दक्षिण पूर्व. दक्षिण पूर्वी','','','',false,true);
+d.add(283,280,'(1-13)','<div class="nodetag">(1-13)</div></span>&nbsp;&nbsp;दक्षिण. दक्षिणी','(1-13)','दक्षिण. दक्षिणी','','','',false,true);
+d.add(284,280,'(1-14)','<div class="nodetag">(1-14)</div></span>&nbsp;&nbsp;दक्षिण-पश्चिम. दक्षिण-पश्चिमी','(1-14)','दक्षिण-पश्चिम. दक्षिण-पश्चिमी','','','',false,true);
+d.add(285,280,'(1-15)','<div class="nodetag">(1-15)</div></span>&nbsp;&nbsp;पश्चिम. पश्चिमी','(1-15)','पश्चिम. पश्चिमी','','','',false,true);
+d.add(286,280,'(1-16)','<div class="nodetag">(1-16)</div></span>&nbsp;&nbsp;पश्चिमोत्तर. पश्चिमी-उत्तर','(1-16)','पश्चिमोत्तर. पश्चिमी-उत्तर','','','',false,true);
+d.add(287,280,'(1-17)','<div class="nodetag">(1-17)</div></span>&nbsp;&nbsp;उत्तर. उत्तरी','(1-17)','उत्तर. उत्तरी','','','',false,true);
+d.add(288,280,'(1-18)','<div class="nodetag">(1-18)</div></span>&nbsp;&nbsp;उत्तर-पूर्व.उत्तर-पूर्वी','(1-18)','उत्तर-पूर्व.उत्तर-पूर्वी','','','',false,true);
+d.add(289,280,'(1-19)','<div class="nodetag">(1-19)</div></span>&nbsp;&nbsp;संबंधित स्थान, दिशा एवं अभिविन्यास','(1-19)','संबंधित स्थान, दिशा एवं अभिविन्यास','','','',false,true);
+d.add(290,278,'(1-2/-4)','<div class="nodetag">(1-2/-4)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Political units. Administrative units</span>','(1-2/-4)','Political units. Administrative units','','','',false,true);
+d.add(291,290,'(1-2)','<div class="nodetag">(1-2)</div></span>&nbsp;&nbsp;निम्नतम प्रशासकीय ईकाई. इलाका','(1-2)','निम्नतम प्रशासकीय ईकाई. इलाका','','','',false,true);
+d.add(292,291,'(1-24)','<div class="nodetag">(1-24)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Joint local administrative units</span>','(1-24)','Joint local administrative units','','','',false,true);
+d.add(293,291,'(1-25)','<div class="nodetag">(1-25)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Capital cities. Metropolises</span>','(1-25)','Capital cities. Metropolises','','','',false,true);
+d.add(294,290,'(1-3)','<div class="nodetag">(1-3)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Larger units within the state</span>','(1-3)','Larger units within the state','','','',false,true);
+d.add(295,294,'(1-32)','<div class="nodetag">(1-32)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Higher-level administrative units. Provinces</span>','(1-32)','Higher-level administrative units. Provinces','','','',false,true);
+d.add(296,294,'(1-35)','<div class="nodetag">(1-35)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Middle-level administrative units</span>','(1-35)','Middle-level administrative units','','','',false,true);
+d.add(297,294,'(1-37)','<div class="nodetag">(1-37)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Lower-level administrative units</span>','(1-37)','Lower-level administrative units','','','',false,true);
+d.add(298,290,'(1-4)','<div class="nodetag">(1-4)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Units of highest (state) level. Nations. States. Confederations</span>','(1-4)','Units of highest (state) level. Nations. States. Confederations','','','',false,true);
+d.add(299,298,'(1-43)','<div class="nodetag">(1-43)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Constituent states within a confederation. Federal states. Autonomous republics</span>','(1-43)','Constituent states within a confederation. Federal states. Autonomous republics','','','',false,true);
+d.add(300,298,'(1-44)','<div class="nodetag">(1-44)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Empires. Combination of mother-country, dominions and colonies</span>','(1-44)','Empires. Combination of mother-country, dominions and colonies','','','',false,true);
+d.add(301,278,'(1-5)','<div class="nodetag">(1-5)</div></span>&nbsp;&nbsp;आश्रित या अर्ध-आश्रित क्षेत्र','(1-5)','आश्रित या अर्ध-आश्रित क्षेत्र','','','',false,true);
+d.add(302,278,'(1-6)','<div class="nodetag">(1-6)</div></span>&nbsp;&nbsp;राज्य या राज्यो का वर्ग','(1-6)','राज्य या राज्यो का वर्ग','','','',false,true);
+d.add(303,278,'(1-7)','<div class="nodetag">(1-7)</div></span>&nbsp;&nbsp;गोपनीयता, प्रसिद्धी और विशेष लक्षणों के आधार पर स्थान,','(1-7)','गोपनीयता, प्रसिद्धी और विशेष लक्षणों के आधार पर स्थान,','','','',false,true);
+d.add(304,278,'(1-8)','<div class="nodetag">(1-8)</div></span>&nbsp;&nbsp;ठिकाना.स्रोत.मार्ग.गंतव्य','(1-8)','ठिकाना.स्रोत.मार्ग.गंतव्य','','','',false,true);
+d.add(305,278,'(1-9)','<div class="nodetag">(1-9)</div></span>&nbsp;&nbsp;विशेष दृष्टिकोण के अनुसार क्षेत्रियकरण','(1-9)','विशेष दृष्टिकोण के अनुसार क्षेत्रियकरण','','','',false,true);
+d.add(306,275,'(2)','<div class="nodetag">(2)</div></span>&nbsp;&nbsp;भौगोलिक पद','(2)','भौगोलिक पद','','','',false,true);
+d.add(307,306,'(20)','<div class="nodetag">(20)</div></span>&nbsp;&nbsp;वायुमंडल','(20)','वायुमंडल','','','',false,true);
+d.add(308,306,'(21)','<div class="nodetag">(21)</div></span>&nbsp;&nbsp;साधारणतः पृथ्वी की सतह. विशेषत: थल क्षेत्र. प्राकृतिक क्षेत्र और खण्ड','(21)','साधारणतः पृथ्वी की सतह. विशेषत: थल क्षेत्र. प्राकृतिक क्षेत्र और खण्ड','','','',false,true);
+d.add(309,306,'(23)','<div class="nodetag">(23)</div></span>&nbsp;&nbsp;समुद्र स्तर से ऊपर. धरातल उभार. आमतौर पर पृथ्वी से ऊपर. पर्वतीय भाग','(23)','समुद्र स्तर से ऊपर. धरातल उभार. आमतौर पर पृथ्वी से ऊपर. पर्वतीय भाग','','','',false,true);
+d.add(310,306,'(24)','<div class="nodetag">(24)</div></span>&nbsp;&nbsp;समुद्र स्तर से के नीचे. भुमि के तल के नीचे. अप्रत्यक्ष','(24)','समुद्र स्तर से के नीचे. भुमि के तल के नीचे. अप्रत्यक्ष','','','',false,true);
+d.add(311,306,'(25)','<div class="nodetag">(25)</div></span>&nbsp;&nbsp;प्राकृतिक समतल भूमि ( समुद्र स्तर पर या नीचे या ऊपर). भूमि प्राकृतिक अवस्था मे, जोता हुआ या बसा हुआ','(25)','प्राकृतिक समतल भूमि ( समुद्र स्तर पर या नीचे या ऊपर). भूमि प्राकृतिक अवस्था मे, जोता हुआ या बसा हुआ','','','',false,true);
+d.add(312,306,'(26)','<div class="nodetag">(26)</div></span>&nbsp;&nbsp;महासागर, सागर एवं अंतःसंबधन','(26)','महासागर, सागर एवं अंतःसंबधन','','','',false,true);
+d.add(313,306,'(28)','<div class="nodetag">(28)</div></span>&nbsp;&nbsp;भीतरी जल','(28)','भीतरी जल','','','',false,true);
+d.add(314,275,'(3/9)','<div class="nodetag">(3/9)</div></span>&nbsp;&nbsp;प्राचीन और आधुनिक दुनिया के व्यक्तिगत स्थान','(3/9)','प्राचीन और आधुनिक दुनिया के व्यक्तिगत स्थान','','','',false,true);
+d.add(315,314,'(3)','<div class="nodetag">(3)</div></span>&nbsp;&nbsp;प्राचीन एवं मध्यकालीन जगत् के जगह','(3)','प्राचीन एवं मध्यकालीन जगत् के जगह','','','',false,true);
+d.add(316,315,'(31)','<div class="nodetag">(31)</div></span>&nbsp;&nbsp;प्राचीन चीन और जापान','(31)','प्राचीन चीन और जापान','','','',false,true);
+d.add(317,315,'(32)','<div class="nodetag">(32)</div></span>&nbsp;&nbsp;इजिप्टस. प्राचीन मिस्र','(32)','इजिप्टस. प्राचीन मिस्र','','','',false,true);
+d.add(318,315,'(33)','<div class="nodetag">(33)</div></span>&nbsp;&nbsp;जुडिया. पावन स्थल. इज़रायल का क्षेत्र','(33)','जुडिया. पावन स्थल. इज़रायल का क्षेत्र','','','',false,true);
+d.add(319,315,'(34)','<div class="nodetag">(34)</div></span>&nbsp;&nbsp;प्राचीन भारत','(34)','प्राचीन भारत','','','',false,true);
+d.add(320,315,'(35)','<div class="nodetag">(35)</div></span>&nbsp;&nbsp;मेडो-फारस','(35)','मेडो-फारस','','','',false,true);
+d.add(321,315,'(36)','<div class="nodetag">(36)</div></span>&nbsp;&nbsp;गंवार लोगो का क्षेत्र','(36)','गंवार लोगो का क्षेत्र','','','',false,true);
+d.add(322,315,'(37)','<div class="nodetag">(37)</div></span>&nbsp;&nbsp;इटालिया. प्राचीन रोम और इटली','(37)','इटालिया. प्राचीन रोम और इटली','','','',false,true);
+d.add(323,315,'(38)','<div class="nodetag">(38)</div></span>&nbsp;&nbsp;र्गेसिया. प्राचीन ग्रिस','(38)','र्गेसिया. प्राचीन ग्रिस','','','',false,true);
+d.add(324,315,'(399)','<div class="nodetag">(399)</div></span>&nbsp;&nbsp;अन्य क्षेत्र. प्राचीन भौगोलिक खंड पारम्परिक पुरावस्तु को छोड़कर','(399)','अन्य क्षेत्र. प्राचीन भौगोलिक खंड पारम्परिक पुरावस्तु को छोड़कर','','','',false,true);
+d.add(325,324,'(399.7)','<div class="nodetag">(399.7)</div></span>&nbsp;&nbsp;प्राचीन अमरीकी संस्कृति क्षेत्र. प्रि-कोल्मबियन अमरीका','(399.7)','प्राचीन अमरीकी संस्कृति क्षेत्र. प्रि-कोल्मबियन अमरीका','','','',false,true);
+d.add(326,314,'(4/9)','<div class="nodetag">(4/9)</div></span>&nbsp;&nbsp;नुतन संसार के देश एवं स्थान','(4/9)','नुतन संसार के देश एवं स्थान','','','',false,true);
+d.add(327,326,'(4)','<div class="nodetag">(4)</div></span>&nbsp;&nbsp;यूरोप','(4)','यूरोप','','','',false,true);
+d.add(328,327,'(41)','<div class="nodetag">(41)</div></span>&nbsp;&nbsp;ब्रिटिश द्वीप के देश','(41)','ब्रिटिश द्वीप के देश','','','',false,true);
+d.add(329,328,'(410)','<div class="nodetag">(410)</div></span>&nbsp;&nbsp;ग्रेट ब्रिटेन का यूनाइटेड किंगडम और उत्तरी आयरलैंड','(410)','ग्रेट ब्रिटेन का यूनाइटेड किंगडम और उत्तरी आयरलैंड','','','',false,true);
+d.add(330,328,'(417)','<div class="nodetag">(417)</div></span>&nbsp;&nbsp;आयरलैंड. आयरलैंड गणराज्य. आयर','(417)','आयरलैंड. आयरलैंड गणराज्य. आयर','','','',false,true);
+d.add(331,327,'(430)','<div class="nodetag">(430)</div></span>&nbsp;&nbsp;जर्मन. जर्मन गणराज्य संघ','(430)','जर्मन. जर्मन गणराज्य संघ','','','',false,true);
+d.add(332,327,'(435.9)','<div class="nodetag">(435.9)</div></span>&nbsp;&nbsp;लक्ज़ेमबर्ग. ग्रैण्ड डच ऑफ लक्जेमबर्ग. ग्रैण्ड डच डि लक्जेमबर्ग. ग्रॉशेर्ज़ोग्तम लक्जेमबर्ग. ग्रॉशेर्ज़ोग्देम लेट्ज़बर्ग','(435.9)','लक्ज़ेमबर्ग. ग्रैण्ड डच ऑफ लक्जेमबर्ग. ग्रैण्ड डच डि लक्जेमबर्ग. ग्रॉशेर्ज़ोग्तम लक्जेमबर्ग. ग्रॉशेर्ज़ोग्देम लेट्ज़बर्ग','','','',false,true);
+d.add(333,327,'(436)','<div class="nodetag">(436)</div></span>&nbsp;&nbsp;ऑस्ट्रिया. ऑस्ट्रिया गणराज्य. रिप्बिलीक ऑस्टेरिक','(436)','ऑस्ट्रिया. ऑस्ट्रिया गणराज्य. रिप्बिलीक ऑस्टेरिक','','','',false,true);
+d.add(334,327,'(437.3)','<div class="nodetag">(437.3)</div></span>&nbsp;&nbsp;चेकिया. चेक गणराज्य. सेको. सेका रिप्बिलीका','(437.3)','चेकिया. चेक गणराज्य. सेको. सेका रिप्बिलीका','','','',false,true);
+d.add(335,327,'(437.6)','<div class="nodetag">(437.6)</div></span>&nbsp;&nbsp;स्लोवाकिया. स्लोवाक गणराज्य. स्लोबेन्स्को. स्लोबेन्स्का रिप्बिलीका','(437.6)','स्लोवाकिया. स्लोवाक गणराज्य. स्लोबेन्स्को. स्लोबेन्स्का रिप्बिलीका','','','',false,true);
+d.add(336,327,'(438)','<div class="nodetag">(438)</div></span>&nbsp;&nbsp;पोलैंड. पोलिस रिपब्लिक. रेसपोसपोलिता पोलस्का','(438)','पोलैंड. पोलिस रिपब्लिक. रेसपोसपोलिता पोलस्का','','','',false,true);
+d.add(337,327,'(439)','<div class="nodetag">(439)</div></span>&nbsp;&nbsp;हंगरी. हंगेरीअन रिपब्लिक. मैगाइरोसज़ैग. माग्यार','(439)','हंगरी. हंगेरीअन रिपब्लिक. मैगाइरोसज़ैग. माग्यार','','','',false,true);
+d.add(338,327,'(44)','<div class="nodetag">(44)</div></span>&nbsp;&nbsp;फ्रांस. फ्रेन्च रिपब्लिक','(44)','फ्रांस. फ्रेन्च रिपब्लिक','','','',false,true);
+d.add(339,327,'(450)','<div class="nodetag">(450)</div></span>&nbsp;&nbsp;इटली. इटली गणराज्य. रिपव्लिका इटालिना','(450)','इटली. इटली गणराज्य. रिपव्लिका इटालिना','','','',false,true);
+d.add(340,327,'(454.4)','<div class="nodetag">(454.4)</div></span>&nbsp;&nbsp;सान मारिनो. मोस्ट सेरेनी रिपब्लिक आफ सैन मारिनो. सेरेनीसीमा रिपब्लिका डि सैन मारिनो','(454.4)','सान मारिनो. मोस्ट सेरेनी रिपब्लिक आफ सैन मारिनो. सेरेनीसीमा रिपब्लिका डि सैन मारिनो','','','',false,true);
+d.add(341,327,'(456.31)','<div class="nodetag">(456.31)</div></span>&nbsp;&nbsp;वैटिकन. वैटिकन सिटी स्टेट(होली सी). स्टाटो डेला सिटा डेल वाटिकानो','(456.31)','वैटिकन. वैटिकन सिटी स्टेट(होली सी). स्टाटो डेला सिटा डेल वाटिकानो','','','',false,true);
+d.add(342,327,'(458.2)','<div class="nodetag">(458.2)</div></span>&nbsp;&nbsp;माल्टा. माल्टा गणराज्य. रिप्बिलीका टा माल्टा','(458.2)','माल्टा. माल्टा गणराज्य. रिप्बिलीका टा माल्टा','','','',false,true);
+d.add(343,327,'(46)','<div class="nodetag">(46)</div></span>&nbsp;&nbsp;आईबेरियन पॆनिन्सुला','(46)','आईबेरियन पॆनिन्सुला','','','',false,true);
+d.add(344,343,'(460)','<div class="nodetag">(460)</div></span>&nbsp;&nbsp;स्पेन,किगडम आफ स्पेन. रेनो डॆ स्पाना','(460)','स्पेन,किगडम आफ स्पेन. रेनो डॆ स्पाना','','','',false,true);
+d.add(345,343,'(467)','<div class="nodetag">(467)</div></span>&nbsp;&nbsp;अन्डुरा,','(467)','अन्डुरा,','','','',false,true);
+d.add(346,343,'(469)','<div class="nodetag">(469)</div></span>&nbsp;&nbsp;पुर्तगाल.पुर्तगाली गणराज्य.रिप्बलिका पोरतोगीसा','(469)','पुर्तगाल.पुर्तगाली गणराज्य.रिप्बलिका पोरतोगीसा','','','',false,true);
+d.add(347,327,'(470+571)','<div class="nodetag">(470+571)</div></span>&nbsp;&nbsp;रूस.रसियन संघ.','(470+571)','रूस.रसियन संघ.','','','',false,true);
+d.add(348,327,'(474)','<div class="nodetag">(474)</div></span>&nbsp;&nbsp;बाल्टिक राज्य','(474)','बाल्टिक राज्य','','','',false,true);
+d.add(349,348,'(474.2)','<div class="nodetag">(474.2)</div></span>&nbsp;&nbsp;एस्टोनिया.एस्टोनिया गणराज्य.एस्टी वाबारिग','(474.2)','एस्टोनिया.एस्टोनिया गणराज्य.एस्टी वाबारिग','','','',false,true);
+d.add(350,348,'(474.3)','<div class="nodetag">(474.3)</div></span>&nbsp;&nbsp;लातविया.लातविया गणराज्य.','(474.3)','लातविया.लातविया गणराज्य.','','','',false,true);
+d.add(351,348,'(474.5)','<div class="nodetag">(474.5)</div></span>&nbsp;&nbsp;लिथुआनिया.लिथुआनिया गणराज्य.','(474.5)','लिथुआनिया.लिथुआनिया गणराज्य.','','','',false,true);
+d.add(352,327,'(476)','<div class="nodetag">(476)</div></span>&nbsp;&nbsp;बेलारूस.बेलारूस गणराज्य','(476)','बेलारूस.बेलारूस गणराज्य','','','',false,true);
+d.add(353,327,'(477)','<div class="nodetag">(477)</div></span>&nbsp;&nbsp;यूक्रेन','(477)','यूक्रेन','','','',false,true);
+d.add(354,327,'(478)','<div class="nodetag">(478)</div></span>&nbsp;&nbsp;मोलदोवा.मोलदोवा गणराज्य','(478)','मोलदोवा.मोलदोवा गणराज्य','','','',false,true);
+d.add(355,327,'(479)','<div class="nodetag">(479)</div></span>&nbsp;&nbsp;कॉकसस पूर्णरूपेण','(479)','कॉकसस पूर्णरूपेण','','','',false,true);
+d.add(356,355,'(479.22)','<div class="nodetag">(479.22)</div></span>&nbsp;&nbsp;जारजिया.जार्जिया गणराज्य. स्कारटवेलो. स्कारटवेलो गणराज्य','(479.22)','जारजिया.जार्जिया गणराज्य. स्कारटवेलो. स्कारटवेलो गणराज्य','','','',false,true);
+d.add(357,355,'(479.24)','<div class="nodetag">(479.24)</div></span>&nbsp;&nbsp;आज़र्बाइजान. आज़र्बाइजान गणराज्य.','(479.24)','आज़र्बाइजान. आज़र्बाइजान गणराज्य.','','','',false,true);
+d.add(358,355,'(479.25)','<div class="nodetag">(479.25)</div></span>&nbsp;&nbsp;आर्मेनिया. आर्मेनिया गणराज्य. हायस्तान.','(479.25)','आर्मेनिया. आर्मेनिया गणराज्य. हायस्तान.','','','',false,true);
+d.add(359,327,'(48)','<div class="nodetag">(48)</div></span>&nbsp;&nbsp;स्कैनडिनैवियन राज्य','(48)','स्कैनडिनैवियन राज्य','','','',false,true);
+d.add(360,359,'(480)','<div class="nodetag">(480)</div></span>&nbsp;&nbsp;फिनलैंड. फिनलैंड गणराज्य. सौमी.सोमेन टासावालटा. रिप्बिलीकेन फिनलैंड','(480)','फिनलैंड. फिनलैंड गणराज्य. सौमी.सोमेन टासावालटा. रिप्बिलीकेन फिनलैंड','','','',false,true);
+d.add(361,359,'(481)','<div class="nodetag">(481)</div></span>&nbsp;&nbsp;नोर्वे. नोर्वे गणराज्य','(481)','नोर्वे. नोर्वे गणराज्य','','','',false,true);
+d.add(362,359,'(485)','<div class="nodetag">(485)</div></span>&nbsp;&nbsp;स्वीडन. स्वीडन साम्राज्य','(485)','स्वीडन. स्वीडन साम्राज्य','','','',false,true);
+d.add(363,359,'(489)','<div class="nodetag">(489)</div></span>&nbsp;&nbsp;डेन्मार्क. डेन्मार्क साम्राज्य','(489)','डेन्मार्क. डेन्मार्क साम्राज्य','','','',false,true);
+d.add(364,327,'(491.1)','<div class="nodetag">(491.1)</div></span>&nbsp;&nbsp;आइसलैंड. आइसलैंड गणराज्य','(491.1)','आइसलैंड. आइसलैंड गणराज्य','','','',false,true);
+d.add(365,327,'(492)','<div class="nodetag">(492)</div></span>&nbsp;&nbsp;नीदरलैंड्स. नीदरलैंड्स साम्राज्य','(492)','नीदरलैंड्स. नीदरलैंड्स साम्राज्य','','','',false,true);
+d.add(366,327,'(493)','<div class="nodetag">(493)</div></span>&nbsp;&nbsp;बेल्जियम. बेल्जियम साम्राज्य. रोयाउमे दी बेलिजिक्. कोनिन्क्रिज़क बेल्जी. कोनिग्रेइच बेल्ज़ियन','(493)','बेल्जियम. बेल्जियम साम्राज्य. रोयाउमे दी बेलिजिक्. कोनिन्क्रिज़क बेल्जी. कोनिग्रेइच बेल्ज़ियन','','','',false,true);
+d.add(367,327,'(494)','<div class="nodetag">(494)</div></span>&nbsp;&nbsp;स्विट्ज़रलैंड. स्विस संघ. श्विज़ेरिशेक् एडेनोसेन्शॉफ्ट. कॉनफ़ेडरेशन सुसे. कॉनफ़ेडराज़ियोन स्वीज़ेरा. कॉनफ़ेडराशियो हेवेटिका','(494)','स्विट्ज़रलैंड. स्विस संघ. श्विज़ेरिशेक् एडेनोसेन्शॉफ्ट. कॉनफ़ेडरेशन सुसे. कॉनफ़ेडराज़ियोन स्वीज़ेरा. कॉनफ़ेडराशियो हेवेटिका','','','',false,true);
+d.add(368,367,'(494.9)','<div class="nodetag">(494.9)</div></span>&nbsp;&nbsp;लिकटेंस्टीन. लिकटेंस्टीन रियासत. फुर्सटेन्टम लाइक्टेन्सटीन','(494.9)','लिकटेंस्टीन. लिकटेंस्टीन रियासत. फुर्सटेन्टम लाइक्टेन्सटीन','','','',false,true);
+d.add(369,327,'(495)','<div class="nodetag">(495)</div></span>&nbsp;&nbsp;ग्रीस. हेलेनिक गणराज्य. एलिनिकी डिमोक्रेशिया','(495)','ग्रीस. हेलेनिक गणराज्य. एलिनिकी डिमोक्रेशिया','','','',false,true);
+d.add(370,327,'(496.5)','<div class="nodetag">(496.5)</div></span>&nbsp;&nbsp;अल्बानिया. अल्बानिया गणराज्य. श्कीपेरिया. रिपब्लिका-इ-श्कीपेरिसिया','(496.5)','अल्बानिया. अल्बानिया गणराज्य. श्कीपेरिया. रिपब्लिका-इ-श्कीपेरिसिया','','','',false,true);
+d.add(371,327,'(497)','<div class="nodetag">(497)</div></span>&nbsp;&nbsp;बाल्कन राज्य','(497)','बाल्कन राज्य','','','',false,true);
+d.add(372,371,'(497.11)','<div class="nodetag">(497.11)</div></span>&nbsp;&nbsp;सर्बिया. सर्बिया गणराज्य.','(497.11)','सर्बिया. सर्बिया गणराज्य.','','','',false,true);
+d.add(373,371,'(497.16)','<div class="nodetag">(497.16)</div></span>&nbsp;&nbsp;मोनटेनेग्रो. क्रना गोरा','(497.16)','मोनटेनेग्रो. क्रना गोरा','','','',false,true);
+d.add(374,371,'(497.2)','<div class="nodetag">(497.2)</div></span>&nbsp;&nbsp;बुल्गारिया. बुल्गारिया गणराज्य.','(497.2)','बुल्गारिया. बुल्गारिया गणराज्य.','','','',false,true);
+d.add(375,371,'(497.4)','<div class="nodetag">(497.4)</div></span>&nbsp;&nbsp;स्लोवेनिया. स्लोवेनिया गणराज्य.','(497.4)','स्लोवेनिया. स्लोवेनिया गणराज्य.','','','',false,true);
+d.add(376,371,'(497.5)','<div class="nodetag">(497.5)</div></span>&nbsp;&nbsp;क्रोएशिया. क्रोएशिया गणराज्य.','(497.5)','क्रोएशिया. क्रोएशिया गणराज्य.','','','',false,true);
+d.add(377,371,'(497.6)','<div class="nodetag">(497.6)</div></span>&nbsp;&nbsp;बोसनिया. बोस्निया गणराज्य.','(497.6)','बोसनिया. बोस्निया गणराज्य.','','','',false,true);
+d.add(378,371,'(497.7)','<div class="nodetag">(497.7)</div></span>&nbsp;&nbsp;मैसेडोनिया. भूतपूर्व मैसेडोनिया युगोस्लाव गणराज्य','(497.7)','मैसेडोनिया. भूतपूर्व मैसेडोनिया युगोस्लाव गणराज्य','','','',false,true);
+d.add(379,327,'(498)','<div class="nodetag">(498)</div></span>&nbsp;&nbsp;रोमानिया. रोमानिया गणराज्य','(498)','रोमानिया. रोमानिया गणराज्य','','','',false,true);
+d.add(380,326,'(5)','<div class="nodetag">(5)</div></span>&nbsp;&nbsp;एशिया','(5)','एशिया','','','',false,true);
+d.add(381,380,'(510)','<div class="nodetag">(510)</div></span>&nbsp;&nbsp;चीन.चीन गणराज्य','(510)','चीन.चीन गणराज्य','','','',false,true);
+d.add(382,380,'(512.317)','<div class="nodetag">(512.317)</div></span>&nbsp;&nbsp;हांग कांग','(512.317)','हांग कांग','','','',false,true);
+d.add(383,380,'(512.318)','<div class="nodetag">(512.318)</div></span>&nbsp;&nbsp;मकाव. अमेन','(512.318)','मकाव. अमेन','','','',false,true);
+d.add(384,380,'(515)','<div class="nodetag">(515)</div></span>&nbsp;&nbsp;तिब्बत स्वायत्तशासी क्षेत्र','(515)','तिब्बत स्वायत्तशासी क्षेत्र','','','',false,true);
+d.add(385,380,'(517.9)','<div class="nodetag">(517.9)</div></span>&nbsp;&nbsp;मंगोलिया.मंगोलिया राज्य','(517.9)','मंगोलिया.मंगोलिया राज्य','','','',false,true);
+d.add(386,380,'(519)','<div class="nodetag">(519)</div></span>&nbsp;&nbsp;कोरिया','(519)','कोरिया','','','',false,true);
+d.add(387,386,'(519.3)','<div class="nodetag">(519.3)</div></span>&nbsp;&nbsp;उत्तरी कोरिया.कोरिया गणराज्य','(519.3)','उत्तरी कोरिया.कोरिया गणराज्य','','','',false,true);
+d.add(388,386,'(519.5)','<div class="nodetag">(519.5)</div></span>&nbsp;&nbsp;दक्षिणी कोरिया.कोरिया गणराज्य','(519.5)','दक्षिणी कोरिया.कोरिया गणराज्य','','','',false,true);
+d.add(389,380,'(52)','<div class="nodetag">(52)</div></span>&nbsp;&nbsp;जापान एवं सन्निकट द्वीप','(52)','जापान एवं सन्निकट द्वीप','','','',false,true);
+d.add(390,389,'(520)','<div class="nodetag">(520)</div></span>&nbsp;&nbsp;जापान. निप्पन(निहोन). निप्पन-कोकू (निहोन कोकू)','(520)','जापान. निप्पन(निहोन). निप्पन-कोकू (निहोन कोकू)','','','',false,true);
+d.add(391,389,'(529)','<div class="nodetag">(529)</div></span>&nbsp;&nbsp;ताइवान. चीन गणराज्य','(529)','ताइवान. चीन गणराज्य','','','',false,true);
+d.add(392,380,'(53)','<div class="nodetag">(53)</div></span>&nbsp;&nbsp;अरब देश एवं प्रांत','(53)','अरब देश एवं प्रांत','','','',false,true);
+d.add(393,392,'(532)','<div class="nodetag">(532)</div></span>&nbsp;&nbsp;सऊदी अरब. सऊदी अरब साम्राज्य. अल-ममलाका अल-अरबीया अस-सउदिया','(532)','सऊदी अरब. सऊदी अरब साम्राज्य. अल-ममलाका अल-अरबीया अस-सउदिया','','','',false,true);
+d.add(394,392,'(533)','<div class="nodetag">(533)</div></span>&nbsp;&nbsp;यमन. यमन गणराज्य. अल-जम्हुरिया अल यमनिया','(533)','यमन. यमन गणराज्य. अल-जम्हुरिया अल यमनिया','','','',false,true);
+d.add(395,392,'(535)','<div class="nodetag">(535)</div></span>&nbsp;&nbsp;ओमान. ओमान सल्तनत','(535)','ओमान. ओमान सल्तनत','','','',false,true);
+d.add(396,392,'(536)','<div class="nodetag">(536)</div></span>&nbsp;&nbsp;पूर्व अरेबीअन राज्य (खाड़ी राज्य)','(536)','पूर्व अरेबीअन राज्य (खाड़ी राज्य)','','','',false,true);
+d.add(397,396,'(536.2)','<div class="nodetag">(536.2)</div></span>&nbsp;&nbsp;संयुक्त अरब अमीरात. दावलत अल इमारत अल-अरबीया अल-मुत्तहिदा','(536.2)','संयुक्त अरब अमीरात. दावलत अल इमारत अल-अरबीया अल-मुत्तहिदा','','','',false,true);
+d.add(398,396,'(536.4)','<div class="nodetag">(536.4)</div></span>&nbsp;&nbsp;कतर. कतर राज्य','(536.4)','कतर. कतर राज्य','','','',false,true);
+d.add(399,396,'(536.5)','<div class="nodetag">(536.5)</div></span>&nbsp;&nbsp;बहरीन. बहरीन साम्राज्य. ममलाकात अल-बहरयान','(536.5)','बहरीन. बहरीन साम्राज्य. ममलाकात अल-बहरयान','','','',false,true);
+d.add(400,396,'(536.8)','<div class="nodetag">(536.8)</div></span>&nbsp;&nbsp;कुवैत. कुवैत राज्य','(536.8)','कुवैत. कुवैत राज्य','','','',false,true);
+d.add(401,380,'(54)','<div class="nodetag">(54)</div></span>&nbsp;&nbsp;भारत उपमहाद्वीप के राज्य','(54)','भारत उपमहाद्वीप के राज्य','','','',false,true);
+d.add(402,401,'(540)','<div class="nodetag">(540)</div></span>&nbsp;&nbsp;भारत. भारत गणराज्य','(540)','भारत. भारत गणराज्य','','','',false,true);
+d.add(403,401,'(541.31)','<div class="nodetag">(541.31)</div></span>&nbsp;&nbsp;भूटान. भूटान साम्राज्य.','(541.31)','भूटान. भूटान साम्राज्य.','','','',false,true);
+d.add(404,401,'(541.35)','<div class="nodetag">(541.35)</div></span>&nbsp;&nbsp;नेपाल. संघीय लोकतान्त्रिक गणराज्य नेपाल','(541.35)','नेपाल. संघीय लोकतान्त्रिक गणराज्य नेपाल','','','',false,true);
+d.add(405,401,'(548.7)','<div class="nodetag">(548.7)</div></span>&nbsp;&nbsp;श्रीलंका. श्रीलंका समाजवादी लोकतान्त्रिक गणराज्य. श्रीलंका प्रजातांत्रिक समाजवादी जनराज्य (सिन्हली). इल्लंकी चाननायक चोसालिसा कुदियारसु (तमिल)','(548.7)','श्रीलंका. श्रीलंका समाजवादी लोकतान्त्रिक गणराज्य. श्रीलंका प्रजातांत्रिक समाजवादी जनराज्य (सिन्हली). इल्लंकी चाननायक चोसालिसा कुदियारसु (तमिल)','','','',false,true);
+d.add(406,401,'(548.82)','<div class="nodetag">(548.82)</div></span>&nbsp;&nbsp;मालदीव. मालदीव गणराज्य. दिवेही राज्य गे जम्हूरिया.','(548.82)','मालदीव. मालदीव गणराज्य. दिवेही राज्य गे जम्हूरिया.','','','',false,true);
+d.add(407,401,'(549.1)','<div class="nodetag">(549.1)</div></span>&nbsp;&nbsp;पाकिस्तान. इस्लामी गणराज्य पाकिस्तान. इस्लामी जुम्हुरी-ये पाकिस्तान','(549.1)','पाकिस्तान. इस्लामी गणराज्य पाकिस्तान. इस्लामी जुम्हुरी-ये पाकिस्तान','','','',false,true);
+d.add(408,401,'(549.3)','<div class="nodetag">(549.3)</div></span>&nbsp;&nbsp;बांग्लादेश. बांग्लादेश गणराज्यय. गनप्रोजातोंत्रि बांग्लादेश','(549.3)','बांग्लादेश. बांग्लादेश गणराज्यय. गनप्रोजातोंत्रि बांग्लादेश','','','',false,true);
+d.add(409,380,'(55)','<div class="nodetag">(55)</div></span>&nbsp;&nbsp;ईरान. इस्लामी गणराज्य ईरान. पर्शिया (ऐतिहासिक)','(55)','ईरान. इस्लामी गणराज्य ईरान. पर्शिया (ऐतिहासिक)','','','',false,true);
+d.add(410,380,'(56)','<div class="nodetag">(56)</div></span>&nbsp;&nbsp;लेवान्ट. लघु एशिया','(56)','लेवान्ट. लघु एशिया','','','',false,true);
+d.add(411,410,'(560)','<div class="nodetag">(560)</div></span>&nbsp;&nbsp;तुर्की. तुर्की गणराज्य. तुर्किये कुम्हुरियेती','(560)','तुर्की. तुर्की गणराज्य. तुर्किये कुम्हुरियेती','','','',false,true);
+d.add(412,410,'(564.3)','<div class="nodetag">(564.3)</div></span>&nbsp;&nbsp;साइप्रस. साइप्रस गणराज्य. काइप्रिएकी डिमोक्रेशिया. किबरिस कुम्हुरियेती','(564.3)','साइप्रस. साइप्रस गणराज्य. काइप्रिएकी डिमोक्रेशिया. किबरिस कुम्हुरियेती','','','',false,true);
+d.add(413,410,'(567)','<div class="nodetag">(567)</div></span>&nbsp;&nbsp;इराक. इराक गणराज्य. जम्हूरियत अल-इराक. कोमारा इराके','(567)','इराक. इराक गणराज्य. जम्हूरियत अल-इराक. कोमारा इराके','','','',false,true);
+d.add(414,410,'(569.1)','<div class="nodetag">(569.1)</div></span>&nbsp;&nbsp;सीरिया. सीरिया अरबी गणराज्य. सूरया. अल-जम्हुरिया अल-अरबीया अस-सूरया.','(569.1)','सीरिया. सीरिया अरबी गणराज्य. सूरया. अल-जम्हुरिया अल-अरबीया अस-सूरया.','','','',false,true);
+d.add(415,410,'(569.3)','<div class="nodetag">(569.3)</div></span>&nbsp;&nbsp;लेबनान. लेबनान गणराज्य. लुबनान. लिबान. अल-जम्हुरिया अल-लुबनानिया. रिपब्लिके लाइबानिज़','(569.3)','लेबनान. लेबनान गणराज्य. लुबनान. लिबान. अल-जम्हुरिया अल-लुबनानिया. रिपब्लिके लाइबानिज़','','','',false,true);
+d.add(416,410,'(569.4)','<div class="nodetag">(569.4)</div></span>&nbsp;&nbsp;इज़राइल. इज़राइल राज्य. मेदिनात इसराल. दावलत इसरायल','(569.4)','इज़राइल. इज़राइल राज्य. मेदिनात इसराल. दावलत इसरायल','','','',false,true);
+d.add(417,410,'(569.5)','<div class="nodetag">(569.5)</div></span>&nbsp;&nbsp;जोर्डन. हैशमाइत जॉर्डन राज्य. अल-उर्दून','(569.5)','जोर्डन. हैशमाइत जॉर्डन राज्य. अल-उर्दून','','','',false,true);
+d.add(418,380,'(57)','<div class="nodetag">(57)</div></span>&nbsp;&nbsp;एशियाई भूतपूर्व यू एस एस आर','(57)','एशियाई भूतपूर्व यू एस एस आर','','','',false,true);
+d.add(419,418,'(571)','<div class="nodetag">(571)</div></span>&nbsp;&nbsp;एशिया रूसी संघ.','(571)','एशिया रूसी संघ.','','','',false,true);
+d.add(420,418,'(574)','<div class="nodetag">(574)</div></span>&nbsp;&nbsp;कजाखस्तान. कजाखस्तान गणराज्य. कजाख रेस्पुबलिकासी (कज़ाकस्तान रेस्प्वब्लिकासी). रेस्पुबलिका कजाखस्तान','(574)','कजाखस्तान. कजाखस्तान गणराज्य. कजाख रेस्पुबलिकासी (कज़ाकस्तान रेस्प्वब्लिकासी). रेस्पुबलिका कजाखस्तान','','','',false,true);
+d.add(421,418,'(575.1)','<div class="nodetag">(575.1)</div></span>&nbsp;&nbsp;उजबेकिस्तान. उजबेकिस्तान गणराज्य. ओजबेकिस्तान रेस्पुबलिकासी','(575.1)','उजबेकिस्तान. उजबेकिस्तान गणराज्य. ओजबेकिस्तान रेस्पुबलिकासी','','','',false,true);
+d.add(422,418,'(575.2)','<div class="nodetag">(575.2)</div></span>&nbsp;&nbsp;किर्गिजस्तान. किर्गिजस्तान गणराज्य. किर्गिज़ रेस्पुबलिकासी. किर्गिज़स्कया रेस्पुबलिका','(575.2)','किर्गिजस्तान. किर्गिजस्तान गणराज्य. किर्गिज़ रेस्पुबलिकासी. किर्गिज़स्कया रेस्पुबलिका','','','',false,true);
+d.add(423,418,'(575.3)','<div class="nodetag">(575.3)</div></span>&nbsp;&nbsp;ताजिकिस्तान. ताजिकिस्तान गणराज्य. जुम्हुरि तोजिकिस्तॉन','(575.3)','ताजिकिस्तान. ताजिकिस्तान गणराज्य. जुम्हुरि तोजिकिस्तॉन','','','',false,true);
+d.add(424,418,'(575.4)','<div class="nodetag">(575.4)</div></span>&nbsp;&nbsp;तुर्कमेनिस्तान. तुर्कमेनिस्तान गणराज्य. तुर्कमेनिया. तुर्कमेनिस्तान रेस्पुबलिकासी','(575.4)','तुर्कमेनिस्तान. तुर्कमेनिस्तान गणराज्य. तुर्कमेनिया. तुर्कमेनिस्तान रेस्पुबलिकासी','','','',false,true);
+d.add(425,380,'(581)','<div class="nodetag">(581)</div></span>&nbsp;&nbsp;अफगानिस्तान. अफगानिस्तान इस्लामी गणराज्य. अफगानिस्तान. जोम्हुरि-ये इस्लामी-ये अफगानिस्तान. द अफगानिस्तान इस्लामी जम्हुरियत','(581)','अफगानिस्तान. अफगानिस्तान इस्लामी गणराज्य. अफगानिस्तान. जोम्हुरि-ये इस्लामी-ये अफगानिस्तान. द अफगानिस्तान इस्लामी जम्हुरियत','','','',false,true);
+d.add(426,380,'(59)','<div class="nodetag">(59)</div></span>&nbsp;&nbsp;दक्षिण पूर्वी एशियाई देश','(59)','दक्षिण पूर्वी एशियाई देश','','','',false,true);
+d.add(427,426,'(591)','<div class="nodetag">(591)</div></span>&nbsp;&nbsp;म्यानमार(बर्मा). म्यानमार संघ. म्यानमार नैनग्नगनदाव. प्यी-दौंग-ज़ू म्यान-मा नैंग-न्गन-दाव','(591)','म्यानमार(बर्मा). म्यानमार संघ. म्यानमार नैनग्नगनदाव. प्यी-दौंग-ज़ू म्यान-मा नैंग-न्गन-दाव','','','',false,true);
+d.add(428,426,'(592.3)','<div class="nodetag">(592.3)</div></span>&nbsp;&nbsp;सिंगापुर. सिंगापुर गणराज्य','(592.3)','सिंगापुर. सिंगापुर गणराज्य','','','',false,true);
+d.add(429,426,'(592.6)','<div class="nodetag">(592.6)</div></span>&nbsp;&nbsp;ब्रूनेइ. ब्रूनेइ दारूस्सलम राज्य. नेगारा ब्रूनेइ दारूस्सलम','(592.6)','ब्रूनेइ. ब्रूनेइ दारूस्सलम राज्य. नेगारा ब्रूनेइ दारूस्सलम','','','',false,true);
+d.add(430,426,'(593)','<div class="nodetag">(593)</div></span>&nbsp;&nbsp;थाइलैंड. थाइलैंड साम्राज्य. मुयांग थाई (प्राथेस थाई). रात्चा अनाचक थाई','(593)','थाइलैंड. थाइलैंड साम्राज्य. मुयांग थाई (प्राथेस थाई). रात्चा अनाचक थाई','','','',false,true);
+d.add(431,426,'(594)','<div class="nodetag">(594)</div></span>&nbsp;&nbsp;इंडोनेशिया. इंडोनेशिया गणराज्य. रिपब्लिक इंडोनेशिया','(594)','इंडोनेशिया. इंडोनेशिया गणराज्य. रिपब्लिक इंडोनेशिया','','','',false,true);
+d.add(432,426,'(595)','<div class="nodetag">(595)</div></span>&nbsp;&nbsp;मलेशिया. मलेशिया संघ. पेरसेकुतुवान तनह मलेशिया','(595)','मलेशिया. मलेशिया संघ. पेरसेकुतुवान तनह मलेशिया','','','',false,true);
+d.add(433,426,'(596/598)','<div class="nodetag">(596/598)</div></span>&nbsp;&nbsp;भारत-चीन','(596/598)','भारत-चीन','','','',false,true);
+d.add(434,433,'(596)','<div class="nodetag">(596)</div></span>&nbsp;&nbsp;कम्बोडिया. कम्बोडिया साम्राज्य.','(596)','कम्बोडिया. कम्बोडिया साम्राज्य.','','','',false,true);
+d.add(435,433,'(597)','<div class="nodetag">(597)</div></span>&nbsp;&nbsp;वियतनाम. समाजवादी गणराज्य वियतनाम. कॉग होवा ज़ा हो ई चु नघिया वियत नाम','(597)','वियतनाम. समाजवादी गणराज्य वियतनाम. कॉग होवा ज़ा हो ई चु नघिया वियत नाम','','','',false,true);
+d.add(436,433,'(598)','<div class="nodetag">(598)</div></span>&nbsp;&nbsp;लाओस. लाओ लोकतान्त्रिक गणराज्य. मियूंग लाओ. सथालनलत पाक्साथिपताई पक्साक्सॉव लावो','(598)','लाओस. लाओ लोकतान्त्रिक गणराज्य. मियूंग लाओ. सथालनलत पाक्साथिपताई पक्साक्सॉव लावो','','','',false,true);
+d.add(437,426,'(599)','<div class="nodetag">(599)</div></span>&nbsp;&nbsp;फिलीपिंस. फिलीपिंस गणराज्य. रिपब्लिका न्ग फिलिपीनास.','(599)','फिलीपिंस. फिलीपिंस गणराज्य. रिपब्लिका न्ग फिलिपीनास.','','','',false,true);
+d.add(438,326,'(6)','<div class="nodetag">(6)</div></span>&nbsp;&nbsp;अफ्रीका','(6)','अफ्रीका','','','',false,true);
+d.add(439,438,'(61)','<div class="nodetag">(61)</div></span>&nbsp;&nbsp;उत्तरी अफ्रीकी राज्य. मघरेब. बार्बरी राज्य.','(61)','उत्तरी अफ्रीकी राज्य. मघरेब. बार्बरी राज्य.','','','',false,true);
+d.add(440,439,'(611)','<div class="nodetag">(611)</div></span>&nbsp;&nbsp;ट्यूनिशीया. ट्यूनिशीया गणराज्य. अल-जम्हूरिया. अल-ट्यूनिशीया.','(611)','ट्यूनिशीया. ट्यूनिशीया गणराज्य. अल-जम्हूरिया. अल-ट्यूनिशीया.','','','',false,true);
+d.add(441,439,'(612)','<div class="nodetag">(612)</div></span>&nbsp;&nbsp;लीबीया. ग्रेट समाजवादी राष्ट्र की लीबीयन अरबजम्हीरिया. लीबीया. अल-जम्हिरिया अल-अरबिया अल-लीबीया अस्-सा बिया अल-इस्तिराकिया अल-उज्मा','(612)','लीबीया. ग्रेट समाजवादी राष्ट्र की लीबीयन अरबजम्हीरिया. लीबीया. अल-जम्हिरिया अल-अरबिया अल-लीबीया अस्-सा बिया अल-इस्तिराकिया अल-उज्मा','','','',false,true);
+d.add(442,438,'(620)','<div class="nodetag">(620)</div></span>&nbsp;&nbsp;मिस्र. मिस्र का अरब गणराज्य. मिस्र (मिसर). गुम्हुरियातू मिस्र इ-अरबिया','(620)','मिस्र. मिस्र का अरब गणराज्य. मिस्र (मिसर). गुम्हुरियातू मिस्र इ-अरबिया','','','',false,true);
+d.add(443,438,'(624)','<div class="nodetag">(624)</div></span>&nbsp;&nbsp;सूडान. सूडान गणराज्य. अल-सूडान. जूम्हूरियत अस-सूडान.','(624)','सूडान. सूडान गणराज्य. अल-सूडान. जूम्हूरियत अस-सूडान.','','','',false,true);
+d.add(444,443,'(624.1)','<div class="nodetag">(624.1)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Sudan. al-Sūdān. Repubic of the Sudan. Jumhūriyyat as-Sūdān</span>','(624.1)','Sudan. al-Sūdān. Repubic of the Sudan. Jumhūriyyat as-Sūdān','','','',false,true);
+d.add(445,443,'(624.4)','<div class="nodetag">(624.4)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Republic of South Sudan</span>','(624.4)','Republic of South Sudan','','','',false,true);
+d.add(446,438,'(630)','<div class="nodetag">(630)</div></span>&nbsp;&nbsp;इथियोपिया. संघीय लोकतान्त्रिक इथियोपिया गणराज्य. इत्योप्पया.येत्योपया. फेडेरालावी डेमोक्रेसियावी रिपब्लिक','(630)','इथियोपिया. संघीय लोकतान्त्रिक इथियोपिया गणराज्य. इत्योप्पया.येत्योपया. फेडेरालावी डेमोक्रेसियावी रिपब्लिक','','','',false,true);
+d.add(447,438,'(635)','<div class="nodetag">(635)</div></span>&nbsp;&nbsp;एरिट्रिया.एरिट्रिया राज्य. एरट्रा. हागरे एरट्रा (दावलू इरिट्रिया)','(635)','एरिट्रिया.एरिट्रिया राज्य. एरट्रा. हागरे एरट्रा (दावलू इरिट्रिया)','','','',false,true);
+d.add(448,438,'(64)','<div class="nodetag">(64)</div></span>&nbsp;&nbsp;मोरक्को. मोरक्को राज्य. अल-मगरीब. अल-ममलाकातू इ-मगरिबीया.','(64)','मोरक्को. मोरक्को राज्य. अल-मगरीब. अल-ममलाकातू इ-मगरिबीया.','','','',false,true);
+d.add(449,438,'(65)','<div class="nodetag">(65)</div></span>&nbsp;&nbsp;अल्जीरिया. पीपुल्स लोकतान्त्रिक अल्जीरिया गणराज्य. अल-जाजाइर. अल-जम्हूरिया अल-जाजाइरिया अद दिमूक्रातिया अस शाबिया','(65)','अल्जीरिया. पीपुल्स लोकतान्त्रिक अल्जीरिया गणराज्य. अल-जाजाइर. अल-जम्हूरिया अल-जाजाइरिया अद दिमूक्रातिया अस शाबिया','','','',false,true);
+d.add(450,438,'(66)','<div class="nodetag">(66)</div></span>&nbsp;&nbsp;पश्चिमी अफ्रीकी राज्य और संघीयराज्य','(66)','पश्चिमी अफ्रीकी राज्य और संघीयराज्य','','','',false,true);
+d.add(451,450,'(661.2)','<div class="nodetag">(661.2)</div></span>&nbsp;&nbsp;मारिटानिया. मारिटानिया का इस्लामी गणराज्य. मारिटानिया. अल-जम्हूरिया अल-इस्लामिया अल-मारिटानिया','(661.2)','मारिटानिया. मारिटानिया का इस्लामी गणराज्य. मारिटानिया. अल-जम्हूरिया अल-इस्लामिया अल-मारिटानिया','','','',false,true);
+d.add(452,450,'(662.1)','<div class="nodetag">(662.1)</div></span>&nbsp;&nbsp;माली. माली गणराज्य. ऱिप्बलिके दू माली.','(662.1)','माली. माली गणराज्य. ऱिप्बलिके दू माली.','','','',false,true);
+d.add(453,450,'(662.5)','<div class="nodetag">(662.5)</div></span>&nbsp;&nbsp;बुरकीना फासो. पीपुल्स लोकतान्त्रिक बुरकीना फासो गणराज्य. ऱिप्बलिके देमोक्रेतिक पापुलायर दे बुरकीना फासो.','(662.5)','बुरकीना फासो. पीपुल्स लोकतान्त्रिक बुरकीना फासो गणराज्य. ऱिप्बलिके देमोक्रेतिक पापुलायर दे बुरकीना फासो.','','','',false,true);
+d.add(454,450,'(662.6)','<div class="nodetag">(662.6)</div></span>&nbsp;&nbsp;नाइजर. नाइजर गणराज्य. ऱिप्बलिके दू नाइजर.','(662.6)','नाइजर. नाइजर गणराज्य. ऱिप्बलिके दू नाइजर.','','','',false,true);
+d.add(455,450,'(663)','<div class="nodetag">(663)</div></span>&nbsp;&nbsp;सेनेगल. सेनेगल गणराज्य. ऱिप्बलिके दू सेनेगल.','(663)','सेनेगल. सेनेगल गणराज्य. ऱिप्बलिके दू सेनेगल.','','','',false,true);
+d.add(456,450,'(664)','<div class="nodetag">(664)</div></span>&nbsp;&nbsp;सियेरा लियोन. सियेरा लियोन गणराज्य.','(664)','सियेरा लियोन. सियेरा लियोन गणराज्य.','','','',false,true);
+d.add(457,450,'(665)','<div class="nodetag">(665)</div></span>&nbsp;&nbsp;ऊपरी गिनीया राज्य और क्षेत्र','(665)','ऊपरी गिनीया राज्य और क्षेत्र','','','',false,true);
+d.add(458,457,'(665.1)','<div class="nodetag">(665.1)</div></span>&nbsp;&nbsp;गैम्बिया. गैम्बिया गणराज्य.','(665.1)','गैम्बिया. गैम्बिया गणराज्य.','','','',false,true);
+d.add(459,457,'(665.2)','<div class="nodetag">(665.2)</div></span>&nbsp;&nbsp;गिनिया. गिनिया गणराज्य. ऱिप्बलिके दे गिनि.','(665.2)','गिनिया. गिनिया गणराज्य. ऱिप्बलिके दे गिनि.','','','',false,true);
+d.add(460,457,'(665.7)','<div class="nodetag">(665.7)</div></span>&nbsp;&nbsp;गुनिया बिसाव. गुनिया बिसाव गणराज्य. गिने बिसाव. ऱिप्बलिके दा गिने बिसाव.','(665.7)','गुनिया बिसाव. गुनिया बिसाव गणराज्य. गिने बिसाव. ऱिप्बलिके दा गिने बिसाव.','','','',false,true);
+d.add(461,457,'(665.8)','<div class="nodetag">(665.8)</div></span>&nbsp;&nbsp;केप वर्दे. केप वर्दे गणराज्य. ऱिप्बलिके दे केबो वर्दे.','(665.8)','केप वर्दे. केप वर्दे गणराज्य. ऱिप्बलिके दे केबो वर्दे.','','','',false,true);
+d.add(462,450,'(666.2)','<div class="nodetag">(666.2)</div></span>&nbsp;&nbsp;लाइबेरिया. लाइबेरिया गणराज्य.','(666.2)','लाइबेरिया. लाइबेरिया गणराज्य.','','','',false,true);
+d.add(463,450,'(666.8)','<div class="nodetag">(666.8)</div></span>&nbsp;&nbsp;कोटे-डि-आइवरी. कोटे-डि-आइवरी गणराज्य. आइवरी कास्ट. ऱिप्बलिके दे कोटे-डि-आइवरी.','(666.8)','कोटे-डि-आइवरी. कोटे-डि-आइवरी गणराज्य. आइवरी कास्ट. ऱिप्बलिके दे कोटे-डि-आइवरी.','','','',false,true);
+d.add(464,450,'(667)','<div class="nodetag">(667)</div></span>&nbsp;&nbsp;घाना. घाना गणराज्य.','(667)','घाना. घाना गणराज्य.','','','',false,true);
+d.add(465,450,'(668.1)','<div class="nodetag">(668.1)</div></span>&nbsp;&nbsp;टोगो. टोगो गणराज्य. ऱिप्बलिके टोगोलेज.','(668.1)','टोगो. टोगो गणराज्य. ऱिप्बलिके टोगोलेज.','','','',false,true);
+d.add(466,450,'(668.2)','<div class="nodetag">(668.2)</div></span>&nbsp;&nbsp;बेनिन. बेनिन गणराज्य. ऱिप्बलिके दू बेनिन.','(668.2)','बेनिन. बेनिन गणराज्य. ऱिप्बलिके दू बेनिन.','','','',false,true);
+d.add(467,450,'(669.1)','<div class="nodetag">(669.1)</div></span>&nbsp;&nbsp;नाइजीरिया. संघीय गणराज्य नाइजीरिया.','(669.1)','नाइजीरिया. संघीय गणराज्य नाइजीरिया.','','','',false,true);
+d.add(468,450,'(669.95)','<div class="nodetag">(669.95)</div></span>&nbsp;&nbsp;साव टोमे और प्रिन्सीप. साव टोमे और प्रिन्सीप प्रजातांत्रिक गणराज्य. रिपब्लिका देमोक्रेतिका दे साओ तोमे इ प्रिन्सीपे.','(669.95)','साव टोमे और प्रिन्सीप. साव टोमे और प्रिन्सीप प्रजातांत्रिक गणराज्य. रिपब्लिका देमोक्रेतिका दे साओ तोमे इ प्रिन्सीपे.','','','',false,true);
+d.add(469,438,'(67)','<div class="nodetag">(67)</div></span>&nbsp;&nbsp;विषुवतीय, मध्य और पूर्वी अफ्रीकी राज्य और क्षेत्र.','(67)','विषुवतीय, मध्य और पूर्वी अफ्रीकी राज्य और क्षेत्र.','','','',false,true);
+d.add(470,469,'(671.1)','<div class="nodetag">(671.1)</div></span>&nbsp;&nbsp;कैमरून. संयुक्त कैमरून गणराज्य.','(671.1)','कैमरून. संयुक्त कैमरून गणराज्य.','','','',false,true);
+d.add(471,469,'(671.8)','<div class="nodetag">(671.8)</div></span>&nbsp;&nbsp;विषुवतीय गिनिया. विषुवतीय गिनिया गणराज्य.','(671.8)','विषुवतीय गिनिया. विषुवतीय गिनिया गणराज्य.','','','',false,true);
+d.add(472,469,'(672.1)','<div class="nodetag">(672.1)</div></span>&nbsp;&nbsp;गैबोन. गैबोन गणराज्य. ऱिप्बलिके गैबोनेज.','(672.1)','गैबोन. गैबोन गणराज्य. ऱिप्बलिके गैबोनेज.','','','',false,true);
+d.add(473,469,'(672.4)','<div class="nodetag">(672.4)</div></span>&nbsp;&nbsp;काँगो (ब्राज्ञाविले). काँगो (ब्राजाविले) गणराज्य. ऱिप्बलिके दू कांगो. ऱिप्बलिका या कॉगो. ऱिप्बलिकी या कोंगो','(672.4)','काँगो (ब्राज्ञाविले). काँगो (ब्राजाविले) गणराज्य. ऱिप्बलिके दू कांगो. ऱिप्बलिका या कॉगो. ऱिप्बलिकी या कोंगो','','','',false,true);
+d.add(474,469,'(673)','<div class="nodetag">(673)</div></span>&nbsp;&nbsp;अंगोला. अंगोला गणराज्य.','(673)','अंगोला. अंगोला गणराज्य.','','','',false,true);
+d.add(475,469,'(674.1)','<div class="nodetag">(674.1)</div></span>&nbsp;&nbsp;मध्य अफ्रीकी गणराज्य.','(674.1)','मध्य अफ्रीकी गणराज्य.','','','',false,true);
+d.add(476,469,'(674.3)','<div class="nodetag">(674.3)</div></span>&nbsp;&nbsp;चाड. चाड गणराज्य.','(674.3)','चाड. चाड गणराज्य.','','','',false,true);
+d.add(477,469,'(675)','<div class="nodetag">(675)</div></span>&nbsp;&nbsp;प्रजातांत्रिक गणराज्य काँगो. रिपब्लिके डेमोक्रेटिक दू काँगो. रिपब्लिकी या कोंगो डेमोक्रेटिकी. जम्हूरी या किडेमोक्रासिया या कॉगो','(675)','प्रजातांत्रिक गणराज्य काँगो. रिपब्लिके डेमोक्रेटिक दू काँगो. रिपब्लिकी या कोंगो डेमोक्रेटिकी. जम्हूरी या किडेमोक्रासिया या कॉगो','','','',false,true);
+d.add(478,477,'(675.97)','<div class="nodetag">(675.97)</div></span>&nbsp;&nbsp;बुरून्डी. बुरून्डी गणराज्य.','(675.97)','बुरून्डी. बुरून्डी गणराज्य.','','','',false,true);
+d.add(479,477,'(675.98)','<div class="nodetag">(675.98)</div></span>&nbsp;&nbsp;रवान्डा. रवान्डा गणराज्य.','(675.98)','रवान्डा. रवान्डा गणराज्य.','','','',false,true);
+d.add(480,469,'(676.1)','<div class="nodetag">(676.1)</div></span>&nbsp;&nbsp;उगान्डा. उगान्डा गणराज्य.','(676.1)','उगान्डा. उगान्डा गणराज्य.','','','',false,true);
+d.add(481,469,'(676.2)','<div class="nodetag">(676.2)</div></span>&nbsp;&nbsp;केन्या. केन्या गणराज्य. जम्हूरी या केन्या','(676.2)','केन्या. केन्या गणराज्य. जम्हूरी या केन्या','','','',false,true);
+d.add(482,469,'(677.8)','<div class="nodetag">(677.8)</div></span>&nbsp;&nbsp;सोमालिया. सोमाली प्रजातांत्रिक गणराज्य.','(677.8)','सोमालिया. सोमाली प्रजातांत्रिक गणराज्य.','','','',false,true);
+d.add(483,469,'(677.9)','<div class="nodetag">(677.9)</div></span>&nbsp;&nbsp;ज़िबउती. ज़िबउती गणराज्य. जम्हूरिया ज़िबउती','(677.9)','ज़िबउती. ज़िबउती गणराज्य. जम्हूरिया ज़िबउती','','','',false,true);
+d.add(484,469,'(678)','<div class="nodetag">(678)</div></span>&nbsp;&nbsp;तंन्जानिया. संयुक्त तंन्जानिया गणराज्य.','(678)','तंन्जानिया. संयुक्त तंन्जानिया गणराज्य.','','','',false,true);
+d.add(485,469,'(679)','<div class="nodetag">(679)</div></span>&nbsp;&nbsp;मोजाम्बिक. मोजाम्बिक गणराज्य. ऱिप्बलिका दे मोजाम्बिक.','(679)','मोजाम्बिक. मोजाम्बिक गणराज्य. ऱिप्बलिका दे मोजाम्बिक.','','','',false,true);
+d.add(486,438,'(68)','<div class="nodetag">(68)</div></span>&nbsp;&nbsp;दक्षिणी अफ्रीकी राज्य और क्षेत्र.','(68)','दक्षिणी अफ्रीकी राज्य और क्षेत्र.','','','',false,true);
+d.add(487,486,'(680)','<div class="nodetag">(680)</div></span>&nbsp;&nbsp;दक्षिण अफ्रीका. दक्षिण अफ्रीका गणराज्य.','(680)','दक्षिण अफ्रीका. दक्षिण अफ्रीका गणराज्य.','','','',false,true);
+d.add(488,486,'(688.1)','<div class="nodetag">(688.1)</div></span>&nbsp;&nbsp;नामिबीया. नामिबीया गणराज्य.','(688.1)','नामिबीया. नामिबीया गणराज्य.','','','',false,true);
+d.add(489,486,'(688.3)','<div class="nodetag">(688.3)</div></span>&nbsp;&nbsp;बोत्सवाना. बोत्सवाना गणराज्य. लेफात्शे ला बोत्सवाना.','(688.3)','बोत्सवाना. बोत्सवाना गणराज्य. लेफात्शे ला बोत्सवाना.','','','',false,true);
+d.add(490,486,'(688.5)','<div class="nodetag">(688.5)</div></span>&nbsp;&nbsp;लिसोथो. लिसोथो राज्य. मूसो ओआ लिसोथो.','(688.5)','लिसोथो. लिसोथो राज्य. मूसो ओआ लिसोथो.','','','',false,true);
+d.add(491,486,'(688.7)','<div class="nodetag">(688.7)</div></span>&nbsp;&nbsp;स्वाजीलैण्ड(नग्वाने). स्वाजीलैण्ड राज्य. उम्बूसो वेस्वातिनी.','(688.7)','स्वाजीलैण्ड(नग्वाने). स्वाजीलैण्ड राज्य. उम्बूसो वेस्वातिनी.','','','',false,true);
+d.add(492,486,'(689.1)','<div class="nodetag">(689.1)</div></span>&nbsp;&nbsp;जिम्बाबवे. जिम्बाबवे गणराज्य.','(689.1)','जिम्बाबवे. जिम्बाबवे गणराज्य.','','','',false,true);
+d.add(493,486,'(689.4)','<div class="nodetag">(689.4)</div></span>&nbsp;&nbsp;जाम्बिया. जाम्बिया गणराज्य.','(689.4)','जाम्बिया. जाम्बिया गणराज्य.','','','',false,true);
+d.add(494,486,'(689.7)','<div class="nodetag">(689.7)</div></span>&nbsp;&nbsp;मलावी. मलावी गणराज्य.','(689.7)','मलावी. मलावी गणराज्य.','','','',false,true);
+d.add(495,438,'(69)','<div class="nodetag">(69)</div></span>&nbsp;&nbsp;भारतीय और दक्षीण अटलांटिक महासागर के दक्षिण अफ्रीकी प्रायद्वीप','(69)','भारतीय और दक्षीण अटलांटिक महासागर के दक्षिण अफ्रीकी प्रायद्वीप','','','',false,true);
+d.add(496,495,'(691)','<div class="nodetag">(691)</div></span>&nbsp;&nbsp;मेडागास्कर. मेडागास्कर प्रजातांत्रिक गणराज्य. रिपोब्लिकान-इ-मदागासिकारा.','(691)','मेडागास्कर. मेडागास्कर प्रजातांत्रिक गणराज्य. रिपोब्लिकान-इ-मदागासिकारा.','','','',false,true);
+d.add(497,495,'(694)','<div class="nodetag">(694)</div></span>&nbsp;&nbsp;उत्तरी मेडागास्कर के प्रायद्वीप.','(694)','उत्तरी मेडागास्कर के प्रायद्वीप.','','','',false,true);
+d.add(498,495,'(696)','<div class="nodetag">(696)</div></span>&nbsp;&nbsp;सियाचीलिस. सियाचीलिस गणराज्य. रिपोब्लिके-देस-सियाचीलिस.','(696)','सियाचीलिस. सियाचीलिस गणराज्य. रिपोब्लिके-देस-सियाचीलिस.','','','',false,true);
+d.add(499,495,'(697)','<div class="nodetag">(697)</div></span>&nbsp;&nbsp;ब्रीटिश भारतीय महासागरी संघ (बॉयट) (यू.के.)','(697)','ब्रीटिश भारतीय महासागरी संघ (बॉयट) (यू.के.)','','','',false,true);
+d.add(500,495,'(698)','<div class="nodetag">(698)</div></span>&nbsp;&nbsp;मस्कैरीन प्रायद्वीप,','(698)','मस्कैरीन प्रायद्वीप,','','','',false,true);
+d.add(501,500,'(698.1)','<div class="nodetag">(698.1)</div></span>&nbsp;&nbsp;रेयूनियन (फ्रॉन्स).','(698.1)','रेयूनियन (फ्रॉन्स).','','','',false,true);
+d.add(502,500,'(698.2)','<div class="nodetag">(698.2)</div></span>&nbsp;&nbsp;मॉरिशस. मॉरिशस गणराज्य. रिपब्लिक मॉरिस. रिपब्लिके दि मॉरिस','(698.2)','मॉरिशस. मॉरिशस गणराज्य. रिपब्लिक मॉरिस. रिपब्लिके दि मॉरिस','','','',false,true);
+d.add(503,495,'(699)','<div class="nodetag">(699)</div></span>&nbsp;&nbsp;दक्षिण भारतीय और दक्षिण अटलांटिक सीमांत प्रायद्वीप','(699)','दक्षिण भारतीय और दक्षिण अटलांटिक सीमांत प्रायद्वीप','','','',false,true);
+d.add(504,326,'(7/8)','<div class="nodetag">(7/8)</div></span>&nbsp;&nbsp;अमेरिका, उत्तर और दक्षिण.','(7/8)','अमेरिका, उत्तर और दक्षिण.','','','',false,true);
+d.add(505,504,'(7)','<div class="nodetag">(7)</div></span>&nbsp;&nbsp;उत्तर और मध्य अमेरिका','(7)','उत्तर और मध्य अमेरिका','','','',false,true);
+d.add(506,505,'(71)','<div class="nodetag">(71)</div></span>&nbsp;&nbsp;कनाडा','(71)','कनाडा','','','',false,true);
+d.add(507,505,'(72)','<div class="nodetag">(72)</div></span>&nbsp;&nbsp;मैक्सिको. मध्य अमेरिकी राज्य. कैरिबीयन क्षेत्र.','(72)','मैक्सिको. मध्य अमेरिकी राज्य. कैरिबीयन क्षेत्र.','','','',false,true);
+d.add(508,507,'(721/727)','<div class="nodetag">(721/727)</div></span>&nbsp;&nbsp;मैक्सिको. संयुक्त मैक्सिको राज्य. मेक्सिको(मेजिको). एस्तादोस यूनिदोस मैक्सिकानोस','(721/727)','मैक्सिको. संयुक्त मैक्सिको राज्य. मेक्सिको(मेजिको). एस्तादोस यूनिदोस मैक्सिकानोस','','','',false,true);
+d.add(509,507,'(728)','<div class="nodetag">(728)</div></span>&nbsp;&nbsp;मध्य अमेरिकी राज्य.','(728)','मध्य अमेरिकी राज्य.','','','',false,true);
+d.add(510,509,'(728.1)','<div class="nodetag">(728.1)</div></span>&nbsp;&nbsp;ग्वाटेमाला. ग्वाटेमाला गणराज्य. रिपब्लिका दे ग्वाटेमाला.','(728.1)','ग्वाटेमाला. ग्वाटेमाला गणराज्य. रिपब्लिका दे ग्वाटेमाला.','','','',false,true);
+d.add(511,509,'(728.2)','<div class="nodetag">(728.2)</div></span>&nbsp;&nbsp;बेलिजे. बेलिस.','(728.2)','बेलिजे. बेलिस.','','','',false,true);
+d.add(512,509,'(728.3)','<div class="nodetag">(728.3)</div></span>&nbsp;&nbsp;होन्डूरास. होन्डूरास गणराज्य. रिपब्लिका दे होन्डूरास.','(728.3)','होन्डूरास. होन्डूरास गणराज्य. रिपब्लिका दे होन्डूरास.','','','',false,true);
+d.add(513,509,'(728.4)','<div class="nodetag">(728.4)</div></span>&nbsp;&nbsp;एल सेल्वाडोर. एल सेल्वाडोर गणराज्य. रिपब्लिका दे एल-सल्वाडोर.','(728.4)','एल सेल्वाडोर. एल सेल्वाडोर गणराज्य. रिपब्लिका दे एल-सल्वाडोर.','','','',false,true);
+d.add(514,509,'(728.5)','<div class="nodetag">(728.5)</div></span>&nbsp;&nbsp;निकारागुआ. निकारागुआ गणराज्य. रिपब्लिका दे निकारागुआ.','(728.5)','निकारागुआ. निकारागुआ गणराज्य. रिपब्लिका दे निकारागुआ.','','','',false,true);
+d.add(515,509,'(728.6)','<div class="nodetag">(728.6)</div></span>&nbsp;&nbsp;कॉस्टा रिका. कॉस्टा रिका गणराज्य. रिपब्लिका दे कॉस्टा रिका.','(728.6)','कॉस्टा रिका. कॉस्टा रिका गणराज्य. रिपब्लिका दे कॉस्टा रिका.','','','',false,true);
+d.add(516,509,'(728.7)','<div class="nodetag">(728.7)</div></span>&nbsp;&nbsp;पनामा. पनामा गणराज्य. रिपब्लिका दे पनामा.','(728.7)','पनामा. पनामा गणराज्य. रिपब्लिका दे पनामा.','','','',false,true);
+d.add(517,507,'(729)','<div class="nodetag">(729)</div></span>&nbsp;&nbsp;कैरिबीयन क्षेत्र. वेस्ट इन्डीज (एन्टीलीस)','(729)','कैरिबीयन क्षेत्र. वेस्ट इन्डीज (एन्टीलीस)','','','',false,true);
+d.add(518,517,'(729.1/.5)','<div class="nodetag">(729.1/.5)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Greater Antilles</span>','(729.1/.5)','Greater Antilles','','','',false,true);
+d.add(519,518,'(729.1)','<div class="nodetag">(729.1)</div></span>&nbsp;&nbsp;क्यूबा. क्यूबा गणराज्य. रिपब्लिका दे क्यूबा.','(729.1)','क्यूबा. क्यूबा गणराज्य. रिपब्लिका दे क्यूबा.','','','',false,true);
+d.add(520,518,'(729.2)','<div class="nodetag">(729.2)</div></span>&nbsp;&nbsp;जमैका.','(729.2)','जमैका.','','','',false,true);
+d.add(521,518,'(729.29)','<div class="nodetag">(729.29)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Cayman Islands (UK)</span>','(729.29)','Cayman Islands (UK)','','','',false,true);
+d.add(522,518,'(729.3/.4)','<div class="nodetag">(729.3/.4)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Hispaniola</span>','(729.3/.4)','Hispaniola','','','',false,true);
+d.add(523,522,'(729.3)','<div class="nodetag">(729.3)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Dominican Republic</span>','(729.3)','Dominican Republic','','','',false,true);
+d.add(524,522,'(729.4)','<div class="nodetag">(729.4)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Haiti. Republic of Haiti</span>','(729.4)','Haiti. Republic of Haiti','','','',false,true);
+d.add(525,518,'(729.5)','<div class="nodetag">(729.5)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Puerto Rico. Commonwealth of Puerto Rico (USA)</span>','(729.5)','Puerto Rico. Commonwealth of Puerto Rico (USA)','','','',false,true);
+d.add(526,517,'(729.68)','<div class="nodetag">(729.68)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Turks and Caicos Islands (UK)</span>','(729.68)','Turks and Caicos Islands (UK)','','','',false,true);
+d.add(527,517,'(729.7/.8)','<div class="nodetag">(729.7/.8)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Lesser Antilles (Eastern Caribbean)</span>','(729.7/.8)','Lesser Antilles (Eastern Caribbean)','','','',false,true);
+d.add(528,527,'(729.7)','<div class="nodetag">(729.7)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Leeward Islands</span>','(729.7)','Leeward Islands','','','',false,true);
+d.add(529,528,'(729.71)','<div class="nodetag">(729.71)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Virgin Islands of the United States (American Virgin Islands) (USA)</span>','(729.71)','Virgin Islands of the United States (American Virgin Islands) (USA)','','','',false,true);
+d.add(530,528,'(729.724)','<div class="nodetag">(729.724)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">St Kitts-Nevis. Federation of St Kitts-Nevis</span>','(729.724)','St Kitts-Nevis. Federation of St Kitts-Nevis','','','',false,true);
+d.add(531,528,'(729.726)','<div class="nodetag">(729.726)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Antigua and Barbuda</span>','(729.726)','Antigua and Barbuda','','','',false,true);
+d.add(532,528,'(729.727)','<div class="nodetag">(729.727)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Montserrat (UK)</span>','(729.727)','Montserrat (UK)','','','',false,true);
+d.add(533,528,'(729.74)','<div class="nodetag">(729.74)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">French territories in Lesser Antilles</span>','(729.74)','French territories in Lesser Antilles','','','',false,true);
+d.add(534,533,'(729.741)','<div class="nodetag">(729.741)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Guadeloupe (region and department) (France)</span>','(729.741)','Guadeloupe (region and department) (France)','','','',false,true);
+d.add(535,533,'(729.745)','<div class="nodetag">(729.745)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Martinique (region and department) (France)</span>','(729.745)','Martinique (region and department) (France)','','','',false,true);
+d.add(536,527,'(729.8)','<div class="nodetag">(729.8)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Windward Islands</span>','(729.8)','Windward Islands','','','',false,true);
+d.add(537,536,'(729.821)','<div class="nodetag">(729.821)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Dominica. Commonwealth of Dominica</span>','(729.821)','Dominica. Commonwealth of Dominica','','','',false,true);
+d.add(538,536,'(729.822)','<div class="nodetag">(729.822)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Saint Lucia. State of Saint Lucia</span>','(729.822)','Saint Lucia. State of Saint Lucia','','','',false,true);
+d.add(539,536,'(729.824)','<div class="nodetag">(729.824)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Saint Vincent. Saint Vincent and the Grenadines</span>','(729.824)','Saint Vincent. Saint Vincent and the Grenadines','','','',false,true);
+d.add(540,536,'(729.828)','<div class="nodetag">(729.828)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Grenada</span>','(729.828)','Grenada','','','',false,true);
+d.add(541,536,'(729.86)','<div class="nodetag">(729.86)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Barbados</span>','(729.86)','Barbados','','','',false,true);
+d.add(542,536,'(729.87)','<div class="nodetag">(729.87)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Trinidad and Tobago. Republic of Trinidad and Tobago</span>','(729.87)','Trinidad and Tobago. Republic of Trinidad and Tobago','','','',false,true);
+d.add(543,536,'(729.88)','<div class="nodetag">(729.88)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Netherlands territories in Lesser Antilles (Caribees). Nederlandse Antillen. Antia Hulandes</span>','(729.88)','Netherlands territories in Lesser Antilles (Caribees). Nederlandse Antillen. Antia Hulandes','','','',false,true);
+d.add(544,543,'(729.885)','<div class="nodetag">(729.885)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Aruba (Kingdom of the Netherlands)</span>','(729.885)','Aruba (Kingdom of the Netherlands)','','','',false,true);
+d.add(545,517,'(729.9)','<div class="nodetag">(729.9)</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Bermudas (Somers Islands) (UK)</span>','(729.9)','Bermudas (Somers Islands) (UK)','','','',false,true);
+d.add(546,505,'(73)','<div class="nodetag">(73)</div></span>&nbsp;&nbsp;संयुक्त गणराज्य अमेरिका (यूएसए)','(73)','संयुक्त गणराज्य अमेरिका (यूएसए)','','','',false,true);
+d.add(547,504,'(8)','<div class="nodetag">(8)</div></span>&nbsp;&nbsp;दक्षिण अमेरिका. दक्षिण अमेरिका के राज्य और क्षेत्र. लैटिन अमेरिका','(8)','दक्षिण अमेरिका. दक्षिण अमेरिका के राज्य और क्षेत्र. लैटिन अमेरिका','','','',false,true);
+d.add(548,547,'(81)','<div class="nodetag">(81)</div></span>&nbsp;&nbsp;ब्राजील. ब्राजील संघीय गणराज्य. रिपब्लिका फेडरेटिवा दो ब्रासील.','(81)','ब्राजील. ब्राजील संघीय गणराज्य. रिपब्लिका फेडरेटिवा दो ब्रासील.','','','',false,true);
+d.add(549,547,'(82)','<div class="nodetag">(82)</div></span>&nbsp;&nbsp;आर्जेन्टिना. आर्जेन्टिना गणराज्य. रिपब्लिका आर्जेन्टिना.','(82)','आर्जेन्टिना. आर्जेन्टिना गणराज्य. रिपब्लिका आर्जेन्टिना.','','','',false,true);
+d.add(550,547,'(83)','<div class="nodetag">(83)</div></span>&nbsp;&nbsp;चीली. चीली गणराज्य. रिपब्लिका दे चीले.','(83)','चीली. चीली गणराज्य. रिपब्लिका दे चीले.','','','',false,true);
+d.add(551,547,'(84)','<div class="nodetag">(84)</div></span>&nbsp;&nbsp;बोलिविया. बोलिविया के प्लूरीनेशनल राज्य. एस्तादो प्लूरीनेशनल दे बोलिविया. बुल्बिया मामल्लक्ता. वुलिव्या सुयु. तेता वोलिवीया.','(84)','बोलिविया. बोलिविया के प्लूरीनेशनल राज्य. एस्तादो प्लूरीनेशनल दे बोलिविया. बुल्बिया मामल्लक्ता. वुलिव्या सुयु. तेता वोलिवीया.','','','',false,true);
+d.add(552,547,'(85)','<div class="nodetag">(85)</div></span>&nbsp;&nbsp;पेरु.पेरु गणराज्य.','(85)','पेरु.पेरु गणराज्य.','','','',false,true);
+d.add(553,547,'(862)','<div class="nodetag">(862)</div></span>&nbsp;&nbsp;कोलम्बिया.कोलम्बिया गणराज्य.','(862)','कोलम्बिया.कोलम्बिया गणराज्य.','','','',false,true);
+d.add(554,547,'(866)','<div class="nodetag">(866)</div></span>&nbsp;&nbsp;इक्वाडोर.इक्वाडोर गणराज्य.','(866)','इक्वाडोर.इक्वाडोर गणराज्य.','','','',false,true);
+d.add(555,547,'(87)','<div class="nodetag">(87)</div></span>&nbsp;&nbsp;वेनेजुइला.वेनेजुइला का बोलिवैरियन गणराज्य.','(87)','वेनेजुइला.वेनेजुइला का बोलिवैरियन गणराज्य.','','','',false,true);
+d.add(556,547,'(88)','<div class="nodetag">(88)</div></span>&nbsp;&nbsp;गुएना.','(88)','गुएना.','','','',false,true);
+d.add(557,556,'(881)','<div class="nodetag">(881)</div></span>&nbsp;&nbsp;गुएना. संघीय गुएना गणराज्य.','(881)','गुएना. संघीय गुएना गणराज्य.','','','',false,true);
+d.add(558,556,'(882)','<div class="nodetag">(882)</div></span>&nbsp;&nbsp;फ्रेंच गुएना. गुएना के विभाग. गुएना फ़्रान्सिस. गुएना (डिपार्टमेन्ट डिआउट्री-मर)','(882)','फ्रेंच गुएना. गुएना के विभाग. गुएना फ़्रान्सिस. गुएना (डिपार्टमेन्ट डिआउट्री-मर)','','','',false,true);
+d.add(559,556,'(883)','<div class="nodetag">(883)</div></span>&nbsp;&nbsp;सूरीनाम. सूरीनाम गणराज्य. स्रनन. रिपब्लिक सुरिनाम','(883)','सूरीनाम. सूरीनाम गणराज्य. स्रनन. रिपब्लिक सुरिनाम','','','',false,true);
+d.add(560,547,'(893)','<div class="nodetag">(893)</div></span>&nbsp;&nbsp;पराग्वे. पराग्वे गणराज्य. रिपब्लिका देल पराग्वे. तेता परागुई','(893)','पराग्वे. पराग्वे गणराज्य. रिपब्लिका देल पराग्वे. तेता परागुई','','','',false,true);
+d.add(561,547,'(899)','<div class="nodetag">(899)</div></span>&nbsp;&nbsp;उरूग्वे. उरूग्वे के पूर्वी गणराज्य. रिपब्लिका ओरियेन्टल देल उरूग्वे','(899)','उरूग्वे. उरूग्वे के पूर्वी गणराज्य. रिपब्लिका ओरियेन्टल देल उरूग्वे','','','',false,true);
+d.add(562,326,'(9)','<div class="nodetag">(9)</div></span>&nbsp;&nbsp;दक्षिणी प्रशांत एवं ऑस्ट्रेलिया के राज्य एवं क्षेत्र. आर्कटिक. अंटार्कटिका','(9)','दक्षिणी प्रशांत एवं ऑस्ट्रेलिया के राज्य एवं क्षेत्र. आर्कटिक. अंटार्कटिका','','','',false,true);
+d.add(563,562,'(931)','<div class="nodetag">(931)</div></span>&nbsp;&nbsp;न्यूज़ीलैंड','(931)','न्यूज़ीलैंड','','','',false,true);
+d.add(564,562,'(932/935)','<div class="nodetag">(932/935)</div></span>&nbsp;&nbsp;मेलानेसिया. मेलानेसिया के राज्य एवं क्षेत्र','(932/935)','मेलानेसिया. मेलानेसिया के राज्य एवं क्षेत्र','','','',false,true);
+d.add(565,562,'(94)','<div class="nodetag">(94)</div></span>&nbsp;&nbsp;आस्ट्रेलिया. आस्ट्रेलियाई राष्ट्र-मंडल','(94)','आस्ट्रेलिया. आस्ट्रेलियाई राष्ट्र-मंडल','','','',false,true);
+d.add(566,562,'(954)','<div class="nodetag">(954)</div></span>&nbsp;&nbsp;पापुआ न्यू गिनी. पापुआ न्यू गिनी के स्वतंत्र राज्य','(954)','पापुआ न्यू गिनी. पापुआ न्यू गिनी के स्वतंत्र राज्य','','','',false,true);
+d.add(567,562,'(961/964)','<div class="nodetag">(961/964)</div></span>&nbsp;&nbsp;पोलिनेशिया. पोलिनेशिया के राज्य एवं क्षेत्र','(961/964)','पोलिनेशिया. पोलिनेशिया के राज्य एवं क्षेत्र','','','',false,true);
+d.add(568,562,'(966/968)','<div class="nodetag">(966/968)</div></span>&nbsp;&nbsp;माइक्रोनेशिया. माइक्रोनेशिया के राज्य एवं क्षेत्र','(966/968)','माइक्रोनेशिया. माइक्रोनेशिया के राज्य एवं क्षेत्र','','','',false,true);
+d.add(569,562,'(97)','<div class="nodetag">(97)</div></span>&nbsp;&nbsp;प्रशांत महासागर के पृथक द्वीप','(97)','प्रशांत महासागर के पृथक द्वीप','','','',false,true);
+d.add(570,562,'(98)','<div class="nodetag">(98)</div></span>&nbsp;&nbsp;आर्कटिक प्रदेश','(98)','आर्कटिक प्रदेश','','','',false,true);
+d.add(571,570,'(988)','<div class="nodetag">(988)</div></span>&nbsp;&nbsp;ग्रीनलैण्ड (डेनमार्क)','(988)','ग्रीनलैण्ड (डेनमार्क)','','','',false,true);
+d.add(572,562,'(99)','<div class="nodetag">(99)</div></span>&nbsp;&nbsp;अन्टार्कटिक','(99)','अन्टार्कटिक','','','',false,true);
+d.add(573,0,'(=...)','<div class="nodetag">(=...)</div></span>&nbsp;&nbsp;मानव प्रजाति, जातीय समूह और राष्ट्रीयता की साझा सहायक सारणियां. 1एफ तालिका','(=...)','मानव प्रजाति, जातीय समूह और राष्ट्रीयता की साझा सहायक सारणियां. 1एफ तालिका','','','',false,true);
+d.add(574,573,'(=01)','<div class="nodetag">(=01)</div></span>&nbsp;&nbsp;मानव प्रजाति समूह','(=01)','मानव प्रजाति समूह','','','',false,true);
+d.add(575,574,'(=011)','<div class="nodetag">(=011)</div></span>&nbsp;&nbsp;यूरोपीय महाद्वीपीय प्रजाति समूह','(=011)','यूरोपीय महाद्वीपीय प्रजाति समूह','','','',false,true);
+d.add(576,574,'(=012)','<div class="nodetag">(=012)</div></span>&nbsp;&nbsp;एशियाई महाद्वीपीय प्रजाति समूह','(=012)','एशियाई महाद्वीपीय प्रजाति समूह','','','',false,true);
+d.add(577,574,'(=013)','<div class="nodetag">(=013)</div></span>&nbsp;&nbsp;अफ्रीकी महाद्वीपीय प्रजाति समूह','(=013)','अफ्रीकी महाद्वीपीय प्रजाति समूह','','','',false,true);
+d.add(578,574,'(=014)','<div class="nodetag">(=014)</div></span>&nbsp;&nbsp;समुद्री प्रजाति समूह','(=014)','समुद्री प्रजाति समूह','','','',false,true);
+d.add(579,574,'(=017)','<div class="nodetag">(=017)</div></span>&nbsp;&nbsp;मूल अमेरिकी महाद्वीपीय प्रजाति समूह','(=017)','मूल अमेरिकी महाद्वीपीय प्रजाति समूह','','','',false,true);
+d.add(580,573,'(=1/=8)','<div class="nodetag">(=1/=8)</div></span>&nbsp;&nbsp;भाषाई-सांस्कृतिक समूह, जातीय समूह, निवासी','(=1/=8)','भाषाई-सांस्कृतिक समूह, जातीय समूह, निवासी','','','',false,true);
+d.add(581,580,'(=1/=2)','<div class="nodetag">(=1/=2)</div></span>&nbsp;&nbsp;हिन्द-यूरोपिय लोग','(=1/=2)','हिन्द-यूरोपिय लोग','','','',false,true);
+d.add(582,581,'(=13)','<div class="nodetag">(=13)</div></span>&nbsp;&nbsp;रोम के देशवासी \'लैटिन\' निवासी','(=13)','रोम के देशवासी \'लैटिन\' निवासी','','','',false,true);
+d.add(583,573,'(=1:1/9)','<div class="nodetag">(=1:1/9)</div></span>&nbsp;&nbsp;विशेष स्थानों के साथ जुड़े लोग','(=1:1/9)','विशेष स्थानों के साथ जुड़े लोग','','','',false,true);
+d.add(584,0,'"..."','<div class="nodetag">"..."</div></span>&nbsp;&nbsp;समय की आम सहायक सारण. 1जी तालिका','"..."','समय की आम सहायक सारण. 1जी तालिका','','','',false,true);
+d.add(585,584,'"0/2"','<div class="nodetag">"0/2"</div></span>&nbsp;&nbsp;तारीख और समय की सीमाओं की गणना (सीई या एडी) पारंपरिक ईसाई (ग्रेगोरी) में','"0/2"','तारीख और समय की सीमाओं की गणना (सीई या एडी) पारंपरिक ईसाई (ग्रेगोरी) में','','','',false,true);
+d.add(586,585,'"0"','<div class="nodetag">"0"</div></span>&nbsp;&nbsp;प्रथम सहस्राब्दी सीई','"0"','प्रथम सहस्राब्दी सीई','','','',false,true);
+d.add(587,585,'"1"','<div class="nodetag">"1"</div></span>&nbsp;&nbsp;द्वितीय सहस्राब्दी सीई','"1"','द्वितीय सहस्राब्दी सीई','','','',false,true);
+d.add(588,585,'"2"','<div class="nodetag">"2"</div></span>&nbsp;&nbsp;तृतीय सहस्राब्दी सीई','"2"','तृतीय सहस्राब्दी सीई','','','',false,true);
+d.add(589,584,'"3/7"','<div class="nodetag">"3/7"</div></span>&nbsp;&nbsp;समय विभाजन में ईसाई तारीखें (ग्रेगोरी) के अलावा अन्य गणना','"3/7"','समय विभाजन में ईसाई तारीखें (ग्रेगोरी) के अलावा अन्य गणना','','','',false,true);
+d.add(590,589,'"3"','<div class="nodetag">"3"</div></span>&nbsp;&nbsp;पारंपरिक समय विभाजन और उप-विभाजन: क्रमांकित, नामांकित, आदि','"3"','पारंपरिक समय विभाजन और उप-विभाजन: क्रमांकित, नामांकित, आदि','','','',false,true);
+d.add(591,590,'"32"','<div class="nodetag">"32"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">The year. Seasons and other divisions of the year</span>','"32"','The year. Seasons and other divisions of the year','','','',false,true);
+d.add(592,591,'"321/324"','<div class="nodetag">"321/324"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Seasons</span>','"321/324"','Seasons','','','',false,true);
+d.add(593,592,'"321"','<div class="nodetag">"321"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Spring</span>','"321"','Spring','','','',false,true);
+d.add(594,592,'"322"','<div class="nodetag">"322"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Summer</span>','"322"','Summer','','','',false,true);
+d.add(595,592,'"323"','<div class="nodetag">"323"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Autumn (fall)</span>','"323"','Autumn (fall)','','','',false,true);
+d.add(596,592,'"324"','<div class="nodetag">"324"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Winter</span>','"324"','Winter','','','',false,true);
+d.add(597,591,'"325"','<div class="nodetag">"325"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Quarters (quarter years, trimesters)</span>','"325"','Quarters (quarter years, trimesters)','','','',false,true);
+d.add(598,591,'"327"','<div class="nodetag">"327"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Months</span>','"327"','Months','','','',false,true);
+d.add(599,591,'"328"','<div class="nodetag">"328"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Weeks</span>','"328"','Weeks','','','',false,true);
+d.add(600,591,'"329"','<div class="nodetag">"329"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Days</span>','"329"','Days','','','',false,true);
+d.add(601,590,'"34"','<div class="nodetag">"34"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Day and night phenomena. Hours or times of day</span>','"34"','Day and night phenomena. Hours or times of day','','','',false,true);
+d.add(602,601,'"344"','<div class="nodetag">"344"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Daytime. Daylight hours</span>','"344"','Daytime. Daylight hours','','','',false,true);
+d.add(603,601,'"345"','<div class="nodetag">"345"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Night-time. Hours of darkness or semi-darkness</span>','"345"','Night-time. Hours of darkness or semi-darkness','','','',false,true);
+d.add(604,590,'"36"','<div class="nodetag">"36"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Times of peace, war, danger, emergency, difficulties</span>','"36"','Times of peace, war, danger, emergency, difficulties','','','',false,true);
+d.add(605,604,'"362"','<div class="nodetag">"362"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Peacetime. Time of no danger</span>','"362"','Peacetime. Time of no danger','','','',false,true);
+d.add(606,604,'"363"','<div class="nodetag">"363"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Time of danger, threat</span>','"363"','Time of danger, threat','','','',false,true);
+d.add(607,604,'"364"','<div class="nodetag">"364"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Wartime</span>','"364"','Wartime','','','',false,true);
+d.add(608,604,'"367"','<div class="nodetag">"367"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Times according to volume of use, load, demand</span>','"367"','Times according to volume of use, load, demand','','','',false,true);
+d.add(609,590,'"37"','<div class="nodetag">"37"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Time of work activity, occupation, production, daily routine</span>','"37"','Time of work activity, occupation, production, daily routine','','','',false,true);
+d.add(610,609,'"372"','<div class="nodetag">"372"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Working hours. Service hours. Time of occupation</span>','"372"','Working hours. Service hours. Time of occupation','','','',false,true);
+d.add(611,609,'"377"','<div class="nodetag">"377"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Rest and recreation time. Spare time. Free time. Time outside working hours</span>','"377"','Rest and recreation time. Spare time. Free time. Time outside working hours','','','',false,true);
+d.add(612,590,'"38"','<div class="nodetag">"38"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Holidays. Festive and commemorative occasions</span>','"38"','Holidays. Festive and commemorative occasions','','','',false,true);
+d.add(613,612,'"382"','<div class="nodetag">"382"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Religious holidays, festive and commemorative occasions</span>','"382"','Religious holidays, festive and commemorative occasions','','','',false,true);
+d.add(614,612,'"383"','<div class="nodetag">"383"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Public, national or regional holidays (other than religious)</span>','"383"','Public, national or regional holidays (other than religious)','','','',false,true);
+d.add(615,612,'"385"','<div class="nodetag">"385"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Personal private holidays, vacation or leave time</span>','"385"','Personal private holidays, vacation or leave time','','','',false,true);
+d.add(616,589,'"4"','<div class="nodetag">"4"</div></span>&nbsp;&nbsp;अवधि. समय की अवधि. अवधि. सत्र. आयु और आयु समूहों','"4"','अवधि. समय की अवधि. अवधि. सत्र. आयु और आयु समूहों','','','',false,true);
+d.add(617,616,'"40"','<div class="nodetag">"40"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Relative duration, period, term</span>','"40"','Relative duration, period, term','','','',false,true);
+d.add(618,617,'"401"','<div class="nodetag">"401"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Life or lifetime with definite term or deadline. Period of durability</span>','"401"','Life or lifetime with definite term or deadline. Period of durability','','','',false,true);
+d.add(619,617,'"403"','<div class="nodetag">"403"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Short duration. Short-term</span>','"403"','Short duration. Short-term','','','',false,true);
+d.add(620,617,'"404"','<div class="nodetag">"404"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Medium duration. Medium-term</span>','"404"','Medium duration. Medium-term','','','',false,true);
+d.add(621,617,'"405"','<div class="nodetag">"405"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Long duration. Long-term</span>','"405"','Long duration. Long-term','','','',false,true);
+d.add(622,617,'"408"','<div class="nodetag">"408"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Indefinite, unlimited duration. Without specific term or deadline</span>','"408"','Indefinite, unlimited duration. Without specific term or deadline','','','',false,true);
+d.add(623,616,'"41"','<div class="nodetag">"41"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Duration up to one day</span>','"41"','Duration up to one day','','','',false,true);
+d.add(624,616,'"42"','<div class="nodetag">"42"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Duration expressed in days</span>','"42"','Duration expressed in days','','','',false,true);
+d.add(625,616,'"43"','<div class="nodetag">"43"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Duration expressed in weeks</span>','"43"','Duration expressed in weeks','','','',false,true);
+d.add(626,616,'"44"','<div class="nodetag">"44"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Duration expressed in months</span>','"44"','Duration expressed in months','','','',false,true);
+d.add(627,616,'"45"','<div class="nodetag">"45"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Duration expressed in years, centuries, millenniums, etc.</span>','"45"','Duration expressed in years, centuries, millenniums, etc.','','','',false,true);
+d.add(628,616,'"46"','<div class="nodetag">"46"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Ages and age groups of persons, animate and inanimate things</span>','"46"','Ages and age groups of persons, animate and inanimate things','','','',false,true);
+d.add(629,628,'"462"','<div class="nodetag">"462"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Age in days</span>','"462"','Age in days','','','',false,true);
+d.add(630,628,'"463"','<div class="nodetag">"463"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Age in weeks</span>','"463"','Age in weeks','','','',false,true);
+d.add(631,628,'"464"','<div class="nodetag">"464"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Age in months</span>','"464"','Age in months','','','',false,true);
+d.add(632,628,'"465"','<div class="nodetag">"465"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Age expressed in years and decades</span>','"465"','Age expressed in years and decades','','','',false,true);
+d.add(633,589,'"5"','<div class="nodetag">"5"</div></span>&nbsp;&nbsp;आवधिकता. आवृत्ति. निर्दिष्ट अंतराल पर पुनरावृत्ति.','"5"','आवधिकता. आवृत्ति. निर्दिष्ट अंतराल पर पुनरावृत्ति.','','','',false,true);
+d.add(634,633,'"51"','<div class="nodetag">"51"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Recurring at intervals of less than a day. More frequent than daily</span>','"51"','Recurring at intervals of less than a day. More frequent than daily','','','',false,true);
+d.add(635,633,'"52"','<div class="nodetag">"52"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Recurring at intervals of 1 day or more (expressed in days)</span>','"52"','Recurring at intervals of 1 day or more (expressed in days)','','','',false,true);
+d.add(636,633,'"53"','<div class="nodetag">"53"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Recurring at intervals of 1 week or more (expressed in weeks)</span>','"53"','Recurring at intervals of 1 week or more (expressed in weeks)','','','',false,true);
+d.add(637,633,'"54"','<div class="nodetag">"54"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Recurring at intervals of 1 month or more (expressed in months)</span>','"54"','Recurring at intervals of 1 month or more (expressed in months)','','','',false,true);
+d.add(638,633,'"55"','<div class="nodetag">"55"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Recurring at intervals of 1 year or more (expressed in years, centuries, millenniums)</span>','"55"','Recurring at intervals of 1 year or more (expressed in years, centuries, millenniums)','','','',false,true);
+d.add(639,633,'"56"','<div class="nodetag">"56"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Recurring every generation, lifetime, etc. Life-cycle</span>','"56"','Recurring every generation, lifetime, etc. Life-cycle','','','',false,true);
+d.add(640,589,'"6"','<div class="nodetag">"6"</div></span>&nbsp;&nbsp;भूवैज्ञानिकी, पुरातात्विक और सांस्कृतिक समय प्रभाग','"6"','भूवैज्ञानिकी, पुरातात्विक और सांस्कृतिक समय प्रभाग','','','',false,true);
+d.add(641,640,'"61/62"','<div class="nodetag">"61/62"</div></span>&nbsp;&nbsp;भूवैज्ञानिकी (अश्म विज्ञान संबंधी/ जैविक/ पुरातन) समय विभाजन','"61/62"','भूवैज्ञानिकी (अश्म विज्ञान संबंधी/ जैविक/ पुरातन) समय विभाजन','','','',false,true);
+d.add(642,641,'"61"','<div class="nodetag">"61"</div></span>&nbsp;&nbsp;पूर्व-कैंब्रियन से मेसोज़ोइक (मध्य पाषाण जैविक) (600 से 70 एम वाइ बी पी से अधिक) तक','"61"','पूर्व-कैंब्रियन से मेसोज़ोइक (मध्य पाषाण जैविक) (600 से 70 एम वाइ बी पी से अधिक) तक','','','',false,true);
+d.add(643,641,'"62"','<div class="nodetag">"62"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Phanerozoic (542 MYBP to present) (eon)</span>','"62"','Phanerozoic (542 MYBP to present) (eon)','','','',false,true);
+d.add(644,643,'"621"','<div class="nodetag">"621"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Palaeozoic / Paleozoic (542-251 MYBP) (era)</span>','"621"','Palaeozoic / Paleozoic (542-251 MYBP) (era)','','','',false,true);
+d.add(645,643,'"622"','<div class="nodetag">"622"</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Mesozoic (251-65.5 MYBP) (era)</span>','"622"','Mesozoic (251-65.5 MYBP) (era)','','','',false,true);
+d.add(646,643,'"628"','<div class="nodetag">"628"</div></span>&nbsp;&nbsp;सिनोज़ोइक (केइनोज़ोइक). निओज़ोइक (70 एम वाइ बी पी से वर्तमान तक)','"628"','सिनोज़ोइक (केइनोज़ोइक). निओज़ोइक (70 एम वाइ बी पी से वर्तमान तक)','','','',false,true);
+d.add(647,641,'"63"','<div class="nodetag">"63"</div></span>&nbsp;&nbsp;पुरातत्व, प्रागैतिहासिक, आद्य-ऐतिहासिक समय और युग','"63"','पुरातत्व, प्रागैतिहासिक, आद्य-ऐतिहासिक समय और युग','','','',false,true);
+d.add(648,640,'"67/69"','<div class="nodetag">"67/69"</div></span>&nbsp;&nbsp;समय गणनाएं: सार्वभौमिक, धर्मनिरपेक्ष, गैर-ईसाई धार्मिक','"67/69"','समय गणनाएं: सार्वभौमिक, धर्मनिरपेक्ष, गैर-ईसाई धार्मिक','','','',false,true);
+d.add(649,648,'"67"','<div class="nodetag">"67"</div></span>&nbsp;&nbsp;सार्वभौमिक समय गणना. वर्तमान से पहले','"67"','सार्वभौमिक समय गणना. वर्तमान से पहले','','','',false,true);
+d.add(650,648,'"68"','<div class="nodetag">"68"</div></span>&nbsp;&nbsp;सार्वभौमिक और ईसाई (ग्रेगोरियन) कैलेंडर के अलावा लौकिक समय गणनाएं','"68"','सार्वभौमिक और ईसाई (ग्रेगोरियन) कैलेंडर के अलावा लौकिक समय गणनाएं','','','',false,true);
+d.add(651,648,'"69"','<div class="nodetag">"69"</div></span>&nbsp;&nbsp;गैर ईसाई (गैर ग्रेगोरियन) धार्मिक समय गणनाओं में दिनांक और समय इकाइयाँ','"69"','गैर ईसाई (गैर ग्रेगोरियन) धार्मिक समय गणनाओं में दिनांक और समय इकाइयाँ','','','',false,true);
+d.add(652,589,'"7"','<div class="nodetag">"7"</div></span>&nbsp;&nbsp;समय तथ्य. समय के दृग्विषय','"7"','समय तथ्य. समय के दृग्विषय','','','',false,true);
+d.add(653,0,'-0...','<div class="nodetag">-0...</div></span>&nbsp;&nbsp;सामान्य विशेषताओं के साझा सहायक सारणियां : गुण, सामग्री, संबंध प्रक्रियाओं / और व्यक्तियों. 1के तालिका.','-0...','सामान्य विशेषताओं के साझा सहायक सारणियां : गुण, सामग्री, संबंध प्रक्रियाओं / और व्यक्तियों. 1के तालिका.','','','',false,true);
+d.add(654,653,'-02','<div class="nodetag">-02</div></span>&nbsp;&nbsp;संपत्तियों की साझा सहायक सारणियां. 1के तालिका','-02','संपत्तियों की साझा सहायक सारणियां. 1के तालिका','','','',false,true);
+d.add(655,654,'-021','<div class="nodetag">-021</div></span>&nbsp;&nbsp;अस्तित्व के गुण','-021','अस्तित्व के गुण','','','',false,true);
+d.add(656,654,'-022','<div class="nodetag">-022</div></span>&nbsp;&nbsp;परिमाण, श्रेणी, मात्रा, संख्या, अस्थायी मूल्य, आयाम, आकार के गुण','-022','परिमाण, श्रेणी, मात्रा, संख्या, अस्थायी मूल्य, आयाम, आकार के गुण','','','',false,true);
+d.add(657,654,'-023','<div class="nodetag">-023</div></span>&nbsp;&nbsp;आकृति के गुण','-023','आकृति के गुण','','','',false,true);
+d.add(658,654,'-024','<div class="nodetag">-024</div></span>&nbsp;&nbsp;संरचना के गुण. स्थिति के गुण','-024','संरचना के गुण. स्थिति के गुण','','','',false,true);
+d.add(659,654,'-025','<div class="nodetag">-025</div></span>&nbsp;&nbsp;परिपाटी के गुण','-025','परिपाटी के गुण','','','',false,true);
+d.add(660,654,'-026','<div class="nodetag">-026</div></span>&nbsp;&nbsp;कार्य एवं संचार के गुण','-026','कार्य एवं संचार के गुण','','','',false,true);
+d.add(661,654,'-027','<div class="nodetag">-027</div></span>&nbsp;&nbsp;परिचालन गुण','-027','परिचालन गुण','','','',false,true);
+d.add(662,654,'-028','<div class="nodetag">-028</div></span>&nbsp;&nbsp;शैली और प्रस्तुति के गुण','-028','शैली और प्रस्तुति के गुण','','','',false,true);
+d.add(663,662,'-028.41','<div class="nodetag">-028.41</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Popular</span>','-028.41','Popular','','','',false,true);
+d.add(664,662,'-028.42','<div class="nodetag">-028.42</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Learned. Scholarly. Academic</span>','-028.42','Learned. Scholarly. Academic','','','',false,true);
+d.add(665,662,'-028.43','<div class="nodetag">-028.43</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Critical. Non-critical. Uncritical</span>','-028.43','Critical. Non-critical. Uncritical','','','',false,true);
+d.add(666,662,'-028.44','<div class="nodetag">-028.44</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Descriptive</span>','-028.44','Descriptive','','','',false,true);
+d.add(667,662,'-028.45','<div class="nodetag">-028.45</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Analytical</span>','-028.45','Analytical','','','',false,true);
+d.add(668,662,'-028.46','<div class="nodetag">-028.46</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Experiential. Pragmatic</span>','-028.46','Experiential. Pragmatic','','','',false,true);
+d.add(669,662,'-028.47','<div class="nodetag">-028.47</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Anecdotal</span>','-028.47','Anecdotal','','','',false,true);
+d.add(670,662,'-028.5','<div class="nodetag">-028.5</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Properties of authorship</span>','-028.5','Properties of authorship','','','',false,true);
+d.add(671,662,'-028.6','<div class="nodetag">-028.6</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Properties of order, arrangement</span>','-028.6','Properties of order, arrangement','','','',false,true);
+d.add(672,654,'-029','<div class="nodetag">-029</div></span>&nbsp;&nbsp;अन्य मुख्य वर्गों से व्युत्पन्न गुण','-029','अन्य मुख्य वर्गों से व्युत्पन्न गुण','','','',false,true);
+d.add(673,653,'-03','<div class="nodetag">-03</div></span>&nbsp;&nbsp;पदार्थों की सामान्य सहायक तालिका. 1क तालिका','-03','पदार्थों की सामान्य सहायक तालिका. 1क तालिका','','','',false,true);
+d.add(674,673,'-032','<div class="nodetag">-032</div></span>&nbsp;&nbsp;प्राकृतिक रूप में मिलने वाले खनिज पदार्थ','-032','प्राकृतिक रूप में मिलने वाले खनिज पदार्थ','','','',false,true);
+d.add(675,673,'-033','<div class="nodetag">-033</div></span>&nbsp;&nbsp;निर्मित खनिज-आधारित पदार्थ','-033','निर्मित खनिज-आधारित पदार्थ','','','',false,true);
+d.add(676,673,'-034','<div class="nodetag">-034</div></span>&nbsp;&nbsp;धातुऐं','-034','धातुऐं','','','',false,true);
+d.add(677,673,'-035','<div class="nodetag">-035</div></span>&nbsp;&nbsp;कार्बनिक मूल पदार्थ','-035','कार्बनिक मूल पदार्थ','','','',false,true);
+d.add(678,673,'-036','<div class="nodetag">-036</div></span>&nbsp;&nbsp;वृहत्-आणविक पदार्थ. रबर एवं प्लास्टिक','-036','वृहत्-आणविक पदार्थ. रबर एवं प्लास्टिक','','','',false,true);
+d.add(679,673,'-037','<div class="nodetag">-037</div></span>&nbsp;&nbsp;कपड़ा. रेशम. सूत. वस्त्र','-037','कपड़ा. रेशम. सूत. वस्त्र','','','',false,true);
+d.add(680,653,'-04','<div class="nodetag">-04</div></span>&nbsp;&nbsp;संबंधों की साझा सहायक तालिका, प्रक्रियाऐं एवं संचालन. 1क तालिका','-04','संबंधों की साझा सहायक तालिका, प्रक्रियाऐं एवं संचालन. 1क तालिका','','','',false,true);
+d.add(681,680,'-042','<div class="nodetag">-042</div></span>&nbsp;&nbsp;चरण संबंध','-042','चरण संबंध','','','',false,true);
+d.add(682,681,'-042.1','<div class="nodetag">-042.1</div></span>&nbsp;&nbsp;पूर्वाग्रह चरण','-042.1','पूर्वाग्रह चरण','','','',false,true);
+d.add(683,681,'-042.2','<div class="nodetag">-042.2</div></span>&nbsp;&nbsp;तुलना के चरण','-042.2','तुलना के चरण','','','',false,true);
+d.add(684,681,'-042.3','<div class="nodetag">-042.3</div></span>&nbsp;&nbsp;प्रभाव के चरण','-042.3','प्रभाव के चरण','','','',false,true);
+d.add(685,681,'-042.4','<div class="nodetag">-042.4</div></span>&nbsp;&nbsp;उपकरण के चरण. प्रतिपादन के चरण','-042.4','उपकरण के चरण. प्रतिपादन के चरण','','','',false,true);
+d.add(686,681,'-042.5/.8','<div class="nodetag">-042.5/.8</div></span>&nbsp;&nbsp;विभिन्न तत्वों के बीच रिश्तों का विवरण देने वाले अन्य शब्द','-042.5/.8','विभिन्न तत्वों के बीच रिश्तों का विवरण देने वाले अन्य शब्द','','','',false,true);
+d.add(687,680,'-043','<div class="nodetag">-043</div></span>&nbsp;&nbsp;सामान्य प्रक्रियाएं','-043','सामान्य प्रक्रियाएं','','','',false,true);
+d.add(688,687,'-043.8/.9','<div class="nodetag">-043.8/.9</div></span>&nbsp;&nbsp;अस्तित्व से संबंधित प्रक्रियाएं','-043.8/.9','अस्तित्व से संबंधित प्रक्रियाएं','','','',false,true);
+d.add(689,680,'-044.3','<div class="nodetag">-044.3</div></span>&nbsp;&nbsp;मूल्य से संबंधित प्रक्रियाएं','-044.3','मूल्य से संबंधित प्रक्रियाएं','','','',false,true);
+d.add(690,680,'-044.4','<div class="nodetag">-044.4</div></span>&nbsp;&nbsp;क्रम एवं अनुक्रम से संबंधित प्रक्रियाएं','-044.4','क्रम एवं अनुक्रम से संबंधित प्रक्रियाएं','','','',false,true);
+d.add(691,680,'-044.5','<div class="nodetag">-044.5</div></span>&nbsp;&nbsp;परिमाण से संबंधित प्रक्रियाएं','-044.5','परिमाण से संबंधित प्रक्रियाएं','','','',false,true);
+d.add(692,680,'-044.6','<div class="nodetag">-044.6</div></span>&nbsp;&nbsp;संख्या एवं वर्ग से संबंधित प्रक्रियाएं','-044.6','संख्या एवं वर्ग से संबंधित प्रक्रियाएं','','','',false,true);
+d.add(693,680,'-044.7','<div class="nodetag">-044.7</div></span>&nbsp;&nbsp;समय और कालक्रम से संबंधित प्रक्रियाएं','-044.7','समय और कालक्रम से संबंधित प्रक्रियाएं','','','',false,true);
+d.add(694,680,'-044.8','<div class="nodetag">-044.8</div></span>&nbsp;&nbsp;आयाम (पैमाना) से संबंधित प्रक्रियाएं','-044.8','आयाम (पैमाना) से संबंधित प्रक्रियाएं','','','',false,true);
+d.add(695,680,'-044.9','<div class="nodetag">-044.9</div></span>&nbsp;&nbsp;आकार से संबंधित प्रक्रियाएं','-044.9','आकार से संबंधित प्रक्रियाएं','','','',false,true);
+d.add(696,680,'-045','<div class="nodetag">-045</div></span>&nbsp;&nbsp;अवस्था, व्यवस्था, संचार, भौतिक गुण, पदार्थ की अवस्थाओं से संबंधित प्रक्रियाएं','-045','अवस्था, व्यवस्था, संचार, भौतिक गुण, पदार्थ की अवस्थाओं से संबंधित प्रक्रियाएं','','','',false,true);
+d.add(697,680,'-047/-049','<div class="nodetag">-047/-049</div></span>&nbsp;&nbsp;सामान्य कार्य एवं गतिविधियों','-047/-049','सामान्य कार्य एवं गतिविधियों','','','',false,true);
+d.add(698,653,'-05','<div class="nodetag">-05</div></span>&nbsp;&nbsp;व्यक्तियों और व्यक्तिगत विशेषताओं के साझा सहायक सारणियां, 1के तालिका','-05','व्यक्तियों और व्यक्तिगत विशेषताओं के साझा सहायक सारणियां, 1के तालिका','','','',false,true);
+d.add(699,698,'-051','<div class="nodetag">-051</div></span>&nbsp;&nbsp;एजेंटों, कार्यकर्ता, व्यवसायी (अध्ययन, निर्माण, सेवा, आदि से संबंधित) के रूप में व्यक्ति','-051','एजेंटों, कार्यकर्ता, व्यवसायी (अध्ययन, निर्माण, सेवा, आदि से संबंधित) के रूप में व्यक्ति','','','',false,true);
+d.add(700,698,'-052','<div class="nodetag">-052</div></span>&nbsp;&nbsp;लक्षित ग्राहक, ग्राहकों, उपयोगकर्ताओं के रूप में व्यक्ति (अध्ययन, सेवा, आदि से संबंधित)','-052','लक्षित ग्राहक, ग्राहकों, उपयोगकर्ताओं के रूप में व्यक्ति (अध्ययन, सेवा, आदि से संबंधित)','','','',false,true);
+d.add(701,698,'-053','<div class="nodetag">-053</div></span>&nbsp;&nbsp;आयु या आयु समूहों के अनुसार व्यक्ति','-053','आयु या आयु समूहों के अनुसार व्यक्ति','','','',false,true);
+d.add(702,701,'-053.1','<div class="nodetag">-053.1</div></span>&nbsp;&nbsp;मनुष्य जाति, जन्मे या अजन्मे, जीवित या मृत','-053.1','मनुष्य जाति, जन्मे या अजन्मे, जीवित या मृत','','','',false,true);
+d.add(703,701,'-053.2','<div class="nodetag">-053.2</div></span>&nbsp;&nbsp;बच्चे एवं शिशु (सामान्यतः)','-053.2','बच्चे एवं शिशु (सामान्यतः)','','','',false,true);
+d.add(704,701,'-053.8','<div class="nodetag">-053.8</div></span>&nbsp;&nbsp;वयस्क. बालिग','-053.8','वयस्क. बालिग','','','',false,true);
+d.add(705,701,'-053.9','<div class="nodetag">-053.9</div></span>&nbsp;&nbsp;बूढ़े व्यक्ति. बुज़ुर्ग व्यक्ति. वरिष्ठ नागरिक','-053.9','बूढ़े व्यक्ति. बुज़ुर्ग व्यक्ति. वरिष्ठ नागरिक','','','',false,true);
+d.add(706,698,'-054','<div class="nodetag">-054</div></span>&nbsp;&nbsp;जातीय विशेषताओं, राष्ट्रीयता, नागरिकता आदि के अनुसार व्यक्ति','-054','जातीय विशेषताओं, राष्ट्रीयता, नागरिकता आदि के अनुसार व्यक्ति','','','',false,true);
+d.add(707,706,'-054.4','<div class="nodetag">-054.4</div></span>&nbsp;&nbsp;निवासी (राष्ट्रीय या गैर राष्ट्रीय)','-054.4','निवासी (राष्ट्रीय या गैर राष्ट्रीय)','','','',false,true);
+d.add(708,706,'-054.5','<div class="nodetag">-054.5</div></span>&nbsp;&nbsp;नागरिक. देश के नागरिक','-054.5','नागरिक. देश के नागरिक','','','',false,true);
+d.add(709,706,'-054.6','<div class="nodetag">-054.6</div></span>&nbsp;&nbsp;गैर नागरिक. विदेशी. परलौकिक','-054.6','गैर नागरिक. विदेशी. परलौकिक','','','',false,true);
+d.add(710,706,'-054.7','<div class="nodetag">-054.7</div></span>&nbsp;&nbsp;निष्कासित. निर्वासित. प्रत्यावर्तित. प्रवासी. राज्य/देश-रहित व्यक्ति','-054.7','निष्कासित. निर्वासित. प्रत्यावर्तित. प्रवासी. राज्य/देश-रहित व्यक्ति','','','',false,true);
+d.add(711,698,'-055','<div class="nodetag">-055</div></span>&nbsp;&nbsp;लिंग एवं सगोत्रता के अनुसार व्यक्ति','-055','लिंग एवं सगोत्रता के अनुसार व्यक्ति','','','',false,true);
+d.add(712,711,'-055.1','<div class="nodetag">-055.1</div></span>&nbsp;&nbsp;पुरुष गण. पुरुष','-055.1','पुरुष गण. पुरुष','','','',false,true);
+d.add(713,711,'-055.2','<div class="nodetag">-055.2</div></span>&nbsp;&nbsp;स्त्री गण. स्त्री','-055.2','स्त्री गण. स्त्री','','','',false,true);
+d.add(714,711,'-055.3','<div class="nodetag">-055.3</div></span>&nbsp;&nbsp;लैंगिक अभिविन्यास के अनुसार व्यक्ति','-055.3','लैंगिक अभिविन्यास के अनुसार व्यक्ति','','','',false,true);
+d.add(715,711,'-055.5','<div class="nodetag">-055.5</div></span>&nbsp;&nbsp;माता पिता या आरोही रिश्तों के अनुसार व्यक्ति. पूर्वज','-055.5','माता पिता या आरोही रिश्तों के अनुसार व्यक्ति. पूर्वज','','','',false,true);
+d.add(716,711,'-055.6','<div class="nodetag">-055.6</div></span>&nbsp;&nbsp;संतानीय अथवा वंशानुगत संबंधों के अनुसार व्यक्ति','-055.6','संतानीय अथवा वंशानुगत संबंधों के अनुसार व्यक्ति','','','',false,true);
+d.add(717,711,'-055.7','<div class="nodetag">-055.7</div></span>&nbsp;&nbsp;आनुशंगिक संबंधों के अनुसार व्यक्ति','-055.7','आनुशंगिक संबंधों के अनुसार व्यक्ति','','','',false,true);
+d.add(718,698,'-056','<div class="nodetag">-056</div></span>&nbsp;&nbsp;संघटन, स्वास्थ्य, स्वभाव, वंशानुगत या अन्य लक्षण के अनुसार व्यक्ति','-056','संघटन, स्वास्थ्य, स्वभाव, वंशानुगत या अन्य लक्षण के अनुसार व्यक्ति','','','',false,true);
+d.add(719,718,'-056.1','<div class="nodetag">-056.1</div></span>&nbsp;&nbsp;व्यक्तियों सामान्य संविधान स्वभाव, या वर्ण के अनुसार','-056.1','व्यक्तियों सामान्य संविधान स्वभाव, या वर्ण के अनुसार','','','',false,true);
+d.add(720,718,'-056.2','<div class="nodetag">-056.2</div></span>&nbsp;&nbsp;भौतिक स्थिति एवं स्वास्थ्य के अनुसार व्यक्ति','-056.2','भौतिक स्थिति एवं स्वास्थ्य के अनुसार व्यक्ति','','','',false,true);
+d.add(721,718,'-056.3','<div class="nodetag">-056.3</div></span>&nbsp;&nbsp;बुद्धिमत्ता और मानसिक या मनोवैज्ञानिक स्थिति के अनुसार व्यक्ति','-056.3','बुद्धिमत्ता और मानसिक या मनोवैज्ञानिक स्थिति के अनुसार व्यक्ति','','','',false,true);
+d.add(722,718,'-056.4','<div class="nodetag">-056.4</div></span>&nbsp;&nbsp;स्वभाव, प्रवृत्ति के अनुसार व्यक्ति','-056.4','स्वभाव, प्रवृत्ति के अनुसार व्यक्ति','','','',false,true);
+d.add(723,698,'-057','<div class="nodetag">-057</div></span>&nbsp;&nbsp;व्यवसाय, काम, आजीविका, शिक्षा के अनुसार व्यक्ति','-057','व्यवसाय, काम, आजीविका, शिक्षा के अनुसार व्यक्ति','','','',false,true);
+d.add(724,723,'-057.1','<div class="nodetag">-057.1</div></span>&nbsp;&nbsp;काम, रोजगार, प्रशासनिक स्थिति के अनुसार व्यक्ति','-057.1','काम, रोजगार, प्रशासनिक स्थिति के अनुसार व्यक्ति','','','',false,true);
+d.add(725,723,'-057.2','<div class="nodetag">-057.2</div></span>&nbsp;&nbsp;तकनीकी कार्यकर्ता. कार्यकर्ता. श्रमिक (शारीरिक परिश्रम करने वाले कार्यकर्ता)','-057.2','तकनीकी कार्यकर्ता. कार्यकर्ता. श्रमिक (शारीरिक परिश्रम करने वाले कार्यकर्ता)','','','',false,true);
+d.add(726,723,'-057.3','<div class="nodetag">-057.3</div></span>&nbsp;&nbsp;लिपिक, प्रशासनिक कार्यकर्ता. क्लर्क. कार्यालय स्टाफ (सफ़ेदपोश कार्यकर्ता)','-057.3','लिपिक, प्रशासनिक कार्यकर्ता. क्लर्क. कार्यालय स्टाफ (सफ़ेदपोश कार्यकर्ता)','','','',false,true);
+d.add(727,723,'-057.4','<div class="nodetag">-057.4</div></span>&nbsp;&nbsp;पेशेवर अथवा शैक्षिक कार्यकर्ता','-057.4','पेशेवर अथवा शैक्षिक कार्यकर्ता','','','',false,true);
+d.add(728,723,'-057.5','<div class="nodetag">-057.5</div></span>&nbsp;&nbsp;कार्यस्थल, रोजगार के लिए कार्यस्थल आदि के संबंध में व्यक्ति. उद्यम से संबंधित व्यक्ति','-057.5','कार्यस्थल, रोजगार के लिए कार्यस्थल आदि के संबंध में व्यक्ति. उद्यम से संबंधित व्यक्ति','','','',false,true);
+d.add(729,723,'-057.6','<div class="nodetag">-057.6</div></span>&nbsp;&nbsp;अधिवास और उससे संबंधित कार्य या अन्य गतिविधियों के अनुसार व्यक्ति','-057.6','अधिवास और उससे संबंधित कार्य या अन्य गतिविधियों के अनुसार व्यक्ति','','','',false,true);
+d.add(730,723,'-057.7','<div class="nodetag">-057.7</div></span>&nbsp;&nbsp;आय स्रोतों या बीमा के अनुसार व्यक्ति','-057.7','आय स्रोतों या बीमा के अनुसार व्यक्ति','','','',false,true);
+d.add(731,723,'-057.8','<div class="nodetag">-057.8</div></span>&nbsp;&nbsp;शिक्षण, प्रशिक्षण, अनुभव के अनुसार व्यक्ति','-057.8','शिक्षण, प्रशिक्षण, अनुभव के अनुसार व्यक्ति','','','',false,true);
+d.add(732,723,'-057.9','<div class="nodetag">-057.9</div></span>&nbsp;&nbsp;शासनात्मक कार्यों के अनुसार व्यक्ति','-057.9','शासनात्मक कार्यों के अनुसार व्यक्ति','','','',false,true);
+d.add(733,698,'-058','<div class="nodetag">-058</div></span>&nbsp;&nbsp;सामाजिक वर्ग, नागरिक स्थिति के अनुसार व्यक्ति','-058','सामाजिक वर्ग, नागरिक स्थिति के अनुसार व्यक्ति','','','',false,true);
+d.add(734,733,'-058.1','<div class="nodetag">-058.1</div></span>&nbsp;&nbsp;सामाजिक वर्ग अथवा स्थिति के अनुसार व्यक्ति','-058.1','सामाजिक वर्ग अथवा स्थिति के अनुसार व्यक्ति','','','',false,true);
+d.add(735,733,'-058.3','<div class="nodetag">-058.3</div></span>&nbsp;&nbsp;आर्थिक श्रेणियों (अर्थ, सुरक्षा, अन्य अधिकारों) के अनुसार व्यक्ति','-058.3','आर्थिक श्रेणियों (अर्थ, सुरक्षा, अन्य अधिकारों) के अनुसार व्यक्ति','','','',false,true);
+d.add(736,733,'-058.5','<div class="nodetag">-058.5</div></span>&nbsp;&nbsp;अत्यल्प सामाजिक आर्थिक श्रेणियों से संबंधित व्यक्ति. सीमांत समूह','-058.5','अत्यल्प सामाजिक आर्थिक श्रेणियों से संबंधित व्यक्ति. सीमांत समूह','','','',false,true);
+d.add(737,733,'-058.6','<div class="nodetag">-058.6</div></span>&nbsp;&nbsp;परिस्थितियों से पीड़ित व्यक्ति','-058.6','परिस्थितियों से पीड़ित व्यक्ति','','','',false,true);
+d.add(738,733,'-058.7','<div class="nodetag">-058.7</div></span>&nbsp;&nbsp;निर्भर व्यक्ति. आश्रित','-058.7','निर्भर व्यक्ति. आश्रित','','','',false,true);
+d.add(739,733,'-058.8','<div class="nodetag">-058.8</div></span>&nbsp;&nbsp;शादी के अनुसार व्यक्ति, परिवार या अन्य नागरिक का दर्जा','-058.8','शादी के अनुसार व्यक्ति, परिवार या अन्य नागरिक का दर्जा','','','',false,true);
+d.config.useSelection = false;
+d.config.inOrder = true;
+d.config.useIcons = false;
+document.write(d);
+//-->
+</script>
+</div>
+</div><div id="expandbox" onclick="expandbox(); return false;">&nbsp;</div>
+<div id="recordbox" class="debugbkg">
+<div class="fronthint">रिकार्ड देखने के लिए बाँए तरफ के वर्ग को क्लिक करें</div>
+</div>
+
+        <div id="footer">
+            <div class="footersectionleft">
+                The UDC Summary (UDCS) provides a selection of around 2,600 classes from the whole scheme which comprises more than 70,000 entries.
+                Please send questions and suggestions to <a href="mailto:udcs@udcc.org?subject=UDC Summary Enquiry">udcs@udcc.org</a><br><br>
+	            <p>
+		            The data provided in this Summary is released under the <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative Commons Attribution Share Alike 3.0 license</a> <a href="../about.htm">[more]</a>
+	            </p>
+            </div>
+            <div class="footermiddle">
+                <a href="http://www.udcc.org"><img src="../images/udclogowhite.png" border="0"></a>
+            </div>
+			<div class="footerright">
+                For complete UDC schedules see <a href="http://www.udc-hub.com/">UDC Online Hub</a><br/><a href="http://www.udc-hub.com/"><img width="60" height="35" src="../images/udclogo.png"/></a>
+
+			</div>
+        </div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-13138465-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>

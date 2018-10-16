@@ -1,0 +1,654 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>UDC Summary</title>
+    <link rel="stylesheet" href="../reset.css" type="text/css" />
+    <link rel="stylesheet" href="../udc2000.css" type="text/css" />
+	    <link rel="StyleSheet" href="dtree2.css" type="text/css" />
+	    <script type="text/javascript" src="dtree.js"></script>
+	    <script type="text/javascript" src="udcdisplay_9.js"></script>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+</head>
+
+<body >
+<div id="centercontainer" class="debugbkg">
+    <div id="titlebox" class="debugbkg">
+		<div id="rightbox">
+        	<div id="languagecount">57 languages</div>
+            <div id="languagebox">
+            <select id="selectedlang" style="vertical-align: middle;" onchange="location = this.options[this.selectedIndex].value;">
+			<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=af&pr=Y">Afrikaans (Afrikaans) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sq&pr=Y">Albanian (Shqip) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=anp&pr=Y">Angika (अंगिका) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ar&pr=Y">Arabic (العربية) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hy&pr=Y">Armenian (հայերեն) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=eu&pr=Y">Basque (Euskara) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=be&pr=Y">Belarusian (Беларуская) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bn&pr=Y">Bengali (বাংলা) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bho&pr=Y">Bhojpuri (भोजपुरी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=bg&pr=Y">Bulgarian (Български) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ca&pr=Y">Catalan (Català) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=chi&pr=Y">Chinese (中文) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hr&pr=Y">Croatian (Hrvatski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=cs&pr=Y">Czech (Čeština) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=da&pr=Y">Danish (Dansk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=nl&pr=Y">Dutch (Nederlands) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=en&pr=Y">English (English) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=eo&pr=Y">Esperanto (Esperanto) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=et&pr=Y">Estonian (Eesti) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=fi&pr=Y">Finnish (Suomi) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=fr&pr=Y">French (Français) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=gl&pr=Y">Galician (Galego) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ka&pr=Y">Georgian (ქართული) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=de&pr=Y">German (Deutsch) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=el&pr=Y">Greek (Ελληνικά) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hi&pr=Y">Hindi (हिन्दी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=hu&pr=Y">Hungarian (Magyar) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=id&pr=Y">Indonesian (Bahasa Ind) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ga&pr=Y">Irish (Gaeilge) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=it&pr=Y">Italian (Italiano) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ja&pr=Y">Japanese (日本語) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=kn&pr=Y">Kannada (ಕನ್ನಡ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=kk&pr=Y">Kazakh (Қазақ тілі) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=lv&pr=Y">Latvian (Latviešu) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=lt&pr=Y">Lithuanian (lietuvių) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=mk&pr=Y">Macedonian (македонски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ml&pr=Y">Malayalam (മലയാളം) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=mr&pr=Y">Marathi (मराठी) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=no&pr=Y">Norwegian (Norsk) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pl&pr=Y">Polish (Polski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pt&pr=Y">Portuguese (Português) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=pa&pr=Y">Punjabi (ਪੰਜਾਬੀ) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ro&pr=Y">Romanian (Româna) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ru&pr=Y" selected>Russian (Pусский) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sa&pr=Y">Sanskrit (Saṃskṛtam) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sr&pr=Y">Serbian (Српски) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=si&pr=Y">Sinhala (සිංහල) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sk&pr=Y">Slovak (Slovenský) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sl&pr=Y">Slovenian (Slovenski) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=es&pr=Y">Spanish (Español) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=sv&pr=Y">Swedish (Svenska) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=ta&pr=Y">Tamil (தமிழ்) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=te&pr=Y">Telugu (తెలుగు) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=tr&pr=Y">Turkish (Türkçe) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=uk&pr=Y">Ukrainian (Yкраї́нська) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=uz&pr=Y">Uzbek (oʻzbek) </option>
+<option style="unicode-bidi: bidi-override; direction: ltr" value="/php/index.php?tag=6&lang=vi&pr=Y">Vietnamese (tiếng Việt) </option>
+            </select>
+            </div>
+            </div>
+        </div>
+		<div id="menubox" class="debugbkg">
+            <ul class="menu boldmenu">
+<li><a href="index.php@lang=ru">ВЕРХ</a></li>
+<li><a href="index.php@tag=--&amp;lang=ru">ЗНАКИ</a></li>
+<li><a href="index.php@tag=---&amp;lang=ru">ОПРЕДЕЛИТЕЛИ</a></li>
+<li><a href="index.php@tag=0&amp;lang=ru">0</a></li>
+<li><a href="index.php@tag=1&amp;lang=ru">1</a></li>
+<li><a href="index.php@tag=2&amp;lang=ru">2</a></li>
+<li><a href="index.php@tag=3&amp;lang=ru">3</a></li>
+<li><a  class="vacant" href="index.php@tag=6&amp;lang=ru#">4</a></li>
+<li><a href="index.php@tag=5&amp;lang=ru">5</a></li>
+<li><a href="index.php@tag=6&amp;lang=ru">6</a></li>
+<li><a href="index.php@tag=7&amp;lang=ru">7</a></li>
+<li><a href="index.php@tag=8&amp;lang=ru">8</a></li>
+<li><a href="index.php@tag=9&amp;lang=ru">9</a></li>
+</ul>
+<input type="hidden" id="if_loading" name="if_loading" value="Загружается"/>
+<input type="hidden" id="if_lang" name="if_lang" value="8"/>
+<ul class="rightmenu boldmenu">
+<li><a href="../translation.htm">ПЕРЕВОДЫ</a></li>
+<li><a href="index.php@tag=6&amp;lang=ru#" title="Under Development">СООТВЕТСТВИЯ</a></li>
+<li><a href="../exports.htm" title="Data Exports">ЭКСПОРТ</a></li>
+<li><a href="index.php@tag=6&amp;lang=ru#" title="Under Development">АЛФАВИТ</a></li>
+<li><a href="index.php@tag=6&amp;lang=ru#" title="Under Development">РУКОВОДСТВО</a></li>
+<li><a href="../about.htm" title="About the UDC Summary">АННОТАЦИЯ</a></li>
+</ul>
+
+        </div>
+		<input type="hidden" id="leftWidth" value="420"/><input type="hidden" id="rightWidth" value="522"/>
+		<div id="classmarkbox" class="debugbkg">
+
+<div id="openclosemenu"><a href="javascript: d.openAll();">&nbsp;развернуть всё</a> | <a href="javascript: d.closeAll();">свернуть всё</a></div>
+<div id="classtree">
+<script type="text/javascript">
+<!--
+d = new dTree('d');
+d.config.hrefIsClick = true;
+d.add(0,-1,'6','<span class="nodetag">6</span>&nbsp;&nbsp;ПРИКЛАДНЫЕ НАУКИ. МЕДИЦИНА. ТЕХНОЛОГИЯ','6','','','','',false,true);
+d.add(1,0,'60','<div class="nodetag">60</div></span>&nbsp;&nbsp;Биотехнология','60','Биотехнология','','','',false,true);
+d.add(2,1,'601','<div class="nodetag">601</div></span>&nbsp;&nbsp;Основные положения','601','Основные положения','','','',false,true);
+d.add(3,1,'602','<div class="nodetag">602</div></span>&nbsp;&nbsp;Процессы и оборудование','602','Процессы и оборудование','','','',false,true);
+d.add(4,1,'604','<div class="nodetag">604</div></span>&nbsp;&nbsp;Продукты','604','Продукты','','','',false,true);
+d.add(5,1,'606','<div class="nodetag">606</div></span>&nbsp;&nbsp;Применение биотехнологии','606','Применение биотехнологии','','','',false,true);
+d.add(6,1,'608','<div class="nodetag">608</div></span>&nbsp;&nbsp;Последствия применеия. Юридический, экономический, моральный аспекты','608','Последствия применеия. Юридический, экономический, моральный аспекты','','','',false,true);
+d.add(7,0,'61','<div class="nodetag">61</div></span>&nbsp;&nbsp;Mедицинские науки','61','Mедицинские науки','','','',false,true);
+d.add(8,7,'611/612','<div class="nodetag">611/612</div></span>&nbsp;&nbsp;Биология человека','611/612','Биология человека','','','',false,true);
+d.add(9,8,'611','<div class="nodetag">611</div></span>&nbsp;&nbsp;Анатомия. Анатомия человека. Сравнительная анатомия','611','Анатомия. Анатомия человека. Сравнительная анатомия','','','',false,true);
+d.add(10,8,'612','<div class="nodetag">612</div></span>&nbsp;&nbsp;Физиология. Сравнительная физиология','612','Физиология. Сравнительная физиология','','','',false,true);
+d.add(11,10,'612.1/.8','<div class="nodetag">612.1/.8</div></span>&nbsp;&nbsp;Систематическая физиология','612.1/.8','Систематическая физиология','','','',false,true);
+d.add(12,11,'612.1','<div class="nodetag">612.1</div></span>&nbsp;&nbsp;Кровообращение. Кровь','612.1','Кровообращение. Кровь','','','',false,true);
+d.add(13,11,'612.2','<div class="nodetag">612.2</div></span>&nbsp;&nbsp;Дыхание. Дыхательная система','612.2','Дыхание. Дыхательная система','','','',false,true);
+d.add(14,11,'612.3','<div class="nodetag">612.3</div></span>&nbsp;&nbsp;Пищеварение. Питание','612.3','Пищеварение. Питание','','','',false,true);
+d.add(15,11,'612.4','<div class="nodetag">612.4</div></span>&nbsp;&nbsp;Физиология желез. Секреция. Экскреция','612.4','Физиология желез. Секреция. Экскреция','','','',false,true);
+d.add(16,11,'612.5','<div class="nodetag">612.5</div></span>&nbsp;&nbsp;Животное тепло. Термальные процессы','612.5','Животное тепло. Термальные процессы','','','',false,true);
+d.add(17,11,'612.6','<div class="nodetag">612.6</div></span>&nbsp;&nbsp;Размножение. Рост. Развитие','612.6','Размножение. Рост. Развитие','','','',false,true);
+d.add(18,11,'612.7','<div class="nodetag">612.7</div></span>&nbsp;&nbsp;Двигательные функции. Органы движения. Голосовой аппарат. Голос. Наружные покровы','612.7','Двигательные функции. Органы движения. Голосовой аппарат. Голос. Наружные покровы','','','',false,true);
+d.add(19,11,'612.8','<div class="nodetag">612.8</div></span>&nbsp;&nbsp;Нервная система. Органы чувств','612.8','Нервная система. Органы чувств','','','',false,true);
+d.add(20,7,'613','<div class="nodetag">613</div></span>&nbsp;&nbsp;Гигиена в целом. Личная гигиена и здоровье','613','Гигиена в целом. Личная гигиена и здоровье','','','',false,true);
+d.add(21,20,'613.2','<div class="nodetag">613.2</div></span>&nbsp;&nbsp;Гигиена питания. Диетика. Принципы питания','613.2','Гигиена питания. Диетика. Принципы питания','','','',false,true);
+d.add(22,20,'613.3','<div class="nodetag">613.3</div></span>&nbsp;&nbsp;Напитки. Лечебные воды. Питьевой режим','613.3','Напитки. Лечебные воды. Питьевой режим','','','',false,true);
+d.add(23,20,'613.4','<div class="nodetag">613.4</div></span>&nbsp;&nbsp;Личная гигиена. Одежда','613.4','Личная гигиена. Одежда','','','',false,true);
+d.add(24,20,'613.5','<div class="nodetag">613.5</div></span>&nbsp;&nbsp;Гигиена жилищ  ','613.5','Гигиена жилищ  ','','','',false,true);
+d.add(25,20,'613.6','<div class="nodetag">613.6</div></span>&nbsp;&nbsp;Профессиональные заболевания. Гигиена труда','613.6','Профессиональные заболевания. Гигиена труда','','','',false,true);
+d.add(26,20,'613.7','<div class="nodetag">613.7</div></span>&nbsp;&nbsp;Здоровье и гигиена досуга, отдыха и сна','613.7','Здоровье и гигиена досуга, отдыха и сна','','','',false,true);
+d.add(27,20,'613.8','<div class="nodetag">613.8</div></span>&nbsp;&nbsp;Гигиена нервной системы. Гигиена и этика','613.8','Гигиена нервной системы. Гигиена и этика','','','',false,true);
+d.add(28,20,'613.9','<div class="nodetag">613.9</div></span>&nbsp;&nbsp;Здоровье и гигиена по отношению к нации, возрасту и полу','613.9','Здоровье и гигиена по отношению к нации, возрасту и полу','','','',false,true);
+d.add(29,7,'614','<div class="nodetag">614</div></span>&nbsp;&nbsp;Общественное здоровье и гигиена. Санитария. Защита от несчастных случаев и их предупреждение','614','Общественное здоровье и гигиена. Санитария. Защита от несчастных случаев и их предупреждение','','','',false,true);
+d.add(30,29,'614.1','<div class="nodetag">614.1</div></span>&nbsp;&nbsp;Народонаселение. Депопуляция','614.1','Народонаселение. Депопуляция','','','',false,true);
+d.add(31,29,'614.2','<div class="nodetag">614.2</div></span>&nbsp;&nbsp;Общественная и профессиональная организация здравоохранения','614.2','Общественная и профессиональная организация здравоохранения','','','',false,true);
+d.add(32,29,'614.3','<div class="nodetag">614.3</div></span>&nbsp;&nbsp;Санитарный надзор и контроль','614.3','Санитарный надзор и контроль','','','',false,true);
+d.add(33,32,'614.39','<div class="nodetag">614.39</div></span>&nbsp;&nbsp;Национальное здравоохранение','614.39','Национальное здравоохранение','','','',false,true);
+d.add(34,29,'614.4','<div class="nodetag">614.4</div></span>&nbsp;&nbsp;Противоэпидемические мероприятия. Профилактика инфекционных заболеваний','614.4','Противоэпидемические мероприятия. Профилактика инфекционных заболеваний','','','',false,true);
+d.add(35,29,'614.6','<div class="nodetag">614.6</div></span>&nbsp;&nbsp;Гигиена кладбищ','614.6','Гигиена кладбищ','','','',false,true);
+d.add(36,29,'614.7','<div class="nodetag">614.7</div></span>&nbsp;&nbsp;Гигиена воздуха, воды и почвы. Контроль загрязнений','614.7','Гигиена воздуха, воды и почвы. Контроль загрязнений','','','',false,true);
+d.add(37,29,'614.8','<div class="nodetag">614.8</div></span>&nbsp;&nbsp;Несчастные случаи. Риски.  Опасность. Профилактика несчастных случаев. Индивидуальные средства защиты. Безопасность','614.8','Несчастные случаи. Риски.  Опасность. Профилактика несчастных случаев. Индивидуальные средства защиты. Безопасность','','','',false,true);
+d.add(38,29,'614.9','<div class="nodetag">614.9</div></span>&nbsp;&nbsp;Здоровье животных. Ветеринарная гигиена','614.9','Здоровье животных. Ветеринарная гигиена','','','',false,true);
+d.add(39,7,'615','<div class="nodetag">615</div></span>&nbsp;&nbsp;Фармакология. Общая терапия. Токсикология','615','Фармакология. Общая терапия. Токсикология','','','',false,true);
+d.add(40,39,'615.1','<div class="nodetag">615.1</div></span>&nbsp;&nbsp;Фармация. Аптечное дело','615.1','Фармация. Аптечное дело','','','',false,true);
+d.add(41,39,'615.2','<div class="nodetag">615.2</div></span>&nbsp;&nbsp;Лекарственные средства в соответствии с их активным веществом','615.2','Лекарственные средства в соответствии с их активным веществом','','','',false,true);
+d.add(42,39,'615.3','<div class="nodetag">615.3</div></span>&nbsp;&nbsp;Лекарственные средства в соответствии с их происхождением','615.3','Лекарственные средства в соответствии с их происхождением','','','',false,true);
+d.add(43,39,'615.4','<div class="nodetag">615.4</div></span>&nbsp;&nbsp;Формы лекарственных средств. Медицинские материалы. Оборудование','615.4','Формы лекарственных средств. Медицинские материалы. Оборудование','','','',false,true);
+d.add(44,39,'615.8','<div class="nodetag">615.8</div></span>&nbsp;&nbsp;Физиотерапия. Радиотерапия. Другие терапевтические средства','615.8','Физиотерапия. Радиотерапия. Другие терапевтические средства','','','',false,true);
+d.add(45,39,'615.9','<div class="nodetag">615.9</div></span>&nbsp;&nbsp;Токсикология. Учение о ядовитых веществах. Отравления','615.9','Токсикология. Учение о ядовитых веществах. Отравления','','','',false,true);
+d.add(46,7,'616','<div class="nodetag">616</div></span>&nbsp;&nbsp;Патология. Клиническая медицина','616','Патология. Клиническая медицина','','','',false,true);
+d.add(47,46,'616-001/-009','<div class="nodetag">616-001/-009</div></span>&nbsp;&nbsp;Специальные определители болезненных пмроцессов','616-001/-009','Специальные определители болезненных пмроцессов','','','',false,true);
+d.add(48,47,'616-001','<div class="nodetag">616-001</div></span>&nbsp;&nbsp;Травмы. Повреждения. Раны','616-001','Травмы. Повреждения. Раны','','','',false,true);
+d.add(49,47,'616-002','<div class="nodetag">616-002</div></span>&nbsp;&nbsp;Воспаление. Раздражение. Застойная гиперемия. Слизистая гиперемия','616-002','Воспаление. Раздражение. Застойная гиперемия. Слизистая гиперемия','','','',false,true);
+d.add(50,47,'616-003','<div class="nodetag">616-003</div></span>&nbsp;&nbsp;Регрессивные и восстановительные процессы','616-003','Регрессивные и восстановительные процессы','','','',false,true);
+d.add(51,47,'616-004','<div class="nodetag">616-004</div></span>&nbsp;&nbsp;Склероз. Цирроз. Уплотнение тканей','616-004','Склероз. Цирроз. Уплотнение тканей','','','',false,true);
+d.add(52,47,'616-005','<div class="nodetag">616-005</div></span>&nbsp;&nbsp;Местные расстройства кровообращения','616-005','Местные расстройства кровообращения','','','',false,true);
+d.add(53,47,'616-006','<div class="nodetag">616-006</div></span>&nbsp;&nbsp;Опухоли. Новообразования. Бластомы. Хористомы. Гамартомы. Онкология ','616-006','Опухоли. Новообразования. Бластомы. Хористомы. Гамартомы. Онкология ','','','',false,true);
+d.add(54,47,'616-007','<div class="nodetag">616-007</div></span>&nbsp;&nbsp;Пороки развития организма. Физиологические пороки. Аномалии ','616-007','Пороки развития организма. Физиологические пороки. Аномалии ','','','',false,true);
+d.add(55,47,'616-008','<div class="nodetag">616-008</div></span>&nbsp;&nbsp;Функциональные расстройства. Расстройства обмена веществ','616-008','Функциональные расстройства. Расстройства обмена веществ','','','',false,true);
+d.add(56,47,'616-009','<div class="nodetag">616-009</div></span>&nbsp;&nbsp;Нервные расстройства','616-009','Нервные расстройства','','','',false,true);
+d.add(57,46,'616-01/-099','<div class="nodetag">616-01/-099</div></span>&nbsp;&nbsp;Общие вопросы патологии','616-01/-099','Общие вопросы патологии','','','',false,true);
+d.add(58,57,'616-01','<div class="nodetag">616-01</div></span>&nbsp;&nbsp;Различные вопросы, относящиеся к болезни, больному и врачебному вмешательству','616-01','Различные вопросы, относящиеся к болезни, больному и врачебному вмешательству','','','',false,true);
+d.add(59,57,'616-02','<div class="nodetag">616-02</div></span>&nbsp;&nbsp;Этиология. Учение о причинах болезней','616-02','Этиология. Учение о причинах болезней','','','',false,true);
+d.add(60,57,'616-03','<div class="nodetag">616-03</div></span>&nbsp;&nbsp;Различные формы заболеваний, методы их лечения, применения лекарственных средств','616-03','Различные формы заболеваний, методы их лечения, применения лекарственных средств','','','',false,true);
+d.add(61,57,'616-05','<div class="nodetag">616-05</div></span>&nbsp;&nbsp;Лица и личные характеристики в патологии. Характеристики пациентов','616-05','Лица и личные характеристики в патологии. Характеристики пациентов','','','',false,true);
+d.add(62,57,'616-06','<div class="nodetag">616-06</div></span>&nbsp;&nbsp;Осложнения. Последствия. Одновременное существование нескольких заболеваний. Их взаимосвязь. Предшествующие заболевания. Предшествующее состояние здоровья. Антагонизм между двумя заболеваниями','616-06','Осложнения. Последствия. Одновременное существование нескольких заболеваний. Их взаимосвязь. Предшествующие заболевания. Предшествующее состояние здоровья. Антагонизм между двумя заболеваниями','','','',false,true);
+d.add(63,57,'616-07','<div class="nodetag">616-07</div></span>&nbsp;&nbsp;Семиология. Симптоматология. Признаки и симптомы заболеваний. Исследование. Диагностика. Пропедевтика','616-07','Семиология. Симптоматология. Признаки и симптомы заболеваний. Исследование. Диагностика. Пропедевтика','','','',false,true);
+d.add(64,57,'616-08','<div class="nodetag">616-08</div></span>&nbsp;&nbsp;Лечение','616-08','Лечение','','','',false,true);
+d.add(65,57,'616-091','<div class="nodetag">616-091</div></span>&nbsp;&nbsp;Патологическая анатомия','616-091','Патологическая анатомия','','','',false,true);
+d.add(66,57,'616-092','<div class="nodetag">616-092</div></span>&nbsp;&nbsp;Патологическая физиология. Формы развития заболеваний. Патогенез. Учение о происхождении заболеваний','616-092','Патологическая физиология. Формы развития заболеваний. Патогенез. Учение о происхождении заболеваний','','','',false,true);
+d.add(67,57,'616-093','<div class="nodetag">616-093</div></span>&nbsp;&nbsp;Техника микробиологических исследований','616-093','Техника микробиологических исследований','','','',false,true);
+d.add(68,57,'616-094','<div class="nodetag">616-094</div></span>&nbsp;&nbsp;Морфология микроорганизмов и паразитов','616-094','Морфология микроорганизмов и паразитов','','','',false,true);
+d.add(69,57,'616-095','<div class="nodetag">616-095</div></span>&nbsp;&nbsp;Физиология микроорганизмов и паразитов','616-095','Физиология микроорганизмов и паразитов','','','',false,true);
+d.add(70,57,'616-097','<div class="nodetag">616-097</div></span>&nbsp;&nbsp;Иммуногенност','616-097','Иммуногенност','','','',false,true);
+d.add(71,57,'616-098','<div class="nodetag">616-098</div></span>&nbsp;&nbsp;Микробиологическая физика, химия, oбмен веществ (метаболизм), катаболизм','616-098','Микробиологическая физика, химия, oбмен веществ (метаболизм), катаболизм','','','',false,true);
+d.add(72,57,'616-099','<div class="nodetag">616-099</div></span>&nbsp;&nbsp;Отравления. Интоксикация','616-099','Отравления. Интоксикация','','','',false,true);
+d.add(73,46,'616-71/-78','<div class="nodetag">616-71/-78</div></span>&nbsp;&nbsp;Медицинские и хирургические инструменты. Медицинское оборудование','616-71/-78','Медицинские и хирургические инструменты. Медицинское оборудование','','','',false,true);
+d.add(74,73,'616-71','<div class="nodetag">616-71</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Medical instruments and equipment in general</span>','616-71','Medical instruments and equipment in general','','','',false,true);
+d.add(75,73,'616-72','<div class="nodetag">616-72</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Surgical and therapeutic instruments</span>','616-72','Surgical and therapeutic instruments','','','',false,true);
+d.add(76,73,'616-74','<div class="nodetag">616-74</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Reinforcement and reparative materials and equipment</span>','616-74','Reinforcement and reparative materials and equipment','','','',false,true);
+d.add(77,73,'616-76','<div class="nodetag">616-76</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Corrective and protective appliances, aids etc.</span>','616-76','Corrective and protective appliances, aids etc.','','','',false,true);
+d.add(78,73,'616-77','<div class="nodetag">616-77</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Prosthetic materials and parts. Artificial organs etc.</span>','616-77','Prosthetic materials and parts. Artificial organs etc.','','','',false,true);
+d.add(79,73,'616-78','<div class="nodetag">616-78</div></span>&nbsp;&nbsp;<span style="color: #7b4b0e;">Machines and mechanical apparatus</span>','616-78','Machines and mechanical apparatus','','','',false,true);
+d.add(80,46,'616.1/.9','<div class="nodetag">616.1/.9</div></span>&nbsp;&nbsp;Частная патология','616.1/.9','Частная патология','','','',false,true);
+d.add(81,80,'616.1','<div class="nodetag">616.1</div></span>&nbsp;&nbsp;Патология сердечно-сосудистой системы. Сердечно-сосудистые заболевания','616.1','Патология сердечно-сосудистой системы. Сердечно-сосудистые заболевания','','','',false,true);
+d.add(82,80,'616.2','<div class="nodetag">616.2</div></span>&nbsp;&nbsp;Заболевания дыхательной системы','616.2','Заболевания дыхательной системы','','','',false,true);
+d.add(83,80,'616.3','<div class="nodetag">616.3</div></span>&nbsp;&nbsp;Заболевания пищеварительной системы. Болезнь пищеварительного тракта','616.3','Заболевания пищеварительной системы. Болезнь пищеварительного тракта','','','',false,true);
+d.add(84,83,'616.31','<div class="nodetag">616.31</div></span>&nbsp;&nbsp;Полость рта. Рот. Стоматология','616.31','Полость рта. Рот. Стоматология','','','',false,true);
+d.add(85,80,'616.4','<div class="nodetag">616.4</div></span>&nbsp;&nbsp;Заболевания кроветворной системы, лимфатической системы и желез внутренней секреции. Эндокринные заболевания ','616.4','Заболевания кроветворной системы, лимфатической системы и желез внутренней секреции. Эндокринные заболевания ','','','',false,true);
+d.add(86,80,'616.5','<div class="nodetag">616.5</div></span>&nbsp;&nbsp;Кожа. Наружные покровы тела. Дерматология. Кожные болезни','616.5','Кожа. Наружные покровы тела. Дерматология. Кожные болезни','','','',false,true);
+d.add(87,80,'616.6','<div class="nodetag">616.6</div></span>&nbsp;&nbsp;Заболевания мочеполовой системы','616.6','Заболевания мочеполовой системы','','','',false,true);
+d.add(88,80,'616.7','<div class="nodetag">616.7</div></span>&nbsp;&nbsp;Заболевания опорно-двигательной системы. Скелет и мышечная система','616.7','Заболевания опорно-двигательной системы. Скелет и мышечная система','','','',false,true);
+d.add(89,80,'616.8','<div class="nodetag">616.8</div></span>&nbsp;&nbsp;Нервная система. Невропатология. Неврология','616.8','Нервная система. Невропатология. Неврология','','','',false,true);
+d.add(90,89,'616.89','<div class="nodetag">616.89</div></span>&nbsp;&nbsp;Психиатрия. Психопатология. Психические (душевные) болезни. Психозы','616.89','Психиатрия. Психопатология. Психические (душевные) болезни. Психозы','','','',false,true);
+d.add(91,80,'616.9','<div class="nodetag">616.9</div></span>&nbsp;&nbsp;Инфекционные  заболевания. Инфекционные лихорадки','616.9','Инфекционные  заболевания. Инфекционные лихорадки','','','',false,true);
+d.add(92,7,'617','<div class="nodetag">617</div></span>&nbsp;&nbsp;Хирургия. Ортопедия. Офтальмология','617','Хирургия. Ортопедия. Офтальмология','','','',false,true);
+d.add(93,92,'617.3','<div class="nodetag">617.3</div></span>&nbsp;&nbsp;Ортопедия в целом','617.3','Ортопедия в целом','','','',false,true);
+d.add(94,92,'617.7','<div class="nodetag">617.7</div></span>&nbsp;&nbsp;Офтальмология. Глазные болезни и травмы','617.7','Офтальмология. Глазные болезни и травмы','','','',false,true);
+d.add(95,7,'618','<div class="nodetag">618</div></span>&nbsp;&nbsp;Гинекология. Акушерство','618','Гинекология. Акушерство','','','',false,true);
+d.add(96,0,'62','<div class="nodetag">62</div></span>&nbsp;&nbsp;Инженерное дело. Техника в целом','62','Инженерное дело. Техника в целом','','','',false,true);
+d.add(97,96,'62-1/-9','<div class="nodetag">62-1/-9</div></span>&nbsp;&nbsp;Специальные определители: Характеристики и детали машин, аппаратов, установок,  процессов, изделий ','62-1/-9','Специальные определители: Характеристики и детали машин, аппаратов, установок,  процессов, изделий ','','','',false,true);
+d.add(98,97,'62-1','<div class="nodetag">62-1</div></span>&nbsp;&nbsp;Общие характеристики','62-1','Общие характеристики','','','',false,true);
+d.add(99,97,'62-2','<div class="nodetag">62-2</div></span>&nbsp;&nbsp;Детали машины ','62-2','Детали машины ','','','',false,true);
+d.add(100,97,'62-3','<div class="nodetag">62-3</div></span>&nbsp;&nbsp;Детали и приводы распределительных механизмов, запирающие устройства и т. п.','62-3','Детали и приводы распределительных механизмов, запирающие устройства и т. п.','','','',false,true);
+d.add(101,97,'62-4','<div class="nodetag">62-4</div></span>&nbsp;&nbsp;Состояние веществ (материалов). Форма и конфигурация поверхностей, предметов и изделий','62-4','Состояние веществ (материалов). Форма и конфигурация поверхностей, предметов и изделий','','','',false,true);
+d.add(102,97,'62-5','<div class="nodetag">62-5</div></span>&nbsp;&nbsp;Регулирование и управление машинами, процессами ','62-5','Регулирование и управление машинами, процессами ','','','',false,true);
+d.add(103,97,'62-6','<div class="nodetag">62-6</div></span>&nbsp;&nbsp;Отопление и нагрев машин и приборов. Топлива и другие источники тепла','62-6','Отопление и нагрев машин и приборов. Топлива и другие источники тепла','','','',false,true);
+d.add(104,97,'62-7','<div class="nodetag">62-7</div></span>&nbsp;&nbsp;Системы и устройства для обслуживания, ухода и защиты машин, аппаратов и установок','62-7','Системы и устройства для обслуживания, ухода и защиты машин, аппаратов и установок','','','',false,true);
+d.add(105,97,'62-8','<div class="nodetag">62-8</div></span>&nbsp;&nbsp;Характеристика машин по способу привода ','62-8','Характеристика машин по способу привода ','','','',false,true);
+d.add(106,97,'62-9','<div class="nodetag">62-9</div></span>&nbsp;&nbsp;Рабочие характеристики, параметры и условия (процессов и установок)','62-9','Рабочие характеристики, параметры и условия (процессов и установок)','','','',false,true);
+d.add(107,106,'62-91','<div class="nodetag">62-91</div></span>&nbsp;&nbsp;Состояния вещества: характеристики и параметры','62-91','Состояния вещества: характеристики и параметры','','','',false,true);
+d.add(108,106,'62-92','<div class="nodetag">62-92</div></span>&nbsp;&nbsp;Реакции в соответствии с типом реагентов. Реагенты','62-92','Реакции в соответствии с типом реагентов. Реагенты','','','',false,true);
+d.add(109,106,'62-93','<div class="nodetag">62-93</div></span>&nbsp;&nbsp;Процессы, установки и оборудование в соответствии с непрерывностью, степенью механизации, взаимозависимостью и средой','62-93','Процессы, установки и оборудование в соответствии с непрерывностью, степенью механизации, взаимозависимостью и средой','','','',false,true);
+d.add(110,106,'62-94','<div class="nodetag">62-94</div></span>&nbsp;&nbsp;Направление и скорость процесса','62-94','Направление и скорость процесса','','','',false,true);
+d.add(111,106,'62-95','<div class="nodetag">62-95</div></span>&nbsp;&nbsp;Простые и составные процессы. Одностадийные и многостадийные процессы','62-95','Простые и составные процессы. Одностадийные и многостадийные процессы','','','',false,true);
+d.add(112,106,'62-96','<div class="nodetag">62-96</div></span>&nbsp;&nbsp;Процессы с точки зрения изменения свойств продуктов. Модификация в целом','62-96','Процессы с точки зрения изменения свойств продуктов. Модификация в целом','','','',false,true);
+d.add(113,106,'62-97','<div class="nodetag">62-97</div></span>&nbsp;&nbsp;Термические параметры. Температура. Температурный интервал','62-97','Термические параметры. Температура. Температурный интервал','','','',false,true);
+d.add(114,106,'62-98','<div class="nodetag">62-98</div></span>&nbsp;&nbsp;Давление. Интервалы давления','62-98','Давление. Интервалы давления','','','',false,true);
+d.add(115,96,'620','<div class="nodetag">620</div></span>&nbsp;&nbsp;Испытания материалов. Товароведение. Силовые станции. Общая энергетика','620','Испытания материалов. Товароведение. Силовые станции. Общая энергетика','','','',false,true);
+d.add(116,115,'620.3','<div class="nodetag">620.3</div></span>&nbsp;&nbsp;Нанотехнология','620.3','Нанотехнология','','','',false,true);
+d.add(117,115,'620.9','<div class="nodetag">620.9</div></span>&nbsp;&nbsp;Общая энергетика','620.9','Общая энергетика','','','',false,true);
+d.add(118,96,'621','<div class="nodetag">621</div></span>&nbsp;&nbsp;Общее машиностроение. Ядерная технология. Электротехника. Технология машиностроения ','621','Общее машиностроение. Ядерная технология. Электротехника. Технология машиностроения ','','','',false,true);
+d.add(119,118,'621.1','<div class="nodetag">621.1</div></span>&nbsp;&nbsp;Тепловые двигатели в целом. Получение, распределение и использование пара. Паровые машины. Паровые котлы','621.1','Тепловые двигатели в целом. Получение, распределение и использование пара. Паровые машины. Паровые котлы','','','',false,true);
+d.add(120,118,'621.22','<div class="nodetag">621.22</div></span>&nbsp;&nbsp;Гидравлическая энергия. Гидравлические машины','621.22','Гидравлическая энергия. Гидравлические машины','','','',false,true);
+d.add(121,118,'621.3','<div class="nodetag">621.3</div></span>&nbsp;&nbsp;Электротехника','621.3','Электротехника','','','',false,true);
+d.add(122,118,'621.4','<div class="nodetag">621.4</div></span>&nbsp;&nbsp;Тепловые двигатели (кроме паровых машин и паровых турбин)','621.4','Тепловые двигатели (кроме паровых машин и паровых турбин)','','','',false,true);
+d.add(123,118,'621.5','<div class="nodetag">621.5</div></span>&nbsp;&nbsp;Пневмоэнергетика. Машины и инструменты. Холодильная техника. Холодильное оборудование','621.5','Пневмоэнергетика. Машины и инструменты. Холодильная техника. Холодильное оборудование','','','',false,true);
+d.add(124,118,'621.6','<div class="nodetag">621.6</div></span>&nbsp;&nbsp;Транспортирование, распределение и хранение жидкостей и газов. Установки, оборудование и аппаратура','621.6','Транспортирование, распределение и хранение жидкостей и газов. Установки, оборудование и аппаратура','','','',false,true);
+d.add(125,118,'621.7','<div class="nodetag">621.7</div></span>&nbsp;&nbsp;Технология обработки без снятия стружки в целом: процессы, инструмент, оборудование и приспособления ','621.7','Технология обработки без снятия стружки в целом: процессы, инструмент, оборудование и приспособления ','','','',false,true);
+d.add(126,118,'621.8','<div class="nodetag">621.8</div></span>&nbsp;&nbsp;Детали машин. Передачи (механические). Подъемно-транспортное оборудование. Крепежные средства. Смазка','621.8','Детали машин. Передачи (механические). Подъемно-транспортное оборудование. Крепежные средства. Смазка','','','',false,true);
+d.add(127,118,'621.9','<div class="nodetag">621.9</div></span>&nbsp;&nbsp;Формообразование со снятием стружки. Молоты и прессы. Разделительные операции без образования стружки, дробление и измельчение, обработка листового материала, изготовление резьбы','621.9','Формообразование со снятием стружки. Молоты и прессы. Разделительные операции без образования стружки, дробление и измельчение, обработка листового материала, изготовление резьбы','','','',false,true);
+d.add(128,96,'622','<div class="nodetag">622</div></span>&nbsp;&nbsp;Горное дело. Горные предприятия (рудники, шахты, карьеры). Добыча нерудных ископаемых','622','Горное дело. Горные предприятия (рудники, шахты, карьеры). Добыча нерудных ископаемых','','','',false,true);
+d.add(129,128,'622.1','<div class="nodetag">622.1</div></span>&nbsp;&nbsp;Маркшейдерское дело. Разведка. Доразведка ','622.1','Маркшейдерское дело. Разведка. Доразведка ','','','',false,true);
+d.add(130,128,'622.2','<div class="nodetag">622.2</div></span>&nbsp;&nbsp;Горные работы при разработке месторождений полезных ископаемых ','622.2','Горные работы при разработке месторождений полезных ископаемых ','','','',false,true);
+d.add(131,128,'622.3','<div class="nodetag">622.3</div></span>&nbsp;&nbsp;Отрасли горной промышленности по виду добываемых минералов, руд, нерудных ископаемых','622.3','Отрасли горной промышленности по виду добываемых минералов, руд, нерудных ископаемых','','','',false,true);
+d.add(132,128,'622.4','<div class="nodetag">622.4</div></span>&nbsp;&nbsp;Проветривание, кондиционирование воздуха, отопление (или обогрев) и освещение шахт','622.4','Проветривание, кондиционирование воздуха, отопление (или обогрев) и освещение шахт','','','',false,true);
+d.add(133,128,'622.5','<div class="nodetag">622.5</div></span>&nbsp;&nbsp;Водоотлив. Шахтные воды. Осушение','622.5','Водоотлив. Шахтные воды. Осушение','','','',false,true);
+d.add(134,128,'622.6','<div class="nodetag">622.6</div></span>&nbsp;&nbsp;Рудничный (шахтный) транспорт. Доставка по лаве, откатки по штрекам, подъем по стволам. Транспорт по поверхности ','622.6','Рудничный (шахтный) транспорт. Доставка по лаве, откатки по штрекам, подъем по стволам. Транспорт по поверхности ','','','',false,true);
+d.add(135,128,'622.7','<div class="nodetag">622.7</div></span>&nbsp;&nbsp;Обогащение минерального сырья','622.7','Обогащение минерального сырья','','','',false,true);
+d.add(136,128,'622.8','<div class="nodetag">622.8</div></span>&nbsp;&nbsp;Опасности в рудниках. Несчастные случаи и травматизм. Охрана труда и техника безопасности','622.8','Опасности в рудниках. Несчастные случаи и травматизм. Охрана труда и техника безопасности','','','',false,true);
+d.add(137,96,'623','<div class="nodetag">623</div></span>&nbsp;&nbsp;Военная техника. Техника наземных и воздушных вооруженных сил. Техника военно-морского флота','623','Военная техника. Техника наземных и воздушных вооруженных сил. Техника военно-морского флота','','','',false,true);
+d.add(138,137,'623.1/.7','<div class="nodetag">623.1/.7</div></span>&nbsp;&nbsp;Техника наземных и воздушных вооруженных сил. Вооружение','623.1/.7','Техника наземных и воздушных вооруженных сил. Вооружение','','','',false,true);
+d.add(139,138,'623.1/.3','<div class="nodetag">623.1/.3</div></span>&nbsp;&nbsp;Военно-инженерное дело. Фортификационные сооружения. Oборонительные работы','623.1/.3','Военно-инженерное дело. Фортификационные сооружения. Oборонительные работы','','','',false,true);
+d.add(140,139,'623.1','<div class="nodetag">623.1</div></span>&nbsp;&nbsp;Крепости. Долговременные фортификационные сооружения. Укрепленные  полосы и районы','623.1','Крепости. Долговременные фортификационные сооружения. Укрепленные  полосы и районы','','','',false,true);
+d.add(141,139,'623.2','<div class="nodetag">623.2</div></span>&nbsp;&nbsp;Инженерно-техническое обеспечение наступательных и оборонительных операций. Полевые фортификационные сооружения. Траншейные работы','623.2','Инженерно-техническое обеспечение наступательных и оборонительных операций. Полевые фортификационные сооружения. Траншейные работы','','','',false,true);
+d.add(142,139,'623.3','<div class="nodetag">623.3</div></span>&nbsp;&nbsp;Минные поля (наземные). Полевые заграждения и затопление','623.3','Минные поля (наземные). Полевые заграждения и затопление','','','',false,true);
+d.add(143,138,'623.4','<div class="nodetag">623.4</div></span>&nbsp;&nbsp;Оружие. Вооружение. Артиллерийско-техническое имущество. Бронированные машины и специальные средства транспорта. Стрелковое оружие. Личное оружие. Боеприпасы и боевые отравляющие вещества. Управляемые и неуправляемые ракеты и реактивные снаряды','623.4','Оружие. Вооружение. Артиллерийско-техническое имущество. Бронированные машины и специальные средства транспорта. Стрелковое оружие. Личное оружие. Боеприпасы и боевые отравляющие вещества. Управляемые и неуправляемые ракеты и реактивные снаряды','','','',false,true);
+d.add(144,138,'623.5','<div class="nodetag">623.5</div></span>&nbsp;&nbsp;Теория и практика стрельбы. Баллистика. Теоретические и экспериментальные вопросы','623.5','Теория и практика стрельбы. Баллистика. Теоретические и экспериментальные вопросы','','','',false,true);
+d.add(145,138,'623.6','<div class="nodetag">623.6</div></span>&nbsp;&nbsp;Военно-инженерное оборудование и работы по инженерному обеспечению. Пути сообщения. Противорадиолокационные средства. Военная топография','623.6','Военно-инженерное оборудование и работы по инженерному обеспечению. Пути сообщения. Противорадиолокационные средства. Военная топография','','','',false,true);
+d.add(146,138,'623.7','<div class="nodetag">623.7</div></span>&nbsp;&nbsp;Военная и военно-морская авиация. Маскировка и т. п.','623.7','Военная и военно-морская авиация. Маскировка и т. п.','','','',false,true);
+d.add(147,137,'623.8/.9','<div class="nodetag">623.8/.9</div></span>&nbsp;&nbsp;Техника военно-морского флота','623.8/.9','Техника военно-морского флота','','','',false,true);
+d.add(148,147,'623.8','<div class="nodetag">623.8</div></span>&nbsp;&nbsp;Техника военно-морского флота. Военное кораблестроение. Военно-морские базы. Боевые корабли и прочие суда','623.8','Техника военно-морского флота. Военное кораблестроение. Военно-морские базы. Боевые корабли и прочие суда','','','',false,true);
+d.add(149,147,'623.9','<div class="nodetag">623.9</div></span>&nbsp;&nbsp;Технические средства военно-морского флота. Защита и вооружение военных кораблей. Подводная защита','623.9','Технические средства военно-морского флота. Защита и вооружение военных кораблей. Подводная защита','','','',false,true);
+d.add(150,96,'624','<div class="nodetag">624</div></span>&nbsp;&nbsp;Строительство инженерных сооружений','624','Строительство инженерных сооружений','','','',false,true);
+d.add(151,150,'624.01/.07','<div class="nodetag">624.01/.07</div></span>&nbsp;&nbsp;Специальные определители для строительства','624.01/.07','Специальные определители для строительства','','','',false,true);
+d.add(152,151,'624.01','<div class="nodetag">624.01</div></span>&nbsp;&nbsp;Сооружения и части сооружений по виду строительных материалов и методам возведения','624.01','Сооружения и части сооружений по виду строительных материалов и методам возведения','','','',false,true);
+d.add(153,151,'624.03','<div class="nodetag">624.03</div></span>&nbsp;&nbsp;Сооружения в зависимости от форм, размеров, срока службы и расположения','624.03','Сооружения в зависимости от форм, размеров, срока службы и расположения','','','',false,true);
+d.add(154,151,'624.04','<div class="nodetag">624.04</div></span>&nbsp;&nbsp;Cтроительная механика. Графический и аналитический методы статики для исследования и расчета строительных конструкций','624.04','Cтроительная механика. Графический и аналитический методы статики для исследования и расчета строительных конструкций','','','',false,true);
+d.add(155,151,'624.05','<div class="nodetag">624.05</div></span>&nbsp;&nbsp;Организация и технология строительно-монтажных работ. Оборудование строительной площадки','624.05','Организация и технология строительно-монтажных работ. Оборудование строительной площадки','','','',false,true);
+d.add(156,151,'624.07','<div class="nodetag">624.07</div></span>&nbsp;&nbsp;Конструктивные элементы. Несущие конструкции','624.07','Конструктивные элементы. Несущие конструкции','','','',false,true);
+d.add(157,150,'624.1','<div class="nodetag">624.1</div></span>&nbsp;&nbsp;Подземное строительство. Земляные работы. Фундаменты. Строительство тоннелей','624.1','Подземное строительство. Земляные работы. Фундаменты. Строительство тоннелей','','','',false,true);
+d.add(158,150,'624.21/.8','<div class="nodetag">624.21/.8</div></span>&nbsp;&nbsp;Мосты. Строительство мостов','624.21/.8','Мосты. Строительство мостов','','','',false,true);
+d.add(159,158,'624.3','<div class="nodetag">624.3</div></span>&nbsp;&nbsp;Мосты с решетчатыми фермами','624.3','Мосты с решетчатыми фермами','','','',false,true);
+d.add(160,158,'624.5','<div class="nodetag">624.5</div></span>&nbsp;&nbsp;Висячие мосты. Вантовые мосты','624.5','Висячие мосты. Вантовые мосты','','','',false,true);
+d.add(161,158,'624.6','<div class="nodetag">624.6</div></span>&nbsp;&nbsp;Арочные мосты','624.6','Арочные мосты','','','',false,true);
+d.add(162,158,'624.8','<div class="nodetag">624.8</div></span>&nbsp;&nbsp;Разводные мосты','624.8','Разводные мосты','','','',false,true);
+d.add(163,150,'624.9','<div class="nodetag">624.9</div></span>&nbsp;&nbsp;Строительство наземных инженерных сооружений. Наземные комплексные сооружения','624.9','Строительство наземных инженерных сооружений. Наземные комплексные сооружения','','','',false,true);
+d.add(164,96,'625','<div class="nodetag">625</div></span>&nbsp;&nbsp;Дороги. Железные дороги. Железнодорожное строительство. Автомобильные дороги. Дорожное строительство ','625','Дороги. Железные дороги. Железнодорожное строительство. Автомобильные дороги. Дорожное строительство ','','','',false,true);
+d.add(165,164,'625.1/.5','<div class="nodetag">625.1/.5</div></span>&nbsp;&nbsp;Рельсовые дороги. Трамвай. Канатные дороги','625.1/.5','Рельсовые дороги. Трамвай. Канатные дороги','','','',false,true);
+d.add(166,165,'625.1','<div class="nodetag">625.1</div></span>&nbsp;&nbsp;Железные дороги в целом. Железнодорожные линии. Железнодорожное строительство','625.1','Железные дороги в целом. Железнодорожные линии. Железнодорожное строительство','','','',false,true);
+d.add(167,165,'625.5','<div class="nodetag">625.5</div></span>&nbsp;&nbsp;Канатные дороги. Фуникулеры. Подвесные рельсовые дороги. Подвесные канатные дороги','625.5','Канатные дороги. Фуникулеры. Подвесные рельсовые дороги. Подвесные канатные дороги','','','',false,true);
+d.add(168,164,'625.7/.8','<div class="nodetag">625.7/.8</div></span>&nbsp;&nbsp;Автомобильные дороги. Дорожное строительство','625.7/.8','Автомобильные дороги. Дорожное строительство','','','',false,true);
+d.add(169,168,'625.7','<div class="nodetag">625.7</div></span>&nbsp;&nbsp;Автомобильные дороги в целом. Внегородские дороги. Городские дороги','625.7','Автомобильные дороги в целом. Внегородские дороги. Городские дороги','','','',false,true);
+d.add(170,168,'625.8','<div class="nodetag">625.8</div></span>&nbsp;&nbsp;Дорожные покрытия. Дороги из плит. Мостовые. Щебеночные и другие покрытия. Приготовление и использование дорожно-строительных материалов. Дороги по типу покрытия','625.8','Дорожные покрытия. Дороги из плит. Мостовые. Щебеночные и другие покрытия. Приготовление и использование дорожно-строительных материалов. Дороги по типу покрытия','','','',false,true);
+d.add(171,96,'626/627','<div class="nodetag">626/627</div></span>&nbsp;&nbsp;Гидротехническое строительство. Гидротехника в целом','626/627','Гидротехническое строительство. Гидротехника в целом','','','',false,true);
+d.add(172,171,'626','<div class="nodetag">626</div></span>&nbsp;&nbsp;Гидротехническое строительство. Строительство каналов. Мелиоративное строительство','626','Гидротехническое строительство. Строительство каналов. Мелиоративное строительство','','','',false,true);
+d.add(173,172,'626.1','<div class="nodetag">626.1</div></span>&nbsp;&nbsp;Внутренние судоходные каналы','626.1','Внутренние судоходные каналы','','','',false,true);
+d.add(174,172,'626.4','<div class="nodetag">626.4</div></span>&nbsp;&nbsp;Судоходные шлюзы. Размеры. Расположение','626.4','Судоходные шлюзы. Размеры. Расположение','','','',false,true);
+d.add(175,172,'626.5','<div class="nodetag">626.5</div></span>&nbsp;&nbsp;Судоподъемники. Наклонные судоподъемники','626.5','Судоподъемники. Наклонные судоподъемники','','','',false,true);
+d.add(176,172,'626.8','<div class="nodetag">626.8</div></span>&nbsp;&nbsp;Мелиоративное строительство. Сельскохозяйственная гидротехника','626.8','Мелиоративное строительство. Сельскохозяйственная гидротехника','','','',false,true);
+d.add(177,172,'626.9','<div class="nodetag">626.9</div></span>&nbsp;&nbsp;Морские каналы','626.9','Морские каналы','','','',false,true);
+d.add(178,171,'627','<div class="nodetag">627</div></span>&nbsp;&nbsp;Естественные водные пути, порты, гавани и береговые гидротехнические сооружения. Средства навигационного ограждения. Дноуглубительные и аварийно-спасательные работы. Плотины. Сооружения для гироэлектростанций','627','Естественные водные пути, порты, гавани и береговые гидротехнические сооружения. Средства навигационного ограждения. Дноуглубительные и аварийно-спасательные работы. Плотины. Сооружения для гироэлектростанций','','','',false,true);
+d.add(179,178,'627.2','<div class="nodetag">627.2</div></span>&nbsp;&nbsp;Порты, гавани и рейды. Портовые гидротехнические сооружения в целом','627.2','Порты, гавани и рейды. Портовые гидротехнические сооружения в целом','','','',false,true);
+d.add(180,178,'627.3','<div class="nodetag">627.3</div></span>&nbsp;&nbsp;Внутреннее оборудование портов. Установки и оборудование портовых доков','627.3','Внутреннее оборудование портов. Установки и оборудование портовых доков','','','',false,true);
+d.add(181,178,'627.4','<div class="nodetag">627.4</div></span>&nbsp;&nbsp;Защита берегов, регулирование и другие работы по улучшению рек','627.4','Защита берегов, регулирование и другие работы по улучшению рек','','','',false,true);
+d.add(182,178,'627.5','<div class="nodetag">627.5</div></span>&nbsp;&nbsp;Прочие сооружения для защиты и выправления русел и морских берегов. Обвалования. Увеличение прибрежной полосы','627.5','Прочие сооружения для защиты и выправления русел и морских берегов. Обвалования. Увеличение прибрежной полосы','','','',false,true);
+d.add(183,178,'627.7','<div class="nodetag">627.7</div></span>&nbsp;&nbsp;Навигационное оборудование водных путей и поддержание их в судоходном состоянии. Аварийно-спасательные средства','627.7','Навигационное оборудование водных путей и поддержание их в судоходном состоянии. Аварийно-спасательные средства','','','',false,true);
+d.add(184,178,'627.8','<div class="nodetag">627.8</div></span>&nbsp;&nbsp;Водохранилища. Плотины. Сооружения для гидроэлектростанций','627.8','Водохранилища. Плотины. Сооружения для гидроэлектростанций','','','',false,true);
+d.add(185,96,'628','<div class="nodetag">628</div></span>&nbsp;&nbsp;Санитарная техника. Санитарно-технические сооружения. Водоснабжение. Канализация. Освещение','628','Санитарная техника. Санитарно-технические сооружения. Водоснабжение. Канализация. Освещение','','','',false,true);
+d.add(186,185,'628.1','<div class="nodetag">628.1</div></span>&nbsp;&nbsp;Водоснабжение. Очистка воды. Водопотребление','628.1','Водоснабжение. Очистка воды. Водопотребление','','','',false,true);
+d.add(187,185,'628.2','<div class="nodetag">628.2</div></span>&nbsp;&nbsp;Канализация. Канализационные сооружения и системы','628.2','Канализация. Канализационные сооружения и системы','','','',false,true);
+d.add(188,185,'628.3','<div class="nodetag">628.3</div></span>&nbsp;&nbsp;Сточные воды. Обработка, удаление, использование','628.3','Сточные воды. Обработка, удаление, использование','','','',false,true);
+d.add(189,185,'628.4','<div class="nodetag">628.4</div></span>&nbsp;&nbsp;Санитарное благоустройство города и других населенных мест. Отбросы. Сбор и удаление отбросов','628.4','Санитарное благоустройство города и других населенных мест. Отбросы. Сбор и удаление отбросов','','','',false,true);
+d.add(190,185,'628.5','<div class="nodetag">628.5</div></span>&nbsp;&nbsp;Защита от производственных и прочих вредностей','628.5','Защита от производственных и прочих вредностей','','','',false,true);
+d.add(191,185,'628.6','<div class="nodetag">628.6</div></span>&nbsp;&nbsp;Санитарно-технические оборудование зданий','628.6','Санитарно-технические оборудование зданий','','','',false,true);
+d.add(192,185,'628.8','<div class="nodetag">628.8</div></span>&nbsp;&nbsp;Микроклимат помещений. Кондиционирование. Отопление. Вентиляция','628.8','Микроклимат помещений. Кондиционирование. Отопление. Вентиляция','','','',false,true);
+d.add(193,185,'628.9','<div class="nodetag">628.9</div></span>&nbsp;&nbsp;Освещение. Светотехника','628.9','Освещение. Светотехника','','','',false,true);
+d.add(194,96,'629','<div class="nodetag">629</div></span>&nbsp;&nbsp;Техника средств транспорта','629','Техника средств транспорта','','','',false,true);
+d.add(195,194,'629.01/.08','<div class="nodetag">629.01/.08</div></span>&nbsp;&nbsp;Специальные определители для техники средств транспорта','629.01/.08','Специальные определители для техники средств транспорта','','','',false,true);
+d.add(196,195,'629.01','<div class="nodetag">629.01</div></span>&nbsp;&nbsp;Принципы проектирования, характеристики, свойства и испытания средств транспорта','629.01','Принципы проектирования, характеристики, свойства и испытания средств транспорта','','','',false,true);
+d.add(197,195,'629.02','<div class="nodetag">629.02</div></span>&nbsp;&nbsp;Конструкции средств транспорта. Принципы конструирования. Общая компоновка (расположение). Узлы и детали','629.02','Конструкции средств транспорта. Принципы конструирования. Общая компоновка (расположение). Узлы и детали','','','',false,true);
+d.add(198,195,'629.03','<div class="nodetag">629.03</div></span>&nbsp;&nbsp;Движители. Силовые (тяговые) установки','629.03','Движители. Силовые (тяговые) установки','','','',false,true);
+d.add(199,195,'629.04','<div class="nodetag">629.04</div></span>&nbsp;&nbsp;Внутренняя планировка (компоновка). Пассажирские, грузовые помещения и их оборудование','629.04','Внутренняя планировка (компоновка). Пассажирские, грузовые помещения и их оборудование','','','',false,true);
+d.add(200,195,'629.05','<div class="nodetag">629.05</div></span>&nbsp;&nbsp;Бортовые системы наведения, управления и навигации. Бортовые приборы','629.05','Бортовые системы наведения, управления и навигации. Бортовые приборы','','','',false,true);
+d.add(201,195,'629.06','<div class="nodetag">629.06</div></span>&nbsp;&nbsp;Вспомогательные системы и вспомогательное оборудование средств транспорта','629.06','Вспомогательные системы и вспомогательное оборудование средств транспорта','','','',false,true);
+d.add(202,195,'629.07','<div class="nodetag">629.07</div></span>&nbsp;&nbsp;Технические аспекты транспортных операций, включая вождение, управление','629.07','Технические аспекты транспортных операций, включая вождение, управление','','','',false,true);
+d.add(203,195,'629.08','<div class="nodetag">629.08</div></span>&nbsp;&nbsp;Базовое (стационарное) оборудование, установки. Техническая эксплуатация и ремонт транспортных средств','629.08','Базовое (стационарное) оборудование, установки. Техническая эксплуатация и ремонт транспортных средств','','','',false,true);
+d.add(204,194,'629.3','<div class="nodetag">629.3</div></span>&nbsp;&nbsp;Наземные средства транспорта (кроме рельсовых)','629.3','Наземные средства транспорта (кроме рельсовых)','','','',false,true);
+d.add(205,194,'629.4','<div class="nodetag">629.4</div></span>&nbsp;&nbsp;Тяга поездов на железных дорогах. Подвижной состав ','629.4','Тяга поездов на железных дорогах. Подвижной состав ','','','',false,true);
+d.add(206,194,'629.5','<div class="nodetag">629.5</div></span>&nbsp;&nbsp;Водные средства транспорта. Плавучие средства. Судостроение','629.5','Водные средства транспорта. Плавучие средства. Судостроение','','','',false,true);
+d.add(207,194,'629.7','<div class="nodetag">629.7</div></span>&nbsp;&nbsp;Авиация и космонавтика. Летательные аппараты. Ракетная техника. Космическая техника','629.7','Авиация и космонавтика. Летательные аппараты. Ракетная техника. Космическая техника','','','',false,true);
+d.add(208,0,'63','<div class="nodetag">63</div></span>&nbsp;&nbsp;Сельское хозяйство. Лесное хозяйство. Охота. Рыбное хозяйство','63','Сельское хозяйство. Лесное хозяйство. Охота. Рыбное хозяйство','','','',false,true);
+d.add(209,208,'630','<div class="nodetag">630</div></span>&nbsp;&nbsp;Лесное хозяйство. Лесоводство','630','Лесное хозяйство. Лесоводство','','','',false,true);
+d.add(210,209,'630*0','<div class="nodetag">630*0</div></span>&nbsp;&nbsp;Леса, лесное хозяйство в целом и использование продуктов леса','630*0','Леса, лесное хозяйство в целом и использование продуктов леса','','','',false,true);
+d.add(211,209,'630*1','<div class="nodetag">630*1</div></span>&nbsp;&nbsp;Условия окружающей среды. Биология леса','630*1','Условия окружающей среды. Биология леса','','','',false,true);
+d.add(212,209,'630*2','<div class="nodetag">630*2</div></span>&nbsp;&nbsp;Лесоводство','630*2','Лесоводство','','','',false,true);
+d.add(213,209,'630*3','<div class="nodetag">630*3</div></span>&nbsp;&nbsp;Научная  и учебная работа. Лесозаготовки','630*3','Научная  и учебная работа. Лесозаготовки','','','',false,true);
+d.add(214,209,'630*4','<div class="nodetag">630*4</div></span>&nbsp;&nbsp;Вредители леса и лесозащитные мероприятия','630*4','Вредители леса и лесозащитные мероприятия','','','',false,true);
+d.add(215,209,'630*5','<div class="nodetag">630*5</div></span>&nbsp;&nbsp;Лесная таксация. Прирост, ход роста и состав лесонасаждений','630*5','Лесная таксация. Прирост, ход роста и состав лесонасаждений','','','',false,true);
+d.add(216,209,'630*6','<div class="nodetag">630*6</div></span>&nbsp;&nbsp;Организация лесного хозяйства. Экономика лесного хозяйства. Административные и организационные вопросы','630*6','Организация лесного хозяйства. Экономика лесного хозяйства. Административные и организационные вопросы','','','',false,true);
+d.add(217,209,'630*7','<div class="nodetag">630*7</div></span>&nbsp;&nbsp;Торговля лесом. Экономика лесного транспорта и лесной промышленности','630*7','Торговля лесом. Экономика лесного транспорта и лесной промышленности','','','',false,true);
+d.add(218,209,'630*8','<div class="nodetag">630*8</div></span>&nbsp;&nbsp;Лесопродукты и их использование','630*8','Лесопродукты и их использование','','','',false,true);
+d.add(219,209,'630*9','<div class="nodetag">630*9</div></span>&nbsp;&nbsp;Леса и лесное хозяйство с государственной точки зрения. Политика в области лесного хозяйства. Социальная экономика лесного хозяйства','630*9','Леса и лесное хозяйство с государственной точки зрения. Политика в области лесного хозяйства. Социальная экономика лесного хозяйства','','','',false,true);
+d.add(220,208,'631/635','<div class="nodetag">631/635</div></span>&nbsp;&nbsp;Организация и управление сельскохозяйственным производством. Земледелие. Садоводство','631/635','Организация и управление сельскохозяйственным производством. Земледелие. Садоводство','','','',false,true);
+d.add(221,220,'631','<div class="nodetag">631</div></span>&nbsp;&nbsp;Сельское хозяйство в целом','631','Сельское хозяйство в целом','','','',false,true);
+d.add(222,221,'631.1','<div class="nodetag">631.1</div></span>&nbsp;&nbsp;Организация и управление сельскохозяйственным производством','631.1','Организация и управление сельскохозяйственным производством','','','',false,true);
+d.add(223,221,'631.2','<div class="nodetag">631.2</div></span>&nbsp;&nbsp;Сельскохозяйственные постройки и сооружения (эксплуатация и оборудование). Постройки животноводческие для хранения сельскохозяйственных продуктов, машин и орудий','631.2','Сельскохозяйственные постройки и сооружения (эксплуатация и оборудование). Постройки животноводческие для хранения сельскохозяйственных продуктов, машин и орудий','','','',false,true);
+d.add(224,221,'631.3','<div class="nodetag">631.3</div></span>&nbsp;&nbsp;Сельскохозяйственные машины и орудия. Сельскохозяйственное оборудование','631.3','Сельскохозяйственные машины и орудия. Сельскохозяйственное оборудование','','','',false,true);
+d.add(225,221,'631.4','<div class="nodetag">631.4</div></span>&nbsp;&nbsp;Почвоведение. Почвенные исследования','631.4','Почвоведение. Почвенные исследования','','','',false,true);
+d.add(226,221,'631.5','<div class="nodetag">631.5</div></span>&nbsp;&nbsp;Агротехника','631.5','Агротехника','','','',false,true);
+d.add(227,221,'631.6','<div class="nodetag">631.6</div></span>&nbsp;&nbsp;Сельскохозяйственная мелиорация','631.6','Сельскохозяйственная мелиорация','','','',false,true);
+d.add(228,221,'631.8','<div class="nodetag">631.8</div></span>&nbsp;&nbsp;Удобрения. Стимуляция роста растений. Внесение удобрений. Ростовые вещества','631.8','Удобрения. Стимуляция роста растений. Внесение удобрений. Ростовые вещества','','','',false,true);
+d.add(229,220,'632','<div class="nodetag">632</div></span>&nbsp;&nbsp;Повреждения растений. Вредители растений. Болезни растений. Защита растений','632','Повреждения растений. Вредители растений. Болезни растений. Защита растений','','','',false,true);
+d.add(230,220,'633/635','<div class="nodetag">633/635</div></span>&nbsp;&nbsp;Садоводство в целом','633/635','Садоводство в целом','','','',false,true);
+d.add(231,230,'633','<div class="nodetag">633</div></span>&nbsp;&nbsp;Полеводство. Полевые культуры и их производство','633','Полеводство. Полевые культуры и их производство','','','',false,true);
+d.add(232,231,'633.1','<div class="nodetag">633.1</div></span>&nbsp;&nbsp;Хлебные злаки. Зерновые культуры','633.1','Хлебные злаки. Зерновые культуры','','','',false,true);
+d.add(233,231,'633.2','<div class="nodetag">633.2</div></span>&nbsp;&nbsp;Кормовые травы. Луговые травы','633.2','Кормовые травы. Луговые травы','','','',false,true);
+d.add(234,231,'633.3','<div class="nodetag">633.3</div></span>&nbsp;&nbsp;Прочие кормовые растения','633.3','Прочие кормовые растения','','','',false,true);
+d.add(235,231,'633.4','<div class="nodetag">633.4</div></span>&nbsp;&nbsp;Корнеклубнеплоды','633.4','Корнеклубнеплоды','','','',false,true);
+d.add(236,231,'633.5','<div class="nodetag">633.5</div></span>&nbsp;&nbsp;Прядильные и волокнистые растения','633.5','Прядильные и волокнистые растения','','','',false,true);
+d.add(237,231,'633.6','<div class="nodetag">633.6</div></span>&nbsp;&nbsp;Сахаристые и крахмалистые растения','633.6','Сахаристые и крахмалистые растения','','','',false,true);
+d.add(238,231,'633.7','<div class="nodetag">633.7</div></span>&nbsp;&nbsp;Возбуждающие и наркотические растения','633.7','Возбуждающие и наркотические растения','','','',false,true);
+d.add(239,231,'633.8','<div class="nodetag">633.8</div></span>&nbsp;&nbsp;Эфиромасличные растения.  Ароматические, пряные, масличные, красильные, дубильные, лекарственные растения','633.8','Эфиромасличные растения.  Ароматические, пряные, масличные, красильные, дубильные, лекарственные растения','','','',false,true);
+d.add(240,231,'633.9','<div class="nodetag">633.9</div></span>&nbsp;&nbsp;Прочие технические культуры','633.9','Прочие технические культуры','','','',false,true);
+d.add(241,230,'634','<div class="nodetag">634</div></span>&nbsp;&nbsp;Плодоводство','634','Плодоводство','','','',false,true);
+d.add(242,241,'634.2','<div class="nodetag">634.2</div></span>&nbsp;&nbsp;Косточковые плодовые культуры, общие вопросы. Prunus, включая Armeniaca, Cerasus, Persica','634.2','Косточковые плодовые культуры, общие вопросы. Prunus, включая Armeniaca, Cerasus, Persica','','','',false,true);
+d.add(243,241,'634.3','<div class="nodetag">634.3</div></span>&nbsp;&nbsp;Рутовые и тутовые. Цитрусовые в целом','634.3','Рутовые и тутовые. Цитрусовые в целом','','','',false,true);
+d.add(244,241,'634.4','<div class="nodetag">634.4</div></span>&nbsp;&nbsp;Различные плодовые','634.4','Различные плодовые','','','',false,true);
+d.add(245,241,'634.5','<div class="nodetag">634.5</div></span>&nbsp;&nbsp;Орехоплодные','634.5','Орехоплодные','','','',false,true);
+d.add(246,241,'634.6','<div class="nodetag">634.6</div></span>&nbsp;&nbsp;Различные тропические и субтропические плодовые','634.6','Различные тропические и субтропические плодовые','','','',false,true);
+d.add(247,241,'634.7','<div class="nodetag">634.7</div></span>&nbsp;&nbsp;Ягодные культуры','634.7','Ягодные культуры','','','',false,true);
+d.add(248,241,'634.8','<div class="nodetag">634.8</div></span>&nbsp;&nbsp;Виноградарство, виноградные лозы и  виноградники ','634.8','Виноградарство, виноградные лозы и  виноградники ','','','',false,true);
+d.add(249,230,'635','<div class="nodetag">635</div></span>&nbsp;&nbsp;Овощеводство и декоративное садоводство','635','Овощеводство и декоративное садоводство','','','',false,true);
+d.add(250,249,'635.1/.8','<div class="nodetag">635.1/.8</div></span>&nbsp;&nbsp;Овощеводство. Огородничество','635.1/.8','Овощеводство. Огородничество','','','',false,true);
+d.add(251,250,'635.1','<div class="nodetag">635.1</div></span>&nbsp;&nbsp;Корнеклубнеплоды. Пропашные культуры в целом','635.1','Корнеклубнеплоды. Пропашные культуры в целом','','','',false,true);
+d.add(252,250,'635.2','<div class="nodetag">635.2</div></span>&nbsp;&nbsp;Овощные клубнеплоды и луковичные','635.2','Овощные клубнеплоды и луковичные','','','',false,true);
+d.add(253,250,'635.3','<div class="nodetag">635.3</div></span>&nbsp;&nbsp;Растения со съедобными стеблями, листьями и цветами','635.3','Растения со съедобными стеблями, листьями и цветами','','','',false,true);
+d.add(254,250,'635.4','<div class="nodetag">635.4</div></span>&nbsp;&nbsp;Зеленные культуры','635.4','Зеленные культуры','','','',false,true);
+d.add(255,250,'635.6','<div class="nodetag">635.6</div></span>&nbsp;&nbsp;Растения со съедобными семенами и плодами. Бобовые','635.6','Растения со съедобными семенами и плодами. Бобовые','','','',false,true);
+d.add(256,250,'635.7','<div class="nodetag">635.7</div></span>&nbsp;&nbsp;Душистые травы и пряные растения','635.7','Душистые травы и пряные растения','','','',false,true);
+d.add(257,250,'635.8','<div class="nodetag">635.8</div></span>&nbsp;&nbsp;Грибы','635.8','Грибы','','','',false,true);
+d.add(258,249,'635.9','<div class="nodetag">635.9</div></span>&nbsp;&nbsp;Декоративные растения. Декоративное садоводство','635.9','Декоративные растения. Декоративное садоводство','','','',false,true);
+d.add(259,208,'636','<div class="nodetag">636</div></span>&nbsp;&nbsp;Общее животноводство. Разведение млекопитающих животных и птиц. Скотоводство. Домашние животные и их разведение','636','Общее животноводство. Разведение млекопитающих животных и птиц. Скотоводство. Домашние животные и их разведение','','','',false,true);
+d.add(260,259,'636.01/.09','<div class="nodetag">636.01/.09</div></span>&nbsp;&nbsp;Специальные определители для животноводства','636.01/.09','Специальные определители для животноводства','','','',false,true);
+d.add(261,260,'636.01','<div class="nodetag">636.01</div></span>&nbsp;&nbsp;Происхождение, эволюция и одомашнивание животных. Биологические основы разведения и выращивания','636.01','Происхождение, эволюция и одомашнивание животных. Биологические основы разведения и выращивания','','','',false,true);
+d.add(262,260,'636.02','<div class="nodetag">636.02</div></span>&nbsp;&nbsp;Животные, используемые для разведения, демонстрации и научных целей','636.02','Животные, используемые для разведения, демонстрации и научных целей','','','',false,true);
+d.add(263,260,'636.03','<div class="nodetag">636.03</div></span>&nbsp;&nbsp;Животные для получения продуктов питания и других видов продукции: продуктивность, выход продукции. Сельскохозяйственные животные в целом','636.03','Животные для получения продуктов питания и других видов продукции: продуктивность, выход продукции. Сельскохозяйственные животные в целом','','','',false,true);
+d.add(264,260,'636.04','<div class="nodetag">636.04</div></span>&nbsp;&nbsp;Животные рабочие и для обслуживания или развлечения человека','636.04','Животные рабочие и для обслуживания или развлечения человека','','','',false,true);
+d.add(265,260,'636.05','<div class="nodetag">636.05</div></span>&nbsp;&nbsp;Животные в соответствии с методами разведения','636.05','Животные в соответствии с методами разведения','','','',false,true);
+d.add(266,260,'636.06','<div class="nodetag">636.06</div></span>&nbsp;&nbsp;Характеристика, конституция и специальные биологические показатели домашних животных','636.06','Характеристика, конституция и специальные биологические показатели домашних животных','','','',false,true);
+d.add(267,260,'636.08','<div class="nodetag">636.08</div></span>&nbsp;&nbsp;Общие вопросы животноводства','636.08','Общие вопросы животноводства','','','',false,true);
+d.add(268,260,'636.09','<div class="nodetag">636.09</div></span>&nbsp;&nbsp;Ветеринарная наука. Болезни домашних животных. Враги домашних животных. Зоотехнические меры защиты','636.09','Ветеринарная наука. Болезни домашних животных. Враги домашних животных. Зоотехнические меры защиты','','','',false,true);
+d.add(269,259,'636.1','<div class="nodetag">636.1</div></span>&nbsp;&nbsp;Непарнокопытные животные. Лошади','636.1','Непарнокопытные животные. Лошади','','','',false,true);
+d.add(270,259,'636.2','<div class="nodetag">636.2</div></span>&nbsp;&nbsp;Крупные жвачные животные. Крупный рогатый скот','636.2','Крупные жвачные животные. Крупный рогатый скот','','','',false,true);
+d.add(271,259,'636.3','<div class="nodetag">636.3</div></span>&nbsp;&nbsp;Мелкий рогатый скот. Овцы. Козы','636.3','Мелкий рогатый скот. Овцы. Козы','','','',false,true);
+d.add(272,259,'636.4','<div class="nodetag">636.4</div></span>&nbsp;&nbsp;Свиньи','636.4','Свиньи','','','',false,true);
+d.add(273,259,'636.5','<div class="nodetag">636.5</div></span>&nbsp;&nbsp;Домашняя птица','636.5','Домашняя птица','','','',false,true);
+d.add(274,259,'636.6','<div class="nodetag">636.6</div></span>&nbsp;&nbsp;Птицы, разводимые и содержащиеся человеком, но не относящиеся к домашним птицам и дичи','636.6','Птицы, разводимые и содержащиеся человеком, но не относящиеся к домашним птицам и дичи','','','',false,true);
+d.add(275,259,'636.7','<div class="nodetag">636.7</div></span>&nbsp;&nbsp;Собаки','636.7','Собаки','','','',false,true);
+d.add(276,259,'636.8','<div class="nodetag">636.8</div></span>&nbsp;&nbsp;Кошки','636.8','Кошки','','','',false,true);
+d.add(277,259,'636.9','<div class="nodetag">636.9</div></span>&nbsp;&nbsp;Прочие животные, содержащиеся человеком','636.9','Прочие животные, содержащиеся человеком','','','',false,true);
+d.add(278,208,'637','<div class="nodetag">637</div></span>&nbsp;&nbsp;Продукты животноводства и охоты','637','Продукты животноводства и охоты','','','',false,true);
+d.add(279,208,'638','<div class="nodetag">638</div></span>&nbsp;&nbsp;Разведение и содержание  насекомых и прочих членистоногих','638','Разведение и содержание  насекомых и прочих членистоногих','','','',false,true);
+d.add(280,208,'639','<div class="nodetag">639</div></span>&nbsp;&nbsp;Охота. Рыбное хозяйство. Рыболовство ','639','Охота. Рыбное хозяйство. Рыболовство ','','','',false,true);
+d.add(281,280,'639.1','<div class="nodetag">639.1</div></span>&nbsp;&nbsp;Охота','639.1','Охота','','','',false,true);
+d.add(282,280,'639.2','<div class="nodetag">639.2</div></span>&nbsp;&nbsp;Рыболовство','639.2','Рыболовство','','','',false,true);
+d.add(283,280,'639.3','<div class="nodetag">639.3</div></span>&nbsp;&nbsp;Рыбоводство','639.3','Рыбоводство','','','',false,true);
+d.add(284,280,'639.4','<div class="nodetag">639.4</div></span>&nbsp;&nbsp;Разведение моллюсков','639.4','Разведение моллюсков','','','',false,true);
+d.add(285,280,'639.5','<div class="nodetag">639.5</div></span>&nbsp;&nbsp;Разведение ракообразных, морских ежей, пиявок и др.','639.5','Разведение ракообразных, морских ежей, пиявок и др.','','','',false,true);
+d.add(286,280,'639.6','<div class="nodetag">639.6</div></span>&nbsp;&nbsp;Разведение прочих морских животных и растений','639.6','Разведение прочих морских животных и растений','','','',false,true);
+d.add(287,0,'64','<div class="nodetag">64</div></span>&nbsp;&nbsp;Домашнее хозяйство. Домоводство. Коммунально-бытовое хозяйство','64','Домашнее хозяйство. Домоводство. Коммунально-бытовое хозяйство','','','',false,true);
+d.add(288,287,'64.01/.08','<div class="nodetag">64.01/.08</div></span>&nbsp;&nbsp;Специальные определители для теории бытового хозяйства','64.01/.08','Специальные определители для теории бытового хозяйства','','','',false,true);
+d.add(289,288,'64.01','<div class="nodetag">64.01</div></span>&nbsp;&nbsp;Основные принципы домоводства. Теория и практика организации домохозяйств. Теория руководства и ведения хозяйства','64.01','Основные принципы домоводства. Теория и практика организации домохозяйств. Теория руководства и ведения хозяйства','','','',false,true);
+d.add(290,288,'64.048','<div class="nodetag">64.048</div></span>&nbsp;&nbsp;Методы, изучение работы. Анализ работы. Оборудование и организация рабочего места. Размещение и расстановка мебели, утвари, приборов, аппаратуры. Предварительная подготовка и вспомогательные материалы для различных работ','64.048','Методы, изучение работы. Анализ работы. Оборудование и организация рабочего места. Размещение и расстановка мебели, утвари, приборов, аппаратуры. Предварительная подготовка и вспомогательные материалы для различных работ','','','',false,true);
+d.add(291,288,'64.05','<div class="nodetag">64.05</div></span>&nbsp;&nbsp;Домоводство. Ведение хозяйства, домашние принадлежности и оборудование для определенных категорий лиц','64.05','Домоводство. Ведение хозяйства, домашние принадлежности и оборудование для определенных категорий лиц','','','',false,true);
+d.add(292,288,'64.06','<div class="nodetag">64.06</div></span>&nbsp;&nbsp;Бытовые машины, приборы, устройства и приспособления для домашнего хозяйства','64.06','Бытовые машины, приборы, устройства и приспособления для домашнего хозяйства','','','',false,true);
+d.add(293,288,'64.08','<div class="nodetag">64.08</div></span>&nbsp;&nbsp;Переезды. Переселение. Перевозка оборудования и имущества','64.08','Переезды. Переселение. Перевозка оборудования и имущества','','','',false,true);
+d.add(294,287,'640','<div class="nodetag">640</div></span>&nbsp;&nbsp;Типы домохозяйств ','640','Типы домохозяйств ','','','',false,true);
+d.add(295,287,'641/642','<div class="nodetag">641/642</div></span>&nbsp;&nbsp;Питание. Приготовление пищи. Посуда. Принятие пищи','641/642','Питание. Приготовление пищи. Посуда. Принятие пищи','','','',false,true);
+d.add(296,295,'641','<div class="nodetag">641</div></span>&nbsp;&nbsp;Питание. Приготовление пищи. Посуда','641','Питание. Приготовление пищи. Посуда','','','',false,true);
+d.add(297,295,'642','<div class="nodetag">642</div></span>&nbsp;&nbsp;Питание. Время приема пищи. Столовая посуда','642','Питание. Время приема пищи. Столовая посуда','','','',false,true);
+d.add(298,287,'643/645','<div class="nodetag">643/645</div></span>&nbsp;&nbsp;Жилища. Оборудование и предметы обстановки жилищ','643/645','Жилища. Оборудование и предметы обстановки жилищ','','','',false,true);
+d.add(299,298,'643','<div class="nodetag">643</div></span>&nbsp;&nbsp;Жилища','643','Жилища','','','',false,true);
+d.add(300,298,'644','<div class="nodetag">644</div></span>&nbsp;&nbsp;Санитарно-техническое оборудование','644','Санитарно-техническое оборудование','','','',false,true);
+d.add(301,300,'644.1','<div class="nodetag">644.1</div></span>&nbsp;&nbsp;Внутридомовой климат-контроль. Отопление. Вентиляция. Кондиционирование воздуха','644.1','Внутридомовой климат-контроль. Отопление. Вентиляция. Кондиционирование воздуха','','','',false,true);
+d.add(302,300,'644.3','<div class="nodetag">644.3</div></span>&nbsp;&nbsp;Освещение жилищ','644.3','Освещение жилищ','','','',false,true);
+d.add(303,300,'644.6','<div class="nodetag">644.6</div></span>&nbsp;&nbsp;Водоснабжение и санитарное оборудование жилищ','644.6','Водоснабжение и санитарное оборудование жилищ','','','',false,true);
+d.add(304,298,'645','<div class="nodetag">645</div></span>&nbsp;&nbsp;Мебель и предметы обстановки жилищ','645','Мебель и предметы обстановки жилищ','','','',false,true);
+d.add(305,287,'646/649','<div class="nodetag">646/649</div></span>&nbsp;&nbsp;Предметы личного обихода. Ведение домашнего хозяйства','646/649','Предметы личного обихода. Ведение домашнего хозяйства','','','',false,true);
+d.add(306,305,'646','<div class="nodetag">646</div></span>&nbsp;&nbsp;Одежда. Личная гигиена','646','Одежда. Личная гигиена','','','',false,true);
+d.add(307,306,'646.2','<div class="nodetag">646.2</div></span>&nbsp;&nbsp;Изготовление и ремонт одежды в домашних условиях','646.2','Изготовление и ремонт одежды в домашних условиях','','','',false,true);
+d.add(308,306,'646.4','<div class="nodetag">646.4</div></span>&nbsp;&nbsp;Различные виды одежды','646.4','Различные виды одежды','','','',false,true);
+d.add(309,306,'646.7','<div class="nodetag">646.7</div></span>&nbsp;&nbsp;Личная гигиена. Косметика','646.7','Личная гигиена. Косметика','','','',false,true);
+d.add(310,305,'648','<div class="nodetag">648</div></span>&nbsp;&nbsp;Стирка. Чистка. Уборка помещений','648','Стирка. Чистка. Уборка помещений','','','',false,true);
+d.add(311,305,'649','<div class="nodetag">649</div></span>&nbsp;&nbsp;Уход за детьми, больными. Прием гостей','649','Уход за детьми, больными. Прием гостей','','','',false,true);
+d.add(312,0,'65','<div class="nodetag">65</div></span>&nbsp;&nbsp;Управление предприятиями, организация производства, торговли и транспорта','65','Управление предприятиями, организация производства, торговли и транспорта','','','',false,true);
+d.add(313,312,'654','<div class="nodetag">654</div></span>&nbsp;&nbsp;Телекоммуникация и дистанционное управление (организация и эксплуатация)','654','Телекоммуникация и дистанционное управление (организация и эксплуатация)','','','',false,true);
+d.add(314,313,'654.1','<div class="nodetag">654.1</div></span>&nbsp;&nbsp;Телеграфная и телефонная связь. Радио и телевидение','654.1','Телеграфная и телефонная связь. Радио и телевидение','','','',false,true);
+d.add(315,313,'654.9','<div class="nodetag">654.9</div></span>&nbsp;&nbsp;Сигнализация. Различные телекоммуникационные службы. Дистанционное управление','654.9','Сигнализация. Различные телекоммуникационные службы. Дистанционное управление','','','',false,true);
+d.add(316,312,'655','<div class="nodetag">655</div></span>&nbsp;&nbsp;Полиграфическая промышленность. Издательское дело. Книжная торговля','655','Полиграфическая промышленность. Издательское дело. Книжная торговля','','','',false,true);
+d.add(317,316,'655.1','<div class="nodetag">655.1</div></span>&nbsp;&nbsp;Типографское дело в целом','655.1','Типографское дело в целом','','','',false,true);
+d.add(318,316,'655.4','<div class="nodetag">655.4</div></span>&nbsp;&nbsp;Типы издательств и виды книжной торговли','655.4','Типы издательств и виды книжной торговли','','','',false,true);
+d.add(319,312,'656','<div class="nodetag">656</div></span>&nbsp;&nbsp;Транспорт. Организация и управление движением.  Почтовая связь','656','Транспорт. Организация и управление движением.  Почтовая связь','','','',false,true);
+d.add(320,319,'656.1/.5','<div class="nodetag">656.1/.5</div></span>&nbsp;&nbsp;Наземный (сухопутный) транспорт','656.1/.5','Наземный (сухопутный) транспорт','','','',false,true);
+d.add(321,320,'656.1','<div class="nodetag">656.1</div></span>&nbsp;&nbsp;Дорожный (безрельсовый) транспорт','656.1','Дорожный (безрельсовый) транспорт','','','',false,true);
+d.add(322,320,'656.2','<div class="nodetag">656.2</div></span>&nbsp;&nbsp;Рельсовый транспорт. Железнодорожное движение','656.2','Рельсовый транспорт. Железнодорожное движение','','','',false,true);
+d.add(323,320,'656.4','<div class="nodetag">656.4</div></span>&nbsp;&nbsp;Узкоколейные железные дороги. Железные дороги облегченного типа','656.4','Узкоколейные железные дороги. Железные дороги облегченного типа','','','',false,true);
+d.add(324,320,'656.5','<div class="nodetag">656.5</div></span>&nbsp;&nbsp;Другие виды наземного транспорта','656.5','Другие виды наземного транспорта','','','',false,true);
+d.add(325,319,'656.6','<div class="nodetag">656.6</div></span>&nbsp;&nbsp;Водный транспорт','656.6','Водный транспорт','','','',false,true);
+d.add(326,319,'656.7','<div class="nodetag">656.7</div></span>&nbsp;&nbsp;Воздушный транспорт. Перевозки по воздуху','656.7','Воздушный транспорт. Перевозки по воздуху','','','',false,true);
+d.add(327,319,'656.8','<div class="nodetag">656.8</div></span>&nbsp;&nbsp;Почтовая служба. Управление почтовой службы','656.8','Почтовая служба. Управление почтовой службы','','','',false,true);
+d.add(328,312,'657','<div class="nodetag">657</div></span>&nbsp;&nbsp;Бухгалтерия. Бухгалтерский учет','657','Бухгалтерия. Бухгалтерский учет','','','',false,true);
+d.add(329,312,'658','<div class="nodetag">658</div></span>&nbsp;&nbsp;Организация производства. Управление. Экономика предприятий','658','Организация производства. Управление. Экономика предприятий','','','',false,true);
+d.add(330,329,'658.1','<div class="nodetag">658.1</div></span>&nbsp;&nbsp;Типы предприятий. Финансы','658.1','Типы предприятий. Финансы','','','',false,true);
+d.add(331,329,'658.2','<div class="nodetag">658.2</div></span>&nbsp;&nbsp;Здания и сооружения. Сырье и материалы. Средства производства','658.2','Здания и сооружения. Сырье и материалы. Средства производства','','','',false,true);
+d.add(332,329,'658.3','<div class="nodetag">658.3</div></span>&nbsp;&nbsp;Взаимоотношения людей на производстве','658.3','Взаимоотношения людей на производстве','','','',false,true);
+d.add(333,329,'658.5','<div class="nodetag">658.5</div></span>&nbsp;&nbsp;Организация производственного процесса. Производственное планирование. Управление качеством','658.5','Организация производственного процесса. Производственное планирование. Управление качеством','','','',false,true);
+d.add(334,329,'658.6','<div class="nodetag">658.6</div></span>&nbsp;&nbsp;Организация и техника торговли. Товары. Оказание услуг','658.6','Организация и техника торговли. Товары. Оказание услуг','','','',false,true);
+d.add(335,329,'658.7','<div class="nodetag">658.7</div></span>&nbsp;&nbsp;Материально-техническое снабжение. Закупки. Складское хозяйство','658.7','Материально-техническое снабжение. Закупки. Складское хозяйство','','','',false,true);
+d.add(336,329,'658.8','<div class="nodetag">658.8</div></span>&nbsp;&nbsp;Маркетинг. Сбыт. Продажа. Реализация продукции','658.8','Маркетинг. Сбыт. Продажа. Реализация продукции','','','',false,true);
+d.add(337,329,'658.9','<div class="nodetag">658.9</div></span>&nbsp;&nbsp;Прочие торговые операции','658.9','Прочие торговые операции','','','',false,true);
+d.add(338,312,'659','<div class="nodetag">659</div></span>&nbsp;&nbsp;Реклама. Информационная работа. Связи с общественностью','659','Реклама. Информационная работа. Связи с общественностью','','','',false,true);
+d.add(339,338,'659.1','<div class="nodetag">659.1</div></span>&nbsp;&nbsp;Реклама','659.1','Реклама','','','',false,true);
+d.add(340,338,'659.2','<div class="nodetag">659.2</div></span>&nbsp;&nbsp;Информационная работа. Справочные и консультативные услуги','659.2','Информационная работа. Справочные и консультативные услуги','','','',false,true);
+d.add(341,338,'659.3','<div class="nodetag">659.3</div></span>&nbsp;&nbsp;Общественное информирование','659.3','Общественное информирование','','','',false,true);
+d.add(342,338,'659.4','<div class="nodetag">659.4</div></span>&nbsp;&nbsp;Связь с общественностью (public relations, PR)','659.4','Связь с общественностью (public relations, PR)','','','',false,true);
+d.add(343,0,'66','<div class="nodetag">66</div></span>&nbsp;&nbsp;Химическая технология. Химическая промышленность. Родственные отрасли','66','Химическая технология. Химическая промышленность. Родственные отрасли','','','',false,true);
+d.add(344,343,'66.01/.09','<div class="nodetag">66.01/.09</div></span>&nbsp;&nbsp;Специальные определители для химической технологии','66.01/.09','Специальные определители для химической технологии','','','',false,true);
+d.add(345,344,'66.01','<div class="nodetag">66.01</div></span>&nbsp;&nbsp;Основы химической технологии','66.01','Основы химической технологии','','','',false,true);
+d.add(346,344,'66.02','<div class="nodetag">66.02</div></span>&nbsp;&nbsp;Процессы и оборудование химической технологии в целом','66.02','Процессы и оборудование химической технологии в целом','','','',false,true);
+d.add(347,344,'66.03','<div class="nodetag">66.03</div></span>&nbsp;&nbsp;Процессы и оборудование отдельных производств','66.03','Процессы и оборудование отдельных производств','','','',false,true);
+d.add(348,344,'66.04','<div class="nodetag">66.04</div></span>&nbsp;&nbsp;Методы и оборудование для термической обработки','66.04','Методы и оборудование для термической обработки','','','',false,true);
+d.add(349,344,'66.06','<div class="nodetag">66.06</div></span>&nbsp;&nbsp;Химическая технология жидкостей. Процессы и оборудование для обработки жидкостей или жидкостями','66.06','Химическая технология жидкостей. Процессы и оборудование для обработки жидкостей или жидкостями','','','',false,true);
+d.add(350,344,'66.07','<div class="nodetag">66.07</div></span>&nbsp;&nbsp;Химическая технология газов','66.07','Химическая технология газов','','','',false,true);
+d.add(351,344,'66.08','<div class="nodetag">66.08</div></span>&nbsp;&nbsp;Физические и физико-химические процессы и оборудование. Физические и физико-химические воздействия на химические процессы','66.08','Физические и физико-химические процессы и оборудование. Физические и физико-химические воздействия на химические процессы','','','',false,true);
+d.add(352,343,'661','<div class="nodetag">661</div></span>&nbsp;&nbsp;Продукты основной химической технологии','661','Продукты основной химической технологии','','','',false,true);
+d.add(353,352,'661.1','<div class="nodetag">661.1</div></span>&nbsp;&nbsp;Специальные отрасли химической промышленности','661.1','Специальные отрасли химической промышленности','','','',false,true);
+d.add(354,352,'661.2','<div class="nodetag">661.2</div></span>&nbsp;&nbsp;Производство серы и её производных','661.2','Производство серы и её производных','','','',false,true);
+d.add(355,352,'661.3','<div class="nodetag">661.3</div></span>&nbsp;&nbsp;Производство соды и поташа. Щелочи','661.3','Производство соды и поташа. Щелочи','','','',false,true);
+d.add(356,352,'661.4','<div class="nodetag">661.4</div></span>&nbsp;&nbsp;Производство галогенов и их соединений. Производство неорганических пероксосоединений','661.4','Производство галогенов и их соединений. Производство неорганических пероксосоединений','','','',false,true);
+d.add(357,352,'661.5','<div class="nodetag">661.5</div></span>&nbsp;&nbsp;Производство соединений азота. Связывание азота. Азотная промышленность в целом','661.5','Производство соединений азота. Связывание азота. Азотная промышленность в целом','','','',false,true);
+d.add(358,352,'661.6','<div class="nodetag">661.6</div></span>&nbsp;&nbsp;Производство различных неметаллов, металлоидов и их соединений','661.6','Производство различных неметаллов, металлоидов и их соединений','','','',false,true);
+d.add(359,352,'661.7','<div class="nodetag">661.7</div></span>&nbsp;&nbsp;Производство органических веществ. Органические соединения','661.7','Производство органических веществ. Органические соединения','','','',false,true);
+d.add(360,352,'661.8','<div class="nodetag">661.8</div></span>&nbsp;&nbsp;Соединения металлов в целом. Соли. Минеральные пигменты','661.8','Соединения металлов в целом. Соли. Минеральные пигменты','','','',false,true);
+d.add(361,352,'661.9','<div class="nodetag">661.9</div></span>&nbsp;&nbsp;Производство газов','661.9','Производство газов','','','',false,true);
+d.add(362,343,'662','<div class="nodetag">662</div></span>&nbsp;&nbsp;Взрывчатые вещества. Топлива','662','Взрывчатые вещества. Топлива','','','',false,true);
+d.add(363,362,'662.1/.4','<div class="nodetag">662.1/.4</div></span>&nbsp;&nbsp;Взрывчатые вещества','662.1/.4','Взрывчатые вещества','','','',false,true);
+d.add(364,363,'662.1','<div class="nodetag">662.1</div></span>&nbsp;&nbsp;Фейерверки. Пиротехника ','662.1','Фейерверки. Пиротехника ','','','',false,true);
+d.add(365,363,'662.2','<div class="nodetag">662.2</div></span>&nbsp;&nbsp;Взрывчатые вещества','662.2','Взрывчатые вещества','','','',false,true);
+d.add(366,363,'662.3','<div class="nodetag">662.3</div></span>&nbsp;&nbsp;Метательные взрывчатые вещества. Пороха','662.3','Метательные взрывчатые вещества. Пороха','','','',false,true);
+d.add(367,363,'662.4','<div class="nodetag">662.4</div></span>&nbsp;&nbsp;Инициирующие взрывчатые вещества. Детонаторы','662.4','Инициирующие взрывчатые вещества. Детонаторы','','','',false,true);
+d.add(368,362,'662.5','<div class="nodetag">662.5</div></span>&nbsp;&nbsp;Зажигалки. Спички','662.5','Зажигалки. Спички','','','',false,true);
+d.add(369,362,'662.6/.9','<div class="nodetag">662.6/.9</div></span>&nbsp;&nbsp;Тепловое хозяйство. Топлива. Нагревание','662.6/.9','Тепловое хозяйство. Топлива. Нагревание','','','',false,true);
+d.add(370,369,'662.6','<div class="nodetag">662.6</div></span>&nbsp;&nbsp;Тепловое хозяйство в целом. Горение. Природные топлива','662.6','Тепловое хозяйство в целом. Горение. Природные топлива','','','',false,true);
+d.add(371,369,'662.7','<div class="nodetag">662.7</div></span>&nbsp;&nbsp;Технология топлив','662.7','Технология топлив','','','',false,true);
+d.add(372,369,'662.8','<div class="nodetag">662.8</div></span>&nbsp;&nbsp;Механическая обработка твердых топлив. Брикетирование','662.8','Механическая обработка твердых топлив. Брикетирование','','','',false,true);
+d.add(373,369,'662.9','<div class="nodetag">662.9</div></span>&nbsp;&nbsp;Техника горения и печи','662.9','Техника горения и печи','','','',false,true);
+d.add(374,343,'663','<div class="nodetag">663</div></span>&nbsp;&nbsp;Микробиологические производства. Бродильные производства. Производство напитков. Производство вкусовых продуктов','663','Микробиологические производства. Бродильные производства. Производство напитков. Производство вкусовых продуктов','','','',false,true);
+d.add(375,374,'663.1','<div class="nodetag">663.1</div></span>&nbsp;&nbsp;Микробиологические производства','663.1','Микробиологические производства','','','',false,true);
+d.add(376,374,'663.2','<div class="nodetag">663.2</div></span>&nbsp;&nbsp;Виноделие. Энология. Виноградные вина','663.2','Виноделие. Энология. Виноградные вина','','','',false,true);
+d.add(377,374,'663.3','<div class="nodetag">663.3</div></span>&nbsp;&nbsp;Плодово-ягодное виноделие. Плодово-ягодные вина','663.3','Плодово-ягодное виноделие. Плодово-ягодные вина','','','',false,true);
+d.add(378,374,'663.4','<div class="nodetag">663.4</div></span>&nbsp;&nbsp;Пивоварение. Солодоращение. Пиво','663.4','Пивоварение. Солодоращение. Пиво','','','',false,true);
+d.add(379,374,'663.5','<div class="nodetag">663.5</div></span>&nbsp;&nbsp;Спирто-водочное производство. Спирт. Водка','663.5','Спирто-водочное производство. Спирт. Водка','','','',false,true);
+d.add(380,374,'663.6','<div class="nodetag">663.6</div></span>&nbsp;&nbsp;Вода для напитков и других промышленных целей. Минеральные и лечебные воды. Пищевой лед','663.6','Вода для напитков и других промышленных целей. Минеральные и лечебные воды. Пищевой лед','','','',false,true);
+d.add(381,374,'663.8','<div class="nodetag">663.8</div></span>&nbsp;&nbsp;Производство основных компонентов для купажирования напитков. Фруктовые и овощные соки. Сиропы. Ликеры. Безалкогольные напитки','663.8','Производство основных компонентов для купажирования напитков. Фруктовые и овощные соки. Сиропы. Ликеры. Безалкогольные напитки','','','',false,true);
+d.add(382,374,'663.9','<div class="nodetag">663.9</div></span>&nbsp;&nbsp;Производство вкусовых продуктов. Производство какао, шоколада, шоколадно-конфетных изделий, кофе, чая. Табачное производство','663.9','Производство вкусовых продуктов. Производство какао, шоколада, шоколадно-конфетных изделий, кофе, чая. Табачное производство','','','',false,true);
+d.add(383,343,'664','<div class="nodetag">664</div></span>&nbsp;&nbsp;Пищевая промышленность в целом. Производство и консервирование пищевых продуктов','664','Пищевая промышленность в целом. Производство и консервирование пищевых продуктов','','','',false,true);
+d.add(384,383,'664.1','<div class="nodetag">664.1</div></span>&nbsp;&nbsp;Сахарное производство. Сахаристые кондитерские изделия','664.1','Сахарное производство. Сахаристые кондитерские изделия','','','',false,true);
+d.add(385,383,'664.2','<div class="nodetag">664.2</div></span>&nbsp;&nbsp;Крахмало-паточное производство в целом. Крахмалосодержащие продукты','664.2','Крахмало-паточное производство в целом. Крахмалосодержащие продукты','','','',false,true);
+d.add(386,383,'664.3','<div class="nodetag">664.3</div></span>&nbsp;&nbsp;Производство пищевых жиров и масел. Пищевые жиры и масла, маргарин','664.3','Производство пищевых жиров и масел. Пищевые жиры и масла, маргарин','','','',false,true);
+d.add(387,383,'664.4','<div class="nodetag">664.4</div></span>&nbsp;&nbsp;Минеральные пищевые продукты. Поваренная соль ','664.4','Минеральные пищевые продукты. Поваренная соль ','','','',false,true);
+d.add(388,383,'664.5','<div class="nodetag">664.5</div></span>&nbsp;&nbsp;Пряности. Приправы ','664.5','Пряности. Приправы ','','','',false,true);
+d.add(389,383,'664.6/.7','<div class="nodetag">664.6/.7</div></span>&nbsp;&nbsp;Технология переработки зерна. Мукомольно-крупяное и хлебопекарное производства','664.6/.7','Технология переработки зерна. Мукомольно-крупяное и хлебопекарное производства','','','',false,true);
+d.add(390,389,'664.6','<div class="nodetag">664.6</div></span>&nbsp;&nbsp;Хлебопекарное производство (хлебопечение). Хлеб. Мучные кондитерские изделия','664.6','Хлебопекарное производство (хлебопечение). Хлеб. Мучные кондитерские изделия','','','',false,true);
+d.add(391,389,'664.7','<div class="nodetag">664.7</div></span>&nbsp;&nbsp;Переработка зерна. Мукомольно-крупяное производство','664.7','Переработка зерна. Мукомольно-крупяное производство','','','',false,true);
+d.add(392,383,'664.8/.9','<div class="nodetag">664.8/.9</div></span>&nbsp;&nbsp;Технология консервирования пищевых продуктов','664.8/.9','Технология консервирования пищевых продуктов','','','',false,true);
+d.add(393,343,'665','<div class="nodetag">665</div></span>&nbsp;&nbsp;Масла. Жиры. Воски. Клеящие вещества. Смолы. Камеди','665','Масла. Жиры. Воски. Клеящие вещества. Смолы. Камеди','','','',false,true);
+d.add(394,393,'665.1','<div class="nodetag">665.1</div></span>&nbsp;&nbsp;Общие сведения о маслах, жирах, восках и продуктах их переработки','665.1','Общие сведения о маслах, жирах, восках и продуктах их переработки','','','',false,true);
+d.add(395,393,'665.2','<div class="nodetag">665.2</div></span>&nbsp;&nbsp;Масла, жиры и воски животного происхождения','665.2','Масла, жиры и воски животного происхождения','','','',false,true);
+d.add(396,393,'665.3','<div class="nodetag">665.3</div></span>&nbsp;&nbsp;Масла, жиры и воски растительного происхождения. Растительные фосфолипиды','665.3','Масла, жиры и воски растительного происхождения. Растительные фосфолипиды','','','',false,true);
+d.add(397,393,'665.5','<div class="nodetag">665.5</div></span>&nbsp;&nbsp;Эфирные масла. Парфюмерия. Косметические средства','665.5','Эфирные масла. Парфюмерия. Косметические средства','','','',false,true);
+d.add(398,393,'665.6/.7','<div class="nodetag">665.6/.7</div></span>&nbsp;&nbsp;Процессы и продукты нефтяной и смежных отраслей промышленности','665.6/.7','Процессы и продукты нефтяной и смежных отраслей промышленности','','','',false,true);
+d.add(399,398,'665.6','<div class="nodetag">665.6</div></span>&nbsp;&nbsp;Технология минеральных масел. Технология нефти и аналогичного сырья','665.6','Технология минеральных масел. Технология нефти и аналогичного сырья','','','',false,true);
+d.add(400,398,'665.7','<div class="nodetag">665.7</div></span>&nbsp;&nbsp;Продукты нефтяной промышленности. Минеральные масла и аналогичные продукты','665.7','Продукты нефтяной промышленности. Минеральные масла и аналогичные продукты','','','',false,true);
+d.add(401,393,'665.9','<div class="nodetag">665.9</div></span>&nbsp;&nbsp;Различные производства органических химических продуктов','665.9','Различные производства органических химических продуктов','','','',false,true);
+d.add(402,343,'666','<div class="nodetag">666</div></span>&nbsp;&nbsp;Стекольная промышленность. Керамическая промышленность. Промышленность вяжущих','666','Стекольная промышленность. Керамическая промышленность. Промышленность вяжущих','','','',false,true);
+d.add(403,402,'666.1','<div class="nodetag">666.1</div></span>&nbsp;&nbsp;Стекольная промышленность. Технология стекла. Производство стекла в целом','666.1','Стекольная промышленность. Технология стекла. Производство стекла в целом','','','',false,true);
+d.add(404,402,'666.3/.7','<div class="nodetag">666.3/.7</div></span>&nbsp;&nbsp;Керамическая промышленность','666.3/.7','Керамическая промышленность','','','',false,true);
+d.add(405,404,'666.3','<div class="nodetag">666.3</div></span>&nbsp;&nbsp;Керамика в целом. Керамическое сырье','666.3','Керамика в целом. Керамическое сырье','','','',false,true);
+d.add(406,404,'666.5','<div class="nodetag">666.5</div></span>&nbsp;&nbsp;Фарфор','666.5','Фарфор','','','',false,true);
+d.add(407,404,'666.6','<div class="nodetag">666.6</div></span>&nbsp;&nbsp;Каменная керамика. Пористые изделия из тонкой керамики','666.6','Каменная керамика. Пористые изделия из тонкой керамики','','','',false,true);
+d.add(408,404,'666.7','<div class="nodetag">666.7</div></span>&nbsp;&nbsp;Грубая керамика. Огнеупорные изделия. Смеси из керамики и других материалов','666.7','Грубая керамика. Огнеупорные изделия. Смеси из керамики и других материалов','','','',false,true);
+d.add(409,402,'666.9','<div class="nodetag">666.9</div></span>&nbsp;&nbsp;Производство гипса, извести, цемента. Вяжущие материалы. Строительные растворы и смеси','666.9','Производство гипса, извести, цемента. Вяжущие материалы. Строительные растворы и смеси','','','',false,true);
+d.add(410,343,'667','<div class="nodetag">667</div></span>&nbsp;&nbsp;Промышленность красящих веществ. Производство и применение красок, чернил, пигментов и прочих материалов','667','Промышленность красящих веществ. Производство и применение красок, чернил, пигментов и прочих материалов','','','',false,true);
+d.add(411,410,'667.2','<div class="nodetag">667.2</div></span>&nbsp;&nbsp;Промышленность красителей. Производство и применение красителей ','667.2','Промышленность красителей. Производство и применение красителей ','','','',false,true);
+d.add(412,410,'667.4','<div class="nodetag">667.4</div></span>&nbsp;&nbsp;Чернила для письма','667.4','Чернила для письма','','','',false,true);
+d.add(413,410,'667.5','<div class="nodetag">667.5</div></span>&nbsp;&nbsp;Черные и цветные печатные краски. Литографская тушь. Цветные мелки. Карандаши для письма и черчения  ','667.5','Черные и цветные печатные краски. Литографская тушь. Цветные мелки. Карандаши для письма и черчения  ','','','',false,true);
+d.add(414,410,'667.6','<div class="nodetag">667.6</div></span>&nbsp;&nbsp;Средства для покрытий и их технология. Лакокрасочные материалы','667.6','Средства для покрытий и их технология. Лакокрасочные материалы','','','',false,true);
+d.add(415,410,'667.7','<div class="nodetag">667.7</div></span>&nbsp;&nbsp;Окрашивание различных материалов','667.7','Окрашивание различных материалов','','','',false,true);
+d.add(416,343,'669','<div class="nodetag">669</div></span>&nbsp;&nbsp;Металлургия','669','Металлургия','','','',false,true);
+d.add(417,416,'669.1','<div class="nodetag">669.1</div></span>&nbsp;&nbsp;Металлургия черных металлов. Железо, чугун и сталь','669.1','Металлургия черных металлов. Железо, чугун и сталь','','','',false,true);
+d.add(418,416,'669.2','<div class="nodetag">669.2</div></span>&nbsp;&nbsp;Цветные металлы в целом','669.2','Цветные металлы в целом','','','',false,true);
+d.add(419,0,'67','<div class="nodetag">67</div></span>&nbsp;&nbsp;Различные отрасли промышленности и ремесла. Производство изделий из различных материалов','67','Различные отрасли промышленности и ремесла. Производство изделий из различных материалов','','','',false,true);
+d.add(420,419,'671','<div class="nodetag">671</div></span>&nbsp;&nbsp;Производство изделий из благородных металлов и драгоценных камней ','671','Производство изделий из благородных металлов и драгоценных камней ','','','',false,true);
+d.add(421,420,'671.1','<div class="nodetag">671.1</div></span>&nbsp;&nbsp;Производство изделий из золота. Украшения. Ювелирные изделия','671.1','Производство изделий из золота. Украшения. Ювелирные изделия','','','',false,true);
+d.add(422,420,'671.4','<div class="nodetag">671.4</div></span>&nbsp;&nbsp;Изготовление монет и медалей','671.4','Изготовление монет и медалей','','','',false,true);
+d.add(423,419,'672','<div class="nodetag">672</div></span>&nbsp;&nbsp;Производство изделий из железа, чугуна и стали в целом','672','Производство изделий из железа, чугуна и стали в целом','','','',false,true);
+d.add(424,419,'673','<div class="nodetag">673</div></span>&nbsp;&nbsp;Изделия из цветных металлов (кроме благородных металлов)','673','Изделия из цветных металлов (кроме благородных металлов)','','','',false,true);
+d.add(425,419,'674','<div class="nodetag">674</div></span>&nbsp;&nbsp;Деревообрабатывающая промышленность','674','Деревообрабатывающая промышленность','','','',false,true);
+d.add(426,419,'675','<div class="nodetag">675</div></span>&nbsp;&nbsp;Кожевенная промышленность. Меховое производство. Изготовление изделий из меха. Производство искусственной кожи','675','Кожевенная промышленность. Меховое производство. Изготовление изделий из меха. Производство искусственной кожи','','','',false,true);
+d.add(427,419,'676','<div class="nodetag">676</div></span>&nbsp;&nbsp;Целлюлозно-бумажная промышленность','676','Целлюлозно-бумажная промышленность','','','',false,true);
+d.add(428,419,'677','<div class="nodetag">677</div></span>&nbsp;&nbsp;Текстильная промышленность','677','Текстильная промышленность','','','',false,true);
+d.add(429,428,'677.1/.5','<div class="nodetag">677.1/.5</div></span>&nbsp;&nbsp;Прядильные волокна','677.1/.5','Прядильные волокна','','','',false,true);
+d.add(430,429,'677.1/.3','<div class="nodetag">677.1/.3</div></span>&nbsp;&nbsp;Натуральные волокна  ','677.1/.3','Натуральные волокна  ','','','',false,true);
+d.add(431,430,'677.1/.2','<div class="nodetag">677.1/.2</div></span>&nbsp;&nbsp;Растительные волокна   ','677.1/.2','Растительные волокна   ','','','',false,true);
+d.add(432,431,'677.1','<div class="nodetag">677.1</div></span>&nbsp;&nbsp;Лубяные волокна (из стеблей двудольных растений). Твердые волокна (из листьев и плодов однодольных растений)','677.1','Лубяные волокна (из стеблей двудольных растений). Твердые волокна (из листьев и плодов однодольных растений)','','','',false,true);
+d.add(433,431,'677.2','<div class="nodetag">677.2</div></span>&nbsp;&nbsp;Растительные семенные волокна','677.2','Растительные семенные волокна','','','',false,true);
+d.add(434,430,'677.3','<div class="nodetag">677.3</div></span>&nbsp;&nbsp;Волокна животного происхождения','677.3','Волокна животного происхождения','','','',false,true);
+d.add(435,429,'677.4','<div class="nodetag">677.4</div></span>&nbsp;&nbsp;Искусственные волокна','677.4','Искусственные волокна','','','',false,true);
+d.add(436,429,'677.5','<div class="nodetag">677.5</div></span>&nbsp;&nbsp;Минеральные и металлические волокнистые материалы. Материалы для плетения. Резиновые нити. Бумажная пряжа','677.5','Минеральные и металлические волокнистые материалы. Материалы для плетения. Резиновые нити. Бумажная пряжа','','','',false,true);
+d.add(437,419,'678','<div class="nodetag">678</div></span>&nbsp;&nbsp;Промышленность высокомолекулярных веществ. Резиновая промышленность. Промышленность пластмасс ','678','Промышленность высокомолекулярных веществ. Резиновая промышленность. Промышленность пластмасс ','','','',false,true);
+d.add(438,437,'678.4','<div class="nodetag">678.4</div></span>&nbsp;&nbsp;Натуральный каучук. Другие природные высокомолекулярные материалы, содержащие только углерод и водород ','678.4','Натуральный каучук. Другие природные высокомолекулярные материалы, содержащие только углерод и водород ','','','',false,true);
+d.add(439,437,'678.5','<div class="nodetag">678.5</div></span>&nbsp;&nbsp;Пластмассы.  Полисинтетические пластмассы на основе целлюлозы, белков и других природных высокомолекулярных соединений, содержащих водород, углерод, кислород','678.5','Пластмассы.  Полисинтетические пластмассы на основе целлюлозы, белков и других природных высокомолекулярных соединений, содержащих водород, углерод, кислород','','','',false,true);
+d.add(440,437,'678.6','<div class="nodetag">678.6</div></span>&nbsp;&nbsp;Синтетические продукты поликонденсации. Поликонденсаты. Поликонденсационные смолы и т. п.','678.6','Синтетические продукты поликонденсации. Поликонденсаты. Поликонденсационные смолы и т. п.','','','',false,true);
+d.add(441,437,'678.7','<div class="nodetag">678.7</div></span>&nbsp;&nbsp;Синтетические продукты полимеризации. Полимеризационные смолы. Синтетические каучуки','678.7','Синтетические продукты полимеризации. Полимеризационные смолы. Синтетические каучуки','','','',false,true);
+d.add(442,419,'679','<div class="nodetag">679</div></span>&nbsp;&nbsp;Производства, основаннные на применении различных технологичных материалов','679','Производства, основаннные на применении различных технологичных материалов','','','',false,true);
+d.add(443,442,'679.7','<div class="nodetag">679.7</div></span>&nbsp;&nbsp;Производство кабельных и канатных изделий','679.7','Производство кабельных и канатных изделий','','','',false,true);
+d.add(444,442,'679.8','<div class="nodetag">679.8</div></span>&nbsp;&nbsp;Технология обработки камня. Производство камня','679.8','Технология обработки камня. Производство камня','','','',false,true);
+d.add(445,442,'679.9','<div class="nodetag">679.9</div></span>&nbsp;&nbsp;Технология других натуральных материалов, поддающихся обработке','679.9','Технология других натуральных материалов, поддающихся обработке','','','',false,true);
+d.add(446,0,'68','<div class="nodetag">68</div></span>&nbsp;&nbsp;Oтрасли промышленности и ремесла для изготовления и обработки различных изделий','68','Oтрасли промышленности и ремесла для изготовления и обработки различных изделий','','','',false,true);
+d.add(447,446,'681','<div class="nodetag">681</div></span>&nbsp;&nbsp;Точная механика','681','Точная механика','','','',false,true);
+d.add(448,447,'681.1','<div class="nodetag">681.1</div></span>&nbsp;&nbsp;Приборы, устройства, аппараты с механизмами передачи или с подвижными механизмами','681.1','Приборы, устройства, аппараты с механизмами передачи или с подвижными механизмами','','','',false,true);
+d.add(449,447,'681.2','<div class="nodetag">681.2</div></span>&nbsp;&nbsp;Приборостроение в целом. Применение приборов. Измерительная техника. Весы. Устройства для взвешивания','681.2','Приборостроение в целом. Применение приборов. Измерительная техника. Весы. Устройства для взвешивания','','','',false,true);
+d.add(450,447,'681.5','<div class="nodetag">681.5</div></span>&nbsp;&nbsp;Автоматика. Системы автоматического управления и регулирования. Интеллектуальная техника. Технология управления. Оборудование систем управления. Техническая кибернетика ','681.5','Автоматика. Системы автоматического управления и регулирования. Интеллектуальная техника. Технология управления. Оборудование систем управления. Техническая кибернетика ','','','',false,true);
+d.add(451,447,'681.6','<div class="nodetag">681.6</div></span>&nbsp;&nbsp;Множительные и печатные машины и оборудование','681.6','Множительные и печатные машины и оборудование','','','',false,true);
+d.add(452,447,'681.7','<div class="nodetag">681.7</div></span>&nbsp;&nbsp;Оптические приборы и аппаратура','681.7','Оптические приборы и аппаратура','','','',false,true);
+d.add(453,447,'681.8','<div class="nodetag">681.8</div></span>&nbsp;&nbsp;Техническая акустика ','681.8','Техническая акустика ','','','',false,true);
+d.add(454,446,'682','<div class="nodetag">682</div></span>&nbsp;&nbsp;Кузнечное ремесло. Кованые изделия','682','Кузнечное ремесло. Кованые изделия','','','',false,true);
+d.add(455,454,'682.1','<div class="nodetag">682.1</div></span>&nbsp;&nbsp;Кузнечное ремесло. Изготовление подков','682.1','Кузнечное ремесло. Изготовление подков','','','',false,true);
+d.add(456,454,'682.3','<div class="nodetag">682.3</div></span>&nbsp;&nbsp;Кузнечные инструменты. Изготовление различных кованых изделий','682.3','Кузнечные инструменты. Изготовление различных кованых изделий','','','',false,true);
+d.add(457,454,'682.5','<div class="nodetag">682.5</div></span>&nbsp;&nbsp;Изготовление мебельной кованной фурнитуры','682.5','Изготовление мебельной кованной фурнитуры','','','',false,true);
+d.add(458,454,'682.6','<div class="nodetag">682.6</div></span>&nbsp;&nbsp;Изготовление строительных кованых изделий','682.6','Изготовление строительных кованых изделий','','','',false,true);
+d.add(459,446,'683','<div class="nodetag">683</div></span>&nbsp;&nbsp;Железные скобяные изделия. Слесарное дело. Розлив напитков. Лампы с горючими веществами и горелки. Печи','683','Железные скобяные изделия. Слесарное дело. Розлив напитков. Лампы с горючими веществами и горелки. Печи','','','',false,true);
+d.add(460,446,'684','<div class="nodetag">684</div></span>&nbsp;&nbsp;Мебельная промышленность','684','Мебельная промышленность','','','',false,true);
+d.add(461,460,'684.4','<div class="nodetag">684.4</div></span>&nbsp;&nbsp;Проектирование и технология производства мебели','684.4','Проектирование и технология производства мебели','','','',false,true);
+d.add(462,460,'684.6','<div class="nodetag">684.6</div></span>&nbsp;&nbsp;Фанерование. Инкрустация. Интарсия и т. п. ','684.6','Фанерование. Инкрустация. Интарсия и т. п. ','','','',false,true);
+d.add(463,460,'684.7','<div class="nodetag">684.7</div></span>&nbsp;&nbsp;Обивка мебели. Изготовление мягких элементов мебели. Декоративные работы (убранство помещений)','684.7','Обивка мебели. Изготовление мягких элементов мебели. Декоративные работы (убранство помещений)','','','',false,true);
+d.add(464,446,'685','<div class="nodetag">685</div></span>&nbsp;&nbsp;Шорное дело. Обувное производство. Производство перчаток. Производство дорожных, спортивных и прочих принадлежностей','685','Шорное дело. Обувное производство. Производство перчаток. Производство дорожных, спортивных и прочих принадлежностей','','','',false,true);
+d.add(465,464,'685.1','<div class="nodetag">685.1</div></span>&nbsp;&nbsp;Шорное дело. Производство седел и упряжи','685.1','Шорное дело. Производство седел и упряжи','','','',false,true);
+d.add(466,464,'685.2','<div class="nodetag">685.2</div></span>&nbsp;&nbsp;Экипировка, снаряжение из кожи. Производство ремней и другой амуниции','685.2','Экипировка, снаряжение из кожи. Производство ремней и другой амуниции','','','',false,true);
+d.add(467,464,'685.3','<div class="nodetag">685.3</div></span>&nbsp;&nbsp;Обувное производство. Вспомогательные принадлежности для ходьбы','685.3','Обувное производство. Вспомогательные принадлежности для ходьбы','','','',false,true);
+d.add(468,464,'685.4','<div class="nodetag">685.4</div></span>&nbsp;&nbsp;Перчаточное производство','685.4','Перчаточное производство','','','',false,true);
+d.add(469,464,'685.5','<div class="nodetag">685.5</div></span>&nbsp;&nbsp;Дорожные принадлежност. Походный инвентаря','685.5','Дорожные принадлежност. Походный инвентаря','','','',false,true);
+d.add(470,464,'685.6','<div class="nodetag">685.6</div></span>&nbsp;&nbsp;Принадлежности для физической культуры, спорта, гимнастики','685.6','Принадлежности для физической культуры, спорта, гимнастики','','','',false,true);
+d.add(471,464,'685.7','<div class="nodetag">685.7</div></span>&nbsp;&nbsp;Принадлежности для альпинизма. Принадлежности для плавания','685.7','Принадлежности для альпинизма. Принадлежности для плавания','','','',false,true);
+d.add(472,464,'685.8','<div class="nodetag">685.8</div></span>&nbsp;&nbsp;Принадлежности для настольных игр','685.8','Принадлежности для настольных игр','','','',false,true);
+d.add(473,446,'686','<div class="nodetag">686</div></span>&nbsp;&nbsp;Брошюровочно-переплетное производство. Металлизация. Производство зеркал. Стекольные работы. Канцелярские принадлежности','686','Брошюровочно-переплетное производство. Металлизация. Производство зеркал. Стекольные работы. Канцелярские принадлежности','','','',false,true);
+d.add(474,446,'687','<div class="nodetag">687</div></span>&nbsp;&nbsp;Швейная промышленность. Производство одежды. Индустрия красоты','687','Швейная промышленность. Производство одежды. Индустрия красоты','','','',false,true);
+d.add(475,474,'687.1','<div class="nodetag">687.1</div></span>&nbsp;&nbsp;Одежда ','687.1','Одежда ','','','',false,true);
+d.add(476,474,'687.2','<div class="nodetag">687.2</div></span>&nbsp;&nbsp;Белье. Верхние сорочки. Нательное белье','687.2','Белье. Верхние сорочки. Нательное белье','','','',false,true);
+d.add(477,474,'687.3','<div class="nodetag">687.3</div></span>&nbsp;&nbsp;Трикотажные изделия. Галстуки. Приспособления для ношения и защиты одежды','687.3','Трикотажные изделия. Галстуки. Приспособления для ношения и защиты одежды','','','',false,true);
+d.add(478,474,'687.4','<div class="nodetag">687.4</div></span>&nbsp;&nbsp;Головные уборы. Производство головных  уборов','687.4','Головные уборы. Производство головных  уборов','','','',false,true);
+d.add(479,474,'687.5','<div class="nodetag">687.5</div></span>&nbsp;&nbsp;Индустрия красоты. Постижерное дело. Парикмахерское дело. Маникюр. Педикюр. Косметика','687.5','Индустрия красоты. Постижерное дело. Парикмахерское дело. Маникюр. Педикюр. Косметика','','','',false,true);
+d.add(480,474,'687.8','<div class="nodetag">687.8</div></span>&nbsp;&nbsp;Искусственный мех','687.8','Искусственный мех','','','',false,true);
+d.add(481,474,'687.9','<div class="nodetag">687.9</div></span>&nbsp;&nbsp;Производство щетинно-щеточных изделий. Щетки. Кисти','687.9','Производство щетинно-щеточных изделий. Щетки. Кисти','','','',false,true);
+d.add(482,446,'688','<div class="nodetag">688</div></span>&nbsp;&nbsp;Производство галантерейных товаров. Изготовление декоративных изделий. Игрушки  ','688','Производство галантерейных товаров. Изготовление декоративных изделий. Игрушки  ','','','',false,true);
+d.add(483,482,'688.7','<div class="nodetag">688.7</div></span>&nbsp;&nbsp;Игрушки. Предметы для развлечений. Декоративные изделия','688.7','Игрушки. Предметы для развлечений. Декоративные изделия','','','',false,true);
+d.add(484,446,'689','<div class="nodetag">689</div></span>&nbsp;&nbsp;Любительские ремесла. Технические хобби','689','Любительские ремесла. Технические хобби','','','',false,true);
+d.add(485,0,'69','<div class="nodetag">69</div></span>&nbsp;&nbsp;Строительство. Строительные материалы. Строительно-монтажные работы','69','Строительство. Строительные материалы. Строительно-монтажные работы','','','',false,true);
+d.add(486,485,'691','<div class="nodetag">691</div></span>&nbsp;&nbsp;Строительные материалы и изделия','691','Строительные материалы и изделия','','','',false,true);
+d.add(487,485,'692','<div class="nodetag">692</div></span>&nbsp;&nbsp;Части зданий и сооружений  ','692','Части зданий и сооружений  ','','','',false,true);
+d.add(488,485,'693','<div class="nodetag">693</div></span>&nbsp;&nbsp;Каменная кладка и подобные строительные работы','693','Каменная кладка и подобные строительные работы','','','',false,true);
+d.add(489,485,'694','<div class="nodetag">694</div></span>&nbsp;&nbsp;Строительство деревянных сооружений. Плотничные работы. Столярные работы','694','Строительство деревянных сооружений. Плотничные работы. Столярные работы','','','',false,true);
+d.add(490,485,'696','<div class="nodetag">696</div></span>&nbsp;&nbsp;Санитарно-техническое оборудование зданий и его монтаж','696','Санитарно-техническое оборудование зданий и его монтаж','','','',false,true);
+d.add(491,485,'697','<div class="nodetag">697</div></span>&nbsp;&nbsp;Отопление, вентиляция и кондиционирование воздуха в зданиях','697','Отопление, вентиляция и кондиционирование воздуха в зданиях','','','',false,true);
+d.add(492,485,'698','<div class="nodetag">698</div></span>&nbsp;&nbsp;Отделочные строительные работы','698','Отделочные строительные работы','','','',false,true);
+d.config.useSelection = false;
+d.config.inOrder = true;
+d.config.useIcons = false;
+document.write(d);
+//-->
+</script>
+</div>
+</div><div id="expandbox" onclick="expandbox(); return false;">&nbsp;</div>
+<div id="recordbox" class="debugbkg">
+<div class="fronthint">Щёлкните на класс слева и получите запись справа</div>
+</div>
+
+        <div id="footer">
+            <div class="footersectionleft">
+                The UDC Summary (UDCS) provides a selection of around 2,600 classes from the whole scheme which comprises more than 70,000 entries.
+                Please send questions and suggestions to <a href="mailto:udcs@udcc.org?subject=UDC Summary Enquiry">udcs@udcc.org</a><br><br>
+	            <p>
+		            The data provided in this Summary is released under the <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative Commons Attribution Share Alike 3.0 license</a> <a href="../about.htm">[more]</a>
+	            </p>
+            </div>
+            <div class="footermiddle">
+                <a href="http://www.udcc.org"><img src="../images/udclogowhite.png" border="0"></a>
+            </div>
+			<div class="footerright">
+                For complete UDC schedules see <a href="http://www.udc-hub.com/">UDC Online Hub</a><br/><a href="http://www.udc-hub.com/"><img width="60" height="35" src="../images/udclogo.png"/></a>
+
+			</div>
+        </div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-13138465-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
