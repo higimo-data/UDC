@@ -1,0 +1,310 @@
+<html>
+<head>
+<meta name="Description" content="Из фонда научной библиотеки Российского Государственного Университета Физической Культуры, Спорта, Молодежи и Туризма">
+<meta name="Keywords" content="библиотека, текст, книга, спорт, физкультура, физическая культура">
+</head>
+<body>
+<a name="Page_top"></a>
+
+<table border="0" width="570">
+
+  <tr>
+    <td align="center">
+
+<hr size="1">
+
+    </td>
+  </tr>
+
+</table>
+
+</body>
+</html>
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<title>ОПТИМИЗАЦИЯ СКОРОСТИ НА УЧАСТКАХ ТРАССЫ В
+ЦИКЛИЧЕСКИХ ВИДАХ СПОРТА НА ПРИМЕРЕ ЛЫЖНОГО</title>
+<base target="_blank">
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<table border="0" width="570">
+  <tr>
+    <td><p ALIGN="CENTER"><strong><font size="2">ОПТИМИЗАЦИЯ СКОРОСТИ НА
+    УЧАСТКАХ ТРАССЫ В ЦИКЛИЧЕСКИХ ВИДАХ СПОРТА НА
+    ПРИМЕРЕ ЛЫЖНОГО</font></strong></p>
+    <p ALIGN="CENTER"><font size="2">Г.Грошев, А.Фураев</font></p>
+    <p ALIGN="CENTER"><font size="2">Московская государственная
+    академия физической культуры,<br>
+    Малаховка, Россия</font></p>
+    <p style="text-indent: 40; text-align: justify"><font size="2"><b>Введение. </b>На соревнованиях
+    в циклических видах спорта часто желаемые
+    результаты не могут быть достигнуты из-за
+    нерационального распределения энергоресурсов
+    спортсмена по участкам трассы. Целью данной
+    работы является оптимизация этого
+    распределения. </font></p>
+    <p style="text-indent: 40; text-align: justify"><font size="2"><b>Методика. </b>При прохождении
+    спортсменом трассы на соревнованиях в таких
+    циклических видах спорта как лыжи, легкая
+    атлетика, биатлон, велосипед и других, связанных
+    с необходимостью затрачивать внутреннюю энергию
+    или, наоборот, получать ее из вне при
+    взаимодействии с аэродинамической нагрузкой при
+    передвижении по наклонным участкам и
+    преодолении сил трения, важным фактором является
+    рациональное распределение энергетических
+    ресурсов спортсмена в зависимости от тех или
+    иных особенностей участков трассы и
+    энергогенерации спортсмена.</font></p>
+    <p style="text-indent: 40; text-align: justify"><font size="2">В данной работе представлены
+    алгоритм и программа оптимизации скорости
+    прохожденгия участков лыжной трассы с учетом
+    характеристики энергогенерации спортсмена, его
+    миделева сечения в различных позах, массы,
+    аэродинамического фактора, фактора трения и
+    уклонов на различных участках.</font></p>
+    <p style="text-indent: 40; text-align: justify"><font size="2">Алгоритм представляет собой
+    циклическую процедуру оптимизации расхода
+    энергии спортсмена и определения оптимальной
+    скорости лыжника, основывающуюся на законе
+    сохранения энергии закономерностях
+    аэродинамического сопротивления и трения.</font></p>
+    <p style="text-indent: 40; text-align: justify"><font size="2">Алгоритм реализованн в виде
+    программы &quot;Трасса 0.1&quot;. В таблице 1
+    представленны исходные данные, а в таблице 2 -
+    результаты одного из рассчитанных по этой
+    программе конкретных примеров лыжной трассы
+    состоящей из трех учатков.</font></p>
+    <p style="text-indent: 40; text-align: justify"><font size="2">Результаты приведенного
+    примера показывают хорошую сходимость процедуры
+    расчета. Вычисленные значения скорости 2.749 м/с -
+    на первом участке, 4.490 м/с - на втором, 2.273 м/с - на
+    третьем хорошо согласуются с биомеханическими
+    исходными данными и соответствуют принятой в
+    расчете характеристике энергогенерации и
+    физикомеханическим особенностям трассы. </font></p>
+    <i><p ALIGN="RIGHT"><font size="2">Таблица 2</font></p>
+    <b><p ALIGN="CENTER"><font size="2">Результаты расчета</font></p>
+    </b></i><table BORDER="1" CELLSPACING="0" WIDTH="100%">
+      <tr>
+        <td VALIGN="top" align="center"><font size="2">Итерация процедуры</font></td>
+        <td VALIGN="top" align="center"><font size="2">Скорость на первом
+        участке</font></td>
+        <td VALIGN="top" align="center"><font size="2">Скорость на втором
+        учстке</font></td>
+        <td VALIGN="top" align="center"><font size="2">Скорость на третьем
+        участке</font></td>
+        <td VALIGN="top" align="center"><font size="2">Ед. изм.</font></td>
+      </tr>
+      <tr>
+        <td VALIGN="top" align="center"><font size="2">1</font></td>
+        <td VALIGN="top" align="center"><font size="2">2.882</font></td>
+        <td VALIGN="top" align="center"><font size="2">5.573</font></td>
+        <td VALIGN="top" align="center"><font size="2">1.720</font></td>
+        <td VALIGN="top" align="center"><font size="2">м/с</font></td>
+      </tr>
+      <tr>
+        <td VALIGN="top" align="center"><font size="2">2</font></td>
+        <td VALIGN="top" align="center"><font size="2">3.300</font></td>
+        <td VALIGN="top" align="center"><font size="2">3.642</font></td>
+        <td VALIGN="top" align="center"><font size="2">2.721</font></td>
+        <td VALIGN="top" align="center"><font size="2">м/с</font></td>
+      </tr>
+      <tr>
+        <td VALIGN="top" align="center"><font size="2">3</font></td>
+        <td VALIGN="top" align="center"><font size="2">2.608</font></td>
+        <td VALIGN="top" align="center"><font size="2">5.004</font></td>
+        <td VALIGN="top" align="center"><font size="2">2.082</font></td>
+        <td VALIGN="top" align="center"><font size="2">м/с</font></td>
+      </tr>
+      <tr>
+        <td VALIGN="top" align="center"><font size="2">4</font></td>
+        <td VALIGN="top" align="center"><font size="2">2.842</font></td>
+        <td VALIGN="top" align="center"><font size="2">4.284</font></td>
+        <td VALIGN="top" align="center"><font size="2">2.357</font></td>
+        <td VALIGN="top" align="center"><font size="2">м/с</font></td>
+      </tr>
+      <tr>
+        <td VALIGN="top" align="center"><font size="2">5</font></td>
+        <td VALIGN="top" align="center"><font size="2">2.669</font></td>
+        <td VALIGN="top" align="center"><font size="2">4.719</font></td>
+        <td VALIGN="top" align="center"><font size="2">2.188</font></td>
+        <td VALIGN="top" align="center"><font size="2">м/с</font></td>
+      </tr>
+      <tr>
+        <td VALIGN="top" align="center"><font size="2">6</font></td>
+        <td VALIGN="top" align="center"><font size="2">2.749</font></td>
+        <td VALIGN="top" align="center"><font size="2">4.490</font></td>
+        <td VALIGN="top" align="center"><font size="2">2.273</font></td>
+        <td VALIGN="top" align="center"><font size="2">м/с</font></td>
+      </tr>
+    </table>
+    <i><p ALIGN="RIGHT"><font size="2">Таблица 1</font></p>
+    <b><p ALIGN="CENTER"><font size="2">Исходные данные </font></p>
+    </b></i><table BORDER="1" CELLSPACING="0" WIDTH="100%" height="270">
+      <tr>
+        <td VALIGN="top" rowspan="2" align="center" height="34"><font size="2">Исходные
+        параметры</font></td>
+        <td VALIGN="top" COLSPAN="3" align="center" height="15"><font size="2">Участки</font></td>
+        <td VALIGN="top" rowspan="2" align="center" height="34"><font size="2">Ед. изм.</font></td>
+      </tr>
+      <tr>
+        <td VALIGN="top" align="center" height="15"><font size="2">1</font></td>
+        <td VALIGN="top" align="center" height="15"><font size="2">2</font></td>
+        <td VALIGN="top" align="center" height="15"><font size="2">3</font></td>
+      </tr>
+      <tr>
+        <td VALIGN="top" height="18"><font size="2">Миделево сечение
+        спортсмена</font></td>
+        <td VALIGN="top" align="center" height="18"><font size="2">0.5</font></td>
+        <td VALIGN="top" align="center" height="18"><font size="2">0.5</font></td>
+        <td VALIGN="top" align="center" height="18"><font size="2">0.5</font></td>
+        <td VALIGN="top" align="center" height="18"><font size="2">м<sup>2</sup></font></td>
+      </tr>
+      <tr>
+        <td VALIGN="top" height="15"><font size="2">Расход энергии
+        спортсменом в единицу времени</font></td>
+        <td VALIGN="top" align="center" height="15"><font size="2">981</font></td>
+        <td VALIGN="top" align="center" height="15"><font size="2">981</font></td>
+        <td VALIGN="top" align="center" height="15"><font size="2">981</font></td>
+        <td VALIGN="top" align="center" height="15"><font size="2">Вт</font></td>
+      </tr>
+      <tr>
+        <td VALIGN="top" height="15"><font size="2">Коэффициент полезного
+        действия спортсмена</font></td>
+        <td VALIGN="top" align="center" height="15"><font size="2">0.25</font></td>
+        <td VALIGN="top" align="center" height="15"><font size="2">0.25</font></td>
+        <td VALIGN="top" align="center" height="15"><font size="2">0.25</font></td>
+        <td VALIGN="top" align="center" height="15"><font size="2">---</font></td>
+      </tr>
+      <tr>
+        <td VALIGN="top" height="13"><font size="2">Длинна участка трассы</font></td>
+        <td VALIGN="top" align="center" height="13"><font size="2">1200</font></td>
+        <td VALIGN="top" align="center" height="13"><font size="2">2800</font></td>
+        <td VALIGN="top" align="center" height="13"><font size="2">1000</font></td>
+        <td VALIGN="top" align="center" height="13"><font size="2">м</font></td>
+      </tr>
+      <tr>
+        <td VALIGN="top" height="15"><font size="2">Угол между направлением
+        ветра и участком трасы</font></td>
+        <td VALIGN="top" align="center" height="15"><font size="2">1.0</font></td>
+        <td VALIGN="top" align="center" height="15"><font size="2">2.0</font></td>
+        <td VALIGN="top" align="center" height="15"><font size="2">3.0</font></td>
+        <td VALIGN="top" align="center" height="15"><font size="2">рад</font></td>
+      </tr>
+      <tr>
+        <td VALIGN="top" height="15"><font size="2">Уклон участка трассы</font></td>
+        <td VALIGN="top" align="center" height="15"><font size="2">0.03</font></td>
+        <td VALIGN="top" align="center" height="15"><font size="2">-0.01</font></td>
+        <td VALIGN="top" align="center" height="15"><font size="2">0.02</font></td>
+        <td VALIGN="top" align="center" height="15"><font size="2">рад</font></td>
+      </tr>
+      <tr>
+        <td VALIGN="top" height="18"><font size="2">Коэффициен
+        аэродинамического сопротивления</font></td>
+        <td VALIGN="top" align="center" height="18"><font size="2">0.05</font></td>
+        <td VALIGN="top" align="center" height="18"><font size="2">0.05</font></td>
+        <td VALIGN="top" align="center" height="18"><font size="2">0.05</font></td>
+        <td VALIGN="top" align="center" height="18"><font size="2">Н.с<sup>2</sup> /м<sup>4</sup></font></td>
+      </tr>
+      <tr>
+        <td VALIGN="top" height="15"><font size="2">Коэффициент трения</font></td>
+        <td VALIGN="top" align="center" height="15"><font size="2">0.05</font></td>
+        <td VALIGN="top" align="center" height="15"><font size="2">0.05</font></td>
+        <td VALIGN="top" align="center" height="15"><font size="2">0.05</font></td>
+        <td VALIGN="top" align="center" height="15"><font size="2">---</font></td>
+      </tr>
+      <tr>
+        <td VALIGN="top" height="15"><font size="2">Скорость ветра</font></td>
+        <td VALIGN="top" align="center" height="15"><font size="2">5</font></td>
+        <td VALIGN="top" align="center" height="15"><font size="2">5.5</font></td>
+        <td VALIGN="top" align="center" height="15"><font size="2">6</font></td>
+        <td VALIGN="top" align="center" height="15"><font size="2">м/с</font></td>
+      </tr>
+      <tr>
+        <td VALIGN="top" height="15"><font size="2">Общее контрольное время
+        прохождения трассы</font></td>
+        <td VALIGN="top" COLSPAN="3" align="center" height="15"><font size="2">1500</font></td>
+        <td VALIGN="top" align="center" height="15"><font size="2">с</font></td>
+      </tr>
+      <tr>
+        <td VALIGN="top" height="15"><font size="2">Вес спортсмена</font></td>
+        <td VALIGN="top" COLSPAN="3" align="center" height="15"><font size="2">589</font></td>
+        <td VALIGN="top" align="center" height="15"><font size="2">Н</font></td>
+      </tr>
+      <tr>
+        <td VALIGN="top" height="15"><font size="2">Критерий сходимости
+        процедуры программы</font></td>
+        <td VALIGN="top" COLSPAN="3" align="center" height="15"><font size="2">0.05</font></td>
+        <td VALIGN="top" align="center" height="15"><font size="2">---</font></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
+
+
+
+<html>
+<body>
+
+<table border="0" width="570">
+
+  <tr>
+    <td align="center">
+
+<p><font size="2"><hr size="1">
+&nbsp;<a href="http://lib.sportedu.ru" target="_top"><img src="Images/Home.gif" width="16" height="16" alt="Home" border="0" align="bottom">&nbsp;На&nbsp;главную</a>
+
+
+&nbsp;<noindex><a href="http://lib.sportedu.ru/Forum/" target="_blank"><img src="Images/Forum.gif" alt="Forum" WIDTH="18"  HEIGHT="16" border="0" align="bottom">&nbsp;Обсудить&nbsp;в&nbsp;форуме</a></noindex>&nbsp;
+<noindex><a href="http://www.translate.ru/url/tran_url.asp?lang=en&direction=re&template=General&url=http%3A%2F%2Flib.sportedu.ru%2FGetText.idc%3FTxtID%3D183" target="_top">
+<img src="Images/Prompt.gif" width="16" height="16" alt="Home" border="0" align="bottom">&nbsp;Translate&nbsp;into&nbsp;english</a></noindex>
+<a href="#Page_top" target="_top"><img src="Images/up.gif" alt="up" align="right" WIDTH="16" HEIGHT="16" border="0"></a></font></p>
+
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+<p style="text-indent: 40; text-align: justify"><font size="2">
+<b>При любом использовании данного материала ссылка на первоисточник обязательна!</b>
+
+
+</font></p>
+<p style="text-indent: 40; text-align: justify"><font size="2">
+
+Грошев, Г. Оптимизация скорости на участках трассы в циклических видах спорта на примере лыжного спорта / Грошев Г., Фураев А. // Человек в мире спорта : Новые идеи, технологии, перспективы : Тез. докл. Междунар. конгр. - М., 1998. - Т. 1. - С. 20-21.
+
+</font></p>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center">
+
+<hr size="1">
+
+<p>
+
+  </td>
+  </tr>
+
+</table>
+
+<p>
+
+</p>
+
+</body>
+</html>

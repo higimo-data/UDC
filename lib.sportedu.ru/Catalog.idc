@@ -1,0 +1,187 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+
+<meta name="Keywords" content="библиотека, библиография, литература, книга, диссертация, автореферат, статья, публикация, журнал, газета, брошюра, программа, монография, сборник, справочник, учебник, документ, спорт, физкультура, физическая культура, атлет, спортсмен, гимнаст, тренировка, гигиена, биомеханика, педагогика, воспитание, образование, информационные услуги, электронный каталог, электронная доставка документов">
+<title>Электронный каталог библиотеки</title>
+
+
+</head>
+
+<body bgcolor="#FFFFFF" link="#0000FF" vlink="#000080"
+style="font-family: Courier New; font-size: 10pt">
+
+<div align="center"><center>
+<table border="0">
+  <tr>
+    <td valign="middle" align="center"><strong><font face="Times New Roman" size="4"><a
+    href="http://lib.sportedu.ru"><img src="images/logo2.gif" border="0" align="middle"></a></font></strong></td>
+<td valign="middle" align="center"><p align="center"><strong><font face="Times New Roman" size="4">
+<!--Электронный каталог Центральной отраслевой библиотеки по физической культуре и спорту.-->
+Электронная библиотечная система Центральной отраслевой библиотеки по физической культуре и спорту
+</font></strong><br>
+<font face="Times New Roman" size="2">(Российский государственный университет физической культуры, спорта, молодежи и туризма)</font></td>
+
+
+  </tr>
+
+
+
+
+
+</table>
+</center></div>
+
+<form method="POST" action="2GenQuery.idc">
+  <input type="hidden" name="QF" value="General">
+  <input type="hidden" name="Cd" value="Win">
+  <input type="hidden" name="Ac" value="%=">
+
+<!-- Russian Win -->
+
+  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+    <tr>
+      <td colspan="6" align="left" height="25"><hr size="1"></td>
+    </tr>
+    <tr>
+      <td align="left" bgcolor="#C0C0C0" height="25">&nbsp;</td>
+      <td colspan="2" align="left" bgcolor="#C0C0C0"><font size="2"><a href="Catalog.idc?QF=General&amp;Cd=Eng">Eng</a>&nbsp;<a href="Catalog.idc?QF=General&amp;Cd=Koi">Koi</a>&nbsp;</font></td>
+      <td align="center" bgcolor="#C0C0C0"><font size="3"><strong>Общий&nbsp;запрос</strong></font></td>
+      <td align="right" bgcolor="#C0C0C0" height="25"><font size="2">[<a href="Catalog.idc?QF=Simple&amp;Cd=Win">Простой&nbsp;запрос</a>][<a href="Catalog.idc?QF=Extended&amp;Cd=Win">Специальный&nbsp;запрос</a>][<a href="Catalog.idc?QF=Magazine&amp;Cd=Win">Поиск&nbsp;в&nbsp;журналах</a>][<a href="Catalog.idc?QF=GradWork&amp;Cd=Win">Поиск&nbsp;ВКР</a>]</font></td>
+      <td align="left" bgcolor="#C0C0C0" height="25">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" colspan="6" height="25"><hr size="1"></td>
+    </tr>
+    <tr>
+      <td align="left" height="25" colspan="2"><strong><font size="2">Параметры&nbsp;запроса:</font></strong></td>
+      <td colspan="3" height="25"></td>
+      <td align="left" height="25">&nbsp;</td>
+    </tr>
+
+
+
+
+
+
+
+
+
+    <tr>
+      <td align="left" height="25">&nbsp;</td>
+      <td align="left"><font size="2">Строка&nbsp;для&nbsp;поиска&nbsp;</font></td>
+      <td colspan="3" align="left"><font size="2"><input type="text" size="64"
+      name="DocQuerItm" style="font-family: Courier New; font-size: 10pt"></font><font size="2" color="red">*</font>
+</td>
+      <td align="left" height="25">&nbsp;</td>
+    </tr>
+
+
+
+
+    
+
+    
+    
+     <tr>
+      <td align="left" height="25">&nbsp;</td>
+      <td align="left"><font size="2">Искать&nbsp;</font></td>
+      <td colspan="3" align="left"><font size="2">&nbsp;<input type="radio" name="On" value="0" checked>во всех записях каталога (<b>297859</b> библиографических записей)</td>
+      <td align="left" height="25">&nbsp;</td>
+     </tr>
+     <tr>
+      <td align="right" height="25">&nbsp;</td>
+      <td align="right"><font size="2">&nbsp;<img src="Images/Texts.gif">&nbsp;</font></td>
+      <td colspan="3" align="left"><font size="2">&nbsp;<input type="radio" name="On" value="1">только материалы доступные on-line (<b>62408</b> библ. записей)</font></td>
+      <td align="left" height="25">&nbsp;</td>
+     </tr>
+     <tr>
+      <td align="right" height="25">&nbsp;</td>
+      <td align="right"><font size="2">&nbsp;<img src="Images/Basket.gif">&nbsp;</font></td>
+      <td colspan="3" align="left"><font size="2">&nbsp;<input type="radio" name="On" value="32">книги доступные в интернет-магазинах (<b>18496</b> библ. записей)</font></td>
+      <td align="left" height="25">&nbsp;</td>
+     </tr>
+    
+
+    <tr>
+     <td align="left" height="25">&nbsp;</td>
+     <td align="left"><font size="2">Выдавать&nbsp;по&nbsp;</font></td>
+     <td colspan="3" align="left"><font size="2">&nbsp;<input type="radio" value="20" name="Pg" checked>20 записей 
+      <input type="radio" value="50" name="Pg">50 записей 
+      <input type="radio" value="100" name="Pg">100 записей
+      </font>
+     </td>
+     <td align="left" height="25">&nbsp;</td>
+    </tr>
+
+    <tr>
+     <td align="left" height="25">&nbsp;</td>
+     <td align="left"><font size="2">Включить&nbsp;</font></td>
+     <td colspan="3" align="left"><font size="2">&nbsp;<input type="checkbox" name="Tr" 
+     value="1">транслитерацию&nbsp;<a href="Translit.htm" target="_blank">?</a></font></td>
+     <td align="left" height="25">&nbsp;</td>
+    </tr>
+
+    <tr>
+     <td align="left" colspan="6" height="25">
+
+
+<hr align="left" size="1" width="20%">
+<p style="font-size:11px">
+<font size="2" color="red">*</font>
+<font>Вы можете указать в строке для поиска - заглавие, или его часть, ключевое слово, или имя автора, или любой другой атрибут.</font>
+
+
+<hr size="1">
+     </td>
+    </tr>
+
+    <tr>
+      <td align="left" height="25">&nbsp;</td>
+      <td align="left">&nbsp;</td> 
+      <td colspan="3" align="left"><font size="2">
+  
+  <table>
+    <tr>
+      <td> 
+      <p align="center"><font size="2"><input type="submit" name="Execute" value="  Выполнить  ">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" value="    Очистить    " name="Clear"></font></p>
+      </td> 
+    </tr>
+    <tr>
+      <td> 
+      <p align="center"><font size="2">
+      <br>[<a href="GRNTI.idc">Поиск через рубрикатор ГРНТИ</a>][<a href="UDC.idc">Поиск через классификатор УДК</a>]
+      <br>[<a href="GAC.idc">Генеральный алфавитный каталог</a>][<a href="QuerList.idc?Cd=Win">Последние 20 запросов</a>]
+      <br>[Статистика][<a href="Help.htm">Подсказка</a>]<br></font></p>
+
+<p align="center"><font size="2" color="#F00000">Если у вас возникли вопросы вы можете задать их <br>
+по адресу: </font><font size="2"><a href="mailto:sportlib@umail.ru"><img src="Images/Mail.gif" WIDTH="16" HEIGHT="16" alt="" border="0" align="absbottom"></a> <a href="mailto:sportlib@umail.ru">sportlib@umail.ru</a></font><font size="2" color="#F00000"> или обсудить в </font><font size="2"><noindex><a href="http://lib.sportedu.ru/Forum/">форуме</a></noindex>
+</font></p>
+
+      </td>
+    </tr>
+  </table>
+
+      </td>
+      <td align="left" height="25">&nbsp;</td>
+    </tr>
+
+  </table>
+
+
+<!-- English Win -->
+
+
+<!-- Russian Koi -->
+
+</form>
+
+<p>
+
+</p>
+
+<p>&nbsp;</p>
+</body>
+</html>

@@ -1,0 +1,414 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=koi8-r">
+
+
+
+<meta name="Keywords" content="библиотека, библиография, литература, книга, диссертация, автореферат, статья, публикация, журнал, газета, брошюра, программа, монография, сборник, справочник, учебник, документ, спорт, физкультура, физическая культура, атлет, спортсмен, гимнаст, тренировка, гигиена, биомеханика, педагогика, воспитание, информационные услуги, электронный каталог, электронная доставка документов">
+<title>Электронный каталог библиотеки</title>
+</head>
+
+<body bgcolor="#FFFFFF" link="#0000FF" vlink="#000080"
+style="font-family: Courier New; font-size: 10pt">
+
+<div align="center"><center>
+<table border="0">
+  <tr>
+    <td valign="middle" align="center"><strong><font face="Times New Roman" size="4"><a
+    href="http://lib.sportedu.ru"><img src="images/logo2.gif" border="0" align="middle"></a></font></strong></td>
+
+
+<td valign="middle" align="center"><p align="center"><strong><font face="Times New Roman" size="4">Электронный каталог Центральной отраслевой библиотеки по физической культуре и спорту.</font></strong></td>
+  </tr>
+
+
+
+
+
+</table>
+</center></div>
+
+<form method="POST" action="2ExtQuery.idc">
+  <input type="hidden" name="QF" value="Extended">
+  <input type="hidden" name="Cd" value="Koi">
+  
+
+<!-- Russian Win -->
+
+
+<!-- English Win -->
+
+
+<!-- Russian Koi -->
+
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+    <tr>
+      <td colspan="6" align="left" height="25"><hr size="1"></td>
+    </tr>
+    <tr>
+      <td align="left" bgcolor="#C0C0C0" height="25">&nbsp;</td>
+      <td colspan="2" align="left" bgcolor="#C0C0C0"><font size="2"><a href="Catalog.idc?QF=Extended&amp;Cd=Win">Win</a>&nbsp;<a href="Catalog.idc?QF=Extended&amp;Cd=Eng">Eng</a>&nbsp;</font></td>
+      <td align="center" bgcolor="#C0C0C0"><font size="3"><strong>Специальный&nbsp;запрос</strong></font></td>
+      <td align="right" bgcolor="#C0C0C0" height="25"><font size="2">[<a href="Catalog.idc?QF=General&amp;Cd=Koi">Общий&nbsp;запрос</a>][<a href="Catalog.idc?QF=Simple&amp;Cd=Koi">Простой&nbsp;запрос</a>][<a href="Catalog.idc?QF=Magazine&amp;Cd=Koi">Поиск&nbsp;в&nbsp;журналах</a>][<a href="Catalog.idc?QF=GradWork&amp;Cd=Koi">Поиск&nbsp;ВКР</a>]</font></td>
+      <td align="left" bgcolor="#C0C0C0" height="25">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" colspan="6" height="25"><hr size="1"></td>
+    </tr>
+    <tr>
+      <td align="left" height="25" colspan="2"><strong><font size="2">Параметры&nbsp;запроса:</font></strong></td>
+      <td colspan="3" height="25"></td>
+      <td align="left" height="25">&nbsp;</td>
+    </tr>
+
+
+
+
+
+
+    <tr>
+      <td align="left" height="25">&nbsp;</td>
+      <td align="left"><font size="2">Поле&nbsp;в&nbsp;описании&nbsp;</font></td>
+      <td colspan="3" align="left"><font size="2"><select name="DesFldID" size="1"
+      style="font-family: Courier New; font-size: 10pt">
+        <option value="NULL">Любое&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+<option value="324">Authorization</option>
+<option value="384">City</option>
+<option value="275">Classification scheme code</option>
+<option value="401">Computer file characteristics</option>
+<option value="372">Country</option>
+<option value="297">Date of implementation of authoritative agency</option>
+<option value="276">Edition identifier</option>
+<option value="110">E-mail:</option>
+<option value="388">Fax number</option>
+<option value="263">FILE://</option>
+<option value="114">HTTP://</option>
+<option value="123">ISBN</option>
+<option value="373">ISBN13</option>
+<option value="122">ISSN</option>
+<option value="438">ISSN13</option>
+<option value="389">Language code</option>
+<option value="323">Parallel caption</option>
+<option value="386">Postal code</option>
+<option value="385">State or province</option>
+<option value="404">System details note</option>
+<option value="387">Telephone number</option>
+<option value="357">Title and publication date</option>
+<option value="325">Variations</option>
+<option value="6">Юридическое название</option>
+<option value="85">Аббревиатура заглавия</option>
+<option value="104">Адрес</option>
+<option value="362">Авторский знак</option>
+<option value="427">Базовое образование</option>
+<option value="183">ББК</option>
+<option value="61">Цена</option>
+<option value="42">Дата издания, распространения и т.п.</option>
+<option value="44">Дата изготовления</option>
+<option value="37">Дата проведения встречи или подписания итогового документа</option>
+<option value="440">Дата введения</option>
+<option value="38">Даты события</option>
+<option value="36">Даты, связанные с именем</option>
+<option value="116">ДКД</option>
+<option value="12">Дополнение к имени</option>
+<option value="418">Форма обучения</option>
+<option value="46">Географическое название</option>
+<option value="424">Год создания</option>
+<option value="256">Год выпусков</option>
+<option value="118">ГРНТИ</option>
+<option value="53">Хронологический термин</option>
+<option value="306">Идентификация таблицы</option>
+<option value="280">Иерархия заголовков</option>
+<option value="282">Иерархия заголовков ряда индексов подраздела</option>
+<option value="17">Имя или название</option>
+<option value="9">Имя/название издателя, распространителя и т.п.</option>
+<option value="10">Имя/название изготовителя</option>
+<option value="262">Индекс издания по каталогу Роспечати</option>
+<option value="289">Инструктивный текст ссылки</option>
+<option value="285">Ключевое заглавие</option>
+<option value="318">Классификационный индекс</option>
+<option value="119">Классификация</option>
+<option value="249">Код географического региона</option>
+<option value="219">Количество ссылок</option>
+<option value="411">Количество часов</option>
+<option value="422">Количество человек</option>
+<option value="382">Конечный индекс ряда</option>
+<option value="406">Контингент</option>
+<option value="295">Контрольное подполе</option>
+<option value="14">Конвертирующее учреждение</option>
+<option value="30">Краткое изложение содержания</option>
+<option value="409">Курс</option>
+<option value="417">Квалификация</option>
+<option value="1">Личное имя</option>
+<option value="99">Место издания, распространения и т.п.</option>
+<option value="43">Место, издатель, и дата издания</option>
+<option value="101">Место изготовления</option>
+<option value="103">Место проведения встречи/собрания</option>
+<option value="18">Место расположения </option>
+<option value="15">Модифицирующее учреждение</option>
+<option value="408">Наименование дисциплины</option>
+<option value="19">Наименование фонда или коллекции</option>
+<option value="2">Наименование организации</option>
+<option value="415">Направление подготовки</option>
+<option value="4">Название мероприятия</option>
+<option value="3">Название подразделения</option>
+<option value="383">Начальный индекс ряда</option>
+<option value="423">Номер группы</option>
+<option value="270">Номер выпуска</option>
+<option value="132">Номер экземпляра</option>
+<option value="92">Обозначение и номер части</option>
+<option value="403">Обозначение вида ресурса</option>
+<option value="420">Образовательный стандарт</option>
+<option value="266">Общее обозначение материала</option>
+<option value="70">Объем</option>
+<option value="405">ОКСО</option>
+<option value="412">ОКСО-2003</option>
+<option value="414">ОКСО-2010</option>
+<option value="313">Определитель фасета</option>
+<option value="28">Отображаемый текст</option>
+<option value="77">Параллельное заглавие</option>
+<option value="22">Параллельные сведения об издании</option>
+<option value="284">Параллельные сведения об ответственности</option>
+<option value="286">Параллельные сведения, относящиеся к изданию</option>
+<option value="283">Параллельные сведения, относящиеся заглавию</option>
+<option value="88">Перевод заглавия, составленный каталогизатором</option>
+<option value="254">Перечисление томов</option>
+<option value="255">Перечисление выпусков</option>
+<option value="413">ПНПиСВПО</option>
+<option value="96">Подзаголовок формы</option>
+<option value="8">Полная форма имени</option>
+<option value="296">Пояснительный текст</option>
+<option value="433">Последующий тематический термин</option>
+<option value="33">Примечание</option>
+<option value="142">Принадлежность к организации</option>
+<option value="416">Профиль подготовки</option>
+<option value="426">Программа обучения</option>
+<option value="287">Прочая информация</option>
+<option value="71">Прочие детали внешнего описания</option>
+<option value="439">ПСиНПВО-2013</option>
+<option value="138">Язык текста</option>
+<option value="72">Размеры</option>
+<option value="11">Римская нумерация</option>
+<option value="5">Родовое имя</option>
+<option value="410">Семестр</option>
+<option value="34">Служебное примечание</option>
+<option value="75">Сокращенное заглавие</option>
+<option value="73">Сопроводительный материал</option>
+<option value="419">Срок обучения</option>
+<option value="234">Страна публикации</option>
+<option value="137">Сведения о местоположении</option>
+<option value="20">Сведения об издании</option>
+<option value="62">Сведения об ответственности</option>
+<option value="21">Сведения, относящиеся к изданию</option>
+<option value="91">Сведения, относящиеся к заглавию</option>
+<option value="269">Текст примечания</option>
+<option value="248">Текущая периодичность</option>
+<option value="294">Тема</option>
+<option value="47">Тематический термин</option>
+<option value="60">Термин связи</option>
+<option value="425">Тип группы</option>
+<option value="115">УДК</option>
+<option value="278">Уточняющая информация</option>
+<option value="13">Учреждение осуществившее первоначальную каталогизацию</option>
+<option value="298">ВАК</option>
+<option value="74">Заглавие</option>
+<option value="281">Заголовок</option>
+<option value="407">Шифр дисциплины</option>
+<option value="128">Шифр хранения</option>
+<option value="127">Часть шифра, характеризующая документ</option>
+</select></font></td>
+      <td align="left" height="25">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" height="25">&nbsp;</td>
+      <td align="left"><font size="2">Роль&nbsp;в&nbsp;описании&nbsp;</font></td>
+      <td colspan="3" align="left"><font size="2"><select name="DesRolID" size="1"
+      style="font-family: Courier New; font-size: 10pt">
+        <option value="NULL">Любая&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+<option value="64">Address</option>
+<option value="61">Part of International Standart Book Number</option>
+<option value="1">Автор</option>
+<option value="7">Другое заглавие</option>
+<option value="3">Другой автор</option>
+<option value="47">Другой классификационный индекс</option>
+<option value="23">Физическая характеристика</option>
+<option value="68">Характеристики компьютерного файла</option>
+<option value="5">Идентифицирующий признак</option>
+<option value="48">Индекс, под которым приведена инструкция</option>
+<option value="41">Инструкции по присоединению или делению</option>
+<option value="56">Инструкции порядка следования и предпочтения</option>
+<option value="37">Инструктивное примечание о применении</option>
+<option value="46">Исходный индекс</option>
+<option value="59">Исключение, относящееся к таблице предпочтения</option>
+<option value="12">Источник каталогизации</option>
+<option value="66">Источник записи</option>
+<option value="15">Издание</option>
+<option value="18">Каталожный индекс</option>
+<option value="29">Классификационная схема и ее издание</option>
+<option value="17">Классификационный индекс</option>
+<option value="34">Комплексная ссылка "См."</option>
+<option value="35">Комплексная ссылка "См. также"</option>
+<option value="50">Конечный индекс ряда</option>
+<option value="65">Контактное лицо</option>
+<option value="4">Косвенный автор</option>
+<option value="13">Местонахождение</option>
+<option value="53">Новый индекс</option>
+<option value="24">Общее примечание</option>
+<option value="19">Общий определитель</option>
+<option value="6">Основное заглавие</option>
+<option value="42">Основной индекс</option>
+<option value="49">Отдельный индекс или начальный индекс ряда</option>
+<option value="2">Первый автор</option>
+<option value="78">Подчиненное подразделение</option>
+<option value="11">Предметная рубрика</option>
+<option value="74">Предприятие</option>
+<option value="51">Предшествующий индекс</option>
+<option value="83">Прежнее заглавие</option>
+<option value="44">Пример классификационного индекса</option>
+<option value="45">Пример неправильного классификационного индекса</option>
+<option value="25">Примечание о библиографии</option>
+<option value="58">Примечание о диссертации</option>
+<option value="82">Примечание о рецензированном (реферированном) документе</option>
+<option value="72">Примечание о режиме доступа</option>
+<option value="31">Примечание о сфере применения</option>
+<option value="71">Примечание о системных требованиях</option>
+<option value="36">Примечание о содержании</option>
+<option value="28">Примечание о тираже</option>
+<option value="39">Примечание о заглавии обложки (переплета, корешка)</option>
+<option value="32">Примечание об истории</option>
+<option value="73">Примечание об источнике основного заглавия</option>
+<option value="57">Примечание об издательском конволюте</option>
+<option value="38">Примечание об оригинальной версии</option>
+<option value="63">Примечание, содержащее имена авторов</option>
+<option value="40">Примечания о языке</option>
+<option value="70">Специфические сведения</option>
+<option value="26">Стандартный номер</option>
+<option value="20">Связанные компоненты</option>
+<option value="30">Трассировка действующего индекса</option>
+<option value="33">Трассировка недействующего индекса</option>
+<option value="27">Условия доступности</option>
+<option value="80">Участники</option>
+<option value="76">Учебная программа</option>
+<option value="75">Учебный план</option>
+<option value="9">Вариант заглавия</option>
+<option value="52">Вспомогательное инструктивное примечание</option>
+<option value="43">Выделенный индекс</option>
+<option value="16">Выходные данные</option>
+<option value="10">Заглавие источника</option>
+<option value="84">Заглавие работы</option>
+<option value="8">Заглавие серии</option>
+<option value="22">Заглавие части</option>
+<option value="54">Запись по таблице внутренней организации или присоединения</option>
+<option value="14">Электронный адрес</option>
+</select></font></td>
+      <td align="left" height="25">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" height="25">&nbsp;</td>
+      <td align="left"><font size="2">Тип&nbsp;значения&nbsp;</font></td>
+      <td colspan="3" align="left"><font size="2"><select name="DesTypID" size="1"
+      style="font-family: Courier New; font-size: 10pt">
+        <option value="NULL">Любое&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+<option value="10">URL</option>
+<option value="7">Дата</option>
+<option value="1">Имя/Название</option>
+<option value="11">Интеллектуальная ответственность</option>
+<option value="6">Место</option>
+<option value="8">Номер</option>
+<option value="3">Предмет</option>
+<option value="4">Примечание</option>
+<option value="5">Язык</option>
+<option value="2">Заглавие</option>
+<option value="9">Значение</option>
+</select></font></td>
+      <td align="left" height="25">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" height="25">&nbsp;</td>
+      <td align="left"><font size="2">Искать значение&nbsp;</font></td>
+      <td colspan="3" align="left"><font size="2"><select name="Ac" size="1"
+      style="font-family: Courier New; font-size: 10pt">
+        <option value="%=">%= Приблизительно равное&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+        <option value="==">== Равное</option>
+        <option value="&gt; ">&gt;&nbsp; Большее</option>
+        <option value="&gt;=">&gt;= Большее или равное</option>
+        <option value="&lt; ">&lt;&nbsp; Меньшее</option>
+        <option value="&lt;=">&lt;= Меньшее или равное</option>
+        <option value="&lt;&gt;">&lt;&gt; Не равное</option>
+      </select></font></td>
+      <td align="left" height="25">&nbsp;</td>
+    </tr>
+
+
+    <tr>
+      <td align="left" height="25">&nbsp;</td>
+      <td align="left"><font size="2">Строка&nbsp;для&nbsp;поиска&nbsp;</font></td>
+      <td colspan="3" align="left"><font size="2"><input type="text" size="64" name="DocQuerItm"
+      style="font-family: Courier New; font-size: 10pt"></font></td>
+      <td align="left" height="25">&nbsp;</td>
+    </tr>
+
+
+
+    <tr>
+      <td align="left" height="25">&nbsp;</td>
+      <td align="left"><font size="2">Ограничить&nbsp;поиск&nbsp;</font></td>
+      <td colspan="3" align="left"><font size="2">&nbsp;<input type="checkbox" name="On"
+      value="1">только материалами доступными on-line</font></td>
+      <td align="left" height="25">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" height="25">&nbsp;</td>
+      <td align="left"><font size="2">Включить&nbsp;</font></td>
+      <td colspan="3" align="left"><font size="2">&nbsp;<input type="checkbox" name="Tr"
+      value="1">транслитерацию&nbsp;<a href="Translit.htm"
+      target="_blank">?</a></font></td>
+      <td align="left" height="25">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" height="25">&nbsp;</td>
+      <td align="left"><font size="2">Выдавать&nbsp;по&nbsp;</font></td>
+      <td colspan="3" align="left"><font size="2">&nbsp;<input type="radio" value="20" name="Pg"
+      checked>20 записей <input type="radio" value="50" name="Pg">50 записей <input
+      type="radio" value="100" name="Pg">100 записей</font></td>
+      <td align="left" height="25">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" colspan="6" height="25"><hr size="1">
+      </td>
+    </tr>
+    <tr>
+      <td align="left" height="25">&nbsp;</td>
+      <td align="left">&nbsp;</td> 
+      <td colspan="3" align="left"><font size="2">
+
+  <table>
+    <tr>
+      <td><p align="center"><font size="2"><input type="submit" name="Execute" value="  Выполнить  "> 
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" value="    Очистить    " name="Clear"></font>
+      </td>
+    </tr>
+    <tr align="center">
+      <td><p align="center"><font size="2">
+      <br>[<a href="GRNTI.idc">Поиск через рубрикатор ГРНТИ</a>][<a href="UDC.idc">Поиск через классификатор УДК</a>]
+      <br>[<a href="GAC.idc">Генеральный алфавитный каталог</a>][<a href="QuerList.idc?Cd=Koi&amp;Tr=0">Последние 20 запросов</a>]
+      <br>[Статистика][<a href="Help.htm">Подсказка</a>]</font>
+      <br><a href="mailto:sportlib@umail.ru"><img src="Images/Mail.gif" WIDTH="16" HEIGHT="16" alt="" border="0" align="absbottom"></a> <a href="mailto:sportlib@umail.ru"><font size="2" color="#F00000">sportlib@umail.ru</font></a></p>
+      </td>
+    </tr>
+  </table>
+
+      </td>
+      <td align="center" height="25">&nbsp;</td>
+    </tr>
+  </table>
+
+</form>
+
+<p>
+
+</p>
+
+<p>&nbsp;</p>
+</body>
+</html>

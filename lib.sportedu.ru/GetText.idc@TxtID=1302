@@ -1,0 +1,310 @@
+<html>
+<head>
+<meta name="Description" content="Из фонда научной библиотеки Российского Государственного Университета Физической Культуры, Спорта, Молодежи и Туризма">
+<meta name="Keywords" content="библиотека, текст, книга, спорт, физкультура, физическая культура">
+</head>
+<body>
+<a name="Page_top"></a>
+
+<table border="0" width="570">
+
+  <tr>
+    <td align="center">
+
+<hr size="1">
+
+    </td>
+  </tr>
+
+</table>
+
+</body>
+</html>
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<base target="_blank">
+<title>МОДЕЛИРОВАНИЕ ПОСТРОЕНИЯ ПРОЦЕССА
+ТЕХНИЧЕСКОЙ ПОДГОТОВКИ В ПРЫЖКАХ С ШЕСТОМ НА
+НАЧАЛЬНЫХ ЭТАПАХ МНОГОЛЕТНЕЙ ТРЕНИРОВКИ </title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<table border="0" width="570">
+  <tr>
+    <td><b><p ALIGN="CENTER"><font size="2">МОДЕЛИРОВАНИЕ ПОСТРОЕНИЯ
+    ПРОЦЕССА ТЕХНИЧЕСКОЙ ПОДГОТОВКИ В ПРЫЖКАХ С
+    ШЕСТОМ НА НАЧАЛЬНЫХ ЭТАПАХ МНОГОЛЕТНЕЙ
+    ТРЕНИРОВКИ </font></p>
+    <p ALIGN="RIGHT"><font size="2">Назаров А.П., Степин Ю.В.,
+    Шестаков М.П., <br>
+    Московский региональный клуб &quot;Олимпийские
+    надежды&quot;,<br>
+    РГАФК, Москва</font></p>
+    </b><p style="text-indent: 40; text-align: justify"><font size="2">Анализ
+    имеющейся литературы по легкой атлетике показал,
+    что еще не решены многие проблемы, связанные с
+    обучением и тренировкой юных прыгунов с шестом.
+    Мало изучена роль показателей двигательных
+    способностей, определяющих эффективность
+    процесса обучения прыжкам с шестом у начинающих
+    прыгунов (10-13 лет); рост результатов и связи между
+    этими показателями, а также в какой степени
+    изучение уровня отдельных показателей
+    двигательных и физических возможностей,
+    достигнутых в результате тренировки, влияют на
+    эффективность обучения и результат в прыжках с
+    шестом.</font></p>
+    <p style="text-indent: 40; text-align: justify"><font size="2">Детальное
+    описание техники прыжка с шестом показывает, что
+    практически во всех фазах прыжках имеется
+    целевая установка на сохранение скорости
+    движения ОЦТТ спортсмена. При этом отдельные
+    фазы имеют очень сложную структуру движения,
+    поэтому для моделирования прыжка с шестом мы
+    ограничились лишь одним интегральным
+    показателем - показателем скорости ОЦТТ прыгуна
+    в каждой из фаз прыжка. Моделирование
+    проводилось с помощью нейронной сети. </font></p>
+    <p style="text-indent: 40; text-align: justify"><font size="2">В таблице 1
+    представлены данные, полученные в ходе
+    модельного эксперимента по настройке нейронной
+    сети имитирующей процесс прыжка с шестом,
+    входные параметры которой были выбраны в
+    результате анализа прыжков с шестов 9 ведущих
+    спортсменов страны. Входами сети являлась
+    скорость ОЦТТ в различные фазы выполнения
+    прыжка. Выходом сети является результат в
+    прыжках с шестом. После обучения сети и получения
+    удовлетворительного показателя надежности
+    предсказания на выходе (</font><img src="GetImage.exe?42"><font
+    size="2">=8,1), моделировался процесс обучения
+    &quot;недоученной&quot; сети с некоего момента, с
+    замораживанием одного или нескольких входных
+    параметров.</font></p>
+    <p style="text-indent: 40; text-align: justify"><font size="2">Результаты
+    модельного эксперимента однозначно показывают,
+    что игнорирование при обучении (тренировке)
+    какого-либо показателя отрицательно сказывается
+    как на длительности обучения, так и на его
+    качестве. Другими словами формирование
+    необходимой моторной программы идет значительно
+    успешнее если используется комплексный подход.</font></p>
+    <b><p ALIGN="RIGHT"><font size="2">Таблица 1 </font></p>
+    </b><i><p ALIGN="CENTER"><font size="2">Результаты модельного
+    эксперимента</font></p>
+    </i><div align="center"><center><table BORDER="1" CELLSPACING="0" WIDTH="80%">
+      <tr>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">Замораживание
+        параметра, относящийся к:</font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">Длительность<br>
+        обучения, такты</font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">Прирост результата, cм</font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><img src="GetImage.exe?42"></td>
+      </tr>
+      <tr>
+        <td VALIGN="top"><font size="2">отталкиванию </font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">5332 </font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">98</font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">70.8</font></td>
+      </tr>
+      <tr>
+        <td VALIGN="top"><font size="2">вход на шест </font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">2344 </font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">166</font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">14.8</font></td>
+      </tr>
+      <tr>
+        <td VALIGN="top"><font size="2">вис </font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">825 </font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">187</font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">24.3</font></td>
+      </tr>
+      <tr>
+        <td VALIGN="top"><font size="2">взмах и группировка </font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">1300 </font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">154</font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">25.6</font></td>
+      </tr>
+      <tr>
+        <td VALIGN="top"><font size="2">вход на шест + вис </font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">1823 </font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">122</font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">51.4</font></td>
+      </tr>
+      <tr>
+        <td VALIGN="top"><font size="2">вис + взмах и группировка </font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">2777 </font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">135</font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">120.5</font></td>
+      </tr>
+      <tr>
+        <td VALIGN="top"><font size="2">без замораживания </font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">1125 </font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">345</font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">8.1</font></td>
+      </tr>
+    </table>
+    </center></div><p style="text-indent: 40; text-align: justify"><font size="2">Таким
+    образом, организация процесса технической
+    подготовки в многолетнем аспекте требует от
+    спортсменов на этапах начальной специализации и
+    углубленной тренировки как можно более полного
+    приобретения (конвергенции) в ходе тренировки
+    сходной структуры и функции двигательных
+    действий с аналогичными у
+    высококвалифицированных спортсменов, при
+    соблюдении ограничений, накладываемыми другими
+    дидактическими принципами. </font></p>
+    <p style="text-indent: 40; text-align: justify"><font size="2">Результаты
+    модельного эксперимента предопределили
+    постановку многолетнего педагогического
+    эксперимента по выявлению особенностей обучения
+    технике прыжков с шестом с использованием
+    различных методических подходов. Исследование
+    проводилось в течении трех лет в манеже кафедры
+    легкой атлетики РГАФК, ШВСМ ДСО профсоюзов г.
+    Москвы по легкой атлетике, ДЮСШ Дзержинского
+    района г. Москвы. В эксперименте в приняло
+    участие 36 юных прыгунов с шестом 10-11 лет.</font></p>
+    <b><p ALIGN="RIGHT"><font size="2">Таблица 2 </font></p>
+    </b><i><p ALIGN="CENTER"><font size="2">Программа распределения
+    основных тренировочных средств прыгунов<br>
+    с шестом на этапах предварительной подготовки и
+    начальной <br>
+    спортивной специализации</font></p>
+    </i><div align="center"><center><table BORDER="1" CELLSPACING="0" WIDTH="80%">
+      <tr>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">Средства</font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">9 лет</font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">10 лет</font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">11 лет</font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">12 лет</font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">13 лет</font></td>
+      </tr>
+      <tr>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">ОФП</font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">40</font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">50</font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">50</font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">40</font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">40</font></td>
+      </tr>
+      <tr>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">СФП</font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">25</font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">20</font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">25</font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">30</font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">30</font></td>
+      </tr>
+      <tr>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">ТП</font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">35</font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">30</font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">25</font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">30</font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">30</font></td>
+      </tr>
+      <tr>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">в т.ч. прыжки с шестом</font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">10</font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">10</font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">40</font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">60</font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">70</font></td>
+      </tr>
+      <tr>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">Гимнастика</font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">90</font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">90</font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">60</font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">40</font></td>
+        <td VALIGN="top"><p ALIGN="CENTER"><font size="2">30</font></td>
+      </tr>
+    </table>
+    </center></div><p style="text-indent: 40; text-align: justify"><font size="2">На
+    основе модельного и реального педагогического
+    экспериментов была разработана программа
+    распределения тренировочных средств прыгунов с
+    шестом на этапах предварительной подготовки и
+    начальной спортивной специализации (табл.2).</font></p>
+    <p style="text-indent: 40; text-align: justify"><font size="2">Программа
+    предусматривает использование значительного
+    количества тренировочного времени по овладению
+    гимнастическим навыкам на первых двух годах
+    тренировок. В этой связи используются
+    гимнастические упражнения, связанные по своей
+    биомеханической структуре с элементами опорной
+    части прыжка с шестом. Также была разработана
+    система перехода от прыжков на прямом шесте к
+    прыжкам на сгибающемся снаряде, в зависимости от
+    хвата на шесте, эластичности шестов и степени
+    освоенности прыгунами техники прыжка на прямом
+    шест.</font></td>
+  </tr>
+</table>
+</body>
+</html>
+
+
+
+<html>
+<body>
+
+<table border="0" width="570">
+
+  <tr>
+    <td align="center">
+
+<p><font size="2"><hr size="1">
+&nbsp;<a href="http://lib.sportedu.ru" target="_top"><img src="Images/Home.gif" width="16" height="16" alt="Home" border="0" align="bottom">&nbsp;На&nbsp;главную</a>
+
+
+&nbsp;<noindex><a href="http://lib.sportedu.ru/Forum/" target="_blank"><img src="Images/Forum.gif" alt="Forum" WIDTH="18"  HEIGHT="16" border="0" align="bottom">&nbsp;Обсудить&nbsp;в&nbsp;форуме</a></noindex>&nbsp;
+<noindex><a href="http://www.translate.ru/url/tran_url.asp?lang=en&direction=re&template=General&url=http%3A%2F%2Flib.sportedu.ru%2FGetText.idc%3FTxtID%3D1302" target="_top">
+<img src="Images/Prompt.gif" width="16" height="16" alt="Home" border="0" align="bottom">&nbsp;Translate&nbsp;into&nbsp;english</a></noindex>
+<a href="#Page_top" target="_top"><img src="Images/up.gif" alt="up" align="right" WIDTH="16" HEIGHT="16" border="0"></a></font></p>
+
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+<p style="text-indent: 40; text-align: justify"><font size="2">
+<b>При любом использовании данного материала ссылка на первоисточник обязательна!</b>
+
+
+</font></p>
+<p style="text-indent: 40; text-align: justify"><font size="2">
+
+Назаров, А.П. Моделирование построения процесса технической подготовки в прыжках с шестом на начальных этапах многолетней тренировки / Назаров А.П., Степин Ю.В., Шестаков М.П. // Моделирование спортив. деятельности в искусственно созд. среде (стенды, тренажеры, имитаторы) : (материалы конф.). - М., 1999. - С. 180-183.
+
+</font></p>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center">
+
+<hr size="1">
+
+<p>
+
+  </td>
+  </tr>
+
+</table>
+
+<p>
+
+</p>
+
+</body>
+</html>

@@ -1,0 +1,417 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+
+
+<meta name="Keywords" content="library, bibliography, literature, book, dissertation, theses, article, publication, journal, magazine, newspaper, information, document, sport, physical culture, physical education, gymnastics, sportsmen, athlete, health, training, hygiene, biomechanics, pedagogy, education, information services, online catalog, document delivery service">
+<title>Library's online catalog</title>
+
+</head>
+
+<body bgcolor="#FFFFFF" link="#0000FF" vlink="#000080"
+style="font-family: Courier New; font-size: 10pt">
+
+<div align="center"><center>
+<table border="0">
+  <tr>
+    <td valign="middle" align="center"><strong><font face="Times New Roman" size="4"><a
+    href="http://lib.sportedu.ru"><img src="images/logo2.gif" border="0" align="middle"></a></font></strong></td>
+
+<td valign="middle" align="center"><p align="center"><strong><font face="Times New Roman" size="4">Online catalog of Central branch Library of physical education and sport.</font></strong></td>
+
+  </tr>
+
+
+
+
+
+</table>
+</center></div>
+
+<form method="POST" action="2ExtQuery.idc">
+  <input type="hidden" name="QF" value="Extended">
+  <input type="hidden" name="Cd" value="Eng">
+  
+
+<!-- Russian Win -->
+
+
+<!-- English Win -->
+
+  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+    <tr>
+      <td colspan="6" align="left" height="25"><hr size="1"></td>
+    </tr>
+    <tr>
+      <td align="left" bgcolor="#C0C0C0" height="25">&nbsp;</td>
+      <td colspan="2" align="left" bgcolor="#C0C0C0"><font size="2"><a href="Catalog.idc?QF=Extended&amp;Cd=Win">Win</a>&nbsp;<a href="Catalog.idc?QF=Extended&amp;Cd=Koi">Koi</a>&nbsp;</font></td>
+      <td align="center" bgcolor="#C0C0C0"><font size="3"><strong>Extended query</strong></font></td>
+      <td align="right" bgcolor="#C0C0C0" height="25"><font size="2">[<a href="Catalog.idc?QF=General&amp;Cd=Eng">General query</a>][<a href="Catalog.idc?QF=Simple&amp;Cd=Eng">Simple query</a>][<a href="Catalog.idc?QF=Magazine&amp;Cd=Eng">Find in magazines</a>][<a href="Catalog.idc?QF=GradWork&amp;Cd=Eng">Поиск&nbsp;ВКР</a>]</font></td>
+      <td align="left" bgcolor="#C0C0C0" height="25">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" colspan="6" height="25"><hr size="1"></td>
+    </tr>
+    <tr>
+      <td align="left" height="25" colspan="2"><strong><font size="2">Query&nbsp;option:</font></strong></td>
+      <td colspan="3" height="25"></td>
+      <td align="left" height="25">&nbsp;</td>
+    </tr>
+
+
+
+
+
+
+    <tr>
+      <td align="left" height="25">&nbsp;</td>
+      <td align="left"><font size="2">Description&nbsp;field&nbsp;</font></td>
+      <td colspan="3" align="left"><font size="2"><select name="DesFldID" size="1"
+      style="font-family: Courier New; font-size: 10pt">
+        <option value="NULL">Any&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+<option value="324">Authorization</option>
+<option value="384">City</option>
+<option value="275">Classification scheme code</option>
+<option value="401">Computer file characteristics</option>
+<option value="372">Country</option>
+<option value="297">Date of implementation of authoritative agency</option>
+<option value="276">Edition identifier</option>
+<option value="110">MailTo:</option>
+<option value="388">Fax number</option>
+<option value="263">FILE://</option>
+<option value="114">HTTP://</option>
+<option value="123">ISBN</option>
+<option value="373">ISBN13</option>
+<option value="122">ISSN</option>
+<option value="438">ISSN13</option>
+<option value="389">Language code</option>
+<option value="323">Parallel caption</option>
+<option value="386">Postal code</option>
+<option value="385">State or province</option>
+<option value="404">System details note</option>
+<option value="387">Telephone number</option>
+<option value="357">Title and publication date</option>
+<option value="325">Variations</option>
+<option value="85">Abbreviated title</option>
+<option value="362">Author Number</option>
+<option value="104">Address</option>
+<option value="427">Basic schooling</option>
+<option value="183">LBC</option>
+<option value="298">VAK</option>
+<option value="46">Geographic name</option>
+<option value="256">Year of issues</option>
+<option value="424">Year of foundation</option>
+<option value="118">GRNTI</option>
+<option value="440">Дата введения</option>
+<option value="44">Date of manufacture</option>
+<option value="42">Date of publication, distribution, etc.</option>
+<option value="37">Date of meeting or treaty signing</option>
+<option value="36">Dates associated with name</option>
+<option value="38">Active dates</option>
+<option value="116">DDC</option>
+<option value="12">Addition to Name</option>
+<option value="74">Title</option>
+<option value="281">Caption</option>
+<option value="306">Table identification</option>
+<option value="280">Caption hierarchy</option>
+<option value="282">Summary number span caption hierarchy</option>
+<option value="17">Name</option>
+<option value="10">Name of manufacturer</option>
+<option value="9">Name of publisher, distributor, etc.</option>
+<option value="262">Индекс издания по каталогу Роспечати</option>
+<option value="289">Reference instruction phrase</option>
+<option value="417">Degree</option>
+<option value="318">Classification number</option>
+<option value="119">Classification</option>
+<option value="285">Key Title</option>
+<option value="249">Geographic area code</option>
+<option value="219">Number of references</option>
+<option value="411">Number of hours</option>
+<option value="422">Number of persons</option>
+<option value="14">Transcribing agency</option>
+<option value="382">Ending number of span</option>
+<option value="406">Contingent</option>
+<option value="295">Control subfield</option>
+<option value="30">Summary, etc. note</option>
+<option value="409">Course</option>
+<option value="1">Personal name</option>
+<option value="101">Place of manufacture</option>
+<option value="99">Place of publication, distribution, etc.</option>
+<option value="43">Place, publisher, and date of publication</option>
+<option value="103">Location of meeting</option>
+<option value="18">Location</option>
+<option value="15">Modifying agency</option>
+<option value="4">Meeting name</option>
+<option value="3">Subdivision Name</option>
+<option value="408">Name of discipline</option>
+<option value="2">Corporate name</option>
+<option value="19">Sublocation or collection</option>
+<option value="415">Field of study</option>
+<option value="383">Beginning number of span</option>
+<option value="270">Issue Number</option>
+<option value="423">Group number</option>
+<option value="132">Copy number</option>
+<option value="403">Resource type designation</option>
+<option value="92">Number of part</option>
+<option value="420">Educational standard</option>
+<option value="266">General Material Designation</option>
+<option value="70">Extent</option>
+<option value="405">RCPE</option>
+<option value="412">RCPE-2003</option>
+<option value="414">RCPE-2010</option>
+<option value="313">Facet designator</option>
+<option value="28">Display text</option>
+<option value="77">Parallel title</option>
+<option value="22">Parallel edition statement</option>
+<option value="284">Parrallel statement of responsibility</option>
+<option value="283">Remainder of parallel title</option>
+<option value="286">Remainder of parallel edition statement</option>
+<option value="88">Translated title by cataloguer</option>
+<option value="255">Enumeration of Issues</option>
+<option value="254">Enumeration of Volumes</option>
+<option value="413">LTF&SHPE</option>
+<option value="96">Form subheading</option>
+<option value="8">Fuller form of name</option>
+<option value="433">Succeeding level subject term</option>
+<option value="296">Explanatory text</option>
+<option value="33">Note</option>
+<option value="142">Affiliation</option>
+<option value="426">Teaching programme</option>
+<option value="416">Major</option>
+<option value="287">Miscellaneous information</option>
+<option value="71">Other physical details</option>
+<option value="439">PS&NPVO-2013</option>
+<option value="72">Dimensions</option>
+<option value="11">Roman numeral</option>
+<option value="5">Family name</option>
+<option value="137">Relationship information</option>
+<option value="20">Edition statement</option>
+<option value="62">Statement of responsibility</option>
+<option value="91">Remainder of title</option>
+<option value="21">Remainder of edition statement</option>
+<option value="410">Semester</option>
+<option value="34">Nonpublic note</option>
+<option value="75">Short title</option>
+<option value="73">Accompanying material</option>
+<option value="419">Apprenticeship</option>
+<option value="234">Country of publishing</option>
+<option value="269">Text of Note</option>
+<option value="248">Current publication frequency</option>
+<option value="294">Topic</option>
+<option value="47">Subject term</option>
+<option value="60">Relator term</option>
+<option value="425">Type of group</option>
+<option value="115">UDC</option>
+<option value="278">Qualifying information</option>
+<option value="13">Original cataloging agency</option>
+<option value="418">Form of attendance</option>
+<option value="53">Chronological term</option>
+<option value="61">Price</option>
+<option value="127">Item part</option>
+<option value="407">Cipher of discipline</option>
+<option value="128">Shelving control number</option>
+<option value="6">Jurisdiction name</option>
+<option value="138">Language of text</option>
+</select></font></td>
+      <td align="left" height="25">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" height="25">&nbsp;</td>
+      <td align="left"><font size="2">Description&nbsp;role&nbsp;</font></td>
+      <td colspan="3" align="left"><font size="2"><select name="DesRolID" size="1"
+      style="font-family: Courier New; font-size: 10pt">
+        <option value="NULL">Any&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+<option value="64">Address</option>
+<option value="61">Part of International Standart Book Number</option>
+<option value="1">Author</option>
+<option value="9">Variant title</option>
+<option value="52">Auxiliary instruction note</option>
+<option value="43">Divided like number</option>
+<option value="16">Imprint</option>
+<option value="7">Other title</option>
+<option value="3">Secondary author</option>
+<option value="47">Other classification number</option>
+<option value="10">Host item title</option>
+<option value="84">Title of a work</option>
+<option value="8">Series title</option>
+<option value="22">Part title</option>
+<option value="54">Internal subarrangement or add table entry</option>
+<option value="5">Identifying characteristic</option>
+<option value="15">Edition</option>
+<option value="48">Number where instructions are found</option>
+<option value="37">Application instruction note</option>
+<option value="41">Add or divide like instructions</option>
+<option value="56">Citation and Preference Order Instructions</option>
+<option value="59">Exception to table of preference</option>
+<option value="66">Record Source</option>
+<option value="12">Cataloging source</option>
+<option value="46">Root number</option>
+<option value="18">Catalogue number</option>
+<option value="29">Classification Scheme and Edition</option>
+<option value="17">Classification number</option>
+<option value="34">Complex See Reference</option>
+<option value="35">Complex See Also Reference</option>
+<option value="50">Ending number of span</option>
+<option value="65">Contact person</option>
+<option value="4">Alternative author</option>
+<option value="13">Location/Call number</option>
+<option value="53">New number</option>
+<option value="24">General note</option>
+<option value="19">Common auxiliary subdivision</option>
+<option value="6">Title proper</option>
+<option value="42">Base number</option>
+<option value="49">Single number or beginning number of span</option>
+<option value="2">Primary author</option>
+<option value="78">Subordinate Unit</option>
+<option value="11">Subject heading</option>
+<option value="74">Corporation</option>
+<option value="51">Previos number</option>
+<option value="83">Former title</option>
+<option value="44">Example class number</option>
+<option value="45">Negative example class number</option>
+<option value="25">Bibliography, etc. note</option>
+<option value="58">Dissertation Note</option>
+<option value="39">Примечание о заглавии обложки (переплета, корешка)</option>
+<option value="72">Mode of access note</option>
+<option value="82">Note about the document under review (abstracted)</option>
+<option value="71">System details note</option>
+<option value="36">Contents note</option>
+<option value="31">Scope Note</option>
+<option value="28">Printing run note</option>
+<option value="57">With Note</option>
+<option value="32">History Note</option>
+<option value="73">Примечание об источнике основного заглавия</option>
+<option value="38">Original version note</option>
+<option value="63">Примечание, содержащее имена авторов</option>
+<option value="40">Language note</option>
+<option value="20">Related parts</option>
+<option value="70">Specific characteristics</option>
+<option value="26">Standart Number</option>
+<option value="30">Valid Number Tracing</option>
+<option value="33">Invalid Number Tracing</option>
+<option value="27">Terms of Availability</option>
+<option value="80">Target Group</option>
+<option value="76">Education program</option>
+<option value="75">Academic curriculum</option>
+<option value="23">Physical description</option>
+<option value="68">Computer File Characteristics</option>
+<option value="14">Electronic location</option>
+</select></font></td>
+      <td align="left" height="25">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" height="25">&nbsp;</td>
+      <td align="left"><font size="2">Description&nbsp;type&nbsp;</font></td>
+      <td colspan="3" align="left"><font size="2"><select name="DesTypID" size="1"
+      style="font-family: Courier New; font-size: 10pt">
+        <option value="NULL">Any&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+<option value="10">URL</option>
+<option value="7">Date</option>
+<option value="2">Title</option>
+<option value="9">Value</option>
+<option value="1">Name</option>
+<option value="11">Intellectual Responsibility</option>
+<option value="6">Place</option>
+<option value="8">Number</option>
+<option value="3">Subject</option>
+<option value="4">Note</option>
+<option value="5">Language</option>
+</select></font></td>
+      <td align="left" height="25">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" height="25">&nbsp;</td>
+      <td align="left"><font size="2">Search values&nbsp;</font></td>
+      <td colspan="3" align="left"><font size="2"><select name="Ac" size="1"
+      style="font-family: Courier New; font-size: 10pt">
+        <option value="%=">%= Like equal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+        <option value="==">== Equal</option>
+        <option value="&gt; ">&gt;&nbsp; Great</option>
+        <option value="&gt;=">&gt;= Great or Equal</option>
+        <option value="&lt; ">&lt;&nbsp; Less</option>
+        <option value="&lt;=">&lt;= Less or Equal</option>
+        <option value="&lt;&gt;">&lt;&gt; Not Equal</option>
+      </select></font></td>
+      <td align="left" height="25">&nbsp;</td>
+    </tr>
+
+
+    <tr>
+      <td align="left" height="25">&nbsp;</td>
+      <td align="left"><font size="2">String&nbsp;for&nbsp;search&nbsp;</font></td>
+      <td colspan="3" align="left"><font size="2"><input type="text" size="64"
+      name="DocQuerItm" style="font-family: Courier New; font-size: 10pt"></font></td>
+      <td align="left" height="25">&nbsp;</td>
+    </tr>
+
+
+
+    <tr>
+      <td align="left" height="25">&nbsp;</td>
+      <td align="left"><font size="2">Restrict&nbsp;output&nbsp;</font></td>
+      <td colspan="3" align="left"><font size="2">&nbsp;<input type="checkbox" name="On"
+      value="1">only on-line documents</font></td>
+      <td align="left" height="25">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" height="25">&nbsp;</td>
+      <td align="left"><font size="2">Switch&nbsp;to&nbsp;</font></td>
+      <td colspan="3" align="left"><font size="2">&nbsp;<input type="checkbox" name="Tr" 
+      value="1">transliteration&nbsp;<a href="Translit.htm" target="_blank">?</a></font></td>
+      <td align="left" height="25">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" height="25">&nbsp;</td>
+      <td align="left"><font size="2">Output&nbsp;by&nbsp;</font></td>
+      <td colspan="3" align="left"><font size="2">&nbsp;<input type="radio" value="20"
+      name="Pg" checked>20 records <input type="radio" value="50" name="Pg">50
+      records <input type="radio" value="100" name="Pg">100 records</font></td>
+      <td align="left" height="25">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" colspan="6" height="25"><hr size="1">
+      </td>
+    </tr>
+
+    <tr>
+      <td align="left" height="25">&nbsp;</td>
+      <td align="left">&nbsp;</td> 
+      <td colspan="3" align="left"><font size="2">
+  
+  <table>
+    <tr>
+      <td> 
+      <p align="center"><font size="2"><input type="submit" name="Execute" value="  Execute  ">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" value="    Clear    " name="Clear"></font></p>
+      </td> 
+    </tr>
+    <tr>
+      <td> 
+      <p align="center"><font size="2">
+      <br>[<a href="GRNTI.idc">GRNTI rubrics</a>][<a href="UDC.idc">UDC rubrics</a>]
+      <br>[<a href="GAC.idc">General Alphabetical Catalog</a>][<a href="QuerList.idc?Cd=Eng&amp;Tr=0">Last 20 queries</a>]
+      <br>[Statistics][<a href="Help.htm">Help</a>]</font>
+      <br><a href="mailto:sportlib@umail.ru"><img src="Images/Mail.gif" WIDTH="16" HEIGHT="16" alt="" border="0" align="absbottom"></a> <a href="mailto:sportlib@umail.ru"><font size="2" color="#F00000">sportlib@umail.ru</font></a></p>
+      </td>
+    </tr>
+  </table>
+
+      </td>
+      <td align="left" height="25">&nbsp;</td>
+    </tr>
+
+  </table>
+
+
+<!-- Russian Koi -->
+
+</form>
+
+<p>
+
+</p>
+
+<p>&nbsp;</p>
+</body>
+</html>
